@@ -1,0 +1,84 @@
+Arguments	引数	
+Authentication	認証	
+Configuration	設定	
+DB	データベース	
+Debugger	デバッガ	
+Desktop	デスクップ	
+Editor	エディタ	
+False	偽	
+Method		
+Password	パスワード	
+Run	実行	
+Running	実行中	
+True	真	
+Value	値	
+Variable	変数	
+Website	ウエブサイト	
+Working		
+attribute	属性	
+attributes	属性	
+author	著者	
+bounding box		
+category	カテゴリー	
+classification	分類	
+colorimetry		
+command line	コマンドライン	
+concave hull		
+convex hull		
+credentials	認証情報	
+data	データ	
+database	データベース	
+debugging	デバッグ	
+decrypt	復号	
+directory	ディレクトリ	
+download	ダウンロード	
+email	電子メール	
+examples	例	
+ficheiro		
+format	フォーマット	
+geocode	ジオコード	
+geometry	ジオメトリ	
+geoprocessing	地理情報処理	
+georeferencer		
+geospatial	地理空間	
+homepage	ホームページ	
+icon	アイコン	
+infrastructure	基盤	
+layer	レイヤ	
+layout	レイアウト	
+locator bar	ロケーションバー	
+manager		
+master		
+merge		
+modeless		
+mouse	マウス	
+name	名前	
+nodes	ノード	
+notes	備考	
+on-the-fly		
+override	上書き	
+parameter	パラメータ	引数
+parenthesis		
+plugin	プラグイン	
+primary key		
+provider	プロバイダ	
+providers	プロバイダ	
+raster	ラスタ	
+select		
+selector	セレクタ	
+server	サーバ	
+shape	形状	
+snippet	スニペット	
+spatially-enabled		
+split	分割	
+stiored		
+table	表	
+terminal	端末	
+textbox		
+transformation		
+truncation		
+unicity		
+user interface	ユーザーインターフェース	
+validation		
+vector	ベクタ	
+version	バージョン	
