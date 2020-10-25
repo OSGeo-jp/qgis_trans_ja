@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|MOD| Creating Vector Data</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|MOD| ベクターデータを作成する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Creating maps using existing data is just the beginning. In this module, you'll learn how to modify existing vector data and create new datasets entirely.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>既存のデータを使用して地図を作成することはまだ始まったばかりです。このモジュールでは、既存のベクターデータを変更して、まったく新しいデータセットを作成する方法を学びます。</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

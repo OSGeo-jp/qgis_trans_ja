@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>About the authors &amp; contributors</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>著者とコントリビュータについて</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|tim|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|tim|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Tim Sutton --- Editor &amp; Lead Author. Tim Sutton is a developer and project steering committee member of the QGIS project. He is passionate about seeing GIS being Freely available to everyone. Tim is also a founding member of Linfiniti Consulting CC. --- a small business set up with the goal of helping people to learn and use opensource GIS software. **Web**: https://www.kartoza.com **Email**: tim@kartoza.com</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Tim Sutton--- 編集者＆主著者。 Tim Sutton は開発者であり、QGISプロジェクトのプロジェクト運営委員会のメンバーです。GISが誰でも自由に利用できるようにすることに情熱を注いでいます。Tim はまた、 Linfiniti Consulting CC（人々がオープンソースのGISソフトウェアを学び使用するのを支援することを目標とした中小企業）の創立メンバーです。 **Web**: https://www.kartoza.com **Email**: tim@kartoza.com</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|otto|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|otto|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Otto Dassau --- Assistant Author. Otto Dassau is the documentation maintainer and project steering committee member of the QGIS project. Otto has considerable experience in using and training people to use Free and Open Source GIS software. **Web**: http://www.nature-consult.de **Email**: otto.dassau@gmx.de</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Otto Dassau ---アシスタント著者。Otto Dassauはドキュメントの保守管理者であり、QGISプロジェクトのプロジェクト運営委員会のメンバーです。Ottoは、フリーでオープンソースのGISソフトウェアを使用すること、使用できるよう人々を訓練することにおいて、かなりの経験を積んでいます。**Web**: http://www.nature-consult.de, **Email**: otto.dassau@gmx.de</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|marcelle|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|marcelle|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Marcelle Sutton --- Project Manager. Marcelle Sutton studied English and drama and is a qualified teacher. Marcelle is also a founding member of Linfiniti Consulting CC. --- a small business set up with the goal of helping people to learn and use opensource GIS software. **Web**: https://kartoza.com **Email**: marcelle@kartoza.com</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Marcelle Sutton --- プロジェクト・マネージャ。Marcelle Sutton は英語とドラマを研究し、教員資格を持っています。Marcelleはまた、 Linfiniti Consulting CC（人々がオープンソースのGISソフトウェアを学び使用するのを支援することを目標とした中小企業）の創立メンバーです。 **Web**: https://kartoza.com **Email**: marcelle@kartoza.com</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|lerato|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|lerato|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Lerato Nsibande –-- Video Presenter. Lerato is a grade 12 scholar living in Pretoria. Lerato learns Geography at school and has enjoyed learning GIS with us!</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Lerato Nsibande –--ビデオプレゼンター。 Lerato はプレトリアに住む高校3年生です。Lerato は学校で地理学を学び、私たちと一緒にGISを学ぶことを楽しんでいます！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|sibongile|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|sibongile|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Sibongile Mthombeni –-- Video Presenter. Sibongile lives near Johannesburg with her young daughter. Her goal is to continue her studies and become a nurse. Working on this project was the first time Sibongile used a computer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Sibongile Mthombeni –-- ビデオプレゼンター。 Sibongileは幼い娘と一緒にJohannesburgの近くに住んでいます。目標は研究を続けることと看護婦になることです。このプロジェクトでの成果は Sibongileが初めてコンピュータを使用したことでした。</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|MOD| Completing the Analysis</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|MOD| 分析の完了</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You now have two halves of an analysis: a vector and a raster part. In this module, you'll see how to combine them. You will conclude the analysis and present the final results.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>分析は2部あります：ベクターの部とラスターの部。このモジュールでは、それらを組み合わせる方法を説明します。分析を完了して最終結果を提示します。</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

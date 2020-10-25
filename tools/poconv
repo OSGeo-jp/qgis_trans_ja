@@ -1,0 +1,4 @@
+#!/bin/sh
+for i in *.po; do
+ po2tmx -l ja $i `basename -s .po $i`.tmx
+done
