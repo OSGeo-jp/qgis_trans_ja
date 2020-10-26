@@ -1,0 +1,415 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|LS| Using DB Manager to work with Spatial Databases in QGIS</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|LS| DBマネージャを使用してQGISで空間データベースと連携する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We have already seen how to perform many database operations with QGIS as well as with other tools, but now it's time to look at the DB Manager tool which provides much of this same functionality as well as more management oriented tools.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>すでにQGISや他のツールで多くのデータベース操作を実行する方法を見てきましたが、今度は、この同じ機能の多くに加えてさらに管理指向のツールを提供するDB管理者ツールを検討します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**The goal for this lesson:** To learn how to interact with spatial databases using the QGIS DB Manager.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**このレッスンの目標：** QGISのDBマネージャを使用して、空間データベースと対話する方法を学びます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| |FA| Managing PostGIS Databases with DB Manager</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| |FA|  DBマネージャでPostGISデータベースを管理する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You should first open the DB Manager interface by selecting :guilabel:`Database --&gt; DB Manager --&gt; DB Manager` on the menu or by selecting the DB Manager icon on the toolbar.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>最初にDBマネージャのインターフェイスを開く必要があります。それには :guilabel:`データベース --&gt; DBマネージャ --&gt; DBマネージャ` メニューを選択するか、ツールバー上のDBマネージャアイコンを選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|dbManager|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|dbManager|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The first thing you may notice is that you can now see some metadata about the Schemas contained in your database.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>気づくかもしれない最初の事は、今データベースに含まれるスキーマに関するいくつかのメタデータを見ることができることです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>DB Manager can also be used to manage the tables within your database. We have already looked at various ways to create and manage tables on the command line, but now lets look at how to do this in DB Manager.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>DBマネージャは、データベース内のテーブルを管理するために使用できます。すでに、コマンドライン上でテーブルを作成し管理するためのさまざまな方法を見てきていますが、ここでDBマネージャでこれを行う方法を見てみましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>First, its useful to just look at a table's metadata by clicking on its name in tree and looking in the :guilabel:`Info` tab.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>まず、ツリー内の名前をクリックして :guilabel:`情報` タブの中を見ることで、テーブルのメタデータを見てみることは有用です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In this panel you can see the :guilabel:`General Info` about the table as well the information that the PostGIS extension maintains about the geometry and spatial reference system.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このパネルでは、テーブルについての :guilabel:`一般情報` も、ジオメトリと空間参照系に関してPostGIS拡張が維持している情報を見ることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you scroll down in the :guilabel:`Info` tab, you can see more information about the :guilabel:`Fields`, :guilabel:`Constraints` and :guilabel:`Indexes` for the table you are viewing.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`情報` タブで下にスクロールした場合、表示しているテーブルに対して、 :guilabel:`フィールド` 、 :guilabel:`制約` 、 :guilabel:`索引` についての詳細な情報を見ることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Its also very useful to use DB Manager to simply look at the records in the database in much the same way you might do this by viewing the attribute table of a layer in the Layer Tree. You can browse the data by selecting the :guilabel:`Table` tab.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>単にレイヤーツリーにレイヤーの属性テーブルを表示することによって、これを行う可能性がありますほとんど同じ方法でデータベース内のレコードを見てDBマネージャを使用することも非常に便利。 :guilabel:`テーブル` タブを選択して、データを閲覧できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>There is also a :guilabel:`Preview` tab which will show you the layer data in a map preview.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>地図プレビューでレイヤーのデータが表示される :guilabel:`プレビュー` タブもあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Right-clicking on a layer in the tree and clicking :guilabel:`Add to Canvas` will add this layer to your map.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ツリー中のレイヤーを右クリックし、 :guilabel:`キャンバスに追加` をクリックすると地図にこのレイヤーが追加されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>So far we have only been viewing the database its schemas and tables and their metadata, but what if we wanted to alter the table to add an additional column perhaps? DB Manager allows you to do this directly.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これまでのところはデータベース、そのスキーマとテーブル、それらのメタデータを閲覧しているだけですが、おそらく追加の列を追加するとかテーブルを変更したい場合はどう？DBマネージャでは、直接これを行うことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Select the table you want to edit in the tree</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ツリーで、編集するテーブルを選択します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can use this dialog to Add Columns, Add geometry columns, edit existing columns or to remove a column completely.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>列を追加するには、このダイアログを使用してジオメトリ列を追加し、既存の列を編集したり、列を完全に削除できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Using the :guilabel:`Constraints` tab, you can manage which fields are used as the primary key or to drop existing constraints.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`制約` タブを使用、どのフィールドが主キーとして使用されるか、既存の制約を削除するために管理できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The :guilabel:`Indexes` tab can be used to add and delete both spatial and normal indexes.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`索引` タブは、空間索引と通常の索引の両方を追加および削除するために使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| |FA| Creating a New Table</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| |FA|  新しいテーブルを作成する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now that we have gone through the process of working with existing tables in our database, let's use DB Manager to create a new table.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>データベース内の既存のテーブルでの作業のプロセスを一通り終えましたので、ここでDB マネージャを使用して新しいテーブルを作成してみましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>From the menu select :guilabel:`Table --&gt; Create Table` to bring up the Create Table dialog.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>メニューから :guilabel:`テーブル --&gt; テーブルを作成` を選択し、 [テーブルの作成]ダイアログを開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click the checkbox to :guilabel:`Create spatial index` and click :guilabel:`Create` to create the table.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`空間索引を作成` の横にあるチェックボックスをクリックし、:guilabel:`作成` をクリックしてテーブルを作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Dismiss the dialog letting you know that the table was created and click :guilabel:`Close` to close the Create Table Dialog.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>テーブルが作成されたことを知らせるダイアログを閉じ、 :guilabel:`閉じる` をクリックして「表を作成」ダイアログを閉じます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can now inspect your table in the DB Manager and you will of course find that there is no data in it. From here you can :guilabel:`Toggle Editing` on the layer menu and begin to add places to your table.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これで、DBマネージャで、テーブルを検査できますし、もちろんその中にデータがないことがわかります。ここからレイヤーのメニューで :guilabel:`編集を切替` できます、テーブルに場所の追加を開始します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| |FA| Basic Database Administration</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| |FA| 基本的なデータベース管理</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Database tables can often become quite large and tables which are being modified frequently can end up leaving around remnants of records that are no longer needed by PostgreSQL. The *VACUUM* command takes care of doing a kind of garbage collection to compact and optional analyze your tables for better performance.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>データベーステーブルは、多くの場合、非常に大きくなることがありえますし、頻繁に変更されているテーブルは、もはやPostgreSQLで必要とされてないレコードの残渣を残したままにすることがあります。 *VACUUM* コマンドでは、ガベージコレクションのようなものをして、パフォーマンス向上のためにテーブルを圧縮したりオプションで分析します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| |FA| Executing SQL Queries with DB Manager</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| |FA|  DB マネージャでSQLクエリを実行する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>DB Manager also provides a way for you to write queries against your database tables and to view the results. We have already seen this type of functionality in the :guilabel:`Browser` panel, but lets look at it again here with DB Manager.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>DBマネージャはまた、データベーステーブルに対してクエリを記述し、結果を表示するための方法を提供します。すでに :guilabel:`ブラウザ` パネルの中のこの種の機能を見てきましたが、再びここでDBマネージャでそれを見てみましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Select the :guilabel:`SQL window` button in the DB Manager toolbar.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>[DB マネージャ]ツールバーで :guilabel:`SQLウィンドウ` ボタンを選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Compose the following :guilabel:`SQL query` in the space provided::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次の :guilabel:`SQLクエリ` を与えられたスペースに構成します ::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click the :guilabel:`Execute (F5)` button to run the query.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>クエリを実行するには、 :guilabel:`実行（F5）` ボタンをクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You should now see the records that match in the :guilabel:`Result` panel.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`Result` パネルに一致するレコードが表示されているはずです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click the checkbox for :guilabel:`Load as new layer` to add the results to your map.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`新しいレイヤーとしてロード` のチェックボックスをクリックして地図に結果を追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click :guilabel:`Load now!` to load the results as a new layer into your map.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`今すぐロード！` をクリックして地図に新しいレイヤーとして結果をロードします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The layers that matched your query are now displayed on your map. You can of course use this query tool to execute any arbitrary SQL command including many of the ones we looked at in previous modules and sections.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>クエリと一致したレイヤーは今、地図上に表示されます。もちろんこのクエリツールは、以前のモジュールとセクション中で見たものなど、任意のSQLコマンドを実行するために使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Importing Data into a Database with DB Manager</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>DBマネージャを使用したデータベースへのデータのインポート</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We have already looked at how to import data into a spatial database using command line tools, so now let's learn how to use DB Manager to do imports.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>コマンドラインツールを使用して空間データベースにデータをインポートする方法をすでに見てきました。次に、DBマネージャを使用してインポートを行う方法を学習しましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click the :guilabel:`Import layer/file` button on the toolbar in the DB Manager dialog.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>[DBマネージャ]ダイアログボックスのツールバー上の :guilabel:`レイヤー/ファイルを読み込み` ボタンをクリックしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click the :guilabel:`Update Options` button to pre-fill some of the form values.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>フォームの値の一部を事前に埋めるために、 :guilabel:`オプションを更新` ボタンをクリックしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Make sure that the :guilabel:`Create new table` option is selected</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`新しいテーブルを作成` オプションが選択されていることを確認してください</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Enable the checkbox to :guilabel:`Create Spatial Index`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`空間索引を作成` の横にあるチェックボックスをオンにします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Dismiss the dialog letting you know that the import was successful</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>読み込みが成功したことを知らせるダイアログを閉じます</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Right clicking on the table in the Tree and a selecting :guilabel:`Add to Canvas` will add the table as a layer in your map.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ツリー中のテーブルを右クリックして :guilabel:`キャンバスに追加` を選択すると地図にレイヤーとしてテーブルが追加されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Exporting Data from a Database with DB Manager</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>DBマネージャを使用したデータベースからのデータの書き出し</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Of course DB Manager can also be used to export data from your spatial databases, so lets take a look at how that is done.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>DB マネージャは空間データベースからデータを書き出すためにも当然使用できますので、それがどのように行われるかを見てみましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click :guilabel:`OK` to initialize the export.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`OK` をクリックして書き出しを初期化します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Dismiss the dialog letting you know the export was successful and close the DB Manager.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>書き出しが成功したことを知らせるダイアログを閉じ、DBマネージャを閉じます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can now inspect the shapefile you created with the Browser panel.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ブラウザパネルで作成したシェープファイルを検査できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|IC|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|IC|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|WN|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|WN|</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

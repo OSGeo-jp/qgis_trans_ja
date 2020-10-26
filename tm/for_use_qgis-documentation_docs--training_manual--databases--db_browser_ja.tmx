@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|LS| Working with Databases in the QGIS Browser</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|LS| QGISブラウザにおいてデータベースで作業する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In the previous 2 modules we looked at the basic concepts, features and functions of relational databases as well as extensions that let us store, manage, query and manipulate spatial data in a relational database. This section will dive deeper into how to effectively use spatial databases in QGIS.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>前の2つのモジュールでは、リレーショナルデータベースの基本的な概念、特徴および機能だけでなく、保存、管理、クエリとリレーショナルデータベース内の空間データを操作できる機能拡張について見ました。このセクションでは、効果的にQGISで空間データベースを使用する方法について深掘りします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**The goal for this lesson:** To learn how to interact with spatial databases using the QGIS Browser interface.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**このレッスンの目的：** QGISのブラウザのインターフェイスを使って空間的なデータベースをどのように作用させるのかを学びます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| |FA| Adding Database Tables to QGIS using the Browser</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| |FA| ブラウザを使用してQGISにデータベーステーブルを追加する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We have already briefly looked at how to add tables from a database as QGIS layers, now lets look at this in a bit more detail and look at the different ways this can be done in QGIS. Lets start by looking at the new Browser interface.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>すでにQGISレイヤーとしてデータベースからテーブルを追加する方法を簡単に見てきました。これをもう少し詳細に見て、これがQGISで行うことができるさまざまな方法を見てみましょう。新しいブラウザ・インターフェイスを見ることで開始できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Start a new empty map in QGIS.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISで新しい空の地図を開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Open the Browser by clicking the :guilabel:`Browser` tab at the bottom of the *Layer Panel*</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>*レイヤーパネル* の下部にある :guilabel:`ブラウザ` タブをクリックしてブラウザを開きます</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Open the PostGIS portion of the tree and you should find your previously configured connection available (you may need to click the Refresh button at the top of the browser window).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>木のPostGISの部分を開きます。前に設定した接続が可能なはずです（ブラウザウィンドウの上部にある[更新]ボタンをクリックする必要があるかもしれません）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Double clicking on any of the table/layers listed here will add it to the Map Canvas.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ここに記載されているテーブル/レイヤーのいずれかをダブルクリックすると、それが地図キャンバスに追加されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Right Clicking on a table/layer in this view will give you a few options. Click on the :guilabel:`Properties` item to look at the properties of the layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このビューでテーブル/レイヤーを右クリックすると、いくつかのオプションを提供します。レイヤーのプロパティを見るために :guilabel:`プロパティ` 項目をクリックしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| |FA| Adding a filtered set of records as a Layer</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| |FA| レコードのフィルタセットをレイヤーとして追加する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now that we have seen how to add an entire table as a QGIS layer it might be nice to learn how to add a filtered set of records from a table as a layer by using queries that we learned about in previous sections.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>今、QGISレイヤーとしてテーブル全体を追加する方法を見てきたので、前のセクションで学んだクエリを使用して、レイヤーとしてテーブルからレコードのフィルタセットを追加する方法を学ぶのはいいかもしれません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Start a new empty map with no layers</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>レイヤーなしで新しい空の地図を開始</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click the :guilabel:`Add PostGIS Layers` button or select :menuselection:`Layer --&gt; Add PostGIS Layers` from the menu.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`PostGISレイヤーを追加` ボタンをクリックするか、メニューから :menuselection:`レイヤー --&gt; PostGISレイヤーを追加` を選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In the :guilabel:`Add PostGIS Table(s)` dialog that comes up, connect to the :kbd:`postgis_demo` connection.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>表示される :guilabel:`PostGISのテーブルを追加` ダイアログで、 :kbd:`postgis_demo` 接続に接続します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Expand the :kbd:`public schema` and you should find the three tables we were working with previously.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:kbd:`パブリックスキーマ` を展開し、以前に使用していた3つのテーブルを見つける必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click the :kbd:`lines` layer to select it, but instead of adding it, click the :guilabel:`Set Filter` button to bring up the :guilabel:`Query Builder` dialog.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:kbd:`lines` レイヤーをクリックして選択しますが、それを追加する代わりに、 :guilabel:`フィルタを設定` ボタンをクリックして、 :guilabel:`クエリビルダー` ダイアログを起動してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Construct the following expression using the buttons or by entering it directly::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それを直接入力してボタンを使用するか、次の式を構築する::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click :guilabel:`OK` to complete editing the filter and click :guilabel:`Add` to add the filtered layer to your map.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`OK` をクリックしてフィルタの編集を完了し、 :guilabel:`追加` をクリックして地図にフィルタレイヤーを追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Rename the :kbd:`lines` layer in the tree to :kbd:`roads_primary`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ツリー内で :kbd:`lines` レイヤーの名前を :kbd:`roads_primary` に変更します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You will notice that only the Primary Roads have been added to your map rather than the entire layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>地図にはレイヤー全体ではなく主要道路のみが追加されていることに気づくでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|IC|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|IC|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You have seen how to interact with spatial databases using the QGIS Browser and how to add layers to your map based on a query filter.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISブラウザを使用して空間データベースと対話する方法、およびクエリフィルタに基づいて地図にレイヤーを追加する方法を見てきました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|WN|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|WN|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Next you'll see how to work with the DB Manager interface in QGIS for a more complete set of database management tasks.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次はデータベース管理作業のより完全なセットのためにQGISのDBマネージャインターフェイスで作業する方法について説明します。</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

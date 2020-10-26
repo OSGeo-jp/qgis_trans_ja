@@ -1,0 +1,231 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|LS| Feature Topology</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|LS| 地物のトポロジ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Topology is a useful aspect of vector data layers, because it minimizes errors such as overlap or gaps.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>オーバーラップやギャップなどのエラーを最小限に抑えるため、トポロジはベクターデータレイヤーの有用な側面です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For example: if two features share a border, and you edit the border using topology, then you won't need to edit first one feature, then another, and carefully line up the borders so that they match. Instead, you can edit their shared border and both features will change at the same time.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>たとえば、2つの地物が境界を共有し、トポロジを使用してその境界を編集する場合、はじめの地物を編集し、そしてもう1つの地物を編集して、それらが合うように慎重に境界を描く必要はありません。それらの共有された境界を編集でき、両方の地物は同時に変化します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**The goal for this lesson:** To understand topology using examples.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**このレッスンの目標:** 例を用いてトポロジを理解します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moderate| |FA| Snapping</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moderate| |FA| スナップ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Zoom to this area (enable layers and labels if necessary):</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このエリアにズームします (必要に応じてレイヤーとラベルを有効にします):</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moderate| |FA| Correct Topological Features</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moderate| |FA| トポロジ的地物を修正</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The topologically correct border looks like this:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>トポロジとして正しい境界線はこのようになります:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Don't worry if you have joined more, less or different areas of forest.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>あなたが結合した森林エリアがより多くても、より少なくても、違うエリアであったとしても気にしないで下さい。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moderate| |FA| Tool: Simplify Feature</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moderate| |FA| ツール: 地物の簡素化</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click on it to activate it.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それをクリックしてアクティブにします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click :guilabel:`OK`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`OK` をクリックします</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Before you go on, set the polygon back to its original state by undoing the last change.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次へ進む前に、最後の変更を元に戻すことでポリゴンを元の状態に戻します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moderate| |TY| Tool: Add Ring</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moderate| |TY| ツール: リングの追加</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Check your results &lt;create-vector-topology-1&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`結果をチェックする &lt;create-vector-topology-1&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moderate| |TY| Tool: Add Part</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moderate| |TY| ツール: 部分の追加</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Check your results &lt;create-vector-topology-2&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`結果をチェックする &lt;create-vector-topology-2&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moderate| |FA| Tool: Reshape Features</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moderate| |FA| ツール: 地物の変形</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This will give a result similar to:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは次のような結果をもたらします:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click outside the polygon.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ポリゴンの外側をクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The result of the above:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>以上の結果:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moderate| |TY| Tool: Split Features</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moderate| |TY| ツール: 地物の分割</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|hard| |TY| Tool: Merge Features</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|hard| |TY| ツール: 地物のマージ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Note the differences.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>相違点に注目してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Check your results &lt;create-vector-topology-4&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`結果をチェックする &lt;create-vector-topology-4&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|IC|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|IC|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Topology editing is a powerful tool that allows you to create and modify objects quickly and easily, while ensuring that they remain topologically correct.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>トポロジ編集はトポロジの観点からの正しさを維持しながら迅速かつ容易にオブジェクトの作成や変更ができる強力なツールです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|WN|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|WN|</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>
