@@ -1526,6 +1526,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>A test on Travis will ensure that this file is up to date with its corresponding header.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T114111Z" creationid="miurahr" creationdate="20201117T114111Z">
+        <seg>Travisでのテストにより、このファイルが対応するヘッダとともに最新であることが確認されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>A text box will open: fill in any relevant comments for the issue you are addressing.</seg>
       </tuv>
       <tuv lang="ja">
@@ -1602,6 +1610,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T092044Z" creationid="miurahr" creationdate="20201117T092044Z">
         <seg>アクセス修飾子自体はこのような構造にコードをグループ化します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Accessing the Repository</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T114440Z" creationid="miurahr" creationdate="20201117T114440Z">
+        <seg>リポジトリへのアクセス</seg>
       </tuv>
     </tu>
     <tu>
@@ -1902,6 +1918,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>All class members should be private.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T114017Z" creationid="miurahr" creationdate="20201117T114017Z">
+        <seg>すべてのクラスメンバはプライベートにしましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>All dialogs should implement tooltip help for all toolbar icons and other relevant widgets.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T091650Z" creationid="miurahr" creationdate="20201117T091650Z">
@@ -2046,6 +2070,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Appendices</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T110430Z" creationid="miurahr" creationdate="20201117T110430Z">
+        <seg>付録</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Appendix C: QGIS File Formats</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T110445Z" creationid="miurahr" creationdate="20201117T110445Z">
+        <seg>付録C: QGISファイルフォーマット</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Appendix: Contributing To This Manual</seg>
       </tuv>
       <tuv lang="ja">
@@ -2106,6 +2146,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>astyle字下げのより新しいバージョンは、ソースコード全体を字下げし直す時に使用するバージョンとは異なっているので、スクリプトでは古いastyleバージョンを使用しており、これをリポジトリに含めています（これを含めるにはビルドの際にcmakeで ``WITH_ASTYLE`` を有効にします）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>As soon as a SIP file is added to one of the source file (:file:`python/core/core.sip`, :file:`python/gui/gui.sip` or :file:`python/analysis/analysis.sip`), it will be considered as generated automatically.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T114103Z" creationid="miurahr" creationdate="20201117T114103Z">
+        <seg>SIPファイルがソースファイル(:file:`python/core/core.sip`,:file:`python/gui/gui.sip`,:file:`python/analysis/analysis.sip`)のいずれかに追加されると、自動的に生成されたものとみなされます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2578,6 +2626,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>:guilabel:`フレーム` オプションが黒色で、  :guilabel:`厚さ` が :kbd:`0.30` であることもチェックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Check out a branch</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T114507Z" creationid="miurahr" creationdate="20201117T114507Z">
+        <seg>分岐をチェックアウト</seg>
       </tuv>
     </tu>
     <tu>
@@ -3470,6 +3526,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Debian based distro users can do:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T114150Z" creationid="miurahr" creationdate="20201117T114150Z">
+        <seg>Debianベースのdistroユーザは次のことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Defining unique value symbology for roads based on the road type.</seg>
       </tuv>
       <tuv lang="ja">
@@ -3690,6 +3754,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>ここに記載されているテーブル/レイヤーのいずれかをダブルクリックすると、それが地図キャンバスに追加されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Download the source from https://git-scm.com/.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T114358Z" creationid="miurahr" creationdate="20201117T114358Z">
+        <seg>https://git-scm.com/からソースをダウンロードします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4870,10 +4942,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If you don't need any of the extras, Perl, Python or TclTk (GUI), you can disable them before running make with:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T114432Z" creationid="miurahr" creationdate="20201117T114432Z">
+        <seg>拡張のPerl、Python、TclTk(GUI)が不要な場合は、makeを実行する前に次のコマンドで無効化できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If you have Invariant Sections without Cover Texts, or some other combination of the three, merge those two alternatives to suit the situation.</seg>
       </tuv>
       <tuv lang="ja">
         <seg>あなたがカバーテキストのない不変のセクション、または3の他のいくつかの組み合わせを持っている場合は、状況に合わせて、これらの二つの選択肢を混ぜ合わせます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If you need a PPC build, or you just want a little more control over the installation, you need to compile it yourself.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T114348Z" creationid="miurahr" creationdate="20201117T114348Z">
+        <seg>PPCビルドが必要な場合や、インストールをもう少し制御したい場合は、自分でコンパイルする必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5470,10 +5558,42 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Install git for GNU/Linux</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T114144Z" creationid="miurahr" creationdate="20201117T114144Z">
+        <seg>GNU/Linux用のgitをインストール</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Install git for OSX</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T114215Z" creationid="miurahr" creationdate="20201117T114215Z">
+        <seg>OS X用のgitをインストール</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Install git for Windows</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T114200Z" creationid="miurahr" creationdate="20201117T114200Z">
+        <seg>git for Windowsをインストール</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Install the **Plugin Builder** plugin</seg>
       </tuv>
       <tuv lang="ja">
         <seg>**Plugin Builder** プラグインをインストールする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Installation</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T114136Z" creationid="miurahr" creationdate="20201117T114136Z">
+        <seg>インストール</seg>
       </tuv>
     </tu>
     <tu>
@@ -5910,6 +6030,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Make sure to get the package matching your processor (x86_64 most likely, only the first Intel Macs need the i386 package).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T114312Z" creationid="miurahr" creationdate="20201117T114312Z">
+        <seg>お使いのプロセッサに合ったパッケージを入手してください(x86_64の場合、最初のIntel Macだけがi386パッケージを必要とします)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Make your modifications following the :ref:`writing guidelines &lt;QGIS-documentation-guidelines&gt;`</seg>
       </tuv>
       <tuv lang="ja">
@@ -6186,6 +6314,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>新しいセンチネル衛星の詳細については、ESAのウェブサイト上で見つけることができます：http://www.esa.int/Our_Activities/Observing_the_Earth/Copernicus/Overview4</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>More information is available on the QGIS homepage, https://www.qgis.org.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T110413Z" creationid="miurahr" creationdate="20201117T110413Z">
+        <seg>詳細については、QGISホームページ(https://www.qgis.org)を参照してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6630,6 +6766,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Once downloaded open the disk image and run the installer.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T114322Z" creationid="miurahr" creationdate="20201117T114322Z">
+        <seg>ダウンロードしたら、ディスクイメージを開き、インストーラを実行します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Once you have planned what features you want to capture into the GIS, and the geometry type and attributes that each feature should have, you can move on to the next step of creating an empty shapefile.</seg>
       </tuv>
       <tuv lang="ja">
@@ -6874,6 +7018,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>概要</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>PPC/source note</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T114333Z" creationid="miurahr" creationdate="20201117T114333Z">
+        <seg>PPC/ソースメモ</seg>
       </tuv>
     </tu>
     <tu>
@@ -7134,6 +7286,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Protected members should be avoided when the member may need to be accessed from Python subclasses, since protected members cannot be used from the Python bindings.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T114009Z" creationid="miurahr" creationdate="20201117T114009Z">
+        <seg>保護メンバーは Python バインディングから使用できないため、メンバーが Python のサブクラスからアクセスする必要がある場合は、保護メンバを使用しないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Public class members are STRONGLY discouraged.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T114014Z" creationid="miurahr" creationdate="20201117T114014Z">
+        <seg>公開クラスメンバは極力避けるようにしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Put commands on separate lines</seg>
       </tuv>
       <tuv lang="ja">
@@ -7254,6 +7422,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>QGIS is subject to the GNU General Public License.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T110305Z" creationid="miurahr" creationdate="20201117T110305Z">
+        <seg>QGISはGNU General Public Licenseの対象です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>QGIS is the leading software and stands in current versions (because of the “experimental” character of LEAG we are using the latest unstable releases instead of LTS versions) for several reasons:</seg>
       </tuv>
       <tuv lang="ja">
@@ -7286,10 +7462,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>QGIS uses Doxygen for documentation.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T114027Z" creationid="miurahr" creationdate="20201117T114027Z">
+        <seg>QGISはドキュメントにDoxygenを使用しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>QGIS while modeling 3D objects (interpolation), terrain analysis</seg>
       </tuv>
       <tuv lang="ja">
         <seg>QGISは、3Dオブジェクト（補間）をモデル化しながら、地形分析</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>QGS/QGZ - The QGIS Project File Format</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T113958Z" creationid="miurahr" creationdate="20201117T113958Z">
+        <seg>QGS/QGZ-QGISプロジェクトファイルフォーマット</seg>
       </tuv>
     </tu>
     <tu>
@@ -8622,6 +8814,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The `git project &lt;https://git-scm.com/&gt;`_ has a downloadable build of git.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T114301Z" creationid="miurahr" creationdate="20201117T114227Z">
+        <seg>`git project&lt;https://git-scm.com/&gt;`_に、ダウンロード可能なgitビルドがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The attached screenshot above –-- made using the plugin Qgis2threejs --- shows an area just south of the Darulaman Palace in Kabul, with active minefields (along the ridgelines on the left) shown in red over a Soviet topographic raster layer combined with SRTM data.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T062542Z" creationid="miurahr" creationdate="20201117T062542Z">
@@ -8786,6 +8986,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>このファイルにはベクター地物のジオメトリが保存されます</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The git site does not offer PPC builds.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T114339Z" creationid="miurahr" creationdate="20201117T114339Z">
+        <seg>gitサイトはPPCビルドを提供していません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9174,6 +9382,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This is the user guide for the geographical information system (GIS) software QGIS.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T110248Z" creationid="miurahr" creationdate="20201117T110248Z">
+        <seg>これは地理情報システム(GIS)ソフトウェアQGISのユーザガイドです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This makes it much easier for newcomers to identify where the code is relating to specific class.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T091702Z" creationid="miurahr" creationdate="20201117T091702Z">
@@ -9374,10 +9590,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>To automatically generate the SIP file of a newly added C++ file :file:`scripts/sip_include.sh` needs to be executed.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T114040Z" creationid="miurahr" creationdate="20201117T114040Z">
+        <seg>新しく追加されたC++ファイルのSIPファイルを自動生成するには、file:`scripts/sip_include.sh`を実行する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>To begin writing the lesson, write the markup phrase :kbd:`|LS|`, followed by the lesson name.</seg>
       </tuv>
       <tuv lang="ja">
         <seg>レッスンの書き込みを開始するには、マークアップの語句 :kbd:`|LS|` を書き、その後ろにレッスン名を書きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>To clone QGIS master:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T114452Z" creationid="miurahr" creationdate="20201117T114452Z">
+        <seg>QGISマスターを複製するには:</seg>
       </tuv>
     </tu>
     <tu>
@@ -9442,6 +9674,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>それを終了するには、この行を書き込むことによって、「自分でやってみよう」セクションに戻るリンクを含めます：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>To force recreation of SIP files, :file:`scripts/sipify_all.sh` shall be executed.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T114120Z" creationid="miurahr" creationdate="20201117T114120Z">
+        <seg>SIPファイルを強制的に再作成するには、:file:`scripts/sipify_all.sh`を実行する必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9738,6 +9978,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T090014Z" creationid="miurahr" creationdate="20201117T090014Z">
         <seg>オブジェクトの引数は小さくてコピーが簡単なもの (QPoint オブジェクトなど) でない限り、 const 参照で渡しましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Unzip it, and in a Terminal cd to the source folder, then:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T114406Z" creationid="miurahr" creationdate="20201117T114406Z">
+        <seg>解凍し、ターミナルCDでソースフォルダに移動して、次の操作を行います。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10386,6 +10634,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>Windows</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Windows users can obtain `msys git &lt;https://gitforwindows.org/&gt;`_ or use git distributed with `cygwin &lt;https://cygwin.com&gt;`_.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T114210Z" creationid="miurahr" creationdate="20201117T114210Z">
+        <seg>Windowsユーザは、`msys git&lt;https://gitforwindows.org/&gt;`_を入手するか、`cygwin&lt;https://cygwin.com&gt;`_で配布されているgitを使用できます。</seg>
       </tuv>
     </tu>
     <tu>
