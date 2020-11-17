@@ -38,6 +38,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>(Photo taken by SGT Jim Greenhill 2006).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141213Z" creationid="miurahr" creationdate="20201117T141213Z">
+        <seg>( SGT Jim Greenhill 2006によって撮影された写真)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>(This example also shows the best practice convention of using UPPER CASE for all SQL keywords.)</seg>
       </tuv>
       <tuv lang="ja">
@@ -90,6 +98,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>**バッファゾーン** は、現実世界の地物の周りの領域を示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>**Buffering** usually creates two areas: one area that is **within** a specified distance to selected real world features and the other area that is **beyond**.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141142Z" creationid="miurahr" creationdate="20201117T141142Z">
+        <seg>**バッファリング** は通常２つのエリアを作成します:１つは、選択した現実世界の地物から指定距離 **内** のエリア、もう１つは **外** のエリアです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -254,6 +270,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>**Overshoots** can occur when a line feature such as a road does not meet another road exactly at an intersection.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141118Z" creationid="miurahr" creationdate="20201117T141118Z">
+        <seg>**オーバーシュート** は道路データのようなライン地物が、本来ぴったり接合すべき対象の道路地物に対して、交差しはみ出している状態を指します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>**Permission denied (publickey) error?**</seg>
       </tuv>
       <tuv lang="ja">
@@ -290,6 +314,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>**縮尺** は、現実の世界では、実際の距離と、地図上の距離の比率を表しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>**Spatial overlay** is a process that allows you to identify the relationships between two polygon features that share all or part of the same area.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141235Z" creationid="miurahr" creationdate="20201117T141235Z">
+        <seg>**空間オーバーレイ** は、同じ領域の全部または一部を共有する2つのポリゴン地物間の関係を特定することを可能にする処理です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -454,6 +486,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>**Undershoots** can occur when a line feature (e.g. a river) does not exactly meet another feature to which it should be connected.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141119Z" creationid="miurahr" creationdate="20201117T141119Z">
+        <seg>**アンダーシュート** はライン地物(例.河川データ)が、接合すべき対象の地物に対して、接合できていない状態を指します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>**Union**: the output layer contains all areas of the two input layers combined.</seg>
       </tuv>
       <tuv lang="ja">
@@ -490,6 +530,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>GISアプリケーションで使用される地理情報データには **ベクターデータ** と **ラスターデータ** があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>**Vector** data provide a way to represent real world **features** within the GIS environment.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140711Z" creationid="miurahr" creationdate="20201117T140711Z">
+        <seg>**ベクタ** は、 GIS 環境で現実世界の **地物** を表現する1つの手法です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1422,6 +1470,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>A **buffer zone** is any area that serves the purpose of keeping real world features distant from one another.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141145Z" creationid="miurahr" creationdate="20201117T141145Z">
+        <seg>**バッファゾーン** とは、現実世界の地物を互いから離しておくという目的に資する何らかの領域です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>A **legend** explains all the symbols on a map.</seg>
       </tuv>
       <tuv lang="ja">
@@ -1470,6 +1526,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>A GIS is a great tool for answering these types of questions with the help of vector data.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141058Z" creationid="miurahr" creationdate="20201117T141058Z">
+        <seg>GISは、ベクターデータの助けを借りてこれらの種類の質問に答えるための素晴らしいツールです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>A Gentle Introduction to GIS</seg>
       </tuv>
       <tuv lang="ja">
@@ -1506,6 +1570,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>よりよい解決策は、テーブルの主キーを使用して変更するレコードを参照することです::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>A buffer distance always has to be defined as a whole number (integer) or a decimal number (floating point value).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141233Z" creationid="miurahr" creationdate="20201117T141233Z">
+        <seg>バッファ距離は常に整数（整数）または小数（浮動小数点値）として定義されなければなりません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1654,10 +1726,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>A feature can also have more than one buffer zone.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141224Z" creationid="miurahr" creationdate="20201117T141224Z">
+        <seg>地物は複数のバッファゾーンを持つことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>A feature can have **multiple** buffer zones.</seg>
       </tuv>
       <tuv lang="ja">
         <seg>地物は **複数の** バッファゾーンを持ちえます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>A feature is anything you can see on the landscape.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140712Z" creationid="miurahr" creationdate="20201117T140712Z">
+        <seg>地物は景観に目にすることができるものあらゆるものです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1738,6 +1826,46 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135715Z" creationid="miurahr" creationdate="20201117T135715Z">
         <seg>方位（時にはバラコンパスと呼ばれる）は主要な方向、 **北** 、 **南** 、 **東** 、 **西** を表示する図です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>A nuclear power plant may be buffered with distances of 10, 15, 25 and 30 km, thus forming multiple rings around the plant as part of an evacuation plan (see figure_multiple_buffers_).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141225Z" creationid="miurahr" creationdate="20201117T141225Z">
+        <seg>原子力発電所には10、15、25、30キロの距離のバッファを持つことができ、したがって避難計画の一環として工場の周囲に複数の環を形成します（ figure_multiple_buffers_ 参照）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>A point feature is described by its X, Y and optionally Z coordinate.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140724Z" creationid="miurahr" creationdate="20201117T140724Z">
+        <seg>ポイント地物は、X, Yおよび必要に応じてZ座標で表現されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>A polygon, like a polyline, is a sequence of vertices.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140728Z" creationid="miurahr" creationdate="20201117T140728Z">
+        <seg>ポリゴンはポリラインのように、一連の頂点です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>A polyline is a sequence of joined vertices.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140726Z" creationid="miurahr" creationdate="20201117T140726Z">
+        <seg>ポリラインは一連の結合された頂点です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>A polyline is used to show the geometry of **linear features** such as roads, rivers, contours, footpaths, flight paths and so on.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140817Z" creationid="miurahr" creationdate="20201117T140817Z">
+        <seg>ポリラインは、道路、河川、等高線、歩道、飛行経路などの **線形の地物** のジオメトリを示すために使用されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1838,10 +1966,34 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>A truck factory plans to expand.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141242Z" creationid="miurahr" creationdate="20201117T141242Z">
+        <seg>トラック工場が拡張を計画しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>A vector feature can have a **geometry** type of **point**, **line** or a **polygon**.</seg>
       </tuv>
       <tuv lang="ja">
         <seg>ベクターの地物は **ポイント** 、 **ライン** または **ポリゴン** の **ジオメトリ** タイプを持つことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>A vector feature has its shape represented using **geometry**.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140717Z" creationid="miurahr" creationdate="20201117T140717Z">
+        <seg>ベクタ形式の地物は、 **ジオメトリ** を用いて形状を表します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>A vertex describes a position in space using an **X**, **Y** and optionally **Z** axis.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140719Z" creationid="miurahr" creationdate="20201117T140719Z">
+        <seg>頂点は空間における位置を **X** , **Y** そして必要に応じて **Z** 軸を用いて表します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2663,10 +2815,34 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>As we show in illustration figure_geometry_point_, a point feature has an X, Y and optionally, Z value.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140800Z" creationid="miurahr" creationdate="20201117T140800Z">
+        <seg>図 figure_geometry_point_ に示したように、ポイント地物はX値、Y値、そして場合によってはZ値を持ちます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>As well as choosing a name for each field, you need to indicate how the information should be stored in that field –-- i.e. is it a number, a word or a sentence, or a date?</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123645Z" creationid="miurahr" creationdate="20201117T123645Z">
         <seg>各フィールドの名前を選択するのと同様に、情報がそのフィールドにどう格納されるかを示す必要があります---つまりそれは数か、単語や文章か、または日付か？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>As well as creating your own data, there is a lot of free vector data that you can obtain and use.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141003Z" creationid="miurahr" creationdate="20201117T141003Z">
+        <seg>自らデータを作成するだけでなく、たくさんの入手および利用可能なフリーのベクターデータがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>As with points and polylines, polygons have **attributes**.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140832Z" creationid="miurahr" creationdate="20201117T140832Z">
+        <seg>ポイントとポリラインと同様に、ポリゴンは **属性** を持っています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2727,6 +2903,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>At a large scale they are visible as thin strips between two polygons (2 on right).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141117Z" creationid="miurahr" creationdate="20201117T141117Z">
+        <seg>しかし大縮尺(ex.右図 2 )にするとそれらが二つのポリゴンの間の細い領域として顕在化します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>At a small scale (e.g. 1 on left) you may not be able to see these errors.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141116Z" creationid="miurahr" creationdate="20201117T141116Z">
+        <seg>小縮尺(ex.左図 1 )ではこれらのエラーを見つけられないかもしれません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>At regular intervals you would stop and take various measurements such as Dissolved Oxygen (DO) levels, Coliform Bacteria (CB) counts, Turbidity levels and pH.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123621Z" creationid="miurahr" creationdate="20201117T123621Z">
@@ -2739,6 +2931,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>ページの一番下に、このプルリクエストについて全体的なコメントを残すことのできるテキストボックスがあると思います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>At the simplest level we can use vector data in a GIS Application in much the same way you would use a normal topographic map.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141045Z" creationid="miurahr" creationdate="20201117T141045Z">
+        <seg>最も単純なレベルで通常の地形図を使用するのとほぼ同じ方法で、GISアプリケーションでのベクターデータを使用できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2795,6 +2995,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>属性は **整数** （整数）、 **浮動小数点数** （小数）、 **テキスト** （文字）または **日付** でありえます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Attributes describe the polyline.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140727Z" creationid="miurahr" creationdate="20201117T140727Z">
+        <seg>属性はポリラインを説明します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2859,6 +3067,30 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140328Z" creationid="miurahr" creationdate="20201117T140328Z">
         <seg>光のマルチバンドを含む画像があるとGISで非常に役立つので、ラスターデータはしばしばマルチバンド画像として提供されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Because of dramatic traffic increase, the town planners want to widen the main road and add a second lane.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141239Z" creationid="miurahr" creationdate="20201117T141239Z">
+        <seg>交通量が劇的に増加したため、都市計画担当者は主要道路を拡幅して2車線目を追加したいと思っています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Because of these types of errors, it is very important to digitise data carefully and accurately.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141123Z" creationid="miurahr" creationdate="20201117T141123Z">
+        <seg>このようなタイプのエラーがあるため、デジタイズを注意深く正確に行うことはとても重要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Because of this it is important that polylines are digitised (captured into the computer) with distances between vertices that are small enough for the scale at which you want to use the data.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140822Z" creationid="miurahr" creationdate="20201117T140822Z">
+        <seg>このためポリラインでは、データを使用したい縮尺に対して頂点間の距離が十分に小さくデジタル化されている（コンピュータに取り込まれている）ことが重要です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3047,6 +3279,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Buffer zone (green) around a roads map (brown).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141247Z" creationid="miurahr" creationdate="20201117T141247Z">
+        <seg>道路地図（茶）周辺のバッファゾーン（緑）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Buffer zones are always **vector polygons**.</seg>
       </tuv>
       <tuv lang="ja">
@@ -3055,10 +3295,34 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Buffer zones are often set up to protect the environment, protect residential and commercial zones from industrial accidents or natural disasters, or to prevent violence.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141146Z" creationid="miurahr" creationdate="20201117T141146Z">
+        <seg>バッファゾーンは、多くの場合、環境を保護する、産業事故や自然災害から住宅や商業ゾーンを保護する、または暴力を防ぐために設定されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Buffer zones around polygon features are usually extended outward from a polygon boundary but it is also possible to create a buffer zone inward from a polygon boundary.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141228Z" creationid="miurahr" creationdate="20201117T141228Z">
+        <seg>ポリゴン地物の周囲のバッファゾーンは、通常、ポリゴンの境界から外側に広がりますが、ポリゴンの境界から内側にバッファゾーンを作成することも可能です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Buffer zones can be created with **intact** or **dissolved** boundaries.</seg>
       </tuv>
       <tuv lang="ja">
         <seg>**そのまま** または **ディゾルブ** された境界で作成されたバッファゾーン </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Buffer zones often have dissolved boundaries so that there are no overlapping areas between the buffer zones.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141226Z" creationid="miurahr" creationdate="20201117T141226Z">
+        <seg>バッファゾーンの間に重複領域が存在しないよう、バッファゾーンは多くの場合に境界をディゾルブします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3115,6 +3379,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>そのまままたはディゾルブされた境界でのバッファリング</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Buffers around polyline features, such as rivers or roads, do not have to be on both sides of the lines.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141221Z" creationid="miurahr" creationdate="20201117T141221Z">
+        <seg>こうしたポリライン地物、河川や道路など、の周りのバッファは、ラインの両側にある必要はありません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3871,6 +4143,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Common types of buffer zones may be greenbelts between residential and commercial areas, border zones between countries (see figure_buffer_zone_), noise protection zones around airports, or pollution protection zones along rivers.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141147Z" creationid="miurahr" creationdate="20201117T141147Z">
+        <seg>バッファゾーンの一般的なタイプは、住宅地と商業地間の緑地帯、国間の国境地帯、空港周りの騒音防止ゾーン、川沿いの汚染保護ゾーンであったりします（ figure_buffer_zone_ 参照）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Comparing changes between ``qgis/QGIS-Documentation`` and your repository</seg>
       </tuv>
       <tuv lang="ja">
@@ -4039,6 +4319,38 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Create a 1 km buffer around your school and then go and see if there would be any bottle stores too close to your school.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141246Z" creationid="miurahr" creationdate="20201117T141246Z">
+        <seg>学校の周りに1キロのバッファを作成し、それから学校に近すぎる酒屋がないか見に行ってください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Create a buffer along a main road so that you can see where potential sites are.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141244Z" creationid="miurahr" creationdate="20201117T141244Z">
+        <seg>敷地候補がどこにあるかわかるように、主要道路に沿ってバッファを作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Create a buffer around a building and colour it so that event planners can see where the buffer area is.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141241Z" creationid="miurahr" creationdate="20201117T141241Z">
+        <seg>建物の周りにバッファを作成し、バッファ領域がどこにあるかイベントプランナーにわかるように色付けします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Create a buffer around the road to find properties that fall within the buffer zone (see figure_buffer_road_).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141239Z" creationid="miurahr" creationdate="20201117T141239Z">
+        <seg>バッファゾーンに入る資産を見つけるために道路の周りにバッファを作成します( figure_buffer_road_ を参照)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Create a field named :kbd:`Zone` and type :kbd:`Whole number (integer)`.</seg>
       </tuv>
       <tuv lang="ja">
@@ -4095,6 +4407,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Create a table of different features in and around your school and then task your learners to decide whether they would be best represented in the GIS as a point, line or polygon.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141128Z" creationid="miurahr" creationdate="20201117T141128Z">
+        <seg>学校の中および周りのさまざまな地物のテーブルを作成し、その後、それらはGISではポイント、ライン、ポリゴンのどれで表現するのが最善かを決定する課題を生徒たちに与えます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Create another field named :kbd:`Remarks`, of type :kbd:`Text (string)` and a width of :kbd:`255`.</seg>
       </tuv>
       <tuv lang="ja">
@@ -4131,6 +4451,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>空のシェープファイルを作成する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Creating and editing vector data is an important function of a GIS since it is one of the main ways in which you can create personal data for things you are interested in.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140958Z" creationid="miurahr" creationdate="20201117T140958Z">
+        <seg>ベクターデータの作成と編集は、興味のあるものに対して個人的なデータを作成できる主要な方法の一つであるため、GISの重要な機能です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4639,6 +4967,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Each one of these things would be a **feature** when we represent them in a GIS Application.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140715Z" creationid="miurahr" creationdate="20201117T140715Z">
+        <seg>これらのもののそれぞれが、 GIS アプリケーションで表示する時の **地物** です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Each pixel represents a geographical region, and the value in that pixel represents some characteristic of that region.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140006Z" creationid="miurahr" creationdate="20201117T140006Z">
@@ -4683,6 +5019,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T133745Z" creationid="miurahr" creationdate="20201117T133745Z">
         <seg>ライセンスの各バージョンは、バージョン番号によって区別を与えています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Each vertex has an X, Y (and optionally Z) coordinate.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140727Z" creationid="miurahr" creationdate="20201117T140727Z">
+        <seg>それぞれの頂点は X, Y (そして必要に応じて Z) 座標を持ちます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5103,6 +5447,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Figure figure_vector_shoots_ demonstrates what undershoots and overshoots look like.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141120Z" creationid="miurahr" creationdate="20201117T141120Z">
+        <seg>図 figure_vector_overshoots_ はアンダーシュートとオーバーシュートがどのようなものかを示しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Figure out if they understand what the map wants to tell.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135918Z" creationid="miurahr" creationdate="20201117T135918Z">
@@ -5155,6 +5507,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>最後に :guilabel:`すべてのレコードを保管...` を選択し、どの林分が情報を取得していないか、後で内容を確認できるようにします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Finally you could take readings of pH levels along the course of the river and digitise the places where you made these readings (as a point layer).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141002Z" creationid="miurahr" creationdate="20201117T141002Z">
+        <seg>最後に、川の流路に沿ってpHレベルを読み取り、これらを読み取った場所を（ポイントレイヤーとして）デジタル化できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5279,6 +5639,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>For controlling protesting groups, the police want to establish a neutral zone to keep protesters at least 100 meters from a building.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141240Z" creationid="miurahr" creationdate="20201117T141240Z">
+        <seg>抗議グループを制御するために、警察は抗議者を建物から少なくとも100メートル離しておくために中立ゾーンを設置したいと思っています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>For each sample take measurements such as pH, dissolved oxygen etc.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124033Z" creationid="miurahr" creationdate="20201117T124033Z">
@@ -5295,10 +5663,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>For example **slivers** can occur when the edges of two polygon areas don't meet properly (see figure_vector_slivers_).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141114Z" creationid="miurahr" creationdate="20201117T141114Z">
+        <seg>例えば **スライバ** は2つのポリゴンの境界が正常に接合していない場合に生じます( figure_vector_slivers_ 参照)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>For example SPOT5 satellites can take images where each pixel is 10 m x 10 m.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140222Z" creationid="miurahr" creationdate="20201117T140222Z">
         <seg>例えば、SPOT5衛星は、各ピクセルが10m×10mの画像を撮影できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For example a dam may have attributes for depth and water quality.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140834Z" creationid="miurahr" creationdate="20201117T140834Z">
+        <seg>例えば、ダムは深さと水質の属性を持っている可能性があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5311,10 +5695,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>For example a road polyline may have attributes that describe whether it is surfaced with gravel or tar, how many lanes it has, whether it is a one way street, and so on.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140825Z" creationid="miurahr" creationdate="20201117T140825Z">
+        <seg>例えば道路ポリラインはその表面が砂利やタールで舗装されているか、車線はいくつあるか、一方通行かどうかなどを説明する属性を持っているかもしれません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>For example an insurance company may take police crime incident reports and create a country wide raster map showing how high the incidence of crime is likely to be in each area.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140110Z" creationid="miurahr" creationdate="20201117T140110Z">
         <seg>たとえば、保険会社では警察の犯罪事件の報告を受け取り、各地域で犯罪の発生率がどれほど高いかを示す全国規模のラスター地図を作成できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For example contour lines may touch (e.g. at a cliff face) but should never cross over each other.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140819Z" creationid="miurahr" creationdate="20201117T140819Z">
+        <seg>例えば、等高線は互いに接する（例えば崖面で）ことはできますが交わることはありません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5343,10 +5743,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>For example it won't allow you to edit a line in such a way that it has only one vertex –-- remember in our discussion of lines above that all lines must have at least two vertices.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140955Z" creationid="miurahr" creationdate="20201117T140955Z">
+        <seg>例えば、1つの頂点しかない線を引くことはできません –-- これは、線は必ず2つ以上の頂点を有する必要があるからです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>For example the grasslands shown have many variations in colour and density of cover.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140011Z" creationid="miurahr" creationdate="20201117T140011Z">
         <seg>例えば、示されている草原は、色や被覆密度が様々に変化しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For example using the vector data in illustration figure_vector_small_scale_ to plan a wetland conservation area could result in important parts of the wetland being left out of the reserve!</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141018Z" creationid="miurahr" creationdate="20201117T141018Z">
+        <seg>例えば湿地保全エリアを計画するためにイラスト figure_vector_small_scale_ 中のベクターデータを使用すると、湿地の重要な部分が可能性が保全区外に残されることになります！</seg>
       </tuv>
     </tu>
     <tu>
@@ -5423,6 +5839,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>For example, not all GIS Applications allow you to buffer on either the left side or the right side of a line feature, to dissolve the boundaries of buffer zones or to buffer inward from a polygon boundary.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141232Z" creationid="miurahr" creationdate="20201117T141232Z">
+        <seg>たとえば、ライン地物の左右両側へバッファリングすること、バッファゾーンの境界をディゾルブすること、ポリゴンの境界から内側へバッファを作成することは、すべてのGISアプリケーションでできるわけではありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>For example, rasters can be used to model water flow over the land surface.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140344Z" creationid="miurahr" creationdate="20201117T140344Z">
@@ -5447,6 +5871,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>For example, the width of a buffer zone along the banks of a river can vary depending on the intensity of the adjacent land use.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141219Z" creationid="miurahr" creationdate="20201117T141219Z">
+        <seg>例えば、川の土手に沿ったバッファゾーンの幅は、隣接する土地利用の強さに応じて変化させることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For example, you can obtain vector data that appears on the 1:50 000 map sheets from the Chief Directorate: Surveys and Mapping.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141004Z" creationid="miurahr" creationdate="20201117T141004Z">
+        <seg>たとえば、地図測量局（国土地理院）からは 1:50 000 の地図シートで表示されるベクターデータを入手できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>For example: the school boundary, the position of fire assembly points, the layout of each class room, and so on.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124025Z" creationid="miurahr" creationdate="20201117T124025Z">
@@ -5459,6 +5899,22 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T091934Z" creationid="miurahr" creationdate="20201117T091934Z">
         <seg>例えば次のようにします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For intensive cultivation the buffer distance may be bigger than for organic farming (see Figure figure_variable_buffer_ and Table table_buffer_attributes_).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141220Z" creationid="miurahr" creationdate="20201117T141220Z">
+        <seg>集中栽培用のバッファ距離は有機農業用よりも大きくするとか（図 figure_variable_buffer_ 及び表 table_buffer_attributes_ を参照）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For now let's simply say that a CRS is a way to accurately describe where a particular place is on the earth's surface.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140803Z" creationid="miurahr" creationdate="20201117T140803Z">
+        <seg>今のところは、 CRS とは特定の場所が地球の表面上にある場所を正確に記述するための方法である、とだけしておきましょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5727,6 +6183,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Generally we refer to the process of answering these types of questions as **spatial analysis**.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141104Z" creationid="miurahr" creationdate="20201117T141104Z">
+        <seg>一般的には 、これらの種類の質問に答えるプロセスを **空間分析** と言います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Generated Classes</seg>
       </tuv>
       <tuv lang="ja">
@@ -5739,6 +6203,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>SIP ファイルを生成する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Geometries which have vertices with a ``Z`` axis are often referred to as **2.5D** since they describe height or depth at each vertex, but not both.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140720Z" creationid="miurahr" creationdate="20201117T140720Z">
+        <seg>``Z`` 軸がある頂点を持ったジオメトリは、それぞれの頂点の高さあるいは深さ（両方ではない）を表すため、しばしば **2.5D** と呼ばれます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6135,6 +6607,30 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>However as you zoom in to the map, moving towards a larger scale, it makes more sense to show the city limits as a polygon.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140758Z" creationid="miurahr" creationdate="20201117T140758Z">
+        <seg>しかし、地図を大縮尺へと拡大させるにつれて、ポリゴンで都市の境界を表示する方がふさわしくなります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>However because a polygon always describes an enclosed area, the first and last vertices should always be at the same place!</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140829Z" creationid="miurahr" creationdate="20201117T140829Z">
+        <seg>しかし、ポリゴンは常に閉じた領域を記述しているので、最初と最後の頂点は常に同じ場所でなければなりません！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>However in a polygon, the first and last vertices are always at the same position.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140729Z" creationid="miurahr" creationdate="20201117T140729Z">
+        <seg>ただしポリゴンにおいては、最初と最後の頂点は常に同じ位置です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>However this software is usually very expensive or otherwise limits your freedom to copy, share and modify the software.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135945Z" creationid="miurahr" creationdate="20201117T135945Z">
@@ -6163,6 +6659,22 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124631Z" creationid="miurahr" creationdate="20201117T124631Z">
         <seg>ただし、コピーと引き換えに報酬を受け取ることはできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If a curved polyline has very large distances between vertices, it may appear **angular** or jagged, depending on the scale at which it is viewed (see figure_polyline_jagged_).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140821Z" creationid="miurahr" creationdate="20201117T140821Z">
+        <seg>湾曲したポリラインは、頂点間の距離が非常に大きい場合、それを見る時の倍率によっては、**カクカク** だったりギザギザに見えるかもしれません（ figure_polyline_jagged_ を参照）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If a layer contains polygons (e.g. farm dams), the GIS application will only allow you to create new polygons in that layer.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140946Z" creationid="miurahr" creationdate="20201117T140946Z">
+        <seg>レイヤー中にポリゴン (例. 農業用貯水池)がある場合, 新たなポリゴンを作成することが可能です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6519,6 +7031,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If you don't have a computer available, you can use a toposheet and a compass to create buffer zones around buildings.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141248Z" creationid="miurahr" creationdate="20201117T141248Z">
+        <seg>利用可能なコンピュータを持っていないならば、建物の周辺にバッファゾーンを作成するために、トポシートとコンパスを使うことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If you don't have a computer available, you can use a toposheet and transparency sheets to show your learners about vector data.</seg>
       </tuv>
       <tuv lang="ja">
@@ -6559,6 +7079,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If you have a small scale map (which covers a large area), it may make sense to represent a city using a point feature.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140753Z" creationid="miurahr" creationdate="20201117T140753Z">
+        <seg>もし (広いエリアをカバーする) 小縮尺の地図を見ている場合は、ポイント地物を使用して都市を表すことが適しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If you have poor quality vector data, you can often detect this when viewing the data in a GIS.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141113Z" creationid="miurahr" creationdate="20201117T141113Z">
+        <seg>質の低いベクターデータをGIS上に表示させると、この不正確な箇所をよく見かけることがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If you know that the map was created by an official institution, you could contact them and ask if they have a more current version of that map with updated information.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135748Z" creationid="miurahr" creationdate="20201117T135748Z">
@@ -6579,6 +7115,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T134041Z" creationid="miurahr" creationdate="20201117T134041Z">
         <seg>上の表を見ると, 1月と2月には多くのはしかが発症していたことがわかります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If you make a similar measurement for a tree or a telephone pole and marked it on a map, you will have created a point feature.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140808Z" creationid="miurahr" creationdate="20201117T140808Z">
+        <seg>木や電柱のために同様の測定を行って地図上にマークすると、ポイント地物が作成されるでしょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6791,6 +7335,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Imagine that the city wants to introduce a law stipulating that no bottle stores may be within a 1000 meter buffer zone of a school or a church.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141245Z" creationid="miurahr" creationdate="20201117T141245Z">
+        <seg>酒屋は学校や教会の千メートルバッファゾーン内にあってはいけないと規定する法律を市が導入したいと思っていると想像してみてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Imagine that you want to create a nice tourism map for your local area.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123556Z" creationid="miurahr" creationdate="20201117T123556Z">
@@ -6803,6 +7355,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T134040Z" creationid="miurahr" creationdate="20201117T134016Z">
         <seg>あなたが医療従事者だとして, 患者たちの診療日と自宅の位置を記録しているとします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Imagine you are standing on the top of a hill.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140713Z" creationid="miurahr" creationdate="20201117T140713Z">
+        <seg>丘の頂上に立っているところを想像してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6991,6 +7551,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In later topics of this tutorial we will look at spatial analysis in more detail.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141109Z" creationid="miurahr" creationdate="20201117T141109Z">
+        <seg>このチュートリアルの後のトピックでは、より詳細に空間分析を見ていきます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In order to delete an object from a table, use the :kbd:`DELETE` command:</seg>
       </tuv>
       <tuv lang="ja">
@@ -7051,6 +7619,22 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T062250Z" creationid="miurahr" creationdate="20201117T062250Z">
         <seg>要するに、QGISは地雷や不発弾をアフガニスタンからなくすための取り組みの中で役目を果たしています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In some GIS applications you can set these special rules for a feature type (e.g. roads) and the GIS will ensure that these polylines always comply to these rules.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140820Z" creationid="miurahr" creationdate="20201117T140820Z">
+        <seg>GISアプリケーションによっては、地物タイプ（例えば道路）に対してこれらの特別な規則を設定できて、そうするとこれらのポリラインが常にこれらの規則に準拠していることをGISの方で確認してくれるものもあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In some cases though, it may also be useful for boundaries of buffer zones to remain intact, so that each buffer zone is a separate polygon and you can identify the overlapping areas (see Figure figure_buffer_dissolve_).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141227Z" creationid="miurahr" creationdate="20201117T141227Z">
+        <seg>しかし、バッファゾーンの境界をそのままにしておき、各バッファゾーンは別個の多角形であり重複領域を特定できる方が有用である場合もあります（図 figure_buffer_dissolve_ を参照）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7335,10 +7919,34 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In the topic that follows (:ref:`gentle_gis_attributes`) we will explore more deeply how symbology can help the user to understand vector data.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141030Z" creationid="miurahr" creationdate="20201117T141030Z">
+        <seg>後に続くトピックで(:ref:`gentle_gis_attributes`) は、シンボロジーが、ユーザーがベクターデータを理解するのにいかに役立つかを深く探求します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In the tutorials that follow we will be focusing on GIS Software.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T134249Z" creationid="miurahr" creationdate="20201117T134249Z">
         <seg>続いてのチュートリアルでは、 GIS ソフトウェアについて見ていきます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In the upcoming topic on **topology**, we will examine some of these types of errors in more detail.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141124Z" creationid="miurahr" creationdate="20201117T141124Z">
+        <seg>これから先のトピックにある **トポロジ** では、この種のエラーのいくつかについてさらに詳しく検討します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In these cases the left or right side is determined by the direction from the starting point to the end point of line during digitising.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141223Z" creationid="miurahr" creationdate="20201117T141223Z">
+        <seg>その場合にどちらが左側か右側かは、デジタル化の際のラインの始点から終点への方向によって決定されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7411,6 +8019,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>:file:`metadata.txt` ファイルに以下の変数を追加する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Inaccurate vector data can occur when the instruments used to capture the data are not properly set up, when the people capturing the data aren't being careful, when time or money don't allow for enough detail in the collection process, and so on.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141112Z" creationid="miurahr" creationdate="20201117T141112Z">
+        <seg>不正確なベクターデータは、データを作成する際に使用したツールが適切に設定されていない場合、作成者が注意深く作業を行わなかった場合、十分に詳細なデータ収集を行うには時間とお金が足りなかった場合、などに生じ得るものです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7839,6 +8455,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Landscape features as we would present them in a GIS.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140730Z" creationid="miurahr" creationdate="20201117T140730Z">
+        <seg>GISで表現している景観の地物。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Larger objects should be returned by const reference.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T091545Z" creationid="miurahr" creationdate="20201117T091545Z">
@@ -8015,6 +8639,30 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Like polyline features, polygons are created from a series of vertices that are connected with a continuous line.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140828Z" creationid="miurahr" creationdate="20201117T140828Z">
+        <seg>ポリライン地物と同様に、ポリゴンは連続線で連結された一連の頂点から作成されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Lines of Latitude run from the East to West.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140806Z" creationid="miurahr" creationdate="20201117T140806Z">
+        <seg>緯度の線は東から西へ引かれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Lines of Longitude run from the North Pole to the South Pole.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140805Z" creationid="miurahr" creationdate="20201117T140805Z">
+        <seg>経度の線は北極から南極へ引かれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Link</seg>
       </tuv>
       <tuv lang="ja">
@@ -8095,6 +8743,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Looking down you can see houses, roads, trees, rivers, and so on (see figure_vector_landscape_).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140714Z" creationid="miurahr" creationdate="20201117T140714Z">
+        <seg>見下ろすと家屋、道路、樹木、河川などを見ることができます (figure_vector_landscape_ を参照)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Looking over a landscape you can see the main features, such as roads, houses and trees.</seg>
       </tuv>
       <tuv lang="ja">
@@ -8147,6 +8803,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124032Z" creationid="miurahr" creationdate="20201117T124032Z">
         <seg>GPSを使用するかトポシートでそれをマークすることで、各サンプルの位置を慎重にメモしておきます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Make small pencil marks at equal distance all along your feature using the compass, then connect the marks using a ruler!</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141249Z" creationid="miurahr" creationdate="20201117T141249Z">
+        <seg>コンパスを使って地物に沿って等距離で小さい鉛筆マークを入力してください、それから定規を使ってマークをつないでください！</seg>
       </tuv>
     </tu>
     <tu>
@@ -8207,10 +8871,34 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Many GIS applications have the capability to ensure that the boundaries of neighbouring polygons exactly coincide.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140830Z" creationid="miurahr" creationdate="20201117T140830Z">
+        <seg>多くのGISアプリケーションには、隣接するポリゴンの境界が正確に一致することを確実にする能力があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Many issues can arise from making a poor choice of map scale.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141018Z" creationid="miurahr" creationdate="20201117T141018Z">
+        <seg>多くの問題は、地図の縮尺の拙い選択から生じ得ます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Many people use raster data as a **backdrop** to be used behind vector layers in order to provide more meaning to the vector information.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140020Z" creationid="miurahr" creationdate="20201117T140020Z">
         <seg>多くの人々がラスターデータを、ベクター情報の意味をより明確にするためにベクターレイヤーの背後で使用される **背景** として使用してしています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Map **scale** is an important issue to consider when working with vector data in a GIS.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141014Z" creationid="miurahr" creationdate="20201117T141014Z">
+        <seg>地図 **縮尺** は、GISのベクターデータを扱う際に考慮すべき重要な問題です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8355,6 +9043,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135635Z" creationid="miurahr" creationdate="20201117T135635Z">
         <seg>地図が作成されるのはたいてい、GISでの専門的経歴を持たない政治家や市民や学生を観客や読者とするプレゼンテーションやレポートのためです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Maps have different scales, so if you import vector data from a map into a GIS environment (for example by digitising paper maps), the digital vector data will have the same scale issues as the original map.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141016Z" creationid="miurahr" creationdate="20201117T141016Z">
+        <seg>地図はさまざまな縮尺を持っているので、(例えば紙の地図をデジタル化することによって)地図からGIS環境にベクターデータをインポートする場合は、デジタルベクターデータは、元の地図と同じ縮尺の問題があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8595,6 +9291,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>著作権者は、いくつかの合理的な手段で違反を通知した場合また、特定の著作権者からライセンスを永続的に復活され、これはあなたがその著作権者から（すべての作業のための）本ライセンスの違反の通知を受けたのは初めてで、そしてあなたは、予告のあなたの受領後30日前に違反を治します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Most GIS Applications offer buffer creation as an analysis tool, but the options for creating buffers can vary.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141231Z" creationid="miurahr" creationdate="20201117T141231Z">
+        <seg>ほとんどのGISアプリケーションは、分析ツールとしてバッファ作成を提供していますが、バッファを作成するためのオプションはいろいろです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8935,6 +9639,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Now that we have described what vector data is, let's look at how vector data is managed and used in a GIS environment.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140842Z" creationid="miurahr" creationdate="20201117T140842Z">
+        <seg>ベクタデータについて説明しました。次に、GIS環境でのベクタデータの管理と使用方法について説明します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Now that we have gone through the process of working with existing tables in our database, let's use DB Manager to create a new table.</seg>
       </tuv>
       <tuv lang="ja">
@@ -9167,6 +9879,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>On the other hand if you are trying to create a regional map, using data captured at 1:1000 000 might be just fine and will save you a lot of time and effort capturing the data.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141019Z" creationid="miurahr" creationdate="20201117T141019Z">
+        <seg>その一方、地域の地図を作成しようとしている場合は、1：1000000で取り込んだデータを使用するのはちょうど良くて、データを取り込む時間と労力を大きく省けるかもしれません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>On the other hand, using low resolution raster data can be problematic if you are interested in a small region because you probably won't be able to make out any individual features from the image.</seg>
       </tuv>
       <tuv lang="ja">
@@ -9259,6 +9979,22 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135136Z" creationid="miurahr" creationdate="20201117T135136Z">
         <seg>ラスターデータとベクターデータの違いで重要なこととして、ラスターデータの場合はズームインをし過ぎると格子状の模様が見えてきます（図 figure_raster_data_ と figure_raster_data_zoom_ 参照）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>One of the great advantages of using a GIS is that you can create personalised maps very easily.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141022Z" creationid="miurahr" creationdate="20201117T141022Z">
+        <seg>GISを使用する大きな利点の一つは、非常に簡単に自分用の地図を作成できることです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>One of the most common reference systems is **Longitude and Latitude**.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140804Z" creationid="miurahr" creationdate="20201117T140804Z">
+        <seg>最も一般的な参照系の一つは **経度と緯度** です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9583,6 +10319,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Overshoots (2) happen if a line ends beyond the line it should connect to.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141122Z" creationid="miurahr" creationdate="20201117T141122Z">
+        <seg>オーバーシュート(2) は接合すべきラインの端点が接合対象の地物を飛び越え交差してしまった際に発生します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Overview</seg>
       </tuv>
       <tuv lang="ja">
@@ -9735,6 +10479,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Polygon features are **enclosed areas** like dams, islands, country boundaries and so on.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140827Z" creationid="miurahr" creationdate="20201117T140827Z">
+        <seg>ポリゴン地物は、ダム、島、国境などの **囲まれた領域** です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Polygon features in detail</seg>
       </tuv>
       <tuv lang="ja">
@@ -9743,10 +10495,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Polygon geometries are made up of **at least four vertices** forming an enclosed area.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141125Z" creationid="miurahr" creationdate="20201117T141125Z">
+        <seg>ポリゴンジオメトリは閉じたエリアを形成する **少なくとも４つの頂点** で構成されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Polygons can be buffered **inward** or **outward** from the polygon boundary.</seg>
       </tuv>
       <tuv lang="ja">
         <seg>ポリゴンは、その境界から **内側へ** または **外側へ** バッファを作成できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Polygons often have **shared geometry** –-- boundaries that are in common with a neighbouring polygon.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140830Z" creationid="miurahr" creationdate="20201117T140830Z">
+        <seg>ポリゴンは、多くの場合、 **共有ジオメトリ** ---隣接するポリゴンと共通している境界を有します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9771,6 +10539,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>ポリラインジオメトリは ラインをつないで形成する **２つ以上の** 頂点で構成されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Polylines viewed at a smaller scale (1:20 000 to the left) may appear smooth and curved.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140823Z" creationid="miurahr" creationdate="20201117T140823Z">
+        <seg>小縮尺（左 1:20 000）で見てポリラインが滑らかに湾曲し表示されることがあります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9955,6 +10731,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>データ収集のためQGIS GPSツールプラグイン</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>QGIS Server is an open source WMS 1.3, WFS 1.0.0, WFS 1.1.0, OGC API for Features 1.0 (WFS3) and WCS 1.1.1 implementation that, in addition, implements advanced cartographic features for thematic mapping.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141508Z" creationid="miurahr" creationdate="20201117T141508Z">
+        <seg>QGISサーバは、オープンソースのWMS 1.3、WFS 1.0.0、WFS 1.1.0、OGC API for Feature 1.0(WFS3)およびWCS 1.1.1の実装であり、さらに主題図作成のための高度な地図作成機能を実装しています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10567,6 +11351,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Rivers (blue) and roads (green) can be represented as lines, trees as points (red) and houses as polygons (white).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140731Z" creationid="miurahr" creationdate="20201117T140731Z">
+        <seg>河川 (青) と道路 (緑) はラインで、樹木はポイント (赤) で、家屋はポリゴン (白) で表現されている。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Robert Ward</seg>
       </tuv>
       <tuv lang="ja">
@@ -10679,6 +11471,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Say for example you are monitoring pollution in a river.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140959Z" creationid="miurahr" creationdate="20201117T140959Z">
+        <seg>たとえば、川での汚染を監視している、とします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Say, for example, the Department of Tourism wants to plan a new road around Robben Island and environmental laws require that the road is at least 200 meters inward from the coast line.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141229Z" creationid="miurahr" creationdate="20201117T141229Z">
+        <seg>例えば、観光省がロベン島の周りに新しい道路を計画したくて、環境法では道路は海岸線から少なくとも200メートル内側にあることが要求されるとします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Scale and vector data</seg>
       </tuv>
       <tuv lang="ja">
@@ -10747,6 +11555,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135858Z" creationid="miurahr" creationdate="20201117T135826Z">
         <seg>生徒たちが道路の種類や建物などのさまざまなタイプの凡例要素の例を識別できるかどうかを確認します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>See table_vector_1_ for an example.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141129Z" creationid="miurahr" creationdate="20201117T141129Z">
+        <seg>例えば table_vector_1_ を参照してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11007,6 +11823,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Similarly if you want to change the shape of a feature, the application will only allow you to do it if the changed shape is correct.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140951Z" creationid="miurahr" creationdate="20201117T140951Z">
+        <seg>同様に、地物の形状を変更することも可能ですが、ポリゴンの規則に従う必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Similarly, polylines used to store a road network should be connected at intersections.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140819Z" creationid="miurahr" creationdate="20201117T140819Z">
+        <seg>同様に、道路網を格納するために使用されるポリラインは、交差点で接続されるべきです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Similarly, you can use the SSH protocol to add a remote repository in your local repository:</seg>
       </tuv>
       <tuv lang="ja">
@@ -11019,6 +11851,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T062355Z" creationid="miurahr" creationdate="20201117T062355Z">
         <seg>DDGはアフガニスタンでの操業開始以来、24,000以上の地雷や94万以上の不発弾片を除去しています。現在、DDGは北部地方のバルフとサマンガーン、中央地方のカブール、パルヴァーン、パンジシールで活動しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Since we know the earth is not flat, it is often useful to add a Z value to a point feature.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140809Z" creationid="miurahr" creationdate="20201117T140809Z">
+        <seg>我々は地球は平らではないと知っているので、点の地物にはZ値を追加すると便利です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11063,6 +11903,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Slivers occur when the vertices of two polygons do not match up on their borders.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141115Z" creationid="miurahr" creationdate="20201117T141115Z">
+        <seg>スライバは隣接する二つのポリゴンの境界を構成する頂点がうまく合致していないときに発生します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Slope assessment and mapping</seg>
       </tuv>
       <tuv lang="ja">
@@ -11075,6 +11923,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123700Z" creationid="miurahr" creationdate="20201117T123700Z">
         <seg>これまでのところは、空のシェープファイルを作成しただけです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>So if you have a trees point layer, you can show each tree position with a small picture of a tree, rather than the basic circle marker that the GIS uses when you first load the layer (see illustrations figure_vector_symbology_, figure_generic_symbology_ and figure_custom_symbology_).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141027Z" creationid="miurahr" creationdate="20201117T141027Z">
+        <seg>だから樹木のポイントレイヤーを持っているのであれば、最初にレイヤーをロードした時GISが使用する基本的な円マーカーではなく、木の小さな絵を各ツリーの位置に表示できます（イラスト figure_vector_symbology_ figure_generic_symbology_ figure_custom_symbology_ を参照）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11191,6 +12047,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Sometimes we have special rules for polylines in addition to their basic geometry.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140818Z" creationid="miurahr" creationdate="20201117T140818Z">
+        <seg>時にはそれらの基本的なジオメトリに加えて、ポリラインのための特別なルールがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Source code should be indented to improve readability.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T091828Z" creationid="miurahr" creationdate="20201117T091828Z">
@@ -11211,6 +12075,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>空間的解像度</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Spatial overlay with two input vector layers (a_input = rectangle, b_input = circle).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141237Z" creationid="miurahr" creationdate="20201117T141237Z">
+        <seg>２つのベクターレイヤー ( a_input = 方形, b_input = 円)の空間オーバーレイ。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11455,6 +12327,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Symbology is a powerful feature, making maps come to life and the data in your GIS easier to understand.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141029Z" creationid="miurahr" creationdate="20201117T141029Z">
+        <seg>シンボロジーは強力な機能であり、地図をより生き生きと、GIS中のデータをより理解しやすくします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>System Description</seg>
       </tuv>
       <tuv lang="ja">
@@ -11671,6 +12551,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The **attributes** of a polyline describe its properties or characteristics.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140825Z" creationid="miurahr" creationdate="20201117T140825Z">
+        <seg>ポリラインの **属性** はその特性や特徴を説明します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The **buffer distance** or buffer size **can vary** according to numerical values provided in the vector layer attribute table for each feature.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141217Z" creationid="miurahr" creationdate="20201117T141217Z">
+        <seg>**バッファ距離** またはバッファサイズは各地物のベクターレイヤー属性テーブルに設けられた数値に応じて **変化** させることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The :guilabel:`Indexes` tab can be used to add and delete both spatial and normal indexes.</seg>
       </tuv>
       <tuv lang="ja">
@@ -11735,6 +12631,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The GIS application will allow you to create and modify the geometry data in a layer --– a process called **digitising** –-- which we will look at more closely in a later tutorial.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140933Z" creationid="miurahr" creationdate="20201117T140933Z">
+        <seg>GISアプリケーションでは、ジオメトリデータを作成、修正することができます。 --– このプロセスは、一般に **デジタイジング** と呼ばれます–-- デジタイジングについては、後述のチュートリアルで説明します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The GIS can hold a very large amount of map data and make it quick and easy to find a place you are interested in.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135334Z" creationid="miurahr" creationdate="20201117T135334Z">
@@ -11743,10 +12647,34 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The GIS can use these attributes to symbolise the polyline feature with a suitable colour or line style.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140826Z" creationid="miurahr" creationdate="20201117T140826Z">
+        <seg>これらの属性はGISがポリライン地物を最適な色や線種で記号化するために使うことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The GIS program will let you choose colours to suite the feature type (e.g. you can tell it to draw a water bodies vector layer in blue).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141023Z" creationid="miurahr" creationdate="20201117T141023Z">
+        <seg>GISプログラムでは、地物タイプに合った色を選択できます（例えば、青で水域ベクターレイヤーを描画するよう設定できます）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The GIS side of the project project was broken down into 6 main steps</seg>
       </tuv>
       <tuv lang="ja">
         <seg>プロジェクトの GIS側は主に6つのステップに分けられます</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The GIS will also let you adjust the symbol used.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141024Z" creationid="miurahr" creationdate="20201117T141024Z">
+        <seg>GISでは使用するシンボルも調整できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11863,6 +12791,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The X and Y values will depend on the **Coordinate Reference System** (CRS) being used.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140802Z" creationid="miurahr" creationdate="20201117T140802Z">
+        <seg>XとYの値は使用されている **座標参照系** (CRS) に依存します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The ``Edit on GitHub`` shortcut is also available in the drop-down menu at the bottom of the left sidebar.</seg>
       </tuv>
       <tuv lang="ja">
@@ -11891,6 +12827,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T134301Z" creationid="miurahr" creationdate="20201117T134301Z">
         <seg>ウィンドウの上部にはファイルや編集といった **メニュー** があり、クリックすると様々な **アクション** が並んだパネルが開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The area that is within the specified distance is called the **buffer zone**.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141139Z" creationid="miurahr" creationdate="20201117T141139Z">
+        <seg>指定距離内の領域を **バッファゾーン** といいます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11927,6 +12871,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The attributes describe each polygon.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140833Z" creationid="miurahr" creationdate="20201117T140833Z">
+        <seg>属性は、ポリゴンごとに記述します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The attributes of vector features are stored in this file</seg>
       </tuv>
       <tuv lang="ja">
@@ -11939,6 +12891,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>ドキュメントの作者と出版社（単数または複数）は、このライセンスによってのための宣伝のために自分の名前を使用するか、いずれかの修正版の裏書を主張または暗示する許可を与えることはありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The border between the United States of America and Mexico is separated by a buffer zone.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141208Z" creationid="miurahr" creationdate="20201117T141208Z">
+        <seg>アメリカとメキシコの境界はバッファゾーンによって分けられています</seg>
       </tuv>
     </tu>
     <tu>
@@ -12063,6 +13023,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The first and last vertices are always in the same place.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141126Z" creationid="miurahr" creationdate="20201117T141126Z">
+        <seg>最初と最後の頂点は常に同じ位置です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The first coordinate for the georeferencing is now ready.</seg>
       </tuv>
       <tuv lang="ja">
@@ -12075,6 +13043,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>デジタル化している第1の地物は |schoolAreaType1| です：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The first thing we need to realise when talking about point features is that what we describe as a point in GIS is a matter of opinion, and often dependent on scale.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140740Z" creationid="miurahr" creationdate="20201117T140740Z">
+        <seg>ポイント地物についていう場合に最初に意識しておく必要があることは、 GIS でポイントとして記述するものは、考え方にもよるが、縮尺に依存することが多いことです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12123,6 +13099,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T085908Z" creationid="miurahr" creationdate="20201117T085908Z">
         <seg>関数は、 get 接頭辞なしの名前を付ける必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The geometry is made up of one or more interconnected **vertices**.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140718Z" creationid="miurahr" creationdate="20201117T140718Z">
+        <seg>ジオメトリは1つまたはそれ以上の相互につながった **頂点** で作られます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12351,6 +13335,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The numerical values have to be defined in map units according to the Coordinate Reference System (CRS) used with the data.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141218Z" creationid="miurahr" creationdate="20201117T141218Z">
+        <seg>数値データで使用される座標参照系（CRS）に係る地図単位で定義されなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The one exception to this is implicitly shared objects, which are always returned by value.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T091547Z" creationid="miurahr" creationdate="20201117T091547Z">
@@ -12375,6 +13367,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The output vector layer is a combination of the input features information (see figure_overlay_operations_).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141236Z" creationid="miurahr" creationdate="20201117T141236Z">
+        <seg>出力されるベクターレイヤーは入力地物情報の組み合わせです（ figure_overlay_operations_ 参照）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The overview map will help the field teams place the detail map inside the general forest area:</seg>
       </tuv>
       <tuv lang="ja">
@@ -12395,6 +13395,22 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140103Z" creationid="miurahr" creationdate="20201117T140103Z">
         <seg>写真は、コンピュータにインポートされ、ジオリファレンスされます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The point attributes describe the point e.g. if it is a tree or a lamp post.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140725Z" creationid="miurahr" creationdate="20201117T140725Z">
+        <seg>ポイント属性はそのポイントが、例えば樹木や街灯などであることを表します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The polyline is a continuous path drawn through each vertex, as shown in figure_geometry_polyline_.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140814Z" creationid="miurahr" creationdate="20201117T140814Z">
+        <seg>ポリラインは figure_geometry_polyline_ に示すように、各頂点を通って引かれる連続的な経路です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12487,10 +13503,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The real power of GIS starts to show itself when you start to ask questions like 'which houses are within the 100 year flood level of a river?'; 'where is the best place to put a hospital so that it is easily accessible to as many people as possible?'; 'which learners live in a particular suburb?'.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141053Z" creationid="miurahr" creationdate="20201117T141043Z">
+        <seg>GISの真の力は、「ある河川の100年洪水レベルの範囲内にある家はどれ？」; 「なるべく多くの人が簡単に行けるように病院を配置したいが、最適な場所はどこ？」; 「どこそこの郊外に住んでいる生徒は誰？」といった質問を尋ね始めたときに発揮され始めます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The result of the above:</seg>
       </tuv>
       <tuv lang="ja">
         <seg>以上の結果:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The resulting vector layer is displayed green.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141237Z" creationid="miurahr" creationdate="20201117T141237Z">
+        <seg>結果のベクターレイヤーは緑で表示されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12539,6 +13571,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>シェープファイル形式は、数値フィールド情報を全体の数（ **整数** ）または小数（ **浮動小数点数** ）のいずれかとして保存できます---キャプチャしようとしている数値データが小数点以下を持っているかどうかを事前に考えておく必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The siting criteria stipulate that a potential site must be within 1 km of a heavy-duty road.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141243Z" creationid="miurahr" creationdate="20201117T141243Z">
+        <seg>立地基準には、敷地候補は大型道路の1キロ以内でなければならないと規定されています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12711,6 +13751,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>There are several variations in buffering.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141216Z" creationid="miurahr" creationdate="20201117T141216Z">
+        <seg>バッファリングにはいくつかのバリエーションがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>There are two steps we need to complete for each record we add to the shapefile:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123712Z" creationid="miurahr" creationdate="20201117T123712Z">
@@ -12815,6 +13863,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>They can be on either the left side or the right side of the line feature.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141222Z" creationid="miurahr" creationdate="20201117T141222Z">
+        <seg>それらはライン地物の左側または右側のどちらかだけにできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>They could use an inward buffer to find the 200 m line inland and then plan their road not to go beyond that line.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141230Z" creationid="miurahr" creationdate="20201117T141230Z">
+        <seg>観光省は海岸線から内への200メートルラインを見つけるために、内側にバッファを使用して、その線を越えないように自分たちの道路を計画できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>They do this knowing that if teachers and learners get to know their software, they will be reluctant to learn other packages.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135947Z" creationid="miurahr" creationdate="20201117T135947Z">
@@ -12835,6 +13899,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>注意すべき点</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Think of how you would create vector features in a GIS to represent real world features on your school grounds.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141127Z" creationid="miurahr" creationdate="20201117T141127Z">
+        <seg>学校の敷地にある現実世界の地物を表すために、GISでベクター地物をどのように作成するか考えてください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12935,10 +14007,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This describes how high above sea level you are.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140811Z" creationid="miurahr" creationdate="20201117T140811Z">
+        <seg>これは、どれだけの高さにあるかを海抜で示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This diagram shows how GIS applications deal with vector data.</seg>
       </tuv>
       <tuv lang="ja">
         <seg>この図は、GISアプリケーションがベクターデータを扱う方法を示しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This effect can be seen in illustrations figure_vector_small_scale_ and figure_vector_large_scale_.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141017Z" creationid="miurahr" creationdate="20201117T141017Z">
+        <seg>この効果は、イラスト figure_vector_small_scale_ と figure_vector_large_scale_ で見ることができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12979,6 +14067,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140012Z" creationid="miurahr" creationdate="20201117T140012Z">
         <seg>これは、ベクター地物に与えられた属性値は地物全体に適用されるためですので、ベクターでは完全に同質（全く同じ）ではない地物を表現するにはあまり適していません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This is convenient because it allows you to hide or show all of the features for that layer in your GIS application with a single mouse click.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140855Z" creationid="miurahr" creationdate="20201117T140855Z">
+        <seg>これは、GISアプリケーションでそのレイヤのすべての機能を1回のクリックで表示または非表示にできるため便利です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13107,6 +14203,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T091833Z" creationid="miurahr" creationdate="20201117T091833Z">
         <seg>これは、コミットする前に実行する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This value is defined in map units (meters, feet, decimal degrees) according to the Coordinate Reference System (CRS) of the vector layer.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141234Z" creationid="miurahr" creationdate="20201117T141234Z">
+        <seg>この値は、ベクターレイヤーの座標参照系（CRS）に従った地図単位（メートル、フィート、小数の度）で定義されています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13719,6 +14823,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Undershoots (1) occur when digitised vector lines that should connect to each other don’t quite touch.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141121Z" creationid="miurahr" creationdate="20201117T141121Z">
+        <seg>アンダーシュート(1) は互いに接合すべきライン地物をぴったり接合せずにデジタイズを行うと発生します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Understand what raster data is and how it can be used in a GIS.</seg>
       </tuv>
       <tuv lang="ja">
@@ -14151,6 +15263,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Vector data also needs a lot of work and maintenance to ensure that it is accurate and reliable.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141111Z" creationid="miurahr" creationdate="20201117T141111Z">
+        <seg>これに加えて、ベクターデータの正確さと信頼性を担保するためには、多くのメンテナンス作業が必要となることも挙げられます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Vector data can be used for **spatial analysis** in a GIS application, for example to find the nearest hospital to a school.</seg>
       </tuv>
       <tuv lang="ja">
@@ -14195,6 +15315,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>ベクターデータは **属性** を持っています</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Vector features have **attributes**, which consist of text or numerical information that **describe** the features.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140716Z" creationid="miurahr" creationdate="20201117T140716Z">
+        <seg>ベクタ地物は **属性** を持っており、それは地物を **説明する** テキストあるいは数値情報で構成されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14267,6 +15395,22 @@
       </tuv>
       <tuv lang="ja">
         <seg>水の観察と情報システム：アフリカにおける統合水資源管理のために地球観測データの使用を可能にする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>We already mentioned the issues that can arise with vectors captured at different scales.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140904Z" creationid="miurahr" creationdate="20201117T140904Z">
+        <seg>既に挙げた例として、異なる縮尺でベクターデータが作成されることによって起こる問題があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>We are going to go into more detail about Coordinate Reference Systems in a later tutorial.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140802Z" creationid="miurahr" creationdate="20201117T140802Z">
+        <seg>後のチュートリアルでは座標参照系についてより詳細に説明する予定です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14383,6 +15527,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>We will explore this in the :ref:`gentle_gis_topology` topic later in this tutorial.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140831Z" creationid="miurahr" creationdate="20201117T140831Z">
+        <seg>このチュートリアルの後の :ref:`gentle_gis_topology` トピックではこれについて見ていきます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Welcome to the QGIS Development pages.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T100722Z" creationid="miurahr" creationdate="20201117T100722Z">
@@ -14463,6 +15615,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>When a feature's geometry consists of only a single vertex, it is referred to as a **point** feature (see illustration figure_geometry_point_).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140721Z" creationid="miurahr" creationdate="20201117T140721Z">
+        <seg>地物のジオメトリが単一の頂点からなる場合、それは **ポイント** 地物と言われます (イラスト figure_geometry_point_ を参照)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>When a layer (for example the trees layer above) is first loaded, a GIS application will give it a generic symbol.</seg>
       </tuv>
       <tuv lang="ja">
@@ -14495,6 +15655,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>When data is captured, it is usually digitised from existing maps, or by taking information from surveyor records and global positioning system devices.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141010Z" creationid="miurahr" creationdate="20201117T141010Z">
+        <seg>データがキャプチャされるときは、既存の地図から、または測量記録と全地球測位システム(GPS)装置から情報を取ることにより、通常はデジタル化されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>When editing a line layer, the vertices are shown with circular markers which you can move about with the mouse to adjust the line's geometry.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123735Z" creationid="miurahr" creationdate="20201117T123735Z">
@@ -14515,6 +15683,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135947Z" creationid="miurahr" creationdate="20201117T135947Z">
         <seg>生徒達が学校を卒業したら、職場に入り、業務に利用できうる自由な他の選択肢があることを知らないまま、そのベンダのソフトウェアを買います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>When more than two are joined, they form a 'line of lines', or **polyline**.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140816Z" creationid="miurahr" creationdate="20201117T140816Z">
+        <seg>二つ以上が結合しているとき、「ラインのライン」すなわち **ポリライン** が形成されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14607,6 +15783,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>When two vertices are joined, a line is created.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140815Z" creationid="miurahr" creationdate="20201117T140815Z">
+        <seg>2つの頂点が連結されている場合、ラインが作成されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>When we introduced you to vector data we showed you the image in figure_landscape_.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140008Z" creationid="miurahr" creationdate="20201117T140008Z">
@@ -14619,6 +15803,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T134404Z" creationid="miurahr" creationdate="20201117T134404Z">
         <seg>地図ビューに複数のレイヤを読み込んだ場合は、その上に重なって表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>When you add vector layers to the map view in a GIS application, they will be drawn with random colours and basic symbols.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141021Z" creationid="miurahr" creationdate="20201117T141021Z">
+        <seg>GISアプリケーションで地図ビューにベクターレイヤーを追加すると、それらはランダムな色と基本的なシンボルで描画されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14735,10 +15927,42 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>When zoomed in to a larger scale (1:500 to the right) polylines may look very angular.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140824Z" creationid="miurahr" creationdate="20201117T140824Z">
+        <seg>大縮尺（右 1:500 ）にズームするとポリラインはとても角ばって見えるかもしれません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Where a point feature is a single vertex, **a polyline has two or more vertices**.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140813Z" creationid="miurahr" creationdate="20201117T140813Z">
+        <seg>ポイント地物は単一の頂点ですが、 **ポリラインは二つ以上の頂点を持ちます** 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Where appropriate, this may require that cached value type member variables are marked with ``mutable``.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T085708Z" creationid="miurahr" creationdate="20201117T085708Z">
         <seg>適切な場合には、これはキャッシュされた値型のメンバー変数が ``mutable`` でマークされていることを要求することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Where the geometry consists of two or more vertices and the first and last vertex are not equal, a **polyline** feature is formed (see illustration figure_geometry_polyline_).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140722Z" creationid="miurahr" creationdate="20201117T140722Z">
+        <seg>ジオメトリが2つの以上の頂点で構成され、最初と最後の頂点が等しくない場合、 **ポリライン** 地物が形成されます (イラスト figure_geometry_polyline_ を参照)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Where three or more vertices are present, and the last vertex is equal to the first, an enclosed **polygon** feature is formed (see illustration figure_geometry_polygon_).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140723Z" creationid="miurahr" creationdate="20201117T140723Z">
+        <seg>三つ以上の頂点が存在し、最後の頂点が最初に等しいと、閉じた **ポリゴン** 地物が形成されます (イラスト figure_geometry_polygon_ を参照)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14927,6 +16151,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Working with vector data does have some problems.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140903Z" creationid="miurahr" creationdate="20201117T140903Z">
+        <seg>ベクターデータの取り扱いには,いくつかの問題や課題があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Worse still, if the image on the right is used as a reference when capturing new features, the newly captured data will be inaccurate!</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124017Z" creationid="miurahr" creationdate="20201117T124017Z">
@@ -15095,6 +16327,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You can describe precisely where you are at any place on the earth by giving someone your Longitude (X) and Latitude (Y).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140807Z" creationid="miurahr" creationdate="20201117T140807Z">
+        <seg>経度（X）と緯度（Y）を与えれば、地球上のどの場所であれ、どこにいるか正確に記述できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You can edit files directly from your fork of the QGIS Documentation.</seg>
       </tuv>
       <tuv lang="ja">
@@ -15167,6 +16407,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You can see which houses fall within the buffer zone, so now you could contact the owner and talk to him about the situation.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141247Z" creationid="miurahr" creationdate="20201117T141247Z">
+        <seg>どの家がバッファゾーンに入るかについて見ることができるので、今、所有者に連絡して状況について話すことができるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You can sort the results by the values of more than one column:</seg>
       </tuv>
       <tuv lang="ja">
@@ -15215,10 +16463,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You could also digitise the river itself (as a polyline feature).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141002Z" creationid="miurahr" creationdate="20201117T141002Z">
+        <seg>また、川自体を（ポリライン地物として）デジタル化できるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You could just as easily create separate images for every map (remember to uncheck the single file creation), here you can see the thumbnails of the images that would be created:</seg>
       </tuv>
       <tuv lang="ja">
         <seg>同じように簡単にすべての地図に対して別々の画像を作成できます（単一ファイルの作成をオフにすることを忘れないでください）、作成されるであろう画像のサムネイルをここで見ることができます：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You could use the GIS to digitise all outfalls for storm water drains (as point features).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T141000Z" creationid="miurahr" creationdate="20201117T141000Z">
+        <seg>GISを使用すると、雨水排水のためのすべての排水口を（ポイント地物として）デジタル化できるでしょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15995,6 +17259,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>http://www.snb.ca/gdam-igec/e/2900e_1.asp</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>let's look at cities for example.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140746Z" creationid="miurahr" creationdate="20201117T140746Z">
+        <seg>例として都市を見てみましょう。</seg>
       </tuv>
     </tu>
     <tu>
