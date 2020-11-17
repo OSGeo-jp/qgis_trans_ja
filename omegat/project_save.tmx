@@ -30,6 +30,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>(Brno, CZ) where he founded and leads Laboratory on Experimental and Applied Geography.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T224250Z" creationid="miurahr" creationdate="20201117T224128Z">
+        <seg>を設立し、Experimental and Applied Geographyの研究所を率いている学術研究者です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>(Here XYZ stands for a specific section name mentioned below, such as "**Acknowledgements**", "**Dedications**", "**Endorsements**", or "**History**".) To "**Preserve the Title**" of such a section when you modify the Document means that it remains a section "Entitled XYZ" according to this definition.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124552Z" creationid="miurahr" creationdate="20201117T124552Z">
@@ -6375,6 +6383,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Finally I wrote a lookup table in r.mapcalc and merged the soil and landcover grids into and NRCS TR-55 curve numbers following the arcHYDRO methodolg</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T223412Z" creationid="miurahr" creationdate="20201117T223412Z">
+        <seg>最後に、r.mapcalcにルックアップテーブルを作成し、土壌と土地被覆グリッドをarcHYDROメソッドの次のNRCS TR-55カーブ番号にマージしました</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Finally I wrote a lookup table in r.mapcalc and merged the soil and landcover grids into and NRCS TR-55 curve numbers following the arcHYDRO methodology.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222834Z" creationid="miurahr" creationdate="20201117T222834Z">
@@ -7587,6 +7603,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T062324Z" creationid="miurahr" creationdate="20201117T062324Z">
         <seg>彼は東洋アフリカ研究のロンドンの学校の大学から開発研究の修士課程を保持しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>He is an academic researcher at College of Business and Hotel Management, Ltd.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T224135Z" creationid="miurahr" creationdate="20201117T224042Z">
+        <seg>College of Business and Hotel Management,Ltd.(Brno,CZ)</seg>
       </tuv>
     </tu>
     <tu>
@@ -8851,6 +8875,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T062514Z" creationid="miurahr" creationdate="20201117T062514Z">
         <seg>アフガニスタンでは、セキュリティ上の問題や険しい地形が知られているサイトの物理的な再調査は必ずしも容易ではないことを意味します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In Brno, Czech Republic (Vysoká škola obchodní a hotelová, s.r.o.) which offers higher education at tourism, business and hotel management.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T223942Z" creationid="miurahr" creationdate="20201117T223849Z">
+        <seg>チェコ共和国ブルノで観光、ビジネス、ホテル経営で高等教育を提供しています企業（VysokáSKOLAobchodníAhotelová、s.r.o.）です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10327,10 +10359,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>LEAG is focused on modeling socio-economic spatial processes, analyzing spatial patterns, describing and monitoring the reality of localities and regions.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T223510Z" creationid="miurahr" creationdate="20201117T223510Z">
+        <seg>LEAGは、社会経済的、空間的プロセスをモデル化する空間パターンを分析し、地方及び地域の現実を記述および監視に焦点を当てています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Labeling GUI items</seg>
       </tuv>
       <tuv lang="ja">
         <seg>ラベルするGUI項目</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Laboratory on Experimental and Applied Geography (LEAG) is part of College of Hotel and Business Management, Ltd.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T223918Z" creationid="miurahr" creationdate="20201117T223543Z">
+        <seg>実験・応用地理研究所（LEAG：Laboratory on Experimental and Applied Geography)は、ホテルとビジネス経営学部の一部で、</seg>
       </tuv>
     </tu>
     <tu>
@@ -17215,6 +17263,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Then I downloaded a free sample grid of PRISM for China and assuming a linear relationship, conveted average cell values to maximum cell values in order to to build maximum rainfall intensity grids.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T223414Z" creationid="miurahr" creationdate="20201117T223414Z">
+        <seg>それから、私は中国のPRISMの無料サンプルグリッドをダウンロードし、直線的な関係を仮定して最大降雨強度グリッドを構築するために平均セル値を最大セル値に変換しました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Then a distance to outlet surface grid was generated and analyzed by zonal statistics to find the farthest point.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222828Z" creationid="miurahr" creationdate="20201117T222828Z">
@@ -17675,6 +17731,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>http://www.nirdnerc.nic.in：この記事は2014年7月に、Alajangi Simhachalam、非常勤教員、NIRD-NERC、グワハティのウェブサイトで寄稿されました</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This article was contributed in November 2010 by Jakub Trojan.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T224006Z" creationid="miurahr" creationdate="20201117T224006Z">
+        <seg>この記事は2010年11月にヤクブTrojanから投稿されました。</seg>
       </tuv>
     </tu>
     <tu>
