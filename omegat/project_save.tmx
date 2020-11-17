@@ -1302,6 +1302,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>:guilabel:`Width` and :guilabel:`Height` are ``837`` and ``661``, respectively.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T221410Z" creationid="miurahr" creationdate="20201117T221410Z">
+        <seg>:guilabel:`Width` と :guilabel:`Height` は、それぞれ ``837`` と``661``です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>:guilabel:`solution` (or :guilabel:`buildings_over_100`)</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T221037Z" creationid="miurahr" creationdate="20201117T221037Z">
@@ -1894,6 +1902,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>A key advantage of the Processing Toolbox is the ability to seamlessly use functionalities from different algorithm providers for data processing and analysis.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T221954Z" creationid="miurahr" creationdate="20201117T221954Z">
+        <seg>処理ツールボックスの重要な利点は、シームレスにデータ処理および分析のための別のアルゴリズムプロバイダからの機能を使用する能力です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>A layer that is georeferenced properly displays in the correct position in the map view based on the GIS Application's internal model of the Earth.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124011Z" creationid="miurahr" creationdate="20201117T124011Z">
@@ -1954,6 +1970,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141225Z" creationid="miurahr" creationdate="20201117T141225Z">
         <seg>原子力発電所には10、15、25、30キロの距離のバッファを持つことができ、したがって避難計画の一環として工場の周囲に複数の環を形成します（ figure_multiple_buffers_ 参照）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>A particular focus will be on ensuring the support and implementation of processing capacity for the new Sentinel satellite system by integrating the ESA Sentinel toolboxes into WOIS and developing dedicated production workflows.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T222026Z" creationid="miurahr" creationdate="20201117T222026Z">
+        <seg>焦点は特に、WOISにESAのSentinelツールボックスを統合し、専用の生産ワークフローを開発することによって、新しいセンチネル衛星システムの処理能力の支援と実施を確実にすることになるでしょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2526,6 +2550,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>After the project experience we can assure that the FOSS QGIS is an extremely recommendable alternative for capture, processing, storage, analysis, recovery and updating of spatial data, in fast and efficient form.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T222255Z" creationid="miurahr" creationdate="20201117T222255Z">
+        <seg>プロジェクトを経験した今では、私たちはFOSS QGISが高速で効率的な形で、空間データの取り込み、処理、保管、分析、復旧・更新のための非常にお勧めの代替であることを保証できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>After the table name (:kbd:`streets`), you list the column names that you will be populating (in this case only the :kbd:`name` column).</seg>
       </tuv>
       <tuv lang="ja">
@@ -2723,6 +2755,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>SSHプロトコルを使用してQGISドキュメンテーションリポジトリを複製することもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Although the project was an academic exercise of High School, we deeply value the inventory´s results obtained by QGIS.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T222125Z" creationid="miurahr" creationdate="20201117T222125Z">
+        <seg>このプロジェクトは高校の学術的な練習でしたが、私たちは深くQGISによって得られたinventoryの結果を重視します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2979,6 +3019,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>QGISのデスクトップとQGISサーバーは同じ可視化ライブラリを使用するように、ウェブ上で公開されている地図は、デスクトップGISと同じに見えます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>As a conceptual framework, we lectured about cartographic design, satellite images reading and interpretation, and specially, location analysis to contrast the situation (in m\ :sup:`2`) of the urban green spaces by inhabitant in Rada Villa coastal town, with values suggested by the World Health Organization, WHO (a  minimum of 9 m\ :sup:`2` of green areas, by person, in urban areas).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T222249Z" creationid="miurahr" creationdate="20201117T222249Z">
+        <seg>、ラダヴィラ海岸沿いの町で住民による都市緑地の（ m\ :sup:`2` で）概念的枠組みとして、私たちは、地図作成、設計、衛星画像を読み込み、解釈し、状況を対比するために特別に、位置分析について講義しました値で（都市部の人による緑地の9 m\ :sup:`2` の最小値）世界保健機関によって示唆されました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3339,6 +3387,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>背景</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Based in the projection of an average value of 4 inhabitants by cadastral plot, we estimated that the current (2010) urban population Rada Tilly would go up to around 9.600 inhabitants.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T222250Z" creationid="miurahr" creationdate="20201117T222250Z">
+        <seg>地籍プロットで4人の住民の平均値の投影に基づいて、私たちは、現在（2010年）のラダ・ティリの都市人口は住民約9.600人に上るだろうと推定しました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4539,6 +4595,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141147Z" creationid="miurahr" creationdate="20201117T141147Z">
         <seg>バッファゾーンの一般的なタイプは、住宅地と商業地間の緑地帯、国間の国境地帯、空港周りの騒音防止ゾーン、川沿いの汚染保護ゾーンであったりします（ figure_buffer_zone_ 参照）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Comodoro Rivadavia, Chubut Province, Argentina.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T222134Z" creationid="miurahr" creationdate="20201117T222134Z">
+        <seg>コモドロリバダビア、チュブ州、アルゼンチン。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6143,6 +6207,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>First, customized end-to-end processing workflows are developed for the requested products and applications.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T222000Z" creationid="miurahr" creationdate="20201117T222000Z">
+        <seg>まず、カスタマイズされたエンドツーエンドの処理のワークフローは、要求された製品やアプリケーション用に開発されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>First, decide on a unique name for the answer.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141621Z" creationid="miurahr" creationdate="20201117T141621Z">
@@ -6179,6 +6251,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>これに続けて 、モジュールの名前が続くマークアップの語句 :kbd:`|MOD|` （「モジュール」の略）を含む行を書きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Following Antarctic field testing, and adding new relevant datasets, Quantarctica version 1.0 was finally completed and made available for download in July 2013.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T222109Z" creationid="miurahr" creationdate="20201117T222109Z">
+        <seg>南極現地テストを行い、新たに関連するデータセットを追加し、Quantarcticaバージョン1.0は2013年7月に最終的に完成し、ダウンロードして利用できるようになりました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6939,6 +7019,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>SIP ファイルを生成する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Geography Department.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T222133Z" creationid="miurahr" creationdate="20201117T222133Z">
+        <seg>地理学科。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8599,6 +8687,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In order to consider the amount inhabitants by cadastral block, we assigned an average value of 4 inhabitants by plot.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T222123Z" creationid="miurahr" creationdate="20201117T222123Z">
+        <seg>地籍ブロックで量住民を考慮するために、私たちは、プロットによって4人の住民の平均値を割り当てます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In order to delete an object from a table, use the :kbd:`DELETE` command:</seg>
       </tuv>
       <tuv lang="ja">
@@ -8667,6 +8763,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>ベクターデータの議論では、多くの場合、ラスターデータは、ベクター地物をデジタル化するためのベースとして使用される背景レイヤーとして使用されると説明しました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In our region, Argentinean Patagonia, we have very few references about the application of GIS in High School for the construction of geographical knowledge as a mean to face territorial and environmental issues.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T222246Z" creationid="miurahr" creationdate="20201117T222246Z">
+        <seg>私たちの地域、アルゼンチンのパタゴニアでは、私たちは、領土問題や環境問題に向き合う手段としての地理的な知識の構築のための高等学校におけるGISの応用については少ししか参照がありません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8883,6 +8987,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135757Z" creationid="miurahr" creationdate="20201117T135757Z">
         <seg>結局、ほぼすべての国が領土の地図精度を向上させる目的で独自の地図投影法を開発しました（ figure_map_projection_ を参照）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In the final step, the workflows (i.e. their stability/performance and ease of use) as well as the product outcomes are being evaluated in close dialogue with the users.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T222002Z" creationid="miurahr" creationdate="20201117T222002Z">
+        <seg>最終工程において、ワークフロー（すなわち、それらの安定性/性能と使いやすさ）、ならびに製品の成果は、ユーザーとの緊密な対話で評価されています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9415,6 +9527,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>It acts as a joint repository for a wide range of algorithms, some native to QGIS and others imported from external applications, such as GRASS GIS or the Orfeo Toolbox.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T221950Z" creationid="miurahr" creationdate="20201117T221950Z">
+        <seg>これは、アルゴリズムの広い範囲、例えばGRASSのGISまたはオルフェオツールボックスなどの外部アプリケーションからインポートQGIS、他のいくつかのネイティブの共同リポジトリとして機能します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>It allows the reader to see quickly, if one map can be compared with another.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135800Z" creationid="miurahr" creationdate="20201117T135800Z">
@@ -9443,6 +9563,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141513Z" creationid="miurahr" creationdate="20201117T141513Z">
         <seg>Pythonプラグインをサポートしており、新機能の開発と展開を迅速かつ効率的に行うことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It has provided new opportunities for our researchers in their daily work.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T222106Z" creationid="miurahr" creationdate="20201117T222106Z">
+        <seg>これは、日常業務において当社の研究者のために新たな機会を提供してきました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9575,10 +9703,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>It was a very enriching experience for them and also for the educational staff involved.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T222128Z" creationid="miurahr" creationdate="20201117T222128Z">
+        <seg>それは学生のためにも、関係する教育スタッフのためにも非常に豊かな経験でした。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>It will output one map for every feature in the layer.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T215713Z" creationid="miurahr" creationdate="20201117T215713Z">
         <seg>これは、レイヤー内のすべての地物の出力1つの地図になります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It will therefore continue to develop in response to continued user requirements for new functionalities and functional improvements and due to general software, algorithm and method enhancements.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T222024Z" creationid="miurahr" creationdate="20201117T222024Z">
+        <seg>したがって、新機能や機能改善のための継続的なユーザー要件に対応し、一般的なソフトウェア、アルゴリズムとメソッドの機能拡張を原因に、開発を続けていきます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9843,6 +9987,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141601Z" creationid="miurahr" creationdate="20201117T141601Z">
         <seg>今のところ、このファイルは空白のままにします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Lecturer and researcher of National University of Patagonia San Juan Bosco, Faculty of Humanities and Social Sciences.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T222131Z" creationid="miurahr" creationdate="20201117T222131Z">
+        <seg>パタゴニアサンフアンボスコの国立大学の講師や研究者、人文社会科学学部。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10519,6 +10671,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Mauro Novara is Professor of Territorial Information Systems course.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T222130Z" creationid="miurahr" creationdate="20201117T222130Z">
+        <seg>マウロ・ノヴァラは領土情報システムコースの教授です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Maybe it was a map on a web site, Google Earth, an information booth or your cell phone telling you where you are.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135943Z" creationid="miurahr" creationdate="20201117T135943Z">
@@ -10711,6 +10871,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Moreover, the integrated Processing Toolbox, formerly known as SEXTANTE, brings the ability to easily incorporate geoprocessing algorithms from various applications into QGIS.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T221949Z" creationid="miurahr" creationdate="20201117T221949Z">
+        <seg>また、以前SEXTANTEとして知られていた統合処理ツールボックスは、容易にQGISに様々なアプリケーションからジオプロセシングアルゴリズムを組み込む能力をもたらします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Moreover, your license from a particular copyright holder is reinstated permanently if the copyright holder notifies you of the violation by some reasonable means, this is the first time you have received notice of violation of this License (for any work) from that copyright holder, and you cure the violation prior to 30 days after your receipt of the notice.</seg>
       </tuv>
       <tuv lang="ja">
@@ -10811,6 +10979,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>Nathan Woodrow</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>National University of Patagonia San Juan Bosco, Faculty of Humanities and Social Sciences.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T222231Z" creationid="miurahr" creationdate="20201117T222231Z">
+        <seg>パタゴニアサンフアンボスコ国立大学、人文社会科学学部の教員。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12575,6 +12751,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>QGIS seemed to be a perfect choice of GIS for the collected datasets.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T222117Z" creationid="miurahr" creationdate="20201117T222117Z">
+        <seg>QGISは、収集したデータセットのためのGISの完璧な選択であるように思われました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>QGIS training course at NIRD Jaipur Centre</seg>
       </tuv>
       <tuv lang="ja">
@@ -12587,6 +12771,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T114027Z" creationid="miurahr" creationdate="20201117T114027Z">
         <seg>QGISはドキュメントにDoxygenを使用しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>QGIS was chosen as the central integrating platform, due to its clear and accessible GUI, strong development community, ease of implementing additional functionalities through Python plugins and its high level of interoperability with major GIS data formats through the use of the Geospatial Data Abstraction Library (GDAL/OGR) library.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T221948Z" creationid="miurahr" creationdate="20201117T221948Z">
+        <seg>QGISは、その明確かつアクセス可能GUI、強力な開発コミュニティ、Pythonのプラグインや地理空間データ抽象化ライブラリを使用して、主要なGISデータ形式との相互運用性の高いレベルを通じて追加機能を実装の容易性（に、中央の統合プラットフォームとして選ばれましたGDAL / OGR）ライブラリ。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12631,10 +12823,50 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Quantarctica (QGIS + Antarctica) was first developed for in-house use at the Norwegian Polar Institute, as a tool for our glaciologists.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T222114Z" creationid="miurahr" creationdate="20201117T222114Z">
+        <seg>Quantarctica（QGIS +南極）は最初に当所の氷河学者のためのツールとして、ノルウェー極地研究所の所内使用のために開発されました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Quantarctica has been used to examine geographical data from continental to local scales, for viewing scientific project data on top of base maps or with other scientific datasets, and to prepare maps for publications and proposals.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T222104Z" creationid="miurahr" creationdate="20201117T222104Z">
+        <seg>Quantarcticaは、ベースマップの上に、または他の科学的データセットを科学的なプロジェクトデータを表示するために、大陸からローカルスケールの地理データを検査するために使用されており、出版物や提案のための地図を準備します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Quantarctica has so far proven to be a great tool, and a very good alternative and supplement to other software used by the researchers.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T222105Z" creationid="miurahr" creationdate="20201117T222105Z">
+        <seg>Quantarcticaは、研究者によって使用される他のソフトウェアに最適なツール、および非常に良い代替とサプリメントであることが、これまでに判ってきました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Quantarctica is a collection of Antarctic geographical datasets, such as base maps, satellite imagery, glaciology and geophysics data from data centres around the world, prepared for viewing in QGIS.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T222111Z" creationid="miurahr" creationdate="20201117T222111Z">
+        <seg>Quantarcticaは、QGISで表示するための準備、世界中のデータセンターから、ベース・マップ、衛星画像、氷河学や地球物理学データとして南極地理的データセットのコレクションです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Quantarctica is also useful when navigating on the Antarctic ice shelves thanks to the GPS tracking capabilities within QGIS.</seg>
       </tuv>
       <tuv lang="ja">
         <seg>Quantarcticaは、QGIS内のGPS追跡機能のおかげで、南極の棚氷上を移動するときも便利です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Quantarctica is to be all about community effort.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T222118Z" creationid="miurahr" creationdate="20201117T222118Z">
+        <seg>Quantarcticaは、すべてのコミュニティの努力程度になることです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12827,6 +13059,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>実際の地物</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Reason why we can consider that the green area by inhabitant in the study area is 15.7 m\ :sup:`2` (the WHO suggested value is 9 m\ :sup:`2` of green area by inhabitant).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T222253Z" creationid="miurahr" creationdate="20201117T222253Z">
+        <seg>私たちは調査地域における住民あたり緑地が\ 15.7 m\ :sup:`2` であることを考えることができる理由（緑豊かなエリアのWHO推奨値は、住民あたり9 m\ :sup:`2` です）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13687,6 +13927,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Since Quantarctica first came in use by our glaciologists three years ago, there has been many requests in the research community outside the institute to share this product, and we started to develop a public and improved version to replace the in-house version.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T222108Z" creationid="miurahr" creationdate="20201117T222108Z">
+        <seg>Quantarcticaが3年前に最初に当所の氷河学者によって使用されるようになってから、そこにこの製品を共有するために研究所外の研究コミュニティにおける多くの要求があり、私たちは所内バージョンを置き換える公式改良版の開発に着手しました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Since the start of operations in Afghanistan, DDG has removed over 24,000 landmines and over 940,000 pieces of UXO.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T062355Z" creationid="miurahr" creationdate="20201117T062355Z">
@@ -14095,6 +14343,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Students worked with all academic rigor and seriousness, showing appropriation of the thematic (urban green spaces) and also of the tool (QGIS).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T222126Z" creationid="miurahr" creationdate="20201117T222126Z">
+        <seg>学生はすべての学問的厳密さと真剣さをもって作業し、主題（都市緑地）の、またツール（QGIS）の充当を示す。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Student´s appropriation of a local issue (the Rada Tilly´s green areas related the 9 m\ :sup:`2` by inhabitant proposed by WHO) from a geographical perspective through GIS tools.</seg>
       </tuv>
       <tuv lang="ja">
@@ -14183,6 +14439,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Support for algorithms from ESA’s BEAM, NEST and Sentinel-1 Toolbox software and for setting up and executing SWAT based hydrological models was added to the Processing Toolbox during the WOIS development.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T221951Z" creationid="miurahr" creationdate="20201117T221951Z">
+        <seg>ESAのBEAM、NEST及びセンチネル-1 ToolboxソフトウェアからアルゴリズムのとSWATベースの水文モデルを設定し、実行するためのサポートはWOISの開発中Processing Toolboxのに追加されました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Survey grids with tiger presence</seg>
       </tuv>
       <tuv lang="ja">
@@ -14259,6 +14523,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T133727Z" creationid="miurahr" creationdate="20201117T133727Z">
         <seg>終了**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>TIGER-NET aims to support the satellite-based assessment and monitoring of water resources from watershed to cross-border basin levels through the provision of a free and powerful software package, with associated capacity building, to African  authorities.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T221941Z" creationid="miurahr" creationdate="20201117T221941Z">
+        <seg>TIGER-NETは、アフリカの当局に、関連するキャパシティ・ビルディングで、無料で強力なソフトウェアパッケージの提供を通じて、国境を越えた流域レベルに流域から衛星ベースの評価と水資源の監視をサポートすることを目指しています。 </seg>
       </tuv>
     </tu>
     <tu>
@@ -14759,10 +15031,50 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The WOIS can be seen as a multipurpose system consisting of a spatial database, facilities for extracting and processing EO data, and integrative tools and models aimed at decision support e.g. hydrological modelling and GIS-embedded visualization and analysis tools.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T221945Z" creationid="miurahr" creationdate="20201117T221945Z">
+        <seg>WOISは、空間データベース、EOデータを抽出して処理するための施設、および意思決定支援などの水文モデリングやGIS-埋め込まれた可視化および分析ツールを目指した統合的なツールやモデルからなる多目的システムとして見ることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The WOIS graphical user interface, including the embedded workflow library (center) and wizard-based processing workflow (right)</seg>
       </tuv>
       <tuv lang="ja">
         <seg>埋め込まれたワークフローライブラリ（中心）を含むWOISグラフィカル・ユーザ・インターフェース、およびウィザードベースの処理ワークフロー（右）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The WOIS has been developed under the TIGER-NET project, which is a major component of the TIGER initiative of the European Space Agency (ESA) and whose main goal is to support the African Earth observation capacity for water resource monitoring.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T221938Z" creationid="miurahr" creationdate="20201117T221922Z">
+        <seg>WOISはTIGER-NETプロジェクトの下で開発されてきました。これは欧州宇宙機関（ESA）のTIGERイニシアチブの主要な構成要素で、その主な目標は水資源のモニタリングのためのアフリカの地球観測能力をサポートすることです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The WOIS is already implemented in major African river basin authorities, several African ministries and agencies, as well as in research and humanitarian organizations.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T222019Z" creationid="miurahr" creationdate="20201117T222019Z">
+        <seg>WOISはすでに主要なアフリカの河川流域当局やいくつかのアフリカの省庁だけでなく、研究や人道組織で実装されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The WOIS is designed around QGIS, which acts as the front-end Graphical-User-Interface (GUI).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T221946Z" creationid="miurahr" creationdate="20201117T221946Z">
+        <seg>WOISは、フロントエンドグラフィカルユーザインタフェース（GUI）として機能QGIS、中心に設計されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The Water Observation and Information System (WOIS) is an open source software tool for monitoring, assessing and inventorying water resources in a cost-effective manner using Earth Observation (EO) data.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T221930Z" creationid="miurahr" creationdate="20201117T221930Z">
+        <seg>水観測情報システム（WOIS）とは地球観測（EO）データを使用して、費用対効果の高い方法で水資源を評価し、インベントリ、監視のためのオープンソースのソフトウェアツールです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14871,10 +15183,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The average population density would be of 61 inhabitants by hectare.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T222252Z" creationid="miurahr" creationdate="20201117T222252Z">
+        <seg>平均人口密度はヘクタール当たり住民61人になるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The border between the United States of America and Mexico is separated by a buffer zone.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141208Z" creationid="miurahr" creationdate="20201117T141208Z">
         <seg>アメリカとメキシコの境界はバッファゾーンによって分けられています</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The case of the urban green spaces in Rada Tilly coastal town analyzed by QGIS, tends to demonstrate a methodology of an academic exercise that can project, with important reaches, as formative instances related to the geographical reasoning in students of 12th grade of the Abraham Lincoln School.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T222247Z" creationid="miurahr" creationdate="20201117T222247Z">
+        <seg>QGISで分析したラダティリー海岸沿いの町の都市緑地の例では、エイブラハム・リンカーン学校の12年生の学生に地理的推論に関連する発達の実例として、重要な域で、投影できる学術的な練習の方法論を実証することになります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14963,6 +15291,22 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T145548Z" creationid="miurahr" creationdate="20201117T145548Z">
         <seg>使用するデータはどこかから持ってこなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The demonstration cases have several stages.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T221959Z" creationid="miurahr" creationdate="20201117T221959Z">
+        <seg>デモの例は、いくつかの段階があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The development of the WOIS represents a successful example of a user-driven and collaborative development model, where functionalities have been designed, developed and evaluated through user-designated cases in order to demonstrate the real impact of the system on enhancing water management and integrated water resource management plans.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T222011Z" creationid="miurahr" creationdate="20201117T222011Z">
+        <seg>WOISの開発はユーザー主導と共同開発モデルの成功例を表します。そこでは水管理と統合水資源管理計画を高める上でのシステムの実際の影響を実証するために、機能がユーザー指定の場合を介して、設計、開発、評価されてきました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15279,6 +15623,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The inputs and outputs of the Processing Toolbox algorithms can be evaluated with the QGIS capabilities of data I/O, rendering or map creation.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T221953Z" creationid="miurahr" creationdate="20201117T221953Z">
+        <seg>処理Toolboxアルゴリズムの入力と出力は、レンダリングや地図作成、データI / OのQGIS能力で評価できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The last step is to set up the Atlas tool:</seg>
       </tuv>
       <tuv lang="ja">
@@ -15423,6 +15775,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The next release of WOIS (due in the second half of April 2015) will already incorporate Sentinel-1 Toolbox and a number of workflows utilizing this new radar dataset for flood monitoring, water body mapping, etc.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T222027Z" creationid="miurahr" creationdate="20201117T222027Z">
+        <seg>WOISの次のリリース（2015年4月の後半に起因する）は、すでにセンチネル-1ツールボックス洪水の監視や水ボディマッピングなどのために、この新しいレーダーデータセットを利用したワークフローの数々が組み込まれてます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The number of bands in a raster image is referred to as its **spectral resolution**.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140331Z" creationid="miurahr" creationdate="20201117T140331Z">
@@ -15443,6 +15803,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T091547Z" creationid="miurahr" creationdate="20201117T091547Z">
         <seg>この例外の一つは暗黙的に共有されるオブジェクトで、常に値で返します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The operational and practical use of the WOIS to support integrated water resource management in Africa has been demonstrated via a series of user specific demonstration cases covering a wide range of themes and information products.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T221957Z" creationid="miurahr" creationdate="20201117T221957Z">
+        <seg>アフリカにおける統合的水資源管理をサポートするためのWOISの運用や実用は、テーマと情報製品の広い範囲をカバーし、ユーザー固有のデモンストレーション例シリーズを経て実証されています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15483,6 +15851,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>全体図は、野外チームが、一般的な森林地域内の詳細図を置くのに役立ちます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The package is developed by the Norwegian Polar Institute, as a tool for the research community, for classrooms and for operational use in Antarctica –-- freely available for non-commercial purposes.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T222113Z" creationid="miurahr" creationdate="20201117T222113Z">
+        <seg>パッケージは非商用目的のために自由に利用できる---教室用と南極の操作上の使用のために、研究コミュニティのためのツールとして、ノルウェー極地研究所によって開発されています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15807,10 +16183,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The toolbox also allows for easy incorporation of custom R and Python scripts.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T221952Z" creationid="miurahr" creationdate="20201117T221952Z">
+        <seg>ツールボックスは、カスタムRおよびPythonスクリプトを簡単に組み込むことが可能になります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The topologically correct border looks like this:</seg>
       </tuv>
       <tuv lang="ja">
         <seg>トポロジとして正しい境界線はこのようになります:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The total inventoried green areas grow up to 150.736 m\ :sup:`2` (15 hectares).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T222252Z" creationid="miurahr" creationdate="20201117T222252Z">
+        <seg>目録緑地は総計150.736 m\ :sup:`2` （15ヘクタール）まで成長。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16063,6 +16455,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>There was a need for a low or no cost complete GIS with essential datasets –-- ready-to-use, easy-to-use, functionality rich and with offline capabilities.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T222115Z" creationid="miurahr" creationdate="20201117T222115Z">
+        <seg>低償または無償の完全なGISの必要性がありました---使いやすい、すぐに使える基本的なデータセットを持つ、機能性豊かなオフライン機能。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>There you should have the :kbd:`all_conditions_simple.tif` calculated during the previous exercises.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T145440Z" creationid="miurahr" creationdate="20201117T145440Z">
@@ -16111,10 +16511,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>These include: lake water quality; flood monitoring; land degradation and land cover characterization; water bodies mapping and hydrological modelling.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T221958Z" creationid="miurahr" creationdate="20201117T221958Z">
+        <seg>これらの中にあるのは：湖沼水質；洪水の監視； 土地の劣化と土地被覆特性評価；水域マッピングおよび水文モデリング。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>These may be placed in the "History" section.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124728Z" creationid="miurahr" creationdate="20201117T124728Z">
         <seg>これらは、「履歴」セクションに配置できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>These people reside in 209 blocks and they represent 157.6 hectares.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T222251Z" creationid="miurahr" creationdate="20201117T222251Z">
+        <seg>これらの人々は209ブロック中に存在し、それらは157.6ヘクタールを表します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16295,6 +16711,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This can be used to create automatic processing models and, through a QGIS plugin developed during the TIGER-NET project, to sequentially combine algorithms from the different providers into wizard-based processing chains.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T221955Z" creationid="miurahr" creationdate="20201117T221955Z">
+        <seg>これは、自動処理のモデルを作成し、TIGER-NETプロジェクトで開発されたQGISプラグインを通じて、順次ウィザードベースの処理チェーンに異なるプロバイダからアルゴリズムを組み合わせるために使用することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This can cause a usability problem, especially if you have large datasets to create, or if you want other people to help you digitize and they find the default forms to be confusing.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T145842Z" creationid="miurahr" creationdate="20201117T145842Z">
@@ -16363,6 +16787,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>このファイルは地物をより早く検索するためにGISアプリケーションを助けるインデックスです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This functionality was used to create a library of standardized workflows (with instructions) for performing common but complex tasks related to EO data analysis within water resource management.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T221956Z" creationid="miurahr" creationdate="20201117T221956Z">
+        <seg>この機能は、水資源管理の中EOデータ分析に関連する共通だが複雑なタスクを実行するための（説明書付き）標準化されたワークフローのライブラリーを作成するために使用されました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16671,6 +17103,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This value proves a very favorable situation, as far as the environmental benefits, that trees offer to the inhabitants in this marine coastal town.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T222254Z" creationid="miurahr" creationdate="20201117T222254Z">
+        <seg>この値は、この海洋沿岸の町で樹木が住民に提供する、環境の利点の限り、非常に有利な状況を証明しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This will also be automatically tested on Travis as a unit test of the script itself.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T092010Z" creationid="miurahr" creationdate="20201117T092010Z">
@@ -16719,10 +17159,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This will turn WOIS into a fully-operational monitoring system.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T222028Z" creationid="miurahr" creationdate="20201117T222028Z">
+        <seg>これはWOISを完全運用監視システムに変えるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This will:</seg>
       </tuv>
       <tuv lang="ja">
         <seg>これにより：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Those workflows are subsequently used for product derivation over significant areas and time periods as requested by the users.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T222001Z" creationid="miurahr" creationdate="20201117T222001Z">
+        <seg>これらのワークフローは、その後、ユーザーの要求に応じて重要な領域と時間の期間にわたって、製品の導出のために使用されています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16739,6 +17195,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>マルチスペクトル画像のバンドの三つは色、赤、緑、青で表示できるので、それらは見ることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Through provision of this license-free, powerful and extendable system, and through continued capacity building and training efforts, the project thrives to build the basis for an extension, i.e. roll-out to other countries and regions in Africa and beyond.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T222030Z" creationid="miurahr" creationdate="20201117T222030Z">
+        <seg>このライセンスフリー、強力かつ拡張システムの提供を通じて、および継続的な能力開発や研修活動を通じて、プロジェクトは、アフリカの他の国と地域に及び越えて延長、すなわちロールアウトのための基盤を構築するために繁栄します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17927,6 +18391,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Vector digitizing of urban cadastral blocks and the tree´s canopies, using a Google Earth (GeoEye) image.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T222122Z" creationid="miurahr" creationdate="20201117T222122Z">
+        <seg>グーグルアース（ジオアイ）画像を使用して、都市地籍ブロックと樹冠のベクターデジタル化。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Vector features at a glance.</seg>
       </tuv>
       <tuv lang="ja">
@@ -18127,6 +18599,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>We have such a positive impression of the software that we will start the use of QGIS in our university courses, replacing GIS Proprietary software that we have being using.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T222256Z" creationid="miurahr" creationdate="20201117T222256Z">
+        <seg>私たちはこのソフトウェアにこのような肯定的な印象を持っていますので、本学のコースでは私たちが使用してきている商用GISソフトウェアを置き換え、QGISの使用を開始するでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>We have summarised the GIS Vector Data concept in Figure figure_vector_summary_.</seg>
       </tuv>
       <tuv lang="ja">
@@ -18171,6 +18651,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123317Z" creationid="miurahr" creationdate="20201117T123317Z">
         <seg>ベクターデータには， **ジオメトリ** と **属性** の２つのキーコンセプトがありました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>We started by the observation (inventory), digitizing the cadastral blocks and the green areas (tree´s canopy) using Google Earth satellite images.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T222248Z" creationid="miurahr" creationdate="20201117T222248Z">
+        <seg>私たちは、Google Earthの衛星画像を使用して地籍ブロックと緑地（樹冠）をデジタル化、観察（目録）によって開始されました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18851,6 +19339,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T220058Z" creationid="miurahr" creationdate="20201117T220058Z">
         <seg>3つの地上基準点がすでにデジタル化されていると、地理参照の誤差をポイントから出てくる赤い線として見ることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>With contributions we aim to expand with data from other disciplines, such as oceanography, atmospheric sciences, geology and biology, and hope and believe that this tool can be useful for the Antarctic community –-- as a complete Antarctic GIS package.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T222120Z" creationid="miurahr" creationdate="20201117T222120Z">
+        <seg>拠出金で、私たちは、海洋学、大気科学、地質学や生物学など他の分野からのデータで拡張することを目指し、このツールが、完全な南極GISパッケージとして、南極地域社会のために役立つことができることを希望し信じています。</seg>
       </tuv>
     </tu>
     <tu>
