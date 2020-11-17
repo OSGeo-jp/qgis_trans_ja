@@ -1526,6 +1526,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>A map with tourism layers.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123617Z" creationid="miurahr" creationdate="20201117T123617Z">
+        <seg>観光レイヤーを有する地図。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>A roads vector layer symbolised using a unique value per road type.</seg>
       </tuv>
       <tuv lang="ja">
@@ -1854,6 +1862,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>After defining our new layer’s geometry and attributes, we need to save it to disk.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123652Z" creationid="miurahr" creationdate="20201117T123652Z">
+        <seg>新しいレイヤーのジオメトリと属性を定義したら、それをディスクに保存する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>After making our adjustments it is much easier to see that our points represent trees.</seg>
       </tuv>
       <tuv lang="ja">
@@ -1886,10 +1902,34 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>After you click on the map, a window will appear and you can enter all of the **attribute data** for that point (see figure_attribute_dialog_).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123718Z" creationid="miurahr" creationdate="20201117T123718Z">
+        <seg>地図をクリックした後、ウィンドウが表示され、（ figure_attribute_dialog_ 参照）、その点に対して **属性データ** のすべてを入力できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>After you commit your changes GitHub will automatically open a new page comparing the changes you made in your ``patch-xxx`` branch to the ``qgis/QGIS-Documentation`` master branch.</seg>
       </tuv>
       <tuv lang="ja">
         <seg>変更をコミットした後、GitHubはあなたの ``patch-xxx`` ブランチで行った変更を ``qgis/QGIS-Documentation`` マスターブランチと比較する新しいページを自動的に開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>After you have captured the point geometry, you will be asked to describe its attributes.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123721Z" creationid="miurahr" creationdate="20201117T123721Z">
+        <seg>ポイントジオメトリをキャプチャした後は、その属性を記述するように求められます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>After you make your first click, you will notice that the line stretches like an elastic band to follow the mouse cursor around as you move it.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123729Z" creationid="miurahr" creationdate="20201117T123729Z">
+        <seg>最初のクリックをした後、マウスカーソルを移動するとそれを追いかけて線がゴムバンドのように伸びることがわかります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2174,10 +2214,42 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>As we covered in an earlier topic, this means choosing either point, polyline or polygon for the geometry.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123635Z" creationid="miurahr" creationdate="20201117T123635Z">
+        <seg>以前のトピックで取り上げたように、これはジオメトリにポイント、ポリラインまたはポリゴンのどれを選ぶかを意味します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>As we have already mentioned, high resolution raster data can require large amounts of computer storage.</seg>
       </tuv>
       <tuv lang="ja">
         <seg>すでに述べたように、高解像度のラスターデータは、コンピュータ記憶容量を大量に必要とすることがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>As well as choosing a name for each field, you need to indicate how the information should be stored in that field –-- i.e. is it a number, a word or a sentence, or a date?</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123645Z" creationid="miurahr" creationdate="20201117T123645Z">
+        <seg>各フィールドの名前を選択するのと同様に、情報がそのフィールドにどう格納されるかを示す必要があります---つまりそれは数か、単語や文章か、または日付か？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>As with the procedure for capturing a point feature, you will then be asked to enter in the attribute data for your new polyline feature.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123739Z" creationid="miurahr" creationdate="20201117T123739Z">
+        <seg>ポイント地物をキャプチャする手順のときと同じように、新しいポリライン地物の属性データへの入力を求められます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>As you can see it's often not easy to know what type of geometry you will need.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123613Z" creationid="miurahr" creationdate="20201117T123613Z">
+        <seg>おわかりのように、必要とするジオメトリのタイプを知ることはしばしば容易ではありません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2202,6 +2274,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>`GitHubアカウント &lt;https://github.com/join&gt;`_ はすでに取得しているものと仮定すると、まず最初にするべきは、ドキュメントのソースファイルをフォークすることです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>At regular intervals you would stop and take various measurements such as Dissolved Oxygen (DO) levels, Coliform Bacteria (CB) counts, Turbidity levels and pH.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123621Z" creationid="miurahr" creationdate="20201117T123621Z">
+        <seg>一定間隔で止まって、溶存酸素（DO）レベル、大腸菌群（CB）カウント、濁度レベルおよびpHなどの様々な測定値を取ることでしょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2338,6 +2418,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>属性データの詳細に移る前に、簡単にまとめてみましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Before you can create a new vector layer (which will be stored in a shapefile), you need know what the geometry of that layer will be (point, polyline or polygon), and you need to know what the attributes of that layer will be.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123552Z" creationid="miurahr" creationdate="20201117T123552Z">
+        <seg>新しいベクターレイヤー（シェープファイルに保存される）を作成する前に、そのレイヤーの形状（ポイント、ポリラインまたはポリゴン）がどうか、そのレイヤーの属性がどうなるか知っている必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2586,6 +2674,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>ジオメトリの取得</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Capturing lines for a tourism map.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123734Z" creationid="miurahr" creationdate="20201117T123734Z">
+        <seg>観光地図のラインをキャプチャします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3390,6 +3486,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Creating a new vector layer is as simple as filling in a few details in a form.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123637Z" creationid="miurahr" creationdate="20201117T123637Z">
+        <seg>新しいベクターレイヤーを作成することは、フォームにいくつかの詳細に記入するのと同じくらい簡単です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Creating an empty shapefile</seg>
       </tuv>
       <tuv lang="ja">
@@ -3838,10 +3942,34 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Each time you click with the **left mouse button**, a new vertex will be added to the map.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123731Z" creationid="miurahr" creationdate="20201117T123731Z">
+        <seg>**マウスの左ボタン** でクリックするたびに、新しい頂点が地図に追加されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Each type of application saves its data into a particular file format.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123322Z" creationid="miurahr" creationdate="20201117T123322Z">
+        <seg>アプリケーションの各タイプでは、特定のファイル形式にそのデータを保存します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Each vector feature has **attribute data** that describes it.</seg>
       </tuv>
       <tuv lang="ja">
         <seg>各ベクターの地物は、**属性データ** を持ち、それを記述します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Easy as 1-2-3!</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123659Z" creationid="miurahr" creationdate="20201117T123659Z">
+        <seg>1-2-3のように簡単に！</seg>
       </tuv>
     </tu>
     <tu>
@@ -4018,6 +4146,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>例2：川に沿った汚染レベルの地図作成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Example field names may be 'pH', 'RoofColour', 'RoadType' and so on.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123643Z" creationid="miurahr" creationdate="20201117T123643Z">
+        <seg>フィールド名の例としては「pH」、「屋根色」、「道路種別」などでしょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4238,6 +4374,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>First you choose the geometry type, and then you add the attribute fields.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123639Z" creationid="miurahr" creationdate="20201117T123639Z">
+        <seg>まず、ジオメトリタイプを選択し、それから属性フィールドを追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>First, add the sample plots measurements to your QGIS project:</seg>
       </tuv>
       <tuv lang="ja">
@@ -4258,6 +4402,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>まず、データをわずかに微調整しましょう:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>First, let's think about the geometry.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123601Z" creationid="miurahr" creationdate="20201117T123601Z">
+        <seg>まずは、ジオメトリについて考えてみましょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4334,6 +4486,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>For example, a graphics program will let you save your drawing as a :file:`.jpg` JPEG image, word processors let you save your document as an :file:`.odt` OpenDocument or :file:`.doc` Word Document, and so on.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123324Z" creationid="miurahr" creationdate="20201117T123324Z">
+        <seg>例えば、グラフィックスプログラムであれば図画を :file:`.jpg` JPEG画像として、ワードプロセッサであれば書類を :file:`.odt` OpenDocumentか :file:`.doc` ワード文書として保存できるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>For example, if we want to measure a distance of 100mm on a map with a scale of 1:25,000 we calculate the real world distance like this:</seg>
       </tuv>
       <tuv lang="ja">
@@ -4362,6 +4522,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>:kbd:`ゾーン` 7について： :kbd:`p_94.の南東にシベリアリス` 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For the attributes we would want a **field** for each thing that describes the sample site.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123624Z" creationid="miurahr" creationdate="20201117T123624Z">
+        <seg>属性のために、サンプルサイトを説明する各々の物事に対して **フィールド** が欲しくなるかもしれません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4646,6 +4814,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Good examples are 'rivers', 'watersamples' and so on.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123650Z" creationid="miurahr" creationdate="20201117T123650Z">
+        <seg>良い例は「河川」、「水質標本」などです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Graduated Symbols</seg>
       </tuv>
       <tuv lang="ja">
@@ -4702,6 +4878,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Having done that, the next place you click with the **left mouse button** in the map view, is where you want your new point **geometry** to appear.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123717Z" creationid="miurahr" creationdate="20201117T123717Z">
+        <seg>それが終わったら、 地図ビューの中の **マウスの左ボタン** で次にクリックした場所が、新しいポイント **ジオメトリ** を配置したい場所です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Hazardous areas already cleared show as light green.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T062757Z" creationid="miurahr" creationdate="20201117T062721Z">
@@ -4738,6 +4922,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>上向きのデジタル化</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Her goal is to continue her studies and become a nurse.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123233Z" creationid="miurahr" creationdate="20201117T123233Z">
+        <seg>目標は研究を続けることと看護婦になることです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4894,6 +5086,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If we have whole areas that are of tourism interest, such as a nature reserve or a cultural village, polygons might make a good choice.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123611Z" creationid="miurahr" creationdate="20201117T123611Z">
+        <seg>自然保護区や文化村など、全体が観光上関心のある領域がある場合は、ポリゴンを選択するのが良いかもしれません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If we look at our people example, the table definition shows that the street column is a foreign key that references the primary key on the streets table:</seg>
       </tuv>
       <tuv lang="ja">
@@ -4906,6 +5106,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>人数を街路名で要約したい場合は、こうすることができます:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If we wanted to take tourists along a route, such as a scenic route through a mountain pass, it might make sense to use polylines.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123610Z" creationid="miurahr" creationdate="20201117T123610Z">
+        <seg>峠を通じて風光明媚なルートなど、ルートに沿って観光客を取るしたい場合は、ポリラインを使用しても意味があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4938,6 +5146,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>gitやGitHubで使われる言葉にまだ馴染みがない場合は、GitHubの `Hello-world &lt;https://guides.github.com/activities/hello-world/&gt;`_ プロジェクトを読んで、以下でも使われる基本的な語彙と操作について学んだ方がいいでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If you are unsure of the data for a given field you can usually leave it blank, but be aware that if you leave a lot of fields blank it will be hard to make a useful map from your data!</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123720Z" creationid="miurahr" creationdate="20201117T123720Z">
+        <seg>与えられたフィールドのデータが不明な場合は、通常は空白のままにしますが、空白のフィールドを多く残しているとデータから有用な地図を作るのは難しいだろうことはご承知おきください！</seg>
       </tuv>
     </tu>
     <tu>
@@ -5038,6 +5254,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If you want to share vector data stored in shapefiles with another person, it is important to give them all of the files for that layer.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123537Z" creationid="miurahr" creationdate="20201117T123537Z">
+        <seg>他の人とシェープファイルに保存されたベクターデータを共有したい場合、そのレイヤーのためのファイルすべてを渡すことが重要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If you wanted to measure pollution levels along the course of a river you would typically travel along the river in a boat or walk along its banks.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123620Z" creationid="miurahr" creationdate="20201117T123620Z">
+        <seg>川のコースに沿って汚染レベルを測定したい場合は、通常はボートで川に沿って移動するか、その土手に沿って歩きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If you're done making changes, skip to :ref:`Compare changes &lt;compare_changes&gt;` in the :ref:`Share your changes via Pull Request &lt;sharing_changes&gt;` section below.</seg>
       </tuv>
       <tuv lang="ja">
@@ -5090,6 +5322,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>単一バンドの画像はグレースケール画像と呼ばれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Imagine that you want to create a nice tourism map for your local area.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123556Z" creationid="miurahr" creationdate="20201117T123556Z">
+        <seg>お住まいの地域のために素敵な観光地図を作成したいと思っているとしましょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5186,6 +5426,22 @@
       </tuv>
       <tuv lang="ja">
         <seg>必要に応じて各セクションには、内部リンク、外部リンク、およびスクリーンショットが含まれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In figure_tourism_ we can see how our tourism layers might look on a map if we used all three geometry types.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123616Z" creationid="miurahr" creationdate="20201117T123616Z">
+        <seg>figure_tourism_ では、すべての3つのジオメトリタイプを使用した場合、当社の観光レイヤーが地図上でどのように見えるかがわかります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In general storing GIS data in a database is a good solution because the database can store **large amounts** of data **efficiently** and can provide data to the GIS Application quickly.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123546Z" creationid="miurahr" creationdate="20201117T123546Z">
+        <seg>データベースにGISデータを保存することは、データベースは、 **大量** のデータを **効率的** に保存でき、迅速にGISアプリケーションにデータを提供できるため、一般的に良いソリューションです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5402,6 +5658,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>右側のパネルで :guilabel:`地図帳作成` タブに行きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In the previous two topics we looked at vector data.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123315Z" creationid="miurahr" creationdate="20201117T123315Z">
+        <seg>先の二つのトピックでは、ベクターデータを見てきました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5686,6 +5950,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>It is important to give a short but meaningful name to your shapefile.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123653Z" creationid="miurahr" creationdate="20201117T123653Z">
+        <seg>シェープファイルに短いが意味のある名前を与えることが重要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>It is requested, but not required, that you contact the authors of the Document well before redistributing any large number of copies, to give them a chance to provide you with an updated version of the Document.</seg>
       </tuv>
       <tuv lang="ja">
@@ -5762,6 +6034,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>下の :ref:`ファイルを修正する &lt;modify_files&gt;` に飛んでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Just like these other applications, GIS Applications can store their data in files on the computer hard disk.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123339Z" creationid="miurahr" creationdate="20201117T123339Z">
+        <seg>これらの他のアプリケーションと同様に、GISアプリケーションもコンピュータのハードディスク上のファイルにデータを格納できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5878,6 +6158,38 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Lerato Nsibande –-- Video Presenter.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123219Z" creationid="miurahr" creationdate="20201117T123219Z">
+        <seg>Lerato Nsibande –--ビデオプレゼンター。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Lerato is a grade 12 scholar living in Pretoria.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123226Z" creationid="miurahr" creationdate="20201117T123226Z">
+        <seg>Lerato はプレトリアに住む高校3年生です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Lerato learns Geography at school and has enjoyed learning GIS with us!</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123222Z" creationid="miurahr" creationdate="20201117T123222Z">
+        <seg>Lerato は学校で地理学を学び、私たちと一緒にGISを学ぶことを楽しんでいます！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Let's look at a few examples and it will become clearer how to go about doing this.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123553Z" creationid="miurahr" creationdate="20201117T123553Z">
+        <seg>いくつかの例を見てみましょう、そうすればこれをやって行く方法がより明確になるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Let's look at our people table now:</seg>
       </tuv>
       <tuv lang="ja">
@@ -5890,6 +6202,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>さあ、では集中して始めてみましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Let's recap the process again quickly.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123655Z" creationid="miurahr" creationdate="20201117T123655Z">
+        <seg>再び処理を手短におさらいしてみましょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6078,6 +6398,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Many GIS Applications are also able to store digital data inside a **database**.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123544Z" creationid="miurahr" creationdate="20201117T123544Z">
+        <seg>多くのGISアプリケーションでは、 **データベース** 内にもデジタルデータを保存できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Map 1.1 Snowy Water Catchment Map</seg>
       </tuv>
       <tuv lang="ja">
@@ -6178,6 +6506,30 @@
       </tuv>
       <tuv lang="ja">
         <seg>地図は普通 **北が上** で表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Marcelle Sutton --- Project Manager.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T122751Z" creationid="miurahr" creationdate="20201117T122751Z">
+        <seg>Marcelle Sutton --- プロジェクト・マネージャ。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Marcelle Sutton studied English and drama and is a qualified teacher.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T122757Z" creationid="miurahr" creationdate="20201117T122749Z">
+        <seg>Marcelle Sutton は英語とドラマを研究し、教員資格を持っています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Marcelle is also a founding member of Linfiniti Consulting CC.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T122900Z" creationid="miurahr" creationdate="20201117T122900Z">
+        <seg>Marcelleはまた、 Linfiniti Consulting CCの創立メンバーです。 </seg>
       </tuv>
     </tu>
     <tu>
@@ -6502,10 +6854,34 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Next we need to start adding data.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123710Z" creationid="miurahr" creationdate="20201117T123710Z">
+        <seg>次は、データの追加を開始する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Next you should define the transformation settings for georeferencing the map:</seg>
       </tuv>
       <tuv lang="ja">
         <seg>次は地図を地理参照するための変換設定を定義する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Next you will add fields to the attribute table.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123640Z" creationid="miurahr" creationdate="20201117T123640Z">
+        <seg>次は属性テーブルにフィールドを追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Next you will need to enable the point capture tool.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123715Z" creationid="miurahr" creationdate="20201117T123715Z">
+        <seg>次にポイントキャプチャツールを有効にする必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6542,6 +6918,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Normally we give field names that are short, have no spaces and indicate what type of information is being stored in that field.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123641Z" creationid="miurahr" creationdate="20201117T123641Z">
+        <seg>通常は、短くて空白を含まず、フィールドに格納されている情報の種類を示唆するフィールド名を与えます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>North arrow in detail</seg>
       </tuv>
       <tuv lang="ja">
@@ -6562,6 +6946,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>索引図は、詳細地図に示されている範囲の陰影付の枠を表示していることにも注意。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Note that the geometry (positions where samples were taken) is not shown in the attribute table --– the GIS Application stores it separately!</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123632Z" creationid="miurahr" creationdate="20201117T123632Z">
+        <seg>ジオメトリ（サンプルが採取された位置）は属性テーブルに示されていないことに注意してください--- GISアプリケーションではジオメトリは別途保存されます！</seg>
       </tuv>
     </tu>
     <tu>
@@ -6678,6 +7070,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Now we need to enable editing in the shapefile using the 'enable editing' menu option or tool bar icon in the GIS Application.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123703Z" creationid="miurahr" creationdate="20201117T123703Z">
+        <seg>今は、GISアプリケーションの「編集を有効」メニューオプションまたはツールバーのアイコンを使用してシェープファイルでの編集を有効にする必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Now you are ready to get a local clone of **your** QGIS-Documentation repository.</seg>
       </tuv>
       <tuv lang="ja">
@@ -6790,6 +7190,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Once again it is a good idea to give the shapefile a short and meaningful name.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123648Z" creationid="miurahr" creationdate="20201117T123648Z">
+        <seg>今度もシェープファイルに短くて意味のある名前を付けることをお勧めします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Once downloaded open the disk image and run the installer.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T114322Z" creationid="miurahr" creationdate="20201117T114322Z">
@@ -6802,6 +7210,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>どんな地物をGISに取り込むか、またそれぞれの地物がどんなジオメトリタイプと属性を持つべきか計画したら、空のシェープファイルを作成するための次のステップに進むことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>One common approach to this problem is to make one layer for each geometry type you need.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123613Z" creationid="miurahr" creationdate="20201117T123613Z">
+        <seg>この問題に対する1つの一般的なアプローチは、必要とする各ジオメトリタイプごとに1つレイヤーを作ることです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8230,10 +8646,42 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Setting up a database to store GIS data is more complicated than using shapefiles, so for this topic we will focus on creating and editing shapefiles.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123549Z" creationid="miurahr" creationdate="20201117T123549Z">
+        <seg>GISデータを格納するデータベースを設定するのはシェープファイルを使用するよりも複雑ですので、このトピックでは、シェープファイルの作成および編集に焦点を当てます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Shapefiles are not enabled for editing by default to prevent accidentally changing or deleting the data they contain.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123708Z" creationid="miurahr" creationdate="20201117T123708Z">
+        <seg>シェープファイルが誤って、それらに含まれるデータの変更や削除を防ぐために、デフォルトでは編集のために有効になっていません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Share your Changes</seg>
       </tuv>
       <tuv lang="ja">
         <seg>変更を共有する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sibongile Mthombeni –-- Video Presenter.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123230Z" creationid="miurahr" creationdate="20201117T123230Z">
+        <seg>Sibongile Mthombeni –-- ビデオプレゼンター。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sibongile lives near Johannesburg with her young daughter.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123232Z" creationid="miurahr" creationdate="20201117T123232Z">
+        <seg>Sibongileは幼い娘と一緒にJohannesburgの近くに住んでいます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8310,10 +8758,42 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>So far we have only created an empty shapefile.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123700Z" creationid="miurahr" creationdate="20201117T123700Z">
+        <seg>これまでのところは、空のシェープファイルを作成しただけです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>So in the case of the trees layer shown in figure_shapefile_, you would need to give the person :file:`trees.shp`, :file:`trees.shx`, :file:`trees.dbf`, :file:`trees.prj` and :file:`trees.qml`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123541Z" creationid="miurahr" creationdate="20201117T123541Z">
+        <seg>figure_shapefile_ に示す樹木レイヤーの場合、 :file:`trees.shp` 、 :file:`trees.shx` 、 :file:`trees.dbf` 、 :file:`trees.prj` 、 :file:`trees.qml` を渡す必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>So now you have the choice between two remote repository:</seg>
       </tuv>
       <tuv lang="ja">
         <seg>これで2つのリモートリポジトリの、どちらかを選ぶことができるようになりました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>So we may end up with an attribute table that looks something like table_river_attributes_.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123625Z" creationid="miurahr" creationdate="20201117T123625Z">
+        <seg>だから table_river_attributes_ のように見える属性テーブルで終わることがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>So, for example, if you look at digital data provided by the Chief Directorate: Surveys and Mapping, South Africa, they provide a river areas (polygons) layer and a rivers polyline layer.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123614Z" creationid="miurahr" creationdate="20201117T123614Z">
+        <seg>南アフリカ地図測量室が提供するデジタルデータを見るのであれば、例えば、彼らは河川区域（ポリゴン）レイヤーや河川ポリラインレイヤーを提供しています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8622,6 +9102,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Table River Attributes 1: Drawing a table like this before you create your vector layer will let you decide what attribute fields (columns) you will need.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123631Z" creationid="miurahr" creationdate="20201117T123631Z">
+        <seg>テーブル河川属性1：ベクターレイヤーを作成する前に、このようなテーブルを描くと、どんな属性フィールド（列）が必要となるかを決定できるようになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Table Shapefile 1: The basic files that together make up a 'shapefile'.</seg>
       </tuv>
       <tuv lang="ja">
@@ -8886,6 +9374,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The attribute form is based on the fields you specified when you created the vector layer.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123723Z" creationid="miurahr" creationdate="20201117T123723Z">
+        <seg>属性フォームは、ベクターレイヤーを作成したときに指定したフィールドに基づいています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The attributes are stored in a **table**</seg>
       </tuv>
       <tuv lang="ja">
@@ -8974,6 +9470,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The final step (as shown in figure_save_shapefile_) for creating a shapefile is to give it a name and a place on the computer hard disk where it should be created.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123647Z" creationid="miurahr" creationdate="20201117T123647Z">
+        <seg>シェープファイルを作成するための最後のステップは、（ figure_save_shapefile_ に示されるように）、名前と、それが作成されるべきであるコンピュータのハードディスク上の場所を与えることです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The first coordinate for the georeferencing is now ready.</seg>
       </tuv>
       <tuv lang="ja">
@@ -9030,6 +9534,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The geometry of a vector feature describes its **shape** and **position**, while the **attributes** of a vector feature describe its **properties** (colour, size, age etc.).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123320Z" creationid="miurahr" creationdate="20201117T123320Z">
+        <seg>ベクター地物のジオメトリは， **図形** と **位置** を示し、 **属性** は **プロパティ** （色、大きさ、年など）を示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The geometry of vector features are stored in this file</seg>
       </tuv>
       <tuv lang="ja">
@@ -9082,6 +9594,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>モジュールレベルのインデックスファイルは次のようになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The name is a little odd in that although we call it a shape file (singular), it actually consists of at least three different files that work together to store your digital vector data, as shown in table_shapefile_.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123424Z" creationid="miurahr" creationdate="20201117T123424Z">
+        <seg>名前に少し奇妙なところがあります。シェープファイル（単数）と呼びますが、それは実際には table_shapefile_ に示すように、デジタルベクターデータを保存するために一緒に動作する最低３つの異なるファイルで構成されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9146,6 +9666,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>QGISで新しいファンディ小径地図を作成するプロセスは、3つの異なる部分に分けることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The process usually starts with choosing the 'new vector layer' option in your GIS Application and then selecting a geometry type (see figure_new_shapefile_).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123634Z" creationid="miurahr" creationdate="20201117T123634Z">
+        <seg>このプロセスは通常、GISアプリケーションで「新規ベクターレイヤー」オプションを選択して、ジオメトリタイプを選択することから始まります（ figure_new_shapefile_ を参照）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9270,6 +9798,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>There are a number of different file formats for GIS data, but the most common one is probably the 'shape file'.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123428Z" creationid="miurahr" creationdate="20201117T123349Z">
+        <seg>GISデータのファイル形式はさまざまありますが、最も一般的なものは、おそらく「シェープファイル」です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>There are different kinds of normalisation 'forms'.</seg>
       </tuv>
       <tuv lang="ja">
@@ -9282,6 +9818,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>ラインとポリゴンの地物のシンプルなシンボルを定義するための様々なオプションがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>There are two steps we need to complete for each record we add to the shapefile:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123712Z" creationid="miurahr" creationdate="20201117T123712Z">
+        <seg>シェープファイルに追加するレコードごとに、2つのステップを完了する必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9338,6 +9882,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>これらの基準は、すべての QGIS 開発者が守るべきです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>They use the river areas (polygons) to represent river stretches that are wide, and they use river polylines to represent narrow stretches of river.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123615Z" creationid="miurahr" creationdate="20201117T123615Z">
+        <seg>河川の広い拡がりを表現するためには河川区域（ポリゴン）を使用し、川の狭い拡がりを表現するために河川ポリラインを使用しています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9450,6 +10002,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>これは、地図上の100ミリメートルは、実世界の250万ミリメートル（2500メートル）と等価であることを意味します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This process is shown in figure_capture_polyline_.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123732Z" creationid="miurahr" creationdate="20201117T123732Z">
+        <seg>この手順は、 figure_capture_polyline_ に示されています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9622,6 +10182,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>To **capture a point**, you first use the map pan and zoom tools to get to the correct geographical area that you are going to be recording data for.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123713Z" creationid="miurahr" creationdate="20201117T123713Z">
+        <seg>**ポイントをキャプチャする** には、まず、地図のパンとズームツールを使用して、データを記録しようとしている正しい地理的領域に行きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>To **capture a polyline** the process is similar to that of a point, in that you need to first use the pan and zoom tools to move the map in the map view to the correct geographical area.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123725Z" creationid="miurahr" creationdate="20201117T123725Z">
+        <seg>**ポリラインをキャプチャする** には、手順はポイントと同様で、まず正しい地理的エリアへ地図ビューで地図を移動するためにパンとズームツールを使用する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>To add a lesson to a new or existing module:</seg>
       </tuv>
       <tuv lang="ja">
@@ -9698,6 +10274,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>アルゴリズムプロバイダを含むプラグインをイチから作るには、Plugin Builder を使って以下のステップに従います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>To create a shapefile you first say what kind of geometry it will hold, then you create one or more fields for the attribute table, and then you save the shapefile to the hard disk using an easy to recognise name.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123657Z" creationid="miurahr" creationdate="20201117T123657Z">
+        <seg>シェープファイルを作成するには、最初にそれが保持するジオメトリの種類を言い、それから属性テーブルのために1つ以上のフィールドを作成し、認識しやすい名前を使用してハードディスクにシェープファイルを保存します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9810,6 +10394,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>（上記のように）このセクションを開始するには、意図した難易度のマークアップ語句を書き込みます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>To store the data collected from an exercise like this in a GIS Application, you would probably create a GIS layer with a point geometry.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123623Z" creationid="miurahr" creationdate="20201117T123623Z">
+        <seg>GISアプリケーションでは、このような実習から収集したデータを格納するためには、おそらく点ジオメトリを持つGISレイヤーを作成します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10214,6 +10806,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Using a database also allows many people to work with the same vector data layers at the same time.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123547Z" creationid="miurahr" creationdate="20201117T123547Z">
+        <seg>データベースを使用すると、多くの人が同時に同じベクターデータレイヤーで作業できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Using diagrams comparing population between two censuses</seg>
       </tuv>
       <tuv lang="ja">
@@ -10226,6 +10826,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>等幅のテキストを使用して</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Using point geometry makes sense here because each sample taken represents the conditions at a very specific place.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123623Z" creationid="miurahr" creationdate="20201117T123623Z">
+        <seg>撮影した各サンプルは非常に限られた場所での条件を表しているため、点ジオメトリを使用することはここでは意味があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10470,6 +11078,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>We could use points if we wanted to mark specific locations such as look out points, memorials, battle sites and so on.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123609Z" creationid="miurahr" creationdate="20201117T123609Z">
+        <seg>外を見るポイント、記念碑、古戦場などの特定の位置をマークしたい場合はポイントを使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>We have already looked at how to import data into a spatial database using command line tools, so now let's learn how to use DB Manager to do imports.</seg>
       </tuv>
       <tuv lang="ja">
@@ -10494,10 +11110,34 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>We have used three different geometry types for tourism data so that we can properly represent the different kinds of features needed for our visitors, giving them all the information they need.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123618Z" creationid="miurahr" creationdate="20201117T123618Z">
+        <seg>適切に彼らが必要なすべての情報を与え、訪問者のために必要な地物の種類を表すことができるよう、観光のデータのための3つの異なるジオメトリタイプを使用していました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>We hope you enjoy using and learning QGIS in the spirit of Ubuntu!</seg>
       </tuv>
       <tuv lang="ja">
         <seg>Ubuntuの精神に基づき、QGISを使うことと学ぶことを楽しんで下さることを願っています！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>We know that we can represent a vector layer using point, polyline or polygon features.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123602Z" creationid="miurahr" creationdate="20201117T123602Z">
+        <seg>ベクターレイヤーはポイント、ポリラインまたはポリゴンの地物を使用して表現できることはわかっています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>We saw that there are two key concepts to vector data, namely: **geometry** and **attributes**.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123317Z" creationid="miurahr" creationdate="20201117T123317Z">
+        <seg>ベクターデータには， **ジオメトリ** と **属性** の２つのキーコンセプトがありました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10574,10 +11214,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>When adding a new line (shown in red), each click of the mouse will add a new vertex.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123736Z" creationid="miurahr" creationdate="20201117T123736Z">
+        <seg>（赤で表示）新しい行を追加する場合は、マウスをクリックするたびに、新しい頂点を追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>When adding an image, save it to the folder :kbd:`_static/lesson_name/`.</seg>
       </tuv>
       <tuv lang="ja">
         <seg>画像を追加する場合は、フォルダ :kbd:`_static/lesson_name/` に保存します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>When editing a line layer, the vertices are shown with circular markers which you can move about with the mouse to adjust the line's geometry.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123735Z" creationid="miurahr" creationdate="20201117T123735Z">
+        <seg>ラインレイヤーを編集する場合、頂点はラインのジオメトリを調整するために、マウスで動き回ることができ、円形のマーカーで示されています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10630,6 +11286,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>When you are ready, you can click the polyline capture icon in the tool bar and then start drawing your line by clicking on the map.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123728Z" creationid="miurahr" creationdate="20201117T123728Z">
+        <seg>準備ができたら、ツールバーのポリラインキャプチャアイコンをクリックし、地図をクリックしてライの描画を開始できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>When you choose to use points to represent a feature is mostly a matter of scale (how far away are you from the feature), convenience (it takes less time and effort to create point features than polygon features), and the type of feature (some things like telephone poles just don't make sense to be stored as polygons).</seg>
       </tuv>
       <tuv lang="ja">
@@ -10642,6 +11306,22 @@
       </tuv>
       <tuv lang="ja">
         <seg>そうするとカスタムダイアログが表示されます(QGISが通常作成するものの代わりに)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>When you have finished defining your line, use the **right mouse button** to tell the GIS Application that you have completed your edits.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123738Z" creationid="miurahr" creationdate="20201117T123738Z">
+        <seg>ラインの定義が終了したら、編集が完了したことをGISアプリケーションを伝えるために **マウスの右ボタン** を使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>When you look at the files that make up a shapefile on the computer hard disk, you will see something like figure_shapefile_.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123535Z" creationid="miurahr" creationdate="20201117T123535Z">
+        <seg>コンピュータのハードディスク上のシェープファイルを構成するファイルを見てみると、 figure_shapefile_ のようなものが表示されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10682,6 +11362,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>より読みやすいのは、こちら:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Which one makes the most sense for our tourism map?</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123603Z" creationid="miurahr" creationdate="20201117T123603Z">
+        <seg>この観光地図にはどれが最も理にかなっていますか？</seg>
       </tuv>
     </tu>
     <tu>
@@ -10746,6 +11434,22 @@
       </tuv>
       <tuv lang="ja">
         <seg>選択された小地図では、 :guilabel:`地図キャンバス範囲を設定` をクリックし 、その範囲を地図ウィンドウで見えるものに設定してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Word processors, spreadsheets and graphics packages are all programs that let you create and edit digital data.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123312Z" creationid="miurahr" creationdate="20201117T123312Z">
+        <seg>ワードプロセッサ、スプレッドシート、グラフィックパッケージはすべて、デジタルデータを作成し編集するプログラムです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Working on this project was the first time Sibongile used a computer.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123235Z" creationid="miurahr" creationdate="20201117T123235Z">
+        <seg>このプロジェクトでの成果は Sibongileが初めてコンピュータを使用したことでした。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11086,6 +11790,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You should be zoomed in enough so that your new vector polyline feature will have an appropriate scale (see :ref:`gentle_gis_vector_data` for more details on scale issues).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123726Z" creationid="miurahr" creationdate="20201117T123726Z">
+        <seg>新しいベクターポリライン地物が適切な縮尺を持つようにするには十分にズームインする必要があります（縮尺の問題の詳細については、 :ref:`gentle_gis_vector_data` を参照）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You should first open the DB Manager interface by selecting :guilabel:`Database --&gt; DB Manager --&gt; DB Manager` on the menu or by selecting the DB Manager icon on the toolbar.</seg>
       </tuv>
       <tuv lang="ja">
@@ -11134,10 +11846,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You would also need to make a map reading of your position or obtain your position using a GPS receiver.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123622Z" creationid="miurahr" creationdate="20201117T123622Z">
+        <seg>自分の位置の地図読みをしたり、GPS受信機を使用して自分の位置を取得する必要もあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You've seen how to use queries to return the data in your database in a way that allows you to extract useful information from it.</seg>
       </tuv>
       <tuv lang="ja">
         <seg>クエリを使用して、データベース内の有用な情報を抽出できるような形でデータを返す方法を見てきました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Your vision of the final map is a 1:50 000 toposheet with markers overlaid for sites of interest to tourists.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123559Z" creationid="miurahr" creationdate="20201117T123559Z">
+        <seg>最終的な地図に対するビジョンは、観光客への関心のサイトのためにオーバーレイマーカーと5万分の１のトポシートです。</seg>
       </tuv>
     </tu>
     <tu>
