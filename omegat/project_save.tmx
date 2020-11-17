@@ -150,6 +150,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>**Geography:** Can you and your learners think of how raster data from satellites could be useful?</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135341Z" creationid="miurahr" creationdate="20201117T135341Z">
+        <seg>**地理学：** あなたやあなたの生徒たちはどのように衛星データからラスターデータを活用できると思いますか？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>**Geography:** Describe the concept of GIS to your learners as outlined in this tutorial.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135245Z" creationid="miurahr" creationdate="20201117T135245Z">
+        <seg>**地理情報：** このチュートリアルで示すように、GISのコンセプトを示す概念です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>**Graduated colour** symbology groups the data into discrete classes</seg>
       </tuv>
       <tuv lang="ja">
@@ -242,6 +258,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>**プルリクエストへの提案をバッチとして追加したいときは**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>**Raster data** are stored as a grid of values.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135132Z" creationid="miurahr" creationdate="20201117T135132Z">
+        <seg>**ラスターデータ** は値のグリッドとして格納されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2054,6 +2078,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>After changing the layer order, rivers are drawn on top of roads</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T134800Z" creationid="miurahr" creationdate="20201117T134800Z">
+        <seg>レイヤの順序を変更すると、道路の上に河川が表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>After defining our new layer’s geometry and attributes, we need to save it to disk.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123652Z" creationid="miurahr" creationdate="20201117T123652Z">
@@ -2526,6 +2558,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Ask them to try to think of 3 reasons why it might be handy to use a GIS instead of paper maps.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135300Z" creationid="miurahr" creationdate="20201117T135300Z">
+        <seg>なぜ紙地図よりGISの方が便利なのか, GISを学習する人たちに3つ理由を考えさせてみて下さい。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Aspect assessment and mapping</seg>
       </tuv>
       <tuv lang="ja">
@@ -2682,6 +2722,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>:kbd:`ORDER BY` 句を使用しなかったため、検索結果の順序はここに示したものとは一致しない場合があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Before changing the layer order, rivers are drawn underneath roads</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T134457Z" creationid="miurahr" creationdate="20201117T134457Z">
+        <seg>重なり順を変更前は河川が道路の下に描かれています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3018,6 +3066,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>ケーススタディ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Changing the layer order allows to adjust the way that layers are drawn.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T134532Z" creationid="miurahr" creationdate="20201117T134532Z">
+        <seg>レイヤーの重なり順の変更により道路の描かれ方を調整できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3958,6 +4014,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Data is another word for **information**.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T134909Z" creationid="miurahr" creationdate="20201117T134909Z">
+        <seg>データは **情報** と言い換えることもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Database Theory</seg>
       </tuv>
       <tuv lang="ja">
@@ -4002,6 +4066,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T114150Z" creationid="miurahr" creationdate="20201117T114150Z">
         <seg>Debianベースのdistroユーザは次のことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Deciding which GIS Application to use is a question of how much money you can afford and personal preference.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T134810Z" creationid="miurahr" creationdate="20201117T134810Z">
+        <seg>どの GISア プリケーションを選択するかはどの程度の予算を用意できるかによります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4282,6 +4354,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>ビューの削除</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>During natural disasters, raster data can be useful to show where the impacted areas are.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135419Z" creationid="miurahr" creationdate="20201117T135419Z">
+        <seg>災害発生時、対象地域を見るのにラスターデータは便利です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4918,6 +4998,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>For example a recent satellite image taken during a flood can help to show where people may need rescuing.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135422Z" creationid="miurahr" creationdate="20201117T135422Z">
+        <seg>最新の洪水発生時の衛星画像をにより人々がどのあたりで救助を必要としているのか見ることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>For example you may use the menus to tell the GIS Application to add a new layer to the display output.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T134309Z" creationid="miurahr" creationdate="20201117T134309Z">
@@ -4978,6 +5066,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123624Z" creationid="miurahr" creationdate="20201117T123624Z">
         <seg>属性のために、サンプルサイトを説明する各々の物事に対して **フィールド** が欲しくなるかもしれません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For these tutorials, we will be using the QGIS Application.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T134813Z" creationid="miurahr" creationdate="20201117T134813Z">
+        <seg>このチュートリアルでは QGIS アプリケーションを用います。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5446,6 +5542,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Here are some ideas we had:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135344Z" creationid="miurahr" creationdate="20201117T135344Z">
+        <seg>ここではいくつかアイデアを述べていきます：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Here are some that we could think of:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135310Z" creationid="miurahr" creationdate="20201117T135310Z">
+        <seg>以下にはいくつかの例を示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Here is an example of a numerical filter which only returns objects whose ``house_no`` is less than 50:</seg>
       </tuv>
       <tuv lang="ja">
@@ -5458,6 +5570,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>正しい出力はこのように見えるでしょう:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Here we can see mountains in the Eastern Cape.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135203Z" creationid="miurahr" creationdate="20201117T135203Z">
+        <seg>.こちらは東ケープの山岳地帯です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5538,6 +5658,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201029T134551Z" creationid="miurahr" creationdate="20201029T134551Z">
         <seg>置換が存在しない場合、</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If not, you can always visit https://www.qgis.org/ to download your free copy if you have access to the internet.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T134821Z" creationid="miurahr" creationdate="20201117T134821Z">
+        <seg>そうでない場合も、インターネットにアクセスすることができれば、いつでもダウンロードページ https://www.qgis.org/ にアクセスすることで無料で手に入れることができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5878,6 +6006,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If you received this tutorial in printed form, you should have received a copy of QGIS with it.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T134819Z" creationid="miurahr" creationdate="20201117T134819Z">
+        <seg>もしあなたがこのチュートリアルを印刷物として手に入れた場合は,  QGIS のコピーも一緒に手に入れていることと思います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If you scroll down in the :guilabel:`Info` tab, you can see more information about the :guilabel:`Fields`, :guilabel:`Constraints` and :guilabel:`Indexes` for the table you are viewing.</seg>
       </tuv>
       <tuv lang="ja">
@@ -6126,6 +6262,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In fact these blocks are the individual cells of the data grid that makes up the raster image.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135137Z" creationid="miurahr" creationdate="20201117T135137Z">
+        <seg>実はこれらの格子はそれぞれデータを持つグリッドで、ラスターデータを構成するものです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In figure_tourism_ we can see how our tourism layers might look on a map if we used all three geometry types.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123616Z" creationid="miurahr" creationdate="20201117T123616Z">
@@ -6154,6 +6298,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>テーブルからオブジェクトを削除するために、:kbd:`DELETE` コマンドを使用してください:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In other cases, you can obtain a GIS Application for free.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T134808Z" creationid="miurahr" creationdate="20201117T134808Z">
+        <seg>一方で、無料で手に入れられるものもあります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7846,6 +7998,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Now that we know what a GIS is and what a GIS Application can do, let's talk about **GIS data**.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T134840Z" creationid="miurahr" creationdate="20201117T134840Z">
+        <seg>それではGISとは何か, GISアプリケーションは何ができるのかわかってきたところで **GISデータ** について説明をしていきます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Now that we've looked at how databases work in theory, let's create a new database to implement the theory we've covered.</seg>
       </tuv>
       <tuv lang="ja">
@@ -8082,6 +8242,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T091636Z" creationid="miurahr" creationdate="20201117T091636Z">
         <seg>エラー報告などのためのデータコンテナはこの例外です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>One important difference between raster and vector data is that if you zoom in too much on a raster image, it will start to appear 'blocky' (see illustrations figure_raster_data_ and figure_raster_data_zoom_).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135136Z" creationid="miurahr" creationdate="20201117T135136Z">
+        <seg>ラスターデータとベクターデータの違いで重要なこととして、ラスターデータの場合はズームインをし過ぎると格子状の模様が見えてきます（図 figure_raster_data_ と figure_raster_data_zoom_ 参照）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8386,6 +8554,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>QGIS ドキュメントのそれぞれのページは、ページの右上にある ``Edit on GitHub`` というリンクをクリックすると、素早く簡単に編集することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Paper maps need to be filed and are time consuming to view.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135322Z" creationid="miurahr" creationdate="20201117T135322Z">
+        <seg>紙地図はファイルにして保管しなければならず, 見られるまでに時間がかかります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8806,6 +8982,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>QGIS is completely free and you can copy it and share it with your friends as much as you like.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T134815Z" creationid="miurahr" creationdate="20201117T134815Z">
+        <seg>QGIS は完全にフリーであるため、コピーしたり友人にシェアすることが自由にできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>QGIS is subject to the GNU General Public License.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T110305Z" creationid="miurahr" creationdate="20201117T110305Z">
@@ -8970,6 +9154,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>ラスターデータは **たえず変化する情報** を表示するのに適しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Raster data are often images taken by satellites.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135159Z" creationid="miurahr" creationdate="20201117T135142Z">
+        <seg>衛星画像のラスターデータ。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9630,6 +9822,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>She created a table to record diseases that looked like this:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135111Z" creationid="miurahr" creationdate="20201117T135111Z">
+        <seg>彼女は次のような病気を記録するテーブルを作成しました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Sibongile Mthombeni –-- Video Presenter.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123230Z" creationid="miurahr" creationdate="20201117T123230Z">
@@ -9758,6 +9958,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Some have many sophisticated features and cost tens of thousands of Rands for each copy.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T134807Z" creationid="miurahr" creationdate="20201117T134807Z">
+        <seg>洗練された機能を持ち1ライセンス当たり7万円ほどかかるものもあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Some macros are available for such definition:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T091848Z" creationid="miurahr" creationdate="20201117T091848Z">
@@ -9778,6 +9986,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>考えてみよう</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sometimes people do bad things to the the environment, like dumping dangerous chemicals that kill plants and animals.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135435Z" creationid="miurahr" creationdate="20201117T135435Z">
+        <seg>最新の洪水発生時の衛星画像をにより人々がどのあたりで救助を必要としているのか見ることができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10310,6 +10526,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The GIS can hold a very large amount of map data and make it quick and easy to find a place you are interested in.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135334Z" creationid="miurahr" creationdate="20201117T135334Z">
+        <seg>GISは非常に大きな量の地図データから興味のある地域を簡単に素早く探して見ることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The GIS side of the project project was broken down into 6 main steps</seg>
       </tuv>
       <tuv lang="ja">
@@ -10542,6 +10766,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The disease and date columns hold **non-geographical data**.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135044Z" creationid="miurahr" creationdate="20201117T135044Z">
+        <seg>病気と診療日の列は **地理情報ではないデータ** です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The field teams visited the forest and with the help of the information you provided, gathered information about the forest at every sample plot.</seg>
       </tuv>
       <tuv lang="ja">
@@ -10670,6 +10902,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The grid nature of the data can be seen.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135228Z" creationid="miurahr" creationdate="20201117T135228Z">
+        <seg>データのグリッドの性質がわかります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The hazards are also notable as among the last significant remaining hazardous areas in the Kabul metropolitan area.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T062650Z" creationid="miurahr" creationdate="20201117T062650Z">
@@ -10694,10 +10934,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The information we use in a GIS normally has a geographical aspect to it.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T134926Z" creationid="miurahr" creationdate="20201117T134926Z">
+        <seg>. GISで使われる情報というのは地理的な側面を持っています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The last step is to set up the Atlas tool:</seg>
       </tuv>
       <tuv lang="ja">
         <seg>最後のステップは、地図帳ツールを設定することです：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The longitude and latitude columns hold **geographical data**.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135101Z" creationid="miurahr" creationdate="20201117T135101Z">
+        <seg>経度及び緯度の列は **地理情報データ** を持っています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10870,6 +11126,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The same raster data, but this time zoomed in.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135211Z" creationid="miurahr" creationdate="20201117T135211Z">
+        <seg>同じラスターデータを拡大したもの。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The school flagpole</seg>
       </tuv>
       <tuv lang="ja">
@@ -11006,6 +11270,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>There are many different GIS Applications available.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T134805Z" creationid="miurahr" creationdate="20201117T134805Z">
+        <seg>数多くの GIS アプリケーションが存在します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>There are many satellites circling the earth and the photographs they take are a kind of raster data that can be viewed in a GIS.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135133Z" creationid="miurahr" creationdate="20201117T135133Z">
+        <seg>地球のまわりを周回している衛星には多くの種類があり、それらによって撮影された画像はGIS上でラスターデータとして見ることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>There are two steps we need to complete for each record we add to the shapefile:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123712Z" creationid="miurahr" creationdate="20201117T123712Z">
@@ -11122,6 +11402,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>注意すべき点</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Think of our example above, about the health care worker.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T134936Z" creationid="miurahr" creationdate="20201117T134936Z">
+        <seg>医療関係者についての例では, 以下のような症例リストを作りました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12514,6 +12802,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T091839Z" creationid="miurahr" creationdate="20201117T091839Z">
         <seg>私たちは API の安定性および後方互換性を維持しようとしています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>We will be looking at raster data in greater detail in later tutorials.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135140Z" creationid="miurahr" creationdate="20201117T135140Z">
+        <seg>ラスターデータについては後ほどのチュートリアルでまた詳しく取り上げることにします.</seg>
       </tuv>
     </tu>
     <tu>
