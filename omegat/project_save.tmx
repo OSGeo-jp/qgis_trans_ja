@@ -622,6 +622,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>*- Tim and Horst*</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150159Z" creationid="miurahr" creationdate="20201117T150159Z">
+        <seg>* - ティムとホルスト*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>*- Wikipedia*</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150142Z" creationid="miurahr" creationdate="20201117T150142Z">
+        <seg>*-ウィキペディア*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>*Good choice to use open source software*</seg>
       </tuv>
       <tuv lang="ja">
@@ -1646,6 +1662,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>A column is a set of data values of a particular simple type, one for each row of the table.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150151Z" creationid="miurahr" creationdate="20201117T150151Z">
+        <seg>列は、特定の単純型のデータ値の集合であり、表の各行に対して1つです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>A column:</seg>
       </tuv>
       <tuv lang="ja">
@@ -1722,6 +1746,22 @@
       </tuv>
       <tuv lang="ja">
         <seg>注意すべきいくつかの事：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>A database consists of an organized collection of data for one or more uses, typically in digital form.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150144Z" creationid="miurahr" creationdate="20201117T150144Z">
+        <seg>データベースは、典型的にはデジタル形式の、1つ以上の用途のための組織化されたデータの集合からなる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>A database management system (DBMS) consists of software that operates databases, providing storage, access, security, backup and other facilities.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150146Z" creationid="miurahr" creationdate="20201117T150146Z">
+        <seg>データベース管理システム（DBMS）は、データベースを操作し、ストレージ、アクセス、セキュリティ、バックアップなどの機能を提供するソフトウェアで構成されています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1910,6 +1950,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>A record is the information stored in a table row.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150155Z" creationid="miurahr" creationdate="20201117T150155Z">
+        <seg>レコードは、テーブル行に格納されている情報です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>A rivers layer added to the map view</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T134413Z" creationid="miurahr" creationdate="20201117T134413Z">
@@ -1954,6 +2002,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T133949Z" creationid="miurahr" creationdate="20201117T133949Z">
         <seg>GISの一部を構成するプログラムはGISアプリケーションと呼ばれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>A table has a specified number of columns, but can have any number of rows.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150149Z" creationid="miurahr" creationdate="20201117T150149Z">
+        <seg>テーブルには指定された数の列がありますが、任意の数の行を持つことができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2495,6 +2551,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Along the previous :guilabel:`Identify Results` dialog, you'll see the now-familiar form:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T145902Z" creationid="miurahr" creationdate="20201117T145902Z">
+        <seg>前の :guilabel:`結果を識別` ダイアログに沿って今やおなじみのフォームが表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Along the top of the page, write a line of 80 asterisks (:kbd:`*`).</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141606Z" creationid="miurahr" creationdate="20201117T141606Z">
@@ -2547,6 +2611,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>これは非常に単純な例でありこの小さなデータセットでは不要ですが、大規模かつ複雑なデータセットを照会する際に有用かつ重要な副選択をする方法を示しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Although unnecessary for our current problem, it's useful to know about the opposite conversion from the one performed above.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T145457Z" creationid="miurahr" creationdate="20201117T145457Z">
+        <seg>現在の問題には不必要ではありますが、上記で実行されるものとは反対の変換について知っておくと便利です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3159,6 +3231,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Before you can add new vector data, you need a vector dataset to add it to.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T145606Z" creationid="miurahr" creationdate="20201117T145606Z">
+        <seg>新しいベクターデータを追加するには、まずそれを追加するためのベクターデータセットが必要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Before you can create a new vector layer (which will be stored in a shapefile), you need know what the geometry of that layer will be (point, polyline or polygon), and you need to know what the attributes of that layer will be.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123552Z" creationid="miurahr" creationdate="20201117T123552Z">
@@ -3439,6 +3519,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>By editing widget types or creating an entirely new form from scratch, you can control the experience of someone who digitizes new data for that layer, thereby minimizing misunderstandings and unnecessary errors.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150021Z" creationid="miurahr" creationdate="20201117T150021Z">
+        <seg>ウィジェットの種類を編集するか全くのゼロから新しいフォームを作成することで、新しいデータをデジタイズをする人のエクスペリエンスをコントロールできます。それによって誤解や不必要なエラーを最小限に押さえることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>By learning, using and sharing Free and Open Source Software, you are building your own skills, freeing money to be spent on important things like food and shelter and boosting our own economy.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135954Z" creationid="miurahr" creationdate="20201117T135954Z">
@@ -3523,6 +3611,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>この地図上の2つのポイント地物と1つのポリゴン地物を識別できますか？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Capture a few points on your new layer using the digitizing tools so that you have a little data to play with.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T145927Z" creationid="miurahr" creationdate="20201117T145927Z">
+        <seg>デジタイズツールを使用して新しいレイヤー上にいくつかのポイントを追加してテスト用データを作成します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3855,6 +3951,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Click and drag this item into your form.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T145941Z" creationid="miurahr" creationdate="20201117T145941Z">
+        <seg>このアイテムをクリックしてフォームにドラッグします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Click anywhere in your dialog.</seg>
       </tuv>
       <tuv lang="ja">
@@ -3875,6 +3979,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>:guilabel:`Create pull request` をクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Click on :menuselection:`Raster --&gt; Conversion --&gt; Polygonize (Raster to Vector)`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T145443Z" creationid="miurahr" creationdate="20201117T145443Z">
+        <seg>:menuselection:`ラスター --&gt; 変換 --&gt; ポリゴン化（ラスターからベクター）` をクリックします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4311,6 +4423,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Convert to raster the :kbd:`suitable_terrain.shp` vector file you just created in previous step.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T145502Z" creationid="miurahr" creationdate="20201117T145502Z">
+        <seg>ちょうど前のステップで作成した :kbd:`suitable_terrain.shp` ベクターファイルをラスターに変換します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Converting between raster and vector formats allows you to make use of both raster and vector data when solving a GIS problem, as well as using the various analysis methods unique to these two forms of geographic data.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T145424Z" creationid="miurahr" creationdate="20201117T145424Z">
+        <seg>ラスター形式とベクター形式の間で変換できると、GISの問題を解決するときに、またこれら二つの地理データの形式に特有の様々な分析方法を使用するときに、ラスターとベクターデータの両方を利用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Converting between raster and vector formats allows you to widen the applicability of data, and need not lead to data degradation.</seg>
       </tuv>
       <tuv lang="ja">
@@ -4519,6 +4647,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Creating maps using existing data is just the beginning.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150040Z" creationid="miurahr" creationdate="20201117T150040Z">
+        <seg>既存のデータを使用して地図を作成することはまだ始まったばかりです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Creating the Fundy Footpath Trail Map with QGIS</seg>
       </tuv>
       <tuv lang="ja">
@@ -4647,6 +4783,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Datatypes restrict the kind of information that can be stored in a column.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150157Z" creationid="miurahr" creationdate="20201117T150157Z">
+        <seg>データ型は、列に格納できる情報の種類を制限します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Date</seg>
       </tuv>
       <tuv lang="ja">
@@ -4763,6 +4907,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>デジタル化テーブルを使用してデジタル化する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Digitize the school itself and the upper field.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T145802Z" creationid="miurahr" creationdate="20201117T145802Z">
+        <seg>学校自体と上のフィールドをデジタル化します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5007,6 +5159,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Each different vector layer type is "built differently" in the background, so once you've created the layer, you can't change its type.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T145627Z" creationid="miurahr" creationdate="20201117T145627Z">
+        <seg>それぞれの異なるベクターレイヤータイプは、バックグラウンドで「別々に構築」されているので、一度レイヤーを作成したらそのタイプは変更できません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Each lesson will be subdivided into multiple sections, which will be addressed next.</seg>
       </tuv>
       <tuv lang="ja">
@@ -5027,6 +5187,22 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140006Z" creationid="miurahr" creationdate="20201117T140006Z">
         <seg>それぞれのピクセルは、地理的な領域を表しており、ピクセル中の値はその領域の何らかの特徴を表しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Each record will have a field for each of the columns in the table.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150156Z" creationid="miurahr" creationdate="20201117T150156Z">
+        <seg>各レコードには、テーブル内の各列のフィールドがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Each row is identified by the values appearing in a particular column subset which has been identified as a candidate key.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150150Z" creationid="miurahr" creationdate="20201117T150150Z">
+        <seg>各行は、候補キーとして識別された特定の列部分に現れる値によって識別されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5083,6 +5259,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123659Z" creationid="miurahr" creationdate="20201117T123659Z">
         <seg>1-2-3のように簡単に！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Edit mode is switched on or off individually for each layer.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T145719Z" creationid="miurahr" creationdate="20201117T145719Z">
+        <seg>編集モードは、レイヤごとに個別にオンまたはオフに切り替えられます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5887,6 +6071,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>For example, a street name is changed:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150116Z" creationid="miurahr" creationdate="20201117T150116Z">
+        <seg>例えば、街路名が変更されます:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>For example, features on a map in a so-called Equal Area projection appear very different to features projected in a Cylindrical Equidistant projection (see figure_map_projection_).</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135801Z" creationid="miurahr" creationdate="20201117T135801Z">
@@ -5967,6 +6159,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>For example, you could use a GPS to capture points in the real world, then import the data into QGIS afterwards.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T145648Z" creationid="miurahr" creationdate="20201117T145648Z">
+        <seg>たとえば、GPSを使用して現実の世界でのポイントをキャプチャし、それからQGISにデータをインポートできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For example: if two features share a border, and you edit the border using topology, then you won't need to edit first one feature, then another, and carefully line up the borders so that they match.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150048Z" creationid="miurahr" creationdate="20201117T150048Z">
+        <seg>たとえば、2つの地物が境界を共有し、トポロジを使用してその境界を編集する場合、はじめの地物を編集し、そしてもう1つの地物を編集して、それらが合うように慎重に境界を描く必要はありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>For example: the school boundary, the position of fire assembly points, the layout of each class room, and so on.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124025Z" creationid="miurahr" creationdate="20201117T124025Z">
@@ -6007,10 +6215,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>For most common applications, the data exists already; but the more particular and specialized the project, the less likely it is that the data will already be available.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T145556Z" creationid="miurahr" creationdate="20201117T145545Z">
+        <seg>最も一般的なアプリケーションでは、データがすでに存在しています。しかしプロジェクトがより特化し専門的になるほど、データが既に利用可能であるという可能性が低くなります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>For now let's simply say that a CRS is a way to accurately describe where a particular place is on the earth's surface.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140803Z" creationid="miurahr" creationdate="20201117T140803Z">
         <seg>今のところは、 CRS とは特定の場所が地球の表面上にある場所を正確に記述するための方法である、とだけしておきましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For our example, you'll be using the digitizing approach.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T145654Z" creationid="miurahr" creationdate="20201117T145654Z">
+        <seg>現在の例では、デジタル化のアプローチを使用しているでしょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6099,6 +6323,22 @@
       </tuv>
       <tuv lang="ja">
         <seg>式1.1 - 正規化差分降雪指数（NDSI）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Fortunately, QGIS lets you create your own custom dialogs for a layer.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T145844Z" creationid="miurahr" creationdate="20201117T145844Z">
+        <seg>幸いにも、QGISではレイヤーに独自のカスタムダイアログを作成できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Fortunately, forms have different kinds of so-called *widgets* that allow you to edit data in various different ways.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T145910Z" creationid="miurahr" creationdate="20201117T145910Z">
+        <seg>幸いにも、フォームには様々な方法でデータの編集ができる様々な種類の、いわゆる *ウィジェット* を持ちます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6243,6 +6483,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135941Z" creationid="miurahr" creationdate="20201117T135941Z">
         <seg>環境管理、流通、軍事、警察、旅行やその他の多くの目的で、GISはますます重要なツールとなっています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GIS software commonly requires this to prevent you from accidentally editing or deleting important data.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T145717Z" creationid="miurahr" creationdate="20201117T145717Z">
+        <seg>GISソフトウェアでは一般的に、重要なデータを誤って編集したり削除することを防ぐために、これが必要とされます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6695,6 +6943,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>How do you add data to a table?</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150107Z" creationid="miurahr" creationdate="20201117T150107Z">
+        <seg>どのようにテーブルにデータを追加しますか？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>How does GIS digital data get stored?</seg>
       </tuv>
       <tuv lang="ja">
@@ -6759,10 +7015,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>However, this dialog is not, by default, very nice to look at.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T145840Z" creationid="miurahr" creationdate="20201117T145840Z">
+        <seg>ただし、このダイアログボックスは既定ではあまり見た目がよくありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>However, to properly understand GIS it is always better to learn it using a computer.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135458Z" creationid="miurahr" creationdate="20201117T135458Z">
         <seg>ですが、GISについて正しく理解する目的ならば、コンピュータを使って学ぶ方がよいでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>However, you can also direct it to perform custom actions that you define.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150034Z" creationid="miurahr" creationdate="20201117T150034Z">
+        <seg>一方で、自ら定義したカスタムアクションを実行させることもできます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7015,6 +7287,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If there is nothing in a field, then the field content is referred to as a **'null' value**:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150211Z" creationid="miurahr" creationdate="20201117T150211Z">
+        <seg>フィールドに何もない場合、フィールドコンテンツは **'null'値** と呼ばれます:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If used too much, it can seem to the reader that you are shouting or being condescending.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141627Z" creationid="miurahr" creationdate="20201117T141627Z">
@@ -7139,6 +7419,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>1つのまたは2つの文にレッスンの目標を記述できない場合は、主題を複数のレッスンに分けることを検討してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If you can't find this button, check that the :guilabel:`Digitizing` toolbar is enabled.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T145724Z" creationid="miurahr" creationdate="20201117T145724Z">
+        <seg>このボタンを見つけることができない場合は、 :guilabel:`デジタイズ` ツールバーが有効になっているか確認してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7419,6 +7707,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>すべての変更が終わったら、下の :ref:`プルリクエストで変更をシェアする &lt;sharing_changes&gt;` のセクションの、 :ref:`変更を比較 &lt;compare_changes&gt;` にスキップしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If you've made a mistake, continue digitizing until you're done creating the feature as above.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T145744Z" creationid="miurahr" creationdate="20201117T145744Z">
+        <seg>ミスをしてしまった場合は、上記のような地物を作成し終わるまで、デジタル化を継続します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7743,6 +8039,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In order to begin digitizing, you'll need to enter **edit mode**.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T145714Z" creationid="miurahr" creationdate="20201117T145714Z">
+        <seg>デジタル化を開始するためには、 **編集モード** に入る必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In order to delete an object from a table, use the :kbd:`DELETE` command:</seg>
       </tuv>
       <tuv lang="ja">
@@ -7775,6 +8079,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In our case, you'll begin by creating new data entirely, rather than editing an existing dataset.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T145607Z" creationid="miurahr" creationdate="20201117T145607Z">
+        <seg>現在の場合は、既存のデータセットを編集するのではなく、完全に新しいデータを作成して始めましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In our discussion of vector data, we explained that often raster data are used as a backdrop layer, which is then used as a base from which vector features can be digitised.</seg>
       </tuv>
       <tuv lang="ja">
@@ -7795,6 +8107,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140228Z" creationid="miurahr" creationdate="20201117T140228Z">
         <seg>空間分析によって計算されるラスターデータ（先に述べた降雨量図など）では通常、ラスターを作成するために使用される情報の空間密度が空間分解能を決定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In relational databases and flat file databases, a table is a set of data elements (values) that is organized using a model of vertical columns (which are identified by their name) and horizontal rows.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150148Z" creationid="miurahr" creationdate="20201117T150148Z">
+        <seg>リレーショナルデータベースとフラットファイルデータベースでは、テーブルは、縦の列（名前で識別される）と横の行のモデルを使用して構成されたデータ要素（値）のセットです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7827,6 +8147,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T091642Z" creationid="miurahr" creationdate="20201117T091642Z">
         <seg>このような場合はメンバに ``m`` の接頭辞を付けないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In such cases, you'll need to create your own new data.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T145604Z" creationid="miurahr" creationdate="20201117T145604Z">
+        <seg>このような場合は、自身の新しいデータを作成する必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8175,6 +8503,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In this module, you'll learn how to modify existing vector data and create new datasets entirely.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150043Z" creationid="miurahr" creationdate="20201117T150043Z">
+        <seg>このモジュールでは、既存のベクターデータを変更して、まったく新しいデータセットを作成する方法を学びます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In this panel you can see the :guilabel:`General Info` about the table as well the information that the PostGIS extension maintains about the geometry and spatial reference system.</seg>
       </tuv>
       <tuv lang="ja">
@@ -8371,6 +8707,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T062523Z" creationid="miurahr" creationdate="20201117T062507Z">
         <seg>代わりに、データの混合物---衛星や航空写真の下敷き、デジタル化されたソ連時代の地形図、ハザードシェープファイルと数値標高モデル--- を使用することで、DDGでは、測量チームを送りこむ前に、地形と周辺の自然および物理的地物との関係で地雷原の場所のアイデアを得ることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Instead, you can edit their shared border and both features will change at the same time.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150049Z" creationid="miurahr" creationdate="20201117T150049Z">
+        <seg>それらの共有された境界を編集でき、両方の地物は同時に変化します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8579,6 +8923,22 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T092034Z" creationid="miurahr" creationdate="20201117T092034Z">
         <seg>``if`` のような条件の後にコマンドを期待することも一般的です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It's important to decide which kind of dataset you want at this stage.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T145625Z" creationid="miurahr" creationdate="20201117T145625Z">
+        <seg>この段階で欲しいデータセットの種類を決定することが重要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It's nice to edit things using a form, but you still have to enter everything by hand.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T145907Z" creationid="miurahr" creationdate="20201117T145907Z">
+        <seg>フォームを使用して編集するのはよいのですが、まだ何もかも手で入力しなければいけません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8807,10 +9167,34 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Let's convert the raster result of the previous lesson to a vector.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T145429Z" creationid="miurahr" creationdate="20201117T145429Z">
+        <seg>前のレッスンのラスター結果をベクターに変換してみましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Let's focus on the most common:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150208Z" creationid="miurahr" creationdate="20201117T150208Z">
+        <seg>最も一般的なものに焦点を当ててみましょう：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Let's look at a few examples and it will become clearer how to go about doing this.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123553Z" creationid="miurahr" creationdate="20201117T123553Z">
         <seg>いくつかの例を見てみましょう、そうすればこれをやって行く方法がより明確になるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Let's look at a few more examples:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150113Z" creationid="miurahr" creationdate="20201117T150113Z">
+        <seg>さらにいくつかの例を見てみましょう:</seg>
       </tuv>
     </tu>
     <tu>
@@ -10023,6 +10407,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Now you know how to add new data to the existing models you created previously.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150117Z" creationid="miurahr" creationdate="20201117T150117Z">
+        <seg>以前に作成した既存のモデルに新しいデータを追加する方法がわかりましたね。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Now you try!</seg>
       </tuv>
       <tuv lang="ja">
@@ -10035,6 +10427,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>今、プロットの約4または5行を見ることができるようにサンプルプロットにズームします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Now, click again on any street in the map.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T145858Z" creationid="miurahr" creationdate="20201117T145858Z">
+        <seg>さて、地図内のどれかの街路をもう一度クリックします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10279,6 +10679,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Open QGIS and create a new blank project.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T145616Z" creationid="miurahr" creationdate="20201117T145616Z">
+        <seg>QGISを開き、新しい空のプロジェクトを作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Open the  :menuselection:`Vector --&gt; Data Management --&gt; Join attributes by location` tool.</seg>
       </tuv>
       <tuv lang="ja">
@@ -10411,6 +10819,30 @@
       </tuv>
       <tuv lang="ja">
         <seg>新しいモジュールの独自のインデックスファイルを開きます（ :kbd:`[module name]/index.rst` ）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Opening a form on identifying a feature is one of the standard actions that QGIS can perform.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150030Z" creationid="miurahr" creationdate="20201117T150030Z">
+        <seg>地物フォームを開くことはQGISができる標準的な操作の1つです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Or you could survey points using a theodolite, and enter the coordinates manually to create new features.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T145650Z" creationid="miurahr" creationdate="20201117T145650Z">
+        <seg>あるいは、セオドライトを使用してポイントを調査し、新しい地物を作成するために、手動で座標を入力できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Or you could use the digitizing process to trace objects from remote sensing data, such as satellite imagery or aerial photography.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T145652Z" creationid="miurahr" creationdate="20201117T145652Z">
+        <seg>あるいは、デジタル化プロセスを使用して、衛星画像や航空写真などのリモートセンシングデータからオブジェクトをトレースできます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11487,6 +11919,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Remember that if you want to add new kinds of data, you may want to modify and/or create new models to contain that data.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150118Z" creationid="miurahr" creationdate="20201117T150118Z">
+        <seg>データの新しい種類を追加したい場合は、そのデータを格納する新しいモデルを変更かつ／または作成したいこともあることを忘れないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Remember that our two tables are linked via a Primary/Foreign Key pair.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150109Z" creationid="miurahr" creationdate="20201117T150109Z">
+        <seg>2つのテーブルが主キー/外部キーのペアを介して結合していることに注意してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Remember to change the "what's next" section of the previous lesson if necessary, so that it refers to your new lesson.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141625Z" creationid="miurahr" creationdate="20201117T141625Z">
@@ -11515,6 +11963,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>この行の上および下に空行を残すことを忘れないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Remember, if you've made a mistake while digitizing a feature, you can always edit it after you're done creating it.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T145740Z" creationid="miurahr" creationdate="20201117T145740Z">
+        <seg>地物をデジタル化しているときにミスを犯してしまった場合、作成が終わった後で常にそれを編集できることを覚えておいてください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11675,6 +12131,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>SIP バインド</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sample raster datasets are provided, so you'll need to import them as necessary.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T145656Z" creationid="miurahr" creationdate="20201117T145656Z">
+        <seg>必要に応じてそれらをインポートする必要がありますので、サンプルラスターデータセットが提供されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12455,6 +12919,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Start with the map from the last module, :kbd:`raster_analysis.qgs`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T145437Z" creationid="miurahr" creationdate="20201117T145437Z">
+        <seg>最新のモジュール :kbd:`raster_analysis.qgs` から地図を起動します 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>State on the Title page the name of the publisher of the Modified Version, as the publisher.</seg>
       </tuv>
       <tuv lang="ja">
@@ -12603,6 +13075,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>リリースドキュメントに貢献したい場合はブランチを移動すること</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Switch to the :guilabel:`Fields` tab.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T145913Z" creationid="miurahr" creationdate="20201117T145913Z">
+        <seg>:guilabel:`フィールド` タブに切り替えます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13223,6 +13703,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The columns provide the structure according to which the rows are composed.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150152Z" creationid="miurahr" creationdate="20201117T150152Z">
+        <seg>列は、行を構成する構造を提供します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The combined work need only contain one copy of this License, and multiple identical Invariant Sections may be replaced with a single copy.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124912Z" creationid="miurahr" creationdate="20201117T124912Z">
@@ -13259,6 +13747,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>GPSで収集されたデータは、編集ツールバーを使用して洗浄しました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The data that you use has to come from somewhere.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T145548Z" creationid="miurahr" creationdate="20201117T145548Z">
+        <seg>使用するデータはどこかから持ってこなければなりません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13919,6 +14415,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The size of the output image is specified here to be the same as the original raster which was vectorized.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T145508Z" creationid="miurahr" creationdate="20201117T145508Z">
+        <seg>出力画像のサイズは、ここではベクター化された元のラスターと同じになるように指定されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The soccer field</seg>
       </tuv>
       <tuv lang="ja">
@@ -13935,10 +14439,34 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The sql :kbd:`INSERT` statement provides the functionality for this:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150108Z" creationid="miurahr" creationdate="20201117T150108Z">
+        <seg>SQLの :kbd:`INSERT` 文は、このための機能を提供します:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The stories should follow a simple structure and we suggest to write about 800 words including one or two screenshots.</seg>
       </tuv>
       <tuv lang="ja">
         <seg>事例は以下のシンプルな形式で約800ワードで2個のスクリーンショットを含むことを推奨します.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The term field is often used interchangeably with column, although many consider it more correct to use field (or field value) to refer specifically to the single item that exists at the intersection between one row and one column.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150154Z" creationid="miurahr" creationdate="20201117T150154Z">
+        <seg>フィールドという用語は、多くの場合、フィールド（またはフィールド値）を使用して、1つの行と1つの列の交差点に存在する単一項目を具体的に参照する方が正しいと考えられますが、列と互換的に使用されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The tool dialog will appear.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T145445Z" creationid="miurahr" creationdate="20201117T145445Z">
+        <seg>ツールのダイアログが表示されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14031,6 +14559,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Then:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T145746Z" creationid="miurahr" creationdate="20201117T145746Z">
+        <seg>その後：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>There are a couple of things going on here:</seg>
       </tuv>
       <tuv lang="ja">
@@ -14075,6 +14611,22 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T134805Z" creationid="miurahr" creationdate="20201117T134805Z">
         <seg>数多くの GIS アプリケーションが存在します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>There are many different ways to obtain data about objects.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T145646Z" creationid="miurahr" creationdate="20201117T145646Z">
+        <seg>オブジェクトに関するデータを取得するにはさまざまな方法があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>There are many kinds of datatypes.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150206Z" creationid="miurahr" creationdate="20201117T150206Z">
+        <seg>データ型には多くの種類があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14151,6 +14703,38 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>There should be a check mark next to the :menuselection:`View --&gt; Toolbars --&gt; Digitizing` menu entry.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T145727Z" creationid="miurahr" creationdate="20201117T145727Z">
+        <seg>:menuselection:`ビュー --&gt; ツールバー --&gt; デジタル化` メニューエントリ の横にチェックマークがあるはずです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>There you should have the :kbd:`all_conditions_simple.tif` calculated during the previous exercises.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T145440Z" creationid="miurahr" creationdate="20201117T145440Z">
+        <seg>前の練習中に :kbd:`all_conditions_simple.tif` が計算されているはずです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Therefore, you'll need to define your own new dataset first.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T145608Z" creationid="miurahr" creationdate="20201117T145608Z">
+        <seg>それゆえ、まず自分自身の新しいデータセットを定義する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Therefore, you'll need to get your information from somewhere.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T145644Z" creationid="miurahr" creationdate="20201117T145644Z">
+        <seg>そのため、どこかから情報を取得する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>These Warranty Disclaimers are considered to be included by reference in this License, but only as regards disclaiming warranties: any other implication that these Warranty Disclaimers may have is void and has no effect on the meaning of this License.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124609Z" creationid="miurahr" creationdate="20201117T124609Z">
@@ -14219,6 +14803,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135947Z" creationid="miurahr" creationdate="20201117T135947Z">
         <seg>ベンダは先生と生徒がそのソフトウェアを知るようになれば、他のパッケージソフトウェアを学びたくなくなることを知っているのです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>They should match up exactly, pixel for pixel.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T145515Z" creationid="miurahr" creationdate="20201117T145515Z">
+        <seg>両者は正確にピクセル単位で一致する必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14335,10 +14927,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This can cause a usability problem, especially if you have large datasets to create, or if you want other people to help you digitize and they find the default forms to be confusing.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T145842Z" creationid="miurahr" creationdate="20201117T145842Z">
+        <seg>これは特に大規模なデータセットを作成する場合や他の人にデジタイズを手伝って貰うときに既定のフォームではわかりにくい場合に、ユーザビリティ上の問題を引き起こす可能性があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This can then be used to target rescue and relief efforts to areas where it is needed the most.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140350Z" creationid="miurahr" creationdate="20201117T140350Z">
         <seg>これは、救助活動と救援活動を最も必要とされる地域へ向けるために使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This creates a new :guilabel:`Line Edit` in the form.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T145942Z" creationid="miurahr" creationdate="20201117T145942Z">
+        <seg>フォーム上に新しい :guilabel:`Line Edit` が作成されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14399,6 +15007,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This increases the flexibility you have when considering data sources and processing methods for solving a GIS problem.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T145419Z" creationid="miurahr" creationdate="20201117T145419Z">
+        <seg>GISの問題を解決するためのデータソースと処理方法を検討する際に、より柔軟性が上がります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This information can be used to calculate where watersheds and stream networks exist, based on the terrain.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140345Z" creationid="miurahr" creationdate="20201117T140345Z">
@@ -14447,6 +15063,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This is the subject of the next lesson.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150037Z" creationid="miurahr" creationdate="20201117T150037Z">
+        <seg>これは次のレッスンのテーマです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This is the user guide for the geographical information system (GIS) software QGIS.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T110248Z" creationid="miurahr" creationdate="20201117T110248Z">
@@ -14487,6 +15111,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This lesson shows you how.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T145846Z" creationid="miurahr" creationdate="20201117T145846Z">
+        <seg>このレッスンではその方法について説明します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This makes it much easier for newcomers to identify where the code is relating to specific class.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T091702Z" creationid="miurahr" creationdate="20201117T091702Z">
@@ -14507,6 +15139,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>これは、地図上の100ミリメートルは、実世界の250万ミリメートル（2500メートル）と等価であることを意味します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This means that no valid person can be created without there also being a valid corresponding street record.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150111Z" creationid="miurahr" creationdate="20201117T150111Z">
+        <seg>これは、有効な人は有効な対応する街路レコードも存在していなければ作成できないことを意味します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14855,6 +15495,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>To combine a raster and vector analysis, you need to convert the one type of data to the other.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T145427Z" creationid="miurahr" creationdate="20201117T145427Z">
+        <seg>ラスターとベクターの分析を組み合わせるには、データのタイプを一方からもう一方に変換する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>To create a link, add this line::</seg>
       </tuv>
       <tuv lang="ja">
@@ -15043,6 +15691,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>文書内のライセンスのコピーを含め、書かれている文書で、このライセンスを使用すると、ちょうど題扉の後に、次の著作権およびライセンス通知を配置するには：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>To view the dimensions of an image, open its metadata (:guilabel:`Metadata` tab in the :guilabel:`Layer Properties`).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T145511Z" creationid="miurahr" creationdate="20201117T145511Z">
+        <seg>画像の大きさを表示するには、そのメタデータを開きます（ :guilabel:`レイヤーのプロパティ` 中の :guilabel:`メタデータ` タブ）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15479,6 +16135,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Use this image to assist you:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T145805Z" creationid="miurahr" creationdate="20201117T145805Z">
+        <seg>デジタル化を支援するためにこの画像を使用します：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Use this sparingly!</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141626Z" creationid="miurahr" creationdate="20201117T141626Z">
@@ -15531,6 +16195,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>2回のセンサス間人口を比較した図を用いて</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Using forms, you can make life easier for yourself when editing or creating data.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150009Z" creationid="miurahr" creationdate="20201117T150009Z">
+        <seg>フォームを使用すればデータの編集や作成がもっと楽になります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15903,6 +16575,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>We have already shown you the syntax for selecting records.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150113Z" creationid="miurahr" creationdate="20201117T150113Z">
+        <seg>レコードを選択するための構文はすでに示しました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>We have designed this License in order to use it for manuals for free software, because free software needs free documentation: a free program should come with manuals providing the same freedoms that the software does.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124254Z" creationid="miurahr" creationdate="20201117T124254Z">
@@ -16031,6 +16711,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>What if you want to make a change to some existing data?</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150114Z" creationid="miurahr" creationdate="20201117T150114Z">
+        <seg>何か既存のデータに変更を加えたい場合は？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>What is GIS Software / a GIS Application?</seg>
       </tuv>
       <tuv lang="ja">
@@ -16115,6 +16803,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123735Z" creationid="miurahr" creationdate="20201117T123735Z">
         <seg>ラインレイヤーを編集する場合、頂点はラインのジオメトリを調整するために、マウスで動き回ることができ、円形のマーカーで示されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>When it is complete, gauge its success by comparing the new raster with the original one.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T145513Z" creationid="miurahr" creationdate="20201117T145513Z">
+        <seg>完了したら、新たなラスターを元のものと比較することによって、その成功を測ります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16251,6 +16947,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T134404Z" creationid="miurahr" creationdate="20201117T134404Z">
         <seg>地図ビューに複数のレイヤを読み込んだ場合は、その上に重なって表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>When you add new data via digitizing, you're presented with a dialog that lets you fill in the attributes for that feature.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T145838Z" creationid="miurahr" creationdate="20201117T145838Z">
+        <seg>デジタイズで新しいデータを追加する場合、その地物の属性を入力するダイアログが表示されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16903,6 +17607,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You can tell the database to allow you to also store nothing in a field.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150210Z" creationid="miurahr" creationdate="20201117T150210Z">
+        <seg>フィールドに何も保存しないようにデータベースに指示することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You can then use this layer as a reference map, or even trace the features off the raster layer into your vector layer if they are visible.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123748Z" creationid="miurahr" creationdate="20201117T123748Z">
@@ -17159,6 +17871,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You should be presented with the default QGIS generated attribute capture form each time you capture a new point.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T145929Z" creationid="miurahr" creationdate="20201117T145929Z">
+        <seg>新しいポイントをキャプチャするたびにQGISの既定の属性フォームが表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You should be zoomed in enough so that your new vector polyline feature will have an appropriate scale (see :ref:`gentle_gis_vector_data` for more details on scale issues).</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123726Z" creationid="miurahr" creationdate="20201117T123726Z">
@@ -17235,6 +17955,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123622Z" creationid="miurahr" creationdate="20201117T123622Z">
         <seg>自分の位置の地図読みをしたり、GPS受信機を使用して自分の位置を取得する必要もあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You'll see this:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T145915Z" creationid="miurahr" creationdate="20201117T145915Z">
+        <seg>次が表示されます:</seg>
       </tuv>
     </tu>
     <tu>
