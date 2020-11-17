@@ -6303,6 +6303,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Every month training is conducted with 20-30 participants so this number is increasing every month.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225628Z" creationid="miurahr" creationdate="20201117T225628Z">
+        <seg>毎月の訓練は20-30の参加者で行われているので、この数は毎月増加しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Every month training is conducted with 20-30 participants, so this number is increasing every month.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T225600Z" creationid="miurahr" creationdate="20201117T225600Z">
@@ -13439,6 +13447,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Per training number of trainees remains between 20-30.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225627Z" creationid="miurahr" creationdate="20201117T225627Z">
+        <seg>研修生の研修あたりの数が20から30の間に残ります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Per training programme number of trainees remains between 20-30.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T225554Z" creationid="miurahr" creationdate="20201117T225554Z">
@@ -13683,6 +13699,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T225602Z" creationid="miurahr" creationdate="20201117T225602Z">
         <seg>現在は配布資料はハードコピー、チュートリアル、ソフトウェアおよび練習データはソフトコピーで参加者に提供されていますが、画面記録講義/英語でのさまざまなトピックのデモを含むDVDを作成する計画があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Presently handouts are being supplied to the participants in hard copy and tutorial, software and practice data in soft copies but plan is there to create DVDs containing screen-recorded lectures/demo of various topics in Hindi and English language.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225631Z" creationid="miurahr" creationdate="20201117T225631Z">
+        <seg>現在、配布資料はハードコピーで、チュートリアル、ソフトウェアと実践データはソフトコピーで参加者に提供されていますが、ヒンディー語と英語の言語で様々なトピックの画面記録講義／デモが入ったDVDを作成する計画があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15327,6 +15351,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Since creation of NIRD Jaipur centre, only QuantumGIS is being used for all GIS trainings at the centre.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225621Z" creationid="miurahr" creationdate="20201117T225621Z">
+        <seg>NIRDジャイプールセンターの創設以来、QuantumGISだけが、このセンターですべてのGISのトレーニングのために使用されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Since the start of operations in Afghanistan, DDG has removed over 24,000 landmines and over 940,000 pieces of UXO.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T062355Z" creationid="miurahr" creationdate="20201117T062355Z">
@@ -16727,6 +16759,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The applications of software during training are generally concentrated on Watershed and Mahatma Gandhi National Rural Employment Guarantee Scheme (MGNREGS) as these two are land based flagships of Government of India.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225624Z" creationid="miurahr" creationdate="20201117T225624Z">
+        <seg>これら二つはインド政府の土地ベースの旗艦がそうであるようにトレーニング中のソフトウェアのアプリケーションは、一般的に流域とマハトマ・ガンジー国立農村雇用保証制度（MGNREGS）に集中しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The area is interlaced with streams that have been dammed to form ponds, many dating to at least the middle ages.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T225053Z" creationid="miurahr" creationdate="20201117T225053Z">
@@ -18055,6 +18095,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The training feedback was provided to seniors and it was recommended to introduce QGIS in further trainings but apprehensions were there in accepting the software in mainstream of trainings.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225619Z" creationid="miurahr" creationdate="20201117T225619Z">
+        <seg>トレーニングフィードバックは、高齢者に提供し、これをさらに研修でQGISを導入することをお勧めしましたが、不安はトレーニングの主流でソフトウェアを受け入れることでした。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The type of information stored in each column is its datatype.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150216Z" creationid="miurahr" creationdate="20201117T150216Z">
@@ -18123,6 +18171,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>NRCanとSNBから得られたベクターデータは、マージ照会、およびベクターツールを使用して、最終的な地図領域に対してクリップされました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The version learnt in training was QGIS 1.0.2.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225618Z" creationid="miurahr" creationdate="20201117T225618Z">
+        <seg>研修で学んだバージョンはQGIS 1.0.2でした。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19811,6 +19867,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T225601Z" creationid="miurahr" creationdate="20201117T225601Z">
         <seg>トレーニングフィードバックは非常に肯定的と励みに残っています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Training is provided in lab equipped with 15 computers of i5, 8GB RAM and Windows7 OS.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225625Z" creationid="miurahr" creationdate="20201117T225625Z">
+        <seg>訓練は、i5で8ギガバイトのRAMとのWindows7 OSを搭載した15台のコンピューターを備えた実験室で提供されています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21667,6 +21731,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140333Z" creationid="miurahr" creationdate="20201117T140333Z">
         <seg>グレースケール画像では、偽色を適用してピクセルの値の差異をより明瞭にすることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>With its latest version of 1.8, software is capable of satisfying the all needs of grass root rural development executors in India with satisfying the present queries and wishes for future.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225623Z" creationid="miurahr" creationdate="20201117T225623Z">
+        <seg>1.8の最新バージョンでは、ソフトウェアは、現在の問合せと将来の願いを満たし、インドの草の根農村開発施行者のすべてのニーズを満たすことが可能です。</seg>
       </tuv>
     </tu>
     <tu>
