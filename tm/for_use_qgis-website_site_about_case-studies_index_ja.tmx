@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Case Studies</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ケーススタディ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The QGIS project is always looking for people to publish QGIS case studies (user stories) on the QGIS website. Therefore we kindly ask institutions, universities, authorities, and companies to write down their experience in using QGIS to solve their problems in a certain project or their every day live. Please contact the `QGIS community-team &lt;http://lists.osgeo.org/mailman/listinfo/qgis-community-team&gt;`_, if you want to send us your story.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISプロジェクトでは常にQGISケーススタディ（ユーザーストーリー）をQGISウェッブサイトで発表してくれる人を探しています.それゆえ私たちは研究所、大学、官庁、企業にQGISを使って何らかのプロジェクトで問題を解決できたことがあるか尋ねています.もしあなたの事例を送りたい場合は `QGIS community-team &lt;http://lists.osgeo.org/mailman/listinfo/qgis-community-team&gt;`_,に連絡して下さい.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Structure**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**形式**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The stories should follow a simple structure and we suggest to write about 800 words including one or two screenshots.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>事例は以下のシンプルな形式で約800ワードで2個のスクリーンショットを含むことを推奨します.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Title**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**タイトル**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Short Introduction with background of the company / institute / authority / university (length about 200 words). Story about your project/application and what QGIS is used for (length about 400 words plus screenshots) Conclusion showing positive experiences/benefits using QGIS (length about 200 words)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>企業/研究所/官庁/大学のバックグラウンドを含んだ短い紹介（約200ワード).あなたのプロジェクト/アプリケーションの説明とその中でQGISがどのように使われているか(約400ワードの長さとスクリーンショット).結論としてQGISを使って得られたポジティブな経験/利益の記述(約200ワード)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>2019</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>2019年</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>2017</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>2017年</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>2016</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>2016年</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>2015</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>2015年</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>2014</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>2014年</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>2013</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>2013年</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>2012</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>2012年</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>2011</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>2011年</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>2010</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>2010年</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>2009</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>2009年</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>
