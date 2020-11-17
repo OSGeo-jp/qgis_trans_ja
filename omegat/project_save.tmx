@@ -2278,6 +2278,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Before you can do this, you need to first have a git client installed on your system.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T100704Z" creationid="miurahr" creationdate="20201117T100704Z">
+        <seg>これを行う前に、まずシステムにgitクライアントをインストールする必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Before you create a new vector layer you need to plan both what **geometry** type and **attribute** fields it will contain.</seg>
       </tuv>
       <tuv lang="ja">
@@ -3494,6 +3502,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Developers Guide for QGIS</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T100714Z" creationid="miurahr" creationdate="20201117T100714Z">
+        <seg>QGIS 開発者ガイド</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Dialogs</seg>
       </tuv>
       <tuv lang="ja">
@@ -4406,6 +4422,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>GIT Access</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T100611Z" creationid="miurahr" creationdate="20201117T100611Z">
+        <seg>GIT アクセス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>GNU Free Documentation License</seg>
       </tuv>
       <tuv lang="ja">
@@ -4458,6 +4482,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>GISアプリケーションを入手してみよう</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Getting up and running with QtCreator and QGIS</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T100749Z" creationid="miurahr" creationdate="20201117T100749Z">
+        <seg>QtCreatorとQGISの起動と実行</seg>
       </tuv>
     </tu>
     <tu>
@@ -4642,6 +4674,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>正しい出力はこのように見えるでしょう:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Here you'll find rules, tools and steps to easily and efficiently contribute to QGIS code.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T100736Z" creationid="miurahr" creationdate="20201117T100736Z">
+        <seg>ここでは、QGISコードに簡単かつ効率的に貢献するためのルール、ツール、手順について説明します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7270,6 +7310,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>QtCreator is a newish IDE from the makers of the Qt library.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T103827Z" creationid="miurahr" creationdate="20201117T103827Z">
+        <seg>QtCreatorは、Qtライブラリのメーカーによる最新のIDEです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Quantarctica is also useful when navigating on the Antarctic ice shelves thanks to the GPS tracking capabilities within QGIS.</seg>
       </tuv>
       <tuv lang="ja">
@@ -9166,6 +9214,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This section describes how to get started using the QGIS GIT repository.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T100646Z" creationid="miurahr" creationdate="20201117T100632Z">
+        <seg>このセクションでは、QGIS GITリポジトリの使い方について説明します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This section is optional.</seg>
       </tuv>
       <tuv lang="ja">
@@ -10130,6 +10186,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T091839Z" creationid="miurahr" creationdate="20201117T091839Z">
         <seg>私たちは API の安定性および後方互換性を維持しようとしています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Welcome to the QGIS Development pages.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T100722Z" creationid="miurahr" creationdate="20201117T100722Z">
+        <seg>QGIS開発ページへようこそ。</seg>
       </tuv>
     </tu>
     <tu>
