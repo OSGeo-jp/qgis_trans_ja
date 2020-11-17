@@ -3678,6 +3678,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Ensure that accessors are correctly marked with ``const``.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T085706Z" creationid="miurahr" creationdate="20201117T085706Z">
+        <seg>アクセサが正しく ``const`` でマークされていることを確認してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Ensure that the name of the planned lesson is listed underneath the :kbd:`toctree` directive, as shown above.</seg>
       </tuv>
       <tuv lang="ja">
@@ -4130,6 +4138,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>関数の返値</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Function names begin with a lowercase letter and are formed using mixed case.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T085711Z" creationid="miurahr" creationdate="20201117T085711Z">
+        <seg>関数名は小文字で始まり、大文字と小文字を使用して形成されています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8310,6 +8326,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The function name should convey something about the purpose of the function.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T085714Z" creationid="miurahr" creationdate="20201117T085714Z">
+        <seg>関数名は、その関数の目的について何かを伝える必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The geometry of vector features are stored in this file</seg>
       </tuv>
       <tuv lang="ja">
@@ -9730,6 +9754,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>レイヤーに地物を追加し終わったら、編集内容を保存して、編集モードを終了することを忘れないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Where appropriate, this may require that cached value type member variables are marked with ``mutable``.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T085708Z" creationid="miurahr" creationdate="20201117T085708Z">
+        <seg>適切な場合には、これはキャッシュされた値型のメンバー変数が ``mutable`` でマークされていることを要求することができます。</seg>
       </tuv>
     </tu>
     <tu>
