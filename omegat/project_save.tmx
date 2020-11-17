@@ -462,6 +462,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>**The goal for this lesson:** To use the vectorized terrain results to select suitable plots.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T220958Z" creationid="miurahr" creationdate="20201117T220958Z">
+        <seg>**このレッスンの目標:**ベクトル化された地形の結果を使用して適切なプロットを選択するには</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>**The goal of this lesson:** To learn how to create queries that will return useful information.</seg>
       </tuv>
       <tuv lang="ja">
@@ -1238,6 +1246,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>:guilabel:`Input file` is :guilabel:`all_terrain`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T221324Z" creationid="miurahr" creationdate="20201117T221324Z">
+        <seg>:guilabel:`Input file` は :guilabel:`all_terrain`。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>:guilabel:`Orientation` is :guilabel:`Landscape`.</seg>
       </tuv>
       <tuv lang="ja">
@@ -1250,6 +1266,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>:guilabel:`向き`：:kbd:`横` 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:guilabel:`Output file...` is :file:`exercise_data/residential_development/raster_conversion.tif`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T221335Z" creationid="miurahr" creationdate="20201117T221335Z">
+        <seg>:guilabel:`Output file...` は :file:`exercise_data/residential_development/raster_conversion.tif`。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1274,6 +1298,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>:guilabel:`サイズ` ： :kbd:`A4（210x297mm）` 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:guilabel:`solution` (or :guilabel:`buildings_over_100`)</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T221037Z" creationid="miurahr" creationdate="20201117T221037Z">
+        <seg>:guilabel:`solution` (または :guilabel:`buildings_over_100`)</seg>
       </tuv>
     </tu>
     <tu>
@@ -3851,6 +3883,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>ケーススタディ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Change the field name (describing the values of the raster) to :guilabel:`suitable`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T221248Z" creationid="miurahr" creationdate="20201117T221248Z">
+        <seg>フィールド名(ラスタの値を表す)を:guilabel:`suitable`に変更します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8415,6 +8455,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In addition to these layers, which should already be loaded in the map from when you worked on it before, also add the :file:`suitable_terrain.shp` dataset.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T221049Z" creationid="miurahr" creationdate="20201117T221049Z">
+        <seg>これらのレイヤに加えて、:file:`suitable_terrain.shp`マップも追加します。これらのレイヤは以前に作業したときからデータセットにロードされているはずです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In addition, you must do these things in the Modified Version:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124715Z" creationid="miurahr" creationdate="20201117T124715Z">
@@ -9091,6 +9139,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150043Z" creationid="miurahr" creationdate="20201117T150043Z">
         <seg>このモジュールでは、既存のベクターデータを変更して、まったく新しいデータセットを作成する方法を学びます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In this module, you'll see how to combine them.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T221134Z" creationid="miurahr" creationdate="20201117T221134Z">
+        <seg>このモジュールでは、それらを組み合わせる方法を説明します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11247,6 +11303,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Now you have a vector file which contains all the values of the raster, but the only areas you're interested in are those that are suitable; i.e., those polygons where the value of :guilabel:`suitable` is ``1``.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T221301Z" creationid="miurahr" creationdate="20201117T221301Z">
+        <seg>これで、ラスターのすべての値を含むベクタファイルが作成されました。しかし、関心のある領域は適切なものだけです。たとえば、:guilabel:`suit`の値が``1``であるポリゴンです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Now you have two different visualizations of the forest stands and you can decide which one to display for your detail map.</seg>
       </tuv>
       <tuv lang="ja">
@@ -13159,6 +13223,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Save the layer under :file:`exercise_data/residential_development` as :file:`all_terrain.shp`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T221239Z" creationid="miurahr" creationdate="20201117T221239Z">
+        <seg>レイヤを :file:`exercise_data/residential_development/` に :file:`all_terrain.shp` として保存します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Save the new file as :kbd:`exercise_data/residential_development/` as :kbd:`suitable_terrain.shp`.</seg>
       </tuv>
       <tuv lang="ja">
@@ -13179,6 +13251,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>プロジェクトを新しい名前 :kbd:`map_creation.qgs` で保存します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Save your current map (:file:`raster_analysis.qgs`).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T221012Z" creationid="miurahr" creationdate="20201117T221012Z">
+        <seg>現在のマップを保存します(:file:`raster_analysis.qgs`)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17695,6 +17775,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Using the vectorized results of the raster analysis will allow you to select only those buildings on suitable terrain.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T220940Z" creationid="miurahr" creationdate="20201117T220940Z">
+        <seg>ラスター解析のベクトル化された結果を使用すると、適切な地形上の建物のみを選択できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Using this data in a GIS Application, we can quickly understand a lot more about the patterns of illness:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T134044Z" creationid="miurahr" creationdate="20201117T134044Z">
@@ -19063,6 +19151,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You can change the style of this layer if you want to have a clearer visualization of it.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T221310Z" creationid="miurahr" creationdate="20201117T221310Z">
+        <seg>このレイヤのスタイルは、より明確に視覚化する場合に変更できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You can clone  your QGIS repository using the web URL as follows:</seg>
       </tuv>
       <tuv lang="ja">
@@ -19575,6 +19671,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You now have two halves of an analysis: a vector and a raster part.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T221133Z" creationid="miurahr" creationdate="20201117T221133Z">
+        <seg>分析は2部あります：ベクターの部とラスターの部。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You should add additional ``\since`` tags for important changes that were introduced later on.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T091631Z" creationid="miurahr" creationdate="20201117T091631Z">
@@ -19683,6 +19787,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T215821Z" creationid="miurahr" creationdate="20201117T215821Z">
         <seg>このテンプレートは何度も何度も使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You will conclude the analysis and present the final results.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T221140Z" creationid="miurahr" creationdate="20201117T221140Z">
+        <seg>分析を完了して最終結果を提示します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20507,6 +20619,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>|LS| 森林パラメーターを計算する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|LS| Combining the Analyses</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T220931Z" creationid="miurahr" creationdate="20201117T220931Z">
+        <seg>解析を結合した|LS|</seg>
       </tuv>
     </tu>
     <tu>
