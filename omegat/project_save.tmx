@@ -1454,6 +1454,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>A demo file can be found in :file:`tests/code_layout/sipifyheader.h`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T091929Z" creationid="miurahr" creationdate="20201117T091929Z">
+        <seg>デモファイルが :file:`tests/code_layout/sipifyheader.h` にありますので利用可能です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>A digitising table and puck are used by GIS professionals when they want to digitise features from existing maps.</seg>
       </tuv>
       <tuv lang="ja">
@@ -1582,6 +1590,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Access modifiers structure a class into sections of public API, protected API and private API.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T092042Z" creationid="miurahr" creationdate="20201117T092042Z">
+        <seg>アクセス修飾子は、公開API、保護されたAPIとプライベートAPIのセクションにクラスを構造化します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Access modifiers themselves group the code into this structure.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T092044Z" creationid="miurahr" creationdate="20201117T092044Z">
+        <seg>アクセス修飾子自体はこのような構造にコードをグループ化します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Accessor Functions</seg>
       </tuv>
       <tuv lang="ja">
@@ -1590,10 +1614,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Accessor functions for the two private members above would be:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T085910Z" creationid="miurahr" creationdate="20201117T085910Z">
+        <seg>上記2つの私的メンバのためのアクセサ関数は次のようになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Acknowledgment in detail</seg>
       </tuv>
       <tuv lang="ja">
         <seg>整飾の詳細</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Acronyms should also be camel cased for consistency.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T085936Z" creationid="miurahr" creationdate="20201117T085936Z">
+        <seg>頭字語についても同様に、一貫性を保つためにキャメルケースにする必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1858,6 +1898,30 @@
       </tuv>
       <tuv lang="ja">
         <seg>アルバート・バスケス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>All dialogs should implement tooltip help for all toolbar icons and other relevant widgets.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T091650Z" creationid="miurahr" creationdate="20201117T091650Z">
+        <seg>すべてのダイアログには、すべてのツールバーアイコンおよびその他の関連するウィジェットのツールチップヘルプを実装する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>All signal/slot connects should be made using the "new style" connects available in Qt5.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T091810Z" creationid="miurahr" creationdate="20201117T091810Z">
+        <seg>すべてのシグナルとスロットの接続は、Qt5から利用可能になった「新しいスタイル」の接続を使用して行われるべきです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>All the information to properly build the SIP file must be found in the C++ header file.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T091844Z" creationid="miurahr" creationdate="20201117T091844Z">
+        <seg>正しく SIP を構築するためのすべての情報は C++ のヘッダファイル内になければなりません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2166,6 +2230,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Auto connect slots are fragile and prone to breakage without warning if dialogs are refactored.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T091819Z" creationid="miurahr" creationdate="20201117T091819Z">
+        <seg>自動接続スロットはダイアログがリファクタリングされている場合は、警告なしに破損し、脆弱となりやすいです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Avoid use of Qt auto connect slots (i.e. those named ``void on_mSpinBox_valueChanged``).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T091816Z" creationid="miurahr" creationdate="20201117T091816Z">
+        <seg>Qt自動接続スロット（すなわち ``void on_mSpinBox_valueChanged`` と名前付けされたもの）の使用を避けてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Background</seg>
       </tuv>
       <tuv lang="ja">
@@ -2406,6 +2486,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>C++ implementation and header files should have a .cpp and .h extension respectively.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T091654Z" creationid="miurahr" creationdate="20201117T091654Z">
+        <seg>C ++の実装とヘッダーファイルは、それぞれ拡張子.cppと.hを持つ必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>CB</seg>
       </tuv>
       <tuv lang="ja">
@@ -2598,6 +2686,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Class member values should be obtained through accesssor functions.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T085905Z" creationid="miurahr" creationdate="20201117T085905Z">
+        <seg>クラスのメンバ値はアクセサ関数を通じて取得しましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Classes</seg>
       </tuv>
       <tuv lang="ja">
@@ -2626,6 +2722,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>ローカルおよびリモートリポジトリをクリーンアップ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Cleanups to the API should be done in a manner similar to the Qt sourcecode e.g.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T091841Z" creationid="miurahr" creationdate="20201117T091841Z">
+        <seg>API のクリーンアップは、 Qt のソースコード例と同様の方法で行われるべきです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3502,6 +3606,30 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Do not use generic type names that will conflict with other types.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T091726Z" creationid="miurahr" creationdate="20201117T091726Z">
+        <seg>他のタイプと競合するジェネリック型の名前を使用しないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Do not use prefixes like ``my`` or ``the``.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T091713Z" creationid="miurahr" creationdate="20201117T091713Z">
+        <seg>``my`` あるいは ``the`` といった文字列を前に付けないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Do not use single letter arguments (e.g. ``setColor( const QColor&amp; color )`` instead of ``setColor( const QColor&amp; c )``).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T090003Z" creationid="miurahr" creationdate="20201117T090003Z">
+        <seg>1文字の引数名を使用しないでください (例：``setColor( const QColor&amp; c )``ではなく、``setColor( const QColor&amp; color )``とする)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Documentation</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T060841Z" creationid="miurahr" creationdate="20201117T060841Z">
@@ -3570,6 +3698,22 @@
       </tuv>
       <tuv lang="ja">
         <seg>ビューの削除</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>E.g. ``setDestinationSize`` instead of ``setDestSize``, ``setMaximumValue`` instead of ``setMaxVal``.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T085848Z" creationid="miurahr" creationdate="20201117T085848Z">
+        <seg>例えば ``setDestSize`` でなく ``setDestinationSize`` 、 ``setMaxVal`` でなく ``setMaximumValue`` といった形で書くようにしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>E.g. ``setXml`` instead of ``setXML``.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T085943Z" creationid="miurahr" creationdate="20201117T085943Z">
+        <seg>例えば、  ``setXML`` でなく ``setXml`` と書くようにしてください 。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3942,6 +4086,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Filename should be all lowercase and, in the case of classes, match the class name.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T091657Z" creationid="miurahr" creationdate="20201117T091657Z">
+        <seg>ファイル名はすべて小文字で、クラスの場合、クラス名と一致する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Fill in the values as below:</seg>
       </tuv>
       <tuv lang="ja">
@@ -4054,6 +4206,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>For consistency with the Qt API, even implicitly shared objects are passed by const reference (e.g. ``setTitle( const QString&amp; title )`` instead of ``setTitle( QString title )``.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T091541Z" creationid="miurahr" creationdate="20201117T091541Z">
+        <seg>Qt の API との一貫性を保つために、暗黙的に共有されるオブジェクトは const 参照によって渡されます。(例えば、 ``setTitle( QString title )`` ではなく ``setTitle( const QString&amp; title )``)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For consistency with the existing QGIS API and with the Qt API, abbreviations should be avoided.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T085837Z" creationid="miurahr" creationdate="20201117T085837Z">
+        <seg>既存の QGIS の API と Qt の API との一貫性を保つために、略語は避けましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>For editing purposes, a :kbd:`.rst` file works exactly like a normal text file (:kbd:`.txt`).</seg>
       </tuv>
       <tuv lang="ja">
@@ -4066,6 +4234,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>例えば、1:25000の縮尺の地図上で100ミリメートルの距離を測定する場合、現実世界の距離はこのように計算します：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For instance:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T091934Z" creationid="miurahr" creationdate="20201117T091934Z">
+        <seg>例えば次のようにします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4142,6 +4318,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Function arguments should use descriptive names.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T090008Z" creationid="miurahr" creationdate="20201117T090008Z">
+        <seg>関数の引数は説明的な名前を使用してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Function names begin with a lowercase letter and are formed using mixed case.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T085711Z" creationid="miurahr" creationdate="20201117T085711Z">
@@ -4162,6 +4346,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>より詳しく知りたい場合は</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Futher information on this requirement is available in `QEP #77 &lt;https://github.com/qgis/QGIS-Enhancement-Proposals/issues/77&gt;`_.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T091813Z" creationid="miurahr" creationdate="20201117T091813Z">
+        <seg>この要件についてのより詳しい情報は、 `QEP #77 &lt;https://github.com/qgis/QGIS-Enhancement-Proposals/issues/77&gt;`_ で読むことができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4502,6 +4694,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If some improvements are required for sipify script, please add the missing bits to the demo file :file:`tests/code_layout/sipifyheader.h` and create the expected header :file:`tests/code_layout/sipifyheader.expected.sip`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T092006Z" creationid="miurahr" creationdate="20201117T092006Z">
+        <seg>sipify スクリプトに何か改善が必要な場合は、デモファイル :file:`tests/code_layout/sipifyheader.h` に必要な追加を行い、 期待されるヘッダ :file:`tests/code_layout/sipifyheader.expected.si` を作成してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If something goes wrong during the process (e.g. power failure), the transaction will be rolled back.</seg>
       </tuv>
       <tuv lang="ja">
@@ -4518,10 +4718,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If the default value contains a comma ``,``, the value should be surrounded by single quotes ``'``</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T091900Z" creationid="miurahr" creationdate="20201117T091900Z">
+        <seg>デフォルト値がコンマ ``,`` を含む場合は、値はシングルクォート ``'`` で囲まなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If the required texts for either cover are too voluminous to fit legibly, you should put the first ones listed (as many as fit reasonably) on the actual cover, and continue the rest onto adjacent pages.</seg>
       </tuv>
       <tuv lang="ja">
         <seg>どちらかのカバーに必要なテキストが読みやすく収まらないほど膨大な場合、最初のものを実際の表紙に（適当に収まるくらい多く）記載されている入れて、残りを隣接するページに続けるべきです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If the type contains a comma ``,``, the type should be surrounded by single quotes ``'``</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T091905Z" creationid="miurahr" creationdate="20201117T091905Z">
+        <seg>型がコンマ ``,`` を含む場合は、型はシングルクォート ``'`` で囲まなければなりません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4806,6 +5022,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In case it is not clear from the statement above, for a filename to match a class name it implicitly means that each class should be declared and implemented in its own file.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T091659Z" creationid="miurahr" creationdate="20201117T091659Z">
+        <seg>上記の文が暗黙的に意味していることをより明確にいえば、ファイル名をクラス名と一致させるために、それぞれのクラスはそのクラス固有のファイルで宣言され、実装されねばならないということです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In each section, include internal links, external links and screenshots as needed.</seg>
       </tuv>
       <tuv lang="ja">
@@ -4850,6 +5074,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T062250Z" creationid="miurahr" creationdate="20201117T062250Z">
         <seg>要するに、QGISは地雷や不発弾をアフガニスタンからなくすための取り組みの中で役目を果たしています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In such cases do not prefix the member with an ``m``.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T091642Z" creationid="miurahr" creationdate="20201117T091642Z">
+        <seg>このような場合はメンバに ``m`` の接頭辞を付けないでください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5166,6 +5398,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Indent the access modifier and declarations.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T092047Z" creationid="miurahr" creationdate="20201117T092047Z">
+        <seg>アクセス修飾子と宣言を字下げしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Indentation</seg>
       </tuv>
       <tuv lang="ja">
@@ -5194,6 +5434,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>**Plugin Builder** プラグインをインストールする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Instead use</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T092040Z" creationid="miurahr" creationdate="20201117T092040Z">
+        <seg>代わりに使用します</seg>
       </tuv>
     </tu>
     <tu>
@@ -5278,6 +5526,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>It's also common to expect a command after a conditional like ``if``.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T092034Z" creationid="miurahr" creationdate="20201117T092034Z">
+        <seg>``if`` のような条件の後にコマンドを期待することも一般的です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It's very easy to miss part of what the flow of control.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T092037Z" creationid="miurahr" creationdate="20201117T092037Z">
+        <seg>制御のどのような流れの一部を見逃すのは非常に簡単です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Jakub Trojan</seg>
       </tuv>
       <tuv lang="ja">
@@ -5354,6 +5618,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>ラベルするGUI項目</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Larger objects should be returned by const reference.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T091545Z" creationid="miurahr" creationdate="20201117T091545Z">
+        <seg>より大きなオブジェクトは const 参照で返しましょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5506,6 +5778,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>ローカルリポジトリ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Local variable names begin with a lower case letter and are formed using mixed case.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T091711Z" creationid="miurahr" creationdate="20201117T091711Z">
+        <seg>ローカル変数名は小文字で始まり、大文字と小文字を使用して形成されています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5734,6 +6014,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Member variables should normally be in the ``private`` section and made available via getters and setters.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T091634Z" creationid="miurahr" creationdate="20201117T091634Z">
+        <seg>メンバ変数はふつう ``private`` セクションに入れ、ゲッタやセッタを利用できるようにしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Members</seg>
       </tuv>
       <tuv lang="ja">
@@ -5766,6 +6054,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Method descriptions should be written in a descriptive form, using the 3rd person.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T091625Z" creationid="miurahr" creationdate="20201117T091625Z">
+        <seg>メソッドの説明は三人称を使用した説明的な形で書いてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Methodology</seg>
       </tuv>
       <tuv lang="ja">
@@ -5778,6 +6074,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>メソッド</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Methods require a ``\since`` tag that defines when they have been introduced.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T091627Z" creationid="miurahr" creationdate="20201117T091627Z">
+        <seg>メソッドにはいつ導入されたかを定義する ``\since`` タグが必要です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6302,6 +6606,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>One exception to this is for data containers like for error reporting.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T091636Z" creationid="miurahr" creationdate="20201117T091636Z">
+        <seg>エラー報告などのためのデータコンテナはこの例外です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Open :menuselection:`Settings --&gt; Transformation settings`.</seg>
       </tuv>
       <tuv lang="ja">
@@ -6538,6 +6850,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>患者</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Pay careful attention to when arguments should be passed by reference.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T090011Z" creationid="miurahr" creationdate="20201117T090011Z">
+        <seg>引数を参照渡しするべき場合に注意してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6858,6 +7178,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>サザンクイーンズランド大学のQGIS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>QGIS classes that are generated from Qt Designer (ui) files should have a Base suffix.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T091644Z" creationid="miurahr" creationdate="20201117T091644Z">
+        <seg>Qt デザイナ（UI）ファイルから生成される QGIS クラスは Base という接尾辞を持つ必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7218,6 +7546,22 @@
       </tuv>
       <tuv lang="ja">
         <seg>結果/結論</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Return ``QObject`` or subclassed objects as pointers.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T091554Z" creationid="miurahr" creationdate="20201117T091554Z">
+        <seg>``QObject`` またはそのサブクラスは、ポインタとして返してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Return small and trivially copied objects as values.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T091543Z" creationid="miurahr" creationdate="20201117T091543Z">
+        <seg>小さくコピーが簡単なオブジェクトは値として返してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7590,6 +7934,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Set your editor to emulate tabs with spaces.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T091822Z" creationid="miurahr" creationdate="20201117T091822Z">
+        <seg>スペースでタブを代替するようにエディタを設定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Share your Changes</seg>
       </tuv>
       <tuv lang="ja">
@@ -7678,6 +8030,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Some macros are available for such definition:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T091848Z" creationid="miurahr" creationdate="20201117T091848Z">
+        <seg>そのような定義のためにいくつかのマクロを利用することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Some of the SIP files are automatically generated using a dedicated script.</seg>
       </tuv>
       <tuv lang="ja">
@@ -7690,6 +8050,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>考えてみよう</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Source code should be indented to improve readability.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T091828Z" creationid="miurahr" creationdate="20201117T091828Z">
+        <seg>ソースコードは読みやすくするために字下げされなければなりません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7922,6 +8290,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>システム説明</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Tab spacing should be set to 2 spaces.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T091825Z" creationid="miurahr" creationdate="20201117T091825Z">
+        <seg>タブ間隔はスペース2つに設定する必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8174,6 +8550,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The SIP file can be generated using a dedicated script.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T091932Z" creationid="miurahr" creationdate="20201117T091932Z">
+        <seg>SIP ファイルはそのための専用スクリプトを使って生成することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The WOIS graphical user interface, including the embedded workflow library (center) and wizard-based processing workflow (right)</seg>
       </tuv>
       <tuv lang="ja">
@@ -8226,6 +8610,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>ドキュメントの作者と出版社（単数または複数）は、このライセンスによってのための宣伝のために自分の名前を使用するか、いずれかの修正版の裏書を主張または暗示する許可を与えることはありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The compiler will generate an error if you accidentally use ``=`` instead of ``==`` for comparisons since constants inherently cannot be assigned values.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T092023Z" creationid="miurahr" creationdate="20201117T092023Z">
+        <seg>比較のための ``==`` の代わりに誤って ``=`` を使用している場合、 定数には本質的に値を割り当てできませんから、コンパイラでエラーが発生します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8334,6 +8726,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The function should be named without a get prefix.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T085908Z" creationid="miurahr" creationdate="20201117T085908Z">
+        <seg>関数は、 get 接頭辞なしの名前を付ける必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The geometry of vector features are stored in this file</seg>
       </tuv>
       <tuv lang="ja">
@@ -8394,6 +8794,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>次のセクションは,これらのデータベースの概念を使い, GIS データに適用した PostGIS を使用する, 空間データベースを紹介します.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The one exception to this is implicitly shared objects, which are always returned by value.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T091547Z" creationid="miurahr" creationdate="20201117T091547Z">
+        <seg>この例外の一つは暗黙的に共有されるオブジェクトで、常に値で返します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8598,6 +9006,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>There is a :file:`scripts/prepare-commit.sh` that looks up the changed files and reindents them using astyle.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T091830Z" creationid="miurahr" creationdate="20201117T091830Z">
+        <seg>変更されたファイルを検索し、 astyle を使用してそれらを字下げし直す :file:`scripts/prepare-commit.sh` があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>There is a template for Qt Creator in git.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T091704Z" creationid="miurahr" creationdate="20201117T091704Z">
+        <seg>git中にはQt Creatorのためのテンプレートがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>There is also a :guilabel:`Preview` tab which will show you the layer data in a map preview.</seg>
       </tuv>
       <tuv lang="ja">
@@ -8694,6 +9118,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This identifies the class as a generated base class.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T091647Z" creationid="miurahr" creationdate="20201117T091647Z">
+        <seg>これは、そのクラスを生成された基本クラスとして識別します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This makes it much easier for newcomers to identify where the code is relating to specific class.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T091702Z" creationid="miurahr" creationdate="20201117T091702Z">
+        <seg>これによって、あるクラスに関連したコードがどこにあるのかを探すのが、新規参加者にとってもはるかに容易になります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This means that 100 mm on the map is equivalent to 2,500,000 mm (2500 m) in the real word.</seg>
       </tuv>
       <tuv lang="ja">
@@ -8734,10 +9174,34 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This should be run before committing.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T091833Z" creationid="miurahr" creationdate="20201117T091833Z">
+        <seg>これは、コミットする前に実行する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This will also be automatically tested on Travis as a unit test of the script itself.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T092010Z" creationid="miurahr" creationdate="20201117T092010Z">
+        <seg>これはスクリプト自身のユニットテストとしても、Travisで自動的にテストされます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This will give a result similar to:</seg>
       </tuv>
       <tuv lang="ja">
         <seg>これは次のような結果をもたらします:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This will help prevent programmers from accidentally using ``=`` when they meant to use ``==``, which can introduce very subtle logic bugs.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T092018Z" creationid="miurahr" creationdate="20201117T092018Z">
+        <seg>これにより、プログラマが ``==`` を使用するつもりで誤って ``=`` を使用することを防げます、それは非常に微妙な論理的バグになる。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8990,6 +9454,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>To use it, copy it from :file:`doc/qt_creator_license_template` to a local location, adjust the mail address and - if required - the name and configure QtCreator to use it: :menuselection:`Tools --&gt; Options --&gt; C++ --&gt; File Naming`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T091708Z" creationid="miurahr" creationdate="20201117T091708Z">
+        <seg>それを使用するには、 :file:`doc/qt_creator_license_template` からそれをローカルの場所にコピーし、メールアドレスと名前を（必要ならば）修正し、それを使用するようにQtCreatorを設定します :menuselection:`ツール --&gt; オプション --&gt; C++ --&gt; ファイル命名` 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>To use this License in a document you have written, include a copy of the License in the document and put the following copyright and license notices just after the title page:</seg>
       </tuv>
       <tuv lang="ja">
@@ -9002,6 +9474,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>編集モードに切り替えます:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Tooltips add greatly to feature discoverability for both new and experienced users.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T091651Z" creationid="miurahr" creationdate="20201117T091651Z">
+        <seg>ツールチップは、新規および経験豊富なユーザーのために機能の見つけやすさを大きく追加します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9198,6 +9678,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Unless argument objects are small and trivially copied (such as QPoint objects), they should be passed by const reference.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T090014Z" creationid="miurahr" creationdate="20201117T090014Z">
+        <seg>オブジェクトの引数は小さくてコピーが簡単なもの (QPoint オブジェクトなど) でない限り、 const 参照で渡しましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Update data</seg>
       </tuv>
       <tuv lang="ja">
@@ -9234,6 +9722,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>社会空間の仮説を検証するための技術的なツールとしてのGISの使い方。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Use ``#ifdef SIP_RUN`` to generate code only in SIP files or ``#ifndef SIP_RUN`` for C++ code only.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T091852Z" creationid="miurahr" creationdate="20201117T091852Z">
+        <seg>``#ifdef SIP_RUN`` で SIP ファイル内でのみ使用するコードを生成し、 ``#ifndef SIP_RUN`` で C++ コード内でのみ使用するコードを生成してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9630,6 +10126,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>We try to keep the API stable and backwards compatible.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T091839Z" creationid="miurahr" creationdate="20201117T091839Z">
+        <seg>私たちは API の安定性および後方互換性を維持しようとしています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>What can we do with vector data in a GIS?</seg>
       </tuv>
       <tuv lang="ja">
@@ -9710,10 +10214,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>When quickly reading through code, it's common to skip lines if they don't look like what you are looking for in the first few characters.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T092031Z" creationid="miurahr" creationdate="20201117T092031Z">
+        <seg>すぐにコードを読むとき、それらは最初の数文字で探しているもののように見えない場合、行を読み飛ばすのが一般的です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>When raster data contains bands from different parts of the electromagnetic spectrum, they are called **multi-spectral images**.</seg>
       </tuv>
       <tuv lang="ja">
         <seg>ラスターデータは、電磁スペクトルの異なる部分からのバンドが含まれている場合、それらは **マルチスペクトル画像** と呼ばれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>When reading code it's easy to miss commands, if they are not at the beginning of the line.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T092027Z" creationid="miurahr" creationdate="20201117T092027Z">
+        <seg>コードを読み取るとき、行の先頭にない場合は、コマンドを見逃しやすくなります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9862,6 +10382,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Write descriptive and meaningful comments that give a reader information about what to expect, what happens in edge cases and give hints about other interfaces he could be looking for, best practices and code samples.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T091622Z" creationid="miurahr" creationdate="20201117T091622Z">
+        <seg>説明的で意味のあるコメントを書き、読者に何が起こるか、エッジケースで何が起こるか、彼が探している他のインターフェイス、ベストプラクティス、コードサンプルについてのヒントを与えます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Write down the properties which make up a simple address and which we would want to store in our database.</seg>
       </tuv>
       <tuv lang="ja">
@@ -9938,6 +10466,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>テキストデータに基づいてもフィルタできます:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can also use :file:`scripts/astyle.sh` to indent individual files.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T091836Z" creationid="miurahr" creationdate="20201117T091836Z">
+        <seg>また、個々のファイルを字下げするために :file:`scripts/astyle.sh` を使用できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10142,6 +10678,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You should add additional ``\since`` tags for important changes that were introduced later on.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T091631Z" creationid="miurahr" creationdate="20201117T091631Z">
+        <seg>導入以降に重要な変更が行われたものについては、追加の ``\since`` タグを追加してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You should also really read this article from Qt Quarterly on `designing Qt style (APIs) &lt;https://doc.qt.io/archives/qq/qq13-apis.html&gt;`_</seg>
       </tuv>
       <tuv lang="ja">
@@ -10242,6 +10786,22 @@
       </tuv>
       <tuv lang="ja">
         <seg>`Effective Modern C++ &lt;http://shop.oreilly.com/product/0636920033707.do&gt;`_, Scott Meyers （ `日本語版 &lt;https://www.oreilly.co.jp/books/9784873117362/&gt;`_ ）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>`More Effective C++ &lt;https://www.informit.com/store/more-effective-c-plus-plus-35-new-ways-to-improve-your-9780201633719&gt;`_, Scott Meyers</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T092616Z" creationid="miurahr" creationdate="20201117T092616Z">
+        <seg>`新訂版 More Effective C++ &lt;https://www.maruzen-publishing.co.jp/item/b294731.html&gt;` 原著:`More Effective C++ &lt;https://www.informit.com/store/more-effective-c-plus-plus-35-new-ways-to-improve-your-9780201633719&gt;`_, Scott Meyers</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>``#else`` statements are handled in both cases.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T091855Z" creationid="miurahr" creationdate="20201117T091855Z">
+        <seg>``#else`` 文を使えばこの両方を扱うことができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10398,10 +10958,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>``SIP_PYDEFAULTVALUE(value)`` can be used to define an alternative default value of the python method.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T091857Z" creationid="miurahr" creationdate="20201117T091857Z">
+        <seg>``SIP_PYDEFAULTVALUE(value)`` は、Pythonのメソッドのための別のデフォルト値を定義するために使用することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>``SIP_PYNAME(name)``: ``/PyName=name/``</seg>
       </tuv>
       <tuv lang="ja">
         <seg>``SIP_PYNAME(name)``: ``/PyName=name/``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>``SIP_PYTYPE(type)`` can be used to define an alternative type for an argument of the python method.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T091902Z" creationid="miurahr" creationdate="20201117T091902Z">
+        <seg>``SIP_PYTYPE(type)``  は、Pythonのメソッドの引数のための別の型を定義するために使用することができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10602,6 +11178,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>ブランチを作成、更新または削除する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>e.g. use ``UnkownUnit`` rather than ``Unknown``</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T091743Z" creationid="miurahr" creationdate="20201117T091743Z">
+        <seg>例えば ``Unknown`` よりむしろ ``UnkownUnit`` を使用してください。</seg>
       </tuv>
     </tu>
     <tu>
