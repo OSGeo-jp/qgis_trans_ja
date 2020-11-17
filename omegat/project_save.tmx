@@ -1694,6 +1694,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>A common forestry task would be the update of the information for a forestry area.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215845Z" creationid="miurahr" creationdate="20201117T215845Z">
+        <seg>林業においてよくある作業は、森林地域についての情報の更新でしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>A common function of GIS Applications is to display **map layers**.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T134343Z" creationid="miurahr" creationdate="20201117T134331Z">
@@ -2246,6 +2254,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Activate the plugin using the plugin manager as you have done in previous modules.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215926Z" creationid="miurahr" creationdate="20201117T215926Z">
+        <seg>前のモジュールで行ったように、 プラグイン マネージャを使用して プラグイン を有効にします。 </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Active hazardous areas shown in red.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T062745Z" creationid="miurahr" creationdate="20201117T061131Z">
@@ -2310,6 +2326,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Add at least the following elements:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215629Z" creationid="miurahr" creationdate="20201117T215629Z">
+        <seg>少なくとも次の要素を追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Add first a map element so you can review how it looks as you will be making changes in the layers symbology:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150753Z" creationid="miurahr" creationdate="20201117T150753Z">
@@ -2322,6 +2346,22 @@
       </tuv>
       <tuv lang="ja">
         <seg>あなたが変更を行ったすべてのドキュメントのページへのリンクを含めてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Add now two text boxes below the map, one containing the text 'Detailed map zone: ' and the other one 'Remarks: '.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215700Z" creationid="miurahr" creationdate="20201117T215700Z">
+        <seg>ここで2つのテキストボックスを地図の下に追加します、一方はテキスト「詳細地図ゾーン：」含む、もう一方は「備考：」。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Add the background raster :file:`basic_map.tif` that you can find in the :file:`exercise_data\\forestry\\` folder.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215521Z" creationid="miurahr" creationdate="20201117T215521Z">
+        <seg>:file:`exercise_data\\forestry\\`フォルダにある背景のraster:file:`basic_map.tif`を追加します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2727,6 +2767,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>And also you want to lock its view so it does not change anymore whenever you change the visibility or order of the layers.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215646Z" creationid="miurahr" creationdate="20201117T215646Z">
+        <seg>そして、もうレイヤーの可視性や順序を変更しても変更されないよう、そのビューをロックすることです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>And do not forget to update the ``master`` branch in your local repository!</seg>
       </tuv>
       <tuv lang="ja">
@@ -2735,10 +2783,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>And set the :guilabel:`Marging around feature` to :kbd:`10%`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215719Z" creationid="miurahr" creationdate="20201117T215719Z">
+        <seg>そして :guilabel:`地物周りにマージンg` を :kbd:`10％` と設定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>And that :guilabel:`Tolerance` is set to :kbd:`2 mm`.</seg>
       </tuv>
       <tuv lang="ja">
         <seg>そして :guilabel:`許容誤差` は :kbd:`2mm` に設定されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>And you also got some valuable information about the particular stands, which could be used to plan the management of the forest in the coming years.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T220234Z" creationid="miurahr" creationdate="20201117T220234Z">
+        <seg>また特定の林分に関するいくつかの貴重な情報も得ましたが、これは今後森林の管理を計画するために使用できることでしょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2911,6 +2975,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>As for the rest of the training manual, this module includes instructions on adding, deleting and altering GIS datasets.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215836Z" creationid="miurahr" creationdate="20201117T215836Z">
+        <seg>トレーニングマニュアルの残りの部分については、このモジュールは、GISデータセットの追加、削除および変更の指示が含まれています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>As newer versions of astyle indent differently than the version used to do a complete reindentation of the source, the script uses an old astyle version, that we include in our repository (enable ``WITH_ASTYLE`` in cmake to include it in the build).</seg>
       </tuv>
       <tuv lang="ja">
@@ -3015,6 +3087,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>As you can see the background map is already styled.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215407Z" creationid="miurahr" creationdate="20201117T215407Z">
+        <seg>ご覧のように背景地図にはすでにスタイルが付いています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>As you can see the only change is the :kbd:`create view roads_count_v as` part at the beginning.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150345Z" creationid="miurahr" creationdate="20201117T150345Z">
@@ -3027,6 +3107,22 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123746Z" creationid="miurahr" creationdate="20201117T123746Z">
         <seg>おそらく今までに発見されているでしょうが、上記の手順に従った場合、基準点として使用できる他の地物がない場合、 **空間的に正確** な地物を描くことはかなり困難です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>As you noticed, this was not an easy task but the benefit will come when you need to create similar maps for other regions and you can use the template you just saved.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215825Z" creationid="miurahr" creationdate="20201117T215825Z">
+        <seg>お気づきのように、これは簡単な作業ではありませんでしたが、他の地域についても同様の地図を作成する必要があるときに利益がもたらされ、先ほど保存したテンプレートを使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>As you probably noticed in the suggested map template images, there are plenty of room on the right side of the canvas.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215636Z" creationid="miurahr" creationdate="20201117T215636Z">
+        <seg>提案された地図テンプレート画像でおそらくお気づきのように、キャンバスの右側には空間がたくさんあります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3275,6 +3371,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T134457Z" creationid="miurahr" creationdate="20201117T134457Z">
         <seg>重なり順を変更前は河川が道路の下に描かれています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Before using the techniques described here on your own data, always ensure you have proper backups!</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215839Z" creationid="miurahr" creationdate="20201117T215839Z">
+        <seg>独自のデータにここに記載されている技術を使用する前に、必ず適切にバックアップをとっていることを確認！</seg>
       </tuv>
     </tu>
     <tu>
@@ -3567,10 +3671,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>But before you can start the digitizing, there is an important first step to be done, scanning and georeferencing your paper map.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215850Z" creationid="miurahr" creationdate="20201117T215850Z">
+        <seg>しかし、最初に重要なステップ、紙の地図をスキャンし地理参照しなければ、デジタル化は開始できません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>But this License is not limited to software manuals; it can be used for any textual work, regardless of subject matter or whether it is published as a printed book.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124311Z" creationid="miurahr" creationdate="20201117T124311Z">
         <seg>しかし、このライセンスは、ソフトウェアのマニュアルに限定されるものではありません。それは関係なく、主題のか、それが印刷された本として出版されているかどうか、任意のテキストの仕事のために使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>But, of course, now your detail map is not showing anymore the stand borders nor the sample plots.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215652Z" creationid="miurahr" creationdate="20201117T215652Z">
+        <seg>しかし、もちろん、詳細地図は今まだ林分境界もサンプルのプロットも表示していません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3595,6 +3715,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135954Z" creationid="miurahr" creationdate="20201117T135954Z">
         <seg>FOSS（自由でオープンソースのソフトウェア）を学び、使って、共有すれば、食物と住居、そして住んでいる場所の経済を発展させながら、自分自身のスキルを身につけるようになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>By now, you probably can guess that the map to be changed for every feature is the one you have prepared to contain detail views of the sample plots, that is the bigger map element in your canvas:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215718Z" creationid="miurahr" creationdate="20201117T215718Z">
+        <seg>今までに、すべての地物のために変更される地図は、サンプルプロットの詳細ビューを含むように準備したものであるとおそらく推測できます、つまりそれはキャンバス中の大きい方の地図要素です：</seg>
       </tuv>
     </tu>
     <tu>
@@ -4479,6 +4607,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Continuing the example from previous lesson, you will use the inventory information gathered in the field to calculate the forest parameters, for the whole forest first, and then for the stands you digitized before.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T220138Z" creationid="miurahr" creationdate="20201117T220138Z">
+        <seg>前のレッスンからの例を続け、野外で収集された調査情報を使用し、最初に森林全体に対して、それから前にデジタル化した林分に対して、森林のパラメーターを計算しましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Continuous Colour Symbols</seg>
       </tuv>
       <tuv lang="ja">
@@ -4767,6 +4903,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Currently the SVG export format is not working properly and will give a poor result.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215813Z" creationid="miurahr" creationdate="20201117T215813Z">
+        <seg>現在、SVGのエクスポート形式は正常に動作せず、貧しい結果が得られます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Currently, DDG is working in the northern provinces of Balkh and Samangan, and the central provinces of Kabul, Parwan and Panjshir.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T062409Z" creationid="miurahr" creationdate="20201117T062409Z">
@@ -5031,6 +5175,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Digitize at least three more ground control points in the same way you did the first one.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T220016Z" creationid="miurahr" creationdate="20201117T220016Z">
+        <seg>1つめをやったのと同じ方法で、少なくとも3つの地上基準点をデジタル化します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Digitize the school itself and the upper field.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T145802Z" creationid="miurahr" creationdate="20201117T145802Z">
@@ -5139,6 +5291,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T090003Z" creationid="miurahr" creationdate="20201117T090003Z">
         <seg>1文字の引数名を使用しないでください (例：``setColor( const QColor&amp; c )``ではなく、``setColor( const QColor&amp; color )``とする)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Do the same for the labels with the text :kbd:`Remarks:` using the field with the zone information.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215807Z" creationid="miurahr" creationdate="20201117T215807Z">
+        <seg>ゾーン情報を持つフィールドを使用して、 :kbd:`注釈：` というテキストを持つラベルに対しても同じ操作を行います。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5539,6 +5699,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>列挙型は、最初が大文字のキャメルケースで命名する必要があります、例えば：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Estimating the parameters of the forest is the goal of the forest inventory.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T220136Z" creationid="miurahr" creationdate="20201117T220136Z">
+        <seg>森林のパラメーターを推定することは、森林調査の目標です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5975,6 +6143,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Following this module about a forestry application requires the knowledge you have learned through the modules 1 to 11 of this training manual.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215828Z" creationid="miurahr" creationdate="20201117T215828Z">
+        <seg>林業の応用についてのこのモジュールを理解するには、このトレーニングマニュアルのモジュール1から11を通じて学んだ知識が必要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Footpath map in the Print Composer</seg>
       </tuv>
       <tuv lang="ja">
@@ -6271,6 +6447,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>For example, the existence of a bridge, a swamp or the location of a protected species.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215732Z" creationid="miurahr" creationdate="20201117T215732Z">
+        <seg>例えば、橋の有無、湿地や保護種の位置。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>For example, the title describes the subject matter and the legend relates map symbols to the mapped data.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135653Z" creationid="miurahr" creationdate="20201117T135653Z">
@@ -6403,6 +6587,22 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123624Z" creationid="miurahr" creationdate="20201117T123624Z">
         <seg>属性のために、サンプルサイトを説明する各々の物事に対して **フィールド** が欲しくなるかもしれません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For the purposes of creating detailed maps, you are looking for a symbology that looks good not at the scale of the whole forest area (left image below) but at a closer scale (right image below).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215623Z" creationid="miurahr" creationdate="20201117T215623Z">
+        <seg>詳細地図を作成するという目的のため、全体の森林地域の縮尺(下の左画像)ではなくより近い縮尺(下の右画像)で良く見えるシンボルを探しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For the purposes of our map, a legend is not really necessary, but an overview map and some text boxes could add value to the map.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215639Z" creationid="miurahr" creationdate="20201117T215639Z">
+        <seg>ここでの地図の目的のためには凡例は本当は必要はありませんが、概要地図といくつかのテキストボックスで、地図に値を追加できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6791,10 +6991,34 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Go back to that module as you need.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215632Z" creationid="miurahr" creationdate="20201117T215632Z">
+        <seg>必要に応じてそのモジュールに戻ってください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Go back to the :guilabel:`Print Layout` window often to see what the map would look like.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215622Z" creationid="miurahr" creationdate="20201117T215622Z">
+        <seg>:guilabel:`印刷レイアウト` ウィンドウに何度も戻り、地図がどのように見えるかを確認します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Go back to the map view.</seg>
       </tuv>
       <tuv lang="ja">
         <seg>地図ビューに戻ります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Go back to those modules if you need to refresh about some of the available options and tools.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215421Z" creationid="miurahr" creationdate="20201117T215421Z">
+        <seg>利用可能なオプションとツールのいくつかについて、更新する必要がある場合は、それらのモジュールに戻ります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6819,6 +7043,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>:guilabel:`アイテムのプロパティ` タブに移動します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Go to the :guilabel:`Print Layout` window.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215607Z" creationid="miurahr" creationdate="20201117T215607Z">
+        <seg>:guilabel:`Print Layout`ウィンドウに移動します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7271,6 +7503,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If for some reason you don't want to snap to the grid at some point, you can always check or uncheck it in the :menuselection:`View` menu.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215401Z" creationid="miurahr" creationdate="20201117T215401Z">
+        <seg>何らかの理由でいくつかの点でグリッドにスナップしたくない場合は、常に :menuselection:`ビュー` メニュー中でいつでもそのチェックを切り替えできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If no replacement exists:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201029T134551Z" creationid="miurahr" creationdate="20201029T134551Z">
@@ -7527,6 +7767,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If you are going to use a different map that the one provided with this manual, use your own scanner to scan the map as an image file, a resolution of 300 DPI will do.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215855Z" creationid="miurahr" creationdate="20201117T215855Z">
+        <seg>このマニュアルで提供される一つは、画像ファイルとして地図をスキャンするために、独自のスキャナを使用する異なる地図を使用しようとしている場合は、300 DPIの解像度が行います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If you are guiding a user through menus, you must use the :menuselection:`menu --&gt; selection --&gt; format`.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141630Z" creationid="miurahr" creationdate="20201117T141630Z">
@@ -7539,6 +7787,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>編集モードの場合は、このフォームを使用して地物の属性を編集できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If you are interested in learning about some basic forestry applications of GIS, following this module will give you the ability to apply what you have learned and will show you some new useful tools.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215842Z" creationid="miurahr" creationdate="20201117T215842Z">
+        <seg>基本的なGISの林業への応用について学ぶことに関心がある方は、このモジュールを習うと、これまで学んできたことを応用する能力が身につきますし、また役立つ新しいツールをお見せします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7863,6 +8119,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If you want to have more accuracy, change the grid :guilabel:`Spacing` setting.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215400Z" creationid="miurahr" creationdate="20201117T215400Z">
+        <seg>より精度を高くしたい場合は、グリッド :guilabel:`間隔` 設定を変更してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If you want to search for a string of letters regardless of case, you can do a case in-sensitive search using the :kbd:`ILIKE` clause:</seg>
       </tuv>
       <tuv lang="ja">
@@ -7923,6 +8187,22 @@
       </tuv>
       <tuv lang="ja">
         <seg>文書中にプログラムコードの自明でない例が含まれている場合は、フリーソフトウェアでの使用を可能とするために、GNU一般公衆利用許諾契約書として、フリーソフトウェアライセンスの選択の下で並行してこれらの例をリリースすることをお勧めします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If your map has colors, scan the image in color so that you can later use those colors to separate information from your map into different  layers (for ex., forest stands, contour lines, roads...).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215857Z" creationid="miurahr" creationdate="20201117T215857Z">
+        <seg>地図が色付きの場合は色付きで画像をスキャンし、後でそれらの色を使用して地図からの情報を別々のレイヤー（例えば、林分、道路、等高線...）に分離できるようにしておきます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If your map is too big, then you can scan it in different parts but keep in mind that you will have to repeat preprocessing and georeferencing tasks for each part.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215852Z" creationid="miurahr" creationdate="20201117T215852Z">
+        <seg>地図が大きすぎる場合は、部分に分けてそれをスキャンできますが、各部分について前処理とジオリファレンスの作業を繰り返す必要があることを心に留めておいてください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8043,6 +8323,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>sipify スクリプトを改善する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In  the :guilabel:`Item properties` tab, inside the :guilabel:`Main properties` click on :guilabel:`Insert or Edit an Expression...`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215801Z" creationid="miurahr" creationdate="20201117T215801Z">
+        <seg>:guilabel:`Item properties`タブの:guilabel:`Main properties`内で、:guilabel:`Insert or Edit an Expression...`をクリックします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8239,6 +8527,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In modules 1 through 13, you have already learned quite a lot about QGIS and how to work with it.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215841Z" creationid="miurahr" creationdate="20201117T215841Z">
+        <seg>モジュール１から13では、QGISについて、およびQGISでどのように作業するかをすでにたくさん学びました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In most cases, you will want to provide an answer regarding how to complete the assignment given in this section.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141620Z" creationid="miurahr" creationdate="20201117T141620Z">
@@ -8267,6 +8563,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150307Z" creationid="miurahr" creationdate="20201117T150307Z">
         <seg>そのためには、単一のクエリ中で2つのテーブルを結合する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In order to keep it, and have a visualization of it that shows only the stand borders:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215433Z" creationid="miurahr" creationdate="20201117T215433Z">
+        <seg>それを維持し、林分の境界だけを表示するようそれを可視化するには：</seg>
       </tuv>
     </tu>
     <tu>
@@ -8423,6 +8727,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In the :guilabel:`Expression` box write :kbd:`'No remarks.'`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215729Z" creationid="miurahr" creationdate="20201117T215729Z">
+        <seg>:guilabel:`式` ボックスで :kbd:`「備考なし」` と書き込みます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In the :guilabel:`Expression` box write/copy/construct :kbd:`$rownum`.</seg>
       </tuv>
       <tuv lang="ja">
@@ -8451,6 +8763,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>:guilabel:`印刷レイアウト` ウィンドウで、 :guilabel:`構図` タブ(右のパネル)に行き、 :guilabel:`紙と品質` に対するこれらの設定がプリンタ用に定義されたものと同じであることを確認してください：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In the :guilabel:`Print Layout`, save your map as a layout template as :kbd:`forestry_atlas.qpt` in your :kbd:`exercise_data\\forestry\\map_creation\\` folder.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215818Z" creationid="miurahr" creationdate="20201117T215818Z">
+        <seg>:guilabel:`印刷レイアウト` で、レイアウトテンプレートとして :kbd:`forestry_atlas.qpt` として :kbd:`exercise_data\\forestry\\map_creation\\` フォルダ中に地図を保存します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8611,6 +8931,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150353Z" creationid="miurahr" creationdate="20201117T150353Z">
         <seg>前の2つのモジュールでは、リレーショナルデータベースの基本的な概念、特徴および機能だけでなく、保存、管理、クエリとリレーショナルデータベース内の空間データを操作できる機能拡張について見ました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In the previous situation, the areas represented by every sample plot were the same, so it was enough to calculate the average of the sample plots.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T220223Z" creationid="miurahr" creationdate="20201117T220223Z">
+        <seg>以前の状況では、すべてのサンプルプロットによって表される面積が同じだったので、サンプルプロットの平均値を計算すれば十分でした。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9071,6 +9399,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>It is created from vector data, styled in a standard format and stored as a raster so that you don't have to bother styling several vector layers and worrying about getting a good result.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215410Z" creationid="miurahr" creationdate="20201117T215410Z">
+        <seg>それは、ベクターデータから作成された標準形式でスタイルとラスターとして格納されていますので、いくつかのベクターレイヤーにスタイル付けする手間や良い結果を得られているか心配する必要がありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>It is easy to see that the mumps patients all live close to each other.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T134046Z" creationid="miurahr" creationdate="20201117T134046Z">
@@ -9099,6 +9435,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150233Z" creationid="miurahr" creationdate="20201117T150233Z">
         <seg>通常、テーブル内の列の一意の識別子を作成するために使用されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It is possible that the previous information for that area dates several years back and was collected analogically (that is, in paper) or perhaps it was digitized but all you have left is the paper version of that inventory data.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215846Z" creationid="miurahr" creationdate="20201117T215846Z">
+        <seg>その地域についての以前の情報は何年も前にアナログで（つまり紙で）集めた、あるいはおそらくそれはデジタル化されたが残されているのはその調査データの紙版しかない、といったことがよくありそうです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9171,6 +9515,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135714Z" creationid="miurahr" creationdate="20201117T135714Z">
         <seg>それは明るい色、家のアイコン、そして凡例中により説明的で魅力的な単語を使用しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It will output one map for every feature in the layer.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215713Z" creationid="miurahr" creationdate="20201117T215713Z">
+        <seg>これは、レイヤー内のすべての地物の出力1つの地図になります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9351,6 +9703,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Last but not least, printing or exporting your maps to image files or PDF files.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215811Z" creationid="miurahr" creationdate="20201117T215811Z">
+        <seg>最後になりましたが、印刷や画像ファイルやPDFファイルに地図をエクスポートします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Latitude</seg>
       </tuv>
       <tuv lang="ja">
@@ -9415,6 +9775,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Leave the layout open but go back to the map.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215539Z" creationid="miurahr" creationdate="20201117T215539Z">
+        <seg>レイアウトを開いたまま、マップにもどります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Leave this file blank for now.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141601Z" creationid="miurahr" creationdate="20201117T141601Z">
@@ -9451,6 +9819,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T145429Z" creationid="miurahr" creationdate="20201117T145429Z">
         <seg>前のレッスンのラスター結果をベクターに変換してみましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Let's create a grid of polygons covering the forest area:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215709Z" creationid="miurahr" creationdate="20201117T215709Z">
+        <seg>森林地域をカバーするポリゴンのグリッドを作成してみましょう：</seg>
       </tuv>
     </tu>
     <tu>
@@ -9567,6 +9943,30 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Lets add some background data and create some styling so that the map content is as clear as possible.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215530Z" creationid="miurahr" creationdate="20201117T215530Z">
+        <seg>背景データを追加し、マップの内容ができるだけ明確になるようなスタイルを作成しましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Lets do something about it and save some trees by not printing those useless maps.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215723Z" creationid="miurahr" creationdate="20201117T215723Z">
+        <seg>それについて何かをして、それらの無用な地図を印刷しないことで、木をいくらか節約しましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Lets fix that:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215654Z" creationid="miurahr" creationdate="20201117T215654Z">
+        <seg>修正しましょう：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Lets look at an example:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150308Z" creationid="miurahr" creationdate="20201117T150308Z">
@@ -9579,6 +9979,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>現地事務所に印刷用に送付できるよう、単一のPDFとして地図を印刷しましょう：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Lets see what else could go in there.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215638Z" creationid="miurahr" creationdate="20201117T215638Z">
+        <seg>他に何をそこに置けるか見てみましょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9683,6 +10091,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T134405Z" creationid="miurahr" creationdate="20201117T134405Z">
         <seg>figure_map_view_towns_ 、 figure_map_view_schools_ 、 figure_map_view_railways_、 figure_map_view_rivers_  は複数レイヤが読み込まれた地図ビューです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Look for other cross-hairs in the black lines image, they are separated 1000 meters from each other both in North and East direction.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T220012Z" creationid="miurahr" creationdate="20201117T220012Z">
+        <seg>黒い線の画像で他の十字線を探すと、北と東の両方の方向で互いに1000メートル離れています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10271,6 +10687,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Most likely you would like to use that information in your GIS to, for example, compare later with later inventories.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215848Z" creationid="miurahr" creationdate="20201117T215848Z">
+        <seg>その情報をGISで、例えば後で後の調査と比較するために、使用したいときっと思うでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Multiple buffer zones</seg>
       </tuv>
       <tuv lang="ja">
@@ -10379,6 +10803,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>にもかかわらず、QGISでの以前の経験を持っている方であればおそらく問題なく指示に従うことができるよう、モジュールはレッスンを通して基本的なレベルに従います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Nevertheless, you will get information for a good number of stands just using the planned plots.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T220202Z" creationid="miurahr" creationdate="20201117T220202Z">
+        <seg>それにもかかわらず、計画されたプロットを使用するだけで林分のかなりの数の情報が得られるでしょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10527,10 +10959,34 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Note that some of them cover areas that are not interesting.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215722Z" creationid="miurahr" creationdate="20201117T215722Z">
+        <seg>それらのいくつかは関心のない地域をカバーしていることに注意してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Note that the :kbd:`[% "Zone" %]` will be substituted by the value of the field :kbd:`Zone` for the corresponding feature from the layer :kbd:`atlas_coverage`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215805Z" creationid="miurahr" creationdate="20201117T215805Z">
+        <seg>:kbd:`[% "Zone" %]` は :kbd:`atlas_coverage` レイヤーからの対応する地物について、フィールド :kbd:`ゾーン` の値によって置換されることに注意。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Note that the geometry (positions where samples were taken) is not shown in the attribute table --– the GIS Application stores it separately!</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123632Z" creationid="miurahr" creationdate="20201117T123632Z">
         <seg>ジオメトリ（サンプルが採取された位置）は属性テーブルに示されていないことに注意してください--- GISアプリケーションではジオメトリは別途保存されます！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Note that the raster seems to be slightly rotated, but that is simply because the data is :kbd:`KKJ / Finland zone 2` and your project is in :kbd:`ETRS89 / ETRS-TM35FIN`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T220128Z" creationid="miurahr" creationdate="20201117T220128Z">
+        <seg>ラスターがわずかに回転しているように見えますが、それはデータが :kbd:`KKJ/フィンランドゾーン2` でありプロジェクトが :kbd:`ETRS89 / ETRS-TM35FIN` であるというだけの理由であることに注意してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10579,6 +11035,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>大きな地図だけが、現在の地図ビューを表示している、小さな索引地図は、それをロックしたときに持っていた同じ景色を保っていることに注意してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Notice that your overview map is not really giving an overview of the forest area which is what you want.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215644Z" creationid="miurahr" creationdate="20201117T215644Z">
+        <seg>この概観地図では本当に望んでいる森林地域の概観になっていないことに注意してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10695,6 +11159,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Now to calculate the estimates, you need to divide the sum of the stands volumes or number of stems by the sum of the areas of the stands containing information.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T220224Z" creationid="miurahr" creationdate="20201117T220224Z">
+        <seg>今は見積もりを計算するためには、林分の体積または茎数の合計を必要な情報を含む林分の面積の合計で割る必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Now to test the new action.</seg>
       </tuv>
       <tuv lang="ja">
@@ -10751,6 +11223,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Now you can see the map in QGIS project as a georeferenced raster.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T220126Z" creationid="miurahr" creationdate="20201117T220126Z">
+        <seg>今、地理参照ラスターとしてQGISプロジェクトの地図を見ることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Now you can start to add elements to your map canvas.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150751Z" creationid="miurahr" creationdate="20201117T150751Z">
@@ -10787,6 +11267,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>やってみよう</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Now your overview map is more what you expected and its view will not change anymore.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215650Z" creationid="miurahr" creationdate="20201117T215650Z">
+        <seg>今概観地図は、予想するより以上のものであり、そのビューはもう変更しないでしょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10951,6 +11439,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Once you are happy with your control points, you can save them for later use:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T220124Z" creationid="miurahr" creationdate="20201117T220124Z">
+        <seg>制御点が完成したら、後で使用するために保存できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Once you have a symbology your happy with, you are ready to add some more information to your printed map.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215627Z" creationid="miurahr" creationdate="20201117T215627Z">
+        <seg>満足なシンボル体系を得たら、印刷された地図にいくつかのより多くの情報を追加する準備が整いました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Once you have planned what features you want to capture into the GIS, and the geometry type and attributes that each feature should have, you can move on to the next step of creating an empty shapefile.</seg>
       </tuv>
       <tuv lang="ja">
@@ -11011,6 +11515,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135136Z" creationid="miurahr" creationdate="20201117T135136Z">
         <seg>ラスターデータとベクターデータの違いで重要なこととして、ラスターデータの場合はズームインをし過ぎると格子状の模様が見えてきます（図 figure_raster_data_ と figure_raster_data_zoom_ 参照）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>One more thing needs to be done.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215715Z" creationid="miurahr" creationdate="20201117T215715Z">
+        <seg>もう一つする必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11235,6 +11747,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150030Z" creationid="miurahr" creationdate="20201117T150030Z">
         <seg>地物フォームを開くことはQGISができる標準的な操作の1つです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Or you could send a field team later to get estimates of the missing forest stands to complete the stand inventory.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T220201Z" creationid="miurahr" creationdate="20201117T220201Z">
+        <seg>あるいは後で野外チームを送って不足している林分の見積を取得することで林分の調査を完了することもできたかもしれません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11499,6 +12019,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>描画しているシェイプがフィールドを完全にカバーするまで、縁に沿ってさらにクリックすることにより、より多くのポイントを置きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Place them as you can see in the image above.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215701Z" creationid="miurahr" creationdate="20201117T215701Z">
+        <seg>それらが上の画像で見えるように配置してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12383,6 +12911,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Remember to use :guilabel:`Update preview` and :guilabel:`Set to map canvas extent` whenever you change the zoom in your map or the layout.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215625Z" creationid="miurahr" creationdate="20201117T215625Z">
+        <seg>地図やレイアウトでズームを変更するたびに、 :guilabel:`プレビューを更新` と :guilabel:`地図キャンバス範囲設定` を使用することを忘れないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Remember, if you've made a mistake while digitizing a feature, you can always edit it after you're done creating it.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T145740Z" creationid="miurahr" creationdate="20201117T145740Z">
@@ -12911,10 +13447,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Set the :guilabel:`Overview frame` to :guilabel:`Map 0`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215641Z" creationid="miurahr" creationdate="20201117T215641Z">
+        <seg>:guilabel:`概要フレーム` を地図 :guilabel:`Map 0` に設定してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Set the cursor at the end of the text in the label.</seg>
       </tuv>
       <tuv lang="ja">
         <seg>ラベル内のテキストの末尾にカーソルを設定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set the map transparency to 50% and compare it to the aerial image.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T220131Z" creationid="miurahr" creationdate="20201117T220131Z">
+        <seg>地図の透明度を50％に設定して空撮画像と比較します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13143,6 +13695,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>So if possible, scan the map in as few parts as possible.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215854Z" creationid="miurahr" creationdate="20201117T215854Z">
+        <seg>ですからできれば、可能な限り少ない部分に分けて地図をスキャンします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>So if you have a trees point layer, you can show each tree position with a small picture of a tree, rather than the basic circle marker that the GIS uses when you first load the layer (see illustrations figure_vector_symbology_, figure_generic_symbology_ and figure_custom_symbology_).</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141027Z" creationid="miurahr" creationdate="20201117T141027Z">
@@ -13227,6 +13787,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>SIP ファイルの一部は、特定のスクリプトを使用して自動的に生成されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Some of the forest stands did not get any sample plot and for those you will not get information.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T220158Z" creationid="miurahr" creationdate="20201117T220158Z">
+        <seg>林分の一部はどんなサンプルプロットも取得しておらず、そしてそれらについては情報は取得されないでしょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13791,6 +14359,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>That tells the Atlas tool to use the features (polygons) inside :file:`atlas_coverage` as the focus for every detail map.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215711Z" creationid="miurahr" creationdate="20201117T215711Z">
+        <seg>詳細地図の焦点として :file:`atlas_coverage` 内部のそれは地物（ポリゴン）を使用する地図帳ツールに指示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The "**Cover Texts**" are certain short passages of text that are listed, as Front-Cover Texts or Back-Cover Texts, in the notice that says that the Document is released under this License.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124414Z" creationid="miurahr" creationdate="20201117T124414Z">
@@ -13855,10 +14431,34 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The :guilabel:`Hidden coverage layer` tells the Atlas to not show the polygons in the output maps.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215713Z" creationid="miurahr" creationdate="20201117T215713Z">
+        <seg>:guilabel:`隠しカバレッジレイヤー` は出力地図でポリゴンを表示しないように地図帳に伝えます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The :guilabel:`Indexes` tab can be used to add and delete both spatial and normal indexes.</seg>
       </tuv>
       <tuv lang="ja">
         <seg>:guilabel:`索引` タブは、空間索引と通常の索引の両方を追加および削除するために使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The :kbd:`atlas_coverage` layer is probably in edit mode still, add the following text in the :kbd:`Remarks` field to the corresponding polygons (double click the cell to edit it):</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215734Z" creationid="miurahr" creationdate="20201117T215734Z">
+        <seg>:kbd:`atlas_coverage` レイヤーはおそらくまだ編集モードです、 :kbd:`Remarks` フィールド中に次のテキストを対応するポリゴンに追加します（セルを編集するにはそのセルをダブルクリックしてください）：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The Atlas coverage is just a vector layer that will be used to generate the detail maps, one map for every feature in the coverage.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215705Z" creationid="miurahr" creationdate="20201117T215705Z">
+        <seg>地図帳カバレッジは、カバレッジ内のすべての地物に対して1枚の地図という詳細地図を作成するために使用される、ただのベクターレイヤーです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14239,6 +14839,30 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The coverage could be any existing layer, but usually it makes more sense to create one for the specific purpose.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215708Z" creationid="miurahr" creationdate="20201117T215708Z">
+        <seg>カバレッジは何か既存のレイヤーでも良いのですが、通常はその特定の目的のために1つ作成する方が理にかなっています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The coverage layer you are using does not yet have useful information that you could use to customize the content of the labels in your map.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215726Z" creationid="miurahr" creationdate="20201117T215726Z">
+        <seg>使用しているカバレッジレイヤーは、まだ地図内のラベルの内容をカスタマイズするために使用できる有用な情報を持っていません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The current styling of the sample plots is not the best, but how does it look in the print layout?:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215556Z" creationid="miurahr" creationdate="20201117T215556Z">
+        <seg>サンプルプロットの現在のスタイルは最適ではありませんが、印刷レイアウトではどのように表示されますか?:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The data and types of analyses we are currently using to study this complex landscape include a series of maps ranging in date from 1759 to 2012, which are integrated within our larger GIS database, historical records such as cadastral tax records, agricultural reports, and population data from censuses and parish/civil registers, environmental data from ponds (pollen, sediment geochemistry, grain size, stable isotopes), and oral history/ethnographic interviews with local rural inhabitants.</seg>
       </tuv>
       <tuv lang="ja">
@@ -14299,6 +14923,30 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135733Z" creationid="miurahr" creationdate="20201117T135733Z">
         <seg>figure_map_scale_ (c)でのように、実世界の等価距離が上に置かれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The error in pixels can be seen also in the :guilabel:`GCP table` in the :guilabel:`dX[pixels]` and :guilabel:`dY[pixels]` columns.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T220051Z" creationid="miurahr" creationdate="20201117T220051Z">
+        <seg> :guilabel:`GCPテーブル` の中でも :guilabel:`dX [ピクセル]` と :guilabel:`dY [ピクセル]` 列でピクセル単位の誤差を見ることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The error in pixels should not be higher than 10 pixels, if it is you should review the points you have digitized and the coordinates you have entered to find what the problem is.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T220106Z" creationid="miurahr" creationdate="20201117T220035Z">
+        <seg>ピクセル単位の誤差は10ピクセルよりも大きくならないように。そうである場合は、問題がないかどうか、デジタル化された点および入力した座標を見直してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The exercises in the following lessons assume you are already capable of doing many of the basic operations in QGIS and only tools that have not been used before are presented in more detail.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215829Z" creationid="miurahr" creationdate="20201117T215829Z">
+        <seg>この後のレッスンの演習では、読者はすでに QGIS での基本的な操作の多くはできるものと仮定し、前に使用されていないツールだけが詳細に提示されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14367,6 +15015,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The first step is to create them, you can add for example a zone code for the polygon areas and a field with some remarks for the field teams to have into account:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215727Z" creationid="miurahr" creationdate="20201117T215727Z">
+        <seg>最初のステップはそれらを作成すること、たとえばポリゴン領域のゾーンコードおよび野外チームが考慮に入れるいくつかの発言のフィールドを追加できます：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The first task you will have to do is to scan your map.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215851Z" creationid="miurahr" creationdate="20201117T215851Z">
+        <seg>するべき最初のタスクは、地図をスキャンすることです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The first thing we need to realise when talking about point features is that what we describe as a point in GIS is a matter of opinion, and often dependent on scale.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140740Z" creationid="miurahr" creationdate="20201117T140740Z">
@@ -14395,6 +15059,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>学校および周辺の歩道</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The forest manager will have some information about the area that might be useful when visiting the area.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215731Z" creationid="miurahr" creationdate="20201117T215731Z">
+        <seg>森林管理は、地域を訪れる際に役に立つかもしれない地域に関するいくつかの情報を持っています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14751,6 +15423,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The plugin is named :guilabel:`Georeferencer GDAL`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215958Z" creationid="miurahr" creationdate="20201117T215958Z">
+        <seg>プラグイン の名前は :guilabel:`Georeferencer GDAL` です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The point attributes describe the point e.g. if it is a tree or a lamp post.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140725Z" creationid="miurahr" creationdate="20201117T140725Z">
@@ -15031,6 +15711,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The text inside the box in the :guilabel:`Item properties` should show :kbd:`Detail map inventory zone: [% "Zone" %]`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215803Z" creationid="miurahr" creationdate="20201117T215803Z">
+        <seg>:guilabel:`アイテムプロパティ` 中のボックス内のテキストは :kbd:`詳細図調査ゾーン: [% "Zone" %]` と表示されるはずです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The tool dialog will appear.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T145445Z" creationid="miurahr" creationdate="20201117T145445Z">
@@ -15107,6 +15795,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>NRCanとSNBから得られたベクターデータは、マージ照会、およびベクターツールを使用して、最終的な地図領域に対してクリップされました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The view extent will be 10% bigger than the polygons, which means that your detail maps will have a 10% overlap.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215721Z" creationid="miurahr" creationdate="20201117T215721Z">
+        <seg>ビューの範囲はポリゴンよりも10％大きくなります、これは詳細地図が10% 重なりを持っていることを意味します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15543,6 +16239,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This creates a shadowed rectangle over the smaller map representing the extent visible in the bigger map.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215643Z" creationid="miurahr" creationdate="20201117T215643Z">
+        <seg>これは小さい地図上に大きい地図に表示された範囲を表す影の矩形を作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This describes how high above sea level you are.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140811Z" creationid="miurahr" creationdate="20201117T140811Z">
@@ -15751,6 +16455,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This means that you will need to digitize the information at hand using your GIS software.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215849Z" creationid="miurahr" creationdate="20201117T215849Z">
+        <seg>これは、GISソフトウェアを用いて手で情報をデジタル化する必要があることを意味します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This means you can easily change it without impacting on any data in your database:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150348Z" creationid="miurahr" creationdate="20201117T150348Z">
@@ -15863,6 +16575,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This type of ready to use cartography raster is very common.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215408Z" creationid="miurahr" creationdate="20201117T215408Z">
+        <seg>このタイプの使用準備ができている地図作成ラスターは非常に一般的です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This value is defined in map units (meters, feet, decimal degrees) according to the Coordinate Reference System (CRS) of the vector layer.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141234Z" creationid="miurahr" creationdate="20201117T141234Z">
@@ -15907,6 +16627,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>``Edit on GitHub`` をクリックすると、``qgis:master`` ブランチのファイルが開きます。ページの上部には、あなたにはこのリポジトリへの書込権限がないため、変更はあなたのリポジトリの新しいブランチで適用される旨を知らせるメッセージが、表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This will set all the default value for all the polygons.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215730Z" creationid="miurahr" creationdate="20201117T215730Z">
+        <seg>これは、すべてのポリゴンに対してすべてデフォルト値を設定します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16103,6 +16831,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>To check that your data is properly georeferenced you can open the aerial image in the :kbd:`exercise_data\\forestry` folder, named :kbd:`rautjarvi_aerial.tif`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T220128Z" creationid="miurahr" creationdate="20201117T220128Z">
+        <seg>:kbd:`exercise_data\\forestry` フォルダの、 :kbd:`rautjarvi_aerial.tif` という名前の空撮画像を開き、データが適切に地理参照されていることを確認できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>To clone QGIS master:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T114452Z" creationid="miurahr" creationdate="20201117T114452Z">
@@ -16243,6 +16979,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>地図を地理参照するには：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>To get an idea of what you will do next, here is a full set of detail maps for the forest area:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215706Z" creationid="miurahr" creationdate="20201117T215706Z">
+        <seg>次に何をするかのアイデアを得るために、ここに森林地域のため詳細地図のフルセットがあります：</seg>
       </tuv>
     </tu>
     <tu>
@@ -16455,6 +17199,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Try to get ground control points as far from each other as possible.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T220015Z" creationid="miurahr" creationdate="20201117T220015Z">
+        <seg>地上基準点はできるだけ互いに離して取得してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Try to identify which symbology types you would use for the following types of vector features:</seg>
       </tuv>
       <tuv lang="ja">
@@ -16663,6 +17415,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Use :menuselection:`Layout --&gt; Save as Template`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215820Z" creationid="miurahr" creationdate="20201117T215820Z">
+        <seg>:menuselection:`レイアウト --&gt; テンプレートとして保存` を使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Use ``#ifdef SIP_RUN`` to generate code only in SIP files or ``#ifndef SIP_RUN`` for C++ code only.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T091852Z" creationid="miurahr" creationdate="20201117T091852Z">
@@ -16763,6 +17523,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>|calculateField| 計算機を使用して、以下の二つのフィールドを作成して投入します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Use the |select| button to select the map element in the layout.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215619Z" creationid="miurahr" creationdate="20201117T215619Z">
+        <seg>選択ボタンを使用して、レイアウト内のマップ要素を選択します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17455,6 +18223,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>What you need is to get the averages of the sample plots that are falling within each of the forest stands.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T220203Z" creationid="miurahr" creationdate="20201117T220203Z">
+        <seg>必要なのは林分のそれぞれの中に落ちているサンプルプロットの平均値を取得することです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>What's next?</seg>
       </tuv>
       <tuv lang="ja">
@@ -17783,6 +18559,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>When you want to combine information based on their relative locations, you perform a spatial join:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T220205Z" creationid="miurahr" creationdate="20201117T220205Z">
+        <seg>それらの相対的な位置に基づいて情報を組み合わせたいときは、空間的結合を行います：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>When you want to refer to a special area on a map during your presentation or in a report you could say: 'the houses close to latitude 26.04 / longitude -32.11 are often exposed to flooding during January and February' (see figure_map_graticule_).</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135751Z" creationid="miurahr" creationdate="20201117T135751Z">
@@ -17887,6 +18671,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>While during the last exercises, the white buffer was OK on top of the aerial image, now that the background image is mostly white you barely can see the labels.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215413Z" creationid="miurahr" creationdate="20201117T215413Z">
+        <seg>最後の演習の間、白いバッファは空撮画像の上ではOKでしたが、今は背景画像はほとんどが白であり、ほとんどラベルが見えません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>While not posing any immediate threat to students or staff, these hazards will require eventual clearance to allow future construction within an educational institution vital to Afghanistan’s future development.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T062637Z" creationid="miurahr" creationdate="20201117T062637Z">
@@ -17963,6 +18755,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>ちょっとした作業で2つのテーブルに分割でき、同じ通りに住む人のために通りの名前を繰り返す必要がなくなります:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>With already three digitized ground control points you will be able to see the georeferencing error as a red line coming out of the points.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T220058Z" creationid="miurahr" creationdate="20201117T220058Z">
+        <seg>3つの地上基準点がすでにデジタル化されていると、地理参照の誤差をポイントから出てくる赤い線として見ることができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18207,6 +19007,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You can also check how it looks like on the layout:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215415Z" creationid="miurahr" creationdate="20201117T215415Z">
+        <seg>レイアウト上でどのように見えるか確認もできます：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You can also design your own custom form completely from scratch.</seg>
       </tuv>
       <tuv lang="ja">
@@ -18295,6 +19103,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You can leave a break line before you enter the expression.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215808Z" creationid="miurahr" creationdate="20201117T215808Z">
+        <seg>式を入力する前にブレークラインを残すことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can look at this example image for reference:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215633Z" creationid="miurahr" creationdate="20201117T215633Z">
+        <seg>参考のために、この例の画像を見ることができます：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You can make as many copies as you like.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135950Z" creationid="miurahr" creationdate="20201117T135950Z">
@@ -18307,6 +19131,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>メインリポジトリにマージされるまでは、プルリクエストに修正を加えることができます。それはプルリクエストを改善するためだったり、提案された修正に対処するためだったり、あるいはビルドエラーを修正するためだったりするでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can make use of those same systematic sample plots to calculate estimates for the different forest stands you digitized previously.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T220157Z" creationid="miurahr" creationdate="20201117T220157Z">
+        <seg>以前にデジタル化された別の林分のための推定値を算出するために、同じ体系的サンプルプロットを利用できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18359,6 +19191,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You can see the result for the preview of zone 2 in the image below:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215810Z" creationid="miurahr" creationdate="20201117T215810Z">
+        <seg>下の画像でゾーン2のプレビューの結果を見ることができます：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You can see the result of your insert action by selecting all the data in the table:</seg>
       </tuv>
       <tuv lang="ja">
@@ -18391,6 +19231,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You can take some guidance from this image:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215423Z" creationid="miurahr" creationdate="20201117T215423Z">
+        <seg>この画像からいくつかのガイダンスを取ることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You can tell the database to allow you to also store nothing in a field.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150210Z" creationid="miurahr" creationdate="20201117T150210Z">
@@ -18415,6 +19263,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You can use the :menuselection:`Atlas --&gt; Export Atlas as Images...` or :menuselection:`Atlas --&gt; Export Atlas as PDF...`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215812Z" creationid="miurahr" creationdate="20201117T215812Z">
+        <seg>:menuselection:`地図帳 --&gt; 地図帳をPDFとして書き出し...` や :menuselection:`地図帳 --&gt; 地図帳を画像として書き出し...` を使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You can use the Atlas tool to automatically generate a number of maps with a common format.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150735Z" creationid="miurahr" creationdate="20201117T150735Z">
@@ -18427,6 +19283,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>作成される地図を移動するには、地図帳ツールバーまたは :menuselection:`地図帳` メニューの矢印を使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can use the image above as a guide.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T220111Z" creationid="miurahr" creationdate="20201117T220111Z">
+        <seg>ガイドとして上記の画像を使用できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18463,6 +19327,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You could have planned some extra sample plots when you planned the systematic inventory, so that the field teams would have measured a few extra sample plots for this purpose.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T220200Z" creationid="miurahr" creationdate="20201117T220200Z">
+        <seg>体系的な調査を計画するときに、野外チームがこの目的のためにいくつかの余分なサンプルプロットを測定するように、いくつかの余分なサンプルプロットを計画することもできたかもしれません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You could just as easily create separate images for every map (remember to uncheck the single file creation), here you can see the thumbnails of the images that would be created:</seg>
       </tuv>
       <tuv lang="ja">
@@ -18479,10 +19351,42 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You have been working in :doc:`../basic_map/index` with symbology and in :doc:`../vector_classification/index` with labeling.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215419Z" creationid="miurahr" creationdate="20201117T215419Z">
+        <seg>シンボル体系の :doc:`../basic_map/index` 、およびラベルの :doc:`../vector_classification/index` 中で作業してきました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You have created a similar composition already in :doc:`../map_composer/index`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215631Z" creationid="miurahr" creationdate="20201117T215631Z">
+        <seg>:doc:`../map_composer/index` では既に同様の組成を作成しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You have managed to create a template map that can be used to automatically generate detail maps to be used in the field to help navigate to the different plots.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215824Z" creationid="miurahr" creationdate="20201117T215824Z">
+        <seg>別のプロットに移動するのを助けるために野外で使用される詳細地図を自動作成するのに使用できるテンプレート地図の作成にこぎつけました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You have seen how to interact with spatial databases using the QGIS Browser and how to add layers to your map based on a query filter.</seg>
       </tuv>
       <tuv lang="ja">
         <seg>QGISブラウザを使用して空間データベースと対話する方法、およびクエリフィルタに基づいて地図にレイヤーを追加する方法を見てきました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You managed to calculate forest estimates for the whole forest using the information from your systematic sample plots, first without considering the forest characteristics and also using the interpretation of the aerial image into forest stands.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T220233Z" creationid="miurahr" creationdate="20201117T220233Z">
+        <seg>自分の体系的なサンプルプロットからの情報を使用して、最初は森林の特性を考慮することなしで、そしてまた林分への空撮画像の解釈を使用して、森林全体に対して森林の推定値を計算できました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18655,6 +19559,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You need to tell the Atlas tool what map element is going to be updated for every output map.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215716Z" creationid="miurahr" creationdate="20201117T215716Z">
+        <seg>すべての出力地図に対してどの地図要素が更新されるつもりかを地図帳ツールに伝える必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You need to transfer funds from one account and add them to another.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150250Z" creationid="miurahr" creationdate="20201117T150250Z">
@@ -18679,6 +19591,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You should be able to calculate the coordinates of those points in relation to the first one.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T220013Z" creationid="miurahr" creationdate="20201117T220013Z">
+        <seg>最初のポイントとの関係でそれらのポイントの座標を計算できるはずです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You should be presented with the default QGIS generated attribute capture form each time you capture a new point.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T145929Z" creationid="miurahr" creationdate="20201117T145929Z">
@@ -18699,6 +19619,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135805Z" creationid="miurahr" creationdate="20201117T135805Z">
         <seg>地図でどんな物語を語りたいか、凡例、スケールバーと認定などの要素がどのように整列されなければならないかに集中する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You should end up with something similar to this:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T220017Z" creationid="miurahr" creationdate="20201117T220017Z">
+        <seg>終わりにはこのようになっている必要があります：</seg>
       </tuv>
     </tu>
     <tu>
@@ -18743,6 +19671,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You want this map to represent the whole forest area and you want it to show only the background map and the :file:`forest_stands_2012` layer, and not display the sample plots.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215645Z" creationid="miurahr" creationdate="20201117T215645Z">
+        <seg>望んでいることは、この地図が森林地域全体を表現し、それが背景地図と :kbd:`forest_stands_2012` レイヤーだけを表示して、サンプルプロットを表示しないことです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You will be able to use this template again and again.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215821Z" creationid="miurahr" creationdate="20201117T215821Z">
+        <seg>このテンプレートは何度も何度も使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You will have to start reading at one cover and work your way through the entire book until you find the information you need.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150230Z" creationid="miurahr" creationdate="20201117T150230Z">
@@ -18771,6 +19715,22 @@
       </tuv>
       <tuv lang="ja">
         <seg>:kbd:`ORDER BY` 句を追加したのでビューの行はきれいに並べ替えられています:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You will use later the the green styling of the :kbd:`forest_stands_2012` layer.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215425Z" creationid="miurahr" creationdate="20201117T215425Z">
+        <seg>後で :kbd:`forest_stands_2012` レイヤーの緑のスタイリングを使用するでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You will use the georeferencing plugin from QGIS, the plugin is already installed in QGIS.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215949Z" creationid="miurahr" creationdate="20201117T215949Z">
+        <seg>QGISから地理参照 プラグイン を使用します。この プラグイン はすでにQGISにインストールされています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18807,6 +19767,30 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Your goal is to get the plots locations and their name to be as clearly visible as possible but always allowing to see the background map elements.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215422Z" creationid="miurahr" creationdate="20201117T215422Z">
+        <seg>目標は、プロットの位置と名前ができるかぎりはっきりと見えるように、しかしつねに背景地図要素が見えるようにすることです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Your map and this image should match quite well.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T220130Z" creationid="miurahr" creationdate="20201117T220130Z">
+        <seg>地図とこの画像は非常によく一致している必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Your template map is almost ready.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T215659Z" creationid="miurahr" creationdate="20201117T215659Z">
+        <seg>テンプレート地図はほぼ準備ができています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Your vision of the final map is a 1:50 000 toposheet with markers overlaid for sites of interest to tourists.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123559Z" creationid="miurahr" creationdate="20201117T123559Z">
@@ -18819,6 +19803,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>サンプルプロットの数ラインだけ見えるように再び拡大します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Zoom out in the image and move to the right until you find other cross-hair, and estimate how many kilometres you have moved.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T220014Z" creationid="miurahr" creationdate="20201117T220014Z">
+        <seg>画像にズームアウトして、他の十字を見つけるまで右に移動し、何キロメートル移動してきたか見積もります。</seg>
       </tuv>
     </tu>
     <tu>
