@@ -182,6 +182,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>**Methodology:**</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>**方法論：**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>**Permission denied (publickey) error?**</seg>
       </tuv>
       <tuv lang="ja">
@@ -210,6 +218,22 @@
       </tuv>
       <tuv lang="ja">
         <seg>**縮尺** は、現実の世界では、実際の距離と、地図上の距離の比率を表しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>**Specific objectives:**</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>**具体的目的：**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>**Structure**</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>**形式**</seg>
       </tuv>
     </tu>
     <tu>
@@ -342,6 +366,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>**Title**</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>**タイトル**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>**Toolbars** (rows of small pictures that can be clicked with the mouse) normally sit just below the menus and provide a quicker way to use frequently needed actions.</seg>
       </tuv>
       <tuv lang="ja">
@@ -422,6 +454,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>**Workflow description**</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>**ワークフローの説明**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>**base fork**: the fork that you want to merge your changes into</seg>
       </tuv>
       <tuv lang="ja">
@@ -450,6 +490,126 @@
       </tuv>
       <tuv lang="ja">
         <seg>**head fork** ：base forkに組み込みたい変更があるフォーク</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>*Good choice to use open source software*</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>*オープンソースソフトウェアを使うのに良い選択*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>*Having hands on use of programmes through QGIS*</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>*QGISを通してプログラムを実際に使ってみる*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>*I liked the course especially using QGIS*</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>*特にQGISを使ったコースが好きでした*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>*Note: The Hunter Accessibility Model shall indicate the decreasing likelihood of hunters accessing the area by further distance to roads and increasing slope*</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>*注意：狩猟者接近可能性モデルでは、さらに道路への距離があったり傾斜が増加することによって領域へ接近する狩猟者が減少する可能性を示さなければなりません*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>*Note:Defining forest (&gt;= 75 % cover) as best suitable and using the elevation data to reduce index values above assumed tree line is conceptually related to habitat of deer as the main prey*</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>*注：森林（&gt; = 75％カバー）は最適なとして定義し、上のインデックス値を低減するために標高データを使用すると、仮定ツリーラインは概念的には主獲物としてシカの生息地に関連しています*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>*QGIS was great to get experience using GIS software*</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>*QGISはGISソフトウェアを使った経験を積むのに最高でした*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>*The QGIS exercises are well designed and take students step by step through the process of using a GIS*</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>*QGIS演習はうまく設計されており、GISを使用するプロセスを通して生徒を一歩ずつ導きます*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>*The QGIS software was interesting*</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>*QGISソフトウェアは面白かった*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>*The QGIS training videos helped to learn the basics of a GIS package*</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>*QGISトレーニングビデオは、GISパッケージの基本を学ぶのに役立ちました*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>*The detail in the recorded QGIS audio-visuals.*</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>記録されたQGISオーディオビジュアルの詳細。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>*The lectures helped with the QGIS by showing you exactly how to use the program*</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>*講義はプログラムの使い方を正確に説明することでQGISに役立ちました*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>*The practical activities and teaching of QGIS*</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>*QGISの実践的な活動と指導*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>*The use of QGIS helped break apart and understand theory delivered in this course*</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>*QGISの使用は、このコースで提供された理論を分解して理解するのに役立ちました*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>*Using and learning QGIS software*</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>*QGISソフトウェアの使用と学習*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>*Videos to help navigate QGIS were fantastic*</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>*QGISをナビゲートするのに役立つビデオは素晴らしかった*</seg>
       </tuv>
     </tu>
     <tu>
@@ -634,6 +794,86 @@
       </tuv>
       <tuv lang="ja">
         <seg>2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>2009</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>2009年</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>2010</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>2010年</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>2011</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>2011年</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>2012</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>2012年</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>2013</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>2013年</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>2014</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>2014年</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>2015</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>2015年</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>2016</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>2016年</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>2017</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>2017年</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>2019</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>2019年</seg>
       </tuv>
     </tu>
     <tu>
@@ -1166,10 +1406,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>A case study to promote basic understanding of wildlife habitat modeling for students based on open source data.</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>オープンソースのデータに基づいて、学生のための野生生物の生息地のモデリングの基本的な理解を促進するためのケーススタディ。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>A column:</seg>
       </tuv>
       <tuv lang="ja">
         <seg>列：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>A comma-separated file obtained from SNB was imported to QGIS as a point layer using the Add Delimited Text Layer plugin, the Interpolation plugin was used to create an elevation raster that was then used to create a hillshade raster and elevation contour layer with the GDAL raster tools plugin.</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>SNBから得られたカンマ区切りファイルが追加区切りテキストレイヤープラグインを使用して点レイヤーとしてQGISにインポートし、補間プラグインは次いでGDALラスターツールプラグインと陰影起伏ラスターと標高等高線レイヤーを作成するために使用された標高ラスターを作成するために使用されました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1310,6 +1566,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>About the project</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>プロジェクトについて</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Accept adding the new layer to your project when prompted.</seg>
       </tuv>
       <tuv lang="ja">
@@ -1352,8 +1616,8 @@
       <tuv lang="en-US">
         <seg>Active hazardous areas shown in red.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201117T061131Z" creationid="miurahr" creationdate="20201117T061131Z">
-        <seg>未除去の危険区域は赤で示されており、すでに除去された危険区域は明るい緑色で示されています。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T062745Z" creationid="miurahr" creationdate="20201117T061131Z">
+        <seg>未除去の危険区域は赤で示されいます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1574,6 +1838,30 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Aim</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>目的</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Alajangi Simhachalam</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>Alajangi Simhachalam</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Alberto Vázquez</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>アルバート・バスケス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>All the python code is in a single line with semi-colons separating commands (instead of newlines, the usual way of separating Python commands).</seg>
       </tuv>
       <tuv lang="ja">
@@ -1662,6 +1950,30 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Anders Skoglund and Kenichi Matsuoka</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>アンダース・スコグランドと松岡健一</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Andrew Jeffrey</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>Andrew Jeffrey</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Andrew Jeffrey is ...</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>Andrew Jeffrey は ...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Any text editor/IDE can be used to edit QGIS code, providing the following requirements are met.</seg>
       </tuv>
       <tuv lang="ja">
@@ -1682,6 +1994,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>アプリケーションのメニューは、マウスでクリックすると、開いて実行可能な操作の一覧が表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Application of QGIS for designing camera trap study</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>カメラトラップ調査を設計するためのQGISの応用</seg>
       </tuv>
     </tu>
     <tu>
@@ -1710,6 +2030,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>As all GRASS commands can be run from the command line, all the commands that were needed to generate the bushfire hazard maps were recorded, for documentation purposes and for if the maps needed to be regenerated some time in the future.</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>すべてのGRASSのコマンドはコマンドラインから実行できるので、山火事のハザードマップを生成するのに必要とされたすべてのコマンドは、文書化のためおよび将来いつかの時に地図を再作成するために必要な場合のために、記録されました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>As newer versions of astyle indent differently than the version used to do a complete reindentation of the source, the script uses an old astyle version, that we include in our repository (enable ``WITH_ASTYLE`` in cmake to include it in the build).</seg>
       </tuv>
       <tuv lang="ja">
@@ -1722,6 +2050,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>すでに述べたように、高解像度のラスターデータは、コンピュータ記憶容量を大量に必要とすることがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Aspect assessment and mapping</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>斜面方向の評価と図化</seg>
       </tuv>
     </tu>
     <tu>
@@ -1774,6 +2110,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Attribute table of “blocks” vector layer</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>「ブロック」ベクターレイヤーのテーブル属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Attribute, database, fields, data, vector, symbology</seg>
       </tuv>
       <tuv lang="ja">
@@ -1802,6 +2146,30 @@
       </tuv>
       <tuv lang="ja">
         <seg>属性の詳細</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Author</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>著者</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Authors</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>著者</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Background</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>背景</seg>
       </tuv>
     </tu>
     <tu>
@@ -1874,6 +2242,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>黒</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Block wise distribution of camera trap locations and assigning camera traps to different forest camps by using voronoi polygons &amp; hub distance.</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>カメラトラップ位置の賢明な分布をブロックし、ボロノイ多角形＆ハブ距離を使用して、異なる森キャンプにカメラトラップを割り当てます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2014,6 +2390,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>By using QGIS to combine the hazard polygons from earlier surveys with highly accurate aerial photography provided by the USGS, discrepancies can be noted –-- e.g. where the polygons do not match the shape of the buildings, as evident in the northwest part of the campus --- which can direct survey teams to places to first conduct a more accurate re-survey.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T062619Z" creationid="miurahr" creationdate="20201117T062619Z">
+        <seg>ポリゴンはキャンパスの北西部分で明らかなように、建物の形状と一致していないところUSGSが提供する高精度の航空写真と以前の調査からハザードポリゴンを組み合わせることQGISを使用することにより、矛盾が例えば---注意することができます---これは最初のより正確な再調査を実施する場所に調査チームを指揮することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>C++ Files</seg>
       </tuv>
       <tuv lang="ja">
@@ -2042,6 +2426,22 @@
       </tuv>
       <tuv lang="ja">
         <seg>ジオメトリの取得</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Cartographic modeling, vector layers definition, development of GIS databases.</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>地図作成、モデリング、ベクタレイヤーの定義、GISデータベースの開発。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Case Studies</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>ケーススタディ</seg>
       </tuv>
     </tu>
     <tu>
@@ -2202,6 +2602,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>クラス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Classifying snow cover over the winter months allows SHL to monitor the life cycle of the snow covered area, archive coverage areas for historical records, and provide coverage statistics to the hydrographic services team for water yield and storage forecasts.</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>冬月にわたる積雪を分類することで、SHLでは積雪地域のライフサイクルを監視し、積雪地域の歴史的記録を保管し、水収率および貯水の予測のために積雪の統計情報を水路サービスチームへ提供できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2534,6 +2942,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Combining scores to identify the severity of bushfire hazard</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>山火事の危険の重大度を識別するためのスコアを組み合わせます</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Commenting a line with a change suggestion</seg>
       </tuv>
       <tuv lang="ja">
@@ -2606,6 +3022,30 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Conclusion</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>結論</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Conducted QGIS training courses and participants</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>QGISトレーニングコースおよび参加者派遣</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Conservation Value Model [Step XII]: Is the result of the #Raster calculator function: (Figure 4)</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>保全値モデル[ステップXII]：#Raster算出関数の結果です：（図4）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Consider:</seg>
       </tuv>
       <tuv lang="ja">
@@ -2626,6 +3066,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>それを直接入力してボタンを使用するか、次の式を構築する::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Contact</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>連絡先</seg>
       </tuv>
     </tu>
     <tu>
@@ -2742,6 +3190,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Creating 3D models for terrain visualization (and further use as hill-shadowing)</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>地形の可視化（および丘シャドウイングとしてさらに使用）のための3Dモデルを作成します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Creating a View</seg>
       </tuv>
       <tuv lang="ja">
@@ -2766,6 +3222,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Creating the Fundy Footpath Trail Map with QGIS</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>QGISでファンディ小径トレイルマップの作成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Creation of the footpath map in QGIS</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>QGISでの小径地図の作成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Credits for contributions</seg>
       </tuv>
       <tuv lang="ja">
@@ -2774,10 +3246,42 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Currently, DDG is working in the northern provinces of Balkh and Samangan, and the central provinces of Kabul, Parwan and Panjshir.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T062409Z" creationid="miurahr" creationdate="20201117T062409Z">
+        <seg>アフガニスタンでは、地雷除去活動はアフガニスタン地雷対策調整センター（MACCA）を通して調整されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>DDG Afghanistan delivers humanitarian mine action to save life, strengthen the sense of safety through risk education and help remove obstacles to the productive use of resources, helping to realise Afghanistan’s development potential.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T062348Z" creationid="miurahr" creationdate="20201117T062348Z">
+        <seg>DDGアフガニスタンは、命を救うリスク教育を通じて安全性の感覚を強化し、アフガニスタンの開発の可能性を実現するために支援し、資源の生産的な利用への障害を取り除くのに役立つ人道的な地雷対策を実現します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>DDG is trialling the use of QGIS within the organization to replace the expensive commercial softwares it has used in the past.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T062425Z" creationid="miurahr" creationdate="20201117T062425Z">
+        <seg>DDGでは、過去に使用してきた高価な商用ソフトウェアを置き換えるために、組織内でのQGISの使用を試しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>DO</seg>
       </tuv>
       <tuv lang="ja">
         <seg>DO</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Danish Demining Group http://www.danishdemininggroup.dk/</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>デンマーク地雷除去グループ http://www.danishdemininggroup.dk/</seg>
       </tuv>
     </tu>
     <tu>
@@ -2794,6 +3298,22 @@
       </tuv>
       <tuv lang="ja">
         <seg>データキャプチャ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Data collection.</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>データ収集。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Data editing and preparation.</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>データ編集と準備。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2966,6 +3486,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Distribution of urban green spaces (green) and population density by blocks (white to brown) at Rada Tilly coastal town, Chubut Provinc, Argentina.</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>アルゼンチンのチュブ州ラダ・ティリ沿岸町での都市緑地の分布（緑）およびブロックでの人口密度（白から茶色）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Do not retitle any existing section to be Entitled "Endorsements" or to conflict in title with any Invariant Section.</seg>
       </tuv>
       <tuv lang="ja">
@@ -3030,6 +3558,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Dr. Scott Madry: http://scottmadry.web.unc.edu or email: madrys ‘at’ email.unc.edu</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>Scott Madry博士： http://scottmadry.web.unc.edu または email: madrys@email.unc.edu</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Dropping a View</seg>
       </tuv>
       <tuv lang="ja">
@@ -3082,6 +3618,22 @@
       </tuv>
       <tuv lang="ja">
         <seg>編集、データの取り込み、上向きの、テーブル、データベース。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Edward Crowther</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>エドワード・クラウザー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Edward Crowther is Deputy Country Director at Danish Demining Group Afghanistan.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T062310Z" creationid="miurahr" creationdate="20201117T062310Z">
+        <seg>エドワード・クラウザーはデンマーク地雷除去グループ・アフガニスタンの副カントリーディレクターです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3286,6 +3838,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Feedback comments to the question, *"what were the best aspects of this course"* included:</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>質問、*「このコースの最良の側面は何でしたか」* 、へのフィードバックコメントは：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Fence</seg>
       </tuv>
       <tuv lang="ja">
@@ -3326,6 +3886,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Field verification and qualitative assessment</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>フィールドの検証および定性的評価</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Field work (trees data records and GPS locations).</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>フィールドワーク（木データレコードとGPSの位置）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Fields can contain **numerical**, **string** (any text) and **date** information</seg>
       </tuv>
       <tuv lang="ja">
@@ -3342,6 +3918,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Figure 1: Workflow - Lynx habitat expert model</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>図1：ワークフロー - オオヤマネコの生息地の専門家モデル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Figure 2, 3 and 4</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>図２、３ および４</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Fill in the values as below:</seg>
       </tuv>
       <tuv lang="ja">
@@ -3354,6 +3946,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>フィルタリング</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Final Maps</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>最終的な地図</seg>
       </tuv>
     </tu>
     <tu>
@@ -3402,6 +4002,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>これに続けて 、モジュールの名前が続くマークアップの語句 :kbd:`|MOD|` （「モジュール」の略）を含む行を書きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Footpath map in the Print Composer</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>プリントコンポーザでの小径地図</seg>
       </tuv>
     </tu>
     <tu>
@@ -3482,6 +4090,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>林業のサンプルデータ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Formula 1.1 - Normalised Difference Snow Index (NDSI)</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>式1.1 - 正規化差分降雪指数（NDSI）</seg>
       </tuv>
     </tu>
     <tu>
@@ -3710,6 +4326,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Graphical User Interface (close to commercial products)</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>グラフィカルユーザーインタフェース（商用製品に近いです）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Graticule in detail</seg>
       </tuv>
       <tuv lang="ja">
@@ -3726,10 +4350,42 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>H K Solanki</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>H K Solanki</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Habitat Suitability Model [Step X]: [δ] An Elevation Suitability Index was derived from the AsterDEM 2.0 [VI] and together with a Population Density Index [V] was integrated into the final habitat suitability model (Figure 3) by using the #Raster calculator</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>生息地適合モデル[工程X]：[δ]標高適合指数がAsterDEM 2.0 [VI]に由来したと一緒に人口密度が指数[V]＃ラスター電卓を使用して、最終的な生息環境適合モデル（図3）に統合されました</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Have your learners count the number of learners using each footpath in the hour before school and then use **graduated symbols** to show the popularity of each footpath</seg>
       </tuv>
       <tuv lang="ja">
         <seg>生徒たちに、学校の前の時間に各歩道を利用する生徒の数を数えさせ、それから **段階シンボル** を使用して各歩道の人気を示させてください</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Hazardous areas already cleared show as light green.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T062757Z" creationid="miurahr" creationdate="20201117T062721Z">
+        <seg>すでに除去された危険区域は明緑色で表示されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>He holds an MSc in Development Studies from the University of London’s School of Oriental and African Studies.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T062324Z" creationid="miurahr" creationdate="20201117T062324Z">
+        <seg>彼は東洋アフリカ研究のロンドンの学校の大学から開発研究の修士課程を保持しています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3786,6 +4442,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>高い</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Homogenizing of free-to-use geodata and creation of “geo-data-bank” for students and researchers at College of Business and Hotel Management</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>ビジネスやホテルマネジメント学部の学生や研究者のための「ジオデータバンク」の自由に使用できる地理データと作成の均質化</seg>
       </tuv>
     </tu>
     <tu>
@@ -4022,6 +4686,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Image 1.1 - Normalised Difference Snow Index (NDSI) QGIS processing toolbox model</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>画像1.1 - 正規化後差分雪指数（NDSI）QGIS処理ツールボックスモデル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Images</seg>
       </tuv>
       <tuv lang="ja">
@@ -4070,6 +4742,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In Afghanistan, mineclearance activities are coordinated through the Mine Action Coordination Centre for Afghanistan (MACCA), who collect and disseminate geospatial information on known hazards (minefields, battlefields, ‘spot’ UXO tasks), and update this information as clearance progresses.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T062415Z" creationid="miurahr" creationdate="20201117T062405Z">
+        <seg>この団体では既知の危険（地雷原、戦場、「スポット」UXOタスク）の地理空間情報を収集、発信し、除去が進むにつれてこの情報を更新しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In Afghanistan, security problems and rugged terrain mean that physical re-survey of known sites is not always easy.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T062514Z" creationid="miurahr" creationdate="20201117T062514Z">
+        <seg>アフガニスタンでは、セキュリティ上の問題や険しい地形が知られているサイトの物理的な再調査は必ずしも容易ではないことを意味します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In ER Diagramming, the linkage between tables is normally based on Foreign keys linking to Primary keys.</seg>
       </tuv>
       <tuv lang="ja">
@@ -4090,6 +4778,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>GISアプリケーションでは、 **バッファゾーンエリア** は他のポリゴン、ラインまたはポイント地物を包含するような **ベクターポリゴン** に代表されます( figure_point_buffer_, figure_line_buffer_ を参照 )。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In a part of the world where ‘formal’ GIS training is difficult to acquire, the collaborative nature of the QGIS user community is greatly appreciated, as technical problems can often be solved by consulting online forums.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T062246Z" creationid="miurahr" creationdate="20201117T062246Z">
+        <seg>技術的な問題は、多くの場合、オンラインフォーラムを参照することによって解決することができるよう「正式な」GISのトレーニングを取得することは困難である世界の一部では、QGISのユーザーコミュニティの協調的な性質が大きく、高く評価されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4130,6 +4826,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>パートナーシップ: Spatial Information Management Unit, Office of the Premier, Eastern Cape, South Africa.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In short, QGIS is playing a role in working towards ridding Afghanistan of landmines and UXO.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T062250Z" creationid="miurahr" creationdate="20201117T062250Z">
+        <seg>要するに、QGISは地雷や不発弾をアフガニスタンからなくすための取り組みの中で役目を果たしています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4478,6 +5182,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Instead, the use of a mixture of data --– satellite or aerial photography underlays, digitized Soviet-era topographic maps, hazard shapefiles and digital elevation models –-- allow DDG to get an idea of the location of a minefield in relation to the terrain and surrounding natural and physical features before sending in a survey team.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T062523Z" creationid="miurahr" creationdate="20201117T062507Z">
+        <seg>代わりに、データの混合物---衛星や航空写真の下敷き、デジタル化されたソ連時代の地形図、ハザードシェープファイルと数値標高モデル--- を使用することで、DDGでは、測量チームを送りこむ前に、地形と周辺の自然および物理的地物との関係で地雷原の場所のアイデアを得ることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Intensive cotton cultivation</seg>
       </tuv>
       <tuv lang="ja">
@@ -4518,6 +5230,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>It is also driving improved mapping capabilities within the organisation, and an ability to better communicate the impact of its work to international donors.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T062233Z" creationid="miurahr" creationdate="20201117T062233Z">
+        <seg>それはまた、組織内の改善されたマッピング機能を駆動する、より良い国際ドナーにその作業の影響を伝達する能力です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>It is requested, but not required, that you contact the authors of the Document well before redistributing any large number of copies, to give them a chance to provide you with an updated version of the Document.</seg>
       </tuv>
       <tuv lang="ja">
@@ -4542,6 +5262,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Jakub Trojan</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>Jakub Trojan</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Jarrett Totton</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>ジャレット・トットン</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Joins</seg>
       </tuv>
       <tuv lang="ja">
@@ -4550,10 +5286,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Jones, Tickner and Madry doing field work</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>現地作業中のJones、Tickner、Madry</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Jump down to :ref:`Modify files &lt;modify_files&gt;` below.</seg>
       </tuv>
       <tuv lang="ja">
         <seg>下の :ref:`ファイルを修正する &lt;modify_files&gt;` に飛んでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Kabul University’s campus is still contaminated with suspected hazardous areas --– thought to comprise of air-dropped bombs or similar ordnance.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T062948Z" creationid="miurahr" creationdate="20201117T062629Z">
+        <seg>カブール大学のキャンパスは危険が疑われる区域で汚染されています---静止空気投下爆弾または類似した兵器で構成すると考えられます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4710,6 +5462,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Link</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>リンク</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Links</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>リンク</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>List on the Title Page, as authors, one or more persons or entities responsible for authorship of the modifications in the Modified Version, together with at least five of the principal authors of the Document (all of its principal authors, if it has fewer than five), unless they release you from this requirement.</seg>
       </tuv>
       <tuv lang="ja">
@@ -4766,6 +5534,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Lynx habitat analysis in the Southern Carpathians</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>南カルパチアでのオオヤマネコの生息環境解析</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>MacOS</seg>
       </tuv>
       <tuv lang="ja">
@@ -4814,6 +5590,62 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Map 1.1 Snowy Water Catchment Map</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>地図1.1　雪に覆われた水の流域地図</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Map 1.2 - MODIS true colour</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>地図1.2 - MODISトゥルーカラー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Map 1.3 - NDSI output</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>地図1.3 - NDSI出力</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Map 1.4 - Recoded "Snow" vs "Non snow"</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>地図1.4 - 「非雪」対「雪」録画</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Map 1.5 - Extracted Snow</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>地図1.5 - 抽出された雪</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Map 1.6 - Snow inside the SWC</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>地図1.6 - SWC内部の雪</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Map 1.7 - Final snow covered area</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>地図1.7 - 最終雪に覆われた面積</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Map Border in detail</seg>
       </tuv>
       <tuv lang="ja">
@@ -4846,10 +5678,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Map production.</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>地図制作。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Maps are usually always displayed '**North up**'.</seg>
       </tuv>
       <tuv lang="ja">
         <seg>地図は普通 **北が上** で表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Mauro Novara</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>マウロ・ノヴァラ</seg>
       </tuv>
     </tu>
     <tu>
@@ -4894,10 +5742,42 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Method</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>方法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Methodology</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>方法論</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Methods</seg>
       </tuv>
       <tuv lang="ja">
         <seg>メソッド</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Minefields already cleared show as light green.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T062810Z" creationid="miurahr" creationdate="20201117T062554Z">
+        <seg>すでに除去された地雷原は明緑色で表示されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Modeling patterns between spatial location and inhabitants</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>空間的位置と住民との間のモデリングパターン</seg>
       </tuv>
     </tu>
     <tu>
@@ -4922,6 +5802,30 @@
       </tuv>
       <tuv lang="ja">
         <seg>GISについてより詳しく</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>More information about ESA’s TIGER initiative can be found on the initiative’s website: http://www.tiger.esa.int/ WOIS is available for download (after registration) from the TIGER website (http://www.tiger.esa.int/page_eoservices_wois.php) with source code of the developed plugins, scripts, models and workflows available from the project’s GitHub page (https://github.com/TIGER-NET)</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>ESAのTIGERイニシアチブの詳細については、イニシアチブのウェブサイト： http://www.tiger.esa.int/ 上で見つけることができます。WOISはTIGERのウェブサイト（ http://www.tiger.esa.int/page_eoservices_wois.php ）から（登録後）ダウンロードできます。開発されたプラグイン、スクリプト、モデル、およびプロジェクトのGitHubのページ（ https://github.com/TIGER-NET ）から入手可能なワークフローのソースコード付き。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>More information about the WOIS software and the TIGER-NET project can be found on the project’s website: www.tiger-net.org</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>WOISソフトウェアおよびTIGER-NETプロジェクトの詳細については、プロジェクトのウェブサイト上で見つけることができます： www.tiger-net.org</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>More information about the new Sentinel satellites can be found on ESA’s website: http://www.esa.int/Our_Activities/Observing_the_Earth/Copernicus/Overview4</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>新しいセンチネル衛星の詳細については、ESAのウェブサイト上で見つけることができます：http://www.esa.int/Our_Activities/Observing_the_Earth/Copernicus/Overview4</seg>
       </tuv>
     </tu>
     <tu>
@@ -5006,6 +5910,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Nathan Woodrow</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>Nathan Woodrow</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Navigate to the `QGIS-Documentation repository &lt;https://github.com/qgis/QGIS-Documentation&gt;`_ page and click on the |githubFork| button in the upper right corner.</seg>
       </tuv>
       <tuv lang="ja">
@@ -5062,6 +5974,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>New shapefiles of these ‘hazard polygons’ are issued by the MACCA on a regular basis, and mineclearance organisations can use these to assess the situation of mineclearance in their areas of operation.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T062423Z" creationid="miurahr" creationdate="20201117T062423Z">
+        <seg>これらの「ハザードポリゴン」の新しいシェープファイルは定期的にMACCAによって発行され、これらは地雷除去団体が活動領域における地雷除去の状況を評価するために使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Next you should define the transformation settings for georeferencing the map:</seg>
       </tuv>
       <tuv lang="ja">
@@ -5106,6 +6026,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>北向き矢印の詳細</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Norwegian Polar Institute: http://www.npolar.no/en/</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>ノルウェー極地研究所：http://www.npolar.no/en/</seg>
       </tuv>
     </tu>
     <tu>
@@ -5282,6 +6210,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>今, 作成したルールによって, :kbd:`people_log` テーブルは次のようになります :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Number of QGIS-based trainings conducted by author with participants’ details is shown in the table:</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>参加者の詳細とともに著者が実施したQGISベースのトレーニングの数を表に示します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5518,6 +6454,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Others (mentioned e.g. in the case study written by Dr. Horst Düster)</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>その他（HorstDüster博士による事例研究などで言及される）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Our Project and how QGIS is used</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>私たちのプロジェクトとQGISの使用方法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Our `people` model still has some normalisation issues - try to see if you can normalise it further and show your thoughts by means of an ER Diagram.</seg>
       </tuv>
       <tuv lang="ja">
@@ -5530,6 +6482,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>等高線にグラデーションカラーを設定した後の地図。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Our research will continue to explore the long-term history of the inhabitants’ relationship with this landscape and we will expand our work beyond our current focus on mills and ponds to include changing patterns of forests, pastures and meadows, croplands and former vineyards in the area.</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>私たちの研究では、この景観と住民の関係の長期的な歴史を探求していくつもりで、この地域の森林、牧草地や牧草地、耕作地との元ブドウ畑の変更パターンを含めるために工場や池に私たちの現在の焦点を越えて私たちの仕事を拡大するでしょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5574,6 +6534,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Picture of a male tiger that was captured in one of the camera traps</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>カメラトラップの一つで捕獲されたオスのトラの絵</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Place more points by clicking further along the edge, until the shape you're drawing completely covers the field.</seg>
       </tuv>
       <tuv lang="ja">
@@ -5594,6 +6562,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>始める前に計画する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Please contact Luca.Ehrminger(at)hnee.de, David.Winger(at)hnee.de, or Prof.Dr.Jan-Peter Mund: Jan-Peter.Mund(at)hnee.de for further information.</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>Please contact Luca.Ehrminger(at)hnee.de, David.Winger(at)hnee.de, or Prof.Dr.Jan-Peter Mund: Jan-Peter.Mund(at)hnee.de for further information.</seg>
       </tuv>
     </tu>
     <tu>
@@ -5678,6 +6654,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Potential Hunter Accessibility Model [Step XI]: Applying the #Terrain analysis tool [ε], a slope layer was extracted from the DEM data and combined [η] with a road distance layer, which was produced by processing rasterized OSM road data within the #Proximity function and index values assigned using #Reclassify grid values</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>可能狩猟者接近可能性モデル[ステップXI]：#Terrain analysis（地形分析）ツール[ε]を適用し、傾斜レイヤーがDEMデータから抽出されて結合されます[η] 、内ラスタ化OSM道路データを処理することによって製造された道路距離レイヤーで、#Reclassifyグリッド値を使用して割り当て#Proximity関数と指数値</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Practical and theoretical lectures; mainly about the usage of QGIS and the benefits of urban green spaces and its territorial implications.</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>実用的かつ理論的な講義。主にQGISの使用状況や都市の緑地とその領土意味合いの利点について。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Preamble</seg>
       </tuv>
       <tuv lang="ja">
@@ -5734,10 +6726,34 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Prior to joining DDG in Afghanistan, Edward worked with the humanitarian mineclearance agency The HALO Trust in Angola and Sri Lanka.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T062317Z" creationid="miurahr" creationdate="20201117T062307Z">
+        <seg>アフガニスタンでDDGに入社する前、エドワードは人道的地雷除去機関アンゴラやスリランカでHALOトラストと働きました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Producing an arcHYDRO like output with QGIS</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>QGISでarcHYDROのような出力を作成する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Professional GIS users sometimes use a **digitising table** to capture information from paper maps.</seg>
       </tuv>
       <tuv lang="ja">
         <seg>専門的なGISユーザーは時々、紙の地図から情報を取得する **デジタル化テーブル** を使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Project website: http://burgundylandscapes.com with more information and online publications.</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>プロジェクトのウェブサイト： http://burgundylandscapes.com 詳細とオンライン出版物あり。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5766,6 +6782,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>QGIS GPS Tools Plugin for data collection</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>データ収集のためQGIS GPSツールプラグイン</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>QGIS Training Manual</seg>
       </tuv>
       <tuv lang="ja">
@@ -5774,10 +6798,114 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>QGIS Trainings at NIRD Jaipur Centre, India</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>NIRDジャイプールセンターでのQGISトレーニング</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>QGIS also syncs well with data collected from field operations using handheld Garmin GPS, allowing clearance maps to be made with the locations of mines found and destroyed.</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>またQGISは、携帯式のGarmin GPSを使った野外活動にて収集されたデータと同期し、発見・破壊された地雷の場所で除去地図を作ることを可能にします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>QGIS and GRASS in Local Government Bushfire Hazard Mapping</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>地方政府の森林火災ハザードマップでのQGISとGRASS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>QGIS as major GIS software in the Laboratory on Experimental and Applied Geography</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>実験・応用地理研究所の主要なGISソフトウェアとしてのQGIS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>QGIS at high school --- the urban green spaces in Rada Tilly coastal town, Chubut province, Argentina</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>高等学校でのQGIS ---アルゼンチン、チュブ州ラダ・ティリ沿岸町の都市緑地</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>QGIS at the University of Southern Queensland</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>サザンクイーンズランド大学のQGIS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>QGIS for distance learning and teaching GIS at Universities</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>大学でのGISの遠隔学習指導のためのQGIS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>QGIS for monitoring tigers (using camera traps in Nameri Tiger Reserve, Assam, India Sonitpur District)</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>(NAMERIトラ保護区、アッサム、インドSonitpur地区におけるカメラトラップを使用して）トラを監視するためのQGIS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>QGIS has a lot of documentation, partly translated.</seg>
       </tuv>
       <tuv lang="ja">
         <seg>QGISには多くのドキュメントがあり、一部が翻訳の対象となっています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>QGIS is the leading software and stands in current versions (because of the “experimental” character of LEAG we are using the latest unstable releases instead of LTS versions) for several reasons:</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>QGISは、主要なソフトウェアであり、いくつかの理由で現在のバージョンに立っています（なぜならLEAGの「実験」的性格上、私たちはLTSバージョンのリリース代わりに最新の不安定なリリースを使用している）：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>QGIS is used for all GIS training courses</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>QGISはすべてのGISトレーニングコースに使用されます</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>QGIS plugins add useful capabilities, like the ability to visualise terrain in 3D.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T062529Z" creationid="miurahr" creationdate="20201117T062529Z">
+        <seg>QGISのプラグインは3Dで地形を可視化する機能など、便利な機能を追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>QGIS training course at NIRD Jaipur Centre</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>NIRDジャイプールセンターでのQGISトレーニングコース</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>QGIS while modeling 3D objects (interpolation), terrain analysis</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>QGISは、3Dオブジェクト（補間）をモデル化しながら、地形分析</seg>
       </tuv>
     </tu>
     <tu>
@@ -5794,6 +6922,46 @@
       </tuv>
       <tuv lang="ja">
         <seg>Qt のシグナルとスロット</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Quantarctica is also useful when navigating on the Antarctic ice shelves thanks to the GPS tracking capabilities within QGIS.</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>Quantarcticaは、QGIS内のGPS追跡機能のおかげで、南極の棚氷上を移動するときも便利です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Quantarctica website: http://quantarctica.org/</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>Quantarctica ウェブサイト： http://quantarctica.org/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Quantarctica: An Antarctic GIS package</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>Quantarctica：南極GISパッケージ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Quick development and integrating user-wanted features</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>クイック開発およびユーザー欲しかった機能を統合</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Rajendra Garawad</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>Rajendra Garawad</seg>
       </tuv>
     </tu>
     <tu>
@@ -5942,6 +7110,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>References</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>参考文献</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Remember that each of these lines shown above must have a blank line above and below it, otherwise it could cause errors while creating the document.</seg>
       </tuv>
       <tuv lang="ja">
@@ -6014,6 +7190,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Results presentation through thematic cartography.</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>主題図を通じた結果のプレゼンテーション。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Results/Conclusion</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>結果/結論</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Right click on :kbd:`forest_stands_2012` and select :guilabel:`Duplicate`</seg>
       </tuv>
       <tuv lang="ja">
@@ -6050,6 +7242,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>河川</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Robert Ward</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>ロバート・ウォード</seg>
       </tuv>
     </tu>
     <tu>
@@ -6174,6 +7374,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Screenshot from Quantarctica, showing one of the subglacial lakes datasets.</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>Quantarcticaからのスクリーンショット、氷底湖データセットのいずれかを示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Secondary road</seg>
       </tuv>
       <tuv lang="ja">
@@ -6266,6 +7474,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>:kbd:`詳細図...` を含むテキストラベルを選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sentinel-1 flood monitoring of Caprivi flood plain, Namibia.</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>ナミビアのカプリブリ氾濫原のSentinel-1洪水監視。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6382,6 +7598,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Since the start of operations in Afghanistan, DDG has removed over 24,000 landmines and over 940,000 pieces of UXO.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T062355Z" creationid="miurahr" creationdate="20201117T062355Z">
+        <seg>DDGはアフガニスタンでの操業開始以来、24,000以上の地雷や94万以上の不発弾片を除去しています。現在、DDGは北部地方のバルフとサマンガーン、中央地方のカブール、パルヴァーン、パンジシールで活動しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Single Symbol</seg>
       </tuv>
       <tuv lang="ja">
@@ -6418,6 +7642,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>下の :ref:`Step 2 &lt;compare_changes&gt;` にスキップしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Slope assessment and mapping</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>傾斜の評価と図化</seg>
       </tuv>
     </tu>
     <tu>
@@ -6486,6 +7718,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Stability and interoperability (we are using Windows and Ubuntu Linux platforms)</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>安定性と相互運用性（WindowsとUbuntu Linuxプラットフォームを使用しています）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Standard Header and License</seg>
       </tuv>
       <tuv lang="ja">
@@ -6526,6 +7766,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Storing, creating and editing database of small and medium enterprises (+ further visualization)</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>中小企業のデータベースの格納、作成および編集（+さらに可視化）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Story</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>ストーリー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Street</seg>
       </tuv>
       <tuv lang="ja">
@@ -6538,6 +7794,22 @@
       </tuv>
       <tuv lang="ja">
         <seg>文字列は単一引用符で囲む必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Students response graph</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>生徒の反応グラフ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Student´s appropriation of a local issue (the Rada Tilly´s green areas related the 9 m\ :sup:`2` by inhabitant proposed by WHO) from a geographical perspective through GIS tools.</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>GISツールを介した地理的な観点から、地域問題（WHOによって提案されたラダ・ティリの緑地の住民によって9m\ :sup:`2` 関連しました）の生徒の充当。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6558,6 +7830,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Success</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>成功</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Suitable Geometry Type</seg>
       </tuv>
       <tuv lang="ja">
@@ -6570,6 +7850,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>通りの名前で人を要約し、street_idsの代わりに実際の通りの名前を表示してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Survey grids with tiger presence</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>調査では、トラの存在とグリッド</seg>
       </tuv>
     </tu>
     <tu>
@@ -6610,6 +7898,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>シンボルタイプ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>System Description</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>システム説明</seg>
       </tuv>
     </tu>
     <tu>
@@ -6750,6 +8046,30 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The Burgundy Historical Landscapes Working Group</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>ブルゴーニュの歴史的風景ワーキンググループ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The Danish Demining Group (DDG), the specialised mine action unit of the Danish Refugee Council, has been working in Afghanistan since 1999, undertaking humanitarian mineclearance, unexploded ordnance (UXO) disposal and mine risk education.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T062338Z" creationid="miurahr" creationdate="20201117T062338Z">
+        <seg>デンマーク地雷除去グループ（DDG）、デンマーク難民評議会の専門地雷対策ユニットは、人道的地雷除去、不発弾（UXO）処分と地雷回避教育を進め、1999年以来、アフガニスタンで活動しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The GIS side of the project project was broken down into 6 main steps</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>プロジェクトの GIS側は主に6つのステップに分けられます</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The GitHub web interface allows you to do the following:</seg>
       </tuv>
       <tuv lang="ja">
@@ -6762,6 +8082,22 @@
       </tuv>
       <tuv lang="ja">
         <seg>GitHubのウェブインターフェイスは、簡単なやり方でQGIS-documentationレポジトリの更新に貢献することができますが、下記のためのツールは提供していません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The NDSI algorithm itself is quite simple (show below in Formula 1.1 - Normalised Difference Snow Index (NDSI)) and the subsequent steps required to extract snow cover in a vector format also lends itself nicely to a processing toolbox model.</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>NDSIアルゴリズム自体は非常に簡単です（以下式1.1に示す - 正規化差分降雪指数（NDSI））と積雪をベクター形式で抽出するために必要なその後の工程は、プロセッシングツールボックスモデルにうまく適しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The Project</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>プロジェクト</seg>
       </tuv>
     </tu>
     <tu>
@@ -6822,10 +8158,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The WOIS graphical user interface, including the embedded workflow library (center) and wizard-based processing workflow (right)</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>埋め込まれたワークフローライブラリ（中心）を含むWOISグラフィカル・ユーザ・インターフェース、およびウィザードベースの処理ワークフロー（右）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The ``Edit on GitHub`` shortcut is also available in the drop-down menu at the bottom of the left sidebar.</seg>
       </tuv>
       <tuv lang="ja">
         <seg>``Edit on GitHub`` ショートカットは左サイドバーの一番下のドロップダウンメニューからも利用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The attached screenshot above –-- made using the plugin Qgis2threejs --- shows an area just south of the Darulaman Palace in Kabul, with active minefields (along the ridgelines on the left) shown in red over a Soviet topographic raster layer combined with SRTM data.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T062542Z" creationid="miurahr" creationdate="20201117T062542Z">
+        <seg>上記添付のスクリーンショットは、プラグインQgis2threejsを用いて作製したものですが、カブールのダルラマン宮殿のすぐ南の領域を示していて、SRTMデータと組み合わせたソビエト地形ラスターレイヤー上にアクティブ地雷原が（左の稜線に沿って）赤色で表示されています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6862,6 +8214,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The data and types of analyses we are currently using to study this complex landscape include a series of maps ranging in date from 1759 to 2012, which are integrated within our larger GIS database, historical records such as cadastral tax records, agricultural reports, and population data from censuses and parish/civil registers, environmental data from ponds (pollen, sediment geochemistry, grain size, stable isotopes), and oral history/ethnographic interviews with local rural inhabitants.</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>私たちは現在、この複雑な景観を研究するために使用されている分析のデータおよび種類は、私たちの大きなGISデータベースは、そのような地籍納税記録など歴史的な記録、農業レポート、集団内に統合されている1759年から2012年までの日付の範囲の一連の地図を含み、国勢調査と教区/民事レジスタからのデータ、池からの環境データ（花粉、土砂地球化学、結晶粒径、安定同位体）、そして地元の農村住民とのオーラル・ヒストリー/民族誌のインタビュー。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The data collected with GPS was cleaned using the editing toolbar.</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>GPSで収集されたデータは、編集ツールバーを使用して洗浄しました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The development of this module has been sponsored by the European Union.</seg>
       </tuv>
       <tuv lang="ja">
@@ -6890,6 +8258,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>コンピュータのファイルマネージャで見られるような「木」シェープファイルを構成するファイル。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The final Fundy Footpath map with accompanying guidebook</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>付属のガイドブックで、最終的なファンディ小径マップ</seg>
       </tuv>
     </tu>
     <tu>
@@ -6942,10 +8318,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The hazards are also notable as among the last significant remaining hazardous areas in the Kabul metropolitan area.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T062650Z" creationid="miurahr" creationdate="20201117T062650Z">
+        <seg>危険がカブール首都圏の最後の重要な残りの危険な領域のうちとしても注目されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The last step is to set up the Atlas tool:</seg>
       </tuv>
       <tuv lang="ja">
         <seg>最後のステップは、地図帳ツールを設定することです：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The main objective of the experience was to lecture the 12th grade students, in the implementation of a GIS as tool to optimize and enhance the management of spatial information, and to provide a support to the decision making process.</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>経験の主な目的は、12年生の生徒を講義すること、最適化し空間情報の管理を強化するためのツールとしてGISの実装の中で、意思決定プロセスへの支援を提供することでした。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7014,6 +8406,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The process of creating the new Fundy Footpath map with QGIS can be broken down into three different parts:</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>QGISで新しいファンディ小径地図を作成するプロセスは、3つの異なる部分に分けることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The project won an encouragement award at the Queensland Planning Institute of Australia state planning awards in 2010 [2]</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>このプロジェクトは2010年にオーストラリアの状態プランニング賞のクイーンズランド計画研究所で奨励賞を受賞しました[2]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The result of the above:</seg>
       </tuv>
       <tuv lang="ja">
@@ -7062,6 +8470,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The stories should follow a simple structure and we suggest to write about 800 words including one or two screenshots.</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>事例は以下のシンプルな形式で約800ワードで2個のスクリーンショットを含むことを推奨します.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The topologically correct border looks like this:</seg>
       </tuv>
       <tuv lang="ja">
@@ -7070,10 +8486,42 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The use of QGIS and GRASS</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>QGISとGRASSの使用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The use of QGIS, along with a renewed interest in data analysis, has spurred new ways of looking at the data available, and combining it with other data sources to better target mineclearance activities.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T062226Z" creationid="miurahr" creationdate="20201117T062226Z">
+        <seg>QGISの使用は、データ分析における新たな関心とともに、利用可能なデータを見て、より良いターゲット地雷除去活動に他のデータソースとそれを組み合わせる新しい方法に拍車をかけています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The use of geospatial data is most useful in the planning and survey phases.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T062512Z" creationid="miurahr" creationdate="20201117T062512Z">
+        <seg>地理空間データの使用は計画や調査段階で最も有用です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The value of the :kbd:`time` field will depend on the current date and time.</seg>
       </tuv>
       <tuv lang="ja">
         <seg>:kbd:`time` フィールドの値は, 現在の日付と時刻に依存します.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The vector data obtained from NRCan and SNB was merged together, queried, and clipped for the final map area using the vector tools.</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>NRCanとSNBから得られたベクターデータは、マージ照会、およびベクターツールを使用して、最終的な地図領域に対してクリップされました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7158,6 +8606,46 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This article was contributed by Radoslaw Guzinski (WOIS software developer) with contributions from the TIGER-NET technical teams at DHI-GRAS (www.dhi-gras.com), GeoVille (www.geoville.com), the technical universities in Vienna (http://rs.geo.tuwien.ac.at/) and Copenhagen (http://www.env.dtu.dk/) as well as the European Space Agency ( www.esa.int).</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>この記事はラドスロー・ガジンスキー（WOISのソフトウェア開発者）によって寄稿されました 。DHI-GRAS（ www.dhi-gras.com ）、GeoVille（ www.geoville.com ）、ウィーン技術大学（http://rs.geo.tuwien.ac.at/ とコペンハーゲン（ http://www.env.dtu.dk/ ）だけでなく、欧州宇宙機関（ www.esa.int ）TIGER-NET技術チームからの貢献ともに。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This article was contributed in August 2013 by Anders Skoglund (left), GIS specialist, and Kenichi Matsuoka (right), glaciologist, both at the Norwegian Polar Institute.</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>この記事は、アンダース・スコグランド（左）、GIS専門家、および松岡健一（右）、氷河学者、両者ともノルウェー極地研究所、によって2013年8月に寄稿されました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This article was contributed in July 2012 by H K Solanki, Assistant professor, NIRD Jaipur centre, Website: http://www.nird.org.in</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>この記事は2012年7月にNIRD Jaipurセンターの助教授、H K Solankiによって寄稿されました：http://www.nird.org.in</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This article was contributed in July 2014 by Alajangi Simhachalam, Adjunct Faculty, NIRD-NERC, Guwahati Website: http://www.nirdnerc.nic.in</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>http://www.nirdnerc.nic.in：この記事は2014年7月に、Alajangi Simhachalam、非常勤教員、NIRD-NERC、グワハティのウェブサイトで寄稿されました</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This article was contributed in September 2011 by Mauro Novara and Alberto Vázquez from Argentina.</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>この記事では、アルゼンチンからマウロ・ノヴァラとアルバート・バスケスによって2011年9月に寄稿されました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This diagram shows how GIS applications deal with vector data.</seg>
       </tuv>
       <tuv lang="ja">
@@ -7194,6 +8682,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>このプロジェクトは、南アフリカ共和国、東ケープ州プレミアのオフィス、空間情報管理ユニットと、国土局 (DLA) のチーフ・ディレクター：空間計画・情報によって提供されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This project will allow the council and the people of the region to be more aware of the risk and to allow for better decision making in the future.</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>このプロジェクトによって、行政機関およびこの地域の人々がリスクをより意識できるようになり、将来のより良い意思決定ができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7406,6 +8902,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>To generate the project we continue the following methodology:</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>以下の方法論を続けるプロジェクトを生成するには：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>To georeference the map:</seg>
       </tuv>
       <tuv lang="ja">
@@ -7426,6 +8930,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>このリンクを動作させるために、「自分を試してみてください」セクションに、見出しの上に次の行を追加します：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>To prepare the data for use in the final map product the following tools within QGIS were used to accomplish specific tasks:</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>最終地図製品で使用するためのデータを準備するため、QGIS内の以下のツールが特定のタスクを達成するために使用されました：</seg>
       </tuv>
     </tu>
     <tu>
@@ -7502,6 +9014,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Training course at NIRD&amp;PR-NERC, Guwahati</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>NIRD&amp;PR-NERC、グワハティ、でのトレーニングコース</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Trainings &amp; Research activities using QGIS at NIRD&amp;PR-NERC, Guwahati, India</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>QGISを使用したトレーニング＆研究活動 、NIRD&amp;PR-NERC, グワハティ、インド</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Transactions</seg>
       </tuv>
       <tuv lang="ja">
@@ -7554,6 +9082,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>典型的な空間オーバーレイの例：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>USQ Main Campus Map created using QGIS</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>QGISを使用して作成されたUSQメインキャンパス地図</seg>
       </tuv>
     </tu>
     <tu>
@@ -7670,6 +9206,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Usage of GIS as a technical tool to validate of socio-spatial hypothesis.</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>社会空間の仮説を検証するための技術的なツールとしてのGISの使い方。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Use ``SIP_SKIP`` to discard a line</seg>
       </tuv>
       <tuv lang="ja">
@@ -7682,6 +9226,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>例えば :kbd:`JPGフォーマット` を使用してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Use of QGIS</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>QGISの使用</seg>
       </tuv>
     </tu>
     <tu>
@@ -7750,10 +9302,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Using QGIS in Afghanistan ...</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>アフガニスタンでQGISを使う...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Using a copy of a toposheet map for your local area (like the one shown in figure_sample_map_), see if your learners can identify examples of the different types of vector data by highlighting them on the map.</seg>
       </tuv>
       <tuv lang="ja">
         <seg>お住まいの地域のためのtoposheet地図のコピー（ figure_sample_map_ に示すような）を使用して、生徒たちがベクターデータの異なるタイプの例を、地図上で強調表示することによって識別できたか確認してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Using diagrams comparing population between two censuses</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>2回のセンサス間人口を比較した図を用いて</seg>
       </tuv>
     </tu>
     <tu>
@@ -7794,6 +9362,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>サンプルプロットから、下記の平均推定値を与えることを使用して林分からの情報を使用して、代わりに直接：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Using the processing toolbox to automate snow classification</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>プロセシングツールボックスを使用して雪の分類を自動化する</seg>
       </tuv>
     </tu>
     <tu>
@@ -7950,6 +9526,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Vegetation assessment and mapping</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>植生の評価と図化</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Verification of the viability of capture, processing, storage, analysis, recovery and updating of spatial data using a FOSS QGIS.</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>キャプチャ、処理、保管、分析、回収、FOSS QGISを用いた空間データの更新の実行可能性の検証。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Version 1.3, 3 November 2008</seg>
       </tuv>
       <tuv lang="ja">
@@ -7962,6 +9554,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>Victor</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Water Observation and Information System: Enabling the Use of Earth Observation Data for Integrated Water Resource Management in Africa</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>水の観察と情報システム：アフリカにおける統合水資源管理のために地球観測データの使用を可能にする</seg>
       </tuv>
     </tu>
     <tu>
@@ -8146,6 +9746,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>より読みやすいのは、こちら:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>While not posing any immediate threat to students or staff, these hazards will require eventual clearance to allow future construction within an educational institution vital to Afghanistan’s future development.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T062637Z" creationid="miurahr" creationdate="20201117T062637Z">
+        <seg>これらの危険は直ちに学生や職員への脅威とはなりませんが、アフガニスタンの将来の発展に不可欠な教育機関内での将来の構築を可能にするために、最終的には除去が必要になります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8582,6 +10190,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>[1] http://www.emergency.qld.gov.au/publications/spp/</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>[1] http://www.emergency.qld.gov.au/publications/spp/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>[2] http://digital.crowtherblayne.com.au/default.aspx?xml=crowther_pia.xml</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>[2] http://digital.crowtherblayne.com.au/default.aspx?xml=crowther_pia.xml</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>`Effective Modern C++ &lt;http://shop.oreilly.com/product/0636920033707.do&gt;`_, Scott Meyers</seg>
       </tuv>
       <tuv lang="ja">
@@ -8978,6 +10602,30 @@
       </tuv>
       <tuv lang="ja">
         <seg>コードの膨張を防ぐのを助けます</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>http://fundy-biosphere.ca/en/about-us/the-reserve</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>http://fundy-biosphere.ca/en/about-us/the-reserve</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>http://www.sentiernbtrail.com</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>http://www.sentiernbtrail.com</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>http://www.snb.ca/gdam-igec/e/2900e_1.asp</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>http://www.snb.ca/gdam-igec/e/2900e_1.asp</seg>
       </tuv>
     </tu>
     <tu>
