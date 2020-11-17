@@ -1582,6 +1582,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>A Primary key is one or more field values that make a record unique.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150242Z" creationid="miurahr" creationdate="20201117T150242Z">
+        <seg>主キーは、レコードを一意にする1つ以上のフィールドの値です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>A Step By Step Contribution</seg>
       </tuv>
       <tuv lang="ja">
@@ -1754,6 +1762,22 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150144Z" creationid="miurahr" creationdate="20201117T150144Z">
         <seg>データベースは、典型的にはデジタル形式の、1つ以上の用途のための組織化されたデータの集合からなる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>A database constraint is used to ensure that data in a relation matches the modeller's view of how that data should be stored.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150240Z" creationid="miurahr" creationdate="20201117T150240Z">
+        <seg>リレーション内のデータがモデラーのデータの格納方法と一致するように、データベースの制約が使用されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>A database index is a data structure that improves the speed of data retrieval operations on a database table.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150228Z" creationid="miurahr" creationdate="20201117T150228Z">
+        <seg>データベース索引は、データベース表のデータ検索操作の速度を向上させるデータ構造です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1998,6 +2022,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>A sequence is a unique number generator.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150232Z" creationid="miurahr" creationdate="20201117T150232Z">
+        <seg>連番は、一意の番号ジェネレータです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>A software program that forms part of the GIS is called a GIS Application.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T133949Z" creationid="miurahr" creationdate="20201117T133949Z">
@@ -2066,6 +2098,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140719Z" creationid="miurahr" creationdate="20201117T140719Z">
         <seg>頂点は空間における位置を **X** , **Y** そして必要に応じて **Z** 軸を用いて表します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>A view is not fixed, and it contains no 'real data'.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150347Z" creationid="miurahr" creationdate="20201117T150347Z">
+        <seg>ビューは固定されておらず、「実データ」を持ちません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2266,6 +2306,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>もうひとつのリモートリポジトリを追加</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Add first a map element so you can review how it looks as you will be making changes in the layers symbology:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150753Z" creationid="miurahr" creationdate="20201117T150753Z">
+        <seg>レイヤーシンボルに変更を加えるとそれがどのように見えるか確認できるよう、最初に地図要素を追加します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2967,6 +3015,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>As you can see the only change is the :kbd:`create view roads_count_v as` part at the beginning.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150345Z" creationid="miurahr" creationdate="20201117T150345Z">
+        <seg>はじめの :kbd:`create view roads_count_v as` の部分だけが異なります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>As you have probably discovered by now if you followed the steps above, it is pretty hard to draw the features so that they are **spatially correct** if you do not have other features that you can use as a point of reference.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123746Z" creationid="miurahr" creationdate="20201117T123746Z">
@@ -3219,6 +3275,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T134457Z" creationid="miurahr" creationdate="20201117T134457Z">
         <seg>重なり順を変更前は河川が道路の下に描かれています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Before we can automate the detailed maps of the forest area and our sampling plots, we need to create a map template with all the elements we consider useful for the field work.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150737Z" creationid="miurahr" creationdate="20201117T150737Z">
+        <seg>森林地域と私たちのサンプリングプロットの詳細な地図を自動化できるようになるには、まず野外作業のために有用と考えるすべての要素が入った地図テンプレートを作成する必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4023,6 +4087,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Click on the :guilabel:`Properties` item to look at the properties of the layer.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150435Z" creationid="miurahr" creationdate="20201117T150435Z">
+        <seg>レイヤーのプロパティを見るために :guilabel:`プロパティ` 項目をクリックしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Click on the :guilabel:`Type` dropdown and choose :guilabel:`Mac`.</seg>
       </tuv>
       <tuv lang="ja">
@@ -4351,6 +4423,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Consider our non-normalised `people` table from earlier in the lesson:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150236Z" creationid="miurahr" creationdate="20201117T150236Z">
+        <seg>レッスンの前半から正規化されていない `people` テーブルを考えてみましょう::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Consider:</seg>
       </tuv>
       <tuv lang="ja">
@@ -4615,6 +4695,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Creating a logging rule</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150334Z" creationid="miurahr" creationdate="20201117T150334Z">
+        <seg>ロギングルールの作成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Creating a new vector layer is as simple as filling in a few details in a form.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123637Z" creationid="miurahr" creationdate="20201117T123637Z">
@@ -4683,6 +4771,30 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T062409Z" creationid="miurahr" creationdate="20201117T062409Z">
         <seg>アフガニスタンでは、地雷除去活動はアフガニスタン地雷対策調整センター（MACCA）を通して調整されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>DB Manager allows you to do this directly.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150504Z" creationid="miurahr" creationdate="20201117T150504Z">
+        <seg>DBマネージャでは、直接これを行うことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>DB Manager also provides a way for you to write queries against your database tables and to view the results.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150532Z" creationid="miurahr" creationdate="20201117T150532Z">
+        <seg>DBマネージャはまた、データベーステーブルに対してクエリを記述し、結果を表示するための方法を提供します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>DB Manager can also be used to manage the tables within your database.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150457Z" creationid="miurahr" creationdate="20201117T150457Z">
+        <seg>DBマネージャは、データベース内のテーブルを管理するために使用できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4763,6 +4875,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>データベース理論</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Database tables can often become quite large and tables which are being modified frequently can end up leaving around remnants of records that are no longer needed by PostgreSQL.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150522Z" creationid="miurahr" creationdate="20201117T150522Z">
+        <seg>データベーステーブルは、多くの場合、非常に大きくなることがありえますし、頻繁に変更されているテーブルは、もはやPostgreSQLで必要とされてないレコードの残渣を残したままにすることがあります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5455,6 +5575,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Every time this data is duplicated, it consumes space.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150223Z" creationid="miurahr" creationdate="20201117T150223Z">
+        <seg>このデータが複製されるたびに、領域が消費されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed.</seg>
       </tuv>
       <tuv lang="ja">
@@ -5943,6 +6071,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>For example a constraint on your postal code could ensure that the number falls between :kbd:`1000` and :kbd:`9999`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150241Z" creationid="miurahr" creationdate="20201117T150241Z">
+        <seg>たとえば、郵便番号の制約により、数字が :kbd:`1000` と :kbd:`9999` の間に入ることが保証されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>For example a dam may have attributes for depth and water quality.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140834Z" creationid="miurahr" creationdate="20201117T140834Z">
@@ -6339,6 +6475,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T145910Z" creationid="miurahr" creationdate="20201117T145910Z">
         <seg>幸いにも、フォームには様々な方法でデータの編集ができる様々な種類の、いわゆる *ウィジェット* を持ちます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>From here you can :guilabel:`Toggle Editing` on the layer menu and begin to add places to your table.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150518Z" creationid="miurahr" creationdate="20201117T150518Z">
+        <seg>ここからレイヤーのメニューで :guilabel:`編集を切替` できます、テーブルに場所の追加を開始します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6871,6 +7015,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Here is a typical example which tells us how many people objects are in our people table:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150321Z" creationid="miurahr" creationdate="20201117T150321Z">
+        <seg>これは、人々オブジェクトが人々テーブルに何人いるかを教えてくれる代表的な例です:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Here is an example of a numerical filter which only returns objects whose ``house_no`` is less than 50:</seg>
       </tuv>
       <tuv lang="ja">
@@ -6891,6 +7043,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135203Z" creationid="miurahr" creationdate="20201117T135203Z">
         <seg>.こちらは東ケープの山岳地帯です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Here we used the :kbd:`LIKE` clause to find all names with an :kbd:`s` in them.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150304Z" creationid="miurahr" creationdate="20201117T150304Z">
+        <seg>ここでは、 :kbd:`LIKE` 句を使用し、 :kbd:`s` を持つすべての名前を見つけます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7431,6 +7591,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If you did not do so in the previous lesson, add the following people objects to your :kbd:`people` table.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150302Z" creationid="miurahr" creationdate="20201117T150302Z">
+        <seg>前のレッスンでそうしなかった場合は、以下の人々オブジェクトを :kbd:`people` テーブルに追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If you distribute a large enough number of copies you must also follow the conditions in section 3.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124636Z" creationid="miurahr" creationdate="20201117T124636Z">
@@ -7499,6 +7667,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T114432Z" creationid="miurahr" creationdate="20201117T114432Z">
         <seg>拡張のPerl、Python、TclTk(GUI)が不要な場合は、makeを実行する前に次のコマンドで無効化できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If you don't specify that, you will get a list of all possible combinations of people and streets, but no way to know who actually lives on which street!</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150312Z" creationid="miurahr" creationdate="20201117T150312Z">
+        <seg>それを指定しない場合は、人と街のすべての可能な組み合わせの一覧が得られますが、誰が実際にその通りに住んでいるか知るすべはありません！</seg>
       </tuv>
     </tu>
     <tu>
@@ -7619,6 +7795,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124644Z" creationid="miurahr" creationdate="20201117T124644Z">
         <seg>100以上の番号文書の印刷されたコピー（または一般的にカバーを印刷したメディアまたはコピー）を公開し、文書のライセンス通知がカバーテキストが必要な場合は、はっきりと読みやすく、コピーをこれらすべてのカバーテキスト（表紙にフロントカバーテキスト、および背面カバーにバックカバーテキスト）を持ち運びするカバー内に同封しなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If you receive any errors related to foreign key constraints, you will need to add the 'Main Road' object to your streets table first</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150302Z" creationid="miurahr" creationdate="20201117T150302Z">
+        <seg>外部キー制約に関連した何らかのエラーを受け取る場合は、まず街のテーブルに「主要道路」オブジェクトを追加する必要があります</seg>
       </tuv>
     </tu>
     <tu>
@@ -7823,10 +8007,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Imagine you are reading a textbook and looking for the explanation of a concept - and the textbook has no index!</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150229Z" creationid="miurahr" creationdate="20201117T150229Z">
+        <seg>たとえば教科書を読んでいて概念の説明を探してるが、その教科書には索引がなかったとします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Imagine you are standing on the top of a hill.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140713Z" creationid="miurahr" creationdate="20201117T140713Z">
         <seg>丘の頂上に立っているところを想像してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Imagine you have many friends with the same street name or city.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150222Z" creationid="miurahr" creationdate="20201117T150222Z">
+        <seg>同じ名前の通りや都市の友達が多いとしましょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7907,6 +8107,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>GISアプリケーションでは、 **バッファゾーンエリア** は他のポリゴン、ラインまたはポイント地物を包含するような **ベクターポリゴン** に代表されます( figure_point_buffer_, figure_line_buffer_ を参照 )。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In a normalised database, you typically have many relations (tables).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150234Z" creationid="miurahr" creationdate="20201117T150234Z">
+        <seg>正規化されたデータベースでは、通常、多くの関係（テーブル）があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8055,6 +8263,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In order to do that, you need to join the two tables together in a single query.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150307Z" creationid="miurahr" creationdate="20201117T150307Z">
+        <seg>そのためには、単一のクエリ中で2つのテーブルを結合する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In other cases it can be difficult.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140016Z" creationid="miurahr" creationdate="20201117T140016Z">
@@ -8075,6 +8291,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T134808Z" creationid="miurahr" creationdate="20201117T134808Z">
         <seg>一方で、無料で手に入れられるものもあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In our case, we want to find people who live on a specific street.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150316Z" creationid="miurahr" creationdate="20201117T150316Z">
+        <seg>この場合は特定の街路に住む人々を見つけたいです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8359,6 +8583,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In the next section we will analyse our conceptual address table to see how we can make it better!</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150218Z" creationid="miurahr" creationdate="20201117T150218Z">
+        <seg>次のセクションでは、概念的な住所テーブルを分析して、それをより良くする方法を見てみましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In the next step, create a rule that logs every change of a phone_no in the people table into the people_log table:</seg>
       </tuv>
       <tuv lang="ja">
@@ -8371,6 +8603,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>右側のパネルで :guilabel:`地図帳作成` タブに行きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In the previous 2 modules we looked at the basic concepts, features and functions of relational databases as well as extensions that let us store, manage, query and manipulate spatial data in a relational database.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150353Z" creationid="miurahr" creationdate="20201117T150353Z">
+        <seg>前の2つのモジュールでは、リレーショナルデータベースの基本的な概念、特徴および機能だけでなく、保存、管理、クエリとリレーショナルデータベース内の空間データを操作できる機能拡張について見ました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8495,10 +8735,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In this case the arrow symbol show that one street can have many people living on it.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150238Z" creationid="miurahr" creationdate="20201117T150238Z">
+        <seg>この場合、矢印記号は、1つの通りに対して住んでいる人々は何人もいることがあると示しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In this example, id is a sequence - the number is incremented each time a record is added to the table:</seg>
       </tuv>
       <tuv lang="ja">
         <seg>この例では、IDは連番です - 数は、レコードがテーブルに追加されるたびに1つ増えます:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In this module, you'll learn about Relational Database Management System (RDBMS) concepts and you will use PostgreSQL to create a new database to store data, as well as learning about other typical RDBMS functions.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150257Z" creationid="miurahr" creationdate="20201117T150257Z">
+        <seg>リレーショナルデータベース管理システム（RDBMS）の概念について学び、データを格納するための新しいデータベースを作成するためにPostgreSQLを使用してだけでなく、他の一般的なRDBMSの機能について学習します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8839,6 +9095,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>It is normally used to create a unique identifier for a column in a table.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150233Z" creationid="miurahr" creationdate="20201117T150233Z">
+        <seg>通常、テーブル内の列の一意の識別子を作成するために使用されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>It is requested, but not required, that you contact the authors of the Document well before redistributing any large number of copies, to give them a chance to provide you with an updated version of the Document.</seg>
       </tuv>
       <tuv lang="ja">
@@ -8951,6 +9215,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Its also very useful to use DB Manager to simply look at the records in the database in much the same way you might do this by viewing the attribute table of a layer in the Layer Tree.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150450Z" creationid="miurahr" creationdate="20201117T150450Z">
+        <seg>単にレイヤーツリーにレイヤーの属性テーブルを表示することによって、これを行う可能性がありますほとんど同じ方法でデータベース内のレコードを見てDBマネージャを使用することも非常に便利。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Its first lines are::</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141603Z" creationid="miurahr" creationdate="20201117T141603Z">
@@ -9011,6 +9283,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123339Z" creationid="miurahr" creationdate="20201117T123339Z">
         <seg>これらの他のアプリケーションと同様に、GISアプリケーションもコンピュータのハードディスク上のファイルにデータを格納できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Just remember they provide a simple way to combine the information from two or more tables.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150314Z" creationid="miurahr" creationdate="20201117T150314Z">
+        <seg>それらは二つ以上のテーブルからの情報を組合わせるための簡単な方法を提供するとだけ覚えておいてください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9183,6 +9463,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Let's go ahead and do that.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150703Z" creationid="miurahr" creationdate="20201117T150703Z">
+        <seg>それでは先に進んでみましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Let's look at a few examples and it will become clearer how to go about doing this.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123553Z" creationid="miurahr" creationdate="20201117T123553Z">
@@ -9211,6 +9499,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>今度は人々のテーブルを見てみましょう:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Let's make a simple view based on the above:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150344Z" creationid="miurahr" creationdate="20201117T150344Z">
+        <seg>上記に基いて単純なビューを作りましょう:</seg>
       </tuv>
     </tu>
     <tu>
@@ -9255,6 +9551,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Let's use a simple case study to see how a database is constructed.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150213Z" creationid="miurahr" creationdate="20201117T150213Z">
+        <seg>データベースが構築されるかを確認するために、単純なケーススタディを使用してみましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Let's wrap up what we covered in this worksheet:</seg>
       </tuv>
       <tuv lang="ja">
@@ -9263,10 +9567,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Lets look at an example:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150308Z" creationid="miurahr" creationdate="20201117T150308Z">
+        <seg>例を見てみましょう:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Lets print the maps as a single PDF that you can send to the field office for printing:</seg>
       </tuv>
       <tuv lang="ja">
         <seg>現地事務所に印刷用に送付できるよう、単一のPDFとして地図を印刷しましょう：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Lets start by looking at the new Browser interface.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150430Z" creationid="miurahr" creationdate="20201117T150430Z">
+        <seg>新しいブラウザ・インターフェイスを見ることで開始できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9943,6 +10263,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Most databases provide a feature called transaction support.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150247Z" creationid="miurahr" creationdate="20201117T150247Z">
+        <seg>ほとんどのデータベースは、トランザクションサポートと呼ばれる機能を提供します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Multiple buffer zones</seg>
       </tuv>
       <tuv lang="ja">
@@ -10143,6 +10471,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Normalization is a systematic way of ensuring that a database structure is suitable for general-purpose querying and free of certain undesirable characteristics - insertion, update, and deletion anomalies - that could lead to a loss of data integrity.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150221Z" creationid="miurahr" creationdate="20201117T150221Z">
+        <seg>正規化は、データベース構造が汎用照会に適しており、挿入、更新、および削除の異常（データの整合性が失われる可能性がある）などの望ましくない特性がないことを確実にする体系的な方法です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Normally each map layer will represent something in the real world –-- a roads layer for example will have data about the street network.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T134358Z" creationid="miurahr" creationdate="20201117T134358Z">
@@ -10231,6 +10567,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Notice how the mouse cursor snaps to the canvas grid.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150807Z" creationid="miurahr" creationdate="20201117T150807Z">
+        <seg>マウスカーソルがキャンバスのグリッドにスナップされるに注意してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Notice that only the bigger map is displaying the current map view, and the small overview map is keeping the same view you had when you locked it.</seg>
       </tuv>
       <tuv lang="ja">
@@ -10251,6 +10595,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140353Z" creationid="miurahr" creationdate="20201117T140353Z">
         <seg>ここで、各生徒または生徒のグループが、特定のタイプの地物を表すセル内で色付けされるようにする。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Now let's show you a sub-selection on this data.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150317Z" creationid="miurahr" creationdate="20201117T150317Z">
+        <seg>それでは、このデータの副選択を表示してみましょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10315,6 +10667,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>これでデータベースが理論的にどのように動作するか見てしまいましたので、カバーしてきた理論を実装する新しいデータベースを作成してみましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Now that you have configured your new database you will find that the entry in Browser tree has nothing underneath it and the only thing you can do at this point is to delete the connection.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150634Z" creationid="miurahr" creationdate="20201117T150634Z">
+        <seg>これでブラウザツリーに新しいデータベースが構成され, その下には何も持たないことから, 行える操作は削除できることだけだということがわかります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10387,6 +10747,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>ここまできたらQGISでプラグインをリロードすれば、プロセッシングツールボックスとモデラーの中にあなたのスクリプトを見つけることができるはずです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Now you can start to add elements to your map canvas.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150751Z" creationid="miurahr" creationdate="20201117T150751Z">
+        <seg>今すぐ地図キャンバスへの要素の追加を開始できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10491,6 +10859,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140324Z" creationid="miurahr" creationdate="20201117T140324Z">
         <seg>もちろん、手持ち式のカメラでは、ほとんどの人は自分のペットだの何だのの写真を見たいだけなので、スペクトルの **不可視** 部分からの情報を記録するのはおそらく意味がありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Of course the most important will be a properly styled but, as you have seen before, you will also need to add lots of other elements that complete the printed map.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150738Z" creationid="miurahr" creationdate="20201117T150738Z">
+        <seg>もちろん、最も重要なのは、前に見てきたように、適切にスタイル設定されることですが、印刷された地図を完成する他の要素もたくさん追加する必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10607,6 +10983,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>One common usage is to implement views, including updatable view.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150326Z" creationid="miurahr" creationdate="20201117T150326Z">
+        <seg>一つの一般的な使用法は、更新可能なビューなど、ビューを実装することです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>One commonly used file format is the **shapefile** which is actually a group of three or more files (:file:`.shp`, :file:`.dbf` and :file:`.shx`).</seg>
       </tuv>
       <tuv lang="ja">
@@ -10639,10 +11023,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>One of the main ideas in a database is to avoid data duplication / redundancy.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150219Z" creationid="miurahr" creationdate="20201117T150219Z">
+        <seg>データベースの主なアイデアの1つは、データの重複/冗長性を避けることです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>One of the most common reference systems is **Longitude and Latitude**.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140804Z" creationid="miurahr" creationdate="20201117T140804Z">
         <seg>最も一般的な参照系の一つは **経度と緯度** です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>One of the powerful features of a database is its ability to summarise the data in its tables.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150320Z" creationid="miurahr" creationdate="20201117T150320Z">
+        <seg>データベースの強力な機能の1つは、そのテーブル内のデータを要約する能力です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10771,6 +11171,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>木のPostGISの部分を開きます。前に設定した接続が可能なはずです（ブラウザウィンドウの上部にある[更新]ボタンをクリックする必要があるかもしれません）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Open the QGIS project from the previous lesson :kbd:`forest_inventory.qgs`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150740Z" creationid="miurahr" creationdate="20201117T150740Z">
+        <seg>前のレッスンからQGISプロジェクトを開きます :kbd:`forest_inventory.qgs` 。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11911,6 +12319,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Relational Databases are an important part of any GIS system.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150254Z" creationid="miurahr" creationdate="20201117T150254Z">
+        <seg>リレーショナル·データベースはGISシステムの重要な部分です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Remember that each of these lines shown above must have a blank line above and below it, otherwise it could cause errors while creating the document.</seg>
       </tuv>
       <tuv lang="ja">
@@ -12055,6 +12471,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Right Clicking on a table/layer in this view will give you a few options.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150434Z" creationid="miurahr" creationdate="20201117T150434Z">
+        <seg>このビューでテーブル/レイヤーを右クリックすると、いくつかのオプションを提供します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Right click on :kbd:`forest_stands_2012` and select :guilabel:`Duplicate`</seg>
       </tuv>
       <tuv lang="ja">
@@ -12115,6 +12539,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>テーブルの行は **レコード** と呼ばれます</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Rules allow the "query tree" of an incoming query to be rewritten.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150325Z" creationid="miurahr" creationdate="20201117T150325Z">
+        <seg>ルールは "クエリ木" に書き換えることができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12227,6 +12659,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140959Z" creationid="miurahr" creationdate="20201117T140959Z">
         <seg>たとえば、川での汚染を監視している、とします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Say you want to log every change of phone_no in your people table in to a people_log table.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150337Z" creationid="miurahr" creationdate="20201117T150337Z">
+        <seg>people テーブルにある phone_no の変更すべてを people_log テーブルにログとして記録したいとします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12371,6 +12811,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>:guilabel:`名称` フィールドを選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Select the ``lines`` table in the tree.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150544Z" creationid="miurahr" creationdate="20201117T150544Z">
+        <seg>ツリーの``lines``テーブルを選択します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12679,6 +13127,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>So far we have only been viewing the database its schemas and tables and their metadata, but what if we wanted to alter the table to add an additional column perhaps?</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150503Z" creationid="miurahr" creationdate="20201117T150503Z">
+        <seg>これまでのところはデータベース、そのスキーマとテーブル、それらのメタデータを閲覧しているだけですが、おそらく追加の列を追加するとかテーブルを変更したい場合はどう？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>So far we have only created an empty shapefile.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123700Z" creationid="miurahr" creationdate="20201117T123700Z">
@@ -12715,6 +13171,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123625Z" creationid="miurahr" creationdate="20201117T123625Z">
         <seg>だから table_river_attributes_ のように見える属性テーブルで終わることがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>So you set up a new table:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150338Z" creationid="miurahr" creationdate="20201117T150338Z">
+        <seg>そこで新しいテーブルを設定します:</seg>
       </tuv>
     </tu>
     <tu>
@@ -12811,6 +13275,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140818Z" creationid="miurahr" creationdate="20201117T140818Z">
         <seg>時にはそれらの基本的なジオメトリに加えて、ポリラインのための特別なルールがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sometimes, when changing data, you want your changes to have effects elsewhere in the database.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150349Z" creationid="miurahr" creationdate="20201117T150349Z">
+        <seg>データを変更する時に、変更がデータベースの中の他の場所へ影響を及ぼすのが望ましい場合があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12995,6 +13467,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>副選択</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sub-selections allow you to select objects from one table based on the data from another table which is linked via a foreign key relationship.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150316Z" creationid="miurahr" creationdate="20201117T150316Z">
+        <seg>副選択は外部キー関係を介して連結されている別のテーブルからのデータに基づいて一つのテーブルからオブジェクトを選択できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13231,6 +13711,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Take a scenario where you have an accounting system.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150249Z" creationid="miurahr" creationdate="20201117T150249Z">
+        <seg>会計システムを持っているというシナリオを取ります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Telle river</seg>
       </tuv>
       <tuv lang="ja">
@@ -13359,6 +13847,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The *VACUUM* command takes care of doing a kind of garbage collection to compact and optional analyze your tables for better performance.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150523Z" creationid="miurahr" creationdate="20201117T150523Z">
+        <seg>*VACUUM* コマンドでは、ガベージコレクションのようなものをして、パフォーマンス向上のためにテーブルを圧縮したりオプションで分析します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The :guilabel:`Indexes` tab can be used to add and delete both spatial and normal indexes.</seg>
       </tuv>
       <tuv lang="ja">
@@ -13403,6 +13899,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124602Z" creationid="miurahr" creationdate="20201117T124602Z">
         <seg>ドキュメントは、本ライセンスは、ドキュメントに適用されると述べている通知に次の保証の免責事項を含めることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The ER Diagram helps us to express 'one to many' relationships.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150237Z" creationid="miurahr" creationdate="20201117T150237Z">
+        <seg>ERダイアグラムは、関係「一対多」を表現する助けになります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13783,6 +14287,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The entity-relationship diagram (ER Diagram) is used to design the logical dependencies between the relations.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150235Z" creationid="miurahr" creationdate="20201117T150235Z">
+        <seg>エンティティ関係図（ER図）は、関係間の論理依存関係を設計するために使用されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The equivalent distance in the real world is placed above as you can see in figure_map_scale_ (c).</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135733Z" creationid="miurahr" creationdate="20201117T135733Z">
@@ -13999,6 +14511,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The index at the back of a book helps you to jump quickly to the page with the relevant information:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150231Z" creationid="miurahr" creationdate="20201117T150231Z">
+        <seg>教科書の裏にある索引は、関連情報を持つページに素早くジャンプするのに役立ちます:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The information we use in a GIS normally has a geographical aspect to it.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T134926Z" creationid="miurahr" creationdate="20201117T134926Z">
@@ -14019,6 +14539,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135753Z" creationid="miurahr" creationdate="20201117T135753Z">
         <seg>地図上の緯度と経度の値を地図上のより良い方向付けに使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The layers that matched your query are now displayed on your map.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150548Z" creationid="miurahr" creationdate="20201117T150548Z">
+        <seg>クエリと一致したレイヤーは今、地図上に表示されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14123,6 +14651,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>新しいポリゴンは全体の森林地域をカバーしていて、それらは（各ポリゴンから作成された）各地図に何が含まれているかを教えてくれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The next lesson will show you how to do this.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150350Z" creationid="miurahr" creationdate="20201117T150350Z">
+        <seg>次のレッスンではこの方法を紹介します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14279,6 +14815,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The process of removing redundancy from a database is called Normalisation.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150220Z" creationid="miurahr" creationdate="20201117T150220Z">
+        <seg>データベースから冗長性を除去するプロセスを正規化といいます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The process of using a digitising table, is to place a paper map on the table.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123922Z" creationid="miurahr" creationdate="20201117T123922Z">
@@ -14299,6 +14843,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>このプロジェクトは2010年にオーストラリアの状態プランニング賞のクイーンズランド計画研究所で奨励賞を受賞しました[2]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The properties that describe an address are the columns.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150216Z" creationid="miurahr" creationdate="20201117T150216Z">
+        <seg>住所を記述するプロパティは列です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14383,6 +14935,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The sequence of steps would go like this:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150251Z" creationid="miurahr" creationdate="20201117T150251Z">
+        <seg>一連のステップは次のように進むでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The shapefile format allows you to store the numeric field information as either a whole number (**integer**) or a decimal number (**floating point**) –-- so you need to think before hand whether the numeric data you are going to capture will have decimal places or not.</seg>
       </tuv>
       <tuv lang="ja">
@@ -14455,6 +15015,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The systematic sampling design is ready and the field teams have loaded the GPS coordinates in their navigation devices.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150732Z" creationid="miurahr" creationdate="20201117T150732Z">
+        <seg>体系的なサンプリングの設計が準備でき、野外チームがナビゲーションデバイスにGPS座標をロードしました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The term field is often used interchangeably with column, although many consider it more correct to use field (or field value) to refer specifically to the single item that exists at the intersection between one row and one column.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150154Z" creationid="miurahr" creationdate="20201117T150154Z">
@@ -14475,6 +15043,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>トポロジとして正しい境界線はこのようになります:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The type of information stored in each column is its datatype.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150216Z" creationid="miurahr" creationdate="20201117T150216Z">
+        <seg>各列に格納される情報のタイプは、そのデータ型です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14775,10 +15351,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>These summaries are called aggregate queries.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150320Z" creationid="miurahr" creationdate="20201117T150320Z">
+        <seg>これらの要約は集計クエリと呼ばれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>These titles must be distinct from any other section titles.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124742Z" creationid="miurahr" creationdate="20201117T124742Z">
         <seg>これらの題は、他のセクションの題は区別しなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>They also have a field data form where they will collect the information measured at every sample plot.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150733Z" creationid="miurahr" creationdate="20201117T150733Z">
+        <seg>彼らはまた、すべてのサンプルプロットで測定された情報を収集するための野外データフォームを持っています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15047,6 +15639,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This is of course because we haven't added any tables to this database.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150659Z" creationid="miurahr" creationdate="20201117T150659Z">
+        <seg>このデータベースには何のテーブルも追加していないのでこれは当然です.。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This is repeated for each feature.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124022Z" creationid="miurahr" creationdate="20201117T124022Z">
@@ -15151,6 +15751,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This means you can easily change it without impacting on any data in your database:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150348Z" creationid="miurahr" creationdate="20201117T150348Z">
+        <seg>つまりデータベースの中のデータに影響を与えることなく簡単に変更できます:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This must notify the reader of the name of the sponsor and must appear below the heading of the module, lesson or section that they sponsored.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141633Z" creationid="miurahr" creationdate="20201117T141633Z">
@@ -15235,6 +15843,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>このセクションは追加分です.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This section will dive deeper into how to effectively use spatial databases in QGIS.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150355Z" creationid="miurahr" creationdate="20201117T150355Z">
+        <seg>このセクションでは、効果的にQGISで空間データベースを使用する方法について深掘りします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15575,6 +16191,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>To easier find their way to every sample plot, they have requested a number of detail maps where some ground information can be clearly seen along with a smaller subset of sample plots and some information about the map area.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150734Z" creationid="miurahr" creationdate="20201117T150734Z">
+        <seg>野外チームは、すべてのサンプルプロットへ行く道が簡単に見つかるよう、いくつかの地上情報がサンプルプロットのより小さいサブセットや地図エリアに関する情報と一緒にはっきり見える大量の詳細地図を要求してきました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>To emphasize a crucial term which is not a new concept, write the term in bold by enclosing it in double asterisks (:kbd:`**`).</seg>
       </tuv>
       <tuv lang="ja">
@@ -15787,6 +16411,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>トランザクション</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Transactions allow you to create a rollback position that you can return to if your modifications to the database did not run as planned.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150248Z" creationid="miurahr" creationdate="20201117T150248Z">
+        <seg>トランザクションを使用すると、データベースへの変更が計画通りに実行されなかった場合に戻ることができるロールバック位置を作成できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16135,6 +16767,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Use this function when you add other elements.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150756Z" creationid="miurahr" creationdate="20201117T150756Z">
+        <seg>他の要素を追加したときに、この機能を使用してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Use this image to assist you:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T145805Z" creationid="miurahr" creationdate="20201117T145805Z">
@@ -16307,6 +16947,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>ビューを用いてクエリを保存し、テーブルであるかのようにその結果へアクセスできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Usually the primary key is called id and is a sequence.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150244Z" creationid="miurahr" creationdate="20201117T150244Z">
+        <seg>通常、主キーはidという連番です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16535,6 +17183,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>We can now select data from that view:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150346Z" creationid="miurahr" creationdate="20201117T150346Z">
+        <seg>そのビューからデータを選択できます::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>We can see the effect of a poorly georeferenced image in figure_georeference_issue_.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124012Z" creationid="miurahr" creationdate="20201117T124012Z">
@@ -16559,6 +17215,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>We have already briefly looked at how to add tables from a database as QGIS layers, now lets look at this in a bit more detail and look at the different ways this can be done in QGIS.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150411Z" creationid="miurahr" creationdate="20201117T150411Z">
+        <seg>すでにQGISレイヤーとしてデータベースからテーブルを追加する方法を簡単に見てきました。これをもう少し詳細に見て、これがQGISで行うことができるさまざまな方法を見てみましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>We have already looked at how to import data into a spatial database using command line tools, so now let's learn how to use DB Manager to do imports.</seg>
       </tuv>
       <tuv lang="ja">
@@ -16567,10 +17231,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>We have already looked at various ways to create and manage tables on the command line, but now lets look at how to do this in DB Manager.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150500Z" creationid="miurahr" creationdate="20201117T150500Z">
+        <seg>すでに、コマンドライン上でテーブルを作成し管理するためのさまざまな方法を見てきていますが、ここでDBマネージャでこれを行う方法を見てみましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>We have already seen how to perform many database operations with QGIS as well as with other tools, but now it's time to look at the DB Manager tool which provides much of this same functionality as well as more management oriented tools.</seg>
       </tuv>
       <tuv lang="ja">
         <seg>すでにQGISや他のツールで多くのデータベース操作を実行する方法を見てきましたが、今度は、この同じ機能の多くに加えてさらに管理指向のツールを提供するDB管理者ツールを検討します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>We have already seen this type of functionality in the :guilabel:`Browser` panel, but lets look at it again here with DB Manager.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150533Z" creationid="miurahr" creationdate="20201117T150533Z">
+        <seg>すでに :guilabel:`ブラウザ` パネルの中のこの種の機能を見てきましたが、再びここでDBマネージャでそれを見てみましょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16647,6 +17327,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>We want to create an address database.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150214Z" creationid="miurahr" creationdate="20201117T150214Z">
+        <seg>住所のデータベースを作成したいとします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>We want to show only people who live in ``street_id`` number :kbd:`1`:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150318Z" creationid="miurahr" creationdate="20201117T150318Z">
+        <seg>``street_id`` 番号 :kbd:`1` に住む人だけを表示したい:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>We will be looking at raster data in greater detail in later tutorials.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135140Z" creationid="miurahr" creationdate="20201117T135140Z">
@@ -16659,6 +17355,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140831Z" creationid="miurahr" creationdate="20201117T140831Z">
         <seg>このチュートリアルの後の :ref:`gentle_gis_topology` トピックではこれについて見ていきます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>We will revisit joins as we create more complex queries later.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150313Z" creationid="miurahr" creationdate="20201117T150313Z">
+        <seg>結合については、後でより複雑なクエリを作成するときに再訪します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16715,6 +17419,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150114Z" creationid="miurahr" creationdate="20201117T150114Z">
         <seg>何か既存のデータに変更を加えたい場合は？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>What if you want to see the person's details and their street's name instead of the ID?</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150306Z" creationid="miurahr" creationdate="20201117T150306Z">
+        <seg>IDの代わりに人の詳細とその通りの名前を確認したい場合は？</seg>
       </tuv>
     </tu>
     <tu>
@@ -16787,6 +17499,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>画像を追加する場合は、フォルダ :kbd:`_static/lesson_name/` に保存します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>When adding, changing, or deleting data in a database, it is always important that the database is left in a good state if something goes wrong.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150246Z" creationid="miurahr" creationdate="20201117T150246Z">
+        <seg>データベース内のデータを追加、変更、または削除するときは、何か問題が生じた場合にデータベースを良好な状態に保つことが常に重要です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17079,6 +17799,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>When you write a query, you need to spend a lot of time and effort formulating it.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150342Z" creationid="miurahr" creationdate="20201117T150342Z">
+        <seg>クエリを記述するときはそれを考案するのに多くの時間と労力が必要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>When you're done adding features to a layer, remember to save your edits and then exit edit mode.</seg>
       </tuv>
       <tuv lang="ja">
@@ -17247,6 +17975,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>With joins, you will always state the two tables the information is coming from, in this case people and streets.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150309Z" creationid="miurahr" creationdate="20201117T150309Z">
+        <seg>結合によって、情報が由来する2つのテーブルを、この場合は人と通りですが、常に宣言することになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>With the new line edit element selected, you'll see its *properties* along the side of your screen (on the right by default):</seg>
       </tuv>
       <tuv lang="ja">
@@ -17287,6 +18023,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>With views, you can save the definition of an SQL query in a reusable 'virtual table'.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150342Z" creationid="miurahr" creationdate="20201117T150342Z">
+        <seg>ビューを使えばSQLクエリの定義を再利用可能な「仮想テーブル」に保存できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Word processors, spreadsheets and graphics packages are all programs that let you create and edit digital data.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123312Z" creationid="miurahr" creationdate="20201117T123312Z">
@@ -17315,6 +18059,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140903Z" creationid="miurahr" creationdate="20201117T140903Z">
         <seg>ベクターデータの取り扱いには,いくつかの問題や課題があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Worse still, if a city name changes, you have to do a lot of work to update your database.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150224Z" creationid="miurahr" creationdate="20201117T150224Z">
+        <seg>さらに悪いことに、都市名が変更された場合は、データベースを更新するために多くの作業を行う必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17431,6 +18183,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You also need to specify which two keys must match (foreign key &amp; primary key).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150311Z" creationid="miurahr" creationdate="20201117T150311Z">
+        <seg>また、どの2つのキー（外部キー＆主キー）が一致しなければならないかを指定する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You are not to alter the conditions in this Appendix except for clarification.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141555Z" creationid="miurahr" creationdate="20201117T141555Z">
@@ -17475,6 +18235,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135709Z" creationid="miurahr" creationdate="20201117T135709Z">
         <seg>別のテーマを表示するために、異なる凡例の記号やアイコンも使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can browse the data by selecting the :guilabel:`Table` tab.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150502Z" creationid="miurahr" creationdate="20201117T150502Z">
+        <seg>:guilabel:`テーブル` タブを選択して、データを閲覧できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17551,6 +18319,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You can now inspect your table in the DB Manager and you will of course find that there is no data in it.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150517Z" creationid="miurahr" creationdate="20201117T150517Z">
+        <seg>これで、DBマネージャで、テーブルを検査できますし、もちろんその中にデータがないことがわかります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can of course use this query tool to execute any arbitrary SQL command including many of the ones we looked at in previous modules and sections.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150549Z" creationid="miurahr" creationdate="20201117T150549Z">
+        <seg>もちろんこのクエリツールは、以前のモジュールとセクション中で見たものなど、任意のSQLコマンドを実行するために使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You can right click on the table and view its properties as we did in the previous exercise.</seg>
       </tuv>
       <tuv lang="ja">
@@ -17619,6 +18403,22 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123748Z" creationid="miurahr" creationdate="20201117T123748Z">
         <seg>そのとき基準地図としてこのレイヤーを使用するとか、地物が表示されている場合はラスターレイヤーからベクターレイヤーへ地物をトレースできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can treat a view just like a table, but its data is sourced from a query.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150343Z" creationid="miurahr" creationdate="20201117T150343Z">
+        <seg>ビューはテーブルのように扱うことができますが、そのデータはクエリから供給されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can use the Atlas tool to automatically generate a number of maps with a common format.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150735Z" creationid="miurahr" creationdate="20201117T150735Z">
+        <seg>地図帳ツールを使用することで、大量の地図を共通のフォーマットで自動的に作成できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17855,6 +18655,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You need to transfer funds from one account and add them to another.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150250Z" creationid="miurahr" creationdate="20201117T150250Z">
+        <seg>1つの口座から資金を転送し、他にそれらを追加する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You should add additional ``\since`` tags for important changes that were introduced later on.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T091631Z" creationid="miurahr" creationdate="20201117T091631Z">
@@ -17911,6 +18719,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You should have at least the following layers:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150741Z" creationid="miurahr" creationdate="20201117T150741Z">
+        <seg>少なくとも以下のレイヤーを持っている必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You should now see the records that match in the :guilabel:`Result` panel.</seg>
       </tuv>
       <tuv lang="ja">
@@ -17923,6 +18739,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>成功した場合 :kbd:`0 1 を挿入` と表示されるはずです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You will have to start reading at one cover and work your way through the entire book until you find the information you need.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150230Z" creationid="miurahr" creationdate="20201117T150230Z">
+        <seg>必要な情報が見つかるまで、1つの表紙から読み始め、書籍全体を通して作業を進めなければなりません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17955,6 +18779,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123622Z" creationid="miurahr" creationdate="20201117T123622Z">
         <seg>自分の位置の地図読みをしたり、GPS受信機を使用して自分の位置を取得する必要もあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You'll notice that this query is case-sensitive, so the :kbd:`Sally Norman` entry has not been returned.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T150305Z" creationid="miurahr" creationdate="20201117T150305Z">
+        <seg>このクエリは大文字小文字が区別されることに気づくでしょう、だから :kbd:`Sally Norman` エントリは返されていません。</seg>
       </tuv>
     </tu>
     <tu>
