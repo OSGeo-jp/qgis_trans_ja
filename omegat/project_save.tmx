@@ -1350,6 +1350,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Active hazardous areas shown in red.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T061131Z" creationid="miurahr" creationdate="20201117T061131Z">
+        <seg>未除去の危険区域は赤で示されており、すでに除去された危険区域は明るい緑色で示されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Add a Conclusion</seg>
       </tuv>
       <tuv lang="ja">
@@ -2774,6 +2782,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Danish Demining Group using QGIS in Afghanistan</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T061126Z" creationid="miurahr" creationdate="20201117T061126Z">
+        <seg>アフガニスタンでQGISを使用するデンマークの地雷除去グループ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Data Capture</seg>
       </tuv>
       <tuv lang="ja">
@@ -2858,6 +2874,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>ダイアログ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Digital elevation models allow DDG to get an idea of the location of a minefield</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T061129Z" creationid="miurahr" creationdate="20201117T061129Z">
+        <seg>数値標高モデルは、DDGが地雷原の場所に関して当たりを付けることに役立っています。</seg>
       </tuv>
     </tu>
     <tu>
