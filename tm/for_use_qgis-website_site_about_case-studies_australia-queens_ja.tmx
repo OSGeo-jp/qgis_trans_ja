@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>QGIS and GRASS in Local Government Bushfire Hazard Mapping</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>地方政府の森林火災ハザードマップでのQGISとGRASS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Introduction</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>はじめに</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The Project</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プロジェクト</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>As bushfire is not only a problem for SDRC but also for the whole of Queensland, the state government requires that each local government identifies the bushfire hazard in their area via the State Planning Policy 1/03 Mitigating the Adverse Impacts of Flood, Bushfire and Landslide [1]. This kind of job would normally be done using consultants but was instead done by the council itself using a combination of QGIS and GRASS.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>山火事は、SDRCにとってだけでなく、クイーンズランド州全体にとって問題なので、州政府は、洪水・森林火災・地すべりの悪影響を緩和する国家計画方針1月3日[1]を通じ、各地方政府にその地域での山火事の危険を認識することを求めています。この種の仕事は通常はコンサルタントを使って行われることになるのでしょうが、代わりにQGISとGRASSの組み合わせを使用して協議会自身によって行われました。 </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The GIS side of the project project was broken down into 6 main steps</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プロジェクトの GIS側は主に6つのステップに分けられます</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Slope assessment and mapping</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>傾斜の評価と図化</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Aspect assessment and mapping</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>斜面方向の評価と図化</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Vegetation assessment and mapping</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>植生の評価と図化</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Combining scores to identify the severity of bushfire hazard</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>山火事の危険の重大度を識別するためのスコアを組み合わせます</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Field verification and qualitative assessment</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>フィールドの検証および定性的評価</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Final Maps</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>最終的な地図</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The use of QGIS and GRASS</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISとGRASSの使用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Conclusion</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>結論</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>References</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>リファレンス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[1] http://www.emergency.qld.gov.au/publications/spp/</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>[1] http://www.emergency.qld.gov.au/publications/spp/</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Author</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>制作者</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This article was contributed in January 2011 by Nathan Woodrow. Nathan is a GIS officer at the Southern Downs Regional Council and is studying an associates degree in Spatial Science at University of Souther Queensland</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この記事は、ネイサン・ウッドローにより、2011年1月に寄稿されました。ネイサンは南ダウンズ地域協議会でのGISの役員であり、サウザークイーンズランド大学の空間科学の準学士で勉強中です</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The Southern Downs Regional Council (SDRC) is a small-to-medium sized local government in south east Queensland, Australia. The council region, mainly the southern part, suffers from major bushfires. Bushfire is a real and present concern for the residents and landowners in the Southern Downs Region, and has resulted in the loss of life and property.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>南ダウンズ広域行政機関（SDRC）は南東クイーンズランド、オーストラリアの中小地方政府です。協議会地域、主に南部では、主要な山火事に苦しんでいます。山火事は南ダウンズ地域の住民や土地所有者のための現実と存在関心事である、そして生命と財産の損失をもたらしました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This project will allow the council and the people of the region to be more aware of the risk and to allow for better decision making in the future.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このプロジェクトによって、行政機関およびこの地域の人々がリスクをより意識できるようになり、将来のより良い意思決定ができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>QGIS, using the GRASS plugin, was selected as it provided the tools needed to complete the job and the interaction between QGIS and GRASS made it easy to process the raster maps and present them in a meaningful way to users. SDRC uses MapInfo for its main GIS system, however MapInfo’s addons were not as powerful as GRASS GIS for raster processing.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISは、GRASSプラグインを使用して、仕事を完了するのに必要なツールを提供するために選択され、QGISとGRASSの間の相互作用は、ラスター地図を処理してユーザーに意味のある方法でそれらを提示することを容易にしました。SDRCではその主なGISシステムについてMapInfoを使用していますが、MapInfoのアドオンは、ラスター処理のためにはGRASS GISほど強力ではありませんでした。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The QGIS GRASS plugin was used to import 5 meter contours of the whole region into GRASS which were then converted into a contour raster map using r.surf.contour. A slope and aspect map were then generated using r.slope.aspect from the raster contour map. Categories were assigned to different slope and aspect ranges and given a hazard risk sore. Vegetation areas were also given different risk scores. All the resulting raster maps were then combined using mapcalc and given a final risk hazard score. The risk scores are then divided into three main categories: high; medium; and low.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGIS GRASSプラグインは次いでr.surf.contourを用いて等高線ラスター地図に変換したGRASSに全領域の5メートルの等高線をインポートするために使用されました。傾斜方向図は、次に、ラスター等高線図からr.slope.aspectを用いて作製しました。カテゴリは、異なる傾斜および斜面方向範囲に割り当てられ、ハザードリスクスコアを与えました。植生領域も異なるリスクスコアを与えられました。すべての得られたラスター地図は次いでmapcalcを使用して結合し、最終的なリスクの危険スコアを与えました。それからリスクスコアは次の3つの主なカテゴリーに分けられます：高・中・低。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The final part of the process was field verification via the rural fire service. After the review process, QGIS was used to print the final maps for presentation.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プロセスの最後の部分は地方消防サービスを通じての現場検証でした。レビュープロセスの後、QGISが、プレゼンテーションのための最終的な地図を印刷するのに使用されました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>As all GRASS commands can be run from the command line, all the commands that were needed to generate the bushfire hazard maps were recorded, for documentation purposes and for if the maps needed to be regenerated some time in the future.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>すべてのGRASSのコマンドはコマンドラインから実行できるので、山火事のハザードマップを生成するのに必要とされたすべてのコマンドは、文書化のためおよび将来いつかの時に地図を再作成するために必要な場合のために、記録されました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Overall QGIS, together with the GRASS plugin, provided a great experience and a great final outcome for the council doing their own bushfire hazard mapping. The GRASS plugin provides a very easy to use interface to GRASS through QGIS. As QGIS is able to open the GRASS raster format natively, integration is very seamless and maps can be made with ease.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>全体的にQGIS、一緒にGRASSプラグインで、素晴らしい経験と、自分の山火事ハザードマップ作成を行う協議会のための偉大な最終的な結果を提供します。GRASSプラグインはQGISを通じてGRASSへのインターフェイスを非常に使いやすいを提供します。QGISではGRASSラスター形式をネイティブに開けるため、統合は非常にシームレスで、地図を容易に作成できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The project won an encouragement award at the Queensland Planning Institute of Australia state planning awards in 2010 [2]</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このプロジェクトは2010年にオーストラリアの状態プランニング賞のクイーンズランド計画研究所で奨励賞を受賞しました[2]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>[2] http://digital.crowtherblayne.com.au/default.aspx?xml=crowther_pia.xml</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>[2] http://digital.crowtherblayne.com.au/default.aspx?xml=crowther_pia.xml</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Nathan Woodrow</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Nathan Woodrow</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>
