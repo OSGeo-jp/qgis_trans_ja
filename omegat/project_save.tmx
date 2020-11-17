@@ -2814,6 +2814,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>COMBINING DOCUMENTS**</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124858Z" creationid="miurahr" creationdate="20201117T124858Z">
+        <seg>書類を組み合わせる**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>COPYING IN QUANTITY**</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124641Z" creationid="miurahr" creationdate="20201117T124641Z">
@@ -5342,6 +5350,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If the Document already includes a cover text for the same cover, previously added by you or by arrangement made by the same entity you are acting on behalf of, you may not add another; but you may replace the old one, on explicit permission from the previous publisher that added the old one.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124845Z" creationid="miurahr" creationdate="20201117T124845Z">
+        <seg>文書が既に同じカバーするためのカバーテキストが含まれている場合は、以前にあなたによってか、の代わりに動作している同じエンティティによって行われた配置で追加された、別のものは追加できません。しかし、古い文を加えた以前の出版者からの明示的な許可に、古いものを置き換えることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If the Document does not identify any Invariant Sections then there are none.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124412Z" creationid="miurahr" creationdate="20201117T124412Z">
@@ -5402,6 +5418,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>QGISに送信する前に追加の変更が必要な場合は、次の手順に従ってください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If there are multiple Invariant Sections with the same name but different contents, make the title of each such section unique by adding at the end of it, in parentheses, the name of the original author or publisher of that section if known, or else a unique number.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T133408Z" creationid="miurahr" creationdate="20201117T133408Z">
+        <seg>同じ名前が異なる内容の変更不可部分が複数ある場合は、括弧内に、それの最後に追加することによって、そのような各セクション独特の題を作る、そのセクションの原作者や出版社の名前は、他の知られている場合、または一意の番号。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5986,6 +6010,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>以下のコードサンプルでは、 ``$`` で始まる​​行はあなたが入力すべきコマンドを示します。一方、 ``#`` で始まる​​行はコメントです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In the combination, you must combine any sections Entitled "History" in the various original documents, forming one section Entitled "History"; likewise combine any sections Entitled "Acknowledgements", and any sections Entitled "Dedications".</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T133421Z" creationid="miurahr" creationdate="20201117T133421Z">
+        <seg>組み合わせでは、「履歴」と題する一つのセクションを形成し、様々なオリジナルの文書中の「履歴」という題のすべてのセクションを組み合わせなければなりません。「謝辞」という題のすべてのセクション、および「献呈」という題のすべてのセクションも同様に組み合わせます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6794,6 +6826,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T114312Z" creationid="miurahr" creationdate="20201117T114312Z">
         <seg>お使いのプロセッサに合ったパッケージを入手してください(x86_64の場合、最初のIntel Macだけがi386パッケージを必要とします)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Make the same adjustment to the section titles in the list of Invariant Sections in the license notice of the combined work.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T133409Z" creationid="miurahr" creationdate="20201117T133409Z">
+        <seg>結合後の著作物の利用許諾告知における変更不可部分の一覧で、章の題名に同様の調整を行います。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7698,6 +7738,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T091636Z" creationid="miurahr" creationdate="20201117T091636Z">
         <seg>エラー報告などのためのデータコンテナはこの例外です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Only one passage of Front-Cover Text and one of Back-Cover Text may be added by (or through arrangements made by) any one entity.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124833Z" creationid="miurahr" creationdate="20201117T124806Z">
+        <seg>フロントカバーテキストとバックカバーテキストの1の唯一の通路はによって（またはによって行われた取り決めにより）いずれかのエンティティを添加してもよいです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9986,6 +10034,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>ドキュメントの作者と出版社（単数または複数）は、このライセンスによってのための宣伝のために自分の名前を使用するか、いずれかの修正版の裏書を主張または暗示する許可を与えることはありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The combined work need only contain one copy of this License, and multiple identical Invariant Sections may be replaced with a single copy.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124912Z" creationid="miurahr" creationdate="20201117T124912Z">
+        <seg>結合後の著作本ライセンスのコピーが含まれているのみ必要とし、複数の同一の不変のセクションは、単一のコピーで置き換えることができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12546,6 +12602,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>QGISブラウザを使用して空間データベースと対話する方法、およびクエリフィルタに基づいて地図にレイヤーを追加する方法を見てきました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You may add a passage of up to five words as a Front-Cover Text, and a passage of up to 25 words as a Back-Cover Text, to the end of the list of Cover Texts in the Modified Version.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124818Z" creationid="miurahr" creationdate="20201117T124757Z">
+        <seg>変更版ではカバーテキストのリストの最後に、バックカバーテキストとして、最大5つのフロントカバーテキストなどの単語、および最大25ワードの通路の通過を追加できます。</seg>
       </tuv>
     </tu>
     <tu>
