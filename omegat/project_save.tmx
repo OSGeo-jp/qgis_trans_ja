@@ -70,6 +70,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>**Book:** Desktop GIS: Mapping the Planet with Open Source Tools.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135510Z" creationid="miurahr" creationdate="20201117T135510Z">
+        <seg>**書籍:** Desktop GIS: Mapping the Planet with Open Source Tools.7</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>**Books**:</seg>
       </tuv>
       <tuv lang="ja">
@@ -138,6 +146,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>**変更はこの一時的な専用ブランチで行うこと。絶対に** ``master`` **ブランチでは行わないこと**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>**Expressing a scale in words** is a commonly used method and has the advantage of being easily understood by most map users.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135723Z" creationid="miurahr" creationdate="20201117T135723Z">
+        <seg>**言葉で縮尺を表現する** のはよく使用される方法であり、容易に最も地図ユーザーによって理解されるという利点を有します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1414,6 +1430,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>A **scale expression as a graphic or bar scale** is another basic method of expressing a scale.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135732Z" creationid="miurahr" creationdate="20201117T135732Z">
+        <seg>**グラフィックスケールまたはバースケールの縮尺表現** は、縮尺を表現するもう1つの基本的な方法です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>A Foreign key is used to refer to a unique record on another table (using that other table's primary key).</seg>
       </tuv>
       <tuv lang="ja">
@@ -1454,10 +1478,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>A Mollweide Equal Area projection left, a Plate Carree Equidistant Cylindrical projection on the right.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135758Z" creationid="miurahr" creationdate="20201117T135758Z">
+        <seg>左はMollweide Equal Area投影法、右はPlate Carree Equidistant円柱投影。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>A Step By Step Contribution</seg>
       </tuv>
       <tuv lang="ja">
         <seg>貢献のための一歩一歩</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>A bar scale shows measured distances on the map.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135733Z" creationid="miurahr" creationdate="20201117T135733Z">
+        <seg>バースケールは地図上の測定距離を示します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1630,6 +1670,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>A graticule is a network of lines overlain on a map to make spatial orientation easier for the reader.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135749Z" creationid="miurahr" creationdate="20201117T135749Z">
+        <seg>目盛は、読者のための空間的な向きを容易にするために地図上に重ねる線のネットワークです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>A green check with the words **Able to merge** shows that your changes can be merged into the official documentation without conflicts.</seg>
       </tuv>
       <tuv lang="ja">
@@ -1642,6 +1690,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124011Z" creationid="miurahr" creationdate="20201117T124011Z">
         <seg>適切にジオリファレンスされたレイヤーは、地球についてのGISアプリケーションの内部モデルに基づいて、地図ビュー内の正しい位置に表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>A map projection tries to represent the 3-dimensional Earth with all its features like houses, roads or lakes on a flat sheet of paper.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135753Z" creationid="miurahr" creationdate="20201117T135753Z">
+        <seg>地図投影は、紙の平らなシート上に家、道路や湖のような、そのすべての地物を有する3次元地球を表現しようとします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1678,6 +1734,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>A north arrow (sometimes also called a compass rose) is a figure displaying the main directions, **North**, **South**, **East** and **West**.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135715Z" creationid="miurahr" creationdate="20201117T135715Z">
+        <seg>方位（時にはバラコンパスと呼ばれる）は主要な方向、 **北** 、 **南** 、 **東** 、 **西** を表示する図です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>A public wiki that anybody can edit is an example of such a server.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T133816Z" creationid="miurahr" creationdate="20201117T133816Z">
@@ -1690,6 +1754,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T134411Z" creationid="miurahr" creationdate="20201117T134411Z">
         <seg>鉄道レイヤが地図ビューに追加されている</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>A raster dataset is composed of rows (running across) and columns (running down) of pixels (also know as cells).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140005Z" creationid="miurahr" creationdate="20201117T140005Z">
+        <seg>ラスター形式のデータセットはピクセル（セルとしても知られています）の行（横方向）と列（縦方向）で構成されています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2214,6 +2286,15 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>All of the tutorials will be done using QGIS.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135547Z" creationid="miurahr" creationdate="20201117T135547Z">
+        <seg>すべてのチュートリアルはQGISで行われています。
+&lt;56/58/56% /home/miurahr/Projects/qgis_trans_ja/tm/for_use_qgis-docum</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>All signal/slot connects should be made using the "new style" connects available in Qt5.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T091810Z" creationid="miurahr" creationdate="20201117T091810Z">
@@ -2334,6 +2415,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Analysis of Digital Elevation Models (a kind of raster where each pixel contains the height above sea level) can then be used to identify areas that are likely to be flooded.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140349Z" creationid="miurahr" creationdate="20201117T140349Z">
+        <seg>浸水する可能性のある領域を識別するために、デジタル標高モデル（各ピクセルに海抜高度を含む一種のラスター）の解析が使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>And do not forget to update the ``master`` branch in your local repository!</seg>
       </tuv>
       <tuv lang="ja">
@@ -2374,10 +2463,42 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Another approach is to use advanced computer programs to automatically extract vector features from images.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140335Z" creationid="miurahr" creationdate="20201117T140335Z">
+        <seg>別のアプローチは、高度なコンピュータプログラムを使用して画像からベクター地物を自動的に抽出することです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Another approach you could take is to digitise every small variation of grass colour and cover as a separate polygon.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140013Z" creationid="miurahr" creationdate="20201117T140013Z">
+        <seg>採りうるかもしれない別のアプローチは、草の色のすべての小さな変化をデジタル化し、別のポリゴンとしてカバーすることです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Another interesting aspect of a map scale, is that the lower the map scale, the more detailed the feature information in the map will be.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135737Z" creationid="miurahr" creationdate="20201117T135737Z">
+        <seg>地図の縮尺のもう一つの興味深い点は、地図縮尺が下がるほど、地図内の図形情報がより詳細になることです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Another method of capturing vector data is to use a digitising table.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123754Z" creationid="miurahr" creationdate="20201117T123754Z">
         <seg>ベクターデータをキャプチャする別の方法は、デジタル化テーブルを使用することです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Another option is the **representative fraction (RF)** method, where both the map distance and the ground distance in the real world are given in the same map units, as a ratio.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135725Z" creationid="miurahr" creationdate="20201117T135725Z">
+        <seg>別のオプションは、 **表現分数（RF）法** 、地図の距離と実世界の地上距離の両方を比として、同じ地図単位で与えられる方法、です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2478,10 +2599,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>As an example, the lines of a graticule can represent the earth's parallels of latitude and meridians of longitude.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135750Z" creationid="miurahr" creationdate="20201117T135750Z">
+        <seg>一例として、目盛線は、緯度と経度の経線の地球の類似を表すことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>As newer versions of astyle indent differently than the version used to do a complete reindentation of the source, the script uses an old astyle version, that we include in our repository (enable ``WITH_ASTYLE`` in cmake to include it in the build).</seg>
       </tuv>
       <tuv lang="ja">
         <seg>astyle字下げのより新しいバージョンは、ソースコード全体を字下げし直す時に使用するバージョンとは異なっているので、スクリプトでは古いastyleバージョンを使用しており、これをリポジトリに含めています（これを含めるにはビルドの際にcmakeで ``WITH_ASTYLE`` を有効にします）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>As polygons?</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140017Z" creationid="miurahr" creationdate="20201117T140017Z">
+        <seg>ポリゴンとして？</seg>
       </tuv>
     </tu>
     <tu>
@@ -2718,6 +2855,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Because having images containing multiple bands of light is so useful in GIS, raster data are often provided as multi-band images.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140328Z" creationid="miurahr" creationdate="20201117T140328Z">
+        <seg>光のマルチバンドを含む画像があるとGISで非常に役立つので、ラスターデータはしばしばマルチバンド画像として提供されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Because of this, a map has to be effective in communicating spatial information.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135638Z" creationid="miurahr" creationdate="20201117T135638Z">
+        <seg>このため、地図は、空間情報をコミュニケーションするのに有効でなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Because we have not used an :kbd:`ORDER BY` clause, the order of your results may not match what is shown here.</seg>
       </tuv>
       <tuv lang="ja">
@@ -2826,6 +2979,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124646Z" creationid="miurahr" creationdate="20201117T124646Z">
         <seg>どちらのカバーもはっきりと読みやすいこれらのコピーの出版社として識別する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Both maps are the same size but have a different scale.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135739Z" creationid="miurahr" creationdate="20201117T135739Z">
+        <seg>どちらの地図も同じサイズですが縮尺が異なります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2962,6 +3123,30 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124311Z" creationid="miurahr" creationdate="20201117T124311Z">
         <seg>しかし、このライセンスは、ソフトウェアのマニュアルに限定されるものではありません。それは関係なく、主題のか、それが印刷された本として出版されているかどうか、任意のテキストの仕事のために使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>By doing this, you will have a well designed and educational map, that people would like to look at and be able to understand.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135805Z" creationid="miurahr" creationdate="20201117T135805Z">
+        <seg>そうすることで、よいデザインの教育的な地図になり、誰が見ても理解できるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>By learning, using and sharing Free and Open Source Software, you are building your own skills, freeing money to be spent on important things like food and shelter and boosting our own economy.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135954Z" creationid="miurahr" creationdate="20201117T135954Z">
+        <seg>FOSS（自由でオープンソースのソフトウェア）を学び、使って、共有すれば、食物と住居、そして住んでいる場所の経済を発展させながら、自分自身のスキルを身につけるようになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>By sponsoring the creation of this resource, the DLA has created a foundation to which young minds can be exposed.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135955Z" creationid="miurahr" creationdate="20201117T135955Z">
+        <seg>このリソースの作成を資金援助することで、DLAは若者の心に触れる基金を創設しました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3582,6 +3767,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Colour cells with value 2 dark green.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140402Z" creationid="miurahr" creationdate="20201117T140402Z">
+        <seg>値2の色のセルは濃い緑です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Colour class and symbol</seg>
       </tuv>
       <tuv lang="ja">
@@ -3642,6 +3835,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>クラスのメソッドのコメントには、命令形ではなく三人称の終止形を使用してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Common elements of a map are the title, map body, legend, north arrow, scale bar, acknowledgement, and map border (see figure_map_elements_).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135640Z" creationid="miurahr" creationdate="20201117T135640Z">
+        <seg>地図の一般的な要素は、タイトル、地図本体、凡例、方位、スケールバー、承認、地図境界です（ figure_map_elements_ 参照）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3738,6 +3939,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>それを直接入力してボタンを使用するか、次の式を構築する::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Consult the QGIS Manuals for further copyright and licensing information.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135940Z" creationid="miurahr" creationdate="20201117T135940Z">
+        <seg>これ以上の著作権とライセンスに関する情報については、このQGISユーザマニュアルを参照して下さい。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3850,6 +4059,22 @@
       </tuv>
       <tuv lang="ja">
         <seg>この行を書き込むことによって、「自分でやってみよう」セクションへのリンクを作成します：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Create a list of legend elements and define what the icons should look like, so a reader can most easily figure out their meaning in the map.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135911Z" creationid="miurahr" creationdate="20201117T135911Z">
+        <seg>凡例要素のリストを作成し、アイコンがどのように表示されるべきかを定義します。そうすれば、読者は地図内の意味を簡単に把握できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Create a map layout with your learners on a sheet of paper.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135913Z" creationid="miurahr" creationdate="20201117T135913Z">
+        <seg>生徒たちと一緒に紙の上に地図レイアウトを作成します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4066,6 +4291,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T114150Z" creationid="miurahr" creationdate="20201117T114150Z">
         <seg>Debianベースのdistroユーザは次のことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Decide on the title of the map, what GIS layers you want to show and what colors and icons to have on the map.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135915Z" creationid="miurahr" creationdate="20201117T135915Z">
+        <seg>地図のタイトル、表示する GIS レイヤー、地図上でどのような色やアイコンが必要かを決めます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4334,6 +4567,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Draw a grid of squares onto a sheet of paper to represent your soccer field.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140357Z" creationid="miurahr" creationdate="20201117T140357Z">
+        <seg>サッカー場を表すために、紙の上に四角形のグリッドを描きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Draw columns down the page in your notebook and write in the column headings for each attribute field you want to store information about.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124038Z" creationid="miurahr" creationdate="20201117T124038Z">
@@ -4382,10 +4623,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Each band in the image is like a separate layer.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140329Z" creationid="miurahr" creationdate="20201117T140329Z">
+        <seg>画像の各バンドは別々のレイヤーのようなものです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Each lesson will be subdivided into multiple sections, which will be addressed next.</seg>
       </tuv>
       <tuv lang="ja">
         <seg>各レッスンは複数のセクションに細分化されます、それについては次に述べます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Each pixel represents a geographical region, and the value in that pixel represents some characteristic of that region.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140006Z" creationid="miurahr" creationdate="20201117T140006Z">
+        <seg>それぞれのピクセルは、地理的な領域を表しており、ピクセル中の値はその領域の何らかの特徴を表しています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4590,6 +4847,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Every projection has advantages and disadvantages.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135755Z" creationid="miurahr" creationdate="20201117T135755Z">
+        <seg>すべての投影は長所と短所があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Every raster layer in a GIS has pixels (cells) of a fixed size that determine its spatial resolution.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140213Z" creationid="miurahr" creationdate="20201117T140213Z">
+        <seg>GISの各ラスターレイヤには、空間解像度を決定する固定サイズのピクセル（セル）があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Everyone is permitted to copy and distribute verbatim copies of this license document, but changing it is not allowed.</seg>
       </tuv>
       <tuv lang="ja">
@@ -4658,6 +4931,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>例:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Exciting possibilities lie ahead when principles of free sharing of knowledge and data are embraced.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135956Z" creationid="miurahr" creationdate="20201117T135956Z">
+        <seg>知識とデータの自由な共有という原則が採用されるならば、現在の可能性は将来にまで続きます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4822,6 +5103,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Figure out if they understand what the map wants to tell.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135918Z" creationid="miurahr" creationdate="20201117T135918Z">
+        <seg>地図が何を伝えたいのか生徒たちが理解しているかどうかを把握します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Filename should be all lowercase and, in the case of classes, match the class name.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T091657Z" creationid="miurahr" creationdate="20201117T091657Z">
@@ -4834,6 +5123,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>値を以下のように埋めます:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Fill the grid in with numbers representing values for grass cover on your soccer field.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140358Z" creationid="miurahr" creationdate="20201117T140358Z">
+        <seg>サッカー場の芝カバーの値を表す数字でグリッドを塗りつぶします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4998,10 +5295,66 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>For example SPOT5 satellites can take images where each pixel is 10 m x 10 m.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140222Z" creationid="miurahr" creationdate="20201117T140222Z">
+        <seg>例えば、SPOT5衛星は、各ピクセルが10m×10mの画像を撮影できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>For example a recent satellite image taken during a flood can help to show where people may need rescuing.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135422Z" creationid="miurahr" creationdate="20201117T135422Z">
         <seg>最新の洪水発生時の衛星画像をにより人々がどのあたりで救助を必要としているのか見ることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For example an insurance company may take police crime incident reports and create a country wide raster map showing how high the incidence of crime is likely to be in each area.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140110Z" creationid="miurahr" creationdate="20201117T140110Z">
+        <seg>たとえば、保険会社では警察の犯罪事件の報告を受け取り、各地域で犯罪の発生率がどれほど高いかを示す全国規模のラスター地図を作成できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For example how would you represent the grasslands?</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140016Z" creationid="miurahr" creationdate="20201117T140016Z">
+        <seg>たとえば、草原をどのように表現しますか？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For example if you want to create a high resolution average rainfall map, you would ideally need many weather stations in close proximity to each other.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140230Z" creationid="miurahr" creationdate="20201117T140230Z">
+        <seg>例えば、高解像度の平均降雨量図を作成する場合、理想的には互いに近い多くの気象観測所が必要になるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For example information about the quality of the used data can be useful to give the reader an idea about details such as how, by whom and when a map was created.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135745Z" creationid="miurahr" creationdate="20201117T135745Z">
+        <seg>例えば、使用されるデータの品質に関する情報は、いつだれによって地図の作成されたかなどの詳細についてのアイデアを読者に与えるために有用であり得ます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For example the grasslands shown have many variations in colour and density of cover.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140011Z" creationid="miurahr" creationdate="20201117T140011Z">
+        <seg>例えば、示されている草原は、色や被覆密度が様々に変化しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For example with a satellite image of a farmer's lands, you can identify areas where the plants are growing poorly and then use that information to apply more fertilizer on the affected areas only.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140346Z" creationid="miurahr" creationdate="20201117T140346Z">
+        <seg>たとえば、農家の土地の衛星画像を使用すると、植物の生育不良のある地域を特定し、その情報を使用して影響を受けた地域にのみより多くの施肥することができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5014,6 +5367,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>For example, a RF value 1:25,000 means that any distance on the map is 1/25,000 *th* of the real distance on the ground (see figure_map_scale_ (b)).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135726Z" creationid="miurahr" creationdate="20201117T135726Z">
+        <seg>例えば、RF値1：25,000は地図上の任意の距離が地上の実距離の1 / 25,000 *倍* であることを意味します（ figure_map_scale_ (b)参照）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For example, a company with road, rail, cadastral and other vector datasets may choose to generate a raster version of these datasets so that employees can view these datasets in a web browser.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140149Z" creationid="miurahr" creationdate="20201117T140149Z">
+        <seg>たとえば、道路、鉄道、教区などのベクターデータセットを持つ会社は、従業員がこれらのデータセットをWebブラウザで表示できるように、これらのデータセットのラスターバージョンを作成できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>For example, a graphics program will let you save your drawing as a :file:`.jpg` JPEG image, word processors let you save your document as an :file:`.odt` OpenDocument or :file:`.doc` Word Document, and so on.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123324Z" creationid="miurahr" creationdate="20201117T123324Z">
@@ -5022,10 +5391,58 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>For example, features on a map in a so-called Equal Area projection appear very different to features projected in a Cylindrical Equidistant projection (see figure_map_projection_).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135801Z" creationid="miurahr" creationdate="20201117T135801Z">
+        <seg>例えば、いわゆる等積投影の地図上の地物は、円筒状の等距離射影に投影された地物とは非常に異なって見えます（ figure_map_projection_ 参照）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>For example, if we want to measure a distance of 100mm on a map with a scale of 1:25,000 we calculate the real world distance like this:</seg>
       </tuv>
       <tuv lang="ja">
         <seg>例えば、1:25000の縮尺の地図上で100ミリメートルの距離を測定する場合、現実世界の距離はこのように計算します：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For example, in GIS this means that a house that is located north from a lake can be found on top of the lake on a map.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135717Z" creationid="miurahr" creationdate="20201117T135717Z">
+        <seg>たとえば、GISではこのことは、この湖から北に位置している家は地図上の湖上に見つけることができることを意味しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For example, measuring infra-red light can be useful in identifying water bodies.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140327Z" creationid="miurahr" creationdate="20201117T140327Z">
+        <seg>例えば、赤外光を測定すると水域を特定するのに有用です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For example, rasters can be used to model water flow over the land surface.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140344Z" creationid="miurahr" creationdate="20201117T140344Z">
+        <seg>例えば、ラスターを使用して、土地表面上の水の流れをモデル化できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For example, rasters can be used to show rainfall trends over an area, or to depict the fire risk on a landscape.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140023Z" creationid="miurahr" creationdate="20201117T140023Z">
+        <seg>たとえば、ラスターを使用して地域の降雨傾向を表示したり、火災リスクを風景上に描いたりできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For example, the title describes the subject matter and the legend relates map symbols to the mapped data.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135653Z" creationid="miurahr" creationdate="20201117T135653Z">
+        <seg>例えば、タイトルは主題を説明し、凡例は地図記号を地図化されたデータに関連づけます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5042,6 +5459,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T091934Z" creationid="miurahr" creationdate="20201117T091934Z">
         <seg>例えば次のようにします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For remote sensing data, spatial resolution is usually determined by the capabilities of the sensor used to take an image.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140221Z" creationid="miurahr" creationdate="20201117T140221Z">
+        <seg>リモートセンシングデータの場合、空間分解能は、通常、画像を撮るために使用されるセンサの能力によって決定されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5086,10 +5511,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>For this we give our heartfelt thanks to the DLA!</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135957Z" creationid="miurahr" creationdate="20201117T135957Z">
+        <seg>このために、我々は心からの感謝をDLAに捧げます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>For works in formats which do not have any title page as such, "Title Page" means the text near the most prominent appearance of the work's title, preceding the beginning of the body of the text.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124452Z" creationid="miurahr" creationdate="20201117T124452Z">
         <seg>以下のような任意の題扉を持っていないフォーマットの作品については、「題扉」には、テキストの本文の先頭に先行し、作品の題の最も顕著な外観に近いテキストを意味します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Foresters use raster data to estimate how much timber can be harvested from an area.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140347Z" creationid="miurahr" creationdate="20201117T140347Z">
+        <seg>森林管理者はラスターデータを、ある地域から採取できる木材の量を推定するために使用します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5238,10 +5679,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>GIS is becoming an increasingly important tool in environmental management, retail, military, police, tourism and many other spheres of our daily lives.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135941Z" creationid="miurahr" creationdate="20201117T135941Z">
+        <seg>環境管理、流通、軍事、警察、旅行やその他の多くの目的で、GISはますます重要なツールとなっています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>GIS stands for **'Geographical Information System'**.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T133917Z" creationid="miurahr" creationdate="20201117T133917Z">
         <seg>GIS とは **地理情報システム （Geographical Information System）** のことです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GIS vendors sometimes make an exception for educational activities, providing cheaper or free copies of their software.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135946Z" creationid="miurahr" creationdate="20201117T135946Z">
+        <seg>GISベンダは、教育活動のために例外的にソフトウェアを安価あるいは無償で提供することがあります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5306,6 +5763,22 @@
       </tuv>
       <tuv lang="ja">
         <seg>ジオリファレンス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Georeferencing is the process of defining exactly where on the earth's surface an image or raster dataset was created.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140052Z" creationid="miurahr" creationdate="20201117T140052Z">
+        <seg>ジオリファレンスは、地表面のどこに画像データまたはラスターデータセットが作成されたかを正確に定義するプロセスです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Get your learners to create a raster map of your school by using A4 transparency sheets with grid lines drawn on them.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140351Z" creationid="miurahr" creationdate="20201117T140351Z">
+        <seg>グリッド線が描かれたA4の透明シートを使用して、学校のラスター地図を生徒たちに作成させてください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5422,6 +5895,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Graticules (red lines) representing the Earth’s parallels of latitude and meridians of longitude.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135752Z" creationid="miurahr" creationdate="20201117T135752Z">
+        <seg>地球の緯度と経度の経線を表す格子線（赤線）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Grid frame for your map.</seg>
       </tuv>
       <tuv lang="ja">
@@ -5466,6 +5947,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123717Z" creationid="miurahr" creationdate="20201117T123717Z">
         <seg>それが終わったら、 地図ビューの中の **マウスの左ボタン** で次にクリックした場所が、新しいポイント **ジオメトリ** を配置したい場所です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Having vectors converted to raster format can be useful though when you want to give GIS data to non GIS users.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140341Z" creationid="miurahr" creationdate="20201117T140341Z">
+        <seg>ベクターをラスター形式に変換すると、GIS以外のユーザーにGISデータを渡したいときに便利です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5614,10 +6103,42 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>How accurately does the map represent the history of the area?</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135920Z" creationid="miurahr" creationdate="20201117T135920Z">
+        <seg>地図がその地域の歴史をどのくらい正確に表現していますか？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>How did your choice in cell size affect your ability to represent different feature types?</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140355Z" creationid="miurahr" creationdate="20201117T140355Z">
+        <seg>セルサイズの選択は、さまざまな地物タイプを表現する能力にどのように影響しましたか？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>How does GIS digital data get stored?</seg>
       </tuv>
       <tuv lang="ja">
         <seg>GISのデジタルデータはどのようにして保存されていますか</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>How would a map from 100 years ago differ from the same map today?</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135920Z" creationid="miurahr" creationdate="20201117T135920Z">
+        <seg>100年前の地図は、今日の同じ地図とどう違うのですか？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>However this software is usually very expensive or otherwise limits your freedom to copy, share and modify the software.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135945Z" creationid="miurahr" creationdate="20201117T135945Z">
+        <seg>しかし、こうしたソフトウェアは大抵は大変高価で、そうで無い場合は複製、共有、改変する自由を制限します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5630,10 +6151,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>However, to properly understand GIS it is always better to learn it using a computer.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135458Z" creationid="miurahr" creationdate="20201117T135458Z">
+        <seg>ですが、GISについて正しく理解する目的ならば、コンピュータを使って学ぶ方がよいでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>However, you may accept compensation in exchange for copies.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124631Z" creationid="miurahr" creationdate="20201117T124631Z">
         <seg>ただし、コピーと引き換えに報酬を受け取ることはできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If a patch is bare give the cell a value of 0.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140359Z" creationid="miurahr" creationdate="20201117T140359Z">
+        <seg>パッチが裸の場合、セルに0の値を与えます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5650,6 +6187,22 @@
       </tuv>
       <tuv lang="ja">
         <seg>文書内のセクションは、「謝辞」、「献呈」と題された、または「履歴」である場合、要件（セクション4）はその題（セクション1）を維持するために、典型的には実際の題を変更する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If an area is completely covered with grass, give it a value of 2.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140400Z" creationid="miurahr" creationdate="20201117T140400Z">
+        <seg>領域が完全に芝で覆われている場合は、値2を与えます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If an image consists of only one band, it is often called a **grayscale** image.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140332Z" creationid="miurahr" creationdate="20201117T140332Z">
+        <seg>画像が1つのバンドのみからなる場合は、 **グレースケール** 画像と呼ばれることがよくあります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5766,6 +6319,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If the map is already 50 years old, you will probably find a lot of houses and roads that no longer exist or maybe never even existed.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135747Z" creationid="miurahr" creationdate="20201117T135747Z">
+        <seg>地図がすでに50歳であれば、おそらく、もはや存在しないか多分存在しなかった家屋や道路がたくさんあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If the patch is mixed bare and covered, give it a value of 1.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140400Z" creationid="miurahr" creationdate="20201117T140400Z">
+        <seg>パッチが裸と覆われている混合の場合は、1の値を与えます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If the required texts for either cover are too voluminous to fit legibly, you should put the first ones listed (as many as fit reasonably) on the actual cover, and continue the rest onto adjacent pages.</seg>
       </tuv>
       <tuv lang="ja">
@@ -5778,6 +6347,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T091905Z" creationid="miurahr" creationdate="20201117T091905Z">
         <seg>型がコンマ ``,`` を含む場合は、型はシングルクォート ``'`` で囲まなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If the user needs to look at the attribute table for the data, providing it in raster format could be a bad choice because raster layers do not usually have any attribute data associated with them.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140210Z" creationid="miurahr" creationdate="20201117T140210Z">
+        <seg>ユーザーがデータの属性表を参照する必要がある場合、ラスター・レイヤーには通常それらに関連付けられた属性データは含まれていないため、ラスター形式で提供することは悪い選択です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5918,6 +6495,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If you don't have a computer available, many of the topics we cover in this tutorial can be reproduced using an overhead and transparency as it uses the same technique of layering information.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135455Z" creationid="miurahr" creationdate="20201117T135455Z">
+        <seg>もしコンピュータが利用できない場合でも、このチュートリアルの多くの項目は、OHPとシートを使って、レイヤー情報の重ね合わせを同様におこなうことで再現可能です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If you don't have a computer available, you can follow the same process by using transparency sheets and a notebook.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124036Z" creationid="miurahr" creationdate="20201117T124036Z">
@@ -5926,10 +6511,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If you don't have a computer available, you can understand raster data using pen and paper.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140356Z" creationid="miurahr" creationdate="20201117T140356Z">
+        <seg>コンピュータを使用できない場合は、紙と鉛筆を使用してラスターデータを理解できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If you don't have a computer available, you can use a toposheet and transparency sheets to show your learners about vector data.</seg>
       </tuv>
       <tuv lang="ja">
         <seg>利用可能なコンピュータがなくても、ベクターデータを生徒たちに見せるためトポシートと透明なシートを使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If you don't have a computer available, you can use any topographical map and discuss the map design with your learners.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135917Z" creationid="miurahr" creationdate="20201117T135917Z">
+        <seg>コンピュータを利用できない場合は、任意の地形図を使用して、生徒たちと地図設計について話し合うことができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5954,6 +6555,22 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T133902Z" creationid="miurahr" creationdate="20201117T133902Z">
         <seg>あなたは不変のセクションを持っている場合は、フロントカバーテキストとバックカバーテキストは、「テキスト...と。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If you know that the map was created by an official institution, you could contact them and ask if they have a more current version of that map with updated information.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135748Z" creationid="miurahr" creationdate="20201117T135748Z">
+        <seg>地図が公的機関によって作成されたことがわかっている場合は、連絡をとって、それらが更新された情報と、その地図のより多くの現在のバージョンを持っているかどうか尋ねることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If you look at a topographical map of your town, it would be useful to know when the map was created and who did it.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135746Z" creationid="miurahr" creationdate="20201117T135746Z">
+        <seg>自分の町の地形図を見る場合、いつだれによって地図が作成されたか知っておくと便利でしょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6018,6 +6635,22 @@
       </tuv>
       <tuv lang="ja">
         <seg>:guilabel:`情報` タブで下にスクロールした場合、表示しているテーブルに対して、 :guilabel:`フィールド` 、 :guilabel:`制約` 、 :guilabel:`索引` についての詳細な情報を見ることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If you take a colour photograph with a digital camera or camera on a cellphone, the camera uses electronic sensors to detect red, green and blue light.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140319Z" creationid="miurahr" creationdate="20201117T140319Z">
+        <seg>携帯電話でデジタルカメラやカメラでカラー写真を撮ると、カメラは電子センサーを使って赤、緑、青の光を検出します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If you use a computer or a cell phone, you have probably already used a GIS in some form without even realising it.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135942Z" creationid="miurahr" creationdate="20201117T135942Z">
+        <seg>コンピュータや携帯電話を使用する際に、あなたは気づかずにある種のGISを使ったことがあるのです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6126,10 +6759,34 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Images with a pixel size covering a large area are called '**low resolution**' images because the amount of detail the images show is low.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140227Z" creationid="miurahr" creationdate="20201117T140227Z">
+        <seg>大面積のピクセルサイズの画像は、画像が表示する詳細の量が低いため、「 **低解像度** 」画像と呼ばれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Images with a pixel size covering a small area are called '**high resolution**' images because it is possible to make out a high degree of detail in the image.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140226Z" creationid="miurahr" creationdate="20201117T140226Z">
+        <seg>小さな領域をカバーするピクセルサイズの画像は、画像の詳細度を高くできるため、「 **高解像度** 」画像と呼ばれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Images with a single band are called grayscale images.</seg>
       </tuv>
       <tuv lang="ja">
         <seg>単一バンドの画像はグレースケール画像と呼ばれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Images with false colouring applied are often referred to as **pseudocolour images**.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140334Z" creationid="miurahr" creationdate="20201117T140334Z">
+        <seg>偽色が適用された画像は、しばしば **擬似画像** と呼ばれます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6206,6 +6863,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In GIS recording the non-visible parts of the spectrum can be very useful.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140326Z" creationid="miurahr" creationdate="20201117T140326Z">
+        <seg>GISでは、スペクトルの不可視部分を記録することは非常に便利です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In SQL databases a table is also known as a **relation.**</seg>
       </tuv>
       <tuv lang="ja">
@@ -6234,6 +6899,22 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124715Z" creationid="miurahr" creationdate="20201117T124715Z">
         <seg>また、「変更版」では以下のことを行う必要があります：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In aerial photography, an aeroplane flies over an area with a camera mounted underneath it.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140102Z" creationid="miurahr" creationdate="20201117T140102Z">
+        <seg>航空写真では、飛行機がカメラの下に取り付けられた領域を飛行します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In aerial photography, pixel sizes of 50 cm x 50 cm are not uncommon.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140225Z" creationid="miurahr" creationdate="20201117T140225Z">
+        <seg>航空写真では、50cmx50cmのピクセルサイズは一般的ではありません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6270,6 +6951,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In figure_map_legend_ you can see a map with a lake in light blue overlaid with contour lines and spot heights to show information about the terrain in that area.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135712Z" creationid="miurahr" creationdate="20201117T135712Z">
+        <seg>figure_map_legend_ では、その地域の地形についての情報を表示するには、水色での湖に等高線やスポットの高さを重ねた地図を見ることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In figure_map_scale_compare_, you can see an example of this.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135738Z" creationid="miurahr" creationdate="20201117T135738Z">
+        <seg>figure_map_scale_compare_ にこの例を見ることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In figure_tourism_ we can see how our tourism layers might look on a map if we used all three geometry types.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123616Z" creationid="miurahr" creationdate="20201117T123616Z">
@@ -6302,6 +6999,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In other cases it can be difficult.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140016Z" creationid="miurahr" creationdate="20201117T140016Z">
+        <seg>あるいはそれが困難な場合もあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In other cases, raster data can be computed.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140109Z" creationid="miurahr" creationdate="20201117T140109Z">
+        <seg>他の場合には、ラスターデータは計算できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In other cases, you can obtain a GIS Application for free.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T134808Z" creationid="miurahr" creationdate="20201117T134808Z">
@@ -6322,6 +7035,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>パートナーシップ: Spatial Information Management Unit, Office of the Premier, Eastern Cape, South Africa.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In raster data that is computed by spatial analysis (such as the rainfall map we mentioned earlier), the spatial density of information used to create the raster will usually determine the spatial resolution.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140228Z" creationid="miurahr" creationdate="20201117T140228Z">
+        <seg>空間分析によって計算されるラスターデータ（先に述べた降雨量図など）では通常、ラスターを作成するために使用される情報の空間密度が空間分解能を決定します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6438,6 +7159,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In the acknowledgment area of a map it is possible to add text with important information.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135744Z" creationid="miurahr" creationdate="20201117T135744Z">
+        <seg>地図の整飾エリアでは、重要な情報とテキストを追加することが可能です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In the code samples below, lines beginning with ``$`` show commands you should type while ``#`` are comments.</seg>
       </tuv>
       <tuv lang="ja">
@@ -6462,6 +7191,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In the end almost every country has developed its own map projection with the goal of improving the map accuracy for their territorial area (see figure_map_projection_).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135757Z" creationid="miurahr" creationdate="20201117T135757Z">
+        <seg>結局、ほぼすべての国が領土の地図精度を向上させる目的で独自の地図投影法を開発しました（ figure_map_projection_ を参照）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In the folder :kbd:`exercise_data\\forestry\\digitizing`, name the file :kbd:`rautjarvi_map.tif.points`.</seg>
       </tuv>
       <tuv lang="ja">
@@ -6474,6 +7211,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>次のレッスンでは、まずレーザー測量データセットから陰影起伏の背景を作成します。これはたった今計算した森林の結果で地図プレゼンテーションを準備するために使用するしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In the image on the right you can only see a black clump of rectangles and you are not able to see each house clearly.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135741Z" creationid="miurahr" creationdate="20201117T135741Z">
+        <seg>右の画像では、矩形のみの黒い塊を見ることができて、明らかに、各家を見ることができません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6514,6 +7259,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>右側のパネルで :guilabel:`地図帳作成` タブに行きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In the previous topics we have taken a closer look at vector data.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140001Z" creationid="miurahr" creationdate="20201117T140001Z">
+        <seg>前のトピックでは、ベクターデータについて詳しく解説しました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6574,10 +7327,34 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In the sections that follow we are going to go into more detail, showing you how to use a GIS Application.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135529Z" creationid="miurahr" creationdate="20201117T135529Z">
+        <seg>この後のセクションではもっと詳しくどうやってGISアプリケーションを使うのか掘り下げていきます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In the tutorials that follow we will be focusing on GIS Software.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T134249Z" creationid="miurahr" creationdate="20201117T134249Z">
         <seg>続いてのチュートリアルでは、 GIS ソフトウェアについて見ていきます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In these cases, they will often use raster analysis techniques such as interpolation (which we describe in Topic :ref:`spatial_analysys`).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140111Z" creationid="miurahr" creationdate="20201117T140111Z">
+        <seg>このような場合、補間（トピック :ref:`spatial_analysys` で説明します）などのラスター解析手法を使用することがよくあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In these kinds of applications, each cell in the raster represents a different value e.g. risk of fire on a scale of one to ten.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140024Z" creationid="miurahr" creationdate="20201117T140024Z">
+        <seg>この種のアプリケーションでは、ラスター中の各セルは異なる値、たとえば 1から10の尺度で火災の危険性を表します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6602,6 +7379,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>このセクションでは、ベクターデータ（ベクター地物のジオメトリと属性の両方）を作成し編集する過程を詳しく見ていきます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In this topic we are going to take a closer look at raster data, when it is useful and when it makes more sense to use vector data.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140004Z" creationid="miurahr" creationdate="20201117T140004Z">
+        <seg>このトピックでは、ラスターデータについて、どんなときに有用であり、どんなときにベクターデータを使用する方が理にかなっているか、詳しく見て行きます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6806,6 +7591,30 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Introduction to Geographic Information Systems.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140611Z" creationid="miurahr" creationdate="20201117T140611Z">
+        <seg>地理情報システムの概要</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It allows the reader to see quickly, if one map can be compared with another.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135800Z" creationid="miurahr" creationdate="20201117T135800Z">
+        <seg>これは、ある地図を他の地図と比較できるならば、読者にはすぐに確認できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It can be compared with a title in a newspaper.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135655Z" creationid="miurahr" creationdate="20201117T135655Z">
+        <seg>それは新聞のタイトルに比することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>It complements the GNU General Public License, which is a copyleft license designed for free software.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124246Z" creationid="miurahr" creationdate="20201117T124246Z">
@@ -6826,6 +7635,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T134046Z" creationid="miurahr" creationdate="20201117T134046Z">
         <seg>おたふく風邪患者同士が近くに居住していることが簡単に見て取れます.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It is handy to remember that a small scale map covers a **large area**, and a large scale map covers a **small area**!</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135731Z" creationid="miurahr" creationdate="20201117T135731Z">
+        <seg>小縮尺地図は **大きな領域** をカバーし、大縮尺地図は **小さな領域** をカバーする、と覚えておくと便利です！</seg>
       </tuv>
     </tu>
     <tu>
@@ -6854,6 +7671,30 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>It is sometimes difficult to create a map that is easy to understand and well laid out whilst still showing and explaining all the information that the reader needs to know.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135803Z" creationid="miurahr" creationdate="20201117T135803Z">
+        <seg>読者が知る必要があるすべての情報を表示し説明ながらも、理解しやすくて良いレイアウトの地図を作成することが困難な場合があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It means that if you *multiply* the distance measured on the **map** by the **scale denominator**, you will know the distance in the **real world**.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135736Z" creationid="miurahr" creationdate="20201117T135736Z">
+        <seg>それは地図上での測定距離に **縮尺分母** を掛ければ **現実世界** での距離がわかることを意味します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It should be short but give the reader a first idea of what the map is about.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135656Z" creationid="miurahr" creationdate="20201117T135656Z">
+        <seg>短くて、読者に地図が何であるかについての最初のアイデアを与える必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>It should return :kbd:`UPDATE 1`.</seg>
       </tuv>
       <tuv lang="ja">
@@ -6866,6 +7707,22 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T134145Z" creationid="miurahr" creationdate="20201117T134110Z">
         <seg>かつてコンピュータによる GIS は、高価なコンピュータ設備のある企業や大学だけで用いられていました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It uses brighter colours, a house icon and more descriptive and inviting words in the legend.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135714Z" creationid="miurahr" creationdate="20201117T135714Z">
+        <seg>それは明るい色、家のアイコン、そして凡例中により説明的で魅力的な単語を使用しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It would be easy enough to make a single polygon around each grassland area, but a lot of the information about the grassland would be lost in the process of simplifying the features to a single polygon.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140012Z" creationid="miurahr" creationdate="20201117T140012Z">
+        <seg>各草地の周囲をそれぞれの単一のポリゴンで囲むのは簡単かもしれませんが、地物を単一のポリゴンに単純化する過程で草地に関する多くの情報が失われます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7182,6 +8039,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Load some vector layers in your GIS for your local area.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135845Z" creationid="miurahr" creationdate="20201117T135834Z">
+        <seg>GISに地元の地域のいくつかのベクターレイヤーをロードします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Local repository</seg>
       </tuv>
       <tuv lang="ja">
@@ -7342,6 +8207,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Many people use raster data as a **backdrop** to be used behind vector layers in order to provide more meaning to the vector information.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140020Z" creationid="miurahr" creationdate="20201117T140020Z">
+        <seg>多くの人々がラスターデータを、ベクター情報の意味をより明確にするためにベクターレイヤーの背後で使用される **背景** として使用してしています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Map 1.1 Snowy Water Catchment Map</seg>
       </tuv>
       <tuv lang="ja">
@@ -7430,6 +8303,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Map production is the process of arranging map elements on a sheet of paper in a way that, even without many words, the average person can understand what it is all about.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135634Z" creationid="miurahr" creationdate="20201117T135634Z">
+        <seg>地図製作は、それが一体何についてなのか、多くを語らずとも平均的な人に理解できるよう、紙上に地図要素を配置するプロセスです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Map production, map layout, scale bar, north arrow, legend, map body, map unit</seg>
       </tuv>
       <tuv lang="ja">
@@ -7446,10 +8327,42 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Map projection is a very complex topic and we cannot cover it completely here.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135801Z" creationid="miurahr" creationdate="20201117T135801Z">
+        <seg>地図投影は、非常に複雑なトピックであり、ここで完全にカバーすることはできません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Maps are usually always displayed '**North up**'.</seg>
       </tuv>
       <tuv lang="ja">
         <seg>地図は普通 **北が上** で表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Maps are usually produced at standard scales of, for example, 1:10 000, 1:25 000, 1:50 000, 1:100 000, 1:250 000, 1:500 000.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135734Z" creationid="miurahr" creationdate="20201117T135734Z">
+        <seg>地図は通常、例えば、1:10000、1:25000、1:50 000、1:100000、1:250 000、1:500000の標準縮尺で製造されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Maps are usually produced for presentations and reports where the audience or reader is a politician, citizen or a learner with no professional background in GIS.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135635Z" creationid="miurahr" creationdate="20201117T135635Z">
+        <seg>地図が作成されるのはたいてい、GISでの専門的経歴を持たない政治家や市民や学生を観客や読者とするプレゼンテーションやレポートのためです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Maps showing an area in two different scales.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135742Z" creationid="miurahr" creationdate="20201117T135742Z">
+        <seg>ある地域を二つの異なる縮尺で示す地図。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7482,6 +8395,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>マウロ・ノヴァラ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Maybe it was a map on a web site, Google Earth, an information booth or your cell phone telling you where you are.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135943Z" creationid="miurahr" creationdate="20201117T135943Z">
+        <seg>おそらくそれは、Webサービスでの地図、Google Earth、情報提供サービス、あるいはあなたがどこにいるのかを携帯電話がくれたことがです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7530,6 +8451,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>メニューの選択</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Meteorologists (people who study weather patterns) might generate a province level raster showing average temperature, rainfall and wind direction using data collected from weather stations (see figure_csir_station_).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140110Z" creationid="miurahr" creationdate="20201117T140110Z">
+        <seg>気象学者（気象パターンを研究する人々）は、気象観測所から収集したデータを使用して平均気温、降水量、風向を示す州レベルのラスターを作成できるでしょう（ figure_csir_station_ 参照）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7610,6 +8539,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>GISについてより詳しく</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>More experienced users often prefer the representative fraction method, because it reduces confusion.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135728Z" creationid="miurahr" creationdate="20201117T135728Z">
+        <seg>より経験のあるユーザーは多くの場合、混乱が少ない表現分数法を好みます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7798,6 +8735,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Next up, let's look at vectors!</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135621Z" creationid="miurahr" creationdate="20201117T135608Z">
+        <seg>次はベクターデータを見てみましょう!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Next we need to start adding data.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123710Z" creationid="miurahr" creationdate="20201117T123710Z">
@@ -7866,6 +8811,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T134358Z" creationid="miurahr" creationdate="20201117T134358Z">
         <seg>通常、それぞれの地図レイヤは現実世界の様々なものを表しています。 –-- 道路レイヤの場合は道路ネットワークを表します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Normally this positional information consists of a coordinate for the top left pixel in the image, the size of each pixel in the X direction, the size of each pixel in the Y direction, and the amount (if any) by which the image is rotated.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140055Z" creationid="miurahr" creationdate="20201117T140055Z">
+        <seg>通常、この位置情報は、画像内の左上のピクセルの座標、X方向の各ピクセルのサイズ、Y方向の各ピクセルのサイズ、および画像が回転される量（存在する場合）です 。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7958,6 +8911,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Now let each learner or group of learners colour in cells that represent a certain type of feature e.g. building, playground, sports field, trees, footpaths etc.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140353Z" creationid="miurahr" creationdate="20201117T140353Z">
+        <seg>ここで、各生徒または生徒のグループが、特定のタイプの地物を表すセル内で色付けされるようにする。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Now searches on name will be faster:</seg>
       </tuv>
       <tuv lang="ja">
@@ -8042,6 +9003,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124039Z" creationid="miurahr" creationdate="20201117T124039Z">
         <seg>今では識別できるように、次の各地物に番号を書いて、透明シート上に地物のジオメトリをトレースします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Now use pencil crayons to colour the cells based on their values.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140401Z" creationid="miurahr" creationdate="20201117T140401Z">
+        <seg>次に鉛筆を使用してそれらの値に基づいてセルを色付けします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8158,10 +9127,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Of course in a hand held camera it probably doesn't make sense to record information from the **non-visible** parts of the spectrum since most people just want to look at pictures of their dog or what have you.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140324Z" creationid="miurahr" creationdate="20201117T140324Z">
+        <seg>もちろん、手持ち式のカメラでは、ほとんどの人は自分のペットだの何だのの写真を見たいだけなので、スペクトルの **不可視** 部分からの情報を記録するのはおそらく意味がありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Often you won't want to see every single record in the database - especially if there are thousands of records and you are only interested in seeing one or two.</seg>
       </tuv>
       <tuv lang="ja">
         <seg>だいたいはデータベース内のすべてのレコード一つ一つを見たいとは思わないでしょう。特に何千ものレコードがあり、1つか2つを見たいだけの場合は 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>On a map it is used to indicate the direction of North.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135716Z" creationid="miurahr" creationdate="20201117T135716Z">
+        <seg>地図上では、北の方向を示すために使用されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8174,10 +9159,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>On the other hand if the ratio is very large, for example a 1:50 000 map, it is called a **large scale map**.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135730Z" creationid="miurahr" creationdate="20201117T135730Z">
+        <seg>一方、比が非常に大きい場合、例えば1:50 000地図、 **大縮尺地図** と呼ばれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>On the other hand, using low resolution raster data can be problematic if you are interested in a small region because you probably won't be able to make out any individual features from the image.</seg>
       </tuv>
       <tuv lang="ja">
         <seg>その一方、画像から個々の地物はたぶん作れなくなるため、小さな領域に興味があるなら、低解像度のラスターデータを使用することは問題となる可能性があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>On the right side you see the same area with the lake in the background but this map is designed to show tourists the location of houses they can rent for their holidays.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135713Z" creationid="miurahr" creationdate="20201117T135713Z">
+        <seg>右側には、背景にある湖と同じ領域が表示されますが、この地図は、観光客が休日のために借りられる家の場所を表示するように設計されています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8194,6 +9195,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T114322Z" creationid="miurahr" creationdate="20201117T114322Z">
         <seg>ダウンロードしたら、ディスクイメージを開き、インストーラを実行します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Once the image has been taken it is sent back to earth using radio signals to special receiving stations such as the one shown in figure_csir_station_.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140105Z" creationid="miurahr" creationdate="20201117T140105Z">
+        <seg>画像が撮影されると、それは無線信号を使用して figure_csir_station_ に示されているような特別の受信局に送信されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8250,6 +9259,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135136Z" creationid="miurahr" creationdate="20201117T135136Z">
         <seg>ラスターデータとベクターデータの違いで重要なこととして、ラスターデータの場合はズームインをし過ぎると格子状の模様が見えてきます（図 figure_raster_data_ と figure_raster_data_zoom_ 参照）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>One side effect of this is that attribute data (that is attributes associated with the original vector data) will be lost when the conversion takes place.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140340Z" creationid="miurahr" creationdate="20201117T140340Z">
+        <seg>これの1つの副作用は、変換が行われるときに属性データ（元のベクターデータに関連付けられた属性）が失われることです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8430,6 +9447,30 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Other elements that might be added are e.g. a **graticule**, or **name of the map projection** (CRS).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135641Z" creationid="miurahr" creationdate="20201117T135641Z">
+        <seg>追加されるかもしれない他の要素は、例えば、 **目盛** 、または **地図投影の名** （CRS）です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Other features on a landscape can be more difficult to represent using vector features.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140010Z" creationid="miurahr" creationdate="20201117T140010Z">
+        <seg>風景上の地物の中には、ベクター地物を使用して表現するのが難しいものもあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Other satellites, for example MODIS take images only at 500 m x 500 m per pixel.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140223Z" creationid="miurahr" creationdate="20201117T140223Z">
+        <seg>MODISなどの他の衛星では、ピクセルあたり500mx500mの画像しか撮影しません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Other than the Github web interface and the git command line tools exposed above, there are also `GUI applications &lt;https://git-scm.com/downloads/guis&gt;`_ you can use to create and manage your contributions to the documentation.</seg>
       </tuv>
       <tuv lang="ja">
@@ -8530,6 +9571,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T134241Z" creationid="miurahr" creationdate="20201117T134241Z">
         <seg>以前は GIS アプリケーションを使うには多くのトレーニングが必要とされていましたが, 長い時間をかけて使いやすいものとなり、専門家以外でも簡単に始められるようになりました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Overlay the transparencies onto a toposheet or aerial photograph of your school.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140352Z" creationid="miurahr" creationdate="20201117T140352Z">
+        <seg>OHPフィルムをあなたの学校のポスター用紙または航空写真に重ねます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8666,6 +9715,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>ポイントジオメトリは、 **1つの頂点** （X、Yおよび任意でZ）で構成されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Point, polyline and polygon features work well for representing some features on this landscape, such as trees, roads and building footprints.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140009Z" creationid="miurahr" creationdate="20201117T140009Z">
+        <seg>樹木、道路、建物の足跡など、この風景中の地物にはポイント、ポリライン、ポリゴン地物で表現するのがふさわしいものもあります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8842,6 +9899,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>プロジェクトのウェブサイト： http://burgundylandscapes.com 詳細とオンライン出版物あり。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Proprietary GIS software (software that cannot be freely shared or modified) is available that will let you do everything we describe in these worksheets and a lot more.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135944Z" creationid="miurahr" creationdate="20201117T135944Z">
+        <seg>ここで説明することやさらに多くのことを全て提供してくれるプロプラエタリソフトウェア(自由にシェアしたり改変できないソフトウェア)は入手可能です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9150,6 +10215,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Raster data are also often used in agriculture and forestry to manage crop production.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140346Z" creationid="miurahr" creationdate="20201117T140346Z">
+        <seg>ラスターデータは、作物生産を管理するために、農業や林業でよく使用されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Raster data are good for showing **continually varying information.**</seg>
       </tuv>
       <tuv lang="ja">
@@ -9166,10 +10239,50 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Raster data can also be non-photographic data such as the raster layer shown on the right which shows the calculated average minimum temperature in the Western Cape for the month of March.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140049Z" creationid="miurahr" creationdate="20201117T140049Z">
+        <seg>ラスターデータには右に示された図のような非写真データもあります。これは3月の西ケープにおける計算された平均最低温度を示しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Raster data can be obtained in a number of ways.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140100Z" creationid="miurahr" creationdate="20201117T140100Z">
+        <seg>ラスターデータは、さまざまな方法で取得できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Raster data in detail</seg>
       </tuv>
       <tuv lang="ja">
         <seg>ラスター形式データの詳細</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Raster data is also very important for disaster management.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140348Z" creationid="miurahr" creationdate="20201117T140348Z">
+        <seg>ラスターデータは災害管理にとっても非常に重要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Raster data is not only good for images that depict the real world surface (e.g. satellite images and aerial photographs), they are also good for representing more abstract ideas.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140022Z" creationid="miurahr" creationdate="20201117T140022Z">
+        <seg>ラスターデータは、現実世界の表面（例えば、衛星画像および航空写真）を描写する画像に適しているだけでなく、より抽象的なアイデアを表現するのにも適しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Raster data is used in a GIS application when we want to display information that is continuous across an area and cannot easily be divided into vector features.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140007Z" creationid="miurahr" creationdate="20201117T140007Z">
+        <seg>ラスターデータはGISアプリケーションにおいて、連続的に地域を覆っていて、ベクター地物に分解しにくい情報を表示したい場合に使用します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9190,6 +10303,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Raster images that include data for non-visible parts of the light spectrum are often referred to as multi-spectral images.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140325Z" creationid="miurahr" creationdate="20201117T140325Z">
+        <seg>光スペクトルの不可視部分のデータを含むラスター画像は、しばしばマルチスペクトル画像と呼ばれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Raster to vector conversion</seg>
       </tuv>
       <tuv lang="ja">
@@ -9202,6 +10323,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>ラスター、ピクセル、リモートセンシング、衛星画像、ジオリファレンス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Rasters are made up of a matrix of pixels (also called cells), each containing a value that represents the conditions for the area covered by that cell (see figure_raster_).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140003Z" creationid="miurahr" creationdate="20201117T140003Z">
+        <seg>ラスターはピクセルのマトリックスで構成されていて、それぞれがそのセルでカバーされるエリアの状態を表す値を持っています（ figure_raster_ 参照）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9478,6 +10607,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Satellite imagery is created when satellites orbiting the earth point special digital cameras towards the earth and then take an image of the area on earth they are passing over.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140104Z" creationid="miurahr" creationdate="20201117T140104Z">
+        <seg>地球を周回する衛星が特別なデジタルカメラを地面に向けると衛星画像が作成され、通過している地上の画像を撮影します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Save the PDF file as :kbd:`inventory_2012_maps.pdf` in your :kbd:`exercise_data\\forestry\\samplig\\map_creation\\` folder.</seg>
       </tuv>
       <tuv lang="ja">
@@ -9602,6 +10739,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T133744Z" creationid="miurahr" creationdate="20201117T133744Z">
         <seg>詳しくは https://www.gnu.org/copyleft/ を参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>See if your learners can identify examples of different types of legend elements such as road types or buildings.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135858Z" creationid="miurahr" creationdate="20201117T135826Z">
+        <seg>生徒たちが道路の種類や建物などのさまざまなタイプの凡例要素の例を識別できるかどうかを確認します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9806,6 +10951,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Several factors determine the spatial resolution of an image.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140219Z" creationid="miurahr" creationdate="20201117T140219Z">
+        <seg>いくつかの要因が画像の空間分解能を決定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Shapefiles are not enabled for editing by default to prevent accidentally changing or deleting the data they contain.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123708Z" creationid="miurahr" creationdate="20201117T123708Z">
@@ -9958,6 +11111,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Some features on a landscape are easy to represent as points, polylines and polygons (e.g. trees, roads, houses).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140015Z" creationid="miurahr" creationdate="20201117T140015Z">
+        <seg>風景上の地物には、ポイント、ポリライン、ポリゴン（樹木、道路、住宅など）として表現するのが簡単なものもあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Some features such as roads show in an image as a sudden change of colour from neighbouring pixels.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140336Z" creationid="miurahr" creationdate="20201117T140336Z">
+        <seg>道路などの一部の地物は、隣接するピクセルからの色の突然の変化として画像に表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Some have many sophisticated features and cost tens of thousands of Rands for each copy.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T134807Z" creationid="miurahr" creationdate="20201117T134807Z">
@@ -9990,10 +11159,34 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Sometimes it is useful to convert vector data into raster data.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140339Z" creationid="miurahr" creationdate="20201117T140339Z">
+        <seg>ベクターデータをラスターデータに変換するのは便利なことがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Sometimes people do bad things to the the environment, like dumping dangerous chemicals that kill plants and animals.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135435Z" creationid="miurahr" creationdate="20201117T135435Z">
         <seg>最新の洪水発生時の衛星画像をにより人々がどのあたりで救助を必要としているのか見ることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sometimes raster data are created from vector data because the data owners want to share the data in an easy to use format.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140127Z" creationid="miurahr" creationdate="20201117T140127Z">
+        <seg>ラスターデータは、ベクターデータから作成されることがあります。データ所有者は、使いやすい形式でデータを共有したいからです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sometimes using a low spatial resolution is useful when you want to work with a large area and are not interested in looking at any one area in a lot of detail.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140300Z" creationid="miurahr" creationdate="20201117T140300Z">
+        <seg>低空間分解能を使用した方が、広い領域で作業したくて細部のいずれかの領域を見るのに興味がない場合、便利なこともあります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10018,6 +11211,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>空間的解像度</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Special antennae track satellites as they pass overhead and download images using radio waves.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140107Z" creationid="miurahr" creationdate="20201117T140107Z">
+        <seg>頭上を通過し電波を用いて画像をダウンロードするような特別なアンテナ·トラック衛星である。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10486,6 +11687,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The CSIR Satellite Applications Center at Hartebeeshoek near Johannesburg.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140106Z" creationid="miurahr" creationdate="20201117T140106Z">
+        <seg>ヨハネスブルグ近くにあるHartebeeshoekのCSIR衛星アプリケーションセンター。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The Danish Demining Group (DDG), the specialised mine action unit of the Danish Refugee Council, has been working in Afghanistan since 1999, undertaking humanitarian mineclearance, unexploded ordnance (UXO) disposal and mine risk education.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T062338Z" creationid="miurahr" creationdate="20201117T062338Z">
@@ -10538,6 +11747,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>プロジェクトの GIS側は主に6つのステップに分けられます</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The GIS will combine three of the bands and show them as red, green and blue so that the human eye can see them.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140330Z" creationid="miurahr" creationdate="20201117T140330Z">
+        <seg>GISでは3つのバンドを組み合わせて、それらを赤、緑、青の3つのバンドとして表示するので、人間の目で見ることができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10662,6 +11879,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The above copyright notice excludes the QGIS User Manual which may be appended to this document.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135939Z" creationid="miurahr" creationdate="20201117T135939Z">
+        <seg>上記の著作権の表記は、このドキュメントに付加される可能性がある QGIS ユーザマニュアルは対象外です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The application provides **menus** near to the top of the window (File, Edit etc.) which, when clicked using the mouse, show a panel of **actions**.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T134301Z" creationid="miurahr" creationdate="20201117T134301Z">
@@ -10718,6 +11943,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The cloud maps you see on the weather report, are an example of this –-- it's useful to see the clouds across the whole country.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140311Z" creationid="miurahr" creationdate="20201117T140311Z">
+        <seg>天気予報で見られる雲の地図はその一例です。全国の雲が見えると便利です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The combined work need only contain one copy of this License, and multiple identical Invariant Sections may be replaced with a single copy.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124912Z" creationid="miurahr" creationdate="20201117T124912Z">
@@ -10730,6 +11963,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T092023Z" creationid="miurahr" creationdate="20201117T092023Z">
         <seg>比較のための ``==`` の代わりに誤って ``=`` を使用している場合、 定数には本質的に値を割り当てできませんから、コンパイラでエラーが発生します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The computer program looks for such colour changes and creates vector features as a result.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140337Z" creationid="miurahr" creationdate="20201117T140337Z">
+        <seg>コンピュータプログラムは、そのような色の変化を探し、結果としてベクター地物を生成します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10770,6 +12011,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135044Z" creationid="miurahr" creationdate="20201117T135044Z">
         <seg>病気と診療日の列は **地理情報ではないデータ** です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The equivalent distance in the real world is placed above as you can see in figure_map_scale_ (c).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135733Z" creationid="miurahr" creationdate="20201117T135733Z">
+        <seg>figure_map_scale_ (c)でのように、実世界の等価距離が上に置かれます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10894,6 +12143,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The georeferencing information for a raster is often provided in a small text file accompanying the raster.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140058Z" creationid="miurahr" creationdate="20201117T140058Z">
+        <seg>ラスターのジオリファレンス情報は、ラスターに付随する小さなテキストファイルで提供されることがよくあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The git site does not offer PPC builds.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T114339Z" creationid="miurahr" creationdate="20201117T114339Z">
@@ -10918,10 +12175,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The human eye is very good at interpreting images and so using an image behind vector layers, results in maps with a lot more meaning.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140021Z" creationid="miurahr" creationdate="20201117T140021Z">
+        <seg>人間の目は画像を解釈する上で非常に優れているので、ベクターレイヤーの背後に画像を使用すると、より多くの意味を持つ地図が得られます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The image is used as a reference for capturing polyline features by tracing over them.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123753Z" creationid="miurahr" creationdate="20201117T123753Z">
         <seg>画像はその上をトレースすることによってポリライン地物をキャプチャするための基準として使用されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The image on the left side shows more details, for example the houses south-west of the water body can be clearly identified as separate squares.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135740Z" creationid="miurahr" creationdate="20201117T135740Z">
+        <seg>左側の画像ではより多くの詳細を示しています、例えば水面の南西の家を明確に分離された正方形として識別できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10950,6 +12223,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The latitude and longitude values on the map border can be used for better orientation on the map.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135753Z" creationid="miurahr" creationdate="20201117T135753Z">
+        <seg>地図上の緯度と経度の値を地図上のより良い方向付けに使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The lines can be used as a reference.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135749Z" creationid="miurahr" creationdate="20201117T135749Z">
+        <seg>線は基準として使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The longitude and latitude columns hold **geographical data**.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135101Z" creationid="miurahr" creationdate="20201117T135101Z">
@@ -10962,6 +12251,46 @@
       </tuv>
       <tuv lang="ja">
         <seg>経験の主な目的は、12年生の生徒を講義すること、最適化し空間情報の管理を強化するためのツールとしてGISの実装の中で、意思決定プロセスへの支援を提供することでした。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The map body is, of course, the most important part of the map because it contains the map information.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135648Z" creationid="miurahr" creationdate="20201117T135648Z">
+        <seg>地図本体は、地図情報が含まれているため、当然のことながら、地図の最重要部分です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The map border is a line that defines exactly the edges of the area shown on the map.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135658Z" creationid="miurahr" creationdate="20201117T135658Z">
+        <seg>地図境界は、地図上に示された領域の正確縁を規定する線です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The map scale on the left is 1:25,000.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135743Z" creationid="miurahr" creationdate="20201117T135743Z">
+        <seg>左の地図の縮尺は1:25,000。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The map scale on the right is 1:50,000.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135744Z" creationid="miurahr" creationdate="20201117T135744Z">
+        <seg>右の地図の縮尺は1:50,000。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The map title is very important because it is usually the first thing a reader will look at on a map.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135654Z" creationid="miurahr" creationdate="20201117T135654Z">
+        <seg>地図のタイトルは、たいてい読者が地図上で見る最初のものですので、非常に重要です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11014,6 +12343,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The number of bands in a raster image is referred to as its **spectral resolution**.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140331Z" creationid="miurahr" creationdate="20201117T140331Z">
+        <seg>ラスター画像のバンド数は、 **スペクトル分解能** と呼ばれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The one exception to this is implicitly shared objects, which are always returned by value.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T091547Z" creationid="miurahr" creationdate="20201117T091547Z">
@@ -11026,6 +12363,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>MMCサイトの運営者は、2009年8月1日前の任意の時点で、同じサイト上のCC-BY-SAの下のサイトに含まれるMMCを再発行MMCが再ライセンスの対象となり提供することがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The other elements support the communication process and help the map reader to orientate himself and understand the map topic.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135651Z" creationid="miurahr" creationdate="20201117T135651Z">
+        <seg>他の要素は、コミュニケーションのプロセスをサポートし、地図読者が自分自身の方角を定めて地図のトピックを理解するように助けます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11046,6 +12391,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The photographs are then imported into a computer and georeferenced.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140103Z" creationid="miurahr" creationdate="20201117T140103Z">
+        <seg>写真は、コンピュータにインポートされ、ジオリファレンスされます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The problem with that approach is that it will take a huge amount of work in order to create a good vector dataset.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140014Z" creationid="miurahr" creationdate="20201117T140014Z">
+        <seg>そのアプローチの問題は、良いベクターデータセットを作成するためには膨大な労力がかかることです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The process for **capturing a polygon** is almost the same as capturing a polyline except that you need to use the polygon capture tool in the toolbar.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123740Z" creationid="miurahr" creationdate="20201117T123740Z">
@@ -11058,6 +12419,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>ジオメトリの取得プロセスはポイント、ポリラインおよびポリゴンかによって異なります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The process of capturing raster data from an aeroplane or satellite is called **remote sensing**.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140106Z" creationid="miurahr" creationdate="20201117T140106Z">
+        <seg>航空機や衛星からのラスターデータをキャプチャするプロセスは、 **リモートセンシング** と呼ばれます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11126,10 +12495,34 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The road in the east will then be to the right of the water body on the map, a river in the south will be below the water body and if you are searching for a train station to the west of the lake you will find it on the left side on the map.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135718Z" creationid="miurahr" creationdate="20201117T135718Z">
+        <seg>東の道路は、地図上の水面の右側になり、南の川は水面の下になり、湖の西側に鉄道駅を検索する場合、それは地図上の左側に見つかるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The same raster data, but this time zoomed in.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135211Z" creationid="miurahr" creationdate="20201117T135211Z">
         <seg>同じラスターデータを拡大したもの。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The scale can be expressed in several ways, for example, in words, as a ratio or as a graphical scale bar (see figure_map_scale_).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135722Z" creationid="miurahr" creationdate="20201117T135722Z">
+        <seg>縮尺は、いくつかの方法で、例えば、言葉で、比率として、または視覚的なスケールバーとして表すことができます（ figure_map_scale_ を参照）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The scale of a map, is the value of a single unit of distance on the map, representing distance in the real world.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135720Z" creationid="miurahr" creationdate="20201117T135720Z">
+        <seg>地図の縮尺は、実世界における距離を表す、地図上の距離の単一単位の値です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11214,6 +12607,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The value 25,000 in the ratio is called the **scale denominator**.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135727Z" creationid="miurahr" creationdate="20201117T135727Z">
+        <seg>比中の値25,000は **縮尺分母** と呼ばれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The value of the :kbd:`time` field will depend on the current date and time.</seg>
       </tuv>
       <tuv lang="ja">
@@ -11222,10 +12623,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The values are shown in map units (meters, feet or degrees).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135721Z" creationid="miurahr" creationdate="20201117T135721Z">
+        <seg>値は地図単位（メートル、フィートまたは度）で示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The vector data obtained from NRCan and SNB was merged together, queried, and clipped for the final map area using the vector tools.</seg>
       </tuv>
       <tuv lang="ja">
         <seg>NRCanとSNBから得られたベクターデータは、マージ照会、およびベクターツールを使用して、最終的な地図領域に対してクリップされました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The world in different projections.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135758Z" creationid="miurahr" creationdate="20201117T135758Z">
+        <seg>世界はさまざまな投影法があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11242,6 +12659,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>ここでは:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>There are a great many analytical tools that can be run on raster data which cannot be used with vector data.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140343Z" creationid="miurahr" creationdate="20201117T140343Z">
+        <seg>ラスターデータに対して実行できる、ベクタータデータでは使用できない、非常に多くの分析ツールがあります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11390,6 +12815,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>They do this knowing that if teachers and learners get to know their software, they will be reluctant to learn other packages.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135947Z" creationid="miurahr" creationdate="20201117T135947Z">
+        <seg>ベンダは先生と生徒がそのソフトウェアを知るようになれば、他のパッケージソフトウェアを学びたくなくなることを知っているのです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>They use the river areas (polygons) to represent river stretches that are wide, and they use river polylines to represent narrow stretches of river.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123615Z" creationid="miurahr" creationdate="20201117T123615Z">
@@ -11486,6 +12919,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This becomes apparent when you look at an image at a small scale (see figure_raster_small_scale_) and then zoom in to a large scale (see figure_raster_large_scale_).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140215Z" creationid="miurahr" creationdate="20201117T140215Z">
+        <seg>これは、小さな縮尺で画像を見て（ figure_raster_small_scale_ 参照）、それから大きな縮尺にズームインすると明らかになります（ figure_raster_large_scale_ 参照）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This can then be used to target rescue and relief efforts to areas where it is needed the most.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140350Z" creationid="miurahr" creationdate="20201117T140350Z">
+        <seg>これは、救助活動と救援活動を最も必要とされる地域へ向けるために使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This diagram shows how GIS applications deal with vector data.</seg>
       </tuv>
       <tuv lang="ja">
@@ -11518,6 +12967,30 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This information can be used to calculate where watersheds and stream networks exist, based on the terrain.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140345Z" creationid="miurahr" creationdate="20201117T140345Z">
+        <seg>この情報は、地形に基づいて、分水界や流域ネットワークがどこに存在するかを計算するのに使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This is because when you give a vector feature attribute values, they apply to the whole feature, so vectors aren't very good at representing features that are not homogeneous (entirely the same) all over.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140012Z" creationid="miurahr" creationdate="20201117T140012Z">
+        <seg>これは、ベクター地物に与えられた属性値は地物全体に適用されるためですので、ベクターでは完全に同質（全く同じ）ではない地物を表現するにはあまり適していません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This is normally only useful if the attributes, that users need to be aware of, can be represented on the map with labels or symbology.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140159Z" creationid="miurahr" creationdate="20201117T140159Z">
+        <seg>これはたいていは属性、ユーザーが認識する必要がある、をラベルまたは記号で地図上に表すことができる場合にのみ有効です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This is repeated for each feature.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124022Z" creationid="miurahr" creationdate="20201117T124022Z">
@@ -11534,6 +13007,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This is very difficult as you can imagine, and even after hundreds of years there is no single projection that is able to represent the Earth perfectly for any area in the world.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135754Z" creationid="miurahr" creationdate="20201117T135754Z">
+        <seg>想像できるように、これは非常に困難であり、さらには何百年も後に世界のどの地域のために完璧に地球を表現することが可能である単一の投影はありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This kind of functionality is normally only available in very specialised (and often expensive) GIS software.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140338Z" creationid="miurahr" creationdate="20201117T140338Z">
+        <seg>この種の機能は通常、非常に特殊な（しばしば高価な）GISソフトウェアでのみ利用可能です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This makes it much easier for newcomers to identify where the code is relating to specific class.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T091702Z" creationid="miurahr" creationdate="20201117T091702Z">
@@ -11546,6 +13035,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>これは、地図上の100ミリメートルは、実世界の250万ミリメートル（2500メートル）と等価であることを意味します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This positional information is stored with the digital version of the aerial photo.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140053Z" creationid="miurahr" creationdate="20201117T140053Z">
+        <seg>この位置情報は、空中写真のデジタル版と共に記憶される。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11758,6 +13255,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>To achieve this, you need to create an ideal arrangement and composition of all the map elements.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135804Z" creationid="miurahr" creationdate="20201117T135804Z">
+        <seg>これを実現するには、すべての地図要素の理想的な配置と構図を作成する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>To add a lesson to a new or existing module:</seg>
       </tuv>
       <tuv lang="ja">
@@ -11802,6 +13307,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T114040Z" creationid="miurahr" creationdate="20201117T114040Z">
         <seg>新しく追加されたC++ファイルのSIPファイルを自動生成するには、file:`scripts/sip_include.sh`を実行する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>To be able to create maps as precisely as possible, people have studied, modified, and produced many different kinds of projections.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135756Z" creationid="miurahr" creationdate="20201117T135756Z">
+        <seg>できるだけ正確に地図を作成できるように、人々は多くの異なる種類の予測を研究、修正、作成しました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11998,6 +13511,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Together, these elements help the map reader to interpret the information shown on the map.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135647Z" creationid="miurahr" creationdate="20201117T135647Z">
+        <seg>一緒に、これらの要素は地図読者が地図上に示された情報を解釈するのに役立ちます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Toggle editing mode:</seg>
       </tuv>
       <tuv lang="ja">
@@ -12086,6 +13607,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>True colour raster images (left) are useful as they provide a lot of detail that is hard to capture as vector features but easy to see when looking at the raster image.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140037Z" creationid="miurahr" creationdate="20201117T140037Z">
+        <seg>トゥルーカラーのラスター画像（左）には、ベクター地物としてはキャプチャしにくいが、ラスター画像を見るときには見やすいような、詳細を多く持つので便利です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Try to add a person object to the :kbd:`people` table with the following details::</seg>
       </tuv>
       <tuv lang="ja">
@@ -12130,6 +13659,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>同じ領域からの2つの地図、両方とも背景に水面を持つが、凡例の異なるテーマ、地図記号、色を持つ。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Two of the most common ways are aerial photography and satellite imagery.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140101Z" creationid="miurahr" creationdate="20201117T140101Z">
+        <seg>最も一般的な方法の2つは、航空写真と衛星画像です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12374,6 +13911,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Use the techniques you learned in Topics :ref:`gentle_gis_vector_data` and :ref:`gentle_gis_attributes` to adjust the symbology accordingly.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135915Z" creationid="miurahr" creationdate="20201117T135915Z">
+        <seg>トピック :ref:`gentle_gis_vector_data` と :ref:`gentle_gis_attributes` で学んだテクニックを使って、それに応じてシンボルを調整してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Use the |calculateField| calculator to create and populate the following two fields.</seg>
       </tuv>
       <tuv lang="ja">
@@ -12442,6 +13987,22 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123623Z" creationid="miurahr" creationdate="20201117T123623Z">
         <seg>撮影した各サンプルは非常に限られた場所での条件を表しているため、点ジオメトリを使用することはここでは意味があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Using raster data from satellites can help us to monitor for these type of problems.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135445Z" creationid="miurahr" creationdate="20201117T135445Z">
+        <seg>こういった問題は, 衛星画像のようなラスターデータをつかって観測することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Using raster data is a solution to these problems.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140019Z" creationid="miurahr" creationdate="20201117T140019Z">
+        <seg>ラスターデータを使用することは、これらの問題の解決策です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12522,6 +14083,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124620Z" creationid="miurahr" creationdate="20201117T124620Z">
         <seg>逐語的に忠実な複製**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Value 1 should get coloured light green, and value 0 coloured in brown.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140403Z" creationid="miurahr" creationdate="20201117T140403Z">
+        <seg>値1は色が薄い緑色になり、値0は茶色で色付けされます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12822,10 +14391,34 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>What about the variations in colour you can see in the grass?</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140018Z" creationid="miurahr" creationdate="20201117T140018Z">
+        <seg>草の中に見える色の変化はどうですか？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>What can be improved?</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135919Z" creationid="miurahr" creationdate="20201117T135919Z">
+        <seg>改善できるものは何ですか？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>What can we do with vector data in a GIS?</seg>
       </tuv>
       <tuv lang="ja">
         <seg>GISではベクターデータで何ができる？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>What does this mean to the map reader?</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135735Z" creationid="miurahr" creationdate="20201117T135735Z">
+        <seg>これは地図の読者には何を意味するでしょう？</seg>
       </tuv>
     </tu>
     <tu>
@@ -12878,6 +14471,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>When a representative fraction expresses a very small ratio, for example 1:1000 000, it is called a **small scale map**.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135729Z" creationid="miurahr" creationdate="20201117T135729Z">
+        <seg>表現分数が非常に小さな比、例えば1:1000 000、を表す場合、 **小縮尺地図** と呼ばれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>When adding a new line (shown in red), each click of the mouse will add a new vertex.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123736Z" creationid="miurahr" creationdate="20201117T123736Z">
@@ -12898,6 +14499,30 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123735Z" creationid="miurahr" creationdate="20201117T123735Z">
         <seg>ラインレイヤーを編集する場合、頂点はラインのジオメトリを調整するために、マウスで動き回ることができ、円形のマーカーで示されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>When learners leave school one day they can use this software to build their skills, solve problems at work and make the world a better place.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135951Z" creationid="miurahr" creationdate="20201117T135951Z">
+        <seg>学習者が学校をある日卒業しても、スキルを磨き、業務で課題を解決して世界を良いものにするために、このソフトウェアを使うことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>When learners leave school they will go into the workplace and buy the commercial software, never knowing that there are free alternatives that they could be using.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135947Z" creationid="miurahr" creationdate="20201117T135947Z">
+        <seg>生徒達が学校を卒業したら、職場に入り、業務に利用できうる自由な他の選択肢があることを知らないまま、そのベンダのソフトウェアを買います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>When printing a map with a graticule (which we describe further down), you often find the coordinate information of the graticule lines along the border lines, as you can see in figure_map_legend_.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135700Z" creationid="miurahr" creationdate="20201117T135700Z">
+        <seg>目盛（さらに下で説明します）付の地図を印刷するとき、 figure_map_legend_ で見られるように、多くの場合、境界線に沿って目盛線の座標情報があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12950,10 +14575,42 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>When the GIS application opens the photo, it uses the positional information to ensure that the photo appears in the correct place on the map.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140054Z" creationid="miurahr" creationdate="20201117T140054Z">
+        <seg>写真をGISアプリケーションで開くと、写真は位置情報を使用して地図上の正しい場所に表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>When the changes in the pull request are conflicting with recent changes pushed to the target branch, the conflicts need to be resolved before a merge is possible:</seg>
       </tuv>
       <tuv lang="ja">
         <seg>プルリクエストの変更が、ターゲットブランチにプッシュされた最近の変更と競合している場合は、マージが可能になるよう、先にこの競合を解決する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>When the picture is displayed on a screen or printed out, the red, green and blue (RGB) information is combined to show you an image that your eyes can interpret.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140321Z" creationid="miurahr" creationdate="20201117T140321Z">
+        <seg>画像がスクリーンに表示されたりプリントアウトされたりすると、赤、緑、青（RGB）の情報が組み合わされて、目に見える画像が表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>When they are all finished, overlay all the sheets together and see if it makes a good raster map representation of your school.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140354Z" creationid="miurahr" creationdate="20201117T140354Z">
+        <seg>運動競技場、樹木、歩道などがすべて完成したら、すべてのシートを重ね合わせて、あなたの学校の良いラスター地図表現を作成するかどうかを確認します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>When we introduced you to vector data we showed you the image in figure_landscape_.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140008Z" creationid="miurahr" creationdate="20201117T140008Z">
+        <seg>前にベクターデータを紹介したとき figure_landscape_ にこの画像を示しました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12974,6 +14631,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>When you are trying to represent large areas with continuously changing values, raster data can be a better choice.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140019Z" creationid="miurahr" creationdate="20201117T140019Z">
+        <seg>連続的に値を変更して大きな領域を表現しようとするときは、ラスターデータを使用するほうがよいでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>When you buy commercial software, you limit your options for the future.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135953Z" creationid="miurahr" creationdate="20201117T135953Z">
+        <seg>商用ソフトウェアを買うと、将来の選択肢を自ら制限することになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>When you choose to use points to represent a feature is mostly a matter of scale (how far away are you from the feature), convenience (it takes less time and effort to create point features than polygon features), and the type of feature (some things like telephone poles just don't make sense to be stored as polygons).</seg>
       </tuv>
       <tuv lang="ja">
@@ -12986,6 +14659,22 @@
       </tuv>
       <tuv lang="ja">
         <seg>そうするとカスタムダイアログが表示されます(QGISが通常作成するものの代わりに)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>When you finish, you should have a raster map of your soccer field!</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140404Z" creationid="miurahr" creationdate="20201117T140404Z">
+        <seg>色づけが終わったら、サッカー場のラスター地図ができているはずです！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>When you have a template, open the QGIS print layout and try to arrange a map layout as planned.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135916Z" creationid="miurahr" creationdate="20201117T135916Z">
+        <seg>テンプレートをお持ちの場合は、 QGIS の印刷レイアウトを開き、地図レイアウトを計画どおりに配置してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13018,6 +14707,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T134401Z" creationid="miurahr" creationdate="20201117T134401Z">
         <seg>GIS アプリケーションでレイヤを開くと、 **地図ビュー** に現れます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>When you want to refer to a special area on a map during your presentation or in a report you could say: 'the houses close to latitude 26.04 / longitude -32.11 are often exposed to flooding during January and February' (see figure_map_graticule_).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135751Z" creationid="miurahr" creationdate="20201117T135751Z">
+        <seg>プレゼンテーションやレポート中で地図上の特別な領域を参照したいときは、「経度26.04/緯度32.11付近の家屋は1月から2月の間、多くの場合、洪水にさらされています」と言えます（ figure_map_graticule_ を参照）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13070,10 +14767,42 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Which types of features worked well when represented as rasters?</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140355Z" creationid="miurahr" creationdate="20201117T140355Z">
+        <seg>ラスターとして表現されたときにどのタイプの地物がうまく機能しましたか？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>While not posing any immediate threat to students or staff, these hazards will require eventual clearance to allow future construction within an educational institution vital to Afghanistan’s future development.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T062637Z" creationid="miurahr" creationdate="20201117T062637Z">
         <seg>これらの危険は直ちに学生や職員への脅威とはなりませんが、アフガニスタンの将来の発展に不可欠な教育機関内での将来の構築を可能にするために、最終的には除去が必要になります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>While the information is still in digital format though, this RGB information is stored in separate colour **bands**.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140322Z" creationid="miurahr" creationdate="20201117T140322Z">
+        <seg>情報はまだデジタル形式ですが、このRGB情報は別々のカラー **バンド** に保存されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>While vector features use geometry (points, polylines and polygons) to represent the real world, raster data takes a different approach.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140002Z" creationid="miurahr" creationdate="20201117T140002Z">
+        <seg>ベクター形式の地物は、ジオメトリ（ポイント、ポリライン、ポリゴン）を現実世界を表現するものとして使いますが、ラスターデータは違ったアプローチを取ります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Whilst our eyes can only see RGB wavelengths, the electronic sensors in cameras are able to detect wavelengths that our eyes cannot.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140323Z" creationid="miurahr" creationdate="20201117T140323Z">
+        <seg>私たちの目ではRGB波長しか見ることができませんが、カメラの電子センサーであれば目には見えない波長を検出できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13102,6 +14831,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>With QGIS, we offer an alternative --- software that is free of cost and free in a social sense.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135948Z" creationid="miurahr" creationdate="20201117T135948Z">
+        <seg>QGISで、社会的な意味での無償と自由なソフトウェアという選択肢を我々は提供しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>With a GIS application you can open digital maps on your computer, create new spatial information to add to a map, create printed maps customised to your needs and perform spatial analysis.</seg>
       </tuv>
       <tuv lang="ja">
@@ -13118,6 +14855,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>With grayscale images, you can apply false colouring to make the differences in values in the pixels more obvious.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140333Z" creationid="miurahr" creationdate="20201117T140333Z">
+        <seg>グレースケール画像では、偽色を適用してピクセルの値の差異をより明瞭にすることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>With the new line edit element selected, you'll see its *properties* along the side of your screen (on the right by default):</seg>
       </tuv>
       <tuv lang="ja">
@@ -13126,10 +14871,34 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>With the simpler raster formats, the person you give the raster image to can simply view it as an image on their computer without needing any special GIS software.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140342Z" creationid="miurahr" creationdate="20201117T140342Z">
+        <seg>より単純なラスター形式では、ラスター画像を渡された人は、特別なGISソフトウェアを必要とすることなく、単純にコンピュータ上の画像として見ることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>With the small map selected, click the :guilabel:`Set to map canvas extent` to set its extents to what you can see in the map window.</seg>
       </tuv>
       <tuv lang="ja">
         <seg>選択された小地図では、 :guilabel:`地図キャンバス範囲を設定` をクリックし 、その範囲を地図ウィンドウで見えるものに設定してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>With these few pieces of information, the GIS application can ensure that raster data are displayed in the correct place.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140057Z" creationid="miurahr" creationdate="20201117T140057Z">
+        <seg>これらの情報を使用して、GISアプリケーションはラスターデータが正しい場所に表示されることを確実にします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>With this in mind, we can now understand why it makes sense to add the name of the projection on a map.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135759Z" creationid="miurahr" creationdate="20201117T135759Z">
+        <seg>このことを念頭に、地図上の投影の名前を追加することはなぜ理にかなっているかを、今、理解できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13286,6 +15055,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You can also use different symbols and icons in your legend to show different themes.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135709Z" creationid="miurahr" creationdate="20201117T135709Z">
+        <seg>別のテーマを表示するために、異なる凡例の記号やアイコンも使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You can calculate the average of a field in a vector layer using the :guilabel:`Basic statistics` tool:</seg>
       </tuv>
       <tuv lang="ja">
@@ -13326,6 +15103,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You can make as many copies as you like.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135950Z" creationid="miurahr" creationdate="20201117T135950Z">
+        <seg>好きなだけ複製をして構いません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You can make modifications to your pull request until it is merged with the main repository, either to improve your request, to address requested modifications, or to fix a build error.</seg>
       </tuv>
       <tuv lang="ja">
@@ -13346,6 +15131,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>テーブルを右クリックして, 前のレッスンで行ったようにプロパティを表示することができます.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can see an example of a word based scale in a figure_map_scale_ (a).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135724Z" creationid="miurahr" creationdate="20201117T135724Z">
+        <seg>言葉に基づく縮尺の例は figure_map_scale_ (a)に見ることができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13558,6 +15351,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You may want to take a look at our previous topic: Coordinate Reference Systems if you want to know more about it.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135802Z" creationid="miurahr" creationdate="20201117T135802Z">
+        <seg>それについての詳細をお知りになりたい場合は、私たちの前のトピック：「参照座標系」を見てみたいかもしれません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You must delete all sections Entitled "Endorsements".</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T133435Z" creationid="miurahr" creationdate="20201117T133435Z">
@@ -13610,6 +15411,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123726Z" creationid="miurahr" creationdate="20201117T123726Z">
         <seg>新しいベクターポリライン地物が適切な縮尺を持つようにするには十分にズームインする必要があります（縮尺の問題の詳細については、 :ref:`gentle_gis_vector_data` を参照）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You should concentrate on what story you want to tell with your map and how the elements, such as the legend, scale bar and acknowledgements should be ordered.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T135805Z" creationid="miurahr" creationdate="20201117T135805Z">
+        <seg>地図でどんな物語を語りたいか、凡例、スケールバーと認定などの要素がどのように整列されなければならないかに集中する必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13698,6 +15507,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>このエリアにズームします (必要に応じてレイヤーとラベルを有効にします):</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Zooming in to one particular cloud in high resolution will not tell you very much about the upcoming weather!</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T140314Z" creationid="miurahr" creationdate="20201117T140314Z">
+        <seg>ある雲だけに高解像度でズームインしても、今後の天気を教えてくれることはありません！</seg>
       </tuv>
     </tu>
     <tu>
