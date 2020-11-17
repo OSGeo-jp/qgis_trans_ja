@@ -22,10 +22,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>(Here XYZ stands for a specific section name mentioned below, such as "**Acknowledgements**", "**Dedications**", "**Endorsements**", or "**History**".) To "**Preserve the Title**" of such a section when you modify the Document means that it remains a section "Entitled XYZ" according to this definition.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124552Z" creationid="miurahr" creationdate="20201117T124552Z">
+        <seg>（ここで、XYZは「 **謝辞** 」、「 **献呈** 」、「 **裏書** 」、または「 **歴史** 」などのような、下記の特定のセクション名を表します）。この定義によると 「文書」を修正するときにセクションの **題を保持** することは、XYZという題のセクションを残すことを意味します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>(This example also shows the best practice convention of using UPPER CASE for all SQL keywords.)</seg>
       </tuv>
       <tuv lang="ja">
         <seg>(また、この例はすべてのSQLキーワードには大文字を使用する最良慣行を示しています。)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>(Thus, if the Document is in part a textbook of mathematics, a Secondary Section may not explain any mathematics.)  The relationship could be a matter of historical connection with the subject or with related matters, or of legal, commercial, philosophical, ethical or political position regarding them.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124402Z" creationid="miurahr" creationdate="20201117T124402Z">
+        <seg>（文書が部分的に数学の教科書である場合はこのように、補遺部分は、任意の数学を説明できないことがあります。）関係は主題または関連事項との歴史的な関連の問題であるか、対象とか、あるいはそれらに関する法的、商業、哲学的、倫理的、あるいは政治的な位置の問題である可能性があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1310,6 +1326,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>A "**Secondary Section**" is a named appendix or a front-matter section of the Document that deals exclusively with the relationship of the publishers or authors of the Document to the Document's overall subject (or to related matters) and contains nothing that could fall directly within that overall subject.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124350Z" creationid="miurahr" creationdate="20201117T124350Z">
+        <seg>「 **補遺部分** 」は、名前の付録か（または関連事項）文書の全体的な対象への文書の出版社や著者の関係で独占的に扱う文書のフロントマター部であり、それは、その全体的な対象内で直接落下する可能性があります何も含まれていません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>A "**Transparent**" copy of the Document means a machine-readable copy, represented in a format whose specification is available to the general public, that is suitable for revising the document straightforwardly with generic text editors or (for images composed of pixels) generic paint programs or (for drawings) some widely available drawing editor, and that is suitable for input to text formatters or for automatic translation to a variety of formats suitable for input to text formatters.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124429Z" creationid="miurahr" creationdate="20201117T124429Z">
+        <seg>文書の「 **透明** 」コピーは機械読み取り可能なコピーを意味し、その仕様一般公衆に利用可能な形式で表され、それは一般的なテキストエディタでまっすぐ文書の改訂のためか（構成画像に適していますピクセル）汎用ペイントプログラムまたは（図面のために）、いくつかの広く利用可能な描画エディタ、それはフォーマッタをテキストまたはテキストフォーマッタへの入力に適した様々なフォーマットへの自動翻訳のために入力するのに適しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>A **GIS Application** allows you to view geographical data and is an important part of the GIS.</seg>
       </tuv>
       <tuv lang="ja">
@@ -1338,6 +1370,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>外部キーは、（他のテーブルの主キーを使用して）別のテーブルに一意のレコードを参照するために使用されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>A Front-Cover Text may be at most 5 words, and a Back-Cover Text may be at most 25 words.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124416Z" creationid="miurahr" creationdate="20201117T124416Z">
+        <seg>フロントカバーテキストは最大5つの言葉であってもよく、バックカバーテキストは、最大で25個の言葉かもしれません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1454,10 +1494,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>A copy made in an otherwise Transparent file format whose markup, or absence of markup, has been arranged to thwart or discourage subsequent modification by readers is not Transparent.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124432Z" creationid="miurahr" creationdate="20201117T124432Z">
+        <seg>そのマークアップ、またはマークアップの非存在下、さもなければ透明ファイル形式で作られたコピーは、読者が後続の変更を妨害または阻止するように配置された透明でありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>A copy of the license is included in the section :ref:`gnu_fdl`.</seg>
       </tuv>
       <tuv lang="ja">
         <seg>利用許諾契約書の複製は :ref:`gnu_fdl` のセクションに含まれています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>A copy that is not "Transparent" is called **Opaque**.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124437Z" creationid="miurahr" creationdate="20201117T124437Z">
+        <seg>「透明」でないコピーは **不透明** と呼ばれます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1510,6 +1566,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>A layer that is georeferenced properly displays in the correct position in the map view based on the GIS Application's internal model of the Earth.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124011Z" creationid="miurahr" creationdate="20201117T124011Z">
+        <seg>適切にジオリファレンスされたレイヤーは、地球についてのGISアプリケーションの内部モデルに基づいて、地図ビュー内の正しい位置に表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>A map scale can be expressed in words (a), as a ratio (b), or as graphic or bar scale (c)</seg>
       </tuv>
       <tuv lang="ja">
@@ -1546,6 +1610,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>スケールバー。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>A section "**Entitled XYZ**" means a named subunit of the Document whose title either is precisely XYZ or contains XYZ in parentheses following text that translates XYZ in another language.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124537Z" creationid="miurahr" creationdate="20201117T124537Z">
+        <seg>「 **XYZという題** 」セクションには、題を正確XYZであるか、XYZを別の言語に翻訳し、テキストを次の括弧内にXYZが含まれているいずれかの文書の名前のサブユニットを意味します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1594,6 +1666,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>APIドキュメント</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>APPLICABILITY AND DEFINITIONS**</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124320Z" creationid="miurahr" creationdate="20201117T124320Z">
+        <seg>**1．適用性と定義**</seg>
       </tuv>
     </tu>
     <tu>
@@ -2022,6 +2102,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Also remember that it is important that you are zoomed in to an appropriate scale so that the vector features you create are useful.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124018Z" creationid="miurahr" creationdate="20201117T124018Z">
+        <seg>また、作成するベクター地物が有用になるように、適切な縮尺にズームインすることが重要であることを覚えておいてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Also, you will notice that when you draw your geometry on the screen, the GIS Application always creates an enclosed area.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123742Z" creationid="miurahr" creationdate="20201117T123742Z">
+        <seg>また、画面上の図形を描画する際に、GISアプリケーションでは常に閉じた領域が作成されることに気づくでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Alternative 1: Use the ``Edit on GitHub`` shortcut</seg>
       </tuv>
       <tuv lang="ja">
@@ -2078,6 +2174,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>An image format is not Transparent if used for any substantial amount of text.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124434Z" creationid="miurahr" creationdate="20201117T124434Z">
+        <seg>テキストの任意のかなりの量のために使用した場合の画像フォーマットは、透明ではありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>And do not forget to update the ``master`` branch in your local repository!</seg>
       </tuv>
       <tuv lang="ja">
@@ -2114,6 +2218,22 @@
       </tuv>
       <tuv lang="ja">
         <seg>Andrew Jeffrey は ...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Another method of capturing vector data is to use a digitising table.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123754Z" creationid="miurahr" creationdate="20201117T123754Z">
+        <seg>ベクターデータをキャプチャする別の方法は、デジタル化テーブルを使用することです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Any member of the public is a licensee, and is addressed as "**you**".</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124330Z" creationid="miurahr" creationdate="20201117T124330Z">
+        <seg>公共の任意のメンバーは、ライセンシーで、「 **あなた** 」として扱われます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2230,6 +2350,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>As we saw in the previous topic on vector geometry, it is a bad idea to digitise your data when you are zoomed out to a scale of 1:1000 000 if you intend to use the data you capture at a scale of 1:50 000 later.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124019Z" creationid="miurahr" creationdate="20201117T124019Z">
+        <seg>ベクタージオメトリについての前のトピックで見たように、キャプチャしたデータを後で1:50 000の縮尺で使用するつもりならば、1:1000 000の縮尺にズームアウトしてデータをデジタル化するのは良くないです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>As well as choosing a name for each field, you need to indicate how the information should be stored in that field –-- i.e. is it a number, a word or a sentence, or a date?</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123645Z" creationid="miurahr" creationdate="20201117T123645Z">
@@ -2250,6 +2378,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123613Z" creationid="miurahr" creationdate="20201117T123613Z">
         <seg>おわかりのように、必要とするジオメトリのタイプを知ることはしばしば容易ではありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>As you have probably discovered by now if you followed the steps above, it is pretty hard to draw the features so that they are **spatially correct** if you do not have other features that you can use as a point of reference.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123746Z" creationid="miurahr" creationdate="20201117T123746Z">
+        <seg>おそらく今までに発見されているでしょうが、上記の手順に従った場合、基準点として使用できる他の地物がない場合、 **空間的に正確** な地物を描くことはかなり困難です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2502,6 +2638,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Both covers must also clearly and legibly identify you as the publisher of these copies.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124646Z" creationid="miurahr" creationdate="20201117T124646Z">
+        <seg>どちらのカバーもはっきりと読みやすいこれらのコピーの出版社として識別する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Braces</seg>
       </tuv>
       <tuv lang="ja">
@@ -2630,6 +2774,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>But this License is not limited to software manuals; it can be used for any textual work, regardless of subject matter or whether it is published as a printed book.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124311Z" creationid="miurahr" creationdate="20201117T124311Z">
+        <seg>しかし、このライセンスは、ソフトウェアのマニュアルに限定されるものではありません。それは関係なく、主題のか、それが印刷された本として出版されているかどうか、任意のテキストの仕事のために使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>By using QGIS to combine the hazard polygons from earlier surveys with highly accurate aerial photography provided by the USGS, discrepancies can be noted –-- e.g. where the polygons do not match the shape of the buildings, as evident in the northwest part of the campus --- which can direct survey teams to places to first conduct a more accurate re-survey.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T062619Z" creationid="miurahr" creationdate="20201117T062619Z">
@@ -2662,10 +2814,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>COPYING IN QUANTITY**</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124641Z" creationid="miurahr" creationdate="20201117T124641Z">
+        <seg>大量の複製**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Can you identify two point features and one polygon feature on this map?</seg>
       </tuv>
       <tuv lang="ja">
         <seg>この地図上の2つのポイント地物と1つのポリゴン地物を識別できますか？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Capture the data using the GIS application and make maps that show the samples with a suitable symbology.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124033Z" creationid="miurahr" creationdate="20201117T124033Z">
+        <seg>GISアプリケーションを使用してデータをキャプチャし、適切なシンボルを有するサンプルを示す地図を作ります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2802,6 +2970,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>水疱瘡</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Choosing an appropriate symbology will allow you to better understand the data you have captured when you look at the map.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124009Z" creationid="miurahr" creationdate="20201117T124009Z">
+        <seg>シンボルを適切に選択すると、地図を見るときにキャプチャしたデータをより良く理解できるようになります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3222,6 +3398,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Combine the layers from all the groups to create a nice map of your school and its surroundings!</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124030Z" creationid="miurahr" creationdate="20201117T124030Z">
+        <seg>すべてのグループからのレイヤーを組み合わせると、学校とその周辺の素敵な地図が出来上がります！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Combining scores to identify the severity of bushfire hazard</seg>
       </tuv>
       <tuv lang="ja">
@@ -3398,6 +3582,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Copying with changes limited to the covers, as long as they preserve the title of the Document and satisfy these conditions, can be treated as verbatim copying in other respects.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124652Z" creationid="miurahr" creationdate="20201117T124652Z">
+        <seg>それらは、文書の題を保持し、これらの条件を満たしている限り、カバーに限定変更とコピーは、他の点では逐語的なコピーとして扱うことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Copyright  2000, 2001, 2002, 2007, 2008  Free Software Foundation, Inc https://www.fsf.org/</seg>
       </tuv>
       <tuv lang="ja">
@@ -3410,6 +3602,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>Copyright (c) 2009 Chief Directorate: Spatial Planning &amp; Information, Department of Land Affairs, Eastern Cape.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Could you identify any areas of concern?</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124034Z" creationid="miurahr" creationdate="20201117T124034Z">
+        <seg>懸念の領域を何か特定できますか？</seg>
       </tuv>
     </tu>
     <tu>
@@ -3670,6 +3870,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Delete any section Entitled "Endorsements".</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124736Z" creationid="miurahr" creationdate="20201117T124736Z">
+        <seg>「裏書」と題されたいずれかのセクションを削除します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Description</seg>
       </tuv>
       <tuv lang="ja">
@@ -3898,6 +4106,22 @@
       </tuv>
       <tuv lang="ja">
         <seg>Scott Madry博士： http://scottmadry.web.unc.edu または email: madrys@email.unc.edu</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Draw columns down the page in your notebook and write in the column headings for each attribute field you want to store information about.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124038Z" creationid="miurahr" creationdate="20201117T124038Z">
+        <seg>お使いのノートブックにページ下の列を描画し、情報を格納したい各属性のフィールドの列見出しを書き入れます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Draw up a list of features in and around your school that you think would be interesting to capture.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124024Z" creationid="miurahr" creationdate="20201117T124024Z">
+        <seg>キャプチャすると興味深いと思うご自分の学校とその周辺地物のリストを描画します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4166,6 +4390,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Examples of suitable formats for Transparent copies include plain ASCII without markup, Texinfo input format, LaTeX input format, SGML or XML using a publicly available DTD, and standard-conforming simple HTML, PostScript or PDF designed for human modification.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124439Z" creationid="miurahr" creationdate="20201117T124439Z">
+        <seg>透明な複製に適した形式の例としては、マークアップなしのプレーンASCII、Texinfoの入力形式、LaTeX入力形式、一般に入手可能なDTDを使用したSGMLまたはXML、および標準に準拠した単純HTML、人間の変更のために設計されたPostScriptまたはPDFがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Examples of transparent image formats include PNG, XCF and JPG.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124441Z" creationid="miurahr" creationdate="20201117T124441Z">
+        <seg>透明な形式の例には、PNG、XCFおよびJPGがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Examples:</seg>
       </tuv>
       <tuv lang="ja">
@@ -4374,6 +4614,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Find a local river and take water samples along its length.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124031Z" creationid="miurahr" creationdate="20201117T124031Z">
+        <seg>地元の川を見つけて、その長さに沿って水のサンプルを取ります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>First you choose the geometry type, and then you add the attribute fields.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123639Z" creationid="miurahr" creationdate="20201117T123639Z">
@@ -4478,6 +4726,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>For each sample take measurements such as pH, dissolved oxygen etc.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124033Z" creationid="miurahr" creationdate="20201117T124033Z">
+        <seg>各サンプルについてpH、溶存酸素等などの値を計測します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>For editing purposes, a :kbd:`.rst` file works exactly like a normal text file (:kbd:`.txt`).</seg>
       </tuv>
       <tuv lang="ja">
@@ -4498,6 +4754,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>例えば、1:25000の縮尺の地図上で100ミリメートルの距離を測定する場合、現実世界の距離はこのように計算します：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For example: the school boundary, the position of fire assembly points, the layout of each class room, and so on.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124025Z" creationid="miurahr" creationdate="20201117T124025Z">
+        <seg>たとえば、学校の境界、火災避難場所の位置、各クラスの部屋のレイアウト、等々。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4538,6 +4802,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>この演習では以前にスキャンした地図を使用します。データフォルダ :kbd:`exercise_data/forestry` 内に :kbd:`rautjarvi_map.tif` として見つかります</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For works in formats which do not have any title page as such, "Title Page" means the text near the most prominent appearance of the work's title, preceding the beginning of the body of the text.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124452Z" creationid="miurahr" creationdate="20201117T124452Z">
+        <seg>以下のような任意の題扉を持っていないフォーマットの作品については、「題扉」には、テキストの本文の先頭に先行し、作品の題の最も顕著な外観に近いテキストを意味します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4870,6 +5142,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Have them symbolise their layers so that they are more meaningful to look at.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124029Z" creationid="miurahr" creationdate="20201117T124029Z">
+        <seg>彼らは見て、より意味のあるように、彼らに自分たちのレイヤーをシンボル化させます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Have your learners count the number of learners using each footpath in the hour before school and then use **graduated symbols** to show the popularity of each footpath</seg>
       </tuv>
       <tuv lang="ja">
@@ -4922,6 +5202,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>上向きのデジタル化</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Heads-up digitising using a satellite image as a backdrop.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123751Z" creationid="miurahr" creationdate="20201117T123751Z">
+        <seg>背景として衛星画像を使用した上向きのデジタル化。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5006,6 +5294,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>However, you may accept compensation in exchange for copies.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124631Z" creationid="miurahr" creationdate="20201117T124631Z">
+        <seg>ただし、コピーと引き換えに報酬を受け取ることはできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If a section does not fit the above definition of Secondary then it is not allowed to be designated as Invariant.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124408Z" creationid="miurahr" creationdate="20201117T124408Z">
+        <seg>セクションが「二次著作物」の上記の定義に適合しない場合、不変として指定することは許可されません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If a section in the Document is Entitled "Acknowledgements", "Dedications", or "History", the requirement (section 4) to Preserve its Title (section 1) will typically require changing the actual title.</seg>
       </tuv>
       <tuv lang="ja">
@@ -5038,6 +5342,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If the Document does not identify any Invariant Sections then there are none.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124412Z" creationid="miurahr" creationdate="20201117T124412Z">
+        <seg>文書に何も変更不可部分が特定されていない場合は、何もありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If the Modified Version includes new front-matter sections or appendices that qualify as Secondary Sections and contain no material copied from the Document, you may at your option designate some or all of these sections as invariant.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124739Z" creationid="miurahr" creationdate="20201117T124739Z">
+        <seg>修正版は二次著作物セクションとしての資格や文書からコピーされた何の材料を含まない新しいフロントマターセクションまたは付録が含まれている場合、自身の選択によりこれらの一部または全部を不変として指定できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If the attribute of a vector layer is not used to determine its symbology, it is drawn using a **single symbol** only</seg>
       </tuv>
       <tuv lang="ja">
@@ -5050,6 +5370,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T091900Z" creationid="miurahr" creationdate="20201117T091900Z">
         <seg>デフォルト値がコンマ ``,`` を含む場合は、値はシングルクォート ``'`` で囲まなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If the image is poorly georeferenced (as shown on the right) the features will not be well aligned.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124016Z" creationid="miurahr" creationdate="20201117T124016Z">
+        <seg>（右図のように）画像が下手にジオリファレンスされた場合の地物は十分に整列されることはありません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5074,6 +5402,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>QGISに送信する前に追加の変更が必要な場合は、次の手順に従ってください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If there is no section Entitled "History" in the Document, create one stating the title, year, authors, and publisher of the Document as given on its Title Page, then add an item describing the Modified Version as stated in the previous sentence.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124722Z" creationid="miurahr" creationdate="20201117T124722Z">
+        <seg>文書に「履歴」と題した章が存在しない場合は、その題ページに与えられたとして、文書の題、年、著者、および出版社を述べるものを作成し、その後、前の文で述べたように、変更版を記述する項目を追加します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5126,6 +5462,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If you are digitising using a backdrop raster layer such as an aerial photograph or satellite image, it is very important that the raster layer is properly georeferenced.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124010Z" creationid="miurahr" creationdate="20201117T124010Z">
+        <seg>航空写真や衛星画像などの背景ラスターレイヤーを使用してデジタル化している場合、ラスターレイヤーが適切にジオリファレンスされていることが非常に重要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If you are explaining a new concept, you will need to write the new concept's name in italics by enclosing it in asterisks (:kbd:`*`).</seg>
       </tuv>
       <tuv lang="ja">
@@ -5166,10 +5510,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If you distribute a large enough number of copies you must also follow the conditions in section 3.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124636Z" creationid="miurahr" creationdate="20201117T124636Z">
+        <seg>十分に多い数のコピーを配布する場合は、セクション3の条件にも従わなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If you do manually set the :kbd:`id`, you may cause serious problems with the integrity of your database.</seg>
       </tuv>
       <tuv lang="ja">
         <seg>:kbd:`id` を手動で設定すると、データベースの整合性に深刻な問題を引き起こす可能性があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If you don't have a computer available, you can follow the same process by using transparency sheets and a notebook.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124036Z" creationid="miurahr" creationdate="20201117T124036Z">
+        <seg>コンピュータが利用できない場合は、透明シートとノートブックを使用して同じ手順をたどることができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5222,10 +5582,34 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If you publish or distribute Opaque copies of the Document numbering more than 100, you must either include a machine-readable Transparent copy along with each Opaque copy, or state in or with each Opaque copy a computer-network location from which the general network-using public has access to download using public-standard network protocols a complete Transparent copy of the Document, free of added material.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124656Z" creationid="miurahr" creationdate="20201117T124656Z">
+        <seg>100以上の番号文書の不透明コピーを公開または配布する場合は、各不透明コピーにまたはでから、一般的なネットワーク - コンピュータ・ネットワーク上の場所を機械可読トランスペアレント各不透明コピーと一緒にコピー、または状態を含んでいなければならないのいずれかパブリックを使用すると、パブリック標準のネットワーク・プロトコル文書の完全な透明コピー、追加材料の自由を使用してダウンロードするためのアクセス権を持っています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If you publish printed copies (or copies in media that commonly have printed covers) of the Document, numbering more than 100, and the Document's license notice requires Cover Texts, you must enclose the copies in covers that carry, clearly and legibly, all these Cover Texts: Front-Cover Texts on the front cover, and Back-Cover Texts on the back cover.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124644Z" creationid="miurahr" creationdate="20201117T124644Z">
+        <seg>100以上の番号文書の印刷されたコピー（または一般的にカバーを印刷したメディアまたはコピー）を公開し、文書のライセンス通知がカバーテキストが必要な場合は、はっきりと読みやすく、コピーをこれらすべてのカバーテキスト（表紙にフロントカバーテキスト、および背面カバーにバックカバーテキスト）を持ち運びするカバー内に同封しなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If you scroll down in the :guilabel:`Info` tab, you can see more information about the :guilabel:`Fields`, :guilabel:`Constraints` and :guilabel:`Indexes` for the table you are viewing.</seg>
       </tuv>
       <tuv lang="ja">
         <seg>:guilabel:`情報` タブで下にスクロールした場合、表示しているテーブルに対して、 :guilabel:`フィールド` 、 :guilabel:`制約` 、 :guilabel:`索引` についての詳細な情報を見ることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If you use the latter option, you must take reasonably prudent steps, when you begin distribution of Opaque copies in quantity, to ensure that this Transparent copy will remain thus accessible at the stated location until at least one year after the last time you distribute an Opaque copy (directly or through your agents or retailers) of that edition to the public.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124658Z" creationid="miurahr" creationdate="20201117T124658Z">
+        <seg>後者のオプションを使用する場合は、数量に不透明コピーの配布を開始するとき、少なくとも1年の最後の時間の後に、配布されるまで、この透明コピーは定められた場所でこのようにアクセス可能なままであることを保証するために、合理的に慎重な手順を実行する必要があります公衆にその版の不透明なコピー（直接、または代理店や小売店を通じて）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5410,6 +5794,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T062246Z" creationid="miurahr" creationdate="20201117T062246Z">
         <seg>技術的な問題は、多くの場合、オンラインフォーラムを参照することによって解決することができるよう「正式な」GISのトレーニングを取得することは困難である世界の一部では、QGISのユーザーコミュニティの協調的な性質が大きく、高く評価されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In addition, you must do these things in the Modified Version:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124715Z" creationid="miurahr" creationdate="20201117T124715Z">
+        <seg>また、「変更版」では以下のことを行う必要があります：</seg>
       </tuv>
     </tu>
     <tu>
@@ -5942,6 +6334,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>It complements the GNU General Public License, which is a copyleft license designed for free software.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124246Z" creationid="miurahr" creationdate="20201117T124246Z">
+        <seg>これは、フリーソフトウェアのために設計されたコピーレフトライセンスであるGNU一般公衆利用許諾契約書を、補完します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>It is also driving improved mapping capabilities within the organisation, and an ability to better communicate the impact of its work to international donors.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T062233Z" creationid="miurahr" creationdate="20201117T062233Z">
@@ -6342,6 +6742,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>MODIFICATIONS**</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124709Z" creationid="miurahr" creationdate="20201117T124709Z">
+        <seg>変更**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>MacOS</seg>
       </tuv>
       <tuv lang="ja">
@@ -6354,6 +6762,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>主要道路</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Make a careful note of the position of each sample using a GPS or by marking it on a toposheet.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124032Z" creationid="miurahr" creationdate="20201117T124032Z">
+        <seg>GPSを使用するかトポシートでそれをマークすることで、各サンプルの位置を慎重にメモしておきます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7014,6 +7430,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Now split your learners into groups and assign each group a few features to capture.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124028Z" creationid="miurahr" creationdate="20201117T124028Z">
+        <seg>今、生徒たちをグループに分割し​​、各グループにキャプチャするいくつかの地物を割り当てます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Now that we have gone through the process of working with existing tables in our database, let's use DB Manager to create a new table.</seg>
       </tuv>
       <tuv lang="ja">
@@ -7070,10 +7494,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Now trace the geometry of features onto the transparency sheet, writing a number next to each feature so that it can be identified.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124039Z" creationid="miurahr" creationdate="20201117T124039Z">
+        <seg>今では識別できるように、次の各地物に番号を書いて、透明シート上に地物のジオメトリをトレースします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Now we need to enable editing in the shapefile using the 'enable editing' menu option or tool bar icon in the GIS Application.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123703Z" creationid="miurahr" creationdate="20201117T123703Z">
         <seg>今は、GISアプリケーションの「編集を有効」メニューオプションまたはツールバーのアイコンを使用してシェープファイルでの編集を有効にする必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Now write the same number in the first column in your table in your notebook, and then fill in all the additional information you want to record.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124040Z" creationid="miurahr" creationdate="20201117T124040Z">
+        <seg>今、ノートブックでテーブルの最初の列に同じ番号を書き、次に記録したいすべての追加情報を入力します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7182,6 +7622,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>On the left we can see the image is properly georegistered and the road features (in orange) overlap perfectly.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124014Z" creationid="miurahr" creationdate="20201117T124014Z">
+        <seg>左側には適切georegisteredされて道路の地物（オレンジ色）が完全に重なっています画像を見ることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>On the other hand, using low resolution raster data can be problematic if you are interested in a small region because you probably won't be able to make out any individual features from the image.</seg>
       </tuv>
       <tuv lang="ja">
@@ -7214,10 +7662,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Once your features are digitised, you can use the techniques you learned in the previous topic to set the symbology for your layer.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124004Z" creationid="miurahr" creationdate="20201117T124004Z">
+        <seg>地物がデジタル化されたら、前のトピックで学んだ技術をレイヤーのシンボルを設定するために使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>One common approach to this problem is to make one layer for each geometry type you need.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123613Z" creationid="miurahr" creationdate="20201117T123613Z">
         <seg>この問題に対する1つの一般的なアプローチは、必要とする各ジオメトリタイプごとに1つレイヤーを作ることです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>One common solution to this problem is to use a raster layer (such as an aerial photograph or a satellite image) as a backdrop layer.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123747Z" creationid="miurahr" creationdate="20201117T123747Z">
+        <seg>この問題に対する一つの一般的な解決策は、ラスターレイヤー（例えば、航空写真や衛星画像など）を背景レイヤーとして使用することです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7234,6 +7698,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T091636Z" creationid="miurahr" creationdate="20201117T091636Z">
         <seg>エラー報告などのためのデータコンテナはこの例外です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Opaque formats include proprietary formats that can be read and edited only by proprietary word processors, SGML or XML for which the DTD and/or processing tools are not generally available, and the machine-generated HTML, PostScript or PDF produced by some word processors for output purposes only.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124444Z" creationid="miurahr" creationdate="20201117T124444Z">
+        <seg>不透明な形式には、商用ワードプロセッサで読み取り編集できる商用形式、DTDおよび／またはプロセシングツールが一般に利用可能でないSGMLまたはXML、および機械生成HTML、いくつかのワードプロセッサによって作成された出力目的のみのPostScriptやPDFがあります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7686,6 +8158,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Preserve all the Invariant Sections of the Document, unaltered in their text and in their titles.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124733Z" creationid="miurahr" creationdate="20201117T124733Z">
+        <seg>その本文および題名を変更せず、文書のすべての不変のセクションを保持します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Preserve all the copyright notices of the Document.</seg>
       </tuv>
       <tuv lang="ja">
@@ -7706,6 +8186,22 @@
       </tuv>
       <tuv lang="ja">
         <seg>そのライセンスに保存するには、不変のセクションの完全なリストを気づくと文書のライセンス通知に与えられたカバーテキストを必要としていました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Preserve the network location, if any, given in the Document for public access to a Transparent copy of the Document, and likewise the network locations given in the Document for previous versions it was based on.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124725Z" creationid="miurahr" creationdate="20201117T124725Z">
+        <seg>もしあれば、ネットワークの場所を保存する、パブリックアクセスの文書の透明コピーへ、およびそれが基づいていた以前のバージョンの文書に与えられ、同様に、ネットワークの場所のために文献で示さ。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Preserve the section Entitled "History", Preserve its Title, and add to it an item stating at least the title, year, new authors, and publisher of the Modified Version as given on the Title Page.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124721Z" creationid="miurahr" creationdate="20201117T124721Z">
+        <seg>「履歴」と題するセクションを保持し、その題を保持し、それに題ページに与えられたとして、修正版の、少なくとも題、年、新しい著者、および出版社を明記のアイテムを追加します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8446,10 +8942,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Secondarily, this License preserves for the author and publisher a way to get credit for their work, while not being considered responsible for modifications made by others.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124226Z" creationid="miurahr" creationdate="20201117T124226Z">
+        <seg>第二に、このライセンスは、他の人によって行われた変更の責任とみなされていないながら、著者や出版社が自分の仕事のためにクレジットを取得する方法を保持します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Secondary road</seg>
       </tuv>
       <tuv lang="ja">
         <seg>周辺道路</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Section numbers or the equivalent are not considered part of the section titles.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124734Z" creationid="miurahr" creationdate="20201117T124734Z">
+        <seg>章番号やそれに相当するものは、セクション題の一部とはみなされません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8990,6 +9502,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Such a notice grants a world-wide, royalty-free license, unlimited in duration, to use that work under the conditions stated herein.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124325Z" creationid="miurahr" creationdate="20201117T124325Z">
+        <seg>このような通知は、本明細書に記載された条件の下でその作品を使用して、期間中無制限の世界的な、ロイヤリティフリーのライセンスを、付与します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Such a section may not be included in the Modified Version.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124737Z" creationid="miurahr" creationdate="20201117T124737Z">
+        <seg>このようなセクションは、修正版には含まれないことがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Suitable Geometry Type</seg>
       </tuv>
       <tuv lang="ja">
@@ -9198,10 +9726,42 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The "**Cover Texts**" are certain short passages of text that are listed, as Front-Cover Texts or Back-Cover Texts, in the notice that says that the Document is released under this License.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124414Z" creationid="miurahr" creationdate="20201117T124414Z">
+        <seg>「 **カバーテキスト** 」は文書がこのライセンスの下でリリースされていることを述べている通知に、フロントカバーテキストまたはバックカバーテキストとして、リストされているテキストの特定の短い通路です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The "**Invariant Sections**" are certain Secondary Sections whose titles are designated, as being those of Invariant Sections, in the notice that says that the Document is released under this License.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124405Z" creationid="miurahr" creationdate="20201117T124405Z">
+        <seg>「**変更不可部分**」とは、その題の文書がこのライセンスの下でリリースされていることを述べている通知に、変更不可部分のそれであるとして、指定された特定の二次著作物セクションです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The "**Title Page**" means, for a printed book, the title page itself, plus such following pages as are needed to hold, legibly, the material this License requires to appear in the title page.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124449Z" creationid="miurahr" creationdate="20201117T124449Z">
+        <seg>「 **題扉** 」とは、印刷された書籍、題扉自体、プラスを保持するために必要とされるような以下のページのために、読みやすく、材料は、このライセンスは、題扉に表示されている必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The "**publisher**" means any person or entity that distributes copies of the Document to the public.</seg>
       </tuv>
       <tuv lang="ja">
         <seg>「 **パブリッシャー** 」は、公衆への文書のコピーを配布する個人または団体を意味します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The **Document**, below, refers to any such manual or work.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124328Z" creationid="miurahr" creationdate="20201117T124328Z">
+        <seg>**文書** は、以下で、そのようなマニュアルや作業を指します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9226,6 +9786,30 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T062338Z" creationid="miurahr" creationdate="20201117T062338Z">
         <seg>デンマーク地雷除去グループ（DDG）、デンマーク難民評議会の専門地雷対策ユニットは、人道的地雷除去、不発弾（UXO）処分と地雷回避教育を進め、1999年以来、アフガニスタンで活動しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The Document may contain zero Invariant Sections.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124410Z" creationid="miurahr" creationdate="20201117T124410Z">
+        <seg>文書はゼロの変更不可部分が含まれていてもよいです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The Document may include Warranty Disclaimers next to the notice which states that this License applies to the Document.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124602Z" creationid="miurahr" creationdate="20201117T124602Z">
+        <seg>ドキュメントは、本ライセンスは、ドキュメントに適用されると述べている通知に次の保証の免責事項を含めることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The GIS Application will then save your newly created layer to the hard disk.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123744Z" creationid="miurahr" creationdate="20201117T123744Z">
+        <seg>GISアプリケーションは、ハードディスクに新たに作成したレイヤーを保存します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9438,6 +10022,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The digitising process consists of **drawing** the geometry in the map view and then entering its attributes.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124020Z" creationid="miurahr" creationdate="20201117T124020Z">
+        <seg>デジタル化プロセスは、の地図ビューでジオメトリを **描画** して、その属性を入力することで構成されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The field teams visited the forest and with the help of the information you provided, gathered information about the forest at every sample plot.</seg>
       </tuv>
       <tuv lang="ja">
@@ -9518,6 +10110,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The front cover must present the full title with all words of the title equally prominent and visible.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124648Z" creationid="miurahr" creationdate="20201117T124648Z">
+        <seg>フロントカバーは等しく顕著な可視題のすべての単語との完全なタイトルを提示しなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The function name should convey something about the purpose of the function.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T085714Z" creationid="miurahr" creationdate="20201117T085714Z">
@@ -9562,6 +10162,22 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T062650Z" creationid="miurahr" creationdate="20201117T062650Z">
         <seg>危険がカブール首都圏の最後の重要な残りの危険な領域のうちとしても注目されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The image is used as a reference for capturing polyline features by tracing over them.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123753Z" creationid="miurahr" creationdate="20201117T123753Z">
+        <seg>画像はその上をトレースすることによってポリライン地物をキャプチャするための基準として使用されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The importance of using properly georeferenced raster images for heads-up digitising.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124013Z" creationid="miurahr" creationdate="20201117T124013Z">
+        <seg>上向きのデジタル化のために適切にジオリファレンスされたラスター画像を使用することの重要性。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9646,6 +10262,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The paper map is held securely in place using clips.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123924Z" creationid="miurahr" creationdate="20201117T123924Z">
+        <seg>紙の地図は、クリップを使用して所定の位置に確実に保持されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The process for **capturing a polygon** is almost the same as capturing a polyline except that you need to use the polygon capture tool in the toolbar.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123740Z" creationid="miurahr" creationdate="20201117T123740Z">
+        <seg>**ポリゴンをキャプチャ** するためのプロセスは、ツールバーでポリゴンキャプチャツールを使用する必要があることを除けば、ほとんどポリラインをキャプチャするのと同じです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The process of capturing geometry is different for points, polylines and polygons.</seg>
       </tuv>
       <tuv lang="ja">
@@ -9670,6 +10302,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The process of using a digitising table, is to place a paper map on the table.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123922Z" creationid="miurahr" creationdate="20201117T123922Z">
+        <seg>デジタル化テーブルを使用するプロセスは、テーブルの上に紙の地図を配置することです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The process usually starts with choosing the 'new vector layer' option in your GIS Application and then selecting a geometry type (see figure_new_shapefile_).</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123634Z" creationid="miurahr" creationdate="20201117T123634Z">
@@ -9682,6 +10322,22 @@
       </tuv>
       <tuv lang="ja">
         <seg>このプロジェクトは2010年にオーストラリアの状態プランニング賞のクイーンズランド計画研究所で奨励賞を受賞しました[2]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The puck is connected to a computer and each feature that is captured using the puck gets stored in the computer's memory.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123929Z" creationid="miurahr" creationdate="20201117T123929Z">
+        <seg>パックはコンピュータに接続されており、パックを使用してキャプチャされた各地物は、コンピュータのメモリに格納されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The purpose of this License is to make a manual, textbook, or other functional and useful document "free" in the sense of freedom: to assure everyone the effective freedom to copy and redistribute it, with or without modifying it, either commercially or noncommercially.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124215Z" creationid="miurahr" creationdate="20201117T124215Z">
+        <seg>このライセンスの目的は、マニュアル、教科書、または他の機能的で便利な文書を、自由という意味で「フリー」にすることです。商業的または非商業的、またはそれを修正することなく、誰もがそれをコピーして再配布するための事実上の自由を確保するために。。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9790,6 +10446,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Then a special device called a 'puck' is used to trace features from the map.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123926Z" creationid="miurahr" creationdate="20201117T123926Z">
+        <seg>そして、「パック」と呼ばれる特殊なデバイスが地図から地物をトレースするために使用されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>There are a couple of things going on here:</seg>
       </tuv>
       <tuv lang="ja">
@@ -9878,10 +10542,34 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>These Warranty Disclaimers are considered to be included by reference in this License, but only as regards disclaiming warranties: any other implication that these Warranty Disclaimers may have is void and has no effect on the meaning of this License.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124609Z" creationid="miurahr" creationdate="20201117T124609Z">
+        <seg>これらの保証免責事項は、この契約書では、唯一の保証を放棄に関して参照により含まれると考えている。これらの保証の免責が持っていることを他の含意は無効であり、このライセンスの意味には影響を与えません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>These may be placed in the "History" section.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124728Z" creationid="miurahr" creationdate="20201117T124728Z">
+        <seg>これらは、「履歴」セクションに配置できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>These standards should be followed by all QGIS developers.</seg>
       </tuv>
       <tuv lang="ja">
         <seg>これらの基準は、すべての QGIS 開発者が守るべきです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>These titles must be distinct from any other section titles.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124742Z" creationid="miurahr" creationdate="20201117T124742Z">
+        <seg>これらの題は、他のセクションの題は区別しなければなりません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9902,10 +10590,34 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This License applies to any manual or other work, in any medium, that contains a notice placed by the copyright holder saying it can be distributed under the terms of this License.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124323Z" creationid="miurahr" creationdate="20201117T124323Z">
+        <seg>このライセンスは、あらゆる媒体で、任意の手動または他の作業に適用される、それはそれは、本ライセンスの条件の下で配布することができますと言って著作権者に置か通告が含まれています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This License is a kind of "copyleft", which means that derivative works of the document must themselves be free in the same sense.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124239Z" creationid="miurahr" creationdate="20201117T124239Z">
+        <seg>このライセンスは「コピーレフト」の一種です。すなわち、文書の派生物自体は同じ意味でフリーでなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This also applies if you are mentioning the name of a tool without requiring the user to click a button.</seg>
       </tuv>
       <tuv lang="ja">
         <seg>これは、ユーザーがボタンをクリックする必要なしに、ツールの名前を言及している場合にも適用されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This approach is less commonly used except by GIS professionals, and it requires expensive equipment.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123755Z" creationid="miurahr" creationdate="20201117T123755Z">
+        <seg>このアプローチは、GIS専門家による場合を除いてあまり一般的には使用されず、高価な設備を必要とします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9982,6 +10694,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This is repeated for each feature.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124022Z" creationid="miurahr" creationdate="20201117T124022Z">
+        <seg>これは、各地物ごとに繰り返されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This is the user guide for the geographical information system (GIS) software QGIS.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T110248Z" creationid="miurahr" creationdate="20201117T110248Z">
@@ -10002,6 +10722,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>これは、地図上の100ミリメートルは、実世界の250万ミリメートル（2500メートル）と等価であることを意味します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This process is known as 'heads-up digitising' and is shown in figure_headsup_digitizing_.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123750Z" creationid="miurahr" creationdate="20201117T123750Z">
+        <seg>このプロセスは、「上向きのデジタル化」として知られており、 figure_headsup_digitizing_ に示されています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10166,6 +10894,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Tiny cross-hairs in the puck are used to ensure that lines and points are drawn accurately.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123928Z" creationid="miurahr" creationdate="20201117T123928Z">
+        <seg>パックに小さな十字線は線や点が正確に描かれていることを確認するために使用されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Title in detail</seg>
       </tuv>
       <tuv lang="ja">
@@ -10306,6 +11042,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>レイヤーアクションを作成するには:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>To do this, add their titles to the list of Invariant Sections in the Modified Version's license notice.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124741Z" creationid="miurahr" creationdate="20201117T124741Z">
+        <seg>これを行うには、変更版の利用許諾告知における変更不可部分のリストに自分の題を追加します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10526,6 +11270,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Try to use a mix of different geometry types.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124027Z" creationid="miurahr" creationdate="20201117T124027Z">
+        <seg>異なるジオメトリタイプを混ぜて使用してみてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Turbidity</seg>
       </tuv>
       <tuv lang="ja">
@@ -10710,10 +11462,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Use an aerial photo, orthosheet or satellite image printout as your background layer.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124037Z" creationid="miurahr" creationdate="20201117T124037Z">
+        <seg>背景レイヤーとして航空写真、オルソシートや衛星画像のプリントアウトを使用してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Use for example the :kbd:`JPG format`.</seg>
       </tuv>
       <tuv lang="ja">
         <seg>例えば :kbd:`JPGフォーマット` を使用してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Use in the Title Page (and on the covers, if any) a title distinct from that of the Document, and from those of previous versions (which should, if there were any, be listed in the History section of the Document).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124716Z" creationid="miurahr" creationdate="20201117T124716Z">
+        <seg>題扉（とカバー、もしあれば）には文書の題、および以前の版（あった場合には文書の「履歴」セクションに表示されているはずです）の題とは異なる題を使用してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10902,6 +11670,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>VERBATIM COPYING**</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124620Z" creationid="miurahr" creationdate="20201117T124620Z">
+        <seg>逐語的に忠実な複製**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Variable Names</seg>
       </tuv>
       <tuv lang="ja">
@@ -11062,10 +11838,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Was the GIS Application able to help you to identify these areas?</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124035Z" creationid="miurahr" creationdate="20201117T124035Z">
+        <seg>GISアプリケーションはこれらの領域を識別するために助けになりましたか？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Water Observation and Information System: Enabling the Use of Earth Observation Data for Integrated Water Resource Management in Africa</seg>
       </tuv>
       <tuv lang="ja">
         <seg>水の観察と情報システム：アフリカにおける統合水資源管理のために地球観測データの使用を可能にする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>We can see the effect of a poorly georeferenced image in figure_georeference_issue_.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124012Z" creationid="miurahr" creationdate="20201117T124012Z">
+        <seg>figure_georeference_issue_ でジオリファレンスが上手くない画像の効果を確認できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11102,6 +11894,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>We have designed this License in order to use it for manuals for free software, because free software needs free documentation: a free program should come with manuals providing the same freedoms that the software does.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124254Z" creationid="miurahr" creationdate="20201117T124254Z">
+        <seg>フリーのプログラムは、ソフトウェアが行うのと同じ自由を提供するマニュアルが付属していなければならない：フリーソフトウェアはフリーな文書が必要なので、私たちは、フリーソフトウェアのマニュアルのためにそれを使用するために、このライセンスを設計しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>We have summarised the GIS Vector Data concept in Figure figure_vector_summary_.</seg>
       </tuv>
       <tuv lang="ja">
@@ -11130,6 +11930,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123602Z" creationid="miurahr" creationdate="20201117T123602Z">
         <seg>ベクターレイヤーはポイント、ポリラインまたはポリゴンの地物を使用して表現できることはわかっています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>We recommend this License principally for works whose purpose is instruction or reference.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124314Z" creationid="miurahr" creationdate="20201117T124314Z">
+        <seg>私たちは、その目的の命令または参照された作品のため、主にこのライセンスをお勧めします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11318,6 +12126,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>When you have no more features to add, always be sure to click the 'allow editing' icon to toggle it off.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123743Z" creationid="miurahr" creationdate="20201117T123743Z">
+        <seg>もう追加する地物がなくなったら、必ず「編集を許可」アイコンをクリックしてそれをオフに切り替えてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>When you look at the files that make up a shapefile on the computer hard disk, you will see something like figure_shapefile_.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123535Z" creationid="miurahr" creationdate="20201117T123535Z">
@@ -11462,6 +12278,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Worse still, if the image on the right is used as a reference when capturing new features, the newly captured data will be inaccurate!</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124017Z" creationid="miurahr" creationdate="20201117T124017Z">
+        <seg>新地物をキャプチャする場合さらに悪いことに、右の画像が基準として使用されている場合、新たに取得されたデータは不正確になります！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Write a short description of the lesson's intended purpose.</seg>
       </tuv>
       <tuv lang="ja">
@@ -11538,6 +12362,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>はい</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You accept the license if you copy, modify or distribute the work in a way requiring permission under copyright law.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124333Z" creationid="miurahr" creationdate="20201117T124333Z">
+        <seg>あなたがコピーした場合、ライセンスを受け入れ、著作権法の下で許可を必要とする方法で仕事を変更したり、配布します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11646,10 +12478,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You can see what a digitising puck looks like in figure_digitizing_table_.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124001Z" creationid="miurahr" creationdate="20201117T124001Z">
+        <seg>デジタル化パックの外見は figure_digitizing_table_ で確認できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You can sort the results by the values of more than one column:</seg>
       </tuv>
       <tuv lang="ja">
         <seg>結果の並べ替えは複数の列の値によってもできます:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can then use this layer as a reference map, or even trace the features off the raster layer into your vector layer if they are visible.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T123748Z" creationid="miurahr" creationdate="20201117T123748Z">
+        <seg>そのとき基準地図としてこのレイヤーを使用するとか、地物が表示されている場合はラスターレイヤーからベクターレイヤーへ地物をトレースできます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11710,6 +12558,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You may add other material on the covers in addition.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124650Z" creationid="miurahr" creationdate="20201117T124650Z">
+        <seg>加えて、表紙に他の材料を加えてもよいです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You may also lend copies, under the same conditions stated above, and you may publicly display copies.</seg>
       </tuv>
       <tuv lang="ja">
@@ -11722,6 +12578,22 @@
       </tuv>
       <tuv lang="ja">
         <seg>無修正、変更版に関して上記のセクション4で定義された条件の下で、組み合わせて、オリジナルの文書のすべての不変のセクションのすべてが含まれていることを提供し、このライセンスの下で発表された複数の文書を結合し、それらをすべてリストアップしますその利用許諾告知にご組み合わせた作品のように不変のセクション、すべての彼らの保証の免責事項を保持しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You may copy and distribute a Modified Version of the Document under the conditions of sections 2 and 3 above, provided that you release the Modified Version under precisely this License, with the Modified Version filling the role of the Document, thus licensing distribution and modification of the Modified Version to whoever possesses a copy of it.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124712Z" creationid="miurahr" creationdate="20201117T124712Z">
+        <seg>「文書」の「変更版」は、その「変更版」をまさにこのライセンスの下でリリースしていて、その「変更版」が「文書」の役割を満たしている、したがってそのコピーを所有している誰にでも「変更版」の配布、変更を許可している限り、上記のセクション2と3の条件の下でコピーおよび配布できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You may copy and distribute the Document in any medium, either commercially or noncommercially, provided that this License, the copyright notices, and the license notice saying this License applies to the Document are reproduced in all copies, and that you add no other conditions whatsoever to those of this License.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124626Z" creationid="miurahr" creationdate="20201117T124626Z">
+        <seg>このライセンス、著作権表示、および本ライセンスが文書に適用されると述べるライセンス通知がすべてのコピーに再現されている、かつ、本ライセンスのものに一切の他の条件を追加していないという条件が満たされる限り、文書は、商業的にも非商業的にも、任意の媒体にコピーして配布できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11746,6 +12618,30 @@
       </tuv>
       <tuv lang="ja">
         <seg>以前の作業の時からスナップを有効にしたままの場合、スナップを無効にする必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You may not use technical measures to obstruct or control the reading or further copying of the copies you make or distribute.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124629Z" creationid="miurahr" creationdate="20201117T124629Z">
+        <seg>作成あるいは頒布するコピーの閲覧または再コピーを妨げたり制御するための技術的手段を使用することはできません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You may omit a network location for a work that was published at least four years before the Document itself, or if the original publisher of the version it refers to gives permission.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124730Z" creationid="miurahr" creationdate="20201117T124730Z">
+        <seg>あなたは、4年前に、文書自体、少なくとも出版された仕事のためのネットワークの場所を省略でき、またはそれが参照するバージョンのオリジナルの出版社は、許可を与える場合。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You may use the same title as a previous version if the original publisher of that version gives permission.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T124719Z" creationid="miurahr" creationdate="20201117T124719Z">
+        <seg>その版の元の出版社が許可を与える場合は、以前の版と同じ題扉を使用できます。</seg>
       </tuv>
     </tu>
     <tu>
