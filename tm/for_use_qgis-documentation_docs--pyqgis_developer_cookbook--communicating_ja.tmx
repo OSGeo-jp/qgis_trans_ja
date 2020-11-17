@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Communicating with the user</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ユーザーとのコミュニケーション</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This section shows some methods and elements that should be used to communicate with the user, in order to keep consistency in the User Interface.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このセクションでは、ユーザーインターフェイスにおいて一貫性を維持するためにユーザーとのコミュニケーション時に使うべき方法と要素をいくつか示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Using message boxes can be a bad idea from a user experience point of view.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>メッセージボックスを使用するのはユーザー体験の見地からは良いアイデアではありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For showing a small info line or a warning/error messages, the QGIS message bar is usually a better option.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>警告/エラー用に小さな情報行を表示するには、たいていQGIS メッセージバーが良い選択肢です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Using the reference to the QGIS interface object, you can show a message in the message bar with the following code</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGIS インターフェイスオブジェクトへの参照を利用すると、次のようなコードでメッセージバー内にメッセージを表示できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>QGIS Message bar</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGIS メッセージバー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can set a duration to show it for a limited time</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>表示期間を設定して時間を限定することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>QGIS Message bar with timer</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>タイマー付きQGIS メッセージバー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>QGIS Message bar (info)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGIS メッセージバー (お知らせ)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Widgets can be added to the message bar, like for instance a button to show more info</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ウィジェットは、例えば詳細情報の表示用ボタンのように、メッセージバーに追加することができます</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>QGIS Message bar with a button</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ボタン付きのQGIS メッセージバー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can even use a message bar in your own dialog so you don't have to show a message box, or if it doesn't make sense to show it in the main QGIS window</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>メッセージバーは自分のダイアログの中でも使えるため、メッセージボックスを表示する必要はありませんし、メインのQGISウィンドウ内に表示する意味がない時にも使えます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>QGIS Message bar in custom dialog</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>カスタムダイアログ内のQGIS メッセージバー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Showing progress</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プロセスを表示する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Progress bars can also be put in the QGIS message bar, since, as we have seen, it accepts widgets.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プログレスバーはご覧のとおりウィジェットを受け入れるので、QGISメッセージバーに置くこともできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Here is an example that you can try in the console.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>コンソール内で試すことができる例はこちらです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Logging</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ログを作成する</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

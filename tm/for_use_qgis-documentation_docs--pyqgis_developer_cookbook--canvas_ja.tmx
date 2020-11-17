@@ -1,0 +1,247 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Using the Map Canvas</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>マップキャンバスを使う</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The map canvas is implemented with the :class:`QgsMapCanvas &lt;qgis.gui.QgsMapCanvas&gt;` class in the :mod:`qgis.gui` module.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>マップキャンバスは、 :mod:`qgis.gui` モジュール内の :class:`QgsMapCanvas &lt;qgis.gui.QgsMapCanvas&gt;` クラスで実装されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The implementation is based on the Qt Graphics View framework.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>実装は Qt Graphics View フレームワークに基づいています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This framework generally provides a surface and a view where custom graphics items are placed and user can interact with them.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このフレームワークは一般的に、カスタムグラフィックスアイテムが配置され、ユーザがそれらを操作することができるサーフェスとビューを提供します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We will assume that you are familiar enough with Qt to understand the concepts of the graphics scene, view and items.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ここでは、グラフィックスシーン、ビュー、アイテムの概念を理解できるほどQtに精通していることを前提とします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If not, please read the `overview of the framework &lt;https://doc.qt.io/qt-5/graphicsview.html&gt;`_.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>そうでない場合は `フレームワークの概要 &lt;https://doc.qt.io/qt-5/graphicsview.html&gt;`_ をお読みください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To summarize, the map canvas architecture consists of three concepts:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>要約すると、地図キャンバスアーキテクチャは３つのコンセプトからなります：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>map canvas --- for viewing of the map</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>map canvas --- 地図の可視化</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Embedding Map Canvas</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>地図キャンバスを埋め込む</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>By default, map canvas has black background and does not use anti-aliasing.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>デフォルトでは、地図キャンバスの背景色は黒でありアンチエイリアスは使用されません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To set white background and enable anti-aliasing for smooth rendering</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>背景を白に設定し、投影をなめらかにするためのアンチエイリアスを有効にするには</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now it is time to add some map layers.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それでは、地図レイヤを追加していきましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We will first open a layer and add it to the current project.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>まずレイヤを開いて、現在のプロジェクトに追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Then we will set the canvas extent and set the list of layers for the canvas.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次に、キャンバスの範囲を設定し、キャンバスのレイヤのリストを設定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>After executing these commands, the canvas should show the layer you have loaded.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これらのコマンドを実行した後、キャンバスには読み込んだレイヤーが表示されているはずです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Rubber Bands and Vertex Markers</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ラバーバンドと頂点マーカー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To show a polygon</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ポリゴンを表示するには</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Note that points for polygon is not a plain list: in fact, it is a list of rings containing linear rings of the polygon: first ring is the outer border, further (optional) rings correspond to holes in the polygon.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ポリゴンの点が普通のリストではないことに注意してください。実際には、ポリゴンの線状のリングを含有するリングのリストです：最初のリングは外側の境界であり、さらに（オプションの）リングはポリゴンの穴に対応します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Rubber bands allow some customization, namely to change their color and line width</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ラバーバンドはいくらかカスタマイズできます、すなわち、その色と線幅を変更することがが可能です</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>(in C++ it's possible to just delete the item, however in Python ``del r`` would just delete the reference and the object will still exist as it is owned by the canvas)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>（C ++ではアイテムを削除することだけ可能ですが、Pythonでは ``del r`` は参照を削除するだけでありオブジェクトはキャンバスの所有物なのでそのまま残ります）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Using Map Tools with Canvas</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>地図キャンバスで地図ツールを使用する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The following example constructs a window that contains a map canvas and basic map tools for map panning and zooming.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>以下の例では、地図キャンバスと、地図のパンニングとズームのための基本的な地図ツールを含むウィンドウを作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Actions are created for activation of each tool: panning is done with :class:`QgsMapToolPan &lt;qgis.gui.QgsMapToolPan&gt;`, zooming in/out with a pair of :class:`QgsMapToolZoom &lt;qgis.gui.QgsMapToolZoom&gt;` instances.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>パンニングは :class:`QgsMapToolPan &lt;qgis.gui.QgsMapToolPan&gt;` で行い、ズームイン/ズームアウトは :class:`QgsMapToolZoom &lt;qgis.gui.QgsMapToolZoom&gt;` インスタンスのペアで行います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The actions are set as checkable and later assigned to the tools to allow automatic handling of checked/unchecked state of the actions -- when a map tool gets activated, its action is marked as selected and the action of the previous map tool is deselected.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>アクションはチェック可能に設定されており、後からツールに割り当てられ、アクションのチェック済み/チェック解除状態の自動処理を可能にします -- 地図ツールがアクティブになると、そのアクションは選択されたと印が付き、前の地図ツールのアクションは選択解除されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The map tools are activated using :meth:`setMapTool() &lt;qgis.gui.QgsMapCanvas.setMapTool&gt;` method.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>地図ツールは :meth:`setMapTool() &lt;qgis.gui.QgsMapCanvas.setMapTool&gt;` メソッドを使って起動します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Writing Custom Map Tools</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>カスタム地図ツールを書く</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Here is an example of a map tool that allows to define a rectangular extent by clicking and dragging on the canvas.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>キャンバスをクリックしてドラッグすることで矩形範囲を定義できる地図ツールの例を次に示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>When the rectangle is defined, it prints its boundary coordinates in the console.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>矩形が定義されると、境界座標がコンソールに表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It uses the rubber band elements described before to show the selected rectangle as it is being defined.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>前述のラバーバンド要素を使用して、選択されている矩形が定義されていることを示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Writing Custom Map Canvas Items</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>カスタム地図キャンバスアイテムを書く</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

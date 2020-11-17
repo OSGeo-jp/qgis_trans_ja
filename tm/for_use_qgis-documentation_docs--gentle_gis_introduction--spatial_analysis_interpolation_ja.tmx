@@ -1,0 +1,719 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Spatial Analysis (Interpolation)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>空間分析（補間）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|gentleLogo|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|gentleLogo|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Objectives:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>目的：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Understanding of interpolation as part of spatial analysis</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>空間分析の一環としての補間の理解</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Keywords:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>キーワード：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Point data, interpolation method, Inverse Distance Weighted, Triangulated Irregular Network</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ポイントデータ、補間法、逆距離加重補間、三角形分割補間</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Overview</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>概要</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Spatial analysis** is the process of manipulating spatial information to extract new information and meaning from the original data.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**空間分析** は、元のデータから新しい情報と意味を抽出するために空間情報を操作する処理です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Usually spatial analysis is carried out with a Geographic Information System (GIS).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ふつうは空間分析は地理情報システム（GIS）を使用して実行されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A GIS usually provides spatial analysis tools for calculating feature statistics and carrying out geoprocessing activities as data interpolation.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GISにはたいてい、地物統計を計算し、データ補間のようなジオプロセッシング操作を実行するための空間分析ツールがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In hydrology, users will likely emphasize the importance of terrain analysis and hydrological modelling (modelling the movement of water over and in the earth).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>水文学では、ユーザーは地形解析と水文学モデリング（水の移動をモデル化すること）の重要性を強調するでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In wildlife management, users are interested in analytical functions dealing with wildlife point locations and their relationship to the environment.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>野生生物管理の世界では、ユーザーは、野生生物の点位置およびそれらの環境との関係を扱う分析機能に関心があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Each user will have different things they are interested in depending on the kind of work they do.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それぞれのユーザーは、自分が行っている仕事の種類に応じて、関心を持つものはさまざまに異なるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Spatial interpolation in detail</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>空間補間の詳細</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Spatial interpolation is the process of using points with known values to estimate values at other unknown points.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>空間補間は、既知の値を持つ点を使用して、他の未知の点の値を推定するプロセスです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For example, to make a precipitation (rainfall) map for your country, you will not find enough evenly spread weather stations to cover the entire region.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>たとえば、国内の降水量（降雨量）図を作成するには、全域をカバーするために十分に均等に広がる気象観測所を見つけることはできません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Spatial interpolation can estimate the temperatures at locations without recorded data by using known temperature readings at nearby weather stations (see figure_temperature_map_).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>空間補間では、近くの気象観測所での既知の温度測定値を使用して、記録されていない場所の温度を推定できます（ figure_temperature_map_ を参照）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This type of interpolated surface is often called a **statistical surface**.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このタイプの補間された表面は、しばしば **統計的サーフェス** と呼ばれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Elevation data, precipitation, snow accumulation, water table and population density are other types of data that can be computed using interpolation.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>補間を使用して計算できるデータには他にも、標高データ、降水量、積雪量、水位表および人口密度があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Temperature map interpolated from South African Weather Stations.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>気温図は、南アフリカの気候条件から補間されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Because of high cost and limited resources, data collection is usually conducted only in a limited number of selected point locations.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>データ収集はコストが高く資源は限られているため、通常は選択されたポイント位置で限定された数だけ実施されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In GIS, spatial interpolation of these points can be applied to create a raster surface with estimates made for all raster cells.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GISにおいて、これらの点に空間補間を適用すると、全てのラスターのセルに対して行われた推定値を持つラスターサーフェスを作成できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In order to generate a continuous map, for example, a digital elevation map from elevation points measured with a GPS device, a suitable interpolation method has to be used to optimally estimate the values at those locations where no samples or measurements were taken.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>連続的な地図を、例えばGPS装置で計測された高度地点からのデジタル標高地図を生成するためには、適切な補間方法を使用して、サンプルまたは計測が行われなかった場所の値を最適に推定しなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The results of the interpolation analysis can then be used for analyses that cover the whole area and for modelling.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>補間解析の結果はその後、全領域をカバーする解析やモデリングに使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>There are many interpolation methods.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>多くの補間方法があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In this introduction we will present two widely used interpolation methods called **Inverse Distance Weighting** (IDW) and **Triangulated Irregular Networks** (TIN).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>本稿では、**逆距離加重** （IDW）と **不規則三角網** （TIN）と呼ばれる2つの広く使用される補間方法を紹介します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you are looking for additional interpolation methods, please refer to the 'Further Reading' section at the end of this topic.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>その他の補間方法をお探しの場合は、このトピックの末尾にある「さらに読む」セクションを参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Inverse Distance Weighted (IDW)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>逆距離加重（IDW）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In the IDW interpolation method, the sample points are weighted during interpolation such that the influence of one point relative to another declines with distance from the unknown point you want to create (see figure_idw_interpolation_).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>IDW補間法では、ある点から別の点への影響が推定される新点からの距離で減衰するように、サンプル点に重みを与えます（ figure_idw_interpolation_ を参照）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Inverse Distance Weighted interpolation based on weighted sample point distance (left). Interpolated IDW surface from elevation vector points (right). Image Source: Mitas, L., Mitasova, H. (1999).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>重み付けられたサンプル点の距離に基づく逆距離加重補間（左）。標高ベクターポイントからの補間IDWサーフェス（右）。画像元: Mitas, L., Mitasova, H. (1999).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Weighting is assigned to sample points through the use of a weighting coefficient that controls how the weighting influence will drop off as the distance from new point increases.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>重み付けが、新しい点からの距離が増加するにつれて重み付けの影響がどのように低下​​するかを制御する重み付け係数を使用して、サンプル点に割り当てられます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The greater the weighting coefficient, the less the effect points will have if they are far from the unknown point during the interpolation process.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>重み付け係数が大きくなるほど、補間処理に与える効果はその未知の点から遠い点ほど小さくなります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>As the coefficient increases, the value of the unknown point approaches the value of the nearest observational point.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>係数が増加するにつれ、未知の点の値は最も近い観測点の値に近づきます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It is important to notice that the IDW interpolation method also has some disadvantages: the quality of the interpolation result can decrease, if the distribution of sample data points is uneven. Furthermore, maximum and minimum values in the interpolated surface can only occur at sample data points. This often results in small peaks and pits around the sample data points as shown in figure_idw_interpolation_.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>IDW補間法にもいくつかの欠点があることに注意することが重要です。サンプルデータ点の分布が不均一な場合、補間結果の品質が低下する可能性があります。さらに、補間されたサーフェスの最大値と最小値は、サンプルデータポイントでのみ発生できます。これにより、 figure_idw_interpolation_ に示すように、サンプルデータポイントの周りに小さなでっぱりとへこみが生じることがよくあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In GIS, interpolation results are usually shown as a 2 dimensional raster layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GISにおいて、補間結果は、通常、2次元ラスターレイヤーとして示されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In figure_idw_result_, you can see a typical IDW interpolation result, based on elevation sample points collected in the field with a GPS device.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>figure_idw_result_ では、GPS機器でフィールド収集された標高サンプル点に基づく、典型的なIDW補間結果を見ることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>IDW interpolation result from irregularly collected elevation sample points (shown as black crosses).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>IDW補間では不規則に集められた標高サンプルポイント（黒十字で示す）から結果が得られます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Triangulated Irregular Network (TIN)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>不規則三角網（TIN）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>TIN interpolation is another popular tool in GIS. A common TIN algorithm is called **Delaunay triangulation**. It tries to create a surface formed by triangles of nearest neighbour points. To do this, circumcircles around selected sample points are created and their intersections are connected to a network of non overlapping and as compact as possible triangles (see figure_tin_interpolation_).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>TIN補間はGISにおけるもう一つの一般的なツールです。一般的なTINアルゴリズムは **ドロネー三角形分割** と呼ばれ、最近傍点の三角形で形成されたサーフェスを作成しようとします。これを行うために、選択されたサンプル点の周りの外接円が作成され、それらの交点は、重複せず、可能な限りコンパクトなネットワークに連結されます（ figure_tin_interpolation_ 参照）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Delaunay triangulation with circumcircles around the red sample data. The resulting interpolated TIN surface created from elevation vector points is shown on the right. Image Source: Mitas, L., Mitasova, H. (1999).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>赤のサンプルデータの周りの外接円とのドロネー三角形分割。標高ベクターポイントから作成された結果として補間したTINサーフェスを右側に示します。画像元: Mitas, L., Mitasova, H. (1999).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The main disadvantage of the TIN interpolation is that the surfaces are not smooth and may give a jagged appearance.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>TIN補間の主な欠点は、サーフェスがスムーズではなく、ギザギザの外観になることです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This is caused by discontinuous slopes at the triangle edges and sample data points.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは、三角形の辺とサンプルのデータ点で傾きが不連続であるせいで起こります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In addition, triangulation is generally not suitable for extrapolation beyond the area with collected sample data points (see figure_tin_result_ ).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>さらに、三角形分割は一般に、収集されたサンプルデータ点を含む領域を超える外挿には適しません（ figure_tin_result_ 参照）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Delaunay TIN interpolation result from irregularly collected rainfall sample points (blue circles)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ドローネTIN補間は不規則に収集された降水量のサンプルポイント（青い円）に由来します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Common problems / things to be aware of</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>一般的な問題 / 注意すべき点</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It is important to remember that there is no single interpolation method that can be applied to all situations.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>すべての状況に適用できる単一の補間方法はないことを覚えておくことが重要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Some are more exact and useful than others but take longer to calculate.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>いくつかは他より正確で有用ですが、計算に時間がかかります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>They all have advantages and disadvantages.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それらには長所と短所があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In practice, selection of a particular interpolation method should depend upon the sample data, the type of surfaces to be generated and tolerance of estimation errors.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>実際には、どの補間方法を選択するかは、サンプルデータ、生成されるべき表面のタイプおよび推定誤差の許容誤差に応じて変えるべきです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Generally, a three step procedure is recommended:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>一般的に、3つのステップの手順が推奨されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Evaluate the sample data. Do this to get an idea on how data are distributed in the area, as this may provide hints on which interpolation method to use.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>サンプルデータを評価します。これはデータが地域にどう分布しているかについてのアイデアを得るために行います。どの補間法を使用するかについてのヒントを提供するかもしれないので。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Apply an interpolation method which is most suitable to both the sample data and the study objectives.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>サンプルデータと研究目的の両方に最適な補間法を適用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>When you are in doubt, try several methods, if available.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>疑問がある場合には、利用可能であれば、複数の方法を試してみてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Compare the results and find the best result and the most suitable method.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>結果を比較し、最良の結果と最も適切な方法を見つけます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This may look like a time consuming process at the beginning.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは、最初は時間のかかるプロセスのように見えるかもしれません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>However, as you gain experience and knowledge of different interpolation methods, the time required for generating the most suitable surface will be greatly reduced.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>しかし、さまざまな補間方法の経験と知識を得ると、最適なサーフェスを生成するために必要な時間が大幅に短縮されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Other interpolation methods</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>その他の補間法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Although we concentrated on IDW and TIN interpolation methods in this worksheet, there are more spatial interpolation methods provided in GIS, such as Regularized Splines with Tension (RST), Kriging or Trend Surface interpolation.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このワークシートではIDWおよびTIN補間法だけを取り上げましたが、GISには、張力付正規スプライン法（RST）、クリギングまたはトレンドサーフェス補間など、より多くの空間補間方法が用意されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>See the additional reading section below for a web link.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Webリンクについては、以下の追加の読み物のセクションを参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>What have we learned?</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>わかりましたか?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Let's wrap up what we covered in this worksheet:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ここでは以下のことを学びました:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Interpolation** uses vector points with known values to estimate values at unknown locations to create a raster surface covering an entire area.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**補間** は 全領域をカバーするラスターサーフェスを作成することを目的とし未知の場所で値を推定するために、既知の値を持つベクターポイントを使用しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The interpolation result is typically a **raster** layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>補間結果は通常は **ラスター** レイヤーです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It is important to **find a suitable interpolation method** to optimally estimate values for unknown locations.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>未知の場所の値を最適に推定する **適切な補間法を見つける** ことが重要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**IDW interpolation** gives weights to sample points, such that the influence of one point on another declines with distance from the new point being estimated.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>IDW補間では、ある点から別の点への影響が推定される新点からの距離で減衰するように、サンプル点に重みを与えます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**TIN interpolation** uses sample points to create a surface formed by triangles based on nearest neighbour point information.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**TIN 補間** は最寄りのポイント情報に基づいた三角形で形成されたサーフェスを作成するためのサンプル点を使います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now you try!</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>やってみよう</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Here are some ideas for you to try with your learners:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ここでは人に教える際のアイデアいくつか述べていきます:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The Department of Agriculture plans to cultivate new land in your area but apart from the character of the soils, they want to know if the rainfall is sufficient for a good harvest.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>農業省があなたの地域で新しい耕作地を計画していますが、土壌の特性とは別に、収穫のために降雨量が十分あるかどうかを知りたいと考えています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>All the information they have available comes from a few weather stations around the area.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>利用可能なすべての情報は、周辺のいくつかの気象観測所から得られます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Create an interpolated surface with your learners that shows which areas are likely to receive the highest rainfall.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>生徒たちといっしょに最高の降雨量がありそうな地域を示す補間サーフェスを作成してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The tourist office wants to publish information about the weather conditions in January and February.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>観光局は、1月と2月に気象条件に関する情報を公開したいと考えています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>They have temperature, rainfall and wind strength data and ask you to interpolate their data to estimate places where tourists will probably have optimal weather conditions with mild temperatures, no rainfall and little wind strength.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>彼らは気温、降雨量、風力データを持っており、気温や雨量、風の強さなどの気象条件が最適な場所を推測するためにデータを補間するよう求めます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Can you identify the areas in your region that meet these criteria?</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これらの基準を満たす地域を特定できますか？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Something to think about</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>考えてみよう</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you don't have a computer available, you can use a toposheet and a ruler to estimate elevation values between contour lines or rainfall values between fictional weather stations.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>コンピュータを使用できない場合は、トポシートと定規を使用して架空の気象観測所間の等高線または降雨値の標高値を推定できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For example, if rainfall at weather station A is 50 mm per month and at weather station B it is 90 mm, you can estimate, that the rainfall at half the distance between weather station A and B is 70 mm.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>たとえば、気象局Aの降雨量が 50 mmで、気象観測所Bの気温が 90 mmの場合、気象観測所AとBの真ん中での降雨量は 70 mmと推定できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Further reading</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>より詳しく知りたい場合は</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Books**:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**図書**:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Chang, Kang-Tsung (2006). Introduction to Geographic Information Systems. 3rd Edition. McGraw Hill. ISBN: 0070658986</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Chang, Kang-Tsung (2006). Introduction to Geographic Information Systems. 3rd Edition. McGraw Hill. ISBN: 0070658986</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>DeMers, Michael N. (2005): Fundamentals of Geographic Information Systems. 3rd Edition. Wiley. ISBN: 9814126195</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>DeMers, Michael N. (2005): Fundamentals of Geographic Information Systems. 3rd Edition. Wiley. ISBN: 9814126195</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Mitas, L., Mitasova, H. (1999). Spatial Interpolation. In: P.Longley, M.F. Goodchild, D.J. Maguire, D.W.Rhind (Eds.), Geographical Information Systems: Principles, Techniques, Management and Applications, Wiley.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Mitas, L., Mitasova, H. (1999). Spatial Interpolation. In: P.Longley, M.F. Goodchild, D.J. Maguire, D.W.Rhind (Eds.), Geographical Information Systems: Principles, Techniques, Management and Applications, Wiley.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Websites**:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**ウェブサイト**:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>https://en.wikipedia.org/wiki/Interpolation</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>https://en.wikipedia.org/wiki/Interpolation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>https://en.wikipedia.org/wiki/Delaunay_triangulation</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>https://en.wikipedia.org/wiki/Delaunay_triangulation</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The QGIS User Guide also has more detailed information on interpolation tools provided in QGIS.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISユーザーガイドには、QGISで提供される補間ツールの詳細な情報が含まれています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>What's next?</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次は？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This is the final worksheet in this series.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは、このシリーズの最後のワークシートです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We encourage you to explore QGIS and use the accompanying QGIS manual to discover all the other things you can do with GIS software!</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>私たちは、QGISを探索し、GISソフトウェアで行うことができる他のすべてを発見するために、添付のQGIS説明書を使えるようになることをお勧めします！</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

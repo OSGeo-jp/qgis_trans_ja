@@ -1,0 +1,391 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Authentication infrastructure</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>認証インフラストラクチャ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Introduction</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>前書き</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>User reference of the Authentication infrastructure can be read in the  User Manual in the :ref:`authentication_overview` paragraph.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>認証基盤のユーザーリファレンスはユーザーマニュアル中で :ref:`authentication_overview` 段落を参照して下さい。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This chapter describes the best practices to use the Authentication system from a developer perspective.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この章では、開発者の観点から、認証システムを使用するベストプラクティスについて説明します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Glossary</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>用語集</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Here are some definition of the most common objects treated in this chapter.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これはこの章で扱われる最も一般的なオブジェクトのいくつかの定義です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Master Password</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>マスターパスワード</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Password to allow access and decrypt credential stored in the QGIS Authentication DB</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>アクセスを許可し、QGIS認証DBに保存された資格情報を復号化するパスワードです</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Authentication Database</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>認証データベース</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Authentication DB</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>認証DB</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:term:`Authentication Database`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:term:`認証データベース`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Authentication Configuration</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>認証の設定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A set of authentication data depending on :term:`Authentication Method`. e.g Basic authentication method stores the couple of user/password.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>認証データの構成は :term:`認証メソッド` によって異なります。例えばベーシック認証の場合は、ユーザー/パスワードの対が格納されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:term:`Authentication Configuration`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:term:`認証設定`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Authentication Method</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>認証方法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A specific method used to get authenticated.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>認証されるためには特別な方法が利用されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Each method has its own protocol used to gain the authenticated level.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>各方法は、認証されるためにそれぞれ独自のプロトコルを利用しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Each method is implemented as shared library loaded dynamically during QGIS authentication infrastructure init.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それぞれの方法は共有ライブラリとしてQGIS認証基盤の初期化中に動的にロードされるように実装されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>QgsAuthManager the entry point</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>エントリポイントQgsAuthManager</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Init the manager and set the master password</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>マネージャを初期化し、マスターパスワードを設定する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The following snippet gives an example to set master password to open the access to the authentication settings.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次のコード例は、認証設定へのアクセスを開くために、マスターパスワードを設定する例を示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Code comments are important to understand the snippet.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>コードのコメントは、このコード例を理解するために重要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Populate authdb with a new Authentication Configuration entry</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>認証データベースに新しい認証構成項目を設定する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Available Authentication methods</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>利用可能な認証方法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``Basic`` User and password authentication</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``Basic`` ユーザーとパスワード認証</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``Identity-Cert`` Identity certificate authentication</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``Identity-Cert`` アイデンティティ証明書認証</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``PKI-Paths`` PKI paths authentication</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``PKI-Paths`` PKIパス認証</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``PKI-PKCS#12`` PKI PKCS#12 authentication</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``PKI-PKCS＃12`` PKI PKCS＃12認証</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Populate Authorities</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>認証局の導入</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Manage PKI bundles with QgsPkiBundle</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QgsPkiBundleでPKIバンドルを管理する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We can remove an entry from :term:`Authentication Database` using it's ``authcfg`` identifier with the following snippet:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>以下が :term:`認証データベース` からエントリをその ``authcfg`` 識別子を使用して削除するコード例です：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Leave authcfg expansion to QgsAuthManager</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QgsAuthManagerにauthcfg展開を残す</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The best way to use an :term:`Authentication Config` stored in the :term:`Authentication DB` is referring it with the unique identifier ``authcfg``.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:term:`認証DB` に保存されている  :term:`認証config` を利用する最良の方法は一意の識別子 ``authcfg`` を参照するやり方です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Expanding, means convert it from an identifier to a complete set of credentials.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>展開とは識別子から資格情報の完全なセットに変換することを意味します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The best practice to use stored :term:`Authentication Config`\s, is to leave it managed automatically by the Authentication manager.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>保存された :term:`認証config`\s を利用する最良の方法は 認証マネージャによって自動的に管理されたままにすることです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The common use of a stored configuration is to connect to an authentication enabled service like a WMS or WFS or to a DB connection.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>保存された構成の一般的な用途は、WMSまたはWFSまたはDBの接続時の認証を行いサービスに接続することです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For example, to access a WMS service using stored credentials identified with ``authcfg = 'fm1s770'``, we just have to use the ``authcfg`` in the data source URL like in the following snippet:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>例えば、 ``authcfg = 'fm1s770'`` で識別保存された資格情報を使用してWMSサービスにアクセスするためには、次のコードのように、データ・ソースのURLに ``authcfg`` を使用する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In the upper case, the ``wms`` provider will take care to expand ``authcfg`` URI parameter with credential just before setting the HTTP connection.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>上の場合には、 ``wms`` プロバイダーは、単にHTTP接続を設定する前に、資格を ``authcfg`` URIパラメーターを拡張するために世話をします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The ``False`` parameter is important to avoid URI complete expansion of the ``authcfg`` id present in the URI.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``False`` パラメーターは、URIで ``authcfg`` IDの存在のURI完全な展開を避けるために重要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>PKI examples with other data providers</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>他のデータプロバイダーとPKIの例</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Adapt plugins to use Authentication infrastructure</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>認証インフラストラクチャを使用するようにプラグインを適応させる</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This helper class can be used as in the following snippet:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このヘルパークラスは、次のコードのように使用できます：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Authentication GUIs</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>認証のGUI</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In this paragraph are listed the available GUIs useful to integrate authentication infrastructure in custom interfaces.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この段落では、カスタムインターフェイスで認証インフラストラクチャを統合するために役立つ利用可能なGUIが記載されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>GUI to select credentials</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>資格情報を選択するためのGUI</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>and can be used as in the following snippet:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>そして次のコードのように使用できます：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Authentication Editor GUI</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>認証エディタのGUI</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Authorities Editor GUI</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>認証局エディタのGUI</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

@@ -1,0 +1,1855 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Vector Attribute Data</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ベクター属性データ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|gentleLogo|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|gentleLogo|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Objectives:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>目的：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In this topic we describe how attribute data are associated with vector features and can be used to symbolise data.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ここでは属性データをどのようにベクターデータと結びつけ, シンボルを変更するかについて扱います.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Keywords:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>キーワード：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Attribute, database, fields, data, vector, symbology</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>属性, データベース, フィールド, データ, ベクター, シンボロジー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Overview</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>概要</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If every line on a map was the same colour, width, thickness, and had the same label, it would be very hard to make out what was going on. The map would also give us very little information. Take a look at figure_map_attributes_ for example.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>もし地図上の全てのラインの色, 幅, 厚み, そしてラベルも同じだとしたら, 非常にわかりづらいでしょう.そのような地図からは少しの情報しか読み取ることができません。例として,  figure_map_attributes_ を見てみましょう.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Maps come to life when colour and different symbols are used to help you to tell one type of feature from the next.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>地図は、異なる地物を区別できるように異なる色やシンボルが使用されていると見やすくなります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Can you tell the difference between rivers, roads and contours using the map on the left?</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>左の地図で河川、道路、等高線を区別はできるでしょうか？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Using the map on the right it is much easier to see the different features.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>右の地図の場合はそれが簡単にできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In this topic we will look at how attribute data can help us to make interesting and informative maps.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ここではどのように属性データによって面白くて役に立つ地図を作ることができるのかを見ていきましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In the previous topic on vector data, we briefly explained that **attribute data** are used to **describe vector features**.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>前のベクターデータについての項目では **ベクターデータの記述** に使われる **属性データ** について簡単に説明をしました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Take a look at the house pictures in figure_house_.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>figure_house_ の家の写真を見てみましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Every feature has characteristics that we can describe.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>すべての地物は記述可能な特徴を持っています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>These can be visible things, or things we know about the feature (e.g. year built).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それらは目に見える特徴もあれば、私たちが知ることのできる情報（例. 建築年）もあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The geometry of these house features is a polygon (based on the floor plan of the house), the attributes we have recorded are roof colour, whether there is a balcony, and the year the house was built.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これらの家のジオメトリはポリゴン (家の見取り図) で, 記録済みの属性情報は屋根の色, バルコニーの有無と建築年です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Note that attributes don't have to be visible things --– they can describe things we know about the feature such as the year it was built.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>属性情報は目に見えるものとは限りません -- 建築年のような情報も含むことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In a GIS Application, we can represent this feature type in a houses polygon layer, and the attributes in an attribute table (see figure_house_gis_).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GISアプリケーションでは家の地物タイプと属性テーブルに含まれる属性情報を表現できます ( figure_house_gis_ 参照) 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A houses layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>家のレイヤー。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>House features have attributes that describe the houses’ roof colour and other properties.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>家の地物には、屋根の色等の属性やその他属性情報が記述されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The attribute table (lower image) lists the attributes for the house areas shown on the map.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>属性テーブル (下図)には、地図上に示された家エリアの属性のリストが示されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>When a feature is highlighted in the table, it will appear as a yellow polygon on the map.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>地物がテーブルの中で強調表示されているときは、地図上では黄色のポリゴンとして見えるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The fact that features have attributes as well geometry in a GIS Application opens up many possibilities.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>地物はGISアプリケーション内でジオメトリ同様に属性も持っているという事実は、多くの可能性を開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For example we can use the attribute values to tell the GIS what colours and style to use when drawing features (see figure_style_by_attribute_).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>例えば、地物を描画するときにどのような色やスタイルを使用するかGISに伝えるために、属性値を使用できます（ figure_style_by_attribute_ を参照）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The process of setting colours and drawing styles is often referred to as setting feature **symbology**.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>色や描画スタイルを設定するプロセスは、地物の **シンボル** を設定すると言われることがよくあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In a GIS Application, we can draw features differently depending on their attributes.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GISアプリケーションでは、属性に応じて異なる地物を描画できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>On the left we have drawn house polygons with the same colour as the roof attribute.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>例えば左図では、家の屋根の色の属性と同じ色で、家のポリゴンを描画しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>On the right we colour coded houses according to whether they have a balcony or not.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>右図では、バルコニーの有無に応じて、家のポリゴンを塗り分けています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Attribute data can also be useful when creating **map labels**.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>属性データはまた **地図ラベル** を作成する場合にも役立ちます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Most GIS Applications will have a facility to select an attribute that should be used to label each feature.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ほとんどのGISアプリケーションには、各地物にラベルを付けるために使用する属性を選択する機能があるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you have ever **searched a map** for a place name or a specific feature, you will know how time consuming it can be.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>地名や特定の地物のために **地図を検索** したことがあれば、それがいかに時間を消費するかおわかりでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Having attribute data can make searching for a specific feature quick and easy.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>属性データがあれば、迅速かつ簡単に特定の地物の検索を実行できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In figure_search_by_attribute_ you can see an example of an attribute search in a GIS.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>figure_search_by_attribute_ にGISにおける属性検索の例があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In a GIS Application, we can also search for features based on their attributes.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GISアプリケーションでは、属性に基づいても地物を検索できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Here we see a search for houses with black roofs.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ここでは、黒い屋根の家のための検索を見られます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Results are shown in yellow in the map, turquoise on the table.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>結果は、地図中ではターコイズ、テーブル上では黄色で表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Finally, attribute data can be very useful in carrying out **spatial analysis**.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>最後に、属性データは **空間分析** を行う上で非常に役立ちます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Spatial analysis combines the spatial information stored in the geometry of features with their attribute information.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>空間解析は、その属性情報を持つ地物のジオメトリに保存された空間情報を組み合わせています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This allows us to study features and how they relate to each other.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは、地物およびそれらがお互いにどう関係するか研究することを可能にします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>There are many types of spatial analysis that can be carried out, for example, you could use GIS to find out how many red roofed houses occur in a particular area.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>実行できる空間分析の多くの種類があります、例えばGISを使用して、特定の領域で赤い屋根の家がどのくらいの数発生するか見つけることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you have tree features, you could use GIS to try to find out which species might be affected if a piece of land is developed.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>木の地物があれば、GISを使用して、土地の一部が開発されたときにどの種が影響を受ける可能性があるかを見つけだす試みができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We can use the attributes stored for water samples along a river course to understand where pollution is entering into the stream.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>汚染が流れに入っているかを理解するためには、川の流路に沿って水試料について保存された属性を使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The possibilities are endless!</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>可能性は無限大！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In a later topic we will be exploring spatial analysis in more detail.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>後のトピックでは、より詳細に空間分析を探索します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Before we move on to attribute data in more detail, let's take a quick recap.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>属性データの詳細に移る前に、簡単にまとめてみましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Features are real world things such as roads, property boundaries, electrical substation sites and so on.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>地物は、道路、敷地境界、変電所敷地、などのような、現実世界のものです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A **feature** has a **geometry** (which determines if it is a **point**, **polyline** or **polygon**) and **attributes** (which describe the feature).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**地物** は **形状** （それが **ポイント** 、 **ポリライン** または **ポリゴン** であるかどうかを決定する）と **属性** （地物を説明する）を有します 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This is shown in figure_features_at_glance_.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは figure_features_at_glance_ に示されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Vector features at a glance.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ベクター地物について簡単に</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Attributes in detail</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>属性の詳細</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Attributes for a vector feature are stored in a **table**.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ベクター地物の属性は、 **テーブル** に格納されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A table is like a spreadsheet.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>テーブルとはスプレッドシートのようなものです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Each column in the table is called a **field**.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>テーブルの各列は **フィールド** と呼ばれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Each row in the table is a **record**.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>テーブルの各行は **レコード** です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Table table_house_attributes_ shows a simple example of how an attribute table looks in a GIS.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>テーブル table_house_attributes_ は、属性テーブルがGISでどのように見えるかの簡単な例を示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The records in the attribute table in a GIS each correspond to one feature.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GISにおける属性テーブル内のレコードそれぞれが一つの地物に対応しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Usually the information in the attribute table is stored in some kind of database.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>通常、属性テーブル内の情報は、データベースのいくつかの種類に格納されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The GIS application links the attribute records with the feature geometry so that you can find records in the table by selecting features on the map, and find features on the map by selecting features in the table.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>地図上の地物を選択することで、テーブル内のレコードを検索し、テーブル上の地物を選択することで、地図中の地物を見つけることができるように、GISアプリケーションは、地物ジオメトリと属性レコードをリンクします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Attribute Table</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>属性テーブル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Field 1 : YearBuilt</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>フィールド1 : YearBuilt</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Field 2: RoofColour</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>フィールド2: RoofColour</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Field 3: Balcony</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>フィールド3: Balcony</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Record 1</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>レコード1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>1998</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>1998</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Red</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>赤</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Yes</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>はい</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Record 2</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>レコード2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>2000</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>2000</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Black</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>黒</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>No</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>いいえ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Record 3</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>レコード3</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>2001</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>2001</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Silver</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>銀色</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Table House Attributes: An attribute table has fields (columns) and records (in rows).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>家の属性表：属性テーブルはフィールド (列) とレコード (行) を持っています.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Each field in the attribute table contains contains a specific type of data –-- text, numeric or date.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>属性テーブル内の各フィールドには、データの特定のタイプが含まれています---テキスト、数値または日付が含まれています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Deciding what attributes to use for a feature requires some thought and planning.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>地物にどんな属性を使用するかを決定するにははいくらかの思考と計画が必要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In our house example earlier on in this topic, we chose roof colour, presence of a balcony and month of construction as attributes of interest.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このトピックの中では前に家の例において、関心の属性として屋根の色、バルコニーがあること、建築月数を選びました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We could just as easily have chosen other aspects of a house such as:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>以下のような家の他の面も容易に選択できたでしょう：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>number of levels</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>階数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>number of rooms</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>部屋数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>number of occupants</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>居住者数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>type of dwelling (RDP House, block of flats, shack, brick house, etc)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>住居の種類（RDPハウス、アパートのブロック、小屋、れんが造りの家など）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>year the house was built</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>家が建てられた年</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>area of floor space in the house</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>家の床面積</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>and so on....</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>他には....</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>With so many options, how do we make a good choice as to what attributes are needed for a feature?</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それほど多くの選択肢があるのに、どの属性が地物のために必要かをどうしたらうまく選択できるのでしょうか？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It usually boils down to what you plan to do with the data.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは通常、データで何をする予定かに帰着します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you want to produce a colour coded map showing houses by age, it will make sense to have a 'Year Built' attribute for your feature.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>年齢によって家屋を示す色分けされた地図を作成したい場合は、地物に「建築年」属性があると意味があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you know for sure you will never use this type of map, it is better to not store the information.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このタイプの地図を使用することはないと確かに知っている場合、情報を格納しない方が良いです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Collecting and storing unneeded information is a bad idea because of the cost and time required to research and capture the information.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>不要な情報を収集し格納するのは、情報を調査しキャプチャするためにコストや時間が必要なので、悪い考えです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Very often we obtain vector data from companies, friends or the government.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>非常に多くの場合は、企業、友人や政府からベクターデータを取得します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In these cases it is usually not possible to request specific attributes and we have to make do with what we get.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これらの場合には、特定の属性を要求することは通常不可能であり、得られたもので何とかする必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Single Symbols</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>単一シンボル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If a feature is symbolised without using any attribute table data, it can only be drawn in a simple way.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>地物が任意の属性テーブルのデータを使用せずに記号化されている場合は、それだけで簡単に描くことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For example with point features you can set the colour and **marker** (circle, square, star etc.) but that is all.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ポイント地物ではたとえば、色や **マーカー** （丸、四角、星など）を設定できますが、それがすべてです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You cannot tell the GIS to draw the features based on one of its properties in the attribute table.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>属性テーブル中のプロパティのいずれかに基づいて地物を描画するようGISに伝えることはできません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In order to do that, you need to use either a **graduated**, **continuous** or **unique value** symbol.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>そのためには、 **段階** 、 **連続** や **ユニークな値** シンボルのいずれかを使用する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>These are described in detail in the sections that follow.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これらは、以下のセクションに詳細に記載されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A GIS application will normally allow you to set the symbology of a layer using a **dialog box** such as the one shown in in figure_single_symbol_.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GISアプリケーションでは、通常、 figure_single_symbol_ で示すような **ダイアログボックス** を使用してレイヤーのシンボルを設定できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In this dialog box you can choose colours and symbol styles.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このダイアログボックスでは、色やシンボルのスタイルを選択できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Depending on the geometry type of a layer, different options may be shown.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>レイヤーのジオメトリタイプに応じて、異なるオプションが表示されることがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For example with point layers you can choose a **marker style**.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>たとえば、ポイントレイヤーでは **マーカーのスタイル** を選択できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>With line and polygon layers there is no marker style option, but instead you can select a **line style** and **colour** such as dashed orange for gravel roads, solid orange for minor roads, and so on (as shown in figure_single_symbol_poly_).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ラインとポリゴンのレイヤーではマーカーのスタイルのオプションはありませんが、代わりに、砂利道に橙破線、非主要道路に橙実線、など、 **線のスタイル** と **色** を選択できます（ figure_single_symbol_poly_ で示すように）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>With polygon layers you also have the option of setting a **fill style** and color.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ポリゴンレイヤーには **塗りつぶしスタイル** および色を設定するオプションもあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>When using simple symbols, the feature is drawn without using an attribute to control how it looks.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>シンプルシンボルを用いる際、地物は属性情報に応じた描画はできません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This is the dialog for point features.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは点地物のシンプルシンボルのダイアログです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>There are different options when defining simple symbols for polyline and polygon features.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ラインとポリゴンの地物のシンプルなシンボルを定義するための様々なオプションがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Graduated Symbols</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>段階シンボル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Sometimes vector features represent things with a changing numerical value.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ベクター地物では変化する数値で物事を表現することがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Contour lines are a good example of this.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>等高線はこの良い例です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Each contour usually has an attribute value called 'height' that contains information about what height that contour represents.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>各等高線には通常、その等高線がどの高さを表現するかという情報が含まれる'高さ'と呼ばれる属性値があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In  earlier in this topic we showed contours all drawn with the same colour.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このトピックで以前、すべて同じ色で描かれた等高線を示しました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Adding colour to the contours can help us to interpret the meanings of contours.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>等高線に色を追加すると、等高線の意味を解釈する助けになりえます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For example we can draw low lying areas with one colour, mid-altitude areas with another and high-altitude areas with a third.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>例えば、低地をある色で、中間高度地を別の色で、高地を第三の色で描画できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The height attribute of contours can be used to separate the contours into 3 classes.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>等高線の高さ属性は3クラスに等高線を分離するために使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Contours between 980 m and 1120 m will be drawn in brown, those between 1120 m and 1240 m in green and those between 1240 m and 1500 m in purple.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>980メートルと1120メートルの間の等高線は褐色、1120メートルと1240メートルの間は緑、1240メートルと1500メートルの間は紫で描画されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Our map after setting graduated colours for our contours.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>等高線にグラデーションカラーを設定した後の地図。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Setting colours based on discrete groups of attribute values is called Graduated Symbology in QGIS.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>属性値の離散的なグループに基づいて色を設定することは、QGISでは段階シンボルと呼ばれています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The process is shown in Illustrations figure_graduated_symbol_ and figure_graduated_symbol_map_.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プロセスは、イラストの figure_graduated_symbol_ と figure_graduated_symbol_map_ に示されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Graduated symbols** are most useful when you want to show clear differences between features with attribute values in different value ranges.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**段階シンボル** は異なる値の範囲内の属性値を持つ地物の間で明確な違いを示したい場合に最も便利です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The GIS Application will analyse the attribute data (e.g. height) and, based on the number of classes you request, create groupings for you.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GISアプリケーションでは、属性データ（例えば高さ）を分析し、要求したクラスの数に基づいてグループを作成してくれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This process is illustrated in table_graduated_.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このプロセスは、 table_graduated_ に例示されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Attribute Value</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>属性値</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Class and Colour</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>クラスと色</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>1</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Class 1</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>クラス1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>2</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>3</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>3</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>4</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>4</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Class 2</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>クラス2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>5</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>5</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>6</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>6</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>7</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>7</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Class 3</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>クラス3</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>8</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>8</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>9</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>9</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Continuous Colour Symbols</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>連続カラーシンボル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In the previous section on Graduated Colour symbols we saw that we can draw features in discrete groups or classes.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>段階色シンボルについての前のセクションでは、個別のグループまたはクラスの地物を描画できることを見ました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Sometimes it is useful to draw features in a **colour range** from one colour to another.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>時には一つの色から別のものに **色範囲** 内で地物を描くのに便利です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The GIS Application will use a numerical attribute value from a feature (e.g. contour heights or pollution levels in a stream) to decide which colour to use.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GISアプリケーションでは、地物からの数値属性値（例えば、等高線の高さや流れでの汚染レベル）を使用して使用する色を決定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Table table_continuous_ shows how the attribute value is used to define a continuous range of colours.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>表 table_continuous_ では属性値は色の連続的な範囲を定義するために使用される方法を示しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Colour (no classes or grouping)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>カラー（無階級またはグルーピング）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Table Continuous: Continuous colour symbology uses a start colour (e.g. light orange shown here) and an end colour (e.g. dark brown shown here) and creates a series of shades between those colours.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>表　連続：連続色シンボルは開始色（例えばここでは明橙色）および終了色（例えばここでは暗褐色）を使用し、それらの色の間で色調の系列を作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Using the same contours example we used in the previous section, let's see how a map with continuous colour symbology is defined and looks.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>前のセクションで使用したのと同じ等高線の例を使用して、連続色のシンボルの地図がどのように定義され、どのように見えるかを見てみましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The process starts by setting the layers properties to continuous colour using a dialog like the one shown in figure_continuous_symbol_.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プロセスは figure_continuos_symbol_ に示すようなダイアログを使用して、レイヤーのプロパティを連続色に設定することによって開始します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Setting up continuous colour symbology.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>連続色のシンボルを設定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The contour height attribute is used to determine colour values.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>等高線高さ属性は、色値を決定するために使用されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Colours are defined for the minimum and maximum values.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>色は、最小値と最大値のために定義されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The GIS Application will then create a gradient of colours for drawing the features based on their heights.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GISアプリケーションは、その高さに基づいて地物を描画するための色のグラデーションを作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>After defining the minimum and maximum colours in the colour range, the colour features are drawn in will depend on where the attribute lies in the range between minimum and maximum.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>色範囲の最小と最大の色を定義した後、地物が描画される色は、属性が範囲の最小値と最大値の間のどこにあるか依存します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For example if you have contour features with values starting at 1000 m and ending at 1400 m, the value range is 1000 to 1400.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>値が1000メートルで開始し1400メートルで終わる等高線の地物を持っている場合、値の範囲は1000から1400です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If the colour set for the minimum value is set to orange and the colour for the maximum value is black, contours with a value of close to 1400 m will be drawn close to black.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>最小値に設定された色が橙、最大値に設定された色が黒である場合、例えば、、1400メートルに近い値の等高線は黒に近い色で描画されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>On the other hand contours with a value near to 1000 m will be drawn close to orange (see figure_continuous_symbol_map_).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>他方、1000メートルに近い値を持つ等高線は橙に近い色で描画されます（ figure_continuous_symbol_ 参照）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A contour map drawn using continuous colour symbology</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>連続カラーシンボルを用いた等高線地図</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Unique Value Symbols</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>単一シンボル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Sometimes the attributes of features are not numeric, but instead **strings** are used. 'String' is a computer term meaning a group of letters, numbers and other writing symbols. Strings attributes are often used to classify things by name. We can tell the GIS Application to give each unique string or number its own colour and symbol. Road features may have different classes (e.g. 'street', 'secondary road', 'main road' etc.), each drawn in the map view of the GIS with different colours or symbols. This is illustrated in table_unique_.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>地物の属性が数値でなく、代わりに **文字列** が使用されていることがあります。「文字列」は文字、数字、その他の書き込みシンボルのグループを意味するコンピュータ用語です。文字列の属性は、多くの場合、名前で物事を分類するために使用されます。それぞれの固有の文字列または数値に独自の色やシンボルを与えるようにGISアプリケーションに伝えることができます。道路の地物は、異なる分類（例えば、「街路」、「周辺道路」、「主要道路」など）を有していて、それぞれはGISの地図ビュー内で異なる色またはシンボルで描くことができます。これは table_unique_ に例示されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Colour class and symbol</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>色クラスとシンボル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Arterial route</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>幹線道路</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Main road</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>主要道路</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Secondary road</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>周辺道路</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Street</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>街路</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Table Unique: Unique attribute values for a feature type (e.g. roads) can each have their own symbol.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>表　一意: 地物タイプ（e.g. 道路）のユニークな属性値で各々のシンボルを持つ。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Within the GIS Application we can open/choose to use Unique Value symbology for a layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GISアプリケーション内ではレイヤーのための「ユニークな値」シンボルを使用することを開く・選択できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The GIS will scan through all the different string values in the attribute field and build a list of unique strings or numbers.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GISは、属性フィールドにすべての異なる文字列値をスキャンし、ユニークな文字列や数値のリストを作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Each unique value can then be assigned a colour and style.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それぞれのユニークな値は、色とスタイルを割り当てることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This is shown in figure_unique_symbol_.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは figure_unique_symbol_ に示されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Defining unique value symbology for roads based on the road type.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>道路の種類に基づいて、道路に対して一意のシンボルを定義します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>When the GIS draws the layer, it will look at the attributes of each feature before drawing it to the screen.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GISはレイヤーを描画するとき、画面に描画する前に各地物の属性を見ていきます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Based on the value in the chosen field in the attribute table, the road line will be drawn with suitable colour and line style (and fill style if its a polygon feature).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>属性テーブルで選択したフィールドの値に基づいて、道路線は、適切な色と線スタイル（ポリゴン地物の場合は塗りスタイル）で描画されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This is shown in figure_unique_symbol_map_.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは figure_unique_symbol_ に示されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A roads vector layer symbolised using a unique value per road type.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>道路ベクターレイヤーは道路の種別ごとに一意の値を用いてシンボル化されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Things to be aware of</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>注意すべき点</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Deciding which attributes and symbology to use requires some planning.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>使用する属性と記号を決定するときは、いくらか計画が必要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Before you start collecting any **GeoSpatial** data, you should ensure you know what attributes are needed and how it will be symbolised.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>何らかの **地理空間** データの収集を開始する前に、必要とされている属性が何で、それがどのように記号化されるかを知っているか確かめる必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It is very difficult to go back and re-collect data if you plan poorly the first time around.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>最初の頃に立てた計画が悪いと、前に戻ってデータを再収集することは非常に困難です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Remember also that the goal of collecting attribute data is to allow you to analyse and interpret spatial information.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>属性データを収集する目的は、空間情報を分析し、解釈できるようにすることであることも忘れないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>How you do this depends on the questions you are trying to answer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>どのようにこれをするかは答えようとしている質問に依存します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Symbology is a visual language that allows people to see and understand your attribute data based on the colours and symbols you use.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>シンボル体系は、人々が使用された色や記号に基づいて属性データを見て理解できるようにする視覚言語です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Because of this you should put a lot of thought into how you symbolise your maps in order to make them easy to understand.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このため、理解しやすくするためには地図をどのようにシンボル化したらよいかに、思考の多くをつぎ込む必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>What have we learned?</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>わかりましたか?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Let's wrap up what we covered in this worksheet:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ここでは以下のことを学びました:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Vector features have **attributes**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ベクターデータは **属性** を持っています</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Attributes **describe** the **properties** of the feature</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>地物の **情報** を **記述** する属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The attributes are stored in a **table**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>属性は **テーブル** に格納されます</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Rows in the table are called **records**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>テーブルの行は **レコード** と呼ばれます</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>There is **one record per feature** in the vector layer</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ベクターレイヤーでは **それぞれの地物ごとにレコード** があります</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Columns in the table are called **fields**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>テーブルの列は **フィールド** と呼ばれます</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Fields represent **properties** of the feature e.g. height, roof colour etc.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>フィールドは地物の持つ **情報** (例. 高さ, 屋根の色)を表します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Fields can contain **numerical**, **string** (any text) and **date** information</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>フィールドは,  **数値**, **(任意の) 文字列**, **日付** などの情報を含むことができます</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The attribute data for a feature can be used to determine how it is **symbolised**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>地物の属性データはシンボルの設定に使用することができます</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Graduated colour** symbology groups the data into discrete classes</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**段階カラー** シンボルはデータをいくつかのクラスにまとめることができます</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Continuous colour** symbology assigns colours from a colour range to the features based on their attributes</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**連続カラー** シンボルは, 地物の属性情報に基づいてカラーレンジの色を割り当てることができます</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Unique value** symbology associates each different value in the chosen attribute column with a different symbol (colour and style)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**個別値** シンボルは指定した属性フィールドの中の個別値にそれぞれ異なるシンボル (色やスタイル) を設定することができます</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If the attribute of a vector layer is not used to determine its symbology, it is drawn using a **single symbol** only</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ベクターレイヤーの属性が定義されたシンボル体系を使用していない場合は、 **単一シンボル** を使用して描画されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now you try!</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>やってみよう</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Here are some ideas for you to try with your learners:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ここでは人に教える際のアイデアいくつか述べていきます:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Using the table that you created in the last topic, add a new column for the symbology type you would use for each feature type and have the learners identify which symbology type they would use (see table_example_symbols_ for an example).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>最後のトピックで作成したテーブルを使用して、地物タイプごとに使用し記号の種類の新しい列を追加し、生徒たちに彼らが使用しているシンボルの種類を識別させてください（例えば table_example_symbols_ を参照）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Try to identify which symbology types you would use for the following types of vector features:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ベクター地物は、次のタイプで使用しているシンボロジーの種類を特定するようにしてください：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>points showing pH level of soil samples taken around your school</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>学校のまわりで採集された土壌サンプルのpHレベルを示す点</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>lines showing a road network in a city</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>都市の道路網を示すライン</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>polygons for houses with an attribute that shows whether it is made of brick, wood or 'other' material.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>レンガ、木材、あるいは「他の」材料で作られているかどうかを示す属性をもつ住宅ポリゴン。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Real world feature</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>実際の地物</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Geometry Type</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ジオメトリタイプ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Symbology Type</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>シンボルタイプ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The school flagpole</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>学校の旗のポール</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Point</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>点</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Single Symbol</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>単一シンボル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The soccer field</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>サッカー場</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Polygon</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ポリゴン</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The footpaths in and around the school</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>学校および周辺の歩道</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Polyline</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ポリライン</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Have your learners count the number of learners using each footpath in the hour before school and then use **graduated symbols** to show the popularity of each footpath</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>生徒たちに、学校の前の時間に各歩道を利用する生徒の数を数えさせ、それから **段階シンボル** を使用して各歩道の人気を示させてください</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Places where taps are located</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>タップが置かれている場所</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Single symbol</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>単一シンボル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Classrooms</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>教室</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Unique value** based on the grade of the learners in the classroom</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>教室にいる生徒たちの学年にもとづく **ユニーク値** 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Fence</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>フェンス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Have your learners rate the condition of the fence around your school by separating it into sections and grading each section on a scale of 1\-9 based on its condition.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>学校の周りのフェンスについて、区間に分離してその各区間を状態に基づいて1 \-9の尺度で採点することで、生徒たちに状態を評価させます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Use **graduated symbols** to classify the condition attribute.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>状態属性を分類するために **段階シンボル** を使用してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Count the number of learners in each classroom and use a **continuous colour symbol** to define a range of colours from red to blue.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>各教室における生徒たちの数をカウントし、赤から青に色の範囲を定義するために **連続色シンボル** を使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Table Example Symbols: An example of a table that defines the feature types and the kind of symbology you would use for each.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>表　例記号：地物タイプとそれぞれのために使用するシンボルの種類を定義するテーブルの例。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Something to think about</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>考えてみよう</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you don't have a computer available, you can use transparency sheets and a 1:50 000 map sheet to experiment with different symbology types.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>利用可能なコンピュータを持っていない場合は、別のシンボルの種類を試して、透明シートと1:50,000地図シートを使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For example place a transparency sheet over the map and using different coloured koki pens, draw in red all contour lines below 900 m (or similar) and in green all lines above or equal to 900 m.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>例えば、地図上に透明シートを配置し、異なる色のフェルトペンを使用して、すべての行上または900メートルに等しい赤色900 M（または類似の）以下と緑内のすべての等高線を描きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Can you think of how to reproduce other symbology types using the same technique?</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>同じ技術を使用して他のシンボルタイプを再現する方法を考えることができますか？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Further reading</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>より詳しく知りたい場合は</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Website:** https://en.wikipedia.org/wiki/Cartography#Map_symbology</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**Webサイト** https://en.wikipedia.org/wiki/Cartography#Map_symbology</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The QGIS User Guide also has more detailed information on working with attribute data and symbology in QGIS.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISユーザーガイドにも、QGISにおける属性データとシンボル体系についてのより詳細な情報があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>What's next?</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次は？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In the section that follows we will take a closer look at **data capture.** We will put the things we have learned about vector data and attributes into practice by creating new data.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>続くセクションでは **データキャプチャ** を詳しく見てみます。ここでベクターデータおよび属性について学んできたことは、新しいデータを作成することによって実践するでしょう。</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>
