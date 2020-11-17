@@ -4,6 +4,838 @@
   <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="5.4.0_0_f1e32ca8" segtype="sentence" srclang="en-US"/>
   <body>
 <!-- Default translations -->
+    <tu>
+      <tuv lang="en-US">
+        <seg>**Continuous colour** symbology assigns colours from a colour range to the features based on their attributes</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>**連続カラー** シンボルは, 地物の属性情報に基づいてカラーレンジの色を割り当てることができます</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>**Graduated colour** symbology groups the data into discrete classes</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>**段階カラー** シンボルはデータをいくつかのクラスにまとめることができます</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>**Unique value** based on the grade of the learners in the classroom</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>教室にいる生徒たちの学年にもとづく **ユニーク値** 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>**Unique value** symbology associates each different value in the chosen attribute column with a different symbol (colour and style)</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>**個別値** シンボルは指定した属性フィールドの中の個別値にそれぞれ異なるシンボル (色やスタイル) を設定することができます</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>**Website:** https://en.wikipedia.org/wiki/Cartography#Map_symbology</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>**Webサイト** https://en.wikipedia.org/wiki/Cartography#Map_symbology</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>A contour map drawn using continuous colour symbology</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>連続カラーシンボルを用いた等高線地図</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>A roads vector layer symbolised using a unique value per road type.</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>道路ベクターレイヤーは道路の種別ごとに一意の値を用いてシンボル化されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Arterial route</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>幹線道路</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Attribute Table</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>属性テーブル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Attribute Value</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>属性値</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Attribute, database, fields, data, vector, symbology</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>属性, データベース, フィールド, データ, ベクター, シンボロジー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Attributes **describe** the **properties** of the feature</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>地物の **情報** を **記述** する属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Attributes in detail</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>属性の詳細</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Before we move on to attribute data in more detail, let's take a quick recap.</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>属性データの詳細に移る前に、簡単にまとめてみましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Black</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>黒</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Class 1</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>クラス1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Class 2</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>クラス2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Class 3</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>クラス3</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Class and Colour</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>クラスと色</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Classrooms</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>教室</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Colour (no classes or grouping)</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>カラー（無階級またはグルーピング）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Colour class and symbol</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>色クラスとシンボル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Columns in the table are called **fields**</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>テーブルの列は **フィールド** と呼ばれます</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Continuous Colour Symbols</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>連続カラーシンボル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Count the number of learners in each classroom and use a **continuous colour symbol** to define a range of colours from red to blue.</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>各教室における生徒たちの数をカウントし、赤から青に色の範囲を定義するために **連続色シンボル** を使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Defining unique value symbology for roads based on the road type.</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>道路の種類に基づいて、道路に対して一意のシンボルを定義します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Documentation Guidelines</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201029T134422Z" creationid="miurahr" creationdate="20201029T134422Z">
+        <seg>資料のガイドライン</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Fence</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>フェンス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Field 1 : YearBuilt</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>フィールド1 : YearBuilt</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Field 2: RoofColour</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>フィールド2: RoofColour</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Field 3: Balcony</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>フィールド3: Balcony</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Fields can contain **numerical**, **string** (any text) and **date** information</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>フィールドは,  **数値**, **(任意の) 文字列**, **日付** などの情報を含むことができます</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Fields represent **properties** of the feature e.g. height, roof colour etc.</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>フィールドは地物の持つ **情報** (例. 高さ, 屋根の色)を表します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Further reading</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>より詳しく知りたい場合は</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Geometry Type</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>ジオメトリタイプ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Graduated Symbols</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>段階シンボル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Have your learners count the number of learners using each footpath in the hour before school and then use **graduated symbols** to show the popularity of each footpath</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>生徒たちに、学校の前の時間に各歩道を利用する生徒の数を数えさせ、それから **段階シンボル** を使用して各歩道の人気を示させてください</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Here are some ideas for you to try with your learners:</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>ここでは人に教える際のアイデアいくつか述べていきます:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If no replacement exists:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201029T134551Z" creationid="miurahr" creationdate="20201029T134551Z">
+        <seg>置換が存在しない場合、</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If the attribute of a vector layer is not used to determine its symbology, it is drawn using a **single symbol** only</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>ベクターレイヤーの属性が定義されたシンボル体系を使用していない場合は、 **単一シンボル** を使用して描画されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In the section that follows we will take a closer look at **data capture.** We will put the things we have learned about vector data and attributes into practice by creating new data.</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>続くセクションでは **データキャプチャ** を詳しく見てみます。ここでベクターデータおよび属性について学んできたことは、新しいデータを作成することによって実践するでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In this topic we describe how attribute data are associated with vector features and can be used to symbolise data.</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>ここでは属性データをどのようにベクターデータと結びつけ, シンボルを変更するかについて扱います.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Keywords:</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>キーワード：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Let's wrap up what we covered in this worksheet:</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>ここでは以下のことを学びました:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Main road</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>主要道路</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>No</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>いいえ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Now you try!</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>やってみよう</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Objectives:</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>目的：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Our map after setting graduated colours for our contours.</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>等高線にグラデーションカラーを設定した後の地図。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Overview</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>概要</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Places where taps are located</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>タップが置かれている場所</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Point</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>点</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Polygon</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>ポリゴン</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Polyline</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>ポリライン</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Real world feature</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>実際の地物</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Record 1</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>レコード1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Record 2</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>レコード2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Record 3</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>レコード3</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Red</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>赤</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Rows in the table are called **records**</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>テーブルの行は **レコード** と呼ばれます</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Secondary road</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>周辺道路</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Silver</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>銀色</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Single Symbol</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>単一シンボル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Single Symbols</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>単一シンボル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Single symbol</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>単一シンボル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Something to think about</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>考えてみよう</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Street</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>街路</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Symbology Type</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>シンボルタイプ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Table Continuous: Continuous colour symbology uses a start colour (e.g. light orange shown here) and an end colour (e.g. dark brown shown here) and creates a series of shades between those colours.</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>表　連続：連続色シンボルは開始色（例えばここでは明橙色）および終了色（例えばここでは暗褐色）を使用し、それらの色の間で色調の系列を作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Table Example Symbols: An example of a table that defines the feature types and the kind of symbology you would use for each.</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>表　例記号：地物タイプとそれぞれのために使用するシンボルの種類を定義するテーブルの例。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Table House Attributes: An attribute table has fields (columns) and records (in rows).</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>家の属性表：属性テーブルはフィールド (列) とレコード (行) を持っています.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Table Unique: Unique attribute values for a feature type (e.g. roads) can each have their own symbol.</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>表　一意: 地物タイプ（e.g. 道路）のユニークな属性値で各々のシンボルを持つ。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The QGIS User Guide also has more detailed information on working with attribute data and symbology in QGIS.</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>QGISユーザーガイドにも、QGISにおける属性データとシンボル体系についてのより詳細な情報があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The attribute data for a feature can be used to determine how it is **symbolised**</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>地物の属性データはシンボルの設定に使用することができます</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The attributes are stored in a **table**</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>属性は **テーブル** に格納されます</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The footpaths in and around the school</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>学校および周辺の歩道</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The school flagpole</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>学校の旗のポール</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The soccer field</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>サッカー場</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>There are different options when defining simple symbols for polyline and polygon features.</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>ラインとポリゴンの地物のシンプルなシンボルを定義するための様々なオプションがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>There is **one record per feature** in the vector layer</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>ベクターレイヤーでは **それぞれの地物ごとにレコード** があります</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Things to be aware of</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>注意すべき点</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Thus, when you want to use an icon from QGIS application in the documentation there is a big chance that there is already a substitution that can/should be used.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201029T134544Z" creationid="miurahr" creationdate="20201029T134544Z">
+        <seg>そのため、QGISのアプリケーションのアイコンをドキュメントで使用したい場合、使用できる/使用する必要がある代替がすでに存在する可能性があります。M</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>To ease the use of icons in QGIS manuals, replacements are defined for each icon in :file:`/source/substitutions.txt` file at `QGIS-Documentation repository &lt;https://github.com/qgis/QGIS-Documentation&gt;`_ and some of these substitutions are listed below.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201029T134520Z" creationid="miurahr" creationdate="20201029T134520Z">
+        <seg>QGIS マニュアルのアイコンの使いやすさを容易にするために、 QGIS-Documentation リポジトリー &lt;https://github.com/qgis/QGIS-Documentation&gt;`_ にある :file:`/source/substitutions.txt ファイルの各アイコンに対して置換が定義されています。これらの置換のいくつかは、以下にリストされています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Try to identify which symbology types you would use for the following types of vector features:</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>ベクター地物は、次のタイプで使用しているシンボロジーの種類を特定するようにしてください：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Unique Value Symbols</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>単一シンボル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Usage</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201029T134500Z" creationid="miurahr" creationdate="20201029T134500Z">
+        <seg>使用方法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Using the table that you created in the last topic, add a new column for the symbology type you would use for each feature type and have the learners identify which symbology type they would use (see table_example_symbols_ for an example).</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>最後のトピックで作成したテーブルを使用して、地物タイプごとに使用し記号の種類の新しい列を追加し、生徒たちに彼らが使用しているシンボルの種類を識別させてください（例えば table_example_symbols_ を参照）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Vector Attribute Data</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>ベクター属性データ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Vector features at a glance.</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>ベクター地物について簡単に</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Vector features have **attributes**</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>ベクターデータは **属性** を持っています</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>What have we learned?</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>わかりましたか?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>What's next?</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>次は？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Working with Vector Data</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>ベクターデータの操作</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Yes</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>はい</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>and so on....</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>他には....</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>area of floor space in the house</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>家の床面積</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>lines showing a road network in a city</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>都市の道路網を示すライン</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>number of levels</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>階数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>number of occupants</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>居住者数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>number of rooms</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>部屋数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>points showing pH level of soil samples taken around your school</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>学校のまわりで採集された土壌サンプルのpHレベルを示す点</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>polygons for houses with an attribute that shows whether it is made of brick, wood or 'other' material.</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>レンガ、木材、あるいは「他の」材料で作られているかどうかを示す属性をもつ住宅ポリゴン。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>type of dwelling (RDP House, block of flats, shack, brick house, etc)</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>住居の種類（RDPハウス、アパートのブロック、小屋、れんが造りの家など）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>year the house was built</seg>
+      </tuv>
+      <tuv lang="ja">
+        <seg>家が建てられた年</seg>
+      </tuv>
+    </tu>
 <!-- Alternative translations -->
   </body>
 </tmx>
