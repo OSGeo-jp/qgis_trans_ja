@@ -4,10 +4,7 @@
   <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
   <body>
     <tu>
-      <tuv xml:lang="en">
-        <seg>QGIS Training Manual</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>QGIS Training Manual</seg></tuv><tuv xml:lang="ja">
         <seg>QGISトレーニングマニュアル</seg>
       </tuv>
     </tu>

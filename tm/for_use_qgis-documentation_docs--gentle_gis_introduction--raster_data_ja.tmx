@@ -2,64 +2,35 @@
 <!DOCTYPE tmx SYSTEM "tmx14.dtd">
 <tmx version="1.4">
   <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
-  <body>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Raster Data</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+  <body><tu>
+      <tuv xml:lang="en"><seg>Raster Data</seg></tuv><tuv xml:lang="ja">
         <seg>ラスターデータ</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>|gentleLogo|</seg></tuv><tuv xml:lang="ja">
         <seg>|gentleLogo|</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>|gentleLogo|</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Objectives:</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Objectives:</seg></tuv><tuv xml:lang="ja">
         <seg>目的</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Understand what raster data is and how it can be used in a GIS.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Understand what raster data is and how it can be used in a GIS.</seg></tuv><tuv xml:lang="ja">
         <seg>ラスターデータとは何か、GISでそれがどのように利用可能かを理解します。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Keywords:</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Keywords:</seg></tuv><tuv xml:lang="ja">
         <seg>キーワード：</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Raster, Pixel, Remote Sensing, Satellite, Image, Georeference</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Raster, Pixel, Remote Sensing, Satellite, Image, Georeference</seg></tuv><tuv xml:lang="ja">
         <seg>ラスター、ピクセル、リモートセンシング、衛星画像、ジオリファレンス</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Overview</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Overview</seg></tuv><tuv xml:lang="ja">
         <seg>概要</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>In the previous topics we have taken a closer look at vector data. While vector features use geometry (points, polylines and polygons) to represent the real world, raster data takes a different approach. Rasters are made up of a matrix of pixels (also called cells), each containing a value that represents the conditions for the area covered by that cell (see figure_raster_). In this topic we are going to take a closer look at raster data, when it is useful and when it makes more sense to use vector data.</seg>
       </tuv>
@@ -76,14 +47,10 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Raster data in detail</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>Raster data in detail</seg></tuv><tuv xml:lang="ja">
         <seg>ラスター形式データの詳細</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>Raster data is used in a GIS application when we want to display information that is continuous across an area and cannot easily be divided into vector features. When we introduced you to vector data we showed you the image in figure_landscape_. Point, polyline and polygon features work well for representing some features on this landscape, such as trees, roads and building footprints. Other features on a landscape can be more difficult to represent using vector features. For example the grasslands shown have many variations in colour and density of cover. It would be easy enough to make a single polygon around each grassland area, but a lot of the information about the grassland would be lost in the process of simplifying the features to a single polygon. This is because when you give a vector feature attribute values, they apply to the whole feature, so vectors aren't very good at representing features that are not homogeneous (entirely the same) all over. Another approach you could take is to digitise every small variation of grass colour and cover as a separate polygon. The problem with that approach is that it will take a huge amount of work in order to create a good vector dataset.</seg>
       </tuv>
@@ -108,14 +75,10 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>An example that shows the difference between an image obtained from a satellite and one that shows calculated values can be seen in figure_raster_types_.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>An example that shows the difference between an image obtained from a satellite and one that shows calculated values can be seen in figure_raster_types_.</seg></tuv><tuv xml:lang="ja">
         <seg>衛星から取得した画像と計算値との差分を示す例を figure_raster_types_ でお見せします。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>True colour raster images (left) are useful as they provide a lot of detail that is hard to capture as vector features but easy to see when looking at the raster image. Raster data can also be non-photographic data such as the raster layer shown on the right which shows the calculated average minimum temperature in the Western Cape for the month of March.</seg>
       </tuv>
@@ -124,14 +87,10 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Georeferencing</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>Georeferencing</seg></tuv><tuv xml:lang="ja">
         <seg>ジオリファレンス</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>Georeferencing is the process of defining exactly where on the earth's surface an image or raster dataset was created. This positional information is stored with the digital version of the aerial photo. When the GIS application opens the photo, it uses the positional information to ensure that the photo appears in the correct place on the map. Normally this positional information consists of a coordinate for the top left pixel in the image, the size of each pixel in the X direction, the size of each pixel in the Y direction, and the amount (if any) by which the image is rotated. With these few pieces of information, the GIS application can ensure that raster data are displayed in the correct place. The georeferencing information for a raster is often provided in a small text file accompanying the raster.</seg>
       </tuv>
@@ -140,14 +99,10 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Sources of raster data</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>Sources of raster data</seg></tuv><tuv xml:lang="ja">
         <seg>ラスターデータのソース</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>Raster data can be obtained in a number of ways. Two of the most common ways are aerial photography and satellite imagery. In aerial photography, an aeroplane flies over an area with a camera mounted underneath it. The photographs are then imported into a computer and georeferenced. Satellite imagery is created when satellites orbiting the earth point special digital cameras towards the earth and then take an image of the area on earth they are passing over. Once the image has been taken it is sent back to earth using radio signals to special receiving stations such as the one shown in figure_csir_station_. The process of capturing raster data from an aeroplane or satellite is called **remote sensing**.</seg>
       </tuv>
@@ -180,14 +135,10 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Spatial Resolution</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>Spatial Resolution</seg></tuv><tuv xml:lang="ja">
         <seg>空間的解像度</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>Every raster layer in a GIS has pixels (cells) of a fixed size that determine its spatial resolution. This becomes apparent when you look at an image at a small scale (see figure_raster_small_scale_) and then zoom in to a large scale (see figure_raster_large_scale_).</seg>
       </tuv>
@@ -196,22 +147,14 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>This satellite image looks good when using a small scale...</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>This satellite image looks good when using a small scale...</seg></tuv><tuv xml:lang="ja">
         <seg>小縮尺で使用するとこの衛星画像はきれいに見えます…</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>...but when viewed at a large scale you can see the individual pixels that the image is composed of.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>...but when viewed at a large scale you can see the individual pixels that the image is composed of.</seg></tuv><tuv xml:lang="ja">
         <seg>...が、大縮尺で見た場合は画像を構成する個々のピクセルが見えてしまいます。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>Several factors determine the spatial resolution of an image. For remote sensing data, spatial resolution is usually determined by the capabilities of the sensor used to take an image. For example SPOT5 satellites can take images where each pixel is 10 m x 10 m. Other satellites, for example MODIS take images only at 500 m x 500 m per pixel. In aerial photography, pixel sizes of 50 cm x 50 cm are not uncommon. Images with a pixel size covering a small area are called '**high resolution**' images because it is possible to make out a high degree of detail in the image. Images with a pixel size covering a large area are called '**low resolution**' images because the amount of detail the images show is low.</seg>
       </tuv>
@@ -244,22 +187,14 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>On the other hand, using low resolution raster data can be problematic if you are interested in a small region because you probably won't be able to make out any individual features from the image.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>On the other hand, using low resolution raster data can be problematic if you are interested in a small region because you probably won't be able to make out any individual features from the image.</seg></tuv><tuv xml:lang="ja">
         <seg>その一方、画像から個々の地物はたぶん作れなくなるため、小さな領域に興味があるなら、低解像度のラスターデータを使用することは問題となる可能性があります。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Spectral resolution</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Spectral resolution</seg></tuv><tuv xml:lang="ja">
         <seg>スペクトルの解像度</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>If you take a colour photograph with a digital camera or camera on a cellphone, the camera uses electronic sensors to detect red, green and blue light. When the picture is displayed on a screen or printed out, the red, green and blue (RGB) information is combined to show you an image that your eyes can interpret. While the information is still in digital format though, this RGB information is stored in separate colour **bands**.</seg>
       </tuv>
@@ -292,22 +227,14 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Raster to vector conversion</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>Raster to vector conversion</seg></tuv><tuv xml:lang="ja">
         <seg>ラスターからベクターへの変換</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>In our discussion of vector data, we explained that often raster data are used as a backdrop layer, which is then used as a base from which vector features can be digitised.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>In our discussion of vector data, we explained that often raster data are used as a backdrop layer, which is then used as a base from which vector features can be digitised.</seg></tuv><tuv xml:lang="ja">
         <seg>ベクターデータの議論では、多くの場合、ラスターデータは、ベクター地物をデジタル化するためのベースとして使用される背景レイヤーとして使用されると説明しました。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>Another approach is to use advanced computer programs to automatically extract vector features from images. Some features such as roads show in an image as a sudden change of colour from neighbouring pixels. The computer program looks for such colour changes and creates vector features as a result. This kind of functionality is normally only available in very specialised (and often expensive) GIS software.</seg>
       </tuv>
@@ -316,14 +243,10 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Vector to raster conversion</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>Vector to raster conversion</seg></tuv><tuv xml:lang="ja">
         <seg>ベクターからラスターへの変換</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>Sometimes it is useful to convert vector data into raster data. One side effect of this is that attribute data (that is attributes associated with the original vector data) will be lost when the conversion takes place. Having vectors converted to raster format can be useful though when you want to give GIS data to non GIS users. With the simpler raster formats, the person you give the raster image to can simply view it as an image on their computer without needing any special GIS software.</seg>
       </tuv>
@@ -332,14 +255,10 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Raster analysis</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>Raster analysis</seg></tuv><tuv xml:lang="ja">
         <seg>ラスター分析</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>There are a great many analytical tools that can be run on raster data which cannot be used with vector data. For example, rasters can be used to model water flow over the land surface. This information can be used to calculate where watersheds and stream networks exist, based on the terrain.</seg>
       </tuv>
@@ -364,134 +283,70 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Common problems / things to be aware of</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>Common problems / things to be aware of</seg></tuv><tuv xml:lang="ja">
         <seg>一般的な問題 / 注意すべき点</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>As we have already mentioned, high resolution raster data can require large amounts of computer storage.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>As we have already mentioned, high resolution raster data can require large amounts of computer storage.</seg></tuv><tuv xml:lang="ja">
         <seg>すでに述べたように、高解像度のラスターデータは、コンピュータ記憶容量を大量に必要とすることがあります。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>What have we learned?</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>What have we learned?</seg></tuv><tuv xml:lang="ja">
         <seg>わかりましたか?</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Let's wrap up what we covered in this worksheet:</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Let's wrap up what we covered in this worksheet:</seg></tuv><tuv xml:lang="ja">
         <seg>ここでは以下のことを学びました:</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Raster data are a grid of regularly sized **pixels.**</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Raster data are a grid of regularly sized **pixels.**</seg></tuv><tuv xml:lang="ja">
         <seg>ラスターデータは規則的なサイズの **ピクセル** のグリッドです。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Raster data are good for showing **continually varying information.**</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Raster data are good for showing **continually varying information.**</seg></tuv><tuv xml:lang="ja">
         <seg>ラスターデータは **たえず変化する情報** を表示するのに適しています。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>The size of pixels in a raster determines its **spatial resolution.**</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>The size of pixels in a raster determines its **spatial resolution.**</seg></tuv><tuv xml:lang="ja">
         <seg>ラスター内のピクセルの大きさは、その **空間分解能** を決定します。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Raster images can contain one or more **bands**, each covering the same spatial area, but containing different information.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Raster images can contain one or more **bands**, each covering the same spatial area, but containing different information.</seg></tuv><tuv xml:lang="ja">
         <seg>ラスター画像は１つまたはそれ以上の **バンド** を含みます。それぞれが空間的なエリアをカバーするが、異なる情報を持ちます。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>When raster data contains bands from different parts of the electromagnetic spectrum, they are called **multi-spectral images**.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>When raster data contains bands from different parts of the electromagnetic spectrum, they are called **multi-spectral images**.</seg></tuv><tuv xml:lang="ja">
         <seg>ラスターデータは、電磁スペクトルの異なる部分からのバンドが含まれている場合、それらは **マルチスペクトル画像** と呼ばれます。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Three of the bands of a multi-spectral image can be shown in the colours Red, Green and Blue so that we can see them.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Three of the bands of a multi-spectral image can be shown in the colours Red, Green and Blue so that we can see them.</seg></tuv><tuv xml:lang="ja">
         <seg>マルチスペクトル画像のバンドの三つは色、赤、緑、青で表示できるので、それらは見ることができます。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Images with a single band are called grayscale images.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Images with a single band are called grayscale images.</seg></tuv><tuv xml:lang="ja">
         <seg>単一バンドの画像はグレースケール画像と呼ばれます。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Single band, grayscale images can be shown in pseudocolour by the GIS.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Single band, grayscale images can be shown in pseudocolour by the GIS.</seg></tuv><tuv xml:lang="ja">
         <seg>単一バンドのグレースケール画像は、GISにより疑似カラーで表示できます。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Raster images can consume a large amount of storage space.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Raster images can consume a large amount of storage space.</seg></tuv><tuv xml:lang="ja">
         <seg>ラスター画像は、記憶領域を大量に消費することがあります。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Now you try!</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Now you try!</seg></tuv><tuv xml:lang="ja">
         <seg>やってみよう</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Here are some ideas for you to try with your learners:</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Here are some ideas for you to try with your learners:</seg></tuv><tuv xml:lang="ja">
         <seg>ここでは人に教える際のアイデアいくつか述べていきます:</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Discuss with your learners in which situations you would use raster data and in which you would use vector data.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Discuss with your learners in which situations you would use raster data and in which you would use vector data.</seg></tuv><tuv xml:lang="ja">
         <seg>どんな状況であればラスターデータを使用し、どんな状況であればベクターデータを使用するか、生徒たちと議論しましょう。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>Get your learners to create a raster map of your school by using A4 transparency sheets with grid lines drawn on them. Overlay the transparencies onto a toposheet or aerial photograph of your school. Now let each learner or group of learners colour in cells that represent a certain type of feature e.g. building, playground, sports field, trees, footpaths etc. When they are all finished, overlay all the sheets together and see if it makes a good raster map representation of your school. Which types of features worked well when represented as rasters? How did your choice in cell size affect your ability to represent different feature types?</seg>
       </tuv>
@@ -500,14 +355,10 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Something to think about</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>Something to think about</seg></tuv><tuv xml:lang="ja">
         <seg>考えてみよう</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>If you don't have a computer available, you can understand raster data using pen and paper. Draw a grid of squares onto a sheet of paper to represent your soccer field. Fill the grid in with numbers representing values for grass cover on your soccer field. If a patch is bare give the cell a value of 0. If the patch is mixed bare and covered, give it a value of 1. If an area is completely covered with grass, give it a value of 2. Now use pencil crayons to colour the cells based on their values. Colour cells with value 2 dark green. Value 1 should get coloured light green, and value 0 coloured in brown. When you finish, you should have a raster map of your soccer field!</seg>
       </tuv>
@@ -516,68 +367,64 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Further reading</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>Further reading</seg></tuv><tuv xml:lang="ja">
         <seg>より詳しく知りたい場合は</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>**Book**:</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>**Book**:</seg></tuv><tuv xml:lang="ja">
         <seg>**図書**:</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Chang, Kang-Tsung (2006). Introduction to Geographic Information Systems. 3rd Edition. McGraw Hill. ISBN: 0070658986</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Chang, Kang-Tsung (2006).</seg></tuv><tuv xml:lang="ja">
+        <seg>Chang, Kang-Tsung (2006).</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>Chang, Kang-Tsung (2006). Introduction to Geographic Information Systems. 3rd Edition. McGraw Hill. ISBN: 0070658986</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Introduction to Geographic Information Systems. 3rd Edition.</seg></tuv><tuv xml:lang="ja">
+        <seg>Introduction to Geographic Information Systems. 3rd Edition.</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>DeMers, Michael N. (2005). Fundamentals of Geographic Information Systems. 3rd Edition. Wiley. ISBN: 9814126195</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>McGraw Hill.</seg></tuv><tuv xml:lang="ja">
+        <seg>McGraw Hill.</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>DeMers, Michael N. (2005). Fundamentals of Geographic Information Systems. 3rd Edition. Wiley. ISBN: 9814126195</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>ISBN: 0070658986</seg></tuv><tuv xml:lang="ja">
+        <seg>ISBN: 0070658986</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>**Website:** https://en.wikipedia.org/wiki/GIS_file_formats#Raster</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>DeMers, Michael N.</seg></tuv><tuv xml:lang="ja">
+        <seg>DeMers, Michael N.</seg>
       </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>(2005).</seg></tuv><tuv xml:lang="ja">
+        <seg>(2005).</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Fundamentals of Geographic Information Systems. 3rd Edition.</seg></tuv><tuv xml:lang="ja">
+        <seg>Fundamentals of Geographic Information Systems. 3rd Edition.</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Wiley.</seg></tuv><tuv xml:lang="ja">
+        <seg>Wiley.</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>ISBN: 9814126195</seg></tuv><tuv xml:lang="ja">
+        <seg>ISBN: 9814126195</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>**Website:** https://en.wikipedia.org/wiki/GIS_file_formats#Raster</seg></tuv><tuv xml:lang="ja">
         <seg>**Webサイト:** https://en.wikipedia.org/wiki/GIS_file_formats#Raster</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>The QGIS User Guide also has more detailed information on working with raster data in QGIS.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>The QGIS User Guide also has more detailed information on working with raster data in QGIS.</seg></tuv><tuv xml:lang="ja">
         <seg>QGISユーザーガイドには, ラスターデータの操作についてより詳細な情報が含まれています.</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>What's next?</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>What's next?</seg></tuv><tuv xml:lang="ja">
         <seg>次は？</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>In the section that follows we will take a closer look at **topology** to see how the relationship between vector features can be used to ensure the best data quality.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>In the section that follows we will take a closer look at **topology** to see how the relationship between vector features can be used to ensure the best data quality.</seg></tuv><tuv xml:lang="ja">
         <seg>次のセクションでは、最高のデータの品質を保証するための **トポロジ** について詳しく見てみましょう。</seg>
       </tuv>
-    </tu>
-  </body>
+    </tu></body>
 </tmx>

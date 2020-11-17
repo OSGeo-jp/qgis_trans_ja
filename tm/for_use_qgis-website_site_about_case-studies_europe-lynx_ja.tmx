@@ -2,32 +2,19 @@
 <!DOCTYPE tmx SYSTEM "tmx14.dtd">
 <tmx version="1.4">
   <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
-  <body>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Lynx habitat analysis in the Southern Carpathians</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+  <body><tu>
+      <tuv xml:lang="en"><seg>Lynx habitat analysis in the Southern Carpathians</seg></tuv><tuv xml:lang="ja">
         <seg>南カルパチアでのオオヤマネコの生息環境解析</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>A case study to promote basic understanding of wildlife habitat modeling for students based on open source data.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>A case study to promote basic understanding of wildlife habitat modeling for students based on open source data.</seg></tuv><tuv xml:lang="ja">
         <seg>オープンソースのデータに基づいて、学生のための野生生物の生息地のモデリングの基本的な理解を促進するためのケーススタディ。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Introduction</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Introduction</seg></tuv><tuv xml:lang="ja">
         <seg>はじめに</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>Challenged with the task of GIS based modeling for the first time, a working group of undergraduate forestry students of the University for Sustainable Development Eberswalde (HNEE) conducted literature research for habitat suitability and behavior of the Eurasian Lynx (*Lynx lynx*). In the module ‘Applied GIS in Natural Resource Management’, under the guidance of Prof. Mund, the students quickly discovered the subject’s complexity, especially within regard to the adaptability of species to changing environments. With limited research published in English about lynx habitat on the Romanian side, we continued the project based on only freely available data sets and open-source software, aiming to establish conceptual knowledge of habitat modeling, strengthening skills on widely applied QGIS tools and to create a **basic expert model** in the process.</seg>
       </tuv>
@@ -36,14 +23,10 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Methodology</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>Methodology</seg></tuv><tuv xml:lang="ja">
         <seg>方法論</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>All collected data was processed with QGIS 2.6 and 2.8, projected into ETRS89 / ETRS-LAEA and stored according to the INSPIRE directive to meet EU standards. An overall **discrete index of weights** was defined and applied to all input data.</seg>
       </tuv>
@@ -52,22 +35,14 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Figure 1: Workflow - Lynx habitat expert model</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>Figure 1: Workflow - Lynx habitat expert model</seg></tuv><tuv xml:lang="ja">
         <seg>図1：ワークフロー - オオヤマネコの生息地の専門家モデル</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>**Workflow description**</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>**Workflow description**</seg></tuv><tuv xml:lang="ja">
         <seg>**ワークフローの説明**</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>Area of Interest [Step I – II]: Based on selected national park areas and adding a 10 kilometer buffer, a minimum bounding box [α] was created and clipped with the outline of the river Danube (derived from Corine Land Cover 2006). Further clipping tools [β] were applied to all additional data as an initial preparation step (Figure 2)</seg>
       </tuv>
@@ -92,62 +67,34 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Habitat Suitability Model [Step X]: [δ] An Elevation Suitability Index was derived from the AsterDEM 2.0 [VI] and together with a Population Density Index [V] was integrated into the final habitat suitability model (Figure 3) by using the #Raster calculator</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>Habitat Suitability Model [Step X]: [δ] An Elevation Suitability Index was derived from the AsterDEM 2.0 [VI] and together with a Population Density Index [V] was integrated into the final habitat suitability model (Figure 3) by using the #Raster calculator</seg></tuv><tuv xml:lang="ja">
         <seg>生息地適合モデル[工程X]：[δ]標高適合指数がAsterDEM 2.0 [VI]に由来したと一緒に人口密度が指数[V]＃ラスター電卓を使用して、最終的な生息環境適合モデル（図3）に統合されました</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>*Note:Defining forest (&gt;= 75 % cover) as best suitable and using the elevation data to reduce index values above assumed tree line is conceptually related to habitat of deer as the main prey*</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>*Note:Defining forest (&gt;= 75 % cover) as best suitable and using the elevation data to reduce index values above assumed tree line is conceptually related to habitat of deer as the main prey*</seg></tuv><tuv xml:lang="ja">
         <seg>*注：森林（&gt; = 75％カバー）は最適なとして定義し、上のインデックス値を低減するために標高データを使用すると、仮定ツリーラインは概念的には主獲物としてシカの生息地に関連しています*</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Potential Hunter Accessibility Model [Step XI]: Applying the #Terrain analysis tool [ε], a slope layer was extracted from the DEM data and combined [η] with a road distance layer, which was produced by processing rasterized OSM road data within the #Proximity function and index values assigned using #Reclassify grid values</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Potential Hunter Accessibility Model [Step XI]: Applying the #Terrain analysis tool [ε], a slope layer was extracted from the DEM data and combined [η] with a road distance layer, which was produced by processing rasterized OSM road data within the #Proximity function and index values assigned using #Reclassify grid values</seg></tuv><tuv xml:lang="ja">
         <seg>可能狩猟者接近可能性モデル[ステップXI]：#Terrain analysis（地形分析）ツール[ε]を適用し、傾斜レイヤーがDEMデータから抽出されて結合されます[η] 、内ラスタ化OSM道路データを処理することによって製造された道路距離レイヤーで、#Reclassifyグリッド値を使用して割り当て#Proximity関数と指数値</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Conservation Value Model [Step XII]: Is the result of the #Raster calculator function: (Figure 4)</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Conservation Value Model [Step XII]: Is the result of the #Raster calculator function: (Figure 4)</seg></tuv><tuv xml:lang="ja">
         <seg>保全値モデル[ステップXII]：#Raster算出関数の結果です：（図4）</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>*Note: The Hunter Accessibility Model shall indicate the decreasing likelihood of hunters accessing the area by further distance to roads and increasing slope*</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>*Note: The Hunter Accessibility Model shall indicate the decreasing likelihood of hunters accessing the area by further distance to roads and increasing slope*</seg></tuv><tuv xml:lang="ja">
         <seg>*注意：狩猟者接近可能性モデルでは、さらに道路への距離があったり傾斜が増加することによって領域へ接近する狩猟者が減少する可能性を示さなければなりません*</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Figure 2, 3 and 4</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Figure 2, 3 and 4</seg></tuv><tuv xml:lang="ja">
         <seg>図２、３ および４</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Conclusion</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Conclusion</seg></tuv><tuv xml:lang="ja">
         <seg>結論</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>Looking at the final output (Figure 3), a plausible first potential habitat analysis appeared to be successful, yet more importantly, basic modeling itself turned out to be less difficult than initially expected. Our choice to add a sub-model for hunter accessibility allowed us to implement another dimension in terms of habitat risk assessment, which can be simply nested into the already existing scenario and used to determine protection necessities under aspects of e.g. infrastructure development. However, some crucial habitat information, such as forest structure (our highest habitat suitability) cannot be derived by available data sets and in combination with the complex species behavior, the result must therefore be understood as basic and incomplete. Additional factors not implemented at this stage are road mortality, terrain roughness and detailed prey occurrence.</seg>
       </tuv>
@@ -164,62 +111,86 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>References</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>References</seg></tuv><tuv xml:lang="ja">
         <seg>リファレンス</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Kaczensky, P., Chapron, G.,von Avrx, M., Huber, D., Andrén, H. &amp; Linnell, J. (December 2012): Status, management and distribution of large carnivores in Europe. Document European Commission.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Kaczensky, P., Chapron, G.,von Avrx, M., Huber, D., Andrén, H.</seg></tuv><tuv xml:lang="ja">
+        <seg>Kaczensky, P., Chapron, G.,von Avrx, M., Huber, D., Andrén, H.</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>Kaczensky, P., Chapron, G.,von Avrx, M., Huber, D., Andrén, H. &amp; Linnell, J. (December 2012): Status, management and distribution of large carnivores in Europe. Document European Commission.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>&amp; Linnell, J.</seg></tuv><tuv xml:lang="ja">
+        <seg>&amp; Linnell, J.</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Schadt, S., Revilla, E., Wiegand, T., Knauer, F., Kaczensky, P., Breitenmoser, U., Bufka, L., Cerveny, J., Koubek, P., Huber, T., Stanisa, C. &amp; Trepl, L. (2002): Assessing the suitability of central European landscapes for the reintroduction of Eurasian lynx. Article Journal of Applied Ecology.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>(December 2012): Status, management and distribution of large carnivores in Europe.</seg></tuv><tuv xml:lang="ja">
+        <seg>(December 2012): Status, management and distribution of large carnivores in Europe.</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>Schadt, S., Revilla, E., Wiegand, T., Knauer, F., Kaczensky, P., Breitenmoser, U., Bufka, L., Cerveny, J., Koubek, P., Huber, T., Stanisa, C. &amp; Trepl, L. (2002): Assessing the suitability of central European landscapes for the reintroduction of Eurasian lynx. Article Journal of Applied Ecology.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Document European Commission.</seg></tuv><tuv xml:lang="ja">
+        <seg>Document European Commission.</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Salvatori, V. (2004): Conservation areas for large carnivores in the Carpathian Mountains. PhD Thesis.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Schadt, S., Revilla, E., Wiegand, T., Knauer, F., Kaczensky, P., Breitenmoser, U., Bufka, L., Cerveny, J., Koubek, P., Huber, T., Stanisa, C.</seg></tuv><tuv xml:lang="ja">
+        <seg>Schadt, S., Revilla, E., Wiegand, T., Knauer, F., Kaczensky, P., Breitenmoser, U., Bufka, L., Cerveny, J., Koubek, P., Huber, T., Stanisa, C.</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>Salvatori, V. (2004): Conservation areas for large carnivores in the Carpathian Mountains. PhD Thesis.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>&amp; Trepl, L.</seg></tuv><tuv xml:lang="ja">
+        <seg>&amp; Trepl, L.</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Podgórski, T., Schmidt, K., Kowalczyk, R. &amp; Gulczyñska, A. (2008): Microhabitat selection by Eurasian lynx and its implications for species conservation. Acta Theriologica 53: 97–110.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>(2002): Assessing the suitability of central European landscapes for the reintroduction of Eurasian lynx.</seg></tuv><tuv xml:lang="ja">
+        <seg>(2002): Assessing the suitability of central European landscapes for the reintroduction of Eurasian lynx.</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>Podgórski, T., Schmidt, K., Kowalczyk, R. &amp; Gulczyñska, A. (2008): Microhabitat selection by Eurasian lynx and its implications for species conservation. Acta Theriologica 53: 97–110.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Article Journal of Applied Ecology.</seg></tuv><tuv xml:lang="ja">
+        <seg>Article Journal of Applied Ecology.</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Boutros, D. (March 2002): Characterization and assessment of suitability of Eurasian lynx (Lynx lynx) den sites. KORA Report No. 12e, Diploma thesis.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Salvatori, V.</seg></tuv><tuv xml:lang="ja">
+        <seg>Salvatori, V.</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>Boutros, D. (March 2002): Characterization and assessment of suitability of Eurasian lynx (Lynx lynx) den sites. KORA Report No. 12e, Diploma thesis.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>(2004): Conservation areas for large carnivores in the Carpathian Mountains.</seg></tuv><tuv xml:lang="ja">
+        <seg>(2004): Conservation areas for large carnivores in the Carpathian Mountains.</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Authors</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>PhD Thesis.</seg></tuv><tuv xml:lang="ja">
+        <seg>PhD Thesis.</seg>
       </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Podgórski, T., Schmidt, K., Kowalczyk, R.</seg></tuv><tuv xml:lang="ja">
+        <seg>Podgórski, T., Schmidt, K., Kowalczyk, R.</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>&amp; Gulczyñska, A.</seg></tuv><tuv xml:lang="ja">
+        <seg>&amp; Gulczyñska, A.</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>(2008): Microhabitat selection by Eurasian lynx and its implications for species conservation.</seg></tuv><tuv xml:lang="ja">
+        <seg>(2008): Microhabitat selection by Eurasian lynx and its implications for species conservation.</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Acta Theriologica 53: 97–110.</seg></tuv><tuv xml:lang="ja">
+        <seg>Acta Theriologica 53: 97–110.</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Boutros, D.</seg></tuv><tuv xml:lang="ja">
+        <seg>Boutros, D.</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>(March 2002): Characterization and assessment of suitability of Eurasian lynx (Lynx lynx) den sites.</seg></tuv><tuv xml:lang="ja">
+        <seg>(March 2002): Characterization and assessment of suitability of Eurasian lynx (Lynx lynx) den sites.</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>KORA Report No. 12e, Diploma thesis.</seg></tuv><tuv xml:lang="ja">
+        <seg>KORA Report No. 12e, Diploma thesis.</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Authors</seg></tuv><tuv xml:lang="ja">
         <seg>著者</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>Angela Dichte, Luca Ehrminger, Silvana Garcia Travesi Reyes, Tobias Hoppe and David Winger are fourth semester students of the study program International Forest Ecosystem Management B.Sc., Anne Gnilke respectively German Forestry and Henri Hiltunen is an exchange student from Mikkeli University of Applied Sciences, Finland. Prof. Mund is lecturing GIS and Remote Sensing at HNE Eberswalde since 2010 and provided guidance and technical support to the project.</seg>
       </tuv>
@@ -228,12 +199,8 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
+      <tuv xml:lang="en"><seg>Please contact Luca.Ehrminger(at)hnee.de, David.Winger(at)hnee.de, or Prof.Dr.Jan-Peter Mund: Jan-Peter.Mund(at)hnee.de for further information.</seg></tuv><tuv xml:lang="ja">
         <seg>Please contact Luca.Ehrminger(at)hnee.de, David.Winger(at)hnee.de, or Prof.Dr.Jan-Peter Mund: Jan-Peter.Mund(at)hnee.de for further information.</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>Please contact Luca.Ehrminger(at)hnee.de, David.Winger(at)hnee.de, or Prof.Dr.Jan-Peter Mund: Jan-Peter.Mund(at)hnee.de for further information.</seg>
-      </tuv>
-    </tu>
-  </body>
+    </tu></body>
 </tmx>

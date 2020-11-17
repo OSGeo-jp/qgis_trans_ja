@@ -2,16 +2,11 @@
 <!DOCTYPE tmx SYSTEM "tmx14.dtd">
 <tmx version="1.4">
   <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
-  <body>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Introduction</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+  <body><tu>
+      <tuv xml:lang="en"><seg>Introduction</seg></tuv><tuv xml:lang="ja">
         <seg>はじめに</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>Laboratory on Experimental and Applied Geography (LEAG) is part of College of Hotel and Business Management, Ltd. In Brno, Czech Republic (Vysoká škola obchodní a hotelová, s.r.o.) which offers higher education at tourism, business and hotel management. LEAG is focused on modeling socio-economic spatial processes, analyzing spatial patterns, describing and monitoring the reality of localities and regions.</seg>
       </tuv>
@@ -20,54 +15,30 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>QGIS while modeling 3D objects (interpolation), terrain analysis</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>QGIS while modeling 3D objects (interpolation), terrain analysis</seg></tuv><tuv xml:lang="ja">
         <seg>QGISは、3Dオブジェクト（補間）をモデル化しながら、地形分析</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Use of QGIS</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Use of QGIS</seg></tuv><tuv xml:lang="ja">
         <seg>QGISの使用</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>QGIS is the leading software and stands in current versions (because of the “experimental” character of LEAG we are using the latest unstable releases instead of LTS versions) for several reasons:</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>QGIS is the leading software and stands in current versions (because of the “experimental” character of LEAG we are using the latest unstable releases instead of LTS versions) for several reasons:</seg></tuv><tuv xml:lang="ja">
         <seg>QGISは、主要なソフトウェアであり、いくつかの理由で現在のバージョンに立っています（なぜならLEAGの「実験」的性格上、私たちはLTSバージョンのリリース代わりに最新の不安定なリリースを使用している）：</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Graphical User Interface (close to commercial products)</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Graphical User Interface (close to commercial products)</seg></tuv><tuv xml:lang="ja">
         <seg>グラフィカルユーザーインタフェース（商用製品に近いです）</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Quick development and integrating user-wanted features</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Quick development and integrating user-wanted features</seg></tuv><tuv xml:lang="ja">
         <seg>クイック開発およびユーザー欲しかった機能を統合</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Stability and interoperability (we are using Windows and Ubuntu Linux platforms)</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Stability and interoperability (we are using Windows and Ubuntu Linux platforms)</seg></tuv><tuv xml:lang="ja">
         <seg>安定性と相互運用性（WindowsとUbuntu Linuxプラットフォームを使用しています）</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>Others (mentioned e.g. in the case study written by Dr. Horst Düster)</seg>
       </tuv>
@@ -76,70 +47,38 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Modeling patterns between spatial location and inhabitants</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>Modeling patterns between spatial location and inhabitants</seg></tuv><tuv xml:lang="ja">
         <seg>空間的位置と住民との間のモデリングパターン</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Creating 3D models for terrain visualization (and further use as hill-shadowing)</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Creating 3D models for terrain visualization (and further use as hill-shadowing)</seg></tuv><tuv xml:lang="ja">
         <seg>地形の可視化（および丘シャドウイングとしてさらに使用）のための3Dモデルを作成します</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Storing, creating and editing database of small and medium enterprises (+ further visualization)</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Storing, creating and editing database of small and medium enterprises (+ further visualization)</seg></tuv><tuv xml:lang="ja">
         <seg>中小企業のデータベースの格納、作成および編集（+さらに可視化）</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Homogenizing of free-to-use geodata and creation of “geo-data-bank” for students and researchers at College of Business and Hotel Management</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Homogenizing of free-to-use geodata and creation of “geo-data-bank” for students and researchers at College of Business and Hotel Management</seg></tuv><tuv xml:lang="ja">
         <seg>ビジネスやホテルマネジメント学部の学生や研究者のための「ジオデータバンク」の自由に使用できる地理データと作成の均質化</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Using diagrams comparing population between two censuses</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Using diagrams comparing population between two censuses</seg></tuv><tuv xml:lang="ja">
         <seg>2回のセンサス間人口を比較した図を用いて</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Conclusion</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Conclusion</seg></tuv><tuv xml:lang="ja">
         <seg>結論</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Author</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Author</seg></tuv><tuv xml:lang="ja">
         <seg>制作者</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Jakub Trojan</seg></tuv><tuv xml:lang="ja">
         <seg>Jakub Trojan</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>Jakub Trojan</seg>
-      </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>This article was contributed in November 2010 by Jakub Trojan. He is an academic researcher at College of Business and Hotel Management, Ltd. (Brno, CZ) where he founded and leads Laboratory on Experimental and Applied Geography. He is also a doctoral student at Institute of Geography, Faculty of Science, Masaryk university (Brno, CZ).</seg>
       </tuv>
@@ -148,14 +87,10 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>QGIS as major GIS software in the Laboratory on Experimental and Applied Geography</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>QGIS as major GIS software in the Laboratory on Experimental and Applied Geography</seg></tuv><tuv xml:lang="ja">
         <seg>実験・応用地理研究所の主要なGISソフトウェアとしてのQGIS</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>LEAG plays important role in academic research held in College of Business and Hotel Management. The need of spatial modeling requires also excellent software. The philosophy of minimum cost and maximum efficiency led to choice of open source solutions. This step resulted in using core open source SW such as LibreOffice, GIMP, Inkscape and QGIS. QGIS does not stand alone –-- we use MapWindow, OpenJump, gvSIG, SAGA and others. But QGIS plays the major role.</seg>
       </tuv>

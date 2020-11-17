@@ -2,16 +2,11 @@
 <!DOCTYPE tmx SYSTEM "tmx14.dtd">
 <tmx version="1.4">
   <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
-  <body>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Water Observation and Information System: Enabling the Use of Earth Observation Data for Integrated Water Resource Management in Africa</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+  <body><tu>
+      <tuv xml:lang="en"><seg>Water Observation and Information System: Enabling the Use of Earth Observation Data for Integrated Water Resource Management in Africa</seg></tuv><tuv xml:lang="ja">
         <seg>水の観察と情報システム：アフリカにおける統合水資源管理のために地球観測データの使用を可能にする</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>The Water Observation and Information System (WOIS) is an open source software tool for monitoring, assessing and inventorying water resources in a cost-effective manner using Earth Observation (EO) data. The WOIS has been developed under the TIGER-NET project, which is a major component of the TIGER initiative of the European Space Agency (ESA) and whose main goal is to support the African Earth observation capacity for water resource monitoring. TIGER-NET aims to support the satellite-based assessment and monitoring of water resources from watershed to cross-border basin levels through the provision of a free and powerful software package, with associated capacity building, to African  authorities.</seg>
       </tuv>
@@ -20,14 +15,10 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>System Description</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>System Description</seg></tuv><tuv xml:lang="ja">
         <seg>システム説明</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>The WOIS can be seen as a multipurpose system consisting of a spatial database, facilities for extracting and processing EO data, and integrative tools and models aimed at decision support e.g. hydrological modelling and GIS-embedded visualization and analysis tools. The WOIS is designed around QGIS, which acts as the front-end Graphical-User-Interface (GUI).  QGIS was chosen as the central integrating platform, due to its clear and accessible GUI, strong development community, ease of implementing additional functionalities through Python plugins and its high level of interoperability with major GIS data formats through the use of the Geospatial Data Abstraction Library (GDAL/OGR) library.</seg>
       </tuv>
@@ -52,14 +43,10 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>The WOIS graphical user interface, including the embedded workflow library (center) and wizard-based processing workflow (right)</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>The WOIS graphical user interface, including the embedded workflow library (center) and wizard-based processing workflow (right)</seg></tuv><tuv xml:lang="ja">
         <seg>埋め込まれたワークフローライブラリ（中心）を含むWOISグラフィカル・ユーザ・インターフェース、およびウィザードベースの処理ワークフロー（右）</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>The operational and practical use of the WOIS to support integrated water resource management in Africa has been demonstrated via a series of user specific demonstration cases covering a wide range of themes and information products. These include: lake water quality; flood monitoring; land degradation and land cover characterization; water bodies mapping and hydrological modelling. The demonstration cases have several stages. First, customized end-to-end processing workflows are developed for the requested products and applications. Those workflows are subsequently used for product derivation over significant areas and time periods as requested by the users. In the final step, the workflows (i.e. their stability/performance and ease of use) as well as the product outcomes are being evaluated in close dialogue with the users.</seg>
       </tuv>
@@ -68,22 +55,14 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Sentinel-1 flood monitoring of Caprivi flood plain, Namibia.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>Sentinel-1 flood monitoring of Caprivi flood plain, Namibia.</seg></tuv><tuv xml:lang="ja">
         <seg>ナミビアのカプリブリ氾濫原のSentinel-1洪水監視。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Conclusion</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Conclusion</seg></tuv><tuv xml:lang="ja">
         <seg>結論</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>The development of the WOIS represents a successful example of a user-driven and collaborative development model, where functionalities have been designed, developed and evaluated through user-designated cases in order to demonstrate the real impact of the system on enhancing water management and integrated water resource management plans. The WOIS is already implemented in major African river basin authorities, several African ministries and agencies, as well as in research and humanitarian organizations. It will therefore continue to develop in response to continued user requirements for new functionalities and functional improvements and due to general software, algorithm and method enhancements.</seg>
       </tuv>
@@ -100,84 +79,88 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>References</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>References</seg></tuv><tuv xml:lang="ja">
         <seg>参考文献</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Bauer-Gottwein, P., Jensen, I. H., Guzinski, R., Bredtoft, G. K. T., Hansen, S., &amp; Michailovsky, C. I. (2015). Operational river discharge forecasting in poorly gauged basins: the Kavango River basin case study. Hydrology and Earth System Sciences, 19(3), 1469-1485.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Bauer-Gottwein, P., Jensen, I.</seg></tuv><tuv xml:lang="ja">
+        <seg>Bauer-Gottwein, P., Jensen, I.</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>Bauer-Gottwein, P., Jensen, I. H., Guzinski, R., Bredtoft, G. K. T., Hansen, S., &amp; Michailovsky, C. I. (2015). Operational river discharge forecasting in poorly gauged basins: the Kavango River basin case study. Hydrology and Earth System Sciences, 19(3), 1469-1485.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>H., Guzinski, R., Bredtoft, G.</seg></tuv><tuv xml:lang="ja">
+        <seg>H., Guzinski, R., Bredtoft, G.</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Guzinski, R.; Kass, S.; Huber, S.; Bauer-Gottwein, P.; Jensen, I.H.; Naeimi, V.; Doubkova, M.; Walli, A.; Tottrup, C. Enabling the Use of Earth Observation Data for Integrated Water Resource Management in Africa with the Water Observation and Information System. Remote Sens. 2014, 6, 7819-7839.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>K.</seg></tuv><tuv xml:lang="ja">
+        <seg>K.</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>Guzinski, R.; Kass, S.; Huber, S.; Bauer-Gottwein, P.; Jensen, I.H.; Naeimi, V.; Doubkova, M.; Walli, A.; Tottrup, C. Enabling the Use of Earth Observation Data for Integrated Water Resource Management in Africa with the Water Observation and Information System. Remote Sens. 2014, 6, 7819-7839.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>T., Hansen, S., &amp; Michailovsky, C.</seg></tuv><tuv xml:lang="ja">
+        <seg>T., Hansen, S., &amp; Michailovsky, C.</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Walli, A., Tottrup, C., Naeimi, V., Bauer-Gottwein, P., Bila, M., Mufeti, P., Tumbulto, J.W., Rajah, C., Moloele, L.S. &amp; Koetz, B. “TIGER-NET—Enabling an earth observation capacity for integrated water resource management in Africa,” presented at the ESA Living Planet Symp., Edinburgh, U.K., Sep. 11–13, 2013.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>I.</seg></tuv><tuv xml:lang="ja">
+        <seg>I.</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>Walli, A., Tottrup, C., Naeimi, V., Bauer-Gottwein, P., Bila, M., Mufeti, P., Tumbulto, J.W., Rajah, C., Moloele, L.S. &amp; Koetz, B. “TIGER-NET—Enabling an earth observation capacity for integrated water resource management in Africa,” presented at the ESA Living Planet Symp., Edinburgh, U.K., Sep. 11–13, 2013.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>(2015).</seg></tuv><tuv xml:lang="ja">
+        <seg>(2015).</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Links</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Operational river discharge forecasting in poorly gauged basins: the Kavango River basin case study.</seg></tuv><tuv xml:lang="ja">
+        <seg>Operational river discharge forecasting in poorly gauged basins: the Kavango River basin case study.</seg>
       </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Hydrology and Earth System Sciences, 19(3), 1469-1485.</seg></tuv><tuv xml:lang="ja">
+        <seg>Hydrology and Earth System Sciences, 19(3), 1469-1485.</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Guzinski, R.; Kass, S.; Huber, S.; Bauer-Gottwein, P.; Jensen, I.H.; Naeimi, V.; Doubkova, M.; Walli, A.; Tottrup, C.</seg></tuv><tuv xml:lang="ja">
+        <seg>Guzinski, R.; Kass, S.; Huber, S.; Bauer-Gottwein, P.; Jensen, I.H.; Naeimi, V.; Doubkova, M.; Walli, A.; Tottrup, C.</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Enabling the Use of Earth Observation Data for Integrated Water Resource Management in Africa with the Water Observation and Information System.</seg></tuv><tuv xml:lang="ja">
+        <seg>Enabling the Use of Earth Observation Data for Integrated Water Resource Management in Africa with the Water Observation and Information System.</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Remote Sens. 2014, 6, 7819-7839.</seg></tuv><tuv xml:lang="ja">
+        <seg>Remote Sens. 2014, 6, 7819-7839.</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Walli, A., Tottrup, C., Naeimi, V., Bauer-Gottwein, P., Bila, M., Mufeti, P., Tumbulto, J.W., Rajah, C., Moloele, L.S.</seg></tuv><tuv xml:lang="ja">
+        <seg>Walli, A., Tottrup, C., Naeimi, V., Bauer-Gottwein, P., Bila, M., Mufeti, P., Tumbulto, J.W., Rajah, C., Moloele, L.S.</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>&amp; Koetz, B.</seg></tuv><tuv xml:lang="ja">
+        <seg>&amp; Koetz, B.</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>“TIGER-NET—Enabling an earth observation capacity for integrated water resource management in Africa,” presented at the ESA Living Planet Symp., Edinburgh, U.K., Sep. 11–13, 2013.</seg></tuv><tuv xml:lang="ja">
+        <seg>“TIGER-NET—Enabling an earth observation capacity for integrated water resource management in Africa,” presented at the ESA Living Planet Symp., Edinburgh, U.K., Sep. 11–13, 2013.</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Links</seg></tuv><tuv xml:lang="ja">
         <seg>リンク</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>More information about the WOIS software and the TIGER-NET project can be found on the project’s website: www.tiger-net.org</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>More information about the WOIS software and the TIGER-NET project can be found on the project’s website: www.tiger-net.org</seg></tuv><tuv xml:lang="ja">
         <seg>WOISソフトウェアおよびTIGER-NETプロジェクトの詳細については、プロジェクトのウェブサイト上で見つけることができます： www.tiger-net.org</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>More information about ESA’s TIGER initiative can be found on the initiative’s website: http://www.tiger.esa.int/ WOIS is available for download (after registration) from the TIGER website (http://www.tiger.esa.int/page_eoservices_wois.php) with source code of the developed plugins, scripts, models and workflows available from the project’s GitHub page (https://github.com/TIGER-NET)</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>More information about ESA’s TIGER initiative can be found on the initiative’s website: http://www.tiger.esa.int/ WOIS is available for download (after registration) from the TIGER website (http://www.tiger.esa.int/page_eoservices_wois.php) with source code of the developed plugins, scripts, models and workflows available from the project’s GitHub page (https://github.com/TIGER-NET)</seg></tuv><tuv xml:lang="ja">
         <seg>ESAのTIGERイニシアチブの詳細については、イニシアチブのウェブサイト： http://www.tiger.esa.int/ 上で見つけることができます。WOISはTIGERのウェブサイト（ http://www.tiger.esa.int/page_eoservices_wois.php ）から（登録後）ダウンロードできます。開発されたプラグイン、スクリプト、モデル、およびプロジェクトのGitHubのページ（ https://github.com/TIGER-NET ）から入手可能なワークフローのソースコード付き。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>More information about the new Sentinel satellites can be found on ESA’s website: http://www.esa.int/Our_Activities/Observing_the_Earth/Copernicus/Overview4</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>More information about the new Sentinel satellites can be found on ESA’s website: http://www.esa.int/Our_Activities/Observing_the_Earth/Copernicus/Overview4</seg></tuv><tuv xml:lang="ja">
         <seg>新しいセンチネル衛星の詳細については、ESAのウェブサイト上で見つけることができます：http://www.esa.int/Our_Activities/Observing_the_Earth/Copernicus/Overview4</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Author</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Author</seg></tuv><tuv xml:lang="ja">
         <seg>著者</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>This article was contributed by Radoslaw Guzinski (WOIS software developer) with contributions from the TIGER-NET technical teams at DHI-GRAS (www.dhi-gras.com), GeoVille (www.geoville.com), the technical universities in Vienna (http://rs.geo.tuwien.ac.at/) and Copenhagen (http://www.env.dtu.dk/) as well as the European Space Agency ( www.esa.int).</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>This article was contributed by Radoslaw Guzinski (WOIS software developer) with contributions from the TIGER-NET technical teams at DHI-GRAS (www.dhi-gras.com), GeoVille (www.geoville.com), the technical universities in Vienna (http://rs.geo.tuwien.ac.at/) and Copenhagen (http://www.env.dtu.dk/) as well as the European Space Agency ( www.esa.int).</seg></tuv><tuv xml:lang="ja">
         <seg>この記事はラドスロー・ガジンスキー（WOISのソフトウェア開発者）によって寄稿されました 。DHI-GRAS（ www.dhi-gras.com ）、GeoVille（ www.geoville.com ）、ウィーン技術大学（http://rs.geo.tuwien.ac.at/ とコペンハーゲン（ http://www.env.dtu.dk/ ）だけでなく、欧州宇宙機関（ www.esa.int ）TIGER-NET技術チームからの貢献ともに。</seg>
       </tuv>
-    </tu>
-  </body>
+    </tu></body>
 </tmx>

@@ -2,8 +2,7 @@
 <!DOCTYPE tmx SYSTEM "tmx14.dtd">
 <tmx version="1.4">
   <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
-  <body>
-    <tu>
+  <body><tu>
       <tuv xml:lang="en">
         <seg>Nameri Tiger Reserve (NTR) is one of the 3 tiger reserves of Assam and it is situated in the northern part of Sonitpur District of Assam along the foothills of Eastern Himalayas. Spread over an area of 344 sq km, NTR boasts rich diversity of flora and fauna. The core area of the reserve which constitutes the “Nameri National Park” is bound by River Jia-Bhoreli on the west and River Bor-Dikorai in the east. To the north of the Nameri lies the Pakke Tiger Reserve of Arunachal Pradesh.</seg>
       </tuv>
@@ -20,14 +19,10 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Application of QGIS for designing camera trap study</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>Application of QGIS for designing camera trap study</seg></tuv><tuv xml:lang="ja">
         <seg>カメラトラップ調査を設計するためのQGISの応用</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>Starting with the year 2011, the National Tiger Conservation Authority (NTCA) of India has made it mandatory for the all the tiger reserves of the country to monitor tigers by using camera traps. Under this new protocol, 25 pairs of cameras will be installed for 100 sq km of tiger reserve and the sampling period is 40-60 days. This new tiger monitoring protocol relies heavily on the GIS.</seg>
       </tuv>
@@ -36,22 +31,14 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Picture of a male tiger that was captured in one of the camera traps</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>Picture of a male tiger that was captured in one of the camera traps</seg></tuv><tuv xml:lang="ja">
         <seg>カメラトラップの一つで捕獲されたオスのトラの絵</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Block wise distribution of camera trap locations and assigning camera traps to different forest camps by using voronoi polygons &amp; hub distance.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Block wise distribution of camera trap locations and assigning camera traps to different forest camps by using voronoi polygons &amp; hub distance.</seg></tuv><tuv xml:lang="ja">
         <seg>カメラトラップ位置の賢明な分布をブロックし、ボロノイ多角形＆ハブ距離を使用して、異なる森キャンプにカメラトラップを割り当てます。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>Next we prepared 4 sq km grid layer using mmqgis plugin. The shape file containing results of sign survey was overlaid on the 4 sq grid to visualise the distribution of camera traps in NTR. Distance matrix option under vector analysis tools was quite handy for determining the inter camera distance. Camera locations having less than 1.8 km inter distance were removed to comply with the monitoring protocol. Due to lack of sufficient cameras to monitor the entire reserve area in one go, we decided to divide the reserve area into 2 blocks of 100 sq km each. Boundaries of these blocks were digitised and saved as separate shape files for both the blocks. Using RGB composition plugin, a false color composite of the reserve was created and the sign survey shape file overlaid to assess the habitat types used by the tiger. During the study period, the camera traps have to be monitored intensively by the field staff. To ensure smooth functioning of monitoring process, we used Voronoi polygon feature of Geometry tools and hub distance of mmqgis plugin for planning logistic requirements. The geographic coordinates of camera traps are required for estimating the tiger density and occupancy modelling of other species. These coordinate details were easily generated from camera trap shape files by using the “Export/ add geometry columns” feature of vector Geometry tools.</seg>
       </tuv>
@@ -60,38 +47,22 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Survey grids with tiger presence</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>Survey grids with tiger presence</seg></tuv><tuv xml:lang="ja">
         <seg>調査では、トラの存在とグリッド</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Conclusion</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Conclusion</seg></tuv><tuv xml:lang="ja">
         <seg>結論</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Author</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Author</seg></tuv><tuv xml:lang="ja">
         <seg>制作者</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Rajendra Garawad</seg></tuv><tuv xml:lang="ja">
         <seg>Rajendra Garawad</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>Rajendra Garawad</seg>
-      </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>This article was contributed by Rajendra G. Garawad in March 2013. He is the Field Director of Nameri Tiger Reserve, Assam, India. He holds Master Degrees in Forestry Science and Conservation &amp; Land Management.</seg>
       </tuv>
@@ -100,14 +71,10 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>QGIS for monitoring tigers (using camera traps in Nameri Tiger Reserve, Assam, India Sonitpur District)</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>QGIS for monitoring tigers (using camera traps in Nameri Tiger Reserve, Assam, India Sonitpur District)</seg></tuv><tuv xml:lang="ja">
         <seg>(NAMERIトラ保護区、アッサム、インドSonitpur地区におけるカメラトラップを使用して）トラを監視するためのQGIS</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>During 2012-13, we implemented this new tiger monitoring protocol in NTR by using QGIS. To begin with, we digitized the NTR boundary in QGIS and saved it as polygon. This boundary polygon was exported to GPS for navigation purpose during the field surveys. We conducted an extensive sign survey in NTR for evidences of tiger presence such pugmarks, scratch marks and scats. GPS coordinates of tiger signs as well as suitable locations for camera traps were recorded. After completion of the survey, the data was transferred to QGIS using GPS tools for further processing and for finalizing camera trap locations. A shape file containing the tiger signs and probable camera trap locations was prepared.</seg>
       </tuv>

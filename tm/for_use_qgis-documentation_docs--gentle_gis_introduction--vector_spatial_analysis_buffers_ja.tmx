@@ -2,64 +2,35 @@
 <!DOCTYPE tmx SYSTEM "tmx14.dtd">
 <tmx version="1.4">
   <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
-  <body>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Vector Spatial Analysis (Buffers)</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+  <body><tu>
+      <tuv xml:lang="en"><seg>Vector Spatial Analysis (Buffers)</seg></tuv><tuv xml:lang="ja">
         <seg>ベクター空間分析（バッファ）</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>|gentleLogo|</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>|gentleLogo|</seg></tuv><tuv xml:lang="ja">
         <seg>|gentlelogo|</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Objectives:</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Objectives:</seg></tuv><tuv xml:lang="ja">
         <seg>目的：</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Understanding the use of buffering in vector spatial analysis.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Understanding the use of buffering in vector spatial analysis.</seg></tuv><tuv xml:lang="ja">
         <seg>ベクター空間分析におけるバッファの利用を理解する</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Keywords:</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Keywords:</seg></tuv><tuv xml:lang="ja">
         <seg>キーワード：</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Vector, buffer zone, spatial analysis, buffer distance, dissolve boundary, outward and inward buffer, multiple buffer</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Vector, buffer zone, spatial analysis, buffer distance, dissolve boundary, outward and inward buffer, multiple buffer</seg></tuv><tuv xml:lang="ja">
         <seg>ベクター、バッファゾーン、空間分析、バッファ距離、境界のディゾルブ、内側方向および外側方向のバッファ、複数のバッファ</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Overview</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Overview</seg></tuv><tuv xml:lang="ja">
         <seg>概要</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>**Spatial analysis** uses spatial information to extract new and additional meaning from GIS data. Usually spatial analysis is carried out using a GIS Application. GIS Applications normally have spatial analysis tools for feature statistics (e.g. how many vertices make up this polyline?) or geoprocessing such as feature buffering. The types of spatial analysis that are used vary according to subject areas. People working in water management and research (hydrology) will most likely be interested in analysing terrain and modelling water as it moves across it. In wildlife management users are interested in analytical functions that deal with wildlife point locations and their relationship to the environment. In this topic we will discuss buffering as an example of a useful spatial analysis that can be carried out with vector data.</seg>
       </tuv>
@@ -68,14 +39,10 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Buffering in detail</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>Buffering in detail</seg></tuv><tuv xml:lang="ja">
         <seg>バッファリングの詳細</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>**Buffering** usually creates two areas: one area that is **within** a specified distance to selected real world features and the other area that is **beyond**. The area that is within the specified distance is called the **buffer zone**.</seg>
       </tuv>
@@ -100,46 +67,26 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>In a GIS Application, **buffer zones are** always represented as **vector polygons** enclosing other polygon, line or point features (see figure_point_buffer_, figure_line_buffer_, ).</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>In a GIS Application, **buffer zones are** always represented as **vector polygons** enclosing other polygon, line or point features (see figure_point_buffer_, figure_line_buffer_, ).</seg></tuv><tuv xml:lang="ja">
         <seg>GISアプリケーションでは、 **バッファゾーンエリア** は他のポリゴン、ラインまたはポイント地物を包含するような **ベクターポリゴン** に代表されます( figure_point_buffer_, figure_line_buffer_ を参照 )。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>A buffer zone around vector points.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>A buffer zone around vector points.</seg></tuv><tuv xml:lang="ja">
         <seg>ベクターポイント周辺のバッファゾーン。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>A buffer zone around vector polylines.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>A buffer zone around vector polylines.</seg></tuv><tuv xml:lang="ja">
         <seg>ベクターポリライン周辺のバッファゾーン。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>A buffer zone around vector polygons.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>A buffer zone around vector polygons.</seg></tuv><tuv xml:lang="ja">
         <seg>ベクターポリゴン周辺のバッファゾーン。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Variations in buffering</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Variations in buffering</seg></tuv><tuv xml:lang="ja">
         <seg>バッファの種類</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>There are several variations in buffering. The **buffer distance** or buffer size **can vary** according to numerical values provided in the vector layer attribute table for each feature. The numerical values have to be defined in map units according to the Coordinate Reference System (CRS) used with the data. For example, the width of a buffer zone along the banks of a river can vary depending on the intensity of the adjacent land use. For intensive cultivation the buffer distance may be bigger than for organic farming (see Figure figure_variable_buffer_ and Table table_buffer_attributes_).</seg>
       </tuv>
@@ -148,126 +95,66 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Buffering rivers with different buffer distances.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>Buffering rivers with different buffer distances.</seg></tuv><tuv xml:lang="ja">
         <seg>異なったバッファ距離でバッファリングされた河川</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>River</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>River</seg></tuv><tuv xml:lang="ja">
         <seg>河川</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Adjacent land use</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Adjacent land use</seg></tuv><tuv xml:lang="ja">
         <seg>隣接する土地利用</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Buffer distance (meters)</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Buffer distance (meters)</seg></tuv><tuv xml:lang="ja">
         <seg>バッファ距離（メートル）</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Breede River</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Breede River</seg></tuv><tuv xml:lang="ja">
         <seg>ブリード川</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Intensive vegetable cultivation</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Intensive vegetable cultivation</seg></tuv><tuv xml:lang="ja">
         <seg>集中的な野菜耕作</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>100</seg></tuv><tuv xml:lang="ja">
         <seg>100</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>100</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Komati</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Komati</seg></tuv><tuv xml:lang="ja">
         <seg>コマティ</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Intensive cotton cultivation</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Intensive cotton cultivation</seg></tuv><tuv xml:lang="ja">
         <seg>集中的な綿の耕作</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>150</seg></tuv><tuv xml:lang="ja">
         <seg>150</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>150</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Oranje</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Oranje</seg></tuv><tuv xml:lang="ja">
         <seg>オラニエ</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Organic farming</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Organic farming</seg></tuv><tuv xml:lang="ja">
         <seg>有機農業</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>50</seg></tuv><tuv xml:lang="ja">
         <seg>50</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>50</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Telle river</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Telle river</seg></tuv><tuv xml:lang="ja">
         <seg>テレ川</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Table Buffer Attributes 1: Attribute table with different buffer distances to rivers based on information about the adjacent land use.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Table Buffer Attributes 1: Attribute table with different buffer distances to rivers based on information about the adjacent land use.</seg></tuv><tuv xml:lang="ja">
         <seg>表　バッファ属性1：隣接する土地利用に関する情報に基き河川までのバッファ距離が異なる属性テーブル。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>Buffers around polyline features, such as rivers or roads, do not have to be on both sides of the lines. They can be on either the left side or the right side of the line feature. In these cases the left or right side is determined by the direction from the starting point to the end point of line during digitising.</seg>
       </tuv>
@@ -276,14 +163,10 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Multiple buffer zones</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>Multiple buffer zones</seg></tuv><tuv xml:lang="ja">
         <seg>複数のバッファゾーン</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>A feature can also have more than one buffer zone. A nuclear power plant may be buffered with distances of 10, 15, 25 and 30 km, thus forming multiple rings around the plant as part of an evacuation plan (see figure_multiple_buffers_).</seg>
       </tuv>
@@ -292,22 +175,14 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Buffering a point feature with distances of 10, 15, 25 and 30 km.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>Buffering a point feature with distances of 10, 15, 25 and 30 km.</seg></tuv><tuv xml:lang="ja">
         <seg>10km、15km、25km および 30kmという距離でポイント地物にバッファを作成する</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Buffering with intact or dissolved boundaries</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Buffering with intact or dissolved boundaries</seg></tuv><tuv xml:lang="ja">
         <seg>そのまままたはディゾルブされた境界でのバッファリング</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>Buffer zones often have dissolved boundaries so that there are no overlapping areas between the buffer zones. In some cases though, it may also be useful for boundaries of buffer zones to remain intact, so that each buffer zone is a separate polygon and you can identify the overlapping areas (see Figure figure_buffer_dissolve_).</seg>
       </tuv>
@@ -316,22 +191,14 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Buffer zones with dissolved (left) and with intact boundaries (right) showing overlapping areas.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>Buffer zones with dissolved (left) and with intact boundaries (right) showing overlapping areas.</seg></tuv><tuv xml:lang="ja">
         <seg>重複を示すエリアで、ディゾルブされ(左)変化ない境界(右)をもつバッファゾーン。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Buffering outward and inward</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Buffering outward and inward</seg></tuv><tuv xml:lang="ja">
         <seg>外側または内側へのバッファリング</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>Buffer zones around polygon features are usually extended outward from a polygon boundary but it is also possible to create a buffer zone inward from a polygon boundary. Say, for example, the Department of Tourism wants to plan a new road around Robben Island and environmental laws require that the road is at least 200 meters inward from the coast line. They could use an inward buffer to find the 200 m line inland and then plan their road not to go beyond that line.</seg>
       </tuv>
@@ -340,14 +207,10 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Common problems / things to be aware of</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>Common problems / things to be aware of</seg></tuv><tuv xml:lang="ja">
         <seg>一般的な問題 / 注意すべき点</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>Most GIS Applications offer buffer creation as an analysis tool, but the options for creating buffers can vary. For example, not all GIS Applications allow you to buffer on either the left side or the right side of a line feature, to dissolve the boundaries of buffer zones or to buffer inward from a polygon boundary.</seg>
       </tuv>
@@ -364,22 +227,14 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>More spatial analysis tools</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>More spatial analysis tools</seg></tuv><tuv xml:lang="ja">
         <seg>さらなる空間分析ツール</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Buffering is a an important and often used spatial analysis tool but there are many others that can be used in a GIS and explored by the user.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Buffering is a an important and often used spatial analysis tool but there are many others that can be used in a GIS and explored by the user.</seg></tuv><tuv xml:lang="ja">
         <seg>バッファ作成は重要かつ頻繁に使用される空間解析ツールですが、ユーザーがGISで使用して検討できるものは他にも多くあります。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>**Spatial overlay** is a process that allows you to identify the relationships between two polygon features that share all or part of the same area. The output vector layer is a combination of the input features information (see figure_overlay_operations_).</seg>
       </tuv>
@@ -396,150 +251,78 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Typical spatial overlay examples are:</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>Typical spatial overlay examples are:</seg></tuv><tuv xml:lang="ja">
         <seg>典型的な空間オーバーレイの例：</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>**Intersection**: The output layer contains all areas where both layers overlap (intersect).</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>**Intersection**: The output layer contains all areas where both layers overlap (intersect).</seg></tuv><tuv xml:lang="ja">
         <seg>**インターセクション**: 出力レイヤーは２つのレイヤーの重なる（交わる）すべての領域を含みます。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>**Union**: the output layer contains all areas of the two input layers combined.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>**Union**: the output layer contains all areas of the two input layers combined.</seg></tuv><tuv xml:lang="ja">
         <seg>**ユニオン**：出力レイヤーは組み合わせた2つの入力レイヤーのすべての領域を含みます。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>**Symmetrical difference**: The output layer contains all areas of the input layers except those areas where the two layers overlap (intersect).</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>**Symmetrical difference**: The output layer contains all areas of the input layers except those areas where the two layers overlap (intersect).</seg></tuv><tuv xml:lang="ja">
         <seg>**対称差**：出力レイヤーには、入力レイヤーのすべての領域が含まれます。ただし、2つのレイヤーが重なる（交わる）領域は除きます。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>**Difference**: The output layer contains all areas of the first input layer that do not overlap (intersect) with the second input layer.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>**Difference**: The output layer contains all areas of the first input layer that do not overlap (intersect) with the second input layer.</seg></tuv><tuv xml:lang="ja">
         <seg>**差分**：出力レイヤーには、第2の入力レイヤーと重ならない（交わらない）、第1の入力レイヤーのすべての領域が含まれます。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>What have we learned?</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>What have we learned?</seg></tuv><tuv xml:lang="ja">
         <seg>わかりましたか?</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Let's wrap up what we covered in this worksheet:</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Let's wrap up what we covered in this worksheet:</seg></tuv><tuv xml:lang="ja">
         <seg>ここでは以下のことを学びました:</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>**Buffer zones** describe areas around real world features.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>**Buffer zones** describe areas around real world features.</seg></tuv><tuv xml:lang="ja">
         <seg>**バッファゾーン** は、現実世界の地物の周りの領域を示します。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Buffer zones are always **vector polygons**.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Buffer zones are always **vector polygons**.</seg></tuv><tuv xml:lang="ja">
         <seg>バッファゾーンは常に **ベクターポリゴン** です。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>A feature can have **multiple** buffer zones.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>A feature can have **multiple** buffer zones.</seg></tuv><tuv xml:lang="ja">
         <seg>地物は **複数の** バッファゾーンを持ちえます。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>The size of a buffer zone is defined by a **buffer distance**.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>The size of a buffer zone is defined by a **buffer distance**.</seg></tuv><tuv xml:lang="ja">
         <seg>バッファゾーンのサイズは **バッファ距離** によって定義されます。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>A buffer distance has to be an **integer** or **floating point** value.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>A buffer distance has to be an **integer** or **floating point** value.</seg></tuv><tuv xml:lang="ja">
         <seg>バッファ距離は **整数** または **小数点** の値でなければいけません。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>A buffer distance can be different for each feature within a vector layer.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>A buffer distance can be different for each feature within a vector layer.</seg></tuv><tuv xml:lang="ja">
         <seg>バッファ距離は、ベクターレイヤー内の各地物ごとに異なることもできます。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Polygons can be buffered **inward** or **outward** from the polygon boundary.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Polygons can be buffered **inward** or **outward** from the polygon boundary.</seg></tuv><tuv xml:lang="ja">
         <seg>ポリゴンは、その境界から **内側へ** または **外側へ** バッファを作成できます。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Buffer zones can be created with **intact** or **dissolved** boundaries.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Buffer zones can be created with **intact** or **dissolved** boundaries.</seg></tuv><tuv xml:lang="ja">
+        <seg>**そのまま** または **ディゾルブ** された境界で作成されたバッファゾーン</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>**そのまま** または **ディゾルブ** された境界で作成されたバッファゾーン </seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Besides buffering, a GIS usually provides a variety of vector analysis tools to solve spatial tasks.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Besides buffering, a GIS usually provides a variety of vector analysis tools to solve spatial tasks.</seg></tuv><tuv xml:lang="ja">
         <seg>バッファ作成の他にも、GISでは通常、空間的な課題を解決するためにいろいろなベクター解析ツールが提供されています。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Now you try!</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Now you try!</seg></tuv><tuv xml:lang="ja">
         <seg>やってみよう</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Here are some ideas for you to try with your learners:</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Here are some ideas for you to try with your learners:</seg></tuv><tuv xml:lang="ja">
         <seg>ここでは人に教える際のアイデアいくつか述べていきます:</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>Because of dramatic traffic increase, the town planners want to widen the main road and add a second lane. Create a buffer around the road to find properties that fall within the buffer zone (see figure_buffer_road_).</seg>
       </tuv>
@@ -580,14 +363,10 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Something to think about</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>Something to think about</seg></tuv><tuv xml:lang="ja">
         <seg>考えてみよう</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>If you don't have a computer available, you can use a toposheet and a compass to create buffer zones around buildings. Make small pencil marks at equal distance all along your feature using the compass, then connect the marks using a ruler!</seg>
       </tuv>
@@ -596,22 +375,14 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Further reading</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>Further reading</seg></tuv><tuv xml:lang="ja">
         <seg>より詳しく知りたい場合は</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>**Books**:</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>**Books**:</seg></tuv><tuv xml:lang="ja">
         <seg>**図書**:</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>Galati, Stephen R. (2006). Geographic Information Systems Demystified. Artech House Inc. ISBN: 158053533X</seg>
       </tuv>
@@ -620,44 +391,52 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Chang, Kang-Tsung (2006). Introduction to Geographic Information Systems. 3rd Edition. McGraw Hill. ISBN: 0070658986</seg>
+      <tuv xml:lang="en"><seg>Chang, Kang-Tsung (2006).</seg></tuv><tuv xml:lang="ja">
+        <seg>Chang, Kang-Tsung (2006).</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>Chang, Kang-Tsung (2006). Introduction to Geographic Information Systems. 3rd Edition. McGraw Hill. ISBN: 0070658986</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Introduction to Geographic Information Systems. 3rd Edition.</seg></tuv><tuv xml:lang="ja">
+        <seg>Introduction to Geographic Information Systems. 3rd Edition.</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>DeMers, Michael N. (2005). Fundamentals of Geographic Information Systems. 3rd Edition. Wiley. ISBN: 9814126195</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>McGraw Hill.</seg></tuv><tuv xml:lang="ja">
+        <seg>McGraw Hill.</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>DeMers, Michael N. (2005). Fundamentals of Geographic Information Systems. 3rd Edition. Wiley. ISBN: 9814126195</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>ISBN: 0070658986</seg></tuv><tuv xml:lang="ja">
+        <seg>ISBN: 0070658986</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>The QGIS User Guide also has more detailed information on analysing vector data in QGIS.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>DeMers, Michael N.</seg></tuv><tuv xml:lang="ja">
+        <seg>DeMers, Michael N.</seg>
       </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>(2005).</seg></tuv><tuv xml:lang="ja">
+        <seg>(2005).</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Fundamentals of Geographic Information Systems. 3rd Edition.</seg></tuv><tuv xml:lang="ja">
+        <seg>Fundamentals of Geographic Information Systems. 3rd Edition.</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Wiley.</seg></tuv><tuv xml:lang="ja">
+        <seg>Wiley.</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>ISBN: 9814126195</seg></tuv><tuv xml:lang="ja">
+        <seg>ISBN: 9814126195</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>The QGIS User Guide also has more detailed information on analysing vector data in QGIS.</seg></tuv><tuv xml:lang="ja">
         <seg>QGISユーザーガイドでは, QGISにおけるベクター分析についてより詳細な情報が含まれています.</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>What's next?</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>What's next?</seg></tuv><tuv xml:lang="ja">
         <seg>次は？</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>In the section that follows we will take a closer look at **interpolation** as an example of spatial analysis you can do with raster data.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>In the section that follows we will take a closer look at **interpolation** as an example of spatial analysis you can do with raster data.</seg></tuv><tuv xml:lang="ja">
+        <seg>次のセクションでは、ラスターデータを使った空間解析の例として **補間** について詳しく見ましょう。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>次のセクションでは、ラスターデータを使った空間解析の例として **補間** について詳しく見ましょう。 </seg>
-      </tuv>
-    </tu>
-  </body>
+    </tu></body>
 </tmx>

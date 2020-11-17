@@ -2,80 +2,51 @@
 <!DOCTYPE tmx SYSTEM "tmx14.dtd">
 <tmx version="1.4">
   <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
-  <body>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Preamble</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+  <body><tu>
+      <tuv xml:lang="en"><seg>Preamble</seg></tuv><tuv xml:lang="ja">
         <seg>はじめに</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>A Gentle Introduction to GIS</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>A Gentle Introduction to GIS</seg></tuv><tuv xml:lang="ja">
         <seg>やさしい GIS 入門</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Brought to you with QGIS, a Free and Open Source Software GIS Application for everyone.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Brought to you with QGIS, a Free and Open Source Software GIS Application for everyone.</seg></tuv><tuv xml:lang="ja">
         <seg>皆さんのための GIS アプリケーション、フリーでオープンソースソフトウェアである QGIS をご紹介します。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Sutton, O. Dassau, M. Sutton</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Sutton, O.</seg></tuv><tuv xml:lang="ja">
+        <seg>Sutton, O.</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>Sutton, O. Dassau, M. Sutton</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Dassau, M.</seg></tuv><tuv xml:lang="ja">
+        <seg>Dassau, M.</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Sponsored by: Chief Directorate: Spatial Planning &amp; Information, Department of Land Affairs, Eastern Cape, South Africa.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Sutton</seg></tuv><tuv xml:lang="ja">
+        <seg>Sutton</seg>
       </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Sponsored by: Chief Directorate: Spatial Planning &amp; Information, Department of Land Affairs, Eastern Cape, South Africa.</seg></tuv><tuv xml:lang="ja">
         <seg>資金提供： Chief Directorate: Spatial Planning &amp; Information, Department of Land Affairs, Eastern Cape, South Africa.</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>In partnership with: Spatial Information Management Unit, Office of the Premier, Eastern Cape, South Africa.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>In partnership with: Spatial Information Management Unit, Office of the Premier, Eastern Cape, South Africa.</seg></tuv><tuv xml:lang="ja">
         <seg>パートナーシップ: Spatial Information Management Unit, Office of the Premier, Eastern Cape, South Africa.</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Copyright (c) 2009 Chief Directorate: Spatial Planning &amp; Information, Department of Land Affairs, Eastern Cape.</seg></tuv><tuv xml:lang="ja">
         <seg>Copyright (c) 2009 Chief Directorate: Spatial Planning &amp; Information, Department of Land Affairs, Eastern Cape.</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>Copyright (c) 2009 Chief Directorate: Spatial Planning &amp; Information, Department of Land Affairs, Eastern Cape.</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.2 or any later version published by the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Permission is granted to copy, distribute and/or modify this document under the terms of the GNU Free Documentation License, Version 1.2 or any later version published by the Free Software Foundation; with no Invariant Sections, no Front-Cover Texts, and no Back-Cover Texts.</seg></tuv><tuv xml:lang="ja">
         <seg>GNU Free Documentation License V1.2 または、フリーソフトウェア財団によって発行されたそれ以降のバージョンの規約に基づき、同ライセンスに必要とされる形式に沿っていない表紙、背表紙、不可変更部分を除いて、このドキュメントに対する複製、頒布、および/または　改変を許可しています。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>A copy of the license is included in the section :ref:`gnu_fdl`.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>A copy of the license is included in the section :ref:`gnu_fdl`.</seg></tuv><tuv xml:lang="ja">
         <seg>利用許諾契約書の複製は :ref:`gnu_fdl` のセクションに含まれています。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>The above copyright notice excludes the QGIS User Manual which may be appended to this document. Consult the QGIS Manuals for further copyright and licensing information.</seg>
       </tuv>
@@ -84,22 +55,14 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>A word from the editor</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>A word from the editor</seg></tuv><tuv xml:lang="ja">
         <seg>編者からの言葉</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>This project was sponsored by the Chief Directorate: Spatial Planning &amp; Information, Department of Land Affairs (DLA), Eastern Cape, in conjunction with the Spatial Information Management Unit, Office of the Premier, Eastern Cape, South Africa.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>This project was sponsored by the Chief Directorate: Spatial Planning &amp; Information, Department of Land Affairs (DLA), Eastern Cape, in conjunction with the Spatial Information Management Unit, Office of the Premier, Eastern Cape, South Africa.</seg></tuv><tuv xml:lang="ja">
         <seg>このプロジェクトは、南アフリカ共和国、東ケープ州プレミアのオフィス、空間情報管理ユニットと、国土局 (DLA) のチーフ・ディレクター：空間計画・情報によって提供されています。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>GIS is becoming an increasingly important tool in environmental management, retail, military, police, tourism and many other spheres of our daily lives. If you use a computer or a cell phone, you have probably already used a GIS in some form without even realising it. Maybe it was a map on a web site, Google Earth, an information booth or your cell phone telling you where you are. Proprietary GIS software (software that cannot be freely shared or modified) is available that will let you do everything we describe in these worksheets and a lot more. However this software is usually very expensive or otherwise limits your freedom to copy, share and modify the software. GIS vendors sometimes make an exception for educational activities, providing cheaper or free copies of their software. They do this knowing that if teachers and learners get to know their software, they will be reluctant to learn other packages. When learners leave school they will go into the workplace and buy the commercial software, never knowing that there are free alternatives that they could be using.</seg>
       </tuv>
@@ -132,20 +95,12 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>We hope you enjoy using and learning QGIS in the spirit of Ubuntu!</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>We hope you enjoy using and learning QGIS in the spirit of Ubuntu!</seg></tuv><tuv xml:lang="ja">
         <seg>Ubuntuの精神に基づき、QGISを使うことと学ぶことを楽しんで下さることを願っています！</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Tim Sutton, April 2009</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Tim Sutton, April 2009</seg></tuv><tuv xml:lang="ja">
         <seg>ティム・サットン　2009年4月</seg>
       </tuv>
-    </tu>
-  </body>
+    </tu></body>
 </tmx>

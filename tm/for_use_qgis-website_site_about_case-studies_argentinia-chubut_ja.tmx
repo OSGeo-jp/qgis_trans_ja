@@ -2,88 +2,47 @@
 <!DOCTYPE tmx SYSTEM "tmx14.dtd">
 <tmx version="1.4">
   <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
-  <body>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Introduction</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+  <body><tu>
+      <tuv xml:lang="en"><seg>Introduction</seg></tuv><tuv xml:lang="ja">
         <seg>はじめに</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>About the project</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>About the project</seg></tuv><tuv xml:lang="ja">
         <seg>プロジェクトについて</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>The main objective of the experience was to lecture the 12th grade students, in the implementation of a GIS as tool to optimize and enhance the management of spatial information, and to provide a support to the decision making process.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>The main objective of the experience was to lecture the 12th grade students, in the implementation of a GIS as tool to optimize and enhance the management of spatial information, and to provide a support to the decision making process.</seg></tuv><tuv xml:lang="ja">
         <seg>経験の主な目的は、12年生の生徒を講義すること、最適化し空間情報の管理を強化するためのツールとしてGISの実装の中で、意思決定プロセスへの支援を提供することでした。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>**Specific objectives:**</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>**Specific objectives:**</seg></tuv><tuv xml:lang="ja">
         <seg>**具体的目的：**</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Usage of GIS as a technical tool to validate of socio-spatial hypothesis.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Usage of GIS as a technical tool to validate of socio-spatial hypothesis.</seg></tuv><tuv xml:lang="ja">
         <seg>社会空間の仮説を検証するための技術的なツールとしてのGISの使い方。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>**Methodology:**</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>**Methodology:**</seg></tuv><tuv xml:lang="ja">
         <seg>**方法論：**</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>To generate the project we continue the following methodology:</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>To generate the project we continue the following methodology:</seg></tuv><tuv xml:lang="ja">
         <seg>以下の方法論を続けるプロジェクトを生成するには：</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Practical and theoretical lectures; mainly about the usage of QGIS and the benefits of urban green spaces and its territorial implications.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Practical and theoretical lectures; mainly about the usage of QGIS and the benefits of urban green spaces and its territorial implications.</seg></tuv><tuv xml:lang="ja">
         <seg>実用的かつ理論的な講義。主にQGISの使用状況や都市の緑地とその領土意味合いの利点について。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Cartographic modeling, vector layers definition, development of GIS databases.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Cartographic modeling, vector layers definition, development of GIS databases.</seg></tuv><tuv xml:lang="ja">
         <seg>地図作成、モデリング、ベクタレイヤーの定義、GISデータベースの開発。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Field work (trees data records and GPS locations).</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Field work (trees data records and GPS locations).</seg></tuv><tuv xml:lang="ja">
         <seg>フィールドワーク（木データレコードとGPSの位置）。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>Vector digitizing of urban cadastral blocks and the tree´s canopies, using a Google Earth (GeoEye) image. In order to consider the amount inhabitants by cadastral block, we assigned an average value of 4 inhabitants by plot.</seg>
       </tuv>
@@ -92,38 +51,22 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Results presentation through thematic cartography.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>Results presentation through thematic cartography.</seg></tuv><tuv xml:lang="ja">
         <seg>主題図を通じた結果のプレゼンテーション。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Attribute table of “blocks” vector layer</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Attribute table of “blocks” vector layer</seg></tuv><tuv xml:lang="ja">
         <seg>「ブロック」ベクターレイヤーのテーブル属性</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Conclusion</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Conclusion</seg></tuv><tuv xml:lang="ja">
         <seg>結論</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Distribution of urban green spaces (green) and population density by blocks (white to brown) at Rada Tilly coastal town, Chubut Provinc, Argentina.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Distribution of urban green spaces (green) and population density by blocks (white to brown) at Rada Tilly coastal town, Chubut Provinc, Argentina.</seg></tuv><tuv xml:lang="ja">
         <seg>アルゼンチンのチュブ州ラダ・ティリ沿岸町での都市緑地の分布（緑）およびブロックでの人口密度（白から茶色）。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>Although the project was an academic exercise of High School, we deeply value the inventory´s results obtained by QGIS. Students worked with all academic rigor and seriousness, showing appropriation of the thematic (urban green spaces) and also of the tool (QGIS). It was a very enriching experience for them and also for the educational staff involved.</seg>
       </tuv>
@@ -132,22 +75,14 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Authors</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>Authors</seg></tuv><tuv xml:lang="ja">
         <seg>著者</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Mauro Novara</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Mauro Novara</seg></tuv><tuv xml:lang="ja">
         <seg>マウロ・ノヴァラ</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>Mauro Novara is Professor of Territorial Information Systems course. Lecturer and researcher of National University of Patagonia San Juan Bosco, Faculty of Humanities and Social Sciences. Geography Department. Comodoro Rivadavia, Chubut Province, Argentina.</seg>
       </tuv>
@@ -156,22 +91,14 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Alberto Vázquez</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>Alberto Vázquez</seg></tuv><tuv xml:lang="ja">
         <seg>アルバート・バスケス</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>This article was contributed in September 2011 by Mauro Novara and Alberto Vázquez from Argentina.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>This article was contributed in September 2011 by Mauro Novara and Alberto Vázquez from Argentina.</seg></tuv><tuv xml:lang="ja">
         <seg>この記事では、アルゼンチンからマウロ・ノヴァラとアルバート・バスケスによって2011年9月に寄稿されました。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>Prof. Alberto Vázquez is a graduate teaching assistant of Territorial Information Systems course. National University of Patagonia San Juan Bosco, Faculty of Humanities and Social Sciences. Geography Department. Comodoro Rivadavia, Chubut Province, Argentina.</seg>
       </tuv>
@@ -180,14 +107,10 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>QGIS at high school --- the urban green spaces in Rada Tilly coastal town, Chubut province, Argentina</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>QGIS at high school --- the urban green spaces in Rada Tilly coastal town, Chubut province, Argentina</seg></tuv><tuv xml:lang="ja">
         <seg>高等学校でのQGIS ---アルゼンチン、チュブ州ラダ・ティリ沿岸町の都市緑地</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>In our region, Argentinean Patagonia, we have very few references about the application of GIS in High School for the construction of geographical knowledge as a mean to face territorial and environmental issues. The case of the urban green spaces in Rada Tilly coastal town analyzed by QGIS, tends to demonstrate a methodology of an academic exercise that can project, with important reaches, as formative instances related to the geographical reasoning in students of 12th grade of the Abraham Lincoln School.</seg>
       </tuv>
@@ -204,22 +127,14 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Student´s appropriation of a local issue (the Rada Tilly´s green areas related the 9 m\ :sup:`2` by inhabitant proposed by WHO) from a geographical perspective through GIS tools.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>Student´s appropriation of a local issue (the Rada Tilly´s green areas related the 9 m\ :sup:`2` by inhabitant proposed by WHO) from a geographical perspective through GIS tools.</seg></tuv><tuv xml:lang="ja">
         <seg>GISツールを介した地理的な観点から、地域問題（WHOによって提案されたラダ・ティリの緑地の住民によって9m\ :sup:`2` 関連しました）の生徒の充当。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Verification of the viability of capture, processing, storage, analysis, recovery and updating of spatial data using a FOSS QGIS.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Verification of the viability of capture, processing, storage, analysis, recovery and updating of spatial data using a FOSS QGIS.</seg></tuv><tuv xml:lang="ja">
         <seg>キャプチャ、処理、保管、分析、回収、FOSS QGISを用いた空間データの更新の実行可能性の検証。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>Based in the projection of an average value of 4 inhabitants by cadastral plot, we estimated that the current (2010) urban population Rada Tilly would go up to around 9.600 inhabitants. These people reside in 209 blocks and they represent 157.6 hectares. The average population density would be of 61 inhabitants by hectare.</seg>
       </tuv>

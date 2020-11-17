@@ -2,16 +2,11 @@
 <!DOCTYPE tmx SYSTEM "tmx14.dtd">
 <tmx version="1.4">
   <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
-  <body>
-    <tu>
-      <tuv xml:lang="en">
+  <body><tu>
+      <tuv xml:lang="en"><seg>|MOD| GRASS</seg></tuv><tuv xml:lang="ja">
         <seg>|MOD| GRASS</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>|MOD| GRASS</seg>
-      </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>GRASS (Geographic Resources Analysis Support System) is a well-known open source GIS with a wide array of useful GIS functions. It was first released in 1984, and has seen much improvement and additional functionality since then. QGIS allows you to make use of GRASS' powerful GIS tools directly.</seg>
       </tuv>

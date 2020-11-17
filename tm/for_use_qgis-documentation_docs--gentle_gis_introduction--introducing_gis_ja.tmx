@@ -2,96 +2,55 @@
 <!DOCTYPE tmx SYSTEM "tmx14.dtd">
 <tmx version="1.4">
   <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
-  <body>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Introducing GIS</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+  <body><tu>
+      <tuv xml:lang="en"><seg>Introducing GIS</seg></tuv><tuv xml:lang="ja">
         <seg>GIS入門</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>|gentleLogo|</seg></tuv><tuv xml:lang="ja">
         <seg>|gentleLogo|</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>|gentleLogo|</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Objectives:</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Objectives:</seg></tuv><tuv xml:lang="ja">
         <seg>目的：</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Understanding what GIS is and what it can be used for.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Understanding what GIS is and what it can be used for.</seg></tuv><tuv xml:lang="ja">
         <seg>GISとは何か、何ができるのかを理解する。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Keywords:</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Keywords:</seg></tuv><tuv xml:lang="ja">
         <seg>キーワード：</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>GIS, Computer, Maps, Data, Information System, Spatial, Analysis</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>GIS, Computer, Maps, Data, Information System, Spatial, Analysis</seg></tuv><tuv xml:lang="ja">
         <seg>GIS, コンピュータ, 地図, データ, 情報システム, 空間解析</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Overview</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Overview</seg></tuv><tuv xml:lang="ja">
         <seg>概要</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Just as we use a word processor to write documents and deal with words on a computer, we can use a **GIS application** to deal with **spatial information** on a computer. GIS stands for **'Geographical Information System'**.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Just as we use a word processor to write documents and deal with words on a computer, we can use a **GIS application** to deal with **spatial information** on a computer.</seg></tuv><tuv xml:lang="ja">
+        <seg>ワープロを使用してコンピュータで文章を書いたり扱ったりできるのと同じように、 **GIS アプリケーション** を使用して **空間情報** を扱うことができます。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>ワープロを使用してコンピュータで文章を書いたり扱ったりできるのと同じように、 **GIS アプリケーション** を使用して **空間情報** を扱うことができます。 GIS とは **地理情報システム （Geographical Information System）** のことです。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>GIS stands for **'Geographical Information System'**.</seg></tuv><tuv xml:lang="ja">
+        <seg>GIS とは **地理情報システム （Geographical Information System）** のことです。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>A GIS consists of:</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>A GIS consists of:</seg></tuv><tuv xml:lang="ja">
         <seg>GIS は以下のものから構成されます。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>**Digital Data** –-- the geographical information that you will view and analyse using computer hardware and software.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>**Digital Data** –-- the geographical information that you will view and analyse using computer hardware and software.</seg></tuv><tuv xml:lang="ja">
         <seg>**デジタルデータ** –--コンピュータのハードウェアとソフトウェアを使用して表示および分析する地理情報。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>**Computer Hardware** –-- computers used for storing data, displaying graphics and processing data.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>**Computer Hardware** –-- computers used for storing data, displaying graphics and processing data.</seg></tuv><tuv xml:lang="ja">
         <seg>**コンピュータハードウェア** –-- データの保存や画面表示, データ処理などに使われるコンピュータ.</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>**Computer Software** –-- computer programs that run on the computer hardware and allow you to work with digital data. A software program that forms part of the GIS is called a GIS Application.</seg>
       </tuv>
@@ -100,286 +59,150 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>With a GIS application you can open digital maps on your computer, create new spatial information to add to a map, create printed maps customised to your needs and perform spatial analysis.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>With a GIS application you can open digital maps on your computer, create new spatial information to add to a map, create printed maps customised to your needs and perform spatial analysis.</seg></tuv><tuv xml:lang="ja">
         <seg>GISアプリケーションを使うとコンピュータ上のデジタル地図を開いたり, 新しい空間情報データを作成して地図に加えたり, 必要に応じてカスタマイズした地図の印刷物を制作したり空間解析が出来ます.</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Let's look at a little example of how GIS can be useful. Imagine you are a health worker and you make a note of the date and place of residence of every patient you treat.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Let's look at a little example of how GIS can be useful.</seg></tuv><tuv xml:lang="ja">
+        <seg>GISがどんなに便利なのかちょっと例を見てみましょう.</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>GISがどんなに便利なのかちょっと例を見てみましょう. あなたが医療従事者だとして, 患者たちの診療日と自宅の位置を記録しているとします.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Imagine you are a health worker and you make a note of the date and place of residence of every patient you treat.</seg></tuv><tuv xml:lang="ja">
+        <seg>あなたが医療従事者だとして, 患者たちの診療日と自宅の位置を記録しているとします.</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Longitude</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Longitude</seg></tuv><tuv xml:lang="ja">
         <seg>経度</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Latitude</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Latitude</seg></tuv><tuv xml:lang="ja">
         <seg>緯度</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Disease</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Disease</seg></tuv><tuv xml:lang="ja">
         <seg>病気</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Date</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Date</seg></tuv><tuv xml:lang="ja">
         <seg>日付</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>26.870436</seg></tuv><tuv xml:lang="ja">
         <seg>26.870436</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>26.870436</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>-31.909519</seg></tuv><tuv xml:lang="ja">
         <seg>-31.909519</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>-31.909519</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Mumps</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Mumps</seg></tuv><tuv xml:lang="ja">
         <seg>おたふく風邪</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>13/12/2008</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>13/12/2008</seg></tuv><tuv xml:lang="ja">
         <seg>2008年12月13日</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>26.868682</seg></tuv><tuv xml:lang="ja">
         <seg>26.868682</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>26.868682</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>-31.909259</seg></tuv><tuv xml:lang="ja">
         <seg>-31.909259</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>-31.909259</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>24/12/2008</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>24/12/2008</seg></tuv><tuv xml:lang="ja">
         <seg>2008年12月24日</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>26.867707</seg></tuv><tuv xml:lang="ja">
         <seg>26.867707</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>26.867707</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>-31.910494</seg></tuv><tuv xml:lang="ja">
         <seg>-31.910494</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>-31.910494</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>22/01/2009</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>22/01/2009</seg></tuv><tuv xml:lang="ja">
         <seg>2009年01月22日</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>26.854908</seg></tuv><tuv xml:lang="ja">
         <seg>26.854908</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>26.854908</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>-31.920759</seg></tuv><tuv xml:lang="ja">
         <seg>-31.920759</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>-31.920759</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Measles</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Measles</seg></tuv><tuv xml:lang="ja">
         <seg>はしか</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>11/01/2009</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>11/01/2009</seg></tuv><tuv xml:lang="ja">
         <seg>2009年01月11日</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>26.855817</seg></tuv><tuv xml:lang="ja">
         <seg>26.855817</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>26.855817</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>-31.921929</seg></tuv><tuv xml:lang="ja">
         <seg>-31.921929</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>-31.921929</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>26/01/2009</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>26/01/2009</seg></tuv><tuv xml:lang="ja">
         <seg>2009年01月26日</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>26.852764</seg></tuv><tuv xml:lang="ja">
         <seg>26.852764</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>26.852764</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>10/02/2009</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>10/02/2009</seg></tuv><tuv xml:lang="ja">
         <seg>2009年02月10日</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>26.854778</seg></tuv><tuv xml:lang="ja">
         <seg>26.854778</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>26.854778</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>-31.925112</seg></tuv><tuv xml:lang="ja">
         <seg>-31.925112</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>-31.925112</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>22/02/2009</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>22/02/2009</seg></tuv><tuv xml:lang="ja">
         <seg>2009年02月22日</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>26.869072</seg></tuv><tuv xml:lang="ja">
         <seg>26.869072</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>26.869072</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>-31.911988</seg></tuv><tuv xml:lang="ja">
         <seg>-31.911988</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>-31.911988</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>02/02/2009</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>02/02/2009</seg></tuv><tuv xml:lang="ja">
         <seg>2009年02月02日</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>26.863354</seg></tuv><tuv xml:lang="ja">
         <seg>26.863354</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>26.863354</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>-31.916406</seg></tuv><tuv xml:lang="ja">
         <seg>-31.916406</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>-31.916406</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Chicken Pox</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Chicken Pox</seg></tuv><tuv xml:lang="ja">
         <seg>水疱瘡</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>26/02/2009</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>26/02/2009</seg></tuv><tuv xml:lang="ja">
         <seg>2009年02月26日</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>If you look at the table above you will quickly see that there were a lot of measles cases in January and February. Our health worker recorded the location of each patient's house by noting its latitude and longitude in the table. Using this data in a GIS Application, we can quickly understand a lot more about the patterns of illness:</seg>
       </tuv>
@@ -396,14 +219,10 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>More about GIS</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>More about GIS</seg></tuv><tuv xml:lang="ja">
         <seg>GISについてより詳しく</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>GIS is a relatively new field --- it started in the 1970's. It used to be that computerised GIS was only available to companies and universities that had expensive computer equipment. These days, anyone with a personal computer or laptop can use GIS software. Over time GIS Applications have also become easier to use --– it used to require a lot of training to use a GIS Application, but now it is much easier to get started in GIS even for amateurs and casual users. As we described above, GIS is more than just software, it refers to all aspects of managing and using digital geographical data. In the tutorials that follow we will be focusing on GIS Software.</seg>
       </tuv>
@@ -412,14 +231,10 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>What is GIS Software / a GIS Application?</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>What is GIS Software / a GIS Application?</seg></tuv><tuv xml:lang="ja">
         <seg>GIS ソフトウェア / アプリケーションとは何か?</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>You can see an example of what a **GIS Application** looks like figure_gis_application_. GIS Applications are normally programs with a graphical user interface that can be manipulated using the mouse and keyboard. The application provides **menus** near to the top of the window (File, Edit etc.) which, when clicked using the mouse, show a panel of **actions**. These actions provide a way for you to tell the GIS Application what you want to do. For example you may use the menus to tell the GIS Application to add a new layer to the display output.</seg>
       </tuv>
@@ -428,22 +243,14 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Application menus, when clicked with the mouse, expand to show a list of actions that can be carried out.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>Application menus, when clicked with the mouse, expand to show a list of actions that can be carried out.</seg></tuv><tuv xml:lang="ja">
         <seg>アプリケーションのメニューは、マウスでクリックすると、開いて実行可能な操作の一覧が表示されます。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>**Toolbars** (rows of small pictures that can be clicked with the mouse) normally sit just below the menus and provide a quicker way to use frequently needed actions.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>**Toolbars** (rows of small pictures that can be clicked with the mouse) normally sit just below the menus and provide a quicker way to use frequently needed actions.</seg></tuv><tuv xml:lang="ja">
         <seg>**ツールバー** (マウスでクリックできる小さなアイコンが並んでいるもの) は、通常メニューバーの下に配置され、よく使われる操作が簡単に選べるようになっています。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>Toolbars provide quick access to commonly used functions. Holding your mouse over a picture will usually tell you what will happen when you click on it.</seg>
       </tuv>
@@ -508,14 +315,10 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>GIS Software let you easily change symbology --- the way information is displayed.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>GIS Software let you easily change symbology --- the way information is displayed.</seg></tuv><tuv xml:lang="ja">
         <seg>GISソフトウェアにより簡単にシンボル変更ができます --- 道路情報の表示.</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>Changing the layer order allows to adjust the way that layers are drawn. Before changing the layer order, rivers are drawn underneath roads</seg>
       </tuv>
@@ -532,14 +335,10 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Getting a GIS Application for your own computer(s)</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>Getting a GIS Application for your own computer(s)</seg></tuv><tuv xml:lang="ja">
         <seg>GISアプリケーションを入手してみよう</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>There are many different GIS Applications available. Some have many sophisticated features and cost tens of thousands of Rands for each copy. In other cases, you can obtain a GIS Application for free. Deciding which GIS Application to use is a question of how much money you can afford and personal preference. For these tutorials, we will be using the QGIS Application. QGIS is completely free and you can copy it and share it with your friends as much as you like. If you received this tutorial in printed form, you should have received a copy of QGIS with it. If not, you can always visit https://www.qgis.org/ to download your free copy if you have access to the internet.</seg>
       </tuv>
@@ -548,14 +347,10 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>GIS Data</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>GIS Data</seg></tuv><tuv xml:lang="ja">
         <seg>GISデータ</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>Now that we know what a GIS is and what a GIS Application can do, let's talk about **GIS data**. Data is another word for **information**. The information we use in a GIS normally has a geographical aspect to it. Think of our example above, about the health care worker. She created a table to record diseases that looked like this:</seg>
       </tuv>
@@ -588,14 +383,10 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Vector data is used to represent points (e.g. towns), lines (e.g. rivers) and polygons (e.g. municipal boundaries).</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>Vector data is used to represent points (e.g. towns), lines (e.g. rivers) and polygons (e.g. municipal boundaries).</seg></tuv><tuv xml:lang="ja">
         <seg>ベクターデータによる点 (町など) , 線 (河川など) , エリア (行政区) などの表示</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>**Raster data** are stored as a grid of values. There are many satellites circling the earth and the photographs they take are a kind of raster data that can be viewed in a GIS. One important difference between raster and vector data is that if you zoom in too much on a raster image, it will start to appear 'blocky' (see illustrations figure_raster_data_ and figure_raster_data_zoom_). In fact these blocks are the individual cells of the data grid that makes up the raster image. We will be looking at raster data in greater detail in later tutorials.</seg>
       </tuv>
@@ -620,110 +411,70 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>What have we learned?</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>What have we learned?</seg></tuv><tuv xml:lang="ja">
         <seg>わかりましたか?</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Let's wrap up what we covered in this worksheet:</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Let's wrap up what we covered in this worksheet:</seg></tuv><tuv xml:lang="ja">
         <seg>ここでは以下のことを学びました:</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>A **GIS** is a system of computer hardware, computer software and geographical data.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>A **GIS** is a system of computer hardware, computer software and geographical data.</seg></tuv><tuv xml:lang="ja">
         <seg>**GIS** とはコンピュータ・ハードウェア, ソフトウェア, 地理情報のシステムです.</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>A **GIS Application** allows you to view geographical data and is an important part of the GIS.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>A **GIS Application** allows you to view geographical data and is an important part of the GIS.</seg></tuv><tuv xml:lang="ja">
         <seg>**GISアプリケーション** は地理情報データを見ることを可能にし, GISの重要な部分を占めます.</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>A GIS Application normally consists of a **menu bar**, **toolbars**, a **map view** and a **legend**.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>A GIS Application normally consists of a **menu bar**, **toolbars**, a **map view** and a **legend**.</seg></tuv><tuv xml:lang="ja">
         <seg>GISアプリケーションは通常、 **メニューバー** 、 **ツールバー** 、 **地図ビュー** 、 **凡例** から構成されます.</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>**Vector** and **raster** data are geographical data used in a GIS application.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>**Vector** and **raster** data are geographical data used in a GIS application.</seg></tuv><tuv xml:lang="ja">
         <seg>GISアプリケーションで使用される地理情報データには **ベクターデータ** と **ラスターデータ** があります。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>**Geographical** data can have associated **non-geographical** data.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>**Geographical** data can have associated **non-geographical** data.</seg></tuv><tuv xml:lang="ja">
         <seg>**地理情報** データは **地理情報ではない** データと関連付けることができます。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Now you try!</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Now you try!</seg></tuv><tuv xml:lang="ja">
         <seg>やってみよう</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Here are some ideas for you to try with your learners:</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Here are some ideas for you to try with your learners:</seg></tuv><tuv xml:lang="ja">
         <seg>ここでは人に教える際のアイデアいくつか述べていきます:</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>**Geography:** Describe the concept of GIS to your learners as outlined in this tutorial. Ask them to try to think of 3 reasons why it might be handy to use a GIS instead of paper maps. Here are some that we could think of:</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>**Geography:** Describe the concept of GIS to your learners as outlined in this tutorial.</seg></tuv><tuv xml:lang="ja">
+        <seg>**地理情報：** このチュートリアルで示すように、GISのコンセプトを示す概念です.</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>**地理情報：** このチュートリアルで示すように、GISのコンセプトを示す概念です. なぜ紙地図よりGISの方が便利なのか, GISを学習する人たちに3つ理由を考えさせてみて下さい. 以下にはいくつかの例を示します:</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Ask them to try to think of 3 reasons why it might be handy to use a GIS instead of paper maps.</seg></tuv><tuv xml:lang="ja">
+        <seg>なぜ紙地図よりGISの方が便利なのか, GISを学習する人たちに3つ理由を考えさせてみて下さい.</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>GIS Applications allow you to create many different types of maps from the same data.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Here are some that we could think of:</seg></tuv><tuv xml:lang="ja">
+        <seg>以下にはいくつかの例を示します:</seg>
       </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>GIS Applications allow you to create many different types of maps from the same data.</seg></tuv><tuv xml:lang="ja">
         <seg>GISアプリケーションを用いることで, 同じデータから様々なタイプの地図を作ることができます.</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>GIS is a great visualisation tool that can show you things about your data and how they are related in space (e.g. those disease outbreaks we saw earlier).</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>GIS is a great visualisation tool that can show you things about your data and how they are related in space (e.g. those disease outbreaks we saw earlier).</seg></tuv><tuv xml:lang="ja">
         <seg>GISはすばらしい可視化ツールで, データそのものやそれらが空間的にどのような関係性を持っているのか（例えば先ほど示した病気の拡大など）をしめすことができます.</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Paper maps need to be filed and are time consuming to view. The GIS can hold a very large amount of map data and make it quick and easy to find a place you are interested in.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Paper maps need to be filed and are time consuming to view.</seg></tuv><tuv xml:lang="ja">
+        <seg>紙地図はファイルにして保管しなければならず, 見られるまでに時間がかかります.</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>紙地図はファイルにして保管しなければならず, 見られるまでに時間がかかります. GISは非常に大きな量の地図データから興味のある地域を簡単に素早く探して見ることができます.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>The GIS can hold a very large amount of map data and make it quick and easy to find a place you are interested in.</seg></tuv><tuv xml:lang="ja">
+        <seg>GISは非常に大きな量の地図データから興味のある地域を簡単に素早く探して見ることができます.</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>**Geography:** Can you and your learners think of how raster data from satellites could be useful? Here are some ideas we had:</seg>
       </tuv>
@@ -740,47 +491,34 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Sometimes people do bad things to the the environment, like dumping dangerous chemicals that kill plants and animals. Using raster data from satellites can help us to monitor for these type of problems.</seg>
+      <tuv xml:lang="en"><seg>Sometimes people do bad things to the the environment, like dumping dangerous chemicals that kill plants and animals.</seg></tuv><tuv xml:lang="ja">
+        <seg>人は植物や動物に害を及ぼす危険な化学薬品の廃棄などといった環境に悪影響をもたらす行為をすることがあります.</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>人は植物や動物に害を及ぼす危険な化学薬品の廃棄などといった環境に悪影響をもたらす行為をすることがあります. こういった問題は, 衛星画像のようなラスターデータをつかって観測することができます.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Using raster data from satellites can help us to monitor for these type of problems.</seg></tuv><tuv xml:lang="ja">
+        <seg>こういった問題は, 衛星画像のようなラスターデータをつかって観測することができます.</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Town planners can use raster data from satellites to see where informal settlements are and to help in planning infrastructure.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Town planners can use raster data from satellites to see where informal settlements are and to help in planning infrastructure.</seg></tuv><tuv xml:lang="ja">
         <seg>都市計画を行う人にとっては衛星画像といったラスターデータを使うことにより, どこに居住区域が存在するのかを把握し, インフラ計画に役立てることができます.</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Something to think about</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Something to think about</seg></tuv><tuv xml:lang="ja">
         <seg>考えてみよう</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>If you don't have a computer available, many of the topics we cover in this tutorial can be reproduced using an overhead and transparency as it uses the same technique of layering information. However, to properly understand GIS it is always better to learn it using a computer.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>If you don't have a computer available, many of the topics we cover in this tutorial can be reproduced using an overhead and transparency as it uses the same technique of layering information.</seg></tuv><tuv xml:lang="ja">
+        <seg>もしコンピュータが利用できない場合でも、このチュートリアルの多くの項目は、OHPとシートを使って、レイヤー情報の重ね合わせを同様におこなうことで再現可能です。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>もしコンピュータが利用できない場合でも、このチュートリアルの多くの項目は、OHPとシートを使って、レイヤー情報の重ね合わせを同様におこなうことで再現可能です。
-ですが、GISについて正しく理解する目的ならば、コンピュータを使って学ぶ方がよいでしょう。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>However, to properly understand GIS it is always better to learn it using a computer.</seg></tuv><tuv xml:lang="ja">
+        <seg>ですが、GISについて正しく理解する目的ならば、コンピュータを使って学ぶ方がよいでしょう。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Further reading</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Further reading</seg></tuv><tuv xml:lang="ja">
         <seg>より詳しく知りたい場合は</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>**Book:** Desktop GIS: Mapping the Planet with Open Source Tools. **Author:** Gary Sherman. **ISBN:** 9781934356067</seg>
       </tuv>
@@ -789,28 +527,24 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>The QGIS User Guide also has more detailed information on working with QGIS.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>The QGIS User Guide also has more detailed information on working with QGIS.</seg></tuv><tuv xml:lang="ja">
         <seg>QGISユーザーガイドでは, QGISについてより詳細な情報が含まれています.</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>What's next?</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>What's next?</seg></tuv><tuv xml:lang="ja">
         <seg>次は？</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>In the sections that follow we are going to go into more detail, showing you how to use a GIS Application. All of the tutorials will be done using QGIS. Next up, let's look at vectors!</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>In the sections that follow we are going to go into more detail, showing you how to use a GIS Application.</seg></tuv><tuv xml:lang="ja">
+        <seg>この後のセクションではもっと詳しくどうやってGISアプリケーションを使うのか掘り下げていきます.</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>この後のセクションではもっと詳しくどうやってGISアプリケーションを使うのか掘り下げていきます. すべてのチュートリアルはQGISで行われています. 次はベクターデータを見てみましょう!</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>All of the tutorials will be done using QGIS.</seg></tuv><tuv xml:lang="ja">
+        <seg>すべてのチュートリアルはQGISで行われています.</seg>
       </tuv>
-    </tu>
-  </body>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Next up, let's look at vectors!</seg></tuv><tuv xml:lang="ja">
+        <seg>次はベクターデータを見てみましょう!</seg>
+      </tuv>
+    </tu></body>
 </tmx>

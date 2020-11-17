@@ -2,16 +2,11 @@
 <!DOCTYPE tmx SYSTEM "tmx14.dtd">
 <tmx version="1.4">
   <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
-  <body>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>|LS| Forms</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+  <body><tu>
+      <tuv xml:lang="en"><seg>|LS| Forms</seg></tuv><tuv xml:lang="ja">
         <seg>|LS| フォーム</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>When you add new data via digitizing, you're presented with a dialog that lets you fill in the attributes for that feature. However, this dialog is not, by default, very nice to look at. This can cause a usability problem, especially if you have large datasets to create, or if you want other people to help you digitize and they find the default forms to be confusing.</seg>
       </tuv>
@@ -28,30 +23,18 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>**The goal for this lesson:** To create a form for a layer.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>**The goal for this lesson:** To create a form for a layer.</seg></tuv><tuv xml:lang="ja">
         <seg>**このレッスンの目標:** レイヤーのフォームを作成します。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>|basic| |FA| Using QGIS' Form Design Functionality</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>|basic| |FA| Using QGIS' Form Design Functionality</seg></tuv><tuv xml:lang="ja">
         <seg>|basic| |FA| QGISのフォームデザイン機能の使用</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Obviously it would be nice to be able to do this while looking at the map, rather than needing to search for a specific street in the :guilabel:`Attribute Table` all the time.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Obviously it would be nice to be able to do this while looking at the map, rather than needing to search for a specific street in the :guilabel:`Attribute Table` all the time.</seg></tuv><tuv xml:lang="ja">
         <seg>明らかに、毎回 :guilabel:`属性テーブル` で特定の街路を検索するのではなく、地図を見ながらこれを行うことができるといいですね。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>Now, click again on any street in the map. Along the previous :guilabel:`Identify Results` dialog, you'll see the now-familiar form:</seg>
       </tuv>
@@ -60,38 +43,22 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>|basic| |TY| Using the Form to Edit Values</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>|basic| |TY| Using the Form to Edit Values</seg></tuv><tuv xml:lang="ja">
         <seg>|basic| |TY| フォームを使用して値を編集する</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>If you are in edit mode, you can use this form to edit a feature's attributes.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>If you are in edit mode, you can use this form to edit a feature's attributes.</seg></tuv><tuv xml:lang="ja">
         <seg>編集モードの場合は、このフォームを使用して地物の属性を編集できます。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Activate edit mode (if it isn't already activated).</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Activate edit mode (if it isn't already activated).</seg></tuv><tuv xml:lang="ja">
         <seg>編集モードをアクティブにします (まだアクティブになっていない場合)。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>|moderate| |FA| Setting Form Field Types</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>|moderate| |FA| Setting Form Field Types</seg></tuv><tuv xml:lang="ja">
         <seg>|moderate| |FA| フォームのフィールドタイプを設定する</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>It's nice to edit things using a form, but you still have to enter everything by hand. Fortunately, forms have different kinds of so-called *widgets* that allow you to edit data in various different ways.</seg>
       </tuv>
@@ -108,54 +75,30 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Click :guilabel:`OK`</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>Click :guilabel:`OK`</seg></tuv><tuv xml:lang="ja">
         <seg>:guilabel:`OK` をクリックします</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>|hard| |TY|</seg></tuv><tuv xml:lang="ja">
         <seg>|hard| |TY|</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>|hard| |TY|</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Set a more appropriate form widget for the :guilabel:`highway` field.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Set a more appropriate form widget for the :guilabel:`highway` field.</seg></tuv><tuv xml:lang="ja">
         <seg>:guilabel:`highway` フィールドに、より適切なフォームウィジェットを設定します。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>:ref:`Check your results &lt;create-vector-forms-1&gt;`</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>:ref:`Check your results &lt;create-vector-forms-1&gt;`</seg></tuv><tuv xml:lang="ja">
         <seg>:ref:`結果をチェックする &lt;create-vector-forms-1&gt;`</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>|hard| |TY| Creating Test Data</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>|hard| |TY| Creating Test Data</seg></tuv><tuv xml:lang="ja">
         <seg>|hard| |TY| テストデータの作成</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>You can also design your own custom form completely from scratch.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>You can also design your own custom form completely from scratch.</seg></tuv><tuv xml:lang="ja">
         <seg>まったくのゼロから独自のカスタム フォームを設計することもできます。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>Capture a few points on your new layer using the digitizing tools so that you have a little data to play with. You should be presented with the default QGIS generated attribute capture form each time you capture a new point.</seg>
       </tuv>
@@ -164,30 +107,18 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>You may need to disable Snapping if still enabled from earlier tasks.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>You may need to disable Snapping if still enabled from earlier tasks.</seg></tuv><tuv xml:lang="ja">
         <seg>以前の作業の時からスナップを有効にしたままの場合、スナップを無効にする必要があります。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>|hard| |FA| Creating a New Form</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>|hard| |FA| Creating a New Form</seg></tuv><tuv xml:lang="ja">
         <seg>|hard| |FA| 新しいフォームの作成</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>In the dialog that appears, create a new dialog:</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>In the dialog that appears, create a new dialog:</seg></tuv><tuv xml:lang="ja">
         <seg>表示されるダイアログで新しいダイアログボックスを作成します:</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>Look for the :guilabel:`Widget Box` along the left of your screen (default). It contains an item called :guilabel:`Line Edit`.</seg>
       </tuv>
@@ -204,62 +135,34 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>With the new line edit element selected, you'll see its *properties* along the side of your screen (on the right by default):</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>With the new line edit element selected, you'll see its *properties* along the side of your screen (on the right by default):</seg></tuv><tuv xml:lang="ja">
         <seg>Line Edit要素を選択すると、その *プロパティ* が画面の片側に沿って表示されます(デフォルトで右側):</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Click anywhere in your dialog.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Click anywhere in your dialog.</seg></tuv><tuv xml:lang="ja">
         <seg>ダイアログの任意の場所をクリックします。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>|hard| |FA| Associating the Form with Your Layer</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>|hard| |FA| Associating the Form with Your Layer</seg></tuv><tuv xml:lang="ja">
         <seg>|hard| |FA| レイヤーをフォームに関連付ける</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Double click the :guilabel:`test-data` layer in the legend to access its properties.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Double click the :guilabel:`test-data` layer in the legend to access its properties.</seg></tuv><tuv xml:lang="ja">
         <seg>凡例で :guilabel:`test-data` レイヤーをダブルクリックしてプロパティにアクセスします。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>In the :guilabel:`Attribute editor layout` dropdown, select :guilabel:`Provide ui-file`.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>In the :guilabel:`Attribute editor layout` dropdown, select :guilabel:`Provide ui-file`.</seg></tuv><tuv xml:lang="ja">
         <seg>:guilabel:`属性エディタレイアウト` ドロップダウンボックスで :guilabel:`ui-ファイルを提供する` を選択します。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>When you do so, you will be presented with your custom dialog (instead of the generic one that QGIS usually creates).</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>When you do so, you will be presented with your custom dialog (instead of the generic one that QGIS usually creates).</seg></tuv><tuv xml:lang="ja">
         <seg>そうするとカスタムダイアログが表示されます(QGISが通常作成するものの代わりに)。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>|IC|</seg></tuv><tuv xml:lang="ja">
         <seg>|IC|</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>|IC|</seg>
-      </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>Using forms, you can make life easier for yourself when editing or creating data. By editing widget types or creating an entirely new form from scratch, you can control the experience of someone who digitizes new data for that layer, thereby minimizing misunderstandings and unnecessary errors.</seg>
       </tuv>
@@ -268,22 +171,14 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
+      <tuv xml:lang="en"><seg>|FR|</seg></tuv><tuv xml:lang="ja">
         <seg>|FR|</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>|FR|</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>|WN|</seg></tuv><tuv xml:lang="ja">
         <seg>|WN|</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>|WN|</seg>
-      </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>Opening a form on identifying a feature is one of the standard actions that QGIS can perform. However, you can also direct it to perform custom actions that you define. This is the subject of the next lesson.</seg>
       </tuv>

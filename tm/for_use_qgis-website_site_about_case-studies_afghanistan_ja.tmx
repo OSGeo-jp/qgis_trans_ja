@@ -2,24 +2,15 @@
 <!DOCTYPE tmx SYSTEM "tmx14.dtd">
 <tmx version="1.4">
   <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
-  <body>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Danish Demining Group using QGIS in Afghanistan</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+  <body><tu>
+      <tuv xml:lang="en"><seg>Danish Demining Group using QGIS in Afghanistan</seg></tuv><tuv xml:lang="ja">
         <seg>アフガニスタンでQGISを使用するデンマークの地雷除去グループ</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Digital elevation models allow DDG to get an idea of the location of a minefield</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Digital elevation models allow DDG to get an idea of the location of a minefield</seg></tuv><tuv xml:lang="ja">
         <seg>数値標高モデルは、DDGが地雷原の場所に関して当たりを付けることに役立っています。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>Active hazardous areas shown in red. Hazardous areas already cleared show as light green.</seg>
       </tuv>
@@ -28,14 +19,10 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>QGIS also syncs well with data collected from field operations using handheld Garmin GPS, allowing clearance maps to be made with the locations of mines found and destroyed.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>QGIS also syncs well with data collected from field operations using handheld Garmin GPS, allowing clearance maps to be made with the locations of mines found and destroyed.</seg></tuv><tuv xml:lang="ja">
         <seg>またQGISは、携帯式のGarmin GPSを使った野外活動にて収集されたデータと同期し、発見・破壊された地雷の場所で除去地図を作ることを可能にします。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>The use of QGIS, along with a renewed interest in data analysis, has spurred new ways of looking at the data available, and combining it with other data sources to better target mineclearance activities. It is also driving improved mapping capabilities within the organisation, and an ability to better communicate the impact of its work to international donors. In a part of the world where ‘formal’ GIS training is difficult to acquire, the collaborative nature of the QGIS user community is greatly appreciated, as technical problems can often be solved by consulting online forums. In short, QGIS is playing a role in working towards ridding Afghanistan of landmines and UXO.</seg>
       </tuv>
@@ -44,38 +31,22 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Link</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>Link</seg></tuv><tuv xml:lang="ja">
         <seg>リンク</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Danish Demining Group http://www.danishdemininggroup.dk/</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Danish Demining Group http://www.danishdemininggroup.dk/</seg></tuv><tuv xml:lang="ja">
         <seg>デンマーク地雷除去グループ http://www.danishdemininggroup.dk/</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Author</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Author</seg></tuv><tuv xml:lang="ja">
         <seg>制作者</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Edward Crowther</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Edward Crowther</seg></tuv><tuv xml:lang="ja">
         <seg>エドワード・クラウザー</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>Edward Crowther is Deputy Country Director at Danish Demining Group Afghanistan. Prior to joining DDG in Afghanistan, Edward worked with the humanitarian mineclearance agency The HALO Trust in Angola and Sri Lanka. He holds an MSc in Development Studies from the University of London’s School of Oriental and African Studies.</seg>
       </tuv>

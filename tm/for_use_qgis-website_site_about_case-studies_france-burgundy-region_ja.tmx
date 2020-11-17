@@ -2,16 +2,11 @@
 <!DOCTYPE tmx SYSTEM "tmx14.dtd">
 <tmx version="1.4">
   <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
-  <body>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>The Burgundy Historical Landscapes Working Group</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+  <body><tu>
+      <tuv xml:lang="en"><seg>The Burgundy Historical Landscapes Working Group</seg></tuv><tuv xml:lang="ja">
         <seg>ブルゴーニュの歴史的風景ワーキンググループ</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>An interdisciplinary group of researchers based at the University of North Carolina have been working in the Burgundy region of France for over 30 years. We are trying to understand the changing patterns of human settlement and land use over a period of 2,000 years from the Iron Age, Gallo-Roman, Medieval periods into the present.  Our project has included a wide variety of disciplinary researchers, and part of our project includes how to conduct such long-duration interdisciplinary research activities. GIS, GPS and remote sensing have been integral to our work, and our GIS database was first created in 1986, one of the first such archaeological applications.  We have done archaeological, historical, geological, ecological, and ethnographic research in the area surrounding the commune of Uxeau, in Southern Burgundy, which is a rich and resilient landscape that has maintained productivity and stability for an extended period.</seg>
       </tuv>
@@ -28,14 +23,10 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Our Project and how QGIS is used</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>Our Project and how QGIS is used</seg></tuv><tuv xml:lang="ja">
         <seg>私たちのプロジェクトとQGISの使用方法</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>Our research, organized by the theoretical framework of Historical Ecology, centers on the interaction of people, their societies, natural and built environments, and how these have changed over time. Using a collection of historical maps of the area dating back to 1659, we have scanned, digitized and extracted features for a total of 21 maps into our extensive project GIS database. Features in our database include land cover (forest, vineyards, pasture and agriculturecropland), ponds and streams, mills, roads and buildings from these different dates, where possible. We also have cadastral parcel data from 1834, 1964 and 2012, giving us detailed data on changing patterns of detailed land use for the commune of Uxeau (see location in Figure 1). Our project is interdisciplinary, and we have conduced extensive field surveys, oral history and ethnographic interviews, documentary research in various librariesarchives, and geological and ecological analysis (see Figure 3).</seg>
       </tuv>
@@ -60,14 +51,10 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>The data and types of analyses we are currently using to study this complex landscape include a series of maps ranging in date from 1759 to 2012, which are integrated within our larger GIS database, historical records such as cadastral tax records, agricultural reports, and population data from censuses and parish/civil registers, environmental data from ponds (pollen, sediment geochemistry, grain size, stable isotopes), and oral history/ethnographic interviews with local rural inhabitants.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>The data and types of analyses we are currently using to study this complex landscape include a series of maps ranging in date from 1759 to 2012, which are integrated within our larger GIS database, historical records such as cadastral tax records, agricultural reports, and population data from censuses and parish/civil registers, environmental data from ponds (pollen, sediment geochemistry, grain size, stable isotopes), and oral history/ethnographic interviews with local rural inhabitants.</seg></tuv><tuv xml:lang="ja">
         <seg>私たちは現在、この複雑な景観を研究するために使用されている分析のデータおよび種類は、私たちの大きなGISデータベースは、そのような地籍納税記録など歴史的な記録、農業レポート、集団内に統合されている1759年から2012年までの日付の範囲の一連の地図を含み、国勢調査と教区/民事レジスタからのデータ、池からの環境データ（花粉、土砂地球化学、結晶粒径、安定同位体）、そして地元の農村住民とのオーラル・ヒストリー/民族誌のインタビュー。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>A view of our project QGIS database. At right is the eVis GPS ground photo and data of a recently drained pond dating back at least to 1834. In the GIS image at center top you can see the location of the pond as a yellow dot. Red dots show other eVis ground photos of mills and other historical or archaeological sites.</seg>
       </tuv>
@@ -76,14 +63,10 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Conclusion</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>Conclusion</seg></tuv><tuv xml:lang="ja">
         <seg>結論</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>Our project started using GRASS in 1986, and has continued to use this, as well as commercial ArcGIS and a variety of other tools such as Photoshop, Garmin’s BaseCamp, eVis and others. With many collaborators at various institutions in the US and Europe, and graduate students coming and going, using free and open source tools makes a lot of sense. We have found that the combination of QGIS and GRASS provides capable data analysis and visualization, ease of use, interoperability, and portability for our project. Archaeologists have had a strong presence in the GRASS and open source GIS communities for many years, and have contributed much to this important effort, developing and sharing many capabilities. I have taught several 4-day QGIS/GRASS/R short courses in France over the years, sharing these tools with many archaeologists from throughout France.</seg>
       </tuv>
@@ -92,14 +75,10 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Our research will continue to explore the long-term history of the inhabitants’ relationship with this landscape and we will expand our work beyond our current focus on mills and ponds to include changing patterns of forests, pastures and meadows, croplands and former vineyards in the area.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>Our research will continue to explore the long-term history of the inhabitants’ relationship with this landscape and we will expand our work beyond our current focus on mills and ponds to include changing patterns of forests, pastures and meadows, croplands and former vineyards in the area.</seg></tuv><tuv xml:lang="ja">
         <seg>私たちの研究では、この景観と住民の関係の長期的な歴史を探求していくつもりで、この地域の森林、牧草地や牧草地、耕作地との元ブドウ畑の変更パターンを含めるために工場や池に私たちの現在の焦点を越えて私たちの仕事を拡大するでしょう。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>From top left going clockwise: Some of the local Charolais cattle, doing ethnographic interviews with local farmers, a GIS map showing forest change from 1759 to 1983, and a book of Uxeau 1791 cadastral tax records. In the center is a color 1759 Cassini map of the area.</seg>
       </tuv>
@@ -108,22 +87,14 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Contact</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>Contact</seg></tuv><tuv xml:lang="ja">
         <seg>連絡先</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Project website: http://burgundylandscapes.com with more information and online publications.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Project website: http://burgundylandscapes.com with more information and online publications.</seg></tuv><tuv xml:lang="ja">
         <seg>プロジェクトのウェブサイト： http://burgundylandscapes.com 詳細とオンライン出版物あり。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>Dr. Scott Madry: http://scottmadry.web.unc.edu or email: madrys ‘at’ email.unc.edu</seg>
       </tuv>
@@ -132,22 +103,14 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Authors</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>Authors</seg></tuv><tuv xml:lang="ja">
         <seg>著者</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Jones, Tickner and Madry doing field work</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Jones, Tickner and Madry doing field work</seg></tuv><tuv xml:lang="ja">
         <seg>現地作業中のJones、Tickner、Madry</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>This article was contributed in August 2013 by Dr. Scott Madry. He is a research associate professor in the Curriculum in Archaeology at the University of North Carolina at Chapel Hill’s Research Laboratories of Archaeology. He is on the faculty of the International Space University in Strasbourg, France, and is a chercheur associé du Laboratoire Archéologie et Territoires de l'UMR 7324 CITERES, Université François-Rabelais/CNRS. This research project is conducted collaboratively with Dr. Elizabeth A. Jones, historical anthropologist (UNC), Dr. Amanda B. Tickner, paleoethnobotanist (UNC) and Dr. D. Seth Murray, ethnographer and oral historian (NCSU).</seg>
       </tuv>

@@ -2,16 +2,11 @@
 <!DOCTYPE tmx SYSTEM "tmx14.dtd">
 <tmx version="1.4">
   <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
-  <body>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>|LS| Creating a New Vector Dataset</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+  <body><tu>
+      <tuv xml:lang="en"><seg>|LS| Creating a New Vector Dataset</seg></tuv><tuv xml:lang="ja">
         <seg>|LS| 新しいベクターデータセットを作成する</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>The data that you use has to come from somewhere. For most common applications, the data exists already; but the more particular and specialized the project, the less likely it is that the data will already be available. In such cases, you'll need to create your own new data.</seg>
       </tuv>
@@ -20,22 +15,14 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>**The goal for this lesson:** To create a new vector dataset.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>**The goal for this lesson:** To create a new vector dataset.</seg></tuv><tuv xml:lang="ja">
         <seg>**このレッスンの目標：** 新しいベクターデータセットを作成します。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>|basic| |FA| The Layer Creation Dialog</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>|basic| |FA| The Layer Creation Dialog</seg></tuv><tuv xml:lang="ja">
         <seg>|basic| |FA| レイヤー作成ダイアログ</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>Before you can add new vector data, you need a vector dataset to add it to. In our case, you'll begin by creating new data entirely, rather than editing an existing dataset. Therefore, you'll need to define your own new dataset first.</seg>
       </tuv>
@@ -52,38 +39,22 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>This has no impact on the rest of the dialog, but it will cause the correct type of geometry to be used when the vector dataset is created.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>This has no impact on the rest of the dialog, but it will cause the correct type of geometry to be used when the vector dataset is created.</seg></tuv><tuv xml:lang="ja">
         <seg>これは、ダイアログの残りの部分には影響しませんが、それは、ベクターデータセットが作成されたときにジオメトリの正しいタイプが使用されるようになります。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Check that your dialog now looks like this:</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Check that your dialog now looks like this:</seg></tuv><tuv xml:lang="ja">
         <seg>ダイアログが次のようになることを確認します。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Click :guilabel:`OK`</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Click :guilabel:`OK`</seg></tuv><tuv xml:lang="ja">
         <seg>:guilabel:`OK` をクリックします</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>|basic| |FA| Data Sources</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>|basic| |FA| Data Sources</seg></tuv><tuv xml:lang="ja">
         <seg>|basic| |FA| データソース</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>When you create new data, it obviously has to be about objects that really exist on the ground. Therefore, you'll need to get your information from somewhere.</seg>
       </tuv>
@@ -116,54 +87,34 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>If you can't find this button, check that the :guilabel:`Digitizing` toolbar is enabled. There should be a check mark next to the :menuselection:`View --&gt; Toolbars --&gt; Digitizing` menu entry.</seg>
+      <tuv xml:lang="en"><seg>If you can't find this button, check that the :guilabel:`Digitizing` toolbar is enabled.</seg></tuv><tuv xml:lang="ja">
+        <seg>このボタンを見つけることができない場合は、 :guilabel:`デジタイズ` ツールバーが有効になっているか確認してください。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>このボタンを見つけることができない場合は、 :guilabel:`デジタイズ` ツールバーが有効になっているか確認してください。 :menuselection:`ビュー --&gt; ツールバー --&gt; デジタル化` メニューエントリ の横にチェックマークがあるはずです。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>There should be a check mark next to the :menuselection:`View --&gt; Toolbars --&gt; Digitizing` menu entry.</seg></tuv><tuv xml:lang="ja">
+        <seg>:menuselection:`ビュー --&gt; ツールバー --&gt; デジタル化` メニューエントリ の横にチェックマークがあるはずです。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>The first feature you'll be digitizing is the |schoolAreaType1|:</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>The first feature you'll be digitizing is the |schoolAreaType1|:</seg></tuv><tuv xml:lang="ja">
         <seg>デジタル化している第1の地物は |schoolAreaType1| です：</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Start digitizing by clicking on a point somewhere along the edge of the field.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Start digitizing by clicking on a point somewhere along the edge of the field.</seg></tuv><tuv xml:lang="ja">
         <seg>どこかのフィールドの縁に沿ってポイントをクリックすることで、デジタル化を開始します。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Place more points by clicking further along the edge, until the shape you're drawing completely covers the field.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Place more points by clicking further along the edge, until the shape you're drawing completely covers the field.</seg></tuv><tuv xml:lang="ja">
         <seg>描画しているシェイプがフィールドを完全にカバーするまで、縁に沿ってさらにクリックすることにより、より多くのポイントを置きます。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Fill in the values as below:</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Fill in the values as below:</seg></tuv><tuv xml:lang="ja">
         <seg>値を以下のように埋めます:</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Close the attribute table.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Close the attribute table.</seg></tuv><tuv xml:lang="ja">
         <seg>属性テーブルを閉じます。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>Remember, if you've made a mistake while digitizing a feature, you can always edit it after you're done creating it. If you've made a mistake, continue digitizing until you're done creating the feature as above. Then:</seg>
       </tuv>
@@ -180,38 +131,22 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>When you're done adding features to a layer, remember to save your edits and then exit edit mode.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>When you're done adding features to a layer, remember to save your edits and then exit edit mode.</seg></tuv><tuv xml:lang="ja">
         <seg>レイヤーに地物を追加し終わったら、編集内容を保存して、編集モードを終了することを忘れないでください。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Our track is a little further to the south:</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Our track is a little further to the south:</seg></tuv><tuv xml:lang="ja">
         <seg>トラックはさらにもう少し南へ:</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>:ref:`Check your results &lt;create-vector-digitize-1&gt;`</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>:ref:`Check your results &lt;create-vector-digitize-1&gt;`</seg></tuv><tuv xml:lang="ja">
         <seg>:ref:`結果を確認します &lt;create-vector-digitize-1&gt;`</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>|IC|</seg></tuv><tuv xml:lang="ja">
         <seg>|IC|</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>|IC|</seg>
-      </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>Now you know how to create features! This course doesn't cover adding point features, because that's not really necessary once you've worked with more complicated features (lines and polygons). It works exactly the same, except that you only click once where you want the point to be, give it attributes as usual, and then the feature is created.</seg>
       </tuv>
@@ -220,20 +155,12 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Knowing how to digitize is important because it's a very common activity in GIS programs.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>Knowing how to digitize is important because it's a very common activity in GIS programs.</seg></tuv><tuv xml:lang="ja">
         <seg>デジタル化はGISプログラムでは非常に一般的な活動ですので、方法を知ることは重要です。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>|WN|</seg></tuv><tuv xml:lang="ja">
         <seg>|WN|</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>|WN|</seg>
-      </tuv>
-    </tu>
-  </body>
+    </tu></body>
 </tmx>

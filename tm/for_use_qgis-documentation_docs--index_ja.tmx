@@ -4,106 +4,67 @@
   <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
   <body>
     <tu>
-      <tuv xml:lang="en">
-        <seg>User Guide/Manual (QGIS 3.10)</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>User Guide/Manual (QGIS 3.10)</seg></tuv><tuv xml:lang="ja">
         <seg>ユーザガイド/マニュアル (QGIS 3.10)</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Training Manual</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>Training Manual</seg></tuv><tuv xml:lang="ja">
         <seg>トレーニングマニュアル</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>A Gentle Introduction to GIS</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>A Gentle Introduction to GIS</seg></tuv><tuv xml:lang="ja">
         <seg>やさしい GIS 入門</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>For Users</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>For Users</seg></tuv><tuv xml:lang="ja">
         <seg>ユーザ向け</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Documentation Guidelines</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>Documentation Guidelines</seg></tuv><tuv xml:lang="ja">
         <seg>ドキュメント作成のガイドライン</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>For Writers</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>For Writers</seg></tuv><tuv xml:lang="ja">
         <seg>ドキュメント執筆者向け</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>PyQGIS Cookbook (QGIS 3.10)</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>PyQGIS Cookbook (QGIS 3.10)</seg></tuv><tuv xml:lang="ja">
         <seg>PyQGIS クックブック (QGIS 3.10)</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Developers Guide</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>Developers Guide</seg></tuv><tuv xml:lang="ja">
         <seg>開発者ガイド</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>For Developers</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>For Developers</seg></tuv><tuv xml:lang="ja">
         <seg>開発者向け</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Documentation for QGIS |version|</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>Documentation for QGIS |version|</seg></tuv><tuv xml:lang="ja">
         <seg>QGIS |version| ドキュメント</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>QGIS has a lot of documentation, partly translated.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>QGIS has a lot of documentation, partly translated.</seg></tuv><tuv xml:lang="ja">
         <seg>QGISには多くのドキュメントがあり、一部が翻訳の対象となっています。</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Please have a look into one of the documents below.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>Please have a look into one of the documents below.</seg></tuv><tuv xml:lang="ja">
         <seg>以下からそれらドキュメントのひとつをご覧いただけます。</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>:ref:`genindex`</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>:ref:`genindex`</seg></tuv><tuv xml:lang="ja">
         <seg>:ref:`genindex`</seg>
       </tuv>
     </tu>

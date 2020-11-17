@@ -2,64 +2,35 @@
 <!DOCTYPE tmx SYSTEM "tmx14.dtd">
 <tmx version="1.4">
   <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
-  <body>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Map Production</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+  <body><tu>
+      <tuv xml:lang="en"><seg>Map Production</seg></tuv><tuv xml:lang="ja">
         <seg>地図製作</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>|gentleLogo|</seg></tuv><tuv xml:lang="ja">
         <seg>|gentleLogo|</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>|gentleLogo|</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Objectives:</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Objectives:</seg></tuv><tuv xml:lang="ja">
         <seg>目的：</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Understanding of map production for spatial data</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Understanding of map production for spatial data</seg></tuv><tuv xml:lang="ja">
         <seg>空間情報の地図の理解</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Keywords:</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Keywords:</seg></tuv><tuv xml:lang="ja">
         <seg>キーワード：</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Map production, map layout, scale bar, north arrow, legend, map body, map unit</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Map production, map layout, scale bar, north arrow, legend, map body, map unit</seg></tuv><tuv xml:lang="ja">
         <seg>地図製作，地図のレイアウト，スケールバー，方位記号，凡例，地図，単位</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Overview</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Overview</seg></tuv><tuv xml:lang="ja">
         <seg>概要</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>Map production is the process of arranging map elements on a sheet of paper in a way that, even without many words, the average person can understand what it is all about. Maps are usually produced for presentations and reports where the audience or reader is a politician, citizen or a learner with no professional background in GIS. Because of this, a map has to be effective in communicating spatial information. Common elements of a map are the title, map body, legend, north arrow, scale bar, acknowledgement, and map border (see figure_map_elements_).</seg>
       </tuv>
@@ -68,14 +39,10 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Common map elements (labelled in red) are the title, map body, legend, north arrow, scale bar, acknowledgement and map border.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>Common map elements (labelled in red) are the title, map body, legend, north arrow, scale bar, acknowledgement and map border.</seg></tuv><tuv xml:lang="ja">
         <seg>一般的な地図要素（赤でラベル）は、タイトル、地図本体、凡例、方位、スケールバー、承認および地図境界です。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>Other elements that might be added are e.g. a **graticule**, or **name of the map projection** (CRS). Together, these elements help the map reader to interpret the information shown on the map. The map body is, of course, the most important part of the map because it contains the map information. The other elements support the communication process and help the map reader to orientate himself and understand the map topic. For example, the title describes the subject matter and the legend relates map symbols to the mapped data.</seg>
       </tuv>
@@ -84,14 +51,10 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Title in detail</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>Title in detail</seg></tuv><tuv xml:lang="ja">
         <seg>タイトルの詳細</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>The map title is very important because it is usually the first thing a reader will look at on a map. It can be compared with a title in a newspaper. It should be short but give the reader a first idea of what the map is about.</seg>
       </tuv>
@@ -100,14 +63,10 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Map Border in detail</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>Map Border in detail</seg></tuv><tuv xml:lang="ja">
         <seg>地図境界の詳細</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>The map border is a line that defines exactly the edges of the area shown on the map. When printing a map with a graticule (which we describe further down), you often find the coordinate information of the graticule lines along the border lines, as you can see in figure_map_legend_.</seg>
       </tuv>
@@ -116,14 +75,10 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Map Legend in detail</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>Map Legend in detail</seg></tuv><tuv xml:lang="ja">
         <seg>地図凡例の詳細</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>A map is a simplified representation of the real world and **map symbols** are used to represent real objects. Without symbols, we wouldn't understand maps. To ensure that a person can correctly read a map, a map legend is used to provide a key to all the symbols used on the map. It is like a dictionary that allows you to understand the meaning of what the map shows. A map legend is usually shown a a little box in a corner of the map. It contains icons, each of which will represent a type of feature. For example, a *house* icon will show you how to identify houses on the map (see figure_map_legend_).</seg>
       </tuv>
@@ -132,14 +87,10 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Two maps from the same area, both with a water body in the background but with different themes, map symbols and colours in the legend.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>Two maps from the same area, both with a water body in the background but with different themes, map symbols and colours in the legend.</seg></tuv><tuv xml:lang="ja">
         <seg>同じ領域からの2つの地図、両方とも背景に水面を持つが、凡例の異なるテーマ、地図記号、色を持つ。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>You can also use different symbols and icons in your legend to show different themes. In figure_map_legend_ you can see a map with a lake in light blue overlaid with contour lines and spot heights to show information about the terrain in that area. On the right side you see the same area with the lake in the background but this map is designed to show tourists the location of houses they can rent for their holidays. It uses brighter colours, a house icon and more descriptive and inviting words in the legend.</seg>
       </tuv>
@@ -148,14 +99,10 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>North arrow in detail</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>North arrow in detail</seg></tuv><tuv xml:lang="ja">
         <seg>北向き矢印の詳細</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>A north arrow (sometimes also called a compass rose) is a figure displaying the main directions, **North**, **South**, **East** and **West**. On a map it is used to indicate the direction of North.</seg>
       </tuv>
@@ -172,14 +119,10 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Scale in detail</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>Scale in detail</seg></tuv><tuv xml:lang="ja">
         <seg>スケールの詳細</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>The scale of a map, is the value of a single unit of distance on the map, representing distance in the real world. The values are shown in map units (meters, feet or degrees). The scale can be expressed in several ways, for example, in words, as a ratio or as a graphical scale bar (see figure_map_scale_).</seg>
       </tuv>
@@ -212,14 +155,10 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>A map scale can be expressed in words (a), as a ratio (b), or as graphic or bar scale (c)</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>A map scale can be expressed in words (a), as a ratio (b), or as graphic or bar scale (c)</seg></tuv><tuv xml:lang="ja">
         <seg>地図の縮尺は、言葉で（a）、比として（b）、またはグラフィックやバースケールとして（c）表現できます</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>Maps are usually produced at standard scales of, for example, 1:10 000, 1:25 000, 1:50 000, 1:100 000, 1:250 000, 1:500 000. What does this mean to the map reader? It means that if you *multiply* the distance measured on the **map** by the **scale denominator**, you will know the distance in the **real world**.</seg>
       </tuv>
@@ -228,22 +167,14 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>For example, if we want to measure a distance of 100mm on a map with a scale of 1:25,000 we calculate the real world distance like this:</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>For example, if we want to measure a distance of 100mm on a map with a scale of 1:25,000 we calculate the real world distance like this:</seg></tuv><tuv xml:lang="ja">
         <seg>例えば、1:25000の縮尺の地図上で100ミリメートルの距離を測定する場合、現実世界の距離はこのように計算します：</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>This means that 100 mm on the map is equivalent to 2,500,000 mm (2500 m) in the real word.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>This means that 100 mm on the map is equivalent to 2,500,000 mm (2500 m) in the real word.</seg></tuv><tuv xml:lang="ja">
         <seg>これは、地図上の100ミリメートルは、実世界の250万ミリメートル（2500メートル）と等価であることを意味します。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>Another interesting aspect of a map scale, is that the lower the map scale, the more detailed the feature information in the map will be. In figure_map_scale_compare_, you can see an example of this. Both maps are the same size but have a different scale. The image on the left side shows more details, for example the houses south-west of the water body can be clearly identified as separate squares. In the image on the right you can only see a black clump of rectangles and you are not able to see each house clearly.</seg>
       </tuv>
@@ -260,14 +191,10 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Acknowledgment in detail</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>Acknowledgment in detail</seg></tuv><tuv xml:lang="ja">
         <seg>整飾の詳細</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>In the acknowledgment area of a map it is possible to add text with important information. For example information about the quality of the used data can be useful to give the reader an idea about details such as how, by whom and when a map was created. If you look at a topographical map of your town, it would be useful to know when the map was created and who did it. If the map is already 50 years old, you will probably find a lot of houses and roads that no longer exist or maybe never even existed. If you know that the map was created by an official institution, you could contact them and ask if they have a more current version of that map with updated information.</seg>
       </tuv>
@@ -276,14 +203,10 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Graticule in detail</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>Graticule in detail</seg></tuv><tuv xml:lang="ja">
         <seg>グリッドの詳細</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>A graticule is a network of lines overlain on a map to make spatial orientation easier for the reader. The lines can be used as a reference. As an example, the lines of a graticule can represent the earth's parallels of latitude and meridians of longitude. When you want to refer to a special area on a map during your presentation or in a report you could say: 'the houses close to latitude 26.04 / longitude -32.11 are often exposed to flooding during January and February' (see figure_map_graticule_).</seg>
       </tuv>
@@ -300,14 +223,10 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Name of the map projection in detail</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>Name of the map projection in detail</seg></tuv><tuv xml:lang="ja">
         <seg>詳細な地図投影の名前</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>A map projection tries to represent the 3-dimensional Earth with all its features like houses, roads or lakes on a flat sheet of paper. This is very difficult as you can imagine, and even after hundreds of years there is no single projection that is able to represent the Earth perfectly for any area in the world. Every projection has advantages and disadvantages.</seg>
       </tuv>
@@ -324,14 +243,14 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>The world in different projections. A Mollweide Equal Area projection left, a Plate Carree Equidistant Cylindrical projection on the right.</seg>
+      <tuv xml:lang="en"><seg>The world in different projections.</seg></tuv><tuv xml:lang="ja">
+        <seg>世界はさまざまな投影法があります。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>世界はさまざまな投影法があります。 左はMollweide Equal Area投影法、右はPlate Carree Equidistant円柱投影。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>A Mollweide Equal Area projection left, a Plate Carree Equidistant Cylindrical projection on the right.</seg></tuv><tuv xml:lang="ja">
+        <seg>左はMollweide Equal Area投影法、右はPlate Carree Equidistant円柱投影。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>With this in mind, we can now understand why it makes sense to add the name of the projection on a map. It allows the reader to see quickly, if one map can be compared with another. For example, features on a map in a so-called Equal Area projection appear very different to features projected in a Cylindrical Equidistant projection (see figure_map_projection_).</seg>
       </tuv>
@@ -348,14 +267,10 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Common problems / things to be aware of</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>Common problems / things to be aware of</seg></tuv><tuv xml:lang="ja">
         <seg>一般的な問題 / 注意すべき点</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>It is sometimes difficult to create a map that is easy to understand and well laid out whilst still showing and explaining all the information that the reader needs to know. To achieve this, you need to create an ideal arrangement and composition of all the map elements. You should concentrate on what story you want to tell with your map and how the elements, such as the legend, scale bar and acknowledgements should be ordered. By doing this, you will have a well designed and educational map, that people would like to look at and be able to understand.</seg>
       </tuv>
@@ -364,94 +279,50 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>What have we learned?</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>What have we learned?</seg></tuv><tuv xml:lang="ja">
         <seg>わかりましたか?</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Let's wrap up what we covered in this worksheet:</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Let's wrap up what we covered in this worksheet:</seg></tuv><tuv xml:lang="ja">
         <seg>ここでは以下のことを学びました:</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>**Map production** means arranging **map elements** on a sheet of paper.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>**Map production** means arranging **map elements** on a sheet of paper.</seg></tuv><tuv xml:lang="ja">
         <seg>**地図製作** は、 **地図要素** を一枚の紙に配置することを意味します。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>**Map elements** are the title, map body, map border, legend, scale, north arrow and the acknowledgement.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>**Map elements** are the title, map body, map border, legend, scale, north arrow and the acknowledgement.</seg></tuv><tuv xml:lang="ja">
         <seg>**地図要素** は，タイトル，地図，地図境界，凡例，縮尺、方位記号，謝辞です。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>**Scale** represents the ratio of a distance on the map to the actual distance in the real world.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>**Scale** represents the ratio of a distance on the map to the actual distance in the real world.</seg></tuv><tuv xml:lang="ja">
         <seg>**縮尺** は、現実の世界では、実際の距離と、地図上の距離の比率を表しています。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Scale is displayed in **map units** (meters, feet or degrees)</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Scale is displayed in **map units** (meters, feet or degrees)</seg></tuv><tuv xml:lang="ja">
         <seg>縮尺は **地図単位** (メートル，フィート，度)で示します。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>A **legend** explains all the symbols on a map.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>A **legend** explains all the symbols on a map.</seg></tuv><tuv xml:lang="ja">
         <seg>**凡例** は地図の全てのシンボルを説明します。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>A map should **explain complex information as simply as possible**.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>A map should **explain complex information as simply as possible**.</seg></tuv><tuv xml:lang="ja">
         <seg>地図は， **複雑な情報をできる限り簡潔に説明するべき** です。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Maps are usually always displayed '**North up**'.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Maps are usually always displayed '**North up**'.</seg></tuv><tuv xml:lang="ja">
         <seg>地図は普通 **北が上** で表示されます。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Now you try!</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Now you try!</seg></tuv><tuv xml:lang="ja">
         <seg>やってみよう</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Here are some ideas for you to try with your learners:</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Here are some ideas for you to try with your learners:</seg></tuv><tuv xml:lang="ja">
         <seg>ここでは人に教える際のアイデアいくつか述べていきます:</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>Load some vector layers in your GIS for your local area. See if your learners can identify examples of different types of legend elements such as road types or buildings. Create a list of legend elements and define what the icons should look like, so a reader can most easily figure out their meaning in the map.</seg>
       </tuv>
@@ -468,14 +339,10 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Something to think about</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>Something to think about</seg></tuv><tuv xml:lang="ja">
         <seg>考えてみよう</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>If you don't have a computer available, you can use any topographical map and discuss the map design with your learners. Figure out if they understand what the map wants to tell. What can be improved? How accurately does the map represent the history of the area? How would a map from 100 years ago differ from the same map today?</seg>
       </tuv>
@@ -484,68 +351,64 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Further reading</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>Further reading</seg></tuv><tuv xml:lang="ja">
         <seg>より詳しく知りたい場合は</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>**Books**:</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>**Books**:</seg></tuv><tuv xml:lang="ja">
         <seg>**図書**:</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Chang, Kang-Tsung (2006). Introduction to Geographic Information Systems. 3rd Edition. McGraw Hill. ISBN: 0070658986</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Chang, Kang-Tsung (2006).</seg></tuv><tuv xml:lang="ja">
+        <seg>Chang, Kang-Tsung (2006).</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>Chang, Kang-Tsung (2006). Introduction to Geographic Information Systems. 3rd Edition. McGraw Hill. ISBN: 0070658986</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Introduction to Geographic Information Systems. 3rd Edition.</seg></tuv><tuv xml:lang="ja">
+        <seg>Introduction to Geographic Information Systems. 3rd Edition.</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>DeMers, Michael N. (2005). Fundamentals of Geographic Information Systems. 3rd Edition. Wiley. ISBN: 9814126195</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>McGraw Hill.</seg></tuv><tuv xml:lang="ja">
+        <seg>McGraw Hill.</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>DeMers, Michael N. (2005). Fundamentals of Geographic Information Systems. 3rd Edition. Wiley. ISBN: 9814126195</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>ISBN: 0070658986</seg></tuv><tuv xml:lang="ja">
+        <seg>ISBN: 0070658986</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>**Website**: https://en.wikipedia.org/wiki/Scale_(map)</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>DeMers, Michael N.</seg></tuv><tuv xml:lang="ja">
+        <seg>DeMers, Michael N.</seg>
       </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>(2005).</seg></tuv><tuv xml:lang="ja">
+        <seg>(2005).</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Fundamentals of Geographic Information Systems. 3rd Edition.</seg></tuv><tuv xml:lang="ja">
+        <seg>Fundamentals of Geographic Information Systems. 3rd Edition.</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Wiley.</seg></tuv><tuv xml:lang="ja">
+        <seg>Wiley.</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>ISBN: 9814126195</seg></tuv><tuv xml:lang="ja">
+        <seg>ISBN: 9814126195</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>**Website**: https://en.wikipedia.org/wiki/Scale_(map)</seg></tuv><tuv xml:lang="ja">
         <seg>**Webサイト**: https://en.wikipedia.org/wiki/Scale_(map)</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>The QGIS User Guide also has more detailed information on map production provided in QGIS.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>The QGIS User Guide also has more detailed information on map production provided in QGIS.</seg></tuv><tuv xml:lang="ja">
         <seg>QGISユーザーガイドもQGISで提供される地図作成に関するより詳細な情報を持っています。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>What's next?</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>What's next?</seg></tuv><tuv xml:lang="ja">
         <seg>次は？</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>In the section that follows we will take a closer look at **vector analysis** to see how we can use a GIS for more than just making good looking maps!</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>In the section that follows we will take a closer look at **vector analysis** to see how we can use a GIS for more than just making good looking maps!</seg></tuv><tuv xml:lang="ja">
         <seg>次のセクションでは **ベクター分析** について詳しく見て、GISを格好良い地図を作るだけよりも多くのために使用する方法を見ていきます！</seg>
       </tuv>
-    </tu>
-  </body>
+    </tu></body>
 </tmx>

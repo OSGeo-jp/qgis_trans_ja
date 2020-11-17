@@ -2,32 +2,19 @@
 <!DOCTYPE tmx SYSTEM "tmx14.dtd">
 <tmx version="1.4">
   <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
-  <body>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Quantarctica: An Antarctic GIS package</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+  <body><tu>
+      <tuv xml:lang="en"><seg>Quantarctica: An Antarctic GIS package</seg></tuv><tuv xml:lang="ja">
         <seg>Quantarctica：南極GISパッケージ</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>About the project</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>About the project</seg></tuv><tuv xml:lang="ja">
         <seg>プロジェクトについて</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Screenshot from Quantarctica, showing one of the subglacial lakes datasets.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Screenshot from Quantarctica, showing one of the subglacial lakes datasets.</seg></tuv><tuv xml:lang="ja">
         <seg>Quantarcticaからのスクリーンショット、氷底湖データセットのいずれかを示します。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>Quantarctica has been used to examine geographical data from continental to local scales, for viewing scientific project data on top of base maps or with other scientific datasets, and to prepare maps for publications and proposals. Quantarctica has so far proven to be a great tool, and a very good alternative and supplement to other software used by the researchers. It has provided new opportunities for our researchers in their daily work.</seg>
       </tuv>
@@ -36,14 +23,10 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Quantarctica is also useful when navigating on the Antarctic ice shelves thanks to the GPS tracking capabilities within QGIS.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>Quantarctica is also useful when navigating on the Antarctic ice shelves thanks to the GPS tracking capabilities within QGIS.</seg></tuv><tuv xml:lang="ja">
         <seg>Quantarcticaは、QGIS内のGPS追跡機能のおかげで、南極の棚氷上を移動するときも便利です。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>Since Quantarctica first came in use by our glaciologists three years ago, there has been many requests in the research community outside the institute to share this product, and we started to develop a public and improved version to replace the in-house version. Following Antarctic field testing, and adding new relevant datasets, Quantarctica version 1.0 was finally completed and made available for download in July 2013.</seg>
       </tuv>
@@ -52,54 +35,30 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Links</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>Links</seg></tuv><tuv xml:lang="ja">
         <seg>リンク</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Quantarctica website: http://quantarctica.org/</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Quantarctica website: http://quantarctica.org/</seg></tuv><tuv xml:lang="ja">
         <seg>Quantarctica ウェブサイト： http://quantarctica.org/</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Norwegian Polar Institute: http://www.npolar.no/en/</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Norwegian Polar Institute: http://www.npolar.no/en/</seg></tuv><tuv xml:lang="ja">
         <seg>ノルウェー極地研究所：http://www.npolar.no/en/</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Authors</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Authors</seg></tuv><tuv xml:lang="ja">
         <seg>著者</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Anders Skoglund and Kenichi Matsuoka</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Anders Skoglund and Kenichi Matsuoka</seg></tuv><tuv xml:lang="ja">
         <seg>アンダース・スコグランドと松岡健一</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>This article was contributed in August 2013 by Anders Skoglund (left), GIS specialist, and Kenichi Matsuoka (right), glaciologist, both at the Norwegian Polar Institute.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>This article was contributed in August 2013 by Anders Skoglund (left), GIS specialist, and Kenichi Matsuoka (right), glaciologist, both at the Norwegian Polar Institute.</seg></tuv><tuv xml:lang="ja">
         <seg>この記事は、アンダース・スコグランド（左）、GIS専門家、および松岡健一（右）、氷河学者、両者ともノルウェー極地研究所、によって2013年8月に寄稿されました。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>Quantarctica is a collection of Antarctic geographical datasets, such as base maps, satellite imagery, glaciology and geophysics data from data centres around the world, prepared for viewing in QGIS. The package is developed by the Norwegian Polar Institute, as a tool for the research community, for classrooms and for operational use in Antarctica –-- freely available for non-commercial purposes.</seg>
       </tuv>

@@ -2,16 +2,11 @@
 <!DOCTYPE tmx SYSTEM "tmx14.dtd">
 <tmx version="1.4">
   <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
-  <body>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Using QGIS in Afghanistan ...</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+  <body><tu>
+      <tuv xml:lang="en"><seg>Using QGIS in Afghanistan ...</seg></tuv><tuv xml:lang="ja">
         <seg>アフガニスタンでQGISを使う...</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>I work for a urban planning company in China.  It is often difficult to design proper environmental protection because the common sources of data may be a state secret or may not even exist.  Frequently, we are asked to do designs without proper survey data.   In addition there is usually not enough time for a proper study.  My background is in Urban Planning with a minor in Environmental Science.</seg>
       </tuv>
@@ -28,14 +23,10 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Story</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>Story</seg></tuv><tuv xml:lang="ja">
         <seg>ストーリー</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>With some trial and error I was able to produce an arcHYDRO like output from QGIS.  Beginning with a USGS Hydrosheds DEM which was converted into a Regularized Spline with Tension using the GRASS functions inside QGIS and training by Helena Mitsova.  The RST surface was analyzed this surface to find the catchments and flow paths, and resulting vector topologies were cleaned up in QGIS to generate the Hydrologic network and also to build up the attribute tables.</seg>
       </tuv>
@@ -68,14 +59,10 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Conclusion</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>Conclusion</seg></tuv><tuv xml:lang="ja">
         <seg>結論</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>I began using QGIS out of desperation for lack of arcMAP but now I never want to go back.  The investment of time in FOSS is worthwhile because you can take it with you to any job.  The combination of GRASS QGIS PostGIS gives you the full functionality of expensive GIS systems.   The online learning resources provided were as valuable as the actual software.  I was able to learn QGIS fast enough to produce a great project in a fast based real world industry environment.</seg>
       </tuv>
@@ -84,28 +71,16 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Author</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+      <tuv xml:lang="en"><seg>Author</seg></tuv><tuv xml:lang="ja">
         <seg>著者</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Andrew Jeffrey</seg></tuv><tuv xml:lang="ja">
         <seg>Andrew Jeffrey</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>Andrew Jeffrey</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Andrew Jeffrey is ...</seg>
-      </tuv>
-      <tuv xml:lang="ja">
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Andrew Jeffrey is ...</seg></tuv><tuv xml:lang="ja">
         <seg>Andrew Jeffrey は ...</seg>
       </tuv>
-    </tu>
-  </body>
+    </tu></body>
 </tmx>
