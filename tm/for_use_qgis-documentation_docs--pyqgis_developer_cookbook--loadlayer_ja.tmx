@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Loading Layers</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>レイヤーをロードする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Let's open some layers with data.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>データのレイヤーを開きましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>QGIS recognizes vector and raster layers.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISはベクターおよびラスターレイヤーを認識できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Additionally, custom layer types are available, but we are not going to discuss them here.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>加えてカスタムレイヤータイプを利用することもできますが、それについてここでは述べません.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Vector Layers</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ベクターレイヤー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The data source identifier is a string and it is specific to each vector data provider.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>データソース識別子は文字列でそれぞれのデータプロバイダーを表します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Layer's name is used in the layer list widget.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>レイヤー名はレイヤーリストウィジェットの中で使われます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It is important to check whether the layer has been loaded successfully.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>レイヤーが正常にロードされたかどうかをチェックすることは重要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If it was not, an invalid layer instance is returned.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>正しくロードされていない場合は不正なレイヤーインスタンスが返ります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For a geopackage vector layer:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>geopackageベクターレイヤなら次のようになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The following list shows how to access various data sources using vector data providers:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>以下のリストはベクターデータプロバイダーを使って様々なデータソースにアクセスする方法が記述されています.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The ``False`` argument passed to ``uri.uri(False)`` prevents the expansion of the authentication configuration parameters, if you are not using any authentication configuration this argument does not make any difference.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``uri.uri(False)`` に渡される ``False`` 引数は、認証構成パラメーターの拡張を防ぎます。もし何も認証構成を使用していなければ、この引数は何の違いもありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The provider string is structured as a URL, so the path must be prefixed with ``file://``.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プロバイダーの文字列はURLとして構造化されているので、パスには ``file://`` という接頭辞を付ける必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Also it allows WKT (well known text) formatted geometries as an alternative to ``x`` and ``y`` fields, and allows the coordinate reference system to be specified.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>また、 ``x`` や ``y`` フィールドの代わりにWKT（well-known text）形式のジオメトリを使用でき、座標参照系を指定できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For example:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>例えば：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>GPX files --- the "gpx" data provider reads tracks, routes and waypoints from gpx files.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GPXファイル---「GPX」データプロバイダーは、GPXファイルからトラック、ルートやウェイポイントを読み込みます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To open a file, the type (track/route/waypoint) needs to be specified as part of the url:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ファイルを開くには、タイプ（トラック／ルート／ウェイポイント）をURLの一部として指定する必要があります：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>MySQL WKB-based geometries, through OGR --- data source is the connection string to the table:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>MySQLのWKBベースジオメトリ、OGR経由 --- データソースはテーブルへの接続文字列です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The uri can be created using the standard ``urllib`` library:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>URIは標準の ``urllib`` ライブラリを使用して作成できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Raster Layers</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ラスターレイヤー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Raster layers can also be created from a WCS service:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ラスターレイヤーもWCSサービスから作成できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Alternatively you can load a raster layer from WMS server.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>別の方法としては、WMSサーバーからラスターレイヤーを読み込むことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>However currently it's not possible to access GetCapabilities response from API --- you have to know what layers you want:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>しかし現在では、 APIからGetCapabilitiesレスポンスにアクセスすることはできません---どのレイヤが必要か知っている必要があります。</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

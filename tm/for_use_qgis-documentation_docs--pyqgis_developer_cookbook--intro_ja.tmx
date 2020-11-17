@@ -1,0 +1,359 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Introduction</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>はじめに</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This document is intended to be both a tutorial and a reference guide.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この文書は、チュートリアルとリファレンスガイドの両方を意図して書かれています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>While it does not list all possible use cases, it should give a good overview of the principal functionality.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>可能な事例をすべて網羅しているわけではありませんが、主要な機能を概観するには役に立つはずです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Python support was first introduced in QGIS 0.9.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>PythonのサポートはQGIS 0.9で初めて導入されました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>There are several ways to use Python in QGIS Desktop (covered in the following sections):</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>デスクトップ版QGISでPythonを利用するのにはいくつかの方法があります（この後のセクションで説明します）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Issue commands in the Python console within QGIS</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISに付属するPytonコンソールでのコマンドの実行</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Create and use plugins</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プラグインの作成と利用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Automatically run Python code when QGIS starts</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGIS起動時のPythonコードの自動実行</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Create processing algorithms</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プロセシングアルゴリズムの作成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Create functions for expressions in QGIS</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISの「式」で使用する関数の作成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Create custom applications based on the QGIS API</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGIS APIを利用するカスタムアプリケーションの作成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Python bindings are also available for QGIS Server, including Python plugins (see :ref:`server_plugins`) and Python bindings that can be used to embed QGIS Server into a Python application.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISサーバでもPythonプラグインを含むPythonバインディングが提供されています(参照 :ref:`server_plugins`)  そしてPythonバインディングを使うことによってPythonアプリケーションにQGSサーバを埋め込むこともできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>There is a :api:`complete QGIS API &lt;&gt;` reference that documents the classes from the QGIS libraries.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISライブラリのクラスのドキュメントである :api:`complete QGIS API &lt;&gt;` リファレンスがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:pyqgis:`The Pythonic QGIS API (pyqgis) &lt;&gt;` is nearly identical to the C++ API.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:pyqgis:`Python用のQGIS API (pyqgis) &lt;&gt;`  は C++ APIとほぼ同じです.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A good resource for learning how to perform common tasks is to download existing plugins from the `plugin repository &lt;https://plugins.qgis.org/&gt;`_ and examine their code.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>頻出タスクの実行方法を学習するには、 `プラグインのリポジトリ &lt;https://plugins.qgis.org/&gt;`_  から既存のプラグインをダウンロードして、そのコードを研究するのがよい方法です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Scripting in the Python Console</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Pythonコンソールでのスクリプティング</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>QGIS provides an integrated :ref:`Python console &lt;console&gt;` for scripting.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGIS はスクリプティングのための :ref:`Python console &lt;console&gt;`  を内蔵しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It can be opened from the :menuselection:`Plugins --&gt; Python Console` menu:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:menuselection:`プラグイン --&gt; Pythonコンソール` メニューから開くことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>QGIS Python console</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGIS Python コンソール</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The screenshot above illustrates how to get the layer currently selected in the layer list, show its ID and optionally, if it is a vector layer, show the feature count.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>上のスクリーンショットは、レイヤリストで現在選択されているレイヤを取得し、その ID を表示し、オプションでベクタレイヤの場合は地物数を表示する方法を示しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For interaction with the QGIS environment, there is an :data:`iface` variable, which is an instance of :class:`QgisInterface &lt;qgis.gui.QgisInterface&gt;`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGIS 環境とのやりとりのために、 :class:`QgisInterface &lt;qgis.gui.QgisInterface&gt;` のインスタンスである :data:`iface` 変数があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This interface allows access to the map canvas, menus, toolbars and other parts of the QGIS application.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このインタフェースにより、地図 キャンバス、メニュー、ツールバー、および QGIS アプリケーションのその他の部分へのアクセスが可能になります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Python Plugins</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Python プラグイン</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The functionality of QGIS can be extended using plugins.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISの機能はプラグインを使って拡張することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Plugins can be written in Python.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プラグインはPythonで書くことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The main advantage over C++ plugins is simplicity of distribution (no compiling for each platform) and easier development.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>C++プラグインに比較しての主要な利点は配布の単純さ（プラットフォームごとにコンパイルする必要がありません）と開発の容易さです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Many plugins covering various functionality have been written since the introduction of Python support.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>様々な機能をカバーする多くのプラグインがPythonサポートが導入されてから書かれました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The plugin installer allows users to easily fetch, upgrade and remove Python plugins.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プラグインのインストーラはPythonプラグインの取得、アップグレード、削除を簡単に行えます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>See the `Python Plugins &lt;https://plugins.qgis.org/&gt;`_ page for more information about plugins and plugin development.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プラグインとプラグイン開発の詳細については、 `Pythonプラグイン &lt;https://plugins.qgis.org/&gt;`_ ページを参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Creating plugins in Python is simple, see :ref:`developing_plugins` for detailed instructions.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Pythonでプラグインを作るのはとても簡単です。詳細は :ref:`developing_plugins` を見てください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Python plugins are also available for QGIS server.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>PythonプラグインはQGISサーバーでも使うことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>See :ref:`server_plugins` for further details.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>より詳しくは :ref:`server_plugins` をご覧ください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>There are two distinct methods to run Python code every time QGIS starts.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISを起動するたびにPythonコードを実行するには、2つの異なる方法があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The :file:`startup.py` file</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:file:`startup.py` ファイル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The default path depends on the operating system.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>デフォルトパスはオペレーティングシステムによって異なります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To find the path that will work for you, open the Python Console and run ``QStandardPaths.standardLocations(QStandardPaths.AppDataLocation)`` to see the list of default directories.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ご自身の環境に合ったパスを見つけるには、Pythonコンソールを開いて ``QStandardPaths.standardLocations(QStandardPaths.AppDataLocation)`` を実行し、デフォルトディレクトリのリストを見てください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Python Applications</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Python アプリケーション</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Using PyQGIS in standalone scripts</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>スタンドアロンスクリプトでPyQGISを使用する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Using PyQGIS in custom applications</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>カスタムアプリケーションでPyQGISを使用する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Running Custom Applications</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>カスタムアプリケーションを実行する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>These commands can be put into a bootstrap script that will take care of the startup.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これらのコマンドはブートストラップスクリプトに入れておくことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>When deploying custom applications using PyQGIS, there are usually two possibilities:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>PyQGISを使ったカスタムアプリケーションを配布するには、これらの二つの方法が可能でしょう:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>package QGIS together with your application.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>アプリケーションと一緒にQGISのパッケージを配布する方法です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Releasing the application may be more challenging and the package will be larger, but the user will be saved from the burden of downloading and installing additional pieces of software.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>アプリケーションのリリースにはいろいろやることがあるし、パッケージも大きくなりますが、ユーザーが追加ソフトウェアをダウンロードしてインストールするという負荷を避けられるでしょう。</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

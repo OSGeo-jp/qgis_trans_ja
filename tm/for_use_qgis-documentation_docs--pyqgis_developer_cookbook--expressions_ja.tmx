@@ -1,0 +1,399 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Expressions, Filtering and Calculating Values</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>式、フィルタ適用および値の算出</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>QGIS has some support for parsing of SQL-like expressions.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISでは、SQL風の式の構文解析について少しサポートしています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Only a small subset of SQL syntax is supported.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>サポートされるのはSQL構文の小さなサブセットのみです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The expressions can be evaluated either as boolean predicates (returning True or False) or as functions (returning a scalar value).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>式は、ブール述語（真または偽を返す）または関数（スカラー値を返す）のどちらかとして評価できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>See :ref:`vector_expressions` in the User Manual for a complete list of available functions.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>使用可能な関数の完全なリストについては、ユーザーマニュアル中の :ref:`vector_expressions` を参照。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Three basic types are supported:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>3つの基本的な型がサポートされています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>number --- both whole numbers and decimal numbers, e.g.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>数 --- 整数および小数。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``123``, ``3.14``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>例. ``123``, ``3.14``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>string --- they have to be enclosed in single quotes: ``'hello world'``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>文字列 --- 一重引用符で囲む必要があります: ``'hello world'``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>column reference --- when evaluating, the reference is substituted with the actual value of the field.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>列参照 --- 評価する際に、参照はフィールドの実際の値で置き換えられます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The names are not escaped.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>名前はエスケープされません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The following operations are available:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次の演算子が利用可能です:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>arithmetic operators: ``+``, ``-``, ``*``, ``/``, ``^``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>算術演算子: ``+``, ``-``, ``*``, ``/``, ``^``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>parentheses: for enforcing the operator precedence: ``(1 + 1) * 3``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>丸括弧: 演算を優先します: ``(1 + 1) * 3``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>unary plus and minus: ``-12``, ``+5``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>単項のプラスとマイナス: ``-12``, ``+5``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>mathematical functions: ``sqrt``, ``sin``, ``cos``, ``tan``, ``asin``, ``acos``, ``atan``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>数学的関数: ``sqrt``, ``sin``, ``cos``, ``tan``, ``asin``, ``acos``, ``atan``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>conversion functions: ``to_int``, ``to_real``, ``to_string``, ``to_date``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>変換関数： ``to_int`` 、 ``to_real`` 、 ``to_string`` 、 ``to_date``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>geometry functions: ``$area``, ``$length``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ジオメトリ関数: ``$area``, ``$length``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>geometry handling functions: ``$x``, ``$y``, ``$geometry``, ``num_geometries``, ``centroid``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ジオメトリ処理関数： ``$x`` 、 ``$y`` 、 ``$geometry`` 、 ``num_geometries`` 、 ``centroid``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>And the following predicates are supported:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>以下の述語がサポートされています:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>comparison: ``=``, ``!=``, ``&gt;``, ``&gt;=``, ``&lt;``, ``&lt;=``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>比較: ``=``, ``!=``, ``&gt;``, ``&gt;=``, ``&lt;``, ``&lt;=``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>pattern matching: ``LIKE`` (using % and _), ``~`` (regular expressions)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>パターンマッチング: ``LIKE`` (% と _ を使用), ``~`` (正規表現)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>logical predicates: ``AND``, ``OR``, ``NOT``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>論理述語: ``AND``, ``OR``, ``NOT``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>NULL value checking: ``IS NULL``, ``IS NOT NULL``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>NULL 値チェック: ``IS NULL``, ``IS NOT NULL``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Examples of predicates:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>述語の例:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``1 + 2 = 3``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``1 + 2 = 3``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``sin(angle) &gt; 0``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``sin(angle) &gt; 0``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``'Hello' LIKE 'He%'``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``'Hello' LIKE 'He%'``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``(x &gt; 10 AND y &gt; 10) OR z = 0``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``(x &gt; 10 AND y &gt; 10) OR z = 0``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Examples of scalar expressions:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>スカラー式の例:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``2 ^ 10``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``2 ^ 10``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``sqrt(val)``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``sqrt(val)``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``$length + 1``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``$length + 1``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Parsing Expressions</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>式を構文解析する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The following example shows how to check if a given expression can be parsed correctly:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>与えられた式が正しくパースできるかどうかは、以下の例で示す方法で確認します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Evaluating Expressions</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>式を評価する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Expressions can be used in different contexts, for example to filter features or to compute new field values.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>式は、例えば地物をフィルタしたり、新しいフィールド値を計算するなど、異なったコンテクストで使うことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In any case, the expression has to be evaluated.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>いずれの場合においても、式は評価されなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>That means that its value is computed by performing the specified computational steps, which can range from simple arithmetic to aggregate expressions.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>つまり式の値は、単純な算術式から集約式まで、指定された計算ステップを実行することによって計算されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Basic Expressions</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>基本的な式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This basic expression evaluates to 1, meaning it is true:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この基本な式は1、つまりtrueと評価されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Expressions with features</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>地物に関わる式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To evaluate an expression against a feature, a :class:`QgsExpressionContext &lt;qgis.core.QgsExpressionContext&gt;` object has to be created and passed to the evaluate function in order to allow the expression to access the feature's field values.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>地物に関わる式を評価するためには、式が地物のフィールド値にアクセスできるようにするために、 :class:`QgsExpressionContext &lt;qgis.core.QgsExpressionContext&gt;` オブジェクトを生成し、評価関数に渡さなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The following example shows how to create a feature with a field called "Column" and how to add this feature to the expression context.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>以下の例は、"Column" という名前のフィールドを持つ地物を作り、この地物を式のコンテクストに加える方法を示しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The following is a more complete example of how to use expressions in the context of a vector layer, in order to compute new field values:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>以下の例は、ベクターレイヤのコンテクストにおいて、新しいフィールド値を計算するためにどのように式を使うかを示す、より完成された例です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Filtering a layer with expressions</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>式を使ってレイヤをフィルタする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The following example can be used to filter a layer and return any feature that matches a predicate.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次の例はレイヤーをフィルタリングして述語に一致する任意の地物を返します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Handling expression errors</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>式エラーを扱う</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Expression-related errors can occur during expression parsing or evaluation:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>式をパースする過程、もしくは式を評価する過程で、式に関連するエラーが生じる可能性があります。</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

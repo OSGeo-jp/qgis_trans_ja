@@ -1,0 +1,271 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>IDE settings for writing and debugging plugins</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プラグインを書いてデバッグするためのIDE設定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Although each programmer has his preferred IDE/Text editor, here are some recommendations for setting up popular IDE's for writing and debugging QGIS Python plugins.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プログラマには皆それぞれ自分の好みのIDE /テキストエディタがありますが、ここに人気のIDEを設定し、QGISの Pythonプラグインを書いたりデバッグするためのいくつかの推奨事項があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|outofdate|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|outofdate|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you used the OSGeo4W Installer, you can find this under the ``bin`` folder of your OSGeo4W install.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>OSGeo4Wインストーラを使用した場合はOSGeo4Wインストールの ``bin`` フォルダの下にこれを見つけることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Look for something like :file:`C:\\OSGeo4W\\bin\\qgis-unstable.bat`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:file:`C:\\OSGeo4W\\bin\\qgis-unstable.bat` のようなものを探してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Also add the argument that points to the folder where Pyscripter can find the Python dll used by QGIS, you can find this under the bin folder of your OSGeoW install</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>さらに、QGISが使用するPythonのDLLをPyscripterが見つけられるフォルダを指す引数を追加します。これはOSGeoWインストールのbinフォルダの下に見つけることができます</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Installation</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>インストール</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Setting up Eclipse</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Eclipseをセットアップする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In Eclipse, create a new project.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Eclipseで、新しいプロジェクトを作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can select *General Project* and link your real sources later on, so it does not really matter where you place this project.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>*一般的なプロジェクト* を選択しておいて本当のソースを後でリンクできるので、このプロジェクトをどこに配置するかは実際は問題になりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click :guilabel:`Advanced` and choose :guilabel:`Link to alternate location (Linked Folder)`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`詳細` をクリックし、 :guilabel:`別の場所に リンク（リンクフォルダ）` を選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In case you already have sources you want to debug, choose these.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>すでにデバッグしたいソースがある場合はこれらを選択してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In case you don't, create a folder as it was already explained.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>そうでない場合は、すでに説明したようにフォルダを作成してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now in the view :guilabel:`Project Explorer`, your source tree pops up and you can start working with the code.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>するとビュー :guilabel:`プロジェクトエクスプローラ` で、ソースツリーがポップアップしますので、コードでの作業を開始できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You already have syntax highlighting and all the other powerful IDE tools available.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>すでに利用可能な構文の強調表示や他のすべての強力なIDEツールが使用できるようになっています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Eclipse is now waiting for a connection from QGIS to its debug server and when QGIS connects to the debug server it will allow it to control the python scripts. That's exactly what we installed the *Remote Debug* plugin for. So start QGIS in case you did not already and click the bug symbol.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>EclipseはQGISからデバッグサーバーへの接続を待っています。QGISがデバッグサーバーに接続すると、Pythonスクリプトを制御できます。それはまさに私たちが *Remote Debug* プラグインをインストールしたものです。だからまだ起動していなければQGISを起動し、バグのシンボルをクリックしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now you can set a breakpoint and as soon as the code hits it, execution will stop and you can inspect the current state of your plugin. (The breakpoint is the green dot in the image below, set one by double clicking in the white space left to the line you want the breakpoint to be set).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ここでブレークポイントを設定できます。コードがそこに達すると実行は停止し、プラグインの現在の状態を検査できます。（ブレークポイントは下の画像の緑色の点です。ブレークポイントを設定したい行の左空白でダブルクリックすることで設定します）。 </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Breakpoint</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ブレークポイント</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A very interesting thing you can make use of now is the debug console.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>今利用できる非常に興味深いものはデバッグコンソールです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Make sure that the execution is currently stopped at a break point, before you proceed.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>先に進む前に、現在実行がブレークポイントで停止していることを確認してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A little bit annoying is, that every time you enter a command, the console switches back to the Debug Server.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ちょっと面倒なのですが、コマンドを入力するたびコンソールはデバッグサーバーに戻ります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To stop this behavior, you can click the *Pin Console* button when on the Debug Server page and it should remember this decision at least for the current debug session.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この動作を停止するには、デバッグサーバーページで *Pin Console* ボタンをクリックしますが、少なくとも現在のデバッグセッションではこの決定は記憶されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Making eclipse understand the API</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>EclipseにAPIを理解させる</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A very handy feature is to have Eclipse actually know about the QGIS API.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>非常に便利な機能は、Eclipseが実際にQGISのAPIについてわかっているようにすることです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This enables it to check your code for typos.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これにより、タイプミスがないかコードを確認できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>But not only this, it also enables Eclipse to help you with autocompletion from the imports to API calls.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これだけでなく、EclipseでのインポートからAPI呼び出しへ自動入力する支援を可能にします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To do this, Eclipse parses the QGIS library files and gets all the information out there.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これを行うため、EclipseではQGISライブラリファイルを解析し、そこにすべての情報を取得します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The only thing you have to do is to tell Eclipse where to find the libraries.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>しなければならないことは、どこのライブラリを検索するかをEclipseに伝えることだけです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click :menuselection:`Window --&gt; Preferences --&gt; PyDev --&gt; Interpreter --&gt; Python`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:menuselection:`ウィンドウ --&gt; 設定 --&gt; PyDev --&gt; インタプリタ --&gt; Python` をクリック。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You will see your configured python interpreter in the upper part of the window (at the moment python2.7 for QGIS) and some tabs in the lower part.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ウィンドウの上部と下部にいくつかのタブで設定済みのPythonインタプリタ（現在QGISのためのpython2.7）が表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The interesting tabs for us are *Libraries* and *Forced Builtins*.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>私たちにとって興味深いタブは、 *ライブラリ* および *強制ビルトイン* です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Debugging using PDB</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>PDBを利用してデバッグする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**TODO:**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**TODO:**</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>
