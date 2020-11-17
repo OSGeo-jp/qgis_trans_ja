@@ -678,6 +678,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>*Note: Land cover classes were grouped by possible lynx occurrence and human activity.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T224925Z" creationid="miurahr" creationdate="20201117T224925Z">
+        <seg>*注：土地被覆クラスはオオヤマネコの発生の可能性と人間の活動によって分類しました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>*Note: The Hunter Accessibility Model shall indicate the decreasing likelihood of hunters accessing the area by further distance to roads and increasing slope*</seg>
       </tuv>
       <tuv lang="ja">
@@ -2118,6 +2126,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>A shape file containing the tiger signs and probable camera trap locations was prepared.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225524Z" creationid="miurahr" creationdate="20201117T225524Z">
+        <seg>トラの兆候と考えられるカメラトラップの位置を含むシェープファイルを作成しました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>A slope and aspect map were then generated using r.slope.aspect from the raster contour map.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222521Z" creationid="miurahr" creationdate="20201117T222521Z">
@@ -2314,6 +2330,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T085910Z" creationid="miurahr" creationdate="20201117T085910Z">
         <seg>上記2つの私的メンバのためのアクセサ関数は次のようになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Accordingly it was introduced in research activities to prepare a base maps like roads, drainage, settlements, delineation of watershed boundary etc. and also to prepare a GPS data downloading, analysis, hyperlinking the field photos of GPS survey etc.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225547Z" creationid="miurahr" creationdate="20201117T225547Z">
+        <seg>したがって、それは道路、排水、入植地、流域の境界の描写などの基図を準備するため、そしてGPSデータのダウンロード、分析、GPS測量の現場の写真などをハイパーリンクする準備するなどのためにも、研究活動の中で導入されました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2542,6 +2566,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Additional factors not implemented at this stage are road mortality, terrain roughness and detailed prey occurrence.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T224929Z" creationid="miurahr" creationdate="20201117T224929Z">
+        <seg>この段階では実装されていない追加の要因は、道路の死亡率、地形の凹凸や詳細な獲物が発生しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Address Structure</seg>
       </tuv>
       <tuv lang="ja">
@@ -2566,10 +2598,42 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>After completion of the survey, the data was transferred to QGIS using GPS tools for further processing and for finalizing camera trap locations.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225524Z" creationid="miurahr" creationdate="20201117T225524Z">
+        <seg>調査の完了後、データは、さらなる処理のために、カメラトラップの位置を確定するためのGPSツールを使用してQGISに移しました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>After defining our new layer’s geometry and attributes, we need to save it to disk.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123652Z" creationid="miurahr" creationdate="20201117T123652Z">
         <seg>新しいレイヤーのジオメトリと属性を定義したら、それをディスクに保存する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>After getting opportunity of a two days training on QuantumGIS at IIT Madras in 2009, it was felt that the Open Source GIS can fulfil the need of Rural Development sector of India.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225617Z" creationid="miurahr" creationdate="20201117T225617Z">
+        <seg>2009年にIITマドラスでQuantumGISに2日間の研修の機会を取得した後、それがオープンソースGISは、インドの農村開発部門のニーズを満たすことができると感じました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>After introducing QGIS, we are getting good feedback from various officials and students.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225609Z" creationid="miurahr" creationdate="20201117T225609Z">
+        <seg>QGISを導入した後、私たちは様々な関係者や学生たちから良いフィードバックを得ています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>After introducing the QuantumGIS, it was felt that the Open Source GIS can fulfil the need of Rural Development sector of India.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225546Z" creationid="miurahr" creationdate="20201117T225546Z">
+        <seg>QuantumGISを導入した後、オープンソースGISはインドの農村開発部門のニーズを満たすことができると感じました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2710,6 +2774,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>All collected data was processed with QGIS 2.6 and 2.8, projected into ETRS89 / ETRS-LAEA and stored according to the INSPIRE directive to meet EU standards.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T224917Z" creationid="miurahr" creationdate="20201117T224917Z">
+        <seg>すべての収集されたデータは、ETRS89 / ETRS-LAEAに投影してQGIS 2.6および2.8で処理され、EUの基準を満たすためにINSPIRE指令に従って保存されました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>All dialogs should implement tooltip help for all toolbar icons and other relevant widgets.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T091650Z" creationid="miurahr" creationdate="20201117T091650Z">
@@ -2823,6 +2895,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Although technically of older origin, information related to forest cover values were integrated in order to indicate habitat improvement and as a general example for joining spatial data sets*</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T224925Z" creationid="miurahr" creationdate="20201117T224925Z">
+        <seg>技術的には古い起源のものですが、森林値に関連する情報が、生息地の改善を示すために、空間データセットを結合するための一般的な例として、統合されました*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Although the project was an academic exercise of High School, we deeply value the inventory´s results obtained by QGIS.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222125Z" creationid="miurahr" creationdate="20201117T222125Z">
@@ -2895,10 +2975,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>An important feature of this landscape is water, and that is one of the fociuses of our current research.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225053Z" creationid="miurahr" creationdate="20201117T225053Z">
+        <seg>この景観の重要な特徴は水であり、そしてそれは、私たちの現在の研究のfociusesの一つです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>An important function of the map view is to allow you to zoom in to magnify, zoom out to see a greater area and move around (panning) in the map.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T134405Z" creationid="miurahr" creationdate="20201117T134405Z">
         <seg>地図ビューの重要な機能は、拡大表示するズームインとより広域を見るためのズームアウト、そして地図上の移動 (パン) です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>An overall **discrete index of weights** was defined and applied to all input data.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T224918Z" creationid="miurahr" creationdate="20201117T224918Z">
+        <seg>重みの全体 **離散指数** が定義され、すべての入力データに適用されました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2983,6 +3079,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Angela Dichte, Luca Ehrminger, Silvana Garcia Travesi Reyes, Tobias Hoppe and David Winger are fourth semester students of the study program International Forest Ecosystem Management B.Sc., Anne Gnilke respectively German Forestry and Henri Hiltunen is an exchange student from Mikkeli University of Applied Sciences, Finland.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225034Z" creationid="miurahr" creationdate="20201117T225034Z">
+        <seg>アンジェラDichte、ルカEhrminger、シルヴァーナ・ガルシアTravesiレイエス、トビアスホッペとデビッド・ウィンガーは、研究プログラム国際森林生態系管理の学士号、第四学期の学生であり、アンGnilkeとヘンリ・ヒルツナンはそれぞれドイツ林業大学と、フィンランドのミッケリ応用科学大学からの交換留学生です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Another approach is to use advanced computer programs to automatically extract vector features from images.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140335Z" creationid="miurahr" creationdate="20201117T140335Z">
@@ -3047,6 +3151,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Apart from introduction to various help links available, a LinkedIn group for participants has been created for post training support.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225557Z" creationid="miurahr" creationdate="20201117T225557Z">
+        <seg>別に利用可能なさまざまなヘルプリンクへの導入から、参加者のLinkedInのグループはポスト教育支援のために作成されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Apart from tiger monitoring, we are also using QGIS for activities such as planning habitat management works, revising patrolling schedules, and designing maps for visitors.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225527Z" creationid="miurahr" creationdate="20201117T225527Z">
+        <seg>トラの監視とは別に、私たちはまた、そのような計画の生息地管理工事などの活動のためにQGISを使ってパトロールスケジュールを見直して、訪問者のための地図を設計しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Appendices</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T110430Z" creationid="miurahr" creationdate="20201117T110430Z">
@@ -3083,6 +3203,22 @@
       </tuv>
       <tuv lang="ja">
         <seg>カメラトラップ調査を設計するためのQGISの応用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Archaeologists have had a strong presence in the GRASS and open source GIS communities for many years, and have contributed much to this important effort, developing and sharing many capabilities.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225113Z" creationid="miurahr" creationdate="20201117T225113Z">
+        <seg>考古学者はGRASSとオープンソースGISコミュニティで長年にわたって強い存在感を持っていて、多くの機能を開発し共有することでこの重要な取り組みに大きく貢献しました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Area of Interest [Step I – II]: Based on selected national park areas and adding a 10 kilometer buffer, a minimum bounding box [α] was created and clipped with the outline of the river Danube (derived from Corine Land Cover 2006).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T224920Z" creationid="miurahr" creationdate="20201117T224920Z">
+        <seg>関心地域[工程I - II]：選択した国立公園の区域に基づき、10キロバッファを追加して、最小バウンディングボックス[α]が作成され、ドナウ川（CORINE土地被覆2006由来）の輪郭でクリップされました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3679,10 +3815,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Besides its open source, free available character, QGIS software has been the subject of major developments in recent years.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T224930Z" creationid="miurahr" creationdate="20201117T224930Z">
+        <seg>QGISソフトウェアは、そのオープンソースで無料でご利用いただける性格以外にも、近年の主要な開発の対象となっています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Besides removing the polygons for those areas that are not interesting, you can also customize the text labels in your map to be generated with content from the :guilabel:`Attribute table` of your coverage layer:</seg>
       </tuv>
       <tuv lang="ja">
         <seg>それらの地域のために関心のないポリゴンを削除するだけでなく、カバレッジ レイヤーの :guilabel:`属性テーブル` からのコンテンツを生成するように、地図内のテキストラベルもカスタマイズできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Besides, QGIS based training programmes, QGIS also used in research like georeferncing the maps, database creation, extraction of vector data from toposheets and google earth, editing and analysis, GPS data downloading and process and then layout preparation etc.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225558Z" creationid="miurahr" creationdate="20201117T225558Z">
+        <seg>また、トレーニングプログラムをベースQGIS、QGISはまた地図、データベースの作成、等toposheetsとグーグルアース、編集および分析、GPSデータのダウンロードと処理し、次いで、レイアウト調製からベクターデータの抽出をgeoreferncingような研究で使用されます</seg>
       </tuv>
     </tu>
     <tu>
@@ -3723,6 +3875,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135739Z" creationid="miurahr" creationdate="20201117T135739Z">
         <seg>どちらの地図も同じサイズですが縮尺が異なります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Boundaries of these blocks were digitised and saved as separate shape files for both the blocks.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225511Z" creationid="miurahr" creationdate="20201117T225511Z">
+        <seg>これらのブロックの境界は、デジタル化され、両方のブロックに別々のシェープファイルとして保存されていました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3903,10 +4063,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>But QGIS plays the major role.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T224812Z" creationid="miurahr" creationdate="20201117T224812Z">
+        <seg>しかしQGISは大きな役割を果たしています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>But before you can start the digitizing, there is an important first step to be done, scanning and georeferencing your paper map.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T215850Z" creationid="miurahr" creationdate="20201117T215850Z">
         <seg>しかし、最初に重要なステップ、紙の地図をスキャンし地理参照しなければ、デジタル化は開始できません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>But end of the training programme, participants were not happy due to unavailable of software with them for practice.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225544Z" creationid="miurahr" creationdate="20201117T225544Z">
+        <seg>しかし、研修プログラムの最後には、参加者は自分たちの練習にソフトウェアを使用できなかったことが原因で幸せではなかったです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4047,6 +4223,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Camera locations having less than 1.8 km inter distance were removed to comply with the monitoring protocol.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225509Z" creationid="miurahr" creationdate="20201117T225509Z">
+        <seg>未満1.8キロ間距離を有するカメラ位置は、監視プロトコルに準拠するように除去しました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Can you identify two point features and one polygon feature on this map?</seg>
       </tuv>
       <tuv lang="ja">
@@ -4107,6 +4291,22 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222522Z" creationid="miurahr" creationdate="20201117T222522Z">
         <seg>カテゴリは、異なる傾斜および斜面方向範囲に割り当てられ、ハザードリスクスコアを与えました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Certificates are provided to the participants after completion of training.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225601Z" creationid="miurahr" creationdate="20201117T225601Z">
+        <seg>証明書は、研修終了後の参加者に提供されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Challenged with the task of GIS based modeling for the first time, a working group of undergraduate forestry students of the University for Sustainable Development Eberswalde (HNEE) conducted literature research for habitat suitability and behavior of the Eurasian Lynx (*Lynx lynx*).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T224846Z" creationid="miurahr" creationdate="20201117T224846Z">
+        <seg>初めてのGISベースのモデリングの課題に挑戦し、持続可能な開発Eberswaldeのための大学（HNEE）の学部林業の学生のワーキング・グループは、ヨーロッパオオヤマネコ（ *オオヤマネコオオヤマネコ* ）の生息環境適合性と行動のための文献調査を行いました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4647,6 +4847,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>College of Business and Hotel Management offers students subjects like “Geographical Information Systems I. and II.” or “Selected chapters from geoinformatic literacy” where QGIS is used as main platform for teaching students how to use GIS and how to produce high-quality maps.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T224817Z" creationid="miurahr" creationdate="20201117T224817Z">
+        <seg>ビジネス・ホテル経営学部では、学生に「地理情報システムI.及びII」「地球情報学リテラシーから選択の章」 のような科目を提供していますが、そこでQGISはどのようにGISを使用し、どのように高品質の地図を生成するかを学生に教えるための主要なプラットフォームとして使用されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Colour (no classes or grouping)</seg>
       </tuv>
       <tuv lang="ja">
@@ -4963,6 +5171,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>Copyright (c) 2009 Chief Directorate: Spatial Planning &amp; Information, Department of Land Affairs, Eastern Cape.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Corine Landcover (2006) data was reclassified using the field calculator to group land use classes and assign respective index values.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T224922Z" creationid="miurahr" creationdate="20201117T224922Z">
+        <seg>CORINE土地被覆（2006）のデータは、グループの土地利用クラスにフィールドの計算機を使用して再分類し、それぞれのインデックス値を割り当てました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5551,6 +5767,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Distance matrix option under vector analysis tools was quite handy for determining the inter camera distance.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225509Z" creationid="miurahr" creationdate="20201117T225509Z">
+        <seg>ベクター分析ツールの下の距離行列のオプションは、インターカメラの距離を決定するための非常に便利でした。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Distribution of urban green spaces (green) and population density by blocks (white to brown) at Rada Tilly coastal town, Chubut Provinc, Argentina.</seg>
       </tuv>
       <tuv lang="ja">
@@ -5719,10 +5943,50 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Due to lack of sufficient cameras to monitor the entire reserve area in one go, we decided to divide the reserve area into 2 blocks of 100 sq km each.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225510Z" creationid="miurahr" creationdate="20201117T225510Z">
+        <seg>原因一度全体リザーブエリアを監視するのに十分なカメラが不足していたため、私たちは100平方キロ、それぞれの2つのブロックにリザーブ領域を分割することを決めました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>During 2012-13, we implemented this new tiger monitoring protocol in NTR by using QGIS.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225519Z" creationid="miurahr" creationdate="20201117T225519Z">
+        <seg>2012～13年の間に、当社はQGISを使ってNTRでこの新しいトラの監視プロトコルを実装しました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>During natural disasters, raster data can be useful to show where the impacted areas are.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135419Z" creationid="miurahr" creationdate="20201117T135419Z">
         <seg>災害発生時、対象地域を見るのにラスターデータは便利です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>During regular workshops students learn how to legally work with QGIS and how to create their own maps.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T224822Z" creationid="miurahr" creationdate="20201117T224822Z">
+        <seg>定期的なワークショップの間、学生が合法的にQGISとどのように自分の地図を作成すると動作する方法を学びます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>During the study period, the camera traps have to be monitored intensively by the field staff.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225512Z" creationid="miurahr" creationdate="20201117T225512Z">
+        <seg>試験期間中は、カメラトラップは、現場スタッフによって集中的に監視する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>During this whenever author was course coordinator in training, he used QGIS in trainings for introduction and feedbacks.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225605Z" creationid="miurahr" creationdate="20201117T225605Z">
+        <seg>著者は、トレーニング中にコースのコーディネーターだったときには、この期間中、彼は導入とフィードバックのための研修でQGISを使用しました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6039,6 +6303,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Every month training is conducted with 20-30 participants, so this number is increasing every month.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225600Z" creationid="miurahr" creationdate="20201117T225600Z">
+        <seg>毎月訓練は20-30の参加者で行われているので、この数は毎月増加しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Every projection has advantages and disadvantages.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135755Z" creationid="miurahr" creationdate="20201117T135755Z">
@@ -6227,6 +6499,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>地物のジオメトリ（幾何形状）は **頂点** の観点で記述されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Features in our database include land cover (forest, vineyards, pasture and agriculturecropland), ponds and streams, mills, roads and buildings from these different dates, where possible.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225050Z" creationid="miurahr" creationdate="20201117T225050Z">
+        <seg>可能な場合は、当社のデータベースにある機能は、土地被覆（森、ブドウ畑、牧草地や農業耕作地）これらの異なる日付から、池や小川、工場、道路や建物があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6427,6 +6707,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>最後に、地図を地理参照します：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Finally, one of the highest impact of using QGIS could be seen in education --- QGIS is the first software, which is presented to students.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T224821Z" creationid="miurahr" creationdate="20201117T224821Z">
+        <seg>最後に、QGISを使って最高の影響の一つは、教育に見ることができる--- QGISは、学生に提示された最初のソフトウェアです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6703,6 +6991,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>For example the final layout is mostly create using Inkscape or GIMP (less in LibreOffice Draw).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T224815Z" creationid="miurahr" creationdate="20201117T224815Z">
+        <seg>例えば、最終的なレイアウトは、ほとんどのInkscapeまたはGIMP（LibreOfficeのドローが少ない）を使用して作成されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>For example the grasslands shown have many variations in colour and density of cover.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140011Z" creationid="miurahr" creationdate="20201117T140011Z">
@@ -6967,6 +7263,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>For the first time in the history of this small tiger reserve of North East India, it was possible to monitor tigers by using camera traps mainly because of QGIS.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225525Z" creationid="miurahr" creationdate="20201117T225525Z">
+        <seg>北東インドのこの小さなトラ保護区の歴史の中で初めて、主な理由はQGISのカメラトラップを使用してトラを監視することが可能でした。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>For the purposes of creating detailed maps, you are looking for a symbology that looks good not at the scale of the whole forest area (left image below) but at a closer scale (right image below).</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T215623Z" creationid="miurahr" creationdate="20201117T215623Z">
@@ -7095,6 +7399,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>From top left going clockwise: Some of the local Charolais cattle, doing ethnographic interviews with local farmers, a GIS map showing forest change from 1759 to 1983, and a book of Uxeau 1791 cadastral tax records.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225115Z" creationid="miurahr" creationdate="20201117T225115Z">
+        <seg>左上から時計回りに：ローカルシャロレー種のいくつか、地元農家と民族誌のインタビュー中、1759年から1983年への森林の変化を示すGIS地図、および1791年のUxeauの地籍納税記録の本。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Function Arguments</seg>
       </tuv>
       <tuv lang="ja">
@@ -7131,6 +7443,22 @@
       </tuv>
       <tuv lang="ja">
         <seg>関数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Further clipping tools [β] were applied to all additional data as an initial preparation step (Figure 2)</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T224921Z" creationid="miurahr" creationdate="20201117T224921Z">
+        <seg>さらに、クリッピングツール[β]が、初期準備工程のようなすべての追加データに適用されました（図2）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Further it is being messaged and advised in all trainings that no commercial GIS software should be purchased at District (administrative unit in India after Nation and State) and below, if real requirement is not felt and this saving may be used for purchase of hardware like GPSs, computers etc.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225607Z" creationid="miurahr" creationdate="20201117T225607Z">
+        <seg>さらに、地区（国と州の次のインドの行政単位）およびそれ以下において、本当の要件が感じられない場合、またこの節約がGPSS、コンピューターなどのハードウェアの購入に使用できる場合には、商業的GISソフトウェアは購入すべきでないことが、すべてのトレーニングにメッセージとして送られ助言されています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7275,6 +7603,22 @@
       </tuv>
       <tuv lang="ja">
         <seg>GNUフリー文書利用許諾契約書</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GPS coordinates of tiger signs as well as suitable locations for camera traps were recorded.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225523Z" creationid="miurahr" creationdate="20201117T225523Z">
+        <seg>トラの兆候並びにカメラトラップに適した場所のGPS座標を記録しました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>General topics covered are basic introduction to the GIS and QGIS software , major tool bars, plug-in structure, geo-referencing, creation/editing of vector data, clip (Raster/Vector), merge, terrain analysis, contours, .csv to .shp layer, .shp to .kml and vice versa, handling GPS data, Interpolation, table editing/query, field calculator, print composer etc. and some basic analysis on vector data.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225555Z" creationid="miurahr" creationdate="20201117T225555Z">
+        <seg>カバーされる一般的なトピックは、GISとQGISソフトウェアの基本的な導入、主要なツールバー、プラグイン構造、地理参照、ベクターデータの作成/編集、クリップ（ラスター/ベクター）、マージ、地形分析、等高線、.CSVから.SHPレイヤー、.SHPから.KMLおよびその逆、GPSデータを処理、補間、テーブル編集/クエリ、フィールドの計算、ベクターデータで印刷コンポーザ、等、およびいくつかの基本的な分析。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7607,6 +7951,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>He is a research associate professor in the Curriculum in Archaeology at the University of North Carolina at Chapel Hill’s Research Laboratories of Archaeology.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225235Z" creationid="miurahr" creationdate="20201117T225235Z">
+        <seg>博士は考古学のチャペルヒルの研究所ノースカロライナ大学で考古学におけるカリキュラムの研究准教授です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>He is an academic researcher at College of Business and Hotel Management, Ltd.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T224135Z" creationid="miurahr" creationdate="20201117T224042Z">
@@ -7631,6 +7983,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>He is on the faculty of the International Space University in Strasbourg, France, and is a chercheur associé du Laboratoire Archéologie et Territoires de l'UMR 7324 CITERES, Université François-Rabelais/CNRS.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225307Z" creationid="miurahr" creationdate="20201117T225226Z">
+        <seg>またストラスブール、フランスの国際宇宙大学の教員であり、そしてchercheurアソシエ・デュ・ラボラトリー考古学らTerritoiresドゥUMR 7324 CITERES、大学フランソワ・ラブレー/ CNRSです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>He is passionate about seeing GIS being Freely available to everyone.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T121558Z" creationid="miurahr" creationdate="20201117T121558Z">
@@ -7643,6 +8003,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>ヘッダの前処理</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Headquarter is located at Hyderabad city of India and it has three sub centres at Guwahati, Jaipur and Patna city.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225536Z" creationid="miurahr" creationdate="20201117T225536Z">
+        <seg>本社はインドのハイデラバード市に位置しており、それはグワハティ、ジャイプールとパトナ市の三つのサブセンターを持っています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7879,6 +8247,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>However, some crucial habitat information, such as forest structure (our highest habitat suitability) cannot be derived by available data sets and in combination with the complex species behavior, the result must therefore be understood as basic and incomplete.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T224928Z" creationid="miurahr" creationdate="20201117T224928Z">
+        <seg>しかし、このような森林の構造（私たちの最高の生息環境適合性）など、いくつかの重要な生息地の情報は、利用可能なデータセットによって導出することができず、複雑な種の挙動との組み合わせで、結果はそのための基本と不完全なものとして理解されなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>However, there are two important aspects to successfully using QGIS for learning and teaching.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222456Z" creationid="miurahr" creationdate="20201117T222456Z">
@@ -7923,6 +8299,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222837Z" creationid="miurahr" creationdate="20201117T222837Z">
         <seg>私はarcMAPがなかったため絶望からQGISを使い始めましたが、今は戻りたくありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>I have taught several 4-day QGIS/GRASS/R short courses in France over the years, sharing these tools with many archaeologists from throughout France.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225114Z" creationid="miurahr" creationdate="20201117T225114Z">
+        <seg>私は長年にわたってフランス国内でいくつかのQGIS / GRASS / Rの4日間短期講習を教えていて、フランス全土から多くの考古学者とこれらのツールを共有してきました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8943,6 +9327,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In addition to the tigers, several elusive species have also been photographically documented.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225527Z" creationid="miurahr" creationdate="20201117T225527Z">
+        <seg>トラに加えて、いくつかとらえどころのない種も写真的に文書化されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In addition to these layers, which should already be loaded in the map from when you worked on it before, also add the :file:`suitable_terrain.shp` dataset.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T221049Z" creationid="miurahr" creationdate="20201117T221049Z">
@@ -9043,6 +9435,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123616Z" creationid="miurahr" creationdate="20201117T123616Z">
         <seg>figure_tourism_ では、すべての3つのジオメトリタイプを使用した場合、当社の観光レイヤーが地図上でどのように見えるかがわかります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In future certificate and diploma programmes may also be initiated.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225603Z" creationid="miurahr" creationdate="20201117T225603Z">
+        <seg>将来は証明書と卒業証書のプログラムでも開始できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9367,6 +9767,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In the center is a color 1759 Cassini map of the area.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225212Z" creationid="miurahr" creationdate="20201117T225212Z">
+        <seg>中心はこの地域の1759年の色付カッシーニの地図です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In the code samples below, lines beginning with ``$`` show commands you should type while ``#`` are comments.</seg>
       </tuv>
       <tuv lang="ja">
@@ -9443,6 +9851,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>リストで、:guilabel:`地図帳によって制御` をチェックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In the module ‘Applied GIS in Natural Resource Management’, under the guidance of Prof. Mund, the students quickly discovered the subject’s complexity, especially within regard to the adaptability of species to changing environments.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T224902Z" creationid="miurahr" creationdate="20201117T224902Z">
+        <seg>Mund教授の指導の下、「天然資源管理にGIS適用」モジュールでは、生徒はすぐに特に変化する環境への種の適応性に関して以内に、被験者の複雑さを発見しました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9587,6 +10003,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141030Z" creationid="miurahr" creationdate="20201117T141030Z">
         <seg>後に続くトピックで(:ref:`gentle_gis_attributes`) は、シンボロジーが、ユーザーがベクターデータを理解するのにいかに役立つかを深く探求します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In the training we have been introduced to participants Georeferencing, database creation, digitization, editing, analysis and print composer etc.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225608Z" creationid="miurahr" creationdate="20201117T225608Z">
+        <seg>トレーニングにおいて、私たちは参加者にジオリファレンス、データベースの作成、デジタル化、編集、分析および印刷コンポーザなど紹介してきました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9811,6 +10235,22 @@
       </tuv>
       <tuv lang="ja">
         <seg>索引</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Initially I was involved in conducting GIS trainings with commercial software like ArcGIS and ERDAS.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225542Z" creationid="miurahr" creationdate="20201117T225542Z">
+        <seg>当初、私は、ArcGISとERDASなどの商用ソフトウェアでGISトレーニングを行うことに関与していました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Initially at the time of his posting at Headquarter of NIRD at Hyderabad, he was involved in GIS trainings with commercial software like ArcGIS and ERDAS.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225616Z" creationid="miurahr" creationdate="20201117T225616Z">
+        <seg>当初はハイデラバードでNIRDの本部で彼の投稿の時に、彼はのArcGISとERDASなどの商用ソフトウェアとGISトレーニングに関与していました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10255,6 +10695,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Jaipur city is capital of Rajasthan State (North Western side of country).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225613Z" creationid="miurahr" creationdate="20201117T225613Z">
+        <seg>ジャイプールの街は、ラジャスタン州（国の北西側）の首都です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Jakub Trojan</seg>
       </tuv>
       <tuv lang="ja">
@@ -10367,6 +10815,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>LEAG plays important role in academic research held in College of Business and Hotel Management.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T224807Z" creationid="miurahr" creationdate="20201117T224807Z">
+        <seg>LEAGはビジネス・ホテル経営学部で開催された学術研究において重要な役割を果たしています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Labeling GUI items</seg>
       </tuv>
       <tuv lang="ja">
@@ -10379,6 +10835,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T223918Z" creationid="miurahr" creationdate="20201117T223543Z">
         <seg>実験・応用地理研究所（LEAG：Laboratory on Experimental and Applied Geography)は、ホテルとビジネス経営学部の一部で、</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Land Cover Suitability Model [Step IX]: [γ] Input III and IV were transformed into shape files using the inbuilt #Polygonize function.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T224921Z" creationid="miurahr" creationdate="20201117T224921Z">
+        <seg>土地被覆適合モデル[ステップIX]：[γ]入力IIIとIVは、作り付けの#Polygonize（ポリゴン作成）機能を使用してシェイプファイルに変換されました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10759,6 +11223,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Local Open Source Raster and Vector data are used in exercises.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225551Z" creationid="miurahr" creationdate="20201117T225551Z">
+        <seg>地域のオープンソースラスターとベクターデータは、演習で使用されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Local repository</seg>
       </tuv>
       <tuv lang="ja">
@@ -10803,6 +11275,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T220012Z" creationid="miurahr" creationdate="20201117T220012Z">
         <seg>黒い線の画像で他の十字線を探すと、北と東の両方の方向で互いに1000メートル離れています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Looking at the final output (Figure 3), a plausible first potential habitat analysis appeared to be successful, yet more importantly, basic modeling itself turned out to be less difficult than initially expected.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T224926Z" creationid="miurahr" creationdate="20201117T224926Z">
+        <seg>最終的な出力（図3）を見ると、もっともらしい最初の潜在的な生息環境の分析は成功しているように見え、さらにより重要なのは、基本的なモデル作成自体が当初予想より難しくないことが判明しました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10955,6 +11435,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141018Z" creationid="miurahr" creationdate="20201117T141018Z">
         <seg>多くの問題は、地図の縮尺の拙い選択から生じ得ます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Many of these mills have disappeared and many of the surviving mill buildings are endangered due to neglect or redevelopment.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225057Z" creationid="miurahr" creationdate="20201117T225057Z">
+        <seg>これらの水車の多くが消えてしまい、存続する水車の建物の多くは怠慢や再開発が原因で絶滅の危機に瀕しています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11495,6 +11983,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Nameri Tiger Reserve (NTR) is one of the 3 tiger reserves of Assam and it is situated in the northern part of Sonitpur District of Assam along the foothills of Eastern Himalayas.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225425Z" creationid="miurahr" creationdate="20201117T225425Z">
+        <seg>NAMERIトラ保護区（NTR）は、アッサムの3つのトラ保護区の一つであり、それは東ヒマラヤ山脈の麓に沿っアッサムのSonitpur地区の北部に位置しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Names</seg>
       </tuv>
       <tuv lang="ja">
@@ -11615,6 +12111,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Next we prepared 4 sq km grid layer using mmqgis plugin.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225507Z" creationid="miurahr" creationdate="20201117T225507Z">
+        <seg>次はmmqgisプラグインを使用して4平方キログリッドレイヤーを用意しました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Next you should define the transformation settings for georeferencing the map:</seg>
       </tuv>
       <tuv lang="ja">
@@ -11667,6 +12171,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>いいえ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>No compatibility issues occurred despite changing frequently between different versions and the general absence of administrative restrictions can be a powerful advantage when working intuitively with data sets.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T224931Z" creationid="miurahr" creationdate="20201117T224931Z">
+        <seg>互換性の問題は、データセットを直感的に作業する際の強力な利点することができ、異なるバージョンや行政規制の一般的な不在の間で頻繁に変化するにもかかわらず発生していません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12391,6 +12903,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>One of the most important functions of ponds in the past was to run mills, primarily for grinding grain, but also for pressing oil and cutting lumber.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225056Z" creationid="miurahr" creationdate="20201117T225056Z">
+        <seg>過去に池で最も重要な機能の1つは、主には穀物を挽くためですが油を搾ったり木材を切断するためにも、水車を回すことでした。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>One of the powerful features of a database is its ability to summarise the data in its tables.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150320Z" creationid="miurahr" creationdate="20201117T150320Z">
@@ -12727,6 +13247,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Our choice to add a sub-model for hunter accessibility allowed us to implement another dimension in terms of habitat risk assessment, which can be simply nested into the already existing scenario and used to determine protection necessities under aspects of e.g. infrastructure development.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T224927Z" creationid="miurahr" creationdate="20201117T224927Z">
+        <seg>狩猟者接近可能性のためのサブモデルを追加するには私たちの選択は、私たちは、単に既存のシナリオの中に入れ子にし、例えば、インフラ開発の側面の下で保護必需品を決定するために使用することができる生息地のリスク評価、という点で別の次元を実装することができました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Our field surveys included assessing, videoing and photographing these sites, verifying their location by taking GPS points and, through the use of our Garmin GPS, to align historical maps with the present landscape (see Figure 2).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225059Z" creationid="miurahr" creationdate="20201117T225059Z">
+        <seg>当社の現地調査は、これらのサイトを査定し、ビデオ・写真撮影し、GPSポイントを取ることによってその場所を確認し、ガーミンGPSを使用することによって歴史的な地図を現在のランドスケープと位置揃えすること（図2参照）が含まれています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Our health worker recorded the location of each patient's house by noting its latitude and longitude in the table.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T134043Z" creationid="miurahr" creationdate="20201117T134043Z">
@@ -12743,6 +13279,46 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Our project is interdisciplinary, and we have conduced extensive field surveys, oral history and ethnographic interviews, documentary research in various librariesarchives, and geological and ecological analysis (see Figure 3).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225052Z" creationid="miurahr" creationdate="20201117T225052Z">
+        <seg>このプロジェクトは学際的であり、私たちは大規模な現地調査、口述歴史と民族誌のインタビュー、様々なlibrariesarchivesでドキュメンタリー研究、地質学や生態学的分析を（図3を参照）conducedています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Our project started using GRASS in 1986, and has continued to use this, as well as commercial ArcGIS and a variety of other tools such as Photoshop, Garmin’s BaseCamp, eVis and others.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225109Z" creationid="miurahr" creationdate="20201117T225109Z">
+        <seg>私たちのプロジェクトでは1986年にGRASSを使い始め、これだけでなく、商業用のArcGISやフォトショップ、ガーミンBaseCamp、EVISなどのような他のさまざまなツールを使用し続けています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Our recent field survey of ponds and mill sites identified from the historical maps was designed to document the remaining pond and mill sites, verify our historical data, test new GIS and GPS technologies, and better understand the conditions and changing function of these features in the present economy.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225058Z" creationid="miurahr" creationdate="20201117T225058Z">
+        <seg>古地図から識別池や水車敷地の私たちの最近の現地調査は、残りの池や水車敷地を文書化し、当社の過去のデータを確認し、新しいGISとGPS技術をテストし、現在の経済の中でこれらの機能の条件と変化する機能をより良く理解するために設計されました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Our research area in Southern Burgundy, France.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225045Z" creationid="miurahr" creationdate="20201117T225045Z">
+        <seg>フランスの南ブルゴーニュにある私たちの研究領域。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Our research has shown that these man-made ponds were used to water livestock, raise fish for domestic consumption and sale, launder clothing, soak hemp for processing, and for recreation.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225055Z" creationid="miurahr" creationdate="20201117T225055Z">
+        <seg>私たちの研究では、これらの人工池は、国内消費と販売のために魚を調達衣類を洗濯、処理のために麻を浸し、そしてレクリエーションのため、水の家畜に使用されたことが示されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Our research will continue to explore the long-term history of the inhabitants’ relationship with this landscape and we will expand our work beyond our current focus on mills and ponds to include changing patterns of forests, pastures and meadows, croplands and former vineyards in the area.</seg>
       </tuv>
       <tuv lang="ja">
@@ -12751,10 +13327,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Our research, organized by the theoretical framework of Historical Ecology, centers on the interaction of people, their societies, natural and built environments, and how these have changed over time.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225048Z" creationid="miurahr" creationdate="20201117T225048Z">
+        <seg>歴史生態学の理論的な枠組みが主催する私たちの研究は、人々、彼らの社会、自然、構築された環境の相互作用、そしてこれらのことが時間の経過とともにどう変化するか、を中心としています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Our track is a little further to the south:</seg>
       </tuv>
       <tuv lang="ja">
         <seg>トラックはさらにもう少し南へ:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Our work has documented 52 ponds and 27 mills in the region.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225102Z" creationid="miurahr" creationdate="20201117T225102Z">
+        <seg>私たちの仕事では、52の池や地域の27の水車を文書化しています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12823,6 +13415,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Participants are encouraged to come with their own or departmental data if available to work.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225552Z" creationid="miurahr" creationdate="20201117T225552Z">
+        <seg>参加者は、作業に利用可能な場合、独自または部門別データを持参することが奨励されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Patience</seg>
       </tuv>
       <tuv lang="ja">
@@ -12835,6 +13435,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T090011Z" creationid="miurahr" creationdate="20201117T090011Z">
         <seg>引数を参照渡しするべき場合に注意してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Per training programme number of trainees remains between 20-30.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225554Z" creationid="miurahr" creationdate="20201117T225554Z">
+        <seg>研修生の研修あたりのプログラム数は20〜30の間に残ります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12899,6 +13507,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>Please contact Luca.Ehrminger(at)hnee.de, David.Winger(at)hnee.de, or Prof.Dr.Jan-Peter Mund: Jan-Peter.Mund(at)hnee.de for further information.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Please contact the `QGIS community-team &lt;http://lists.osgeo.org/mailman/listinfo/qgis-community-team&gt;`_, if you want to send us your story.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225347Z" creationid="miurahr" creationdate="20201117T225347Z">
+        <seg>もしあなたの事例を送りたい場合は `QGIS community-team &lt;http://lists.osgeo.org/mailman/listinfo/qgis-community-team&gt;`_,に連絡して下さい。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13063,6 +13679,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Presently handouts are being supplied to the participants in hard copy and tutorial, software and practice data in soft copies but plan is there to create DVDs containing screen-recorded lectures/demo of various topics in English.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225602Z" creationid="miurahr" creationdate="20201117T225602Z">
+        <seg>現在は配布資料はハードコピー、チュートリアル、ソフトウェアおよび練習データはソフトコピーで参加者に提供されていますが、画面記録講義/英語でのさまざまなトピックのデモを含むDVDを作成する計画があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Preserve all the Invariant Sections of the Document, unaltered in their text and in their titles.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124733Z" creationid="miurahr" creationdate="20201117T124733Z">
@@ -13131,6 +13755,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>QGISでarcHYDROのような出力を作成する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Prof. Mund is lecturing GIS and Remote Sensing at HNE Eberswalde since 2010 and provided guidance and technical support to the project.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225039Z" creationid="miurahr" creationdate="20201117T225039Z">
+        <seg>Mund教授は、2010年以来、HNE EberswaldeでGISやリモートセンシングを講義し、プロジェクトに指導し、技術サポートを提供しています</seg>
       </tuv>
     </tu>
     <tu>
@@ -13311,6 +13943,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>QGIS does not stand alone –-- we use MapWindow, OpenJump, gvSIG, SAGA and others.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T224811Z" creationid="miurahr" creationdate="20201117T224811Z">
+        <seg>QGISは独立していません---私たちはMapWindow、OpenJump、gvSIG、SAGAなどを使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>QGIS for distance learning and teaching GIS at Universities</seg>
       </tuv>
       <tuv lang="ja">
@@ -13331,6 +13971,22 @@
       </tuv>
       <tuv lang="ja">
         <seg>QGISには多くのドキュメントがあり、一部が翻訳の対象となっています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>QGIS is also great educational tool.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T224817Z" creationid="miurahr" creationdate="20201117T224817Z">
+        <seg>QGISはまた、偉大な教育ツールです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>QGIS is being used in GIS trainings at the centre.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225606Z" creationid="miurahr" creationdate="20201117T225606Z">
+        <seg>QGISは中央のGISトレーニングに使用されています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13363,6 +14019,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>QGISはすべてのGISトレーニングコースに使用されます</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>QGIS is used with synergy to other open source products.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T224814Z" creationid="miurahr" creationdate="20201117T224814Z">
+        <seg>QGISは、他のオープンソース製品への相乗効果で使用されています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13735,6 +14399,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Recent projects where QGIS was used:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T224813Z" creationid="miurahr" creationdate="20201117T224813Z">
+        <seg>QGISを使用した最近のプロジェクト：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Recently, the QGIS was used as main product during GIS Day held at our school on November 2010.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T224818Z" creationid="miurahr" creationdate="20201117T224818Z">
+        <seg>最近、QGISは2010年11月に私たちの学校で開催されたGIS Dayの間に主な製品として使用されました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Record 1</seg>
       </tuv>
       <tuv lang="ja">
@@ -13927,6 +14607,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Reputed NGOs and Scholars are also trained if interested.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225615Z" creationid="miurahr" creationdate="20201117T225615Z">
+        <seg>評判NGOや学者にも興味を持っている場合に訓練されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Resize the arrow image to a size that looks good on the small map.</seg>
       </tuv>
       <tuv lang="ja">
@@ -13939,6 +14627,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>結果:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Results of this monitoring exercise indicate the presence of 8-15 tigers in this landscape.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225526Z" creationid="miurahr" creationdate="20201117T225526Z">
+        <seg>このモニタリング演習の結果は、この風景の中8-15トラの存在を示します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14559,6 +15255,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Short Introduction with background of the company / institute / authority / university (length about 200 words).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225412Z" creationid="miurahr" creationdate="20201117T225412Z">
+        <seg>企業/研究所/官庁/大学のバックグラウンドを含んだ短い紹介（約200ワード)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Sibongile Mthombeni –-- Video Presenter.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123230Z" creationid="miurahr" creationdate="20201117T123230Z">
@@ -14579,6 +15283,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>銀色</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Similar processing was applied to Hansen Forestcover data (2000), extracting only areas of cover equal or higher 75 %.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T224923Z" creationid="miurahr" creationdate="20201117T224923Z">
+        <seg>同様の処理は、カバー同等以上の75％の領域のみを抽出し、ハンセンForestcoverデータ（2000）に適用しました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14767,6 +15479,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Software was then pursued for the personal use for one year and its new versions were checked for the enhanced functionalities.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225604Z" creationid="miurahr" creationdate="20201117T225604Z">
+        <seg>ソフトウェアは、その後一年間の個人的な使用のために追求されたとその新しいバージョンが強化機能を調べました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Some features on a landscape are easy to represent as points, polylines and polygons (e.g. trees, roads, houses).</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140015Z" creationid="miurahr" creationdate="20201117T140015Z">
@@ -14903,6 +15623,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Spatial analysis are done mainly using basic geoprocessing functions and Python-based plugins.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T224813Z" creationid="miurahr" creationdate="20201117T224813Z">
+        <seg>空間解析は、基本的なジオプロセシング機能とPythonベースのプラグインを使用して主に行われます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Spatial overlay with two input vector layers (a_input = rectangle, b_input = circle).</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141237Z" creationid="miurahr" creationdate="20201117T141237Z">
@@ -14939,6 +15667,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>資金提供： Chief Directorate: Spatial Planning &amp; Information, Department of Land Affairs, Eastern Cape, South Africa.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Spread over an area of 344 sq km, NTR boasts rich diversity of flora and fauna.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225427Z" creationid="miurahr" creationdate="20201117T225427Z">
+        <seg>344平方キロの面積に広がる、NTRは動植物の豊かな多様性を誇っています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14991,6 +15727,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Starting with the year 2011, the National Tiger Conservation Authority (NTCA) of India has made it mandatory for the all the tiger reserves of the country to monitor tigers by using camera traps.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225438Z" creationid="miurahr" creationdate="20201117T225438Z">
+        <seg>2011年から開始し、インドのナショナル・トラ保護庁（NTCA）は、必須の国のすべてのトラ保護区がカメラトラップを使用してトラを監視するために作られました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>State on the Title page the name of the publisher of the Modified Version, as the publisher.</seg>
       </tuv>
       <tuv lang="ja">
@@ -15011,6 +15755,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>ストーリー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Story about your project/application and what QGIS is used for (length about 400 words plus screenshots) Conclusion showing positive experiences/benefits using QGIS (length about 200 words)</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225421Z" creationid="miurahr" creationdate="20201117T225421Z">
+        <seg>あなたのプロジェクト/アプリケーションの説明とその中でQGISがどのように使われているか(約400ワードの長さとスクリーンショット)。結論としてQGISを使って得られたポジティブな経験/利益の記述(約200ワード)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15075,6 +15827,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>副選択</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sub-model IX was produced by using the functions #Merge Shapes to combine III with IV and #Rasterize</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T224924Z" creationid="miurahr" creationdate="20201117T224924Z">
+        <seg>サブモデルIXは、IIIをIV及び#Rasterize（ラスタ化）と組み合わせること関数#Merge Shapes（シェイプをマージ）を用いて製造しました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15703,6 +16463,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The NIRD Jaipur Centre is actively involved in short (mostly 5 days including one-day handheld GPS survey and local visit) residential GIS trainings for middle level government officials of North Indian States.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225614Z" creationid="miurahr" creationdate="20201117T225614Z">
+        <seg>NIRDジャイプールセンターは、北インドのアメリカの中間レベルの政府関係者のための住宅GIS研修短期（1日のハンドヘルドGPSの調査と現地訪問など、ほとんどが5日）に積極的に関与しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The National Institute of Rural Development (NIRD) is an Apex institute of Ministry of Rural Development, Government of India.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225612Z" creationid="miurahr" creationdate="20201117T225612Z">
+        <seg>農村開発研究所（NIRD）は、インド政府農村開発省のアペックス機関です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The Project</seg>
       </tuv>
       <tuv lang="ja">
@@ -15779,6 +16555,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222552Z" creationid="miurahr" creationdate="20201117T222552Z">
         <seg>QGIS処理ツールボックスはこの雪の分類のようなワークフローを自動化するための強力な方法です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The QGIS project is always looking for people to publish QGIS case studies (user stories) on the QGIS website.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225332Z" creationid="miurahr" creationdate="20201117T225332Z">
+        <seg>QGISプロジェクトでは常にQGISケーススタディ（ユーザーストーリー）をQGISウェッブサイトで発表してくれる人を探しています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15919,10 +16703,34 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The answer lies in the facts that QGIS is an OSGeo incubated project, less complex, its development is very fast and associated with huge community of users and developers and lastly authors expertise.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225533Z" creationid="miurahr" creationdate="20201117T225533Z">
+        <seg>答えは、QGISがOSGEO培養のプロジェクトであり、それほど複雑でなく、その開発は非常に高速かつ巨大なユーザーと開発者のコ​​ミュニティと最後に著者の専門知識に関連付けられているという事実にあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The application provides **menus** near to the top of the window (File, Edit etc.) which, when clicked using the mouse, show a panel of **actions**.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T134301Z" creationid="miurahr" creationdate="20201117T134301Z">
         <seg>ウィンドウの上部にはファイルや編集といった **メニュー** があり、クリックすると様々な **アクション** が並んだパネルが開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The applications of software during training are generally concentrated on Resource Mapping, Rural infrastructure facility mapping, Watershed and Mahatma Gandhi National Rural Employment Guarantee Scheme (MGNREGS).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225549Z" creationid="miurahr" creationdate="20201117T225549Z">
+        <seg>訓練中のソフトウェアのアプリケーションは、一般的に、資源図化、農村インフラ施設の図化、流域とマハトマ・ガンジー国立農村雇用保証制度（MGNREGS）に集中しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The area is interlaced with streams that have been dammed to form ponds, many dating to at least the middle ages.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225053Z" creationid="miurahr" creationdate="20201117T225053Z">
+        <seg>この地域には流れが交錯し、それらはせき止められて池、多くは少なくとも中世に遡る、が形成されてきました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15991,6 +16799,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The author is working in NIRD Jaipur centre as an Assistant Professor and coordinating GIS and Watershed related trainings at the centre.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225616Z" creationid="miurahr" creationdate="20201117T225616Z">
+        <seg>著者は助教としてNIRDジャイプールの中心部での作業と中央のGISと流域関連のトレーニングを調整しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The author(s) and publisher(s) of the Document do not by this License give permission to use their names for publicity for or to assert or imply endorsement of any Modified Version.</seg>
       </tuv>
       <tuv lang="ja">
@@ -16003,6 +16819,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222252Z" creationid="miurahr" creationdate="20201117T222252Z">
         <seg>平均人口密度はヘクタール当たり住民61人になるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The bird diversity of NTR is also quite impressive and more than 370 bird species have been identified so far.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225430Z" creationid="miurahr" creationdate="20201117T225430Z">
+        <seg>NTRの鳥の多様性にも非常に印象的で、370以上の鳥種はこれまでに同定されています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16071,6 +16895,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The core area of the reserve which constitutes the “Nameri National Park” is bound by River Jia-Bhoreli on the west and River Bor-Dikorai in the east.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225428Z" creationid="miurahr" creationdate="20201117T225428Z">
+        <seg>「NAMERI国立公園」を構成する保存コアエリアは西のBor-Dikorai川と東のJia-Bhoreli 川に制限されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The council region, mainly the southern part, suffers from major bushfires.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222515Z" creationid="miurahr" creationdate="20201117T222515Z">
@@ -16099,6 +16931,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T215726Z" creationid="miurahr" creationdate="20201117T215726Z">
         <seg>使用しているカバレッジレイヤーは、まだ地図内のラベルの内容をカスタマイズするために使用できる有用な情報を持っていません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The creation and maintenance of these ponds with their earthen dams required a great deal of labor and expense.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225054Z" creationid="miurahr" creationdate="20201117T225054Z">
+        <seg>その土のダムでのこれらの池の作成と保守には、多くの作業と費用が必要でした。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16367,6 +17207,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The geographic coordinates of camera traps are required for estimating the tiger density and occupancy modelling of other species.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225513Z" creationid="miurahr" creationdate="20201117T225513Z">
+        <seg>カメラトラップの地理座標は、トラの密度および他の種の占有モデルを推定するために必要とされます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The geometry is made up of one or more interconnected **vertices**.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140718Z" creationid="miurahr" creationdate="20201117T140718Z">
@@ -16631,6 +17479,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The need of spatial modeling requires also excellent software.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T224805Z" creationid="miurahr" creationdate="20201117T224805Z">
+        <seg>空間モデル化が必要であれば優れたソフトウェアも必要になります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The new polygons are covering the whole forest area and they give you an idea of what each map (created from each polygon) will contain.</seg>
       </tuv>
       <tuv lang="ja">
@@ -16771,6 +17627,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222441Z" creationid="miurahr" creationdate="20201117T222441Z">
         <seg>特別な利点には、その無料の可用性、使いやすさ、適応性、およびプラットフォームの独立性がありました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The philosophy of minimum cost and maximum efficiency led to choice of open source solutions.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T224809Z" creationid="miurahr" creationdate="20201117T224809Z">
+        <seg>最小費用で最大効率という哲学から、オープンソース・ソリューションを選択することになりました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16935,6 +17799,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The reserve is managed by the Assam Forest Department, Government of Assam.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225432Z" creationid="miurahr" creationdate="20201117T225432Z">
+        <seg>準備金は、アッサムのアッサム森林局、政府によって管理されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The result of the above:</seg>
       </tuv>
       <tuv lang="ja">
@@ -17011,6 +17883,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150251Z" creationid="miurahr" creationdate="20201117T150251Z">
         <seg>一連のステップは次のように進むでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The shape file containing results of sign survey was overlaid on the 4 sq grid to visualise the distribution of camera traps in NTR.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225508Z" creationid="miurahr" creationdate="20201117T225508Z">
+        <seg>符号の調査の結果を含むシェープファイルはNTRにおけるカメラトラップの分布を可視化するために4平方グリッド上に重ねました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17207,6 +18087,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The user-friendly interface, rich features, in-depth documentation, on-line support  and the free/open source philosophy are the few qualities of QGIS that made us to select it over other proprietary software.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225528Z" creationid="miurahr" creationdate="20201117T225528Z">
+        <seg>ユーザーフレンドリーなインターフェイス、豊富な機能、綿密なドキュメント、オンラインサポートおよびフリー/オープンソースの理念は、私たちは他のプロプライエタリなソフトウェアを介して、それを選択するために作られたQGISのいくつかの資質です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The value 25,000 in the ratio is called the **scale denominator**.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135727Z" creationid="miurahr" creationdate="20201117T135727Z">
@@ -17299,6 +18187,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222832Z" creationid="miurahr" creationdate="20201117T222832Z">
         <seg>それからQGISのクエリー機能を使用して、FAO土壌がUSDA土壌に変換されました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Then we find the solution with introducing QGIS.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225545Z" creationid="miurahr" creationdate="20201117T225545Z">
+        <seg>その後、私たちはQGISを導入することで解決策を見つけます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17431,6 +18327,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>There is a question why QGIS only when other software like uDig, MapWindow, gvSIG, GRASS are also there.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225532Z" creationid="miurahr" creationdate="20201117T225532Z">
+        <seg>uDig、MapWindow、gvSIG、GRASSのような他のソフトウェアもあるときに、なぜQGISだけなのかという疑問があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>There is a template for Qt Creator in git.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T091704Z" creationid="miurahr" creationdate="20201117T091704Z">
@@ -17471,6 +18375,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Therefore we kindly ask institutions, universities, authorities, and companies to write down their experience in using QGIS to solve their problems in a certain project or their every day live.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225342Z" creationid="miurahr" creationdate="20201117T225326Z">
+        <seg>それゆえ私たちは研究所、大学、官庁、企業にQGISを使って何らかのプロジェクトで問題を解決できたことがあるか尋ねています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Therefore, you'll need to define your own new dataset first.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T145608Z" creationid="miurahr" creationdate="20201117T145608Z">
@@ -17499,6 +18411,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T134304Z" creationid="miurahr" creationdate="20201117T134304Z">
         <seg>これらのアクションを通じてGISアプリケーションに何をするのか伝えることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>These coordinate details were easily generated from camera trap shape files by using the “Export/ add geometry columns” feature of vector Geometry tools.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225514Z" creationid="miurahr" creationdate="20201117T225514Z">
+        <seg>これらの座標の詳細は簡単にベクタージオメトリツールの「エクスポート/ジオメトリ列を追加」機能を使って、カメラトラップのシェープファイルから生成されました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17711,6 +18631,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This article was contributed in August 2013 by Dr. Scott Madry.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225232Z" creationid="miurahr" creationdate="20201117T225232Z">
+        <seg>この記事は、スコット・マドリー博士によって2013年8月に寄稿されました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This article was contributed in January 2011 by Nathan Woodrow.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222512Z" creationid="miurahr" creationdate="20201117T222512Z">
@@ -17755,6 +18683,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140215Z" creationid="miurahr" creationdate="20201117T140215Z">
         <seg>これは、小さな縮尺で画像を見て（ figure_raster_small_scale_ 参照）、それから大きな縮尺にズームインすると明らかになります（ figure_raster_large_scale_ 参照）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This boundary polygon was exported to GPS for navigation purpose during the field surveys.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225521Z" creationid="miurahr" creationdate="20201117T225521Z">
+        <seg>この境界ポリゴンは現地調査の際に、ナビゲーションの目的のためにGPSに書き出しされました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18095,6 +19031,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This new tiger monitoring protocol relies heavily on the GIS.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225442Z" creationid="miurahr" creationdate="20201117T225442Z">
+        <seg>この新しいトラの監視プロトコルは、GISに大きく依存しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This positional information is stored with the digital version of the aerial photo.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140053Z" creationid="miurahr" creationdate="20201117T140053Z">
@@ -18143,6 +19087,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This research project is conducted collaboratively with Dr. Elizabeth A. Jones, historical anthropologist (UNC), Dr. Amanda B. Tickner, paleoethnobotanist (UNC) and Dr. D. Seth Murray, ethnographer and oral historian (NCSU).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225310Z" creationid="miurahr" creationdate="20201117T225310Z">
+        <seg>この研究プロジェクトは博士エリザベスA.ジョーンズ、歴史人類学者（UNC）、博士アマンダ・B・ティックナー、paleoethnobotanist（UNC）博士D.セス・マレー、民族誌学者および経口歴史（NCSU）と共同で実施されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This research was done in and around the commune of Uxeau, shown at center right.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225047Z" creationid="miurahr" creationdate="20201117T225047Z">
+        <seg>この研究は、中央右に示す、Uxeauのコミューンとその周辺で行われました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This satellite image looks good when using a small scale...</seg>
       </tuv>
       <tuv lang="ja">
@@ -18179,6 +19139,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T091833Z" creationid="miurahr" creationdate="20201117T091833Z">
         <seg>これは、コミットする前に実行する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This step resulted in using core open source SW such as LibreOffice, GIMP, Inkscape and QGIS.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T224810Z" creationid="miurahr" creationdate="20201117T224810Z">
+        <seg>このステップは、LibreOffice、GIMP、InkscapeおよびQGISなどのコアオープンソースSWを使用する結果になりました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18463,6 +19431,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>To begin with, we digitized the NTR boundary in QGIS and saved it as polygon.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225521Z" creationid="miurahr" creationdate="20201117T225521Z">
+        <seg>まず、私たちはQGISでNTR境界をデジタル化し、ポリゴンとしてそれを保存しました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>To begin writing the lesson, write the markup phrase :kbd:`|LS|`, followed by the lesson name.</seg>
       </tuv>
       <tuv lang="ja">
@@ -18615,6 +19591,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>To ensure smooth functioning of monitoring process, we used Voronoi polygon feature of Geometry tools and hub distance of mmqgis plugin for planning logistic requirements.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225513Z" creationid="miurahr" creationdate="20201117T225513Z">
+        <seg>監視プロセスの円滑な機能を確保するために、私たちは、ロジスティックの要件を計画するためのmmqgisプラグインのジオメトリツールおよびハブ距離のボロノイ多角形の機能を使用していました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>To force recreation of SIP files, :file:`scripts/sipify_all.sh` shall be executed.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T114120Z" creationid="miurahr" creationdate="20201117T114120Z">
@@ -18707,6 +19691,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>ルールが正しく機能することを確認するには, 電話番号を変更してみましょう :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>To the north of the Nameri lies the Pakke Tiger Reserve of Arunachal Pradesh.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225429Z" creationid="miurahr" creationdate="20201117T225429Z">
+        <seg>NAMERIの北にアルナーチャル・プラデーシュ州のPakkeトラ保護区があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18815,10 +19807,34 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Training feedbacks are remaining very positive and encouraging.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225601Z" creationid="miurahr" creationdate="20201117T225601Z">
+        <seg>トレーニングフィードバックは非常に肯定的と励みに残っています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Training is provided in lab equipped with 22 computers of i7, 4GB RAM and Windows8 OS.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225552Z" creationid="miurahr" creationdate="20201117T225552Z">
+        <seg>訓練はi7のの22台のコンピューター、4ギガバイトのRAMとWindows8 OSを搭載した実験室で提供されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Trainings &amp; Research activities using QGIS at NIRD&amp;PR-NERC, Guwahati, India</seg>
       </tuv>
       <tuv lang="ja">
         <seg>QGISを使用したトレーニング＆研究活動 、NIRD&amp;PR-NERC, グワハティ、インド</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Trainings are fully sponsored by NIRD and participants are to bear only their travel expenses.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225540Z" creationid="miurahr" creationdate="20201117T225540Z">
+        <seg>トレーニングはNIRDが完全に後援しており、参加者は交通費を負担するだけです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18979,6 +19995,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141600Z" creationid="miurahr" creationdate="20201117T141600Z">
         <seg>この新しいディレクトリの下に、 :kbd:`index.rst` というファイルを作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Under this new protocol, 25 pairs of cameras will be installed for 100 sq km of tiger reserve and the sampling period is 40-60 days.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225440Z" creationid="miurahr" creationdate="20201117T225440Z">
+        <seg>この新しいプロトコルの下では、カメラの25ペアは、トラ保護区の100平方キロのためにインストールされ、サンプリング周期は40〜60日です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19247,6 +20271,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Using Google earth plugin we have been introduced to prepare a LULC maps.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225548Z" creationid="miurahr" creationdate="20201117T225548Z">
+        <seg>Googleアースプラグインを使用してLULCマップを準備するために導入されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Using Markup</seg>
       </tuv>
       <tuv lang="ja">
@@ -19259,6 +20291,30 @@
       </tuv>
       <tuv lang="ja">
         <seg>アフガニスタンでQGISを使う...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Using QGIS large databases are being created and further testing of new functions are being done.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T224820Z" creationid="miurahr" creationdate="20201117T224820Z">
+        <seg>QGISを使用して、大規模なデータベースが作成中であり、新機能の更なるテストが実行中です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Using RGB composition plugin, a false color composite of the reserve was created and the sign survey shape file overlaid to assess the habitat types used by the tiger.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225511Z" creationid="miurahr" creationdate="20201117T225511Z">
+        <seg>RGB組成プラグインを使用して、予備の偽色の複合が作成され、トラによって使用される生息地のタイプを評価するために兆候調査シェープファイルを重ねました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Using a collection of historical maps of the area dating back to 1659, we have scanned, digitized and extracted features for a total of 21 maps into our extensive project GIS database.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225049Z" creationid="miurahr" creationdate="20201117T225049Z">
+        <seg>1659年に遡る地域の古地図のコレクションを使用して、私たちは豊富なプロジェクトのGISデータベースに、21枚の地図の合計のために地物をスキャンし、デジタル化し、抽出しています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19655,6 +20711,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Watershed and MGNREGS are land based flagships of Government of India.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225550Z" creationid="miurahr" creationdate="20201117T225550Z">
+        <seg>流域とMGNREGSは、インド政府の土地ベースの旗艦です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>We adopted it and enriched it with additional learning resources developed at USQ.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222442Z" creationid="miurahr" creationdate="20201117T222442Z">
@@ -19671,10 +20735,42 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>We also conducted interviews with some of the present owners of pond and mill sites.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225100Z" creationid="miurahr" creationdate="20201117T225100Z">
+        <seg>また、池や水車小屋の現在の所有者の一部にインタビューを行いました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>We also have cadastral parcel data from 1834, 1964 and 2012, giving us detailed data on changing patterns of detailed land use for the commune of Uxeau (see location in Figure 1).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225051Z" creationid="miurahr" creationdate="20201117T225051Z">
+        <seg>私たちはまた、1834年、1964年と2012年から地籍区画データを持っていて（図1内の場所を参照）、これらはUxeauのコミューンのための詳細な土地利用の変更パターンに関する詳細なデータを与えます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>We are going to go into more detail about Coordinate Reference Systems in a later tutorial.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140802Z" creationid="miurahr" creationdate="20201117T140802Z">
         <seg>後のチュートリアルでは座標参照系についてより詳細に説明する予定です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>We are looking forward seeing further improvements, especially in regards to the integrated model builder.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T224932Z" creationid="miurahr" creationdate="20201117T224932Z">
+        <seg>私たちは、特に統合モデルビルダーに関しては、さらなる改善を見て楽しみにしています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>We believe that QGIS has great potential for empowering individuals/institutions/ involved in conserving endangered wildlife in the developing world by offering GIS technology at little or no cost.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225529Z" creationid="miurahr" creationdate="20201117T225529Z">
+        <seg>私たちは、QGISが低コストあるいはコストなしでGIS技術を提供することにより、発展途上国の絶滅危惧野生生物の保全に関与した個人/機関を/力づけるための大きな可能性を秘めていると信じています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19699,6 +20795,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>その後、「キー」 :kbd:`streets.id` と :kbd:`people.streets_id` を使用して2つのテーブルをリンクできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>We conducted an extensive sign survey in NTR for evidences of tiger presence such pugmarks, scratch marks and scats.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225522Z" creationid="miurahr" creationdate="20201117T225522Z">
+        <seg>私たちは、トラの存在などpugmarks、スクラッチマークや糞の証拠のためのNTRで豊富な看板調査を実施しました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19767,6 +20871,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>We have found that the combination of QGIS and GRASS provides capable data analysis and visualization, ease of use, interoperability, and portability for our project.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225111Z" creationid="miurahr" creationdate="20201117T225111Z">
+        <seg>私たちは、QGISとGRASSの組み合わせは、私たちのプロジェクトのために可能なデータ解析と可視化、使いやすさ、相互運用性、および可搬性を提供することを見出しました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>We have such a positive impression of the software that we will start the use of QGIS in our university courses, replacing GIS Proprietary software that we have being using.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222256Z" creationid="miurahr" creationdate="20201117T222256Z">
@@ -19803,6 +20915,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123602Z" creationid="miurahr" creationdate="20201117T123602Z">
         <seg>ベクターレイヤーはポイント、ポリラインまたはポリゴンの地物を使用して表現できることはわかっています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>We made very positive experience with the integration of the tool box, allowing the use of various GRASS and SAGA tools, even for inexperienced users.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T224931Z" creationid="miurahr" creationdate="20201117T224931Z">
+        <seg>私たちも、経験の浅いユーザーのために、様々なGRASSとSAGAツールの使用が可能、ツールボックスの統合と非常に肯定的な経験をしました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19875,6 +20995,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150313Z" creationid="miurahr" creationdate="20201117T150313Z">
         <seg>結合については、後でより複雑なクエリを作成するときに再訪します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Web-based maps are editing using Inkscape (after SVG export) and raster maps are pre-edited using GIMP.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T224816Z" creationid="miurahr" creationdate="20201117T224816Z">
+        <seg>Webベースの地図は、（SVGのエクスポート後）のInkscapeを使って編集しているとラスター地図はGIMPを使用して事前に編集されています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20543,10 +21671,42 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>With its latest version of 2.4, software is capable of satisfying the all needs of grass root rural development executors in India with satisfying the present queries and wishes for future.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225534Z" creationid="miurahr" creationdate="20201117T225534Z">
+        <seg>最新バージョンの2.4では、ソフトウェアは、現在の問合せと将来のための望みを満たし、インドの草の根農村開発施行者のすべてのニーズを満たすことが可能です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>With joins, you will always state the two tables the information is coming from, in this case people and streets.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150309Z" creationid="miurahr" creationdate="20201117T150309Z">
         <seg>結合によって、情報が由来する2つのテーブルを、この場合は人と通りですが、常に宣言することになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>With limited research published in English about lynx habitat on the Romanian side, we continued the project based on only freely available data sets and open-source software, aiming to establish conceptual knowledge of habitat modeling, strengthening skills on widely applied QGIS tools and to create a **basic expert model** in the process.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T224915Z" creationid="miurahr" creationdate="20201117T224915Z">
+        <seg>ルーマニア側ではLynxの生息地について英語で公開された研究が限られていたため、自由に利用できるデータセットとオープンソースのソフトウェアのみに基づいてプロジェクトを継続し、生息地モデルの概念的知識を確立すること、広く適用されたQGISツールのスキルの強化しつつ、プロセス中に **基本的専門家モデル** を作成することを目指しました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>With many collaborators at various institutions in the US and Europe, and graduate students coming and going, using free and open source tools makes a lot of sense.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225111Z" creationid="miurahr" creationdate="20201117T225111Z">
+        <seg>多くの米国やヨーロッパの様々な機関で協力者、および大学院生が出入りしているので、フリーでオープンソースツールを使用することはたいへん理にかなっています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>With no cost and high efficiency the Laboratory on Experimental and Applied Geography produces high-quality analysis, maps and visualizations.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T224819Z" creationid="miurahr" creationdate="20201117T224819Z">
+        <seg>無償かつ高効率で実験的に研究および応用地理学は、高品質の分析、地図や視覚化を生成します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20603,6 +21763,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150342Z" creationid="miurahr" creationdate="20201117T150342Z">
         <seg>ビューを使えばSQLクエリの定義を再利用可能な「仮想テーブル」に保存できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Within this landscape, the principal species of conservation importance are the Royal Bengal Tiger, Asian Elephant, Indian bison, Common leopard, clouded leopard, Wild dog, Sambar deer, barking deer, hog deer, wild boar and several other species.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T225429Z" creationid="miurahr" creationdate="20201117T225429Z">
+        <seg>この風景の中で、環境保全の重要性の主要な種はロイヤルベンガルトラ、アジアゾウ、インドのバイソン、共通のヒョウ、ウンピョウ、ワイルドドッグ、サンバー鹿、吠え鹿、豚、鹿、イノシシや他のいくつかの種です。</seg>
       </tuv>
     </tu>
     <tu>
