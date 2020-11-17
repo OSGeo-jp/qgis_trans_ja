@@ -1,0 +1,231 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Algorithm tests</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>アルゴリズムのテスト</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>QGIS provides several algorithms under the Processing framework. You can extend this list with algorithms of your own and, like any new feature, adding tests is required.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISでは、プロセッシングフレームワークの下にいくつかのアルゴリズムを提供しています。このリストは独自のアルゴリズムで拡張できます。そして新しい機能と同様、テストを追加することが必要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Run the :ref:`algorithm &lt;processing_algs&gt;` you want to test in QGIS from the :ref:`processing toolbox &lt;processing.toolbox&gt;`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`プロセッシングツールボックス &lt;processing.toolbox&gt;` からQGISでテストしたい :ref:`アルゴリズム &lt;processing_algs&gt;` を実行します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If the result is a vector layer prefer GML, with its XSD, as output for its support of mixed geometry types and good readability.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>結果がベクタレイヤの場合、混合ジオメトリタイプと優れた読みやすさのサポートの出力として、XSDを備えたGMLを優先します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Redirect output to :file:`python/plugins/processing/tests/testdata/expected`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>出力を :file:`python/plugins/processing/tests/testdata/expected` にリダイレクトします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For input layers prefer to use what's already there in the folder :file:`testdata`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>入力レイヤには、フォルダ :file:`testdata` に既にあるものを優先的に使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you need extra data, put it into :file:`testdata/custom`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>追加のデータが必要な場合は、それを :file:`testdata/custom` に入れてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It is also possible to create tests for Processing scripts.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>処理スクリプトのテストを作成することもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Scripts should be placed in the :file:`scripts` subdirectory in the test data directory :file:`python/plugins/processing/tests/testdata/`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>スクリプトは、テストデータのディレクトリ :file:`python/plugins/processing/tests/testdata/` の :file:`scripts` サブディレクトリに配置する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The script file name should match the script algorithm name.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>スクリプトファイル名は、スクリプトアルゴリズム名と一致する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Parameters and results are specified as lists or dictionaries:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>パラメータと結果はリストまたは辞書として指定されます：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You will often need to specify layers as parameters.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>多くの場合、レイヤをパラメータとして指定する必要があるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To specify a layer you will need to specify:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>レイヤを指定するには、次を指定する必要があります：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>the type, ie ``vector`` or ``raster``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>種類、すなわち ``vector`` または ``raster``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you need an external file for the algorithm test, you need to specify the 'file' type and the (relative) path to the file in its 'name':</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>アルゴリズムのテストに外部ファイルが必要な場合は、「ファイル」タイプと「名前」でファイルへの（相対）パスを指定する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Results</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>結果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Sometimes different platforms create slightly different results which are still acceptable.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プラットフォームによって、わずかに異なる結果が作成される場合がありますが、それでも依然として許容範囲です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In this case (but only then) you may also use additional properties to define how a layer is compared.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この場合（ただしその場合のみ）、追加のプロパティを使用して、レイヤーの比較方法を定義することもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To deal with a certain tolerance for output values you can specify a ``compare`` property for an output.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>出力値の特定の許容範囲を処理するために、出力に ``比較`` プロパティを指定できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The compare property can contain sub-properties for ``fields``.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この比較プロパティには、「フィールド」のサブプロパティを含めることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This contains information about how precisely a certain field is compared (``precision``) or a field can even entirely be ``skip``ed.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これには、特定のフィールドがどの程度正確に比較されるか（「精度」）、またはフィールドを完全に「スキップ」することもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>There is a special field name ``__all__`` which will apply a certain tolerance to all fields.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>すべてのフィールドに特定の許容値を適用する特別なフィールド名 ``__all__`` があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>There is another property ``geometry`` which also accepts a ``precision`` which is applied to each vertex.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>別に、各頂点に適用される「精度」も受け入れるプロパティ「ジオメトリ」があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Raster files are compared with a hash checksum.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ラスタファイルはハッシュチェックサムと比較されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This is calculated when you create a test from the processing history.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは、プロセッシングの履歴からテストを作成するときに計算されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can compare the content of an output file to an expected result reference file</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>出力ファイルの内容を予想される結果参照ファイルと比較できます</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Algorithm Context</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>アルゴリズムのコンテキスト</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>There are a few more definitions that can modify the context of the algorithm - these can be specified at the top level of test:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>アルゴリズムのコンテキストを変更できる定義がいくつかあります。これらはテストの最上位で指定できます：</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

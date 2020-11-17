@@ -1,0 +1,911 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Translation Guidelines</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>翻訳ガイドライン</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This  manual is aiming to help the translator.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このマニュアルは翻訳者の助けとなるよう書かれました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>First the general process of how technically a translation is done is explained.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>最初に、翻訳の全体のプロセスが技術的にどのように進行するかを説明します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Later the translation is explained from an actual English rst document that is translated to Dutch.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次に実際の翻訳がどのように行われるかを、英語のrstドキュメントからオランダ語への翻訳に例をとって説明します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Finally a summary of :ref:`Rules of translation &lt;translation_summary&gt;` is given.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>最後に :ref:`翻訳ルールのまとめ &lt;translation_summary&gt;` を見てもらいます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Although these guidelines focus on QGIS documentation, the methods and the rules described below are also applicable to QGIS applications and website translation.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このガイドラインではQGISドキュメントに焦点を当てますが、下記の方法やルールはQGISアプリケーションやQGISウェブサイトの翻訳にも適用可能です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Translation process</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>翻訳のプロセス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>QGIS Documentation is written in English with :file:`.rst` files.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISのドキュメントは :file:`.rst` ファイルを使い英語で書かれています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In order to provide translations:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>翻訳は次のプロセスを経て提供されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A prebuild script creates translation files named :file:`.po` files for the English language in the folder :file:`/QGIS-Documentation/locale/en`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プレビルドスクリプトによって、 :file:`.po` ファイルと呼ばれる翻訳用のファイルが、まず英語のために :file:`/QGIS-Documentation/locale/en` フォルダの中に作成されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>These "originals" are then copied by the script to the :file:`locale` folders for other languages.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次にスクリプトによって、この「オリジナル」が、その他の言語のために :file:`locale` フォルダにコピーされます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The sentences in the :file:`.po` files are pushed to the Transifex web platform, and made available for translators who can begin to translate from English to their language with the editor.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:file:`.po` ファイルの中の文章がTransifexのウェブプラットフォームにプッシュされ、英語から各言語へと、翻訳者がエディタを使って翻訳できるようになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>At the end of the day, a script pulls back all validated translations</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>1日の終わりに、すべての検証済みの翻訳がスクリプトによって取得され、元の :file:`.po` ファイルに反映されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>At the next build of the documentation (which occurs at least once a day), a script reuses the sentences to create translated output</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これらの翻訳は、ドキュメントの次のビルド（少なくとも1日に1回は行われます）の際に、翻訳版ドキュメントを作成するために、スクリプトによって再度利用されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>When afterwards an :file:`.rst` document is updated a new :file:`.po` file is created in the English part.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>原文の :file:`.rst` ドキュメントが更新されると、新しく英語の :file:`.po` ファイルが作られます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The contents of this new file will be merged with already existing :file:`.po` files for each language.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この新しいファイルの内容は、各言語の既存の :file:`.po` ファイルへとマージされます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This means that when a new line is added to an :file:`.rst` document that was already translated, only the new/updated sentences are added in the translated :file:`.po` file and needs to be translated.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>言い換えると、翻訳済みの :file:`.rst` ドキュメントに新たな文章が追加されても、翻訳済みの :file:`.po` には新しい（あるいは修正された）文章だけが追加され、その部分だけを翻訳し直せばよいということです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The amount of work for updating translations for next release should be relatively small.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このため、次のリリースのための翻訳の更新作業は、比較的少く済むはずです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The process above is the same followed to translate QGIS website, QGIS Desktop and QGIS Server.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>上記のプロセスは、QGISウェブサイト、QGISデスクトップアプリケーション、QGISサーバのいずれの翻訳でも、同じように行われます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The difference with the applications is that instead of :file:`.po` files, all the translatable strings in the :file:`.py`, :file:`.cpp`, :file:`.yaml` and others... files that shape the application are pushed to and pulled from transifex as a single :file:`.ts` file.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ただしアプリケーションの翻訳では、:file:`.po` ファイルではなく、:file:`.py` ファイルや :file:`.cpp` ファイル、 :file:`.yaml` ファイルなどのアプリケーションを形作るファイルの中のすべての翻訳可能な文字列が、単一の :file:`.ts` ファイルとしてtransifexとの間でやりとりされるという違いがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Two different tools are currently used to do translations in QGIS:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>現在、ふたつの異なるツールが、QGISでの翻訳を行うために使用されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The `Transifex web platform &lt;https://www.transifex.com/&gt;`_, the easiest and recommended way to translate QGIS, transparently does the process described above and pulls all the translatable texts in one place for the translator. Just pick the files you want and translate. Translated files are stored in the platform until another release is pushed.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>`Transifexのウェブプラットフォーム &lt;https://www.transifex.com/&gt;`_, は、QGISを翻訳するのに一番簡単でお勧めの方法です。上で説明したプロセスは透過的に行われ、またすべての翻訳可能なテキストは1箇所に集められています。翻訳者は希望のファイルを選んで翻訳するだけです。別のリリースがプッシュされ翻訳を再開するまで、翻訳済みファイルはこのプラットフォームの中に保存されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>`Qt Linguist &lt;https://doc.qt.io/qt-5/qtlinguist-index.html&gt;`_, a Qt development tool, requires the translator to pull locally the :file:`.po` (or :file:`.ts`) files from the source code, translate and then push back.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>`Qt Linguist &lt;https://doc.qt.io/qt-5/qtlinguist-index.html&gt;`_ はQtの開発ツールです。翻訳者は :file:`.po` (もしくは :file:`.ts`) ファイルをソースコードからローカル環境に取得し、翻訳した後は送り返す必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Note that whatever tool you choose, rules of translations are the same.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>どんなツールを選ぼうと、翻訳のルールは同じであることに注意してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Translate a file</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ファイルを翻訳する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To explain how translation works, we will use the heatmap plugin as an example.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ヒートマッププラグインの例を使って翻訳の作業を説明します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In this example we will translate it from English to Dutch, but it will be practically the same for other documents in all languages.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この例では英語からオランダ語に翻訳を行いますが、他のドキュメントや言語でもほぼ同じでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The source of the document can be found here:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ヒートマッププラグインのドキュメントのソースは以下の場所にあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>So why did I choose this document?</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>なんでこのドキュメントを例として選んだのかですって？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It includes images, captions, headers, references and replacements.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このドキュメントには画像、キャプション、ヘッダー、参照、置換があるからです</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>I wrote it so it is easier for me to translate ;-)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このドキュメントを書いたのは私なので、私には翻訳が容易だからです (^o^;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The build process has created the English :file:`.po` file which can be found here::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ビルドプロセスが英語の :file:`.po` ファイルを以下の場所に生成しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The equivalent Dutch :file:`.po` file (basically a copy) can be found here::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これに対応するオランダ語の :file:`.po` ファイル（基本的にコピーです）は以下の場所にあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Along this file you will see a tiny :file:`.mo` file which indicates that it does not hold any translations yet.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このファイルと並んでごく小さなサイズの :file:`.mo` ファイルがあるのに気づかれると思いますが、今の所このファイルにはなんの翻訳も含まれていません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Translation in Transifex</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Transifexでの翻訳</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In order to translate using Transifex, you need to:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Transifexを使って翻訳するには、以下に従ってください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>`create an account on Transifex and join the QGIS project &lt;https://qgis.org/en/site/getinvolved/translate.html#join-a-project&gt;`_.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>`Transifexでアカウントを作成し、QGISプロジェクトに参加します。 &lt;https://qgis.org/en/site/getinvolved/translate.html#join-a-project&gt;`_.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Once you are part of a language team, click on the corresponding project (in this case ``QGIS Documentation``).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Languagesチームの一員となったら、該当するプロジェクト（ここでは ``QGIS Documentation`` です）をクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A list of available languages with their ratio of translation is displayed.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>翻訳が可能な言語の一覧が、その進捗の割合とともに表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Select language for translation in the Transifex menu</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Transifexのメニューで翻訳する言語を選んでください</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Hover over your language and click either:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>翻訳する言語の上にカーソルを持ってきて、次のいずれかをクリックしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:guilabel:`View resources`: translatable :file:`.po` files with their ratio of translation, number of strings and some more metadata are now displayed.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`リソースを表示`: 翻訳可能な :file:`.po` ファイルが、その翻訳の割合と文字列数とその他のメタデータとともに表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>or :guilabel:`Translate`: opens the interface of translation with all the available :file:`.po` files</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`翻訳`: 翻訳可能なすべての :file:`.po` ファイルと翻訳インターフェースが開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Identify the file you'd like to translate (in our case we are looking for the ``docs_user-manual_plugins_plugins-heatmap``, the heatmap plugin file) or any unfinished file and click on it: strings in the files are loaded and you can use the interface to filter, translate, suggest translation...</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>翻訳したいファイル（この例では ``docs_user-manual_plugins_plugins-heatmap`` という名前のheatmap pluginのファイルを探します）か、もしくはなんでもいいので翻訳の終わっていないファイルを見つけて、それをクリックしてください。するとそのファイル中の文字列が読み込まれ、絞り込みや翻訳、提案などのインターフェースを利用できるようになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For the documentation or the website, clicking the ``Fix me`` link in the footer of a page brings you directly to its corresponding translation page in Transifex.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ドキュメントとウェブサイトの翻訳では、ページのフッターにある ``このページを修正`` のリンクをクリックすれば、Transifexの対応する翻訳ページに直接移動することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>All you need to do is select each text and translate following the :ref:`guidelines &lt;translate_manual&gt;`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>あとは個々のテキストを選んで、下記の :ref:`guidelines &lt;translate_manual&gt;` に従って翻訳するだけです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For further information on the use of Transifex Web Editor, see https://docs.transifex.com/translation/translating-with-the-web-editor.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>TransifexのWebエディターについてのより詳しい情報は、https://docs.transifex.com/translation/translating-with-the-web-editor を参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Translation in Qt Linguist</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Qt Linguistによる翻訳</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>With Qt Linguist, you need to:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Qt Linguistを使って翻訳するには、以下に従ってください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>proceed to the translation locally</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ローカルで翻訳に取りかかります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>upload the modified files to their sources (Transifex or GitHub).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>修正を行ったファイルをTransifexかGitHubの元の場所へアップロードします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>While downloading and uploading translatable files can be done with Transifex, it's not advised to use this process.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>翻訳可能なファイルをTransifexを使ってダウンロードしたりアップロードしたりすることは可能ですが、この手順はお勧めできません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Since there's no versioning system on Transifex, the file you upload will simply replace the existing one and potentially overwrite any modification made by others on the platform in the meantime.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>というのも、Transifexにはバージョン管理システムがないために、あなたがアップロードしたファイルは単純に既存のファイルを置き換えるだけなので、その間にTransifexで他の人によって行われた変更を上書きしてしまう可能性があるからです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>When you open the file in Qt Linguist for the first time you will see the following dialog:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Qt Linguistで初めてそのファイルを開くときは、次のようなダイアログが表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Select language for translation in linguist menu</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>linguist メニューから翻訳する言語を選んでください</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The Target language should be filled correctly.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ターゲット言語は正しく選択する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The Source language can be left as is with language POSIX and Country/Region on Any Country.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ソース言語はLanguageはPOSIX、Country/RegionはAny Countryのままでかまいません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>When you press the :guilabel:`OK` button Qt Linguist is filled with sentences and you can start translating, see Figure_translation_menu_.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`OK` ボタンを押すと、Qt Linguistに文章が読み込まれ、翻訳を開始することが可能になります。 Figure_translation_menu_ を参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Translate using the linguist menu</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Qt Linguistのメニューを使用して翻訳</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In the menu you see the following buttons which are convenient to use.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>メニューには使うと便利な以下のようなボタンがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|linguist_done_next| The Translation Done Next button, is the most important button. If the item needs translation, you enter a translation in the text field, then hit this button. If the item does not need translation just leave the text field for translation empty and also hit this button which indicates the item is done and you continue with the next item.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|linguist_done_next| [翻訳を完了して次へ] ボタンは、最も重要なボタンです。翻訳が必要な項目では、テキストフィールドに翻訳を入力してこのボタンを押してください。翻訳を必要としない項目では、テキストフィールドは空のままでこのボタンを押してください。これで翻訳完了となり、次の項目に進みます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|linguist_previous| The Goto Previous button, can be used to go to the previous translation item.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|linguist_previous| [前へ行く] ボタンで、その前の翻訳項目に移動することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|linguist_next| The Goto Next button, can be used to go to the next translation item.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|linguist_next| [次へ行く] ボタンで、その次の翻訳項目に移動することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|linguist_next_todo| The Next Todo button, jumps to the first translation item that still needs a translation.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|linguist_next_todo| [次のするべき] ボタンは、翻訳が必要な次の翻訳項目にジャンプします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Handy when the original document has changed and only several new/changed sentences need to be translated.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ソースファイルの変更によって追加や修正が行われた文だけを翻訳する必要があるときに便利です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|linguist_previous_todo| The Previous Todo button, searches backward and jumps to the first translation item it finds that still needs a translation.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|linguist_previous_todo| [前のするべき] ボタンは逆方向に検索を行い、最初に見つかった未翻訳の項目にジャンプします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For further information on the use of Qt Linguist, see https://doc-snapshots.qt.io/qt5-5.12/linguist-translators.html</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Qt Linguist の使用についてのより詳しい情報は、 https://doc-snapshots.qt.io/qt5-5.12/linguist-translators.html を参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you want to download content to translate from the source repository, never do this in the ``master`` branch. For translations there are always translation branches available, once a document is fully updated in English for a certain version. As an example, to translate the manual of QGIS 2.8, you have to use the manual_en_v2.8 branch.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>翻訳のためにソースリポジトリからファイルをダウンロードするときは、絶対に ``master`` ブランチで行なってはなりません。ある特定のバージョンで英語での更新が完了した後は、常に翻訳用ブランチが有効になっています。翻訳のためにはそのブランチを使用してください。例えばQGIS 2.8の翻訳では、manual_en_v2.8 ブランチを使用してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Translate a manual</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>マニュアルを翻訳する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now we start to translate the plugin_heatmap manual!</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それでは plugin_heatmap マニュアルの翻訳を始めましょう！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Translating most of the sentences should be straightforward.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>センテンスのほとんどはそのまま翻訳するべきです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>During this translation session I will point out which parts (rst statements) need special translation.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>特別な翻訳をしなければならない部分（rst文）を、この翻訳セッションの中で挙げていきます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Below we see an interesting sentence to translate:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>以下で翻訳の対象として興味深いセンテンスを見ていきましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This sentence contains two rst statements:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このセンテンスには2つのrst構文があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|heatmap|`` words between ``|`` are replacements and these should never be translated!</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|heatmap|`` のように ``|`` の間にある言葉は置換されるので決して翻訳してはいけません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This will be replaced by the heatmap plugin icon!</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ここではヒートマッププラグインのアイコンに置換されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``:sup:`Heatmap```,  the ``:sup:`` statement is a superposition statement and prints the following text a bit higher. This is used to show the popup texts that appear when you hover above the toolbar item and this may be different when it is actually translated in the QGIS application. In the Dutch case it is not!</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``:sup:`Heatmap``` のような ``:sup:`` 文は上付き文です。続くテキストを少し高く出力します。これはツールバー項目の上にマウスを当てた時に表示されるポップアップテキストを表示するために使用されますが、実際のQGISアプリケーションでの翻訳とは異なる場合があります。オランダ語の場合はそうではありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>All other plain text in this sentence can be translated!</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このセンテンス中のそれ以外のプレーン・テキストはすべて翻訳してかまいません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The next translation item contains the ``:ref:`` statement that is commonly used to refer to another section somewhere in the manual!</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次の文章には 、通常マニュアルの別のセクションを参照するために使用される ``:ref:`` 文が含まれています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The text following a ``:ref:`` statement should never be changed because it is a unique identifier!</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``:ref:`` 文に続くテキストは一意の識別子であるため、 変更してはいけません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In this case ``load_core_plugin`` is a unique reference identifier placed before an rst item that has a caption. The ref statement will be replaced with the text of the header and turned into a hyperlink. When the header this reference is referring to is translated, all references to this header will be automatically translated as well.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>In this case ``load_core_plugin`` is a unique reference identifier placed before an rst item that has a caption. ref文は見出しテキストに置換され、ハイパーリンクになります。 参照されている見出しが翻訳された時は、この見出しを参照しているすべてのref文も自動的に同じように翻訳されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The next item contains the rst-tag ``:menuselection:`` followed by text actually displayed in a menu in QGIS application, this may be translated in the application and therefore should be changed when this is the case.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次の文章には rst-タグ ``:menuselection:`` があります。後ろに続くテキストは実際にQGISアプリケーションのメニューで表示されるテキストです。これはアプリケーションでは翻訳されているかもしれませんので、その場合は変更すべきです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In above item "View --&gt;" is actually translated to "Beeld --&gt;" because this is the translation used in the Dutch localized QGIS application.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ここではオランダ語へのローカライズQGISアプリケーションで使用される翻訳ですので、上記の「View --&gt;」は実際には「Beeld --&gt;」と翻訳されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A bit further we meet the following tricky translation item:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次のように、もう少しトリッキーな文章のこともあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It holds a reference to a figure ``figure_heatmap_settings_``, and like a reference to a section this reference should not be changed!! The reference definition from the rst-document is not included in the :file:`.po` file and can therefore not be changed. This means the reference to figures can not be translated. When HTML is created you will see ``figure_heatmap_settings``. When a PDF document is created ``figure_heatmap_settings_`` is replaced with a figure number.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この文章には、図 ``figure_heatmap_settings_`` への参照があります。セクションへの参照と同様に、この参照を変更してはいけません。rstドキュメントでの参照定義は :file:`.po` ファイルには含まれていないため、これを変更することはできません。このことは図への参照は翻訳できないことを意味します。HTML生成時には ``figure_heatmap_settings`` と表示されます。PDF生成の際には ``figure_heatmap_settings_`` は図番号に置き換えられます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The next translation item with rst attributes is the following item:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次の rst属性付きの文章はこのようなものです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Do not remove the stars in above line.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>上の行内の二重星印を削除しないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It will print the text it holds in bold.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>二重星印に挟まれたテキストは太字で印刷されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The text itself is often text included in the dialog itself and may well be translated in the application.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>テキストそのものは多くの場合、ダイアログ中のテキストであり、アプリケーションでは翻訳されているかもしれません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The following translation item contains the ``:guilabel:`` rst tag.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>以下の文章には ``:guilabel:`` rstタグが含まれています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The text ``Advanced`` of the guilabel tag may well be translated in the QGIS application and probably needs to be changed!</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>guilabelタグの テキスト ``Advanced`` はQGISアプリケーション中でおそらく翻訳されるのでたぶん変更する必要があります！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The following translation item contains \``airports\``.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>以下の文章には \``airports\`` が含まれています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The quotes are used to give the text another text font.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>引用符は、テキストに別のテキストフォントを与えるために使用されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In this case it is a literal value and does not need translation.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このケースでは、リテラル値であり、翻訳を必要としません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This item also includes a hyperlink with an url and an external presentation.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この文章には、URLと表示テキストの両方を持つハイパーリンクも含まれています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The url should of course be left intact, you are allowed to change the external text ``https://www.qgistutorials.com`` which is visible by the reader.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>URLはもちろん手をつけずそのまま残すべきですが、読者に表示される方のテキストである ``https://www.qgistutorials.com`` は変更することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Never remove the underscore at the end of the hyperlink which forms an essential part of it!!</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ハイパーリンクの末尾のアンダースコアは本質的な部分なので決して削除してはいけません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Summary Rules for translation</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>翻訳ルールのまとめ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Do not change text between two ``|`` characters like ``|bronze|``, ``|checkbox|``, ``|labels|``, ``|selectString|``, ``|addLayer|`` ...</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|bronze|`` 、 ``|checkbox|`` 、``|labels|`` 、``|selectString|`` 、``|addLayer|`` ... のような、２つの 文字 ``|`` の間のテキストを変更しないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>These are special tags used to replace images</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これらは画像に置換するために使用される特殊なタグです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Do not change references that start with the tag ``:ref:`` or ``:file:``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``:ref:`` や ``:file:`` タグで始まる参照を変更しないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Do not change references that end with an underscore like ``figure_labels_1_``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``figure_labels_1_`` のようなアンダースコアで終わる参照を変更しないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Do not change the url in hyperlinks, but you may change the external description. Leave the underscore at the end of the hyperlink, without additional spacing (``&gt;`_``)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ハイパーリンクのURLを変更しないでください。ただし読者に表示される記述は変更できます。ハイパーリンクの末尾のアンダースコア (``&gt;`_``) は空白を加えたりせずそのまま残しておいてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Change the text inside quotes following ``:index:``, ``:sup:``, ``:guilabel:`` and ``:menuselection:`` tags.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``:index:`` 、 ``:sup:`` 、 ``:guilabel:`` 、 ``:menuselection:`` タグに続く引用符内のテキストは変更してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Check if/how it is translated in the QGIS Application.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それがQGISアプリケーションで翻訳されているかどうか（翻訳されていたらどう翻訳されているか）を確認してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Do not change the tag itself.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>タグ自体は変更しないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Text between double stars and double quotes often indicate values or fieldnames, sometimes they need translation sometimes not.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>二重星と二重引用符の間のテキストは多くの場合、値もしくはフィールド名を示しています。翻訳の必要があることもあれば、ないこともあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Be aware to use exactly the same (number of) special characters of the source text such as `````, ``````, ``*``, ``**``, ``::``.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>`````, ``````, ``*``, ``**``, ``::`` などの特殊文字は、正確に元のテキストと同じ文字を同じ数だけ使用するよう注意してください 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>These contribute to the cosmetics of the information provided</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これらは情報の見た目を整えるのに貢献しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Do not begin nor end the text hold by special characters or tags with a space</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>特殊文字やタグで囲まれたテキストの前後にスペースを入れないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Do not end the translated strings with a new paragraph, otherwise the text will not be translated during the html generation.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>翻訳文字列の後に段落を開始して終了しないでください。そうするとHTML生成時にテキストが翻訳されません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Stick to above presented rules and the translated document will look fine!</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>以上のルールを守ってドキュメントの品質を良くしましょう！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For any question, please contact the `QGIS Community Team &lt;qgis-community-team@lists.osgeo.org&gt;`_ or the `QGIS Translation Team &lt;qgis-tr@lists.osgeo.org&gt;`_.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ご質問がございましたら、 `QGISコミュニティチーム &lt;qgis-community-team@lists.osgeo.org&gt;`_ または `QGIS翻訳チーム &lt;qgis-tr@lists.osgeo.org&gt;`_ までご連絡ください。</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

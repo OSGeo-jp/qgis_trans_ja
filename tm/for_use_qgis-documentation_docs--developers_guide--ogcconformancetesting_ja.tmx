@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>OGC Conformance Testing</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>OGC適合性試験</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Setup of WMS 1.3 and WMS 1.1.1 conformance tests</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>WMS 1.3 および WMS 1.1.1 適合性テストのセットアップ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Download and install WMS 1.3.0 test</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>WMS 1.3.0テストをダウンロードしインストールする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Download and install WMS 1.1.1 test</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>WMS 1.1.1 テストをダウンロードしインストールする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Test project</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>テストプロジェクト</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For the WMS tests, data can be downloaded and loaded into a QGIS project:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>WMSのテストのために、データをダウンロードしてQGISプロジェクトにロードできます：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Running the WMS 1.3.0 test</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>WMS 1.3.0 テストを実行する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Running the WMS 1.1.1 test</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>WMS 1.1.1 テストを実行する</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

@@ -2,15 +2,24 @@
 <!DOCTYPE tmx SYSTEM "tmx14.dtd">
 <tmx version="1.4">
   <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
-  <body><tu>
-      <tuv xml:lang="en"><seg>About the authors &amp; contributors</seg></tuv><tuv xml:lang="ja">
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>About the authors &amp; contributors</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>著者とコントリビュータについて</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>|tim|</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>|tim|</seg>
       </tuv>
-    </tu><tu>
+      <tuv xml:lang="ja">
+        <seg>|tim|</seg>
+      </tuv>
+    </tu>
+    <tu>
       <tuv xml:lang="en">
         <seg>Tim Sutton --- Editor &amp; Lead Author. Tim Sutton is a developer and project steering committee member of the QGIS project. He is passionate about seeing GIS being Freely available to everyone. Tim is also a founding member of Linfiniti Consulting CC. --- a small business set up with the goal of helping people to learn and use opensource GIS software. **Web**: https://www.kartoza.com **Email**: tim@kartoza.com</seg>
       </tuv>
@@ -19,30 +28,54 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en"><seg>|otto|</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="en">
         <seg>|otto|</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Otto Dassau --- Assistant Author.</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="ja">
+        <seg>|otto|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Otto Dassau --- Assistant Author.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>Otto Dassau ---アシスタント著者。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Otto Dassau is the documentation maintainer and project steering committee member of the QGIS project.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Otto Dassau is the documentation maintainer and project steering committee member of the QGIS project.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>Otto Dassauはドキュメントの保守管理者であり、QGISプロジェクトのプロジェクト運営委員会のメンバーです。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Otto has considerable experience in using and training people to use Free and Open Source GIS software.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Otto has considerable experience in using and training people to use Free and Open Source GIS software.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>Ottoは、フリーでオープンソースのGISソフトウェアを使用すること、使用できるよう人々を訓練することにおいて、かなりの経験を積んでいます。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>**Web**: http://www.nature-consult.de **Email**: otto.dassau@gmx.de</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Web**: http://www.nature-consult.de **Email**: otto.dassau@gmx.de</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>**Web**: http://www.nature-consult.de, **Email**: otto.dassau@gmx.de</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>|marcelle|</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>|marcelle|</seg>
       </tuv>
-    </tu><tu>
+      <tuv xml:lang="ja">
+        <seg>|marcelle|</seg>
+      </tuv>
+    </tu>
+    <tu>
       <tuv xml:lang="en">
         <seg>Marcelle Sutton --- Project Manager. Marcelle Sutton studied English and drama and is a qualified teacher. Marcelle is also a founding member of Linfiniti Consulting CC. --- a small business set up with the goal of helping people to learn and use opensource GIS software. **Web**: https://kartoza.com **Email**: marcelle@kartoza.com</seg>
       </tuv>
@@ -51,40 +84,76 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en"><seg>|lerato|</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="en">
         <seg>|lerato|</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Lerato Nsibande –-- Video Presenter.</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="ja">
+        <seg>|lerato|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Lerato Nsibande –-- Video Presenter.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>Lerato Nsibande –--ビデオプレゼンター。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Lerato is a grade 12 scholar living in Pretoria.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Lerato is a grade 12 scholar living in Pretoria.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>Lerato はプレトリアに住む高校3年生です。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Lerato learns Geography at school and has enjoyed learning GIS with us!</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Lerato learns Geography at school and has enjoyed learning GIS with us!</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>Lerato は学校で地理学を学び、私たちと一緒にGISを学ぶことを楽しんでいます！</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>|sibongile|</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>|sibongile|</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Sibongile Mthombeni –-- Video Presenter.</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="ja">
+        <seg>|sibongile|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Sibongile Mthombeni –-- Video Presenter.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>Sibongile Mthombeni –-- ビデオプレゼンター。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Sibongile lives near Johannesburg with her young daughter.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Sibongile lives near Johannesburg with her young daughter.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>Sibongileは幼い娘と一緒にJohannesburgの近くに住んでいます。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Her goal is to continue her studies and become a nurse.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Her goal is to continue her studies and become a nurse.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>目標は研究を続けることと看護婦になることです。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Working on this project was the first time Sibongile used a computer.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Working on this project was the first time Sibongile used a computer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>このプロジェクトでの成果は Sibongileが初めてコンピュータを使用したことでした。</seg>
       </tuv>
-    </tu></body>
+    </tu>
+  </body>
 </tmx>

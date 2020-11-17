@@ -1,0 +1,383 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Unit Testing</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ユニットテスト</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>As of November 2007 we require all new features going into master to be accompanied with a unit test.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>2007年11月の時点で、私たちはマスターに入るすべての新機能は、ユニットテストを伴うことを要求しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Initially we have limited this requirement to qgis_core, and we will extend this requirement to other parts of the code base once people are familiar with the procedures for unit testing explained in the sections that follow.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>当初は私たちはこの要件はqgis_coreに制限してきましたが、皆様が次のセクションで説明するユニットテストのための手続きに精通した後は、この要件をコードベースの他の部分に拡張するつもりです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The QGIS testing framework - an overview</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISのテストフレームワーク - 概要</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You create a unit test.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ユニットテストを作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This happens under ``&lt;QGIS Source Dir&gt;/tests/src/core`` in the case of the core lib.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これはcore libの場合 ``&lt;QGIS Source Dir&gt;/tests/src/core`` の下で起こります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The test is basically a client that creates an instance of a class and calls some methods on that class.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>テストは、基本的には、クラスのインスタンスを作成し、そのクラスにいくつかのメソッドを呼び出すクライアントです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It will check the return from each method to make sure it matches the expected value.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それは各メソッドからの戻りをチェックし、期待値と一致することを確認します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If any one of the calls fails, the unit will fail.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>呼び出しのいずれかに障害が発生した場合、そのユニットは失敗します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You include QtTestLib macros in your test class.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>テストクラスにQtTestLibマクロを含めます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This macro is processed by the Qt meta object compiler (moc) and expands your test class into a runnable application.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このマクロは、Qtのメタオブジェクトコンパイラ（MOC）によって処理され、実行可能なアプリケーションにテストクラスを拡張します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You add a section to the CMakeLists.txt in your tests directory that will build your test.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>テストを構築するtestsディレクトリにCMakeLists.txtにセクションを追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You ensure you have ``ENABLE_TESTING`` enabled in ccmake / cmakesetup.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``ENABLE_TESTING`` がccmake/cmakesetupで有効になっていることを確認します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This will ensure your tests actually get compiled when you type make.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは、makeと入力すると、テストが実際にコンパイルされることを保証します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You compile your sources and install.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ソースをコンパイルしてインストールします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Do this using normal ``make &amp;&amp; (sudo)  make install`` procedure.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは通常の ``make &amp;&amp; (sudo) make install`` 手順を使用して実行します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Creating a unit test</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ユニットテストの作成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Beyond that you just continue implementing your class as per normal, pulling in whatever headers you may need:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>その他は、必要となる可能性があるヘッダは何でも引っ張って、通常通りあなたのクラスを実装し続けるだけです：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Since we are combining both class declaration and implementation in a single file the class declaration comes next.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ここではクラス宣言と実装の両方を単一のファイルに組み合わせているので、クラス宣言が次に来ます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We start with our doxygen documentation.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>doxygenのドキュメントで始めます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Every test case should be properly documented.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>すべてのテストケースは適切に文書化されなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We use the doxygen ingroup directive so that all the UnitTests appear as a module in the generated Doxygen documentation.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>すべてのユニットテストが生成されたDoxygenのドキュメントのモジュールとして表示されるように、doxygenのingroupディレクティブを使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>After that comes a short description of the unit test and the class must inherit from QObject and include the Q_OBJECT macro.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>その後にユニットテストの短い説明が来て、このクラスはQObjectを継承し、Q_OBJECTマクロをインクルードする必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>There is one more benefit to regression tests - they can save you time.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>回帰テストへの1つの以上の利点があります - それらは時間を節約できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you ever fixed a bug that involved making changes to the source, and then running the application and performing a series of convoluted steps to replicate the issue, it will be immediately apparent that simply implementing your regression test before fixing the bug will let you automate the testing for bug resolution in an efficient manner.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ソースに変更を加えてからアプリケーションを実行して問題を再現するために複雑な一連のステップを実行することに関わるバグを修正したことがあれば、バグを修正する前に回帰テストを実装するだけで、効率的な方法でバグの解決のためのテストを自動化できることがすぐに明らかになるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>That ends our class declaration.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これで私たちのクラス宣言を終了します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The implementation is simply inlined in the same file lower down.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>実装は単に同じファイル中で下方にインライン化されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>First our init and cleanup functions:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>まず、私たちのinitおよびcleanup関数：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The above init function illustrates a couple of interesting things.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>上記のinit関数はいくつかの興味深い物事を示しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Qt also provides some other interesting mechanisms for data driven testing, so if you are interested to know more on the topic, consult the Qt documentation.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Qtではまた、テストをデータ駆動するためのいくつかの他の興味深いメカニズムを提供していますので、この話題に関してもっと知りたいと興味をお持ちの方は、Qtのドキュメントを参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Some of these macros are useful only when using the Qt framework for data driven testing (see the Qt docs for more detail).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これらのマクロの一部は（詳細はQtのドキュメントを参照してください）、テスト駆動型のデータのためのQtフレームワークを使用している場合にのみ便利です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Normally your functional tests would cover all the range of functionality of your classes public API where feasible.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>通常、あなたの機能テストが可能な場合、あなたのクラスのパブリックAPIのすべての機能範囲をカバーするでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>With our functional tests out the way, we can look at our regression test example.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>私たちの機能テストは out the way、回帰テストの例を見ることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Since the issue in bug #832 is a misreported cell count, writing our test is simply a matter of using QVERIFY to check that the cell count meets the expected value:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>バグ＃832での問題はセル数の誤った報告なので、私たちのテストを書くことは、単純にセル数が期待値を満たしていることをQVERIFYを使用して確認する問題です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Adding your unit test to CMakeLists.txt</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>CMakeLists.txtにユニットテストを追加する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The ADD_QGIS_TEST macro explained</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>説明されたADD_QGIS_TESTマクロ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Since our test class needs to be run through the Qt meta object compiler (moc) we need to provide a couple of lines to make that happen too:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>我々のテストクラスは、Qtのメタオブジェクトコンパイラ（MOC）を介して実行する必要がありますので、それが実現するために何行かも提供する必要があります：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Building your unit test</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ユニットテストをビルドする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To build the unit test you need only to make sure that ``ENABLE_TESTS=true`` in the cmake configuration.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ユニットテストをビルドするには、cmakeの設定で ``ENABLE_TESTS=true`` を確認するだけが必要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>There are two ways to do this:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これを行うには2つの方法があります：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Run ``ccmake ..`` ( or ``cmakesetup ..`` under windows) and interactively set the ``ENABLE_TESTS`` flag to ``ON``.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``ccmake..`` （またはウィンドウズの下では ``cmakesetup..`` ）を実行し、対話的に ``ENABLE_TESTS`` フラグを ``ON`` に設定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Add a command line flag to cmake e.g. ``cmake -DENABLE_TESTS=true ..``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>cmakeのためのコマンドラインフラグを追加します、例えば ``cmake -DENABLE_TESTS=true ..``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Other than that, just build QGIS as per normal and the tests should build too.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それ以外は、通常通りQGISをビルドするだけであり、またテストもビルドする必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Run your tests</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>テストを実行</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The simplest way to run the tests is as part of your normal build process:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>テストを実行する最も簡単な方法は、通常のビルドプロセスの一部としてです：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If a test fails, you can use the ctest command to examine more closely why it failed.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>テストが失敗した場合は、それが失敗した理由をより密接に検討するctestコマンドを使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Use the ``-R`` option to specify a regex for which tests you want to run and ``-V`` to get verbose output:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>実行したいテストするために正規表現を指定するためには ``-R`` オプションを、冗長な出力を得るためには ``-V`` オプションを使用してください：</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

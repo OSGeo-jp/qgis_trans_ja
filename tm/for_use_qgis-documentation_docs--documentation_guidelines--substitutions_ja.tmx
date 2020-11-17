@@ -1,0 +1,4695 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Substitutions</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>置換参照と定義</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Usage</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>利用方法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To ease the use of icons in QGIS manuals, replacements are defined for each icon in :file:`/source/substitutions.txt` file at `QGIS-Documentation repository &lt;https://github.com/qgis/QGIS-Documentation&gt;`_ and some of these substitutions are listed below. Thus, when you want to use an icon from QGIS application in the documentation there is a big chance that there is already a substitution that can/should be used.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISマニュアルでアイコンを手軽に使えるように、アイコンの置換が `QGIS-Documentationリポジトリ &lt;https://github.com/qgis/QGIS-Documentation&gt;`_ の `/source/substitutions.txt` ファイルで定義されています。そこで定義されている置換のいくつかを以下に示します。このためドキュメント中でQGISアプリケーションのアイコンを使用したい場合は、使用できる、あるいは使用すべき置換がすでにある可能性が大きいです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If no replacement exists:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>置換が存在しない場合は、以下のようにして追加することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>check the documentation repository whether the icon is available in :file:`/static/common` folder.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>目的のアイコン画像があるかどうか、ドキュメンテーションリポジトリの :file:`/static/common` フォルダ内を確認してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If no image, then you need to find and copy the icon image file from `QGIS repository &lt;https://github.com/qgis/QGIS&gt;`_ (often under :source:`images/themes/default` folder) and paste (in ``.png`` format) under :file:`/static/common` folder.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>画像がない場合は、 `QGISリポジトリ &lt;https://github.com/qgis/QGIS&gt;`_ からアイコン画像ファイルを探して（ :source:`images/themes/default` フォルダにあることが多いです）、 :file:`/static/common` フォルダに ``.png`` フォーマットでコピーします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For convenience and update, it's advised to keep filename when possible.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>利便性と後の更新のことを考えると、ファイル名は可能な限り元のままにしておくことを勧めます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>create the reference to the substitution in the :file:`/source/substitutions.txt` file following the example below.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>以下の例に従って、置換への参照を :file:`/source/substitutions.txt` ファイルに作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The replacement text should be in camelCase:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>置換テキストはキャメルケースにする必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>run the :file:`scripts/find_set_subst.py` script to update the substitution definitions in the rst files and include the new substitution(s).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:file:`scripts/find_set_subst.py` スクリプトを実行してrstファイル中の置換定義を更新し、新しい置換が含まれるようにしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>(optional) add the reference to the icon and its substitution to the list below.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>（オプション）以下のリストに、アイコンおよびその置換への参照を追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Common Substitutions</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>一般的な置換</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Below are given some icons and their substitution to use when writing documentation.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>以下はドキュメントを書くときに使われるアイコンとその置換です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Can be used/found in many places in manuals.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>マニュアルの多くの場所で使用されているのを見ることができるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Platform Icons</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プラットフォームアイコン</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Icon</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>アイコン</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Substitution</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>置き換え</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|kde|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|kde|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|kde|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|kde|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|nix|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|nix|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|nix|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|nix|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|osx|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|osx|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|osx|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|osx|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|win|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|win|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|win|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|win|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Menu Items</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>メニューアイテム</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|checkbox|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|checkbox|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|checkbox|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|checkbox|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|unchecked|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|unchecked|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|unchecked|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|unchecked|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|radioButtonOn|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|radioButtonOn|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|radioButtonOn|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|radioButtonOn|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|radioButtonOff|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|radioButtonOff|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|radioButtonOff|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|radioButtonOff|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|selectNumber|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|selectNumber|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|selectNumber|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|selectNumber|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|selectString|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|selectString|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|selectString|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|selectString|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|selectColor|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|selectColor|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|selectColor|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|selectColor|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|tab|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|tab|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|tab|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|tab|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|degrees|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|degrees|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|degrees|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|degrees|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|inputText|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|inputText|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|inputText|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|inputText|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|slider|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|slider|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|slider|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|slider|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Toolbar Button Icons</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ツールバーボタンアイコン</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Manage Layers and overview</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>レイヤー管理と全体図</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>\</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>\</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|addOgrLayer|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|addOgrLayer|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|addOgrLayer|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|addOgrLayer|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|addDb2Layer|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|addDb2Layer|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|addDb2Layer|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|addDb2Layer|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|addRasterLayer|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|addRasterLayer|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|addRasterLayer|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|addRasterLayer|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|addMssqlLayer|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|addMssqlLayer|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|addMssqlLayer|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|addMssqlLayer|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|addDelimitedTextLayer|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|addDelimitedTextLayer|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|addDelimitedTextLayer|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|addDelimitedTextLayer|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|addSpatiaLiteLayer|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|addSpatiaLiteLayer|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|addSpatiaLiteLayer|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|addSpatiaLiteLayer|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|addPostgisLayer|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|addPostgisLayer|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|addPostgisLayer|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|addPostgisLayer|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|addOracleLayer|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|addOracleLayer|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|addOracleLayer|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|addOracleLayer|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|addAfsLayer|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|addAfsLayer|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|addAfsLayer|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|addAfsLayer|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|addAmsLayer|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|addAmsLayer|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|addAmsLayer|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|addAmsLayer|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|newVectorLayer|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|newVectorLayer|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|newVectorLayer|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|newVectorLayer|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|newSpatiaLiteLayer|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|newSpatiaLiteLayer|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|newSpatiaLiteLayer|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|newSpatiaLiteLayer|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|newGeoPackageLayer|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|newGeoPackageLayer|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|newGeoPackageLayer|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|newGeoPackageLayer|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|createMemory|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|createMemory|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|createMemory|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|createMemory|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|dbManager|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|dbManager|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|dbManager|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|dbManager|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|gdal|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|gdal|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|gdal|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|gdal|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|virtualLayer|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|virtualLayer|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|virtualLayer|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|virtualLayer|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|wms|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|wms|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|wms|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|wms|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|wcs|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|wcs|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|wcs|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|wcs|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|wfs|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|wfs|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|wfs|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|wfs|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|inOverview|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|inOverview|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|inOverview|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|inOverview|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|addAllToOverview|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|addAllToOverview|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|addAllToOverview|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|addAllToOverview|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|removeAllOVerview|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|removeAllOVerview|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|removeAllOVerview|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|removeAllOVerview|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|removeLayer|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|removeLayer|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|removeLayer|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|removeLayer|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|showAllLayers|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|showAllLayers|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|showAllLayers|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|showAllLayers|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|hideAllLayers|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|hideAllLayers|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|hideAllLayers|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|hideAllLayers|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|addLayer|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|addLayer|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|addLayer|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|addLayer|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>File</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ファイル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|fileNew|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|fileNew|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|fileNew|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|fileNew|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|fileOpen|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|fileOpen|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|fileOpen|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|fileOpen|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|fileSave|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|fileSave|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|fileSave|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|fileSave|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|fileSaveAs|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|fileSaveAs|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|fileSaveAs|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|fileSaveAs|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|fileExit|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|fileExit|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|fileExit|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|fileExit|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Edit</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>編集</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|undo|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|undo|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|undo|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|undo|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|redo|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|redo|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|redo|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|redo|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|editCopy|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|editCopy|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|editCopy|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|editCopy|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|editPaste|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|editPaste|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|editPaste|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|editPaste|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|editCut|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|editCut|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|editCut|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|editCut|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|saveEdits|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|saveEdits|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|saveEdits|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|saveEdits|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Identity result</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>識別結果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|expandTree|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|expandTree|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|expandTree|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|expandTree|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|collapseTree|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|collapseTree|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|collapseTree|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|collapseTree|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|expandNewTree|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|expandNewTree|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|expandNewTree|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|expandNewTree|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|formView|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|formView|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|formView|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|formView|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|deselectAll|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|deselectAll|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|deselectAll|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|deselectAll|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|filePrint|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|filePrint|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|filePrint|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|filePrint|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Digitizing and Advanced Digitizing</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>デジタイズと高度なデジタイジング</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|cad|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|cad|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|cad|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|cad|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|cadConstruction|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|cadConstruction|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|cadConstruction|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|cadConstruction|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|cadParallel|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|cadParallel|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|cadParallel|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|cadParallel|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|cadPerpendicular|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|cadPerpendicular|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|cadPerpendicular|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|cadPerpendicular|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|toggleEditing|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|toggleEditing|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|toggleEditing|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|toggleEditing|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|allEdits|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|allEdits|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|allEdits|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|allEdits|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|tracing|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|tracing|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|tracing|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|tracing|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|capturePoint|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|capturePoint|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|capturePoint|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|capturePoint|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|capturePolygon|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|capturePolygon|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|capturePolygon|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|capturePolygon|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|captureLine|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|captureLine|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|captureLine|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|captureLine|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|circularStringCurvePoint|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|circularStringCurvePoint|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|circularStringCurvePoint|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|circularStringCurvePoint|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|circularStringRadius|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|circularStringRadius|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|circularStringRadius|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|circularStringRadius|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moveFeature|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moveFeature|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|moveFeature|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|moveFeature|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moveFeatureCopy|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moveFeatureCopy|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moveFeatureLine|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moveFeatureLine|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moveFeatureCopyLine|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moveFeatureCopyLine|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moveFeaturePoint|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moveFeaturePoint|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moveFeatureCopyPoint|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moveFeatureCopyPoint|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|rotateFeature|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|rotateFeature|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|rotateFeature|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|rotateFeature|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|rotatePointSymbols|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|rotatePointSymbols|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|rotatePointSymbols|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|rotatePointSymbols|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|offsetCurve|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|offsetCurve|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|offsetCurve|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|offsetCurve|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|offsetPointSymbols|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|offsetPointSymbols|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|offsetPointSymbols|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|offsetPointSymbols|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|simplifyFeatures|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|simplifyFeatures|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|simplifyFeatures|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|simplifyFeatures|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|reshape|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|reshape|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|reshape|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|reshape|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|addRing|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|addRing|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|addRing|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|addRing|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|addPart|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|addPart|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|addPart|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|addPart|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|fillRing|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|fillRing|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|fillRing|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|fillRing|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|deleteRing|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|deleteRing|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|deleteRing|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|deleteRing|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|deletePart|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|deletePart|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|deletePart|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|deletePart|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|mergeFeatures|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|mergeFeatures|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|mergeFeatures|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|mergeFeatures|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|mergeFeatAttributes|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|mergeFeatAttributes|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|mergeFeatAttributes|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|mergeFeatAttributes|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|splitFeatures|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|splitFeatures|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|splitFeatures|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|splitFeatures|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|splitParts|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|splitParts|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|splitParts|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|splitParts|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Map Navigation and attributes</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>地図ナビゲーションと属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|pan|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|pan|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|pan|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|pan|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|panToSelected|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|panToSelected|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|panToSelected|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|panToSelected|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|zoomIn|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|zoomIn|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|zoomIn|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|zoomIn|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|zoomOut|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|zoomOut|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|zoomOut|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|zoomOut|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|zoomActual|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|zoomActual|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|zoomActual|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|zoomActual|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|zoomFullExtent|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|zoomFullExtent|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|zoomFullExtent|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|zoomFullExtent|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|zoomToLayer|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|zoomToLayer|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|zoomToLayer|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|zoomToLayer|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|zoomToSelected|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|zoomToSelected|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|zoomToSelected|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|zoomToSelected|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|zoomLast|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|zoomLast|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|zoomLast|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|zoomLast|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|zoomNext|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|zoomNext|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|zoomNext|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|zoomNext|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|identify|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|identify|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|identify|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|identify|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|mapTips|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|mapTips|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|mapTips|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|mapTips|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|showBookmarks|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|showBookmarks|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|showBookmarks|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|showBookmarks|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|newBookmark|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|newBookmark|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|newBookmark|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|newBookmark|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|measure|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|measure|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|measure|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|measure|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|measureArea|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|measureArea|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|measureArea|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|measureArea|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|measureAngle|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|measureAngle|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|measureAngle|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|measureAngle|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Selection and Expressions</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>選択と式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|selectRectangle|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|selectRectangle|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|selectRectangle|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|selectRectangle|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|selectPolygon|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|selectPolygon|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|selectPolygon|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|selectPolygon|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|selectFreehand|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|selectFreehand|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|selectFreehand|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|selectFreehand|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|selectRadius|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|selectRadius|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|selectRadius|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|selectRadius|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|selectAll|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|selectAll|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|selectAll|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|selectAll|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|invertSelection|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|invertSelection|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|invertSelection|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|invertSelection|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|expressionSelect|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|expressionSelect|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|expressionSelect|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|expressionSelect|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|selectAllTree|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|selectAllTree|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|selectAllTree|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|selectAllTree|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|select|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|select|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|select|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|select|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|formSelect|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|formSelect|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|formSelect|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|formSelect|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|dataDefined|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|dataDefined|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|dataDefined|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|dataDefined|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|expression|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|expression|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|expression|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|expression|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|dataDefineOn|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|dataDefineOn|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|dataDefineOn|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|dataDefineOn|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|dataDefineExpressionOn|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|dataDefineExpressionOn|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|dataDefineExpressionOn|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|dataDefineExpressionOn|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|dataDefineError|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|dataDefineError|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|dataDefineError|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|dataDefineError|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|dataDefineExpressionError|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|dataDefineExpressionError|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|dataDefineExpressionError|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|dataDefineExpressionError|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|expressionFilter|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|expressionFilter|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|expressionFilter|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|expressionFilter|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|filterMap|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|filterMap|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|filterMap|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|filterMap|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Labels and Diagrams</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ラベルとダイヤグラム</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|labeling|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|labeling|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|labeling|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|labeling|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|labelingNone|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|labelingNone|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|labelingNone|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|labelingNone|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|labelingRuleBased|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|labelingRuleBased|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|labelingRuleBased|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|labelingRuleBased|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|labelingObstacle|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|labelingObstacle|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|labelingObstacle|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|labelingObstacle|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|diagramNone|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|diagramNone|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|diagramNone|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|diagramNone|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|text|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|text|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|text|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|text|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|histogram|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|histogram|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|histogram|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|histogram|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|annotation|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|annotation|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|annotation|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|annotation|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|textAnnotation|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|textAnnotation|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|textAnnotation|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|textAnnotation|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|formAnnotation|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|formAnnotation|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|formAnnotation|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|formAnnotation|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|htmlAnnotation|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|htmlAnnotation|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|htmlAnnotation|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|htmlAnnotation|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|svgAnnotation|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|svgAnnotation|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|svgAnnotation|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|svgAnnotation|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Decorations</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>整飾</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|copyrightLabel|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|copyrightLabel|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|copyrightLabel|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|copyrightLabel|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|northArrow|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|northArrow|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|northArrow|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|northArrow|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|scaleBar|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|scaleBar|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|scaleBar|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|scaleBar|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|addMap|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|addMap|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|addMap|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|addMap|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Help</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ヘルプ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|helpContents|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|helpContents|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|helpContents|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|helpContents|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|qgisHomePage|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|qgisHomePage|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|qgisHomePage|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|qgisHomePage|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|helpSponsors|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|helpSponsors|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|helpSponsors|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|helpSponsors|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|contextHelp|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|contextHelp|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|contextHelp|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|contextHelp|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Colors</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>色</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|colorBox|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|colorBox|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|colorBox|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|colorBox|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|colorPicker|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|colorPicker|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|colorPicker|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|colorPicker|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|colorSwatches|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|colorSwatches|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|colorSwatches|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|colorSwatches|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|colorWheel|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|colorWheel|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|colorWheel|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|colorWheel|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Other basic icons</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>他の基本的アイコン</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|arrowDown|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|arrowDown|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|arrowDown|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|arrowDown|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|arrowUp|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|arrowUp|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|arrowUp|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|arrowUp|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|signPlus|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|signPlus|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|signPlus|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|signPlus|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|signMinus|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|signMinus|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|signMinus|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|signMinus|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|projectProperties|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|projectProperties|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|projectProperties|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|projectProperties|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|options|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|options|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|options|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|options|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|tracking|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|tracking|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|tracking|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|tracking|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|gpsImporter|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|gpsImporter|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|gpsImporter|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|gpsImporter|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|gpsTrackBarChart|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|gpsTrackBarChart|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|gpsTrackBarChart|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|gpsTrackBarChart|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|folder|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|folder|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|folder|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|folder|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|extents|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|extents|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|extents|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|extents|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|settings|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|settings|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|settings|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|settings|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|deleteSelected|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|deleteSelected|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|deleteSelected|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|deleteSelected|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Attribute Table</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>属性テーブル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|openTable|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|openTable|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|openTable|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|openTable|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|selectedToTop|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|selectedToTop|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|selectedToTop|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|selectedToTop|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|copySelected|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|copySelected|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|copySelected|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|copySelected|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|newAttribute|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|newAttribute|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|newAttribute|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|newAttribute|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|deleteAttribute|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|deleteAttribute|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|deleteAttribute|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|deleteAttribute|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|newTableRow|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|newTableRow|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|newTableRow|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|newTableRow|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|calculateField|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|calculateField|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|calculateField|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|calculateField|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|conditionalFormatting|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|conditionalFormatting|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|conditionalFormatting|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|conditionalFormatting|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|multiEdit|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|multiEdit|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|multiEdit|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|multiEdit|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|actionRun|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|actionRun|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Projections and Georeferencer</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>投影とジオリファレンサ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|geographic|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|geographic|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|geographic|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|geographic|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|crs|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|crs|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|crs|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|crs|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|customProjection|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|customProjection|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|customProjection|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|customProjection|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|setProjection|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|setProjection|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|setProjection|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|setProjection|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|projectionDisabled|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|projectionDisabled|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|projectionDisabled|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|projectionDisabled|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|projectionEnabled|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|projectionEnabled|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|projectionEnabled|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|projectionEnabled|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|pencil|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|pencil|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|pencil|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|pencil|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|linkQGisToGeoref|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|linkQGisToGeoref|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|linkQGisToGeoref|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|linkQGisToGeoref|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|linkGeorefToQGis|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|linkGeorefToQGis|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|linkGeorefToQGis|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|linkGeorefToQGis|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|coordinateCapture|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|coordinateCapture|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|coordinateCapture|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|coordinateCapture|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|fullHistogramStretch|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|fullHistogramStretch|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|fullHistogramStretch|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|fullHistogramStretch|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Print Layout</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>印刷レイアウト</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|atlasSettings|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|atlasSettings|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|atlasSettings|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|atlasSettings|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|atlas|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|atlas|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|atlas|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|atlas|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|saveMapAsImage|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|saveMapAsImage|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|saveMapAsImage|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|saveMapAsImage|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|saveAsSVG|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|saveAsSVG|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|saveAsSVG|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|saveAsSVG|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|saveAsPDF|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|saveAsPDF|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|saveAsPDF|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|saveAsPDF|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|addBasicShape|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|addBasicShape|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|addBasicShape|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|addBasicShape|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|addNodesShape|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|addNodesShape|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|addNodesShape|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|addNodesShape|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|editNodesShape|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|editNodesShape|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|editNodesShape|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|editNodesShape|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|addArrow|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|addArrow|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|addArrow|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|addArrow|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|addLegend|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|addLegend|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|addLegend|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|addLegend|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|addHtml|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|addHtml|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|addHtml|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|addHtml|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|addTable|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|addTable|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|addTable|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|addTable|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|label|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|label|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|label|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|label|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moveItemContent|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moveItemContent|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|moveItemContent|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|moveItemContent|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|raiseItems|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|raiseItems|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|raiseItems|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|raiseItems|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|lowerItems|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|lowerItems|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|lowerItems|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|lowerItems|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moveItemsToTop|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moveItemsToTop|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|moveItemsToTop|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|moveItemsToTop|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moveItemsToBottom|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moveItemsToBottom|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|moveItemsToBottom|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|moveItemsToBottom|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|alignLeft|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|alignLeft|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|alignLeft|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|alignLeft|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|alignRight|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|alignRight|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|alignRight|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|alignRight|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|alignHCenter|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|alignHCenter|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|alignHCenter|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|alignHCenter|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|alignVCenter|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|alignVCenter|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|alignVCenter|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|alignVCenter|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|alignTop|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|alignTop|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|alignTop|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|alignTop|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|alignBottom|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|alignBottom|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|alignBottom|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|alignBottom|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|locked|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|locked|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|locked|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|locked|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|unlocked|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|unlocked|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|unlocked|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|unlocked|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|lockedRepeat|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|lockedRepeat|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|lockedRepeat|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|lockedRepeat|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|groupItems|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|groupItems|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|groupItems|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|groupItems|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Layer Properties</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>レイヤプロパティ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|symbology|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|symbology|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|symbology|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|symbology|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|general|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|general|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|general|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|general|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|metadata|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|metadata|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|metadata|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|metadata|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|action|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|action|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|action|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|action|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|rendering|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|rendering|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|rendering|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|rendering|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|join|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|join|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|join|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|join|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|diagram|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|diagram|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|diagram|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|diagram|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|legend|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|legend|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|legend|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|legend|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|history|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|history|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|history|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|history|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|stylePreset|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|stylePreset|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|stylePreset|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|stylePreset|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|singleSymbol|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|singleSymbol|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|singleSymbol|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|singleSymbol|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|nullSymbol|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|nullSymbol|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|nullSymbol|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|nullSymbol|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|graduatedSymbol|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|graduatedSymbol|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|graduatedSymbol|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|graduatedSymbol|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|categorizedSymbol|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|categorizedSymbol|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|categorizedSymbol|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|categorizedSymbol|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|25dSymbol|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|25dSymbol|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|25dSymbol|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|25dSymbol|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|ruleBasedSymbol|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|ruleBasedSymbol|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|ruleBasedSymbol|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|ruleBasedSymbol|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|invertedSymbol|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|invertedSymbol|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|invertedSymbol|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|invertedSymbol|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|heatmapSymbol|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|heatmapSymbol|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|heatmapSymbol|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|heatmapSymbol|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|pointDisplacementSymbol|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|pointDisplacementSymbol|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|pointDisplacementSymbol|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|pointDisplacementSymbol|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|pointClusterSymbol|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|pointClusterSymbol|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|pointClusterSymbol|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|pointClusterSymbol|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|sum|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|sum|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|sum|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|sum|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|sort|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|sort|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|sort|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|sort|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|paintEffects|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|paintEffects|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|paintEffects|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|paintEffects|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|mapIdentification|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|mapIdentification|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|mapIdentification|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|mapIdentification|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Plugins</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プラグイン</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Processing</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プロセシング</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|mean|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|mean|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|mean|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|mean|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|layerExtent|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|layerExtent|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|layerExtent|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|layerExtent|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|randomSelection|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|randomSelection|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|randomSelection|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|randomSelection|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|vectorGrid|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|vectorGrid|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|vectorGrid|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|vectorGrid|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|convexHull|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|convexHull|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|convexHull|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|convexHull|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|buffer|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|buffer|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|buffer|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|buffer|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|intersect|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|intersect|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|intersect|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|intersect|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|union|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|union|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|union|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|union|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|symDifference|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|symDifference|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|symDifference|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|symDifference|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|clip|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|clip|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|clip|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|clip|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|difference|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|difference|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|difference|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|difference|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|dissolve|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|dissolve|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|dissolve|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|dissolve|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|checkGeometry|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|checkGeometry|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|checkGeometry|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|checkGeometry|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|exportGeometry|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|exportGeometry|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|exportGeometry|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|exportGeometry|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|delaunay|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|delaunay|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|delaunay|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|delaunay|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|centroids|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|centroids|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|centroids|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|centroids|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|toLines|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|toLines|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|toLines|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|toLines|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|extractNodes|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|extractNodes|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|extractNodes|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|extractNodes|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|splitLayer|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|splitLayer|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|splitLayer|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|splitLayer|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|showRasterCalculator|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|showRasterCalculator|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|showRasterCalculator|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|showRasterCalculator|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|heatmap|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|heatmap|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|heatmap|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|heatmap|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Various Core Plugins</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>コア・プラグインのいろいろ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Standard provided with basic install, but not loaded with initial install</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>基本インストールで標準で提供されます。しかし初期状態ではロードはされていません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|showPluginManager|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|showPluginManager|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|showPluginManager|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|showPluginManager|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|offlineEditingCopy|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|offlineEditingCopy|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|offlineEditingCopy|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|offlineEditingCopy|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|offlineEditingSync|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|offlineEditingSync|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|offlineEditingSync|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|offlineEditingSync|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|plugin|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|plugin|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|plugin|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|plugin|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|interpolation|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|interpolation|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|interpolation|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|interpolation|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|gdalScript|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|gdalScript|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|gdalScript|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|gdalScript|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|metasearch|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|metasearch|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|metasearch|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|metasearch|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|geometryChecker|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|geometryChecker|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|geometryChecker|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|geometryChecker|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Grass integration</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Grass 統合</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|grass|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|grass|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|grass|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|grass|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|grassRegion|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|grassRegion|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|grassRegion|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|grassRegion|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|grassTools|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|grassTools|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|grassTools|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|grassTools|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|grassNewMapset|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|grassNewMapset|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|grassNewMapset|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|grassNewMapset|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|grassOpenMapset|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|grassOpenMapset|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|grassOpenMapset|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|grassOpenMapset|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|grassCloseMapset|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|grassCloseMapset|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|grassCloseMapset|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|grassCloseMapset|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>eVis plugin</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>eVis プラグイン</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|eventBrowser|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|eventBrowser|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|eventBrowser|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|eventBrowser|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|eventId|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|eventId|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|eventId|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|eventId|``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|evisConnect|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|evisConnect|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``|evisConnect|``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``|evisConnect|``</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

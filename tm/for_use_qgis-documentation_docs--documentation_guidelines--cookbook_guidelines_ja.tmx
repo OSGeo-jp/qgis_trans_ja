@@ -1,0 +1,279 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Writing code in the PyQGIS Cookbook</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>PyQGISクックブック中でコードを書く</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you are planning to add or update some chapters of the :ref:`PyQGIS-Developer-Cookbook`, then you should follow some rules to enable automatic testing of the code snippets.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`PyQGIS-Developer-Cookbook` の章を追加または更新することを計画している方は、コードスニペットの自動テストを可能にするためにいくつかの規則に従ってください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Testing is really important because it allows automatic checking of the code.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>テストはコードの自動チェックを可能にするので非常に重要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Code snippets with errors or code that uses outdated methods will fail and the notification will help you fix the problems.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>エラーのあるコードスニペットや古いメソッドを使用するコードは失敗し、その通知は問題の解決に役立ちます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For testing, we use the `Sphinx doctest extension &lt;https://www.sphinx-doc.org/en/master/usage/extensions/doctest.html&gt;`_.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>テストのために、 `Sphinx doctest拡張機能 &lt;https://www.sphinx-doc.org/en/master/usage/extensions/doctest.html&gt;`_ を使います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Refer to the extension documentation for more detailed information.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>より詳細な情報については拡張機能のドキュメントを参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>How to write testable code snippets</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>テスト可能なコードスニペットの書き方</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Writing testable code snippets is not so different from the *old* method.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>テスト可能なコードスニペットを書くことは *古い* 方法とそれほど変わりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Basically, you need to use a different Sphinx `directive`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>基本的には、異なるSphinxの `ディレクティブ` を使う必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Doctest sphinx directives</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>sphinxディレクティブを文書化する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Instead of embedding the code in a ``.. code-block:: python`` directive (which would highlight the code syntax automatically), you now need to embed it in a ``.. testcode::``.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>コードを ``.. code-block:: python`` ディレクティブに埋め込む代わりに（そうすると自動的にコード構文が強調表示される）、今度は ``.. testcode::`` に埋め込む必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>That is, instead of  this::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>つまり、これの代わりに::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You now use this::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>今度はこれを使用します::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>After you wrote the example code, you should add some *assertion* that will evaluate the code and that will be run automatically.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>サンプルコードを書いた後は、コードを評価して自動的に実行される *アサーション* を追加する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In the above example, you are creating a crs and with ``assert crs.isValid()`` you **test** if it is valid.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>上記の例では、crsを作成し、 ``assert crs.isValid()`` でそれが有効かどうかを **テスト** します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If the code has a wrong python syntax or the ``crs.isValid()`` returns ``False``, this code snippet will fail during testing.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>コードのPython構文が間違っていたり ``crs.isValid()`` が ``False`` を返した場合、このコードスニペットはテスト中に失敗します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To successfully run the tests on snippets, you must import all the classes and declare any variables used in the code snippets.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>スニペットでテストを正しく実行するには、すべてのクラスをインポートし、コードスニペットで使用されている変数を宣言する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can include those in the code snippet itself (visible in the HTML pages) or you can add them to a ``.. testsetup::`` directive (hidden in the HTML pages).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それらはコードスニペット自体（HTMLページに表示される）に含めることも、 ``.. testsetup ::`` ディレクティブに追加することもできます（HTMLページには表示されません）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The ``.. testsetup::`` needs to be placed before the ``.. testcode::``::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``.. testsetup::`` は ``.. testcode::`` の前に置く必要があります::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If the code snippet doesn't create objects (and therefore you cannot use something like ``assert object.isValid()``), you can test the code using the ``print()`` method, then add the expected results within a ``.. testoutput::`` directive to compare the expected output::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>コードスニペットがオブジェクトを作成しない（したがって、 ``assert object.isValid()`` のようなものが使用できない）場合、 ``print()`` メソッドを使用してコードをテストし、期待される結果を ``.. testoutput ::`` ディレクティブ内に追加して、期待される出力を比較できます::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>By default, the content of ``.. testoutput::`` is shown in the HTML output.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>デフォルトでは、 ``.. testoutput::`` の内容はHTML出力に表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To hide it from the HTML use the `:hide:` option::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>HTMLから隠すには `:hide:` を使います::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If the code snippet contains any print statements, you MUST add a ``testoutput`` with the expected outputs; otherwise the test will fail.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>コードスニペットにprint文が含まれている場合は、期待される出力とともに ``testoutput`` を追加しなければなりません。そうでなければテストは失敗します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Grouping tests</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>テストをグループ化する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For each rst document, the code snippets are tested sequentially, which means you can use one ``.. testsetup::`` for all the following code snippets and that later snippets will have access to variables declared in earlier ones in the document.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>各rst 文書ごとに、コードスニペットは順番にテストされます。つまり、以下のすべてのコードスニペットに対して1つの ``.. testsetup::`` を使用でき、後のスニペットでは文書内の前のスニペットで宣言された変数にアクセスできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Alternatively, you can use groups to break down the examples on the same page in different tests.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>あるいは、グループを使用して、異なるテスト中の同じページの例を分類することもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You add the code snippet to groups by adding one or more group names (separated by commas) in the respective directive::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それぞれのディレクティブに1つ以上のグループ名を（コンマで区切って）追加して、コードスニペットをグループに追加します::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The ``doctest`` will pick each group snippets and run them independently.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``doctest`` は各グループのスニペットを選び、それらを独立して実行します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Use group names that make sense with the related content.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>関連するコンテンツで意味のあるグループ名を使用してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Use something similar to &lt;chapter&gt;_&lt;subchapter&gt;, for example: crs_intro, crs_fromwkt.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>&lt;chapter&gt;_&lt;subchapter&gt;  のようなものを使用してください、例えばcrs_intro、crs_fromwkt。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In case of failures, this will help identifying where the failures occur.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>障害が発生した場合は、障害が発生した場所を特定するのに役立ちます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you don't declare any group, the code snippet will be added to a group named ``default``. If instead, you use ``*`` as a group name, the snippet will be used in all testing groups, something normally usefull to use in the test setup::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>グループを宣言しないと、コードスニペットは ``default`` という名前のグループに追加されます。 代わりに、グループ名として ``*`` を使用すると、スニペットはすべてのテストグループで使用されます。これは通常、テスト設定で使用すると便利です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>How to test snippets on your local machine</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ローカルマシンでスニペットをテストする方法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Then, use it to run target ``doctest``::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それから、それを使ってtarget ``doctest`` を実行します。</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Documentation Guidelines</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ドキュメント作成のガイドライン</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>QGIS Documentation will be built automatically on the server at 0, 8am, 4pm US/Pacific (Pacific Time).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISドキュメントは、米国太平洋時間の太平洋標準時の午前0時、午前8時、午後4時にサーバ上で自動作成されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The current status is available at https://docs.qgis.org.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>現在の状態は https://docs.qgis.org で入手できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>QGIS Documentation source files are available at https://github.com/qgis/QGIS-Documentation.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISドキュメントのソースファイルは https://github.com/qgis/QGIS-Documentation で入手できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>They are mainly written using the reStructuredText (reST) format syntax, coupled with some scripts from the Sphinx toolset to post-process the HTML output.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これらは主にreStructuredText（reST）形式の構文を使用して記述され、HTML出力を後処理するためのSphinxツールセットからのスクリプトと組み合わされています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For general information on these tools, see http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html or https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これらのツールの一般的な情報については http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html または https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html 参照。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The following chapters will guide you through learning:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>以下の章では次のようなことを学ぶことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>how to manage the documentation source files using `git &lt;https://git-scm.com/&gt;`_ system and the `GitHub &lt;https://github.com/&gt;`_ platform on which they are stored</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>`GitHub &lt;https://github.com/&gt;`_ プラットフォームに格納されたドキュメントのソースファイルを、`git &lt;https://git-scm.com/&gt;`_ システムと `GitHub &lt;https://github.com/&gt;`_ を使って管理する方法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>how to modify the texts, provide screenshots... in a compliant way</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ルールに準拠した方法でテキストを変更し、スクリーンショットを提供する方法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>how to share and ensure your modifications are pushed to the official docs.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>あなたの行った変更を確実に公式ドキュメントに取り込み共有する方法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you are looking for general information about how to contribute to the QGIS project, you may find help at `Get Involved in the QGIS Community &lt;https://qgis.org/en/site/getinvolved/index.html&gt;`_.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISプロジェクトに貢献する方法に関する一般的な情報を探している場合は、 `QGISコミュニティに参加する &lt;https://qgis.org/en/site/getinvolved/index.html&gt;`_ にヘルプを見つけることができます。</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

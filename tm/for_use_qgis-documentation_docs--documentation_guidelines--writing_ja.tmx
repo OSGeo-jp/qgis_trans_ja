@@ -1,0 +1,1039 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Writing Guidelines</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>執筆のためのガイドライン</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In general, when creating reST documentation for the QGIS project, please follow the `Python documentation style guidelines &lt;https://devguide.python.org/documenting/&gt;`_.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>総じて、QGISプロジェクトのためにreSTドキュメントを作成するときには、 `Python documentation style guidelines &lt;https://devguide.python.org/documenting/&gt;`_ に従ってください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For convenience, we provide a set of general rules we rely on for writing QGIS documentation below.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>簡便のために以下に、QGISドキュメントを書く際に依拠すべき一般的なルールを、一通り示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Writing Documentation</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ドキュメントを書く</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Headlines</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>見出し</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To each webpage of the documentation corresponds a ``.rst`` file.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ドキュメントのそれぞれのウェブページには、ひとつの ``.rst`` ファイルが対応しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Sections used to structure the text are identified through their title which is underlined (and overlined for the first level). Same level titles must use same character for underline adornment. In QGIS Documentation, you should use following styles for chapter, section, subsection and minisec.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>テキストを構造化するために使用されるセクションはそれらのタイトルを通じて識別されます。タイトルには下線（及び第1レベルに対して上線）が引かれます。同じレベルのタイトルは下線装飾のために同じ文字を使用する必要があります。QGIS文書では、章、セクション、サブセクションとminisecに対して以下のスタイルを使用する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Lists</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>リスト</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Lists are useful for structuring the text.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>リストはテキストを構造化するのに役立ちます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Here are some simple rules common to all lists:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>こちらはすべてのリストに共通な簡単な規則のいくつかです：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Start all list items with a capital letter</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>すべての項目を大文字で始めてください</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Do not use punctuation after list items that only contain a single simple sentence</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>単一の単文のみを含むリスト項目の後に句読点を使用しないでください</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Use period ( ``.`` ) as punctuation for list items that consist of several sentences or a single compound sentence</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>複数の文または1つの複合文からなるリスト項目の句読点としてピリオド（ ``.`` ）を使用します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Inline Tags</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>行内タグ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Menu GUI**: to mark a complete sequence of menu selections, including selecting submenus and choosing a specific operation, or any subsequence of such a sequence.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**メニューGUI** ：サブメニューを選択したり、特定の操作、またはこのような配列の何らかの部分配列を選択するなど、メニュー選択の完全な配列をマークします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>(see `image`_ below).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>（ 以下の `画像`_ を参照してください）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Keyboard shortcuts**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**キーボードショートカット**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>When describing keyboard shortcuts, the following conventions should be used:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>キーボードショートカットを説明するときは、次の規則を使用してください：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Key combinations are displayed with a ``+`` sign between keys, without spaces: :kbd:`Shift+R`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>キーの組み合わせはキー同士の間に空白を入れずに ``+`` 記号を表示し、 :kbd:`Shift+R` のように表示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**User text**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**ユーザーテキスト**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The example below creates the anchor of a section (e.g., Label/reference title)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>以下の例は、セクション（例えば、ラベル/参照タイトル）のアンカーを作成します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To call the reference in the **same page**, use</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**同じページ** 中の参照を呼び出すために使用するのは</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>which will return:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これが返すのは：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>see my_anchor_ for more information.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>詳細については my_anchor_ を参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Another way to jump to the same place **from anywhere in the documentation** is to use the ``:ref:`` role.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**文書内のどこからでも** 同じ場所にジャンプする別の方法は、 ``:ref:`` 役割を使用することです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>see :ref:`my_anchor` for more information.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>詳細については :ref:`my_anchor` を参照。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>see :ref:`Label and reference &lt;my_anchor&gt;` for more information.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>詳細については :ref:`ラベルや参照&lt;my_anchor&gt;` を参照。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Figures and Images</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>図と画像</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Pictures</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>画像</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To insert an image, use</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>画像を挿入するには、使用します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>which returns</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これを返します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Replacement</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>置換</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can put an image inside text or add an alias to use everywhere.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>テキスト内には画像を置くか、どこでも使用される別名を追加できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To use an image inside a paragraph, first create an alias in the :file:`source/substitutions.txt` file:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>段落内で画像を使用するには、 最初に :file:`source/substitutions.txt` ファイル中に別名を作成します：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Figure</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>図</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The result looks like this:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>結果は以下のようになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A caption: A logo I like</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>キャプション：私の好きなロゴ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To use a caption (*see My caption*) just insert indented text after a blank line in the figure block.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>キャプションを使用するには（ *My caption* を参照）、図ブロックに空白行の後ろに字下げテキストを挿入します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>see :ref:`figure_logo`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`figure_logo` 参照</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Tables</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>表</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>x</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>x</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>y</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>y</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>z</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>z</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>1</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>2</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>3</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>3</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>4</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>4</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>5</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>5</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The result:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>結果：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Windows</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ウィンドウズ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>macOS</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>macOS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|win|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|win|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|osx|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|osx|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>and of course not to forget |nix|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>そしてもちろん |nix| を忘れないように</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can reference to it like this my_drawn_table_.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>my_drawn_table_ のように参照できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Purpose</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>目的</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Description</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>説明</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Point</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>点</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Index</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>索引</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>An index is a handy way to help the reader find information in a document.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>索引は読者がドキュメント内で必要な情報を見つけるのを手助けする手軽な方法です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>QGIS documentation provides some essential indices.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISドキュメントは必須の索引項目のみを提供しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>There are a few rules that help us provide a set of indices that are really useful (coherent, consistent and really connected to each other):</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>本当に有用な（よく整理され、首尾一貫し、相互に関連づけられた）索引項目のセットのみを提供する助けとなるルールがいくつかあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>An index should be human readable, understandable and translatable; an index can be made from many words but you should avoid any unneeded ``_``, ``-``... characters to link them i.e., ``Loading layers`` instead of ``loading_layers`` or ``loadingLayers``.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>索引は、人間が読めるもの、理解できるもの、翻訳可能なものでなければなりません。索引は複数の単語から作ることができますが、それらを繋ぐ不要な ``_`` や ``-`` などは使用しないようにしてください。たとえば ``loading_layers`` や ``loadingLayers`` ではなく、 ``Loading layers`` としてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Capitalize only the first letter of the index unless the word has a particular spelling.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>特別な綴りを持つ単語でない限りは、索引語の最初の文字のみを大文字にします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>E.g., ``Loading layers``, ``Atlas generation``, ``WMS``, ``pgsql2shp``.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>たとえば、 ``Loading layers`` 、 ``Atlas generation`` 、 ``WMS`` 、 ``pgsql2shp`` などとします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Keep an eye on the existing `Index list &lt;https://docs.qgis.org/testing/en/genindex.html&gt;`_ in order to reuse the most convenient expression with the right spelling and avoid unnecessary duplicates.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>常に現在の `索引語リスト &lt;https://docs.qgis.org/testing/en/genindex.html&gt;`_ に注意を払うことで、より好適な表現を正しい綴りで再利用し、不要な重複は避けるようにしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Several index tags exist in RST.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>RSTには索引用のタグがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can use the inline ``:index:`` tag within normal text:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>行内タグ ``:index:`` は通常のテキスト中で次のように使います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Or you can use the ``.. index::`` block-level markup which links to the beginning of the next paragraph. Because of the rules mentioned above, it is recommended to use the block-level tag:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ブロックレベルのマークアップの ``.. index::`` を使うこともできます。これは次の段落の始まりにリンクします。上記ルールにより、ブロックレベルタグの使用を推奨します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It is also recommended to use index parameters such as ``single``, ``pair`` and ``see``, in order to build a more structured and interconnected index table. See `Index generating &lt;https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html#index-generating-markup&gt;`_ for more information on index creation.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``single`` 、 ``pair`` 、 ``see`` のような索引パラメータの使用も推奨します。これはより構造化され相互に関連した索引語テーブルを作るのに有用です。索引作成についてのより詳しい情報は `Index generating &lt;https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html#index-generating-markup&gt;`_ を参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Special Comments</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>特別なコメント</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Code Snippets</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>短いコード</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Footnotes</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>脚注</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This is for creating a footnote (showing as example [1]_)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは、脚注を作成するためのものです（例として示します [1]_ ）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Which will point to:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これが指しているのは：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Updates of core plugins</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>コアプラグインの更新</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Managing Screenshots</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>スクリーンショットを管理する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Add new Screenshots</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>新しいスクリーンショットを追加</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Here are some hints to create new, nice looking screenshots.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>以下は、新しいスクリーンショットを、見た目良く作成するためのヒントです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The images should be placed in an image (:file:`img/`) folder that is located in the same folder as the referencing :file:`.rst` file.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>画像ファイルは、参照元の :file:`.rst` ファイルがあるフォルダの中の、画像フォルダ (:file:`img/`) に置きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can find some prepared QGIS-projects that are used to create screenshots in the :file:`./qgis-projects` folder of this repository. This makes it easier to reproduce screenshots for the next version of QGIS. These projects use the QGIS `Sample Data &lt;https://qgis.org/downloads/data/&gt;`_ (aka Alaska Dataset), which should be placed in the same folder as the QGIS-Documentation Repository.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>スクリーンショットを作成するために使うことのできるQGISプロジェクトが、このリポジトリの :file:`./qgis-projects` フォルダに用意されています。これは次期バージョンQGISのためのスクリーンショットの再作成を多少なりとも容易にします。このプロジェクトではQGISの `サンプルデータ &lt;https://qgis.org/downloads/data/&gt;`_ (またの名をAlaskaデータセット) を使用しています。サンプルデータはQGIS-Documentationリポジトリと同じフォルダになければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Reduce the window to the minimal space needed to show the feature (taking the whole screen for a small modal window &gt; overkill)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ウィンドウは説明に必要な範囲で最小にします（小さなモーダルウィンドウのためだけに全画面表示をするのは過剰です）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The less clutter, the better (no need to activate all the toolbars)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ごちゃごちゃしていないほど良いです（すべてのツールバーをアクティブにする必要はありません）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Don't resize them in an image editor; the size will be set into the :file:`.rst` files if necessary (downscaling the dimensions without properly upping the resolution &gt; ugly)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>画像編集ソフトでリサイズしないでください。サイズは必要であれば :file:`.rst` ファイル中で設定されます（解像度を適切に上げることなく大きさだけを縮小すると、画像が汚くなります）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Cut the background</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>背景はカットします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Make the top corners transparent if the background is not white</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>背景が白でない場合は上部の角を透明にします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Set print size resolution to ``135 dpi`` (e.g. in Gimp set the print resolution :menuselection:`Image --&gt; Print size` and save).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>印刷サイズ解像度を ``135 dpi`` に設定します（たとえば Gimp で印刷解像度を設定するにはメニューで :menuselection:`Image --&gt; Print size` を選択して保存します）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This way, images will be at original size in html and at a good print resolution in the PDF.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これによって、画像はHTMLではオリジナルサイズで、PDFでは印刷に適した解像度となります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can also use ImageMagick convert command to do a batch of images:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ImageMagickのconvertコマンドを使えば、この処理を次のようにバッチ処理で行うこともできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Save them as :file:`.png` (to avoid :file:`.jpeg` artifacts)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:file:`.png` で保存します (:file:`.jpeg` は避けてください)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The screenshot should show the content according to what is described in the text</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>スクリーンショットはテキストの記載に従った内容を表示していなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Translated Screenshots</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>翻訳されたスクリーンショット</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Here are some additional hints for those that want to create screenshots for a translated user guide:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>翻訳されたユーザガイド用にスクリーンショットを作成したい人向けのヒントです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Translated images should be placed in a :file:`img/&lt;your_language&gt;/` folder.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>翻訳された画像は :file:`img/&lt;your_language&gt;/` フォルダに置きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Use the same filename as the english 'original' screenshot.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>英語のオリジナルのスクリーンショットと同じファイル名を使用してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Documenting Processing algorithms</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プロセシングアルゴリズムのドキュメントを作成する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you want to write documentation for Processing algorithms, consider these guidelines:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プロセシングアルゴリズムのドキュメントを書きたいときは、以下のガイドラインを考慮してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Processing algorithm help files are part of QGIS User Guide, so use the same formatting as User Guide and other documentation.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>処理アルゴリズムのヘルプファイルは、QGISユーザーガイドの一部であるので、ユーザーガイドとその他の文書と同じフォーマットを使用します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Each algorithm documentation should be placed in the corresponding **provider** folder and **group** file, e.g. the algorithm `Voronoi polygon` belongs to the `QGIS` provider and to the group `vectorgeometry`. So the correct file to add the description is: :file:`source/docs/user_manual/processing_algs/qgis/vectorgeometry.rst`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>各アルゴリズムのドキュメントは対応する **プロバイダ** フォルダと **グループ** ファイル中に置いてください。アルゴリズム `ボロノイポリゴン` は `QGIS` プロバイダと `vectorgeometry` グループに属します。そのため、説明を追加する正しいファイルは :file:`source/docs/user_manual/processing_algs/qgis/vectorgeometry.rst` です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Before starting to write the guide, check if the algorithm is already described.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ガイドを書き始める前に、そのアルゴリズムの説明がないかどうかを確認してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In this case, you can enhance the existing description.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>すでにある場合は、既存の説明を拡張できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To find out the algorithm name you can just hover the mouse on the algorithm in the Processing toolbox.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>アルゴリズム名を調べるには、「プロセシング」ツールボックスのアルゴリズム上にマウスを置くだけです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Indicate in the description whether the algorithm has a default shortcut in QGIS or supports in-place editing.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>説明中ではアルゴリズムにQGISのデフォルトショートカットがあるか​​、またはインプレース編集をサポートするのかを示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Give clear explanation for algorithm parameters and outputs: take inspiration from existing algorithms.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>アルゴリズムのパラメータと出力について明確に説明してください。既存のアルゴリズムからヒントを得てください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Describe the *type* of input supported the parameters.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>サポートされている入力の *タイプ* を説明してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>There are several types available you can pick one from:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>１つを選べる利用できるタイプはいくつかあります：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|fieldFloat|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|fieldFloat|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|fieldText|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|fieldText|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|rasterLayer|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|rasterLayer|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Expression</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|expression|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|expression|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Extent</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>領域</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``extent``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``範囲``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>CRS</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>CRS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|setProjection|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|setProjection|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|selectString|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|selectString|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Number</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>数値</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|selectNumber|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|selectNumber|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>String</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>文字列</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|inputText|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|inputText|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Boolean</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>真偽値</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|checkbox|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|checkbox|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``folder``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``フォルダ``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>File</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ファイル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Matrix</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>行列</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Layer</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>レイヤー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Range</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Range</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Mesh</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>メッシュ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Here is an example of an :ref:`existing algorithm &lt;qgiscountpointsinpolygon&gt;` to help you with the layout and the description::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>こちらがレイアウトと説明の助けになる :ref:`既存アルゴリズム &lt;qgiscountpointsinpolygon&gt;` の例です::</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>
