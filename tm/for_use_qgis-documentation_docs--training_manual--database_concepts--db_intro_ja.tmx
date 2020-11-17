@@ -43,14 +43,22 @@
         <seg>テーブル</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>In relational databases and flat file databases, a table is a set of data elements (values) that is organized using a model of vertical columns (which are identified by their name) and horizontal rows. A table has a specified number of columns, but can have any number of rows. Each row is identified by the values appearing in a particular column subset which has been identified as a candidate key. *- Wikipedia*</seg>
+      <tuv xml:lang="en"><seg>In relational databases and flat file databases, a table is a set of data elements (values) that is organized using a model of vertical columns (which are identified by their name) and horizontal rows.</seg></tuv><tuv xml:lang="ja">
+        <seg>リレーショナルデータベースとフラットファイルデータベースでは、テーブルは、縦の列（名前で識別される）と横の行のモデルを使用して構成されたデータ要素（値）のセットです。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>リレーショナルデータベースとフラットファイルデータベースでは、テーブルは、縦の列（名前で識別される）と横の行のモデルを使用して構成されたデータ要素（値）のセットです。テーブルには指定された数の列がありますが、任意の数の行を持つことができます。各行は、候補キーとして識別された特定の列部分に現れる値によって識別されます。 *-ウィキペディア*</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>A table has a specified number of columns, but can have any number of rows.</seg></tuv><tuv xml:lang="ja">
+        <seg>テーブルには指定された数の列がありますが、任意の数の行を持つことができます。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Each row is identified by the values appearing in a particular column subset which has been identified as a candidate key.</seg></tuv><tuv xml:lang="ja">
+        <seg>各行は、候補キーとして識別された特定の列部分に現れる値によって識別されます。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>*- Wikipedia*</seg></tuv><tuv xml:lang="ja">
+        <seg>*-ウィキペディア*</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en"><seg>In SQL databases a table is also known as a **relation.**</seg></tuv><tuv xml:lang="ja">
         <seg>SQLデータベースではテーブルは **関係** としても知られている。</seg>
       </tuv>
@@ -59,14 +67,22 @@
         <seg>列/フィールド</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>A column is a set of data values of a particular simple type, one for each row of the table. The columns provide the structure according to which the rows are composed. The term field is often used interchangeably with column, although many consider it more correct to use field (or field value) to refer specifically to the single item that exists at the intersection between one row and one column. *- Wikipedia*</seg>
+      <tuv xml:lang="en"><seg>A column is a set of data values of a particular simple type, one for each row of the table.</seg></tuv><tuv xml:lang="ja">
+        <seg>列は、特定の単純型のデータ値の集合であり、表の各行に対して1つです。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>列は、特定の単純型のデータ値の集合であり、表の各行に対して1つです。列は、行を構成する構造を提供します。フィールドという用語は、多くの場合、フィールド（またはフィールド値）を使用して、1つの行と1つの列の交差点に存在する単一項目を具体的に参照する方が正しいと考えられますが、列と互換的に使用されます。 *-ウィキペディア*</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>The columns provide the structure according to which the rows are composed.</seg></tuv><tuv xml:lang="ja">
+        <seg>列は、行を構成する構造を提供します。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>The term field is often used interchangeably with column, although many consider it more correct to use field (or field value) to refer specifically to the single item that exists at the intersection between one row and one column.</seg></tuv><tuv xml:lang="ja">
+        <seg>フィールドという用語は、多くの場合、フィールド（またはフィールド値）を使用して、1つの行と1つの列の交差点に存在する単一項目を具体的に参照する方が正しいと考えられますが、列と互換的に使用されます。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>*- Wikipedia*</seg></tuv><tuv xml:lang="ja">
+        <seg>*-ウィキペディア*</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en"><seg>A column:</seg></tuv><tuv xml:lang="ja">
         <seg>列：</seg>
       </tuv>
@@ -79,34 +95,34 @@
         <seg>レコード</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>A record is the information stored in a table row. Each record will have a field for each of the columns in the table.</seg>
+      <tuv xml:lang="en"><seg>A record is the information stored in a table row.</seg></tuv><tuv xml:lang="ja">
+        <seg>レコードは、テーブル行に格納されている情報です。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>レコードは、テーブル行に格納されている情報です。各レコードには、テーブル内の各列のフィールドがあります。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Each record will have a field for each of the columns in the table.</seg></tuv><tuv xml:lang="ja">
+        <seg>各レコードには、テーブル内の各列のフィールドがあります。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Datatypes</seg></tuv><tuv xml:lang="ja">
         <seg>データ型</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>Datatypes restrict the kind of information that can be stored in a column. *- Tim and Horst*</seg>
+      <tuv xml:lang="en"><seg>Datatypes restrict the kind of information that can be stored in a column.</seg></tuv><tuv xml:lang="ja">
+        <seg>データ型は、列に格納できる情報の種類を制限します。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>データ型は、列に格納できる情報の種類を制限します。* - ティムとホルスト*</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>*- Tim and Horst*</seg></tuv><tuv xml:lang="ja">
+        <seg>* - ティムとホルスト*</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>There are many kinds of datatypes. Let's focus on the most common:</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>There are many kinds of datatypes.</seg></tuv><tuv xml:lang="ja">
+        <seg>データ型には多くの種類があります。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>データ型には多くの種類があります。最も一般的なものに焦点を当ててみましょう：</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Let's focus on the most common:</seg></tuv><tuv xml:lang="ja">
+        <seg>最も一般的なものに焦点を当ててみましょう：</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>``String`` - to store free-form text data</seg></tuv><tuv xml:lang="ja">
         <seg>``String`` - 自由形式のテキストデータを格納します</seg>
       </tuv>
@@ -127,14 +143,14 @@
         <seg>``Boolean`` - シンプルな真/偽の値を格納します</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>You can tell the database to allow you to also store nothing in a field. If there is nothing in a field, then the field content is referred to as a **'null' value**:</seg>
+      <tuv xml:lang="en"><seg>You can tell the database to allow you to also store nothing in a field.</seg></tuv><tuv xml:lang="ja">
+        <seg>フィールドに何も保存しないようにデータベースに指示することができます。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>フィールドに何も保存しないようにデータベースに指示することができます。フィールドに何もない場合、フィールドコンテンツは **'null'値** と呼ばれます:</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>If there is nothing in a field, then the field content is referred to as a **'null' value**:</seg></tuv><tuv xml:lang="ja">
+        <seg>フィールドに何もない場合、フィールドコンテンツは **'null'値** と呼ばれます:</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Result:</seg></tuv><tuv xml:lang="ja">
         <seg>結果:</seg>
       </tuv>
@@ -143,14 +159,14 @@
         <seg>住所データベースをモデル化</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>Let's use a simple case study to see how a database is constructed. We want to create an address database.</seg>
+      <tuv xml:lang="en"><seg>Let's use a simple case study to see how a database is constructed.</seg></tuv><tuv xml:lang="ja">
+        <seg>データベースが構築されるかを確認するために、単純なケーススタディを使用してみましょう。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>データベースが構築されるかを確認するために、単純なケーススタディを使用してみましょう。住所のデータベースを作成したいとします。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>We want to create an address database.</seg></tuv><tuv xml:lang="ja">
+        <seg>住所のデータベースを作成したいとします。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>|TY| |basic|</seg></tuv><tuv xml:lang="ja">
         <seg>|TY| |basic|</seg>
       </tuv>
@@ -167,34 +183,42 @@
         <seg>住所の構造</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>The properties that describe an address are the columns. The type of information stored in each column is its datatype. In the next section we will analyse our conceptual address table to see how we can make it better!</seg>
+      <tuv xml:lang="en"><seg>The properties that describe an address are the columns.</seg></tuv><tuv xml:lang="ja">
+        <seg>住所を記述するプロパティは列です。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>住所を記述するプロパティは列です。各列に格納される情報のタイプは、そのデータ型です。次のセクションでは、概念的な住所テーブルを分析して、それをより良くする方法を見てみましょう。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>The type of information stored in each column is its datatype.</seg></tuv><tuv xml:lang="ja">
+        <seg>各列に格納される情報のタイプは、そのデータ型です。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>In the next section we will analyse our conceptual address table to see how we can make it better!</seg></tuv><tuv xml:lang="ja">
+        <seg>次のセクションでは、概念的な住所テーブルを分析して、それをより良くする方法を見てみましょう。</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Database Theory</seg></tuv><tuv xml:lang="ja">
         <seg>データベース理論</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en"><seg>The process of creating a database involves creating a model of the real world; taking real world concepts and representing them in the database as entities.</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="en">
+        <seg>The process of creating a database involves creating a model of the real world; taking real world concepts and representing them in the database as entities.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>データベースを作成するプロセスには、現実世界のモデルを作成することが含まれます。実世界の概念を取り入れ、エンティティとしてデータベースに表現します。</seg>
       </tuv>
-    </tu><tu>
+    </tu>
+    <tu>
       <tuv xml:lang="en"><seg>Normalisation</seg></tuv><tuv xml:lang="ja">
         <seg>正規化</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>One of the main ideas in a database is to avoid data duplication / redundancy. The process of removing redundancy from a database is called Normalisation.</seg>
+      <tuv xml:lang="en"><seg>One of the main ideas in a database is to avoid data duplication / redundancy.</seg></tuv><tuv xml:lang="ja">
+        <seg>データベースの主なアイデアの1つは、データの重複/冗長性を避けることです。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>データベースの主なアイデアの1つは、データの重複/冗長性を避けることです。データベースから冗長性を除去するプロセスを正規化といいます。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>The process of removing redundancy from a database is called Normalisation.</seg></tuv><tuv xml:lang="ja">
+        <seg>データベースから冗長性を除去するプロセスを正規化といいます。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Normalization is a systematic way of ensuring that a database structure is suitable for general-purpose querying and free of certain undesirable characteristics - insertion, update, and deletion anomalies - that could lead to a loss of data integrity.</seg></tuv><tuv xml:lang="ja">
         <seg>正規化は、データベース構造が汎用照会に適しており、挿入、更新、および削除の異常（データの整合性が失われる可能性がある）などの望ましくない特性がないことを確実にする体系的な方法です。</seg>
       </tuv>
@@ -211,14 +235,18 @@
         <seg>簡単な例を見てみましょう:</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>Imagine you have many friends with the same street name or city. Every time this data is duplicated, it consumes space. Worse still, if a city name changes, you have to do a lot of work to update your database.</seg>
+      <tuv xml:lang="en"><seg>Imagine you have many friends with the same street name or city.</seg></tuv><tuv xml:lang="ja">
+        <seg>同じ名前の通りや都市の友達が多いとしましょう。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>同じ名前の通りや都市の友達が多いとしましょう。このデータが複製されるたびに、領域が消費されます。さらに悪いことに、都市名が変更された場合は、データベースを更新するために多くの作業を行う必要があります。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Every time this data is duplicated, it consumes space.</seg></tuv><tuv xml:lang="ja">
+        <seg>このデータが複製されるたびに、領域が消費されます。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Worse still, if a city name changes, you have to do a lot of work to update your database.</seg></tuv><tuv xml:lang="ja">
+        <seg>さらに悪いことに、都市名が変更された場合は、データベースを更新するために多くの作業を行う必要があります。</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Redesign the theoretical `people` table above to reduce duplication and to normalise the data structure.</seg></tuv><tuv xml:lang="ja">
         <seg>重複を低減し、データ構造を正規化するために、上記の理論 `people` テーブルを再設計します。</seg>
       </tuv>
@@ -239,14 +267,18 @@
         <seg>*-ウィキペディア*</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>Imagine you are reading a textbook and looking for the explanation of a concept - and the textbook has no index! You will have to start reading at one cover and work your way through the entire book until you find the information you need. The index at the back of a book helps you to jump quickly to the page with the relevant information:</seg>
+      <tuv xml:lang="en"><seg>Imagine you are reading a textbook and looking for the explanation of a concept - and the textbook has no index!</seg></tuv><tuv xml:lang="ja">
+        <seg>たとえば教科書を読んでいて概念の説明を探してるが、その教科書には索引がなかったとします。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>たとえば教科書を読んでいて概念の説明を探してるが、その教科書には索引がなかったとします。必要な情報が見つかるまで、1つの表紙から読み始め、書籍全体を通して作業を進めなければなりません。教科書の裏にある索引は、関連情報を持つページに素早くジャンプするのに役立ちます:</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>You will have to start reading at one cover and work your way through the entire book until you find the information you need.</seg></tuv><tuv xml:lang="ja">
+        <seg>必要な情報が見つかるまで、1つの表紙から読み始め、書籍全体を通して作業を進めなければなりません。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>The index at the back of a book helps you to jump quickly to the page with the relevant information:</seg></tuv><tuv xml:lang="ja">
+        <seg>教科書の裏にある索引は、関連情報を持つページに素早くジャンプするのに役立ちます:</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Now searches on name will be faster:</seg></tuv><tuv xml:lang="ja">
         <seg>名前の検索が高速になります:</seg>
       </tuv>
@@ -255,14 +287,14 @@
         <seg>連番</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>A sequence is a unique number generator. It is normally used to create a unique identifier for a column in a table.</seg>
+      <tuv xml:lang="en"><seg>A sequence is a unique number generator.</seg></tuv><tuv xml:lang="ja">
+        <seg>連番は、一意の番号ジェネレータです。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>連番は、一意の番号ジェネレータです。通常、テーブル内の列の一意の識別子を作成するために使用されます。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>It is normally used to create a unique identifier for a column in a table.</seg></tuv><tuv xml:lang="ja">
+        <seg>通常、テーブル内の列の一意の識別子を作成するために使用されます。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>In this example, id is a sequence - the number is incremented each time a record is added to the table:</seg></tuv><tuv xml:lang="ja">
         <seg>この例では、IDは連番です - 数は、レコードがテーブルに追加されるたびに1つ増えます:</seg>
       </tuv>
@@ -271,14 +303,18 @@
         <seg>エンティティ関係図の作成</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>In a normalised database, you typically have many relations (tables). The entity-relationship diagram (ER Diagram) is used to design the logical dependencies between the relations. Consider our non-normalised `people` table from earlier in the lesson:</seg>
+      <tuv xml:lang="en"><seg>In a normalised database, you typically have many relations (tables).</seg></tuv><tuv xml:lang="ja">
+        <seg>正規化されたデータベースでは、通常、多くの関係（テーブル）があります。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>正規化されたデータベースでは、通常、多くの関係（テーブル）があります。エンティティ関係図（ER図）は、関係間の論理依存関係を設計するために使用されます。レッスンの前半から正規化されていない `people` テーブルを考えてみましょう::</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>The entity-relationship diagram (ER Diagram) is used to design the logical dependencies between the relations.</seg></tuv><tuv xml:lang="ja">
+        <seg>エンティティ関係図（ER図）は、関係間の論理依存関係を設計するために使用されます。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Consider our non-normalised `people` table from earlier in the lesson:</seg></tuv><tuv xml:lang="ja">
+        <seg>レッスンの前半から正規化されていない `people` テーブルを考えてみましょう::</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en"><seg>With a little work we can split it into two tables, removing the need to repeat the street name for individuals who live in the same street:</seg></tuv><tuv xml:lang="ja">
         <seg>ちょっとした作業で2つのテーブルに分割でき、同じ通りに住む人のために通りの名前を繰り返す必要がなくなります:</seg>
       </tuv>
@@ -295,14 +331,14 @@
         <seg>この2つのテーブルのためのER図を描く場合は、次のようになります。</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>The ER Diagram helps us to express 'one to many' relationships. In this case the arrow symbol show that one street can have many people living on it.</seg>
+      <tuv xml:lang="en"><seg>The ER Diagram helps us to express 'one to many' relationships.</seg></tuv><tuv xml:lang="ja">
+        <seg>ERダイアグラムは、関係「一対多」を表現する助けになります。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>ERダイアグラムは、関係「一対多」を表現する助けになります。この場合、矢印記号は、1つの通りに対して住んでいる人々は何人もいることがあると示しています。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>In this case the arrow symbol show that one street can have many people living on it.</seg></tuv><tuv xml:lang="ja">
+        <seg>この場合、矢印記号は、1つの通りに対して住んでいる人々は何人もいることがあると示しています。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>|TY| |moderate|</seg></tuv><tuv xml:lang="ja">
         <seg>|TY| |moderate|</seg>
       </tuv>
@@ -319,22 +355,22 @@
         <seg>制約、主キーと外部キー</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>A database constraint is used to ensure that data in a relation matches the modeller's view of how that data should be stored. For example a constraint on your postal code could ensure that the number falls between :kbd:`1000` and :kbd:`9999`.</seg>
+      <tuv xml:lang="en"><seg>A database constraint is used to ensure that data in a relation matches the modeller's view of how that data should be stored.</seg></tuv><tuv xml:lang="ja">
+        <seg>リレーション内のデータがモデラーのデータの格納方法と一致するように、データベースの制約が使用されます。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>リレーション内のデータがモデラーのデータの格納方法と一致するように、データベースの制約が使用されます。たとえば、郵便番号の制約により、数字が :kbd:`1000` と :kbd:`9999` の間に入ることが保証されます。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>For example a constraint on your postal code could ensure that the number falls between :kbd:`1000` and :kbd:`9999`.</seg></tuv><tuv xml:lang="ja">
+        <seg>たとえば、郵便番号の制約により、数字が :kbd:`1000` と :kbd:`9999` の間に入ることが保証されます。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>A Primary key is one or more field values that make a record unique. Usually the primary key is called id and is a sequence.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>A Primary key is one or more field values that make a record unique.</seg></tuv><tuv xml:lang="ja">
+        <seg>主キーは、レコードを一意にする1つ以上のフィールドの値です。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>主キーは、レコードを一意にする1つ以上のフィールドの値です。通常、主キーはidという連番です。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Usually the primary key is called id and is a sequence.</seg></tuv><tuv xml:lang="ja">
+        <seg>通常、主キーはidという連番です。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>A Foreign key is used to refer to a unique record on another table (using that other table's primary key).</seg></tuv><tuv xml:lang="ja">
         <seg>外部キーは、（他のテーブルの主キーを使用して）別のテーブルに一意のレコードを参照するために使用されます。</seg>
       </tuv>
@@ -351,22 +387,30 @@
         <seg>トランザクション</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>When adding, changing, or deleting data in a database, it is always important that the database is left in a good state if something goes wrong. Most databases provide a feature called transaction support. Transactions allow you to create a rollback position that you can return to if your modifications to the database did not run as planned.</seg>
+      <tuv xml:lang="en"><seg>When adding, changing, or deleting data in a database, it is always important that the database is left in a good state if something goes wrong.</seg></tuv><tuv xml:lang="ja">
+        <seg>データベース内のデータを追加、変更、または削除するときは、何か問題が生じた場合にデータベースを良好な状態に保つことが常に重要です。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>データベース内のデータを追加、変更、または削除するときは、何か問題が生じた場合にデータベースを良好な状態に保つことが常に重要です。ほとんどのデータベースは、トランザクションサポートと呼ばれる機能を提供します。トランザクションを使用すると、データベースへの変更が計画通りに実行されなかった場合に戻ることができるロールバック位置を作成できます。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Most databases provide a feature called transaction support.</seg></tuv><tuv xml:lang="ja">
+        <seg>ほとんどのデータベースは、トランザクションサポートと呼ばれる機能を提供します。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Take a scenario where you have an accounting system. You need to transfer funds from one account and add them to another. The sequence of steps would go like this:</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Transactions allow you to create a rollback position that you can return to if your modifications to the database did not run as planned.</seg></tuv><tuv xml:lang="ja">
+        <seg>トランザクションを使用すると、データベースへの変更が計画通りに実行されなかった場合に戻ることができるロールバック位置を作成できます。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>会計システムを持っているというシナリオを取ります。1つの口座から資金を転送し、他にそれらを追加する必要があります。一連のステップは次のように進むでしょう。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Take a scenario where you have an accounting system.</seg></tuv><tuv xml:lang="ja">
+        <seg>会計システムを持っているというシナリオを取ります。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>You need to transfer funds from one account and add them to another.</seg></tuv><tuv xml:lang="ja">
+        <seg>1つの口座から資金を転送し、他にそれらを追加する必要があります。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>The sequence of steps would go like this:</seg></tuv><tuv xml:lang="ja">
+        <seg>一連のステップは次のように進むでしょう。</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en"><seg>remove R20 from Joe</seg></tuv><tuv xml:lang="ja">
         <seg>JoeからR20を削除</seg>
       </tuv>

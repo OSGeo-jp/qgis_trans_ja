@@ -2,16 +2,20 @@
 <!DOCTYPE tmx SYSTEM "tmx14.dtd">
 <tmx version="1.4">
   <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
-  <body><tu>
+  <body>
+    <tu>
       <tuv xml:lang="en"><seg>|MOD| Database Concepts with PostgreSQL</seg></tuv><tuv xml:lang="ja">
         <seg>|MOD|  PostgreSQLでのデータベース概念</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en">
-        <seg>Relational Databases are an important part of any GIS system. In this module, you'll learn about Relational Database Management System (RDBMS) concepts and you will use PostgreSQL to create a new database to store data, as well as learning about other typical RDBMS functions.</seg>
+    </tu>
+    <tu>
+      <tuv xml:lang="en"><seg>Relational Databases are an important part of any GIS system.</seg></tuv><tuv xml:lang="ja">
+        <seg>リレーショナル·データベースはGISシステムの重要な部分です。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>リレーショナル·データベースはGISシステムの重要な部分です。リレーショナルデータベース管理システム（RDBMS）の概念について学び、データを格納するための新しいデータベースを作成するためにPostgreSQLを使用してだけでなく、他の一般的なRDBMSの機能について学習します。</seg>
+    </tu>
+    <tu>
+      <tuv xml:lang="en"><seg>In this module, you'll learn about Relational Database Management System (RDBMS) concepts and you will use PostgreSQL to create a new database to store data, as well as learning about other typical RDBMS functions.</seg></tuv><tuv xml:lang="ja">
+        <seg>リレーショナルデータベース管理システム（RDBMS）の概念について学び、データを格納するための新しいデータベースを作成するためにPostgreSQLを使用してだけでなく、他の一般的なRDBMSの機能について学習します。</seg>
       </tuv>
     </tu>
   </body>

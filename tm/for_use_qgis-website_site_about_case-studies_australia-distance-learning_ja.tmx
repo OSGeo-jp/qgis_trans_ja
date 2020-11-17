@@ -19,14 +19,22 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Providing education in both an On-campus and Off-campus mode has many technological challenges. Teaching a GIS course requires overcoming these challenges. On average, 300-350 students enrol in the basic GIS course every year. About 80% of them study in the off-campus mode.</seg>
+      <tuv xml:lang="en"><seg>Providing education in both an On-campus and Off-campus mode has many technological challenges.</seg></tuv><tuv xml:lang="ja">
+        <seg>学内モードと学外モードの両方で教育を提供するには多くの技術的課題があります。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>学内モードと学外モードの両方で教育を提供するには多くの技術的課題があります。GISコースを教えるには、これらの課題を克服する必要があります。平均して、毎年300〜350人の学生が基礎GISコースに登録しています。その約80％は学外モードで学んでいます。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Teaching a GIS course requires overcoming these challenges.</seg></tuv><tuv xml:lang="ja">
+        <seg>GISコースを教えるには、これらの課題を克服する必要があります。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>On average, 300-350 students enrol in the basic GIS course every year.</seg></tuv><tuv xml:lang="ja">
+        <seg>平均して、毎年300〜350人の学生が基礎GISコースに登録しています。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>About 80% of them study in the off-campus mode.</seg></tuv><tuv xml:lang="ja">
+        <seg>その約80％は学外モードで学んでいます。</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en"><seg>USQ Main Campus Map created using QGIS</seg></tuv><tuv xml:lang="ja">
         <seg>QGISを使用して作成されたUSQメインキャンパス地図</seg>
       </tuv>
@@ -35,46 +43,74 @@
         <seg>サザンクイーンズランド大学のQGIS</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>GIS education is incomplete without hands-on processing skills. However, providing hands-on GIS skills to off-campus students is not easy because of issues of internet access, cost of software licenses and compatibility with different computer Operating Systems.</seg>
+      <tuv xml:lang="en"><seg>GIS education is incomplete without hands-on processing skills.</seg></tuv><tuv xml:lang="ja">
+        <seg>GIS教育は実践的な処理スキルを伴わなければ不完全です。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>GIS教育は実践的な処理スキルを伴わなければ不完全です。しかし、学外の学生に実践的なGISスキルを提供するのは、インターネットアクセス、ソフトウェアライセンスのコスト、およびさまざまなコンピュータオペレーティングシステムとの互換性の問題のため、簡単なことではありません。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>However, providing hands-on GIS skills to off-campus students is not easy because of issues of internet access, cost of software licenses and compatibility with different computer Operating Systems.</seg></tuv><tuv xml:lang="ja">
+        <seg>しかし、学外の学生に実践的なGISスキルを提供するのは、インターネットアクセス、ソフトウェアライセンスのコスト、およびさまざまなコンピュータオペレーティングシステムとの互換性の問題のため、簡単なことではありません。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>The traditional GIS education program at USQ was originally designed to provide different levels of access to GIS learning resources. On-campus students received simultaneous hands-on GIS instruction while the Off-campus students attended a residential school at USQ’s main campus later on to receive hands-on GIS instruction. Providing different levels of instruction to different groups of students enrolled in the same course at the same time wasn’t considered fair to the students. Removing this inequity became a priority.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>The traditional GIS education program at USQ was originally designed to provide different levels of access to GIS learning resources.</seg></tuv><tuv xml:lang="ja">
+        <seg>USQの伝統的なGIS教育プログラムは、もともとGISの学習リソースへのさまざまなレベルのアクセスを提供するように設計されていました。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>USQの伝統的なGIS教育プログラムは、もともとGISの学習リソースへのさまざまなレベルのアクセスを提供するように設計されていました。キャンパス内の学生はGISの実践的なハンズオン指導を受けましたが、キャンパス外の学生は後日USQのメインキャンパスの住宅学校に通いGISの実践的な指導を受けました。同じコースに登録されている異なるグループの学生に同時に異なるレベルの指導を提供することは、学生にとって公正とは見なされませんでした。この不平等を取り除くことが優先事項となりました。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>On-campus students received simultaneous hands-on GIS instruction while the Off-campus students attended a residential school at USQ’s main campus later on to receive hands-on GIS instruction.</seg></tuv><tuv xml:lang="ja">
+        <seg>キャンパス内の学生はGISの実践的なハンズオン指導を受けましたが、キャンパス外の学生は後日USQのメインキャンパスの住宅学校に通いGISの実践的な指導を受けました。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Different open access geospatial software programs were evaluated for our needs. QGIS was found to be the most suitable to overcome almost all of the challenges we faced. The particular advantages included its free availability, user-friendliness, adaptability and platform independency. We adopted it and enriched it with additional learning resources developed at USQ.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Providing different levels of instruction to different groups of students enrolled in the same course at the same time wasn’t considered fair to the students.</seg></tuv><tuv xml:lang="ja">
+        <seg>同じコースに登録されている異なるグループの学生に同時に異なるレベルの指導を提供することは、学生にとって公正とは見なされませんでした。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>私たちのニーズに対して、さまざまなオープンアクセス地理空間ソフトウェアプログラムが評価されました。QGISは、私たちが直面しているほとんどすべての課題を克服するのに最も適していることがわかりました。特別な利点には、その無料の可用性、使いやすさ、適応性、およびプラットフォームの独立性がありました。私たちはそれを採用し、USQで開発された追加の学習リソースでそれを豊かにしました。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Removing this inequity became a priority.</seg></tuv><tuv xml:lang="ja">
+        <seg>この不平等を取り除くことが優先事項となりました。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>The traditional ‘cook-book’ tutorial method of teaching was replaced with contemporary audio-visual demonstration presentations followed by problem-based hands-on learning exercises. The course assessments (assignments) were rewritten to require use of GIS software. Students completed more than 24 QGIS based hands-on exercises and an assignment during the semester.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Different open access geospatial software programs were evaluated for our needs.</seg></tuv><tuv xml:lang="ja">
+        <seg>私たちのニーズに対して、さまざまなオープンアクセス地理空間ソフトウェアプログラムが評価されました。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>伝統的な「クックブック」の指導方法は、現代的な視聴覚的なデモンストレーションプレゼンテーションとそれに続く問題に基づいた実践的な学習演習に置き換えられました。コース評価（課題）はGISソフトウェアの使用を要求するように書き直されました。学生は24以上のQGISベースの実地演習と学期中の課題を完了しました。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>QGIS was found to be the most suitable to overcome almost all of the challenges we faced.</seg></tuv><tuv xml:lang="ja">
+        <seg>QGISは、私たちが直面しているほとんどすべての課題を克服するのに最も適していることがわかりました。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>On average, 93% of the students in the course used QGIS software and the instructional resources. Voluntary feedback was received from 51% of the QGIS users. The results (Figure 2) show the majority (82%) of the students rated QGIS software and the hands-on learning resources as, ‘helpful’ to ‘very helpful’ in learning GIS. Most others rated it as ‘reasonable’.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>The particular advantages included its free availability, user-friendliness, adaptability and platform independency.</seg></tuv><tuv xml:lang="ja">
+        <seg>特別な利点には、その無料の可用性、使いやすさ、適応性、およびプラットフォームの独立性がありました。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>平均して、コースの生徒の93％がQGISソフトウェアと教材を使っていました。自主的なフィードバックは、51％のQGISユーザーから寄せられていました。結果（図2）は、大部分（82％）の学生がQGISソフトウェアを評価し、実践的な学習リソースをGISの学習に「役立つ」から「非常に役立つ」と評価しています。他のほとんどの人はそれを「妥当」と評価しました。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>We adopted it and enriched it with additional learning resources developed at USQ.</seg></tuv><tuv xml:lang="ja">
+        <seg>私たちはそれを採用し、USQで開発された追加の学習リソースでそれを豊かにしました。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>The traditional ‘cook-book’ tutorial method of teaching was replaced with contemporary audio-visual demonstration presentations followed by problem-based hands-on learning exercises.</seg></tuv><tuv xml:lang="ja">
+        <seg>伝統的な「クックブック」の指導方法は、現代的な視聴覚的なデモンストレーションプレゼンテーションとそれに続く問題に基づいた実践的な学習演習に置き換えられました。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>The course assessments (assignments) were rewritten to require use of GIS software.</seg></tuv><tuv xml:lang="ja">
+        <seg>コース評価（課題）はGISソフトウェアの使用を要求するように書き直されました。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Students completed more than 24 QGIS based hands-on exercises and an assignment during the semester.</seg></tuv><tuv xml:lang="ja">
+        <seg>学生は24以上のQGISベースの実地演習と学期中の課題を完了しました。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>On average, 93% of the students in the course used QGIS software and the instructional resources.</seg></tuv><tuv xml:lang="ja">
+        <seg>平均して、コースの生徒の93％がQGISソフトウェアと教材を使っていました。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Voluntary feedback was received from 51% of the QGIS users.</seg></tuv><tuv xml:lang="ja">
+        <seg>自主的なフィードバックは、51％のQGISユーザーから寄せられていました。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>The results (Figure 2) show the majority (82%) of the students rated QGIS software and the hands-on learning resources as, ‘helpful’ to ‘very helpful’ in learning GIS.</seg></tuv><tuv xml:lang="ja">
+        <seg>結果（図2）は、大部分（82％）の学生がQGISソフトウェアを評価し、実践的な学習リソースをGISの学習に「役立つ」から「非常に役立つ」と評価しています。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Most others rated it as ‘reasonable’.</seg></tuv><tuv xml:lang="ja">
+        <seg>他のほとんどの人はそれを「妥当」と評価しました。</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Students response graph</seg></tuv><tuv xml:lang="ja">
         <seg>生徒の反応グラフ</seg>
       </tuv>
@@ -135,44 +171,64 @@
         <seg>*QGIS演習はうまく設計されており、GISを使用するプロセスを通して生徒を一歩ずつ導きます*</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>It is clear that student’s benefited substantially from the use of QGIS. QGIS provided the same learning opportunity for each student enrolled in the course irrespective of where they were or how they accessed the material</seg>
+      <tuv xml:lang="en"><seg>It is clear that student’s benefited substantially from the use of QGIS.</seg></tuv><tuv xml:lang="ja">
+        <seg>学生達がQGISを使用することで実質的に利益を得たことは明らかです。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>学生達がQGISを使用することで実質的に利益を得たことは明らかです。QGISによりコースに参加している各学生に対して、どこにいるか、どのように教材にアクセスするかにかかわらず、同じ学習機会が提供されました。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>QGIS provided the same learning opportunity for each student enrolled in the course irrespective of where they were or how they accessed the material</seg></tuv><tuv xml:lang="ja">
+        <seg>QGISによりコースに参加している各学生に対して、どこにいるか、どのように教材にアクセスするかにかかわらず、同じ学習機会が提供されました。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Conclusion</seg></tuv><tuv xml:lang="ja">
         <seg>結論</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>In conclusion, using QGIS software in teaching GIS courses at educational institutions with an online learning environment offers large benefits to both the students and the university. However, there are two important aspects to successfully using QGIS for learning and teaching. Firstly, there is a need to develop customised hands-on learning resources suitable for local environment and secondly, the assessment procedure should require use of the software.</seg>
+      <tuv xml:lang="en"><seg>In conclusion, using QGIS software in teaching GIS courses at educational institutions with an online learning environment offers large benefits to both the students and the university.</seg></tuv><tuv xml:lang="ja">
+        <seg>結論として、オンライン学習環境で教育機関でGISコースを教える際にQGISソフトウェアを使用することは、学生と大学の両方に大きな利益をもたらします。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>結論として、オンライン学習環境で教育機関でGISコースを教える際にQGISソフトウェアを使用することは、学生と大学の両方に大きな利益をもたらします。しかし、学習と教育にQGISをうまく使用するには、2つの重要な側面があります。第一に、地域の環境に適したカスタマイズされた実践的な学習リソースを開発する必要があり、第二に、評価手順はソフトウェアの使用を必要とするべきです。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>However, there are two important aspects to successfully using QGIS for learning and teaching.</seg></tuv><tuv xml:lang="ja">
+        <seg>しかし、学習と教育にQGISをうまく使用するには、2つの重要な側面があります。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Firstly, there is a need to develop customised hands-on learning resources suitable for local environment and secondly, the assessment procedure should require use of the software.</seg></tuv><tuv xml:lang="ja">
+        <seg>第一に、地域の環境に適したカスタマイズされた実践的な学習リソースを開発する必要があり、第二に、評価手順はソフトウェアの使用を必要とするべきです。</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Authors</seg></tuv><tuv xml:lang="ja">
         <seg>著者</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>Dr Badri Basnet (basnetb@usq.edu.au) is a Senior Lecturer at the University of Southern Queensland (USQ), where he teaches Geographic Information Systems (GIS) and other related courses.  Badri has extensive teaching experiences in higher education institutions in and outside Australia. He is heavily involved in scholarship of learning and teaching of GIS courses in an online (or distance) education environment. His learning and teaching research focus is in the development and use of open educational resources in GIS education.</seg>
+      <tuv xml:lang="en"><seg>Dr Badri Basnet (basnetb@usq.edu.au) is a Senior Lecturer at the University of Southern Queensland (USQ), where he teaches Geographic Information Systems (GIS) and other related courses.</seg></tuv><tuv xml:lang="ja">
+        <seg>Badri Basnet博士（basnetb@usq.edu.au）は、サザンクイーンズランド大学（USQ）の上級講師で、地理情報システム（GIS）およびその他の関連コースを教えています。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>Badri Basnet博士（basnetb@usq.edu.au）は、サザンクイーンズランド大学（USQ）の上級講師で、地理情報システム（GIS）およびその他の関連コースを教えています。オーストラリア内外の高等教育機関で広範な教育経験を積んでいます。オンライン（または遠隔）教育環境におけるGISコースの学習および教育の奨学金に深く関わっています。博士の学習および教育研究の焦点は、GIS教育におけるオープンな教育リソースの開発と使用にあります。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Badri has extensive teaching experiences in higher education institutions in and outside Australia.</seg></tuv><tuv xml:lang="ja">
+        <seg>オーストラリア内外の高等教育機関で広範な教育経験を積んでいます。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Dr Ernest Dunwoody (edunwoody1@gmail.com) specialises in GIS and remote sensing image analysis applications. This includes ecosystem analysis, sustainable development plans for natural areas, soils mapping, and precision agriculture applications. He has found the wide range of embedded functions, Plugins, and processing tools available through QGIS give it unparalleled flexibility in processing. This familiarity allows him to develop instructional QGIS videos based on Australian spatial data sets.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>He is heavily involved in scholarship of learning and teaching of GIS courses in an online (or distance) education environment.</seg></tuv><tuv xml:lang="ja">
+        <seg>オンライン（または遠隔）教育環境におけるGISコースの学習および教育の奨学金に深く関わっています。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>Ernest Dunwoody博士（edunwoody1@gmail.com）は、GISおよびリモートセンシング画像解析アプリケーションを専門としています。これには、生態系分析、自然地域の持続可能な開発計画、土壌マッピング、そして精密農業への応用があります。博士はQGISを通して利用可能な広範囲の組込み関数、プラグイン、そして処理ツールがそれに処理における比類のない柔軟性を与えることを発見しました。このようなことに精通していることで、オーストラリアの空間データセットに基づいた指導的なQGISビデオを開発できます。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>His learning and teaching research focus is in the development and use of open educational resources in GIS education.</seg></tuv><tuv xml:lang="ja">
+        <seg>博士の学習および教育研究の焦点は、GIS教育におけるオープンな教育リソースの開発と使用にあります。</seg>
       </tuv>
-    </tu>
-  </body>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Dr Ernest Dunwoody (edunwoody1@gmail.com) specialises in GIS and remote sensing image analysis applications.</seg></tuv><tuv xml:lang="ja">
+        <seg>Ernest Dunwoody博士（edunwoody1@gmail.com）は、GISおよびリモートセンシング画像解析アプリケーションを専門としています。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>This includes ecosystem analysis, sustainable development plans for natural areas, soils mapping, and precision agriculture applications.</seg></tuv><tuv xml:lang="ja">
+        <seg>これには、生態系分析、自然地域の持続可能な開発計画、土壌マッピング、そして精密農業への応用があります。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>He has found the wide range of embedded functions, Plugins, and processing tools available through QGIS give it unparalleled flexibility in processing.</seg></tuv><tuv xml:lang="ja">
+        <seg>博士はQGISを通して利用可能な広範囲の組込み関数、プラグイン、そして処理ツールがそれに処理における比類のない柔軟性を与えることを発見しました。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>This familiarity allows him to develop instructional QGIS videos based on Australian spatial data sets.</seg></tuv><tuv xml:lang="ja">
+        <seg>このようなことに精通していることで、オーストラリアの空間データセットに基づいた指導的なQGISビデオを開発できます。</seg>
+      </tuv>
+    </tu></body>
 </tmx>

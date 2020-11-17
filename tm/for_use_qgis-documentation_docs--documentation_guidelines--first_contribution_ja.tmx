@@ -11,34 +11,38 @@
         <seg>ここでは手順の説明のためにQGISドキュメントを使用しますが、以下で説明するコマンドおよび手順はすべて、QGISウェブサイトにも当てはまります。</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>If you are reading these lines, it is certainly because you are willing to contribute to writing QGIS documentation and are looking for a how-to. You have come to the right place! The current document will guide you through the different ways to achieve this objective, showing you the main steps to follow, the tricks you can use and the traps you should be aware of.</seg>
+      <tuv xml:lang="en"><seg>If you are reading these lines, it is certainly because you are willing to contribute to writing QGIS documentation and are looking for a how-to.</seg></tuv><tuv xml:lang="ja">
+        <seg>あなたがこの文章を読まれているということはきっと、QGISドキュメントに貢献しようという気持ちがあって、そのための方法を探されているのでしょう。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>あなたがこの文章を読まれているということはきっと、QGISドキュメントに貢献しようという気持ちがあって、そのための方法を探されているのでしょう。 ここで提供しようとしているのは、まさしくそれです。現在この文書では、目的を達成するための複数の方法を一通り案内し、従うべき主な手順を示し、使用可能な小技と知っておくべき落とし穴を教えています。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>You have come to the right place!</seg></tuv><tuv xml:lang="ja">
+        <seg>ここで提供しようとしているのは、まさしくそれです。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>For any help, do not hesitate to either ask in a comment on the issue report you are trying to fix or write to the `QGIS-community-team list &lt;https://lists.osgeo.org/mailman/listinfo/qgis-community-team&gt;`_. More details at `Get involved in documentation &lt;https://qgis.org/en/site/getinvolved/document.html&gt;`_.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>The current document will guide you through the different ways to achieve this objective, showing you the main steps to follow, the tricks you can use and the traps you should be aware of.</seg></tuv><tuv xml:lang="ja">
+        <seg>現在この文書では、目的を達成するための複数の方法を一通り案内し、従うべき主な手順を示し、使用可能な小技と知っておくべき落とし穴を教えています。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>何か助けが必要なときには迷わず、修正しようとしているIssueレポートのコメントに書き込むか、 `QGISコミュニティチームメーリングリスト &lt;https://lists.osgeo.org/mailman/listinfo/qgis-community-team&gt;`_ に投稿をしてください。より詳しくは `ドキュメントを書く &lt;https://qgis.org/ja/site/getinvolved/document.html&gt;`_ をご覧ください。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>For any help, do not hesitate to either ask in a comment on the issue report you are trying to fix or write to the `QGIS-community-team list &lt;https://lists.osgeo.org/mailman/listinfo/qgis-community-team&gt;`_.</seg></tuv><tuv xml:lang="ja">
+        <seg>何か助けが必要なときには迷わず、修正しようとしているIssueレポートのコメントに書き込むか、 `QGISコミュニティチームメーリングリスト &lt;https://lists.osgeo.org/mailman/listinfo/qgis-community-team&gt;`_ に投稿をしてください。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>More details at `Get involved in documentation &lt;https://qgis.org/en/site/getinvolved/document.html&gt;`_.</seg></tuv><tuv xml:lang="ja">
+        <seg>より詳しくは `ドキュメントを書く &lt;https://qgis.org/ja/site/getinvolved/document.html&gt;`_ をご覧ください。</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Let's now dive into the process.</seg></tuv><tuv xml:lang="ja">
         <seg>さあ、では集中して始めてみましょう。</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>Documentation sources are stored using the git version control system and are available on GitHub at https://github.com/qgis/QGIS-Documentation. There are two main ways, not mutually exclusive, to modify the files:</seg>
+      <tuv xml:lang="en"><seg>Documentation sources are stored using the git version control system and are available on GitHub at https://github.com/qgis/QGIS-Documentation.</seg></tuv><tuv xml:lang="ja">
+        <seg>ドキュメントのソースはGitバージョンコントロールシステムを使用して保存されいて、GitHub https://github.com/qgis/QGIS-Documentation で利用することができます。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>ドキュメントのソースはGitバージョンコントロールシステムを使用して保存されいて、GitHub https://github.com/qgis/QGIS-Documentation で利用することができます。ファイルに変更を加えるには主に2つの方法がありますが、どちらか一方の方法しか選べないというわけではありません。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>There are two main ways, not mutually exclusive, to modify the files:</seg></tuv><tuv xml:lang="ja">
+        <seg>ファイルに変更を加えるには主に2つの方法がありますが、どちらか一方の方法しか選べないというわけではありません。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>:ref:`Using the GitHub web interface &lt;github_interface&gt;`</seg></tuv><tuv xml:lang="ja">
         <seg>:ref:`GitHub のウェブインタフェースを使用する &lt;github_interface&gt;`</seg>
       </tuv>
@@ -79,14 +83,14 @@
         <seg>**報告されたIssueをあなたが修正中なら**</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>If you are making changes to fix an `issue &lt;https://github.com/qgis/QGIS- Documentation/issues&gt;`_, add a comment to the issue report to assign it to yourself. This will prevent more than one person from working on the same issue.</seg>
+      <tuv xml:lang="en"><seg>If you are making changes to fix an `issue &lt;https://github.com/qgis/QGIS- Documentation/issues&gt;`_, add a comment to the issue report to assign it to yourself.</seg></tuv><tuv xml:lang="ja">
+        <seg>もしあなたが `issue &lt;https://github.com/qgis/QGIS- Documentation / issues&gt;`_ を修正するための変更を加えている最中なら、issueレポートにコメントをして、それをあなた自身に割り当ててください。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>もしあなたが `issue &lt;https://github.com/qgis/QGIS- Documentation / issues&gt;`_ を修正するための変更を加えている最中なら、issueレポートにコメントをして、それをあなた自身に割り当ててください。これにより、複数の人が同じissueに取り組むことを防ぐことができます。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>This will prevent more than one person from working on the same issue.</seg></tuv><tuv xml:lang="ja">
+        <seg>これにより、複数の人が同じissueに取り組むことを防ぐことができます。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>1. Fork QGIS-Documentation</seg>
       </tuv>
@@ -119,14 +123,14 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>There are different ways to contribute to QGIS documentation. We show them separately below, but you can switch from one process to the other without any harm.</seg>
+      <tuv xml:lang="en"><seg>There are different ways to contribute to QGIS documentation.</seg></tuv><tuv xml:lang="ja">
+        <seg>QGISドキュメンテーションに貢献するにはいくつかの異なった方法があります。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>QGISドキュメンテーションに貢献するにはいくつかの異なった方法があります。以下ではそれらを別々に示しますが、あるプロセスから別のプロセスに切り替えることに何ら問題はありません。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>We show them separately below, but you can switch from one process to the other without any harm.</seg></tuv><tuv xml:lang="ja">
+        <seg>以下ではそれらを別々に示しますが、あるプロセスから別のプロセスに切り替えることに何ら問題はありません。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Alternative 1: Use the ``Edit on GitHub`` shortcut</seg></tuv><tuv xml:lang="ja">
         <seg>選択肢 1： ``Edit on GitHub`` ショートカットを使用する</seg>
       </tuv>
@@ -135,26 +139,30 @@
         <seg>QGIS ドキュメントのそれぞれのページは、ページの右上にある ``Edit on GitHub`` というリンクをクリックすると、素早く簡単に編集することができます。</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en"><seg>This will open the file in the ``qgis:master`` branch with a message at the top of the page telling you that you don't have write access to this repo and your changes will be applied to a new branch of your repository.</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="en">
+        <seg>This will open the file in the ``qgis:master`` branch with a message at the top of the page telling you that you don't have write access to this repo and your changes will be applied to a new branch of your repository.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>``Edit on GitHub`` をクリックすると、``qgis:master`` ブランチのファイルが開きます。ページの上部には、あなたにはこのリポジトリへの書込権限がないため、変更はあなたのリポジトリの新しいブランチで適用される旨を知らせるメッセージが、表示されます。</seg>
       </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en"><seg>Do your changes.</seg></tuv><tuv xml:lang="ja">
+        <seg>変更を行います。</seg>
+      </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>Do your changes. Since the documentation is written using the reStructureText syntax, depending on your changes, you may need to rely on the :ref:`writing guidelines &lt;QGIS-documentation-guidelines&gt;`.</seg>
+      <tuv xml:lang="en"><seg>Since the documentation is written using the reStructureText syntax, depending on your changes, you may need to rely on the :ref:`writing guidelines &lt;QGIS-documentation-guidelines&gt;`.</seg></tuv><tuv xml:lang="ja">
+        <seg>ドキュメントはreStructureTextシンタックスを使用して書かれていますので、変更の内容によっては、 :ref:`執筆のためのガイドライン &lt;QGIS-documentation-guidelines&gt;` を参照しながら行う必要があるかもしれません。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>変更を行います。ドキュメントはreStructureTextシンタックスを使用して書かれていますので、変更の内容によっては、 :ref:`執筆のためのガイドライン &lt;QGIS-documentation-guidelines&gt;` を参照しながら行う必要があるかもしれません。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>When you finish, make a short comment about your changes and click on :guilabel:`Propose changes`.</seg></tuv><tuv xml:lang="ja">
+        <seg>終了したら、行った変更について短いコメントを書いて、 :guilabel:`Propose changes` をクリックします。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>When you finish, make a short comment about your changes and click on :guilabel:`Propose changes`. This will generate a new `branch &lt;https://help.github.com/articles/about-branches/&gt;`_ (``patch-xxx``) in your repository.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>This will generate a new `branch &lt;https://help.github.com/articles/about-branches/&gt;`_ (``patch-xxx``) in your repository.</seg></tuv><tuv xml:lang="ja">
+        <seg>これによってあなたのリポジトリに新しい `ブランチ &lt;https://help.github.com/articles/about-branches/&gt;`_ (``patch-xxx``) が作成されます。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>終了したら、行った変更について短いコメントを書いて、 :guilabel:`Propose changes` をクリックします。これによってあなたのリポジトリに新しい `ブランチ &lt;https://help.github.com/articles/about-branches/&gt;`_ (``patch-xxx``) が作成されます。</seg>
-      </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>After you click on :guilabel:`Propose changes`, github will navigate to the :guilabel:`Comparing changes` page.</seg></tuv><tuv xml:lang="ja">
         <seg>:guilabel:`Propose changes` をクリックすると、GitHubの :guilabel:`Comparing changes` ページに移動します。</seg>
       </tuv>
@@ -195,26 +203,38 @@
         <seg>あなたがフォークしたQGIS-Documentationで直接ファイルを編集できます。</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>Click on |githubBranch| in the upper left corner of your forked QGIS- Documentation repository and enter a unique name in the text field to create a new `branch &lt;https://help.github.com/articles/about-branches/&gt;`_ . The name of the new branch should relate to the problem you intend to fix. The |githubBranch| button should now say :guilabel:`Branch: branch_name`</seg>
+      <tuv xml:lang="en"><seg>Click on |githubBranch| in the upper left corner of your forked QGIS- Documentation repository and enter a unique name in the text field to create a new `branch &lt;https://help.github.com/articles/about-branches/&gt;`_ .</seg></tuv><tuv xml:lang="ja">
+        <seg>フォークしたQGIS-Documentationリポジトリの左上隅にある |githubBranch| をクリックして、テキストフィールドに一意の名前を入力して新しい `ブランチ &lt;https://help.github.com/articles/about-branches/&gt;`_ を作成します。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>フォークしたQGIS-Documentationリポジトリの左上隅にある |githubBranch| をクリックして、テキストフィールドに一意の名前を入力して新しい `ブランチ &lt;https://help.github.com/articles/about-branches/&gt;`_ を作成します。新しいブランチの名前は、修正しようとしている問題に関連していなければなりません。すると |githubBranch| ボタンは :guilabel:`Branch: branch_name` となるはずです。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>The name of the new branch should relate to the problem you intend to fix.</seg></tuv><tuv xml:lang="ja">
+        <seg>新しいブランチの名前は、修正しようとしている問題に関連していなければなりません。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en"><seg>**Do your changes in an ad hoc branch, never in the** ``master`` **branch**</seg></tuv><tuv xml:lang="ja">
-        <seg>**変更はこの一時的な専用ブランチで行うこと。絶対に** ``master`` **ブランチでは行わないこと**</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>The |githubBranch| button should now say :guilabel:`Branch: branch_name`</seg></tuv><tuv xml:lang="ja">
+        <seg>すると |githubBranch| ボタンは :guilabel:`Branch: branch_name` となるはずです。</seg>
       </tuv>
     </tu><tu>
       <tuv xml:lang="en">
-        <seg>By convention, avoid making changes in your ``master`` branch except when you merge the modifications from the ``master`` branch of ``qgis/QGIS-Documentation`` into your copy of the QGIS-Documentation repository. Separate branches allow you to work on multiple problems at the same time without interfering with other branches. If you make a mistake you can always delete a branch and start over by creating a new one from the master branch.</seg>
+        <seg>**Do your changes in an ad hoc branch, never in the** ``master`` **branch**</seg>
       </tuv>
       <tuv xml:lang="ja">
-        <seg>``qgis/QGIS-Documentation`` の ``master`` ブランチからあなたのQGIS-Documentationリポジトリに変更をマージする場合を除いて、 慣例として ``master`` ブランチでは変更を行わないでください。問題ごとに別々のブランチを使用することによって、他のブランチに干渉することなく、同時に複数の問題に取り組むことができます。間違えた場合は、いつでもブランチを削除して、masterブランチから新しいブランチを作成してやり直すことができます。</seg>
+        <seg>**変更はこの一時的な専用ブランチで行うこと。絶対に** ``master`` **ブランチでは行わないこと**</seg>
       </tuv>
     </tu>
     <tu>
+      <tuv xml:lang="en"><seg>By convention, avoid making changes in your ``master`` branch except when you merge the modifications from the ``master`` branch of ``qgis/QGIS-Documentation`` into your copy of the QGIS-Documentation repository.</seg></tuv><tuv xml:lang="ja">
+        <seg>``qgis/QGIS-Documentation`` の ``master`` ブランチからあなたのQGIS-Documentationリポジトリに変更をマージする場合を除いて、 慣例として ``master`` ブランチでは変更を行わないでください。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Separate branches allow you to work on multiple problems at the same time without interfering with other branches.</seg></tuv><tuv xml:lang="ja">
+        <seg>問題ごとに別々のブランチを使用することによって、他のブランチに干渉することなく、同時に複数の問題に取り組むことができます。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>If you make a mistake you can always delete a branch and start over by creating a new one from the master branch.</seg></tuv><tuv xml:lang="ja">
+        <seg>間違えた場合は、いつでもブランチを削除して、masterブランチから新しいブランチを作成してやり直すことができます。</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>3. Modify files</seg>
       </tuv>
@@ -287,26 +307,30 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>If you see two dialog boxes, one that says ``base:master`` and the other ``compare:branch_name`` (see figure), this will only merge your changes from one of your branches to your master branch. To fix this click on the :guilabel:`compare across forks` link.</seg>
+      <tuv xml:lang="en"><seg>If you see two dialog boxes, one that says ``base:master`` and the other ``compare:branch_name`` (see figure), this will only merge your changes from one of your branches to your master branch.</seg></tuv><tuv xml:lang="ja">
+        <seg>一方が ``base:master`` 、もう一方が ``compare:branch_name` （図を参照）という2つのダイアログボックスが表示されている場合は、あなたの行った変更はあなたのリポジトリの中で、変更を加えたブランチからあなたのマスターブランチへとマージされるだけです。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>一方が ``base:master`` 、もう一方が ``compare:branch_name` （図を参照）という2つのダイアログボックスが表示されている場合は、あなたの行った変更はあなたのリポジトリの中で、変更を加えたブランチからあなたのマスターブランチへとマージされるだけです。これを修正するために :guilabel:`compare across forks` と表示されているリンクをクリックします。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>To fix this click on the :guilabel:`compare across forks` link.</seg></tuv><tuv xml:lang="ja">
+        <seg>これを修正するために :guilabel:`compare across forks` と表示されているリンクをクリックします。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>If your :guilabel:`Comparing changes` page looks like this, click on the :guilabel:`compare across forks` link.</seg></tuv><tuv xml:lang="ja">
         <seg>:guilabel:`Comparing changes` ページがこのようなものだったら、 :guilabel:`compare across forks` リンクをクリックします。</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>You should see four drop-down menus. These will allow you to compare the changes that you have made in your branch with the master branch that you want to merge into. They are:</seg>
+      <tuv xml:lang="en"><seg>You should see four drop-down menus.</seg></tuv><tuv xml:lang="ja">
+        <seg>4つのドロップダウンメニューが表示されていることと思います。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>4つのドロップダウンメニューが表示されていることと思います。このドロップダウンメニューによって、あなたのブランチで行った変更を、変更をマージしたい相手である公式のマスターブランチと比較することが可能になります。4つのドロップダウンメニューは以下の通りです。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>These will allow you to compare the changes that you have made in your branch with the master branch that you want to merge into.</seg></tuv><tuv xml:lang="ja">
+        <seg>このドロップダウンメニューによって、あなたのブランチで行った変更を、変更をマージしたい相手である公式のマスターブランチと比較することが可能になります。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>They are:</seg></tuv><tuv xml:lang="ja">
+        <seg>4つのドロップダウンメニューは以下の通りです。</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en"><seg>**base fork**: the fork that you want to merge your changes into</seg></tuv><tuv xml:lang="ja">
         <seg>**base fork** ：あなたの変更をマージしたい相手先のフォーク</seg>
       </tuv>
@@ -323,10 +347,14 @@
         <seg>**compare** ： 変更が行われたブランチ</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en"><seg>Select ``qgis/QGIS-Documentation`` as the base fork with ``master`` as base, set the head fork to your repository ``&lt;YourName&gt;/QGIS-Documentation``, and set compare to your modified branch.</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="en">
+        <seg>Select ``qgis/QGIS-Documentation`` as the base fork with ``master`` as base, set the head fork to your repository ``&lt;YourName&gt;/QGIS-Documentation``, and set compare to your modified branch.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>base fork で ``qgis/QGIS-Documentation`` を、base で ``master`` を選択します。head fork をあなたのリポジトリ ``&lt;YourName&gt;/QGIS-Documentation`` に、compare  をあなたが変更を行ったブランチに設定します。</seg>
       </tuv>
-    </tu><tu>
+    </tu>
+    <tu>
       <tuv xml:lang="en"><seg>Comparing changes between ``qgis/QGIS-Documentation`` and your repository</seg></tuv><tuv xml:lang="ja">
         <seg>``qgis/QGIS-Documentation`` とあなたのリポジトリとの間で変更を比較している</seg>
       </tuv>
@@ -343,22 +371,26 @@
         <seg>|githubCantMerge| **と表示されたら**</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>This means that there are `conflicts &lt;https://help.github.com/articles/addressing-merge-conflicts/&gt;`_. The files that you are modifying are not up to date with the branch you are targeting because someone else has made a commit that conflicts with your changes. You can still create the pull request but you'll need to fix any :ref:`conflicts &lt;fix_conflicts&gt;` to complete the merge.</seg>
+      <tuv xml:lang="en"><seg>This means that there are `conflicts &lt;https://help.github.com/articles/addressing-merge-conflicts/&gt;`_.</seg></tuv><tuv xml:lang="ja">
+        <seg>これは `競合 &lt;https://help.github.com/articles/addressing-merge-conflicts/&gt;`_ があることを意味します。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>これは `競合 &lt;https://help.github.com/articles/addressing-merge-conflicts/&gt;`_ があることを意味します。他の誰かがあなたの変更と競合するコミットをしたので、あなたが修正中のファイルは対象のブランチの最新の状態を反映していません。それでもプルリクエストは作成できますが、マージを完了するには :ref:`競合 &lt;fix_conflicts&gt;` を修正する必要があります。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>The files that you are modifying are not up to date with the branch you are targeting because someone else has made a commit that conflicts with your changes.</seg></tuv><tuv xml:lang="ja">
+        <seg>他の誰かがあなたの変更と競合するコミットをしたので、あなたが修正中のファイルは対象のブランチの最新の状態を反映していません。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Though being translated, the `latest version &lt;https://docs.qgis.org/latest&gt;`_ of QGIS documentation is still maintained and existing issues are fixed. If you are fixing issues for a different release, change **base** from ``master`` to the appropriate ``release_...`` branch in the steps above.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>You can still create the pull request but you'll need to fix any :ref:`conflicts &lt;fix_conflicts&gt;` to complete the merge.</seg></tuv><tuv xml:lang="ja">
+        <seg>それでもプルリクエストは作成できますが、マージを完了するには :ref:`競合 &lt;fix_conflicts&gt;` を修正する必要があります。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>`最新バージョン &lt;https://docs.qgis.org/latest&gt;`_ のQGISドキュメントは、翻訳されてはいますが、保守は継続しており、問題が見つかれば修正が行われています。特定リリースの問題を修正する場合は、上記の手順で **base** を ``master`` から適切な ``release_...`` ブランチに変更してください。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Though being translated, the `latest version &lt;https://docs.qgis.org/latest&gt;`_ of QGIS documentation is still maintained and existing issues are fixed.</seg></tuv><tuv xml:lang="ja">
+        <seg>`最新バージョン &lt;https://docs.qgis.org/latest&gt;`_ のQGISドキュメントは、翻訳されてはいますが、保守は継続しており、問題が見つかれば修正が行われています。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>If you are fixing issues for a different release, change **base** from ``master`` to the appropriate ``release_...`` branch in the steps above.</seg></tuv><tuv xml:lang="ja">
+        <seg>特定リリースの問題を修正する場合は、上記の手順で **base** を ``master`` から適切な ``release_...`` ブランチに変更してください。</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>3. Describe your pull request</seg>
       </tuv>
@@ -367,18 +399,26 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en"><seg>A text box will open: fill in any relevant comments for the issue you are addressing.</seg></tuv><tuv xml:lang="ja">
-        <seg>テキストボックスが開きます。対処している問題に関するコメントを入力します。</seg>
-      </tuv>
-    </tu><tu>
       <tuv xml:lang="en">
-        <seg>If this relates to a particular `issue &lt;https://github.com/qgis/QGIS-Documentation/issues&gt;`_, add the issue number to your comments. This is done by entering # and the issue number (*e.g.* ``#1234``). If preceded by terms like ``fix`` or ``close``, the concerned issue will be closed as soon as the pull request is merged.</seg>
+        <seg>A text box will open: fill in any relevant comments for the issue you are addressing.</seg>
       </tuv>
       <tuv xml:lang="ja">
-        <seg>これが特定の `issue &lt;https://github.com/qgis/QGIS-Documentation/issues&gt;`_ に関連する場合は、コメントにissue番号を追加します。これは＃とissue番号 (*例* ``#1234``) を入力することによって行われます。 直前に ``fix`` や ``close`` のような語が置かれている場合は、プルリクエストがマージされると、すぐにそのissueはクローズされます。</seg>
+        <seg>テキストボックスが開きます。対処している問題に関するコメントを入力します。</seg>
       </tuv>
     </tu>
     <tu>
+      <tuv xml:lang="en"><seg>If this relates to a particular `issue &lt;https://github.com/qgis/QGIS-Documentation/issues&gt;`_, add the issue number to your comments.</seg></tuv><tuv xml:lang="ja">
+        <seg>これが特定の `issue &lt;https://github.com/qgis/QGIS-Documentation/issues&gt;`_ に関連する場合は、コメントにissue番号を追加します。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>This is done by entering # and the issue number (*e.g.* ``#1234``).</seg></tuv><tuv xml:lang="ja">
+        <seg>これは＃とissue番号 (*例* ``#1234``) を入力することによって行われます。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>If preceded by terms like ``fix`` or ``close``, the concerned issue will be closed as soon as the pull request is merged.</seg></tuv><tuv xml:lang="ja">
+        <seg>直前に ``fix`` や ``close`` のような語が置かれている場合は、プルリクエストがマージされると、すぐにそのissueはクローズされます。</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Add links to any documentation pages that you are changing.</seg></tuv><tuv xml:lang="ja">
         <seg>あなたが変更を行ったすべてのドキュメントのページへのリンクを含めてください。</seg>
       </tuv>
@@ -395,14 +435,22 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>As seen above, anyone can submit modifications to the documentation through pull requests. Likewise anyone can review pull requests with questions and `comments &lt;https://help.github.com/articles/commenting-on-a-pull-request/&gt;`_. Perhaps the writing style doesn't match the project guidelines, the change is missing some major details or screenshots, or maybe everything looks great and is in order. Reviewing helps to improve the quality of the contribution, both in form and substance.</seg>
+      <tuv xml:lang="en"><seg>As seen above, anyone can submit modifications to the documentation through pull requests.</seg></tuv><tuv xml:lang="ja">
+        <seg>上で見たように、誰でもプルリクエストを通してドキュメントの修正を提案することができます。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>上で見たように、誰でもプルリクエストを通してドキュメントの修正を提案することができます。同様に、誰でも質問や `コメント &lt;https://help.github.com/articles/commenting-on-a-pull-request/&gt;`_ でプルリクエストをレビューすることが可能です。おそらくそれは、プロジェクトのガイドラインに沿っていない執筆スタイルだったり、重要な細部やスクリーンショットが変更に欠けていたり、あるいはすべてが素晴らしくて申し分なさそうだ、ということだったりするでしょう。レビューはドキュメントの形式と実質の両面において、貢献の質を高める助けになります。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Likewise anyone can review pull requests with questions and `comments &lt;https://help.github.com/articles/commenting-on-a-pull-request/&gt;`_.</seg></tuv><tuv xml:lang="ja">
+        <seg>同様に、誰でも質問や `コメント &lt;https://help.github.com/articles/commenting-on-a-pull-request/&gt;`_ でプルリクエストをレビューすることが可能です。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Perhaps the writing style doesn't match the project guidelines, the change is missing some major details or screenshots, or maybe everything looks great and is in order.</seg></tuv><tuv xml:lang="ja">
+        <seg>おそらくそれは、プロジェクトのガイドラインに沿っていない執筆スタイルだったり、重要な細部やスクリーンショットが変更に欠けていたり、あるいはすべてが素晴らしくて申し分なさそうだ、ということだったりするでしょう。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Reviewing helps to improve the quality of the contribution, both in form and substance.</seg></tuv><tuv xml:lang="ja">
+        <seg>レビューはドキュメントの形式と実質の両面において、貢献の質を高める助けになります。</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en"><seg>To review a pull request:</seg></tuv><tuv xml:lang="ja">
         <seg>プルリクエストをレビューするには</seg>
       </tuv>
@@ -427,26 +475,30 @@
         <seg>変更を確認するために :guilabel:`Display the source diff` をクリックしないといけないかもしれません。</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>Scroll to the line you want to comment on and click on the |githubBluePlus|. That will open a text box allowing you to leave a comment.</seg>
+      <tuv xml:lang="en"><seg>Scroll to the line you want to comment on and click on the |githubBluePlus|.</seg></tuv><tuv xml:lang="ja">
+        <seg>コメントしたい行までスクロールして、 |githubBluePlus| をクリックします。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>コメントしたい行までスクロールして、 |githubBluePlus| をクリックします。テキストボックスが開きますので、コメントを残すことができます。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>That will open a text box allowing you to leave a comment.</seg></tuv><tuv xml:lang="ja">
+        <seg>テキストボックスが開きますので、コメントを残すことができます。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Specific line comments can be published either:</seg></tuv><tuv xml:lang="ja">
         <seg>特定の行に対するコメントは、次のいずれかの方法で公開することができます。</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>as single comments, using the :guilabel:`Add single comment` button. They are published as you go. Use this only if you have few comments to add or when replying to another comment.</seg>
+      <tuv xml:lang="en"><seg>as single comments, using the :guilabel:`Add single comment` button.</seg></tuv><tuv xml:lang="ja">
+        <seg>:guilabel:`Add single comment` ボタンを使って、単独のコメントとして公開する。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>:guilabel:`Add single comment` ボタンを使って、単独のコメントとして公開する。この場合コメントはその都度即座に公開されます。コメント数が少ない場合や他のコメントにコメントする場合にのみ、この方法を使ってください。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>They are published as you go.</seg></tuv><tuv xml:lang="ja">
+        <seg>この場合コメントはその都度即座に公開されます。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Use this only if you have few comments to add or when replying to another comment.</seg></tuv><tuv xml:lang="ja">
+        <seg>コメント数が少ない場合や他のコメントにコメントする場合にのみ、この方法を使ってください。</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>or as part of a review, pressing the :guilabel:`Start a review` button. Your comments are not automatically sent after validation, allowing you to edit or cancel them afterwards, to add a summary of the main points of the review or global instructions regarding the pull request and whether you approve it or not. This is the convenient way since it's more flexible and allows you to structure your review, edit the comments, publish when you are ready and send a single notification to the repository followers and not one notification for each comment. Get `more details &lt;https://help.github.com/en/articles/reviewing-proposed-changes-in-a-pull-request&gt;`_.</seg>
       </tuv>
@@ -459,14 +511,14 @@
         <seg>特定の行に対して修正の提案とともにコメントを行う</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>Line comments can embed suggestions that the pull request writer can apply to the pull request. To add a suggestion, click the |githubSuggestions| :sup:`Insert a suggestion` button on top of the comment text box and modify the text within the suggestion block.</seg>
+      <tuv xml:lang="en"><seg>Line comments can embed suggestions that the pull request writer can apply to the pull request.</seg></tuv><tuv xml:lang="ja">
+        <seg>行に対するコメントには提案を埋め込むことができ、プルリクエストの作成者はこれをプルリクエストに適用することができます。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>行に対するコメントには提案を埋め込むことができ、プルリクエストの作成者はこれをプルリクエストに適用することができます。提案を追加するには、コメントテキストブロックの上にある |githubSuggestions| :sup:`Insert a suggestion` ボタンをクリックして、提案ブロックの中のテキストを修正します。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>To add a suggestion, click the |githubSuggestions| :sup:`Insert a suggestion` button on top of the comment text box and modify the text within the suggestion block.</seg></tuv><tuv xml:lang="ja">
+        <seg>提案を追加するには、コメントテキストブロックの上にある |githubSuggestions| :sup:`Insert a suggestion` ボタンをクリックして、提案ブロックの中のテキストを修正します。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>**Prefer committing suggestions to your pull request as a batch**</seg></tuv><tuv xml:lang="ja">
         <seg>**プルリクエストへの提案をバッチとして追加したいときは**</seg>
       </tuv>
@@ -483,14 +535,14 @@
         <seg>|githubFilesChanged| タブに移動します。</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>Press :guilabel:`Add suggestion to batch` for each rewording you'd like to include. You will see a counter increasing as you go.</seg>
+      <tuv xml:lang="en"><seg>Press :guilabel:`Add suggestion to batch` for each rewording you'd like to include.</seg></tuv><tuv xml:lang="ja">
+        <seg>取り込みたい提案のそれぞれで :guilabel:`Add suggestion to batch` を押します。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>取り込みたい提案のそれぞれで :guilabel:`Add suggestion to batch` を押します。押すごとにカウンターが増えるのが分かると思います。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>You will see a counter increasing as you go.</seg></tuv><tuv xml:lang="ja">
+        <seg>押すごとにカウンターが増えるのが分かると思います。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Press any of the :guilabel:`Commit suggestions` button when you are ready to apply the suggestions to your pull request, and enter a message describing the changes.</seg></tuv><tuv xml:lang="ja">
         <seg>取り込みたいすべての提案をプルリクエストに適用する準備ができたら、どれでもいいので :guilabel:`Commit suggestions` ボタンを押して、この変更を説明するメッセージを入力します。</seg>
       </tuv>
@@ -511,14 +563,14 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>A new pull request will automatically be added to the `Pull requests list &lt;https://github.com/qgis/QGIS-Documentation/pulls&gt;`_. Other editors and administrators will review your pull request and they may make suggestions or ask for corrections.</seg>
+      <tuv xml:lang="en"><seg>A new pull request will automatically be added to the `Pull requests list &lt;https://github.com/qgis/QGIS-Documentation/pulls&gt;`_.</seg></tuv><tuv xml:lang="ja">
+        <seg>新しいプルリクエストは自動的に `プルリクエストリスト &lt;https://github.com/qgis/QGIS-Documentation/pulls&gt;`_ に追加されます。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>新しいプルリクエストは自動的に `プルリクエストリスト &lt;https://github.com/qgis/QGIS-Documentation/pulls&gt;`_ に追加されます。他の編集者や管理者があなたのプルリクエストを見直し、提案をしたり修正を求めたりするかもしれません。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Other editors and administrators will review your pull request and they may make suggestions or ask for corrections.</seg></tuv><tuv xml:lang="ja">
+        <seg>他の編集者や管理者があなたのプルリクエストを見直し、提案をしたり修正を求めたりするかもしれません。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>A pull request will also trigger a `Travis CI build &lt;https://travis-ci.org/qgis/QGIS-Documentation&gt;`_ which automatically checks your contribution for build errors. If Travis CI finds an error, a red cross will appear next to your commit. Click on the red cross or on ``Details`` in the summary section at the bottom of the pull request page to see the details of the error. You'll have to fix any reported errors or warnings before your changes are committed to the ``qgis/QGIS-Documentation`` repository.</seg>
       </tuv>
@@ -527,22 +579,26 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en"><seg>You can make modifications to your pull request until it is merged with the main repository, either to improve your request, to address requested modifications, or to fix a build error.</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="en">
+        <seg>You can make modifications to your pull request until it is merged with the main repository, either to improve your request, to address requested modifications, or to fix a build error.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>メインリポジトリにマージされるまでは、プルリクエストに修正を加えることができます。それはプルリクエストを改善するためだったり、提案された修正に対処するためだったり、あるいはビルドエラーを修正するためだったりするでしょう。</seg>
       </tuv>
-    </tu><tu>
+    </tu>
+    <tu>
       <tuv xml:lang="en"><seg>To make changes click on the |githubFilesChanged| tab in your pull request page and click the pencil button |githubEditPencil| next to the filename that you want to modify.</seg></tuv><tuv xml:lang="ja">
         <seg>変更するにはプルリクエストのページで |githubFilesChanged| をクリックして、変更したいファイル名の横にある鉛筆ボタン |githubEditPencil| をクリックします。</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>Any additional changes will be automatically added to your pull request if you make those changes to the same branch that you submitted in your pull request. For this reason, you should only make additional changes if those changes relate to the issue that you intend to fix with that pull request.</seg>
+      <tuv xml:lang="en"><seg>Any additional changes will be automatically added to your pull request if you make those changes to the same branch that you submitted in your pull request.</seg></tuv><tuv xml:lang="ja">
+        <seg>プルリクエストで使用したのと同じブランチで変更を加えた場合、追加された変更はすべてプルリクエストに自動的に追加されます。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>プルリクエストで使用したのと同じブランチで変更を加えた場合、追加された変更はすべてプルリクエストに自動的に追加されます。このため、追加の変更は、プルリクエストで修正しようとしている問題にその変更が関連する場合にのみ、行うようにしてください。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>For this reason, you should only make additional changes if those changes relate to the issue that you intend to fix with that pull request.</seg></tuv><tuv xml:lang="ja">
+        <seg>このため、追加の変更は、プルリクエストで修正しようとしている問題にその変更が関連する場合にのみ、行うようにしてください。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>If you want to fix another issue, create a new branch for those changes and repeat the steps above.</seg></tuv><tuv xml:lang="ja">
         <seg>別の問題を解決したい場合は、それらの変更に対して新しいブランチを作成して上記のステップを繰り返します。</seg>
       </tuv>
@@ -559,14 +615,14 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>You can delete the branch after your changes have been merged. Deleting old branches saves you from having unused and outdated branches in your repository.</seg>
+      <tuv xml:lang="en"><seg>You can delete the branch after your changes have been merged.</seg></tuv><tuv xml:lang="ja">
+        <seg>変更がマージされた後でブランチを削除できます。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>変更がマージされた後でブランチを削除できます。古いブランチを削除すると、未使用のブランチや古いブランチをリポジトリに保存しておく必要がなくなります。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Deleting old branches saves you from having unused and outdated branches in your repository.</seg></tuv><tuv xml:lang="ja">
+        <seg>古いブランチを削除すると、未使用のブランチや古いブランチをリポジトリに保存しておく必要がなくなります。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Navigate to your fork of the QGIS-Documentation repository (``https://github.com/&lt;YourName&gt;/QGIS-Documentation``).</seg></tuv><tuv xml:lang="ja">
         <seg>フォークしたあなたのQGIS-Documentationリポジトリ (``https://github.com/&lt;YourName&gt;/QGIS-Documentation``) に移動します。</seg>
       </tuv>
@@ -603,18 +659,26 @@
         <seg>あなたの変更をテストするためにドキュメントをビルドする</seg>
       </tuv>
     </tu><tu>
+      <tuv xml:lang="en"><seg>You need to `install git &lt;https://git-scm.com/downloads&gt;`_ on your hard drive in order to get access to more advanced and powerful tools and have a local copy of the repository.</seg></tuv><tuv xml:lang="ja">
+        <seg>より高度で強力なツールへアクセスし、リポジトリのコピーをローカル環境に持つためには、ハードドライブ上に `gitをインストール &lt;https://git-scm.com/downloads&gt;`_ する必要があります。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Some basics you may often need are exposed below.</seg></tuv><tuv xml:lang="ja">
+        <seg>しばしば必要となる基本的な事項は以下で説明されています。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>You'll also find rules to care about even if you opt for the web interface.</seg></tuv><tuv xml:lang="ja">
+        <seg>そこではウェブインターフェイスを使用する場合であっても気をつけるべきルールを学ぶことができるでしょう。</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en">
-        <seg>You need to `install git &lt;https://git-scm.com/downloads&gt;`_ on your hard drive in order to get access to more advanced and powerful tools and have a local copy of the repository. Some basics you may often need are exposed below. You'll also find rules to care about even if you opt for the web interface.</seg>
+        <seg>In the code samples below, lines beginning with ``$`` show commands you should type while ``#`` are comments.</seg>
       </tuv>
       <tuv xml:lang="ja">
-        <seg>より高度で強力なツールへアクセスし、リポジトリのコピーをローカル環境に持つためには、ハードドライブ上に `gitをインストール &lt;https://git-scm.com/downloads&gt;`_ する必要があります。しばしば必要となる基本的な事項は以下で説明されています。そこではウェブインターフェイスを使用する場合であっても気をつけるべきルールを学ぶことができるでしょう。</seg>
+        <seg>以下のコードサンプルでは、 ``$`` で始まる​​行はあなたが入力すべきコマンドを示します。一方、 ``#`` で始まる​​行はコメントです。</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en"><seg>In the code samples below, lines beginning with ``$`` show commands you should type while ``#`` are comments.</seg></tuv><tuv xml:lang="ja">
-        <seg>以下のコードサンプルでは、 ``$`` で始まる​​行はあなたが入力すべきコマンドを示します。一方、 ``#`` で始まる​​行はコメントです。</seg>
-      </tuv>
-    </tu><tu>
       <tuv xml:lang="en"><seg>Local repository</seg></tuv><tuv xml:lang="ja">
         <seg>ローカルリポジトリ</seg>
       </tuv>
@@ -643,30 +707,38 @@
         <seg>*origin* は、あなたのQGIS-Documentationリポジトリの、リモートリポジトリにつけられた名前です。</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>*master* is the default main branch. You should never use it to contribute! **Never!**</seg>
+      <tuv xml:lang="en"><seg>*master* is the default main branch.</seg></tuv><tuv xml:lang="ja">
+        <seg>*master* はデフォルトのメインブランチです。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>*master* はデフォルトのメインブランチです。貢献する際にはこのブランチを使用してはいけません。 **絶対に** です！</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>You should never use it to contribute!</seg></tuv><tuv xml:lang="ja">
+        <seg>貢献する際にはこのブランチを使用してはいけません。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>**Never!**</seg></tuv><tuv xml:lang="ja">
+        <seg>**絶対に** です！</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Alternatively you can clone your QGIS repository using the SSH protocol:</seg></tuv><tuv xml:lang="ja">
         <seg>SSHプロトコルを使用してQGISドキュメンテーションリポジトリを複製することもできます。</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en"><seg>**Permission denied (publickey) error?**</seg></tuv><tuv xml:lang="ja">
-        <seg>**Permission denied (publickey) エラーが出た時は？**</seg>
-      </tuv>
-    </tu><tu>
       <tuv xml:lang="en">
-        <seg>If you get a Permission denied (publickey) error with the former command, there may be a problem with your SSH key. See `GitHub help &lt;https://help.github.com/articles/error-permission-denied-publickey/&gt;`_ for details.</seg>
+        <seg>**Permission denied (publickey) error?**</seg>
       </tuv>
       <tuv xml:lang="ja">
-        <seg>上記のコマンドで Permission denied (publickey) というエラーが出た場合は、おそらくはあなたのSSH keyに問題があります。詳細は `GitHubのヘルプ &lt;https://help.github.com/articles/error-permission-denied-publickey/&gt;`_ を参照してください。</seg>
+        <seg>**Permission denied (publickey) エラーが出た時は？**</seg>
       </tuv>
     </tu>
     <tu>
+      <tuv xml:lang="en"><seg>If you get a Permission denied (publickey) error with the former command, there may be a problem with your SSH key.</seg></tuv><tuv xml:lang="ja">
+        <seg>上記のコマンドで Permission denied (publickey) というエラーが出た場合は、おそらくはあなたのSSH keyに問題があります。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>See `GitHub help &lt;https://help.github.com/articles/error-permission-denied-publickey/&gt;`_ for details.</seg></tuv><tuv xml:lang="ja">
+        <seg>詳細は `GitHubのヘルプ &lt;https://help.github.com/articles/error-permission-denied-publickey/&gt;`_ を参照してください。</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Check the following if you used the SSH protocol:</seg></tuv><tuv xml:lang="ja">
         <seg>SSHプロトコルを使用した場合は確認は以下のようになります。</seg>
       </tuv>
@@ -683,14 +755,14 @@
         <seg>もうひとつのリモートリポジトリを追加</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>To be able to follow the work in the main project, add a new remote repository in your local repository. This new remote repository is the QGIS-Documentation repository from QGIS project:</seg>
+      <tuv xml:lang="en"><seg>To be able to follow the work in the main project, add a new remote repository in your local repository.</seg></tuv><tuv xml:lang="ja">
+        <seg>メインプロジェクトで行われた作業を追跡できるようにするために、ローカルリポジトリに新しいリモートリポジトリを追加します。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>メインプロジェクトで行われた作業を追跡できるようにするために、ローカルリポジトリに新しいリモートリポジトリを追加します。この新しいリモートリポジトリは、QGISプロジェクト公式のQGIS-Documentationリポジトリです。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>This new remote repository is the QGIS-Documentation repository from QGIS project:</seg></tuv><tuv xml:lang="ja">
+        <seg>この新しいリモートリポジトリは、QGISプロジェクト公式のQGIS-Documentationリポジトリです。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Similarly, you can use the SSH protocol to add a remote repository in your local repository:</seg></tuv><tuv xml:lang="ja">
         <seg>ローカルリポジトリにリモートリポジトリを追加するときにも、同様にSSHプロトコルを使うことができます。</seg>
       </tuv>
@@ -735,34 +807,42 @@
         <seg>リリースドキュメントに貢献したい場合はブランチを移動すること</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>Along with the testing documentation, we continue to fix issues in the `latest release &lt;https://docs.qgis.org/latest&gt;`_, meaning that you can also contribute to it. Follow the previous section sample code, replacing ``master`` with the corresponding branch of the latest documentation.</seg>
+      <tuv xml:lang="en"><seg>Along with the testing documentation, we continue to fix issues in the `latest release &lt;https://docs.qgis.org/latest&gt;`_, meaning that you can also contribute to it.</seg></tuv><tuv xml:lang="ja">
+        <seg>testing版ドキュメントとともに、 `latest release &lt;https://docs.qgis.org/latest&gt;`_ 版ドキュメントについても問題を修正する作業が続けられていますので、このドキュメントに対して貢献することも可能です。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>testing版ドキュメントとともに、 `latest release &lt;https://docs.qgis.org/latest&gt;`_ 版ドキュメントについても問題を修正する作業が続けられていますので、このドキュメントに対して貢献することも可能です。コード中の ``master`` を最新の対応するブランチに置き換えた上で、前セクションのサンプルコードに従ってください。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Follow the previous section sample code, replacing ``master`` with the corresponding branch of the latest documentation.</seg></tuv><tuv xml:lang="ja">
+        <seg>コード中の ``master`` を最新の対応するブランチに置き換えた上で、前セクションのサンプルコードに従ってください。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Contribute to your production branch</seg></tuv><tuv xml:lang="ja">
         <seg>制作ブランチに取り組む</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>Now that your base branch is updated, you need to create a dedicated branch in which you add your contribution. Always work on a branch other than the base branch! Always!</seg>
+      <tuv xml:lang="en"><seg>Now that your base branch is updated, you need to create a dedicated branch in which you add your contribution.</seg></tuv><tuv xml:lang="ja">
+        <seg>ベースブランチを最新に更新しましたので、次は自分の貢献を追加する専用のブランチを作成する必要があります。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>ベースブランチを最新に更新しましたので、次は自分の貢献を追加する専用のブランチを作成する必要があります。作業は必ずベースブランチ以外のブランチで行ってください！これは常にです！</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Always work on a branch other than the base branch!</seg></tuv><tuv xml:lang="ja">
+        <seg>作業は必ずベースブランチ以外のブランチで行ってください！</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Always!</seg></tuv><tuv xml:lang="ja">
+        <seg>これは常にです！</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Few words about commit/push commands:</seg></tuv><tuv xml:lang="ja">
         <seg>commit/pushコマンドについて一言：</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en"><seg>try to commit only one contribution (atomic change) i.e. address only one issue</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="en">
+        <seg>try to commit only one contribution (atomic change) i.e. address only one issue</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>ひとつの貢献（それ以上分割することが不可能な変更）だけをコミットするようにしてください。すなわち一度にひとつの問題だけに取り組んでください。</seg>
       </tuv>
-    </tu><tu>
+    </tu>
+    <tu>
       <tuv xml:lang="en">
         <seg>try to explain carefully what you change in the title of your commit and in the description. The first line is a title and should start by an upper case letter and have 80 characters length, don't end with a ``.``. Be concise. Your description can be longer, end with a ``.`` and you can give much more details.</seg>
       </tuv>
@@ -771,42 +851,50 @@
       </tuv>
     </tu>
     <tu>
+      <tuv xml:lang="en"><seg>use a ``#`` with a number to refer to an issue.</seg></tuv><tuv xml:lang="ja">
+        <seg>Issueを参照するには、 ``#`` を頭につけたIssue番号を使用してください。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Prefix with ``Fix`` if you fix the ticket: your commit will close the ticket.</seg></tuv><tuv xml:lang="ja">
+        <seg>チケットを修正する場合は ``Fix`` をその前につけておくと、コミットによってチケットが閉じられます。</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en">
-        <seg>use a ``#`` with a number to refer to an issue. Prefix with ``Fix`` if you fix the ticket: your commit will close the ticket.</seg>
+        <seg>Now that your changes are saved and committed in your local branch, you need to send them to your remote repository in order to create pull request:</seg>
       </tuv>
       <tuv xml:lang="ja">
-        <seg>Issueを参照するには、 ``#`` を頭につけたIssue番号を使用してください。チケットを修正する場合は ``Fix`` をその前につけておくと、コミットによってチケットが閉じられます。</seg>
+        <seg>さあ変更が保存されローカルブランチにコミットされました。プルリクエストを作成するためには、リモートリポジトリに送信する必要があります。</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en"><seg>Now that your changes are saved and committed in your local branch, you need to send them to your remote repository in order to create pull request:</seg></tuv><tuv xml:lang="ja">
-        <seg>さあ変更が保存されローカルブランチにコミットされました。プルリクエストを作成するためには、リモートリポジトリに送信する必要があります。</seg>
-      </tuv>
-    </tu><tu>
       <tuv xml:lang="en"><seg>Share your Changes</seg></tuv><tuv xml:lang="ja">
         <seg>変更を共有する</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>Now you can go to your github repository and :ref:`create a Pull Request &lt;sharing_changes&gt;` as exposed in a previous section. Ensure you create a PR from your branch to the remote branch you are targetting in the official QGIS-Documentation repository.</seg>
+      <tuv xml:lang="en"><seg>Now you can go to your github repository and :ref:`create a Pull Request &lt;sharing_changes&gt;` as exposed in a previous section.</seg></tuv><tuv xml:lang="ja">
+        <seg>これであなたのgithubのリポジトリに行って、前のセクションで触れたように :ref:`プルリクエストを作成 &lt;sharing_changes&gt;` することができます。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>これであなたのgithubのリポジトリに行って、前のセクションで触れたように :ref:`プルリクエストを作成 &lt;sharing_changes&gt;` することができます。作成したプルリクエストが、自分のブランチから公式のQGIS-Documentationリポジトリ中のターゲットとしているリモートブランチへものであることを確認してください。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Ensure you create a PR from your branch to the remote branch you are targetting in the official QGIS-Documentation repository.</seg></tuv><tuv xml:lang="ja">
+        <seg>作成したプルリクエストが、自分のブランチから公式のQGIS-Documentationリポジトリ中のターゲットとしているリモートブランチへものであることを確認してください。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Clean-up your local and remote repository</seg></tuv><tuv xml:lang="ja">
         <seg>ローカルおよびリモートリポジトリをクリーンアップ</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>After your PR has been merged into the official QGIS-Documentation, you can delete your branch. If you work a lot this way, in few weeks you will get a lot of unuseful branches. So keep your repository clean this way:</seg>
+      <tuv xml:lang="en"><seg>After your PR has been merged into the official QGIS-Documentation, you can delete your branch.</seg></tuv><tuv xml:lang="ja">
+        <seg>プルリクエストが公式のQGIS-Documentationにマージされたら、あなたの制作ブランチは削除してかまいません。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>プルリクエストが公式のQGIS-Documentationにマージされたら、あなたの制作ブランチは削除してかまいません。この方法で多くの作業をこなした場合、数週間のうちに用済みのブランチがたくさんできると思います。ですので以下のようにしてあなたのリポジトリをきれいに保ちましょう。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>If you work a lot this way, in few weeks you will get a lot of unuseful branches.</seg></tuv><tuv xml:lang="ja">
+        <seg>この方法で多くの作業をこなした場合、数週間のうちに用済みのブランチがたくさんできると思います。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>So keep your repository clean this way:</seg></tuv><tuv xml:lang="ja">
+        <seg>ですので以下のようにしてあなたのリポジトリをきれいに保ちましょう。</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en"><seg>And do not forget to update the ``master`` branch in your local repository!</seg></tuv><tuv xml:lang="ja">
         <seg>またローカルリポジトリ中の ``master`` ブランチを更新して最新の状態を保つことも忘れないでください！</seg>
       </tuv>
@@ -823,22 +911,26 @@
         <seg>プルリクエストの変更が、ターゲットブランチにプッシュされた最近の変更と競合している場合は、マージが可能になるよう、先にこの競合を解決する必要があります。</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>if the conflict relates to few competing lines, a :guilabel:`Resolve conflicts` button is available in the Github pull request page. Press the button and resolve the issue as explained at https://help.github.com/articles/resolving-a-merge-conflict-on-github/</seg>
+      <tuv xml:lang="en"><seg>if the conflict relates to few competing lines, a :guilabel:`Resolve conflicts` button is available in the Github pull request page.</seg></tuv><tuv xml:lang="ja">
+        <seg>競合が競合する数行に関連している場合は、Githubのプルリクエストのページに :guilabel:`Resolve conflicts` ボタンがあります。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>競合が競合する数行に関連している場合は、Githubのプルリクエストのページに :guilabel:`Resolve conflicts` ボタンがあります。 https://help.github.com/articles/resolving-a-merge-conflict-on-github/ で説明されているようにボタンを押し、問題を解決して下さい</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Press the button and resolve the issue as explained at https://help.github.com/articles/resolving-a-merge-conflict-on-github/</seg></tuv><tuv xml:lang="ja">
+        <seg>https://help.github.com/articles/resolving-a-merge-conflict-on-github/ で説明されているようにボタンを押し、問題を解決して下さい</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>if the conflict involves files renaming or removal, then you'd need to resolve the conflict using git command lines. Typically, you have to first rebase your branch over the target branch using ``git rebase targetBranch`` call and fix the conflicts that are reported. Read more at https://help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>if the conflict involves files renaming or removal, then you'd need to resolve the conflict using git command lines.</seg></tuv><tuv xml:lang="ja">
+        <seg>競合がファイルの名前変更または削除を伴う場合は、gitコマンドラインを使用して競合を解決する必要があります。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>競合がファイルの名前変更または削除を伴う場合は、gitコマンドラインを使用して競合を解決する必要があります。典型的には、最初に ``git rebase targetBranch`` 呼び出しを使ってターゲットブランチの上にあなたのブランチをリベースし、報告された衝突を修正しなければなりません。詳細は https://help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/ をご覧ください。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Typically, you have to first rebase your branch over the target branch using ``git rebase targetBranch`` call and fix the conflicts that are reported.</seg></tuv><tuv xml:lang="ja">
+        <seg>典型的には、最初に ``git rebase targetBranch`` 呼び出しを使ってターゲットブランチの上にあなたのブランチをリベースし、報告された衝突を修正しなければなりません。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Read more at https://help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/</seg></tuv><tuv xml:lang="ja">
+        <seg>詳細は https://help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/ をご覧ください。</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>Sometimes, at the end of the proofreading process, you may end up with changes split into multiple commits that are not necessarily worth it. Git command lines help you squash these commits to a smaller number and more meaningful commit messages. Some details at https://help.github.com/articles/using-git-rebase-on-the-command-line/</seg>
       </tuv>

@@ -55,14 +55,18 @@
         <seg>``mCurrentExtent``</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>All class members should be private. Public class members are STRONGLY discouraged. Protected members should be avoided when the member may need to be accessed from Python subclasses, since protected members cannot be used from the Python bindings.</seg>
+      <tuv xml:lang="en"><seg>All class members should be private.</seg></tuv><tuv xml:lang="ja">
+        <seg>すべてのクラスメンバはプライベートにしましょう。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>すべてのクラスメンバはプライベートにしましょう。公開クラスメンバは極力避けるようにしてください。保護メンバーは Python バインディングから使用できないため、メンバーが Python のサブクラスからアクセスする必要がある場合は、保護メンバを使用しないでください。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Public class members are STRONGLY discouraged.</seg></tuv><tuv xml:lang="ja">
+        <seg>公開クラスメンバは極力避けるようにしてください。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Protected members should be avoided when the member may need to be accessed from Python subclasses, since protected members cannot be used from the Python bindings.</seg></tuv><tuv xml:lang="ja">
+        <seg>保護メンバーは Python バインディングから使用できないため、メンバーが Python のサブクラスからアクセスする必要がある場合は、保護メンバを使用しないでください。</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Mutable static class member names should begin with a lower case ``s``, but constant static class member names should be all caps:</seg></tuv><tuv xml:lang="ja">
         <seg>静的メンバの命名は、変数の場合は小文字の "s" で始め、定数の場合はすべての文字を大文字としてください。</seg>
       </tuv>
@@ -79,14 +83,18 @@
         <seg>アクセサ関数</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>Class member values should be obtained through accesssor functions. The function should be named without a get prefix. Accessor functions for the two private members above would be:</seg>
+      <tuv xml:lang="en"><seg>Class member values should be obtained through accesssor functions.</seg></tuv><tuv xml:lang="ja">
+        <seg>クラスのメンバ値はアクセサ関数を通じて取得しましょう。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>クラスのメンバ値はアクセサ関数を通じて取得しましょう。関数は、 get 接頭辞なしの名前を付ける必要があります。上記2つの私的メンバのためのアクセサ関数は次のようになります。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>The function should be named without a get prefix.</seg></tuv><tuv xml:lang="ja">
+        <seg>関数は、 get 接頭辞なしの名前を付ける必要があります。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Accessor functions for the two private members above would be:</seg></tuv><tuv xml:lang="ja">
+        <seg>上記2つの私的メンバのためのアクセサ関数は次のようになります。</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en"><seg>``mapCanvas()``</seg></tuv><tuv xml:lang="ja">
         <seg>``mapCanvas()``</seg>
       </tuv>
@@ -95,26 +103,26 @@
         <seg>``currentExtent()``</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>Ensure that accessors are correctly marked with ``const``. Where appropriate, this may require that cached value type member variables are marked with ``mutable``.</seg>
+      <tuv xml:lang="en"><seg>Ensure that accessors are correctly marked with ``const``.</seg></tuv><tuv xml:lang="ja">
+        <seg>アクセサが正しく ``const`` でマークされていることを確認してください。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>アクセサが正しく ``const`` でマークされていることを確認してください。適切な場合には、これはキャッシュされた値型のメンバー変数が ``mutable`` でマークされていることを要求することができます。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Where appropriate, this may require that cached value type member variables are marked with ``mutable``.</seg></tuv><tuv xml:lang="ja">
+        <seg>適切な場合には、これはキャッシュされた値型のメンバー変数が ``mutable`` でマークされていることを要求することができます。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Functions</seg></tuv><tuv xml:lang="ja">
         <seg>関数</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>Function names begin with a lowercase letter and are formed using mixed case. The function name should convey something about the purpose of the function.</seg>
+      <tuv xml:lang="en"><seg>Function names begin with a lowercase letter and are formed using mixed case.</seg></tuv><tuv xml:lang="ja">
+        <seg>関数名は小文字で始まり、大文字と小文字を使用して形成されています。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>関数名は小文字で始まり、大文字と小文字を使用して形成されています。関数名は、その関数の目的について何かを伝える必要があります。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>The function name should convey something about the purpose of the function.</seg></tuv><tuv xml:lang="ja">
+        <seg>関数名は、その関数の目的について何かを伝える必要があります。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>``updateMapExtent()``</seg></tuv><tuv xml:lang="ja">
         <seg>``updateMapExtent()``</seg>
       </tuv>
@@ -151,26 +159,42 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Pay careful attention to when arguments should be passed by reference. Unless argument objects are small and trivially copied (such as QPoint objects), they should be passed by const reference. For consistency with the Qt API, even implicitly shared objects are passed by const reference (e.g. ``setTitle( const QString&amp; title )`` instead of ``setTitle( QString title )``.</seg>
+      <tuv xml:lang="en"><seg>Pay careful attention to when arguments should be passed by reference.</seg></tuv><tuv xml:lang="ja">
+        <seg>引数を参照渡しするべき場合に注意してください。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>引数を参照渡しするべき場合に注意してください。オブジェクトの引数は小さくてコピーが簡単なもの (QPoint オブジェクトなど) でない限り、 const 参照で渡しましょう。 Qt の API との一貫性を保つために、暗黙的に共有されるオブジェクトは const 参照によって渡されます。 (例えば、 ``setTitle( QString title )`` ではなく ``setTitle( const QString&amp; title )``)。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Unless argument objects are small and trivially copied (such as QPoint objects), they should be passed by const reference.</seg></tuv><tuv xml:lang="ja">
+        <seg>オブジェクトの引数は小さくてコピーが簡単なもの (QPoint オブジェクトなど) でない限り、 const 参照で渡しましょう。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>For consistency with the Qt API, even implicitly shared objects are passed by const reference (e.g.</seg></tuv><tuv xml:lang="ja">
+        <seg>Qt の API との一貫性を保つために、暗黙的に共有されるオブジェクトは const 参照によって渡されます。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>``setTitle( const QString&amp; title )`` instead of ``setTitle( QString title )``.</seg></tuv><tuv xml:lang="ja">
+        <seg>(例えば、 ``setTitle( QString title )`` ではなく ``setTitle( const QString&amp; title )``)。</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Function Return Values</seg></tuv><tuv xml:lang="ja">
         <seg>関数の返値</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>Return small and trivially copied objects as values. Larger objects should be returned by const reference. The one exception to this is implicitly shared objects, which are always returned by value. Return ``QObject`` or subclassed objects as pointers.</seg>
+      <tuv xml:lang="en"><seg>Return small and trivially copied objects as values.</seg></tuv><tuv xml:lang="ja">
+        <seg>小さくコピーが簡単なオブジェクトは値として返してください。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>小さくコピーが簡単なオブジェクトは値として返してください。より大きなオブジェクトは const 参照で返しましょう。この例外の一つは暗黙的に共有されるオブジェクトで、常に値で返します。 ``QObject`` またはそのサブクラスは、ポインタとして返してください。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Larger objects should be returned by const reference.</seg></tuv><tuv xml:lang="ja">
+        <seg>より大きなオブジェクトは const 参照で返しましょう。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>The one exception to this is implicitly shared objects, which are always returned by value.</seg></tuv><tuv xml:lang="ja">
+        <seg>この例外の一つは暗黙的に共有されるオブジェクトで、常に値で返します。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Return ``QObject`` or subclassed objects as pointers.</seg></tuv><tuv xml:lang="ja">
+        <seg>``QObject`` またはそのサブクラスは、ポインタとして返してください。</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en"><seg>``int maximumValue() const``</seg></tuv><tuv xml:lang="ja">
         <seg>``int maximumValue() const``</seg>
       </tuv>
@@ -207,26 +231,34 @@
         <seg>メソッド</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>Method descriptions should be written in a descriptive form, using the 3rd person. Methods require a ``\since`` tag that defines when they have been introduced. You should add additional ``\since`` tags for important changes that were introduced later on.</seg>
+      <tuv xml:lang="en"><seg>Method descriptions should be written in a descriptive form, using the 3rd person.</seg></tuv><tuv xml:lang="ja">
+        <seg>メソッドの説明は三人称を使用した説明的な形で書いてください。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>メソッドの説明は三人称を使用した説明的な形で書いてください。メソッドにはいつ導入されたかを定義する ``\since`` タグが必要です。導入以降に重要な変更が行われたものについては、追加の ``\since`` タグを追加してください。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Methods require a ``\since`` tag that defines when they have been introduced.</seg></tuv><tuv xml:lang="ja">
+        <seg>メソッドにはいつ導入されたかを定義する ``\since`` タグが必要です。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>You should add additional ``\since`` tags for important changes that were introduced later on.</seg></tuv><tuv xml:lang="ja">
+        <seg>導入以降に重要な変更が行われたものについては、追加の ``\since`` タグを追加してください。</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Members Variables</seg></tuv><tuv xml:lang="ja">
         <seg>メンバ変数</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>Member variables should normally be in the ``private`` section and made available via getters and setters. One exception to this is for data containers like for error reporting. In such cases do not prefix the member with an ``m``.</seg>
+      <tuv xml:lang="en"><seg>Member variables should normally be in the ``private`` section and made available via getters and setters.</seg></tuv><tuv xml:lang="ja">
+        <seg>メンバ変数はふつう ``private`` セクションに入れ、ゲッタやセッタを利用できるようにしてください。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>メンバ変数はふつう ``private`` セクションに入れ、ゲッタやセッタを利用できるようにしてください。エラー報告などのためのデータコンテナはこの例外です。このような場合はメンバに ``m`` の接頭辞を付けないでください。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>One exception to this is for data containers like for error reporting.</seg></tuv><tuv xml:lang="ja">
+        <seg>エラー報告などのためのデータコンテナはこの例外です。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>In such cases do not prefix the member with an ``m``.</seg></tuv><tuv xml:lang="ja">
+        <seg>このような場合はメンバに ``m`` の接頭辞を付けないでください。</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Qt Designer</seg></tuv><tuv xml:lang="ja">
         <seg>Qt デザイナ</seg>
       </tuv>
@@ -235,14 +267,14 @@
         <seg>生成されたクラス</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>QGIS classes that are generated from Qt Designer (ui) files should have a Base suffix. This identifies the class as a generated base class.</seg>
+      <tuv xml:lang="en"><seg>QGIS classes that are generated from Qt Designer (ui) files should have a Base suffix.</seg></tuv><tuv xml:lang="ja">
+        <seg>Qt デザイナ（UI）ファイルから生成される QGIS クラスは Base という接尾辞を持つ必要があります。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>Qt デザイナ（UI）ファイルから生成される QGIS クラスは Base という接尾辞を持つ必要があります。これは、そのクラスを生成された基本クラスとして識別します。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>This identifies the class as a generated base class.</seg></tuv><tuv xml:lang="ja">
+        <seg>これは、そのクラスを生成された基本クラスとして識別します。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>``QgsPluginManagerBase``</seg></tuv><tuv xml:lang="ja">
         <seg>``QgsPluginManagerBase``</seg>
       </tuv>
@@ -255,14 +287,14 @@
         <seg>ダイアログ</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>All dialogs should implement tooltip help for all toolbar icons and other relevant widgets. Tooltips add greatly to feature discoverability for both new and experienced users.</seg>
+      <tuv xml:lang="en"><seg>All dialogs should implement tooltip help for all toolbar icons and other relevant widgets.</seg></tuv><tuv xml:lang="ja">
+        <seg>すべてのダイアログには、すべてのツールバーアイコンおよびその他の関連するウィジェットのツールチップヘルプを実装する必要があります。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>すべてのダイアログには、すべてのツールバーアイコンおよびその他の関連するウィジェットのツールチップヘルプを実装する必要があります。ツールチップは、新規および経験豊富なユーザーのために機能の見つけやすさを大きく追加します。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Tooltips add greatly to feature discoverability for both new and experienced users.</seg></tuv><tuv xml:lang="ja">
+        <seg>ツールチップは、新規および経験豊富なユーザーのために機能の見つけやすさを大きく追加します。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Ensure that the tab order for widgets is updated whenever the layout of a dialog changes.</seg></tuv><tuv xml:lang="ja">
         <seg>ウィジェットのタブ順序は、ダイアログの変更のたびレイアウトを更新していることを確認します。</seg>
       </tuv>
@@ -271,26 +303,26 @@
         <seg>C ++ファイル</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>C++ implementation and header files should have a .cpp and .h extension respectively. Filename should be all lowercase and, in the case of classes, match the class name.</seg>
+      <tuv xml:lang="en"><seg>C++ implementation and header files should have a .cpp and .h extension respectively.</seg></tuv><tuv xml:lang="ja">
+        <seg>C ++の実装とヘッダーファイルは、それぞれ拡張子.cppと.hを持つ必要があります。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>C ++の実装とヘッダーファイルは、それぞれ拡張子.cppと.hを持つ必要があります。ファイル名はすべて小文字で、クラスの場合、クラス名と一致する必要があります。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Filename should be all lowercase and, in the case of classes, match the class name.</seg></tuv><tuv xml:lang="ja">
+        <seg>ファイル名はすべて小文字で、クラスの場合、クラス名と一致する必要があります。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Example: Class ``QgsFeatureAttribute`` source files are :file:`qgsfeatureattribute.cpp` and :file:`qgsfeatureattribute.h`</seg></tuv><tuv xml:lang="ja">
         <seg>例: クラス ``QgsFeatureAttribute`` ソースファイルは :file:`qgsfeatureattribute.cpp` と :file:`qgsfeatureattribute.h` に置く</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>In case it is not clear from the statement above, for a filename to match a class name it implicitly means that each class should be declared and implemented in its own file. This makes it much easier for newcomers to identify where the code is relating to specific class.</seg>
+      <tuv xml:lang="en"><seg>In case it is not clear from the statement above, for a filename to match a class name it implicitly means that each class should be declared and implemented in its own file.</seg></tuv><tuv xml:lang="ja">
+        <seg>上記の文が暗黙的に意味していることをより明確にいえば、ファイル名をクラス名と一致させるために、それぞれのクラスはそのクラス固有のファイルで宣言され、実装されねばならないということです。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>上記の文が暗黙的に意味していることをより明確にいえば、ファイル名をクラス名と一致させるために、それぞれのクラスはそのクラス固有のファイルで宣言され、実装されねばならないということです。これによって、あるクラスに関連したコードがどこにあるのかを探すのが、新規参加者にとってもはるかに容易になります。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>This makes it much easier for newcomers to identify where the code is relating to specific class.</seg></tuv><tuv xml:lang="ja">
+        <seg>これによって、あるクラスに関連したコードがどこにあるのかを探すのが、新規参加者にとってもはるかに容易になります。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Standard Header and License</seg></tuv><tuv xml:lang="ja">
         <seg>標準ヘッダとライセンス</seg>
       </tuv>
@@ -299,26 +331,26 @@
         <seg>各ソースファイルには以下の例に従ってパターン化されたヘッダセクションがあるようにしてください:</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>There is a template for Qt Creator in git. To use it, copy it from :file:`doc/qt_creator_license_template` to a local location, adjust the mail address and - if required - the name and configure QtCreator to use it: :menuselection:`Tools --&gt; Options --&gt; C++ --&gt; File Naming`.</seg>
+      <tuv xml:lang="en"><seg>There is a template for Qt Creator in git.</seg></tuv><tuv xml:lang="ja">
+        <seg>git中にはQt Creatorのためのテンプレートがあります。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>git中にはQt Creatorのためのテンプレートがあります。それを使用するには、 :file:`doc/qt_creator_license_template` からそれをローカルの場所にコピーし、メールアドレスと名前を（必要ならば）修正し、それを使用するようにQtCreatorを設定します :menuselection:`ツール --&gt; オプション --&gt; C++ --&gt; ファイル命名` 。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>To use it, copy it from :file:`doc/qt_creator_license_template` to a local location, adjust the mail address and - if required - the name and configure QtCreator to use it: :menuselection:`Tools --&gt; Options --&gt; C++ --&gt; File Naming`.</seg></tuv><tuv xml:lang="ja">
+        <seg>それを使用するには、 :file:`doc/qt_creator_license_template` からそれをローカルの場所にコピーし、メールアドレスと名前を（必要ならば）修正し、それを使用するようにQtCreatorを設定します :menuselection:`ツール --&gt; オプション --&gt; C++ --&gt; ファイル命名` 。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Variable Names</seg></tuv><tuv xml:lang="ja">
         <seg>変数名</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>Local variable names begin with a lower case letter and are formed using mixed case. Do not use prefixes like ``my`` or ``the``.</seg>
+      <tuv xml:lang="en"><seg>Local variable names begin with a lower case letter and are formed using mixed case.</seg></tuv><tuv xml:lang="ja">
+        <seg>ローカル変数名は小文字で始まり、大文字と小文字を使用して形成されています。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>ローカル変数名は小文字で始まり、大文字と小文字を使用して形成されています。``my`` あるいは ``the`` といった文字列を前に付けないでください。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Do not use prefixes like ``my`` or ``the``.</seg></tuv><tuv xml:lang="ja">
+        <seg>``my`` あるいは ``the`` といった文字列を前に付けないでください。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>``mapCanvas``</seg></tuv><tuv xml:lang="ja">
         <seg>``mapCanvas``</seg>
       </tuv>
@@ -335,10 +367,14 @@
         <seg>列挙型は、最初が大文字のキャメルケースで命名する必要があります、例えば：</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en"><seg>Do not use generic type names that will conflict with other types. e.g. use ``UnkownUnit`` rather than ``Unknown``</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="en">
+        <seg>Do not use generic type names that will conflict with other types. e.g. use ``UnkownUnit`` rather than ``Unknown``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>他のタイプと競合するジェネリック型の名前を使用しないでください。例えば ``Unknown`` よりむしろ ``UnkownUnit`` を使用してください</seg>
       </tuv>
-    </tu><tu>
+    </tu>
+    <tu>
       <tuv xml:lang="en"><seg>Global Constants &amp; Macros</seg></tuv><tuv xml:lang="ja">
         <seg>グローバル定数＆マクロ</seg>
       </tuv>
@@ -359,22 +395,22 @@
         <seg>Qt のシグナルとスロット</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>All signal/slot connects should be made using the "new style" connects available in Qt5. Futher information on this requirement is available in `QEP #77 &lt;https://github.com/qgis/QGIS-Enhancement-Proposals/issues/77&gt;`_.</seg>
+      <tuv xml:lang="en"><seg>All signal/slot connects should be made using the "new style" connects available in Qt5.</seg></tuv><tuv xml:lang="ja">
+        <seg>すべてのシグナルとスロットの接続は、Qt5から利用可能になった「新しいスタイル」の接続を使用して行われるべきです。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>すべてのシグナルとスロットの接続は、Qt5から利用可能になった「新しいスタイル」の接続を使用して行われるべきです。この要件についてのより詳しい情報は、 `QEP #77 &lt;https://github.com/qgis/QGIS-Enhancement-Proposals/issues/77&gt;`_ で読むことができます。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Futher information on this requirement is available in `QEP #77 &lt;https://github.com/qgis/QGIS-Enhancement-Proposals/issues/77&gt;`_.</seg></tuv><tuv xml:lang="ja">
+        <seg>この要件についてのより詳しい情報は、 `QEP #77 &lt;https://github.com/qgis/QGIS-Enhancement-Proposals/issues/77&gt;`_ で読むことができます。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Avoid use of Qt auto connect slots (i.e. those named ``void on_mSpinBox_valueChanged``). Auto connect slots are fragile and prone to breakage without warning if dialogs are refactored.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Avoid use of Qt auto connect slots (i.e. those named ``void on_mSpinBox_valueChanged``).</seg></tuv><tuv xml:lang="ja">
+        <seg>Qt自動接続スロット（すなわち ``void on_mSpinBox_valueChanged`` と名前付けされたもの）の使用を避けてください。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>Qt自動接続スロット（すなわち ``void on_mSpinBox_valueChanged`` と名前付けされたもの）の使用を避けてください。自動接続スロットはダイアログがリファクタリングされている場合は、警告なしに破損し、脆弱となりやすいです。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Auto connect slots are fragile and prone to breakage without warning if dialogs are refactored.</seg></tuv><tuv xml:lang="ja">
+        <seg>自動接続スロットはダイアログがリファクタリングされている場合は、警告なしに破損し、脆弱となりやすいです。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Editing</seg></tuv><tuv xml:lang="ja">
         <seg>編集</seg>
       </tuv>
@@ -387,14 +423,14 @@
         <seg>タブ</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>Set your editor to emulate tabs with spaces. Tab spacing should be set to 2 spaces.</seg>
+      <tuv xml:lang="en"><seg>Set your editor to emulate tabs with spaces.</seg></tuv><tuv xml:lang="ja">
+        <seg>スペースでタブを代替するようにエディタを設定します。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>スペースでタブを代替するようにエディタを設定します。タブ間隔はスペース2つに設定する必要があります。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Tab spacing should be set to 2 spaces.</seg></tuv><tuv xml:lang="ja">
+        <seg>タブ間隔はスペース2つに設定する必要があります。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>In vim this is done with ``set expandtab ts=2``</seg></tuv><tuv xml:lang="ja">
         <seg>vim では、 ``set expandtab ts=2`` でこれを実行できます</seg>
       </tuv>
@@ -403,14 +439,22 @@
         <seg>字下げ</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>Source code should be indented to improve readability. There is a :file:`scripts/prepare-commit.sh` that looks up the changed files and reindents them using astyle. This should be run before committing. You can also use :file:`scripts/astyle.sh` to indent individual files.</seg>
+      <tuv xml:lang="en"><seg>Source code should be indented to improve readability.</seg></tuv><tuv xml:lang="ja">
+        <seg>ソースコードは読みやすくするために字下げされなければなりません。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>ソースコードは読みやすくするために字下げされなければなりません。変更されたファイルを検索し、 astyle を使用してそれらを字下げし直す :file:`scripts/prepare-commit.sh` があります。これは、コミットする前に実行する必要があります。また、個々のファイルを字下げするために :file:`scripts/astyle.sh` を使用できます。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>There is a :file:`scripts/prepare-commit.sh` that looks up the changed files and reindents them using astyle.</seg></tuv><tuv xml:lang="ja">
+        <seg>変更されたファイルを検索し、 astyle を使用してそれらを字下げし直す :file:`scripts/prepare-commit.sh` があります。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>This should be run before committing.</seg></tuv><tuv xml:lang="ja">
+        <seg>これは、コミットする前に実行する必要があります。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>You can also use :file:`scripts/astyle.sh` to indent individual files.</seg></tuv><tuv xml:lang="ja">
+        <seg>また、個々のファイルを字下げするために :file:`scripts/astyle.sh` を使用できます。</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en"><seg>As newer versions of astyle indent differently than the version used to do a complete reindentation of the source, the script uses an old astyle version, that we include in our repository (enable ``WITH_ASTYLE`` in cmake to include it in the build).</seg></tuv><tuv xml:lang="ja">
         <seg>astyle字下げのより新しいバージョンは、ソースコード全体を字下げし直す時に使用するバージョンとは異なっているので、スクリプトでは古いastyleバージョンを使用しており、これをリポジトリに含めています（これを含めるにはビルドの際にcmakeで ``WITH_ASTYLE`` を有効にします）。</seg>
       </tuv>
@@ -431,14 +475,14 @@
         <seg>C++用の :api:`API documentation &lt;&gt;` があります。</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>We try to keep the API stable and backwards compatible. Cleanups to the API should be done in a manner similar to the Qt sourcecode e.g.</seg>
+      <tuv xml:lang="en"><seg>We try to keep the API stable and backwards compatible.</seg></tuv><tuv xml:lang="ja">
+        <seg>私たちは API の安定性および後方互換性を維持しようとしています。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>私たちは API の安定性および後方互換性を維持しようとしています。API のクリーンアップは、 Qt のソースコード例と同様の方法で行われるべきです。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Cleanups to the API should be done in a manner similar to the Qt sourcecode e.g.</seg></tuv><tuv xml:lang="ja">
+        <seg>API のクリーンアップは、 Qt のソースコード例と同様の方法で行われるべきです。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>SIP Bindings</seg></tuv><tuv xml:lang="ja">
         <seg>SIP バインド</seg>
       </tuv>
@@ -451,14 +495,14 @@
         <seg>ヘッダの前処理</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>All the information to properly build the SIP file must be found in the C++ header file. Some macros are available for such definition:</seg>
+      <tuv xml:lang="en"><seg>All the information to properly build the SIP file must be found in the C++ header file.</seg></tuv><tuv xml:lang="ja">
+        <seg>正しく SIP を構築するためのすべての情報は C++ のヘッダファイル内になければなりません。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>正しく SIP を構築するためのすべての情報は C++ のヘッダファイル内になければなりません。そのような定義のためにいくつかのマクロを利用することができます。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Some macros are available for such definition:</seg></tuv><tuv xml:lang="ja">
+        <seg>そのような定義のためにいくつかのマクロを利用することができます。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Use ``#ifdef SIP_RUN`` to generate code only in SIP files or ``#ifndef SIP_RUN`` for C++ code only.</seg></tuv><tuv xml:lang="ja">
         <seg>``#ifdef SIP_RUN`` で SIP ファイル内でのみ使用するコードを生成し、 ``#ifndef SIP_RUN`` で C++ コード内でのみ使用するコードを生成してください。</seg>
       </tuv>
@@ -511,22 +555,22 @@
         <seg>``private`` セクションは、ブロック内で ``#ifdef SIP_RUN`` 文を使用した場合を除いて表示されません。</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>``SIP_PYDEFAULTVALUE(value)`` can be used to define an alternative default value of the python method. If the default value contains a comma ``,``, the value should be surrounded by single quotes ``'``</seg>
+      <tuv xml:lang="en"><seg>``SIP_PYDEFAULTVALUE(value)`` can be used to define an alternative default value of the python method.</seg></tuv><tuv xml:lang="ja">
+        <seg>``SIP_PYDEFAULTVALUE(value)`` は、Pythonのメソッドのための別のデフォルト値を定義するために使用することができます。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>``SIP_PYDEFAULTVALUE(value)`` は、Pythonのメソッドのための別のデフォルト値を定義するために使用することができます。デフォルト値がコンマ ``,`` を含む場合は、値はシングルクォート ``'`` で囲まなければなりません。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>If the default value contains a comma ``,``, the value should be surrounded by single quotes ``'``</seg></tuv><tuv xml:lang="ja">
+        <seg>デフォルト値がコンマ ``,`` を含む場合は、値はシングルクォート ``'`` で囲まなければなりません。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>``SIP_PYTYPE(type)`` can be used to define an alternative type for an argument of the python method. If the type contains a comma ``,``, the type should be surrounded by single quotes ``'``</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>``SIP_PYTYPE(type)`` can be used to define an alternative type for an argument of the python method.</seg></tuv><tuv xml:lang="ja">
+        <seg>``SIP_PYTYPE(type)``  は、Pythonのメソッドの引数のための別の型を定義するために使用することができます。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>``SIP_PYTYPE(type)``  は、Pythonのメソッドの引数のための別の型を定義するために使用することができます。型がコンマ ``,`` を含む場合は、型はシングルクォート ``'`` で囲まなければなりません。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>If the type contains a comma ``,``, the type should be surrounded by single quotes ``'``</seg></tuv><tuv xml:lang="ja">
+        <seg>型がコンマ ``,`` を含む場合は、型はシングルクォート ``'`` で囲まなければなりません。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>A demo file can be found in :file:`tests/scripts/sipifyheader.h`.</seg></tuv><tuv xml:lang="ja">
         <seg>デモファイルが :file:`tests/scripts/sipifyheader.h` にありますので利用可能です。</seg>
       </tuv>
@@ -535,14 +579,14 @@
         <seg>SIP ファイルを生成する</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>The SIP file can be generated using a dedicated script. For instance:</seg>
+      <tuv xml:lang="en"><seg>The SIP file can be generated using a dedicated script.</seg></tuv><tuv xml:lang="ja">
+        <seg>SIP ファイルはそのための専用スクリプトを使って生成することができます。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>SIP ファイルはそのための専用スクリプトを使って生成することができます。例えば次のようにします。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>For instance:</seg></tuv><tuv xml:lang="ja">
+        <seg>例えば次のようにします。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Older files for which the automatic creation is not enabled yet are listed in :file:`python/auto_sip.blacklist`.</seg></tuv><tuv xml:lang="ja">
         <seg>自動生成がまだ有効にされていない古いファイルは :file:`python/auto_sip.blacklist` にリストアップされています。</seg>
       </tuv>
@@ -551,14 +595,14 @@
         <seg>sipify スクリプトを改善する</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>If some improvements are required for sipify script, please add the missing bits to the demo file :file:`tests/scripts/sipifyheader.h` and create the expected header :file:`tests/scripts/sipifyheader.expected.si`. This will also be automatically tested on Travis as a unit test of the script itself.</seg>
+      <tuv xml:lang="en"><seg>If some improvements are required for sipify script, please add the missing bits to the demo file :file:`tests/scripts/sipifyheader.h` and create the expected header :file:`tests/scripts/sipifyheader.expected.si`.</seg></tuv><tuv xml:lang="ja">
+        <seg>sipify スクリプトに何か改善が必要な場合は、デモファイル :file:`tests/scripts/sipifyheader.h` に必要な追加を行い、 期待されるヘッダ :file:`tests/scripts/sipifyheader.expected.si` を作成してください。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>sipify スクリプトに何か改善が必要な場合は、デモファイル :file:`tests/scripts/sipifyheader.h` に必要な追加を行い、 期待されるヘッダ :file:`tests/scripts/sipifyheader.expected.si` を作成してください。これはスクリプト自身のユニットテストとしても、Travisで自動的にテストされます。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>This will also be automatically tested on Travis as a unit test of the script itself.</seg></tuv><tuv xml:lang="ja">
+        <seg>これはスクリプト自身のユニットテストとしても、Travisで自動的にテストされます。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Coding Style</seg></tuv><tuv xml:lang="ja">
         <seg>コーディングスタイル</seg>
       </tuv>
@@ -603,14 +647,14 @@
         <seg>``value == 0`` の代わりに ``0 == value``</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>This will help prevent programmers from accidentally using ``=`` when they meant to use ``==``, which can introduce very subtle logic bugs. The compiler will generate an error if you accidentally use ``=`` instead of ``==`` for comparisons since constants inherently cannot be assigned values.</seg>
+      <tuv xml:lang="en"><seg>This will help prevent programmers from accidentally using ``=`` when they meant to use ``==``, which can introduce very subtle logic bugs.</seg></tuv><tuv xml:lang="ja">
+        <seg>これにより、プログラマが ``==`` を使用するつもりで誤って ``=`` を使用することを防げます、それは非常に微妙な論理的バグになる。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>これにより、プログラマが ``==`` を使用するつもりで誤って ``=`` を使用することを防げます、それは非常に微妙な論理的バグになる。比較のための ``==`` の代わりに誤って ``=`` を使用している場合、 定数には本質的に値を割り当てできませんから、コンパイラでエラーが発生します。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>The compiler will generate an error if you accidentally use ``=`` instead of ``==`` for comparisons since constants inherently cannot be assigned values.</seg></tuv><tuv xml:lang="ja">
+        <seg>比較のための ``==`` の代わりに誤って ``=`` を使用している場合、 定数には本質的に値を割り当てできませんから、コンパイラでエラーが発生します。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Whitespace Can Be Your Friend</seg></tuv><tuv xml:lang="ja">
         <seg>空白は友達になりえます</seg>
       </tuv>
@@ -635,38 +679,46 @@
         <seg>コマンドは別々の行に入れましょう</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>When reading code it's easy to miss commands, if they are not at the beginning of the line. When quickly reading through code, it's common to skip lines if they don't look like what you are looking for in the first few characters. It's also common to expect a command after a conditional like ``if``.</seg>
+      <tuv xml:lang="en"><seg>When reading code it's easy to miss commands, if they are not at the beginning of the line.</seg></tuv><tuv xml:lang="ja">
+        <seg>コードを読み取るとき、行の先頭にない場合は、コマンドを見逃しやすくなります。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>コードを読み取るとき、行の先頭にない場合は、コマンドを見逃しやすくなります。すぐにコードを読むとき、それらは最初の数文字で探しているもののように見えない場合、行を読み飛ばすのが一般的です。 ``if`` のような条件の後にコマンドを期待することも一般的です。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>When quickly reading through code, it's common to skip lines if they don't look like what you are looking for in the first few characters.</seg></tuv><tuv xml:lang="ja">
+        <seg>すぐにコードを読むとき、それらは最初の数文字で探しているもののように見えない場合、行を読み飛ばすのが一般的です。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>It's also common to expect a command after a conditional like ``if``.</seg></tuv><tuv xml:lang="ja">
+        <seg>``if`` のような条件の後にコマンドを期待することも一般的です。</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Consider:</seg></tuv><tuv xml:lang="ja">
         <seg>考えてみましょう：</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>It's very easy to miss part of what the flow of control. Instead use</seg>
+      <tuv xml:lang="en"><seg>It's very easy to miss part of what the flow of control.</seg></tuv><tuv xml:lang="ja">
+        <seg>制御のどのような流れの一部を見逃すのは非常に簡単です。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>制御のどのような流れの一部を見逃すのは非常に簡単です。代わりに使用します</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Instead use</seg></tuv><tuv xml:lang="ja">
+        <seg>代わりに使用します</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Indent access modifiers</seg></tuv><tuv xml:lang="ja">
         <seg>アクセス修飾子を字下げしましょう</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>Access modifiers structure a class into sections of public API, protected API and private API. Access modifiers themselves group the code into this structure. Indent the access modifier and declarations.</seg>
+      <tuv xml:lang="en"><seg>Access modifiers structure a class into sections of public API, protected API and private API.</seg></tuv><tuv xml:lang="ja">
+        <seg>アクセス修飾子は、公開API、保護されたAPIとプライベートAPIのセクションにクラスを構造化します。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>アクセス修飾子は、公開API、保護されたAPIとプライベートAPIのセクションにクラスを構造化します。アクセス修飾子自体はこのような構造にコードをグループ化します。アクセス修飾子と宣言を字下げしてください。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Access modifiers themselves group the code into this structure.</seg></tuv><tuv xml:lang="ja">
+        <seg>アクセス修飾子自体はこのような構造にコードをグループ化します。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Indent the access modifier and declarations.</seg></tuv><tuv xml:lang="ja">
+        <seg>アクセス修飾子と宣言を字下げしてください。</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Book recommendations</seg></tuv><tuv xml:lang="ja">
         <seg>お奨めの読み物</seg>
       </tuv>

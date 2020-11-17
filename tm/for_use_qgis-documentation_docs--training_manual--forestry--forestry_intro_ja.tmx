@@ -2,36 +2,50 @@
 <!DOCTYPE tmx SYSTEM "tmx14.dtd">
 <tmx version="1.4">
   <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
-  <body><tu>
+  <body>
+    <tu>
       <tuv xml:lang="en"><seg>|LS| Forestry Module Presentation</seg></tuv><tuv xml:lang="ja">
         <seg>|LS| 林業モジュールのプレゼンテーション</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en">
-        <seg>Following this module about a forestry application requires the knowledge you have learned through the modules 1 to 11 of this training manual. The exercises in the following lessons assume you are already capable of doing many of the basic operations in QGIS and only tools that have not been used before are presented in more detail.</seg>
+    </tu>
+    <tu>
+      <tuv xml:lang="en"><seg>Following this module about a forestry application requires the knowledge you have learned through the modules 1 to 11 of this training manual.</seg></tuv><tuv xml:lang="ja">
+        <seg>林業の応用についてのこのモジュールを理解するには、このトレーニングマニュアルのモジュール1から11を通じて学んだ知識が必要です。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>林業の応用についてのこのモジュールを理解するには、このトレーニングマニュアルのモジュール1から11を通じて学んだ知識が必要です。この後のレッスンの演習では、読者はすでに QGIS での基本的な操作の多くはできるものと仮定し、前に使用されていないツールだけが詳細に提示されます。</seg>
+    </tu>
+    <tu>
+      <tuv xml:lang="en"><seg>The exercises in the following lessons assume you are already capable of doing many of the basic operations in QGIS and only tools that have not been used before are presented in more detail.</seg></tuv><tuv xml:lang="ja">
+        <seg>この後のレッスンの演習では、読者はすでに QGIS での基本的な操作の多くはできるものと仮定し、前に使用されていないツールだけが詳細に提示されます。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv xml:lang="en"><seg>Nevertheless, the module follows a basic level throughout the lessons so that if you have previous experience with QGIS, you can probably follow the instructions without problems.</seg></tuv><tuv xml:lang="ja">
         <seg>にもかかわらず、QGISでの以前の経験を持っている方であればおそらく問題なく指示に従うことができるよう、モジュールはレッスンを通して基本的なレベルに従います。</seg>
       </tuv>
-    </tu><tu>
+    </tu>
+    <tu>
       <tuv xml:lang="en"><seg>Note that you need to download an additional data package for this module.</seg></tuv><tuv xml:lang="ja">
         <seg>このモジュールの追加のデータパッケージをダウンロードする必要があることに注意してください。</seg>
       </tuv>
-    </tu><tu>
+    </tu>
+    <tu>
       <tuv xml:lang="en"><seg>Forestry Sample Data</seg></tuv><tuv xml:lang="ja">
         <seg>林業のサンプルデータ</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en">
-        <seg>As for the rest of the training manual, this module includes instructions on adding, deleting and altering GIS datasets. We have provided training datasets for this purpose. Before using the techniques described here on your own data, always ensure you have proper backups!</seg>
+    </tu>
+    <tu>
+      <tuv xml:lang="en"><seg>As for the rest of the training manual, this module includes instructions on adding, deleting and altering GIS datasets.</seg></tuv><tuv xml:lang="ja">
+        <seg>トレーニングマニュアルの残りの部分については、このモジュールは、GISデータセットの追加、削除および変更の指示が含まれています。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>トレーニングマニュアルの残りの部分については、このモジュールは、GISデータセットの追加、削除および変更の指示が含まれています。私たちは、この目的のためにトレーニングデータセットを提供しています。独自のデータにここに記載されている技術を使用する前に、必ず適切にバックアップをとっていることを確認！</seg>
+    </tu>
+    <tu>
+      <tuv xml:lang="en"><seg>We have provided training datasets for this purpose.</seg></tuv><tuv xml:lang="ja">
+        <seg>私たちは、この目的のためにトレーニングデータセットを提供しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en"><seg>Before using the techniques described here on your own data, always ensure you have proper backups!</seg></tuv><tuv xml:lang="ja">
+        <seg>独自のデータにここに記載されている技術を使用する前に、必ず適切にバックアップをとっていることを確認！</seg>
       </tuv>
     </tu>
   </body>

@@ -79,26 +79,54 @@
         <seg>プリントコンポーザでの小径地図</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>Once the data required to create the map was assembled and in a usable format the creation of the final map was started. To create the hiking map data was symbolized and labeled with the symbolization properties dialog and labeled with QGIS’s very functional label engine. Once labels and symbolization were in place the map composer tool was run to create the layout. It was very easy to add useful map elements such as a custom north arrow and elevation profile in the print composer. Two layouts were created since it was to be a double-sided map. Once both layouts were created they were exported as PDF files and sent to the printers.</seg>
+      <tuv xml:lang="en"><seg>Once the data required to create the map was assembled and in a usable format the creation of the final map was started.</seg></tuv><tuv xml:lang="ja">
+        <seg>地図を作成するために必要なデータが組み立てられた後は、使用可能なフォーマットで、最終的な地図の作成が開始されました。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>地図を作成するために必要なデータが組み立てられた後は、使用可能なフォーマットで、最終的な地図の作成が開始されました。ハイキング地図データを作成するにはラベル付けと記号づけプロパティダイアログで標識し、QGISの非常に機能的なラベルエンジンで標識しました。ラベルや記号が所定の位置に置かれたら、地図コンポーザツールがレイアウトを作成するために実行されました。印刷コンポーザで、カスタム北矢印と高度プロファイルとして有用な地図要素を追加することは非常に簡単でした。それは両面地図だったので、2つのレイアウトが作成されました。両方のレイアウトが作成された後、それらはPDFファイルとしてエクスポートされプリンタに送信されました。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>To create the hiking map data was symbolized and labeled with the symbolization properties dialog and labeled with QGIS’s very functional label engine.</seg></tuv><tuv xml:lang="ja">
+        <seg>ハイキング地図データを作成するにはラベル付けと記号づけプロパティダイアログで標識し、QGISの非常に機能的なラベルエンジンで標識しました。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Once labels and symbolization were in place the map composer tool was run to create the layout.</seg></tuv><tuv xml:lang="ja">
+        <seg>ラベルや記号が所定の位置に置かれたら、地図コンポーザツールがレイアウトを作成するために実行されました。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>It was very easy to add useful map elements such as a custom north arrow and elevation profile in the print composer.</seg></tuv><tuv xml:lang="ja">
+        <seg>印刷コンポーザで、カスタム北矢印と高度プロファイルとして有用な地図要素を追加することは非常に簡単でした。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Two layouts were created since it was to be a double-sided map.</seg></tuv><tuv xml:lang="ja">
+        <seg>それは両面地図だったので、2つのレイアウトが作成されました。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Once both layouts were created they were exported as PDF files and sent to the printers.</seg></tuv><tuv xml:lang="ja">
+        <seg>両方のレイアウトが作成された後、それらはPDFファイルとしてエクスポートされプリンタに送信されました。</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Conclusion</seg></tuv><tuv xml:lang="ja">
         <seg>結論</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>The hiking map was printed on heavy-duty waterproof paper, folded and inserted in the back of the new edition of the Fundy Footpath Hiker’s Guide Book. QGIS was the best and most functional choice for the creation of this map. Being free software the price was right for a volunteer creating a map for a non-profit organization. But the real advantage of QGIS was that it had all of the functionality and tools required to create a highly useful and detailed hiking map from start to finish. I would highly recommend QGIS to both experienced and beginning GIS users alike.</seg>
+      <tuv xml:lang="en"><seg>The hiking map was printed on heavy-duty waterproof paper, folded and inserted in the back of the new edition of the Fundy Footpath Hiker’s Guide Book.</seg></tuv><tuv xml:lang="ja">
+        <seg>散策地図は、高耐久防水紙に印刷されて折り畳まれ、「ファンディ小径ハイカーのガイドブック」の新しい版の背面に挿入されました。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>散策地図は、高耐久防水紙に印刷されて折り畳まれ、「ファンディ小径ハイカーのガイドブック」の新しい版の背面に挿入されました。QGISは、この地図を作成するための最良かつ最も機能的な選択でした。フリーソフトウェアなので、非営利団体のための地図を作成するボランティアにとって適正な価格でした。しかし、QGISの本当の利点は、それが最初から最後まで非常に有用かつ詳細な散策地図を作成するために必要な機能とツールのすべてを持っていたことでした。経験者と初心者のGISユーザーどちらにとってもQGISはお勧めでしょう。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>QGIS was the best and most functional choice for the creation of this map.</seg></tuv><tuv xml:lang="ja">
+        <seg>QGISは、この地図を作成するための最良かつ最も機能的な選択でした。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Being free software the price was right for a volunteer creating a map for a non-profit organization.</seg></tuv><tuv xml:lang="ja">
+        <seg>フリーソフトウェアなので、非営利団体のための地図を作成するボランティアにとって適正な価格でした。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>But the real advantage of QGIS was that it had all of the functionality and tools required to create a highly useful and detailed hiking map from start to finish.</seg></tuv><tuv xml:lang="ja">
+        <seg>しかし、QGISの本当の利点は、それが最初から最後まで非常に有用かつ詳細な散策地図を作成するために必要な機能とツールのすべてを持っていたことでした。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>I would highly recommend QGIS to both experienced and beginning GIS users alike.</seg></tuv><tuv xml:lang="ja">
+        <seg>経験者と初心者のGISユーザーどちらにとってもQGISはお勧めでしょう。</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en"><seg>The final Fundy Footpath map with accompanying guidebook</seg></tuv><tuv xml:lang="ja">
         <seg>付属のガイドブックで、最終的なファンディ小径マップ</seg>
       </tuv>
@@ -127,12 +155,12 @@
         <seg>ジャレット・トットン</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>This article was contributed by Jarrett Totton in January 2013. Jarrett is a GIS Technologist living in Alberta, Canada.</seg>
+      <tuv xml:lang="en"><seg>This article was contributed by Jarrett Totton in January 2013.</seg></tuv><tuv xml:lang="ja">
+        <seg>この記事は、2013年に1月ジャレット・トットンによって寄稿されました。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>この記事は、2013年に1月ジャレット・トットンによって寄稿されました。ジャレットは、カナダのアルバータ州在住のGIS技術者です。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Jarrett is a GIS Technologist living in Alberta, Canada.</seg></tuv><tuv xml:lang="ja">
+        <seg>ジャレットは、カナダのアルバータ州在住のGIS技術者です。</seg>
       </tuv>
-    </tu>
-  </body>
+    </tu></body>
 </tmx>

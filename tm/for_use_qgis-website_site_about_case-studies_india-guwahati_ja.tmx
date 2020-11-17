@@ -7,14 +7,18 @@
         <seg>QGISを使用したトレーニング＆研究活動 、NIRD&amp;PR-NERC, グワハティ、インド</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>There is a question why QGIS only when other software like uDig, MapWindow, gvSIG, GRASS are also there. The answer lies in the facts that QGIS is an OSGeo incubated project, less complex, its development is very fast and associated with huge community of users and developers and lastly authors expertise. With its latest version of 2.4, software is capable of satisfying the all needs of grass root rural development executors in India with satisfying the present queries and wishes for future.</seg>
+      <tuv xml:lang="en"><seg>There is a question why QGIS only when other software like uDig, MapWindow, gvSIG, GRASS are also there.</seg></tuv><tuv xml:lang="ja">
+        <seg>uDig、MapWindow、gvSIG、GRASSのような他のソフトウェアもあるときに、なぜQGISだけなのかという疑問があります。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>uDig、MapWindow、gvSIG、GRASSのような他のソフトウェアもあるときに、なぜQGISだけなのかという疑問があります。答えは、QGISがOSGEO培養のプロジェクトであり、それほど複雑でなく、その開発は非常に高速かつ巨大なユーザーと開発者のコ​​ミュニティと最後に著者の専門知識に関連付けられているという事実にあります。最新バージョンの2.4では、ソフトウェアは、現在の問合せと将来のための望みを満たし、インドの草の根農村開発施行者のすべてのニーズを満たすことが可能です。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>The answer lies in the facts that QGIS is an OSGeo incubated project, less complex, its development is very fast and associated with huge community of users and developers and lastly authors expertise.</seg></tuv><tuv xml:lang="ja">
+        <seg>答えは、QGISがOSGEO培養のプロジェクトであり、それほど複雑でなく、その開発は非常に高速かつ巨大なユーザーと開発者のコ​​ミュニティと最後に著者の専門知識に関連付けられているという事実にあります。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>With its latest version of 2.4, software is capable of satisfying the all needs of grass root rural development executors in India with satisfying the present queries and wishes for future.</seg></tuv><tuv xml:lang="ja">
+        <seg>最新バージョンの2.4では、ソフトウェアは、現在の問合せと将来のための望みを満たし、インドの草の根農村開発施行者のすべてのニーズを満たすことが可能です。</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Training course at NIRD&amp;PR-NERC, Guwahati</seg></tuv><tuv xml:lang="ja">
         <seg>NIRD&amp;PR-NERC、グワハティ、でのトレーニングコース</seg>
       </tuv>
@@ -39,60 +43,116 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>Initially I was involved in conducting GIS trainings with commercial software like ArcGIS and ERDAS. But end of the training programme, participants were not happy due to unavailable of software with them for practice. Then we find the solution with introducing QGIS. After introducing the QuantumGIS, it was felt that the Open Source GIS can fulfil the need of Rural Development sector of India. Accordingly it was introduced in research activities to prepare a base maps like roads, drainage, settlements, delineation of watershed boundary etc. and also to prepare a GPS data downloading, analysis, hyperlinking the field photos of GPS survey etc. Using Google earth plugin we have been introduced to prepare a LULC maps.</seg>
+      <tuv xml:lang="en"><seg>Initially I was involved in conducting GIS trainings with commercial software like ArcGIS and ERDAS.</seg></tuv><tuv xml:lang="ja">
+        <seg>当初、私は、ArcGISとERDASなどの商用ソフトウェアでGISトレーニングを行うことに関与していました。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>当初、私は、ArcGISとERDASなどの商用ソフトウェアでGISトレーニングを行うことに関与していました。しかし、研修プログラムの最後には、参加者は自分たちの練習にソフトウェアを使用できなかったことが原因で幸せではなかったです。その後、私たちはQGISを導入することで解決策を見つけます。QuantumGISを導入した後、オープンソースGISはインドの農村開発部門のニーズを満たすことができると感じました。したがって、それは道路、排水、入植地、流域の境界の描写などの基図を準備するため、そしてGPSデータのダウンロード、分析、GPS測量の現場の写真などをハイパーリンクする準備するなどのためにも、研究活動の中で導入されました。 Googleアースプラグインを使用してLULCマップを準備するために導入されています。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>But end of the training programme, participants were not happy due to unavailable of software with them for practice.</seg></tuv><tuv xml:lang="ja">
+        <seg>しかし、研修プログラムの最後には、参加者は自分たちの練習にソフトウェアを使用できなかったことが原因で幸せではなかったです。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>The applications of software during training are generally concentrated on Resource Mapping, Rural infrastructure facility mapping, Watershed and Mahatma Gandhi National Rural Employment Guarantee Scheme (MGNREGS). Watershed and MGNREGS are land based flagships of Government of India. Local Open Source Raster and Vector data are used in exercises. Participants are encouraged to come with their own or departmental data if available to work. Training is provided in lab equipped with 22 computers of i7, 4GB RAM and Windows8 OS. Per training programme number of trainees remains between 20-30.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Then we find the solution with introducing QGIS.</seg></tuv><tuv xml:lang="ja">
+        <seg>その後、私たちはQGISを導入することで解決策を見つけます。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>訓練中のソフトウェアのアプリケーションは、一般的に、資源図化、農村インフラ施設の図化、流域とマハトマ・ガンジー国立農村雇用保証制度（MGNREGS）に集中しています。流域とMGNREGSは、インド政府の土地ベースの旗艦です。地域のオープンソースラスターとベクターデータは、演習で使用されています。参加者は、作業に利用可能な場合、独自または部門別データを持参することが奨励されます。訓練はi7のの22台のコンピューター、4ギガバイトのRAMとWindows8 OSを搭載した実験室で提供されています。研修生の研修あたりのプログラム数は20〜30の間に残ります。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>After introducing the QuantumGIS, it was felt that the Open Source GIS can fulfil the need of Rural Development sector of India.</seg></tuv><tuv xml:lang="ja">
+        <seg>QuantumGISを導入した後、オープンソースGISはインドの農村開発部門のニーズを満たすことができると感じました。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>General topics covered are basic introduction to the GIS and QGIS software , major tool bars, plug-in structure, geo-referencing, creation/editing of vector data, clip (Raster/Vector), merge, terrain analysis, contours, .csv to .shp layer, .shp to .kml and vice versa, handling GPS data, Interpolation, table editing/query, field calculator, print composer etc. and some basic analysis on vector data. Apart from introduction to various help links available, a LinkedIn group for participants has been created for post training support. Besides, QGIS based training programmes, QGIS also used in research like georeferncing the maps, database creation, extraction of vector data from toposheets and google earth, editing and analysis, GPS data downloading and process and then layout preparation etc.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Accordingly it was introduced in research activities to prepare a base maps like roads, drainage, settlements, delineation of watershed boundary etc. and also to prepare a GPS data downloading, analysis, hyperlinking the field photos of GPS survey etc.</seg></tuv><tuv xml:lang="ja">
+        <seg>したがって、それは道路、排水、入植地、流域の境界の描写などの基図を準備するため、そしてGPSデータのダウンロード、分析、GPS測量の現場の写真などをハイパーリンクする準備するなどのためにも、研究活動の中で導入されました。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>カバーされる一般的なトピックは、GISとQGISソフトウェアの基本的な導入、主要なツールバー、プラグイン構造、地理参照、ベクターデータの作成/編集、クリップ（ラスター/ベクター）、マージ、地形分析、等高線、.CSVから.SHPレイヤー、.SHPから.KMLおよびその逆、GPSデータを処理、補間、テーブル編集/クエリ、フィールドの計算、ベクターデータで印刷コンポーザ、等、およびいくつかの基本的な分析。別に利用可能なさまざまなヘルプリンクへの導入から、参加者のLinkedInのグループはポスト教育支援のために作成されています。また、トレーニングプログラムをベースQGIS、QGISはまた地図、データベースの作成、等toposheetsとグーグルアース、編集および分析、GPSデータのダウンロードと処理し、次いで、レイアウト調製からベクターデータの抽出をgeoreferncingような研究で使用されます</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Using Google earth plugin we have been introduced to prepare a LULC maps.</seg></tuv><tuv xml:lang="ja">
+        <seg>Googleアースプラグインを使用してLULCマップを準備するために導入されています。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>The applications of software during training are generally concentrated on Resource Mapping, Rural infrastructure facility mapping, Watershed and Mahatma Gandhi National Rural Employment Guarantee Scheme (MGNREGS).</seg></tuv><tuv xml:lang="ja">
+        <seg>訓練中のソフトウェアのアプリケーションは、一般的に、資源図化、農村インフラ施設の図化、流域とマハトマ・ガンジー国立農村雇用保証制度（MGNREGS）に集中しています。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Watershed and MGNREGS are land based flagships of Government of India.</seg></tuv><tuv xml:lang="ja">
+        <seg>流域とMGNREGSは、インド政府の土地ベースの旗艦です。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Local Open Source Raster and Vector data are used in exercises.</seg></tuv><tuv xml:lang="ja">
+        <seg>地域のオープンソースラスターとベクターデータは、演習で使用されています。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Participants are encouraged to come with their own or departmental data if available to work.</seg></tuv><tuv xml:lang="ja">
+        <seg>参加者は、作業に利用可能な場合、独自または部門別データを持参することが奨励されます。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Training is provided in lab equipped with 22 computers of i7, 4GB RAM and Windows8 OS.</seg></tuv><tuv xml:lang="ja">
+        <seg>訓練はi7のの22台のコンピューター、4ギガバイトのRAMとWindows8 OSを搭載した実験室で提供されています。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Per training programme number of trainees remains between 20-30.</seg></tuv><tuv xml:lang="ja">
+        <seg>研修生の研修あたりのプログラム数は20〜30の間に残ります。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>General topics covered are basic introduction to the GIS and QGIS software , major tool bars, plug-in structure, geo-referencing, creation/editing of vector data, clip (Raster/Vector), merge, terrain analysis, contours, .csv to .shp layer, .shp to .kml and vice versa, handling GPS data, Interpolation, table editing/query, field calculator, print composer etc. and some basic analysis on vector data.</seg></tuv><tuv xml:lang="ja">
+        <seg>カバーされる一般的なトピックは、GISとQGISソフトウェアの基本的な導入、主要なツールバー、プラグイン構造、地理参照、ベクターデータの作成/編集、クリップ（ラスター/ベクター）、マージ、地形分析、等高線、.CSVから.SHPレイヤー、.SHPから.KMLおよびその逆、GPSデータを処理、補間、テーブル編集/クエリ、フィールドの計算、ベクターデータで印刷コンポーザ、等、およびいくつかの基本的な分析。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Apart from introduction to various help links available, a LinkedIn group for participants has been created for post training support.</seg></tuv><tuv xml:lang="ja">
+        <seg>別に利用可能なさまざまなヘルプリンクへの導入から、参加者のLinkedInのグループはポスト教育支援のために作成されています。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Besides, QGIS based training programmes, QGIS also used in research like georeferncing the maps, database creation, extraction of vector data from toposheets and google earth, editing and analysis, GPS data downloading and process and then layout preparation etc.</seg></tuv><tuv xml:lang="ja">
+        <seg>また、トレーニングプログラムをベースQGIS、QGISはまた地図、データベースの作成、等toposheetsとグーグルアース、編集および分析、GPSデータのダウンロードと処理し、次いで、レイアウト調製からベクターデータの抽出をgeoreferncingような研究で使用されます</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Success</seg></tuv><tuv xml:lang="ja">
         <seg>成功</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>Every month training is conducted with 20-30 participants, so this number is increasing every month. Training feedbacks are remaining very positive and encouraging. Certificates are provided to the participants after completion of training. Presently handouts are being supplied to the participants in hard copy and tutorial, software and practice data in soft copies but plan is there to create DVDs containing screen-recorded lectures/demo of various topics in English. In future certificate and diploma programmes may also be initiated.</seg>
+      <tuv xml:lang="en"><seg>Every month training is conducted with 20-30 participants, so this number is increasing every month.</seg></tuv><tuv xml:lang="ja">
+        <seg>毎月訓練は20-30の参加者で行われているので、この数は毎月増加しています。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>毎月訓練は20-30の参加者で行われているので、この数は毎月増加しています。トレーニングフィードバックは非常に肯定的と励みに残っています。証明書は、研修終了後の参加者に提供されています。現在は配布資料はハードコピー、チュートリアル、ソフトウェアおよび練習データはソフトコピーで参加者に提供されていますが、画面記録講義/英語でのさまざまなトピックのデモを含むDVDを作成する計画があります。将来は証明書と卒業証書のプログラムでも開始できます。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Training feedbacks are remaining very positive and encouraging.</seg></tuv><tuv xml:lang="ja">
+        <seg>トレーニングフィードバックは非常に肯定的と励みに残っています。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Certificates are provided to the participants after completion of training.</seg></tuv><tuv xml:lang="ja">
+        <seg>証明書は、研修終了後の参加者に提供されています。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Presently handouts are being supplied to the participants in hard copy and tutorial, software and practice data in soft copies but plan is there to create DVDs containing screen-recorded lectures/demo of various topics in English.</seg></tuv><tuv xml:lang="ja">
+        <seg>現在は配布資料はハードコピー、チュートリアル、ソフトウェアおよび練習データはソフトコピーで参加者に提供されていますが、画面記録講義/英語でのさまざまなトピックのデモを含むDVDを作成する計画があります。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>In future certificate and diploma programmes may also be initiated.</seg></tuv><tuv xml:lang="ja">
+        <seg>将来は証明書と卒業証書のプログラムでも開始できます。</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en"><seg>This article was contributed in July 2014 by Alajangi Simhachalam, Adjunct Faculty, NIRD-NERC, Guwahati Website: http://www.nirdnerc.nic.in</seg></tuv><tuv xml:lang="ja">
         <seg>http://www.nirdnerc.nic.in：この記事は2014年7月に、Alajangi Simhachalam、非常勤教員、NIRD-NERC、グワハティのウェブサイトで寄稿されました</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>Software was then pursued for the personal use for one year and its new versions were checked for the enhanced functionalities. During this whenever author was course coordinator in training, he used QGIS in trainings for introduction and feedbacks.</seg>
+      <tuv xml:lang="en"><seg>Software was then pursued for the personal use for one year and its new versions were checked for the enhanced functionalities.</seg></tuv><tuv xml:lang="ja">
+        <seg>ソフトウェアは、その後一年間の個人的な使用のために追求されたとその新しいバージョンが強化機能を調べました。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>ソフトウェアは、その後一年間の個人的な使用のために追求されたとその新しいバージョンが強化機能を調べました。著者は、トレーニング中にコースのコーディネーターだったときには、この期間中、彼は導入とフィードバックのための研修でQGISを使用しました。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>During this whenever author was course coordinator in training, he used QGIS in trainings for introduction and feedbacks.</seg></tuv><tuv xml:lang="ja">
+        <seg>著者は、トレーニング中にコースのコーディネーターだったときには、この期間中、彼は導入とフィードバックのための研修でQGISを使用しました。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>QGIS is being used in GIS trainings at the centre. Further it is being messaged and advised in all trainings that no commercial GIS software should be purchased at District (administrative unit in India after Nation and State) and below, if real requirement is not felt and this saving may be used for purchase of hardware like GPSs, computers etc. In the training we have been introduced to participants Georeferencing, database creation, digitization, editing, analysis and print composer etc. After introducing QGIS, we are getting good feedback from various officials and students.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>QGIS is being used in GIS trainings at the centre.</seg></tuv><tuv xml:lang="ja">
+        <seg>QGISは中央のGISトレーニングに使用されています。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>QGISは中央のGISトレーニングに使用されています。さらに、地区（国と州の次のインドの行政単位）およびそれ以下において、本当の要件が感じられない場合、またこの節約がGPSS、コンピューターなどのハードウェアの購入に使用できる場合には、商業的GISソフトウェアは購入すべきでないことが、すべてのトレーニングにメッセージとして送られ助言されています。トレーニングにおいて、私たちは参加者にジオリファレンス、データベースの作成、デジタル化、編集、分析および印刷コンポーザなど紹介してきました。QGISを導入した後、私たちは様々な関係者や学生たちから良いフィードバックを得ています。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Further it is being messaged and advised in all trainings that no commercial GIS software should be purchased at District (administrative unit in India after Nation and State) and below, if real requirement is not felt and this saving may be used for purchase of hardware like GPSs, computers etc.</seg></tuv><tuv xml:lang="ja">
+        <seg>さらに、地区（国と州の次のインドの行政単位）およびそれ以下において、本当の要件が感じられない場合、またこの節約がGPSS、コンピューターなどのハードウェアの購入に使用できる場合には、商業的GISソフトウェアは購入すべきでないことが、すべてのトレーニングにメッセージとして送られ助言されています。</seg>
       </tuv>
-    </tu>
-  </body>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>In the training we have been introduced to participants Georeferencing, database creation, digitization, editing, analysis and print composer etc.</seg></tuv><tuv xml:lang="ja">
+        <seg>トレーニングにおいて、私たちは参加者にジオリファレンス、データベースの作成、デジタル化、編集、分析および印刷コンポーザなど紹介してきました。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>After introducing QGIS, we are getting good feedback from various officials and students.</seg></tuv><tuv xml:lang="ja">
+        <seg>QGISを導入した後、私たちは様々な関係者や学生たちから良いフィードバックを得ています。</seg>
+      </tuv>
+    </tu></body>
 </tmx>

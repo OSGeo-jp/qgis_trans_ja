@@ -2,65 +2,86 @@
 <!DOCTYPE tmx SYSTEM "tmx14.dtd">
 <tmx version="1.4">
   <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
-  <body><tu>
+  <body>
+    <tu>
       <tuv xml:lang="en"><seg>|LS| Rules</seg></tuv><tuv xml:lang="ja">
         <seg>|LS| ルール</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en">
-        <seg>Rules allow the "query tree" of an incoming query to be rewritten. One common usage is to implement views, including updatable view. *- Wikipedia*</seg>
+    </tu>
+    <tu>
+      <tuv xml:lang="en"><seg>Rules allow the "query tree" of an incoming query to be rewritten.</seg></tuv><tuv xml:lang="ja">
+        <seg>ルールは "クエリ木" に書き換えることができます。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>ルールは "クエリ木" に書き換えることができます。一つの一般的な使用法は、更新可能なビューなど、ビューを実装することです。 *Wikipediaより*</seg>
+    </tu>
+    <tu>
+      <tuv xml:lang="en"><seg>One common usage is to implement views, including updatable view.</seg></tuv><tuv xml:lang="ja">
+        <seg>一つの一般的な使用法は、更新可能なビューなど、ビューを実装することです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en"><seg>*- Wikipedia*</seg></tuv><tuv xml:lang="ja">
+        <seg>*Wikipediaより*</seg>
       </tuv>
     </tu>
     <tu>
       <tuv xml:lang="en"><seg>**The goal for this lesson:** To learn how to create new rules for the database.</seg></tuv><tuv xml:lang="ja">
         <seg>**このレッスンの目標:** データベースの新しいルールを作成する方法を学習する.</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en">
-        <seg>Say you want to log every change of phone_no in your people table in to a people_log table. So you set up a new table:</seg>
+    </tu>
+    <tu>
+      <tuv xml:lang="en"><seg>Say you want to log every change of phone_no in your people table in to a people_log table.</seg></tuv><tuv xml:lang="ja">
+        <seg>people テーブルにある phone_no の変更すべてを people_log テーブルにログとして記録したいとします。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>people テーブルにある phone_no の変更すべてを people_log テーブルにログとして記録したいとします。そこで新しいテーブルを設定します:</seg>
+    </tu>
+    <tu>
+      <tuv xml:lang="en"><seg>So you set up a new table:</seg></tuv><tuv xml:lang="ja">
+        <seg>そこで新しいテーブルを設定します:</seg>
       </tuv>
     </tu>
     <tu>
       <tuv xml:lang="en"><seg>In the next step, create a rule that logs every change of a phone_no in the people table into the people_log table:</seg></tuv><tuv xml:lang="ja">
         <seg>次のステップでは, people テーブル内の phone_no の変更すべてを people_log テーブルにログとして記録するルールを作成 :</seg>
       </tuv>
-    </tu><tu>
+    </tu>
+    <tu>
       <tuv xml:lang="en"><seg>To test that the rule works, let's modify a phone number:</seg></tuv><tuv xml:lang="ja">
         <seg>ルールが正しく機能することを確認するには, 電話番号を変更してみましょう :</seg>
       </tuv>
-    </tu><tu>
+    </tu>
+    <tu>
       <tuv xml:lang="en"><seg>Check that the :kbd:`people` table was updated correctly:</seg></tuv><tuv xml:lang="ja">
         <seg>:kbd:`people` テーブルが正しく更新されたことを確認してください :</seg>
       </tuv>
-    </tu><tu>
+    </tu>
+    <tu>
       <tuv xml:lang="en"><seg>Now, thanks to the rule we created, the :kbd:`people_log` table will look like this:</seg></tuv><tuv xml:lang="ja">
         <seg>今, 作成したルールによって, :kbd:`people_log` テーブルは次のようになります :</seg>
       </tuv>
-    </tu><tu>
+    </tu>
+    <tu>
       <tuv xml:lang="en"><seg>The value of the :kbd:`time` field will depend on the current date and time.</seg></tuv><tuv xml:lang="ja">
         <seg>:kbd:`time` フィールドの値は, 現在の日付と時刻に依存します.</seg>
       </tuv>
-    </tu><tu>
+    </tu>
+    <tu>
       <tuv xml:lang="en"><seg>|IC|</seg></tuv><tuv xml:lang="ja">
         <seg>|IC|</seg>
       </tuv>
-    </tu><tu>
+    </tu>
+    <tu>
       <tuv xml:lang="en"><seg>Rules allow you to automatically add or change data in your database to reflect changes in other parts of the database.</seg></tuv><tuv xml:lang="ja">
         <seg>ルールを使用すると、データベースの他の部分の変更を反映するために、自動的にデータベース内でデータを追加または変更できます。</seg>
       </tuv>
-    </tu><tu>
+    </tu>
+    <tu>
       <tuv xml:lang="en"><seg>|WN|</seg></tuv><tuv xml:lang="ja">
         <seg>|WN|</seg>
       </tuv>
-    </tu><tu>
+    </tu>
+    <tu>
       <tuv xml:lang="en"><seg>The next module will introduce you to Spatial Database using PostGIS, which takes these database concepts and applies them to GIS data.</seg></tuv><tuv xml:lang="ja">
         <seg>次のセクションは,これらのデータベースの概念を使い, GIS データに適用した PostGIS を使用する, 空間データベースを紹介します.</seg>
       </tuv>
-    </tu></body>
+    </tu>
+  </body>
 </tmx>

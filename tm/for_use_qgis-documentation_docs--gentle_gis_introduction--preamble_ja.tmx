@@ -15,18 +15,14 @@
         <seg>皆さんのための GIS アプリケーション、フリーでオープンソースソフトウェアである QGIS をご紹介します。</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en"><seg>Sutton, O.</seg></tuv><tuv xml:lang="ja">
-        <seg>Sutton, O.</seg>
+      <tuv xml:lang="en">
+        <seg>Sutton, O. Dassau, M. Sutton</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Dassau, M.</seg></tuv><tuv xml:lang="ja">
-        <seg>Dassau, M.</seg>
+      <tuv xml:lang="ja">
+        <seg>Sutton, O. Dassau, M. Sutton</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Sutton</seg></tuv><tuv xml:lang="ja">
-        <seg>Sutton</seg>
-      </tuv>
-    </tu><tu>
+    </tu>
+    <tu>
       <tuv xml:lang="en"><seg>Sponsored by: Chief Directorate: Spatial Planning &amp; Information, Department of Land Affairs, Eastern Cape, South Africa.</seg></tuv><tuv xml:lang="ja">
         <seg>資金提供： Chief Directorate: Spatial Planning &amp; Information, Department of Land Affairs, Eastern Cape, South Africa.</seg>
       </tuv>
@@ -47,14 +43,14 @@
         <seg>利用許諾契約書の複製は :ref:`gnu_fdl` のセクションに含まれています。</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>The above copyright notice excludes the QGIS User Manual which may be appended to this document. Consult the QGIS Manuals for further copyright and licensing information.</seg>
+      <tuv xml:lang="en"><seg>The above copyright notice excludes the QGIS User Manual which may be appended to this document.</seg></tuv><tuv xml:lang="ja">
+        <seg>上記の著作権の表記は、このドキュメントに付加される可能性がある QGIS ユーザマニュアルは対象外です。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>上記の著作権の表記は、このドキュメントに付加される可能性がある QGIS ユーザマニュアルは対象外です。これ以上の著作権とライセンスに関する情報については、このQGISユーザマニュアルを参照して下さい。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Consult the QGIS Manuals for further copyright and licensing information.</seg></tuv><tuv xml:lang="ja">
+        <seg>これ以上の著作権とライセンスに関する情報については、このQGISユーザマニュアルを参照して下さい。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>A word from the editor</seg></tuv><tuv xml:lang="ja">
         <seg>編者からの言葉</seg>
       </tuv>
@@ -63,38 +59,70 @@
         <seg>このプロジェクトは、南アフリカ共和国、東ケープ州プレミアのオフィス、空間情報管理ユニットと、国土局 (DLA) のチーフ・ディレクター：空間計画・情報によって提供されています。</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>GIS is becoming an increasingly important tool in environmental management, retail, military, police, tourism and many other spheres of our daily lives. If you use a computer or a cell phone, you have probably already used a GIS in some form without even realising it. Maybe it was a map on a web site, Google Earth, an information booth or your cell phone telling you where you are. Proprietary GIS software (software that cannot be freely shared or modified) is available that will let you do everything we describe in these worksheets and a lot more. However this software is usually very expensive or otherwise limits your freedom to copy, share and modify the software. GIS vendors sometimes make an exception for educational activities, providing cheaper or free copies of their software. They do this knowing that if teachers and learners get to know their software, they will be reluctant to learn other packages. When learners leave school they will go into the workplace and buy the commercial software, never knowing that there are free alternatives that they could be using.</seg>
+      <tuv xml:lang="en"><seg>GIS is becoming an increasingly important tool in environmental management, retail, military, police, tourism and many other spheres of our daily lives.</seg></tuv><tuv xml:lang="ja">
+        <seg>環境管理、流通、軍事、警察、旅行やその他の多くの目的で、GISはますます重要なツールとなっています。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>環境管理、流通、軍事、警察、旅行やその他の多くの目的で、GISはますます重要なツールとなっています。コンピュータや携帯電話を使用する際に、あなたは気づかずにある種のGISを使ったことがあるのです。おそらくそれは、Webサービスでの地図、Google Earth、情報提供サービス、あるいはあなたがどこにいるのかを携帯電話がくれたことがです。ここで説明することやさらに多くのことを全て提供してくれるプロプラエタリソフトウェア(自由にシェアしたり改変できないソフトウェア)は入手可能です。しかし、こうしたソフトウェアは大抵は大変高価で、そうで無い場合は複製、共有、改変する自由を制限します。GISベンダは、教育活動のために例外的にソフトウェアを安価あるいは無償で提供することがあります。ベンダは先生と生徒がそのソフトウェアを知るようになれば、他のパッケージソフトウェアを学びたくなくなることを知っているのです。生徒達が学校を卒業したら、職場に入り、業務に利用できうる自由な他の選択肢があることを知らないまま、そのベンダのソフトウェアを買います。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>If you use a computer or a cell phone, you have probably already used a GIS in some form without even realising it.</seg></tuv><tuv xml:lang="ja">
+        <seg>コンピュータや携帯電話を使用する際に、あなたは気づかずにある種のGISを使ったことがあるのです。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>With QGIS, we offer an alternative --- software that is free of cost and free in a social sense. You can make as many copies as you like. When learners leave school one day they can use this software to build their skills, solve problems at work and make the world a better place.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Maybe it was a map on a web site, Google Earth, an information booth or your cell phone telling you where you are.</seg></tuv><tuv xml:lang="ja">
+        <seg>おそらくそれは、Webサービスでの地図、Google Earth、情報提供サービス、あるいはあなたがどこにいるのかを携帯電話がくれたことがです。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>QGISで、社会的な意味での無償と自由なソフトウェアという選択肢を我々は提供しています。好きなだけ複製をして構いません。学習者が学校をある日卒業しても、スキルを磨き、業務で課題を解決して世界を良いものにするために、このソフトウェアを使うことができます。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Proprietary GIS software (software that cannot be freely shared or modified) is available that will let you do everything we describe in these worksheets and a lot more.</seg></tuv><tuv xml:lang="ja">
+        <seg>ここで説明することやさらに多くのことを全て提供してくれるプロプラエタリソフトウェア(自由にシェアしたり改変できないソフトウェア)は入手可能です。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>When you buy commercial software, you limit your options for the future. By learning, using and sharing Free and Open Source Software, you are building your own skills, freeing money to be spent on important things like food and shelter and boosting our own economy.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>However this software is usually very expensive or otherwise limits your freedom to copy, share and modify the software.</seg></tuv><tuv xml:lang="ja">
+        <seg>しかし、こうしたソフトウェアは大抵は大変高価で、そうで無い場合は複製、共有、改変する自由を制限します。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>商用ソフトウェアを買うと、将来の選択肢を自ら制限することになります。FOSS（自由でオープンソースのソフトウェア）を学び、使って、共有すれば、食物と住居、そして住んでいる場所の経済を発展させながら、自分自身のスキルを身につけるようになります。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>GIS vendors sometimes make an exception for educational activities, providing cheaper or free copies of their software.</seg></tuv><tuv xml:lang="ja">
+        <seg>GISベンダは、教育活動のために例外的にソフトウェアを安価あるいは無償で提供することがあります。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>By sponsoring the creation of this resource, the DLA has created a foundation to which young minds can be exposed. Exciting possibilities lie ahead when principles of free sharing of knowledge and data are embraced. For this we give our heartfelt thanks to the DLA!</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>They do this knowing that if teachers and learners get to know their software, they will be reluctant to learn other packages.</seg></tuv><tuv xml:lang="ja">
+        <seg>ベンダは先生と生徒がそのソフトウェアを知るようになれば、他のパッケージソフトウェアを学びたくなくなることを知っているのです。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>このリソースの作成を資金援助することで、DLAは若者の心に触れる基金を創設しました。知識とデータの自由な共有という原則が採用されるならば、現在の可能性は将来にまで続きます。このために、我々は心からの感謝をDLAに捧げます。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>When learners leave school they will go into the workplace and buy the commercial software, never knowing that there are free alternatives that they could be using.</seg></tuv><tuv xml:lang="ja">
+        <seg>生徒達が学校を卒業したら、職場に入り、業務に利用できうる自由な他の選択肢があることを知らないまま、そのベンダのソフトウェアを買います。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>With QGIS, we offer an alternative --- software that is free of cost and free in a social sense.</seg></tuv><tuv xml:lang="ja">
+        <seg>QGISで、社会的な意味での無償と自由なソフトウェアという選択肢を我々は提供しています。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>You can make as many copies as you like.</seg></tuv><tuv xml:lang="ja">
+        <seg>好きなだけ複製をして構いません。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>When learners leave school one day they can use this software to build their skills, solve problems at work and make the world a better place.</seg></tuv><tuv xml:lang="ja">
+        <seg>学習者が学校をある日卒業しても、スキルを磨き、業務で課題を解決して世界を良いものにするために、このソフトウェアを使うことができます。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>When you buy commercial software, you limit your options for the future.</seg></tuv><tuv xml:lang="ja">
+        <seg>商用ソフトウェアを買うと、将来の選択肢を自ら制限することになります。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>By learning, using and sharing Free and Open Source Software, you are building your own skills, freeing money to be spent on important things like food and shelter and boosting our own economy.</seg></tuv><tuv xml:lang="ja">
+        <seg>FOSS（自由でオープンソースのソフトウェア）を学び、使って、共有すれば、食物と住居、そして住んでいる場所の経済を発展させながら、自分自身のスキルを身につけるようになります。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>By sponsoring the creation of this resource, the DLA has created a foundation to which young minds can be exposed.</seg></tuv><tuv xml:lang="ja">
+        <seg>このリソースの作成を資金援助することで、DLAは若者の心に触れる基金を創設しました。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Exciting possibilities lie ahead when principles of free sharing of knowledge and data are embraced.</seg></tuv><tuv xml:lang="ja">
+        <seg>知識とデータの自由な共有という原則が採用されるならば、現在の可能性は将来にまで続きます。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>For this we give our heartfelt thanks to the DLA!</seg></tuv><tuv xml:lang="ja">
+        <seg>このために、我々は心からの感謝をDLAに捧げます。</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en"><seg>We hope you enjoy using and learning QGIS in the spirit of Ubuntu!</seg></tuv><tuv xml:lang="ja">
         <seg>Ubuntuの精神に基づき、QGISを使うことと学ぶことを楽しんで下さることを願っています！</seg>
       </tuv>

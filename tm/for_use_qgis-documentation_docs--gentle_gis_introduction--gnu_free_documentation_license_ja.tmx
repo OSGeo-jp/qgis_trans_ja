@@ -55,14 +55,26 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>This License applies to any manual or other work, in any medium, that contains a notice placed by the copyright holder saying it can be distributed under the terms of this License.  Such a notice grants a world-wide, royalty-free license, unlimited in duration, to use that work under the conditions stated herein.  The **Document**, below, refers to any such manual or work.  Any member of the public is a licensee, and is addressed as "**you**".  You accept the license if you copy, modify or distribute the work in a way requiring permission under copyright law.</seg>
+      <tuv xml:lang="en"><seg>This License applies to any manual or other work, in any medium, that contains a notice placed by the copyright holder saying it can be distributed under the terms of this License.</seg></tuv><tuv xml:lang="ja">
+        <seg>このライセンスは、あらゆる媒体で、任意の手動または他の作業に適用される、それはそれは、本ライセンスの条件の下で配布することができますと言って著作権者に置か通告が含まれています。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>このライセンスは、あらゆる媒体で、任意の手動または他の作業に適用される、それはそれは、本ライセンスの条件の下で配布することができますと言って著作権者に置か通告が含まれています。このような通知は、本明細書に記載された条件の下でその作品を使用して、期間中無制限の世界的な、ロイヤリティフリーのライセンスを、付与します。 **文書** は、以下で、そのようなマニュアルや作業を指します。公共の任意のメンバーは、ライセンシーで、「 **あなた** 」として扱われます。あなたがコピーした場合、ライセンスを受け入れ、著作権法の下で許可を必要とする方法で仕事を変更したり、配布します。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Such a notice grants a world-wide, royalty-free license, unlimited in duration, to use that work under the conditions stated herein.</seg></tuv><tuv xml:lang="ja">
+        <seg>このような通知は、本明細書に記載された条件の下でその作品を使用して、期間中無制限の世界的な、ロイヤリティフリーのライセンスを、付与します。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>The **Document**, below, refers to any such manual or work.</seg></tuv><tuv xml:lang="ja">
+        <seg>**文書** は、以下で、そのようなマニュアルや作業を指します。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Any member of the public is a licensee, and is addressed as "**you**".</seg></tuv><tuv xml:lang="ja">
+        <seg>公共の任意のメンバーは、ライセンシーで、「 **あなた** 」として扱われます。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>You accept the license if you copy, modify or distribute the work in a way requiring permission under copyright law.</seg></tuv><tuv xml:lang="ja">
+        <seg>あなたがコピーした場合、ライセンスを受け入れ、著作権法の下で許可を必要とする方法で仕事を変更したり、配布します。</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en"><seg>A "**Modified Version**" of the Document means any work containing the Document or a portion of it, either copied verbatim, or with modifications and/or translated into another language.</seg></tuv><tuv xml:lang="ja">
         <seg>文書の「 **修正版** 」は、ドキュメントまたはその一部、逐語的、または変更してコピー及び/又は他の言語に翻訳のいずれかを含む任意の作業を意味します。</seg>
       </tuv>
@@ -75,46 +87,66 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>The "**Invariant Sections**" are certain Secondary Sections whose titles are designated, as being those of Invariant Sections, in the notice that says that the Document is released under this License.  If a section does not fit the above definition of Secondary then it is not allowed to be designated as Invariant.  The Document may contain zero Invariant Sections.  If the Document does not identify any Invariant Sections then there are none.</seg>
+      <tuv xml:lang="en"><seg>The "**Invariant Sections**" are certain Secondary Sections whose titles are designated, as being those of Invariant Sections, in the notice that says that the Document is released under this License.</seg></tuv><tuv xml:lang="ja">
+        <seg>「**変更不可部分**」とは、その題の文書がこのライセンスの下でリリースされていることを述べている通知に、変更不可部分のそれであるとして、指定された特定の二次著作物セクションです。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>「**変更不可部分**」とは、その題の文書がこのライセンスの下でリリースされていることを述べている通知に、変更不可部分のそれであるとして、指定された特定の二次著作物セクションです。セクションが「二次著作物」の上記の定義に適合しない場合、不変として指定することは許可されません。文書はゼロの変更不可部分が含まれていてもよいです。文書に何も変更不可部分が特定されていない場合は、何もありません。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>If a section does not fit the above definition of Secondary then it is not allowed to be designated as Invariant.</seg></tuv><tuv xml:lang="ja">
+        <seg>セクションが「二次著作物」の上記の定義に適合しない場合、不変として指定することは許可されません。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>The "**Cover Texts**" are certain short passages of text that are listed, as Front-Cover Texts or Back-Cover Texts, in the notice that says that the Document is released under this License.  A Front-Cover Text may be at most 5 words, and a Back-Cover Text may be at most 25 words.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>The Document may contain zero Invariant Sections.</seg></tuv><tuv xml:lang="ja">
+        <seg>文書はゼロの変更不可部分が含まれていてもよいです。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>「 **カバーテキスト** 」は文書がこのライセンスの下でリリースされていることを述べている通知に、フロントカバーテキストまたはバックカバーテキストとして、リストされているテキストの特定の短い通路です。フロントカバーテキストは最大5つの言葉であってもよく、バックカバーテキストは、最大で25個の言葉かもしれません。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>If the Document does not identify any Invariant Sections then there are none.</seg></tuv><tuv xml:lang="ja">
+        <seg>文書に何も変更不可部分が特定されていない場合は、何もありません。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>A "**Transparent**" copy of the Document means a machine-readable copy, represented in a format whose specification is available to the general public, that is suitable for revising the document straightforwardly with generic text editors or (for images composed of pixels) generic paint programs or (for drawings) some widely available drawing editor, and that is suitable for input to text formatters or for automatic translation to a variety of formats suitable for input to text formatters.  A copy made in an otherwise Transparent file format whose markup, or absence of markup, has been arranged to thwart or discourage subsequent modification by readers is not Transparent. An image format is not Transparent if used for any substantial amount of text.  A copy that is not "Transparent" is called **Opaque**.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>The "**Cover Texts**" are certain short passages of text that are listed, as Front-Cover Texts or Back-Cover Texts, in the notice that says that the Document is released under this License.</seg></tuv><tuv xml:lang="ja">
+        <seg>「 **カバーテキスト** 」は文書がこのライセンスの下でリリースされていることを述べている通知に、フロントカバーテキストまたはバックカバーテキストとして、リストされているテキストの特定の短い通路です。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>文書の「 **透明** 」コピーは機械読み取り可能なコピーを意味し、その仕様一般公衆に利用可能な形式で表され、それは一般的なテキストエディタでまっすぐ文書の改訂のためか（構成画像に適していますピクセル）汎用ペイントプログラムまたは（図面のために）、いくつかの広く利用可能な描画エディタ、それはフォーマッタをテキストまたはテキストフォーマッタへの入力に適した様々なフォーマットへの自動翻訳のために入力するのに適しています。そのマークアップ、またはマークアップの非存在下、さもなければ透明ファイル形式で作られたコピーは、読者が後続の変更を妨害または阻止するように配置された透明でありません。テキストの任意のかなりの量のために使用した場合の画像フォーマットは、透明ではありません。「透明」でないコピーは **不透明** と呼ばれます。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>A Front-Cover Text may be at most 5 words, and a Back-Cover Text may be at most 25 words.</seg></tuv><tuv xml:lang="ja">
+        <seg>フロントカバーテキストは最大5つの言葉であってもよく、バックカバーテキストは、最大で25個の言葉かもしれません。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Examples of suitable formats for Transparent copies include plain ASCII without markup, Texinfo input format, LaTeX input format, SGML or XML using a publicly available DTD, and standard-conforming simple HTML, PostScript or PDF designed for human modification.  Examples of transparent image formats include PNG, XCF and JPG.  Opaque formats include proprietary formats that can be read and edited only by proprietary word processors, SGML or XML for which the DTD and/or processing tools are not generally available, and the machine-generated HTML, PostScript or PDF produced by some word processors for output purposes only.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>A "**Transparent**" copy of the Document means a machine-readable copy, represented in a format whose specification is available to the general public, that is suitable for revising the document straightforwardly with generic text editors or (for images composed of pixels) generic paint programs or (for drawings) some widely available drawing editor, and that is suitable for input to text formatters or for automatic translation to a variety of formats suitable for input to text formatters.</seg></tuv><tuv xml:lang="ja">
+        <seg>文書の「 **透明** 」コピーは機械読み取り可能なコピーを意味し、その仕様一般公衆に利用可能な形式で表され、それは一般的なテキストエディタでまっすぐ文書の改訂のためか（構成画像に適していますピクセル）汎用ペイントプログラムまたは（図面のために）、いくつかの広く利用可能な描画エディタ、それはフォーマッタをテキストまたはテキストフォーマッタへの入力に適した様々なフォーマットへの自動翻訳のために入力するのに適しています。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>透明な複製に適した形式の例としては、マークアップなしのプレーンASCII、Texinfoの入力形式、LaTeX入力形式、一般に入手可能なDTDを使用したSGMLまたはXML、および標準に準拠した単純HTML、人間の変更のために設計されたPostScriptまたはPDFがあります。透明な形式の例には、PNG、XCFおよびJPGがあります。不透明な形式には、商用ワードプロセッサで読み取り編集できる商用形式、DTDおよび／またはプロセシングツールが一般に利用可能でないSGMLまたはXML、および機械生成HTML、いくつかのワードプロセッサによって作成された出力目的のみのPostScriptやPDFがあります。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>A copy made in an otherwise Transparent file format whose markup, or absence of markup, has been arranged to thwart or discourage subsequent modification by readers is not Transparent.</seg></tuv><tuv xml:lang="ja">
+        <seg>そのマークアップ、またはマークアップの非存在下、さもなければ透明ファイル形式で作られたコピーは、読者が後続の変更を妨害または阻止するように配置された透明でありません。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>The "**Title Page**" means, for a printed book, the title page itself, plus such following pages as are needed to hold, legibly, the material this License requires to appear in the title page.  For works in formats which do not have any title page as such, "Title Page" means the text near the most prominent appearance of the work's title, preceding the beginning of the body of the text.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>An image format is not Transparent if used for any substantial amount of text.</seg></tuv><tuv xml:lang="ja">
+        <seg>テキストの任意のかなりの量のために使用した場合の画像フォーマットは、透明ではありません。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>「 **題扉** 」とは、印刷された書籍、題扉自体、プラスを保持するために必要とされるような以下のページのために、読みやすく、材料は、このライセンスは、題扉に表示されている必要があります。以下のような任意の題扉を持っていないフォーマットの作品については、「題扉」には、テキストの本文の先頭に先行し、作品の題の最も顕著な外観に近いテキストを意味します。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>A copy that is not "Transparent" is called **Opaque**.</seg></tuv><tuv xml:lang="ja">
+        <seg>「透明」でないコピーは **不透明** と呼ばれます。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Examples of suitable formats for Transparent copies include plain ASCII without markup, Texinfo input format, LaTeX input format, SGML or XML using a publicly available DTD, and standard-conforming simple HTML, PostScript or PDF designed for human modification.</seg></tuv><tuv xml:lang="ja">
+        <seg>透明な複製に適した形式の例としては、マークアップなしのプレーンASCII、Texinfoの入力形式、LaTeX入力形式、一般に入手可能なDTDを使用したSGMLまたはXML、および標準に準拠した単純HTML、人間の変更のために設計されたPostScriptまたはPDFがあります。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Examples of transparent image formats include PNG, XCF and JPG.</seg></tuv><tuv xml:lang="ja">
+        <seg>透明な形式の例には、PNG、XCFおよびJPGがあります。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Opaque formats include proprietary formats that can be read and edited only by proprietary word processors, SGML or XML for which the DTD and/or processing tools are not generally available, and the machine-generated HTML, PostScript or PDF produced by some word processors for output purposes only.</seg></tuv><tuv xml:lang="ja">
+        <seg>不透明な形式には、商用ワードプロセッサで読み取り編集できる商用形式、DTDおよび／またはプロセシングツールが一般に利用可能でないSGMLまたはXML、および機械生成HTML、いくつかのワードプロセッサによって作成された出力目的のみのPostScriptやPDFがあります。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>The "**Title Page**" means, for a printed book, the title page itself, plus such following pages as are needed to hold, legibly, the material this License requires to appear in the title page.</seg></tuv><tuv xml:lang="ja">
+        <seg>「 **題扉** 」とは、印刷された書籍、題扉自体、プラスを保持するために必要とされるような以下のページのために、読みやすく、材料は、このライセンスは、題扉に表示されている必要があります。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>For works in formats which do not have any title page as such, "Title Page" means the text near the most prominent appearance of the work's title, preceding the beginning of the body of the text.</seg></tuv><tuv xml:lang="ja">
+        <seg>以下のような任意の題扉を持っていないフォーマットの作品については、「題扉」には、テキストの本文の先頭に先行し、作品の題の最も顕著な外観に近いテキストを意味します。</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en"><seg>The "**publisher**" means any person or entity that distributes copies of the Document to the public.</seg></tuv><tuv xml:lang="ja">
         <seg>「 **パブリッシャー** 」は、公衆への文書のコピーを配布する個人または団体を意味します。</seg>
       </tuv>
@@ -143,14 +175,22 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>You may copy and distribute the Document in any medium, either commercially or noncommercially, provided that this License, the copyright notices, and the license notice saying this License applies to the Document are reproduced in all copies, and that you add no other conditions whatsoever to those of this License.  You may not use technical measures to obstruct or control the reading or further copying of the copies you make or distribute.  However, you may accept compensation in exchange for copies.  If you distribute a large enough number of copies you must also follow the conditions in section 3.</seg>
+      <tuv xml:lang="en"><seg>You may copy and distribute the Document in any medium, either commercially or noncommercially, provided that this License, the copyright notices, and the license notice saying this License applies to the Document are reproduced in all copies, and that you add no other conditions whatsoever to those of this License.</seg></tuv><tuv xml:lang="ja">
+        <seg>このライセンス、著作権表示、および本ライセンスが文書に適用されると述べるライセンス通知がすべてのコピーに再現されている、かつ、本ライセンスのものに一切の他の条件を追加していないという条件が満たされる限り、文書は、商業的にも非商業的にも、任意の媒体にコピーして配布できます。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>このライセンス、著作権表示、および本ライセンスが文書に適用されると述べるライセンス通知がすべてのコピーに再現されている、かつ、本ライセンスのものに一切の他の条件を追加していないという条件が満たされる限り、文書は、商業的にも非商業的にも、任意の媒体にコピーして配布できます。作成あるいは頒布するコピーの閲覧または再コピーを妨げたり制御するための技術的手段を使用することはできません。ただし、コピーと引き換えに報酬を受け取ることはできます。十分に多い数のコピーを配布する場合は、セクション3の条件にも従わなければなりません。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>You may not use technical measures to obstruct or control the reading or further copying of the copies you make or distribute.</seg></tuv><tuv xml:lang="ja">
+        <seg>作成あるいは頒布するコピーの閲覧または再コピーを妨げたり制御するための技術的手段を使用することはできません。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>However, you may accept compensation in exchange for copies.</seg></tuv><tuv xml:lang="ja">
+        <seg>ただし、コピーと引き換えに報酬を受け取ることはできます。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>If you distribute a large enough number of copies you must also follow the conditions in section 3.</seg></tuv><tuv xml:lang="ja">
+        <seg>十分に多い数のコピーを配布する場合は、セクション3の条件にも従わなければなりません。</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en"><seg>You may also lend copies, under the same conditions stated above, and you may publicly display copies.</seg></tuv><tuv xml:lang="ja">
         <seg>また、上記と同じ条件の下で、コピーを貸与でき、コピーを公に表示できます。</seg>
       </tuv>
@@ -163,26 +203,38 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>If you publish printed copies (or copies in media that commonly have printed covers) of the Document, numbering more than 100, and the Document's license notice requires Cover Texts, you must enclose the copies in covers that carry, clearly and legibly, all these Cover Texts: Front-Cover Texts on the front cover, and Back-Cover Texts on the back cover.  Both covers must also clearly and legibly identify you as the publisher of these copies.  The front cover must present the full title with all words of the title equally prominent and visible.  You may add other material on the covers in addition. Copying with changes limited to the covers, as long as they preserve the title of the Document and satisfy these conditions, can be treated as verbatim copying in other respects.</seg>
+      <tuv xml:lang="en"><seg>If you publish printed copies (or copies in media that commonly have printed covers) of the Document, numbering more than 100, and the Document's license notice requires Cover Texts, you must enclose the copies in covers that carry, clearly and legibly, all these Cover Texts: Front-Cover Texts on the front cover, and Back-Cover Texts on the back cover.</seg></tuv><tuv xml:lang="ja">
+        <seg>100以上の番号文書の印刷されたコピー（または一般的にカバーを印刷したメディアまたはコピー）を公開し、文書のライセンス通知がカバーテキストが必要な場合は、はっきりと読みやすく、コピーをこれらすべてのカバーテキスト（表紙にフロントカバーテキスト、および背面カバーにバックカバーテキスト）を持ち運びするカバー内に同封しなければなりません。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>100以上の番号文書の印刷されたコピー（または一般的にカバーを印刷したメディアまたはコピー）を公開し、文書のライセンス通知がカバーテキストが必要な場合は、はっきりと読みやすく、コピーをこれらすべてのカバーテキスト（表紙にフロントカバーテキスト、および背面カバーにバックカバーテキスト）を持ち運びするカバー内に同封しなければなりません。どちらのカバーもはっきりと読みやすいこれらのコピーの出版社として識別する必要があります。フロントカバーは等しく顕著な可視題のすべての単語との完全なタイトルを提示しなければなりません。加えて、表紙に他の材料を加えてもよいです。それらは、文書の題を保持し、これらの条件を満たしている限り、カバーに限定変更とコピーは、他の点では逐語的なコピーとして扱うことができます。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Both covers must also clearly and legibly identify you as the publisher of these copies.</seg></tuv><tuv xml:lang="ja">
+        <seg>どちらのカバーもはっきりと読みやすいこれらのコピーの出版社として識別する必要があります。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>The front cover must present the full title with all words of the title equally prominent and visible.</seg></tuv><tuv xml:lang="ja">
+        <seg>フロントカバーは等しく顕著な可視題のすべての単語との完全なタイトルを提示しなければなりません。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>You may add other material on the covers in addition.</seg></tuv><tuv xml:lang="ja">
+        <seg>加えて、表紙に他の材料を加えてもよいです。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Copying with changes limited to the covers, as long as they preserve the title of the Document and satisfy these conditions, can be treated as verbatim copying in other respects.</seg></tuv><tuv xml:lang="ja">
+        <seg>それらは、文書の題を保持し、これらの条件を満たしている限り、カバーに限定変更とコピーは、他の点では逐語的なコピーとして扱うことができます。</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en"><seg>If the required texts for either cover are too voluminous to fit legibly, you should put the first ones listed (as many as fit reasonably) on the actual cover, and continue the rest onto adjacent pages.</seg></tuv><tuv xml:lang="ja">
         <seg>どちらかのカバーに必要なテキストが読みやすく収まらないほど膨大な場合、最初のものを実際の表紙に（適当に収まるくらい多く）記載されている入れて、残りを隣接するページに続けるべきです。</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>If you publish or distribute Opaque copies of the Document numbering more than 100, you must either include a machine-readable Transparent copy along with each Opaque copy, or state in or with each Opaque copy a computer-network location from which the general network-using public has access to download using public-standard network protocols a complete Transparent copy of the Document, free of added material. If you use the latter option, you must take reasonably prudent steps, when you begin distribution of Opaque copies in quantity, to ensure that this Transparent copy will remain thus accessible at the stated location until at least one year after the last time you distribute an Opaque copy (directly or through your agents or retailers) of that edition to the public.</seg>
+      <tuv xml:lang="en"><seg>If you publish or distribute Opaque copies of the Document numbering more than 100, you must either include a machine-readable Transparent copy along with each Opaque copy, or state in or with each Opaque copy a computer-network location from which the general network-using public has access to download using public-standard network protocols a complete Transparent copy of the Document, free of added material.</seg></tuv><tuv xml:lang="ja">
+        <seg>100以上の番号文書の不透明コピーを公開または配布する場合は、各不透明コピーにまたはでから、一般的なネットワーク - コンピュータ・ネットワーク上の場所を機械可読トランスペアレント各不透明コピーと一緒にコピー、または状態を含んでいなければならないのいずれかパブリックを使用すると、パブリック標準のネットワーク・プロトコル文書の完全な透明コピー、追加材料の自由を使用してダウンロードするためのアクセス権を持っています。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>100以上の番号文書の不透明コピーを公開または配布する場合は、各不透明コピーにまたはでから、一般的なネットワーク - コンピュータ・ネットワーク上の場所を機械可読トランスペアレント各不透明コピーと一緒にコピー、または状態を含んでいなければならないのいずれかパブリックを使用すると、パブリック標準のネットワーク・プロトコル文書の完全な透明コピー、追加材料の自由を使用してダウンロードするためのアクセス権を持っています。後者のオプションを使用する場合は、数量に不透明コピーの配布を開始するとき、少なくとも1年の最後の時間の後に、配布されるまで、この透明コピーは定められた場所でこのようにアクセス可能なままであることを保証するために、合理的に慎重な手順を実行する必要があります公衆にその版の不透明なコピー（直接、または代理店や小売店を通じて）。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>If you use the latter option, you must take reasonably prudent steps, when you begin distribution of Opaque copies in quantity, to ensure that this Transparent copy will remain thus accessible at the stated location until at least one year after the last time you distribute an Opaque copy (directly or through your agents or retailers) of that edition to the public.</seg></tuv><tuv xml:lang="ja">
+        <seg>後者のオプションを使用する場合は、数量に不透明コピーの配布を開始するとき、少なくとも1年の最後の時間の後に、配布されるまで、この透明コピーは定められた場所でこのようにアクセス可能なままであることを保証するために、合理的に慎重な手順を実行する必要があります公衆にその版の不透明なコピー（直接、または代理店や小売店を通じて）。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>It is requested, but not required, that you contact the authors of the Document well before redistributing any large number of copies, to give them a chance to provide you with an updated version of the Document.</seg></tuv><tuv xml:lang="ja">
         <seg>コピーの任意の多数を再配布する十分前に、文書の更新バージョンを提供する機会を与えるために、文書の作成者に連絡することは、要求されますが、必須ではありません。</seg>
       </tuv>
@@ -195,22 +247,22 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>You may copy and distribute a Modified Version of the Document under the conditions of sections 2 and 3 above, provided that you release the Modified Version under precisely this License, with the Modified Version filling the role of the Document, thus licensing distribution and modification of the Modified Version to whoever possesses a copy of it.  In addition, you must do these things in the Modified Version:</seg>
+      <tuv xml:lang="en"><seg>You may copy and distribute a Modified Version of the Document under the conditions of sections 2 and 3 above, provided that you release the Modified Version under precisely this License, with the Modified Version filling the role of the Document, thus licensing distribution and modification of the Modified Version to whoever possesses a copy of it.</seg></tuv><tuv xml:lang="ja">
+        <seg>「文書」の「変更版」は、その「変更版」をまさにこのライセンスの下でリリースしていて、その「変更版」が「文書」の役割を満たしている、したがってそのコピーを所有している誰にでも「変更版」の配布、変更を許可している限り、上記のセクション2と3の条件の下でコピーおよび配布できます。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>「文書」の「変更版」は、その「変更版」をまさにこのライセンスの下でリリースしていて、その「変更版」が「文書」の役割を満たしている、したがってそのコピーを所有している誰にでも「変更版」の配布、変更を許可している限り、上記のセクション2と3の条件の下でコピーおよび配布できます。また、「変更版」では以下のことを行う必要があります：</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>In addition, you must do these things in the Modified Version:</seg></tuv><tuv xml:lang="ja">
+        <seg>また、「変更版」では以下のことを行う必要があります：</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Use in the Title Page (and on the covers, if any) a title distinct from that of the Document, and from those of previous versions (which should, if there were any, be listed in the History section of the Document).  You may use the same title as a previous version if the original publisher of that version gives permission.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Use in the Title Page (and on the covers, if any) a title distinct from that of the Document, and from those of previous versions (which should, if there were any, be listed in the History section of the Document).</seg></tuv><tuv xml:lang="ja">
+        <seg>題扉（とカバー、もしあれば）には文書の題、および以前の版（あった場合には文書の「履歴」セクションに表示されているはずです）の題とは異なる題を使用してください。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>題扉（とカバー、もしあれば）には文書の題、および以前の版（あった場合には文書の「履歴」セクションに表示されているはずです）の題とは異なる題を使用してください。その版の元の出版社が許可を与える場合は、以前の版と同じ題扉を使用できます。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>You may use the same title as a previous version if the original publisher of that version gives permission.</seg></tuv><tuv xml:lang="ja">
+        <seg>その版の元の出版社が許可を与える場合は、以前の版と同じ題扉を使用できます。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>List on the Title Page, as authors, one or more persons or entities responsible for authorship of the modifications in the Modified Version, together with at least five of the principal authors of the Document (all of its principal authors, if it has fewer than five), unless they release you from this requirement.</seg></tuv><tuv xml:lang="ja">
         <seg>題扉のリストには、彼らはこの要件からあなたを解放しない限り、著者として、変更版における変更の著作者として責任がある1人以上の人または団体を、文書の主著者の少なくとも5（5より少ない場合その主著者のすべて）と一緒に、列挙します。</seg>
       </tuv>
@@ -239,42 +291,46 @@
         <seg>本ライセンスの変更されていないコピーが含まれます。</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>Preserve the section Entitled "History", Preserve its Title, and add to it an item stating at least the title, year, new authors, and publisher of the Modified Version as given on the Title Page.  If there is no section Entitled "History" in the Document, create one stating the title, year, authors, and publisher of the Document as given on its Title Page, then add an item describing the Modified Version as stated in the previous sentence.</seg>
+      <tuv xml:lang="en"><seg>Preserve the section Entitled "History", Preserve its Title, and add to it an item stating at least the title, year, new authors, and publisher of the Modified Version as given on the Title Page.</seg></tuv><tuv xml:lang="ja">
+        <seg>「履歴」と題するセクションを保持し、その題を保持し、それに題ページに与えられたとして、修正版の、少なくとも題、年、新しい著者、および出版社を明記のアイテムを追加します。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>「履歴」と題するセクションを保持し、その題を保持し、それに題ページに与えられたとして、修正版の、少なくとも題、年、新しい著者、および出版社を明記のアイテムを追加します。文書に「履歴」と題した章が存在しない場合は、その題ページに与えられたとして、文書の題、年、著者、および出版社を述べるものを作成し、その後、前の文で述べたように、変更版を記述する項目を追加します。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>If there is no section Entitled "History" in the Document, create one stating the title, year, authors, and publisher of the Document as given on its Title Page, then add an item describing the Modified Version as stated in the previous sentence.</seg></tuv><tuv xml:lang="ja">
+        <seg>文書に「履歴」と題した章が存在しない場合は、その題ページに与えられたとして、文書の題、年、著者、および出版社を述べるものを作成し、その後、前の文で述べたように、変更版を記述する項目を追加します。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Preserve the network location, if any, given in the Document for public access to a Transparent copy of the Document, and likewise the network locations given in the Document for previous versions it was based on.  These may be placed in the "History" section. You may omit a network location for a work that was published at least four years before the Document itself, or if the original publisher of the version it refers to gives permission.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Preserve the network location, if any, given in the Document for public access to a Transparent copy of the Document, and likewise the network locations given in the Document for previous versions it was based on.</seg></tuv><tuv xml:lang="ja">
+        <seg>もしあれば、ネットワークの場所を保存する、パブリックアクセスの文書の透明コピーへ、およびそれが基づいていた以前のバージョンの文書に与えられ、同様に、ネットワークの場所のために文献で示さ。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>もしあれば、ネットワークの場所を保存する、パブリックアクセスの文書の透明コピーへ、およびそれが基づいていた以前のバージョンの文書に与えられ、同様に、ネットワークの場所のために文献で示さ。これらは、「履歴」セクションに配置できます。あなたは、4年前に、文書自体、少なくとも出版された仕事のためのネットワークの場所を省略でき、またはそれが参照するバージョンのオリジナルの出版社は、許可を与える場合。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>These may be placed in the "History" section.</seg></tuv><tuv xml:lang="ja">
+        <seg>これらは、「履歴」セクションに配置できます。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>You may omit a network location for a work that was published at least four years before the Document itself, or if the original publisher of the version it refers to gives permission.</seg></tuv><tuv xml:lang="ja">
+        <seg>あなたは、4年前に、文書自体、少なくとも出版された仕事のためのネットワークの場所を省略でき、またはそれが参照するバージョンのオリジナルの出版社は、許可を与える場合。</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en"><seg>For any section Entitled "Acknowledgements" or "Dedications", Preserve the Title of the section, and preserve in the section all the substance and tone of each of the contributor acknowledgements and/or dedications given therein.</seg></tuv><tuv xml:lang="ja">
         <seg>「謝辞」または「献呈」と題された任意のセクションは、セクションの「題を保持」し、セクションの寄稿者の肯定応答および/またはその中に与えられた献呈の各々の全ての物質とトーンを維持します。</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>Preserve all the Invariant Sections of the Document, unaltered in their text and in their titles.  Section numbers or the equivalent are not considered part of the section titles.</seg>
+      <tuv xml:lang="en"><seg>Preserve all the Invariant Sections of the Document, unaltered in their text and in their titles.</seg></tuv><tuv xml:lang="ja">
+        <seg>その本文および題名を変更せず、文書のすべての不変のセクションを保持します。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>その本文および題名を変更せず、文書のすべての不変のセクションを保持します。章番号やそれに相当するものは、セクション題の一部とはみなされません。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Section numbers or the equivalent are not considered part of the section titles.</seg></tuv><tuv xml:lang="ja">
+        <seg>章番号やそれに相当するものは、セクション題の一部とはみなされません。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Delete any section Entitled "Endorsements".  Such a section may not be included in the Modified Version.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Delete any section Entitled "Endorsements".</seg></tuv><tuv xml:lang="ja">
+        <seg>「裏書」と題されたいずれかのセクションを削除します。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>「裏書」と題されたいずれかのセクションを削除します。このようなセクションは、修正版には含まれないことがあります。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Such a section may not be included in the Modified Version.</seg></tuv><tuv xml:lang="ja">
+        <seg>このようなセクションは、修正版には含まれないことがあります。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Do not retitle any existing section to be Entitled "Endorsements" or to conflict in title with any Invariant Section.</seg></tuv><tuv xml:lang="ja">
         <seg>「裏書」または任意の不変セクションとの題で競合する権利を有することに任意の既存のセクションを改称しないでください。</seg>
       </tuv>
@@ -283,18 +339,26 @@
         <seg>任意の保証免責を保存します。</seg>
       </tuv>
     </tu><tu>
+      <tuv xml:lang="en"><seg>If the Modified Version includes new front-matter sections or appendices that qualify as Secondary Sections and contain no material copied from the Document, you may at your option designate some or all of these sections as invariant.</seg></tuv><tuv xml:lang="ja">
+        <seg>修正版は二次著作物セクションとしての資格や文書からコピーされた何の材料を含まない新しいフロントマターセクションまたは付録が含まれている場合、自身の選択によりこれらの一部または全部を不変として指定できます。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>To do this, add their titles to the list of Invariant Sections in the Modified Version's license notice.</seg></tuv><tuv xml:lang="ja">
+        <seg>これを行うには、変更版の利用許諾告知における変更不可部分のリストに自分の題を追加します。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>These titles must be distinct from any other section titles.</seg></tuv><tuv xml:lang="ja">
+        <seg>これらの題は、他のセクションの題は区別しなければなりません。</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en">
-        <seg>If the Modified Version includes new front-matter sections or appendices that qualify as Secondary Sections and contain no material copied from the Document, you may at your option designate some or all of these sections as invariant.  To do this, add their titles to the list of Invariant Sections in the Modified Version's license notice. These titles must be distinct from any other section titles.</seg>
+        <seg>You may add a section Entitled "Endorsements", provided it contains nothing but endorsements of your Modified Version by various parties---for example, statements of peer review or that the text has been approved by an organization as the authoritative definition of a standard.</seg>
       </tuv>
       <tuv xml:lang="ja">
-        <seg>修正版は二次著作物セクションとしての資格や文書からコピーされた何の材料を含まない新しいフロントマターセクションまたは付録が含まれている場合、自身の選択によりこれらの一部または全部を不変として指定できます。これを行うには、変更版の利用許諾告知における変更不可部分のリストに自分の題を追加します。これらの題は、他のセクションの題は区別しなければなりません。</seg>
+        <seg>あなたは、「推薦の辞」と題されたセクションを追加します。例えば---それは、様々な関係者によってあなたの変更版の推薦しか含まれていない提供し、ピアレビューのステートメントまたはテキストは、標準の権威ある定義として組織によって承認されたことがあり。</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en"><seg>You may add a section Entitled "Endorsements", provided it contains nothing but endorsements of your Modified Version by various parties---for example, statements of peer review or that the text has been approved by an organization as the authoritative definition of a standard.</seg></tuv><tuv xml:lang="ja">
-        <seg>あなたは、「推薦の辞」と題されたセクションを追加します。例えば---それは、様々な関係者によってあなたの変更版の推薦しか含まれていない提供し、ピアレビューのステートメントまたはテキストは、標準の権威ある定義として組織によって承認されたことがあり。</seg>
-      </tuv>
-    </tu><tu>
       <tuv xml:lang="en">
         <seg>You may add a passage of up to five words as a Front-Cover Text, and a passage of up to 25 words as a Back-Cover Text, to the end of the list of Cover Texts in the Modified Version.  Only one passage of Front-Cover Text and one of Back-Cover Text may be added by (or through arrangements made by) any one entity.  If the Document already includes a cover text for the same cover, previously added by you or by arrangement made by the same entity you are acting on behalf of, you may not add another; but you may replace the old one, on explicit permission from the previous publisher that added the old one.</seg>
       </tuv>
@@ -319,14 +383,18 @@
         <seg>無修正、変更版に関して上記のセクション4で定義された条件の下で、組み合わせて、オリジナルの文書のすべての不変のセクションのすべてが含まれていることを提供し、このライセンスの下で発表された複数の文書を結合し、それらをすべてリストアップしますその利用許諾告知にご組み合わせた作品のように不変のセクション、すべての彼らの保証の免責事項を保持しています。</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>The combined work need only contain one copy of this License, and multiple identical Invariant Sections may be replaced with a single copy.  If there are multiple Invariant Sections with the same name but different contents, make the title of each such section unique by adding at the end of it, in parentheses, the name of the original author or publisher of that section if known, or else a unique number. Make the same adjustment to the section titles in the list of Invariant Sections in the license notice of the combined work.</seg>
+      <tuv xml:lang="en"><seg>The combined work need only contain one copy of this License, and multiple identical Invariant Sections may be replaced with a single copy.</seg></tuv><tuv xml:lang="ja">
+        <seg>結合後の著作本ライセンスのコピーが含まれているのみ必要とし、複数の同一の不変のセクションは、単一のコピーで置き換えることができます。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>結合後の著作本ライセンスのコピーが含まれているのみ必要とし、複数の同一の不変のセクションは、単一のコピーで置き換えることができます。同じ名前が異なる内容の変更不可部分が複数ある場合は、括弧内に、それの最後に追加することによって、そのような各セクション独特の題を作る、そのセクションの原作者や出版社の名前は、他の知られている場合、または一意の番号。結合後の著作物の利用許諾告知における変更不可部分の一覧で、章の題名に同様の調整を行います。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>If there are multiple Invariant Sections with the same name but different contents, make the title of each such section unique by adding at the end of it, in parentheses, the name of the original author or publisher of that section if known, or else a unique number.</seg></tuv><tuv xml:lang="ja">
+        <seg>同じ名前が異なる内容の変更不可部分が複数ある場合は、括弧内に、それの最後に追加することによって、そのような各セクション独特の題を作る、そのセクションの原作者や出版社の名前は、他の知られている場合、または一意の番号。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Make the same adjustment to the section titles in the list of Invariant Sections in the license notice of the combined work.</seg></tuv><tuv xml:lang="ja">
+        <seg>結合後の著作物の利用許諾告知における変更不可部分の一覧で、章の題名に同様の調整を行います。</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>In the combination, you must combine any sections Entitled "History" in the various original documents, forming one section Entitled "History"; likewise combine any sections Entitled "Acknowledgements", and any sections Entitled "Dedications".  You must delete all sections Entitled "Endorsements".</seg>
       </tuv>
@@ -359,22 +427,22 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>A compilation of the Document or its derivatives with other separate and independent documents or works, in or on a volume of a storage or distribution medium, is called an "aggregate" if the copyright resulting from the compilation is not used to limit the legal rights of the compilation's users beyond what the individual works permit. When the Document is included in an aggregate, this License does not apply to the other works in the aggregate which are not themselves derivative works of the Document.</seg>
+      <tuv xml:lang="en"><seg>A compilation of the Document or its derivatives with other separate and independent documents or works, in or on a volume of a storage or distribution medium, is called an "aggregate" if the copyright resulting from the compilation is not used to limit the legal rights of the compilation's users beyond what the individual works permit.</seg></tuv><tuv xml:lang="ja">
+        <seg>編集から生じた著作権は法律上の権利を制限するために使用されていない場合は、他の別個の独立した文書や作品で、またはストレージまたは配布媒体のボリューム上の文書またはその誘導体の編纂は、「まとめ」と呼ばれています、個々の作品は許可している以上、編纂のユーザーの。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>編集から生じた著作権は法律上の権利を制限するために使用されていない場合は、他の別個の独立した文書や作品で、またはストレージまたは配布媒体のボリューム上の文書またはその誘導体の編纂は、「まとめ」と呼ばれています、個々の作品は許可している以上、編纂のユーザーの。「文書」がまとめに含まれている場合、それ自体が「文書」の派生物ではないまとめ中の他の作品には、このライセンスは適用されません。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>When the Document is included in an aggregate, this License does not apply to the other works in the aggregate which are not themselves derivative works of the Document.</seg></tuv><tuv xml:lang="ja">
+        <seg>「文書」がまとめに含まれている場合、それ自体が「文書」の派生物ではないまとめ中の他の作品には、このライセンスは適用されません。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>If the Cover Text requirement of section 3 is applicable to these copies of the Document, then if the Document is less than one half of the entire aggregate, the Document's Cover Texts may be placed on covers that bracket the Document within the aggregate, or the electronic equivalent of covers if the Document is in electronic form. Otherwise they must appear on printed covers that bracket the whole aggregate.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>If the Cover Text requirement of section 3 is applicable to these copies of the Document, then if the Document is less than one half of the entire aggregate, the Document's Cover Texts may be placed on covers that bracket the Document within the aggregate, or the electronic equivalent of covers if the Document is in electronic form.</seg></tuv><tuv xml:lang="ja">
+        <seg>セクション3のカバーテキスト要件文書のこれらのコピーに適用可能である場合文献は、全体集合体の半分未満である場合、次に、文書のカバーテキストは、集合内の文書を囲むカバー上に配置されてもよい、またはカバーの電子同等の文書は、電子形式である場合。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>セクション3のカバーテキスト要件文書のこれらのコピーに適用可能である場合文献は、全体集合体の半分未満である場合、次に、文書のカバーテキストは、集合内の文書を囲むカバー上に配置されてもよい、またはカバーの電子同等の文書は、電子形式である場合。そうでなければ、彼らは全体の集計を一括印刷カバーの上に表示される必要があります。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Otherwise they must appear on printed covers that bracket the whole aggregate.</seg></tuv><tuv xml:lang="ja">
+        <seg>そうでなければ、彼らは全体の集計を一括印刷カバーの上に表示される必要があります。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>**8. TRANSLATION**</seg>
       </tuv>
@@ -403,14 +471,14 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>You may not copy, modify, sublicense, or distribute the Document except as expressly provided under this License.  Any attempt otherwise to copy, modify, sublicense, or distribute it is void, and will automatically terminate your rights under this License.</seg>
+      <tuv xml:lang="en"><seg>You may not copy, modify, sublicense, or distribute the Document except as expressly provided under this License.</seg></tuv><tuv xml:lang="ja">
+        <seg>コピー、変更、サブライセンス、または明示本ライセンスの下で提供以外の文書を配布することはできません。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>コピー、変更、サブライセンス、または明示本ライセンスの下で提供以外の文書を配布することはできません。そうでない場合は、コピー、変更、サブライセンス、またはそれを配布しようとすると無効となり、かつ自動的に本ライセンスの下であなたの権利を終了します。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Any attempt otherwise to copy, modify, sublicense, or distribute it is void, and will automatically terminate your rights under this License.</seg></tuv><tuv xml:lang="ja">
+        <seg>そうでない場合は、コピー、変更、サブライセンス、またはそれを配布しようとすると無効となり、かつ自動的に本ライセンスの下であなたの権利を終了します。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>However, if you cease all violation of this License, then your license from a particular copyright holder is reinstated (a) provisionally, unless and until the copyright holder explicitly and finally terminates your license, and (b) permanently, if the copyright holder fails to notify you of the violation by some reasonable means prior to 60 days after the cessation.</seg></tuv><tuv xml:lang="ja">
         <seg>あなたがこの契約書のすべての違反をやめる場合は、その後、特定の著作権者からライセンスは、著作権者が明示的に、最終的には永久ライセンス、および（B）を終了しない限り、とまでは（a）の仮、著作権者が失敗した場合復活さ中止後60日前にいくつかの合理的な手段で違反を通知します。</seg>
       </tuv>
@@ -419,38 +487,50 @@
         <seg>著作権者は、いくつかの合理的な手段で違反を通知した場合また、特定の著作権者からライセンスを永続的に復活され、これはあなたがその著作権者から（すべての作業のための）本ライセンスの違反の通知を受けたのは初めてで、そしてあなたは、予告のあなたの受領後30日前に違反を治します。</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>Termination of your rights under this section does not terminate the licenses of parties who have received copies or rights from you under this License.  If your rights have been terminated and not permanently reinstated, receipt of a copy of some or all of the same material does not give you any rights to use it.</seg>
+      <tuv xml:lang="en"><seg>Termination of your rights under this section does not terminate the licenses of parties who have received copies or rights from you under this License.</seg></tuv><tuv xml:lang="ja">
+        <seg>このセクションの下であなたの権利の終了は、このライセンスの下であなたから複製や権利を受け取った当事者のライセンスは終了しません。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>このセクションの下であなたの権利の終了は、このライセンスの下であなたから複製や権利を受け取った当事者のライセンスは終了しません。あなたの権利が終了し、恒久的に回復いないされている場合は、同じ材料の一部または全部のコピーの受領はあなたにそれを使用する権利を与えるものではありません。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>If your rights have been terminated and not permanently reinstated, receipt of a copy of some or all of the same material does not give you any rights to use it.</seg></tuv><tuv xml:lang="ja">
+        <seg>あなたの権利が終了し、恒久的に回復いないされている場合は、同じ材料の一部または全部のコピーの受領はあなたにそれを使用する権利を与えるものではありません。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>**10. FUTURE REVISIONS OF THIS LICENSE**</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>**10.</seg></tuv><tuv xml:lang="ja">
+        <seg>** 10。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>** 10。本契約の将来の改訂**</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>FUTURE REVISIONS OF THIS LICENSE**</seg></tuv><tuv xml:lang="ja">
+        <seg>本契約の将来の改訂**</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>The Free Software Foundation may publish new, revised versions of the GNU Free Documentation License from time to time.  Such new versions will be similar in spirit to the present version, but may differ in detail to address new problems or concerns.  See https://www.gnu.org/copyleft/.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>The Free Software Foundation may publish new, revised versions of the GNU Free Documentation License from time to time.</seg></tuv><tuv xml:lang="ja">
+        <seg>フリーソフトウェア財団は随時GNUフリードキュメントライセンスを更新しています。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>フリーソフトウェア財団は随時GNUフリードキュメントライセンスを更新しています。新しいバージョンは既存のバージョンと同様の精神のもとにありますが、ときに、新しい課題や関心ごとについて異なる異なる見解をノベル場合があります。 詳しくは https://www.gnu.org/copyleft/ を参照してください。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Such new versions will be similar in spirit to the present version, but may differ in detail to address new problems or concerns.</seg></tuv><tuv xml:lang="ja">
+        <seg>新しいバージョンは既存のバージョンと同様の精神のもとにありますが、ときに、新しい課題や関心ごとについて異なる異なる見解をノベル場合があります。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Each version of the License is given a distinguishing version number. If the Document specifies that a particular numbered version of this License "or any later version" applies to it, you have the option of following the terms and conditions either of that specified version or of any later version that has been published (not as a draft) by the Free Software Foundation.  If the Document does not specify a version number of this License, you may choose any version ever published (not as a draft) by the Free Software Foundation.  If the Document specifies that a proxy can decide which future versions of this License can be used, that proxy's public statement of acceptance of a version permanently authorizes you to choose that version for the Document.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>See https://www.gnu.org/copyleft/.</seg></tuv><tuv xml:lang="ja">
+        <seg>詳しくは https://www.gnu.org/copyleft/ を参照してください。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>ライセンスの各バージョンは、バージョン番号によって区別を与えています。文書は、本ライセンスの特定の番号のバージョン「またはそれ以降のバージョンが」それに適用され、あなたがその指定されたバージョンのか、と（いない出版されている任意の以降のバージョンのいずれかの条件を次のオプションを持っていることを指定した場合フリーソフトウェア財団によって草案）。文書が本ライセンスのバージョン番号が指定されていない場合は、フリーソフトウェア財団によってかつてない（ないドラフトとして）発行されたバージョンを選択することができます。文書がプロキシは、このライセンスの将来のバージョンを使用できるかを決定できるように指定した場合は、バージョンの受け入れのそのプロキシの公開声明は、恒久的に文書のために、そのバージョンを選択するように許可します。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Each version of the License is given a distinguishing version number.</seg></tuv><tuv xml:lang="ja">
+        <seg>ライセンスの各バージョンは、バージョン番号によって区別を与えています。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>If the Document specifies that a particular numbered version of this License "or any later version" applies to it, you have the option of following the terms and conditions either of that specified version or of any later version that has been published (not as a draft) by the Free Software Foundation.</seg></tuv><tuv xml:lang="ja">
+        <seg>文書は、本ライセンスの特定の番号のバージョン「またはそれ以降のバージョンが」それに適用され、あなたがその指定されたバージョンのか、と（いない出版されている任意の以降のバージョンのいずれかの条件を次のオプションを持っていることを指定した場合フリーソフトウェア財団によって草案）。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>If the Document does not specify a version number of this License, you may choose any version ever published (not as a draft) by the Free Software Foundation.</seg></tuv><tuv xml:lang="ja">
+        <seg>文書が本ライセンスのバージョン番号が指定されていない場合は、フリーソフトウェア財団によってかつてない（ないドラフトとして）発行されたバージョンを選択することができます。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>If the Document specifies that a proxy can decide which future versions of this License can be used, that proxy's public statement of acceptance of a version permanently authorizes you to choose that version for the Document.</seg></tuv><tuv xml:lang="ja">
+        <seg>文書がプロキシは、このライセンスの将来のバージョンを使用できるかを決定できるように指定した場合は、バージョンの受け入れのそのプロキシの公開声明は、恒久的に文書のために、そのバージョンを選択するように許可します。</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>**11. RELICENSING**</seg>
       </tuv>
@@ -499,14 +579,14 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>If you have Invariant Sections, Front-Cover Texts and Back-Cover Texts, replace the "with ... Texts." line with this:</seg>
+      <tuv xml:lang="en"><seg>If you have Invariant Sections, Front-Cover Texts and Back-Cover Texts, replace the "with ...</seg></tuv><tuv xml:lang="ja">
+        <seg>あなたは不変のセクションを持っている場合は、フロントカバーテキストとバックカバーテキストは、「テキスト...と。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>あなたは不変のセクションを持っている場合は、フロントカバーテキストとバックカバーテキストは、「テキスト...と。」置き換えます これに伴い：</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Texts." line with this:</seg></tuv><tuv xml:lang="ja">
+        <seg>」置き換えます これに伴い：</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>with the Invariant Sections being LIST THEIR TITLES, with the Front-Cover Texts being LIST, and with the Back-Cover Texts being LIST.</seg></tuv><tuv xml:lang="ja">
         <seg>不変のセクションがリストであるフロントカバーテキストで、LISTその題である、とバックカバーテキストでLISTていると。</seg>
       </tuv>

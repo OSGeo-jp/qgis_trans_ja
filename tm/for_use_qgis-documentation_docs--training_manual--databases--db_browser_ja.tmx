@@ -7,14 +7,14 @@
         <seg>|LS| QGISブラウザにおいてデータベースで作業する</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>In the previous 2 modules we looked at the basic concepts, features and functions of relational databases as well as extensions that let us store, manage, query and manipulate spatial data in a relational database. This section will dive deeper into how to effectively use spatial databases in QGIS.</seg>
+      <tuv xml:lang="en"><seg>In the previous 2 modules we looked at the basic concepts, features and functions of relational databases as well as extensions that let us store, manage, query and manipulate spatial data in a relational database.</seg></tuv><tuv xml:lang="ja">
+        <seg>前の2つのモジュールでは、リレーショナルデータベースの基本的な概念、特徴および機能だけでなく、保存、管理、クエリとリレーショナルデータベース内の空間データを操作できる機能拡張について見ました。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>前の2つのモジュールでは、リレーショナルデータベースの基本的な概念、特徴および機能だけでなく、保存、管理、クエリとリレーショナルデータベース内の空間データを操作できる機能拡張について見ました。このセクションでは、効果的にQGISで空間データベースを使用する方法について深掘りします。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>This section will dive deeper into how to effectively use spatial databases in QGIS.</seg></tuv><tuv xml:lang="ja">
+        <seg>このセクションでは、効果的にQGISで空間データベースを使用する方法について深掘りします。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>**The goal for this lesson:** To learn how to interact with spatial databases using the QGIS Browser interface.</seg></tuv><tuv xml:lang="ja">
         <seg>**このレッスンの目的：** QGISのブラウザのインターフェイスを使って空間的なデータベースをどのように作用させるのかを学びます。</seg>
       </tuv>
@@ -39,22 +39,26 @@
         <seg>*レイヤーパネル* の下部にある :guilabel:`ブラウザ` タブをクリックしてブラウザを開きます</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en"><seg>Open the PostGIS portion of the tree and you should find your previously configured connection available (you may need to click the Refresh button at the top of the browser window).</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="en">
+        <seg>Open the PostGIS portion of the tree and you should find your previously configured connection available (you may need to click the Refresh button at the top of the browser window).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>木のPostGISの部分を開きます。前に設定した接続が可能なはずです（ブラウザウィンドウの上部にある[更新]ボタンをクリックする必要があるかもしれません）。</seg>
       </tuv>
-    </tu><tu>
+    </tu>
+    <tu>
       <tuv xml:lang="en"><seg>Double clicking on any of the table/layers listed here will add it to the Map Canvas.</seg></tuv><tuv xml:lang="ja">
         <seg>ここに記載されているテーブル/レイヤーのいずれかをダブルクリックすると、それが地図キャンバスに追加されます。</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>Right Clicking on a table/layer in this view will give you a few options. Click on the :guilabel:`Properties` item to look at the properties of the layer.</seg>
+      <tuv xml:lang="en"><seg>Right Clicking on a table/layer in this view will give you a few options.</seg></tuv><tuv xml:lang="ja">
+        <seg>このビューでテーブル/レイヤーを右クリックすると、いくつかのオプションを提供します。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>このビューでテーブル/レイヤーを右クリックすると、いくつかのオプションを提供します。レイヤーのプロパティを見るために :guilabel:`プロパティ` 項目をクリックしてください。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Click on the :guilabel:`Properties` item to look at the properties of the layer.</seg></tuv><tuv xml:lang="ja">
+        <seg>レイヤーのプロパティを見るために :guilabel:`プロパティ` 項目をクリックしてください。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>|basic| |FA| Adding a filtered set of records as a Layer</seg></tuv><tuv xml:lang="ja">
         <seg>|basic| |FA| レコードのフィルタセットをレイヤーとして追加する</seg>
       </tuv>

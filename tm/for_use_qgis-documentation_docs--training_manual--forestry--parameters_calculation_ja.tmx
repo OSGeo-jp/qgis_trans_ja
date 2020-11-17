@@ -7,14 +7,14 @@
         <seg>|LS| 森林パラメーターを計算する</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>Estimating the parameters of the forest is the goal of the forest inventory. Continuing the example from previous lesson, you will use the inventory information gathered in the field to calculate the forest parameters, for the whole forest first, and then for the stands you digitized before.</seg>
+      <tuv xml:lang="en"><seg>Estimating the parameters of the forest is the goal of the forest inventory.</seg></tuv><tuv xml:lang="ja">
+        <seg>森林のパラメーターを推定することは、森林調査の目標です。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>森林のパラメーターを推定することは、森林調査の目標です。前のレッスンからの例を続け、野外で収集された調査情報を使用し、最初に森林全体に対して、それから前にデジタル化した林分に対して、森林のパラメーターを計算しましょう。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Continuing the example from previous lesson, you will use the inventory information gathered in the field to calculate the forest parameters, for the whole forest first, and then for the stands you digitized before.</seg></tuv><tuv xml:lang="ja">
+        <seg>前のレッスンからの例を続け、野外で収集された調査情報を使用し、最初に森林全体に対して、それから前にデジタル化した林分に対して、森林のパラメーターを計算しましょう。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>**The goal for this lesson:** Calculate forest parameters at general and stand level.</seg></tuv><tuv xml:lang="ja">
         <seg>**このレッスンの目標：** 一般と林分レベルで森林のパラメーターを計算します。</seg>
       </tuv>
@@ -63,22 +63,34 @@
         <seg>|basic| |FA| 林分のパラメーターを推定する</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>You can make use of those same systematic sample plots to calculate estimates for the different forest stands you digitized previously. Some of the forest stands did not get any sample plot and for those you will not get information. You could have planned some extra sample plots when you planned the systematic inventory, so that the field teams would have measured a few extra sample plots for this purpose. Or you could send a field team later to get estimates of the missing forest stands to complete the stand inventory. Nevertheless, you will get information for a good number of stands just using the planned plots.</seg>
+      <tuv xml:lang="en"><seg>You can make use of those same systematic sample plots to calculate estimates for the different forest stands you digitized previously.</seg></tuv><tuv xml:lang="ja">
+        <seg>以前にデジタル化された別の林分のための推定値を算出するために、同じ体系的サンプルプロットを利用できます。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>以前にデジタル化された別の林分のための推定値を算出するために、同じ体系的サンプルプロットを利用できます。林分の一部はどんなサンプルプロットも取得しておらず、そしてそれらについては情報は取得されないでしょう。体系的な調査を計画するときに、野外チームがこの目的のためにいくつかの余分なサンプルプロットを測定するように、いくつかの余分なサンプルプロットを計画することもできたかもしれません。あるいは後で野外チームを送って不足している林分の見積を取得することで林分の調査を完了することもできたかもしれません。それにもかかわらず、計画されたプロットを使用するだけで林分のかなりの数の情報が得られるでしょう。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Some of the forest stands did not get any sample plot and for those you will not get information.</seg></tuv><tuv xml:lang="ja">
+        <seg>林分の一部はどんなサンプルプロットも取得しておらず、そしてそれらについては情報は取得されないでしょう。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>What you need is to get the averages of the sample plots that are falling within each of the forest stands. When you want to combine information based on their relative locations, you perform a spatial join:</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>You could have planned some extra sample plots when you planned the systematic inventory, so that the field teams would have measured a few extra sample plots for this purpose.</seg></tuv><tuv xml:lang="ja">
+        <seg>体系的な調査を計画するときに、野外チームがこの目的のためにいくつかの余分なサンプルプロットを測定するように、いくつかの余分なサンプルプロットを計画することもできたかもしれません。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>必要なのは林分のそれぞれの中に落ちているサンプルプロットの平均値を取得することです。それらの相対的な位置に基づいて情報を組み合わせたいときは、空間的結合を行います：</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Or you could send a field team later to get estimates of the missing forest stands to complete the stand inventory.</seg></tuv><tuv xml:lang="ja">
+        <seg>あるいは後で野外チームを送って不足している林分の見積を取得することで林分の調査を完了することもできたかもしれません。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Nevertheless, you will get information for a good number of stands just using the planned plots.</seg></tuv><tuv xml:lang="ja">
+        <seg>それにもかかわらず、計画されたプロットを使用するだけで林分のかなりの数の情報が得られるでしょう。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>What you need is to get the averages of the sample plots that are falling within each of the forest stands.</seg></tuv><tuv xml:lang="ja">
+        <seg>必要なのは林分のそれぞれの中に落ちているサンプルプロットの平均値を取得することです。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>When you want to combine information based on their relative locations, you perform a spatial join:</seg></tuv><tuv xml:lang="ja">
+        <seg>それらの相対的な位置に基づいて情報を組み合わせたいときは、空間的結合を行います：</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Open the  :menuselection:`Vector --&gt; Data Management --&gt; Join attributes by location` tool.</seg></tuv><tuv xml:lang="ja">
         <seg>:menuselection:`ベクター --&gt; データ管理 --&gt; 位置により属性を結合` ツールを開きます。</seg>
       </tuv>
@@ -131,14 +143,14 @@
         <seg>編集を無効にします。</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>In the previous situation, the areas represented by every sample plot were the same, so it was enough to calculate the average of the sample plots. Now to calculate the estimates, you need to divide the sum of the stands volumes or number of stems by the sum of the areas of the stands containing information.</seg>
+      <tuv xml:lang="en"><seg>In the previous situation, the areas represented by every sample plot were the same, so it was enough to calculate the average of the sample plots.</seg></tuv><tuv xml:lang="ja">
+        <seg>以前の状況では、すべてのサンプルプロットによって表される面積が同じだったので、サンプルプロットの平均値を計算すれば十分でした。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>以前の状況では、すべてのサンプルプロットによって表される面積が同じだったので、サンプルプロットの平均値を計算すれば十分でした。今は見積もりを計算するためには、林分の体積または茎数の合計を必要な情報を含む林分の面積の合計で割る必要があります。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Now to calculate the estimates, you need to divide the sum of the stands volumes or number of stems by the sum of the areas of the stands containing information.</seg></tuv><tuv xml:lang="ja">
+        <seg>今は見積もりを計算するためには、林分の体積または茎数の合計を必要な情報を含む林分の面積の合計で割る必要があります。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Using the information from the forest stands, instead of directly using that from the sample plots, gives the following average estimates:</seg></tuv><tuv xml:lang="ja">
         <seg>サンプルプロットから、下記の平均推定値を与えることを使用して林分からの情報を使用して、代わりに直接：</seg>
       </tuv>
@@ -147,20 +159,24 @@
         <seg>|IC|</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>You managed to calculate forest estimates for the whole forest using the information from your systematic sample plots, first without considering the forest characteristics and also using the interpretation of the aerial image into forest stands. And you also got some valuable information about the particular stands, which could be used to plan the management of the forest in the coming years.</seg>
+      <tuv xml:lang="en"><seg>You managed to calculate forest estimates for the whole forest using the information from your systematic sample plots, first without considering the forest characteristics and also using the interpretation of the aerial image into forest stands.</seg></tuv><tuv xml:lang="ja">
+        <seg>自分の体系的なサンプルプロットからの情報を使用して、最初は森林の特性を考慮することなしで、そしてまた林分への空撮画像の解釈を使用して、森林全体に対して森林の推定値を計算できました。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>自分の体系的なサンプルプロットからの情報を使用して、最初は森林の特性を考慮することなしで、そしてまた林分への空撮画像の解釈を使用して、森林全体に対して森林の推定値を計算できました。また特定の林分に関するいくつかの貴重な情報も得ましたが、これは今後森林の管理を計画するために使用できることでしょう。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>And you also got some valuable information about the particular stands, which could be used to plan the management of the forest in the coming years.</seg></tuv><tuv xml:lang="ja">
+        <seg>また特定の林分に関するいくつかの貴重な情報も得ましたが、これは今後森林の管理を計画するために使用できることでしょう。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>|WN|</seg></tuv><tuv xml:lang="ja">
         <seg>|WN|</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en"><seg>In the following lesson, you will first create a hillshade background from a LiDAR dataset which you will use to prepare a map presentation with the forest results you just calculated.</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="en">
+        <seg>In the following lesson, you will first create a hillshade background from a LiDAR dataset which you will use to prepare a map presentation with the forest results you just calculated.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>次のレッスンでは、まずレーザー測量データセットから陰影起伏の背景を作成します。これはたった今計算した森林の結果で地図プレゼンテーションを準備するために使用するしょう。</seg>
       </tuv>
-    </tu></body>
+    </tu>
+  </body>
 </tmx>

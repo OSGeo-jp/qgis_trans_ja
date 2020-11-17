@@ -7,34 +7,42 @@
         <seg>|LS| 地図帳ツールで詳細な地図を作成する</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>The systematic sampling design is ready and the field teams have loaded the GPS coordinates in their navigation devices. They also have a field data form where they will collect the information measured at every sample plot. To easier find their way to every sample plot, they have requested a number of detail maps where some ground information can be clearly seen along with a smaller subset of sample plots and some information about the map area. You can use the Atlas tool to automatically generate a number of maps with a common format.</seg>
+      <tuv xml:lang="en"><seg>The systematic sampling design is ready and the field teams have loaded the GPS coordinates in their navigation devices.</seg></tuv><tuv xml:lang="ja">
+        <seg>体系的なサンプリングの設計が準備でき、野外チームがナビゲーションデバイスにGPS座標をロードしました。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>体系的なサンプリングの設計が準備でき、野外チームがナビゲーションデバイスにGPS座標をロードしました。彼らはまた、すべてのサンプルプロットで測定された情報を収集するための野外データフォームを持っています。野外チームは、すべてのサンプルプロットへ行く道が簡単に見つかるよう、いくつかの地上情報がサンプルプロットのより小さいサブセットや地図エリアに関する情報と一緒にはっきり見える大量の詳細地図を要求してきました。地図帳ツールを使用することで、大量の地図を共通のフォーマットで自動的に作成できます。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>They also have a field data form where they will collect the information measured at every sample plot.</seg></tuv><tuv xml:lang="ja">
+        <seg>彼らはまた、すべてのサンプルプロットで測定された情報を収集するための野外データフォームを持っています。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>To easier find their way to every sample plot, they have requested a number of detail maps where some ground information can be clearly seen along with a smaller subset of sample plots and some information about the map area.</seg></tuv><tuv xml:lang="ja">
+        <seg>野外チームは、すべてのサンプルプロットへ行く道が簡単に見つかるよう、いくつかの地上情報がサンプルプロットのより小さいサブセットや地図エリアに関する情報と一緒にはっきり見える大量の詳細地図を要求してきました。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>You can use the Atlas tool to automatically generate a number of maps with a common format.</seg></tuv><tuv xml:lang="ja">
+        <seg>地図帳ツールを使用することで、大量の地図を共通のフォーマットで自動的に作成できます。</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en"><seg>**The goal for this lesson:** Learn to use the Atlas tool in QGIS to generate detailed printable maps to assist in the field inventory work.</seg></tuv><tuv xml:lang="ja">
         <seg>**このレッスンの目標：** QGISで地図帳ツールを使用して、野外目録作業を支援するための詳細な印刷可能な地図を作成することを学びます。</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>Before we can automate the detailed maps of the forest area and our sampling plots, we need to create a map template with all the elements we consider useful for the field work. Of course the most important will be a properly styled but, as you have seen before, you will also need to add lots of other elements that complete the printed map.</seg>
+      <tuv xml:lang="en"><seg>Before we can automate the detailed maps of the forest area and our sampling plots, we need to create a map template with all the elements we consider useful for the field work.</seg></tuv><tuv xml:lang="ja">
+        <seg>森林地域と私たちのサンプリングプロットの詳細な地図を自動化できるようになるには、まず野外作業のために有用と考えるすべての要素が入った地図テンプレートを作成する必要があります。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>森林地域と私たちのサンプリングプロットの詳細な地図を自動化できるようになるには、まず野外作業のために有用と考えるすべての要素が入った地図テンプレートを作成する必要があります。もちろん、最も重要なのは、前に見てきたように、適切にスタイル設定されることですが、印刷された地図を完成する他の要素もたくさん追加する必要があります。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Of course the most important will be a properly styled but, as you have seen before, you will also need to add lots of other elements that complete the printed map.</seg></tuv><tuv xml:lang="ja">
+        <seg>もちろん、最も重要なのは、前に見てきたように、適切にスタイル設定されることですが、印刷された地図を完成する他の要素もたくさん追加する必要があります。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Open the QGIS project from the previous lesson :kbd:`forest_inventory.qgs`. You should have at least the following layers:</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Open the QGIS project from the previous lesson :kbd:`forest_inventory.qgs`.</seg></tuv><tuv xml:lang="ja">
+        <seg>前のレッスンからQGISプロジェクトを開きます :kbd:`forest_inventory.qgs` 。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>前のレッスンからQGISプロジェクトを開きます :kbd:`forest_inventory.qgs` 。少なくとも以下のレイヤーを持っている必要があります。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>You should have at least the following layers:</seg></tuv><tuv xml:lang="ja">
+        <seg>少なくとも以下のレイヤーを持っている必要があります。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>:kbd:`forest_stands_2012` (with a 50% transparency, green fill and darker green border lines).</seg></tuv><tuv xml:lang="ja">
         <seg>:kbd:`forest_stands_2012` （50％の透明度、緑塗りつぶしと暗緑色の境界線を有する）。</seg>
       </tuv>
@@ -115,14 +123,14 @@
         <seg>:guilabel:`グリッドにスナップ` をチェックします。</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>Now you can start to add elements to your map canvas. Add first a map element so you can review how it looks as you will be making changes in the layers symbology:</seg>
+      <tuv xml:lang="en"><seg>Now you can start to add elements to your map canvas.</seg></tuv><tuv xml:lang="ja">
+        <seg>今すぐ地図キャンバスへの要素の追加を開始できます。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>今すぐ地図キャンバスへの要素の追加を開始できます。レイヤーシンボルに変更を加えるとそれがどのように見えるか確認できるよう、最初に地図要素を追加します。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Add first a map element so you can review how it looks as you will be making changes in the layers symbology:</seg></tuv><tuv xml:lang="ja">
+        <seg>レイヤーシンボルに変更を加えるとそれがどのように見えるか確認できるよう、最初に地図要素を追加します。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Click on the :guilabel:`Add New Map` button: |addMap|.</seg></tuv><tuv xml:lang="ja">
         <seg>:guilabel:`新しい地図を追加` ボタンをクリックします |addMap| 。</seg>
       </tuv>
@@ -131,14 +139,22 @@
         <seg>地図がそれのほとんどを占めるようにキャンバス上でクリックして矩形にドラッグします。</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>Notice how the mouse cursor snaps to the canvas grid. Use this function when you add other elements. If you want to have more accuracy, change the grid :guilabel:`Spacing` setting. If for some reason you don't want to snap to the grid at some point, you can always check or uncheck it in the :menuselection:`View` menu.</seg>
+      <tuv xml:lang="en"><seg>Notice how the mouse cursor snaps to the canvas grid.</seg></tuv><tuv xml:lang="ja">
+        <seg>マウスカーソルがキャンバスのグリッドにスナップされるに注意してください。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>マウスカーソルがキャンバスのグリッドにスナップされるに注意してください。他の要素を追加したときに、この機能を使用してください。より精度を高くしたい場合は、グリッド :guilabel:`間隔` 設定を変更してください。何らかの理由でいくつかの点でグリッドにスナップしたくない場合は、常に :menuselection:`ビュー` メニュー中でいつでもそのチェックを切り替えできます。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Use this function when you add other elements.</seg></tuv><tuv xml:lang="ja">
+        <seg>他の要素を追加したときに、この機能を使用してください。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>If you want to have more accuracy, change the grid :guilabel:`Spacing` setting.</seg></tuv><tuv xml:lang="ja">
+        <seg>より精度を高くしたい場合は、グリッド :guilabel:`間隔` 設定を変更してください。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>If for some reason you don't want to snap to the grid at some point, you can always check or uncheck it in the :menuselection:`View` menu.</seg></tuv><tuv xml:lang="ja">
+        <seg>何らかの理由でいくつかの点でグリッドにスナップしたくない場合は、常に :menuselection:`ビュー` メニュー中でいつでもそのチェックを切り替えできます。</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en"><seg>|basic| |FA| Adding Background Map</seg></tuv><tuv xml:lang="ja">
         <seg>|basic| |FA| 背景地図を追加する</seg>
       </tuv>
@@ -147,26 +163,30 @@
         <seg>プロンプトが表示されたら :kbd:`ETRS89/ETRS-TM35FIN` CRS をラスターのために選択します。</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>As you can see the background map is already styled. This type of ready to use cartography raster is very common. It is created from vector data, styled in a standard format and stored as a raster so that you don't have to bother styling several vector layers and worrying about getting a good result.</seg>
+      <tuv xml:lang="en"><seg>As you can see the background map is already styled.</seg></tuv><tuv xml:lang="ja">
+        <seg>ご覧のように背景地図にはすでにスタイルが付いています。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>ご覧のように背景地図にはすでにスタイルが付いています。このタイプの使用準備ができている地図作成ラスターは非常に一般的です。それは、ベクターデータから作成された標準形式でスタイルとラスターとして格納されていますので、いくつかのベクターレイヤーにスタイル付けする手間や良い結果を得られているか心配する必要がありません。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>This type of ready to use cartography raster is very common.</seg></tuv><tuv xml:lang="ja">
+        <seg>このタイプの使用準備ができている地図作成ラスターは非常に一般的です。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>It is created from vector data, styled in a standard format and stored as a raster so that you don't have to bother styling several vector layers and worrying about getting a good result.</seg></tuv><tuv xml:lang="ja">
+        <seg>それは、ベクターデータから作成された標準形式でスタイルとラスターとして格納されていますので、いくつかのベクターレイヤーにスタイル付けする手間や良い結果を得られているか心配する必要がありません。</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Now zoom to your sample plots, so that you can see only about four or five lines of plots.</seg></tuv><tuv xml:lang="ja">
         <seg>今、プロットの約4または5行を見ることができるようにサンプルプロットにズームします。</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>While during the last exercises, the white buffer was OK on top of the aerial image, now that the background image is mostly white you barely can see the labels. You can also check how it looks like on the layout:</seg>
+      <tuv xml:lang="en"><seg>While during the last exercises, the white buffer was OK on top of the aerial image, now that the background image is mostly white you barely can see the labels.</seg></tuv><tuv xml:lang="ja">
+        <seg>最後の演習の間、白いバッファは空撮画像の上ではOKでしたが、今は背景画像はほとんどが白であり、ほとんどラベルが見えません。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>最後の演習の間、白いバッファは空撮画像の上ではOKでしたが、今は背景画像はほとんどが白であり、ほとんどラベルが見えません。レイアウト上でどのように見えるか確認もできます：</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>You can also check how it looks like on the layout:</seg></tuv><tuv xml:lang="ja">
+        <seg>レイアウト上でどのように見えるか確認もできます：</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Go to the :guilabel:`Item properties` tab.</seg></tuv><tuv xml:lang="ja">
         <seg>:guilabel:`アイテムのプロパティ` タブに移動します。</seg>
       </tuv>
@@ -179,30 +199,42 @@
         <seg>要素を再描画する必要がある場合は、 :guilabel:`メインプロパティ` 下の :guilabel:`プレビューを更新` をクリックしてください。</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en"><seg>Obviously this is not good enough, you want to make the plot numbers as clearly visible as possible for the field teams.</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="en">
+        <seg>Obviously this is not good enough, you want to make the plot numbers as clearly visible as possible for the field teams.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>これは明らかに十分ではありません。野外チームのためにプロット番号ができるだけはっきり見えるようにしたいです。</seg>
       </tuv>
-    </tu><tu>
+    </tu>
+    <tu>
       <tuv xml:lang="en"><seg>|basic| |TY| Changing the Symbology of the Layers</seg></tuv><tuv xml:lang="ja">
         <seg>|basic| |TY| レイヤーのシンボルを変更する</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>You have been working in :doc:`../basic_map/index` with symbology and in :doc:`../vector_classification/index` with labeling. Go back to those modules if you need to refresh about some of the available options and tools. Your goal is to get the plots locations and their name to be as clearly visible as possible but always allowing to see the background map elements. You can take some guidance from this image:</seg>
+      <tuv xml:lang="en"><seg>You have been working in :doc:`../basic_map/index` with symbology and in :doc:`../vector_classification/index` with labeling.</seg></tuv><tuv xml:lang="ja">
+        <seg>シンボル体系の :doc:`../basic_map/index` 、およびラベルの :doc:`../vector_classification/index` 中で作業してきました。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>シンボル体系の :doc:`../basic_map/index` 、およびラベルの :doc:`../vector_classification/index` 中で作業してきました。利用可能なオプションとツールのいくつかについて、更新する必要がある場合は、それらのモジュールに戻ります。目標は、プロットの位置と名前ができるかぎりはっきりと見えるように、しかしつねに背景地図要素が見えるようにすることです。この画像からいくつかのガイダンスを取ることができます。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Go back to those modules if you need to refresh about some of the available options and tools.</seg></tuv><tuv xml:lang="ja">
+        <seg>利用可能なオプションとツールのいくつかについて、更新する必要がある場合は、それらのモジュールに戻ります。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>You will use later the the green styling of the :kbd:`forest_stands_2012` layer. In order to keep it, and have a visualization of it that shows only the stand borders:</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Your goal is to get the plots locations and their name to be as clearly visible as possible but always allowing to see the background map elements.</seg></tuv><tuv xml:lang="ja">
+        <seg>目標は、プロットの位置と名前ができるかぎりはっきりと見えるように、しかしつねに背景地図要素が見えるようにすることです。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>後で :kbd:`forest_stands_2012` レイヤーの緑のスタイリングを使用するでしょう。それを維持し、林分の境界だけを表示するようそれを可視化するには：</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>You can take some guidance from this image:</seg></tuv><tuv xml:lang="ja">
+        <seg>この画像からいくつかのガイダンスを取ることができます。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>You will use later the the green styling of the :kbd:`forest_stands_2012` layer.</seg></tuv><tuv xml:lang="ja">
+        <seg>後で :kbd:`forest_stands_2012` レイヤーの緑のスタイリングを使用するでしょう。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>In order to keep it, and have a visualization of it that shows only the stand borders:</seg></tuv><tuv xml:lang="ja">
+        <seg>それを維持し、林分の境界だけを表示するようそれを可視化するには：</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Right click on :kbd:`forest_stands_2012` and select :guilabel:`Duplicate`</seg></tuv><tuv xml:lang="ja">
         <seg>:kbd:`forest_stands_2012` を右クリックし :guilabel:`複製` を選択します</seg>
       </tuv>
@@ -215,26 +247,30 @@
         <seg>今、林分にはの二つの異なる視覚化があり、詳細地図にどちらを表示するか決定できます。</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>Go back to the :guilabel:`Print Layout` window often to see what the map would look like. For the purposes of creating detailed maps, you are looking for a symbology that looks good not at the scale of the whole forest area (left image below) but at a closer scale (right image below). Remember to use :guilabel:`Update preview` and :guilabel:`Set to map canvas extent` whenever you change the zoom in your map or the layout.</seg>
+      <tuv xml:lang="en"><seg>Go back to the :guilabel:`Print Layout` window often to see what the map would look like.</seg></tuv><tuv xml:lang="ja">
+        <seg>:guilabel:`印刷レイアウト` ウィンドウに何度も戻り、地図がどのように見えるかを確認します。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>:guilabel:`印刷レイアウト` ウィンドウに何度も戻り、地図がどのように見えるかを確認します。詳細地図を作成するという目的のため、全体の森林地域の縮尺(下の左画像)ではなくより近い縮尺(下の右画像)で良く見えるシンボルを探しています。地図やレイアウトでズームを変更するたびに、 :guilabel:`プレビューを更新` と :guilabel:`地図キャンバス範囲設定` を使用することを忘れないでください。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>For the purposes of creating detailed maps, you are looking for a symbology that looks good not at the scale of the whole forest area (left image below) but at a closer scale (right image below).</seg></tuv><tuv xml:lang="ja">
+        <seg>詳細地図を作成するという目的のため、全体の森林地域の縮尺(下の左画像)ではなくより近い縮尺(下の右画像)で良く見えるシンボルを探しています。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Remember to use :guilabel:`Update preview` and :guilabel:`Set to map canvas extent` whenever you change the zoom in your map or the layout.</seg></tuv><tuv xml:lang="ja">
+        <seg>地図やレイアウトでズームを変更するたびに、 :guilabel:`プレビューを更新` と :guilabel:`地図キャンバス範囲設定` を使用することを忘れないでください。</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en"><seg>|basic| |TY| Create a Basic Map Template</seg></tuv><tuv xml:lang="ja">
         <seg>|basic| |TY| 基本地図テンプレートを作成する</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>Once you have a symbology your happy with, you are ready to add some more information to your printed map. Add at least the following elements:</seg>
+      <tuv xml:lang="en"><seg>Once you have a symbology your happy with, you are ready to add some more information to your printed map.</seg></tuv><tuv xml:lang="ja">
+        <seg>満足なシンボル体系を得たら、印刷された地図にいくつかのより多くの情報を追加する準備が整いました。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>満足なシンボル体系を得たら、印刷された地図にいくつかのより多くの情報を追加する準備が整いました。少なくとも次の要素を追加します。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Add at least the following elements:</seg></tuv><tuv xml:lang="ja">
+        <seg>少なくとも次の要素を追加します。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Title.</seg></tuv><tuv xml:lang="ja">
         <seg>タイトル。</seg>
       </tuv>
@@ -251,14 +287,18 @@
         <seg>グリッドの両側の座標。</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>You have created a similar composition already in :doc:`../map_composer/index`. Go back to that module as you need. You can look at this example image for reference:</seg>
+      <tuv xml:lang="en"><seg>You have created a similar composition already in :doc:`../map_composer/index`.</seg></tuv><tuv xml:lang="ja">
+        <seg>:doc:`../map_composer/index` では既に同様の組成を作成しています。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>:doc:`../map_composer/index` では既に同様の組成を作成しています。必要に応じてそのモジュールに戻ってください。参考のために、この例の画像を見ることができます：</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Go back to that module as you need.</seg></tuv><tuv xml:lang="ja">
+        <seg>必要に応じてそのモジュールに戻ってください。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>You can look at this example image for reference:</seg></tuv><tuv xml:lang="ja">
+        <seg>参考のために、この例の画像を見ることができます：</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Export your map as an image and look at it.</seg></tuv><tuv xml:lang="ja">
         <seg>地図を画像として書き出し、それを見てください。</seg>
       </tuv>
@@ -271,14 +311,18 @@
         <seg>これは、印刷されたときに、それがどのように見えるかです。</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>As you probably noticed in the suggested map template images, there are plenty of room on the right side of the canvas. Lets see what else could go in there. For the purposes of our map, a legend is not really necessary, but an overview map and some text boxes could add value to the map.</seg>
+      <tuv xml:lang="en"><seg>As you probably noticed in the suggested map template images, there are plenty of room on the right side of the canvas.</seg></tuv><tuv xml:lang="ja">
+        <seg>提案された地図テンプレート画像でおそらくお気づきのように、キャンバスの右側には空間がたくさんあります。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>提案された地図テンプレート画像でおそらくお気づきのように、キャンバスの右側には空間がたくさんあります。他に何をそこに置けるか見てみましょう。ここでの地図の目的のためには凡例は本当は必要はありませんが、概要地図といくつかのテキストボックスで、地図に値を追加できます。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Lets see what else could go in there.</seg></tuv><tuv xml:lang="ja">
+        <seg>他に何をそこに置けるか見てみましょう。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>For the purposes of our map, a legend is not really necessary, but an overview map and some text boxes could add value to the map.</seg></tuv><tuv xml:lang="ja">
+        <seg>ここでの地図の目的のためには凡例は本当は必要はありませんが、概要地図といくつかのテキストボックスで、地図に値を追加できます。</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en"><seg>The overview map will help the field teams place the detail map inside the general forest area:</seg></tuv><tuv xml:lang="ja">
         <seg>全体図は、野外チームが、一般的な森林地域内の詳細図を置くのに役立ちます。</seg>
       </tuv>
@@ -291,26 +335,30 @@
         <seg>:guilabel:`アイテムのプロパティ` タブで、 :guilabel:`全体図` ドロップダウンを開きます。</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>Set the :guilabel:`Overview frame` to :guilabel:`Map 0`. This creates a shadowed rectangle over the smaller map representing the extent visible in the bigger map.</seg>
+      <tuv xml:lang="en"><seg>Set the :guilabel:`Overview frame` to :guilabel:`Map 0`.</seg></tuv><tuv xml:lang="ja">
+        <seg>:guilabel:`概要フレーム` を地図 :guilabel:`Map 0` に設定してください。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>:guilabel:`概要フレーム` を地図 :guilabel:`Map 0` に設定してください。これは小さい地図上に大きい地図に表示された範囲を表す影の矩形を作成します。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>This creates a shadowed rectangle over the smaller map representing the extent visible in the bigger map.</seg></tuv><tuv xml:lang="ja">
+        <seg>これは小さい地図上に大きい地図に表示された範囲を表す影の矩形を作成します。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Check also the :guilabel:`Frame` option with a black color and a :guilabel:`Thickness` of :kbd:`0.30`.</seg></tuv><tuv xml:lang="ja">
         <seg>:guilabel:`フレーム` オプションが黒色で、  :guilabel:`厚さ` が :kbd:`0.30` であることもチェックします。</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>Notice that your overview map is not really giving an overview of the forest area which is what you want. You want this map to represent the whole forest area and you want it to show only the background map and the :file:`forest_stands_2012` layer, and not display the sample plots. And also you want to lock its view so it does not change anymore whenever you change the visibility or order of the layers.</seg>
+      <tuv xml:lang="en"><seg>Notice that your overview map is not really giving an overview of the forest area which is what you want.</seg></tuv><tuv xml:lang="ja">
+        <seg>この概観地図では本当に望んでいる森林地域の概観になっていないことに注意してください。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>この概観地図では本当に望んでいる森林地域の概観になっていないことに注意してください。望んでいることは、この地図が森林地域全体を表現し、それが背景地図と :kbd:`forest_stands_2012` レイヤーだけを表示して、サンプルプロットを表示しないことです。そして、もうレイヤーの可視性や順序を変更しても変更されないよう、そのビューをロックすることです。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>You want this map to represent the whole forest area and you want it to show only the background map and the :file:`forest_stands_2012` layer, and not display the sample plots.</seg></tuv><tuv xml:lang="ja">
+        <seg>望んでいることは、この地図が森林地域全体を表現し、それが背景地図と :kbd:`forest_stands_2012` レイヤーだけを表示して、サンプルプロットを表示しないことです。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>And also you want to lock its view so it does not change anymore whenever you change the visibility or order of the layers.</seg></tuv><tuv xml:lang="ja">
+        <seg>そして、もうレイヤーの可視性や順序を変更しても変更されないよう、そのビューをロックすることです。</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Right click the :kbd:`forest_stands_2012` layer and click on :guilabel:`Zoom to Layer Extent`.</seg></tuv><tuv xml:lang="ja">
         <seg>:kbd:`forest_stands_2012` レイヤーを右クリックし 、:guilabel:`レイヤー範囲にズーム` をクリックします。</seg>
       </tuv>
@@ -327,14 +375,18 @@
         <seg>:guilabel:`メインプロパティ` 下の :guilabel:`地図項目のためにレイヤーをロック` をチェックすることにより、全体図のビューをロックします。</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>Now your overview map is more what you expected and its view will not change anymore. But, of course, now your detail map is not showing anymore the stand borders nor the sample plots. Lets fix that:</seg>
+      <tuv xml:lang="en"><seg>Now your overview map is more what you expected and its view will not change anymore.</seg></tuv><tuv xml:lang="ja">
+        <seg>今概観地図は、予想するより以上のものであり、そのビューはもう変更しないでしょう。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>今概観地図は、予想するより以上のものであり、そのビューはもう変更しないでしょう。しかし、もちろん、詳細地図は今まだ林分境界もサンプルのプロットも表示していません。修正しましょう：</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>But, of course, now your detail map is not showing anymore the stand borders nor the sample plots.</seg></tuv><tuv xml:lang="ja">
+        <seg>しかし、もちろん、詳細地図は今まだ林分境界もサンプルのプロットも表示していません。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Lets fix that:</seg></tuv><tuv xml:lang="ja">
+        <seg>修正しましょう：</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Go to the map window again and select the layers you want to be visible (:kbd:`systematic_plots_clip`, :kbd:`forest_stands_2012 copy` and :kbd:`Basic_map`).</seg></tuv><tuv xml:lang="ja">
         <seg>再度、地図ウィンドウに移動し、見えるようにしたいレイヤーを選択します（ :kbd:`systematic_plots_clip` 、 :kbd:`forest_stands_2012 copy` 、 :kbd:`Basic_map` ）。</seg>
       </tuv>
@@ -355,14 +407,18 @@
         <seg>索引図は、詳細地図に示されている範囲の陰影付の枠を表示していることにも注意。</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>Your template map is almost ready. Add now two text boxes below the map, one containing the text 'Detailed map zone: ' and the other one 'Remarks: '. Place them as you can see in the image above.</seg>
+      <tuv xml:lang="en"><seg>Your template map is almost ready.</seg></tuv><tuv xml:lang="ja">
+        <seg>テンプレート地図はほぼ準備ができています。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>テンプレート地図はほぼ準備ができています。ここで2つのテキストボックスを地図の下に追加します、一方はテキスト「詳細地図ゾーン：」含む、もう一方は「備考：」。それらが上の画像で見えるように配置してください。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Add now two text boxes below the map, one containing the text 'Detailed map zone: ' and the other one 'Remarks: '.</seg></tuv><tuv xml:lang="ja">
+        <seg>ここで2つのテキストボックスを地図の下に追加します、一方はテキスト「詳細地図ゾーン：」含む、もう一方は「備考：」。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Place them as you can see in the image above.</seg></tuv><tuv xml:lang="ja">
+        <seg>それらが上の画像で見えるように配置してください。</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en"><seg>You can also add a North arrow to the overview map:</seg></tuv><tuv xml:lang="ja">
         <seg>また、全体図に北矢印を追加できます。</seg>
       </tuv>
@@ -395,22 +451,22 @@
         <seg>|basic| |FA| 地図帳カバレッジを作成する</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>The Atlas coverage is just a vector layer that will be used to generate the detail maps, one map for every feature in the coverage. To get an idea of what you will do next, here is a full set of detail maps for the forest area:</seg>
+      <tuv xml:lang="en"><seg>The Atlas coverage is just a vector layer that will be used to generate the detail maps, one map for every feature in the coverage.</seg></tuv><tuv xml:lang="ja">
+        <seg>地図帳カバレッジは、カバレッジ内のすべての地物に対して1枚の地図という詳細地図を作成するために使用される、ただのベクターレイヤーです。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>地図帳カバレッジは、カバレッジ内のすべての地物に対して1枚の地図という詳細地図を作成するために使用される、ただのベクターレイヤーです。次に何をするかのアイデアを得るために、ここに森林地域のため詳細地図のフルセットがあります：</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>To get an idea of what you will do next, here is a full set of detail maps for the forest area:</seg></tuv><tuv xml:lang="ja">
+        <seg>次に何をするかのアイデアを得るために、ここに森林地域のため詳細地図のフルセットがあります：</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>The coverage could be any existing layer, but usually it makes more sense to create one for the specific purpose. Let's create a grid of polygons covering the forest area:</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>The coverage could be any existing layer, but usually it makes more sense to create one for the specific purpose.</seg></tuv><tuv xml:lang="ja">
+        <seg>カバレッジは何か既存のレイヤーでも良いのですが、通常はその特定の目的のために1つ作成する方が理にかなっています。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>カバレッジは何か既存のレイヤーでも良いのですが、通常はその特定の目的のために1つ作成する方が理にかなっています。森林地域をカバーするポリゴンのグリッドを作成してみましょう：</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Let's create a grid of polygons covering the forest area:</seg></tuv><tuv xml:lang="ja">
+        <seg>森林地域をカバーするポリゴンのグリッドを作成してみましょう：</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>In the QGIS map view, open :menuselection:`Vector --&gt; Research Tools --&gt; Vector grid`.</seg></tuv><tuv xml:lang="ja">
         <seg>QGIS地図ビューで :menuselection:`ベクター --&gt; 研究ツール --&gt; ベクターグリッド` を開きます。</seg>
       </tuv>
@@ -447,22 +503,30 @@
         <seg>次のようにオプションを設定します。</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>That tells the Atlas tool to use the features (polygons) inside :file:`atlas_coverage` as the focus for every detail map. It will output one map for every feature in the layer. The :guilabel:`Hidden coverage layer` tells the Atlas to not show the polygons in the output maps.</seg>
+      <tuv xml:lang="en"><seg>That tells the Atlas tool to use the features (polygons) inside :file:`atlas_coverage` as the focus for every detail map.</seg></tuv><tuv xml:lang="ja">
+        <seg>詳細地図の焦点として :file:`atlas_coverage` 内部のそれは地物（ポリゴン）を使用する地図帳ツールに指示します。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>詳細地図の焦点として :file:`atlas_coverage` 内部のそれは地物（ポリゴン）を使用する地図帳ツールに指示します。これは、レイヤー内のすべての地物の出力1つの地図になります。:guilabel:`隠しカバレッジレイヤー` は出力地図でポリゴンを表示しないように地図帳に伝えます。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>It will output one map for every feature in the layer.</seg></tuv><tuv xml:lang="ja">
+        <seg>これは、レイヤー内のすべての地物の出力1つの地図になります。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>One more thing needs to be done. You need to tell the Atlas tool what map element is going to be updated for every output map. By now, you probably can guess that the map to be changed for every feature is the one you have prepared to contain detail views of the sample plots, that is the bigger map element in your canvas:</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>The :guilabel:`Hidden coverage layer` tells the Atlas to not show the polygons in the output maps.</seg></tuv><tuv xml:lang="ja">
+        <seg>:guilabel:`隠しカバレッジレイヤー` は出力地図でポリゴンを表示しないように地図帳に伝えます。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>もう一つする必要があります。すべての出力地図に対してどの地図要素が更新されるつもりかを地図帳ツールに伝える必要があります。今までに、すべての地物のために変更される地図は、サンプルプロットの詳細ビューを含むように準備したものであるとおそらく推測できます、つまりそれはキャンバス中の大きい方の地図要素です：</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>One more thing needs to be done.</seg></tuv><tuv xml:lang="ja">
+        <seg>もう一つする必要があります。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>You need to tell the Atlas tool what map element is going to be updated for every output map.</seg></tuv><tuv xml:lang="ja">
+        <seg>すべての出力地図に対してどの地図要素が更新されるつもりかを地図帳ツールに伝える必要があります。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>By now, you probably can guess that the map to be changed for every feature is the one you have prepared to contain detail views of the sample plots, that is the bigger map element in your canvas:</seg></tuv><tuv xml:lang="ja">
+        <seg>今までに、すべての地物のために変更される地図は、サンプルプロットの詳細ビューを含むように準備したものであるとおそらく推測できます、つまりそれはキャンバス中の大きい方の地図要素です：</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Select the bigger map element.</seg></tuv><tuv xml:lang="ja">
         <seg>より大きな地図要素を選択します。</seg>
       </tuv>
@@ -471,14 +535,14 @@
         <seg>リストで、:guilabel:`地図帳によって制御` をチェックします。</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>And set the :guilabel:`Marging around feature` to :kbd:`10%`. The view extent will be 10% bigger than the polygons, which means that your detail maps will have a 10% overlap.</seg>
+      <tuv xml:lang="en"><seg>And set the :guilabel:`Marging around feature` to :kbd:`10%`.</seg></tuv><tuv xml:lang="ja">
+        <seg>そして :guilabel:`地物周りにマージンg` を :kbd:`10％` と設定します。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>そして :guilabel:`地物周りにマージンg` を :kbd:`10％` と設定します。ビューの範囲はポリゴンよりも10％大きくなります、これは詳細地図が10% 重なりを持っていることを意味します。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>The view extent will be 10% bigger than the polygons, which means that your detail maps will have a 10% overlap.</seg></tuv><tuv xml:lang="ja">
+        <seg>ビューの範囲はポリゴンよりも10％大きくなります、これは詳細地図が10% 重なりを持っていることを意味します。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Now you can use the preview tool for Atlas maps to review what your maps will look like:</seg></tuv><tuv xml:lang="ja">
         <seg>今、地図がどのように見えるか確認するために地図帳地図のプレビューツールを使用できます。</seg>
       </tuv>
@@ -491,14 +555,14 @@
         <seg>作成される地図を移動するには、地図帳ツールバーまたは :menuselection:`地図帳` メニューの矢印を使用できます。</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>Note that some of them cover areas that are not interesting. Lets do something about it and save some trees by not printing those useless maps.</seg>
+      <tuv xml:lang="en"><seg>Note that some of them cover areas that are not interesting.</seg></tuv><tuv xml:lang="ja">
+        <seg>それらのいくつかは関心のない地域をカバーしていることに注意してください。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>それらのいくつかは関心のない地域をカバーしていることに注意してください。それについて何かをして、それらの無用な地図を印刷しないことで、木をいくらか節約しましょう。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Lets do something about it and save some trees by not printing those useless maps.</seg></tuv><tuv xml:lang="ja">
+        <seg>それについて何かをして、それらの無用な地図を印刷しないことで、木をいくらか節約しましょう。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>|basic| |FA| Editing the Coverage Layer</seg></tuv><tuv xml:lang="ja">
         <seg>|basic| |FA| カバレッジレイヤーを編集する</seg>
       </tuv>
@@ -527,14 +591,14 @@
         <seg>編集を無効にして、編集内容を保存します。</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>The coverage layer you are using does not yet have useful information that you could use to customize the content of the labels in your map. The first step is to create them, you can add for example a zone code for the polygon areas and a field with some remarks for the field teams to have into account:</seg>
+      <tuv xml:lang="en"><seg>The coverage layer you are using does not yet have useful information that you could use to customize the content of the labels in your map.</seg></tuv><tuv xml:lang="ja">
+        <seg>使用しているカバレッジレイヤーは、まだ地図内のラベルの内容をカスタマイズするために使用できる有用な情報を持っていません。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>使用しているカバレッジレイヤーは、まだ地図内のラベルの内容をカスタマイズするために使用できる有用な情報を持っていません。最初のステップはそれらを作成すること、たとえばポリゴン領域のゾーンコードおよび野外チームが考慮に入れるいくつかの発言のフィールドを追加できます：</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>The first step is to create them, you can add for example a zone code for the polygon areas and a field with some remarks for the field teams to have into account:</seg></tuv><tuv xml:lang="ja">
+        <seg>最初のステップはそれらを作成すること、たとえばポリゴン領域のゾーンコードおよび野外チームが考慮に入れるいくつかの発言のフィールドを追加できます：</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Open the :guilabel:`Attribute table` for the :kbd:`atlas_coverage` layer.</seg></tuv><tuv xml:lang="ja">
         <seg>:kbd:`atlas_coverage` レイヤーのための :guilabel:`属性テーブル` を開きます。</seg>
       </tuv>
@@ -559,22 +623,26 @@
         <seg>名前が :kbd:`Remarks` 、タイプが :kbd:`テキスト（文字列）` 、幅が :kbd:`255` の別のフィールドを作成します。</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>In the :guilabel:`Expression` box write :kbd:`'No remarks.'`. This will set all the default value for all the polygons.</seg>
+      <tuv xml:lang="en"><seg>In the :guilabel:`Expression` box write :kbd:`'No remarks.'`.</seg></tuv><tuv xml:lang="ja">
+        <seg>:guilabel:`式` ボックスで :kbd:`「備考なし」` と書き込みます。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>:guilabel:`式` ボックスで :kbd:`「備考なし」` と書き込みます。これは、すべてのポリゴンに対してすべてデフォルト値を設定します。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>This will set all the default value for all the polygons.</seg></tuv><tuv xml:lang="ja">
+        <seg>これは、すべてのポリゴンに対してすべてデフォルト値を設定します。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>The forest manager will have some information about the area that might be useful when visiting the area. For example, the existence of a bridge, a swamp or the location of a protected species. The :kbd:`atlas_coverage` layer is probably in edit mode still, add the following text in the :kbd:`Remarks` field to the corresponding polygons (double click the cell to edit it):</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>The forest manager will have some information about the area that might be useful when visiting the area.</seg></tuv><tuv xml:lang="ja">
+        <seg>森林管理は、地域を訪れる際に役に立つかもしれない地域に関するいくつかの情報を持っています。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>森林管理は、地域を訪れる際に役に立つかもしれない地域に関するいくつかの情報を持っています。例えば、橋の有無、湿地や保護種の位置。 :kbd:`atlas_coverage` レイヤーはおそらくまだ編集モードです、 :kbd:`Remarks` フィールド中に次のテキストを対応するポリゴンに追加します（セルを編集するにはそのセルをダブルクリックしてください）：</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>For example, the existence of a bridge, a swamp or the location of a protected species.</seg></tuv><tuv xml:lang="ja">
+        <seg>例えば、橋の有無、湿地や保護種の位置。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>The :kbd:`atlas_coverage` layer is probably in edit mode still, add the following text in the :kbd:`Remarks` field to the corresponding polygons (double click the cell to edit it):</seg></tuv><tuv xml:lang="ja">
+        <seg>:kbd:`atlas_coverage` レイヤーはおそらくまだ編集モードです、 :kbd:`Remarks` フィールド中に次のテキストを対応するポリゴンに追加します（セルを編集するにはそのセルをダブルクリックしてください）：</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>For the :kbd:`Zone` 2: :kbd:`Bridge to the North of plot 19. Siberian squirrel between p_13 and p_14.`.</seg>
       </tuv>
@@ -631,30 +699,42 @@
         <seg>異なる地図帳プレビュー地図を見て、ラベルの内容をテストします。</seg>
       </tuv>
     </tu><tu>
+      <tuv xml:lang="en"><seg>Do the same for the labels with the text :kbd:`Remarks:` using the field with the zone information.</seg></tuv><tuv xml:lang="ja">
+        <seg>ゾーン情報を持つフィールドを使用して、 :kbd:`注釈：` というテキストを持つラベルに対しても同じ操作を行います。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>You can leave a break line before you enter the expression.</seg></tuv><tuv xml:lang="ja">
+        <seg>式を入力する前にブレークラインを残すことができます。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>You can see the result for the preview of zone 2 in the image below:</seg></tuv><tuv xml:lang="ja">
+        <seg>下の画像でゾーン2のプレビューの結果を見ることができます：</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en">
-        <seg>Do the same for the labels with the text :kbd:`Remarks:` using the field with the zone information. You can leave a break line before you enter the expression. You can see the result for the preview of zone 2 in the image below:</seg>
+        <seg>Use the Atlas preview to browse through all the maps you will be creating soon and enjoy!</seg>
       </tuv>
       <tuv xml:lang="ja">
-        <seg>ゾーン情報を持つフィールドを使用して、 :kbd:`注釈：` というテキストを持つラベルに対しても同じ操作を行います。式を入力する前にブレークラインを残すことができます。下の画像でゾーン2のプレビューの結果を見ることができます：</seg>
+        <seg>地図帳プレビューを使用して。すぐに作成されているであろうすべての地図を閲覧してお楽しみください！</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en"><seg>Use the Atlas preview to browse through all the maps you will be creating soon and enjoy!</seg></tuv><tuv xml:lang="ja">
-        <seg>地図帳プレビューを使用して。すぐに作成されているであろうすべての地図を閲覧してお楽しみください！</seg>
-      </tuv>
-    </tu><tu>
       <tuv xml:lang="en"><seg>|basic| |FA| Printing the Maps</seg></tuv><tuv xml:lang="ja">
         <seg>|basic| |FA| 地図を印刷する</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>Last but not least, printing or exporting your maps to image files or PDF files. You can use the :menuselection:`Atlas --&gt; Export Atlas as Images...` or :menuselection:`Atlas --&gt; Export Atlas as PDF...`. Currently the SVG export format is not working properly and will give a poor result.</seg>
+      <tuv xml:lang="en"><seg>Last but not least, printing or exporting your maps to image files or PDF files.</seg></tuv><tuv xml:lang="ja">
+        <seg>最後になりましたが、印刷や画像ファイルやPDFファイルに地図をエクスポートします。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>最後になりましたが、印刷や画像ファイルやPDFファイルに地図をエクスポートします。 :menuselection:`地図帳 --&gt; 地図帳をPDFとして書き出し...` や :menuselection:`地図帳 --&gt; 地図帳を画像として書き出し...` を使用できます。現在、SVGのエクスポート形式は正常に動作せず、貧しい結果が得られます。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>You can use the :menuselection:`Atlas --&gt; Export Atlas as Images...` or :menuselection:`Atlas --&gt; Export Atlas as PDF...`.</seg></tuv><tuv xml:lang="ja">
+        <seg>:menuselection:`地図帳 --&gt; 地図帳をPDFとして書き出し...` や :menuselection:`地図帳 --&gt; 地図帳を画像として書き出し...` を使用できます。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Currently the SVG export format is not working properly and will give a poor result.</seg></tuv><tuv xml:lang="ja">
+        <seg>現在、SVGのエクスポート形式は正常に動作せず、貧しい結果が得られます。</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Lets print the maps as a single PDF that you can send to the field office for printing:</seg></tuv><tuv xml:lang="ja">
         <seg>現地事務所に印刷用に送付できるよう、単一のPDFとして地図を印刷しましょう：</seg>
       </tuv>
@@ -683,26 +763,30 @@
         <seg>同じように簡単にすべての地図に対して別々の画像を作成できます（単一ファイルの作成をオフにすることを忘れないでください）、作成されるであろう画像のサムネイルをここで見ることができます：</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>In the :guilabel:`Print Layout`, save your map as a layout template as :kbd:`forestry_atlas.qpt` in your :kbd:`exercise_data\\forestry\\map_creation\\` folder. Use :menuselection:`Layout --&gt; Save as Template`. You will be able to use this template again and again.</seg>
+      <tuv xml:lang="en"><seg>In the :guilabel:`Print Layout`, save your map as a layout template as :kbd:`forestry_atlas.qpt` in your :kbd:`exercise_data\\forestry\\map_creation\\` folder.</seg></tuv><tuv xml:lang="ja">
+        <seg>:guilabel:`印刷レイアウト` で、レイアウトテンプレートとして :kbd:`forestry_atlas.qpt` として :kbd:`exercise_data\\forestry\\map_creation\\` フォルダ中に地図を保存します。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>:guilabel:`印刷レイアウト` で、レイアウトテンプレートとして :kbd:`forestry_atlas.qpt` として :kbd:`exercise_data\\forestry\\map_creation\\` フォルダ中に地図を保存します。 :menuselection:`レイアウト --&gt; テンプレートとして保存` を使用します。このテンプレートは何度も何度も使用できます。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Use :menuselection:`Layout --&gt; Save as Template`.</seg></tuv><tuv xml:lang="ja">
+        <seg>:menuselection:`レイアウト --&gt; テンプレートとして保存` を使用します。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>You will be able to use this template again and again.</seg></tuv><tuv xml:lang="ja">
+        <seg>このテンプレートは何度も何度も使用できます。</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en"><seg>|IC|</seg></tuv><tuv xml:lang="ja">
         <seg>|IC|</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>You have managed to create a template map that can be used to automatically generate detail maps to be used in the field to help navigate to the different plots. As you noticed, this was not an easy task but the benefit will come when you need to create similar maps for other regions and you can use the template you just saved.</seg>
+      <tuv xml:lang="en"><seg>You have managed to create a template map that can be used to automatically generate detail maps to be used in the field to help navigate to the different plots.</seg></tuv><tuv xml:lang="ja">
+        <seg>別のプロットに移動するのを助けるために野外で使用される詳細地図を自動作成するのに使用できるテンプレート地図の作成にこぎつけました。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>別のプロットに移動するのを助けるために野外で使用される詳細地図を自動作成するのに使用できるテンプレート地図の作成にこぎつけました。お気づきのように、これは簡単な作業ではありませんでしたが、他の地域についても同様の地図を作成する必要があるときに利益がもたらされ、先ほど保存したテンプレートを使用できます。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>As you noticed, this was not an easy task but the benefit will come when you need to create similar maps for other regions and you can use the template you just saved.</seg></tuv><tuv xml:lang="ja">
+        <seg>お気づきのように、これは簡単な作業ではありませんでしたが、他の地域についても同様の地図を作成する必要があるときに利益がもたらされ、先ほど保存したテンプレートを使用できます。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>|WN|</seg></tuv><tuv xml:lang="ja">
         <seg>|WN|</seg>
       </tuv>

@@ -63,14 +63,14 @@
         <seg>GISアプリケーションを使うとコンピュータ上のデジタル地図を開いたり, 新しい空間情報データを作成して地図に加えたり, 必要に応じてカスタマイズした地図の印刷物を制作したり空間解析が出来ます.</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en"><seg>Let's look at a little example of how GIS can be useful.</seg></tuv><tuv xml:lang="ja">
-        <seg>GISがどんなに便利なのかちょっと例を見てみましょう.</seg>
+      <tuv xml:lang="en">
+        <seg>Let's look at a little example of how GIS can be useful. Imagine you are a health worker and you make a note of the date and place of residence of every patient you treat.</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Imagine you are a health worker and you make a note of the date and place of residence of every patient you treat.</seg></tuv><tuv xml:lang="ja">
-        <seg>あなたが医療従事者だとして, 患者たちの診療日と自宅の位置を記録しているとします.</seg>
+      <tuv xml:lang="ja">
+        <seg>GISがどんなに便利なのかちょっと例を見てみましょう. あなたが医療従事者だとして, 患者たちの診療日と自宅の位置を記録しているとします.</seg>
       </tuv>
-    </tu><tu>
+    </tu>
+    <tu>
       <tuv xml:lang="en"><seg>Longitude</seg></tuv><tuv xml:lang="ja">
         <seg>経度</seg>
       </tuv>
@@ -203,22 +203,26 @@
         <seg>2009年02月26日</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>If you look at the table above you will quickly see that there were a lot of measles cases in January and February. Our health worker recorded the location of each patient's house by noting its latitude and longitude in the table. Using this data in a GIS Application, we can quickly understand a lot more about the patterns of illness:</seg>
+      <tuv xml:lang="en"><seg>If you look at the table above you will quickly see that there were a lot of measles cases in January and February.</seg></tuv><tuv xml:lang="ja">
+        <seg>上の表を見ると, 1月と2月には多くのはしかが発症していたことがわかります。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>上の表を見ると, 1月と2月には多くのはしかが発症していたことがわかります。医療従事者がそれぞれの患者の家の位置を緯度経度により表形式で記録しています。このデータを GIS アプリケーションで使えば、病気の規則性についてより多くのことを簡単に理解することができるようになります。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Our health worker recorded the location of each patient's house by noting its latitude and longitude in the table.</seg></tuv><tuv xml:lang="ja">
+        <seg>医療従事者がそれぞれの患者の家の位置を緯度経度により表形式で記録しています。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Example showing disease records in a GIS application. It is easy to see that the mumps patients all live close to each other.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Using this data in a GIS Application, we can quickly understand a lot more about the patterns of illness:</seg></tuv><tuv xml:lang="ja">
+        <seg>このデータを GIS アプリケーションで使えば、病気の規則性についてより多くのことを簡単に理解することができるようになります。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>こちらの例では GIS アプリケーションで様々な疾病記録を見せています。おたふく風邪患者同士が近くに居住していることが簡単に見て取れます.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Example showing disease records in a GIS application.</seg></tuv><tuv xml:lang="ja">
+        <seg>こちらの例では GIS アプリケーションで様々な疾病記録を見せています。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>It is easy to see that the mumps patients all live close to each other.</seg></tuv><tuv xml:lang="ja">
+        <seg>おたふく風邪患者同士が近くに居住していることが簡単に見て取れます.</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en"><seg>More about GIS</seg></tuv><tuv xml:lang="ja">
         <seg>GISについてより詳しく</seg>
       </tuv>
@@ -235,14 +239,26 @@
         <seg>GIS ソフトウェア / アプリケーションとは何か?</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>You can see an example of what a **GIS Application** looks like figure_gis_application_. GIS Applications are normally programs with a graphical user interface that can be manipulated using the mouse and keyboard. The application provides **menus** near to the top of the window (File, Edit etc.) which, when clicked using the mouse, show a panel of **actions**. These actions provide a way for you to tell the GIS Application what you want to do. For example you may use the menus to tell the GIS Application to add a new layer to the display output.</seg>
+      <tuv xml:lang="en"><seg>You can see an example of what a **GIS Application** looks like figure_gis_application_.</seg></tuv><tuv xml:lang="ja">
+        <seg>figure_gis_application_ では **GISアプリケーション** とは何なのかという例を示しています。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>figure_gis_application_ では **GISアプリケーション** とは何なのかという例を示しています。GISアプリケーションは通常、マウスやキーボードで操作のできるグラフィカルインターフェイスのプログラムです。ウィンドウの上部にはファイルや編集といった **メニュー** があり、クリックすると様々な **アクション** が並んだパネルが開きます。これらのアクションを通じてGISアプリケーションに何をするのか伝えることができます。例えばメニューから新しいレイヤーを表示させることができます。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>GIS Applications are normally programs with a graphical user interface that can be manipulated using the mouse and keyboard.</seg></tuv><tuv xml:lang="ja">
+        <seg>GISアプリケーションは通常、マウスやキーボードで操作のできるグラフィカルインターフェイスのプログラムです。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>The application provides **menus** near to the top of the window (File, Edit etc.) which, when clicked using the mouse, show a panel of **actions**.</seg></tuv><tuv xml:lang="ja">
+        <seg>ウィンドウの上部にはファイルや編集といった **メニュー** があり、クリックすると様々な **アクション** が並んだパネルが開きます。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>These actions provide a way for you to tell the GIS Application what you want to do.</seg></tuv><tuv xml:lang="ja">
+        <seg>これらのアクションを通じてGISアプリケーションに何をするのか伝えることができます。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>For example you may use the menus to tell the GIS Application to add a new layer to the display output.</seg></tuv><tuv xml:lang="ja">
+        <seg>例えばメニューから新しいレイヤーを表示させることができます。</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Application menus, when clicked with the mouse, expand to show a list of actions that can be carried out.</seg></tuv><tuv xml:lang="ja">
         <seg>アプリケーションのメニューは、マウスでクリックすると、開いて実行可能な操作の一覧が表示されます。</seg>
       </tuv>
@@ -251,14 +267,14 @@
         <seg>**ツールバー** (マウスでクリックできる小さなアイコンが並んでいるもの) は、通常メニューバーの下に配置され、よく使われる操作が簡単に選べるようになっています。</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>Toolbars provide quick access to commonly used functions. Holding your mouse over a picture will usually tell you what will happen when you click on it.</seg>
+      <tuv xml:lang="en"><seg>Toolbars provide quick access to commonly used functions.</seg></tuv><tuv xml:lang="ja">
+        <seg>ツールバーでは、よく使う機能にすばやくアクセスできます。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>ツールバーでは、よく使う機能にすばやくアクセスできます。アイコンの上でマウスを停止させると、ふつうはクリックしたときに何が起こるかが分かります。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Holding your mouse over a picture will usually tell you what will happen when you click on it.</seg></tuv><tuv xml:lang="ja">
+        <seg>アイコンの上でマウスを停止させると、ふつうはクリックしたときに何が起こるかが分かります。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>A common function of GIS Applications is to display **map layers**. Map layers are stored as files on a disk or as records in a database. Normally each map layer will represent something in the real world –-- a roads layer for example will have data about the street network.</seg>
       </tuv>
@@ -267,46 +283,58 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en">
-        <seg>When you open a layer in the GIS Application it will appear in the **map view**. The map view shows a graphic representing your layer. When you add more than one layer to a map view, the layers are overlaid on top of each other. Look at figures figure_map_view_towns_, figure_map_view_schools_, figure_map_view_railways_ and figure_map_view_rivers_ to see a map view that has several layers being added to it. An important function of the map view is to allow you to zoom in to magnify, zoom out to see a greater area and move around (panning) in the map.</seg>
+      <tuv xml:lang="en"><seg>When you open a layer in the GIS Application it will appear in the **map view**.</seg></tuv><tuv xml:lang="ja">
+        <seg>GIS アプリケーションでレイヤを開くと、 **地図ビュー** に現れます。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>GIS アプリケーションでレイヤを開くと、 **地図ビュー** に現れます。地図ビューではレイヤをグラフィック表現で表示します。地図ビューに複数のレイヤを読み込んだ場合は、その上に重なって表示されます。 figure_map_view_towns_ 、 figure_map_view_schools_ 、 figure_map_view_railways_、 figure_map_view_rivers_  は複数レイヤが読み込まれた地図ビューです。地図ビューの重要な機能は、拡大表示するズームインとより広域を見るためのズームアウト、そして地図上の移動 (パン) です。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>The map view shows a graphic representing your layer.</seg></tuv><tuv xml:lang="ja">
+        <seg>地図ビューではレイヤをグラフィック表現で表示します。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>A map view with several layers being added to it. A towns layer added to the map view.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>When you add more than one layer to a map view, the layers are overlaid on top of each other.</seg></tuv><tuv xml:lang="ja">
+        <seg>地図ビューに複数のレイヤを読み込んだ場合は、その上に重なって表示されます。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>複数のレイヤが読み込まれた地図ビュー。町レイヤが地図ビューに追加されている</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Look at figures figure_map_view_towns_, figure_map_view_schools_, figure_map_view_railways_ and figure_map_view_rivers_ to see a map view that has several layers being added to it.</seg></tuv><tuv xml:lang="ja">
+        <seg>figure_map_view_towns_ 、 figure_map_view_schools_ 、 figure_map_view_railways_、 figure_map_view_rivers_  は複数レイヤが読み込まれた地図ビューです。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>A map view with several layers being added to it. A schools layer added to the map view</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>An important function of the map view is to allow you to zoom in to magnify, zoom out to see a greater area and move around (panning) in the map.</seg></tuv><tuv xml:lang="ja">
+        <seg>地図ビューの重要な機能は、拡大表示するズームインとより広域を見るためのズームアウト、そして地図上の移動 (パン) です。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>複数のレイヤが読み込まれた地図ビュー。学校レイヤが地図ビューに追加されている</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>A map view with several layers being added to it.</seg></tuv><tuv xml:lang="ja">
+        <seg>複数のレイヤが読み込まれた地図ビュー。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>A map view with several layers being added to it. A railways layer added to the map view</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>A towns layer added to the map view.</seg></tuv><tuv xml:lang="ja">
+        <seg>町レイヤが地図ビューに追加されている</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>複数のレイヤが読み込まれた地図ビュー。鉄道レイヤが地図ビューに追加されている</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>A map view with several layers being added to it.</seg></tuv><tuv xml:lang="ja">
+        <seg>複数のレイヤが読み込まれた地図ビュー。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>A map view with several layers being added to it. A rivers layer added to the map view</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>A schools layer added to the map view</seg></tuv><tuv xml:lang="ja">
+        <seg>学校レイヤが地図ビューに追加されている</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>複数のレイヤが読み込まれた地図ビュー。河川レイヤが地図ビューに追加されている</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>A map view with several layers being added to it.</seg></tuv><tuv xml:lang="ja">
+        <seg>複数のレイヤが読み込まれた地図ビュー。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>A railways layer added to the map view</seg></tuv><tuv xml:lang="ja">
+        <seg>鉄道レイヤが地図ビューに追加されている</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>A map view with several layers being added to it.</seg></tuv><tuv xml:lang="ja">
+        <seg>複数のレイヤが読み込まれた地図ビュー。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>A rivers layer added to the map view</seg></tuv><tuv xml:lang="ja">
+        <seg>河川レイヤが地図ビューに追加されている</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>Another common feature of GIS Applications is the **map legend**. The map legend provides a list of layers that have been loaded in the GIS Application. Unlike a paper map legend, the map legend or 'layers list' in the GIS Application provides a way to re-order, hide, show and group layers. Changing the layer order is done by clicking on a layer in the legend, holding the mouse button down and then dragging the layer to a new position. In figures figure_map_legend_before_ and figure_map_legend_after_ the map legend is shown as the area to the left of the GIS Application window. By changing the layer order, the way that layers are drawn can be adjusted –-- in this case so that rivers are drawn over the roads instead of below them.</seg>
       </tuv>
@@ -339,14 +367,38 @@
         <seg>GISアプリケーションを入手してみよう</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>There are many different GIS Applications available. Some have many sophisticated features and cost tens of thousands of Rands for each copy. In other cases, you can obtain a GIS Application for free. Deciding which GIS Application to use is a question of how much money you can afford and personal preference. For these tutorials, we will be using the QGIS Application. QGIS is completely free and you can copy it and share it with your friends as much as you like. If you received this tutorial in printed form, you should have received a copy of QGIS with it. If not, you can always visit https://www.qgis.org/ to download your free copy if you have access to the internet.</seg>
+      <tuv xml:lang="en"><seg>There are many different GIS Applications available.</seg></tuv><tuv xml:lang="ja">
+        <seg>数多くの GIS アプリケーションが存在します。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>数多くの GIS アプリケーションが存在します。洗練された機能を持ち1ライセンス当たり7万円ほどかかるものもあります。一方で、無料で手に入れられるものもあります。どの GISア プリケーションを選択するかはどの程度の予算を用意できるかによります。このチュートリアルでは QGIS アプリケーションを用います。 QGIS は完全にフリーであるため、コピーしたり友人にシェアすることが自由にできます。もしあなたがこのチュートリアルを印刷物として手に入れた場合は,  QGIS のコピーも一緒に手に入れていることと思います。そうでない場合も、インターネットにアクセスすることができれば、いつでもダウンロードページ https://www.qgis.org/ にアクセスすることで無料で手に入れることができます。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Some have many sophisticated features and cost tens of thousands of Rands for each copy.</seg></tuv><tuv xml:lang="ja">
+        <seg>洗練された機能を持ち1ライセンス当たり7万円ほどかかるものもあります。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>In other cases, you can obtain a GIS Application for free.</seg></tuv><tuv xml:lang="ja">
+        <seg>一方で、無料で手に入れられるものもあります。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Deciding which GIS Application to use is a question of how much money you can afford and personal preference.</seg></tuv><tuv xml:lang="ja">
+        <seg>どの GISア プリケーションを選択するかはどの程度の予算を用意できるかによります。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>For these tutorials, we will be using the QGIS Application.</seg></tuv><tuv xml:lang="ja">
+        <seg>このチュートリアルでは QGIS アプリケーションを用います。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>QGIS is completely free and you can copy it and share it with your friends as much as you like.</seg></tuv><tuv xml:lang="ja">
+        <seg>QGIS は完全にフリーであるため、コピーしたり友人にシェアすることが自由にできます。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>If you received this tutorial in printed form, you should have received a copy of QGIS with it.</seg></tuv><tuv xml:lang="ja">
+        <seg>もしあなたがこのチュートリアルを印刷物として手に入れた場合は,  QGIS のコピーも一緒に手に入れていることと思います。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>If not, you can always visit https://www.qgis.org/ to download your free copy if you have access to the internet.</seg></tuv><tuv xml:lang="ja">
+        <seg>そうでない場合も、インターネットにアクセスすることができれば、いつでもダウンロードページ https://www.qgis.org/ にアクセスすることで無料で手に入れることができます。</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en"><seg>GIS Data</seg></tuv><tuv xml:lang="ja">
         <seg>GISデータ</seg>
       </tuv>
@@ -387,14 +439,26 @@
         <seg>ベクターデータによる点 (町など) , 線 (河川など) , エリア (行政区) などの表示</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>**Raster data** are stored as a grid of values. There are many satellites circling the earth and the photographs they take are a kind of raster data that can be viewed in a GIS. One important difference between raster and vector data is that if you zoom in too much on a raster image, it will start to appear 'blocky' (see illustrations figure_raster_data_ and figure_raster_data_zoom_). In fact these blocks are the individual cells of the data grid that makes up the raster image. We will be looking at raster data in greater detail in later tutorials.</seg>
+      <tuv xml:lang="en"><seg>**Raster data** are stored as a grid of values.</seg></tuv><tuv xml:lang="ja">
+        <seg>**ラスターデータ** は値のグリッドとして格納されます。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>**ラスターデータ** は値のグリッドとして格納されます。地球のまわりを周回している衛星には多くの種類があり、それらによって撮影された画像はGIS上でラスターデータとして見ることができます。ラスターデータとベクターデータの違いで重要なこととして、ラスターデータの場合はズームインをし過ぎると格子状の模様が見えてきます（図 figure_raster_data_ と figure_raster_data_zoom_ 参照）。実はこれらの格子はそれぞれデータを持つグリッドで、ラスターデータを構成するものです。ラスターデータについては後ほどのチュートリアルでまた詳しく取り上げることにします.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>There are many satellites circling the earth and the photographs they take are a kind of raster data that can be viewed in a GIS.</seg></tuv><tuv xml:lang="ja">
+        <seg>地球のまわりを周回している衛星には多くの種類があり、それらによって撮影された画像はGIS上でラスターデータとして見ることができます。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>One important difference between raster and vector data is that if you zoom in too much on a raster image, it will start to appear 'blocky' (see illustrations figure_raster_data_ and figure_raster_data_zoom_).</seg></tuv><tuv xml:lang="ja">
+        <seg>ラスターデータとベクターデータの違いで重要なこととして、ラスターデータの場合はズームインをし過ぎると格子状の模様が見えてきます（図 figure_raster_data_ と figure_raster_data_zoom_ 参照）。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>In fact these blocks are the individual cells of the data grid that makes up the raster image.</seg></tuv><tuv xml:lang="ja">
+        <seg>実はこれらの格子はそれぞれデータを持つグリッドで、ラスターデータを構成するものです。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>We will be looking at raster data in greater detail in later tutorials.</seg></tuv><tuv xml:lang="ja">
+        <seg>ラスターデータについては後ほどのチュートリアルでまた詳しく取り上げることにします.</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>Raster data are often images taken by satellites. Here we can see mountains in the Eastern Cape.</seg>
       </tuv>
@@ -447,18 +511,14 @@
         <seg>ここでは人に教える際のアイデアいくつか述べていきます:</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en"><seg>**Geography:** Describe the concept of GIS to your learners as outlined in this tutorial.</seg></tuv><tuv xml:lang="ja">
-        <seg>**地理情報：** このチュートリアルで示すように、GISのコンセプトを示す概念です.</seg>
+      <tuv xml:lang="en">
+        <seg>**Geography:** Describe the concept of GIS to your learners as outlined in this tutorial. Ask them to try to think of 3 reasons why it might be handy to use a GIS instead of paper maps. Here are some that we could think of:</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Ask them to try to think of 3 reasons why it might be handy to use a GIS instead of paper maps.</seg></tuv><tuv xml:lang="ja">
-        <seg>なぜ紙地図よりGISの方が便利なのか, GISを学習する人たちに3つ理由を考えさせてみて下さい.</seg>
+      <tuv xml:lang="ja">
+        <seg>**地理情報：** このチュートリアルで示すように、GISのコンセプトを示す概念です. なぜ紙地図よりGISの方が便利なのか, GISを学習する人たちに3つ理由を考えさせてみて下さい. 以下にはいくつかの例を示します:</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Here are some that we could think of:</seg></tuv><tuv xml:lang="ja">
-        <seg>以下にはいくつかの例を示します:</seg>
-      </tuv>
-    </tu><tu>
+    </tu>
+    <tu>
       <tuv xml:lang="en"><seg>GIS Applications allow you to create many different types of maps from the same data.</seg></tuv><tuv xml:lang="ja">
         <seg>GISアプリケーションを用いることで, 同じデータから様々なタイプの地図を作ることができます.</seg>
       </tuv>
@@ -467,22 +527,22 @@
         <seg>GISはすばらしい可視化ツールで, データそのものやそれらが空間的にどのような関係性を持っているのか（例えば先ほど示した病気の拡大など）をしめすことができます.</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en"><seg>Paper maps need to be filed and are time consuming to view.</seg></tuv><tuv xml:lang="ja">
-        <seg>紙地図はファイルにして保管しなければならず, 見られるまでに時間がかかります.</seg>
-      </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>The GIS can hold a very large amount of map data and make it quick and easy to find a place you are interested in.</seg></tuv><tuv xml:lang="ja">
-        <seg>GISは非常に大きな量の地図データから興味のある地域を簡単に素早く探して見ることができます.</seg>
-      </tuv>
-    </tu><tu>
       <tuv xml:lang="en">
-        <seg>**Geography:** Can you and your learners think of how raster data from satellites could be useful? Here are some ideas we had:</seg>
+        <seg>Paper maps need to be filed and are time consuming to view. The GIS can hold a very large amount of map data and make it quick and easy to find a place you are interested in.</seg>
       </tuv>
       <tuv xml:lang="ja">
-        <seg>**地理学：** あなたやあなたの生徒たちはどのように衛星データからラスターデータを活用できると思いますか？ここではいくつかアイデアを述べていきます：</seg>
+        <seg>紙地図はファイルにして保管しなければならず, 見られるまでに時間がかかります. GISは非常に大きな量の地図データから興味のある地域を簡単に素早く探して見ることができます.</seg>
       </tuv>
     </tu>
     <tu>
+      <tuv xml:lang="en"><seg>**Geography:** Can you and your learners think of how raster data from satellites could be useful?</seg></tuv><tuv xml:lang="ja">
+        <seg>**地理学：** あなたやあなたの生徒たちはどのように衛星データからラスターデータを活用できると思いますか？</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Here are some ideas we had:</seg></tuv><tuv xml:lang="ja">
+        <seg>ここではいくつかアイデアを述べていきます：</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>During natural disasters, raster data can be useful to show where the impacted areas are. For example a recent satellite image taken during a flood can help to show where people may need rescuing.</seg>
       </tuv>
@@ -491,14 +551,14 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en"><seg>Sometimes people do bad things to the the environment, like dumping dangerous chemicals that kill plants and animals.</seg></tuv><tuv xml:lang="ja">
-        <seg>人は植物や動物に害を及ぼす危険な化学薬品の廃棄などといった環境に悪影響をもたらす行為をすることがあります.</seg>
+      <tuv xml:lang="en">
+        <seg>Sometimes people do bad things to the the environment, like dumping dangerous chemicals that kill plants and animals. Using raster data from satellites can help us to monitor for these type of problems.</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Using raster data from satellites can help us to monitor for these type of problems.</seg></tuv><tuv xml:lang="ja">
-        <seg>こういった問題は, 衛星画像のようなラスターデータをつかって観測することができます.</seg>
+      <tuv xml:lang="ja">
+        <seg>人は植物や動物に害を及ぼす危険な化学薬品の廃棄などといった環境に悪影響をもたらす行為をすることがあります. こういった問題は, 衛星画像のようなラスターデータをつかって観測することができます.</seg>
       </tuv>
-    </tu><tu>
+    </tu>
+    <tu>
       <tuv xml:lang="en"><seg>Town planners can use raster data from satellites to see where informal settlements are and to help in planning infrastructure.</seg></tuv><tuv xml:lang="ja">
         <seg>都市計画を行う人にとっては衛星画像といったラスターデータを使うことにより, どこに居住区域が存在するのかを把握し, インフラ計画に役立てることができます.</seg>
       </tuv>
@@ -535,16 +595,12 @@
         <seg>次は？</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en"><seg>In the sections that follow we are going to go into more detail, showing you how to use a GIS Application.</seg></tuv><tuv xml:lang="ja">
-        <seg>この後のセクションではもっと詳しくどうやってGISアプリケーションを使うのか掘り下げていきます.</seg>
+      <tuv xml:lang="en">
+        <seg>In the sections that follow we are going to go into more detail, showing you how to use a GIS Application. All of the tutorials will be done using QGIS. Next up, let's look at vectors!</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>All of the tutorials will be done using QGIS.</seg></tuv><tuv xml:lang="ja">
-        <seg>すべてのチュートリアルはQGISで行われています.</seg>
+      <tuv xml:lang="ja">
+        <seg>この後のセクションではもっと詳しくどうやってGISアプリケーションを使うのか掘り下げていきます. すべてのチュートリアルはQGISで行われています. 次はベクターデータを見てみましょう!</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Next up, let's look at vectors!</seg></tuv><tuv xml:lang="ja">
-        <seg>次はベクターデータを見てみましょう!</seg>
-      </tuv>
-    </tu></body>
+    </tu>
+  </body>
 </tmx>

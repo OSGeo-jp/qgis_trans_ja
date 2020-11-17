@@ -27,14 +27,14 @@
         <seg>方法論</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>All collected data was processed with QGIS 2.6 and 2.8, projected into ETRS89 / ETRS-LAEA and stored according to the INSPIRE directive to meet EU standards. An overall **discrete index of weights** was defined and applied to all input data.</seg>
+      <tuv xml:lang="en"><seg>All collected data was processed with QGIS 2.6 and 2.8, projected into ETRS89 / ETRS-LAEA and stored according to the INSPIRE directive to meet EU standards.</seg></tuv><tuv xml:lang="ja">
+        <seg>すべての収集されたデータは、ETRS89 / ETRS-LAEAに投影してQGIS 2.6および2.8で処理され、EUの基準を満たすためにINSPIRE指令に従って保存されました。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>すべての収集されたデータは、ETRS89 / ETRS-LAEAに投影してQGIS 2.6および2.8で処理され、EUの基準を満たすためにINSPIRE指令に従って保存されました。重みの全体 **離散指数** が定義され、すべての入力データに適用されました。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>An overall **discrete index of weights** was defined and applied to all input data.</seg></tuv><tuv xml:lang="ja">
+        <seg>重みの全体 **離散指数** が定義され、すべての入力データに適用されました。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Figure 1: Workflow - Lynx habitat expert model</seg></tuv><tuv xml:lang="ja">
         <seg>図1：ワークフロー - オオヤマネコの生息地の専門家モデル</seg>
       </tuv>
@@ -43,30 +43,38 @@
         <seg>**ワークフローの説明**</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>Area of Interest [Step I – II]: Based on selected national park areas and adding a 10 kilometer buffer, a minimum bounding box [α] was created and clipped with the outline of the river Danube (derived from Corine Land Cover 2006). Further clipping tools [β] were applied to all additional data as an initial preparation step (Figure 2)</seg>
+      <tuv xml:lang="en"><seg>Area of Interest [Step I – II]: Based on selected national park areas and adding a 10 kilometer buffer, a minimum bounding box [α] was created and clipped with the outline of the river Danube (derived from Corine Land Cover 2006).</seg></tuv><tuv xml:lang="ja">
+        <seg>関心地域[工程I - II]：選択した国立公園の区域に基づき、10キロバッファを追加して、最小バウンディングボックス[α]が作成され、ドナウ川（CORINE土地被覆2006由来）の輪郭でクリップされました。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>関心地域[工程I - II]：選択した国立公園の区域に基づき、10キロバッファを追加して、最小バウンディングボックス[α]が作成され、ドナウ川（CORINE土地被覆2006由来）の輪郭でクリップされました。さらに、クリッピングツール[β]が、初期準備工程のようなすべての追加データに適用されました（図2）</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Further clipping tools [β] were applied to all additional data as an initial preparation step (Figure 2)</seg></tuv><tuv xml:lang="ja">
+        <seg>さらに、クリッピングツール[β]が、初期準備工程のようなすべての追加データに適用されました（図2）</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Land Cover Suitability Model [Step IX]: [γ] Input III and IV were transformed into shape files using the inbuilt #Polygonize function. Corine Landcover (2006) data was reclassified using the field calculator to group land use classes and assign respective index values.  Similar processing was applied to Hansen Forestcover data (2000), extracting only areas of cover equal or higher 75 %. Sub-model IX was produced by using the functions #Merge Shapes to combine III with IV and #Rasterize</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Land Cover Suitability Model [Step IX]: [γ] Input III and IV were transformed into shape files using the inbuilt #Polygonize function.</seg></tuv><tuv xml:lang="ja">
+        <seg>土地被覆適合モデル[ステップIX]：[γ]入力IIIとIVは、作り付けの#Polygonize（ポリゴン作成）機能を使用してシェイプファイルに変換されました。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>土地被覆適合モデル[ステップIX]：[γ]入力IIIとIVは、作り付けの#Polygonize（ポリゴン作成）機能を使用してシェイプファイルに変換されました。CORINE土地被覆（2006）のデータは、グループの土地利用クラスにフィールドの計算機を使用して再分類し、それぞれのインデックス値を割り当てました。同様の処理は、カバー同等以上の75％の領域のみを抽出し、ハンセンForestcoverデータ（2000）に適用しました。サブモデルIXは、IIIをIV及び#Rasterize（ラスタ化）と組み合わせること関数#Merge Shapes（シェイプをマージ）を用いて製造しました。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Corine Landcover (2006) data was reclassified using the field calculator to group land use classes and assign respective index values.</seg></tuv><tuv xml:lang="ja">
+        <seg>CORINE土地被覆（2006）のデータは、グループの土地利用クラスにフィールドの計算機を使用して再分類し、それぞれのインデックス値を割り当てました。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>*Note: Land cover classes were grouped by possible lynx occurrence and human activity. Although technically of older origin, information related to forest cover values were integrated in order to indicate habitat improvement and as a general example for joining spatial data sets*</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Similar processing was applied to Hansen Forestcover data (2000), extracting only areas of cover equal or higher 75 %.</seg></tuv><tuv xml:lang="ja">
+        <seg>同様の処理は、カバー同等以上の75％の領域のみを抽出し、ハンセンForestcoverデータ（2000）に適用しました。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>*注：土地被覆クラスはオオヤマネコの発生の可能性と人間の活動によって分類しました。技術的には古い起源のものですが、森林値に関連する情報が、生息地の改善を示すために、空間データセットを結合するための一般的な例として、統合されました*</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Sub-model IX was produced by using the functions #Merge Shapes to combine III with IV and #Rasterize</seg></tuv><tuv xml:lang="ja">
+        <seg>サブモデルIXは、IIIをIV及び#Rasterize（ラスタ化）と組み合わせること関数#Merge Shapes（シェイプをマージ）を用いて製造しました。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>*Note: Land cover classes were grouped by possible lynx occurrence and human activity.</seg></tuv><tuv xml:lang="ja">
+        <seg>*注：土地被覆クラスはオオヤマネコの発生の可能性と人間の活動によって分類しました。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Although technically of older origin, information related to forest cover values were integrated in order to indicate habitat improvement and as a general example for joining spatial data sets*</seg></tuv><tuv xml:lang="ja">
+        <seg>技術的には古い起源のものですが、森林値に関連する情報が、生息地の改善を示すために、空間データセットを結合するための一般的な例として、統合されました*</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Habitat Suitability Model [Step X]: [δ] An Elevation Suitability Index was derived from the AsterDEM 2.0 [VI] and together with a Population Density Index [V] was integrated into the final habitat suitability model (Figure 3) by using the #Raster calculator</seg></tuv><tuv xml:lang="ja">
         <seg>生息地適合モデル[工程X]：[δ]標高適合指数がAsterDEM 2.0 [VI]に由来したと一緒に人口密度が指数[V]＃ラスター電卓を使用して、最終的な生息環境適合モデル（図3）に統合されました</seg>
       </tuv>
@@ -95,98 +103,82 @@
         <seg>結論</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>Looking at the final output (Figure 3), a plausible first potential habitat analysis appeared to be successful, yet more importantly, basic modeling itself turned out to be less difficult than initially expected. Our choice to add a sub-model for hunter accessibility allowed us to implement another dimension in terms of habitat risk assessment, which can be simply nested into the already existing scenario and used to determine protection necessities under aspects of e.g. infrastructure development. However, some crucial habitat information, such as forest structure (our highest habitat suitability) cannot be derived by available data sets and in combination with the complex species behavior, the result must therefore be understood as basic and incomplete. Additional factors not implemented at this stage are road mortality, terrain roughness and detailed prey occurrence.</seg>
+      <tuv xml:lang="en"><seg>Looking at the final output (Figure 3), a plausible first potential habitat analysis appeared to be successful, yet more importantly, basic modeling itself turned out to be less difficult than initially expected.</seg></tuv><tuv xml:lang="ja">
+        <seg>最終的な出力（図3）を見ると、もっともらしい最初の潜在的な生息環境の分析は成功しているように見え、さらにより重要なのは、基本的なモデル作成自体が当初予想より難しくないことが判明しました。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>最終的な出力（図3）を見ると、もっともらしい最初の潜在的な生息環境の分析は成功しているように見え、さらにより重要なのは、基本的なモデル作成自体が当初予想より難しくないことが判明しました。狩猟者接近可能性のためのサブモデルを追加するには私たちの選択は、私たちは、単に既存のシナリオの中に入れ子にし、例えば、インフラ開発の側面の下で保護必需品を決定するために使用することができる生息地のリスク評価、という点で別の次元を実装することができました。しかし、このような森林の構造（私たちの最高の生息環境適合性）など、いくつかの重要な生息地の情報は、利用可能なデータセットによって導出することができず、複雑な種の挙動との組み合わせで、結果はそのための基本と不完全なものとして理解されなければなりません。この段階では実装されていない追加の要因は、道路の死亡率、地形の凹凸や詳細な獲物が発生しています。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Our choice to add a sub-model for hunter accessibility allowed us to implement another dimension in terms of habitat risk assessment, which can be simply nested into the already existing scenario and used to determine protection necessities under aspects of e.g. infrastructure development.</seg></tuv><tuv xml:lang="ja">
+        <seg>狩猟者接近可能性のためのサブモデルを追加するには私たちの選択は、私たちは、単に既存のシナリオの中に入れ子にし、例えば、インフラ開発の側面の下で保護必需品を決定するために使用することができる生息地のリスク評価、という点で別の次元を実装することができました。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Besides its open source, free available character, QGIS software has been the subject of major developments in recent years. We made very positive experience with the integration of the tool box, allowing the use of various GRASS and SAGA tools, even for inexperienced users. No compatibility issues occurred despite changing frequently between different versions and the general absence of administrative restrictions can be a powerful advantage when working intuitively with data sets. We are looking forward seeing further improvements, especially in regards to the integrated model builder.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>However, some crucial habitat information, such as forest structure (our highest habitat suitability) cannot be derived by available data sets and in combination with the complex species behavior, the result must therefore be understood as basic and incomplete.</seg></tuv><tuv xml:lang="ja">
+        <seg>しかし、このような森林の構造（私たちの最高の生息環境適合性）など、いくつかの重要な生息地の情報は、利用可能なデータセットによって導出することができず、複雑な種の挙動との組み合わせで、結果はそのための基本と不完全なものとして理解されなければなりません。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>QGISソフトウェアは、そのオープンソースで無料でご利用いただける性格以外にも、近年の主要な開発の対象となっています。私たちも、経験の浅いユーザーのために、様々なGRASSとSAGAツールの使用が可能、ツールボックスの統合と非常に肯定的な経験をしました。互換性の問題は、データセットを直感的に作業する際の強力な利点することができ、異なるバージョンや行政規制の一般的な不在の間で頻繁に変化するにもかかわらず発生していません。私たちは、特に統合モデルビルダーに関しては、さらなる改善を見て楽しみにしています。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Additional factors not implemented at this stage are road mortality, terrain roughness and detailed prey occurrence.</seg></tuv><tuv xml:lang="ja">
+        <seg>この段階では実装されていない追加の要因は、道路の死亡率、地形の凹凸や詳細な獲物が発生しています。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Besides its open source, free available character, QGIS software has been the subject of major developments in recent years.</seg></tuv><tuv xml:lang="ja">
+        <seg>QGISソフトウェアは、そのオープンソースで無料でご利用いただける性格以外にも、近年の主要な開発の対象となっています。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>We made very positive experience with the integration of the tool box, allowing the use of various GRASS and SAGA tools, even for inexperienced users.</seg></tuv><tuv xml:lang="ja">
+        <seg>私たちも、経験の浅いユーザーのために、様々なGRASSとSAGAツールの使用が可能、ツールボックスの統合と非常に肯定的な経験をしました。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>No compatibility issues occurred despite changing frequently between different versions and the general absence of administrative restrictions can be a powerful advantage when working intuitively with data sets.</seg></tuv><tuv xml:lang="ja">
+        <seg>互換性の問題は、データセットを直感的に作業する際の強力な利点することができ、異なるバージョンや行政規制の一般的な不在の間で頻繁に変化するにもかかわらず発生していません。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>We are looking forward seeing further improvements, especially in regards to the integrated model builder.</seg></tuv><tuv xml:lang="ja">
+        <seg>私たちは、特に統合モデルビルダーに関しては、さらなる改善を見て楽しみにしています。</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en"><seg>References</seg></tuv><tuv xml:lang="ja">
         <seg>リファレンス</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en"><seg>Kaczensky, P., Chapron, G.,von Avrx, M., Huber, D., Andrén, H.</seg></tuv><tuv xml:lang="ja">
-        <seg>Kaczensky, P., Chapron, G.,von Avrx, M., Huber, D., Andrén, H.</seg>
+      <tuv xml:lang="en">
+        <seg>Kaczensky, P., Chapron, G.,von Avrx, M., Huber, D., Andrén, H. &amp; Linnell, J. (December 2012): Status, management and distribution of large carnivores in Europe. Document European Commission.</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>&amp; Linnell, J.</seg></tuv><tuv xml:lang="ja">
-        <seg>&amp; Linnell, J.</seg>
+      <tuv xml:lang="ja">
+        <seg>Kaczensky, P., Chapron, G.,von Avrx, M., Huber, D., Andrén, H. &amp; Linnell, J. (December 2012): Status, management and distribution of large carnivores in Europe. Document European Commission.</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>(December 2012): Status, management and distribution of large carnivores in Europe.</seg></tuv><tuv xml:lang="ja">
-        <seg>(December 2012): Status, management and distribution of large carnivores in Europe.</seg>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Schadt, S., Revilla, E., Wiegand, T., Knauer, F., Kaczensky, P., Breitenmoser, U., Bufka, L., Cerveny, J., Koubek, P., Huber, T., Stanisa, C. &amp; Trepl, L. (2002): Assessing the suitability of central European landscapes for the reintroduction of Eurasian lynx. Article Journal of Applied Ecology.</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Document European Commission.</seg></tuv><tuv xml:lang="ja">
-        <seg>Document European Commission.</seg>
+      <tuv xml:lang="ja">
+        <seg>Schadt, S., Revilla, E., Wiegand, T., Knauer, F., Kaczensky, P., Breitenmoser, U., Bufka, L., Cerveny, J., Koubek, P., Huber, T., Stanisa, C. &amp; Trepl, L. (2002): Assessing the suitability of central European landscapes for the reintroduction of Eurasian lynx. Article Journal of Applied Ecology.</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Schadt, S., Revilla, E., Wiegand, T., Knauer, F., Kaczensky, P., Breitenmoser, U., Bufka, L., Cerveny, J., Koubek, P., Huber, T., Stanisa, C.</seg></tuv><tuv xml:lang="ja">
-        <seg>Schadt, S., Revilla, E., Wiegand, T., Knauer, F., Kaczensky, P., Breitenmoser, U., Bufka, L., Cerveny, J., Koubek, P., Huber, T., Stanisa, C.</seg>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Salvatori, V. (2004): Conservation areas for large carnivores in the Carpathian Mountains. PhD Thesis.</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>&amp; Trepl, L.</seg></tuv><tuv xml:lang="ja">
-        <seg>&amp; Trepl, L.</seg>
+      <tuv xml:lang="ja">
+        <seg>Salvatori, V. (2004): Conservation areas for large carnivores in the Carpathian Mountains. PhD Thesis.</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>(2002): Assessing the suitability of central European landscapes for the reintroduction of Eurasian lynx.</seg></tuv><tuv xml:lang="ja">
-        <seg>(2002): Assessing the suitability of central European landscapes for the reintroduction of Eurasian lynx.</seg>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Podgórski, T., Schmidt, K., Kowalczyk, R. &amp; Gulczyñska, A. (2008): Microhabitat selection by Eurasian lynx and its implications for species conservation. Acta Theriologica 53: 97–110.</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Article Journal of Applied Ecology.</seg></tuv><tuv xml:lang="ja">
-        <seg>Article Journal of Applied Ecology.</seg>
+      <tuv xml:lang="ja">
+        <seg>Podgórski, T., Schmidt, K., Kowalczyk, R. &amp; Gulczyñska, A. (2008): Microhabitat selection by Eurasian lynx and its implications for species conservation. Acta Theriologica 53: 97–110.</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Salvatori, V.</seg></tuv><tuv xml:lang="ja">
-        <seg>Salvatori, V.</seg>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Boutros, D. (March 2002): Characterization and assessment of suitability of Eurasian lynx (Lynx lynx) den sites. KORA Report No. 12e, Diploma thesis.</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>(2004): Conservation areas for large carnivores in the Carpathian Mountains.</seg></tuv><tuv xml:lang="ja">
-        <seg>(2004): Conservation areas for large carnivores in the Carpathian Mountains.</seg>
+      <tuv xml:lang="ja">
+        <seg>Boutros, D. (March 2002): Characterization and assessment of suitability of Eurasian lynx (Lynx lynx) den sites. KORA Report No. 12e, Diploma thesis.</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>PhD Thesis.</seg></tuv><tuv xml:lang="ja">
-        <seg>PhD Thesis.</seg>
-      </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Podgórski, T., Schmidt, K., Kowalczyk, R.</seg></tuv><tuv xml:lang="ja">
-        <seg>Podgórski, T., Schmidt, K., Kowalczyk, R.</seg>
-      </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>&amp; Gulczyñska, A.</seg></tuv><tuv xml:lang="ja">
-        <seg>&amp; Gulczyñska, A.</seg>
-      </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>(2008): Microhabitat selection by Eurasian lynx and its implications for species conservation.</seg></tuv><tuv xml:lang="ja">
-        <seg>(2008): Microhabitat selection by Eurasian lynx and its implications for species conservation.</seg>
-      </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Acta Theriologica 53: 97–110.</seg></tuv><tuv xml:lang="ja">
-        <seg>Acta Theriologica 53: 97–110.</seg>
-      </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Boutros, D.</seg></tuv><tuv xml:lang="ja">
-        <seg>Boutros, D.</seg>
-      </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>(March 2002): Characterization and assessment of suitability of Eurasian lynx (Lynx lynx) den sites.</seg></tuv><tuv xml:lang="ja">
-        <seg>(March 2002): Characterization and assessment of suitability of Eurasian lynx (Lynx lynx) den sites.</seg>
-      </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>KORA Report No. 12e, Diploma thesis.</seg></tuv><tuv xml:lang="ja">
-        <seg>KORA Report No. 12e, Diploma thesis.</seg>
-      </tuv>
-    </tu><tu>
+    </tu>
+    <tu>
       <tuv xml:lang="en"><seg>Authors</seg></tuv><tuv xml:lang="ja">
         <seg>著者</seg>
       </tuv>

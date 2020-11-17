@@ -119,22 +119,22 @@
         <seg>:guilabel:`レイヤープロパティ` の :guilabel:`アクション` に戻ります。</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>Under :guilabel:`Type`, choose :guilabel:`Open`. This will tell Windows to open an Internet address in your default browser, such as Internet Explorer.</seg>
+      <tuv xml:lang="en"><seg>Under :guilabel:`Type`, choose :guilabel:`Open`.</seg></tuv><tuv xml:lang="ja">
+        <seg>:guilabel:`タイプ` で :guilabel:`開く` を選択します。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>:guilabel:`タイプ` で :guilabel:`開く` を選択します。これはWindowsにInternet Explorer等の既定のブラウザでインターネットアドレスを開かせます。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>This will tell Windows to open an Internet address in your default browser, such as Internet Explorer.</seg></tuv><tuv xml:lang="ja">
+        <seg>これはWindowsにInternet Explorer等の既定のブラウザでインターネットアドレスを開かせます。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Whichever command you used above, you need to tell it which Internet address to open next. You want it to visit Google, and to search for a phrase automatically.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Whichever command you used above, you need to tell it which Internet address to open next.</seg></tuv><tuv xml:lang="ja">
+        <seg>上でどのコマンドを使った場合でも次に、開くべきインターネットアドレスを知らせなければいけません。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>上でどのコマンドを使った場合でも次に、開くべきインターネットアドレスを知らせなければいけません。Googleを訪問させて語句を自動的に検索させます。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>You want it to visit Google, and to search for a phrase automatically.</seg></tuv><tuv xml:lang="ja">
+        <seg>Googleを訪問させて語句を自動的に検索させます。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Select the :guilabel:`name` field.</seg></tuv><tuv xml:lang="ja">
         <seg>:guilabel:`名称` フィールドを選択します。</seg>
       </tuv>
@@ -143,10 +143,14 @@
         <seg>では新しいアクションをためします。</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en"><seg>If your action doesn't work, check that everything was entered correctly; typos are common with this kind of work!</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="en">
+        <seg>If your action doesn't work, check that everything was entered correctly; typos are common with this kind of work!</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>アクションがうまく動作しない場合は、すべてが正しく入力されたことをチェックしてください。タイプミスはこの種の作業でよくあることです!</seg>
       </tuv>
-    </tu><tu>
+    </tu>
+    <tu>
       <tuv xml:lang="en"><seg>|hard| |FA| Open a Webpage Directly in QGIS</seg></tuv><tuv xml:lang="ja">
         <seg>|hard| |FA| QGISで直接Webページを開く</seg>
       </tuv>
@@ -171,14 +175,18 @@
         <seg>すべてのPythonのコードはコマンドがセミコロンで区切られて1行になっています(通常Pythonのコマンドは改行で区切ります)。</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>Note that this is a somewhat contrived example. Python works with semantically significant indentation, so separating things with semicolons isn't the best way to write it. So, in the real world, you'd be more likely to import your logic from a Python module and then call a function with a field attribute as parameter.</seg>
+      <tuv xml:lang="en"><seg>Note that this is a somewhat contrived example.</seg></tuv><tuv xml:lang="ja">
+        <seg>これはいくぶん不自然な例であることに注意してください。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>これはいくぶん不自然な例であることに注意してください。Pythonでは意味的に重要なインデントが使われますので、セミコロンで区切ることは記述の最良の方法ではありません。ですから現実の世界では、Pythonモジュールからロジックをインポートして、引数にフィールド属性をとる関数を呼び出す可能性が高いと思います。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Python works with semantically significant indentation, so separating things with semicolons isn't the best way to write it.</seg></tuv><tuv xml:lang="ja">
+        <seg>Pythonでは意味的に重要なインデントが使われますので、セミコロンで区切ることは記述の最良の方法ではありません。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>So, in the real world, you'd be more likely to import your logic from a Python module and then call a function with a field attribute as parameter.</seg></tuv><tuv xml:lang="ja">
+        <seg>ですから現実の世界では、Pythonモジュールからロジックをインポートして、引数にフィールド属性をとる関数を呼び出す可能性が高いと思います。</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en"><seg>|IC|</seg></tuv><tuv xml:lang="ja">
         <seg>|IC|</seg>
       </tuv>

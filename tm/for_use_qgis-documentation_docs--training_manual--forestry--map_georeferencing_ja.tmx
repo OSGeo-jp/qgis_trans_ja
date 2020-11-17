@@ -7,22 +7,26 @@
         <seg>|LS| 地図を地理参照する</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>A common forestry task would be the update of the information for a forestry area. It is possible that the previous information for that area dates several years back and was collected analogically (that is, in paper) or perhaps it was digitized but all you have left is the paper version of that inventory data.</seg>
+      <tuv xml:lang="en"><seg>A common forestry task would be the update of the information for a forestry area.</seg></tuv><tuv xml:lang="ja">
+        <seg>林業においてよくある作業は、森林地域についての情報の更新でしょう。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>林業においてよくある作業は、森林地域についての情報の更新でしょう。その地域についての以前の情報は何年も前にアナログで（つまり紙で）集めた、あるいはおそらくそれはデジタル化されたが残されているのはその調査データの紙版しかない、といったことがよくありそうです。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>It is possible that the previous information for that area dates several years back and was collected analogically (that is, in paper) or perhaps it was digitized but all you have left is the paper version of that inventory data.</seg></tuv><tuv xml:lang="ja">
+        <seg>その地域についての以前の情報は何年も前にアナログで（つまり紙で）集めた、あるいはおそらくそれはデジタル化されたが残されているのはその調査データの紙版しかない、といったことがよくありそうです。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Most likely you would like to use that information in your GIS to, for example, compare later with later inventories. This means that you will need to digitize the information at hand using your GIS software. But before you can start the digitizing, there is an important first step to be done, scanning and georeferencing your paper map.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Most likely you would like to use that information in your GIS to, for example, compare later with later inventories.</seg></tuv><tuv xml:lang="ja">
+        <seg>その情報をGISで、例えば後で後の調査と比較するために、使用したいときっと思うでしょう。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>その情報をGISで、例えば後で後の調査と比較するために、使用したいときっと思うでしょう。これは、GISソフトウェアを用いて手で情報をデジタル化する必要があることを意味します。しかし、最初に重要なステップ、紙の地図をスキャンし地理参照しなければ、デジタル化は開始できません。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>This means that you will need to digitize the information at hand using your GIS software.</seg></tuv><tuv xml:lang="ja">
+        <seg>これは、GISソフトウェアを用いて手で情報をデジタル化する必要があることを意味します。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>But before you can start the digitizing, there is an important first step to be done, scanning and georeferencing your paper map.</seg></tuv><tuv xml:lang="ja">
+        <seg>しかし、最初に重要なステップ、紙の地図をスキャンし地理参照しなければ、デジタル化は開始できません。</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en"><seg>**The goal for this lesson:** To learn to use the Georeferencer tool in QGIS.</seg></tuv><tuv xml:lang="ja">
         <seg>**このレッスンの目標：** QGISで地理参照ツールを使用する方法を学ぶ。</seg>
       </tuv>
@@ -31,26 +35,34 @@
         <seg>|basic|  地図をスキャン</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>The first task you will have to do is to scan your map. If your map is too big, then you can scan it in different parts but keep in mind that you will have to repeat preprocessing and georeferencing tasks for each part. So if possible, scan the map in as few parts as possible.</seg>
-      </tuv>
-      <tuv xml:lang="ja">
-        <seg>するべき最初のタスクは、地図をスキャンすることです。地図が大きすぎる場合は、部分に分けてそれをスキャンできますが、各部分について前処理とジオリファレンスの作業を繰り返す必要があることを心に留めておいてください。ですからできれば、可能な限り少ない部分に分けて地図をスキャンします。</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>If you are going to use a different map that the one provided with this manual, use your own scanner to scan the map as an image file, a resolution of 300 DPI will do. If your map has colors, scan the image in color so that you can later use those colors to separate information from your map into different  layers (for ex., forest stands, contour lines, roads...).</seg>
-      </tuv>
-      <tuv xml:lang="ja">
-        <seg>このマニュアルで提供される一つは、画像ファイルとして地図をスキャンするために、独自のスキャナを使用する異なる地図を使用しようとしている場合は、300 DPIの解像度が行います。地図が色付きの場合は色付きで画像をスキャンし、後でそれらの色を使用して地図からの情報を別々のレイヤー（例えば、林分、道路、等高線...）に分離できるようにしておきます。</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en"><seg>For this exercise you will use a previously scanned map, you can find it as :kbd:`rautjarvi_map.tif` in the data folder :kbd:`exercise_data/forestry`</seg></tuv><tuv xml:lang="ja">
-        <seg>この演習では以前にスキャンした地図を使用します。データフォルダ :kbd:`exercise_data/forestry` 内に :kbd:`rautjarvi_map.tif` として見つかります</seg>
+      <tuv xml:lang="en"><seg>The first task you will have to do is to scan your map.</seg></tuv><tuv xml:lang="ja">
+        <seg>するべき最初のタスクは、地図をスキャンすることです。</seg>
       </tuv>
     </tu><tu>
+      <tuv xml:lang="en"><seg>If your map is too big, then you can scan it in different parts but keep in mind that you will have to repeat preprocessing and georeferencing tasks for each part.</seg></tuv><tuv xml:lang="ja">
+        <seg>地図が大きすぎる場合は、部分に分けてそれをスキャンできますが、各部分について前処理とジオリファレンスの作業を繰り返す必要があることを心に留めておいてください。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>So if possible, scan the map in as few parts as possible.</seg></tuv><tuv xml:lang="ja">
+        <seg>ですからできれば、可能な限り少ない部分に分けて地図をスキャンします。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>If you are going to use a different map that the one provided with this manual, use your own scanner to scan the map as an image file, a resolution of 300 DPI will do.</seg></tuv><tuv xml:lang="ja">
+        <seg>このマニュアルで提供される一つは、画像ファイルとして地図をスキャンするために、独自のスキャナを使用する異なる地図を使用しようとしている場合は、300 DPIの解像度が行います。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>If your map has colors, scan the image in color so that you can later use those colors to separate information from your map into different  layers (for ex., forest stands, contour lines, roads...).</seg></tuv><tuv xml:lang="ja">
+        <seg>地図が色付きの場合は色付きで画像をスキャンし、後でそれらの色を使用して地図からの情報を別々のレイヤー（例えば、林分、道路、等高線...）に分離できるようにしておきます。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en">
+        <seg>For this exercise you will use a previously scanned map, you can find it as :kbd:`rautjarvi_map.tif` in the data folder :kbd:`exercise_data/forestry`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この演習では以前にスキャンした地図を使用します。データフォルダ :kbd:`exercise_data/forestry` 内に :kbd:`rautjarvi_map.tif` として見つかります</seg>
+      </tuv>
+    </tu>
+    <tu>
       <tuv xml:lang="en"><seg>|basic| |FA| Georeferencing the scanned map</seg></tuv><tuv xml:lang="ja">
         <seg>|basic| |FA|  スキャンした地図を地理参照する</seg>
       </tuv>
@@ -75,10 +87,14 @@
         <seg>地理参照ツールを開きます :menuselection:`ラスター --&gt; ジオリファレンサ --&gt; ジオリファレンサ` 。</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en"><seg>When prompted find and select the :kbd:`KKJ / Finland zone 2` CRS, it is the CRS that was used in Finland back in 1994 when this map was created.</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="en">
+        <seg>When prompted find and select the :kbd:`KKJ / Finland zone 2` CRS, it is the CRS that was used in Finland back in 1994 when this map was created.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>求められたら :kbd:`KKJ/フィンランドゾーン2` CRSを検索して選択します。それは昔この地図が作成された1994年にフィンランドで使用されていたCRSです。</seg>
       </tuv>
-    </tu><tu>
+    </tu>
+    <tu>
       <tuv xml:lang="en"><seg>Click :guilabel:`OK`.</seg></tuv><tuv xml:lang="ja">
         <seg>:guilabel:`OK` をクリックします。</seg>
       </tuv>
@@ -111,22 +127,30 @@
         <seg>地理参照のための最初の座標の準備ができました。</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>Look for other cross-hairs in the black lines image, they are separated 1000 meters from each other both in North and East direction. You should be able to calculate the coordinates of those points in relation to the first one.</seg>
+      <tuv xml:lang="en"><seg>Look for other cross-hairs in the black lines image, they are separated 1000 meters from each other both in North and East direction.</seg></tuv><tuv xml:lang="ja">
+        <seg>黒い線の画像で他の十字線を探すと、北と東の両方の方向で互いに1000メートル離れています。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>黒い線の画像で他の十字線を探すと、北と東の両方の方向で互いに1000メートル離れています。最初のポイントとの関係でそれらのポイントの座標を計算できるはずです。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>You should be able to calculate the coordinates of those points in relation to the first one.</seg></tuv><tuv xml:lang="ja">
+        <seg>最初のポイントとの関係でそれらのポイントの座標を計算できるはずです。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Zoom out in the image and move to the right until you find other cross-hair, and estimate how many kilometres you have moved. Try to get ground control points as far from each other as possible. Digitize at least three more ground control points in the same way you did the first one. You should end up with something similar to this:</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Zoom out in the image and move to the right until you find other cross-hair, and estimate how many kilometres you have moved.</seg></tuv><tuv xml:lang="ja">
+        <seg>画像にズームアウトして、他の十字を見つけるまで右に移動し、何キロメートル移動してきたか見積もります。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>画像にズームアウトして、他の十字を見つけるまで右に移動し、何キロメートル移動してきたか見積もります。地上基準点はできるだけ互いに離して取得してください。1つめをやったのと同じ方法で、少なくとも3つの地上基準点をデジタル化します。終わりにはこのようになっている必要があります：</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Try to get ground control points as far from each other as possible.</seg></tuv><tuv xml:lang="ja">
+        <seg>地上基準点はできるだけ互いに離して取得してください。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Digitize at least three more ground control points in the same way you did the first one.</seg></tuv><tuv xml:lang="ja">
+        <seg>1つめをやったのと同じ方法で、少なくとも3つの地上基準点をデジタル化します。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>You should end up with something similar to this:</seg></tuv><tuv xml:lang="ja">
+        <seg>終わりにはこのようになっている必要があります：</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en">
         <seg>With already three digitized ground control points you will be able to see the georeferencing error as a red line coming out of the points. The error in pixels can be seen also in the :guilabel:`GCP table` in the :guilabel:`dX[pixels]` and :guilabel:`dY[pixels]` columns. The error in pixels should not be higher than 10 pixels, if it is you should review the points you have digitized and the coordinates you have entered to find what the problem is. You can use the image above as a guide.</seg>
       </tuv>
@@ -155,22 +179,26 @@
         <seg>地理参照の設定を編集したときに 既にファイルを :kbd:`rautjarvi_georef.tif` と名前つけていることに注意。</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>Now you can see the map in QGIS project as a georeferenced raster. Note that the raster seems to be slightly rotated, but that is simply because the data is :kbd:`KKJ / Finland zone 2` and your project is in :kbd:`ETRS89 / ETRS-TM35FIN`.</seg>
+      <tuv xml:lang="en"><seg>Now you can see the map in QGIS project as a georeferenced raster.</seg></tuv><tuv xml:lang="ja">
+        <seg>今、地理参照ラスターとしてQGISプロジェクトの地図を見ることができます。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>今、地理参照ラスターとしてQGISプロジェクトの地図を見ることができます。ラスターがわずかに回転しているように見えますが、それはデータが :kbd:`KKJ/フィンランドゾーン2` でありプロジェクトが :kbd:`ETRS89 / ETRS-TM35FIN` であるというだけの理由であることに注意してください。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Note that the raster seems to be slightly rotated, but that is simply because the data is :kbd:`KKJ / Finland zone 2` and your project is in :kbd:`ETRS89 / ETRS-TM35FIN`.</seg></tuv><tuv xml:lang="ja">
+        <seg>ラスターがわずかに回転しているように見えますが、それはデータが :kbd:`KKJ/フィンランドゾーン2` でありプロジェクトが :kbd:`ETRS89 / ETRS-TM35FIN` であるというだけの理由であることに注意してください。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>To check that your data is properly georeferenced you can open the aerial image in the :kbd:`exercise_data\\forestry` folder, named :kbd:`rautjarvi_aerial.tif`. Your map and this image should match quite well. Set the map transparency to 50% and compare it to the aerial image.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>To check that your data is properly georeferenced you can open the aerial image in the :kbd:`exercise_data\\forestry` folder, named :kbd:`rautjarvi_aerial.tif`.</seg></tuv><tuv xml:lang="ja">
+        <seg>:kbd:`exercise_data\\forestry` フォルダの、 :kbd:`rautjarvi_aerial.tif` という名前の空撮画像を開き、データが適切に地理参照されていることを確認できます。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>:kbd:`exercise_data\\forestry` フォルダの、 :kbd:`rautjarvi_aerial.tif` という名前の空撮画像を開き、データが適切に地理参照されていることを確認できます。地図とこの画像は非常によく一致している必要があります。地図の透明度を50％に設定して空撮画像と比較します。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Your map and this image should match quite well.</seg></tuv><tuv xml:lang="ja">
+        <seg>地図とこの画像は非常によく一致している必要があります。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Set the map transparency to 50% and compare it to the aerial image.</seg></tuv><tuv xml:lang="ja">
+        <seg>地図の透明度を50％に設定して空撮画像と比較します。</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Save the changes to your QGIS project, you will continue from this point for the next lesson.</seg></tuv><tuv xml:lang="ja">
         <seg>QGISプロジェクトへの変更を保存し、次のレッスンはこの時点から継続します。</seg>
       </tuv>

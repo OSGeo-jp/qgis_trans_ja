@@ -91,44 +91,76 @@
         <seg>実験・応用地理研究所の主要なGISソフトウェアとしてのQGIS</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>LEAG plays important role in academic research held in College of Business and Hotel Management. The need of spatial modeling requires also excellent software. The philosophy of minimum cost and maximum efficiency led to choice of open source solutions. This step resulted in using core open source SW such as LibreOffice, GIMP, Inkscape and QGIS. QGIS does not stand alone –-- we use MapWindow, OpenJump, gvSIG, SAGA and others. But QGIS plays the major role.</seg>
+      <tuv xml:lang="en"><seg>LEAG plays important role in academic research held in College of Business and Hotel Management.</seg></tuv><tuv xml:lang="ja">
+        <seg>LEAGはビジネス・ホテル経営学部で開催された学術研究において重要な役割を果たしています。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>LEAGはビジネス・ホテル経営学部で開催された学術研究において重要な役割を果たしています。空間モデル化が必要であれば優れたソフトウェアも必要になります。最小費用で最大効率という哲学から、オープンソース・ソリューションを選択することになりました。このステップは、LibreOffice、GIMP、InkscapeおよびQGISなどのコアオープンソースSWを使用する結果になりました。QGISは独立していません---私たちはMapWindow、OpenJump、gvSIG、SAGAなどを使用します。しかしQGISは大きな役割を果たしています。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>The need of spatial modeling requires also excellent software.</seg></tuv><tuv xml:lang="ja">
+        <seg>空間モデル化が必要であれば優れたソフトウェアも必要になります。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>Spatial analysis are done mainly using basic geoprocessing functions and Python-based plugins. Recent projects where QGIS was used:</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>The philosophy of minimum cost and maximum efficiency led to choice of open source solutions.</seg></tuv><tuv xml:lang="ja">
+        <seg>最小費用で最大効率という哲学から、オープンソース・ソリューションを選択することになりました。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>空間解析は、基本的なジオプロセシング機能とPythonベースのプラグインを使用して主に行われます。QGISを使用した最近のプロジェクト：</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>This step resulted in using core open source SW such as LibreOffice, GIMP, Inkscape and QGIS.</seg></tuv><tuv xml:lang="ja">
+        <seg>このステップは、LibreOffice、GIMP、InkscapeおよびQGISなどのコアオープンソースSWを使用する結果になりました。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>QGIS is used with synergy to other open source products. For example the final layout is mostly create using Inkscape or GIMP (less in LibreOffice Draw). Web-based maps are editing using Inkscape (after SVG export) and raster maps are pre-edited using GIMP.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>QGIS does not stand alone –-- we use MapWindow, OpenJump, gvSIG, SAGA and others.</seg></tuv><tuv xml:lang="ja">
+        <seg>QGISは独立していません---私たちはMapWindow、OpenJump、gvSIG、SAGAなどを使用します。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>QGISは、他のオープンソース製品への相乗効果で使用されています。例えば、最終的なレイアウトは、ほとんどのInkscapeまたはGIMP（LibreOfficeのドローが少ない）を使用して作成されます。Webベースの地図は、（SVGのエクスポート後）のInkscapeを使って編集しているとラスター地図はGIMPを使用して事前に編集されています。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>But QGIS plays the major role.</seg></tuv><tuv xml:lang="ja">
+        <seg>しかしQGISは大きな役割を果たしています。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>QGIS is also great educational tool. College of Business and Hotel Management offers students subjects like “Geographical Information Systems I. and II.” or “Selected chapters from geoinformatic literacy” where QGIS is used as main platform for teaching students how to use GIS and how to produce high-quality maps. Recently, the QGIS was used as main product during GIS Day held at our school on November 2010.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Spatial analysis are done mainly using basic geoprocessing functions and Python-based plugins.</seg></tuv><tuv xml:lang="ja">
+        <seg>空間解析は、基本的なジオプロセシング機能とPythonベースのプラグインを使用して主に行われます。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>QGISはまた、偉大な教育ツールです。ビジネス・ホテル経営学部では、学生に「地理情報システムI.及びII」「地球情報学リテラシーから選択の章」 のような科目を提供していますが、そこでQGISはどのようにGISを使用し、どのように高品質の地図を生成するかを学生に教えるための主要なプラットフォームとして使用されています。最近、QGISは2010年11月に私たちの学校で開催されたGIS Dayの間に主な製品として使用されました。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Recent projects where QGIS was used:</seg></tuv><tuv xml:lang="ja">
+        <seg>QGISを使用した最近のプロジェクト：</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>With no cost and high efficiency the Laboratory on Experimental and Applied Geography produces high-quality analysis, maps and visualizations. Using QGIS large databases are being created and further testing of new functions are being done. Finally, one of the highest impact of using QGIS could be seen in education --- QGIS is the first software, which is presented to students. During regular workshops students learn how to legally work with QGIS and how to create their own maps.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>QGIS is used with synergy to other open source products.</seg></tuv><tuv xml:lang="ja">
+        <seg>QGISは、他のオープンソース製品への相乗効果で使用されています。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>無償かつ高効率で実験的に研究および応用地理学は、高品質の分析、地図や視覚化を生成します。QGISを使用して、大規模なデータベースが作成中であり、新機能の更なるテストが実行中です。最後に、QGISを使って最高の影響の一つは、教育に見ることができる--- QGISは、学生に提示された最初のソフトウェアです。定期的なワークショップの間、学生が合法的にQGISとどのように自分の地図を作成すると動作する方法を学びます。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>For example the final layout is mostly create using Inkscape or GIMP (less in LibreOffice Draw).</seg></tuv><tuv xml:lang="ja">
+        <seg>例えば、最終的なレイアウトは、ほとんどのInkscapeまたはGIMP（LibreOfficeのドローが少ない）を使用して作成されます。</seg>
       </tuv>
-    </tu>
-  </body>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Web-based maps are editing using Inkscape (after SVG export) and raster maps are pre-edited using GIMP.</seg></tuv><tuv xml:lang="ja">
+        <seg>Webベースの地図は、（SVGのエクスポート後）のInkscapeを使って編集しているとラスター地図はGIMPを使用して事前に編集されています。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>QGIS is also great educational tool.</seg></tuv><tuv xml:lang="ja">
+        <seg>QGISはまた、偉大な教育ツールです。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>College of Business and Hotel Management offers students subjects like “Geographical Information Systems I. and II.” or “Selected chapters from geoinformatic literacy” where QGIS is used as main platform for teaching students how to use GIS and how to produce high-quality maps.</seg></tuv><tuv xml:lang="ja">
+        <seg>ビジネス・ホテル経営学部では、学生に「地理情報システムI.及びII」「地球情報学リテラシーから選択の章」 のような科目を提供していますが、そこでQGISはどのようにGISを使用し、どのように高品質の地図を生成するかを学生に教えるための主要なプラットフォームとして使用されています。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Recently, the QGIS was used as main product during GIS Day held at our school on November 2010.</seg></tuv><tuv xml:lang="ja">
+        <seg>最近、QGISは2010年11月に私たちの学校で開催されたGIS Dayの間に主な製品として使用されました。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>With no cost and high efficiency the Laboratory on Experimental and Applied Geography produces high-quality analysis, maps and visualizations.</seg></tuv><tuv xml:lang="ja">
+        <seg>無償かつ高効率で実験的に研究および応用地理学は、高品質の分析、地図や視覚化を生成します。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Using QGIS large databases are being created and further testing of new functions are being done.</seg></tuv><tuv xml:lang="ja">
+        <seg>QGISを使用して、大規模なデータベースが作成中であり、新機能の更なるテストが実行中です。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Finally, one of the highest impact of using QGIS could be seen in education --- QGIS is the first software, which is presented to students.</seg></tuv><tuv xml:lang="ja">
+        <seg>最後に、QGISを使って最高の影響の一つは、教育に見ることができる--- QGISは、学生に提示された最初のソフトウェアです。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>During regular workshops students learn how to legally work with QGIS and how to create their own maps.</seg></tuv><tuv xml:lang="ja">
+        <seg>定期的なワークショップの間、学生が合法的にQGISとどのように自分の地図を作成すると動作する方法を学びます。</seg>
+      </tuv>
+    </tu></body>
 </tmx>

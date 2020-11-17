@@ -19,14 +19,14 @@
         <seg>insert文</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>How do you add data to a table? The sql :kbd:`INSERT` statement provides the functionality for this:</seg>
+      <tuv xml:lang="en"><seg>How do you add data to a table?</seg></tuv><tuv xml:lang="ja">
+        <seg>どのようにテーブルにデータを追加しますか？</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>どのようにテーブルにデータを追加しますか？SQLの :kbd:`INSERT` 文は、このための機能を提供します:</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>The sql :kbd:`INSERT` statement provides the functionality for this:</seg></tuv><tuv xml:lang="ja">
+        <seg>SQLの :kbd:`INSERT` 文は、このための機能を提供します:</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>A couple of things to note:</seg></tuv><tuv xml:lang="ja">
         <seg>注意すべきいくつかの事：</seg>
       </tuv>
@@ -43,10 +43,14 @@
         <seg>文字列は単一引用符で囲む必要があります。</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en"><seg>Note that we did not insert a value for the :kbd:`id` column; this is because it is a sequence and will be auto-generated.</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="en">
+        <seg>Note that we did not insert a value for the :kbd:`id` column; this is because it is a sequence and will be auto-generated.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>:kbd:`id` 列には値を挿入していないことに注意。それは連番であり自動生成されるためです。</seg>
       </tuv>
-    </tu><tu>
+    </tu>
+    <tu>
       <tuv xml:lang="en"><seg>If you do manually set the :kbd:`id`, you may cause serious problems with the integrity of your database.</seg></tuv><tuv xml:lang="ja">
         <seg>:kbd:`id` を手動で設定すると、データベースの整合性に深刻な問題を引き起こす可能性があります。</seg>
       </tuv>
@@ -107,14 +111,14 @@
         <seg>最初に街路テーブルに街路レコードを作成しないと、街路 :kbd:`id` を使用して街路を追加できません</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>Remember that our two tables are linked via a Primary/Foreign Key pair. This means that no valid person can be created without there also being a valid corresponding street record.</seg>
+      <tuv xml:lang="en"><seg>Remember that our two tables are linked via a Primary/Foreign Key pair.</seg></tuv><tuv xml:lang="ja">
+        <seg>2つのテーブルが主キー/外部キーのペアを介して結合していることに注意してください。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>2つのテーブルが主キー/外部キーのペアを介して結合していることに注意してください。これは、有効な人は有効な対応する街路レコードも存在していなければ作成できないことを意味します。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>This means that no valid person can be created without there also being a valid corresponding street record.</seg></tuv><tuv xml:lang="ja">
+        <seg>これは、有効な人は有効な対応する街路レコードも存在していなければ作成できないことを意味します。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Using the above knowledge, add the new person to the database.</seg></tuv><tuv xml:lang="ja">
         <seg>上記の知識を使用して、データベースに新しい人を追加します。</seg>
       </tuv>
@@ -127,14 +131,14 @@
         <seg>データを選択</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>We have already shown you the syntax for selecting records. Let's look at a few more examples:</seg>
+      <tuv xml:lang="en"><seg>We have already shown you the syntax for selecting records.</seg></tuv><tuv xml:lang="ja">
+        <seg>レコードを選択するための構文はすでに示しました。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>レコードを選択するための構文はすでに示しました。さらにいくつかの例を見てみましょう:</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Let's look at a few more examples:</seg></tuv><tuv xml:lang="ja">
+        <seg>さらにいくつかの例を見てみましょう:</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>In later sessions we will go into more detail on how to select and filter data.</seg></tuv><tuv xml:lang="ja">
         <seg>後のセッションでは、データを選択してフィルタリングする方法について詳細に見て行きます。</seg>
       </tuv>
@@ -143,14 +147,14 @@
         <seg>データを更新</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>What if you want to make a change to some existing data? For example, a street name is changed:</seg>
+      <tuv xml:lang="en"><seg>What if you want to make a change to some existing data?</seg></tuv><tuv xml:lang="ja">
+        <seg>何か既存のデータに変更を加えたい場合は？</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>何か既存のデータに変更を加えたい場合は？例えば、街路名が変更されます:</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>For example, a street name is changed:</seg></tuv><tuv xml:lang="ja">
+        <seg>例えば、街路名が変更されます:</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Be very careful using such update statements - if more than one record matches your :kbd:`WHERE` clause, they will all be updated!</seg></tuv><tuv xml:lang="ja">
         <seg>このようなupdate文はきわめて慎重に使用してください - :kbd:`WHERE` 句に複数のレコードが一致した場合、それらはすべて更新されます！</seg>
       </tuv>
@@ -163,10 +167,14 @@
         <seg>それは :kbd:`UPDATE 1` を返す必要があります。</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en"><seg>the :kbd:`WHERE` statement criteria are case sensitive :kbd:`Main Road` is not the same as :kbd:`Main road`</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="en">
+        <seg>the :kbd:`WHERE` statement criteria are case sensitive :kbd:`Main Road` is not the same as :kbd:`Main road`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>:kbd:`WHERE` 文の基準では大文字と小文字が区別されます。:kbd:`Main Road` は :kbd:`Main road` と同じではありません</seg>
       </tuv>
-    </tu><tu>
+    </tu>
+    <tu>
       <tuv xml:lang="en"><seg>Delete Data</seg></tuv><tuv xml:lang="ja">
         <seg>データを削除</seg>
       </tuv>
@@ -191,14 +199,14 @@
         <seg>|IC|</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>Now you know how to add new data to the existing models you created previously. Remember that if you want to add new kinds of data, you may want to modify and/or create new models to contain that data.</seg>
+      <tuv xml:lang="en"><seg>Now you know how to add new data to the existing models you created previously.</seg></tuv><tuv xml:lang="ja">
+        <seg>以前に作成した既存のモデルに新しいデータを追加する方法がわかりましたね。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>以前に作成した既存のモデルに新しいデータを追加する方法がわかりましたね。データの新しい種類を追加したい場合は、そのデータを格納する新しいモデルを変更かつ／または作成したいこともあることを忘れないでください。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Remember that if you want to add new kinds of data, you may want to modify and/or create new models to contain that data.</seg></tuv><tuv xml:lang="ja">
+        <seg>データの新しい種類を追加したい場合は、そのデータを格納する新しいモデルを変更かつ／または作成したいこともあることを忘れないでください。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>|WN|</seg></tuv><tuv xml:lang="ja">
         <seg>|WN|</seg>
       </tuv>

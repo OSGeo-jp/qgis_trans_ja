@@ -31,10 +31,14 @@
         <seg>以下の方法論を続けるプロジェクトを生成するには：</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en"><seg>Practical and theoretical lectures; mainly about the usage of QGIS and the benefits of urban green spaces and its territorial implications.</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="en">
+        <seg>Practical and theoretical lectures; mainly about the usage of QGIS and the benefits of urban green spaces and its territorial implications.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>実用的かつ理論的な講義。主にQGISの使用状況や都市の緑地とその領土意味合いの利点について。</seg>
       </tuv>
-    </tu><tu>
+    </tu>
+    <tu>
       <tuv xml:lang="en"><seg>Cartographic modeling, vector layers definition, development of GIS databases.</seg></tuv><tuv xml:lang="ja">
         <seg>地図作成、モデリング、ベクタレイヤーの定義、GISデータベースの開発。</seg>
       </tuv>
@@ -43,14 +47,14 @@
         <seg>フィールドワーク（木データレコードとGPSの位置）。</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>Vector digitizing of urban cadastral blocks and the tree´s canopies, using a Google Earth (GeoEye) image. In order to consider the amount inhabitants by cadastral block, we assigned an average value of 4 inhabitants by plot.</seg>
+      <tuv xml:lang="en"><seg>Vector digitizing of urban cadastral blocks and the tree´s canopies, using a Google Earth (GeoEye) image.</seg></tuv><tuv xml:lang="ja">
+        <seg>グーグルアース（ジオアイ）画像を使用して、都市地籍ブロックと樹冠のベクターデジタル化。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>グーグルアース（ジオアイ）画像を使用して、都市地籍ブロックと樹冠のベクターデジタル化。地籍ブロックで量住民を考慮するために、私たちは、プロットによって4人の住民の平均値を割り当てます。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>In order to consider the amount inhabitants by cadastral block, we assigned an average value of 4 inhabitants by plot.</seg></tuv><tuv xml:lang="ja">
+        <seg>地籍ブロックで量住民を考慮するために、私たちは、プロットによって4人の住民の平均値を割り当てます。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Results presentation through thematic cartography.</seg></tuv><tuv xml:lang="ja">
         <seg>主題図を通じた結果のプレゼンテーション。</seg>
       </tuv>
@@ -67,14 +71,18 @@
         <seg>アルゼンチンのチュブ州ラダ・ティリ沿岸町での都市緑地の分布（緑）およびブロックでの人口密度（白から茶色）。</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>Although the project was an academic exercise of High School, we deeply value the inventory´s results obtained by QGIS. Students worked with all academic rigor and seriousness, showing appropriation of the thematic (urban green spaces) and also of the tool (QGIS). It was a very enriching experience for them and also for the educational staff involved.</seg>
+      <tuv xml:lang="en"><seg>Although the project was an academic exercise of High School, we deeply value the inventory´s results obtained by QGIS.</seg></tuv><tuv xml:lang="ja">
+        <seg>このプロジェクトは高校の学術的な練習でしたが、私たちは深くQGISによって得られたinventoryの結果を重視します。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>このプロジェクトは高校の学術的な練習でしたが、私たちは深くQGISによって得られたinventoryの結果を重視します。学生はすべての学問的厳密さと真剣さをもって作業し、主題（都市緑地）の、またツール（QGIS）の充当を示す。それは学生のためにも、関係する教育スタッフのためにも非常に豊かな経験でした。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Students worked with all academic rigor and seriousness, showing appropriation of the thematic (urban green spaces) and also of the tool (QGIS).</seg></tuv><tuv xml:lang="ja">
+        <seg>学生はすべての学問的厳密さと真剣さをもって作業し、主題（都市緑地）の、またツール（QGIS）の充当を示す。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>It was a very enriching experience for them and also for the educational staff involved.</seg></tuv><tuv xml:lang="ja">
+        <seg>それは学生のためにも、関係する教育スタッフのためにも非常に豊かな経験でした。</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Authors</seg></tuv><tuv xml:lang="ja">
         <seg>著者</seg>
       </tuv>
@@ -83,14 +91,22 @@
         <seg>マウロ・ノヴァラ</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>Mauro Novara is Professor of Territorial Information Systems course. Lecturer and researcher of National University of Patagonia San Juan Bosco, Faculty of Humanities and Social Sciences. Geography Department. Comodoro Rivadavia, Chubut Province, Argentina.</seg>
+      <tuv xml:lang="en"><seg>Mauro Novara is Professor of Territorial Information Systems course.</seg></tuv><tuv xml:lang="ja">
+        <seg>マウロ・ノヴァラは領土情報システムコースの教授です。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>マウロ・ノヴァラは領土情報システムコースの教授です。パタゴニアサンフアンボスコの国立大学の講師や研究者、人文社会科学学部。地理学科。コモドロリバダビア、チュブ州、アルゼンチン。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Lecturer and researcher of National University of Patagonia San Juan Bosco, Faculty of Humanities and Social Sciences.</seg></tuv><tuv xml:lang="ja">
+        <seg>パタゴニアサンフアンボスコの国立大学の講師や研究者、人文社会科学学部。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Geography Department.</seg></tuv><tuv xml:lang="ja">
+        <seg>地理学科。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Comodoro Rivadavia, Chubut Province, Argentina.</seg></tuv><tuv xml:lang="ja">
+        <seg>コモドロリバダビア、チュブ州、アルゼンチン。</seg>
+      </tuv>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Alberto Vázquez</seg></tuv><tuv xml:lang="ja">
         <seg>アルバート・バスケス</seg>
       </tuv>
@@ -111,22 +127,22 @@
         <seg>高等学校でのQGIS ---アルゼンチン、チュブ州ラダ・ティリ沿岸町の都市緑地</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>In our region, Argentinean Patagonia, we have very few references about the application of GIS in High School for the construction of geographical knowledge as a mean to face territorial and environmental issues. The case of the urban green spaces in Rada Tilly coastal town analyzed by QGIS, tends to demonstrate a methodology of an academic exercise that can project, with important reaches, as formative instances related to the geographical reasoning in students of 12th grade of the Abraham Lincoln School.</seg>
+      <tuv xml:lang="en"><seg>In our region, Argentinean Patagonia, we have very few references about the application of GIS in High School for the construction of geographical knowledge as a mean to face territorial and environmental issues.</seg></tuv><tuv xml:lang="ja">
+        <seg>私たちの地域、アルゼンチンのパタゴニアでは、私たちは、領土問題や環境問題に向き合う手段としての地理的な知識の構築のための高等学校におけるGISの応用については少ししか参照がありません。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>私たちの地域、アルゼンチンのパタゴニアでは、私たちは、領土問題や環境問題に向き合う手段としての地理的な知識の構築のための高等学校におけるGISの応用については少ししか参照がありません。QGISで分析したラダティリー海岸沿いの町の都市緑地の例では、エイブラハム・リンカーン学校の12年生の学生に地理的推論に関連する発達の実例として、重要な域で、投影できる学術的な練習の方法論を実証することになります。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>The case of the urban green spaces in Rada Tilly coastal town analyzed by QGIS, tends to demonstrate a methodology of an academic exercise that can project, with important reaches, as formative instances related to the geographical reasoning in students of 12th grade of the Abraham Lincoln School.</seg></tuv><tuv xml:lang="ja">
+        <seg>QGISで分析したラダティリー海岸沿いの町の都市緑地の例では、エイブラハム・リンカーン学校の12年生の学生に地理的推論に関連する発達の実例として、重要な域で、投影できる学術的な練習の方法論を実証することになります。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>We started by the observation (inventory), digitizing the cadastral blocks and the green areas (tree´s canopy) using Google Earth satellite images. As a conceptual framework, we lectured about cartographic design, satellite images reading and interpretation, and specially, location analysis to contrast the situation (in m\ :sup:`2`) of the urban green spaces by inhabitant in Rada Villa coastal town, with values suggested by the World Health Organization, WHO (a  minimum of 9 m\ :sup:`2` of green areas, by person, in urban areas).</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>We started by the observation (inventory), digitizing the cadastral blocks and the green areas (tree´s canopy) using Google Earth satellite images.</seg></tuv><tuv xml:lang="ja">
+        <seg>私たちは、Google Earthの衛星画像を使用して地籍ブロックと緑地（樹冠）をデジタル化、観察（目録）によって開始されました。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>私たちは、Google Earthの衛星画像を使用して地籍ブロックと緑地（樹冠）をデジタル化、観察（目録）によって開始されました。、ラダヴィラ海岸沿いの町で住民による都市緑地の（ m\ :sup:`2` で）概念的枠組みとして、私たちは、地図作成、設計、衛星画像を読み込み、解釈し、状況を対比するために特別に、位置分析について講義しました値で（都市部の人による緑地の9 m\ :sup:`2` の最小値）世界保健機関によって示唆されました。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>As a conceptual framework, we lectured about cartographic design, satellite images reading and interpretation, and specially, location analysis to contrast the situation (in m\ :sup:`2`) of the urban green spaces by inhabitant in Rada Villa coastal town, with values suggested by the World Health Organization, WHO (a  minimum of 9 m\ :sup:`2` of green areas, by person, in urban areas).</seg></tuv><tuv xml:lang="ja">
+        <seg>、ラダヴィラ海岸沿いの町で住民による都市緑地の（ m\ :sup:`2` で）概念的枠組みとして、私たちは、地図作成、設計、衛星画像を読み込み、解釈し、状況を対比するために特別に、位置分析について講義しました値で（都市部の人による緑地の9 m\ :sup:`2` の最小値）世界保健機関によって示唆されました。</seg>
       </tuv>
-    </tu>
-    <tu>
+    </tu><tu>
       <tuv xml:lang="en"><seg>Student´s appropriation of a local issue (the Rada Tilly´s green areas related the 9 m\ :sup:`2` by inhabitant proposed by WHO) from a geographical perspective through GIS tools.</seg></tuv><tuv xml:lang="ja">
         <seg>GISツールを介した地理的な観点から、地域問題（WHOによって提案されたラダ・ティリの緑地の住民によって9m\ :sup:`2` 関連しました）の生徒の充当。</seg>
       </tuv>
@@ -135,28 +151,36 @@
         <seg>キャプチャ、処理、保管、分析、回収、FOSS QGISを用いた空間データの更新の実行可能性の検証。</seg>
       </tuv>
     </tu><tu>
-      <tuv xml:lang="en">
-        <seg>Based in the projection of an average value of 4 inhabitants by cadastral plot, we estimated that the current (2010) urban population Rada Tilly would go up to around 9.600 inhabitants. These people reside in 209 blocks and they represent 157.6 hectares. The average population density would be of 61 inhabitants by hectare.</seg>
+      <tuv xml:lang="en"><seg>Based in the projection of an average value of 4 inhabitants by cadastral plot, we estimated that the current (2010) urban population Rada Tilly would go up to around 9.600 inhabitants.</seg></tuv><tuv xml:lang="ja">
+        <seg>地籍プロットで4人の住民の平均値の投影に基づいて、私たちは、現在（2010年）のラダ・ティリの都市人口は住民約9.600人に上るだろうと推定しました。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>地籍プロットで4人の住民の平均値の投影に基づいて、私たちは、現在（2010年）のラダ・ティリの都市人口は住民約9.600人に上るだろうと推定しました。これらの人々は209ブロック中に存在し、それらは157.6ヘクタールを表します。平均人口密度はヘクタール当たり住民61人になるでしょう。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>These people reside in 209 blocks and they represent 157.6 hectares.</seg></tuv><tuv xml:lang="ja">
+        <seg>これらの人々は209ブロック中に存在し、それらは157.6ヘクタールを表します。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>The total inventoried green areas grow up to 150.736 m\ :sup:`2` (15 hectares). Reason why we can consider that the green area by inhabitant in the study area is 15.7 m\ :sup:`2` (the WHO suggested value is 9 m\ :sup:`2` of green area by inhabitant). This value proves a very favorable situation, as far as the environmental benefits, that trees offer to the inhabitants in this marine coastal town.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>The average population density would be of 61 inhabitants by hectare.</seg></tuv><tuv xml:lang="ja">
+        <seg>平均人口密度はヘクタール当たり住民61人になるでしょう。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>目録緑地は総計150.736 m\ :sup:`2` （15ヘクタール）まで成長。私たちは調査地域における住民あたり緑地が\ 15.7 m\ :sup:`2` であることを考えることができる理由（緑豊かなエリアのWHO推奨値は、住民あたり9 m\ :sup:`2` です）。この値は、この海洋沿岸の町で樹木が住民に提供する、環境の利点の限り、非常に有利な状況を証明しています。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>The total inventoried green areas grow up to 150.736 m\ :sup:`2` (15 hectares).</seg></tuv><tuv xml:lang="ja">
+        <seg>目録緑地は総計150.736 m\ :sup:`2` （15ヘクタール）まで成長。</seg>
       </tuv>
-    </tu>
-    <tu>
-      <tuv xml:lang="en">
-        <seg>After the project experience we can assure that the FOSS QGIS is an extremely recommendable alternative for capture, processing, storage, analysis, recovery and updating of spatial data, in fast and efficient form. We have such a positive impression of the software that we will start the use of QGIS in our university courses, replacing GIS Proprietary software that we have being using.</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>Reason why we can consider that the green area by inhabitant in the study area is 15.7 m\ :sup:`2` (the WHO suggested value is 9 m\ :sup:`2` of green area by inhabitant).</seg></tuv><tuv xml:lang="ja">
+        <seg>私たちは調査地域における住民あたり緑地が\ 15.7 m\ :sup:`2` であることを考えることができる理由（緑豊かなエリアのWHO推奨値は、住民あたり9 m\ :sup:`2` です）。</seg>
       </tuv>
-      <tuv xml:lang="ja">
-        <seg>プロジェクトを経験した今では、私たちはFOSS QGISが高速で効率的な形で、空間データの取り込み、処理、保管、分析、復旧・更新のための非常にお勧めの代替であることを保証できます。私たちはこのソフトウェアにこのような肯定的な印象を持っていますので、本学のコースでは私たちが使用してきている商用GISソフトウェアを置き換え、QGISの使用を開始するでしょう。</seg>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>This value proves a very favorable situation, as far as the environmental benefits, that trees offer to the inhabitants in this marine coastal town.</seg></tuv><tuv xml:lang="ja">
+        <seg>この値は、この海洋沿岸の町で樹木が住民に提供する、環境の利点の限り、非常に有利な状況を証明しています。</seg>
       </tuv>
-    </tu>
-  </body>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>After the project experience we can assure that the FOSS QGIS is an extremely recommendable alternative for capture, processing, storage, analysis, recovery and updating of spatial data, in fast and efficient form.</seg></tuv><tuv xml:lang="ja">
+        <seg>プロジェクトを経験した今では、私たちはFOSS QGISが高速で効率的な形で、空間データの取り込み、処理、保管、分析、復旧・更新のための非常にお勧めの代替であることを保証できます。</seg>
+      </tuv>
+    </tu><tu>
+      <tuv xml:lang="en"><seg>We have such a positive impression of the software that we will start the use of QGIS in our university courses, replacing GIS Proprietary software that we have being using.</seg></tuv><tuv xml:lang="ja">
+        <seg>私たちはこのソフトウェアにこのような肯定的な印象を持っていますので、本学のコースでは私たちが使用してきている商用GISソフトウェアを置き換え、QGISの使用を開始するでしょう。</seg>
+      </tuv>
+    </tu></body>
 </tmx>
