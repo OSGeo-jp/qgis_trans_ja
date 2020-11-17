@@ -422,6 +422,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>**Web**: http://www.nature-consult.de **Email**: otto.dassau@gmx.de</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T122613Z" creationid="miurahr" creationdate="20201117T122613Z">
+        <seg>**Web**: http://www.nature-consult.de, **Email**: otto.dassau@gmx.de</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>**Website** http://www.k12science.org/curriculum/waterproj/S00project/miami2000/miamiriverfinal/ --- A school project to assess water quality in their local river.</seg>
       </tuv>
       <tuv lang="ja">
@@ -6986,6 +6994,30 @@
       </tuv>
       <tuv lang="ja">
         <seg>その他（HorstDüster博士による事例研究などで言及される）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Otto Dassau --- Assistant Author.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T121742Z" creationid="miurahr" creationdate="20201117T121742Z">
+        <seg>Otto Dassau ---アシスタント著者。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Otto Dassau is the documentation maintainer and project steering committee member of the QGIS project.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T121745Z" creationid="miurahr" creationdate="20201117T121745Z">
+        <seg>Otto Dassauはドキュメントの保守管理者であり、QGISプロジェクトのプロジェクト運営委員会のメンバーです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Otto has considerable experience in using and training people to use Free and Open Source GIS software.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201117T121747Z" creationid="miurahr" creationdate="20201117T121747Z">
+        <seg>Ottoは、フリーでオープンソースのGISソフトウェアを使用すること、使用できるよう人々を訓練することにおいて、かなりの経験を積んでいます。</seg>
       </tuv>
     </tu>
     <tu>
