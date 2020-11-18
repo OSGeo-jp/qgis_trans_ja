@@ -46,6 +46,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>(If you do not care about undo/redo and want to have the changes stored immediately, then you will have easier work by :ref:`editing with data provider &lt;editing&gt;`.)</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031522Z" creationid="miurahr" creationdate="20201118T031522Z">
+        <seg>取り消し／やり直し機能が不要で、変更を即座に保存したい場合は、 :ref:`データプロバイダを使って編集 &lt;editing&gt;` したほうが手軽でしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>(Photo taken by SGT Jim Greenhill 2006).</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141213Z" creationid="miurahr" creationdate="20201117T141213Z">
@@ -202,6 +210,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>**デジタル化** とは、 地物の **ジオメトリ** と **属性** の知識を、コンピュータのディスクに保存される **デジタルフォーマット** へとキャプチャするプロセスです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>**Directly save changes using** ``with`` **based command**</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031535Z" creationid="miurahr" creationdate="20201118T031535Z">
+        <seg>``with`` **に基づくコマンドを使って変更を直接保存する**</seg>
       </tuv>
     </tu>
     <tu>
@@ -1442,6 +1458,22 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T024640Z" creationid="miurahr" creationdate="20201118T024640Z">
         <seg>:file:`__init__.py` = プラグインの起点です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:file:`__init__.py` with nothing in it.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031231Z" creationid="miurahr" creationdate="20201118T031231Z">
+        <seg>白紙の :file:`__init__.py` ファイル。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:file:`example_processing_algorithm.py` which contains the example algorithm file.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031234Z" creationid="miurahr" creationdate="20201118T031234Z">
+        <seg>:file:`example_processing_algorithm.py` ファイルはサンプルアルゴリズムを含みます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3046,6 +3078,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Accessing attributes</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031425Z" creationid="miurahr" creationdate="20201118T031425Z">
+        <seg>属性にアクセスする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Accessing the Repository</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T114440Z" creationid="miurahr" creationdate="20201117T114440Z">
@@ -3138,6 +3178,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T003454Z" creationid="miurahr" creationdate="20201118T003454Z">
         <seg>認証インフラストラクチャを使用するようにプラグインを適応させる</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Add Features</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031453Z" creationid="miurahr" creationdate="20201118T031453Z">
+        <seg>地物の追加</seg>
       </tuv>
     </tu>
     <tu>
@@ -3294,6 +3342,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Adding and Removing Fields</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031531Z" creationid="miurahr" creationdate="20201118T031531Z">
+        <seg>フィールドを追加または削除する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Adding data to your shapefile</seg>
       </tuv>
       <tuv lang="ja">
@@ -3354,6 +3410,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T015800Z" creationid="miurahr" creationdate="20201118T015800Z">
         <seg>あなたのシンボルレベルをこれらの値に合わせてください:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>After adding or removing fields in the data provider the layer's fields need to be updated because the changes are not automatically propagated.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031534Z" creationid="miurahr" creationdate="20201118T031534Z">
+        <seg>データプロバイダーのフィールドを追加または削除した後、レイヤーのフィールドは、変更が自動的に反映されていないため、更新する必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4871,6 +4935,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Both the provider file and the algorithm file are fully commented and contain information about how to modify the provider and add additional algorithms.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031228Z" creationid="miurahr" creationdate="20201118T031228Z">
+        <seg>プロバイダファイルおよびアルゴリズムファイルには両方ともに十分なコメントがついていて、プロバイダを修正したりさらにアルゴリズムを追加する方法についての情報が含まれています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Boundaries of these blocks were digitised and saved as separate shape files for both the blocks.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T225511Z" creationid="miurahr" creationdate="20201117T225511Z">
@@ -5179,6 +5251,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T062619Z" creationid="miurahr" creationdate="20201117T062619Z">
         <seg>ポリゴンはキャンパスの北西部分で明らかなように、建物の形状と一致していないところUSGSが提供する高精度の航空写真と以前の調査からハザードポリゴンを組み合わせることQGISを使用することにより、矛盾が例えば---注意することができます---これは最初のより正確な再調査を実施する場所に調査チームを指揮することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>By using any of the following methods for vector layer editing, the changes are directly committed to the underlying data store (a file, database etc).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031450Z" creationid="miurahr" creationdate="20201118T031450Z">
+        <seg>ベクターレイヤーを編集する以下の方法はいずれも、変更が直接、レイヤーの裏にあるデータストア（ファイルやデータベースなど）にコミットされます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5911,6 +5991,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Code Snippets</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031207Z" creationid="miurahr" creationdate="20201118T031207Z">
+        <seg>短いコード</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Code comments are important to understand the snippet.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T003414Z" creationid="miurahr" creationdate="20201118T003414Z">
@@ -6287,6 +6375,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Copy/paste the content of the :source:`script template file &lt;python/plugins/processing/script/ScriptTemplate.py&gt;` and update it according to your needs.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031235Z" creationid="miurahr" creationdate="20201118T031235Z">
+        <seg>:source:`script template file &lt;python/plugins/processing/script/ScriptTemplate.py&gt;` の内容をコピー＆ペーストして、自分の必要に合わせて修正してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Copying with changes limited to the covers, as long as they preserve the title of the Document and satisfy these conditions, can be treated as verbatim copying in other respects.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124652Z" creationid="miurahr" creationdate="20201117T124652Z">
@@ -6423,6 +6519,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Create a new plugin using the Plugin Builder.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031225Z" creationid="miurahr" creationdate="20201118T031225Z">
+        <seg>Plugin Builder を使用して新しくプラグインを作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Create a new vector file that contains only the polygons where :kbd:`suitable` has the value of :kbd:`1`.</seg>
       </tuv>
       <tuv lang="ja">
@@ -6451,6 +6555,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>地形の可視化（および丘シャドウイングとしてさらに使用）のための3Dモデルを作成します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Creating Vector Layers</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031553Z" creationid="miurahr" creationdate="20201118T031553Z">
+        <seg>ベクターレイヤを作る</seg>
       </tuv>
     </tu>
     <tu>
@@ -6759,10 +6871,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Delete Features</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031457Z" creationid="miurahr" creationdate="20201118T031457Z">
+        <seg>地物の削除</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Delete any section Entitled "Endorsements".</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124736Z" creationid="miurahr" creationdate="20201117T124736Z">
         <seg>「裏書」と題されたいずれかのセクションを削除します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Depending on the kind of plugin that you are going to develop, it might be a better option to add its functionality as a Processing algorithm (or a set of them).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031220Z" creationid="miurahr" creationdate="20201118T031220Z">
+        <seg>開発しようとしているプラ​​グインの種類によっては、プロセッシングアルゴリズム（またはそれらのセット）として機能を追加する方が良い場合もあるでしょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8127,6 +8255,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>For a list of all available capabilities, please refer to the :class:`API Documentation of QgsVectorDataProvider &lt;qgis.core.QgsVectorDataProvider&gt;`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031448Z" creationid="miurahr" creationdate="20201118T031448Z">
+        <seg>可能な性能をすべて知るには、 :class:`API Documentation of QgsVectorDataProvider &lt;qgis.core.QgsVectorDataProvider&gt;` を参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>For any section Entitled "Acknowledgements" or "Dedications", Preserve the Title of the section, and preserve in the section all the substance and tone of each of the contributor acknowledgements and/or dedications given therein.</seg>
       </tuv>
       <tuv lang="ja">
@@ -8155,6 +8291,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141240Z" creationid="miurahr" creationdate="20201117T141240Z">
         <seg>抗議グループを制御するために、警察は抗議者を建物から少なくとも100メートル離しておくために中立ゾーンを設置したいと思っています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For deletion of fields just provide a list of field indexes.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031533Z" creationid="miurahr" creationdate="20201118T031533Z">
+        <seg>フィールドを削除するにはフィールドのインデックスを配列で渡すだけです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9535,6 +9679,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Here is how you can use the undo functionality:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031523Z" creationid="miurahr" creationdate="20201118T031523Z">
+        <seg>取り消し機能を使用するには次のように行います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Here is the correct SQL statement you should use::</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T021029Z" creationid="miurahr" creationdate="20201118T021029Z">
@@ -9587,6 +9739,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T024652Z" creationid="miurahr" creationdate="20201118T024652Z">
         <seg>ここでは、上記のファイル構造中のそれぞれのファイルに何を書けばよいか、その情報と実例を提供します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Here you have some examples that demonstrate how to use these editing methods.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031520Z" creationid="miurahr" creationdate="20201118T031520Z">
+        <seg>では、これら編集メソッドの使用方法を示す実例をいくつか見てもらいます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9903,6 +10063,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If a spatial index exists for the layer, the operation is much more effective.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031544Z" creationid="miurahr" creationdate="20201118T031544Z">
+        <seg>もし空間索引がレイヤーに作成されていれば、処理はもっと効率的になります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If an area is completely covered with grass, give it a value of 2.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140400Z" creationid="miurahr" creationdate="20201117T140400Z">
@@ -9915,6 +10083,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140332Z" creationid="miurahr" creationdate="20201117T140332Z">
         <seg>画像が1つのバンドのみからなる場合は、 **グレースケール** 画像と呼ばれることがよくあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If any exception occurs, it will :meth:`rollBack() &lt;qgis.core.QgsVectorLayer.rollBack&gt;` all the changes.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031529Z" creationid="miurahr" creationdate="20201118T031529Z">
+        <seg>もし何らかの例外が発生したときは、 :meth:`rollBack() &lt;qgis.core.QgsVectorLayer.rollBack&gt;` メソッドを呼び出してすべての変更をロールバックします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10283,6 +10459,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123720Z" creationid="miurahr" creationdate="20201117T123720Z">
         <seg>与えられたフィールドのデータが不明な場合は、通常は空白のままにしますが、空白のフィールドを多く残しているとデータから有用な地図を作るのは難しいだろうことはご承知おきください！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If you are working inside QGIS (either from the console or from a plugin), it might be necessary to force a redraw of the map canvas in order to see the changes you've done to the geometry, to the style or to the attributes:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031452Z" creationid="miurahr" creationdate="20201118T031452Z">
+        <seg>QGISの内部（コンソールまたはプラグインのいずれか）で作業している場合、ジオメトリ、スタイル、属性に加えられた変更を確認するために、以下のように地図キャンバスの強制的な再描画が必要になることもあります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10863,6 +11047,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Imagine, for instance, that you are writing an interpolation algorithm, and that for a given location you need to know the 10 closest points from a points layer, in order to use those point for calculating the interpolated value.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031541Z" creationid="miurahr" creationdate="20201118T031541Z">
+        <seg>例えば、補間アルゴリズムを書いていて、補間値の計算に使用するために与えられた位置に対して最も近い10点をポイントレイヤーから求める必要がある、と想像してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Importing Data into a Database with DB Manager</seg>
       </tuv>
       <tuv lang="ja">
@@ -11031,6 +11223,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In case a problem is encountered within :meth:`commitChanges() &lt;qgis.core.QgsVectorLayer.commitChanges&gt;` (when the method returns False) a :class:`QgsEditError &lt;qgis.core.QgsEditError&gt;` exception will be raised.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031530Z" creationid="miurahr" creationdate="20201118T031530Z">
+        <seg>:meth:`commitChanges() &lt;qgis.core.QgsVectorLayer.commitChanges&gt;` メソッドの実行の最中に問題に遭遇したとき（メソッドが False を返したとき）は、 :class:`QgsEditError &lt;qgis.core.QgsEditError&gt;` 例外を送出します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In case it is not clear from the statement above, for a filename to match a class name it implicitly means that each class should be declared and implemented in its own file.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T091659Z" creationid="miurahr" creationdate="20201117T091659Z">
@@ -11043,6 +11243,22 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T133600Z" creationid="miurahr" creationdate="20201117T133600Z">
         <seg>翻訳と本ライセンスまたは通知または免責条項の元版との間に食い違いが生じた場合は、元版が優先されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In case something went wrong while doing the changes, the :meth:`destroyEditCommand() &lt;qgis.core.QgsVectorLayer.destroyEditCommand&gt;` method will remove the command and rollback all changes done while this command was active.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031527Z" creationid="miurahr" creationdate="20201118T031527Z">
+        <seg>変更の最中に何か不具合が生じたときは、 :meth:`destroyEditCommand() &lt;qgis.core.QgsVectorLayer.destroyEditCommand&gt;` メソッドによってコマンドは削除され、コマンドがアクティブな間に行われたすべての変更はロールバックされます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In case you would like to do only temporary changes, skip to the next section that explains how to do :ref:`modifications with editing buffer &lt;editing-buffer&gt;`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031451Z" creationid="miurahr" creationdate="20201118T031451Z">
+        <seg>一時的な変更をしたいだけの場合にどうすればよいかの説明は、次のセクション :ref:`ベクターレイヤーを編集バッファで修正する &lt;editing-buffer&gt;` でしているので、以下を飛ばしてそちらに進んでください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11195,6 +11411,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T215433Z" creationid="miurahr" creationdate="20201117T215433Z">
         <seg>それを維持し、林分の境界だけを表示するようそれを可視化するには：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In order to make undo/redo work properly, the above mentioned calls have to be wrapped into undo commands.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031521Z" creationid="miurahr" creationdate="20201118T031521Z">
+        <seg>取り消し／やり直しを適切に機能させるためには、上記のメソッド呼び出しを undo コマンドでラップしなければなりません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12519,6 +12743,30 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Iterating over Vector Layer</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031409Z" creationid="miurahr" creationdate="20201118T031409Z">
+        <seg>ベクターレイヤーの反復処理</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Iterating over a subset of features</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031434Z" creationid="miurahr" creationdate="20201118T031434Z">
+        <seg>一部の地物への反復処理</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Iterating over selected features</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031430Z" creationid="miurahr" creationdate="20201118T031430Z">
+        <seg>選択された地物への反復処理</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Its also very useful to use DB Manager to simply look at the records in the database in much the same way you might do this by viewing the attribute table of a layer in the Layer Tree.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150450Z" creationid="miurahr" creationdate="20201117T150450Z">
@@ -12747,6 +12995,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>緯度</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Layer Details</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031249Z" creationid="miurahr" creationdate="20201118T031249Z">
+        <seg>レイヤーについて</seg>
       </tuv>
     </tu>
     <tu>
@@ -13727,6 +13983,30 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Modify Features</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031459Z" creationid="miurahr" creationdate="20201118T031459Z">
+        <seg>地物の修正</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Modifying Vector Layers</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031445Z" creationid="miurahr" creationdate="20201118T031445Z">
+        <seg>ベクターレイヤーを修正する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Modifying Vector Layers with an Editing Buffer</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031503Z" creationid="miurahr" creationdate="20201118T031503Z">
+        <seg>ベクターレイヤーを編集バッファで修正する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Modifying a View</seg>
       </tuv>
       <tuv lang="ja">
@@ -13863,10 +14143,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Most vector data providers support editing of layer data.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031446Z" creationid="miurahr" creationdate="20201118T031446Z">
+        <seg>大部分のベクターデータプロバイダーは、レイヤーの編集をサポートしています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Move the new symbol at the bottom of the list clicking the |arrowDown| button.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T015808Z" creationid="miurahr" creationdate="20201118T015808Z">
         <seg>|arrowDown| をボタンクリックして、リストの一番下に新しいシンボルを移動します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Multi Band Rasters</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031312Z" creationid="miurahr" creationdate="20201118T031312Z">
+        <seg>マルチバンドラスター</seg>
       </tuv>
     </tu>
     <tu>
@@ -15239,6 +15535,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Or in case you would like to set up your own plugin repository, create a simple XML file that will list the plugins and their metadata.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031119Z" creationid="miurahr" creationdate="20201118T031119Z">
+        <seg>あるいは、独自のプラグインのリポジトリを設定したい場合は、プラグインとそのメタデータの一覧を表示する単純なXMLファイルを作成してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Or you could send a field team later to get estimates of the missing forest stands to complete the stand inventory.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T220201Z" creationid="miurahr" creationdate="20201117T220201Z">
@@ -16519,6 +16823,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Query Values</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031320Z" creationid="miurahr" creationdate="20201118T031320Z">
+        <seg>値の検索</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Quick development and integrating user-wanted features</seg>
       </tuv>
       <tuv lang="ja">
@@ -16799,6 +17111,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Refer to them for more information.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031229Z" creationid="miurahr" creationdate="20201118T031229Z">
+        <seg>詳細については、それらを参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>References</seg>
       </tuv>
       <tuv lang="ja">
@@ -16919,6 +17239,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Renderer</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031257Z" creationid="miurahr" creationdate="20201118T031257Z">
+        <seg>レンダラー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Repeat the previous steps for any other file that needs to be updated to fix the issue</seg>
       </tuv>
       <tuv lang="ja">
@@ -17003,6 +17331,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>結果/結論</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Retrieving information about attributes</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031405Z" creationid="miurahr" creationdate="20201118T031405Z">
+        <seg>属性に関する情報を取得する</seg>
       </tuv>
     </tu>
     <tu>
@@ -17519,6 +17855,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Selecting features</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031416Z" creationid="miurahr" creationdate="20201118T031416Z">
+        <seg>地物の選択</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Sentinel-1 flood monitoring of Caprivi flood plain, Namibia.</seg>
       </tuv>
       <tuv lang="ja">
@@ -17839,6 +18183,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Single Band Rasters</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031306Z" creationid="miurahr" creationdate="20201118T031306Z">
+        <seg>シングルバンドラスター</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Single Symbol</seg>
       </tuv>
       <tuv lang="ja">
@@ -18071,6 +18423,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Sometimes they support just a subset of possible editing actions.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031446Z" creationid="miurahr" creationdate="20201118T031446Z">
+        <seg>プロバイダーによっては、可能な編集操作の一部だけしかサポートしていないこともあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Sometimes this is temporary, sometimes it is permanent.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T020746Z" creationid="miurahr" creationdate="20201118T020746Z">
@@ -18131,6 +18491,22 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T224813Z" creationid="miurahr" creationdate="20201117T224813Z">
         <seg>空間解析は、基本的なジオプロセシング機能とPythonベースのプラグインを使用して主に行われます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Spatial indexes are not created by default for a QGIS vector layer, but you can create them easily.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031546Z" creationid="miurahr" creationdate="20201118T031546Z">
+        <seg>空間索引は、QGISベクターレイヤーに対してデフォルトでは作成されていませんが、簡単に作成できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Spatial indexes can dramatically improve the performance of your code if you need to do frequent queries to a vector layer.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031540Z" creationid="miurahr" creationdate="20201118T031540Z">
+        <seg>空間索引は、頻繁にベクターレイヤーに問い合わせをする必要がある場合、コードのパフォーマンスを劇的に改善します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18703,6 +19079,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>That would provide a better integration within QGIS, additional functionality (since it can be run in the components of Processing, such as the modeler or the batch processing interface), and a quicker development time (since Processing will take of a large part of the work).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031222Z" creationid="miurahr" creationdate="20201118T031222Z">
+        <seg>そうすれば、QGIS内でのより良い統合がなされ（これは、モデラーやバッチ処理インターフェイスといった、「プロセッシング」のコンポーネントの中で実行できるためです）、また開発時間の短縮も期待できます（「プロセッシング」が作業の大部分を肩代わりしてくれるからです）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>That's why we could merely enter the number :kbd:`2` above.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T021020Z" creationid="miurahr" creationdate="20201118T021020Z">
@@ -18843,6 +19227,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T020942Z" creationid="miurahr" creationdate="20201118T020942Z">
         <seg>:kbd:`street_id` 列は `people` オブジェクトと関係づけられた `street` オブジェクト（ `streets` テーブルの中）の間の「1対多」関係を表します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The :meth:`beginEditCommand() &lt;qgis.core.QgsVectorLayer.beginEditCommand&gt;` method will create an internal "active" command and will record subsequent changes in vector layer.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031525Z" creationid="miurahr" creationdate="20201118T031525Z">
+        <seg>:meth:`beginEditCommand() &lt;qgis.core.QgsVectorLayer.beginEditCommand&gt;` メソッドは内部的に「アクティブな」コマンドを生成し、ベクターレイヤーでその後に起こる変化を記録し続けます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19591,6 +19983,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The created plugin contains a provider with a single algorithm.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031227Z" creationid="miurahr" creationdate="20201118T031227Z">
+        <seg>生成されたプラグインには、アルゴリズムをひとつ持つプロバイダが含まれています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The creation and maintenance of these ponds with their earthen dams required a great deal of labor and expense.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T225054Z" creationid="miurahr" creationdate="20201117T225054Z">
@@ -20167,6 +20567,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The methods are similar to the ones we have seen in the provider, but they are called on the :class:`QgsVectorLayer &lt;qgis.core.QgsVectorLayer&gt;` object instead.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031510Z" creationid="miurahr" creationdate="20201118T031510Z">
+        <seg>メソッドはすでに見たプロバイダーにおけるものとよく似ていますが、プロバイダーではなく :class:`QgsVectorLayer &lt;qgis.core.QgsVectorLayer&gt;` オブジェクトで呼び出されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The model in its entirety can be seen below in "Image 1.1 - Normalised Difference Snow Index (NDSI) QGIS processing toolbox model".</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222552Z" creationid="miurahr" creationdate="20201117T222552Z">
@@ -20287,6 +20695,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The only way to find the telephone number of a given person is to read from the beginning until you find it.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031545Z" creationid="miurahr" creationdate="20201118T031545Z">
+        <seg>所定の人の電話番号を見つける唯一の方法は、巻頭からその番号を見つけるまで読むだけです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The operational and practical use of the WOIS to support integrated water resource management in Africa has been demonstrated via a series of user specific demonstration cases covering a wide range of themes and information products.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T221957Z" creationid="miurahr" creationdate="20201117T221957Z">
@@ -20387,6 +20803,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T215958Z" creationid="miurahr" creationdate="20201117T215958Z">
         <seg>プラグイン の名前は :guilabel:`Georeferencer GDAL` です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The plugin should contain an algorithm provider, which has to be registered when the plugin is instantiated.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031223Z" creationid="miurahr" creationdate="20201118T031223Z">
+        <seg>このプラグインにはアルゴリズムプロバイダを含ませるとともに、プラグインの初期化の際にアルゴリズムがツールボックスに登録されるようにする必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20539,6 +20963,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T015623Z" creationid="miurahr" creationdate="20201118T015623Z">
         <seg>赤線引き地物は、リクエスト中のジオメトリとラベルに渡すのに使用できます、標準返された画像（地図）上でサーバーによって重ねあわされます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The request can be used to define the data retrieved for each feature, so the iterator returns all features, but returns partial data for each of them.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031443Z" creationid="miurahr" creationdate="20201118T031443Z">
+        <seg>要求は、地物ごとに取得したデータを定義するために使用できるので、反復子はすべての地物を返しますが、それぞれの地物については部分的データを返します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21095,6 +21527,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>There are several ways to generate a vector layer dataset:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031554Z" creationid="miurahr" creationdate="20201118T031554Z">
+        <seg>ベクターレイヤデータセットを作るには幾つかの方法があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>There are two steps we need to complete for each record we add to the shapefile:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123712Z" creationid="miurahr" creationdate="20201117T123712Z">
@@ -21423,6 +21863,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Think of a layer without a spatial index as a telephone book in which telephone numbers are not ordered or indexed.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031544Z" creationid="miurahr" creationdate="20201118T031544Z">
+        <seg>空間索引の無いレイヤーは、電話番号が順番に並んでいない、もしくは索引の無い電話帳と思ってください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Think of how you would create vector features in a GIS to represent real world features on your school grounds.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141127Z" creationid="miurahr" creationdate="20201117T141127Z">
@@ -21571,6 +22019,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T225521Z" creationid="miurahr" creationdate="20201117T225521Z">
         <seg>この境界ポリゴンは現地調査の際に、ナビゲーションの目的のためにGPSに書き出しされました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This can be a very time consuming task, especially if it needs to be repeated for several locations.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031543Z" creationid="miurahr" creationdate="20201118T031543Z">
+        <seg>これは、いくつかの場所について繰り返す必要がある場合は特に、非常に時間のかかる処理となります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21807,6 +22263,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This is necessary to make a valid Python package.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031233Z" creationid="miurahr" creationdate="20201118T031233Z">
+        <seg>このファイルは妥当なPythonパッケージを作るために必要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This is normally only useful if the attributes, that users need to be aware of, can be represented on the map with labels or symbology.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140159Z" creationid="miurahr" creationdate="20201117T140159Z">
@@ -21907,6 +22371,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135754Z" creationid="miurahr" creationdate="20201117T135754Z">
         <seg>想像できるように、これは非常に困難であり、さらには何百年も後に世界のどの地域のために完璧に地球を表現することが可能である単一の投影はありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This is what you have to do:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031547Z" creationid="miurahr" creationdate="20201118T031547Z">
+        <seg>しなければいけないことはこうです：</seg>
       </tuv>
     </tu>
     <tu>
@@ -22183,6 +22655,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This section summarizes various actions that can be done with vector layers.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031402Z" creationid="miurahr" creationdate="20201118T031402Z">
+        <seg>このセクションではベクターレイヤーに対して行える様々な操作について紹介していきます.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This section will dive deeper into how to effectively use spatial databases in QGIS.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150355Z" creationid="miurahr" creationdate="20201117T150355Z">
@@ -22267,6 +22747,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T092010Z" creationid="miurahr" creationdate="20201117T092010Z">
         <seg>これはスクリプト自身のユニットテストとしても、Travisで自動的にテストされます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This will automatically call :meth:`commitChanges() &lt;qgis.core.QgsVectorLayer.commitChanges&gt;` in the end.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031528Z" creationid="miurahr" creationdate="20201118T031528Z">
+        <seg>これは最後に :meth:`commitChanges() &lt;qgis.core.QgsVectorLayer.commitChanges&gt;` メソッドを自動的に呼び出します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22503,6 +22991,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>To add fields (attributes), you need to specify a list of field definitions.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031532Z" creationid="miurahr" creationdate="20201118T031532Z">
+        <seg>フィールド（属性）を追加するには、フィールドの定義を配列で指定する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>To add materials to this course, you must follow the guidelines in this Appendix.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141553Z" creationid="miurahr" creationdate="20201117T141553Z">
@@ -22671,6 +23167,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>To distribute those algorithms, you should create a new plugin that adds them to the Processing Toolbox.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031222Z" creationid="miurahr" creationdate="20201118T031222Z">
+        <seg>開発したアルゴリズムを配布するためには、アルゴリズムをプロセッシングツールボックスに追加するためのプラグインを新しく作る必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>To do so, you will need to add an entry in the answer sheet.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141620Z" creationid="miurahr" creationdate="20201117T141620Z">
@@ -22731,6 +23235,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T225513Z" creationid="miurahr" creationdate="20201117T225513Z">
         <seg>監視プロセスの円滑な機能を確保するために、私たちは、ロジスティックの要件を計画するためのmmqgisプラグインのジオメトリツールおよびハブ距離のボロノイ多角形の機能を使用していました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>To find out whether a layer is in editing mode, use the :meth:`isEditable() &lt;qgis.core.QgsVectorLayer.isEditable&gt;` method.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031519Z" creationid="miurahr" creationdate="20201118T031519Z">
+        <seg>あるレイヤーが編集モードかどうかを知るには、 :meth:`isEditable() &lt;qgis.core.QgsVectorLayer.isEditable&gt;` メソッドを使用してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22803,6 +23315,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>最終地図製品で使用するためのデータを準備するため、QGIS内の以下のツールが特定のタスクを達成するために使用されました：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>To print layer's capabilities textual description in a comma separated list you can use :meth:`capabilitiesString() &lt;qgis.core.QgsVectorDataProvider.capabilitiesString&gt;` as in the following example:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031449Z" creationid="miurahr" creationdate="20201118T031449Z">
+        <seg>:meth:`capabilitiesString() &lt;qgis.core.QgsVectorDataProvider.capabilitiesString&gt;` を使うと、下記の例に見るように、レイヤーの性能の説明文をコンマで区切られたリストの形で表示することができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23439,6 +23959,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Use the :meth:`capabilities() &lt;qgis.core.QgsVectorDataProvider.capabilities&gt;` function to find out what set of functionality is supported.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031447Z" creationid="miurahr" creationdate="20201118T031447Z">
+        <seg>どんな機能をサポートしているかを知るには、 :meth:`capabilities() &lt;qgis.core.QgsVectorDataProvider.capabilities&gt;` 関数を使ってください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Use the Atlas preview to browse through all the maps you will be creating soon and enjoy!</seg>
       </tuv>
       <tuv lang="ja">
@@ -23595,6 +24123,30 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T225511Z" creationid="miurahr" creationdate="20201117T225511Z">
         <seg>RGB組成プラグインを使用して、予備の偽色の複合が作成され、トラによって使用される生息地のタイプを評価するために兆候調査シェープファイルを重ねました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Using Raster Layers</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031243Z" creationid="miurahr" creationdate="20201118T031243Z">
+        <seg>ラスターレイヤーを使う</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Using Spatial Index</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031538Z" creationid="miurahr" creationdate="20201118T031538Z">
+        <seg>空間索引を使う</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Using Vector Layers</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031400Z" creationid="miurahr" creationdate="20201118T031400Z">
+        <seg>ベクターレイヤーを使う</seg>
       </tuv>
     </tu>
     <tu>
@@ -24671,6 +25223,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>When the Plugin Builder asks you for the template to use, select "Processing provider".</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031226Z" creationid="miurahr" creationdate="20201118T031226Z">
+        <seg>Plugin Builder が使用するテンプレートをきいてきたら、「プロセッシングプロバイダ」を選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>When the changes in the pull request are conflicting with recent changes pushed to the target branch, the conflicts need to be resolved before a merge is possible:</seg>
       </tuv>
       <tuv lang="ja">
@@ -25159,6 +25719,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>With the call to :meth:`endEditCommand() &lt;qgis.core.QgsVectorLayer.endEditCommand&gt;` the command is pushed onto the undo stack and the user will be able to undo/redo it from GUI.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031526Z" creationid="miurahr" creationdate="20201118T031526Z">
+        <seg>:meth:`endEditCommand() &lt;qgis.core.QgsVectorLayer.endEditCommand&gt;` メソッドの呼び出しによって、コマンドはアンドゥスタックにプッシュされ、ユーザーがGUIから取り消し／やり直しをすることができるようになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>With the new line edit element selected, you'll see its *properties* along the side of your screen (on the right by default):</seg>
       </tuv>
       <tuv lang="ja">
@@ -25211,6 +25779,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T225429Z" creationid="miurahr" creationdate="20201117T225429Z">
         <seg>この風景の中で、環境保全の重要性の主要な種はロイヤルベンガルトラ、アジアゾウ、インドのバイソン、共通のヒョウ、ウンピョウ、ワイルドドッグ、サンバー鹿、吠え鹿、豚、鹿、イノシシや他のいくつかの種です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Without a spatial index, the only way for QGIS to find those 10 points is to compute the distance from each and every point to the specified location and then compare those distances.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031542Z" creationid="miurahr" creationdate="20201118T031542Z">
+        <seg>空間索引が無いと、QGISがこれらの10点を求める方法は、すべての点から指定の場所への距離を計算してそれらの距離を比較することしかありません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25475,6 +26051,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135709Z" creationid="miurahr" creationdate="20201117T135709Z">
         <seg>別のテーマを表示するために、異なる凡例の記号やアイコンも使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can also use the :code:`with edit(layer)`-statement to wrap commit and rollback into a more semantic code block as shown in the example below:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031527Z" creationid="miurahr" creationdate="20201118T031527Z">
+        <seg>次の例に示すように、よりセマンティックなコードブロックにコミットとロールバックをラップする :code:`with edit(layer)` 文も使用できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26927,6 +27511,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>alternatively, you can load all features of a layer at once using bulk loading</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031551Z" creationid="miurahr" creationdate="20201118T031551Z">
+        <seg>代わりに、一括読み込みを使用してレイヤーのすべての地物を一度に読み込むことができます</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>and can be used as in the following snippet:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T003502Z" creationid="miurahr" creationdate="20201118T003502Z">
@@ -26995,6 +27587,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>あなたの変更をテストするためにドキュメントをビルドする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>choose tags with care: avoid the uninformative ones (e.g. vector) and prefer the ones already used by others (see the plugin website)</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031129Z" creationid="miurahr" creationdate="20201118T031129Z">
+        <seg>タグは注意して選択してください：情報価値のないもの（例：ベクター）を避け、すでに他のユーザーによって使用されているもの（プラグインのWebサイトを参照）を選んでください</seg>
       </tuv>
     </tu>
     <tu>
@@ -27127,6 +27727,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>include a code repository, a bug tracker, and a home page; this will greatly enhance the possibility of collaboration, and can be done very easily with one of the available web infrastructures (GitHub, GitLab, Bitbucket, etc.)</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031128Z" creationid="miurahr" creationdate="20201118T031128Z">
+        <seg>コードリポジトリ、バグトラッカー、およびホーム・ページを含めてください。これは非常に協働作業の可能性を向上させますし、利用可能なWebインフラストラクチャの1つ（GitHub、GitLab、Bitbucketなど）で非常に簡単に行うことができます</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>include at least minimal documentation and, if useful for testing and understanding, sample data.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031139Z" creationid="miurahr" creationdate="20201118T031139Z">
+        <seg>最低限の文書を、そしてテストと理解に役立つ場合はサンプルデータを含めてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>information about layer order and drawing order</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T015240Z" creationid="miurahr" creationdate="20201118T015240Z">
@@ -27239,6 +27855,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>once spatial index is filled with some values, you can do some queries</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031552Z" creationid="miurahr" creationdate="20201118T031552Z">
+        <seg>空間索引に何かしらの値が入れられると検索ができるようになります</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>one of `Raster`, `Vector`, `Database` and `Web`</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T024809Z" creationid="miurahr" creationdate="20201118T024809Z">
@@ -27335,6 +27959,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>the :class:`QgsVectorFileWriter &lt;qgis.core.QgsVectorFileWriter&gt;` class: A convenient class for writing vector files to disk, using either a static call to :meth:`writeAsVectorFormat() &lt;qgis.core.QgsVectorFileWriter.writeAsVectorFormat&gt;` which saves the whole vector layer or creating an instance of the class and issue calls to :meth:`addFeature() &lt;qgis.core.QgsVectorFileWriter.addFeature&gt;`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031628Z" creationid="miurahr" creationdate="20201118T031628Z">
+        <seg>:class:`QgsVectorFileWriter &lt;qgis.core.QgsVectorFileWriter&gt;` クラス：ベクターファイルをディスクに書きこむための便利なクラスです。静的メソッド :meth:`writeAsVectorFormat() &lt;qgis.core.QgsVectorFileWriter.writeAsVectorFormat&gt;` を呼び出してすべてのベクターレイヤを保存するか、もしくはクラスインスタンスを作ってから :meth:`addFeature() &lt;qgis.core.QgsVectorFileWriter.addFeature&gt;` メソッドを呼び出すか、いずれかの方法を使うことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>the :kbd:`WHERE` statement criteria are case sensitive :kbd:`Main Road` is not the same as :kbd:`Main road`</seg>
       </tuv>
       <tuv lang="ja">
@@ -27363,6 +27995,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>住居の種類（RDPハウス、アパートのブロック、小屋、れんが造りの家など）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>when appropriate (plugins performing analyses), consider adding the plugin as a subplugin of Processing framework: this will allow users to run it in batch, to integrate it in more complex workflows, and will free you from the burden of designing an interface</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031138Z" creationid="miurahr" creationdate="20201118T031138Z">
+        <seg>適切な場合（解析を実行するプラグイン）、処理フレームワークのサブプラグインとしてプラグインを追加することを検討してください：これによってユーザーはバッチでそれを実行し、より複雑なワークフローにそれを統合できるようになり、インターフェイスを設計する負担がなくなります</seg>
       </tuv>
     </tu>
     <tu>
