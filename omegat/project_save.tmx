@@ -86,6 +86,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>**BBOX** the geographical area for which the legend should be built</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015223Z" creationid="miurahr" creationdate="20201118T015223Z">
+        <seg>**BBOX** 凡例を構築する必要のある地域</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>**BOXSPACE** space between legend frame and content (mm)</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015204Z" creationid="miurahr" creationdate="20201118T015204Z">
+        <seg>**BOXSPACE** 凡例フレームと内容の間の空白(mm)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>**Book**:</seg>
       </tuv>
       <tuv lang="ja">
@@ -122,6 +138,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141142Z" creationid="miurahr" creationdate="20201117T141142Z">
         <seg>**バッファリング** は通常２つのエリアを作成します:１つは、選択した現実世界の地物から指定距離 **内** のエリア、もう１つは **外** のエリアです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>**CRS / SRS** the coordinate reference system adopted to define the BBOX coordinates</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015224Z" creationid="miurahr" creationdate="20201118T015224Z">
+        <seg>**CRS / SRS** BBOX座標を定義するために採用された座標参照系</seg>
       </tuv>
     </tu>
     <tu>
@@ -222,10 +246,58 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>**HIGHLIGHT_LABELBUFFERCOLOR**: This parameter controls the label buffer color.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015646Z" creationid="miurahr" creationdate="20201118T015646Z">
+        <seg>**HIGHLIGHT_LABELBUFFERCOLOR**: このパラメーターは、ラベルバッファの色を制御します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>**HIGHLIGHT_LABELBUFFERSIZE**: This parameter controls the label buffer size.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015647Z" creationid="miurahr" creationdate="20201118T015647Z">
+        <seg>**HIGHLIGHT_LABELBUFFERSIZE**: このパラメーターは、ラベルバッファのサイズを制御します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>**HIGHLIGHT_LABELCOLOR**: This parameter controls the label color.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015645Z" creationid="miurahr" creationdate="20201118T015645Z">
+        <seg>**HIGHLIGHT_LABELCOLOR**: このパラメーターは、ラベルの色を制御します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>**HIGHLIGHT_LABELSIZE**: This parameter controls the size of the label.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015643Z" creationid="miurahr" creationdate="20201118T015643Z">
+        <seg>**HIGHLIGHT_LABELSIZE**: このパラメーターは、ラベルのサイズを制御します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>**HIGHLIGHT_LABELSTRING**: You can pass your labeling text to this parameter.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015639Z" creationid="miurahr" creationdate="20201118T015639Z">
+        <seg>**HIGHLIGHT_SYMBOL** ：ジオメトリの輪郭をどのように表示するかを制御し、ストロークの幅、色、不透明度を変更できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>**Heads-up digitising** is often used to provide orientation during digitising by using a raster image in the background.</seg>
       </tuv>
       <tuv lang="ja">
         <seg>**上向きのデジタル化** は、多くの場合、背景にラスター画像を使用してデジタル化する時の方向性を提供するために使用されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>**ICONLABELSPACE** horizontal space between symbol and label text (mm)</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015209Z" creationid="miurahr" creationdate="20201118T015209Z">
+        <seg>**ICONLABELSPACE** シンボルとラベルのテキストの間の水平スペース（ミリメートル）</seg>
       </tuv>
     </tu>
     <tu>
@@ -258,6 +330,30 @@
       </tuv>
       <tuv lang="ja">
         <seg>**インターセクション**: 出力レイヤーは２つのレイヤーの重なる（交わる）すべての領域を含みます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>**LAYERFONTFAMILY / ITEMFONTFAMILY** font family for layer title / item text</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015215Z" creationid="miurahr" creationdate="20201118T015215Z">
+        <seg>**LAYERFONTFAMILY / ITEMFONTFAMILY** レイヤータイトル／項目テキストのためのフォントファミリー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>**LAYERFONTSIZE / ITEMFONTSIZE** Font size in point</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015217Z" creationid="miurahr" creationdate="20201118T015217Z">
+        <seg>**LAYERFONTSIZE / ITEMFONTSIZE** ポイントでのフォントサイズ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>**LAYERTITLESPACE** vertical space between layer title and items following (mm)</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015207Z" creationid="miurahr" creationdate="20201118T015207Z">
+        <seg>**LAYERTITLESPACE** レイヤータイトルと後続アイテム間の垂直方向のスペース（mm）</seg>
       </tuv>
     </tu>
     <tu>
@@ -322,6 +418,30 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135132Z" creationid="miurahr" creationdate="20201117T135132Z">
         <seg>**ラスターデータ** は値のグリッドとして格納されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>**SYMBOLHEIGHT** height of the symbol preview (mm)</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015211Z" creationid="miurahr" creationdate="20201118T015211Z">
+        <seg>**SYMBOLHEIGHT** シンボルプレビューの高さ（mm）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>**SYMBOLSPACE** vertical space between symbol and item following (mm)</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015208Z" creationid="miurahr" creationdate="20201118T015208Z">
+        <seg>**SYMBOLSPACE** シンボルとアイテム間の垂直方向の間隔（mm）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>**SYMBOLWIDTH** width of the symbol preview (mm)</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015210Z" creationid="miurahr" creationdate="20201118T015210Z">
+        <seg>**SYMBOLWIDTH** シンボルプレビューの幅（mm）</seg>
       </tuv>
     </tu>
     <tu>
@@ -2230,6 +2350,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>A typical WMS request defines the QGIS project to use, the layers to render as well as the image format to generate.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T014755Z" creationid="miurahr" creationdate="20201118T014755Z">
+        <seg>典型的なWMSリクエストは、使用するQGISプロジェクト、レンダリングするレイヤ、作成する画像フォーマットを定義します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>A typical WMTS request defined the QGIS project to use, some WMS parameters like layers to render, as well as tile parameters.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015337Z" creationid="miurahr" creationdate="20201118T015337Z">
+        <seg>典型的なWMTSリクエストでは、使用するQGISプロジェクト、レンダリングするレイヤなどの一部のWMSパラメータ、およびタイルパラメータを定義しました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>A vector feature can have a **geometry** type of **point**, **line** or a **polygon**.</seg>
       </tuv>
       <tuv lang="ja">
@@ -3367,6 +3503,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>As mentioned in :ref:`GetMap parameters table &lt;qgisserver-wms-getmap&gt;`, ``MAP`` is mandatory because a request needs a QGIS project to actually work.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T014957Z" creationid="miurahr" creationdate="20201118T014957Z">
+        <seg>:ref:`GetMap パラメータテーブル &lt;qgisserver-wms-getmap&gt;` で述べたように、リクエストは実際に動作するためにQGISプロジェクトを必要とするので ``MAP`` は必須です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>As newer versions of astyle indent differently than the version used to do a complete reindentation of the source, the script uses an old astyle version, that we include in our repository (enable ``WITH_ASTYLE`` in cmake to include it in the build).</seg>
       </tuv>
       <tuv lang="ja">
@@ -3767,6 +3911,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Available values are:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T014943Z" creationid="miurahr" creationdate="20201118T014943Z">
+        <seg>利用可能な値は以下のとおりです：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Avoid use of Qt auto connect slots (i.e. those named ``void on_mSpinBox_valueChanged``).</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T091816Z" creationid="miurahr" creationdate="20201117T091816Z">
@@ -3795,6 +3947,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222250Z" creationid="miurahr" creationdate="20201117T222250Z">
         <seg>地籍プロットで4人の住民の平均値の投影に基づいて、私たちは、現在（2010年）のラダ・ティリの都市人口は住民約9.600人に上るだろうと推定しました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Basic support is also available for **Styled Layer Descriptor (SLD)**.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T014756Z" creationid="miurahr" creationdate="20201118T014756Z">
+        <seg>**Styled Layer Descriptor（SLD）** についても基本的なサポートが利用可能です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5247,6 +5407,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Content based legend.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015221Z" creationid="miurahr" creationdate="20201118T015221Z">
+        <seg>コンテストに基づく凡例。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Continuing the example from previous lesson, you will use the inventory information gathered in the field to calculate the forest parameters, for the whole forest first, and then for the stands you digitized before.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T220138Z" creationid="miurahr" creationdate="20201117T220138Z">
@@ -5299,6 +5467,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>ラスターとベクター形式の間で変換すると、データの適用可能性を広げることができ、データの劣化につながる必要はありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Coordinate reference system</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T014838Z" creationid="miurahr" creationdate="20201118T014838Z">
+        <seg>座標参照系</seg>
       </tuv>
     </tu>
     <tu>
@@ -6583,6 +6759,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Example::</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015616Z" creationid="miurahr" creationdate="20201118T015616Z">
+        <seg>例::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Examples of suitable formats for Transparent copies include plain ASCII without markup, Texinfo input format, LaTeX input format, SGML or XML using a publicly available DTD, and standard-conforming simple HTML, PostScript or PDF designed for human modification.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124439Z" creationid="miurahr" creationdate="20201117T124439Z">
@@ -6679,6 +6863,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Extra vendor parameters and requests are supported in addition to the original standard that greatly enhance the possibilities of customizing its behavior thanks to the QGIS rendering engine.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T014748Z" creationid="miurahr" creationdate="20201118T014748Z">
+        <seg>QGISレンダリングエンジンのおかげでその振る舞いをカスタマイズする可能性を大いに高めるオリジナルの規格に加えて、追加のベンダーパラメータと要求がサポートされています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>FOSS GIS application + FOSS GIS data stores + FOSS GIS education were all critical to reconstruct and model the Hydrological and Ecological processes necessary for authentic conservation planning.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222822Z" creationid="miurahr" creationdate="20201117T222822Z">
@@ -6691,6 +6883,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T133738Z" creationid="miurahr" creationdate="20201117T133738Z">
         <seg>本契約の将来の改訂**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Feature filtering</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015549Z" creationid="miurahr" creationdate="20201118T015549Z">
+        <seg>地物フィルタリング</seg>
       </tuv>
     </tu>
     <tu>
@@ -7167,6 +7367,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>For example if ``QUERY_LAYERS`` is set to ``layer1,layer2`` and ``FEATURE_COUNT`` is set to ``3`` then a maximum of 3 features from layer1 will be returned.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015104Z" creationid="miurahr" creationdate="20201118T015104Z">
+        <seg>例えば、 ``QUERY_LAYERS`` が ``layer1,layer2`` に設定され、 ``FEATURE_COUNT`` が ``3`` に設定されている場合、layer1から最大3つの地物が返されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>For example if you want to create a high resolution average rainfall map, you would ideally need many weather stations in close proximity to each other.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140230Z" creationid="miurahr" creationdate="20201117T140230Z">
@@ -7367,6 +7575,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>For example:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T014933Z" creationid="miurahr" creationdate="20201118T014933Z">
+        <seg>例えば：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>For example: if two features share a border, and you edit the border using topology, then you won't need to edit first one feature, then another, and carefully line up the borders so that they match.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150048Z" creationid="miurahr" creationdate="20201117T150048Z">
@@ -7387,6 +7603,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141629Z" creationid="miurahr" creationdate="20201117T141629Z">
         <seg>例えば：：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For further information you may refer to :ref:`server_env_variables`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015002Z" creationid="miurahr" creationdate="20201118T015002Z">
+        <seg>より詳しい情報は :ref:`server_env_variables` を参照してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7435,6 +7659,22 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T145654Z" creationid="miurahr" creationdate="20201117T145654Z">
         <seg>現在の例では、デジタル化のアプローチを使用しているでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For performance reasons, such layers should be directly requested by the web client (not cascaded via QGIS server).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015653Z" creationid="miurahr" creationdate="20201118T015653Z">
+        <seg>パフォーマンス上の理由から、このようなレイヤはWebクライアントから直接要求される必要があります（QGISサーバを介してカスケードされることはありません）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For printing however, these layers should be cascaded via QGIS server in order to appear in the printed map.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015654Z" creationid="miurahr" creationdate="20201118T015654Z">
+        <seg>ただし、印刷する場合は、印刷された地図に表示されるように、これらのレイヤーをQGISサーバ経由でカスケードする必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8327,6 +8567,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Here is the image outputed by the above request in which a polygon and a label are drawn on top of the normal map:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015627Z" creationid="miurahr" creationdate="20201118T015627Z">
+        <seg>ポリゴンとラベルが通常地図の上に描かれている、上記の要求によって出力された画像は次のとおりです：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Here is what the correct output will look like:</seg>
       </tuv>
       <tuv lang="ja">
@@ -8495,6 +8743,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>However, the ``QGIS_PROJECT_FILE`` environment variable may be used to define a default QGIS project.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015000Z" creationid="miurahr" creationdate="20201118T015000Z">
+        <seg>しかし、  ``QGIS_PROJECT_FILE`` 環境変数がデフォルトのQGISプロジェクトを定義するために使用されるかもしれません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>However, there are two important aspects to successfully using QGIS for learning and teaching.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222456Z" creationid="miurahr" creationdate="20201117T222456Z">
@@ -8651,6 +8907,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201029T134551Z" creationid="miurahr" creationdate="20201029T134551Z">
         <seg>置換が存在しない場合、</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If not defined it will use the MAP parameter in the request and finally look at the server executable directory.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015620Z" creationid="miurahr" creationdate="20201118T015620Z">
+        <seg>定義されていない場合はリクエスト中のMAPパラメーターを使用し、最終的にはサーバーの実行可能ファイルのディレクトリを見ていきます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9575,6 +9839,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In addition to the standard ones, QGIS Server supports the following extra parameters:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T014850Z" creationid="miurahr" creationdate="20201118T014850Z">
+        <seg>標準のものに加えて、QGISサーバーでは以下の追加パラメータをサポートしています：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In addition to the tigers, several elusive species have also been photographically documented.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T225527Z" creationid="miurahr" creationdate="20201117T225527Z">
@@ -9891,6 +10163,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T145604Z" creationid="miurahr" creationdate="20201117T145604Z">
         <seg>このような場合は、自身の新しいデータを作成する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In the **GetPrint** request, the client has the possibility to specify parameters of the contained layout maps and labels.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015133Z" creationid="miurahr" creationdate="20201118T015133Z">
+        <seg>GETPRINT要求では、クライアントは含まれているレイアウト地図とラベルのパラメータを指定する可能性があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10371,6 +10651,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>このセクションでは、ベクターデータ（ベクター地物のジオメトリと属性の両方）を作成し編集する過程を詳しく見ていきます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In this specific case, ``MAP`` is not longer a required parameter.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015001Z" creationid="miurahr" creationdate="20201118T015001Z">
+        <seg>この場合、 ``MAP`` はもはや必須のパラメータではありません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11087,6 +11375,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>LAYER</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015351Z" creationid="miurahr" creationdate="20201118T015351Z">
+        <seg>レイヤ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>LEAG is focused on modeling socio-economic spatial processes, analyzing spatial patterns, describing and monitoring the reality of localities and regions.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T223510Z" creationid="miurahr" creationdate="20201117T223510Z">
@@ -11155,6 +11451,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>緯度</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Layer identifier</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015353Z" creationid="miurahr" creationdate="20201118T015353Z">
+        <seg>レイヤプロパティ</seg>
       </tuv>
     </tu>
     <tu>
@@ -11459,6 +11763,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140828Z" creationid="miurahr" creationdate="20201117T140828Z">
         <seg>ポリライン地物と同様に、ポリゴンは連続線で連結された一連の頂点から作成されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Likewise a maximun of 3 features from layer2 will be returned.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015105Z" creationid="miurahr" creationdate="20201118T015105Z">
+        <seg>同様に、layer2から最大3つの地物が返されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12175,6 +12487,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Moreover, there's a project option allowing to select layers by their id in :menuselection:`OWS Server --&gt; WMS capabilities` menu of the :menuselection:`Project --&gt; Project Properties` dialog.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015440Z" creationid="miurahr" creationdate="20201118T015440Z">
+        <seg>さらに、:menuselection:`プロジェクト - &gt; プロパティ ...` ダイアログの :menuselection:`OWSサーバ - &gt; WMS capabilities` メニューにIDでレイヤーを選択できるプロジェクトオプションがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Moreover, there's a project option allowing to select layers by their id in :menuselection:`OWS Server --&gt; WMS capabilities` menu of the :menuselection:`Project --&gt; Properties...` dialog.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T014916Z" creationid="miurahr" creationdate="20201118T014916Z">
+        <seg>さらに、:menuselection:`プロジェクト - &gt; プロパティ ...` ダイアログの :menuselection:`OWSサーバ - &gt; WMS capabilities` メニューにIDでレイヤーを選択できるプロジェクトオプションがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Moreover, your license from a particular copyright holder is reinstated permanently if the copyright holder notifies you of the violation by some reasonable means, this is the first time you have received notice of violation of this License (for any work) from that copyright holder, and you cure the violation prior to 30 days after your receipt of the notice.</seg>
       </tuv>
       <tuv lang="ja">
@@ -12283,6 +12611,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T003720Z" creationid="miurahr" creationdate="20201118T003720Z">
         <seg>名前</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Name of layers</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015301Z" creationid="miurahr" creationdate="20201118T015301Z">
+        <seg>レイヤの名前</seg>
       </tuv>
     </tu>
     <tu>
@@ -13687,6 +14023,30 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Output Format</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015308Z" creationid="miurahr" creationdate="20201118T015308Z">
+        <seg>出力形式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Output format</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015034Z" creationid="miurahr" creationdate="20201118T015034Z">
+        <seg>出力形式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Output format of the tile</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015406Z" creationid="miurahr" creationdate="20201118T015406Z">
+        <seg>タイルの出力形式</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Over time GIS Applications have also become easier to use --– it used to require a lot of training to use a GIS Application, but now it is much easier to get started in GIS even for amateurs and casual users.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T134241Z" creationid="miurahr" creationdate="20201117T134241Z">
@@ -13755,6 +14115,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135322Z" creationid="miurahr" creationdate="20201117T135322Z">
         <seg>紙地図はファイルにして保管しなければならず, 見られるまでに時間がかかります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Parameter</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T014827Z" creationid="miurahr" creationdate="20201118T014827Z">
+        <seg>パラメーター</seg>
       </tuv>
     </tu>
     <tu>
@@ -14135,6 +14503,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Print layout windows in the published project are used as templates.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015132Z" creationid="miurahr" creationdate="20201118T015132Z">
+        <seg>公表されたプロジェクトでのプリントレイアウトがテンプレートとして使用されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Prior to joining DDG in Afghanistan, Edward worked with the humanitarian mineclearance agency The HALO Trust in Angola and Sri Lanka.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T062317Z" creationid="miurahr" creationdate="20201117T062307Z">
@@ -14255,10 +14631,34 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>QGIS Server allows including layers from external WMS servers in WMS GetMap and WMS GetPrint requests.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015650Z" creationid="miurahr" creationdate="20201118T015650Z">
+        <seg>QGISサーバは、WMS GetMapとWMS GetPrintリクエストに外部WMSサーバからのレイヤを含めることを可能にします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>QGIS Server has the capability to create print layout output in pdf or pixel format.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015130Z" creationid="miurahr" creationdate="20201118T015130Z">
+        <seg>QGISサーバには、PDFまたはピクセル形式のプリントレイアウト出力を作成する機能があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>QGIS Server is a FastCGI/CGI (Common Gateway Interface) application written in C++ that works together with a web server (e.g., Apache, Nginx).</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141512Z" creationid="miurahr" creationdate="20201117T141512Z">
         <seg>QGISサーバは、C ++で記述されたFastCGI / CGI（Common Gateway Interface）アプリケーションであり、Webサーバ（Apache、Nginxなど）と連携して動作します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>QGIS Server is able to serve data according to standard protocols as described by the **Open Geospatial Consortium (OGC)**:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T014733Z" creationid="miurahr" creationdate="20201118T014733Z">
+        <seg>QGISサーバーでは、 **Open Geospatial Consortium（OGC）** に記載されているように、標準プロトコルに従ってデータを提供できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15023,6 +15423,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Required</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T014828Z" creationid="miurahr" creationdate="20201118T014828Z">
+        <seg>必須</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Resize the arrow image to a size that looks good on the small map.</seg>
       </tuv>
       <tuv lang="ja">
@@ -15543,6 +15951,30 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Server response to a GetMap request with SELECTION parameter</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015019Z" creationid="miurahr" creationdate="20201118T015019Z">
+        <seg>SELECTIONパラメーターを指定したGetMapリクエストに対するサーバーの応答</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Server response to a GetMap request with redlining parameters</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015633Z" creationid="miurahr" creationdate="20201118T015633Z">
+        <seg>レッドラインパラメーターを持つGetMapリクエストに対するサーバーの応答</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Services</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T014727Z" creationid="miurahr" creationdate="20201118T014727Z">
+        <seg>サービス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Set a more appropriate form widget for the :guilabel:`highway` field.</seg>
       </tuv>
       <tuv lang="ja">
@@ -15643,6 +16075,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123549Z" creationid="miurahr" creationdate="20201117T123549Z">
         <seg>GISデータを格納するデータベースを設定するのはシェープファイルを使用するよりも複雑ですので、このトピックでは、シェープファイルの作成および編集に焦点を当てます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Several additional parameters are available to change the size of the legend elements:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015203Z" creationid="miurahr" creationdate="20201118T015203Z">
+        <seg>いくつかの追加のパラメーターは、凡例の要素のサイズを変更できます：</seg>
       </tuv>
     </tu>
     <tu>
@@ -16651,6 +17091,22 @@
       </tuv>
       <tuv lang="ja">
         <seg>「 **パブリッシャー** 」は、公衆への文書のコピーを配布する個人または団体を意味します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The **1.0.0** WMTS standard implemented in QGIS Server provides a HTTP interface to request tiled map images generated from a QGIS project.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015335Z" creationid="miurahr" creationdate="20201118T015335Z">
+        <seg>QGISサーバに実装された **1.0.0** WMTS標準は、QGISプロジェクトから作成されたタイル地図画像を要求するためのHTTPインターフェースを提供します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The **1.1.0** and **1.3.0** WMS standards implemented in QGIS Server provide a HTTP interface to request map or legend images generated from a QGIS project.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T014754Z" creationid="miurahr" creationdate="20201118T014754Z">
+        <seg>QGISサーバーに実装された **1.1.0** および **1.3.0** WMS標準は、QGISプロジェクトから作成された地図または凡例の画像を要求するHTTPインターフェースを提供します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18311,6 +18767,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The redlining feature can be used to pass geometries and labels in the request which are overlapped by the server over the standard returned image (map).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015623Z" creationid="miurahr" creationdate="20201118T015623Z">
+        <seg>赤線引き地物は、リクエスト中のジオメトリとラベルに渡すのに使用できます、標準返された画像（地図）上でサーバーによって重ねあわされます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The required output is a vector polygon showing the snow covered extent within the Snowy Water Catchment, along with attribution describing the total area covered in square kilometres.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222540Z" creationid="miurahr" creationdate="20201117T222540Z">
@@ -18999,6 +19463,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>These parameters change the font properties for layer titles and item labels:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015213Z" creationid="miurahr" creationdate="20201118T015213Z">
+        <seg>これらのパラメーターは、レイヤーのタイトルや項目ラベルのフォントプロパティを変更します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>These parameters let the client request a legend showing only the symbols for the features falling into the requested area:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015222Z" creationid="miurahr" creationdate="20201118T015222Z">
+        <seg>これらのパラメータでは、要求された領域に入る地物のシンボルだけを表示する凡例をクライアントに要求させます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>These people reside in 209 blocks and they represent 157.6 hectares.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222251Z" creationid="miurahr" creationdate="20201117T222251Z">
@@ -19343,6 +19823,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This feature is available and can be used with ``GetMap`` and ``GetPrint`` requests.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015622Z" creationid="miurahr" creationdate="20201118T015622Z">
+        <seg>この機能は利用可能であり、 ``GetMap`` および ``GetPrint`` 要求と共に使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This file is an index that helps the GIS Application to find features more quickly.</seg>
       </tuv>
       <tuv lang="ja">
@@ -19431,6 +19919,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This is especially useful if a web client uses an external background layer in the web map.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015651Z" creationid="miurahr" creationdate="20201118T015651Z">
+        <seg>これは、WebクライアントがWeb地図で外部の背景レイヤを使用している場合に特に便利です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This is normally only useful if the attributes, that users need to be aware of, can be represented on the map with labels or symbology.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140159Z" creationid="miurahr" creationdate="20201117T140159Z">
@@ -19491,6 +19987,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141611Z" creationid="miurahr" creationdate="20201117T141611Z">
         <seg>これは通常、スクリーンショットを散りばめた状態で、クリックごとの指示をできる限り明確に示すことで行われます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This is useful to ensure scale based visibility of layers and labels even if client and server may have different algorithms to calculate the scale denominator.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015157Z" creationid="miurahr" creationdate="20201118T015157Z">
+        <seg>これは、クライアントとサーバーで縮尺分母を計算するアルゴリズムが異なる場合でもレイヤとラベルの縮尺に基づく可視性を確保するのに役立ちます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19607,6 +20111,54 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This parameter can be used to specify the kind of geometry to return for features.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015324Z" creationid="miurahr" creationdate="20201118T015324Z">
+        <seg>このパラメータは、地物に返すジオメトリの種類を指定するために使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This parameter may be used to specify the format of the result.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015052Z" creationid="miurahr" creationdate="20201118T015052Z">
+        <seg>このパラメータは結果のフォーマットを指定するために使用されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This parameter specifies the map scale for a layout map item.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015155Z" creationid="miurahr" creationdate="20201118T015155Z">
+        <seg>このパラメータは、レイアウト地図アイテムの地図縮尺を指定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This parameter specifies the maximum number of features per layer to return.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015102Z" creationid="miurahr" creationdate="20201118T015102Z">
+        <seg>このパラメータでは、レイヤごとに返す地物の最大数を指定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This parameter specifies the tolerance in pixels for point layers.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015115Z" creationid="miurahr" creationdate="20201118T015115Z">
+        <seg>このパラメータではラインレイヤでの許容誤差（ピクセル）を指定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This permits the user to put emphasis or maybe add some comments (labels) to some areas, locations etc. that are not in the standard map.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015624Z" creationid="miurahr" creationdate="20201118T015624Z">
+        <seg>これにより、ユーザーは、標準地図にないいくつかの領域、場所などに強調（emphasis）またはコメント（ラベル）を追加することが可能になります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This positional information is stored with the digital version of the aerial photo.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140053Z" creationid="miurahr" creationdate="20201117T140053Z">
@@ -19651,6 +20203,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141607Z" creationid="miurahr" creationdate="20201117T141607Z">
         <seg>これは、モジュールの見出しを表します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This request type works similar to **GetCapabilities**, but it is more specific to QGIS Server and allows a client to read additional information which is not available in the GetCapabilities output:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015236Z" creationid="miurahr" creationdate="20201118T015236Z">
+        <seg>このリクエストタイプは **GetCapabilities** に似ていますが、それはQGIS サーバーに対してより具体的であり、クライアントは、GetCapabilities出力では利用できない追加情報を読み取ることができます：</seg>
       </tuv>
     </tu>
     <tu>
@@ -19739,6 +20299,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222254Z" creationid="miurahr" creationdate="20201117T222254Z">
         <seg>この値は、この海洋沿岸の町で樹木が住民に提供する、環境の利点の限り、非常に有利な状況を証明しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This variable will be the location where QGIS will look for the project file.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015619Z" creationid="miurahr" creationdate="20201118T015619Z">
+        <seg>この変数はQGISによってプロジェクトファイルが探される場所になります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19931,6 +20499,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135804Z" creationid="miurahr" creationdate="20201117T135804Z">
         <seg>これを実現するには、すべての地図要素の理想的な配置と構図を作成する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>To activate this option, the checkbox :guilabel:`Use layer ids as names` has to be selected.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T014911Z" creationid="miurahr" creationdate="20201118T014911Z">
+        <seg>このオプションを有効にするには、チェックボックス :guilabel:`レイヤーIDを名前として使用` を選択する必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20335,6 +20911,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Tolerance in pixels for line layers</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015044Z" creationid="miurahr" creationdate="20201118T015044Z">
+        <seg>ラインレイヤでの許容誤差（ピクセル）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Toolbars provide quick access to commonly used functions.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T134310Z" creationid="miurahr" creationdate="20201117T134310Z">
@@ -20439,6 +21023,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Transaction</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015251Z" creationid="miurahr" creationdate="20201118T015251Z">
+        <seg>トランザクション</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Transactions</seg>
       </tuv>
       <tuv lang="ja">
@@ -20459,6 +21051,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T133653Z" creationid="miurahr" creationdate="20201117T133528Z">
         <seg>翻訳は一種の修正とみなされているため、セクション4の条項に基づいてドキュメントの翻訳を配布できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Transparent background</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T014846Z" creationid="miurahr" creationdate="20201118T014846Z">
+        <seg>透明な背景</seg>
       </tuv>
     </tu>
     <tu>
@@ -21647,6 +22247,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Web Map Service (WMS)</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T014752Z" creationid="miurahr" creationdate="20201118T014752Z">
+        <seg>Web地図サービス (WMS)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Web-based maps are editing using Inkscape (after SVG export) and raster maps are pre-edited using GIMP.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T224816Z" creationid="miurahr" creationdate="20201117T224816Z">
@@ -22719,6 +23327,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You can define a **QGIS_PROJECT_FILE** as an environment variable to tell the server executable where to find the QGIS project file.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015613Z" creationid="miurahr" creationdate="20201118T015613Z">
+        <seg>QGISプロジェクトファイルをどこで検索するかをサーバーの実行可能ファイルに伝えるために、環境変数として **QGIS_PROJECT_FILE** を定義できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You can describe precisely where you are at any place on the earth by giving someone your Longitude (X) and Latitude (Y).</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140807Z" creationid="miurahr" creationdate="20201117T140807Z">
@@ -22835,6 +23451,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>テーブル内のすべてのデータを選択して、挿入アクションの結果を見ることができます:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can see there are several parameters in this request:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015630Z" creationid="miurahr" creationdate="20201118T015630Z">
+        <seg>このリクエストにはいくつかのパラメーターがあります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23759,6 +24383,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>``centroid``</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015330Z" creationid="miurahr" creationdate="20201118T015330Z">
+        <seg>``重心``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>``const LayerSet&amp; layers() const``</seg>
       </tuv>
       <tuv lang="ja">
@@ -23779,6 +24411,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>``currentExtent``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>``extent``</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015326Z" creationid="miurahr" creationdate="20201118T015326Z">
+        <seg>``範囲``</seg>
       </tuv>
     </tu>
     <tu>
@@ -23819,6 +24459,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>``mapCanvas``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>``none``</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015332Z" creationid="miurahr" creationdate="20201118T015332Z">
+        <seg>``なし``</seg>
       </tuv>
     </tu>
     <tu>
@@ -24007,6 +24655,30 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>information about layer order and drawing order</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015240Z" creationid="miurahr" creationdate="20201118T015240Z">
+        <seg>レイヤーの順序と描画順序に関する情報</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>information about vector attributes and their edit types</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015240Z" creationid="miurahr" creationdate="20201118T015240Z">
+        <seg>ベクターの属性とその編集タイプに関する情報</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>initial visibility of layers</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015238Z" creationid="miurahr" creationdate="20201118T015238Z">
+        <seg>レイヤーの初期可視性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>let's look at cities for example.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140746Z" creationid="miurahr" creationdate="20201117T140746Z">
@@ -24019,6 +24691,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>都市の道路網を示すライン</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>list of layers published in WFS</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015241Z" creationid="miurahr" creationdate="20201118T015241Z">
+        <seg>WFSに掲載されたレイヤのリスト</seg>
       </tuv>
     </tu>
     <tu>
