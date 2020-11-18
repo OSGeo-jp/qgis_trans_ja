@@ -70,6 +70,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>(capture cities in QGIS)</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T021101Z" creationid="miurahr" creationdate="20201118T021101Z">
+        <seg>（QGISで都市をキャプチャ）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>(in C++ it's possible to just delete the item, however in Python ``del r`` would just delete the reference and the object will still exist as it is owned by the canvas)</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T003554Z" creationid="miurahr" creationdate="20201118T003554Z">
@@ -1630,6 +1638,102 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>:ref:`Back to text &lt;backlink-database-concepts-1&gt;`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020922Z" creationid="miurahr" creationdate="20201118T020922Z">
+        <seg>:ref:`テキストに戻る&lt;backlink-database-concepts-1&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:ref:`Back to text &lt;backlink-database-concepts-2&gt;`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020937Z" creationid="miurahr" creationdate="20201118T020937Z">
+        <seg>:ref:`テキストに戻る&lt;backlink-database-concepts-2&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:ref:`Back to text &lt;backlink-database-concepts-3&gt;`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020949Z" creationid="miurahr" creationdate="20201118T020949Z">
+        <seg>:ref:`テキストに戻る&lt;backlink-database-concepts-3&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:ref:`Back to text &lt;backlink-database-concepts-4&gt;`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020956Z" creationid="miurahr" creationdate="20201118T020956Z">
+        <seg>:ref:`テキストへ戻る &lt;backlink-database-concepts-4&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:ref:`Back to text &lt;backlink-database-concepts-5&gt;`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T021006Z" creationid="miurahr" creationdate="20201118T021006Z">
+        <seg>:ref:`テキストへ戻る &lt;backlink-database-concepts-5&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:ref:`Back to text &lt;backlink-database-concepts-6&gt;`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T021012Z" creationid="miurahr" creationdate="20201118T021012Z">
+        <seg>:ref:`テキストへ戻る &lt;backlink-database-concepts-6&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:ref:`Back to text &lt;backlink-database-concepts-7&gt;`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T021026Z" creationid="miurahr" creationdate="20201118T021026Z">
+        <seg>:ref:`テキストへ 戻る&lt;backlink-database-concepts-7&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:ref:`Back to text &lt;backlink-database-concepts-8&gt;`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T021037Z" creationid="miurahr" creationdate="20201118T021037Z">
+        <seg>:ref:`テキストへ戻る &lt;backlink-database-concepts-8&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:ref:`Back to text &lt;backlink-geometry-1&gt;`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T021058Z" creationid="miurahr" creationdate="20201118T021058Z">
+        <seg>:ref:`テキストへ戻る &lt;backlink-geometry-1&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:ref:`Back to text &lt;backlink-geometry-2&gt;`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T021108Z" creationid="miurahr" creationdate="20201118T021108Z">
+        <seg>:ref:`テキストに戻る &lt;backlink-geometry-2&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:ref:`Back to text &lt;backlink-grass_add_to_mapset&gt;`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020859Z" creationid="miurahr" creationdate="20201118T020859Z">
+        <seg>:ref:`テキストに戻る &lt;backlink-grass_add_to_mapset&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:ref:`Back to text &lt;backlink-grass_reclass&gt;`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020914Z" creationid="miurahr" creationdate="20201118T020914Z">
+        <seg>:ref:`テキストに戻る &lt;backlink-grass_reclass&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>:ref:`Back to text &lt;backlink-interface-overview-1&gt;`</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T015705Z" creationid="miurahr" creationdate="20201118T015705Z">
@@ -1690,6 +1794,46 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T020427Z" creationid="miurahr" creationdate="20201118T020427Z">
         <seg>:ref:`テキストに戻る &lt;backlink-raster-analysis-2&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:ref:`Back to text &lt;backlink-simple-feature-1&gt;`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T021114Z" creationid="miurahr" creationdate="20201118T021114Z">
+        <seg>:ref:`テキストに戻る &lt;backlink-simple-feature-1&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:ref:`Back to text &lt;backlink-simple-feature-2&gt;`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T021117Z" creationid="miurahr" creationdate="20201118T021117Z">
+        <seg>:ref:`テキストに戻る &lt;backlink-simple-feature-2&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:ref:`Back to text &lt;backlink-simple-feature-3&gt;`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T021121Z" creationid="miurahr" creationdate="20201118T021121Z">
+        <seg>:ref:`テキストに戻る &lt;backlink-simple-feature-3&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:ref:`Back to text &lt;backlink-spatial-queries-1&gt;`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T021050Z" creationid="miurahr" creationdate="20201118T021050Z">
+        <seg>:ref:`テキストへ戻る &lt;backlink-spatial-queries-1&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:ref:`Back to text &lt;backlink-spatial-queries-2&gt;`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T021054Z" creationid="miurahr" creationdate="20201118T021054Z">
+        <seg>:ref:`テキストへ戻る &lt;backlink-spatial-queries-2&gt;`</seg>
       </tuv>
     </tu>
     <tu>
@@ -1782,6 +1926,30 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>:ref:`Back to text &lt;backlink-wms-1&gt;`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020707Z" creationid="miurahr" creationdate="20201118T020707Z">
+        <seg>:ref:`テキストに戻る&lt;backlink-wms-1&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:ref:`Back to text &lt;backlink-wms-2&gt;`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020714Z" creationid="miurahr" creationdate="20201118T020714Z">
+        <seg>:ref:`テキストに戻る &lt;backlink-wms-2&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:ref:`Back to text &lt;backlink-wms-3&gt;`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020851Z" creationid="miurahr" creationdate="20201118T020851Z">
+        <seg>:ref:`テキストに戻る &lt;backlink-wms-3&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>:ref:`Check your results &lt;complete-analysis-1&gt;`</seg>
       </tuv>
       <tuv lang="ja">
@@ -1850,6 +2018,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>:ref:`結果をチェック&lt;database-concepts-3&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:ref:`Check your results &lt;database-concepts-4&gt;`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T021523Z" creationid="miurahr" creationdate="20201118T021523Z">
+        <seg>:ref:`結果をチェック &lt;database-concepts-4&gt;`</seg>
       </tuv>
     </tu>
     <tu>
@@ -3431,6 +3607,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>An ER Diagram to represent this would look like this:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020947Z" creationid="miurahr" creationdate="20201118T020947Z">
+        <seg>これを表現するER図は次のようになります：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>An MMC is "eligible for relicensing" if it is licensed under this License, and if all works that were first published under this License somewhere other than this MMC, and subsequently incorporated in whole or in part into the MMC, (1) had no cover texts or invariant sections, and (2) were thus incorporated prior to November 1, 2008.</seg>
       </tuv>
       <tuv lang="ja">
@@ -3451,6 +3635,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141614Z" creationid="miurahr" creationdate="20201117T141614Z">
         <seg>簡単なセクションは :kbd:`|basic|` 、適度は :kbd:`|moderate|` 、および上級は :kbd:`|hard|` で表されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>An example of a WMS server that worked at the time of writing is the :guilabel:`World Mineral Deposits` WMS at http://apps1.gdr.nrcan.gc.ca/cgi-bin/worldmin_en-ca_ows.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020805Z" creationid="miurahr" creationdate="20201118T020805Z">
+        <seg>執筆の時点で稼働していたWMSサーバーの例は `http://apps1.gdr.nrcan.gc.ca/cgi-bin/worldmin_en-ca_ows` で :guilabel:`世界鉱物鉱床` WMS です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3947,6 +4139,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150345Z" creationid="miurahr" creationdate="20201117T150345Z">
         <seg>はじめの :kbd:`create view roads_count_v as` の部分だけが異なります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>As you can see, our constraint allows nulls to be added into the database.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T021120Z" creationid="miurahr" creationdate="20201118T021120Z">
+        <seg>ご覧のとおり、私たちの制限ではデータベースへの null の追加を認めています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4791,6 +4991,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>By storing all these properties in one field, we make it much harder to update and query our data.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020930Z" creationid="miurahr" creationdate="20201118T020930Z">
+        <seg>すべてのこれらの特性を1つのフィールド内に格納することで、データの更新と照会をはるかに困難にしています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>By using QGIS to combine the hazard polygons from earlier surveys with highly accurate aerial photography provided by the USGS, discrepancies can be noted –-- e.g. where the polygons do not match the shape of the buildings, as evident in the northwest part of the campus --- which can direct survey teams to places to first conduct a more accurate re-survey.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T062619Z" creationid="miurahr" creationdate="20201117T062619Z">
@@ -5315,6 +5523,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T020411Z" creationid="miurahr" creationdate="20201118T020411Z">
         <seg>:guilabel:`実行` をクリックし、ダイアログを閉じます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Click on :guilabel:`Run` and then on :guilabel:`View Output`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020912Z" creationid="miurahr" creationdate="20201118T020912Z">
+        <seg>:guilabel:`実行` をクリックしてから :guilabel:`結果を見る` をクリックしてください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7079,6 +7295,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Even though we're not seeing :kbd:`Main Road` written out fully in the entry above, the database will be able to associate that with the :kbd:`street_id` value of :kbd:`2`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T021021Z" creationid="miurahr" creationdate="20201118T021021Z">
+        <seg>私たちが上記のエントリで完全に書き出された :kbd:`主要道路` を見ていないにもかかわらず、データベースはそれを :kbd:`2` という :kbd:`street_id` 値を持つものと関連付けできるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Every month training is conducted with 20-30 participants so this number is increasing every month.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T225628Z" creationid="miurahr" creationdate="20201117T225628Z">
@@ -8063,6 +8287,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>For illustration purposes, we have purposely omitted the fkey constraint.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020955Z" creationid="miurahr" creationdate="20201118T020955Z">
+        <seg>説明のために、FKEY制約は意図的に省略しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>For instance:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T091934Z" creationid="miurahr" creationdate="20201117T091934Z">
@@ -8107,6 +8339,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T145654Z" creationid="miurahr" creationdate="20201117T145654Z">
         <seg>現在の例では、デジタル化のアプローチを使用しているでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For our theoretical address table, we might want to store the following properties::</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020919Z" creationid="miurahr" creationdate="20201118T020919Z">
+        <seg>理論上の住所テーブルのために、次のプロパティを保存したい場合があります::</seg>
       </tuv>
     </tu>
     <tu>
@@ -8967,6 +9207,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Help</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T021500Z" creationid="miurahr" creationdate="20201118T021500Z">
+        <seg>ヘルプ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Her goal is to continue her studies and become a nurse.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123233Z" creationid="miurahr" creationdate="20201117T123233Z">
@@ -9043,6 +9291,22 @@
       </tuv>
       <tuv lang="ja">
         <seg>これは :kbd:`house_no` が50未満であるオブジェクトのみを返す数値フィルタの例です:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Here is the correct SQL statement you should use::</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T021029Z" creationid="miurahr" creationdate="20201118T021029Z">
+        <seg>これが使用すべき正しいSQL文です::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Here is the correct SQL statement::</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T021015Z" creationid="miurahr" creationdate="20201118T021015Z">
+        <seg>これが正しいSQL文です::</seg>
       </tuv>
     </tu>
     <tu>
@@ -9887,6 +10151,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If you have already added a new :kbd:`street` object, you might find that the new :kbd:`Main Road` has an ID of :kbd:`3` not :kbd:`2`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T021024Z" creationid="miurahr" creationdate="20201118T021024Z">
+        <seg>すでに新しい :kbd:`street` オブジェクトを追加している場合、新しい :kbd:`主要道路` のIDは :kbd:`2` でなく :kbd:`3` だったということがあるかもしれません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If you have poor quality vector data, you can often detect this when viewing the data in a GIS.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141113Z" creationid="miurahr" creationdate="20201117T141113Z">
@@ -9915,6 +10187,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135746Z" creationid="miurahr" creationdate="20201117T135746Z">
         <seg>自分の町の地形図を見る場合、いつだれによって地図が作成されたか知っておくと便利でしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If you look at the streets table again (using a select statement as before), you'll see that the :kbd:`id` for the :kbd:`Main Road` entry is :kbd:`2`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T021018Z" creationid="miurahr" creationdate="20201118T021018Z">
+        <seg>街路テーブルを再び（以前のようにselect文を使用して）見ると、 :kbd:`主要道路` エントリのための :kbd:`id` は :kbd:`2` であることがわかるでしょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10095,10 +10375,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If you zoom into the |majorUrbanName| area, you'll notice that this dataset has a low resolution:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020712Z" creationid="miurahr" creationdate="20201118T020712Z">
+        <seg>|majorUrbanName| 領域にズームインした場合、このデータセットは低解像度を持っていることに気づくでしょう：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If you're done making changes, skip to :ref:`Compare changes &lt;compare_changes&gt;` in the :ref:`Share your changes via Pull Request &lt;sharing_changes&gt;` section below.</seg>
       </tuv>
       <tuv lang="ja">
         <seg>すべての変更が終わったら、下の :ref:`プルリクエストで変更をシェアする &lt;sharing_changes&gt;` のセクションの、 :ref:`変更を比較 &lt;compare_changes&gt;` にスキップしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If you're getting the following error message:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T021103Z" creationid="miurahr" creationdate="20201118T021103Z">
+        <seg>次のエラーメッセージが出ている場合：</seg>
       </tuv>
     </tu>
     <tu>
@@ -10999,6 +11295,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In the next section, you will learn about Foreign Key relationships which could be used in this example to further improve our database's structure.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020935Z" creationid="miurahr" creationdate="20201118T020935Z">
+        <seg>次のセクションでは外部キー関係について学びます。それはこの例においてデータベースの構造をさらに改善するために使用できるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In the next step, create a rule that logs every change of a phone_no in the people table into the people_log table:</seg>
       </tuv>
       <tuv lang="ja">
@@ -11575,6 +11879,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>It does not require fees or have access constraints, and it is global.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020807Z" creationid="miurahr" creationdate="20201118T020807Z">
+        <seg>これは、手数料を必要とせず、アクセス制限もなく、全世界的です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>It has 28,000 students studying both on and off campus.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222412Z" creationid="miurahr" creationdate="20201117T222402Z">
@@ -11683,6 +11995,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T215846Z" creationid="miurahr" creationdate="20201117T215846Z">
         <seg>その地域についての以前の情報は何年も前にアナログで（つまり紙で）集めた、あるいはおそらくそれはデジタル化されたが残されているのはその調査データの紙版しかない、といったことがよくありそうです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It is possible to 'force' the `streets` table to be deleted by using the `CASCADE` command, but this would also delete the `people` and any other table which had a relationship to the `streets` table.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T021003Z" creationid="miurahr" creationdate="20201118T021003Z">
+        <seg>`CASCADE` コマンドを使用して `streets` テーブルを強制的に削除することは可能ですが、これは `people` と `streets` テーブルへの関係づけられていた他のテーブルも削除します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11927,6 +12247,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Just check the entries in your cities table and use any :kbd:`id` which exists.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T021107Z" creationid="miurahr" creationdate="20201118T021107Z">
+        <seg>都市テーブルのエントリをチェックして、何らかの存在する :kbd:`id` を使用するだけです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Just choose the feature which has an :guilabel:`OGC_FID`.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T020325Z" creationid="miurahr" creationdate="20201118T020325Z">
@@ -11955,6 +12283,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T062948Z" creationid="miurahr" creationdate="20201117T062629Z">
         <seg>カブール大学のキャンパスは危険が疑われる区域で汚染されています---静止空気投下爆弾または類似した兵器で構成すると考えられます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Keep in mind, however, that this is merely an example.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020846Z" creationid="miurahr" creationdate="20201118T020830Z">
+        <seg>ただし、これは単なる例であること、</seg>
       </tuv>
     </tu>
     <tu>
@@ -14271,6 +14607,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>One way to further normalise the table is to split the name field into *first_name* and *last_name*::</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020943Z" creationid="miurahr" creationdate="20201118T020943Z">
+        <seg>テーブルをさらに正規化する一つの方法は、名前のフィールドを *姓* と *名* に分割することです::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Only one passage of Front-Cover Text and one of Back-Cover Text may be added by (or through arrangements made by) any one entity.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124833Z" creationid="miurahr" creationdate="20201117T124806Z">
@@ -14307,6 +14651,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T145616Z" creationid="miurahr" creationdate="20201117T145616Z">
         <seg>QGISを開き、新しい空のプロジェクトを作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Open a text editor and add the following rules::</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020907Z" creationid="miurahr" creationdate="20201118T020907Z">
+        <seg>テキストエディタを開き、以下の規則を追加します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14627,6 +14979,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>この `people` モデルにはまだいくつかの正規化の問題があります - さらに正規化して、ER図を用いて自分の考えを示すことができるかどうか確認してみてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Our `people` table currently looks like this::</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020940Z" creationid="miurahr" creationdate="20201118T020940Z">
+        <seg>`people` テーブルは現在はこのようになっています::</seg>
       </tuv>
     </tu>
     <tu>
@@ -16047,6 +16407,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Remember that when you write a query, you need to know which units the layer's CRS is in.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T021048Z" creationid="miurahr" creationdate="20201118T021048Z">
+        <seg>クエリを書くときはレイヤーのCRSがどの単位かを知る必要があることを忘れないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Remember to change the "what's next" section of the previous lesson if necessary, so that it refers to your new lesson.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141625Z" creationid="miurahr" creationdate="20201117T141625Z">
@@ -16163,6 +16531,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>結果:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Result::</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T021032Z" creationid="miurahr" creationdate="20201118T021032Z">
+        <seg>結果：：</seg>
       </tuv>
     </tu>
     <tu>
@@ -16323,6 +16699,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>ルールを使用すると、データベースの他の部分の変更を反映するために、自動的にデータベース内でデータを追加または変更できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Run the :kbd:`r.reclass` tool, choose the :kbd:`g_dem` layer and load the file containing the rules you just have saved.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020910Z" creationid="miurahr" creationdate="20201118T020910Z">
+        <seg>:kbd:`r.reclass` ツールを実行し、 :kbd:`g_dem` レイヤーを選択して先ほど保存したルールを含むファイルをロードしてください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17239,6 +17623,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Sometimes this is temporary, sometimes it is permanent.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020746Z" creationid="miurahr" creationdate="20201118T020746Z">
+        <seg>これは、時には一時的で、時には永続的です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Sometimes using a low spatial resolution is useful when you want to work with a large area and are not interested in looking at any one area in a lot of detail.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140300Z" creationid="miurahr" creationdate="20201117T140300Z">
@@ -17855,6 +18247,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>That's why we could merely enter the number :kbd:`2` above.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T021020Z" creationid="miurahr" creationdate="20201118T021020Z">
+        <seg>だから上では数 :kbd:`2` を入力するしかできなかったでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The "**Cover Texts**" are certain short passages of text that are listed, as Front-Cover Texts or Back-Cover Texts, in the notice that says that the Document is released under this License.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124414Z" creationid="miurahr" creationdate="20201117T124414Z">
@@ -17983,10 +18383,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The :kbd:`street_id` column represents a 'one to many' relationship between the `people` object and the related `street` object, which is in the `streets` table.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020942Z" creationid="miurahr" creationdate="20201118T020942Z">
+        <seg>:kbd:`street_id` 列は `people` オブジェクトと関係づけられた `street` オブジェクト（ `streets` テーブルの中）の間の「1対多」関係を表します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The Atlas coverage is just a vector layer that will be used to generate the detail maps, one map for every feature in the coverage.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T215705Z" creationid="miurahr" creationdate="20201117T215705Z">
         <seg>地図帳カバレッジは、カバレッジ内のすべての地物に対して1枚の地図という詳細地図を作成するために使用される、ただのベクターレイヤーです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The Blue Marble data is more suitable at global or national scales.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020714Z" creationid="miurahr" creationdate="20201118T020714Z">
+        <seg>ブルーマーブルデータは、グローバルまたは全国規模での方が適しています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18283,6 +18699,22 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T091932Z" creationid="miurahr" creationdate="20201117T091932Z">
         <seg>SIP ファイルはそのための専用スクリプトを使って生成することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The SQL command you should use looks like this (you can replace the street name with a name of your choice)::</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T021010Z" creationid="miurahr" creationdate="20201118T021010Z">
+        <seg>使用する必要があるSQLコマンドは、（選択した名前を持つ通りの名前を置き換えできます）、このようになります::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The SQL required to create the correct people table is::</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020952Z" creationid="miurahr" creationdate="20201118T020952Z">
+        <seg>正しい人々テーブルを作成するために必要なSQLは::</seg>
       </tuv>
     </tu>
     <tu>
@@ -19199,6 +19631,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The major problem with the `people` table is that there is a single address field which contains a person's entire address.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020926Z" creationid="miurahr" creationdate="20201118T020926Z">
+        <seg>`people` テーブルの大きな問題は、人の住所全体を含んでいる単一の住所フィールドが存在することです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The map body is, of course, the most important part of the map because it contains the map information.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135648Z" creationid="miurahr" creationdate="20201117T135648Z">
@@ -19607,6 +20047,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The reason the DROP command would not work in this case is because the `people` table has a Foreign Key constraint to the `streets` table.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T021000Z" creationid="miurahr" creationdate="20201118T021000Z">
+        <seg>`people` テーブルは `streets` テーブルへの外部キー制約があるため、DROPコマンドは、このケースでは動作しない理由があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The recoded grid was then converted to a vector polygon dataset and the snow covered areas were extracted (shown below, Map 1.5 - Extracted snow).</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222548Z" creationid="miurahr" creationdate="20201117T222548Z">
@@ -19699,6 +20147,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135720Z" creationid="miurahr" creationdate="20201117T135720Z">
         <seg>地図の縮尺は、実世界における距離を表す、地図上の距離の単一単位の値です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The schema for the table (enter :kbd:`\\d people`) looks like this::</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020953Z" creationid="miurahr" creationdate="20201118T020953Z">
+        <seg>テーブルのスキーマは（:kbd:`\\d people` と入力します）このようになります::</seg>
       </tuv>
     </tu>
     <tu>
@@ -20143,6 +20599,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>There are many other WMS servers to choose from.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020848Z" creationid="miurahr" creationdate="20201118T020848Z">
+        <seg>選択するためのWMSサーバーは他にもたくさんあることをお忘れなく。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>There are many satellites circling the earth and the photographs they take are a kind of raster data that can be viewed in a GIS.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135133Z" creationid="miurahr" creationdate="20201117T135133Z">
@@ -20171,6 +20635,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>セクションは2種類あります。「この通りに従ってください」と「自分でやってみよう」。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>There are two ways to do this:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T021529Z" creationid="miurahr" creationdate="20201118T021529Z">
+        <seg>これを行うには2つの方法があります：</seg>
       </tuv>
     </tu>
     <tu>
@@ -20259,6 +20731,22 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T225342Z" creationid="miurahr" creationdate="20201117T225326Z">
         <seg>それゆえ私たちは研究所、大学、官庁、企業にQGISを使って何らかのプロジェクトで問題を解決できたことがあるか尋ねています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Therefore, it does satisfy the requirements.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020825Z" creationid="miurahr" creationdate="20201118T020825Z">
+        <seg>したがって、まさに要件を満たしています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Therefore, it's better not to use this data for the current map.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020713Z" creationid="miurahr" creationdate="20201118T020713Z">
+        <seg>したがって、現在の地図にこのデータを使用しない方が良いです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20467,6 +20955,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T134936Z" creationid="miurahr" creationdate="20201117T134936Z">
         <seg>医療関係者についての例では, 以下のような症例リストを作りました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Thinking about our theoretical `address` table earlier in this lesson, we know that an address is made up of many different properties.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020927Z" creationid="miurahr" creationdate="20201118T020927Z">
+        <seg>以前このレッスンで理論的 `address` テーブルを考えると、住所は多くの異なる特性で構成されていることがわかります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20959,6 +21455,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This means that dropping (or deleting) the `streets` table would leave the `people` table with references to non-existent `streets` data.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T021002Z" creationid="miurahr" creationdate="20201118T021002Z">
+        <seg>これは、 `streets` テーブルをドロップする（または削除する）と、存在しない `streets` データへの参照が `people` テーブルに残ることを意味します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This means that no valid person can be created without there also being a valid corresponding street record.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150111Z" creationid="miurahr" creationdate="20201117T150111Z">
@@ -20995,6 +21499,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141651Z" creationid="miurahr" creationdate="20201117T141651Z">
         <seg>これは以下の形を取る必要がありますの :kbd:`この[モジュール/レッスン/セクション]は[著者名]による寄稿です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This needs to be done whenever the field name is ambiguous (i.e. not unique across all tables in the database).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T021035Z" creationid="miurahr" creationdate="20201118T021035Z">
+        <seg>フィールド名があいまいな（つまり、データベース内のすべてのテーブル間で一意ではない）時はいつでもこれが行われる必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21223,6 +21735,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This will allow you to write a query that will return the results that you expect.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T021049Z" creationid="miurahr" creationdate="20201118T021049Z">
+        <seg>これにより期待する結果が返されるクエリを記述できるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This will also be automatically tested on Travis as a unit test of the script itself.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T092010Z" creationid="miurahr" creationdate="20201117T092010Z">
@@ -21283,6 +21803,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>これにより：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This would give us a table which has the following structure::</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020933Z" creationid="miurahr" creationdate="20201118T020933Z">
+        <seg>これは、次のような構造を持つテーブルになるでしょう::</seg>
       </tuv>
     </tu>
     <tu>
@@ -21611,6 +22139,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T020458Z" creationid="miurahr" creationdate="20201118T020458Z">
         <seg>証明するために：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>To discover the maximum value of the raster run the :kbd:`r.info` tool: in the console you will see that the maximum value is 1699.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020904Z" creationid="miurahr" creationdate="20201118T020904Z">
+        <seg>ラスタの最大値を知るには、コンソールで :kbd:`r.info` ツールを実行してください：最大値は1699です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22407,6 +22943,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Use the same approach as before to add the new server and the appropriate layer as hosted on that server:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020711Z" creationid="miurahr" creationdate="20201118T020711Z">
+        <seg>新しいサーバーとそのサーバー上でホストされているように、適切なレイヤーを追加する前と同じアプローチを使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Use the skills you have learned to add some new friends to your database:</seg>
       </tuv>
       <tuv lang="ja">
@@ -22459,6 +23003,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141626Z" creationid="miurahr" creationdate="20201117T141626Z">
         <seg>これは控えめに使用！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Use with caution!</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T021005Z" creationid="miurahr" creationdate="20201118T021005Z">
+        <seg>注意して使用してください！</seg>
       </tuv>
     </tu>
     <tu>
@@ -23015,6 +23567,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>We can also create separate tables for the town or city name and country, linking them to our `people` table via 'one to many' relationships::</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020945Z" creationid="miurahr" creationdate="20201118T020945Z">
+        <seg>また、町名や都市名と国に対して別々のテーブルを作成し、「1対多」関係を介して私たちの `people` テーブルにそれらをリンクできます::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>We can now select data from that view:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150346Z" creationid="miurahr" creationdate="20201117T150346Z">
@@ -23203,6 +23763,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222248Z" creationid="miurahr" creationdate="20201117T222248Z">
         <seg>私たちは、Google Earthの衛星画像を使用して地籍ブロックと緑地（樹冠）をデジタル化、観察（目録）によって開始されました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>We therefore need to split the address field into the various properties.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020931Z" creationid="miurahr" creationdate="20201118T020931Z">
+        <seg>そこで、住所フィールドを様々な特性に分割する必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23435,6 +24003,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150246Z" creationid="miurahr" creationdate="20201117T150246Z">
         <seg>データベース内のデータを追加、変更、または削除するときは、何か問題が生じた場合にデータベースを良好な状態に保つことが常に重要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>When creating the table to represent an address object, we would create columns to represent each of these properties and we would name them with SQL-compliant and possibly shortened names::</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020920Z" creationid="miurahr" creationdate="20201118T020920Z">
+        <seg>住所オブジェクトを表すテーブルを作成するときは、これらのプロパティのそれぞれを表現する列を作成し、それらにSQL準拠していておそらく短縮した名前で名前を付けるでしょう::</seg>
       </tuv>
     </tu>
     <tu>
@@ -24263,10 +24839,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You are now ready to write the rules.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020906Z" creationid="miurahr" creationdate="20201118T020906Z">
+        <seg>これで規則を書く準備が整いました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You can add comment on other fields from these two records, if you like.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T015953Z" creationid="miurahr" creationdate="20201118T015953Z">
         <seg>必要に応じて、これら2つのレコードから他のフィールドにコメントを追加できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can add layers (both vector and raster) into a GRASS Mapset by drag and drop them in the Browser (see :ref:`grass_browser`) or by using the ``v.in.gdal.qgis`` for vector and ``r.in.gdal.qgis`` for raster layers.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020858Z" creationid="miurahr" creationdate="20201118T020858Z">
+        <seg>ブラウザにドラッグアンドドロップするか（ :ref:`grass_browser` を参照）、またはvectorに ``v.in.gdal.qgis`` を使うことでGRASS Mapsetにレイヤ（ベクタとラスタの両方）を追加できます。ラスタレイヤの場合は `r.in.gdal.qgis` です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24331,6 +24923,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>:guilabel:`基本統計` ツールを使用して、ベクターレイヤー内のフィールドの平均値を計算できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can change the colors and the final result should look like the following picture:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020913Z" creationid="miurahr" creationdate="20201118T020913Z">
+        <seg>色が変更でき、最終結果は次の図のようになります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24799,6 +25399,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You may notice that many WMS servers are not always available.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020731Z" creationid="miurahr" creationdate="20201118T020731Z">
+        <seg>多くのWMSサーバーが常に利用可能ではないことに気づくことがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You may omit a network location for a work that was published at least four years before the Document itself, or if the original publisher of the version it refers to gives permission.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124730Z" creationid="miurahr" creationdate="20201117T124730Z">
@@ -25031,6 +25639,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You will notice that we have prefixed field names with table names (e.g. people.name and streets.name).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T021033Z" creationid="miurahr" creationdate="20201118T021033Z">
+        <seg>テーブル名をフィールド名の接頭辞にしていることに気づくでしょう（例えばpeople.nameとstreets.name）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You will see that we have added an :kbd:`ORDER BY` clause so that our view rows are nicely sorted:</seg>
       </tuv>
       <tuv lang="ja">
@@ -25115,6 +25731,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T015724Z" creationid="miurahr" creationdate="20201118T015724Z">
         <seg>地図にはレイヤが７つあるはずです:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Your map should look like this (you may need to re-order the layers):</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020705Z" creationid="miurahr" creationdate="20201118T020705Z">
+        <seg>地図は次のようになります（レイヤーを整列し直す必要があるかもしれません）：</seg>
       </tuv>
     </tu>
     <tu>
@@ -25919,10 +26543,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>save the file as a ``my_rules.txt`` file and close the text editor.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020908Z" creationid="miurahr" creationdate="20201118T020908Z">
+        <seg>ファイルを ``my_rules.txt`` ファイルとして保存してテキストエディタを閉じます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>the :kbd:`WHERE` statement criteria are case sensitive :kbd:`Main Road` is not the same as :kbd:`Main road`</seg>
       </tuv>
       <tuv lang="ja">
         <seg>:kbd:`WHERE` 文の基準では大文字と小文字が区別されます。:kbd:`Main Road` は :kbd:`Main road` と同じではありません</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>then it means that while experimenting with creating polygons for the cities table, you must have deleted some of them and started over.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T021105Z" creationid="miurahr" creationdate="20201118T021105Z">
+        <seg>そのときは都市テーブルのポリゴンを作成して実験している間、それらのいくつかを削除してやり直してしまっていることを意味します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26215,6 +26855,30 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>|RF| *Database Concepts*</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020916Z" creationid="miurahr" creationdate="20201118T020916Z">
+        <seg>|RF| *データベースの概念*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|RF| *GRASS Integration*</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020853Z" creationid="miurahr" creationdate="20201118T020853Z">
+        <seg>|RF| *GRASS統合*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|RF| *Geometry Construction*</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T021055Z" creationid="miurahr" creationdate="20201118T021055Z">
+        <seg>|RF| *ジオメトリ構築*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>|RF| *Network Analysis*</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T020407Z" creationid="miurahr" creationdate="20201118T020407Z">
@@ -26227,6 +26891,22 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T020415Z" creationid="miurahr" creationdate="20201118T020415Z">
         <seg>|RF| *ラスター分析*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|RF| *Simple Feature Model*</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T021110Z" creationid="miurahr" creationdate="20201118T021110Z">
+        <seg>|RF| *簡易地物モデル*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|RF| *Spatial Queries*</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T021038Z" creationid="miurahr" creationdate="20201118T021038Z">
+        <seg>|RF| *空間クエリ*</seg>
       </tuv>
     </tu>
     <tu>
@@ -26279,6 +26959,30 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>|basic| *Add Layers to Mapset*</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020855Z" creationid="miurahr" creationdate="20201118T020855Z">
+        <seg>|basic| *マップセットにレイヤを追加*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|basic| *Adding Another WMS Layer*</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020703Z" creationid="miurahr" creationdate="20201118T020703Z">
+        <seg>|basic|  *別のWMSレイヤーを追加します*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|basic| *Address Table Properties*</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020917Z" creationid="miurahr" creationdate="20201118T020917Z">
+        <seg>|basic| *住所テーブルのプロパティ*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>|basic| *Calculate Aspect*</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T020415Z" creationid="miurahr" creationdate="20201118T020415Z">
@@ -26291,6 +26995,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T015735Z" creationid="miurahr" creationdate="20201118T015735Z">
         <seg>|basic| *色*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|basic| *Creating a Spatial Index*</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T021052Z" creationid="miurahr" creationdate="20201118T021052Z">
+        <seg>|basic|  *空間索引を作成する*</seg>
       </tuv>
     </tu>
     <tu>
@@ -26327,6 +27039,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>|basic| *Insert a New Street*</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T021008Z" creationid="miurahr" creationdate="20201118T021008Z">
+        <seg>|basic| *新しい街路を挿入*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|basic| *Normalising the People Table*</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020924Z" creationid="miurahr" creationdate="20201118T020924Z">
+        <seg>|basic| *People（人々）テーブルを正規化する*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>|basic| *Overview* (Part 1)</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T015703Z" creationid="miurahr" creationdate="20201118T015703Z">
@@ -26355,6 +27083,22 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T015742Z" creationid="miurahr" creationdate="20201118T015742Z">
         <seg>|basic| *シンボルの構造*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|basic| *The DROP Command*</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020958Z" creationid="miurahr" creationdate="20201118T020958Z">
+        <seg>|basic|  *DROPコマンド*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|basic| *The Units Used in Spatial Queries*</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T021040Z" creationid="miurahr" creationdate="20201118T021040Z">
+        <seg>|basic| *空間クエリで使用される単位*</seg>
       </tuv>
     </tu>
     <tu>
@@ -26567,6 +27311,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>|hard| *Adding Geometry*</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T021118Z" creationid="miurahr" creationdate="20201118T021118Z">
+        <seg>|hard| *ジオメトリを追加する*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>|hard| *Geometry generator symbology*</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T015806Z" creationid="miurahr" creationdate="20201118T015806Z">
@@ -26663,10 +27415,42 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>|moderate| *Add a New Person With Foreign Key Relationship*</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T021014Z" creationid="miurahr" creationdate="20201118T021014Z">
+        <seg>|moderate| *外部キー関係に新しい人を追加*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|moderate| *Adding a New WMS Server*</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020709Z" creationid="miurahr" creationdate="20201118T020709Z">
+        <seg>|moderate|  *新しいWMSサーバーの追加*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>|moderate| *Calculate Slope (less than 2 and 5 degrees)*</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T020420Z" creationid="miurahr" creationdate="20201118T020420Z">
         <seg>|moderate| *傾斜を計算 (2度と5度未満)*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|moderate| *Create a People Table*</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020950Z" creationid="miurahr" creationdate="20201118T020950Z">
+        <seg>|moderate| *人々テーブルを作成します*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|moderate| *Creating Linestrings*</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T021057Z" creationid="miurahr" creationdate="20201118T021057Z">
+        <seg>|moderate| *ラインストリングを作成する*</seg>
       </tuv>
     </tu>
     <tu>
@@ -26679,10 +27463,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>|moderate| *Finding a WMS Server*</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020715Z" creationid="miurahr" creationdate="20201118T020715Z">
+        <seg>|moderate|  *WMSサーバーの検索*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>|moderate| *Forms*</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T020329Z" creationid="miurahr" creationdate="20201118T020329Z">
         <seg>|moderate| *フォーム*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|moderate| *Further Normalisation of the People Table*</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020938Z" creationid="miurahr" creationdate="20201118T020938Z">
+        <seg>|moderate| *人々テーブルのさらなる正規化*</seg>
       </tuv>
     </tu>
     <tu>
@@ -26711,6 +27511,30 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>|moderate| *Linking Tables*</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T021100Z" creationid="miurahr" creationdate="20201118T021100Z">
+        <seg>|moderate| *テーブルをリンクする*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|moderate| *Populate the Geometry_Columns Table*</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T021115Z" creationid="miurahr" creationdate="20201118T021115Z">
+        <seg>|moderate| *GEOMETRY_COLUMNS表を投入*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|moderate| *Populating Tables*</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T021112Z" creationid="miurahr" creationdate="20201118T021112Z">
+        <seg>|moderate|  *表を投入*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>|moderate| *Raster to Vector*</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T020429Z" creationid="miurahr" creationdate="20201118T020429Z">
@@ -26731,6 +27555,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T020451Z" creationid="miurahr" creationdate="20201118T020451Z">
         <seg>|moderate| *分析を改善する*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|moderate| *Return Street Names*</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T021028Z" creationid="miurahr" creationdate="20201118T021028Z">
+        <seg>|moderate| *街路名を返す*</seg>
       </tuv>
     </tu>
     <tu>
