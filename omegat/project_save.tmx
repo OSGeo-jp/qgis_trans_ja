@@ -184,8 +184,8 @@
       <tuv lang="en-US">
         <seg>**CORE DEVS: DO NOT DO THIS ON THE QGIS PUBLIC REPOSITORY!**</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201118T215610Z" creationid="miurahr" creationdate="20201118T215610Z">
-        <seg> **CORE DEVS：QGIS公開リポジトリ上でこれ​​をしないでください！**</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T234255Z" creationid="miurahr" creationdate="20201118T215610Z">
+        <seg> **CORE DEVS：QGIS公開リポジトリ上では、強制プッシュは禁止です！**</seg>
       </tuv>
     </tu>
     <tu>
@@ -26497,8 +26497,8 @@
       <tuv lang="en-US">
         <seg>Please bear in mind that the QGIS project is driven by volunteer effort and people may not be able to attend to your PR instantaneously.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201118T224023Z" creationid="miurahr" creationdate="20201118T224023Z">
-        <seg>QGISプロジェクトはボランティアの努力によって運営され、人々が瞬時にPRに出席できないかもしれないことを心に留めておいてください。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T233732Z" creationid="miurahr" creationdate="20201118T224023Z">
+        <seg>QGISプロジェクトはボランティアの努力によって運営されているため、瞬時にはPRに反応できないことを、心に留めておいてください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27099,8 +27099,8 @@ Generated-By: Babel 2.8.0</seg>
       <tuv lang="en-US">
         <seg>Pull Requests</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201118T232959Z" creationid="miurahr" creationdate="20201118T215501Z">
-        <seg>プルリクエスト</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T233811Z" creationid="miurahr" creationdate="20201118T215501Z">
+        <seg>プルリクエスト(略称PR)</seg>
       </tuv>
     </tu>
     <tu>
@@ -29619,8 +29619,8 @@ Generated-By: Babel 2.8.0</seg>
       <tuv lang="en-US">
         <seg>Send a message to Marco Hugentobler (who manages the PR queue).</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201118T215534Z" creationid="miurahr" creationdate="20201118T215534Z">
-        <seg>（PRキューを管理している）マルコ・ヒュージェントブラーにメッセージを送信します。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T233950Z" creationid="miurahr" creationdate="20201118T215534Z">
+        <seg>（PRキューを管理している）マルコ・ヒュージェントブラーさんにメッセージを送信します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -29635,16 +29635,16 @@ Generated-By: Babel 2.8.0</seg>
       <tuv lang="en-US">
         <seg>Send a message to the person your PR has been assigned to in the PR queue.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201118T215532Z" creationid="miurahr" creationdate="20201118T215532Z">
-        <seg>PRキュー内であなたのPRが割り当てられている人にメッセージを送信します。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T233927Z" creationid="miurahr" creationdate="20201118T215532Z">
+        <seg>プルリクエストの議論スレッドで、提案したPRを担当として割り当てられた人にメッセージを送信します。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Send a message to the project steering committee asking them to help see your PR incorporated into the code base.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201118T215535Z" creationid="miurahr" creationdate="20201118T215535Z">
-        <seg>プロジェクトの運営委員会にメッセージを送信し、あなたのPRがコードベースに組み込まれるのを見るのを助けるよう求めます。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T234145Z" creationid="miurahr" creationdate="20201118T215535Z">
+        <seg>プロジェクトの運営委員会にメッセージを送信し、あなたのPRがコードベースに組み込まれるように支援を依頼します。</seg>
       </tuv>
     </tu>
     <tu>
