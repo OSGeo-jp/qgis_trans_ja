@@ -4814,6 +4814,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Algorithm Context</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T224710Z" creationid="miurahr" creationdate="20201118T224710Z">
+        <seg>アルゴリズムのコンテキスト</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Algorithm tests</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T224613Z" creationid="miurahr" creationdate="20201118T224613Z">
+        <seg>アルゴリズムのテスト</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Algorithms follow the following simple rules when using a vector layer.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T101257Z" creationid="miurahr" creationdate="20201118T101257Z">
@@ -6015,6 +6031,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>As mentioned above, we cannot run QGIS from directly in the build directly, so we need to create a custom run target to tell QtCreator to run QGIS from the install dir (in my case ``/usr/local/``). To do that, return to the projects configuration screen.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T224739Z" creationid="miurahr" creationdate="20201118T224739Z">
+        <seg>前述したように、直接ビルドに直接からQGISを実行できませんので、インストールディレクトリ（私の場合は、``/usr/local/`` で）からQGISを実行するためにQtCreatorを伝えるために、カスタムの実行ターゲットを作成する必要があります。これを行うには、プロジェクトの設定画面に戻ります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>As mentioned in :ref:`GetMap parameters table &lt;qgisserver-wms-getmap&gt;`, ``MAP`` is mandatory because a request needs a QGIS project to actually work.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T014957Z" creationid="miurahr" creationdate="20201118T014957Z">
@@ -6035,6 +6059,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T220349Z" creationid="miurahr" creationdate="20201118T220349Z">
         <seg>2007年11月の時点で、私たちはマスターに入るすべての新機能は、ユニットテストを伴うことを要求しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>As of November 2007 we require all new features going into master to be accompanied with a unit test. Initially we have limited this requirement to qgis_core, and we will extend this requirement to other parts of the code base once people are familiar with the procedures for unit testing explained in the sections that follow.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T224747Z" creationid="miurahr" creationdate="20201118T224747Z">
+        <seg>2007年11月の時点で、私たちはマスターに入るすべての新機能は、ユニットテストを伴うことを要求しています。当初は私たちはこの要件はqgis_coreに制限してきましたが、皆様が次のセクションで説明するユニットテストのための手続きに精通した後は、この要件をコードベースの他の部分に拡張するつもりです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10643,6 +10675,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T145802Z" creationid="miurahr" creationdate="20201117T145802Z">
         <seg>学校自体と上のフィールドをデジタル化します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Directories</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T224707Z" creationid="miurahr" creationdate="20201118T224707Z">
+        <seg>ディレクトリ</seg>
       </tuv>
     </tu>
     <tu>
@@ -16687,6 +16727,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If you need an external file for the algorithm test, you need to specify the 'file' type and the (relative) path to the file in its 'name':</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T224645Z" creationid="miurahr" creationdate="20201118T224645Z">
+        <seg>アルゴリズムのテストに外部ファイルが必要な場合は、「ファイル」タイプと「名前」でファイルへの（相対）パスを指定する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If you need an icon or icon elements, please contact Robert Szczepanek on the mailing list for assistance.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T215807Z" creationid="miurahr" creationdate="20201118T215807Z">
@@ -20223,6 +20271,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>It is also possible to create tests for Processing scripts. Scripts should be placed in the :file:`scripts` subdirectory in the test data directory :file:`python/plugins/processing/tests/testdata/`. The script file name should match the script algorithm name.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T224634Z" creationid="miurahr" creationdate="20201118T224634Z">
+        <seg>処理スクリプトのテストを作成することもできます。スクリプトは、テストデータのディレクトリ :file:`python/plugins/processing/tests/testdata/` の :file:`scripts` サブディレクトリに配置する必要があります。スクリプトファイル名は、スクリプトアルゴリズム名と一致する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>It is also possible to select all objects within a given distance, without the extra step of creating a buffer:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T124242Z" creationid="miurahr" creationdate="20201118T124242Z">
@@ -23383,10 +23439,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Next you will be asked if you have any CMake build options to pass to CMake. We will tell CMake that we want a debug build by adding this option:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T224734Z" creationid="miurahr" creationdate="20201118T224734Z">
+        <seg>次にはCMakeに渡すCMakeビルドオプションがあるかどうか尋ねられます。このオプションを追加することにより、デバッグビルドをしたいということをCMakeに教えましょう：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Next you will be prompted for a build location.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T220142Z" creationid="miurahr" creationdate="20201118T220142Z">
         <seg>次のビルドの場所を入力するように求められます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Next you will be prompted for a build location. I create a specific build dir for QtCreator to work in under:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T224732Z" creationid="miurahr" creationdate="20201118T224732Z">
+        <seg>次のビルドの場所を入力するように求められます。QtCreatorがその下で動作するための特定のビルドディレクトリを作成します：</seg>
       </tuv>
     </tu>
     <tu>
@@ -23555,6 +23627,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T220810Z" creationid="miurahr" creationdate="20201118T220810Z">
         <seg>通常、あなたの機能テストが可能な場合、あなたのクラスのパブリックAPIのすべての機能範囲をカバーするでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Normally your functional tests would cover all the range of functionality of your classes public API where feasible. With our functional tests out the way, we can look at our regression test example.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T224904Z" creationid="miurahr" creationdate="20201118T224904Z">
+        <seg>通常、あなたの機能テストが可能な場合、あなたのクラスのパブリックAPIのすべての機能範囲をカバーするでしょう。私たちの機能テストは out the way、回帰テストの例を見ることができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24387,6 +24467,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T220233Z" creationid="miurahr" creationdate="20201118T220233Z">
         <seg>これでQGISを実行してデバッグする準備が整いました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Now you are ready to run and debug QGIS. To set a break point, simply open a source file and click in the left column.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T224745Z" creationid="miurahr" creationdate="20201118T224745Z">
+        <seg>これでQGISを実行してデバッグする準備が整いました。ブレークポイントを設定するには、単にソースファイルを開き、左側の列をクリックします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26399,6 +26487,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Parameters and results are specified as lists or dictionaries:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T224637Z" creationid="miurahr" creationdate="20201118T224637Z">
+        <seg>パラメータと結果はリストまたは辞書として指定されます：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Part of the difficulty of using WMS is finding a good (free) server.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T075407Z" creationid="miurahr" creationdate="20201118T075407Z">
@@ -27535,6 +27631,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>QGIS provides several algorithms under the Processing framework. You can extend this list with algorithms of your own and, like any new feature, adding tests is required.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T224615Z" creationid="miurahr" creationdate="20201118T224615Z">
+        <seg>QGISでは、プロセッシングフレームワークの下にいくつかのアルゴリズムを提供しています。このリストは独自のアルゴリズムで拡張できます。そして新しい機能と同様、テストを追加することが必要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>QGIS seemed to be a perfect choice of GIS for the collected datasets.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222117Z" creationid="miurahr" creationdate="20201117T222117Z">
@@ -27675,6 +27779,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T103827Z" creationid="miurahr" creationdate="20201117T103827Z">
         <seg>QtCreatorは、Qtライブラリのメーカーによる最新のIDEです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>QtCreator is a newish IDE from the makers of the Qt library. With QtCreator you can build any C++ project, but it's really optimised for people working on Qt(4) based applications (including mobile apps). Everything I describe below assumes you are running Ubuntu 11.04 'Natty'.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T224725Z" creationid="miurahr" creationdate="20201118T224725Z">
+        <seg>QtCreatorは、Qtライブラリのメーカーによる最新のIDEです。QtCreatorを使用すると、任意のC ++プロジェクトをビルドできますが、それは本当にQt(4)ベースのアプリケーション（モバイルアプリを含む）上で作業している人向けに最適化されています。以下の記述すべてでは Ubuntu 11.04「ナッティ」を実行している前提としています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27875,6 +27987,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140007Z" creationid="miurahr" creationdate="20201117T140007Z">
         <seg>ラスターデータはGISアプリケーションにおいて、連続的に地域を覆っていて、ベクター地物に分解しにくい情報を表示したい場合に使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Raster files are compared with a hash checksum. This is calculated when you create a test from the processing history.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T224657Z" creationid="miurahr" creationdate="20201118T224657Z">
+        <seg>ラスタファイルはハッシュチェックサムと比較されます。これは、プロセッシングの履歴からテストを作成するときに計算されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -28479,6 +28599,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Results</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T224647Z" creationid="miurahr" creationdate="20201118T224647Z">
+        <seg>結果</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Results of this monitoring exercise indicate the presence of 8-15 tigers in this landscape.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T225526Z" creationid="miurahr" creationdate="20201117T225526Z">
@@ -28787,6 +28915,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T020910Z" creationid="miurahr" creationdate="20201118T020910Z">
         <seg>:kbd:`r.reclass` ツールを実行し、 :kbd:`g_dem` レイヤーを選択して先ほど保存したルールを含むファイルをロードしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Run the :ref:`algorithm &lt;processing_algs&gt;` you want to test in QGIS from the :ref:`processing toolbox &lt;processing.toolbox&gt;`. If the result is a vector layer prefer GML, with its XSD, as output for its support of mixed geometry types and good readability. Redirect output to :file:`python/plugins/processing/tests/testdata/expected`. For input layers prefer to use what's already there in the folder :file:`testdata`. If you need extra data, put it into :file:`testdata/custom`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T224625Z" creationid="miurahr" creationdate="20201118T224625Z">
+        <seg>:ref:`プロセッシングツールボックス &lt;processing.toolbox&gt;` からQGISでテストしたい :ref:`アルゴリズム &lt;processing_algs&gt;` を実行します。結果がベクタレイヤの場合、混合ジオメトリタイプと優れた読みやすさのサポートの出力として、XSDを備えたGMLを優先します。出力を :file:`python/plugins/processing/tests/testdata/expected` にリダイレクトします。入力レイヤには、フォルダ :file:`testdata` に既にあるものを優先的に使用します。追加のデータが必要な場合は、それを :file:`testdata/custom` に入れてください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -30287,6 +30423,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Since we are combining both class declaration and implementation in a single file the class declaration comes next. We start with our doxygen documentation. Every test case should be properly documented. We use the doxygen ingroup directive so that all the UnitTests appear as a module in the generated Doxygen documentation. After that comes a short description of the unit test and the class must inherit from QObject and include the Q_OBJECT macro.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T224811Z" creationid="miurahr" creationdate="20201118T224811Z">
+        <seg>ここではクラス宣言と実装の両方を単一のファイルに組み合わせているので、クラス宣言が次に来ます。doxygenのドキュメントで始めます。すべてのテストケースは適切に文書化されなければなりません。すべてのユニットテストが生成されたDoxygenのドキュメントのモジュールとして表示されるように、doxygenのingroupディレクティブを使用します。その後にユニットテストの短い説明が来て、このクラスはQObjectを継承し、Q_OBJECTマクロをインクルードする必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Since we are going to use the points that are not selected, first, let's invert the selection.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T095116Z" creationid="miurahr" creationdate="20201118T095116Z">
@@ -30707,6 +30851,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>考えてみよう</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sometimes different platforms create slightly different results which are still acceptable. In this case (but only then) you may also use additional properties to define how a layer is compared.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T224652Z" creationid="miurahr" creationdate="20201118T224652Z">
+        <seg>プラットフォームによって、わずかに異なる結果が作成される場合がありますが、それでも依然として許容範囲です。この場合（ただしその場合のみ）、追加のプロパティを使用して、レイヤーの比較方法を定義することもできます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -31639,6 +31791,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>That ends our class declaration. The implementation is simply inlined in the same file lower down. First our init and cleanup functions:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T224847Z" creationid="miurahr" creationdate="20201118T224847Z">
+        <seg>これで私たちのクラス宣言を終了します。実装は単に同じファイル中で下方にインライン化されます。まず、私たちのinitおよびcleanup関数：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>That is not a problem, since we can edit the model, and that is exactly what we will do.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T095502Z" creationid="miurahr" creationdate="20201118T095502Z">
@@ -31915,6 +32075,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T220148Z" creationid="miurahr" creationdate="20201118T220148Z">
         <seg>それはそれの基本です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>That's the basics of it. When you complete the Wizard, QtCreator will start scanning the source tree for autocompletion support and do some other housekeeping stuff in the background. We want to tweak a few things before we start to build though.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T224735Z" creationid="miurahr" creationdate="20201118T224735Z">
+        <seg>それはそれの基本です。ウィザードを完了すると、QtCreatorは自動補完をサポートするためのソースツリーのスキャンを開始し、バックグラウンドで他のいくつかのハウスキーピングのものを行います。我々はいえ構築するために開始する前に、いくつかのことを微調整したいです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -36103,6 +36271,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>There are a few more definitions that can modify the context of the algorithm - these can be specified at the top level of test:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T224712Z" creationid="miurahr" creationdate="20201118T224712Z">
+        <seg>アルゴリズムのコンテキストを変更できる定義がいくつかあります。これらはテストの最上位で指定できます：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>There are a great many analytical tools that can be run on raster data which cannot be used with vector data.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140343Z" creationid="miurahr" creationdate="20201117T140343Z">
@@ -36419,6 +36595,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T220448Z" creationid="miurahr" creationdate="20201118T220448Z">
         <seg>回帰テストへの1つの以上の利点があります - それらは時間を節約できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>There is one more benefit to regression tests - they can save you time. If you ever fixed a bug that involved making changes to the source, and then running the application and performing a series of convoluted steps to replicate the issue, it will be immediately apparent that simply implementing your regression test before fixing the bug will let you automate the testing for bug resolution in an efficient manner.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T224836Z" creationid="miurahr" creationdate="20201118T224836Z">
+        <seg>回帰テストへの1つの以上の利点があります - それらは時間を節約できます。ソースに変更を加えてからアプリケーションを実行して問題を再現するために複雑な一連のステップを実行することに関わるバグを修正したことがあれば、バグを修正する前に回帰テストを実装するだけで、効率的な方法でバグの解決のためのテストを自動化できることがすぐに明らかになるでしょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -39235,6 +39419,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222835Z" creationid="miurahr" creationdate="20201117T222835Z">
         <seg>降雨グリッドを作成するために、私はGHCNテーブル上の統計分析を行い、1,2,5,10,50,100年間リターンの設計嵐に対する降雨量を見つけました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>To deal with a certain tolerance for output values you can specify a ``compare`` property for an output. The compare property can contain sub-properties for ``fields``. This contains information about how precisely a certain field is compared (``precision``) or a field can even entirely be ``skip``ed. There is a special field name ``__all__`` which will apply a certain tolerance to all fields. There is another property ``geometry`` which also accepts a ``precision`` which is applied to each vertex.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T224654Z" creationid="miurahr" creationdate="20201118T224654Z">
+        <seg>出力値の特定の許容範囲を処理するために、出力に ``比較`` プロパティを指定できます。この比較プロパティには、「フィールド」のサブプロパティを含めることができます。これには、特定のフィールドがどの程度正確に比較されるか（「精度」）、またはフィールドを完全に「スキップ」することもできます。すべてのフィールドに特定の許容値を適用する特別なフィールド名 ``__all__`` があります。別に、各頂点に適用される「精度」も受け入れるプロパティ「ジオメトリ」があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -42319,6 +42511,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>We now want to add a custom process step. Why? Because QGIS can currently only run from an install directory, not its build directory, so we need to ensure that it is installed whenever we build it. Under 'Build Steps', click on the 'Add BuildStep' combo button and choose 'Custom Process Step'.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T224736Z" creationid="miurahr" creationdate="20201118T224736Z">
+        <seg>私たちは、今、カスタム・プロセスのステップを追加したいです。どうして？QGISは現在、インストールディレクトリではなく、そのビルドディレクトリから実行できますので、それをビルドするたびに、それがインストールされていることを確認する必要があるため。「ビルド・ステップ」の下で、コンボ「ビルド・ステップを追加」をボタンをクリックして、「カスタム・プロセス・ステップ」を選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>We ran an sql statement, but not on any table, just on data entered from the SQL prompt,</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T124058Z" creationid="miurahr" creationdate="20201118T124058Z">
@@ -42755,6 +42955,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T100722Z" creationid="miurahr" creationdate="20201117T100722Z">
         <seg>QGIS開発ページへようこそ。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Welcome to the QGIS Development pages. Here you'll find rules, tools and steps to easily and efficiently contribute to QGIS code.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T224552Z" creationid="miurahr" creationdate="20201118T224552Z">
+        <seg>QGIS開発ページへようこそ。ここでは、QGISコードに簡単かつ効率的に貢献するためのルール、ツール、手順について説明します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -44463,6 +44671,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You are almost ready to build. Just one note: QtCreator will need write permissions on the install prefix. By default (which I am using here) QGIS is going to get installed to ``/usr/local/``. For my purposes on my development machine, I just gave myself write permissions to the /usr/local directory.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T224738Z" creationid="miurahr" creationdate="20201118T224738Z">
+        <seg>ほぼビルトする準備が整いました。1つだけ注意：QtCreatorはインストールプレフィックス上の書き込み権限が必要になります。デフォルトでは（私はここで使用しています）QGISは ``/`` は /usr/local にインストール取得する予定です。私の開発マシン上で私の目的のために、私は自分自身が、 /usr/local ディレクトリに書き込み権限を与えました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You are looking for a property that satisfies certain criteria.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T032855Z" creationid="miurahr" creationdate="20201118T032855Z">
@@ -44715,6 +44931,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>フィルタ（ ``WHERE`` 句を使用して定義される）はソート（ ``ORDER BY`` 句を使用して定義される）と組み合わせることができます::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can compare the content of an output file to an expected result reference file</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T224701Z" creationid="miurahr" creationdate="20201118T224701Z">
+        <seg>出力ファイルの内容を予想される結果参照ファイルと比較できます</seg>
       </tuv>
     </tu>
     <tu>
@@ -45399,6 +45623,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You compile your sources and install. Do this using normal ``make &amp;&amp; (sudo)  make install`` procedure.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T224801Z" creationid="miurahr" creationdate="20201118T224801Z">
+        <seg>ソースをコンパイルしてインストールします。これは通常の ``make &amp;&amp; (sudo) make install`` 手順を使用して実行します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You could also digitise the river itself (as a polyline feature).</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141002Z" creationid="miurahr" creationdate="20201117T141002Z">
@@ -45471,6 +45703,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You create a unit test. This happens under ``&lt;QGIS Source Dir&gt;/tests/src/core`` in the case of the core lib. The test is basically a client that creates an instance of a class and calls some methods on that class. It will check the return from each method to make sure it matches the expected value. If any one of the calls fails, the unit will fail.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T224753Z" creationid="miurahr" creationdate="20201118T224753Z">
+        <seg>ユニットテストを作成します。これはcore libの場合 ``&lt;QGIS Source Dir&gt;/tests/src/core`` の下で起こります。テストは、基本的には、クラスのインスタンスを作成し、そのクラスにいくつかのメソッドを呼び出すクライアントです。それは各メソッドからの戻りをチェックし、期待値と一致することを確認します。呼び出しのいずれかに障害が発生した場合、そのユニットは失敗します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You don't have to, but if you tried both methods, you'll notice that this is a lot faster than loading all the countries before filtering them!</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T054353Z" creationid="miurahr" creationdate="20201118T054353Z">
@@ -45483,6 +45723,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T220405Z" creationid="miurahr" creationdate="20201118T220405Z">
         <seg>``ENABLE_TESTING`` がccmake/cmakesetupで有効になっていることを確認します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You ensure you have ``ENABLE_TESTING`` enabled in ccmake / cmakesetup. This will ensure your tests actually get compiled when you type make.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T224756Z" creationid="miurahr" creationdate="20201118T224756Z">
+        <seg>``ENABLE_TESTING`` がccmake/cmakesetupで有効になっていることを確認します。これは、makeと入力すると、テストが実際にコンパイルされることを保証します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -45587,6 +45835,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T220402Z" creationid="miurahr" creationdate="20201118T220402Z">
         <seg>テストクラスにQtTestLibマクロを含めます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You include QtTestLib macros in your test class. This macro is processed by the Qt meta object compiler (moc) and expands your test class into a runnable application.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T224754Z" creationid="miurahr" creationdate="20201118T224754Z">
+        <seg>テストクラスにQtTestLibマクロを含めます。このマクロは、Qtのメタオブジェクトコンパイラ（MOC）によって処理され、実行可能なアプリケーションにテストクラスを拡張します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -46355,6 +46611,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T102243Z" creationid="miurahr" creationdate="20201118T102243Z">
         <seg>新しいプラグインリポジトリがプラグインリポジトリの一覧の中に表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You will often need to specify layers as parameters. To specify a layer you will need to specify:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T224641Z" creationid="miurahr" creationdate="20201118T224641Z">
+        <seg>多くの場合、レイヤをパラメータとして指定する必要があるでしょう。レイヤを指定するには、次を指定する必要があります：</seg>
       </tuv>
     </tu>
     <tu>
@@ -48019,6 +48283,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T032858Z" creationid="miurahr" creationdate="20201118T032858Z">
         <seg>対象となる資産は、土地利用の特定のタイプのものでなければなりません</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>the type, ie ``vector`` or ``raster``</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T224642Z" creationid="miurahr" creationdate="20201118T224642Z">
+        <seg>種類、すなわち ``vector`` または ``raster``</seg>
       </tuv>
     </tu>
     <tu>
