@@ -790,6 +790,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>*Create files*: some are essentials (see :ref:`plugin_files_architecture`)</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024632Z" creationid="miurahr" creationdate="20201118T024632Z">
+        <seg>*ファイルの作成* ： ファイルのうちいくつかは必須です（ :ref:`plugin_files_architecture` を参照してください）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>*Good choice to use open source software*</seg>
       </tuv>
       <tuv lang="ja">
@@ -810,6 +818,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>*特にQGISを使ったコースが好きでした*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>*Idea*: Have an idea about what you want to do with your new QGIS plugin.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024629Z" creationid="miurahr" creationdate="20201118T024629Z">
+        <seg>*アイデア* ：新しいQGISプラグインで何をしたいか考えます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -838,10 +854,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>*Publish*: Publish your plugin in QGIS repository or make your own repository as an "arsenal" of personal "GIS weapons".</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024634Z" creationid="miurahr" creationdate="20201118T024634Z">
+        <seg>*公開*：出来上がったプラグインをQGISリポジトリに公開するか、ご自身のリポジトリを作って個人的な「GISウェポン」の兵器廠にしましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>*QGIS was great to get experience using GIS software*</seg>
       </tuv>
       <tuv lang="ja">
         <seg>*QGISはGISソフトウェアを使った経験を積むのに最高でした*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>*Test*: :ref:`Reload your plugin &lt;plugin_reloader_trick&gt;` to check if everything is OK</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024633Z" creationid="miurahr" creationdate="20201118T024633Z">
+        <seg>*テスト* ：すべてがうまく行くかどうかを :ref:`プラグインをリロード &lt;plugin_reloader_trick&gt;` して確認します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -914,6 +946,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>*QGISをナビゲートするのに役立つビデオは素晴らしかった*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>*Write code*: Write the code in appropriate files</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024632Z" creationid="miurahr" creationdate="20201118T024632Z">
+        <seg>*コードを書く* ： それぞれのファイルに適切なコードを書きます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1398,10 +1438,66 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>:file:`__init__.py` = The starting point of the plugin.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024640Z" creationid="miurahr" creationdate="20201118T024640Z">
+        <seg>:file:`__init__.py` = プラグインの起点です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:file:`form.py` = The translation of the form.ui described above to Python.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024646Z" creationid="miurahr" creationdate="20201118T024646Z">
+        <seg>:file:`form.py` = 上記の form.ui をPythonに変換したものです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:file:`form.ui` = The GUI created by Qt Designer.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024645Z" creationid="miurahr" creationdate="20201118T024645Z">
+        <seg>:file:`form.ui` = Qt Designerによって作られたGUIです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:file:`mainPlugin.py` = The main working code of the plugin.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024641Z" creationid="miurahr" creationdate="20201118T024641Z">
+        <seg>:file:`mainPlugin.py` = プラグインの中心として作動するコードです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:file:`metadata.txt` = Contains general info, version, name and some other metadata used by plugins website and plugin infrastructure.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024647Z" creationid="miurahr" creationdate="20201118T024647Z">
+        <seg>:file:`metadata.txt` = プラグインのウェブサイトとインフラストラクチャで使われる、一般的な情報、バージョン、名前、その他のメタデータを含みます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>:file:`provider.py` which will create the Processing provider and expose your algorithms.</seg>
       </tuv>
       <tuv lang="ja">
         <seg>:file:`provider.py` ファイルはプロセッシングプロバイダを生成しあなたのアルゴリズムを外部から使えるようにします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:file:`resources.py` = The translation of the .qrc file described above to Python.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024644Z" creationid="miurahr" creationdate="20201118T024644Z">
+        <seg>:file:`resources.py` = 上記の .qrc ファイルをPythonへと変換したものです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:file:`resources.qrc` = The .xml document created by Qt Designer.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024643Z" creationid="miurahr" creationdate="20201118T024643Z">
+        <seg>:file:`resources.qrc` = Qt Designerによって作られる .xmlドキュメントです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2422,6 +2518,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>A corresponding "category" metadata entry exists to specify that, so the plugin can be classified accordingly.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024844Z" creationid="miurahr" creationdate="20201118T024844Z">
+        <seg>表示するメニューを特定するために、対応する "category" メタデータエントリが存在します。これに従ってプラグインは分類することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>A couple of things to note:</seg>
       </tuv>
       <tuv lang="ja">
@@ -3214,6 +3318,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Adding your plugin menu to one of those predefined method is recommended to keep consistency in how plugin entries are organized.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T025033Z" creationid="miurahr" creationdate="20201118T025033Z">
+        <seg>これらのあらかじめ定義されたメソッドのうちのひとつに、あなたのプラグインメニューを追加することは、プラグインエントリがどのように組織されているかの一貫性を保つためにも推奨されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Additional factors not implemented at this stage are road mortality, terrain roughness and detailed prey occurrence.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T224929Z" creationid="miurahr" creationdate="20201117T224929Z">
@@ -3454,11 +3566,27 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>All metadata must be in UTF-8 encoding.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024655Z" creationid="miurahr" creationdate="20201118T024655Z">
+        <seg>メタデータのエンコーディングはすべてUTF-8でなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>All of the tutorials will be done using QGIS.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135547Z" creationid="miurahr" creationdate="20201117T135547Z">
         <seg>すべてのチュートリアルはQGISで行われています。
 &lt;56/58/56% /home/miurahr/Projects/qgis_trans_ja/tm/for_use_qgis-docum</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>All of them have the same syntax as the :meth:`addPluginToMenu &lt;qgis.gui.QgisInterface.addPluginToMenu&gt;` method.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T025032Z" creationid="miurahr" creationdate="20201118T025032Z">
+        <seg>これらはすべて :meth:`addPluginToMenu ` メソッドと同じシンタックスを持ちます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3491,6 +3619,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222524Z" creationid="miurahr" creationdate="20201117T222524Z">
         <seg>すべての得られたラスター地図は次いでmapcalcを使用して結合し、最終的なリスクの危険スコアを与えました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Allowed values for "category" are: Vector, Raster, Database or Web.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024902Z" creationid="miurahr" creationdate="20201118T024902Z">
+        <seg>"category" に使うことのできる値は、Vector、Raster、Database、Web です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3535,6 +3671,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Also, QGIS requires that this file contains a :func:`classFactory()` function, which is called when the plugin gets loaded into QGIS.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024955Z" creationid="miurahr" creationdate="20201118T024924Z">
+        <seg>同時にQGISはこのファイルの :func:`classFactory()` 関数を必要とします。この関数はプラグインがQGISに読み込まれる時に呼ばれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Also, you will notice that when you draw your geometry on the screen, the GIS Application always creates an enclosed area.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123742Z" creationid="miurahr" creationdate="20201117T123742Z">
@@ -3555,6 +3699,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>選択肢 2：あなたのドキュメンテーションレポジトリに一時的な専用ブランチを作成する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Alternative methods exist to add the action to a different menu.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T025028Z" creationid="miurahr" creationdate="20201118T025028Z">
+        <seg>他のメニューにアクションを追加するにはまた別のメソッドがあります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3635,6 +3787,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141614Z" creationid="miurahr" creationdate="20201117T141614Z">
         <seg>簡単なセクションは :kbd:`|basic|` 、適度は :kbd:`|moderate|` 、および上級は :kbd:`|hard|` で表されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>An example for this metadata.txt</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024911Z" creationid="miurahr" creationdate="20201118T024911Z">
+        <seg>metadata.txt のための例です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3731,6 +3891,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>そして :guilabel:`許容誤差` は :kbd:`2mm` に設定されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>And that's all... nothing complicated :)</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T025111Z" creationid="miurahr" creationdate="20201118T025111Z">
+        <seg>はい、これですべてです。…何も複雑なことはありませんね (^^)</seg>
       </tuv>
     </tu>
     <tu>
@@ -4943,6 +5111,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>By default, plugins are placed in the :menuselection:`Plugins` menu (we will see in the next section how to add a menu entry for your plugin) but they can also be placed into :menuselection:`Raster`, :menuselection:`Vector`, :menuselection:`Database` and :menuselection:`Web` menus.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024821Z" creationid="miurahr" creationdate="20201118T024821Z">
+        <seg>デフォルトでプラグインは :menuselection:`プラグイン` メニューに置かれます（プラグインをメニューエントリに追加する方法は次のセクションで見ます）。他にも :menuselection:`ラスター` メニューや :menuselection:`ベクター` メニュー、 :menuselection:`データベース` メニュー、 :menuselection:`Web` メニューに置くこともできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>By doing this, you will have a well designed and educational map, that people would like to look at and be able to understand.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135805Z" creationid="miurahr" creationdate="20201117T135805Z">
@@ -6015,6 +6191,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Contains all the information about the actions of the plugin and the main code.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024642Z" creationid="miurahr" creationdate="20201118T024642Z">
+        <seg>プラグインの全ての機能に関する情報と主要コードを含みます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Contains relative paths to resources of the forms.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024644Z" creationid="miurahr" creationdate="20201118T024644Z">
+        <seg>外観のリソースへの相対パスを含みます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Content based legend.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T015221Z" creationid="miurahr" creationdate="20201118T015221Z">
@@ -6803,6 +6995,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>QGIS |version| ドキュメント</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Don't forget to set :class:`QAction` and :class:`QMenu` ``objectName`` to a name specific to your plugin so that it can be customized.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T025035Z" creationid="miurahr" creationdate="20201118T025035Z">
+        <seg>カスタマイズが可能になるように、:class:`QAction` クラスと :class:`QMenu` クラスの ``objectName`` にあなたのプラグインの固有名を設定するのを忘れないでください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7671,6 +7871,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>File :file:`metadata.txt` is the right place to put this information.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024654Z" creationid="miurahr" creationdate="20201118T024654Z">
+        <seg>:file:`metadata.txt` ファイルがその情報を格納しておく場所になります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Filename should be all lowercase and, in the case of classes, match the class name.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T091657Z" creationid="miurahr" creationdate="20201117T091657Z">
@@ -7843,6 +8051,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123601Z" creationid="miurahr" creationdate="20201117T123601Z">
         <seg>まずは、ジオメトリについて考えてみましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>First, the plugin manager needs to retrieve some basic information about the plugin such as its name, description etc.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024653Z" creationid="miurahr" creationdate="20201118T024653Z">
+        <seg>最初に、そのプラグインの名前や説明といった基本的な情報を、プラグインマネージャは検索する必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8155,6 +8371,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>例えば、1:25000の縮尺の地図上で100ミリメートルの距離を測定する場合、現実世界の距離はこのように計算します：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For example, if your plugin will be available from `Raster` menu, add this to :file:`metadata.txt`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024906Z" creationid="miurahr" creationdate="20201118T024906Z">
+        <seg>例えば、あなたのプラグインを `Raster` メニューから使えるようにするには、 :file:`metadata.txt` にそのように追加します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9279,6 +9503,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Here is a list of those methods:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T025029Z" creationid="miurahr" creationdate="20201118T025029Z">
+        <seg>以下はそれらのメソッドのリストです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Here is a typical example which tells us how many people objects are in our people table:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150321Z" creationid="miurahr" creationdate="20201117T150321Z">
@@ -9351,6 +9583,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Here you can find information and examples about what to add in each of the files in the file structure described above.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024652Z" creationid="miurahr" creationdate="20201118T024652Z">
+        <seg>ここでは、上記のファイル構造中のそれぞれのファイルに何を書けばよいか、その情報と実例を提供します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Here you'll find rules, tools and steps to easily and efficiently contribute to QGIS code.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T100736Z" creationid="miurahr" creationdate="20201117T100736Z">
@@ -9363,6 +9603,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T015751Z" creationid="miurahr" creationdate="20201118T015751Z">
         <seg>こちらがサンプルです:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Here's the directory structure of our example plugin</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024638Z" creationid="miurahr" creationdate="20201118T024638Z">
+        <seg>ここで例として見ていくプラグインのディレクトリ構造はこのようになります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9535,6 +9783,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>However, you can add your custom menu group directly to the menu bar, as the next example demonstrates:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T025034Z" creationid="miurahr" creationdate="20201118T025034Z">
+        <seg>しかし、次の例が示すように、独自のカスタムメニューグループを直接メニューバーに追加することもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>However, you can also direct it to perform custom actions that you define.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150034Z" creationid="miurahr" creationdate="20201117T150034Z">
@@ -9595,6 +9851,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141622Z" creationid="miurahr" creationdate="20201117T141622Z">
         <seg>この名前には、レッスン名と連番が入っているのが理想です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If `qgisMaximumVersion` is empty, it will be automatically set to the major version plus `.99` when uploaded to the :ref:`official_pyqgis_repository`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024909Z" creationid="miurahr" creationdate="20201118T024909Z">
+        <seg>`qgisMaximumVersion` が空欄の場合、:ref:`official_pyqgis_repository` にアップロードする際に、自動的にメジャーバージョン＋ `.99` に設定されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10255,6 +10519,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If you plan to upload the plugin to the :ref:`official_pyqgis_repository` you must check that your plugin follows some additional rules, required for plugin :ref:`official_pyqgis_repository_validation`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024650Z" creationid="miurahr" creationdate="20201118T024650Z">
+        <seg>プラグインを :ref:`official_pyqgis_repository` にアップロードする予定なら、プラグインの :ref:`official_pyqgis_repository_validation` で必要とされる幾つかの付加的なルールに、そのプラグインが従っていることを確認せねばなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If you publish or distribute Opaque copies of the Document numbering more than 100, you must either include a machine-readable Transparent copy along with each Opaque copy, or state in or with each Opaque copy a computer-network location from which the general network-using public has access to download using public-standard network protocols a complete Transparent copy of the Document, free of added material.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124656Z" creationid="miurahr" creationdate="20201117T124656Z">
@@ -10411,6 +10683,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T020323Z" creationid="miurahr" creationdate="20201118T020323Z">
         <seg>別のデータセットを使用している場合、可能性が高いのはあなたの</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If you've done everything correctly you should be able to find and load your plugin in the plugin manager and see a message in console when toolbar icon or appropriate menu item is selected.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T025121Z" creationid="miurahr" creationdate="20201118T025121Z">
+        <seg>すべてを正しく行っていれば、プラグインマネージャであなたのプラグインを見つけて読み込むことができるはずです。そしてツールバーのアイコンか適切なメニュー項目が選択された時には、コンソールにメッセージが表示されるはずです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10887,6 +11167,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In order to create a plugin, here are some steps to follow:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024628Z" creationid="miurahr" creationdate="20201118T024628Z">
+        <seg>プラグインを作成するには、以下の手順に従います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In order to delete an object from a table, use the :kbd:`DELETE` command:</seg>
       </tuv>
       <tuv lang="ja">
@@ -11155,6 +11443,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>QGIS地図ビューで :menuselection:`ベクター --&gt; 研究ツール --&gt; ベクターグリッド` を開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In the above example, :meth:`addPluginToMenu &lt;qgis.gui.QgisInterface.addPluginToMenu&gt;` is used.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T025026Z" creationid="miurahr" creationdate="20201118T025026Z">
+        <seg>上記の例では、 :meth:`addPluginToMenu ` が使われています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11847,6 +12143,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Is there already another plugin for that problem?</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024631Z" creationid="miurahr" creationdate="20201118T024631Z">
+        <seg>その問題に対してすでに他のプラグインはないですか？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>It acts as a joint repository for a wide range of algorithms, some native to QGIS and others imported from external applications, such as GRASS GIS or the Orfeo Toolbox.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T221950Z" creationid="miurahr" creationdate="20201117T221950Z">
@@ -11919,6 +12223,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>It has to have the :func:`classFactory` method and may have any other initialisation code.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024641Z" creationid="miurahr" creationdate="20201118T024641Z">
+        <seg>:func:`classFactory` メソッドが必須ですが、それ以外にもどんな初期化コードでも含むことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>It is a charter member of the `UNESCO Fundy Biosphere Reserve &lt;http://fundy-biosphere.ca/en/about-us/the-reserve&gt;`_ and affiliated with the `NB Trails Council Inc.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222659Z" creationid="miurahr" creationdate="20201117T222659Z">
@@ -11963,6 +12275,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T015737Z" creationid="miurahr" creationdate="20201118T015737Z">
         <seg>凡例で :guilabel:`water` レイヤを選択してから |symbology|  :sup:`レイヤスタイルパネルを開く` ボタンをクリックすれば十分です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It is good to use a prefix that will not collide with other plugins or any parts of QGIS, otherwise you might get resources you did not want.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T025053Z" creationid="miurahr" creationdate="20201118T025053Z">
+        <seg>他のプラグインや他のQGISのパーツと衝突しないよう接頭辞を使うのは良いことです。さもないと望んでいないリソースを読み込んでしまうかもしれません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12051,6 +12371,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135736Z" creationid="miurahr" creationdate="20201117T135736Z">
         <seg>それは地図上での測定距離に **縮尺分母** を掛ければ **現実世界** での距離がわかることを意味します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It receives a reference to the instance of :class:`QgisInterface &lt;qgis.gui.QgisInterface&gt;` and must return an object of your plugin's class from the :file:`mainplugin.py` --- in our case it's called ``TestPlugin`` (see below).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T025008Z" creationid="miurahr" creationdate="20201118T024950Z">
+        <seg>この関数は :class:`QgisInterface ` のインスタンスへの参照を受け取り、 :file:`mainplugin.py` ファイルのあなたのプラグインオブジェクトを返さなければなりません（ここでの事例では ``TestPlugin`` がそれに当たります。以下を見てください）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12155,6 +12483,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T092034Z" creationid="miurahr" creationdate="20201117T092034Z">
         <seg>``if`` のような条件の後にコマンドを期待することも一般的です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It's done with :command:`pyrcc5` command:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T025106Z" creationid="miurahr" creationdate="20201118T025106Z">
+        <seg>これは :command:`pyrcc5` コマンドを使って次のようにして行われます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13311,6 +13647,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Metadata name</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024656Z" creationid="miurahr" creationdate="20201118T024656Z">
+        <seg>メタデータ名</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Meteorologists (people who study weather patterns) might generate a province level raster showing average temperature, rainfall and wind direction using data collected from weather stations (see figure_csir_station_).</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140110Z" creationid="miurahr" creationdate="20201117T140110Z">
@@ -13959,6 +14303,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Notes</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024657Z" creationid="miurahr" creationdate="20201118T024657Z">
+        <seg>注</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Notice how the mouse cursor snaps to the canvas grid.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150807Z" creationid="miurahr" creationdate="20201117T150807Z">
@@ -14223,6 +14575,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Now you just need to generate a Python file that will contain the resources.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T025101Z" creationid="miurahr" creationdate="20201118T025101Z">
+        <seg>さてあと必要なのはこのリソースを含むPythonファイルを生成することです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Now you know how to add new data to the existing models you created previously.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150117Z" creationid="miurahr" creationdate="20201117T150117Z">
@@ -14367,6 +14727,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>On that page you can also find packaging guidelines about how to prepare the plugin to work well with the plugin installer.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031007Z" creationid="miurahr" creationdate="20201118T031007Z">
+        <seg>そのページでは、プラグインのインストーラでうまく動作するプラグインを準備する方法についてパッケージ化のガイドラインがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>On the left we can see the image is properly georegistered and the road features (in orange) overlap perfectly.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124014Z" creationid="miurahr" creationdate="20201117T124014Z">
@@ -14507,6 +14875,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124004Z" creationid="miurahr" creationdate="20201117T124004Z">
         <seg>地物がデジタル化されたら、前のトピックで学んだ技術をレイヤーのシンボルを設定するために使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Once your plugin is ready and you think the plugin could be helpful for some people, do not hesitate to upload it to :ref:`official_pyqgis_repository`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T025154Z" creationid="miurahr" creationdate="20201118T025154Z">
+        <seg>プラグインの準備ができ、そのプラグインが誰かのために役立つことあると思ったら、躊躇わずに :ref:`official_pyqgis_repository` にアップロードしてください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15175,6 +15551,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>PIP-like comma separated list of other plugins to install</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024812Z" creationid="miurahr" creationdate="20201118T024812Z">
+        <seg>pipと同様の、インストールされるべきその他のプラグインのカンマ区切りリスト</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>PKI examples with other data providers</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T003453Z" creationid="miurahr" creationdate="20201118T003453Z">
@@ -15339,6 +15723,30 @@
       </tuv>
       <tuv lang="ja">
         <seg>以下からそれらドキュメントのひとつをご覧いただけます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Plugin content</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024651Z" creationid="miurahr" creationdate="20201118T024651Z">
+        <seg>プラグインの内容</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Plugin files</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024638Z" creationid="miurahr" creationdate="20201118T024638Z">
+        <seg>プラグインファイル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Plugin metadata</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024652Z" creationid="miurahr" creationdate="20201118T024652Z">
+        <seg>プラグインメタデータ</seg>
       </tuv>
     </tu>
     <tu>
@@ -16551,6 +16959,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Resource File</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T025036Z" creationid="miurahr" creationdate="20201118T025036Z">
+        <seg>Resource ファイル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Result:</seg>
       </tuv>
       <tuv lang="ja">
@@ -17399,6 +17815,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Since the introduction of Python plugins in QGIS, a number of plugins have appeared.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024635Z" creationid="miurahr" creationdate="20201118T024635Z">
+        <seg>QGISにPythonプラグインが導入されて以来、数多くのプラグインが登場しました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Since the start of operations in Afghanistan, DDG has removed over 24,000 landmines and over 940,000 pieces of UXO.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T062355Z" creationid="miurahr" creationdate="20201117T062355Z">
@@ -17859,6 +18283,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>文字列は単一引用符で囲む必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Structuring Python Plugins</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024628Z" creationid="miurahr" creationdate="20201118T024628Z">
+        <seg>Python プラグインを構成する</seg>
       </tuv>
     </tu>
     <tu>
@@ -18707,6 +19139,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T225332Z" creationid="miurahr" creationdate="20201117T225332Z">
         <seg>QGISプロジェクトでは常にQGISケーススタディ（ユーザーストーリー）をQGISウェッブサイトで発表してくれる人を探しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The QGIS team maintains an :ref:`official_pyqgis_repository`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024636Z" creationid="miurahr" creationdate="20201118T024636Z">
+        <seg>QGISチームは :ref:`official_pyqgis_repository` を保守しています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19839,6 +20279,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The only plugin functions that must exist in the main plugin source file (e.g. :file:`mainPlugin.py`) are:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T025019Z" creationid="miurahr" creationdate="20201118T025019Z">
+        <seg>メインプラグインソースファイル（例えば :file:`mainPlugin.py` ）に必須のプラグイン関数は以下の3つだけです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The operational and practical use of the WOIS to support integrated water resource management in Africa has been demonstrated via a series of user specific demonstration cases covering a wide range of themes and information products.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T221957Z" creationid="miurahr" creationdate="20201117T221957Z">
@@ -20695,6 +21143,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>There is a QGIS plugin called `Plugin Builder 3 &lt;https://plugins.qgis.org/plugins/pluginbuilder3/&gt;`_ that creates a plugin template for QGIS.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024648Z" creationid="miurahr" creationdate="20201118T024648Z">
+        <seg>`Plugin Builder 3 `_ という名前の、QGISのプラグインテンプレートを作るQGISプラグインもあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>There is a question why QGIS only when other software like uDig, MapWindow, gvSIG, GRASS are also there.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T225532Z" creationid="miurahr" creationdate="20201117T225532Z">
@@ -21239,6 +21695,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This file is required by Python's import system.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024927Z" creationid="miurahr" creationdate="20201118T024927Z">
+        <seg>このファイルはPythonのインポートシステムで必要とされます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This framework generally provides a surface and a view where custom graphics items are placed and user can interact with them.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T003516Z" creationid="miurahr" creationdate="20201118T003516Z">
@@ -21335,6 +21799,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This is how :file:`__init__.py` should look like</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T025013Z" creationid="miurahr" creationdate="20201118T025013Z">
+        <seg> :file:`__init__.py` は次のようにならなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This is normally only useful if the attributes, that users need to be aware of, can be represented on the map with labels or symbology.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140159Z" creationid="miurahr" creationdate="20201117T140159Z">
@@ -21371,6 +21843,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141632Z" creationid="miurahr" creationdate="20201117T141632Z">
         <seg>これは、マークアップです::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This is the recommended option, as it produces 3.x compatible sources.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024649Z" creationid="miurahr" creationdate="20201118T024649Z">
+        <seg>3.x 互換のソースを作れますので、こちらが推奨される選択肢となります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21507,6 +21987,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150348Z" creationid="miurahr" creationdate="20201117T150348Z">
         <seg>つまりデータベースの中のデータに影響を与えることなく簡単に変更できます:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This metadata entry is used as tip for users and tells them where (in which menu) the plugin can be found.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024855Z" creationid="miurahr" creationdate="20201118T024838Z">
+        <seg>このメタデータエントリは、ユーザへのヒントとして使われ、このプラグインを使うためにはどのメニューを探せばよいかを伝えます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21755,6 +22243,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T015619Z" creationid="miurahr" creationdate="20201118T015619Z">
         <seg>この変数はQGISによってプロジェクトファイルが探される場所になります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This will add the corresponding menu action to the :menuselection:`Plugins` menu.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T025027Z" creationid="miurahr" creationdate="20201118T025027Z">
+        <seg>これは対応するメニューアクションを :menuselection:`プラグイン` メニューに追加します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23967,6 +24463,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>What is the meaning of the files:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024639Z" creationid="miurahr" creationdate="20201118T024639Z">
+        <seg>各ファイルの意味は以下の通りです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>What problem do you want to solve?</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024630Z" creationid="miurahr" creationdate="20201118T024630Z">
+        <seg>あなたが解決したいのはどのような問題ですか？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>What to do next varies according to your operating system, so choose the appropriate course to follow:</seg>
       </tuv>
       <tuv lang="ja">
@@ -24211,6 +24723,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140008Z" creationid="miurahr" creationdate="20201117T140008Z">
         <seg>前にベクターデータを紹介したとき figure_landscape_ にこの画像を示しました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>When working on a real plugin it's wise to write the plugin in another (working) directory and create a makefile which will generate UI + resource files and install the plugin into your QGIS installation.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T025122Z" creationid="miurahr" creationdate="20201118T025122Z">
+        <seg>実際にプラグイン作成の作業を行うときは、別の（作業用の）ディレクトリでプラグインを書いて、UIとリソースファイルを生成するのと、プラグインを実際のインストールディレクトリにインストールするのは、makeファイルを書いてそれにさせるのが賢いやり方でしょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24507,6 +25027,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>空白は友達になりえます</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Why do you do it?</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024630Z" creationid="miurahr" creationdate="20201118T024630Z">
+        <seg>なぜそれを行うのですか？</seg>
       </tuv>
     </tu>
     <tu>
@@ -24831,6 +25359,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Writing a plugin</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024634Z" creationid="miurahr" creationdate="20201118T024634Z">
+        <seg>プラグインを書く</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Y</seg>
       </tuv>
       <tuv lang="ja">
@@ -25119,6 +25655,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You can see that in :func:`initGui()` we've used an icon from the resource file (called :file:`resources.qrc` in our case)</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T025037Z" creationid="miurahr" creationdate="20201118T025037Z">
+        <seg>:func:`initGui()` 関数の中にresourceファイル（この例では :file:`resources.qrc` という名前です）からのアイコンが使われているのも見ることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You can see the result for the preview of zone 2 in the image below:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T215810Z" creationid="miurahr" creationdate="20201117T215810Z">
@@ -25227,6 +25771,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T220111Z" creationid="miurahr" creationdate="20201117T220111Z">
         <seg>ガイドとして上記の画像を使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can use their source to learn more about programming with PyQGIS or find out whether you are duplicating development effort.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024637Z" creationid="miurahr" creationdate="20201118T024637Z">
+        <seg>それらのソースを使用して、PyQGISを使ったプログラミングについてもっと学んだり、開発努力が重複していないか調べたりできます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25895,6 +26447,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>`Here &lt;https://github.com/wonder-sk/qgis-minimal-plugin&gt;`_ is a way of creating the basic files (skeleton) of a typical QGIS Python plugin.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024647Z" creationid="miurahr" creationdate="20201118T024647Z">
+        <seg>`こちら `_ に典型的なQGIS Pythonプラグインの基本的なファイル（スケルトン）を作る方法があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>`More Effective C++ &lt;https://www.informit.com/store/more-effective-c-plus-plus-35-new-ways-to-improve-your-9780201633719&gt;`_, Scott Meyers</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T092616Z" creationid="miurahr" creationdate="20201117T092616Z">
@@ -26151,6 +26711,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>``__init__`` which gives access to QGIS interface</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T025022Z" creationid="miurahr" creationdate="20201118T025022Z">
+        <seg>``__init__`` はQGIS interfaceへのアクセスを与えます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>``centroid``</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T015330Z" creationid="miurahr" creationdate="20201118T015330Z">
@@ -26187,6 +26755,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T015326Z" creationid="miurahr" creationdate="20201118T015326Z">
         <seg>``範囲``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>``initGui()`` called when the plugin is loaded</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T025023Z" creationid="miurahr" creationdate="20201118T025023Z">
+        <seg>``initGui()`` はプラグインが読み込まれた時に呼ばれます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26263,10 +26839,58 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>``unload()`` called when the plugin is unloaded</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T025025Z" creationid="miurahr" creationdate="20201118T025025Z">
+        <seg>``unload()`` はプラグインがアンロードされた時に呼ばれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>``updateMapExtent()``</seg>
       </tuv>
       <tuv lang="ja">
         <seg>``updateMapExtent()``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>a file name or a relative path (relative to the base folder of the plugin's compressed package) of a web friendly image (PNG, JPEG)</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024806Z" creationid="miurahr" creationdate="20201118T024806Z">
+        <seg>画像のファイル名もしくは（プラグインの圧縮パッケージのベースフォルダからの）相対パス。画像はウェブに適したフォーマット（PNG, JPEG）で</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>a short string  containing the name of the plugin</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024716Z" creationid="miurahr" creationdate="20201118T024716Z">
+        <seg>そのプラグインの名前から成る短い文字列</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>a valid URL for the source code repository</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024800Z" creationid="miurahr" creationdate="20201118T024800Z">
+        <seg>ソースコードのリポジトリの有効なURL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>a valid URL for tickets and bug reports</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024803Z" creationid="miurahr" creationdate="20201118T024803Z">
+        <seg>チケットとバグ報告のための有効なURL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>a valid URL pointing to the homepage of your plugin</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024758Z" creationid="miurahr" creationdate="20201118T024758Z">
+        <seg>プラグインのホームページを示す有効なURL</seg>
       </tuv>
     </tu>
     <tu>
@@ -26335,6 +26959,38 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>author</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024737Z" creationid="miurahr" creationdate="20201118T024737Z">
+        <seg>著者</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>author name</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024739Z" creationid="miurahr" creationdate="20201118T024739Z">
+        <seg>著者の名前</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>boolean flag, `True` or `False`, applies to the whole plugin and not just to the uploaded version</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024751Z" creationid="miurahr" creationdate="20201118T024751Z">
+        <seg>`True` か `False` のいずれかの値。単にアップロードしたバージョンに対してではなく、そのプラグインすべてに適用される</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>boolean flag, `True` or `False`, determines if the plugin provides processing algorithms</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024819Z" creationid="miurahr" creationdate="20201118T024819Z">
+        <seg>`True` か `False` のいずれかの値。このプラグインがプロセッシングアルゴリズムを提供するかどうかを特定する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>build the documentation to test your changes</seg>
       </tuv>
       <tuv lang="ja">
@@ -26343,10 +26999,42 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>comma separated list, spaces are allowed inside individual tags</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024753Z" creationid="miurahr" creationdate="20201118T024753Z">
+        <seg>コンマで区切ったリスト。個々のタグの内部ではスペース可</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>create, update, or delete branches</seg>
       </tuv>
       <tuv lang="ja">
         <seg>ブランチを作成、更新または削除する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>description</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024724Z" creationid="miurahr" creationdate="20201118T024724Z">
+        <seg>説明</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>dotted notation of maximum QGIS version</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024722Z" creationid="miurahr" creationdate="20201118T024722Z">
+        <seg>ドット記法による最大QGISバージョン</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>dotted notation of minimum QGIS version</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024718Z" creationid="miurahr" creationdate="20201118T024718Z">
+        <seg>ドット記法による最小QGISバージョン</seg>
       </tuv>
     </tu>
     <tu>
@@ -26371,6 +27059,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>ファイルを編集する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>email of the author, only shown on the website to logged in users, but visible in the Plugin Manager after the plugin is installed</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024742Z" creationid="miurahr" creationdate="20201118T024742Z">
+        <seg>著者のEメール。ウェブサイトでログインしたユーザのみに表示されるが、プラグインをインストールした後はプラグインマネジャで見ることができる</seg>
       </tuv>
     </tu>
     <tu>
@@ -26423,6 +27119,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>icon</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024805Z" creationid="miurahr" creationdate="20201118T024805Z">
+        <seg>アイコン</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>information about layer order and drawing order</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T015240Z" creationid="miurahr" creationdate="20201118T015240Z">
@@ -26471,6 +27175,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>longer text which describes the plugin in details, no HTML allowed</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024733Z" creationid="miurahr" creationdate="20201118T024733Z">
+        <seg>プラグインの詳細を説明するより長いテキスト。HTMLは不可</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>make a pull request to have your changes inserted into the main repository</seg>
       </tuv>
       <tuv lang="ja">
@@ -26495,6 +27207,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>name</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024658Z" creationid="miurahr" creationdate="20201118T024658Z">
+        <seg>名前</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>number of levels</seg>
       </tuv>
       <tuv lang="ja">
@@ -26515,6 +27235,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>部屋数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>one of `Raster`, `Vector`, `Database` and `Web`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024809Z" creationid="miurahr" creationdate="20201118T024809Z">
+        <seg>`Raster`、`Vector`、`Database`、`Web` のうちのいずれか</seg>
       </tuv>
     </tu>
     <tu>
@@ -26579,6 +27307,30 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T020908Z" creationid="miurahr" creationdate="20201118T020908Z">
         <seg>ファイルを ``my_rules.txt`` ファイルとして保存してテキストエディタを閉じます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>short string with the version dotted notation</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024735Z" creationid="miurahr" creationdate="20201118T024735Z">
+        <seg>バージョンをドット記法で記した短い文字列</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>short text which describes the plugin, no HTML allowed</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024725Z" creationid="miurahr" creationdate="20201118T024725Z">
+        <seg>プラグインを説明する短いテキスト。HTMLは不可</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>string, can be multiline, no HTML allowed</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T024744Z" creationid="miurahr" creationdate="20201118T024744Z">
+        <seg>文字列。改行して複数行になってもよい。HTML不可</seg>
       </tuv>
     </tu>
     <tu>
