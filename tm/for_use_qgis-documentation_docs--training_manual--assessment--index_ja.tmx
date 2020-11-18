@@ -1,0 +1,559 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|MOD| Assessment</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|MOD| 学習評価</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Use your own data for this section.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このセクション用に自分のデータを使います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You will need:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次のものが必要です：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>a point vector dataset of points of interest, with point names and multiple categories</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>POI（ポイント名と複数のカテゴリ）のポイントベクターデータセット</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>a line vector dataset of roads</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>道路のラインベクターデータセット</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>a polygon vector dataset of land use (using property boundaries)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>土地利用（土地の境界を使用）のポリゴンベクターデータセット</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>a visual-spectrum image (such as an aerial photograph)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>（航空写真のような）視覚的なスペクトル画像</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Create a base map</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>基図を作成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Before doing any data analysis, you will need a base map, which will provide your analysis result with context.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>何かデータ分析を行う前に基図が必要でしょう。これは分析結果に背景を提供します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Add the point layer</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ポイントレイヤーを追加</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Add in the point layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ポイントレイヤーで追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Based on the level that you're doing the course at, do only what is listed in the appropriate section below:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>行っている課程のレベルに基づき、以下の該当するセクションに記載されているものだけ行います：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Label the points according to a unique attribute, such as place names.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>点に対して、場所名などのユニークな属性に応じてラベルを付けます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Use a small font and keep the labels inconspicuous.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ラベルには小さいフォントを使用して目立たないようにします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The information should be available, but shouldn't be a main feature of the map.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>情報は利用可能である必要がありますが、地図の主な特徴であってはなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Classify the points themselves into different colors based on a category.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ポイント自体はカテゴリに基づいて異なる色に分類します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For example, categories could include "tourist destination", "police station", and "town center".</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>例えば、カテゴリには「観光地」、「警察署」、「街中心」などがありうるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moderate|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moderate|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Do the same as the |basic| section.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| セクションと同じことをします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Classify the point size by importance: the more significant a feature, the larger its point.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>重要性によって、ポイントサイズを分類します：より重要な地物はより大きなポイントで。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>However, don't exceed the point size of :kbd:`2.00`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>しかしながら、サイズは :kbd:`2.00` ポイントを超えないようにしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For features that aren't located at a single point (for example, provincial/regional names, or town names at a large scale), don't assign any point at all.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>単一のポイントに位置づけられない地物については（例えば、地域/地方の名称、または大規模の町の名）、ポイントは何も割り当てないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|hard|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|hard|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Don't use point symbols to symbolize the layer at all. Instead, use labels centered over the points; the point symbols themselves should have no size.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>レイヤーをシンボル化するためにポイントシンボルを使用しないでください。代わりに、ポイントの中央にラベルを使用してください。ポイントシンボル自体にはサイズがありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Use :guilabel:`Data defined settings` to style the labels into meaningful categories.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`データで定義される設定` を使用してラベルを意味のあるカテゴリにスタイル付けします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Add appropriate columns to the attribute data if necessary.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>必要に応じて、属性データに適切な列を追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>When doing so, don't create fictional data - rather, use the :guilabel:`Field Calculator` to populate the new columns, based on appropriate existing values in the dataset.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>その際は架空のデータを作成しないこと - むしろ、 :guilabel:`フィールド計算機` を使用し、データセット内の適切な既存の値に基づいて新しい列を投入します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Add the line layer</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ラインレイヤーを追加</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Add the road layer and then change its symbology.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>道路レイヤーを追加して、そのシンボルを変更します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Don't label the roads.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>道路にラベルを付けないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Change the road symbology to a light color with a broad line.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>幅広い線の明るい色に道路シンボルを変更します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Make it somewhat transparent as well.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>また、やや透明にします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Create a symbol with multiple symbol layers. The resulting symbol should look like a real road. You can use a simple symbol for this; for example, a black line with a thin white solid line running down the center. It can be more elaborate as well, but the resulting map should not look too busy.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>複数のシンボルレイヤーを持つシンボルを作成します。結果のシンボルは実際の道路のように見えるはずです。これには単純な記号を使用できます。例えば、薄い白い実線が中央を走っている黒い線。より精巧なものにすることもできますが、結果として得られる地図が煩雑に見えるべきではありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If your dataset has a high density of roads at the scale you want to show the map at, you should have two road layers: the elaborate road-like symbol, and a simpler symbol at smaller scales. (Use scale-based visibility to make them switch out at appropriate scales.)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>地図を表示したい縮尺でデータセット中の道路の密度が高い場合は、道路のレイヤーは2つ持っている必要があります：精巧な道路のような記号、およびより小さな縮尺での単純な記号。（適切な縮尺で切り替えるためには縮尺ベースの可視性を使用します。）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>All symbols should have multiple symbol layers.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>すべてのシンボルが複数のシンボルレイヤーを持っている必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Use symbols to make them display correctly.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それらを正しく表示するために記号を使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Do the same as in the |moderate| section above.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>上記の |moderate| セクション中と同じ操作を行います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In addition, roads should be classified.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>すべてのシンボルが複数のシンボルレイヤーを持っている必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>When using realistic road-like symbols, each type of road should have an appropriate symbol; for example, a highway should appear to have two lanes in either direction.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それらを正しく表示するために記号を使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Add the polygon layer</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ポリゴンレイヤーを追加</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Add the land use layer and change its symbology.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>土地利用レイヤーを追加し、そのシンボルを変更します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Classify the layer according to land use.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>土地利用に応じてレイヤーを分類します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Use solid colors.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ソリッドカラーを使用してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Classify the layer according to land use.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>土地利用に応じてレイヤーを分類します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Where appropriate, incorporate symbol layers, different symbol types, etc.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>適切な場合には、シンボルレイヤー、異なるシンボルタイプ等を組み込みます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Keep the results looking subdued and uniform, however.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>しかしながら、結果が落ち着いた均一に見えるよう維持してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Keep in mind that this will be part of a backdrop!</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは背景の一部になることに留意してください！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Use rule-based classification to classify the land use into general categories, such as "urban", "rural", "nature reserve", etc.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>「都市」、「農村」、「自然保護区」、などの一般的なカテゴリに土地利用を分類するために、規則に基づく分類を使用します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Create the raster backdrop</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ラスター背景を作成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Create a hillshade from the DEM, and use it as an overlay for a classified version of the DEM itself.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>DEMから陰影起伏を作成し、それをDEM自体の分類されたバージョンのオーバーレイとして使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You could also use the :guilabel:`Relief` plugin (as shown in the lesson on plugins).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`Relief` プラグインも（プラグインのレッスン中で示すように）使用できるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Finalize the base map</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>基図を完成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Using the resources above, create a base map using some or all of the layers.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>上記のリソースを使用して、レイヤーのいくつかまたはすべてを使用して、基本図を作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This map should include all the basic information needed to orient the user, as well as being visually unified / "simple".</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この地図は、すべての基本的なユーザーが方角を定めるために必要な情報を含むだけでなく、視覚的に統一されている/「単純」である必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Analyze the data</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>データを分析</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You are looking for a property that satisfies certain criteria.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>一定の基準を満たす資産を探しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can decide on your own criteria, which you must document.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>自身の基準で決めることができますが、基準は文書化しておかなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>There are some guidelines for these criteria:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これらの基準のためのいくつかのガイドラインがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>the target property should be of (a) certain type(s) of land use</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>対象となる資産は、土地利用の特定のタイプのものでなければなりません</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>it should be within a given distance from roads, or be crossed by a road</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それは道路から一定の距離内にあるか、あるいは道路が交差していなければなりません</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>it should be within a given distance from some category of points, like a hospital for example</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それは、いくつかのポイントのカテゴリ、例えば病院などのように、から一定の距離内になければなりません</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moderate| / |hard|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moderate| / |hard|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Include raster analysis in your results.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>検索結果のラスター​​分析を含めます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Consider at least one derived property of the raster, such as its aspect or slope.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ラスターの少なくとも一つの派生プロパティ、その傾斜方向や傾きなど、を考えます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Final Map</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>最終的な地図</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Include this map in a document along with your documented criteria.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>文書化基準に沿って文書にこの地図を含めます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If the map has become too visually busy due to the added layer(s), deselect the layers which you feel are the least necessary.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>地図が追加したレイヤーによってあまりにも視覚的に煩雑になりすぎたら、必要以上と感じるレイヤーの選択を解除します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Your map must include a title and a legend.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>地図には、タイトルと凡例を含める必要があります。</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

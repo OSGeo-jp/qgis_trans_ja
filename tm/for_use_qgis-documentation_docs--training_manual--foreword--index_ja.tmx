@@ -5,10 +5,10 @@
   <body>
     <tu>
       <tuv xml:lang="en">
-        <seg>|MOD| Using Spatial Databases in QGIS</seg>
+        <seg>Course Introduction</seg>
       </tuv>
       <tuv xml:lang="ja">
-        <seg>|MOD| QGISで空間データベースを使用する</seg>
+        <seg>コースのイントロダクション</seg>
       </tuv>
     </tu>
   </body>

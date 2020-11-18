@@ -1,0 +1,823 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|LS| Updating Forest Stands</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|LS| 林分を更新する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now that you have digitized the information from the old inventory maps and added the corresponding information to the forest stands, the next step would be to create the inventory of the current state of the forest.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>古い目録の地図から情報をデジタル化し、林分に対応する情報を追加し終わりましたから、次のステップは、森林の現在の状態の目録を作成することです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>After digitizing the forest stands, you will add information such as new constraints given by conservation regulations.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>林分をデジタル化した後、このような保全条例により与えられた新たな制約などの情報を追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**The goal for this lesson:** To digitize a new set of forest stands from CIR aerial photographs and add information from other data-sets.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**このレッスンの目標：** 林分の新しいセットをCIR航空写真からデジタル化し、他のデータセットからの情報を追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| Comparing the Old Forest Stands to Current Aerial Photographs</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| 古い林分を現在の航空写真と比較する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The CIR images are from 2012.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>CIRの画像は2012年からです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can compare the stands that were created in 1994 with the situation almost 20 years later.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ほぼ20年後の状況と1994年に作成された林分を比較できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Add your :kbd:`forest_stands_1994.shp` layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:kbd:`forest_stands_1994.shp` レイヤーを追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Set its styling so that you can see through your polygons.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>スタイルを設定することでポリゴンを透過して見えるようにします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Review how the old forest stands follow (or not) what you might visually interpret as an homogeneous forest.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>古い林分が視覚的に均質な森として解釈する可能性があるものをフォローする（またはしない）方法を確認してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Zoom and pan around the area.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>エリアの周りにズームおよびパンします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You probably will notice that some of the old forest stands might be still corresponding with the image but others are not.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>おそらく、古い林分でなお静止画に対応するもの、しないものがわかるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This is a normal situation, as some 20 years have passed by and different forest operations have been done (harvesting, thinning...).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは通常の状況です、というのは20年ほどが経過して別の森林施業（伐採、間伐...）が行われていますので。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It is also possible that the forest stands looked homogeneous back in 1992 to the person who digitized them but as time has passed some forest has developed in different ways.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>林分は1992年に戻りそれらをデジタル化した人には均質に見えていたが、時間が経過するにつれ、いくつかの森は異なった方法で発展してきた、ということもありえます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Or simply the priorities for the forest inventory were different that they are today.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>あるいは森林目録のための優先順位は今日あるものと単に異なっていました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Next, you will create new forest stands for this image without using the old ones.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次は、この画像に対する新しい林分を古い林分を使用せずに作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Later you can compare them to see the differences.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>その後、違いを見るためにそれらを比較できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| Interpreting the CIR Image</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| CIR画像の解釈</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Let's digitize the same area that was covered by the old inventory, limited by the roads and the lake.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>道路や湖によって制限される、古い調査でカバーされていた同じ地域を、デジタル化してみましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You don't have to digitize the whole area, as in the previous exercise you can start with a vector file that already contains most of the forest stands.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>前の練習でのようにすでに林分のほとんどが含まれているベクターファイルで開始できますので、地域全体をデジタル化する必要はありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Remove the :kbd:`forest_stands_1994.shp` layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:kbd:`forest_stands_1994.shp` レイヤーを外します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Add the :kbd:`forest_stands_2012.shp` layer, located in the :kbd:`exercise_data\\forestry\\` folder.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:kbd:`forest_stands_2012.shp` レイヤーを追加します、 :kbd:`exercise_data\\forestry\\` フォルダにあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Set the styling of this layer so that the polygons have no fill and the borders are visible.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このレイヤーのスタイルを、ポリゴンには塗りつぶしなしで、境界が表示されるように設定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can see that a region to the North of the inventory area is still missing.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>目録エリアの北に領域がまだ不足していることがわかります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>That will be your task, digitizing the missing forest stands.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>不足している林分をデジタル化することは必要になります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>But before you start, spend some time reviewing the forest stands already digitized and the corresponding forest in the image.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>しかし、開始する前に、すでにデジタル化した林分および画像内の対応する森林を見直すことにいくらか時間を費やしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Try to get an idea about how the stands borders are decided, it helps if you have some forestry knowledge.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>林分境界がどのように決定されるかについて理解してみてください、いくらか林業の知識を持っている場合それが役立ちます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Some ideas about what you could identify from the images:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>画像から特定できるものについていくつかのアイデア：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>What forests are deciduous species (in Finland mostly birch forests) and which ones are conifers (in this region pine or spruce).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>どの森林が落葉樹林（フィンランドではほとんどは白樺林）でどれが針葉樹林（この地域では松やトウヒ）であるか。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In CIR images, deciduous species will often come as bright red color whereas conifers present dark green colors.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>CIR画像において、落葉樹林はしばしば暗緑色本、一方、針葉樹林は明るい赤色で来ます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>When a forest stand age changes, by looking at the  sizes of the tree crowns that can be identified in the imagery.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>いつ林分の年齢が変化するか、樹冠の大きさを見ることで、画像内で識別できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The different forest stands' densities, for example forest stand were a thinning operation has recently been done would clearly show spaces between the tree crowns and should be easy to differentiate from other forest stands around it.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>別の林分の密度は、例えば、最近間引きが行われた林分は樹冠の間に明確に隙間が見えるでしょうし、その周りの他の林分から区別することは容易なはずです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Blueish areas indicate barren terrain, roads and urban areas, crops that have not started to grow etc.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>青みを帯びた地域は不毛の地形、道路や市街地、成長を開始していない作物などを示しています</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| |TY| Digitizing Forest Stands from CIR Imagery</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| |TY| CIR画像から林分をデジタル化する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>When digitizing the forest stands, you should try to get forest areas that are as homogeneous as possible in terms of tree species, forest age, stand density... Don't be too detailed though, or you will end up making hundreds of small forest stands that would not be useful at all. You should try to get stands that are meaningful in the context of forestry, not too small (at least 0.5 ha) but not too big either (no more than 3 ha).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>林分をデジタル化するときは、樹種、林齢、林分密度...の観点から、可能な限り均一で取得しようとすべきです。しかし、詳細すぎてはいけません。まったく役に立たない小さなたくさんの林分を作ることになります。小さすぎず（少なくとも0.5ヘクタール）また大きすぎない（せいぜい3ヘクタール）、林業の文脈において意味ある林分を取得しようとする必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>With this indications in mind, you can now digitize the missing forest stands.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この示唆を心に持って、今、不足している林分をデジタル化できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Enable editing for :kbd:`forest_stands_2012.shp`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:kbd:`forest_stands_2012.shp` の編集を有効にします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Set up the snapping and topology options as in the image.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>画像のようにスナップとトポロジオプションを設定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Remember to click :guilabel:`Apply` or :guilabel:`OK`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`適用` または :guilabel:`OK` をクリックすることを忘れないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Start digitizing as you did in the previous lesson, with the only difference that you don't have any point layer that you are snapping to.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>前のレッスンで行ったように、スナップされる点レイヤーがないことが違うだけで、デジタル化を開始します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For this area you should get around 14 new forest stands.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この地域のためには約14の新しい林分を取得する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>While digitizing, fill in the :kbd:`Stand_id` field with numbers starting at :kbd:`901`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>デジタル化しながら、 :kbd:`Stand_id` フィールドに :kbd:`901` から始まる番号を記入します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>When you are finished your layer should look something like:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>作業が完了したら、レイヤーは次のようになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now you have a  new set of polygons defining the different forest stands for the current situation as can interpreted from the CIR images.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>今、別の森林を定義するポリゴンの新しいセットは、CIR画像から解釈できるように、現在の状況を表しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>But you are obviously still missing the forest inventory data, right?</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>しかし明らかにまだ森林目録データが欠落しています、よね？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For that you will still need to visit the forest and get some sample data that you will use to estimate the forest attributes for each of the forest stands.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>そのためにはまだ、森林を訪問し、各林分に対する森林属性を推定するために使用するいくつかのサンプルデータを取得する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You will see how to do that in the next lesson.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次のレッスンでそれを行う方法について説明します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For the moment, you still can improve your vector layer with some extra information that you have about conservation regulation that should be taken into account for this area.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>現時点では、まだこの地域のために考慮されるべき保全規制について持っているいくつかの追加情報を使用して、ベクターレイヤーを改善できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| |FA| Updating Forest Stands with Conservation Information</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| |FA|  保全情報で林分を更新する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For the area you are working with, it has been researched that the following conservation regulations must be taken into account while doing the forest planning:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>作業している地域のために、森林計画をしている間、以下の保全規制を考慮しなければならないことを研究されてきました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Two locations of a protected species of Siberian flying squirrel (Pteromys volans) have been identified.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>エゾモモンガ（Pteromysのvolans）の保護種の二箇所が同定されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>According to the regulation, an area of 15 meters around the spots must be left untouched.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>規定によれば、スポットの約15メートルの区域は手つかずのまま残さなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A riparian forest of special interest growing along a stream in the area must be protected.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>地域の中の流れに沿って成育している特別な関心の水辺林は保護されなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In a visit to the field, it was found that 20 meters to both sides of the stream must be protected.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>現地調査で、流れの両側までの20メートルが保護されなければならないことがわかりました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You have one vector file containing the information about the squirrel locations and another containing the digitized stream running in the North area towards the lake.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>リスの場所や湖に向けて北エリアで実行されているデジタル化された流れを含む他の情報を含む1つのベクターファイルを持っています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>From the :kbd:`exercise_data\\forestry\\` folder, add the vector files :kbd:`squirrel.shp` and :kbd:`stream.shp`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:kbd:`exercise_data\\forestry\\` フォルダから、ベクターファイル :kbd:`squirrel.shp` と :kbd:`stream.shp` を追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For the protection of the squirrels locations, you are going to add a new attribute (column) to your new forest stands that will contain information about point locations that have to be protected.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>リスの場所の保護のために、保護する必要がある点の位置に関する情報が含まれている新しい林分に新しい属性（列）を追加しようとしています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>That information will later be available whenever a forest operation is planned, and the field team will be able to mark the area that has to be left untouched before the work starts.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>その情報は、森林施業が計画されるときはいつでも、後で利用できるようになり、野外チームは作業を開始する前に手つかずで残す必要がある地域をマークできるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Open the attribute table for the :kbd:`squirrel` layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:kbd:`リス` レイヤーのための属性テーブルを開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can see that there are two locations that are defined as Siberian flying squirrel, and that the area to be protected is indicated by a distance of 15 meters from the locations.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>エゾモモンガと定義されている2つの場所があること、及び保護すべき地域がそれらの場所から15メートルの距離で示されていることがわかります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To join the information about the squirrels to your forest stands, you can use the :guilabel:`Join attributes by location`:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>林分にリスについての情報を結合するには、 :guilabel:`位置によって属性を結合` を使用できます：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Open :menuselection:`Vector --&gt; Data Management Tools --&gt; Join attributes by location`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:menuselection:`ベクター --&gt; データ管理ツール --&gt; 位置によって属性を結合` を開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Set the :kbd:`forest_stands_2012.shp` layer as the :guilabel:`Target vector layer`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`結合先ベクターレイヤー` として :kbd:`forest_stands_2012.shp` レイヤーを設定してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>As :guilabel:`Join vector layer` select the :kbd:`squirrel.shp` point layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`結合ベクターレイヤー` として :kbd:`squirrel.shp` ポイントレイヤーを選択してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Name the output file as :kbd:`stands_squirrel.shp`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>出力ファイルに :kbd:`stands_squirrel.shp` と名前を付けます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In :guilabel:`Output table` select :guilabel:`Keep all records (including non-matching target records)`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`出力テーブル` で :guilabel:`すべてのレコードを保持（マッチしない対象レコードを含む）` を選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>So that you keep all the forest stands in the layer instead of only keeping those that are spatially related to the squirrel locations.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>だから、リスの場所に空間的に関連づけられるものだけを保持するのでなく、レイヤー中のすべての林分を保持します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click :guilabel:`OK`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`OK` をクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Select :guilabel:`Yes` when prompted to add the layer to the TOC.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>TOCにレイヤーを追加するか求められたとき :guilabel:`はい` を選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Close the dialogue box.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ダイアログボックスを閉じます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now you have a new forest stands layer, :kbd:`stands_squirrel` where there are new attributes corresponding to the protection information related to the Siberian flying squirrel.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>エゾモモンガに関連した保護情報に対応した新しい属性がある :kbd:`stands_squirrel` 今、新しい林分レイヤー。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Open the table of the new layer and order it so that the forest stands with information for the :guilabel:`Protection` attribute are on top.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>新しいレイヤーのテーブルを開き、 :guilabel:`Protection` 属性のための情報を持つ林分が一番上になるように整列します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You should have now two forest stands where the squirrel has been located:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>リスが配置された場所2つの林分を今持っている必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Although this information might be enough, look at what areas related to the squirrels should be protected.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この情報で十分かもしれませんが、リスに関連するどの地域が保護されるべきかを見てください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You know that you have to leave a buffer of 15 meters around the squirrels location:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>リスの場所を中心に15メートルのバッファを残す必要があることはわかっています：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Open :menuselection:`Vector --&gt; Geoprocessing Tools --&gt; Buffer`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:menuselection:`ベクター --&gt; ジオプロセッシングツール --&gt; バッファ` を開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Make a buffer of 15 meters for the :kbd:`squirrel` layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:kbd:`squirrel` レイヤーのための15メートルのバッファを作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Name the result :kbd:`squirrel_15m.shp`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>結果に :kbd:`squirrel_15m.shp` と名前を付けます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You will notice that if you zoom in to the location in the Northern part of the area, the buffer area extends to the neighbouring stand as well.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>地域の北部の場所にズームインすると、バッファ領域が隣りの林分にも同様に延びていることがわかります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This means that whenever a forest operation would take place in that stand, the protected location should also be taken into account.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは、その林分で森林施業が行われるときはいつも、保護される場所も考慮すべきであることを意味します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>From your previous analysis, you did not get that stand to register information about the protection status.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>以前の分析からは、その林分に保護のステータスに関する情報を登録することができませんでした。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To solve this problem:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この問題を解決するには：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Run the :guilabel:`Join attributes by location` tool again.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>再び :guilabel:`位置で属性を結合` ツールを実行します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>But this time use the :kbd:`squirrel_15m` layer as join layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>しかし、今回は結合レイヤーとして :kbd:`squirrel_15m` レイヤーを使用しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Name the output file as :kbd:`stands_squirrel_15m.shp`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:kbd:`stands_squirrel_15m.shp` として出力ファイルに名前を付けます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Open the attribute table for the this new layer and note that now you have three forest stands that have the information about the protection locations.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この新しいレイヤーの属性テーブルを開き、今保護の場所についての情報を持っている3つの林分を持っていることに注意してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The information in the forest stands data will indicate to the forest manager that there are protection considerations to be taken into account.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>林分データの中の情報は、考慮に入れるべき保護の考慮事項があることを森林管理者に指示しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Then he or she can get the location from the :kbd:`squirrel` dataset, and visit the area to mark the corresponding buffer around the location so that the operators in the field can avoid disturbing the squirrels environment.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それから森林管理者は :kbd:`squirrel` データセットから位置を取得でき、その地域を訪れて野外でのオペレーターがリスの環境を乱さないように場所を中心に対応するバッファをマークできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| |TY| Updating Forest Stands with Distance to the Stream</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| |TY| 流れへの距離で林分を更新する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Following the same approach as indicated for the protected squirrel locations you can now update your forest stands with protection information related to the stream identified in the field:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>保護されたリスの位置について示されたのと同じアプローチに従って、今、林分を野外で識別された流れに関連した保護情報に更新できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Remember that the buffer in this case is 20 meters around it.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この場合、バッファはその周り20メートルであることを覚えておいてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You want to have all the protection information in the same vector file, so use the :kbd:`stands_squirrel_15m` layer as the target.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>すべての保護情報を同じベクターファイル内に持ちたいので、ターゲットとして :kbd:`stands_squirrel_15m` レイヤーを使用してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Name your output as :kbd:`forest_stands_2012_protect.shp`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>出力に :kbd:`forest_stands_2012_protect.shp` と名前を付けます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Open the attributes table for the new vector layer and confirm that you now have all the protection information for the stands that are affected by the protection measures to protect the riparian forest associated with the stream.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>新しいベクターレイヤーの属性テーブルを開き、今、流れに関連付けられた水辺林を保護するための保護措置の影響を受けている林分のためのすべての保護情報を持っていることを確認します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Save your QGIS project.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISプロジェクトを保存します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|IC|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|IC|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You have seen how to interpret CIR images to digitize forest stands.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>林分をデジタル化するCIR画像をどのように解釈するかを見てきました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Of course it would take some practice to make more accurate stands and usually using other information like soil maps would give better results, but you know now the basis for this type of task.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>もちろんより正確な林分を作るためにはいくらか練習がいるでしょうし、通常は土壌地図のような他の情報を使用すればより良い結果が得られるでしょうが、これでこの種の業務のための基礎はわかりました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>And adding information from other datasets resulted to be quite a trivial task.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>そして、他のデータセットからの情報を追加することで、非常に簡単な作業となりました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|WN|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|WN|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The forest stands you digitized will be used for planning forestry operations in the future, but you still need to get more information about the forest.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>デジタル化した林分は将来的に森林施業を計画するために使用されるでしょうが、まだ森林に関する詳細な情報を取得する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In the next lesson, you will see how to plan a set of sampling plots to inventory the forest area you just digitized, and get the overall estimate of forest parameters.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次のレッスンでは、調査にだけのデジタル化された森林面積をサンプリングプロットのセットを計画する方法を見て、森林のパラメーターの全体的な見積もりを取得します。</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

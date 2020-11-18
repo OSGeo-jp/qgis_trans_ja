@@ -4,22 +4,34 @@
   <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
   <body>
     <tu>
-      <tuv xml:lang="en"><seg>|MOD| Completing the Analysis</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="en">
+        <seg>|MOD| Completing the Analysis</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>|MOD| 分析の完了</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en"><seg>You now have two halves of an analysis: a vector and a raster part.</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="en">
+        <seg>You now have two halves of an analysis: a vector and a raster part.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>分析は2部あります：ベクターの部とラスターの部。</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en"><seg>In this module, you'll see how to combine them.</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="en">
+        <seg>In this module, you'll see how to combine them.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>このモジュールでは、それらを組み合わせる方法を説明します。</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en"><seg>You will conclude the analysis and present the final results.</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="en">
+        <seg>You will conclude the analysis and present the final results.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>分析を完了して最終結果を提示します。</seg>
       </tuv>
     </tu>

@@ -1,0 +1,1063 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|LS| Symbology</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|LS| シンボル体系</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The symbology of a layer is its visual appearance on the map.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>レイヤーのシンボルは、地図上の外観です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The basic strength of GIS over other ways of representing data with spatial aspects is that with GIS, you have a dynamic visual representation of the data you're working with.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>空間的な側面を持つデータを表現する他の方法に勝るGISの基本的な強みは、GISを使用すると、作業データの動的な視覚表現ができることです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Therefore, the visual appearance of the map (which depends on the symbology of the individual layers) is very important.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>したがって、（個々のレイヤーのシンボルに依存する）地図の外観は非常に重要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The end user of the maps you produce will need to be able to easily see what the map represents.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>作成した地図のエンドユーザーに地図が何を表現するかが簡単にわかるようにする必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Equally as important, you need to be able to explore the data as you're working with it, and good symbology helps a lot.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>同様に重要なこととして、データはそれで作業しながら探索できる必要があり、優れたシンボルは大きな助けになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In other words, having proper symbology is not a luxury or just nice to have.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>つまり、適切なシンボルを持つことは、高級でもなくまたは単に素晴らしいことではありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In fact, it's essential for you to use a GIS properly and produce maps and information that people will be able to use.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>実際には、適切にGISを使用して、地図や、人々が使用できる情報を生成するためにそれが不可欠です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**The goal for this lesson:** To be able to create any symbology you want for any vector layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**このレッスンの目標:** ベクターレイヤーに対して、望むとおりのシンボル体系を作成できるようになる</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| |FA| Changing Colors</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| |FA| 色を変更する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To change a layer's symbology, open its :guilabel:`Layer Properties`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>レイヤーのシンボル体系を変更するには、そのレイヤーの :guilabel:`レイヤーのプロパティ` を表示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Let's begin by changing the color of the :guilabel:`landuse` layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`landuse` レイヤーの色を変更するのを始めましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>By default, you can also access a layer's properties by double-clicking on the layer in the Layers list.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>デフォルトでは、レイヤーリストでリスト上でダブルクリックすることで、レイヤーのプロパティにアクセスできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Choose a gray color and click :guilabel:`OK`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>グレーを選択して、 :guilabel:`OK` をクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click :guilabel:`OK` again in the :guilabel:`Layer Properties` window, and you will see the color change being applied to the layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`レイヤープロパティ` ウィンドウで再度 :guilabel:`OK` をクリックし、色の変更がレイヤーに適用されたことを確認するでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| |TY|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| |TY|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Check your results &lt;symbology-colors-1&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`結果の確認 &lt;symbology-colors-1&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| |FA| Changing Symbol Structure</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| |FA| シンボル構造を変更する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This is good stuff so far, but there's more to a layer's symbology than just its color.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これはこれまでのところ良いものですが、ちょうどその色よりも、レイヤーのシンボルに適したものがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Next we want to eliminate the lines between the different land use areas so as to make the map less visually cluttered.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次に、視覚的に雑然となるように様々な土地利用エリア間のラインを削除したいと思います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Open the :guilabel:`Layer Properties` window for the :guilabel:`landuse` layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`landuse` レイヤーの :guilabel:`レイヤーのプロパティ` ウィンドウを開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Change this to :guilabel:`No Pen`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これを :guilabel:`ペンなし` に変更します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click :guilabel:`OK`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`OK` をクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now the :guilabel:`landuse` layer won't have any lines between areas.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>今、 :guilabel:`landuse` レイヤーでは、エリアの間に何もラインがありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Change the :guilabel:`rivers` layer's symbology to a sensible representation of waterways.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>水路の表示を明確に表現するため :guilabel:`rivers` レイヤーのシンボル体系を変更します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Check your results &lt;symbology-structure-1&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`結果の確認 &lt;symbology-structure-1&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moderate| |FA| Scale-Based Visibility</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moderate| |FA| 縮尺に基づく表示</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Sometimes you will find that a layer is not suitable for a given scale.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>時には、レイヤーが与えられた縮尺に適していないとわかることもあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For example, a dataset of all the continents may have low detail, and not be very accurate at street level.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>例えば、すべての大陸のデータセットは、詳細さが低く、街区レベルではあまり正確ではないかもしれません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>When that happens, you want to be able to hide the dataset at inappropriate scales.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それが起こると、不適切な縮尺でデータセットを非表示できるようにしたくなります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>... is not very useful. The buildings are hard to distinguish at that scale.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>…あまり便利ではありません。その縮尺で建物を区別するのは難しいです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To enable scale-based rendering:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>縮尺に基づくレンダリングを有効にするには：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Open the :guilabel:`Layer Properties` dialog for the :guilabel:`buildings` layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`buildings` レイヤーの :guilabel:`レイヤーのプロパティ` ダイアログを開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Test the effects of this by zooming in and out in your map, noting when the :guilabel:`buildings` layer disappears and reappears.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`buildings` レイヤーがいつ現れたり消えるかに注目しながら、地図で拡大・縮小する効果をテストします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can use your mouse wheel to zoom in increments.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>インクリメントにズームインするために、マウスホイールを使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Alternatively, use the zoom tools to zoom to a window:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>あるいは、ウインドウにズームするために、ズーム・ツールを使用してください：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|zoomIn| |zoomOut|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|zoomIn| |zoomOut|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moderate| |FA| Adding Symbol Layers</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moderate| |FA| シンボルレイヤーを追加する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now that you know how to change simple symbology for layers, the next step is to create more complex symbology.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これでレイヤーに対する単純なシンボルを変更する方法はわかりましたので、次のステップは、より複雑なシンボルを作成することです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>QGIS allows you to do this using symbol layers.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISでは、シンボルレイヤーを使用して、これを行うことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In this example, the current symbol has no outline (i.e., it uses the :guilabel:`No Pen` border style).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この例では、現在のシンボルは何のアウトラインを持っていません（すなわち、それは :guilabel:`ペンなし` の境界スタイルを使用しています）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now there's a second symbol layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>今、第2のシンボルレイヤーがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Being a solid color, it will of course completely hide the previous kind of symbol.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ソリッドカラーなので、それは当然のことながら、完全にシンボルの前のようなものを非表示になります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Plus, it has a :guilabel:`Solid Line` border style, which we don't want.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`実線` の境界スタイル、プラス、それは持っています、これは望ましくない。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Clearly this symbol has to be changed.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>明らかに、この記号は、変更する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It's important not to get confused between a map layer and a symbol layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>地図レイヤーとシンボルレイヤーを混同しないことが重要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A map layer is a vector (or raster) that has been loaded into the map.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>地図レイヤーは地図にロードされているベクター（またはラスター）です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A symbol layer is part of the symbol used to represent a map layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>シンボルレイヤーは、地図レイヤーを表すために使用されるシンボルの一部です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This course will usually refer to a map layer as just a layer, but a symbol layer will always be called a symbol layer, to prevent confusion.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このコースでは、たいていは地図レイヤーを単にレイヤーと言いますが、シンボルレイヤーは、混乱を防ぐために、シンボルレイヤーと呼びます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Set the border style to :guilabel:`No Pen`, as before.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>以前のように、境界スタイルを :guilabel:`ペンなし` へ設定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Change the fill style to something other than :guilabel:`Solid` or :guilabel:`No brush`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>塗りつぶしスタイルを :guilabel:`ソリッド` か :guilabel:`ブラシなし` 以外に変更します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For example:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>例えば：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It's fun!</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは楽しいです！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>But it probably has too many colors to use in a real map...</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>しかし、おそらく、実際の地図に使用するためにあまりにも色が多すぎ...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moderate| |TY|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moderate| |TY|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Remembering to zoom in if necessary, create a simple, but not distracting texture for the :guilabel:`buildings` layer using the methods above.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>シンプルに、必要に応じて、ズームイン作成するために覚えて、しかしためのテクスチャをそらさない :guilabel:`buildings` レイヤーが上記の方法を使用して。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Check your results &lt;symbology-layers-1&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`結果の確認 &lt;symbology-layers-1&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moderate| |FA| Ordering Symbol Levels</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moderate| |FA| シンボルレベルの順序</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>When symbol layers are rendered, they are also rendered in a sequence, similar to the way the different map layers are rendered.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>シンボルレイヤーがレンダリングされるとき、それらは、異なる地図レイヤーがレンダリングされる方法と同様の順列でレンダリングされます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This means that in some cases, having many symbol layers in one symbol can cause unexpected results.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは、場合によっては、一つのシンボルに多くのシンボルレイヤーを有することは予期しない結果を引き起こす可能性があることを意味します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Give the :guilabel:`roads` layer an extra symbol layer (using the method for adding symbol layers demonstrated above).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`roads` レイヤーに余分なシンボルレイヤー与えます（上記実証シンボルレイヤーを追加するためのメソッドを使用して）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You'll notice that this happens:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>あなたはこれが発生したことがわかります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To prevent this from happening, you can sort the symbol levels and thereby control the order in which the different symbol layers are rendered.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これを防ぐには、シンボルレベルを並べ替えることにより、異なるシンボルレイヤーがレンダリングされる順序を制御できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click :guilabel:`OK` twice to return to the map.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`OK` を２回クリックし、地図に戻ります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The map will now look like this:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>地図はこのように見えるでしょう:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Change the appearance of the :guilabel:`roads` layer again.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>もう一度 :guilabel:`roads` レイヤーの外観を変更します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Check your results &lt;symbology-levels-1&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`結果の確認 &lt;symbology-levels-1&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|hard| |TY|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|hard| |TY|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Create a new map and add only the :guilabel:`roads` dataset.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>新しい地図を作成し、 :guilabel:`roads` データセットだけ追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Zoom in to the |majorUrbanName| area.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|majorUrbanName| のエリアにズームします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Using symbol layers, ensure that the outlines of layers flow into one another as per the image below:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>シンボルレイヤーを使用して、レイヤーの輪郭線は、以下の画像に従って互いに流入することを確認してください：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Check your results &lt;symbology-levels-2&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`結果の確認 &lt;symbology-levels-2&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moderate| |FA| Symbol layer types</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moderate| |FA| シンボルレイヤータイプ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Each type of vector (point, line and polygon) has its own set of symbol layer types.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ベクターの各種類（ポイント、ライン、ポリゴン）は、シンボルレイヤータイプの独自のセットを有しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>First we will look at the types available for points.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>まず、ポイントのために利用可能なタイプを見ていきます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Point Symbol Layer Types</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ポイントシンボルレイヤータイプ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Change the symbol properties for the :guilabel:`places` layer:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`places` レイヤーのシンボルプロパティを変更します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Investigate the various options available to you, and choose a symbol with styling you think is appropriate.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>利用できるさまざまなオプションを調査し、適切だとお思いのスタイルでシンボルを選択してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Line Symbol Layer Types</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ラインシンボルレイヤータイプ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To see the various options available for line data:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ラインデータのために利用できるさまざまなオプションを表示するには：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Ensure that the symbol levels are correct (via the :menuselection:`Advanced --&gt; Symbol levels` dialog we used earlier) before applying the style.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>スタイルを適用する前に、シンボルレベルが正しいことを（以前に使用した :menuselection:`高度な --&gt; シンボルレベル` ダイアログ経由で）確認してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Once you have applied the style, take a look at its results on the map.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>スタイルを適用したら、地図上でその結果を見てみましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>As you can see, these symbols change direction along with the road but don't always bend along with it.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>おわかりのように、これらのシンボルは道路と一緒に向きを変えるが、常にそれに沿って曲げないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This is useful for some purposes, but not for others.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは、いくつかの目的には有用ですが、他の目的には有用ではありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you prefer, you can change the symbol layer in question back to the way it was before.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ご希望の場合は、前にした方法に戻って、問題のシンボルレイヤーを変更できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Polygon Symbol Layer Types</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ポリゴンシンボルレイヤータイプ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To see the various options available for polygon data:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ポリゴンデータのために利用できるさまざまなオプションを表示するには：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Investigate what the different options on the list can do.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>リスト上の異なるオプションが何ができるかを調べます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Choose one of them that you find suitable.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これらのうち、適した１つを選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If in doubt, use the :guilabel:`Point pattern fill` with the following options:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次のオプションを使用して、 :guilabel:`ポイントパターン塗り` 疑問がある場合は、使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Add a new symbol layer with a normal :guilabel:`Simple fill`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`単純塗り` 通常で新しいシンボルレイヤーを追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Make it the same light blue with a darker blue border.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それを暗青の境界を持つ水色にします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Move it underneath the point pattern symbol layer with the :guilabel:`Move down` button:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`下に移動` ボタンで点パターンシンボルレイヤーの下に移動させます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>As a result, you have a textured symbol for the water layer, with the added benefit that you can change the size, shape and distance of the individual dots that make up the texture.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>その結果、テクスチャを構成する個々のドットの大きさ、形状や距離を変えることができるという利点があり、水のレイヤーのためのテクスチャシンボルを持っています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|hard| |FA| Creating a Custom SVG Fill</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|hard| |FA| カスタムSVG塗りつぶしを作成する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To do this exercise, you will need to have the free vector editing software `Inkscape &lt;https://inkscape.org/&gt;`_ installed.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この演習を行うには、無料のベクター編集ソフトウェア `Inkscape &lt;https://inkscape.org/&gt;`_ がインストールされている必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You should find this familiar if you have used other vector image editing programs, like Corel.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>コーレルのような、他のベクター画像編集プログラムを使用している方は、これがなじみ深いと思うはずです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>First, we'll change the canvas to a size appropriate for a small texture.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>まず、小さなテクスチャに適したサイズにキャンバスを変更します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click on the menu item :menuselection:`File --&gt; Document Properties`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>メニュー項目 :menuselection:`ファイル --&gt; 文書のプロパティ` をクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This will give you the :guilabel:`Document Properties` dialog.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは :guilabel:`文書のプロパティ`  ダイアログを表示するでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Change the :guilabel:`Units` to :guilabel:`px`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`単位` を :guilabel:`px` に変更します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Close the dialog when you are done.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>実行後はダイアログを閉じます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click on the menu item :menuselection:`View --&gt; Zoom --&gt; Page` to see the page you are working with.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:menuselection:`ビュー --&gt; ズーム --&gt; ページ` メニュー項目をクリックして、作業しているページを参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Select the :guilabel:`Circle` tool:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`円` ツールを選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click and drag on the page to draw an ellipse.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>楕円を描画するためにクリックして、ページ上でドラッグします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To make the ellipse turn into a circle, hold the :kbd:`Ctrl` button while you're drawing it.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>楕円が円に変わるようにするには、描いている間 :kbd:`Ctrl` ボタンを押し続けます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Right-click on the circle you just created and open its :guilabel:`Fill and Stroke` options.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>先ほど作成した円を右クリックし、その :guilabel:`塗りとストローク` オプションを開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can modify its rendering, such as:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このように、そのレンダリングを変更できます：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Change the :guilabel:`Fill` color to a somehow pale grey-blue,</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`塗り` 色を何とか淡灰青に変更し、</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Assign to the border a darker color in :guilabel:`Stroke paint` tab,</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`ストロークの塗り` タブの中で国境に暗い色の割り当て]、</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>And reduce the border thickness under :guilabel:`Stroke style` tab.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`ストロークのスタイル` タブと下の境界の太さを減らします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Draw a line using the :guilabel:`Pencil` tool:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`鉛筆` ツール使って線を引きます：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Move the pointer horizontally and place a point with a simple click.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>水平方向にポインタを移動し、クリックするだけでポイントを置きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click and snap to the vertex of the line and trace a vertical line, ended by a simple click.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>クリックして、ラインの頂点にスナップし、クリックするだけで終わる垂直線を、トレースします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now join the two end vertices.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>今、二つの端の頂点に参加。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Change the color and width of the triangle symbol to match the circle's stroke and move it around as necessary, so that you end up with a symbol like this one:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このようなシンボルで終わるように、円のストロークに合わせ、必要に応じて、それを周りに移動するには三角形のシンボルの色と幅を変更します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In QGIS:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISでは:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Open the :guilabel:`Layer Properties` for the :file:`landuse` layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:file:`landuse` レイヤーに :guilabel:`レイヤーのプロパティ` を開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Once you validate the dialog, features in :guilabel:`landuse` layer should now be covered by a set of symbols, showing a texture like the one on the following map.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ダイアログを有効にすると、 :guilabel:`土地利用` レイヤの地物がシンボルで覆われ、次の地図のような模様が表示されるはずです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If textures are not visible, you may need to zoom in the map canvas or set in the layer properties a bigger :guilabel:`Texture width`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>模様が見えない場合は、地図キャンバスを拡大するか、レイヤのプロパティで :guilabel:`模様の幅`を大きく設定する必要があるかもしれません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|IC|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|IC|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Changing the symbology for the different layers has transformed a collection of vector files into a legible map.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>異なるレイヤーのためにシンボルを変更することで、ベクターファイルの集まりを読みやすい地図に変えてきました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Not only can you see what's happening, it's even nice to look at!</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>何が起こっているか見ることができるだけでなく、それを見るのはうれしくもあります！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|FR|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|FR|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|WN|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|WN|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Changing symbols for whole layers is useful, but the information contained within each layer is not yet available to someone reading these maps.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>レイヤー全体のためのシンボルを変更することは便利ですが、それぞれのレイヤーの中に含まれている情報は、まだこれらの地図を読んでいる誰かには利用できません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>What are the streets called?</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>街路が何と呼ばれていますか？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Which administrative regions do certain areas belong to?</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ある領域がどの行政地域に属していますか？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>What are the relative surface areas of the farms?</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>農場の相対的な表面積は何ですか？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>All of this information is still hidden.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この情報のすべてがまだ隠されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The next lesson will explain how to represent this data on your map.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次のレッスンでは、地図上にデータを表現する方法を説明します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Did you remember to save your map recently?</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>最近の忘れずに地図を保存しましたか？</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

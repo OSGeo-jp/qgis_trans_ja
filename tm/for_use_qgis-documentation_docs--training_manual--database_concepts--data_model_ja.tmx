@@ -1,0 +1,655 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|LS| Implementing the Data Model</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|LS| データモデルの実装</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now that we've covered all the theory, let's create a new database.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>私たちはすべての理論をカバーしたので新しいデータベースを作成してみましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This database will be used for our exercises for the lessons that will follow afterwards.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このデータベースは後に続くレッスンの実習で使います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**The goal for this lesson:** To install the required software and use it to implement our example database.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**このレッスンの目標:** 必要なソフトウェアをインストールしてサンプルデータベースの実装に使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Install PostgreSQL</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>PostgreSQLのインストール</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Under Ubuntu:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Ubuntuで:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You should get a message like this:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このようなメッセージを取得するはずです:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Press :kbd:`Y` and :kbd:`Enter` and wait for the download and installation to finish.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:kbd:`Y` と :kbd:`Enter` キーを押し、ダウンロードとインストールが完了するまで待ちます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Help</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ヘルプ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Create a database user</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>データベースユーザーの作成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>After the installation is complete, run this command to become the postgres user and then create a new database user:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>インストールが完了したらこのコマンドを実行して postgres ユーザーになり、新しいデータベースユーザーを作成します:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Type in your normal log in password when prompted (you need to have sudo rights).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>入力を求められたら通常のログインパスワードを入力します (sudo権限を持っている必要があります)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now, at the postgres user's bash prompt, create the database user. Make sure the user name matches your unix login name: it will make your life much easier, as postgres will automatically authenticate you when you are logged in as that user:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>では、postgres ユーザーでの bash プロンプトでデータベースユーザーを作成します。ユーザー名は unix ログイン名と一致させて下さい。そうするとログインする時に postgres が自動的に認証するのでいろいろと楽になります:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Enter a password when prompted.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>入力を求められたらパスワードを入力します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You should use a different password to your login password.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ログインパスワードとは異なるパスワードを使用するべきです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>What do those options mean?</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これらのオプションはどういう意味ですか?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now you should leave the postgres user's bash shell environment by typing:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>今、入力することにより、postgresユーザーのbashシェル環境を残す必要があります:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Verify the new account</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>新しいアカウントの確認</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Should return something like this::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このように返されるはずです::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Create a database</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>データベースの作成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The ``createdb`` command is used to create a new database.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:kbd:`createdb` コマンドは新しいデータベースを作成するのに使います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It should be run from the bash shell prompt:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これはbash シェルプロンプトから実行しましょう:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can verify the existence of your new database by using this command:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このコマンドを使用して新しいデータベースの存在を確認できます:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Which should return something like this:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このように返されるはずです:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Starting a database shell session</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>データベースのシェルセッションの開始</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can connect to your database easily like this::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このようにして簡単にデータベースに接続することができます::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To exit out of the psql database shell, type::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>psql データベースシェルを終了するには::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For help in using the shell, type::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>シェルのヘルプを見るには::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For help in using sql commands, type::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>sql コマンドのヘルプを見るには::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To get help on a specific command, type (for example)::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>特定のコマンドのヘルプを表示するには(例)::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Make Tables in SQL</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>SQLでテーブルを作成する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Let's start making some tables!</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>いくつかのテーブルを作ってみましょう!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We will use our ER Diagram as a guide.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ガイドとしてER図を使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>First, connect to the address db:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>まず、address（住所）データベースに接続します:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Then create a :file:`streets` table:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:kbd:`streets` （街路）テーブルを作成します:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:kbd:`serial` and :kbd:`varchar` are **data types**.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:kbd:`serial` と :kbd:`varchar` は **データ型** です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:kbd:`serial` tells PostgreSQL to start an integer sequence (auto-number) to populate the :kbd:`id` automatically for every new record.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:kbd:`serial` は新しいレコードのそれぞれに :kbd:`id` を自動的に設定するために PostgreSQLに整数連番（自動付番）を開始させます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:kbd:`varchar(50)` tells PostgreSQL to create a character field of 50 characters in length.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:kbd:`varchar(50)` は PostgreSQLに長さ50文字の文字列フィールドを作成させます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You will notice that the command ends with a :kbd:`;` - all SQL commands should be terminated this way. When you press :kbd:`Enter`, psql will report something like this:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>コマンドが :kbd:`;` で終わっていることに気づきましたか。すべてのSQLコマンドはこのように終わるべきです。 :kbd:`Enter` キーを押すと psql は次のように報告します:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>That means your table was created successfully, with a primary key :kbd:`streets_pkey` using :kbd:`streets.id`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:kbd:`streets.id` を使用する主キー :kbd:`streets_pkey` を持つテーブルが正しく作成されました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Note: If you hit return without entering a :kbd:`;`, then you will get a prompt like this: :kbd:`address-#`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>注: :kbd:`;` を入力せずに Enterキーを押すと :kbd:`address-#` のようなプロンプトが表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This is because PG is expecting you to enter more.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>PGはさらなる入力を期待しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Enter :kbd:`;` to run your command.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>コマンドを実行するには :kbd:`;` を入力して下さい。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To view your table schema, you can do this:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>テーブルのスキーマを表示するにはこうします:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Which should show something like this:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このように表示されるはずです:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To view your table contents, you can do this:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>テーブルの内容を表示するにはこうします:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>As you can see, our table is currently empty.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ご覧のようにテーブルは現在空です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|TY| |moderate|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|TY| |moderate|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Use the approach shown above to make a table called people:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>上記のアプローチを使用してpeople（人々）というテーブルを作成します:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Add fields such as phone number, home address, name, etc. (these aren't all valid names: change them to make them valid). Make sure you give the table an ID column with the same data-type as above.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>電話番号、自宅住所、名前などのフィールドを追加します。上記と同じデータ型のID列も作ったか確認して下さい。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Check your results &lt;database-concepts-4&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`結果をチェックする &lt;database-concepts-4&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Create Keys in SQL</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>SQLでキーを作成する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The problem with our solution above is that the database doesn't know that people and streets have a logical relationship.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>上記のソリューションの問題はデータベースが people と streets に論理的な関係があることを知らないことです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To express this relationship, we have to define a foreign key that points to the primary key of the streets table.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この関係を表現するには、streets テーブルの主キーを指す外部キーを定義する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>There are two ways to do this:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これを行うには2つの方法があります:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Add the key after the table has been created</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>テーブル作成後にキーを追加する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Define the key at time of table creation</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>テーブル作成時にキーを定義する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Our table has already been created, so let's do it the first way:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>テーブルは既に作成されているので最初の方法を採ります:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>That tells the :kbd:`people` table that its :kbd:`street_id` fields must match a valid street :kbd:`id` from the :kbd:`streets` table.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:kbd:`people` テーブルの :kbd:`street_id` フィールドは :kbd:`streets` テーブルの有効な街路 :kbd:`id` と一致しなければならないことを指示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The more usual way to create a constraint is to do it when you create the table:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>より一般的には制約の作成はテーブルの作成時に行います:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>After adding the constraint, our table schema looks like this now:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>制約を追加した後、テーブルのスキーマはこのようになります:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Create Indexes in SQL</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>SQLでインデックスを作成する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We want lightning fast searches on peoples names. To provide for this, we can create an index on the name column of our people table:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>人の名前をすばやく検索できるようにするにはpeople（人々）テーブルのname（名前）列にインデックスを作成します:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Which results in:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>その結果:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Dropping Tables in SQL</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>SQLでテーブルを削除する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you want to get rid of a table you can use the :kbd:`drop` command:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>テーブルを取り除きたい場合は :kbd:`drop` コマンドを使用します:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In our current example, the above command would not work.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>現在の例では上記のコマンドは動作しないでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Why not?</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>なぜでしょうか。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`See why &lt;database-concepts-5&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`こちら &lt;database-concepts-5&gt;` を参照して下さい。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you used the same :kbd:`drop table` command on the `people` table, it would be successful:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>`people` テーブルに同じ :kbd:`drop table` コマンドを使う場合は正しく削除されるでしょう:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you actually did enter that command and dropped the :kbd:`people` table, now would be a good time to rebuild it, as you will need it in the next exercises.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>実際にそのコマンドを入力して :kbd:`people` テーブルを削除した場合は、再度作成して下さい。次の演習で必要になります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A word on pgAdmin III</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>pgAdmin III について一言</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We are showing you the SQL commands from the `psql` prompt because it's a very useful way to learn about databases.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>データベースについて学ぶために非常に有効な方法なので `psql` プロンプトからSQLコマンドを入力しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>However, there are quicker and easier ways to do a lot of what we are showing you.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>しかし、より早くより簡単に行う方法があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Install pgAdmin III and you can create, drop, alter etc tables using 'point and click' operations in a GUI.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>pgAdminIII をインストールするとGUI上のクリック操作でテーブルの create, drop, alter 等を行うことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Under Ubuntu, you can install it like this:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Ubuntuではこのようにインストールします:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>pgAdmin III will be covered in more detail in another module.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>pgAdmin III は別のモジュールで詳しく取り上げます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|IC|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|IC|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You have now seen how to create a brand new database, starting completely from scratch.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>真新しいデータベースを完全にゼロから作成する方法を見てきました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|WN|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|WN|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Next you'll learn how to use the DBMS to add new data.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次はDBMSを使用して新しいデータを追加する方法を学びます。</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

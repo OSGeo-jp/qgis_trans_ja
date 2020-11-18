@@ -1,0 +1,247 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|LS| Map Presentation</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|LS| 地図プレゼンテーション</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In the previous lessons you have imported an old forest inventor as a GIS project, updated it to the current situation, designed a forest inventory, created maps for the field work and calculated forest parameters from the field measurements.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>以前のレッスンでは、GISプロジェクトとして古い森林調査をインポートし、それを現在の状況に更新し、森林調査を設計し、フィールドワークの地図を作成し、フィールド測定から森林のパラメーターを算出しました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It is often important to create maps with the results of a GIS project.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GISプロジェクトの結果で地図を作成することはしばしば重要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A map presenting the results of the forest inventory will make it easier for anyone to have a good idea of what the results are in a quick glance, without looking at the specific numbers.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>森林調査の結果を提示する地図によって、特定の数字を見なくても、結果が何であるか誰にでも一目でわかりやすくなるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**The goal for this lesson:** Create a map to present the inventory results using a hillshade raster as background.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**このレッスンの目標：** 調査結果を提示する地図を、陰影起伏ラスターを背景に使用して作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| |FA| Preparing the Map Data</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| |FA| 地図データを準備する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Open the QGIS project from the parameters calculations lesson, :kbd:`forest_inventory.qgs`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>パラメーター計算のレッスンからのQGISプロジェクトを開きます、 :kbd:`forest_inventory.qgs` 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Keep at least the following layers:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>少なくとも以下のレイヤーを保管してください：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:kbd:`forest_stands_2012_results`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:kbd:`forest_stands_2012_results`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:kbd:`basic_map`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:kbd:`basic_map`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:kbd:`rautjarvi_aerial`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:kbd:`rautjarvi_aerial`.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:kbd:`lakes` (if you don't have it, add it from the :kbd:`exercise_data\\forestry\\` folder).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:kbd:`lakes` （それを持っていない場合は、:kbd:`exercise_data\\forestry\\` フォルダからそれを追加します）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For the :kbd:`forest_stands_2012_results` layer:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:kbd:`forest_stands_2012_results` レイヤ に対して：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Open the :guilabel:`Attribute table` and enable editing.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`属性テーブル` を開き編集を可能にします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Select the polygons with :kbd:`NULL` values.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:kbd:`NULL` 値を持つポリゴンを選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Use the calculator to update the values of the :kbd:`MEANVol` field to :kbd:`-999` only for the selected features.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>選択された地物だけに対して、計算機を使用して :kbd:`MEANVol` フィールドの値を :kbd:`-999` に更新します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Disable editing and save the changes.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>編集を無効にし、変更を保存します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now you can use a saved style for this layer:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>今、保存されたスタイルをこのレイヤーに使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Select the :kbd:`forest_stands_2012_results.qml` from the :kbd:`exercise_data\\forestry\\results\\` folder.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:kbd:`exercise_data\\forestry\\results\\` フォルダから :kbd:`forest_stands_2012_results.qml` を選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click :guilabel:`OK`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`OK` をクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Your map will look something like this:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>地図は次のようになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| |TY| Try Different Blending Modes</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| |TY| さまざまなブレンドモードを試す</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The style you loaded:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ロードしたスタイル:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Try with different modes and see the differences in your map.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>異なるモードで試してみて、地図の違いを見てください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Then choose the one you like better for your final map.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それから、より好きな方を最終的な地図として選択してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The map template you are using will give a map similar to this one:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>使用している地図テンプレートは、これと同じ地図を提供します：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Save your QGIS project for future references.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>将来の参照のためQGISプロジェクトを保存します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|IC|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|IC|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Through this module you have seen how a basic forest inventory can be planned and presented with QGIS.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このモジュールを通して、基本的な森林調査を計画し、QGISで提示する方法を見てきました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Many more forest analysis are possible with the variety of tools that you can access, but hopefully this manual has given you a good starting point to explore how you could achieve the specific results you need.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>アクセスできるさまざまなツールでさらに多くの森林の分析が可能ですが、このマニュアルがご自身が必要とする結果を達成する方法を探るための良い出発点になればと思います。</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

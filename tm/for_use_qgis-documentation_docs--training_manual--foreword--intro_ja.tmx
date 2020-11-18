@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>About the exercises</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>練習について</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This course includes instructions on adding, deleting and altering GIS datasets.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このコースにはGISデータセットを追加、削除、変更する指示があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We have provided training datasets for this purpose.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この目的のためにトレーニングデータセットを用意しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Before using the techniques described here on your own data, always ensure you have proper backups!</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ここで説明する手法を自分のデータで使用する前に、常に適切なバックアップがあることを確認してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>How to use this tutorial</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このチュートリアルの使用方法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This course caters to different user experience levels.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このコースは、さまざまなユーザの経験レベルに対応しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Depending on which category you consider yourself to be in, you can expect a different set of course outcomes.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>自分がどのカテゴリに属していると考えるかによって、コースの結果は異なります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Each category contains information that is essential for the next one, so it's important to do all exercises that are at or below your level of experience.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>各カテゴリには次のカテゴリに不可欠な情報が含まれているため、経験レベル以下のすべての演習を行うことが重要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| Basic</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| 基礎</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In this category, the course assumes that you have little or no prior experience with theoretical GIS knowledge or the operation of GIS software.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このカテゴリのコースでは、GISの理論的な知識やGISソフトウェアの操作に関する経験がほとんどないか、まったくないことを前提としています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Limited theoretical background will be provided to explain the purpose of an action you will be performing in the program, but the emphasis is on learning by doing.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プログラムで実行するアクションの目的を説明するために、限られた理論的背景が提供されますが、重点は実行による学習にあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>When you complete the course, you will have a better concept of the possibilities of GIS, and how to harness their power via QGIS.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>コースを完了すると、GISの可能性をより良く把握し、QGISを通じてそれらの力を利用する方法がわかります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moderate| Intermediate</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moderate| 中級</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In this category, it is assumed that you have working knowledge and experience of the everyday uses of GIS software.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このカテゴリでは、GISソフトウェアの日常的な使用に関する実用的な知識と経験があることを前提としています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Building on the instructions for the beginner level will provide you with familiar ground, as well as to make you aware of the cases where QGIS does things slightly differently from other software you may be used to.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>初心者レベルの手順に基づいて構築すると、慣れ親しんだ基礎が得られるだけでなく、QGISが慣れている他のソフトウェアとは少し異なる動作をするケースを認識することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You will also learn how to use analysis functions in QGIS.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>また、QGISで分析関数を使用する方法も学習します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>When you complete the course, you should be comfortable with using QGIS for all of the functions you usually need for everyday use.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>コースを完了すると、日常の使用に通常必要なすべての機能にQGISを使用できるようになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|hard| Advanced</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|hard| 上級編</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In this category, the assumption is that you are experienced with GIS software, have knowledge of and experience with spatial databases, using data on a remote server, perhaps writing scripts for analysis purposes, etc.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このカテゴリでは、GISソフトウェアの経験、空間データベースの知識と経験、リモートサーバ上のデータの使用、おそらく分析目的のスクリプトの記述、などを前提としています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Building on the instructions for the other two levels will familiarize you with the approach that the QGIS interface follows, and will ensure that you know how to access the basic functions that you need.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>他の2つのレベルの指示に基づいて、QGISインターフェイスが従うアプローチに慣れ、必要な基本機能にアクセスする方法を確実に理解できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You will also be shown how to make use of the QGIS plugin system, database access, and so on.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>また、QGISプラグインシステム、データベースアクセスなどを利用する方法も示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>When you complete the course, you should be well-acquainted with the everyday operation of QGIS, as well as its more advanced functions.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>コースを完了すれば、QGISの日常的な操作とより高度な機能について十分に理解しているでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Data</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>データ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The sample data that accompanies this resource is freely available and comes from the following sources:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このリソースに付属するサンプルデータは無料で入手でき、次のソースから取得されます:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Download the prepared dataset from the `Training data repository &lt;training_data_&gt;`_ and unzip the file.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>準備済のデータセットを `トレーニングデータリポジトリ &lt;training_data_&gt;`_ からダウンロードし、ファイルを解凍します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>All the necessary data are provided in the :file:`exercise_data` folder.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>必要なデータはすべて :file:`exercise_data` フォルダにあります</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

@@ -1,0 +1,231 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|LS| Combining the Analyses</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|LS| 分析を組み合わせる</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Using the vectorized results of the raster analysis will allow you to select only those buildings on suitable terrain.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ベクター化されたラスター分析の結果を使用して、適当な地形の上の建物のみを選択することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**The goal for this lesson:** To use the vectorized terrain results to select suitable plots.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**このレッスンの目標:** 適当な小地所を選び出すためにベクター化された地形の結果を使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moderate| |TY|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moderate| |TY|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Save your current map (:kbd:`raster_analysis.qgs`).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>現在の地図を保存します (:kbd:`raster_analysis.qgs`)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Open the map in which you created during the vector analysis earlier (you should have saved the file as :kbd:`analysis.qgs`).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>以前ベクター分析をした地図を開きます（ :kbd:`analysis.qgs` としてファイル保存したもの）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:guilabel:`hillshade`,</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`hillshade`,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:guilabel:`solution` (or :guilabel:`buildings_over_100`)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`solution` (または :guilabel:`buildings_over_100`)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In addition to these layers, which should already be loaded in the map from when you worked on it before, also add the :kbd:`suitable_terrain.shp` dataset.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>前に作業した時から既に地図に読み込まれているはずであるこれらのレイヤーに加え、 :kbd:`suitable_terrain.shp` データセットも追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you are missing some layers, you should find them in :kbd:`exercise_data/residential_development/`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>もしレイヤーに見つからないものがある場合は、 :kbd:`exercise_data/residential_development/` から見つけて下さい。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Use the :guilabel:`Intersect` tool (:menuselection:`Vector --&gt; Geoprocessing Tools`) to create a new vector layer called :kbd:`new_solution.shp` which contains only those buildings which intersect the :kbd:`suitable_terrain` layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`交差` ツール（ :menuselection:`ベクター --&gt; ジオプロセッシングツール` ）を使用して、 :kbd:`suitable_terrain` レイヤーと交差する建物のみが含まれる :kbd:`new_solution.shp` と呼ばれる新しいベクターレイヤーを作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You should now have a layer showing certain buildings as your solution, for example:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>あなたは解として特定の建物を示すレイヤーを持っているはずです。例えば:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moderate| |TY| Inspecting the Results</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moderate| |TY| 結果の検査</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Look at each of the buildings in your :guilabel:`new_solution` layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`new_solution` レイヤーの各建物を見て下さい。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Compare them with the :guilabel:`suitable_terrain` layer by changing the symbology for the :guilabel:`new_solution` layer so that it has outlines only.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`new_solution` レイヤーのシンボロジをアウトラインだけに変更して、それらを :guilabel:`suitable_terrain` レイヤーと比較して下さい。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>What do you notice about some of the buildings?</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>建物のいくつかを見て何に気づきましたか?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Are they all suitable just because they intersect with the :guilabel:`suitable_terrain` layer?</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それらは :guilabel:`suitable_terrain` レイヤーと交差しているからといってすべて適当ですか?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Why or why not?</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>その理由は?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Which ones would you deem to be unsuitable?</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>どれが不適当だと考えますか?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Check your results &lt;complete-analysis-2&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`結果をチェックする &lt;complete-analysis-2&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moderate| |TY| Refining the Analysis</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moderate| |TY| 分析結果の改良</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can see from the results that some buildings which were included were not really suitable, so we can now refine the analysis.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>結果に含まれていた建物の中には本当には適していないものがありましたので分析結果を改良しましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We want to ensure that our analysis returns only those buildings which fall entirely within the :kbd:`suitable_terrain` layer. How would you achieve this? Use one or more Vector Analysis tools and remember that our buildings are all over 100m squared in size.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>私たちの分析では :kbd:`suitable_terrain` レイヤーの中に完全に収まる建物だけが選ばれるようにしたい。これはどのように達成できるでしょうか? 1つ以上のベクター解析ツールを使用します。そして私たちの建物の大きさは100平方メートルを超えていることを覚えておいて下さい。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Check your results &lt;complete-analysis-3&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`結果をチェックする &lt;complete-analysis-3&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|IC|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|IC|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You have now answered the original research question, and can offer an opinion (with reasons, backed by analysis) for a recommendation regarding which property to develop.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>あなたは当初の研究課題に答え、どの地所を開発するべきかに関する推薦の意見を(無理なく、分析に支えられて)提供できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|WN|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|WN|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Next you will present these results as part of your second assignment.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次は2番目の研究課題の一部としてこれらの結果を提示します。</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

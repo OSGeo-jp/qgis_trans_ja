@@ -1,0 +1,439 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|LS| GRASS Setup</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|LS| GRASSのセットアップ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Using GRASS in QGIS requires you to think of the interface in a slightly different way.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISでGRASSを使用するにはインターフェイスを少し異なる方法で考える必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Remember that you're not working in QGIS directly, but working in GRASS *via* QGIS.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISで直接作業しているのではなくQGIS *を通じて* GRASSで作業していることを覚えておいて下さい。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Hence, make sure you have installed QGIS Desktop with Grass support.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>したがって、GrassをサポートするQGIS Desktopがインストールされていることを確認してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**The goal for this lesson:** To begin a GRASS project in QGIS.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**このレッスンの目標:** QGISでGRASSのプロジェクトを始めます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In the :guilabel:`Plugin Manager`, enable :guilabel:`GRASS` in the list:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`プラグインマネージャ` で :guilabel:`GRASS` を有効にします:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The GRASS panel is not active because, before you can use GRASS, you need to create a ``Mapset``. GRASS always works in a database environment, which means that you need to import all the data you want to use into a GRASS database.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GRASSパネルはアクティブではありません。なぜならGRASSを使用する前に ``Mapset`` を作成する必要があるためです。GRASSは常にデータベース環境で動作します。つまり、使用するすべてのデータをGRASSデータベースにインポートする必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The GRASS database has a straightforward structure, even if at a first look it seems very complicated. The most important thing you should know is that the upper level of the database is the ``Location``. Each ``Location`` can contain different ``Mapset``: in **every** ``Mapset`` you will find the ``PERMANENT`` Mapset because it is created by default by GRASS. Each ``Mapset`` contains the data (raster, vector, etc) in a particular structure, but don't worry, GRASS will take care of this for you.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GRASSデータベースは、一見すると非常に複雑に見えても、単純な構造になっています。知っておくべき最も重要なことは、データベースの上位レベルが「Location」であることです。各 ``Location`` には異なる ``Mapset`` を含めることができます：**すべての** ``Mapset`` 中には、GRASSによってデフォルトで作成されるため、 ``PERMANENT`` マップセットがあります。各 ``Mapset`` には特定の構造でデータ（ラスタ、ベクタなど）が含まれますが、心配しないでください。GRASSがこれを処理してくれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| |FA| Start a New GRASS Project</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| |FA| 新しいGRASSプロジェクトの開始</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Set it as the directory that will be used by GRASS to set up its database:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>データベースを構成するためにそれをGRASSが使用するディレクトリとして設定します:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click :guilabel:`Next`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`次へ` をクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>GRASS needs to create a ``Location``, which describes the maximum extent of the geographic area you'll be working in, also known as Grass ``Region``.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GRASSでは ``Location`` を作成する必要があります。 ``Location`` は作業しようとしている地理的領域（Grass ``Region`` ともいわれる）の最大範囲を定義します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>the Region is extremely important for GRASS because it describes the area in which all layers will be taken into account for GRASS.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Region は、GRASSですべてのレイヤーが考慮されるエリアを記述するため、GRASSにとって非常に重要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Everything that is outside will not be considered.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>外にあるものはすべて考慮されません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Don't worry, you can always change the extent of the GRASS Region after the Location has been created</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>でもご心配なく、場所が作成された後、いつでもGRASSリージョンの範囲を変更できます</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now select the region :guilabel:`South Africa` from the dropdown and click :guilabel:`Set`:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ドロップダウンリストから :guilabel:`South Africa` の領域を選択して、 :guilabel:`設定` をクリックします:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Create a mapset, which is the map file that you'll be working with.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>マップセットを作成します。あなたがこれから作業するマップファイルです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click :guilabel:`Finish`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`完了` をクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click :guilabel:`OK` on the success dialog.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>成功ダイアログで :guilabel:`OK` をクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| |FA| Loading Vector Data into GRASS</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| |FA| GRASSにベクターデータを読み込む</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You have now a blank map and before you can start to use all the GRASS tools you have to load data into the GRASS database, specifically into the ``Mapset``.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>今はマップは空白であり、すべてのGRASSツールの使用を開始するには、データをGRASSデータベース、特に ``Mapset`` にロードする必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You cannot use GRASS tools with layer that are not loaded into a GRASS ``Mapset``.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GRASS ``Mapset`` にロードされていないレイヤーではGRASSツールを使用できません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>GRASS data are recognized from the QGIS Browser as *real* GRASS data and you can notice it because you will see the GRASS icon next to the GRASS Mapset.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GRASSデータはQGISブラウザから *実際の* GRASSデータとして認識され、GRASSマップセットの隣にGRASSアイコンが表示されるため気付くことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Moreover you will see the |grassMapsetOpen| icon next to the Mapset that is opened.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>さらに、開いているマップセットの横に |grassMapsetOpen| アイコンが表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>That's it!</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それでおしまい！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you expand the Mapset you will see the imported :file:`roads` layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>マップセットを展開すると、インポートされた :file:`roads` レイヤが表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can now load in QGIS the imported layer like all the other layers.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これで、インポートされたレイヤを他のすべてのレイヤと同様にQGISにロードできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can also load layers from the Layer Legend Panel to Mapset in the Browser Panel.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>レイヤ凡例パネルからブラウザパネルのマップセットにレイヤを読み込むこともできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This will speed up incredibly your workflow!</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これにより、ワークフローが驚くほど高速になります！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>As soon as it is loaded, click on the :guilabel:`Filter` box of the ``GRASS Panel`` and find the vector import tool by entering the term ``v.in.ogr.qgis``:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ロードされたらすぐに、「GRASS Panel」の :guilabel:`Filter` ボックスをクリックし、「v.in.ogr.qgis」という用語を入力してベクタインポートツールを見つけます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>There are 2 similar tools: ``v.in.ogr.qgis`` and ``v.in.ogr.qgis.loc``.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>似たようなツールが2つあります： ``v.in.ogr.qgis`` と ``v.in.ogr.qgis.loc`` 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We are looking for the **first** one.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>探しているのは **１つめ** です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The ``v`` stands for *vector*, ``in`` means a function to import data into the GRASS database, ``ogr`` is the software library used to read vector data, and ``qgis`` means that the tool will look for a vector from among the vectors already loaded into QGIS.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:kbd:`v` は *ベクタ* 、 ``in`` はGRASSデータベースにデータをインポートする関数を意味します。 ``ogr`` はベクタデータの読み込みに使用されるソフトウェア・ライブラリです。そして ``qgis`` は、そのツールがQGISに既に読み込まれたベクタの中からベクタを探すことを意味します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|hard| Note the extra import options provided under :guilabel:`Advanced Options`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|hard| 別のインポートオプションが :guilabel:`アドバンスドオプション` で提供されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>These include the ability to add a WHERE clause for the SQL query used for importing the data.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>データのインポートに使用するSQLクエリのWHERE句を追加する機能が含まれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click :guilabel:`Run` to begin the import.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`実行` をクリックしてインポートを開始します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>When it's done, click the :guilabel:`View output` button to see the newly imported GRASS layer in the map.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それが終わったら :guilabel:`出力を見る` をクリックして新しくインポートされたGRASSレイヤを地図に表示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Close first the import tool (click the :guilabel:`Close` button to the immediate right of :guilabel:`View output`), then close the :guilabel:`GRASS Tools` window.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>まずインポートツールを閉じて (:guilabel:`出力を見る` のすぐ右にある :guilabel:`閉じる` ボタンをクリックします)、そして :guilabel:`GRASSツール` ウィンドウを閉じます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now you are left with only the imported GRASS layer as displayed in your QGIS map.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>今、QGISの地図に表示されているのはインポートされたGRASSレイヤーだけです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| |FA| Loading Raster Data into GRASS</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| |FA| GRASSにラスターデータを読み込む</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>the raster layer is already in the correct CRS, ``WGS 84``.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ラスタレイヤは既に正しいCRS、「WGS 84」にあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you have layers in different CRS you must reproject them in the same CRS of the GRASS Mapset</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>レイヤが異なるCRSにある場合は、GRASSマップセットの同じCRSに再投影する必要があります</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Open the :guilabel:`GRASS Tools` dialog again.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`GRASSツール` ダイアログを再度開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click on the :guilabel:`Modules List` tab.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`モジュールリスト` タブをクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click :guilabel:`Run`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`実行` をクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>When the process is done, click :guilabel:`View output`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>処理が完了したら :guilabel:`出力を見る` をクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:guilabel:`Close` the current tab, and then :guilabel:`Close` the whole dialog.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>現在のタブを閉じ、そしてダイアログボックスを閉じます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Browse to the GRASS database folder: be careful! You must choose the parent folder, not the GRASS Mapset one. Indeed GRASS will read all the ``Locations`` of the database and all the ``Mapsets`` of each ``Location``:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GRASSデータベースフォルダを参照します。注意してください！ GRASSマップセットのフォルダではなく、親フォルダを選択する必要があります。実際、GRASSはデータベースのすべての「ロケーション」と各「ロケーション」のすべての「マップセット」を読み取ります：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Close the Mapset (if it is open) by clicking on the :guilabel:`Close Mapset` button of the :guilabel:`GRASS Tools` window.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`GRASS Tools` ウィンドウの :guilabel:`Close Mapset` ボタンをクリックして、Mapsetを閉じます（開いている場合）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|IC|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|IC|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The GRASS workflow for ingesting data is somewhat different from the QGIS method because GRASS loads its data into a spatial database structure.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GRASSはデータを空間データベース構造にロードするため、GRASSのデータ収集ワークフローはQGISの方法とは多少異なります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>However, by using QGIS as a frontend, you can make the setup of a GRASS mapset easier by using existing layers in QGIS as data sources for GRASS.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>しかし、フロントエンドとしてQGISを使用することによってGRASSのデータソースとしてQGIS内の既存レイヤーを使用でき、GRASSマップセットのセットアップを簡単にすることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|WN|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|WN|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now that the data is imported into GRASS, we can look at the advanced analysis operations that GRASS offers.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>データはGRASSにインポートされました。GRASSの高度な分析操作を見ることができます。</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

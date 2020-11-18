@@ -1,0 +1,455 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|LS| DEM from LiDAR Data</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|LS| レーザー測量データからのDEM</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can improve the look of your maps by using different background images.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>さまざまな背景画像を使用することで、地図の外観を改善できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You could use the basic map or the aerial image you have been using before, but a hillshade raster of the terrain will look nicer in some situations.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>基本地図も以前に使用してきた空撮画像も使用できますが、地形の陰影起伏ラスターが見栄えを良くする状況もあるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You will use LAStools to extract a DEM from a LiDAR dataset and then create a hillshade raster to use in your map presentation later.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>LAStoolsを使用してレーザー測量データセットからDEMを抽出し、その後、地図のプレゼンテーションで使用する陰影起伏ラスターを作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**The goal for this lesson:** Install LAStools and calculate a DEM from LiDAR data and a hillshade raster.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**このレッスンの目標：** LAStoolsをインストールし、レーザー測量データと陰影起伏ラスターからDEMを計算します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| |FA| Installing Lastools</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| |FA| LAStoolsをインストールする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can obtain a digital elevation model (DEM) from a LiDAR point cloud and then create a hillshade raster that is visually more intuitive for presentation purposes.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>レーザー測量点群からデジタル標高モデル（DEM）を取得して、プレゼンテーション目的のために、視覚的により直感的な陰影起伏ラスターを作成できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>First you will have to set up the :guilabel:`Processing` framework settings to properly work with LAStools:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>最初に、 :guilabel:`プロセッシング` フレームワークの設定を、LAStoolsで動作するように適切に設定する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Close QGIS, if you have already started it.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISをすでに開始している場合は閉じます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>An old lidar plugin might be installed by default in your system in the folder :file:`C:/Program Files/QGIS Valmiera/apps/qgis/python/plugins/processing/`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>古いライダープラグインは、フォルダ :file:`C:/Program Files/QGISValmiera/apps/qgis/python/plugins/processing/` 内のシステムにデフォルトでインストールされる可能性があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you have a folder named :kbd:`lidar`, delete it.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>名前 :kbd:`lidar` のフォルダがある場合、それを削除します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This is valid for some installations of QGIS 2.2 and 2.4.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは、QGIS 2.2および2.4の一部のインストールのために有効です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Read the :kbd:`LICENSE.txt` file inside the :kbd:`lastools` folder.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:kbd:`lastools` フォルダ内部の :kbd:`LICENSE.txt` ファイルをお読みください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Some of the LAStools are open source and other are closed source and require licensing for most commercial and governmental use.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>LAStoolsの一部はオープンソースであり、他は、クローズドソースであり、ほとんどの商用および政府の使用のライセンスが必要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For education and evaluation purposes you can use and test LAStools as much as you need to.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>教育と評価の目的のためには、必要なだけLAStoolsを使用してテストできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The plugin and the actual algorithms are now installed in your computer and almost ready to use, you just need to set up the Processing framework to start using them:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>今プラグインと実際のアルゴリズムはお手元のコンピュータにインストールされ、使用する準備がほぼできていますので、それらの使用を開始するために処理フレームワークを設定することが必要であるだけです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Open a new project in QGIS.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISで新しいプロジェクトを開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Set the project's CRS to :kbd:`ETRS89 / ETRS-TM35FIN`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プロジェクトのCRSを :kbd:`ETRS89 / ETRS-TM35FIN` に設定してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Save the project as :kbd:`forest_lidar.qgs`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プロジェクトを :kbd:`forest_lidar.qgs` として保存します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To setup the LAStools in QGIS:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISでLAStoolsを設定するには：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Go to :menuselection:`Processing --&gt; Options and configuration`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:menuselection:`プロセッシング --&gt; オプションと構成` に行きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In the :guilabel:`Processing options` dialog, go to :guilabel:`Providers` and then to :guilabel:`Tools for LiDAR data`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`処理オプション` ダイアログで、 :guilabel:`プロバイダー` に、その後 :guilabel:`LiDARデータのためのツール` に行きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Check :guilabel:`Activate`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`Activate` をチェックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For :guilabel:`LAStools folder` set :kbd:`c:\\lastools\\` (or the folder you extracted LAStools to).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`LAStoolsフォルダ` について :kbd:`C:\\lastools\\` （またはLAStoolsを展開したフォルダ）を設定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| |FA| Calculating a DEM with LAStools</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| |FA| LAStoolsとDEMの計算</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You have already used the :menuselection:`Processing` toolbox in :doc:`../vector_analysis/spatial_statistics` to run some SAGA algorithms.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>いくつかのSAGAアルゴリズムを実行するために、 :doc:`../vector_analysis/spatial_statistics` 中の :menuselection:`プロセッシング` ツールボックスはすでに使用してきました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now you are going to use it to run LAStools programs:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ここではLAStoolsプログラムを実行するためにそれを使用しようとしています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Open :menuselection:`Processing --&gt; Toolbox`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:menuselection:`プロセッシング --&gt; ツールボックス` を開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In the dropdown menu at the bottom, select :guilabel:`Advanced interface`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>一番下にあるドロップダウンメニューで、:guilabel:`高度なインターフェイス` を選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You should see the :guilabel:`Tools for LiDAR data` category.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`レーザー測量データ` カテゴリのツールが表示されるはずです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Expand it to see the tools available, and expand also the :guilabel:`LAStools` category (the number of algorithms may vary).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>利用可能なツールが見えるようにそれを展開し、さらに :guilabel:`LAStools` カテゴリを展開します（アルゴリズムの数は変化する場合があります）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Scroll down until you find the :guilabel:`lasview` algorithm, double click it to open.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`lasview` アルゴリズムが見つかるまで下にスクロールし、見つかったらダブルクリックして開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click :guilabel:`Run`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`実行` をクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now you can see the LiDAR data in the :guilabel:`just a little LAS and LAZ viewer` dialog window:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>今、 :guilabel:`ほんの少しLASとLAZダイアログウィンドウビューア` 内にLiDARデータを見ることができます：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>There are many things you can do within this viewer, but for now you can just click and drag on the viewer to pan the LiDAR point cloud to see what it looks like.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このビューア内ではいろいろなことができますが、今はビューアをクリックおよびドラッグしてLiDAR点群にパンし、それがどのように見えるかを確認できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Close the viewer when you are ready.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>準備ができたら、ビューアを閉じます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Creating a DEM with LAStools can be done in two steps, first one to classify the point cloud into :kbd:`ground` and :kbd:`no ground` points and then calculating a DEM using only the :kbd:`ground` points.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>LAStoolsとDEMの作成は2段階で行うことができます。第1は点群を :kbd:`基準` と :kbd:`非基準` 点に分類すること、次は :kbd:`基準` 点のみ使用してDEMを計算すること。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Go back to the :guilabel:`Processing Toolbox`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`処理ツールボックス` に戻ります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Note the :guilabel:`Search...` box, write :kbd:`lasground`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`検索...` ボックス注意して、 :kbd:`lasground` と書いてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Double click to open the :guilabel:`lasground` tool and set it as shown in this image:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ダブルクリックして :guilabel:`lasground` ツールを開き、この画像のように設定します：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can open it with :guilabel:`lasview` if you want to check it.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それを確認したい場合は、:guilabel:`lasview` で開くことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Close the viewer again.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>再びビューアを閉じます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In the :guilabel:`Processing Toolbox`, search for :kbd:`las2dem`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`プロセッシングツールボックス` で :kbd:`las2dem` を検索します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Open the :guilabel:`las2dem` tool and set it as shown in this image:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`las2dem` ツールを開き、この画像に示すように設定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The result DEM is added to your map with the generic name :kbd:`Output raster file`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>結果DEMは、 :kbd:`出力ラスターファイル` という一般的な名前で地図に追加されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The :guilabel:`lasground` and :guilabel:`las2dem` tools require licensing.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`lasground` と :guilabel:`las2dem` ツールはライセンスが必要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can use the unlicensed tool as indicated in the license file, but you get the diagonals you can appreciate in the image results.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ライセンス・ファイルに示されるように、無免許でツールを使用できますが、画像結果にはっきりわかる対角線が出ます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| |FA| Creating a Terrain Hillshade</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| |FA| 地形陰影起伏を作成する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Open :menuselection:`Raster --&gt; Terrain analysis --&gt; Hillshade`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:menuselection:`ラスター --&gt; 地形分析 --&gt; 陰影` を開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Leave the rest of parameters with the default settings.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>デフォルトの設定でパラメーターの残りの部分を残します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Select :kbd:`ETRS89 / ETRS-TM35FIN` as the CRS when prompted.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プロンプトが表示されたら :kbd:`ETRS89 / ETRS-TM35FIN` をCRSとして選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Despite the diagonal lines remaining in the hillshade raster result, you can clearly see an accurate relief of the area.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>陰影起伏ラスター結果に残っている対角線にもかかわらず、明らかに地域の正確な起伏を見ることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can even see the different soil drains that have been dug in the forests.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>森に掘られている異なる土壌の排水も見ることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|IC|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|IC|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|WN|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|WN|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In the next, and final step in this module, lesson you will use the hillshade raster and the forest inventory results to create a map presentation of the results.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次の、そしてこのモジュールの最後のステップの、レッスンでは、陰影起伏ラスターと森林目録の結果を使用して、結果の地図のプレゼンテーションを作成します。</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

@@ -2,59 +2,112 @@
 <!DOCTYPE tmx SYSTEM "tmx14.dtd">
 <tmx version="1.4">
   <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
-  <body><tu>
-      <tuv xml:lang="en"><seg>|LS| Views</seg></tuv><tuv xml:lang="ja">
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|LS| Views</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>|LS| ビュー</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>When you write a query, you need to spend a lot of time and effort formulating it.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>When you write a query, you need to spend a lot of time and effort formulating it.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>クエリを記述するときはそれを考案するのに多くの時間と労力が必要です。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>With views, you can save the definition of an SQL query in a reusable 'virtual table'.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>With views, you can save the definition of an SQL query in a reusable 'virtual table'.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>ビューを使えばSQLクエリの定義を再利用可能な「仮想テーブル」に保存できます。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>**The goal for this lesson:** To save a query as a view.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**The goal for this lesson:** To save a query as a view.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>**このレッスンの目標:** クエリをビューとして保存します。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Creating a View</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Creating a View</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>ビューの作成</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>You can treat a view just like a table, but its data is sourced from a query.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can treat a view just like a table, but its data is sourced from a query.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>ビューはテーブルのように扱うことができますが、そのデータはクエリから供給されます。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Let's make a simple view based on the above:</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Let's make a simple view based on the above:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>上記に基いて単純なビューを作りましょう:</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>As you can see the only change is the :kbd:`create view roads_count_v as` part at the beginning.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>As you can see the only change is the :kbd:`create view roads_count_v as` part at the beginning.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>はじめの :kbd:`create view roads_count_v as` の部分だけが異なります。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>We can now select data from that view:</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We can now select data from that view:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>そのビューからデータを選択できます::</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Result:</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Result:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>結果:</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Modifying a View</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Modifying a View</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>ビューの変更</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>A view is not fixed, and it contains no 'real data'.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A view is not fixed, and it contains no 'real data'.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>ビューは固定されておらず、「実データ」を持ちません。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>This means you can easily change it without impacting on any data in your database:</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This means you can easily change it without impacting on any data in your database:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>つまりデータベースの中のデータに影響を与えることなく簡単に変更できます:</seg>
       </tuv>
-    </tu><tu>
+    </tu>
+    <tu>
       <tuv xml:lang="en">
         <seg>(This example also shows the best practice convention of using UPPER CASE for all SQL keywords.)</seg>
       </tuv>
@@ -63,36 +116,68 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en"><seg>You will see that we have added an :kbd:`ORDER BY` clause so that our view rows are nicely sorted:</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="en">
+        <seg>You will see that we have added an :kbd:`ORDER BY` clause so that our view rows are nicely sorted:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>:kbd:`ORDER BY` 句を追加したのでビューの行はきれいに並べ替えられています:</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Dropping a View</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Dropping a View</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>ビューの削除</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>If you no longer need a view, you can delete it like this:</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you no longer need a view, you can delete it like this:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>不要になったビューはこのように削除できます:</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>|IC|</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>|IC|</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Using views, you can save a query and access its results as if it were a table.</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="ja">
+        <seg>|IC|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Using views, you can save a query and access its results as if it were a table.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>ビューを用いてクエリを保存し、テーブルであるかのようにその結果へアクセスできます。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>|WN|</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>|WN|</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Sometimes, when changing data, you want your changes to have effects elsewhere in the database.</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="ja">
+        <seg>|WN|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Sometimes, when changing data, you want your changes to have effects elsewhere in the database.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>データを変更する時に、変更がデータベースの中の他の場所へ影響を及ぼすのが望ましい場合があります。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>The next lesson will show you how to do this.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The next lesson will show you how to do this.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>次のレッスンではこの方法を紹介します。</seg>
       </tuv>
-    </tu></body>
+    </tu>
+  </body>
 </tmx>

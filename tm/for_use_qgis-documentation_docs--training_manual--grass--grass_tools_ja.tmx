@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|LS| GRASS Tools</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|LS| GRASSツール</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In this lesson we will present a selection of tools to give you an idea of the capabilities of GRASS.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このレッスンでは、あなたにGRASSの機能についてのアイデアを与えるために選り抜きのツールを紹介します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moderate| |FA| The Mapcalc Tool</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moderate| |FA| Mapcalcツール</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Start the tool.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ツールを起動します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In order, they are:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>順番に:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|IC|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|IC|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In this lesson, we have covered only a few of the many tools GRASS offers.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このレッスンでは、GRASSが提供する多くのツールのうちのわずかしかカバーしていません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To explore the capabilities of GRASS for yourself, open the :guilabel:`GRASS Tools` dialog and scroll down the :guilabel:`Modules List`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>自分でGRASSの機能を探索するには :guilabel:`GRASSツール` ダイアログを開き、 :guilabel:`モジュールリスト` を下へスクロールします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Or for a more structured approach, look under the :guilabel:`Modules Tree` tab, which organizes tools by type.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>より構造化されたアプローチがよければ :guilabel:`モジュールツリー` タブではツールが種類ごとに整理されています。</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

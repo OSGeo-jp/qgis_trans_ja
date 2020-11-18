@@ -2,11 +2,16 @@
 <!DOCTYPE tmx SYSTEM "tmx14.dtd">
 <tmx version="1.4">
   <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
-  <body><tu>
-      <tuv xml:lang="en"><seg>|LS| Creating a New Vector Dataset</seg></tuv><tuv xml:lang="ja">
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|LS| Creating a New Vector Dataset</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>|LS| 新しいベクターデータセットを作成する</seg>
       </tuv>
-    </tu><tu>
+    </tu>
+    <tu>
       <tuv xml:lang="en">
         <seg>The data that you use has to come from somewhere. For most common applications, the data exists already; but the more particular and specialized the project, the less likely it is that the data will already be available. In such cases, you'll need to create your own new data.</seg>
       </tuv>
@@ -15,176 +20,348 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en"><seg>**The goal for this lesson:** To create a new vector dataset.</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="en">
+        <seg>**The goal for this lesson:** To create a new vector dataset.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>**このレッスンの目標：** 新しいベクターデータセットを作成します。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>|basic| |FA| The Layer Creation Dialog</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| |FA| The Layer Creation Dialog</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>|basic| |FA| レイヤー作成ダイアログ</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Before you can add new vector data, you need a vector dataset to add it to.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Before you can add new vector data, you need a vector dataset to add it to.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>新しいベクターデータを追加するには、まずそれを追加するためのベクターデータセットが必要です。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>In our case, you'll begin by creating new data entirely, rather than editing an existing dataset.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In our case, you'll begin by creating new data entirely, rather than editing an existing dataset.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>現在の場合は、既存のデータセットを編集するのではなく、完全に新しいデータを作成して始めましょう。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Therefore, you'll need to define your own new dataset first.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Therefore, you'll need to define your own new dataset first.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>それゆえ、まず自分自身の新しいデータセットを定義する必要があります。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>It's important to decide which kind of dataset you want at this stage.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It's important to decide which kind of dataset you want at this stage.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>この段階で欲しいデータセットの種類を決定することが重要です。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Each different vector layer type is "built differently" in the background, so once you've created the layer, you can't change its type.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Each different vector layer type is "built differently" in the background, so once you've created the layer, you can't change its type.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>それぞれの異なるベクターレイヤータイプは、バックグラウンドで「別々に構築」されているので、一度レイヤーを作成したらそのタイプは変更できません。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>This has no impact on the rest of the dialog, but it will cause the correct type of geometry to be used when the vector dataset is created.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This has no impact on the rest of the dialog, but it will cause the correct type of geometry to be used when the vector dataset is created.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>これは、ダイアログの残りの部分には影響しませんが、それは、ベクターデータセットが作成されたときにジオメトリの正しいタイプが使用されるようになります。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Check that your dialog now looks like this:</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Check that your dialog now looks like this:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>ダイアログが次のようになることを確認します。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Click :guilabel:`OK`</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click :guilabel:`OK`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>:guilabel:`OK` をクリックします</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>|basic| |FA| Data Sources</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| |FA| Data Sources</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>|basic| |FA| データソース</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>When you create new data, it obviously has to be about objects that really exist on the ground.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>When you create new data, it obviously has to be about objects that really exist on the ground.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>新しいデータを作成するとき、それは明らかに地上に現実に存在するオブジェクトに関するものである必要があります。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Therefore, you'll need to get your information from somewhere.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Therefore, you'll need to get your information from somewhere.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>そのため、どこかから情報を取得する必要があります。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>There are many different ways to obtain data about objects.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>There are many different ways to obtain data about objects.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>オブジェクトに関するデータを取得するにはさまざまな方法があります。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>For example, you could use a GPS to capture points in the real world, then import the data into QGIS afterwards.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For example, you could use a GPS to capture points in the real world, then import the data into QGIS afterwards.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>たとえば、GPSを使用して現実の世界でのポイントをキャプチャし、それからQGISにデータをインポートできます。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Or you could survey points using a theodolite, and enter the coordinates manually to create new features.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Or you could survey points using a theodolite, and enter the coordinates manually to create new features.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>あるいは、セオドライトを使用してポイントを調査し、新しい地物を作成するために、手動で座標を入力できます。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Or you could use the digitizing process to trace objects from remote sensing data, such as satellite imagery or aerial photography.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Or you could use the digitizing process to trace objects from remote sensing data, such as satellite imagery or aerial photography.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>あるいは、デジタル化プロセスを使用して、衛星画像や航空写真などのリモートセンシングデータからオブジェクトをトレースできます。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>For our example, you'll be using the digitizing approach.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For our example, you'll be using the digitizing approach.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>現在の例では、デジタル化のアプローチを使用しているでしょう。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Sample raster datasets are provided, so you'll need to import them as necessary.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Sample raster datasets are provided, so you'll need to import them as necessary.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>必要に応じてそれらをインポートする必要がありますので、サンプルラスターデータセットが提供されます。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>In order to begin digitizing, you'll need to enter **edit mode**.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In order to begin digitizing, you'll need to enter **edit mode**.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>デジタル化を開始するためには、 **編集モード** に入る必要があります。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>GIS software commonly requires this to prevent you from accidentally editing or deleting important data.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>GIS software commonly requires this to prevent you from accidentally editing or deleting important data.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>GISソフトウェアでは一般的に、重要なデータを誤って編集したり削除することを防ぐために、これが必要とされます。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Edit mode is switched on or off individually for each layer.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Edit mode is switched on or off individually for each layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>編集モードは、レイヤごとに個別にオンまたはオフに切り替えられます。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>If you can't find this button, check that the :guilabel:`Digitizing` toolbar is enabled.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you can't find this button, check that the :guilabel:`Digitizing` toolbar is enabled.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>このボタンを見つけることができない場合は、 :guilabel:`デジタイズ` ツールバーが有効になっているか確認してください。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>There should be a check mark next to the :menuselection:`View --&gt; Toolbars --&gt; Digitizing` menu entry.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>There should be a check mark next to the :menuselection:`View --&gt; Toolbars --&gt; Digitizing` menu entry.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>:menuselection:`ビュー --&gt; ツールバー --&gt; デジタル化` メニューエントリ の横にチェックマークがあるはずです。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>The first feature you'll be digitizing is the |schoolAreaType1|:</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The first feature you'll be digitizing is the |schoolAreaType1|:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>デジタル化している第1の地物は |schoolAreaType1| です：</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Start digitizing by clicking on a point somewhere along the edge of the field.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Start digitizing by clicking on a point somewhere along the edge of the field.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>どこかのフィールドの縁に沿ってポイントをクリックすることで、デジタル化を開始します。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Place more points by clicking further along the edge, until the shape you're drawing completely covers the field.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Place more points by clicking further along the edge, until the shape you're drawing completely covers the field.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>描画しているシェイプがフィールドを完全にカバーするまで、縁に沿ってさらにクリックすることにより、より多くのポイントを置きます。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Fill in the values as below:</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Fill in the values as below:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>値を以下のように埋めます:</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Close the attribute table.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Close the attribute table.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>属性テーブルを閉じます。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Remember, if you've made a mistake while digitizing a feature, you can always edit it after you're done creating it.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Remember, if you've made a mistake while digitizing a feature, you can always edit it after you're done creating it.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>地物をデジタル化しているときにミスを犯してしまった場合、作成が終わった後で常にそれを編集できることを覚えておいてください。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>If you've made a mistake, continue digitizing until you're done creating the feature as above.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you've made a mistake, continue digitizing until you're done creating the feature as above.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>ミスをしてしまった場合は、上記のような地物を作成し終わるまで、デジタル化を継続します。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Then:</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Then:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>その後：</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Digitize the school itself and the upper field.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Digitize the school itself and the upper field.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>学校自体と上のフィールドをデジタル化します。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Use this image to assist you:</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Use this image to assist you:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>デジタル化を支援するためにこの画像を使用します：</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>When you're done adding features to a layer, remember to save your edits and then exit edit mode.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>When you're done adding features to a layer, remember to save your edits and then exit edit mode.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>レイヤーに地物を追加し終わったら、編集内容を保存して、編集モードを終了することを忘れないでください。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Our track is a little further to the south:</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Our track is a little further to the south:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>トラックはさらにもう少し南へ:</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>:ref:`Check your results &lt;create-vector-digitize-1&gt;`</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Check your results &lt;create-vector-digitize-1&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>:ref:`結果を確認します &lt;create-vector-digitize-1&gt;`</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>|IC|</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>|IC|</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Now you know how to create features!</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="ja">
+        <seg>|IC|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now you know how to create features!</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>これで地物を作成する方法がわかりましたね！</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>This course doesn't cover adding point features, because that's not really necessary once you've worked with more complicated features (lines and polygons).</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This course doesn't cover adding point features, because that's not really necessary once you've worked with more complicated features (lines and polygons).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>このコースではポイント地物の追加についてカバーしていませんが、より複雑な地物（ラインとポリゴン）で作業してきましたから実際に必要ありません。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>It works exactly the same, except that you only click once where you want the point to be, give it attributes as usual, and then the feature is created.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It works exactly the same, except that you only click once where you want the point to be, give it attributes as usual, and then the feature is created.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>ポイントを置きたいところを1回クリックし、いつものように属性を与え、その後地物が作成されること以外、まったく同じ動作です。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Knowing how to digitize is important because it's a very common activity in GIS programs.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Knowing how to digitize is important because it's a very common activity in GIS programs.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>デジタル化はGISプログラムでは非常に一般的な活動ですので、方法を知ることは重要です。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>|WN|</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>|WN|</seg>
       </tuv>
-    </tu></body>
+      <tuv xml:lang="ja">
+        <seg>|WN|</seg>
+      </tuv>
+    </tu>
+  </body>
 </tmx>

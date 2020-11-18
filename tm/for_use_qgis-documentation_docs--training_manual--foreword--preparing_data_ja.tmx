@@ -1,0 +1,151 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Preparing Exercise Data</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>練習データを準備する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This process is intended for course conveners, or more experienced QGIS users who wish to create localised sample data sets for their course.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このプロセスはコース召集者、または、それらのコースのためにローカライズされたサンプル・データセットをつくりたいより経験あるQGISユーザー向けにしました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Default data sets are provided with the Training Manual, but you may follow these instructions if you wish to replace the default data sets.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>デフォルトのデータセットはトレーニングマニュアルとともに提供されていますが、デフォルトのデータセットを置き換えたい場合は、これらの指示に従うことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The :ref:`sample data provided &lt;data_downloadlink&gt;` with the Training Manual refers to the town of |majorUrbanName| and its surroundings.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`提供されているサンプルデータ &lt;data_downloadlink&gt;` はトレーニングマニュアルと一緒に |majorUrbanName| とその周辺の町を指します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|majorUrbanName| is located about 2 hours' east of Cape Town in the Western Cape of South Africa.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|majorUrbanName| は南アフリカの西ケープ州ケープタウンの約2時間の東に位置しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The dataset contains feature names in both English and Afrikaans.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>データセットは英語とアフリカーンス語の両方で地物名を含みます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Anyone can use this dataset without difficulty, but you may prefer to use data from your own country or home town.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>誰で無理なくこのデータセットを使用できますが、自分の国や故郷からのデータを使用することを好む方もいるかもしれません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you choose to do so, your localised data will be used in all lessons from Module 3 to Module 7.2.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>そうすることを選択した場合は、ローカライズされたデータが、モジュール3からモジュール7.2のすべてのレッスンで使用されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Later modules use more complex data sources which may or may not be available for your region.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それ以降のモジュールはより複雑なデータソースを使用しており、お住まいの地域ではご使用になれない場合があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>These instructions assume you have a good knowledge of QGIS and are not intended to be used as teaching material.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>以下の手順では、QGISの十分な知識を持っており、教材として使用されることを意図していないと仮定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you wish to replace the default data set with localised data for your course, this can easily be done with tools built into QGIS.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>デフォルトのデータセットをコースのためのローカライズされたデータに置き換えたい場合、QGISに組み込まれたツールを使って簡単に行うことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The region you choose to use should have a good mix of urban and rural areas, containing roads of differing significance, area boundaries (such as nature reserves or farms) and surface water, such as streams and rivers.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>あなたが使おうとする領域は、都市部と農村部の適当な混合地であり、河川や水面、道路、地域の境界(自然保護区や農場など)などが分かれてる必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Open a new QGIS project</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISプロジェクトを開く</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|hard| |TY| Create SRTM DEM tiff Files</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|hard| |TY| SRTM DEM tiffファイルの作成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Once you have downloaded the required file(s), they should be saved in the :file:`exercise_data` directory, under :file:`raster/SRTM` subfolders.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>必要なファイルをダウンロードしたら、それらを :file:`raster/SRTM` サブフォルダの下の :file:`exercise_data` ディレクトリに保存する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|hard| |TY| Create imagery tiff Files</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|hard| |TY| 画像のTIFFファイルを作成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| |TY| Replace Tokens</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| |TY| トークンの置き換え</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The tokens you need to replace are as follows:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>置き換える必要のあるトークンは次のとおりです:</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

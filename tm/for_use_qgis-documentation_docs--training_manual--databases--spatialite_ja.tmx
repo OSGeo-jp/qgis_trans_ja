@@ -2,7 +2,8 @@
 <!DOCTYPE tmx SYSTEM "tmx14.dtd">
 <tmx version="1.4">
   <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
-  <body><tu>
+  <body>
+    <tu>
       <tuv xml:lang="en">
         <seg>Now that you have configured your new database you will find that the entry in Browser tree has nothing underneath it and the only thing you can do at this point is to delete the connection. This is of course because we haven't added any tables to this database. Let's go ahead and do that.</seg>
       </tuv>
@@ -11,28 +12,52 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en"><seg>Select the database we created in the previous steps in the drop down.</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="en">
+        <seg>Select the database we created in the previous steps in the drop down.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>前の手順で作成したデータベースをドロップダウン内から選択します.</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Tick the checkbox next to :guilabel:`Create an auto-incrementing primary key`.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Tick the checkbox next to :guilabel:`Create an auto-incrementing primary key`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>次に :guilabel:`自動増分の主キーを作成する` のチェックボックスを選択します.</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Click :guilabel:`OK` to create the table.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click :guilabel:`OK` to create the table.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>:guilabel:`OK` をクリックしてテーブルを作成します.</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>You can right click on the table and view its properties as we did in the previous exercise.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can right click on the table and view its properties as we did in the previous exercise.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>テーブルを右クリックして, 前のレッスンで行ったようにプロパティを表示することができます.</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>From here you can start an editing session and start adding data to your new database directly.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>From here you can start an editing session and start adding data to your new database directly.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>ここから編集のセッションを開始して直接新しいデータベースにデータを追加することができます.</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>|IC|</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>|IC|</seg>
       </tuv>
-    </tu></body>
+      <tuv xml:lang="ja">
+        <seg>|IC|</seg>
+      </tuv>
+    </tu>
+  </body>
 </tmx>

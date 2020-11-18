@@ -4,152 +4,242 @@
   <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
   <body>
     <tu>
-      <tuv xml:lang="en"><seg>|LS| Raster to Vector Conversion</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="en">
+        <seg>|LS| Raster to Vector Conversion</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>|LS| ラスターからベクターへの変換</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en"><seg>Converting between raster and vector formats allows you to make use of both raster and vector data when solving a GIS problem, as well as using the various analysis methods unique to these two forms of geographic data.</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="en">
+        <seg>Converting between raster and vector formats allows you to make use of both raster and vector data when solving a GIS problem, as well as using the various analysis methods unique to these two forms of geographic data.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>ラスター形式とベクター形式の間で変換できると、GISの問題を解決するときに、またこれら二つの地理データの形式に特有の様々な分析方法を使用するときに、ラスターとベクターデータの両方を利用できます。</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en"><seg>This increases the flexibility you have when considering data sources and processing methods for solving a GIS problem.</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="en">
+        <seg>This increases the flexibility you have when considering data sources and processing methods for solving a GIS problem.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>GISの問題を解決するためのデータソースと処理方法を検討する際に、より柔軟性が上がります。</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en"><seg>To combine a raster and vector analysis, you need to convert the one type of data to the other.</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="en">
+        <seg>To combine a raster and vector analysis, you need to convert the one type of data to the other.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>ラスターとベクターの分析を組み合わせるには、データのタイプを一方からもう一方に変換する必要があります。</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en"><seg>Let's convert the raster result of the previous lesson to a vector.</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="en">
+        <seg>Let's convert the raster result of the previous lesson to a vector.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>前のレッスンのラスター結果をベクターに変換してみましょう。</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en"><seg>**The goal for this lesson:** To get the raster result into a vector that can be used to complete the analysis.</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="en">
+        <seg>**The goal for this lesson:** To get the raster result into a vector that can be used to complete the analysis.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>**このレッスンの目標：** 分析を完了するためにラスター結果をベクターにすること。</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en"><seg>|moderate| |FA| The :guilabel:`Raster to Vector` Tool</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="en">
+        <seg>|moderate| |FA| The :guilabel:`Raster to Vector` Tool</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>|moderate| |FA|  :guilabel:`ラスターからベクター` ツール</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en"><seg>Start with the map from the last module, :kbd:`raster_analysis.qgs`.</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="en">
+        <seg>Start with the map from the last module, :kbd:`raster_analysis.qgs`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>最新のモジュール :kbd:`raster_analysis.qgs` から地図を起動します 。</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en"><seg>There you should have the :kbd:`all_conditions_simple.tif` calculated during the previous exercises.</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="en">
+        <seg>There you should have the :kbd:`all_conditions_simple.tif` calculated during the previous exercises.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>前の練習中に :kbd:`all_conditions_simple.tif` が計算されているはずです。</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en"><seg>Click on :menuselection:`Raster --&gt; Conversion --&gt; Polygonize (Raster to Vector)`.</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="en">
+        <seg>Click on :menuselection:`Raster --&gt; Conversion --&gt; Polygonize (Raster to Vector)`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>:menuselection:`ラスター --&gt; 変換 --&gt; ポリゴン化（ラスターからベクター）` をクリックします。</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en"><seg>The tool dialog will appear.</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="en">
+        <seg>The tool dialog will appear.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>ツールのダイアログが表示されます。</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en"><seg>Set it up like this:</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="en">
+        <seg>Set it up like this:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>このように設定します:</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en"><seg>|moderate| |TY|</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="en">
+        <seg>|moderate| |TY|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>|moderate| |TY|</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en"><seg>Refer back to the module on vector analysis.</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="en">
+        <seg>Refer back to the module on vector analysis.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>ベクター分析のモジュールに戻って参照ください。</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en"><seg>Create a new vector file that contains only the polygons where :kbd:`suitable` has the value of :kbd:`1`.</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="en">
+        <seg>Create a new vector file that contains only the polygons where :kbd:`suitable` has the value of :kbd:`1`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>:kbd:`suitable` が値 :kbd:`1` であるポリゴンのみを含む新しいベクターファイルを作成します。</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en"><seg>Save the new file as :kbd:`exercise_data/residential_development/` as :kbd:`suitable_terrain.shp`.</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="en">
+        <seg>Save the new file as :kbd:`exercise_data/residential_development/` as :kbd:`suitable_terrain.shp`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>新しいファイルを :kbd:`exercise_data/residential_development/` に :kbd:`suitable_terrain.shp` として保存します。</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en"><seg>:ref:`Check your results &lt;complete-analysis-1&gt;`</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="en">
+        <seg>:ref:`Check your results &lt;complete-analysis-1&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>:ref:`結果の確認 &lt;complete-analysis-1&gt;`</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en"><seg>|moderate| |FA| The :guilabel:`Vector to Raster` Tool</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="en">
+        <seg>|moderate| |FA| The :guilabel:`Vector to Raster` Tool</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>|moderate| |FA| :guilabel:`ベクターをラスターに` ツール</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en"><seg>Although unnecessary for our current problem, it's useful to know about the opposite conversion from the one performed above.</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="en">
+        <seg>Although unnecessary for our current problem, it's useful to know about the opposite conversion from the one performed above.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>現在の問題には不必要ではありますが、上記で実行されるものとは反対の変換について知っておくと便利です。</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en"><seg>Convert to raster the :kbd:`suitable_terrain.shp` vector file you just created in previous step.</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="en">
+        <seg>Convert to raster the :kbd:`suitable_terrain.shp` vector file you just created in previous step.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>ちょうど前のステップで作成した :kbd:`suitable_terrain.shp` ベクターファイルをラスターに変換します。</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en"><seg>Click on :menuselection:`Raster --&gt; Conversion --&gt; Rasterize (Vector to Raster)` to start this tool, then set it up as in the screenshot below:</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="en">
+        <seg>Click on :menuselection:`Raster --&gt; Conversion --&gt; Rasterize (Vector to Raster)` to start this tool, then set it up as in the screenshot below:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>:menuselection:`ラスター --&gt; 変換 --&gt; ラスター化（ベクターからラスター）` をクリックしてこのツールを起動し、その後、下のスクリーンショットのようにそれを設定します。</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en"><seg>The size of the output image is specified here to be the same as the original raster which was vectorized.</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="en">
+        <seg>The size of the output image is specified here to be the same as the original raster which was vectorized.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>出力画像のサイズは、ここではベクター化された元のラスターと同じになるように指定されています。</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en"><seg>To view the dimensions of an image, open its metadata (:guilabel:`Metadata` tab in the :guilabel:`Layer Properties`).</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="en">
+        <seg>To view the dimensions of an image, open its metadata (:guilabel:`Metadata` tab in the :guilabel:`Layer Properties`).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>画像の大きさを表示するには、そのメタデータを開きます（ :guilabel:`レイヤーのプロパティ` 中の :guilabel:`メタデータ` タブ）。</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en"><seg>Click :guilabel:`OK` on the dialog to begin the conversion process.</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="en">
+        <seg>Click :guilabel:`OK` on the dialog to begin the conversion process.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>:guilabel:`OK` をクリックして変換処理を開始します。</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en"><seg>When it is complete, gauge its success by comparing the new raster with the original one.</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="en">
+        <seg>When it is complete, gauge its success by comparing the new raster with the original one.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>完了したら、新たなラスターを元のものと比較することによって、その成功を測ります。</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en"><seg>They should match up exactly, pixel for pixel.</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="en">
+        <seg>They should match up exactly, pixel for pixel.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>両者は正確にピクセル単位で一致する必要があります。</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en"><seg>|IC|</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="en">
+        <seg>|IC|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>|IC|</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en"><seg>Converting between raster and vector formats allows you to widen the applicability of data, and need not lead to data degradation.</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="en">
+        <seg>Converting between raster and vector formats allows you to widen the applicability of data, and need not lead to data degradation.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>ラスターとベクター形式の間で変換すると、データの適用可能性を広げることができ、データの劣化につながる必要はありません。</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en"><seg>|WN|</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="en">
+        <seg>|WN|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>|WN|</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en"><seg>Now that we have the results of the terrain analysis available in vector format, they can be used to solve the problem of which buildings we should consider for the residential development.</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="en">
+        <seg>Now that we have the results of the terrain analysis available in vector format, they can be used to solve the problem of which buildings we should consider for the residential development.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>今はベクター形式で利用可能な地形解析の結果がありますので、どの建物を住宅開発のために検討すべきかの問題を解決するためにそれらを使用できます。</seg>
       </tuv>
     </tu>

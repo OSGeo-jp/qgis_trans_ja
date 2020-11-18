@@ -2,87 +2,168 @@
 <!DOCTYPE tmx SYSTEM "tmx14.dtd">
 <tmx version="1.4">
   <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
-  <body><tu>
-      <tuv xml:lang="en"><seg>|LS| Actions</seg></tuv><tuv xml:lang="ja">
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|LS| Actions</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>|LS| アクション</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>**The goal for this lesson:** To learn how to add custom actions.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**The goal for this lesson:** To learn how to add custom actions.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>**このレッスンの目標:** カスタムアクションを追加する方法を学びます。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>|basic| |FA| Add a Field for Images</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| |FA| Add a Field for Images</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>|basic| |FA| 画像のためのフィールドの追加</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Open the :guilabel:`Layer Properties` dialog.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Open the :guilabel:`Layer Properties` dialog.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>:guilabel:`レイヤーのプロパティ` ダイアログを開きます。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Click on the :guilabel:`Fields` tab.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click on the :guilabel:`Fields` tab.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>:guilabel:`フィールド` タブをクリックします。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Toggle editing mode:</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Toggle editing mode:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>編集モードに切り替えます:</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Add a new column:</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Add a new column:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>新しい列を追加します:</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Enter the values below:</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Enter the values below:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>下記の値を入力します:</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Use the :guilabel:`Identify` tool to click on one of the three features in the :guilabel:`school_property` layer.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Use the :guilabel:`Identify` tool to click on one of the three features in the :guilabel:`school_property` layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>:guilabel:`地物情報表示` ツールを使用して :guilabel:`school_property` レイヤーの3つの地物のいずれかをクリックします。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Click on the browse button (the :guilabel:`...` next to the :guilabel:`image` field).</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click on the browse button (the :guilabel:`...` next to the :guilabel:`image` field).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>参照ボタンをクリックします (:guilabel:`image` フィールドの横の :guilabel:`...`)。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Click :guilabel:`OK`.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click :guilabel:`OK`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>:guilabel:`OK` をクリックします。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Associate all of the images with the correct features using this method.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Associate all of the images with the correct features using this method.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>この方法ですべての画像と地物を正しく関連付けます。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Save your edits and exit edit mode.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Save your edits and exit edit mode.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>編集内容を保存し、編集モードを終了します。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>|basic| |FA| Creating an Action</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| |FA| Creating an Action</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>|basic| |FA| アクションの作成</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>What to do next varies according to your operating system, so choose the appropriate course to follow:</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>What to do next varies according to your operating system, so choose the appropriate course to follow:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>次に何をすべきかはオペレーティングシステムによって異なりますので、次で適切なコースを選択して下さい:</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Windows</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>Windows</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Click on the :guilabel:`Type` dropdown and choose :guilabel:`Open`.</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="ja">
+        <seg>Windows</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click on the :guilabel:`Type` dropdown and choose :guilabel:`Open`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>:guilabel:`タイプ` ドロップダウンリストをクリックし、 :guilabel:`開く` を選択します。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Ubuntu Linux</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>Ubuntu Linux</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>MacOS</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="ja">
+        <seg>Ubuntu Linux</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>MacOS</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Click on the :guilabel:`Type` dropdown and choose :guilabel:`Mac`.</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="ja">
+        <seg>MacOS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click on the :guilabel:`Type` dropdown and choose :guilabel:`Mac`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>:guilabel:`タイプ` ドロップダウンリストをクリックし、 :guilabel:`Mac` を選択します。</seg>
       </tuv>
-    </tu><tu>
+    </tu>
+    <tu>
       <tuv xml:lang="en">
         <seg>You want to open the image, and QGIS knows where the image is. All it needs to do is to tell the :guilabel:`Action` where the image is.</seg>
       </tuv>
@@ -91,58 +172,110 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en"><seg>Select :guilabel:`image` from the list:</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="en">
+        <seg>Select :guilabel:`image` from the list:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>リストから :guilabel:`image` を選択します:</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Click the button itself to activate the tool.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click the button itself to activate the tool.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>ボタン自体をクリックしてツールをアクティブにします。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Using this tool, click on any of the three school properties.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Using this tool, click on any of the three school properties.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>このツールを使用して、3つの地所のいずれかをクリックします。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>|moderate| |FA| Searching the Internet</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moderate| |FA| Searching the Internet</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>|moderate| |FA| インターネットを検索する</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Open the attribute table for the :guilabel:`landuse` layer.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Open the attribute table for the :guilabel:`landuse` layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>:guilabel:`landuse` レイヤーの属性テーブルを開きます。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Close the attribute table.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Close the attribute table.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>属性テーブルを閉じます。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Go back to :guilabel:`Actions` in :guilabel:`Layer Properties`.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Go back to :guilabel:`Actions` in :guilabel:`Layer Properties`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>:guilabel:`レイヤープロパティ` の :guilabel:`アクション` に戻ります。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Under :guilabel:`Type`, choose :guilabel:`Open`.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Under :guilabel:`Type`, choose :guilabel:`Open`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>:guilabel:`タイプ` で :guilabel:`開く` を選択します。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>This will tell Windows to open an Internet address in your default browser, such as Internet Explorer.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This will tell Windows to open an Internet address in your default browser, such as Internet Explorer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>これはWindowsにInternet Explorer等の既定のブラウザでインターネットアドレスを開かせます。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Whichever command you used above, you need to tell it which Internet address to open next.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Whichever command you used above, you need to tell it which Internet address to open next.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>上でどのコマンドを使った場合でも次に、開くべきインターネットアドレスを知らせなければいけません。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>You want it to visit Google, and to search for a phrase automatically.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You want it to visit Google, and to search for a phrase automatically.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>Googleを訪問させて語句を自動的に検索させます。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Select the :guilabel:`name` field.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Select the :guilabel:`name` field.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>:guilabel:`名称` フィールドを選択します。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Now to test the new action.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now to test the new action.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>では新しいアクションをためします。</seg>
       </tuv>
-    </tu><tu>
+    </tu>
+    <tu>
       <tuv xml:lang="en">
         <seg>If your action doesn't work, check that everything was entered correctly; typos are common with this kind of work!</seg>
       </tuv>
@@ -151,48 +284,92 @@
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en"><seg>|hard| |FA| Open a Webpage Directly in QGIS</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="en">
+        <seg>|hard| |FA| Open a Webpage Directly in QGIS</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>|hard| |FA| QGISで直接Webページを開く</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>To create the layer action:</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To create the layer action:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>レイヤーアクションを作成するには:</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Open the :guilabel:`Layer Properties` dialog and head over to the :guilabel:`Actions` tab.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Open the :guilabel:`Layer Properties` dialog and head over to the :guilabel:`Actions` tab.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>:guilabel:`レイヤープロパティ` ダイアログを開いて :guilabel:`アクション` タブへ向かいます。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Set up a new action using the following properties for the action:</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Set up a new action using the following properties for the action:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>次のアクションのプロパティを使って新しいアクションを設定します。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>There are a couple of things going on here:</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>There are a couple of things going on here:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>ここでは:</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>All the python code is in a single line with semi-colons separating commands (instead of newlines, the usual way of separating Python commands).</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>All the python code is in a single line with semi-colons separating commands (instead of newlines, the usual way of separating Python commands).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>すべてのPythonのコードはコマンドがセミコロンで区切られて1行になっています(通常Pythonのコマンドは改行で区切ります)。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Note that this is a somewhat contrived example.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Note that this is a somewhat contrived example.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>これはいくぶん不自然な例であることに注意してください。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>Python works with semantically significant indentation, so separating things with semicolons isn't the best way to write it.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Python works with semantically significant indentation, so separating things with semicolons isn't the best way to write it.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>Pythonでは意味的に重要なインデントが使われますので、セミコロンで区切ることは記述の最良の方法ではありません。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>So, in the real world, you'd be more likely to import your logic from a Python module and then call a function with a field attribute as parameter.</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>So, in the real world, you'd be more likely to import your logic from a Python module and then call a function with a field attribute as parameter.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>ですから現実の世界では、Pythonモジュールからロジックをインポートして、引数にフィールド属性をとる関数を呼び出す可能性が高いと思います。</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>|IC|</seg></tuv><tuv xml:lang="ja">
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>|IC|</seg>
       </tuv>
-    </tu><tu>
-      <tuv xml:lang="en"><seg>|WN|</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="ja">
+        <seg>|IC|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
         <seg>|WN|</seg>
       </tuv>
-    </tu></body>
+      <tuv xml:lang="ja">
+        <seg>|WN|</seg>
+      </tuv>
+    </tu>
+  </body>
 </tmx>

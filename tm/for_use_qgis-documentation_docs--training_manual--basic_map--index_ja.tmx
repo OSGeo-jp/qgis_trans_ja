@@ -5,10 +5,10 @@
   <body>
     <tu>
       <tuv xml:lang="en">
-        <seg>|MOD| Using Spatial Databases in QGIS</seg>
+        <seg>In this module, you will create a basic map which will be used later as a basis for further demonstrations of QGIS functionality.</seg>
       </tuv>
       <tuv xml:lang="ja">
-        <seg>|MOD| QGISで空間データベースを使用する</seg>
+        <seg>このモジュールでは、QGISの機能性のさらなるデモンストレーションに基いて、後で使用される基本的な地図を作成します。</seg>
       </tuv>
     </tu>
   </body>

@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We will start the application, and create a basic map to use for examples and exercises.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>アプリケーションを起動し、その例と演習で使用する基本的な地図を作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**The goal for this lesson:** To get started with an example map.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**このレッスンの目標:** 例の地図で始める</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Launch QGIS from its desktop shortcut, menu item, etc., depending on how you configured its installation.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>デスクトップのショートカット、メニュー、アイテムなどからQGISを起動します。この設定はインストール時の設定に依存します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Let's get started right away!</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>すぐにはじめましょう！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| |FA| Prepare a map</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| |FA| 地図を準備</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Open QGIS.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISを開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You will have a new, blank map.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>新規に空白の地図があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Congratulations!</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>おめでとうございます！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You now have a basic map.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これで基本的な地図ができました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now would be a good time to save your work.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>作業を保存するにはよいタイミングでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click on the :guilabel:`Save As` button: |fileSaveAs|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`名前を付けて保存` ボタンをクリックしてください： |fileSaveAs|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| |TY|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| |TY|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Check your results &lt;interface-preparation-1&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`結果の確認 &lt;interface-preparation-1&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|FA| Reordering the Layers</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|FA| レイヤーの順序入れ替え</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The layers in your Layers list are drawn on the map in a certain order.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>レイヤーリストにあるレイヤーは、特定の順序で地図上に描かれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The layer at the bottom of the list is drawn first, and the layer at the top is drawn last.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>リストの一番下にあるレイヤーが最初に描かれ、そして一番上のレイヤーは最後に描かれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>By changing the order that they are shown on the list, you can change the order they are drawn in.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>リストに表示される順を変更することで、それらが描かれる順序を変更できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The order in which the layers have been loaded into the map is probably not logical at this stage.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>レイヤーが地図にロードされた順序は、おそらくこの段階では論理的ではありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It's possible that the road layer is completely hidden because other layers are on top of it.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>他のレイヤーがその上にあることで道路レイヤーが完全に隠れている可能性があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For example, this layer order...</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>たとえば、このレイヤー順では・・・</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To resolve this problem:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>問題を解決するために:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click and drag on a layer in the Layers list.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>レイヤーリスト中でレイヤーをクリックしてドラッグします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Reorder them to look like this:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>こう見えるようにそれらの順番を入れ替えます:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You'll see that the map now makes more sense visually, with roads and buildings appearing above the land use regions.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>地図は現在、土地利用領域の上に表示される道路や建物で、視覚的により理にかなっていることがわかります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|IC|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|IC|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|WN|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|WN|</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

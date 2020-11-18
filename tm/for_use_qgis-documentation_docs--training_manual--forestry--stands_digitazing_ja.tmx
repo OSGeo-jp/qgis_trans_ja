@@ -1,0 +1,1263 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|LS| Digitizing Forest Stands</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|LS| 林分をデジタル化する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**The goal for this lesson:** Learn a technique to help the digitizing task, digitizing forest stands and finally adding the inventory data to them.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**このレッスンの目標：** 林分をデジタル化し、最終的にそれらに目録データを追加して、デジタル化作業を支援するための技術を学びます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| |FA| Extracting the Forest Stands Borders</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| |FA| 林分境界を抽出する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Open your :kbd:`map_digitizing.qgs` project in QGIS, that you saved from the previous lesson.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>前のレッスンで保存された、 :kbd:`map_digitizing.qgs` プロジェクトを QGISで開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Once you have scanned and georeferenced your map you could start to digitize directly by looking at the image as a guide.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>地図をスキャンして地理参照してしまえば、画像をガイドとして見ることで直接デジタル化を開始できるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>That would most likely be the way to go if the image you are going to digitize from is, for example, an aerial photograph.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>デジタル化に使用しようとしている画像が、例えば航空写真である場合には、それが最も正しい方向である可能性が高いでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The first step will be to use GIMP to obtain an image that contains only the forest stands, that is, all those greenish lines that you could see in the original scanned map:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>最初のステップは、GIMPを使用して、林分、つまりオリジナルのスキャン地図で見ることができた緑がかった線すべて、だけを含む画像を得ることです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Open GIMP (if you don't have it installed yet, download it from the internet or ask your teacher).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GIMPを開きます（それがまだインストールされていない場合は、インターネットからダウンロードするか、先生に尋ねます）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Open the original map image, :menuselection:`File --&gt; Open`, :kbd:`rautjarvi_map.tif` in the :kbd:`exercise_data/forestry` folder.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:kbd:`exercise_data/forestry` フォルダの中で、オリジナルの地図画像 :kbd:`rautjarvi_map.tif` を開きます :menuselection:`ファイル --&gt; 開く` 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Note that the forest stands are represented as green lines (with the number of the stand also in green inside each polygon).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>林分は緑色の線として（各ポリゴン内には緑で林分の数も一緒に）表されていることに注意してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now you can select the pixels in the image that are making up the forest stands' borders (the greenish pixels):</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これで林分の境界（緑がかったピクセル）を構成している画像内のピクセルを選択できます：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Open the tool :menuselection:`Select --&gt; By color`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ツール :menuselection:`選択 --&gt; 色で` を開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>With the tool active, zoom into the image (:guilabel:`Ctrl + mouse wheel`) so that a forest stand line is close enough to differentiate the pixels forming the line.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>アクティブツールで、林分の線が線を構成する画素を区別するのに十分なくらい近くなるように、画像にズームインします( :guilabel:`Ctrlキー+マウスホイール` )。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>See the left image below.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>下の左の画像を参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click and drag the mouse cursor in the middle of the line so that the tool will collect several pixel color values.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ツールは、いくつかのピクセルの色の値を収集するように行の中央にマウスカーソルをクリックしてドラッグ。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Release the mouse click and wait a few seconds.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>マウスクリックを解除し、数秒待って。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The pixels matching the colors collected by the tool will be selected through the whole image.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ツールによって収集された色と一致する画素が画像全体を通して選択されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Zoom out to see how the greenish pixels have been selected throughout the image.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>緑がかったピクセルが画像全体で選択されているかを確認するためにズームアウト。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you are not happy with the result, repeat the click and drag operation.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>結果に満足できない場合は、クリックやドラッグ操作を繰り返します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Your pixel selection should look something like the right image below.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ピクセルの選択は、以下の右の画像のようになるはずです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Once you are done with the selection you need to copy this selection as a new layer and then save it as separate image file:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>選択を完了したら、新しいレイヤーとしてこの選択をコピーして別の画像ファイルとして保存する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Copy (:guilabel:`Ctr+C`) the selected pixels.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>選択された画素をコピー( :guilabel:`Ctrl+C` )します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>And paste the pixels directly (:guilabel:`Ctr+V`), GIMP will display the pasted pixels as a new temporary layer in the :guilabel:`Layers - Brushes` panel as a :guilabel:`Floating Selection (Pasted Layer)`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>そして、ピクセルを直接貼り付けます( :guilabel:`Ctr+V` )、GIMPには貼り付けられたピクセルが新しい一時的な レイヤーとして、 :guilabel:`レイヤー-ブラシ` パネル中の :guilabel:`浮動選択(貼り付け レイヤー)` として表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Right click that temporary layer and select :guilabel:`To New Layer`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>その一時レイヤーを右クリックして :guilabel:`新しいレイヤーへ` を選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click the "eye" icon next to the original image layer to switch it off, so that only the :guilabel:`Pasted Layer` is visible:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`レイヤーを貼り付け` のみが表示されるよう、元の画像レイヤーの隣の「目」のアイコンをクリックしてそれを非表示にしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Finally, select :menuselection:`File --&gt; Export...`, set :guilabel:`Select File Type (By Extension)` as a :guilabel:`TIFF image`, select the :kbd:`digitizing` folder and name it :kbd:`rautjarvi_map_green.tif`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>最後に、 :menuselection:`ファイル --&gt; エクスポート...` を選択し、 :guilabel:`ファイルの種類を選択(拡張子で)` を :guilabel:`TIFF画像` として設定し、 :kbd:`digitizing` フォルダを選択してそれに :kbd:`rautjarvi_map_green.tif` と名前を付けます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Select no compression when asked.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>尋ねられたとき非圧縮を選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You could do the same process with other elements in the image, for example extracting the black lines that represent roads or the brown ones that represent the terrain' contour lines. But for us, the forest stands is enough.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>画像内の他の要素で同様の処理を行うことができます。例えば、道路を表す黒線や地形等高線を表す茶線を抽出したりもできたでしょう。しかし私たちにとっては林分で十分です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| |TY| Georeference the Green Pixels Image</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| |TY| 緑色画素の画像をジオリファレンス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>As you did in the previous lesson, you need to georeference this new image to be able to use it with the rest of your data.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>前のレッスンで行ったように、この新しい画像は、データの残りの部分とともに使用できるようにするためにジオリファレンスする必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Note that you don't need to digitize the ground control points any more because this image is basically the same image as the original map image, as far as the Georeferencer tool is concerned.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この画像はジオリファレンサツールに関する限りは基本的に元の地図画像と同じ画像なので、これ以上地上基準点をデジタル化する必要はないことに注意してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Here are some things you should remember:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ここでは、忘れてはならないいくつかのものがあります：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This image is also, of course, in :kbd:`KKJ / Finland zone 2` CRS.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この画像も、もちろん、:kbd:`KKJ/フィンランドゾーン2` CRSです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You should use the ground control points you saved, :menuselection:`File --&gt; Load GCP points`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>保存された地上基準点を使用する必要があります、 :menuselection:`ファイル --&gt; GCP 点をロード` 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Remember to review the :guilabel:`Transformation settings`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`変換設定` を確認することを忘れないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Name the output raster as :kbd:`rautjarvi_green_georef.tif` in the :kbd:`digitizing` folder.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>出力ラスターに :kbd:`digitizing` フォルダ中で :kbd:`rautjarvi_green_georef.tif` と名前を付けます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Check that the new raster is fitting nicely with the original map.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>新しいラスターが元の地図ときちんと合っていることを確認してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| |FA| Creating Supporting Points for Digitizing</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| |FA| デジタル化を支援するポイントを作成する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Having in mind the digitizing tools in QGIS, you might already be thinking that it would be helpful to snap to those green pixels while digitizing.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISでのデジタル化ツールを心に持っていて、デジタル化の間にそれらの緑のピクセルにスナップしたら便利だろうとすでにお考えかもしれません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>That is precisely what you are going to do next create points from those pixels to use them later to help you follow the forest stands' borders when digitizing, by using the snapping tools available in QGIS.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それはまさに次にしようとしていること、QGISで利用可能なスナップツールを使用して、後でデジタル化するときに林分の境界をたどる支援するためにそれらを使用するためにこれらのピクセルからポイントを作成です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Use the :menuselection:`Raster --&gt; Conversion --&gt; Polygonize (Raster to Vector)` tool to vectorize your green lines to polygons.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:menuselection:`ラスター --&gt; 変換 --&gt; ポリゴン化(ベクターからラスター)` ツールを使用して、緑の線をポリゴンに ベクター化してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you don't remember how, you can review it in :doc:`../complete_analysis/raster_to_vector`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>どのようにか覚えていない場合、 :doc:`../complete_analysis/raster_to_vector` で確認できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Save as :kbd:`rautjarvi_green_polygon.shp` inside the :kbd:`digitizing` folder.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:kbd:`digitizing` フォルダ内に :kbd:`rautjarvi_green_polygon.shp` と名前を付けて保存します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Zoom in and see what the polygons look like.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ズームインしてポリゴンがどのように見えるかを参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You will get something like this:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>何かこのようになっているでしょう：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Next one option to get points out of those polygons is to get their centroids:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これらのポリゴンからポイントを得る次のオプションは、その重心を得ることです：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Open :menuselection:`Vector --&gt; Geometry tools --&gt; Polygon centroids`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:menuselection:`ベクター --&gt; ジオメトリツール --&gt; ポリゴン重心` を開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Set the polygon layer you just got as the input file for the tool.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ツールの入力ファイルとしてたった今得たポリゴンレイヤーを設定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Name the output as :kbd:`green_centroids.shp` inside the :kbd:`digitizing` folder.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:kbd:`digitizing` フォルダ内部で 出力 に :kbd:`green_centroids.shp` と名前を付けます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Check :menuselection:`Add result to canvas`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:menuselection:`結果を キャンバス に追加` をチェックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Run the tool to calculate the centroids for the polygons.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ポリゴンの重心を計算するためのツールを実行します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now you can remove the :guilabel:`rautjarvi_green_polygon` layer from the TOC.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>今、TOCから :guilabel:`rautjarvi_green_polygon` レイヤーを削除できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Change the symbology of the centroids layer as:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>重心レイヤーのシンボルをこのように変更します：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Open the :guilabel:`Layer Properties` for :guilabel:`green_centroids`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`green_centroids` の :guilabel:`レイヤーのプロパティ`  を開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Set the :guilabel:`Unit` to Map unit.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`単位` を地図単位に設定してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Set the :guilabel:`Size` to 1.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`サイズ` を1に設定してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It is not necessary to differentiate points from each other, you just need them to be there for the snapping tools to use them. You can use those points now to follow the original lines much easily than without them.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ポイント１つ１つを区別する必要はありません。それらはスナップツールが使用するためそこにある必要があるだけです。これらのポイントを使用することで、それらがない場合よりもずっと簡単に元の線をたどれるようになりました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| |FA| Digitize the Forest Stands</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| |FA| 林分をデジタル化</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now you are ready to start with the actual digitizing work.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これで実際のデジタル化作業を開始する準備が整いました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You would start by creating a vector file of :guilabel:`polygon type`, but for this exercise, there is a shapefile with part of the area of interest already digitized.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`ポリゴンタイプ` のベクターファイルの作成から始めますが、この演習のためには、関心領域の一部がすでにデジタル化されているシェープファイルがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You will just finish digitizing the half of the forest stands that are left between the main roads (wide pink lines) and the lake:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>主要道路（幅の広いピンクの線）と湖の間に残っている林分の半分のデジタル化を完了するだけでしょう：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Go to the :kbd:`digitizing` folder using your file manager browser.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ファイルマネージャのブラウザを使用して :kbd:`digitizing` フォルダに行きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Drag and drop the :kbd:`forest_stands.shp` vector file to your map.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>地図に :kbd:`forest_stands.shp` ベクターファイルをドラッグ＆ドロップします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Change the new layer's symbology so that it will be easier to see what polygons have already been digitized:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>どのポリゴンがすでにデジタル化されているかが容易に見えるように、新しいレイヤーのシンボルを変更します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The filling of the polygon to green.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ポリゴンの塗りを緑に。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The polygons' borders to 1 mm.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ポリゴン境界を1mmに。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>and set the transparency to 50%.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>そして透明度を50％に設定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now, if you remember past modules, we have to set up and activate the snapping options:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>過去のモジュールを覚えていれば今、私たちは、セットアップおよびスナップオプションを有効にする必要があります：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Set their :guilabel:`Tolerance` to 5 map units.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それらのレイヤーの :guilabel:`許容誤差` を5地図単位に設定してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Check the :guilabel:`Avoid Int.` box for the :kbd:`forest_stands` layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:kbd:`forest_stands` レイヤーの :guilabel:`交差を回避` ボックスを チェックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Check :guilabel:`Enable topological editing`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`トポロジ編集を有効` をチェックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click :guilabel:`Apply`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`適用` をクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>With these snapping settings, whenever you are digitizing and get close enough to one of the points in the centroids layer or any vertex of your digitized polygons, a pink cross will appear on the point that will be snapped to.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これらのスナップ設定では、デジタル化中に重心レイヤー中のポイントの一つまたはデジタル化されるポリゴンのどこかの頂点に十分近づくといつでも、ピンクの十字がスナップされる点に表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Finally, turn off the visibility of all the layers except :kbd:`forest_stands` and :kbd:`rautjarvi_georef`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>最後に、:kbd:`forest_stands`と :kbd:`rautjarvi_georef` を除くすべてのレイヤーの可視性をオフにします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Make sure that the map image has not transparency any more.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>地図画像がこれ以上の透明されていないことを確認してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A couple of important things to note before you start digitizing:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>デジタル化を開始する前に注意すべきいくつかの重要な事：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Don't try to be too accurate with the digitizing of the borders.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>国境のデジタル化ではあまりに正確にしようとしないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If a border is a straight line, digitize it with just two nodes.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>境界が直線である場合は、ノード2つだけでデジタル化してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In general, digitize using as few nodes as possible.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>一般に、できるだけ少ないノードを使用してデジタル化してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Zoom in to close ranges only if you feel that you need to be accurate, for example, at some corners or when you want a polygon to connect with another polygon at a certain node.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>正確であることが必要と感じた場合のみズームインして範囲を閉じてください、例えばいくつかのコーナーで、またはポリゴンを特定のノードで他のポリゴンと接続したいとき。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Use the mouse's middle button to zoom in/out and to pan as you digitize.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>デジタル化しながら、マウスの中ボタンを使用してズームイン/アウトおよびパンしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Digitize only one polygon at a time.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>一度に1つのポリゴンをデジタル化してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>After digitizing one polygon, write the forest stand id that you can see from the map.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>1つのポリゴンをデジタル化した後、地図から見える林分IDを書き込みます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now you can start digitizing:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>今、デジタル化を開始できます：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Locate the forest stand number 357 in the map window.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>地図ウィンドウで林分番号357の位置を確認します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Enable editing for the :kbd:`forest_stands.shp` layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:kbd:`forest_stands.shp` レイヤーについて編集を有効にします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Select the :guilabel:`Add feature` tool.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`地物を追加` ツールを選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Start digitizing the stand :kbd:`357` by connecting some of the dots.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ドットの一部を接続することにより、林分 :kbd:`357` をデジタル化開始します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Note the pink crosses indicating the snapping.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>スナップを示すピンク十字に留意されたいです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>When you are done, right click to end digitizing that polygon.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>完了したら、右クリックしてそのポリゴンのデジタル化を終了します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Enter the forest stand :kbd:`id` (in this case 357).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>林分 :kbd:`id` を入力します(この場合は357)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click :guilabel:`OK`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`OK` をクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you were not prompted for the polygon :kbd:`id` when you finished digitizing it, go to :menuselection:`Settings --&gt; Options --&gt; Digitizing` and make sure that the :guilabel:`Suppress attribute form pop-up after feature creation` is not checked.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>デジタル化し終えてもポリゴン :kbd:`id` の入力を求められなかった場合は、 :menuselection:`設定 --&gt; オプション --&gt; デジタル化` に行き、 :guilabel:`地物作成後まで 属性 フォームのポップアップを抑止` がチェックされていないことを確認してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Your digitized polygon will look like this:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>デジタル化されたポリゴンは次のようになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now for the second polygon, pick up the stand number 358. Make sure that the :guilabel:`Avoid int.` is checked for the :kbd:`forest_stands` layer. This option does not allow intersecting polygons at digitizing, so that if you digitize  over an existing polygon, the new polygon will be trimmed to meet the border of the already existing polygons. You can use this characteristic to automatically obtain a common border.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>今、第二のポリゴンのために、林分番号358を拾います。 :kbd:`forest_stands` レイヤー :guilabel:`交差を回避` がチェックされていることを確認してください。このオプションではデジタル化においてポリゴンが交差することを許容しません。既存のポリゴンを超えてデジタル化した場合、新しいポリゴンは既存のポリゴンの境界に合うようにトリミングされます。この特性を使用すれば共通の境界が自動的に得られます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Begin digitizing the stand 358 at one of the common corners with the stand 357.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>林分357と共通する角の一つで林分358をデジタル化し始めます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Then continue normally until you get to the other common corner for both stands.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それから両方の林分のための他の共通の角に到達するまで、正常に継続します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Finally, digitize a few points inside polygon 357 making sure that the common border is not intersected.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>最後に、共通の境界が交差されていないことを確認しながらポリゴン357内のいくつかのポイントをデジタル化します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>See left image below.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>下の左の画像を参照。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Right click to finish editing the forest stand 358.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>右の林358の編集を終了します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Enter the :kbd:`id` as 358.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:kbd:`id` を358と入力します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The part of the polygon that was overlapping the existing polygon has been automatically trimmed out and you are left with a common border, as you intended it to be.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>既存のポリゴンを重ねたポリゴンの一部は自動的にトリミングされていて、それがあることを意図したように、共通の境界が残されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| |TY| Finish Digitizing the Forest Stands</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| |TY| 林分をデジタル化完了</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now you have two forest stands ready.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>今、2つ林分の準備ができています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>And a good idea on how to proceed.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>そして、続行する方法について良いアイデア。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Continue digitizing on your own until you have digitized all the forest stands that are limited by the main road and the lake.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>主要道路と湖によって制限されているすべての林分をデジタル化するまで、自分でデジタル化を続行します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It might look like a lot of work, but you will soon get used to digitizing the forest stands.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それは大変な作業のように見えるかもしれませんが、すぐに林分をデジタル化するのに慣れるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It should take you about 15 minutes.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それは約15分かかります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>During the digitizing you might need to edit or delete nodes, split or merge polygons.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>デジタル化中に、ポリゴンを編集したり削除したノードを、分割またはマージする必要がある場合があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You learned about the necessary tools in :doc:`../create_vector_data/topo_editing`, now is probably a good moment to go read about them again.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:doc:`../create_vector_data/topo_editing` で必要なツールについて学びましたが、今それらについて読み直しに行くにはおそらく良い瞬間です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Remember that having :guilabel:`Enable topological editing` activated, allows you to move nodes common to two polygons so that the common border is edited at the same time for both polygons.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`トポロジの編集を有効` がアクティブになっていると、共通の境界は、両方のポリゴンの同じ時間に編集されているように、2つのポリゴンに共通のノードを移動できます、ことを覚えておいてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Your result will look like this:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>結果は次のようになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| |FA| Joining the Forest Stand Data</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| |FA| 林分データを結合</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It is possible that the forest inventory data you have for you map is also written in paper.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>地図のために持っている森林目録データは、紙に書かれている可能性があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In that case, you would have to first write that data to a text file or a spreadsheet.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>その場合は、最初にテキストファイルやスプレッドシートにそのデータを記述する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For this exercise, the information from the inventory for 1994 (the same inventory as the map) is ready as a comma separated text (csv) file.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この演習では、1994年目録（地図と同じ目録）からの情報は、カンマ区切りテキスト（CSV）ファイルとして準備ができています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Open the :kbd:`rautjarvi_1994.csv` file from the :kbd:`exercise_data\\forestry` directory in a text editor and note that the inventory data file has an attribute called :kbd:`ID` that has the numbers of the forest stands.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>テキストエディタで :kbd:`exercise_data\\forestry` ディレクトリ中の :kbd:`rautjarvi_1994.csv` ファイルを開き、目録データファイルが 林分 の番号である :kbd:`ID` と呼ばれる 属性 を持っていることに注意してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Those numbers are the same as the forest stands ids you have entered for your polygons and can be used to link the data from the text file to your vector file.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これらの番号はポリゴンに入力した 林分 のIDと同じであり、 ベクターファイルにテキストファイルからのデータをリンクするために使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can see the metadata for this inventory data in the file :kbd:`rautjarvi_1994_legend.txt` in the same folder.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>同じフォルダにある :kbd:`rautjarvi_1994_legend.txt` ファイルでこの目録データのメタデータを見ることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Open the :kbd:`.csv` in QGIS with the :menuselection:`Layer --&gt; Add Delimited Text Layer...` tool.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGIS で :kbd:`.csv` :menuselection:`レイヤー --&gt; 区切りテキストレイヤーを追加...` ツールを開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In the dialog, set it as follows:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ダイアログ で、それを次のように設定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To add the data from the :kbd:`.csv` file:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:kbd:`.csv` ファイルからデータを追加するには：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Open the Layer Properties for the :kbd:`forest_stands` layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:kbd:`forest_stands` レイヤーのための[レイヤーのプロパティ]を開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Go to the :guilabel:`Joins` tab.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`結合` タブに移動します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click the plus sign on the bottom of the dialog box.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ダイアログボックスの下部にあるプラス記号をクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Select :kbd:`rautjarvi_1994.csv` as the :guilabel:`Join layer` and :kbd:`ID` as the :guilabel:`Join` field.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`結合レイヤー` として :kbd:`rautjarvi_1994.csv` を 、 :guilabel:`結合` フィールドとして :kbd:`ID` を選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Make sure that the :guilabel:`Target` field is also set to :kbd:`id`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`結合先` フィールドも :kbd:`id` に設定されていることを確認してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click :guilabel:`OK` two times.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`OK` を2回クリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The data from the text file should be now linked to your vector file.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>テキストファイルからのデータは、今ベクターファイルにリンクする必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To see what has happened, open the attribute table for the :kbd:`forest_stands` layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>起こったことを確認するには、 :kbd:`forest_stands` レイヤーの属性テーブル を開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can see that all the attributes from the inventory data file are now linked to your digitized vector layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>目録データファイルからのすべての 属性 は、今お使いのデジタル化された ベクターレイヤーにリンクされていることがわかります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| |TY| Renaming Attribute Names and Adding Area and Perimeter</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| |TY| 属性 名の名前を変更してエリアと境界を追加する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The data from the :kbd:`.csv` file is just linked to your vector file.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:kbd:`.csv` ファイルからのデータがちょうど ベクターファイルにリンクされています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To make this link permanent, so that the data is actually recorded to the vector file you need to save the :kbd:`forest_stands` layer as a new vector file.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>データが実際に ベクターファイルに記録されるように、このリンクを恒久的なものにするには新しい ベクターファイルとして :kbd:`forest_stands` レイヤーを保存する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Close the attribute table and right click the forest_stands layer to save it as :kbd:`forest_stands_1994.shp`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>属性テーブル を閉じ、forest_stands レイヤーを右クリックして :kbd:`forest_stands_1994.shp` としてそれを保存します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Open your new :kbd:`forest_stands_1994.shp` in your map if you did not added yet.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>まだ追加していなかった場合は、新しい :kbd:`forest_stands_1994.shp` を地図で開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Then open the attribute table.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>そして、 属性 テーブル を開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You notice that the names of the columns that you just added are no very useful.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>追加した列の名前はぜんぜん有用でないことに気づきます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To solve this:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これを解決するには：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Add the plugin :guilabel:`Table Manager` as you have done with other plugins before.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>前に他のプラグインに行ったように :guilabel:`テーブルマネージャ` プラグインを追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Make sure the plugin is activated.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プラグインが有効になっていることを確認します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In the TOC select the layer :kbd:`forest_stands_1994.shp`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>TOCでレイヤー :kbd:`forest_stands_1994.shp` を選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Then, go to :menuselection:`Vector --&gt; Table Manager --&gt; Table manager`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次に、:menuselection:`ベクター --&gt; テーブルマネージャ --&gt; テーブルマネージャ` に行きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Use the dialogue box to edit the names of the columns to match the ones in the :kbd:`.csv` file.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ダイアログボックスを使用し、 :kbd:`.csv` ファイル中のものと一致するように列の名前を編集します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click on :guilabel:`Save`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`保存` をクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Select :guilabel:`Yes` to keep the layer style.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`はい` を選択してレイヤースタイルを維持します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Close the :guilabel:`Table Manager` dialogue.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`テーブルマネージャ` ダイアログを閉じます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To finish gathering the information related to these forest stands, you might calculate the area and the perimeter of the stands.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これらの 林分 に関連する情報を収集完了するには、 林分 の面積と周囲を計算することがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You calculated areas for polygons in :doc:`../complete_analysis/analysis_exercise`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:doc:`../complete_analysis/analysis_exercise` 内のポリゴンのための領域を計算しました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Go back to that lesson if you need to and calculate the areas for the forest stands, name the new attribute :kbd:`Area` and make sure that the values calculated are in hectares.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>する必要がある場合は、そのレッスンに戻り 林分 の領域を計算し、新しい 属性 に :kbd:`面積` と名前を付け、計算値はヘクタールであることを確認してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now your :kbd:`forest_stands_1994.shp` layer is ready and packed with all the available information.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>今 :kbd:`forest_stands_1994.shp` レイヤーは準備され、利用可能なすべての情報が満載です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Save your project to keep the current map presentation in case you need to come back later to it.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>後で戻ってくる必要がある場合に備え、現在の地図の表示を維持するためにプロジェクトを保存します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|IC|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|IC|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It has taken a few clicks of the mouse but you now have your old inventory data in digital format and ready for use in QGIS.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これにはマウスを数回クリックする必要がありますが、今、デジタル形式とQGISでの使用のために準備中で古い調査データを持っています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|WN|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|WN|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You could start doing different analysis with your brand new dataset, but you might be more interested in performing analysis in a dataset more up to date.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>まっさらな新しいデータセットで異なる分析することで開始できますが、より最新のデータセットの分析を行うことにより興味があるのではないでしょうか。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The topic of the next lesson will be the creation of forest stands using current aerial photos and the addition of some relevant information to your dataset.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次のレッスンのトピックは、現在の航空写真やデータセットにいくつかの関連情報の追加を使用した林分の作成になります。</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

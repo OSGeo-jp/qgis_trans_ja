@@ -1,0 +1,351 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|LS| Supplementary Exercise</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|LS| 補足の実習</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In this lesson, you will be guided through a complete GIS analysis in QGIS.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このレッスンでは、QGISでの完全なGIS解析を通して案内します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Problem Statement</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>問題の状態</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Solution Outline</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ソリューションの概要</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click :guilabel:`OK`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`OK` をクリックします</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Loading Data into the Map</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>地図へデータを読み込む</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In order to process the data, you will need to load the necessary layers (street names, zones, rainfall, DEM) into the map canvas.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>データを処理するために、地図キャンバスに必要なレイヤー（通りの名前、ゾーン、降雨、DEM）をロードする必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click :guilabel:`Open`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`開く` をクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Changing the layer order</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>レイヤー順序を変更する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Find the Correct Districts</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>正しい地区の検索</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click :guilabel:`OK`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`OK` をクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Clip the Rasters</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ラスターのクリップ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now that you have an area of interest, you can clip the rasters to this area.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>今、興味の領域を持っている、このエリアへのラスターをクリップできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In order to properly see what's going on, the symbology for the layers needs to be changed.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>何が起こっているのかを適切に確認するために、レイヤーのためのシンボルを変更する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Changing the symbology of vector layers</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ベクターレイヤーのシンボル体系を変更する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click :guilabel:`OK` again in the :guilabel:`Layer Properties` dialog.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`レイヤープロパティ` ダイアログの :guilabel:`OK` をもう一度クリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This will change the color of the :guilabel:`Streets` layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは :guilabel:`街路` レイヤーの色を変更します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Changing the symbology of raster layers</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ラスターレイヤーのシンボル体系を変更する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Raster layer symbology is somewhat different.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ラスターレイヤーシンボル体系はいくらか違います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Clean up the map</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>地図をクリーンアップします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Right-click on these layers and select :guilabel:`Remove`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これらのレイヤー上で右クリックし、 :guilabel:`削除` を選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This will not remove the data from your storage device, it will merely take it out of your map.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは、記憶装置からデータを削除しません。地図から外すだけです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can now hide the vector layers by unchecking the box next to them in the :guilabel:`Layers` panel.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>今 :guilabel:`レイヤー` パネル中のベクターレイヤーを、横にあるボックスをオフにして非表示できます 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This will make the map render faster and will save you some time.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これにより、地図のレンダリングが速くなりますし、時間の節約になります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Create the hillshade</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>陰影図の作成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In order to create the hillshade, you will need to use an algorithm that was written for this purpose.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>陰影起伏を作成するには、この目的のために書かれたアルゴリズムを使用する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Wait for it to finish processing.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>処理が完了するのを待ちます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Slope</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>傾斜</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Reclassifying rasters</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ラスターを再分類する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Set the :guilabel:`Output layer` field to an appropriate location and file name.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>適切な場所とファイル名で :guilabel:`出力レイヤー` フィールドを設定してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click :guilabel:`Run`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`実行` をクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Combining rasters</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ラスターを組み合わせる</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Finding rural areas</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>農村地域を検索する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now you need to exclude the areas that are within ``250m`` from the edge of the rural areas.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ここで農村地域の端から ``250m`` 内にある領域を除外する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Do this by creating a negative buffer, as explained below.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは以下に説明するように、負のバッファを作成することによって行います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Creating a negative buffer</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>負のバッファを作成する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Close the :guilabel:`Buffer` dialog.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`バッファ` ダイアログを閉じます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Vectorizing the raster</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ラスターをベクター化する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Calculating the area for each polygon</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>各ポリゴンの面積を計算する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This ensures that each polygon has a unique ID for identification purposes.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは、各ポリゴンは識別目的のためのユニークなIDを持っていることを保証します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Selecting areas of a given size</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>与えられたサイズの面積を選択する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now that the areas are known:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>今この面積が知られています：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This is the final answer to the research question.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは、研究の質問への最終的な答えです。</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>
