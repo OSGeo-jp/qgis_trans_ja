@@ -8767,6 +8767,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>GRASS (Geographic Resources Analysis Support System) is a well-known open source GIS with a wide array of useful GIS functions.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T021822Z" creationid="miurahr" creationdate="20201118T021822Z">
+        <seg>GRASS (Geographic Resources Analysis Support System地理資源分析支援システム)は、幅広く便利なGIS機能を持つオープンソースGISとして知られています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>GUI to select credentials</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T003500Z" creationid="miurahr" creationdate="20201118T003500Z">
@@ -12099,6 +12107,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222128Z" creationid="miurahr" creationdate="20201117T222128Z">
         <seg>それは学生のためにも、関係する教育スタッフのためにも非常に豊かな経験でした。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It was first released in 1984, and has seen much improvement and additional functionality since then.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T021824Z" creationid="miurahr" creationdate="20201118T021824Z">
+        <seg>1984に初めてリリースされ、それ以来、多くの改善や追加機能が見られました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15763,6 +15779,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>NIRDジャイプールセンターでのQGISトレーニング</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>QGIS allows you to make use of GRASS' powerful GIS tools directly.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T021825Z" creationid="miurahr" creationdate="20201118T021825Z">
+        <seg>QGISでは、パワフルなGISツールとしてGRASSを直接利用できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23691,6 +23715,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T225111Z" creationid="miurahr" creationdate="20201117T225111Z">
         <seg>私たちは、QGISとGRASSの組み合わせは、私たちのプロジェクトのために可能なデータ解析と可視化、使いやすさ、相互運用性、および可搬性を提供することを見出しました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>We have provided training datasets for this purpose.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T021731Z" creationid="miurahr" creationdate="20201118T021731Z">
+        <seg>私たちは、この目的のためにトレーニングデータセットを提供しています。</seg>
       </tuv>
     </tu>
     <tu>
