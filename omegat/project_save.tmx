@@ -6897,8 +6897,8 @@
       <tuv lang="en-US">
         <seg>Before you can do this, you need to first have a git client installed on your system.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201118T223923Z" creationid="miurahr" creationdate="20201118T223923Z">
-        <seg>これを行う前に、まずシステムにgitクライアントをインストールする必要があります。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T231912Z" creationid="miurahr" creationdate="20201118T223923Z">
+        <seg>まず最初に、利用するシステムにgitクライアントをインストールする必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10321,8 +10321,8 @@
       <tuv lang="en-US">
         <seg>Debian based distro users can do:</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201117T114150Z" creationid="miurahr" creationdate="20201117T114150Z">
-        <seg>Debianベースのdistroユーザは次のことができます。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T232020Z" creationid="miurahr" creationdate="20201117T114150Z">
+        <seg>Debianベースのディストリビューションユーザーは次のようにして導入できます：</seg>
       </tuv>
     </tu>
     <tu>
@@ -10847,6 +10847,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Don't be offended or alarmed.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T231536Z" creationid="miurahr" creationdate="20201118T231536Z">
+        <seg>気分を害したり、不安になったりしないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Don't forget to do the accompanying update to the geometry columns table!</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T103228Z" creationid="miurahr" creationdate="20201118T103228Z">
@@ -11057,8 +11065,8 @@
       <tuv lang="en-US">
         <seg>Due Diligence</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201118T215723Z" creationid="miurahr" creationdate="20201118T215723Z">
-        <seg>適当な注意</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T231746Z" creationid="miurahr" creationdate="20201118T215723Z">
+        <seg>デュー・デリジェンス</seg>
       </tuv>
     </tu>
     <tu>
@@ -15727,6 +15735,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If the bug is an enhancement or new feature, it's usually a good idea to create a `ticket in GitHub &lt;https://github.com/qgis/QGIS/issues&gt;`_ first and then attach your patch.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T231459Z" creationid="miurahr" creationdate="20201118T231459Z">
+        <seg>バグが機能拡張または新機能である場合は、最初にGitHub&lt;https://github.com/qgis/QGIS/issues&gt;`_に`チケットを作成してからパッチを適用することをお勧めします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If the code has a wrong python syntax or the ``crs.isValid()`` returns ``False``, this code snippet will fail during testing.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T221838Z" creationid="miurahr" creationdate="20201118T221838Z">
@@ -15803,6 +15819,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T215437Z" creationid="miurahr" creationdate="20201118T215437Z">
         <seg>新機能はQGISアーキテクチャへの変更を必要とする場合は、コメント要求（RFC）が必要とされます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If the patch is a fix for a specific bug, please name the file with the bug number in it e.g. bug777fix.patch, and attach it to the `original bug report in GitHub &lt;https://github.com/qgis/QGIS/issues&gt;`_.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T231439Z" creationid="miurahr" creationdate="20201118T231439Z">
+        <seg>パッチが特定のバグの修正である場合は、ファイルにバグ番号を含めた名前(例:bug777fix.patch)を付けて、`GitHubの元のバグレポート &lt;https://github.com/qgis/QGIS/issues&gt;`_に添付してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16259,6 +16283,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>:kbd:`id` を手動で設定すると、データベースの整合性に深刻な問題を引き起こす可能性があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If you don't get any response, you can escalate your query to one of the Project Steering Committee members (contact details also available in the Technical Resources).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T231730Z" creationid="miurahr" creationdate="20201118T231730Z">
+        <seg>応答がない場合は、プロジェクト運営委員会メンバーへ質問をエスカレーションできます(技術リソースに、詳細連絡先があります)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27313,6 +27345,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>QGIS developers are busy folk.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T231507Z" creationid="miurahr" creationdate="20201118T231507Z">
+        <seg>QGIS開発者は忙しい人々です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>QGIS documentation sources</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T215408Z" creationid="miurahr" creationdate="20201118T215408Z">
@@ -29179,8 +29219,8 @@ Generated-By: Babel 2.8.0</seg>
       <tuv lang="en-US">
         <seg>See the following sites for information on becoming a GIT master.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201118T215414Z" creationid="miurahr" creationdate="20201118T215414Z">
-        <seg>GITのマスターになることについては、以下のサイトを参照してください。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T232332Z" creationid="miurahr" creationdate="20201118T215414Z">
+        <seg>GITをマスターするには、以下のサイトを参照してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -38227,8 +38267,8 @@ Generated-By: Babel 2.8.0</seg>
       <tuv lang="en-US">
         <seg>This section describes how to get started using the QGIS GIT repository.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201118T223923Z" creationid="miurahr" creationdate="20201118T223923Z">
-        <seg>このセクションでは、QGIS GITリポジトリの使い方について説明します。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T231922Z" creationid="miurahr" creationdate="20201118T223923Z">
+        <seg>このセクションでは、QGISの GITリポジトリの使い方について説明します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -40201,6 +40241,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Try to identify a developer to help you and contact them asking them if they can look at your patch.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T231635Z" creationid="miurahr" creationdate="20201118T231635Z">
+        <seg>関係する開発者を特定し、パッチを見られるか、尋ねてみてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Try to identify the four elements listed above on your own screen, without referring to the diagram above.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T033152Z" creationid="miurahr" creationdate="20201118T033152Z">
@@ -42049,6 +42097,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>We do scan the incoming patches on bug reports but sometimes we miss things.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T231524Z" creationid="miurahr" creationdate="20201118T231524Z">
+        <seg>私たちはバグレポートに入ってくるパッチをスキャンしていますが、時には見落とすかもしれません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>We have already briefly looked at how to add tables from a database as QGIS layers, now lets look at this in a bit more detail and look at the different ways this can be done in QGIS.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150411Z" creationid="miurahr" creationdate="20201117T150411Z">
@@ -43779,8 +43835,8 @@ Generated-By: Babel 2.8.0</seg>
       <tuv lang="en-US">
         <seg>Windows users can obtain `msys git &lt;https://gitforwindows.org/&gt;`_ or use git distributed with `cygwin &lt;https://cygwin.com&gt;`_.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201117T114210Z" creationid="miurahr" creationdate="20201117T114210Z">
-        <seg>Windowsユーザは、`msys git&lt;https://gitforwindows.org/&gt;`_を入手するか、`cygwin&lt;https://cygwin.com&gt;`_で配布されているgitを使用できます。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T232044Z" creationid="miurahr" creationdate="20201117T114210Z">
+        <seg>Windowsユーザは、`msys git&lt;https://gitforwindows.org/&gt;`_や、`cygwin&lt;https://cygwin.com&gt;`_で配布されているgitを使用できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -44507,16 +44563,16 @@ Generated-By: Babel 2.8.0</seg>
       <tuv lang="en-US">
         <seg>You can also take a look at the readme included with the documentation repo for more information.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201118T215410Z" creationid="miurahr" creationdate="20201118T215410Z">
-        <seg>詳細についてはドキュメントレポに付属のREADMEを見てみることもできます。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T232142Z" creationid="miurahr" creationdate="20201118T215410Z">
+        <seg>詳細についてはドキュメントのリポジトリへ付属しているREADMEを確認してください。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>You can also take a look at the readme included with the website repo for more information.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201118T215412Z" creationid="miurahr" creationdate="20201118T215412Z">
-        <seg>また、より多くの情報のためのウェブサイトのレポに含まれているREADMEを見てみることができます。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T232236Z" creationid="miurahr" creationdate="20201118T215412Z">
+        <seg>またウェブサイトのリポジトリに含まれているREADMEを確認して、詳細情報を確認できます。</seg>
       </tuv>
     </tu>
     <tu>
