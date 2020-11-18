@@ -20343,6 +20343,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Layers to display</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T214258Z" creationid="miurahr" creationdate="20201118T214258Z">
+        <seg>表示するレイヤ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Layers' style</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T214251Z" creationid="miurahr" creationdate="20201118T214251Z">
+        <seg>レイヤスタイル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Learn how to create and edit vector and attribute data.</seg>
       </tuv>
       <tuv lang="ja">
@@ -21511,6 +21527,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Map extent</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T214245Z" creationid="miurahr" creationdate="20201118T214245Z">
+        <seg>地図の領域</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Map layers are stored as files on a disk or as records in a database.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T134354Z" creationid="miurahr" creationdate="20201117T134354Z">
@@ -22179,6 +22203,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>詳細な地図投影の名前</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Name of the request (**GetMap**)</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T214306Z" creationid="miurahr" creationdate="20201118T214306Z">
+        <seg>リクエストの名前(**GetMap**)</seg>
       </tuv>
     </tu>
     <tu>
@@ -27183,6 +27215,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Retrieves data (geometry and values) for a pixel location</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T214135Z" creationid="miurahr" creationdate="20201118T214135Z">
+        <seg>ピクセル位置のデータ(ジオメトリと値)を取得する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Retrieving information about attributes</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T031405Z" creationid="miurahr" creationdate="20201118T031405Z">
@@ -27215,10 +27255,34 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Returns a QGIS composition</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T214217Z" creationid="miurahr" creationdate="20201118T214217Z">
+        <seg>QGISコンポジションを返します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Returns a map</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T214105Z" creationid="miurahr" creationdate="20201118T214105Z">
         <seg>地図を返す</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Returns legend symbols</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T214146Z" creationid="miurahr" creationdate="20201118T214146Z">
+        <seg>凡例のシンボルを返します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Returns specific information about QGIS Server</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T214239Z" creationid="miurahr" creationdate="20201118T214239Z">
+        <seg>QGISサーバーに関する特定の情報を返します</seg>
       </tuv>
     </tu>
     <tu>
@@ -39655,6 +39719,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Vendor requests provided by QGIS Server:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T214208Z" creationid="miurahr" creationdate="20201118T214208Z">
+        <seg>QGISサーバーによって提供されるQGISサーバーベンダリクエスト:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Verification of the viability of capture, processing, storage, analysis, recovery and updating of spatial data using a FOSS QGIS.</seg>
       </tuv>
       <tuv lang="ja">
@@ -39683,6 +39755,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>Version 1.3, 3 November 2008</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Version of the service</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T214323Z" creationid="miurahr" creationdate="20201118T214323Z">
+        <seg>サービスのバージョン</seg>
       </tuv>
     </tu>
     <tu>
