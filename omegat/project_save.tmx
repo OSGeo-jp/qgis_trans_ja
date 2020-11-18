@@ -694,6 +694,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>**The goal for this lesson:** To use a WFS and understand how it differs from a WMS.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054234Z" creationid="miurahr" creationdate="20201118T054234Z">
+        <seg>**このレッスンの目標:** WFSを使用してWMSとの違いを理解します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>**The goal for this lesson:** To use a WMS and understand its limitations.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054420Z" creationid="miurahr" creationdate="20201118T054420Z">
+        <seg>**このレッスンの目標:** WMSを使用して制限を知ること。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>**The goal for this lesson:** To use the vectorized terrain results to select suitable plots.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T220958Z" creationid="miurahr" creationdate="20201117T220958Z">
@@ -2606,6 +2622,30 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>A WMS is different in that it's a live service that will automatically refresh its view if you pan or zoom on the map.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054419Z" creationid="miurahr" creationdate="20201118T054419Z">
+        <seg>WMSは、地図上でパンやズームインすると自動的にそのビューを更新するライブサービスであるところが異なっています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>A Web Feature Service (WFS) provides its users with GIS data in formats that can be loaded directly in QGIS.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054231Z" creationid="miurahr" creationdate="20201118T054231Z">
+        <seg>Web Feature Service (WFS)はQGISで直接読み込める形式のGISデータをユーザーに提供します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>A Web Mapping Service (WMS) is a service hosted on a remote server.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054411Z" creationid="miurahr" creationdate="20201118T054411Z">
+        <seg>Web Mapping Service (WMS) は、リモートサーバ上でホストされたサービスです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>A bar scale shows measured distances on the map.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135733Z" creationid="miurahr" creationdate="20201117T135733Z">
@@ -2898,6 +2938,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124011Z" creationid="miurahr" creationdate="20201117T124011Z">
         <seg>適切にジオリファレンスされたレイヤーは、地球についてのGISアプリケーションの内部モデルに基づいて、地図ビュー内の正しい位置に表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>A list of the available layers will appear:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054257Z" creationid="miurahr" creationdate="20201118T054257Z">
+        <seg>利用可能なレイヤーのリストが表示されます:</seg>
       </tuv>
     </tu>
     <tu>
@@ -3566,6 +3614,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Add labels to your layer to take advantage of the attribute data in this layer.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054317Z" creationid="miurahr" creationdate="20201118T054317Z">
+        <seg>このレイヤーの属性データを活用するためにレイヤーにラベルを追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Add links to any documentation pages that you are changing.</seg>
       </tuv>
       <tuv lang="ja">
@@ -4203,6 +4259,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T033508Z" creationid="miurahr" creationdate="20201118T033508Z">
         <seg>あるいは、ウインドウにズームするために、ズーム・ツールを使用してください：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Although it is of possible to query a WFS layer after having loaded it, it's often more efficient to query it before you load it.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054330Z" creationid="miurahr" creationdate="20201118T054330Z">
+        <seg>WFSレイヤーをロードした後に問い合わせをすることは可能ですが、ロードする前に問い合わせをする方が多くの場合に効率的です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5003,6 +5067,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T034308Z" creationid="miurahr" creationdate="20201118T034308Z">
         <seg>課題</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Assignment 1</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054120Z" creationid="miurahr" creationdate="20201118T054120Z">
+        <seg>課題１</seg>
       </tuv>
     </tu>
     <tu>
@@ -5815,6 +5887,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>But using a WMS, those vector layers are on the WMS server, which renders it as a map and sends that map to you as an image.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075316Z" creationid="miurahr" creationdate="20201118T075316Z">
+        <seg>しかし、WMSを使用して、それらのベクターレイヤーは地図としてそれをレンダリングした画像と、その地図を送信WMSサーバー、上にあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>But you are only interested on those points that are actually inside your forest area (see the images below):</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T035506Z" creationid="miurahr" creationdate="20201118T035506Z">
@@ -5883,6 +5963,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135954Z" creationid="miurahr" creationdate="20201117T135954Z">
         <seg>FOSS（自由でオープンソースのソフトウェア）を学び、使って、共有すれば、食物と住居、そして住んでいる場所の経済を発展させながら、自分自身のスキルを身につけるようになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>By now you may have noticed that this WMS layer actually has many features in it.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075310Z" creationid="miurahr" creationdate="20201118T075310Z">
+        <seg>今までに、このWMSレイヤーはその中に実際に多くの地物を持っていることに気づいたかもしれません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6423,6 +6511,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Choose :guilabel:`WGS 84 / Pseudo Mercator` from the list.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075304Z" creationid="miurahr" creationdate="20201118T075304Z">
+        <seg>リストから :guilabel:`WGS 84 / 疑似メルカトル` を選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Choose a good color to fill the water polygons.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T015808Z" creationid="miurahr" creationdate="20201118T015808Z">
@@ -6607,10 +6703,34 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Click :guilabel:`Add` with the :guilabel:`countries` layer selected as above.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054350Z" creationid="miurahr" creationdate="20201118T054350Z">
+        <seg>上のように :guilabel:`countries` レイヤーを選択した状態で :guilabel:`追加` をクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Click :guilabel:`Add`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054302Z" creationid="miurahr" creationdate="20201118T054302Z">
+        <seg>:guilabel:`追加` をクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Click :guilabel:`Apply`.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T035205Z" creationid="miurahr" creationdate="20201118T035205Z">
         <seg>:guilabel:`適用` をクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Click :guilabel:`Connect`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T074956Z" creationid="miurahr" creationdate="20201118T074956Z">
+        <seg>:guilabel:`接続` をクリック。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6699,6 +6819,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T035405Z" creationid="miurahr" creationdate="20201118T035405Z">
         <seg>:guilabel:`OK` を2回クリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Click :guilabel:`OK`, and the new connection will appear in your :guilabel:`Server connections`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054254Z" creationid="miurahr" creationdate="20201118T054254Z">
+        <seg>:guilabel:`OK` をクリックすると新しい接続が :guilabel:`サーバーコネクション` に表示されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6919,6 +7047,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Click on the layer to select it:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054300Z" creationid="miurahr" creationdate="20201118T054300Z">
+        <seg>レイヤーをクリックして選択します:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Click on the menu item :menuselection:`File --&gt; Document Properties`.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T033712Z" creationid="miurahr" creationdate="20201118T033712Z">
@@ -6951,6 +7087,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Click once on the :guilabel:`OSM-WMS` layer.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075001Z" creationid="miurahr" creationdate="20201118T075001Z">
+        <seg>:guilabel:`OSM-WMS` レイヤーを一度クリックしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Click outside the polygon.</seg>
       </tuv>
       <tuv lang="ja">
@@ -6975,6 +7119,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Click the :guilabel:`Connect`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054255Z" creationid="miurahr" creationdate="20201118T054255Z">
+        <seg>:guilabel:`接続` をクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Click the :guilabel:`Create pull request` button.</seg>
       </tuv>
       <tuv lang="ja">
@@ -6995,6 +7147,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>[DBマネージャ]ダイアログボックスのツールバー上の :guilabel:`レイヤー/ファイルを読み込み` ボタンをクリックしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Click the :guilabel:`New` button.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054250Z" creationid="miurahr" creationdate="20201118T054250Z">
+        <seg>:guilabel:`新規` ボタンをクリックします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8303,6 +8463,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Differences from WMS layers</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054318Z" creationid="miurahr" creationdate="20201118T054318Z">
+        <seg>WMSレイヤーとの差</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Different open access geospatial software programs were evaluated for our needs.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222439Z" creationid="miurahr" creationdate="20201117T222439Z">
@@ -8611,6 +8779,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>ここに記載されているテーブル/レイヤーのいずれかをダブルクリックすると、それが地図キャンバスに追加されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Double-click next to the :guilabel:`countries ...` layer in the :guilabel:`Filter` field, or click :guilabel:`Build query`:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054346Z" creationid="miurahr" creationdate="20201118T054346Z">
+        <seg>:guilabel:`Filter` フィールドの :guilabel:`countries ...` レイヤーの隣をダブルクリックするか :guilabel:`クエリ作成` をクリックします:</seg>
       </tuv>
     </tu>
     <tu>
@@ -9043,6 +9219,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>もう一度80個のアスタリスクの行を書いてこれを終えます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Ensure that "on the fly" re-projection is switched off.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054242Z" creationid="miurahr" creationdate="20201118T054242Z">
+        <seg>「その場で」再投影がオフになっていることを確認して下さい。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9759,6 +9943,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Find the layer :guilabel:`south_poles_wfs`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054259Z" creationid="miurahr" creationdate="20201118T054259Z">
+        <seg>:guilabel:`south_poles_wfs` レイヤーを見つけます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Finding rural areas</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T034204Z" creationid="miurahr" creationdate="20201118T034204Z">
@@ -9843,6 +10035,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>まず、ツリー内の名前をクリックして :guilabel:`情報` タブの中を見ることで、テーブルのメタデータを見てみることは有用です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>First, let's add another WMS layer from the :guilabel:`terrestris` WMS server.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075354Z" creationid="miurahr" creationdate="20201118T075354Z">
+        <seg>まずは、 :guilabel:`terrestris` WMSサーバーから別のWMSレイヤーを追加してみましょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10287,6 +10487,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>For example, on the WFS server we're currently using, there is a layer called :guilabel:`countries (excluding Antarctica)`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054333Z" creationid="miurahr" creationdate="20201118T054333Z">
+        <seg>たとえば、現在使用しているWFSサーバーに :guilabel:`countries (excluding Antarctica)` というレイヤーがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>For example, one very accurate way to inventory a forest (if you consider only tree species) would be to visit the forest and make a list of every tree and their characteristics.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T035441Z" creationid="miurahr" creationdate="20201118T035441Z">
@@ -10631,6 +10839,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>For this example, we used a new map and loaded the original :guilabel:`places`, :guilabel:`landuse` and :guilabel:`protected_areas` layers and adjusted the symbology:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054425Z" creationid="miurahr" creationdate="20201118T054425Z">
+        <seg>この例では、新しい地図を使用して、元の :guilabel:`places` 、 :guilabel:`landuse` および :guilabel:`protected_areas` レイヤをロードし、シンボルを調整しました：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>For this exercise you will use a previously scanned map, you can find it as :kbd:`rautjarvi_map.tif` in the data folder :kbd:`exercise_data/forestry`</seg>
       </tuv>
       <tuv lang="ja">
@@ -10643,6 +10859,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T035354Z" creationid="miurahr" creationdate="20201118T035354Z">
         <seg>この演習では、1994年目録（地図と同じ目録）からの情報は、カンマ区切りテキスト（CSV）ファイルとして準備ができています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For this exercise, you can either use the basic map you made at the start of the course, or just start a new map and load some existing layers into it.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054423Z" creationid="miurahr" creationdate="20201118T054423Z">
+        <seg>この演習では、コースの開始時に作られた基本地図を使用するか、または単に新しい地図を開始し、その中にいくつかの既存のレイヤを読み込むことができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10739,6 +10963,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>ここから編集のセッションを開始して直接新しいデータベースにデータを追加することができます.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>From the lesson on plugins, you will remember that it's possible to load a new raster image from Google, for example.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054416Z" creationid="miurahr" creationdate="20201118T054416Z">
+        <seg>プラグインのレッスンから、例えばGoogleから新しいラスター画像をロードできることを記憶しているでしょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11359,6 +11591,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Happy customizing!</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054131Z" creationid="miurahr" creationdate="20201118T054131Z">
+        <seg>ハッピーカスタマイズ！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Have them symbolise their layers so that they are more meaningful to look at.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124029Z" creationid="miurahr" creationdate="20201117T124029Z">
@@ -11671,6 +11911,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Here it is over the outlines of Antarctica (available on the same server, and by the name of :guilabel:`antarctica_country_border`):</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054307Z" creationid="miurahr" creationdate="20201118T054307Z">
+        <seg>南極大陸の輪郭の上に表示するとこうなります(同じサーバーで :guilabel:`antarctica_country_border` の名前で利用可能です):</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Here we can see mountains in the Eastern Cape.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135203Z" creationid="miurahr" creationdate="20201117T135203Z">
@@ -11787,6 +12035,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>GISのデジタルデータはどのようにして保存されていますか</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>How is this different from having a WMS layer?</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054309Z" creationid="miurahr" creationdate="20201118T054309Z">
+        <seg>WMSレイヤーとはどのように違うのですか?</seg>
       </tuv>
     </tu>
     <tu>
@@ -11919,6 +12175,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>However, this is a once-off transaction: once you have downloaded the image, it doesn't change.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054417Z" creationid="miurahr" creationdate="20201118T054417Z">
+        <seg>しかし、これは一度きりのトランザクションです：画像はダウンロードしたら変更されません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>However, to properly understand GIS it is always better to learn it using a computer.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135458Z" creationid="miurahr" creationdate="20201117T135458Z">
@@ -11995,6 +12259,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141622Z" creationid="miurahr" creationdate="20201117T141622Z">
         <seg>この名前には、レッスン名と連番が入っているのが理想です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If I saw this map on the Internet, or on a poster, or in a magazine, would it capture my attention?</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054125Z" creationid="miurahr" creationdate="20201118T054125Z">
+        <seg>この地図をインターネットで、またはポスターで、または雑誌で見た場合、注意を惹かれるでしょうか？</seg>
       </tuv>
     </tu>
     <tu>
@@ -12351,6 +12623,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If this course is being presented to you, the course presenter may require you to submit a final version of your map, exported to PDF, for evaluation.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054128Z" creationid="miurahr" creationdate="20201118T054128Z">
+        <seg>このコースは、あなたに提示されている場合は、コースのプレゼンターが評価のために地図の最終版を、PDFにエクスポートして、提出するよう求めるかもしれません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If used too much, it can seem to the reader that you are shouting or being condescending.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141627Z" creationid="miurahr" creationdate="20201117T141627Z">
@@ -12687,6 +12967,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If you have noticed small errors or things you'd have liked to fix earlier, do so now.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054123Z" creationid="miurahr" creationdate="20201118T054123Z">
+        <seg>あなたが以前に修正したかったと思う小さな誤りや物事に気づいた場合は、ここでやります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If you have poor quality vector data, you can often detect this when viewing the data in a GIS.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141113Z" creationid="miurahr" creationdate="20201117T141113Z">
@@ -12839,6 +13127,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If you see something you'd like to do in your map, why not try to implement it?</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054127Z" creationid="miurahr" creationdate="20201118T054127Z">
+        <seg>自分の地図で行いたいものがあったら、実装しようと試みてみてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If you take a colour photograph with a digital camera or camera on a cellphone, the camera uses electronic sensors to detect red, green and blue light.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140319Z" creationid="miurahr" creationdate="20201117T140319Z">
@@ -12987,6 +13283,22 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T020712Z" creationid="miurahr" creationdate="20201118T020712Z">
         <seg>|majorUrbanName| 領域にズームインした場合、このデータセットは低解像度を持っていることに気づくでしょう：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If you're doing this course at a |basic| Basic or |moderate| Intermediate level, read up on techniques from the more advanced sections.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054126Z" creationid="miurahr" creationdate="20201118T054126Z">
+        <seg>このコースを |basic| 基本または |moderate| 中級レベルでやっている場合、より高度なセクションからのテクニックをよく読んでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If you're doing this course by yourself, it's recommended that you evaluate your own map using the same criteria.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054128Z" creationid="miurahr" creationdate="20201118T054128Z">
+        <seg>自分でこのコースをやっている場合、同じ基準を使用して、ご自身の地図を評価することをお勧めします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13831,6 +14143,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In the :guilabel:`Add WFS Layer ...` dialog, connect to the server we used before and you should see the list of available layers.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054344Z" creationid="miurahr" creationdate="20201118T054344Z">
+        <seg>:guilabel:`WFSレイヤーの追加` ダイアログで前に使用したサーバーに接続して、利用可能なレイヤーリストを表示させます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In the :guilabel:`Area` definitions select :guilabel:`Input Boundary Layer`.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T035457Z" creationid="miurahr" creationdate="20201118T035457Z">
@@ -14031,6 +14351,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In the dialog that appears, build the query :kbd:`"Countryeng" = 'South Africa'`:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054347Z" creationid="miurahr" creationdate="20201118T054347Z">
+        <seg>表示されるダイアログでクエリ :kbd:`"Countryeng" = 'South Africa'` を作成します:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In the dialog that appears, create a new dialog:</seg>
       </tuv>
       <tuv lang="ja">
@@ -14111,6 +14439,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In the list below, you should now see these new entries loaded:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T074958Z" creationid="miurahr" creationdate="20201118T074958Z">
+        <seg>以下のリストに、今これらの新しいエントリがロードされるはずです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In the list, check :guilabel:`Controlled by atlas`.</seg>
       </tuv>
       <tuv lang="ja">
@@ -14139,6 +14475,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T224902Z" creationid="miurahr" creationdate="20201117T224902Z">
         <seg>Mund教授の指導の下、「天然資源管理にGIS適用」モジュールでは、生徒はすぐに特に変化する環境への種の適応性に関して以内に、被験者の複雑さを発見しました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In the next four modules, you'll learn how to use QGIS for a complete GIS analysis.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054132Z" creationid="miurahr" creationdate="20201118T054132Z">
+        <seg>次の4つのモジュールでは、完全なGIS分析にQGISを使用する方法を学びます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14427,6 +14771,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T035435Z" creationid="miurahr" creationdate="20201118T035435Z">
         <seg>このレッスンでは、体系的なサンプリングプロットの設計に基づいた理論的な目録を実装します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In this module, we'll cover two kinds of web-based GIS services: Web Mapping Services (WMS) and Web Feature Services (WFS).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054227Z" creationid="miurahr" creationdate="20201118T054227Z">
+        <seg>このモジュールでは、２種類のWebベースのGISサービスについて学習します: Web Mapping Services (WMS) と Web Feature Services (WFS)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14863,6 +15215,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Is this map easy to read and understand for someone who's unfamiliar with the data?</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054124Z" creationid="miurahr" creationdate="20201118T054124Z">
+        <seg>この地図は、データに不慣れな人でも読みやすく理解しやすいでしょうか？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>It acts as a joint repository for a wide range of algorithms, some native to QGIS and others imported from external applications, such as GRASS GIS or the Orfeo Toolbox.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T221950Z" creationid="miurahr" creationdate="20201117T221950Z">
@@ -14955,6 +15315,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222106Z" creationid="miurahr" creationdate="20201117T222106Z">
         <seg>これは、日常業務において当社の研究者のために新たな機会を提供してきました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It has streets, rivers, nature reserves, and so on.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075311Z" creationid="miurahr" creationdate="20201118T075311Z">
+        <seg>それは道路、河川、自然保護区、などなど。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15119,6 +15487,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>It is rare to find a WFS hosting features you need, if your needs are very specific.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054356Z" creationid="miurahr" creationdate="20201118T054356Z">
+        <seg>ニーズが非常に具体的である場合、必要とするWFSサーバーが見つかることは稀です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>It is requested, but not required, that you contact the authors of the Document well before redistributing any large number of copies, to give them a chance to provide you with an updated version of the Document.</seg>
       </tuv>
       <tuv lang="ja">
@@ -15143,10 +15519,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>It is therefore not very cost-effective to host a WFS rather than a WMS, which sends only images.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054359Z" creationid="miurahr" creationdate="20201118T054359Z">
+        <seg>それゆえに画像だけを送信するWMSではなくWFSをホストすることは費用対効果があまりよくありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>It is usually associated with an entry in the answer sheet at the end of the documentation, which will show or explain how to complete the assignment, and will show the expected outcome if possible.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141612Z" creationid="miurahr" creationdate="20201117T141612Z">
         <seg>これは通常表示または課題を完了するために、可能な場合に予想される結果を表示する方法を説明します、文書の最後に解答用紙のエントリに関連付けられています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It may take a while to load the layer.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054304Z" creationid="miurahr" creationdate="20201118T054304Z">
+        <seg>レイヤーの読み込みにしばらく時間がかかることがあります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15271,6 +15663,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>It will appear as the :guilabel:`Filter` value:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054349Z" creationid="miurahr" creationdate="20201118T054349Z">
+        <seg>:guilabel:`Filter` の値として表示されます:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>It will output one map for every feature in the layer.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T215713Z" creationid="miurahr" creationdate="20201117T215713Z">
@@ -15299,6 +15699,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140012Z" creationid="miurahr" creationdate="20201117T140012Z">
         <seg>各草地の周囲をそれぞれの単一のポリゴンで囲むのは簡単かもしれませんが、地物を単一のポリゴンに単純化する過程で草地に関する多くの情報が失われます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It's already worked out, and should be nice to look at on any competently designed WMS.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075330Z" creationid="miurahr" creationdate="20201118T075330Z">
+        <seg>すでにできあがっていますし、的確に設計されたWMS上で見栄え良くなるはずです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15863,6 +16271,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Let's enable the reprojection again, but using the same projection as the :guilabel:`OpenStreetMap WMS` layer, which is :guilabel:`WGS 84 / Pseudo Mercator`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075118Z" creationid="miurahr" creationdate="20201118T075118Z">
+        <seg>その投影を再度有効にしましょう。ただし :guilabel:`OpenStreetMap WMS` レイヤーと同じ投影を使用すること。それは :guilabel:`WGS 84/擬似メルカトル` です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Let's focus on the most common:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150208Z" creationid="miurahr" creationdate="20201117T150208Z">
@@ -15947,6 +16363,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>自分の家の番号順に並べられた人々のリストを検索してみましょう:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Let's say that we want to know where South Africa is relative to the :guilabel:`south_poles_wfs` layer (and perhaps also the :guilabel:`antarctica_country_border` layer) that's already been loaded.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054334Z" creationid="miurahr" creationdate="20201118T054334Z">
+        <seg>既に読み込まれている :guilabel:`south_poles_wfs` レイヤーに対する南アフリカ共和国の位置を知りたいとしましょう(そしておそらく :guilabel:`antarctica_country_border` レイヤーに対する位置も)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16123,6 +16547,22 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135845Z" creationid="miurahr" creationdate="20201117T135834Z">
         <seg>GISに地元の地域のいくつかのベクターレイヤーをロードします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Load the ESRI Shapefile format datasets :file:`protected_areas.shp`, :file:`places.shp`, :file:`rivers.shp` and :file:`water.shp` into the map canvas and adapt its properties to suit your own convenience.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054141Z" creationid="miurahr" creationdate="20201118T054141Z">
+        <seg>ESRI Shapefile形式のデータセット :file:`protected_areas.shp` 、 :file:`places.shp` 、 :file:`rivers.shp` および :file:`water.shp` を地図キャンバスにロードし、そのプロパティを自分の良いように修正します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Load these layers into a new map, or use your original map with only these layers visible.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054426Z" creationid="miurahr" creationdate="20201118T054426Z">
+        <seg>新しい地図にこれらのレイヤーを読み込みます。またはこれらのレイヤーを表示のみ行いオリジナルの地図を使用します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17383,6 +17823,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Next, you'll see how to use QGIS Server to provide OGC services.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054407Z" creationid="miurahr" creationdate="20201118T054407Z">
+        <seg>次は、QGISサーバーを使用してOGCサービスを提供する方法を説明します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>No</seg>
       </tuv>
       <tuv lang="ja">
@@ -17467,6 +17915,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>索引図は、詳細地図に示されている範囲の陰影付の枠を表示していることにも注意。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Note how the WMS layer's streets and our own streets overlap.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075307Z" creationid="miurahr" creationdate="20201118T075307Z">
+        <seg>WMSレイヤーの街路と私たち自身の通りがどれほど重なっているかに注目してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17587,6 +18043,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T024657Z" creationid="miurahr" creationdate="20201118T024657Z">
         <seg>注</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Notes on WFS availability</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054355Z" creationid="miurahr" creationdate="20201118T054355Z">
+        <seg>WFSの有用性に関するノート</seg>
       </tuv>
     </tu>
     <tu>
@@ -18255,6 +18719,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>On the other hand, you can't change the symbology if you don't like it, and if things change on the WMS server, then they'll change on your map as well.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075341Z" creationid="miurahr" creationdate="20201118T075341Z">
+        <seg>他方、気に入らなかったとしてもシンボルは変更できません。そして何かがWMSサーバー上で変更されると、それらは地図上でも同様に変更されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>On the right side you see the same area with the lake in the background but this map is designed to show tourists the location of houses they can rent for their holidays.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135713Z" creationid="miurahr" creationdate="20201117T135713Z">
@@ -18519,6 +18991,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>One of these is `terrestris &lt;https://ows.terrestris.de/osm/service&gt;`_, which makes use of the `OpenStreetMap &lt;https://wiki.openstreetmap.org/wiki/Main_Page&gt;`_ dataset.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T074938Z" creationid="miurahr" creationdate="20201118T074938Z">
+        <seg>これらの一つは `terrestris &lt;https://ows.terrestris.de/osm/service&gt;`_ 、です、 `OpenStreetMap &lt;https://wiki.openstreetmap.org/wiki/Main_Page&gt;`_ データセットを使用しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>One possible solution has this final product:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T020226Z" creationid="miurahr" creationdate="20201118T020226Z">
@@ -18547,6 +19027,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124833Z" creationid="miurahr" creationdate="20201117T124806Z">
         <seg>フロントカバーテキストとバックカバーテキストの1の唯一の通路はによって（またはによって行われた取り決めにより）いずれかのエンティティを添加してもよいです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Only the country with the :kbd:`Countryeng` value of :kbd:`South Africa` will load from that layer:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054352Z" creationid="miurahr" creationdate="20201118T054352Z">
+        <seg>:kbd:`Countryeng` の値が :kbd:`South Africa` の国だけがレイヤーから読み込まれます:</seg>
       </tuv>
     </tu>
     <tu>
@@ -18791,6 +19279,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Open the :guilabel:`south_poles_wfs` layer's attribute table.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054312Z" creationid="miurahr" creationdate="20201118T054312Z">
+        <seg>:guilabel:`south_poles_wfs` レイヤーの属性テーブルを開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Open the :kbd:`.csv` in QGIS with the :menuselection:`Layer --&gt; Add Delimited Text Layer...` tool.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T035358Z" creationid="miurahr" creationdate="20201118T035358Z">
@@ -18947,6 +19443,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T034957Z" creationid="miurahr" creationdate="20201118T034957Z">
         <seg>前のレッスンで保存された、 :kbd:`map_digitizing.qgs` プロジェクトを QGISで開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Open your existing map project and revise it thoroughly.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054122Z" creationid="miurahr" creationdate="20201118T054122Z">
+        <seg>あなたの既存の地図プロジェクトを開き、徹底的にそれを修正します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20055,6 +20559,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>QGIS can display this image, but can't change its symbology, because all that is handled on the server.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075317Z" creationid="miurahr" creationdate="20201118T075317Z">
+        <seg>QGISではこの画像を表示できますが、すべてのことはサーバー上で処理されるため、そのシンボルは変更できません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>QGIS classes that are generated from Qt Designer (ui) files should have a Base suffix.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T091644Z" creationid="miurahr" creationdate="20201117T091644Z">
@@ -20679,6 +21191,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Remember how you connected to a SpatiaLite or GeoPackage database at the beginning of the course.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T074927Z" creationid="miurahr" creationdate="20201118T074927Z">
+        <seg>コースの冒頭でSpatiaLiteまたはGeoPackageデータベースに接続した方法を思い出してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Remember that each of these lines shown above must have a blank line above and below it, otherwise it could cause errors while creating the document.</seg>
       </tuv>
       <tuv lang="ja">
@@ -20707,6 +21227,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150109Z" creationid="miurahr" creationdate="20201117T150109Z">
         <seg>2つのテーブルが主キー/外部キーのペアを介して結合していることに注意してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Remember that the emphasis for evaluating the appearance of maps will always be *ease of use*.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054130Z" creationid="miurahr" creationdate="20201118T054130Z">
+        <seg>地図の外観を評価するための重点は、常に *使いやすさ* になることを覚えておいてください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22055,6 +22583,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Similar to a website, you can access it as long as you have a connection to the server.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054413Z" creationid="miurahr" creationdate="20201118T054413Z">
+        <seg>ウェブサイトと同じ様に、サーバーへ接続することでアクセスができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Similarly if you want to change the shape of a feature, the application will only allow you to do it if the changed shape is correct.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140951Z" creationid="miurahr" creationdate="20201117T140951Z">
@@ -22099,6 +22635,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T024635Z" creationid="miurahr" creationdate="20201118T024635Z">
         <seg>QGISにPythonプラグインが導入されて以来、数多くのプラグインが登場しました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Since the points have attributes, we are able to label them, as well as change their symbology.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054316Z" creationid="miurahr" creationdate="20201118T054316Z">
+        <seg>ポイントは属性を持つのでシンボル体系を変更し、ラベルを付けることができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22603,6 +23147,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>レイヤーなしで新しい空の地図を開始</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Start a new map.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054238Z" creationid="miurahr" creationdate="20201118T054238Z">
+        <seg>新しい地図を開始します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23167,6 +23719,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>That way, you're only requesting the features you want, meaning that you use far less bandwidth.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054331Z" creationid="miurahr" creationdate="20201118T054331Z">
+        <seg>そのようにして必要な地物だけを要求すればはるかに少ない帯域幅の使用で済むことになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>That will become obvious when you see the layers' attributes.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054311Z" creationid="miurahr" creationdate="20201118T054311Z">
+        <seg>それはレイヤーの属性を見ると明らかになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>That would most likely be the way to go if the image you are going to digitize from is, for example, an aerial photograph.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T034959Z" creationid="miurahr" creationdate="20201118T034959Z">
@@ -23179,6 +23747,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T031222Z" creationid="miurahr" creationdate="20201118T031222Z">
         <seg>そうすれば、QGIS内でのより良い統合がなされ（これは、モデラーやバッチ処理インターフェイスといった、「プロセッシング」のコンポーネントの中で実行できるためです）、また開発時間の短縮も期待できます（「プロセッシング」が作業の大部分を肩代わりしてくれるからです）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>That's a good sign!</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075308Z" creationid="miurahr" creationdate="20201118T075308Z">
+        <seg>それは良い兆候です！</seg>
       </tuv>
     </tu>
     <tu>
@@ -23307,6 +23883,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T020413Z" creationid="miurahr" creationdate="20201118T020413Z">
         <seg>:guilabel:`cost` フィールドには2点間の移動時間が含まれています（時間の割合）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The :guilabel:`landuse`, :guilabel:`buildings`, and :guilabel:`roads` layers are stored in a database.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T074930Z" creationid="miurahr" creationdate="20201118T074930Z">
+        <seg>:guilabel:`landuse` 、 :guilabel:`buildings` 、および :guilabel:`roads` レイヤーは、１つのデータベース内に格納されています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23863,6 +24447,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The alternative is to build the query as a filter before even loading the layer from the server.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054342Z" creationid="miurahr" creationdate="20201118T054342Z">
+        <seg>サーバーからレイヤーを読み込む前にフィルタとしてクエリを作成することもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The answer lies in the facts that QGIS is an OSGeo incubated project, less complex, its development is very fast and associated with huge community of users and developers and lastly authors expertise.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T225533Z" creationid="miurahr" creationdate="20201117T225533Z">
@@ -24407,6 +24999,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The first four modules have taught you how to create and style a vector map.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054132Z" creationid="miurahr" creationdate="20201118T054132Z">
+        <seg>最初の4つのモジュールでは、ベクター地図を作成し、スタイルを付ける方法を教えてきました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The first image shows the buffer with the :guilabel:`Segments to approximate` value set to :guilabel:`5` and the second shows the value set to :guilabel:`20`.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T020356Z" creationid="miurahr" creationdate="20201118T020356Z">
@@ -24759,6 +25359,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The layout should have a margin of 7.5 mm and the header should be 36mm high.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054146Z" creationid="miurahr" creationdate="20201118T054146Z">
+        <seg>レイアウトのマージンは7.5 mmで、ヘッダの高さは36mmでなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The lines can be used as a reference.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135749Z" creationid="miurahr" creationdate="20201117T135749Z">
@@ -24935,10 +25543,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The most common type of WFS you'll encounter will therefore probably be on a local network or even on your own computer, rather than on the Internet.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054401Z" creationid="miurahr" creationdate="20201118T054401Z">
+        <seg>したがって、あなたが出合うであろうWFSの最も一般的なタイプはおそらくインターネット上ではなく、ローカルネットワーク上か自分のコンピュータ上にあるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The name is a little odd in that although we call it a shape file (singular), it actually consists of at least three different files that work together to store your digital vector data, as shown in table_shapefile_.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123424Z" creationid="miurahr" creationdate="20201117T123424Z">
         <seg>名前に少し奇妙なところがあります。シェープファイル（単数）と呼びますが、それは実際には table_shapefile_ に示すように、デジタルベクターデータを保存するために一緒に動作する最低３つの異なるファイルで構成されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The nature and limitations of WMS</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075309Z" creationid="miurahr" creationdate="20201118T075309Z">
+        <seg>WMSの性質と限界</seg>
       </tuv>
     </tu>
     <tu>
@@ -24987,6 +25611,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222027Z" creationid="miurahr" creationdate="20201117T222027Z">
         <seg>WOISの次のリリース（2015年4月の後半に起因する）は、すでにセンチネル-1ツールボックス洪水の監視や水ボディマッピングなどのために、この新しいレーダーデータセットを利用したワークフローの数々が組み込まれてます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The nicer the map is to look at and the easier it is to understand at a glance, the better.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054130Z" creationid="miurahr" creationdate="20201118T054130Z">
+        <seg>見た目が良いほど、一目で簡単に理解できるほど、良い地図です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25339,6 +25971,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T021000Z" creationid="miurahr" creationdate="20201118T021000Z">
         <seg>`people` テーブルは `streets` テーブルへの外部キー制約があるため、DROPコマンドは、このケースでは動作しない理由があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The reason why Web Feature Services are relatively rare is because of the large amounts of data that must be transmitted to describe a whole feature.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054358Z" creationid="miurahr" creationdate="20201118T054358Z">
+        <seg>WFSサービスが比較的まれである理由は地物全体を表現するには大量のデータを送信する必要があるからです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26063,6 +26703,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>There are online data sources which you can load data from as long as you are connected to the Internet.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054225Z" creationid="miurahr" creationdate="20201118T054225Z">
+        <seg>インターネットに接続されている限り、ロードできるオンラインのデータソースがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>There are several free WMS servers available on the Internet.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T074937Z" creationid="miurahr" creationdate="20201118T074937Z">
+        <seg>インターネット上で利用可能ないくつかの無料のWMSサーバがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>There are several methods to inventory forests, each of them suiting different purposes and conditions.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T035439Z" creationid="miurahr" creationdate="20201118T035439Z">
@@ -26107,6 +26763,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>セクションは2種類あります。「この通りに従ってください」と「自分でやってみよう」。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>There are two ways to do this.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054336Z" creationid="miurahr" creationdate="20201118T054336Z">
+        <seg>これを行うには2つの方法があります：</seg>
       </tuv>
     </tu>
     <tu>
@@ -26283,6 +26947,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T134304Z" creationid="miurahr" creationdate="20201117T134304Z">
         <seg>これらのアクションを通じてGISアプリケーションに何をするのか伝えることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>These are all the layers hosted by this WMS server.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075000Z" creationid="miurahr" creationdate="20201118T075000Z">
+        <seg>WMSサーバーにホストされたレイヤーがすべてあります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26799,6 +27471,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This has several advantages, because you don't need to worry about the symbology.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075327Z" creationid="miurahr" creationdate="20201118T075327Z">
+        <seg>これはいくつかの利点を有しています。なぜならシンボルを心配する必要はありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This helper class can be used as in the following snippet:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T003457Z" creationid="miurahr" creationdate="20201118T003457Z">
@@ -26843,6 +27523,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140345Z" creationid="miurahr" creationdate="20201117T140345Z">
         <seg>この情報は、地形に基づいて、分水界や流域ネットワークがどこに存在するかを計算するのに使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This is because "on the fly" projection is disabled.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075052Z" creationid="miurahr" creationdate="20201118T075052Z">
+        <seg>これは、「その場で」投影が無効になっているためです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26895,6 +27583,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This is for demo purposes and won't be saved.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054240Z" creationid="miurahr" creationdate="20201118T054240Z">
+        <seg>これはデモを目的としており保存されません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This is good stuff so far, but there's more to a layer's symbology than just its color.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T033424Z" creationid="miurahr" creationdate="20201118T033424Z">
@@ -26907,6 +27603,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T025013Z" creationid="miurahr" creationdate="20201118T025013Z">
         <seg> :file:`__init__.py` は次のようにならなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This is how a WMS works: it's a map, similar to a normal map on paper, that you receive as an image.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075314Z" creationid="miurahr" creationdate="20201118T075314Z">
+        <seg>これがWMSが動作する方法です：画像として受け取るものは、紙上の通常地図に類似した、地図です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27051,6 +27755,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T033140Z" creationid="miurahr" creationdate="20201118T033140Z">
         <seg>ここは、地図自体が表示され、レイヤがロードされる場所です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This is why you sometimes want to use a Web Feature Service (WFS) instead, which gives you vector layers separately, and not as part of a WMS-style map.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075345Z" creationid="miurahr" creationdate="20201118T075345Z">
+        <seg>だから、時々代わりにWeb地物サービス（WFS）を使用したくなります。これは別にベクターレイヤーを与え、そしてそれはWMSスタイルの地図の一部としてではありません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27479,6 +28191,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This will be covered in the next lesson, however.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075351Z" creationid="miurahr" creationdate="20201118T075351Z">
+        <seg>しかしこれは、次のレッスンで説明します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This will be necessary if you have inserted a new lesson among existing lessons, or after an existing lesson.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141625Z" creationid="miurahr" creationdate="20201117T141625Z">
@@ -27503,6 +28223,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This will display its :guilabel:`Coordinate Reference System`:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075003Z" creationid="miurahr" creationdate="20201118T075003Z">
+        <seg>これはその :guilabel:`参照座標系` を表示するでしょう：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This will give a result similar to:</seg>
       </tuv>
       <tuv lang="ja">
@@ -27523,6 +28251,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T092018Z" creationid="miurahr" creationdate="20201117T092018Z">
         <seg>これにより、プログラマが ``==`` を使用するつもりで誤って ``=`` を使用することを防げます、それは非常に微妙な論理的バグになる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This will include creating and editing vector data; analyzing vector data; using and analyzing raster data; and using GIS to solve a problem from start to finish, using both raster and vector data sources.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054133Z" creationid="miurahr" creationdate="20201118T054133Z">
+        <seg>内容は、ベクターデータを作成および編集する；ベクターデータを分析する；ラスターデータを使用および分析する；ラスターとベクターの両方のデータソースを使用して、GISを使用して最初から最後まで問題を解決する。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27887,6 +28623,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>To create a new connection to a WMS, click on the :guilabel:`New` button.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T074935Z" creationid="miurahr" creationdate="20201118T074935Z">
+        <seg>WMSへの新しい接続を作成するには、 :guilabel:`新規` ボタンをクリックしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>To create a plugin from scratch which contains an algorithm provider, you can follow these steps using the Plugin Builder:</seg>
       </tuv>
       <tuv lang="ja">
@@ -28215,6 +28959,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>To make use of this WMS, set it up in your current dialog, like this:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T074940Z" creationid="miurahr" creationdate="20201118T074940Z">
+        <seg>このWMSを利用するには、このように、今表示しているダイアログで設定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>To prepare the data for use in the final map product the following tools within QGIS were used to accomplish specific tasks:</seg>
       </tuv>
       <tuv lang="ja">
@@ -28371,6 +29123,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>文書内のライセンスのコピーを含め、書かれている文書で、このライセンスを使用すると、ちょうど題扉の後に、次の著作権およびライセンス通知を配置するには：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>To use those layers, you first needed to connect to the database.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T074933Z" creationid="miurahr" creationdate="20201118T074933Z">
+        <seg>これらのレイヤーを使用するには、まずそのデータベースに接続する必要がありました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -28879,6 +29639,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Unlike a WMS, which provides you only with a map which you can't edit, a WFS gives you access to the features themselves.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054232Z" creationid="miurahr" creationdate="20201118T054232Z">
+        <seg>編集できない地図のみを提供するWMSとは異なり、WFSでは地物それ自体へアクセスできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Unzip it, and in a Terminal cd to the source folder, then:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T114406Z" creationid="miurahr" creationdate="20201117T114406Z">
@@ -29271,6 +30039,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Using QGIS, you can load a WMS directly into your existing map.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054414Z" creationid="miurahr" creationdate="20201118T054414Z">
+        <seg>QGIS を使用すると、既存の地図に直接 WMS をロードできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Using RGB composition plugin, a false color composite of the reserve was created and the sign survey shape file overlaid to assess the habitat types used by the tiger.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T225511Z" creationid="miurahr" creationdate="20201117T225511Z">
@@ -29299,6 +30075,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T031400Z" creationid="miurahr" creationdate="20201118T031400Z">
         <seg>ベクターレイヤーを使う</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Using a WMS is similar, with the exception that the layers are on a remote server.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T074934Z" creationid="miurahr" creationdate="20201118T074934Z">
+        <seg>WMSを使用するレイヤーは、リモートサーバー上にあることを除いて、同様です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -30079,6 +30863,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>We want a *projected* CRS, so let's choose :guilabel:`WGS 84 / Pseudo Mercator`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075009Z" creationid="miurahr" creationdate="20201118T075009Z">
+        <seg>*投影* CRSを希望するので、 :guilabel:`WGS 84 /疑似メルカトル` を選択してみましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>We want to create a map layout consisting of a header and a map of the region near Swellendam, South Africa.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054145Z" creationid="miurahr" creationdate="20201118T054145Z">
+        <seg>ヘッダと南アフリカのスウェレンダム近くの地域の地図で構成される地図レイアウトを作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>We want to create an address database.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150214Z" creationid="miurahr" creationdate="20201117T150214Z">
@@ -30335,10 +31135,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>What usually happens is that you have vector layers, which QGIS renders as a map.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075315Z" creationid="miurahr" creationdate="20201118T075315Z">
+        <seg>通常起こることは、ベクターレイヤーがあり、それをQGISが地図としてレンダリングするということです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>What you need is to get the averages of the sample plots that are falling within each of the forest stands.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T220203Z" creationid="miurahr" creationdate="20201117T220203Z">
         <seg>必要なのは林分のそれぞれの中に落ちているサンプルプロットの平均値を取得することです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>What's more, even though it looks like it's made up of vectors, it seems to be a raster, but you can't change its symbology.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075312Z" creationid="miurahr" creationdate="20201118T075312Z">
+        <seg>しかも、それはベクターで構成されているように見えるにもかかわらず、ラスターのようですが、そのシンボルを変更できません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -30407,6 +31223,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>When considering data sources for a map, there is no need to be restricted to data which you have saved on the computer you're working on.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054223Z" creationid="miurahr" creationdate="20201118T054223Z">
+        <seg>地図のデータソースを検討する際に、あなたが使っているコンピュータ上に保存したデータに限定される必要はありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>When creating the table to represent an address object, we would create columns to represent each of these properties and we would name them with SQL-compliant and possibly shortened names::</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T020920Z" creationid="miurahr" creationdate="20201118T020920Z">
@@ -30435,6 +31259,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123735Z" creationid="miurahr" creationdate="20201117T123735Z">
         <seg>ラインレイヤーを編集する場合、頂点はラインのジオメトリを調整するために、マウスで動き回ることができ、円形のマーカーで示されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>When it has loaded, it will appear in the map.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054305Z" creationid="miurahr" creationdate="20201118T054305Z">
+        <seg>読み込みが完了したら地図に表示されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -30943,6 +31775,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>While customizing your map, keep asking yourself questions.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054124Z" creationid="miurahr" creationdate="20201118T054124Z">
+        <seg>地図をカスタマイズしながら、自分自身に問い続けてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>While during the last exercises, the white buffer was OK on top of the aerial image, now that the background image is mostly white you barely can see the labels.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T215413Z" creationid="miurahr" creationdate="20201117T215413Z">
@@ -31003,6 +31843,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T024630Z" creationid="miurahr" creationdate="20201118T024630Z">
         <seg>なぜそれを行うのですか？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Why is that?</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075313Z" creationid="miurahr" creationdate="20201118T075313Z">
+        <seg>何故でしょうか？</seg>
       </tuv>
     </tu>
     <tu>
@@ -31291,6 +32139,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124017Z" creationid="miurahr" creationdate="20201117T124017Z">
         <seg>新地物をキャプチャする場合さらに悪いことに、右の画像が基準として使用されている場合、新たに取得されたデータは不正確になります！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Would I want to read this map if it wasn't mine?</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054126Z" creationid="miurahr" creationdate="20201118T054126Z">
+        <seg>自分の地図でなかったとしたら、この地図を読みたいでしょうか？</seg>
       </tuv>
     </tu>
     <tu>
@@ -32135,6 +32991,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You don't have to, but if you tried both methods, you'll notice that this is a lot faster than loading all the countries before filtering them!</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054353Z" creationid="miurahr" creationdate="20201118T054353Z">
+        <seg>実際にやる必要はありませんが、もし両方の方法を試してみたらフィルタする前にすべての国をロードする方法に比べてはるかに早いことがわかります!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You have already digitized a set of polygons that represent the forest stands, but you don't have information about the forest just yet.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T035429Z" creationid="miurahr" creationdate="20201118T035429Z">
@@ -32591,6 +33455,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You should see the new WMS server listed:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T074953Z" creationid="miurahr" creationdate="20201118T074953Z">
+        <seg>リストされている新しいWMSサーバが表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You should see this:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054313Z" creationid="miurahr" creationdate="20201118T054313Z">
+        <seg>このように見えるはずです:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You should use a different password to your login password.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T034447Z" creationid="miurahr" creationdate="20201118T034447Z">
@@ -32719,6 +33599,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You will notice that your layers aren't located correctly (near west of Africa).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075050Z" creationid="miurahr" creationdate="20201118T075050Z">
+        <seg>レイヤが正しく配置されていないことがわかります（アフリカの西に近い）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You will see that we have added an :kbd:`ORDER BY` clause so that our view rows are nicely sorted:</seg>
       </tuv>
       <tuv lang="ja">
@@ -32763,6 +33651,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T035142Z" creationid="miurahr" creationdate="20201118T035142Z">
         <seg>:guilabel:`ポリゴンタイプ` のベクターファイルの作成から始めますが、この演習のためには、関心領域の一部がすでにデジタル化されているシェープファイルがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You'll need a WMS address to continue.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T074936Z" creationid="miurahr" creationdate="20201118T074936Z">
+        <seg>WMSアドレスを続ける必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -32879,6 +33775,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Your map will be evaluated on the overall appearance and symbology of the map itself, as well as the appearance and layout of the map page and elements.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054129Z" creationid="miurahr" creationdate="20201118T054129Z">
+        <seg>地図は地図自体だけでなく、地図ページと要素の外観やレイアウトの全体的な外観と記号で評価されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Your map will look something like this:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T034928Z" creationid="miurahr" creationdate="20201118T034928Z">
@@ -32979,6 +33883,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T033614Z" creationid="miurahr" creationdate="20201118T033614Z">
         <seg>|majorUrbanName| のエリアにズームします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Zoom out in order to get a global view of the layers.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075048Z" creationid="miurahr" creationdate="20201118T075048Z">
+        <seg>レイヤを全体的に表示するには、ズームアウトします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -34247,6 +35159,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>|LS| Creating a Dynamic Print Layout</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054136Z" creationid="miurahr" creationdate="20201118T054136Z">
+        <seg>|LS| ダイナミック印刷レイアウトを作成する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>|LS| Creating a New Vector Dataset</seg>
       </tuv>
       <tuv lang="ja">
@@ -34443,6 +35363,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>|MOD| GRASS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|MOD| Online Resources</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054221Z" creationid="miurahr" creationdate="20201118T054221Z">
+        <seg>|MOD| オンラインリソース</seg>
       </tuv>
     </tu>
     <tu>
@@ -34991,6 +35919,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>|basic| |FA| Loading a WFS Layer</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054236Z" creationid="miurahr" creationdate="20201118T054236Z">
+        <seg>|basic| |FA| WFSレイヤーを読み込む</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|basic| |FA| Loading a WMS Layer</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054422Z" creationid="miurahr" creationdate="20201118T054422Z">
+        <seg>|basic| |FA| WMSレイヤーを読み込む</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>|basic| |FA| Managing PostGIS Databases with DB Manager</seg>
       </tuv>
       <tuv lang="ja">
@@ -35471,10 +36415,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>|moderate| |FA| Creating the dynamic map canvas</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054139Z" creationid="miurahr" creationdate="20201118T054139Z">
+        <seg>|moderate| |FA| 動的地図キャンバスの作成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>|moderate| |FA| Ordering Symbol Levels</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T033543Z" creationid="miurahr" creationdate="20201118T033543Z">
         <seg>|moderate| |FA| シンボルレベルの順序</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|moderate| |FA| Querying a WFS Layer</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T054327Z" creationid="miurahr" creationdate="20201118T054327Z">
+        <seg>|moderate| |FA| WFSレイヤーからクエリする</seg>
       </tuv>
     </tu>
     <tu>
