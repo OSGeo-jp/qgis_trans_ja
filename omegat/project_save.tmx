@@ -1102,6 +1102,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>2 degrees:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020425Z" creationid="miurahr" creationdate="20201118T020425Z">
+        <seg>2 度:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>2009</seg>
       </tuv>
       <tuv lang="ja">
@@ -1310,6 +1318,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>5 degrees:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020426Z" creationid="miurahr" creationdate="20201118T020426Z">
+        <seg>5 度:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>50</seg>
       </tuv>
       <tuv lang="ja">
@@ -1398,6 +1414,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>:guilabel:`Measure line`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015715Z" creationid="miurahr" creationdate="20201118T015715Z">
+        <seg>:guilabel:`ラインを計測`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>:guilabel:`Orientation` is :guilabel:`Landscape`.</seg>
       </tuv>
       <tuv lang="ja">
@@ -1430,6 +1454,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>:guilabel:`Rendering on/off`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015714Z" creationid="miurahr" creationdate="20201118T015714Z">
+        <seg>:guilabel:`描画 オン/オフ`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:guilabel:`Save as`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015707Z" creationid="miurahr" creationdate="20201118T015707Z">
+        <seg>:guilabel:`名前を付けて保存`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>:guilabel:`Size` is :guilabel:`A4 (217 x 297 mm)`.</seg>
       </tuv>
       <tuv lang="ja">
@@ -1450,6 +1490,22 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T221410Z" creationid="miurahr" creationdate="20201117T221410Z">
         <seg>:guilabel:`Width` と :guilabel:`Height` は、それぞれ ``837`` と``661``です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:guilabel:`Zoom to layer`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015708Z" creationid="miurahr" creationdate="20201118T015708Z">
+        <seg>:guilabel:`レイヤーにズーム`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:guilabel:`places`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015726Z" creationid="miurahr" creationdate="20201118T015726Z">
+        <seg>:guilabel:`場所`</seg>
       </tuv>
     </tu>
     <tu>
@@ -1498,6 +1554,230 @@
       </tuv>
       <tuv lang="ja">
         <seg>:menuselection:`ファイル --&gt; 地理参照を開始` 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:ref:`Back to text &lt;backlink-classification-refine-1&gt;`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020300Z" creationid="miurahr" creationdate="20201118T020300Z">
+        <seg>:ref:`テキストに戻る &lt;backlink-classification-refine-1&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:ref:`Back to text &lt;backlink-complete-analysis-1&gt;`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020437Z" creationid="miurahr" creationdate="20201118T020437Z">
+        <seg>:ref:`テキストに戻る &lt;backlink-complete-analysis-1&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:ref:`Back to text &lt;backlink-complete-analysis-2&gt;`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020448Z" creationid="miurahr" creationdate="20201118T020448Z">
+        <seg>:ref:`テキストに戻る &lt;backlink-complete-analysis-2&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:ref:`Back to text &lt;backlink-complete-analysis-3&gt;`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020659Z" creationid="miurahr" creationdate="20201118T020659Z">
+        <seg>:ref:`テキストに戻る &lt;backlink-complete-analysis-3&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:ref:`Back to text &lt;backlink-create-vector-digitize-1&gt;`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020305Z" creationid="miurahr" creationdate="20201118T020305Z">
+        <seg>:ref:`テキストに戻る &lt;backlink-create-vector-digitize-1&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:ref:`Back to text &lt;backlink-create-vector-forms-1&gt;`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020339Z" creationid="miurahr" creationdate="20201118T020339Z">
+        <seg>:ref:`テキストに戻る &lt;backlink-create-vector-forms-1&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:ref:`Back to text &lt;backlink-create-vector-topology-1&gt;`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020311Z" creationid="miurahr" creationdate="20201118T020311Z">
+        <seg>:ref:`テキストに戻る &lt;backlink-create-vector-topology-1&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:ref:`Back to text &lt;backlink-create-vector-topology-2&gt;`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020316Z" creationid="miurahr" creationdate="20201118T020316Z">
+        <seg>:ref:`テキストに戻る &lt;backlink-create-vector-topology-2&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:ref:`Back to text &lt;backlink-create-vector-topology-4&gt;`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020328Z" creationid="miurahr" creationdate="20201118T020328Z">
+        <seg>:ref:`テキストに戻る &lt;backlink-create-vector-topology-4&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:ref:`Back to text &lt;backlink-interface-overview-1&gt;`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015705Z" creationid="miurahr" creationdate="20201118T015705Z">
+        <seg>:ref:`テキストに戻る &lt;backlink-interface-overview-1&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:ref:`Back to text &lt;backlink-interface-overview-2&gt;`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015716Z" creationid="miurahr" creationdate="20201118T015716Z">
+        <seg>:ref:`テキストに戻る &lt;backlink-interface-overview-2&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:ref:`Back to text &lt;backlink-interface-preparation-1&gt;`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015722Z" creationid="miurahr" creationdate="20201118T015722Z">
+        <seg>:ref:`テキストに戻る &lt;backlink-interface-preparation-1&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:ref:`Back to text &lt;backlink-label-data-defined-1&gt;`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020255Z" creationid="miurahr" creationdate="20201118T020255Z">
+        <seg>:ref:`テキストに戻る &lt;backlink-label-data-defined-1&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:ref:`Back to text &lt;backlink-label-tool-1&gt;`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020224Z" creationid="miurahr" creationdate="20201118T020224Z">
+        <seg>:ref:`テキストに戻る &lt;backlink-label-tool-1&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:ref:`Back to text &lt;backlink-network_analysis_1&gt;`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020414Z" creationid="miurahr" creationdate="20201118T020414Z">
+        <seg>:ref:`テキストに戻る &lt;backlink-network_analysis_1&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:ref:`Back to text &lt;backlink-raster-analysis-1&gt;`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020419Z" creationid="miurahr" creationdate="20201118T020419Z">
+        <seg>:ref:`テキストに戻る &lt;backlink-raster-analysis-1&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:ref:`Back to text &lt;backlink-raster-analysis-2&gt;`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020427Z" creationid="miurahr" creationdate="20201118T020427Z">
+        <seg>:ref:`テキストに戻る &lt;backlink-raster-analysis-2&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:ref:`Back to text &lt;backlink-symbology-colors-1&gt;`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015741Z" creationid="miurahr" creationdate="20201118T015741Z">
+        <seg>:ref:`テキストに戻る &lt;backlink-symbology-colors-1&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:ref:`Back to text &lt;backlink-symbology-geom_generator&gt;`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015812Z" creationid="miurahr" creationdate="20201118T015812Z">
+        <seg>:ref:`テキストに戻る &lt;backlink-symbology-geom_generator&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:ref:`Back to text &lt;backlink-symbology-layers-1&gt;`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015752Z" creationid="miurahr" creationdate="20201118T015752Z">
+        <seg>:ref:`テキストに戻る &lt;backlink-symbology-layers-1&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:ref:`Back to text &lt;backlink-symbology-levels-1&gt;`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015758Z" creationid="miurahr" creationdate="20201118T015758Z">
+        <seg>:ref:`テキストに戻る &lt;backlink-symbology-levels-1&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:ref:`Back to text &lt;backlink-symbology-levels-2&gt;`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015802Z" creationid="miurahr" creationdate="20201118T015802Z">
+        <seg>:ref:`テキストに戻る &lt;backlink-symbology-levels-2&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:ref:`Back to text &lt;backlink-symbology-marker-line&gt;`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015805Z" creationid="miurahr" creationdate="20201118T015805Z">
+        <seg>:ref:`テキストに戻る &lt;backlink-symbology-marker-line&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:ref:`Back to text &lt;backlink-symbology-structure-1&gt;`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015748Z" creationid="miurahr" creationdate="20201118T015748Z">
+        <seg>:ref:`テキストに戻る &lt;backlink-symbology-structure-1&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:ref:`Back to text &lt;backlink-vector-analysis-basic-1&gt;`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020358Z" creationid="miurahr" creationdate="20201118T020358Z">
+        <seg>:ref:`テキストに戻る &lt;backlink-vector-analysis-basic-1&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:ref:`Back to text &lt;backlink-vector-analysis-basic-2&gt;`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020406Z" creationid="miurahr" creationdate="20201118T020406Z">
+        <seg>:ref:`テキストへ 戻る &lt;backlink-vector-analysis-basic-2&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:ref:`Back to text &lt;backlink-vector-explore-attribute-data&gt;`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020220Z" creationid="miurahr" creationdate="20201118T020220Z">
+        <seg>:ref:`テキストに戻る &lt;backlink-vector-explore-attribute-data&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:ref:`Back to text &lt;backlink-vector-load-more-data&gt;`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015731Z" creationid="miurahr" creationdate="20201118T015731Z">
+        <seg>:ref:`テキストに戻る &lt;backlink-vector-load-more-data&gt;`</seg>
       </tuv>
     </tu>
     <tu>
@@ -2782,6 +3062,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Adjust your symbol levels to these values:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015800Z" creationid="miurahr" creationdate="20201118T015800Z">
+        <seg>あなたのシンボルレベルをこれらの値に合わせてください:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>After changing the layer order, rivers are drawn on top of roads</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T134800Z" creationid="miurahr" creationdate="20201117T134800Z">
@@ -3055,6 +3343,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Also feel free to experiment with different :guilabel:`Fill style` and :guilabel:`Stroke style` settings for the polygons.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015747Z" creationid="miurahr" creationdate="20201118T015747Z">
+        <seg>ポリゴンに対する別の :guilabel:`塗りつぶしスタイル` :guilabel:`ストロークスタイル` 設定も遠慮なく試してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Also remember that it is important that you are zoomed in to an appropriate scale so that the vector features you create are useful.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124018Z" creationid="miurahr" creationdate="20201117T124018Z">
@@ -3091,6 +3387,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>SSHプロトコルを使用してQGISドキュメンテーションリポジトリを複製することもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Although some of the buildings fall partly outside the new :guilabel:`suitable_terrain_continuous100m` layer, they lie well within the original :guilabel:`suitable_terrain` layer and therefore meet all of our requirements.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020640Z" creationid="miurahr" creationdate="20201118T020640Z">
+        <seg>建物の一部は、新しい :guilabel:`suitable_terrain_continuous100m` レイヤー外に一部が落ちるものの、それらは元の :guilabel:`suitable_terrain` レイヤー範囲内に十分にあり、したがって私たちの要件のすべてを満たしています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3323,6 +3627,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135725Z" creationid="miurahr" creationdate="20201117T135725Z">
         <seg>別のオプションは、 **表現分数（RF）法** 、地図の距離と実世界の地上距離の両方を比として、同じ地図単位で与えられる方法、です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Answer Sheet</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015701Z" creationid="miurahr" creationdate="20201118T015701Z">
+        <seg>回答シート</seg>
       </tuv>
     </tu>
     <tu>
@@ -3723,6 +4035,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>ページの一番下に、このプルリクエストについて全体的なコメントを残すことのできるテキストボックスがあると思います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>At the moment, your analysis should look something like this:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020452Z" creationid="miurahr" creationdate="20201118T020452Z">
+        <seg>現時点ではあなたの分析は次のように見えるはずです:</seg>
       </tuv>
     </tu>
     <tu>
@@ -4623,6 +4943,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Change the color to one that fits the water layer.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015738Z" creationid="miurahr" creationdate="20201118T015738Z">
+        <seg>色を水のレイヤに合う色に変更します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Change the field name (describing the values of the raster) to :guilabel:`suitable`.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T221248Z" creationid="miurahr" creationdate="20201117T221248Z">
@@ -4711,6 +5039,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Check that your symbol levels look something like this:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015756Z" creationid="miurahr" creationdate="20201118T015756Z">
+        <seg>シンボルレベルが次のようになっていることを確認してください：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Check the following if you used the SSH protocol:</seg>
       </tuv>
       <tuv lang="ja">
@@ -4739,6 +5075,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>水疱瘡</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Choose a good color to fill the water polygons.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015808Z" creationid="miurahr" creationdate="20201118T015808Z">
+        <seg>水のポリゴンを塗りつぶすのに良い色を選択してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4895,6 +5239,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Click :guilabel:`OK` to filter out all the polygons where this condition isn't met.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020433Z" creationid="miurahr" creationdate="20201118T020433Z">
+        <seg>:guilabel:`OK` をクリックしてこの条件が満たされていないすべてのポリゴンをフィルタリングします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Click :guilabel:`OK` to initialize the export.</seg>
       </tuv>
       <tuv lang="ja">
@@ -4947,6 +5299,22 @@
       </tuv>
       <tuv lang="ja">
         <seg>:guilabel:`Create pull request` をクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Click on :guilabel:`Marker` of the Geometry generator symbology and change the circle with another shape as your wish.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015810Z" creationid="miurahr" creationdate="20201118T015810Z">
+        <seg>Geometry generatorシンボロジの :guilabel:`マーカ` をクリックして、円を希望の他の図形に変更してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Click on :guilabel:`Run` and close the dialog.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020411Z" creationid="miurahr" creationdate="20201118T020411Z">
+        <seg>:guilabel:`実行` をクリックし、ダイアログを閉じます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5027,6 +5395,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>不要なブランチの |deleteSelected| :sup:`Delete this branch` アイコンをクリックして削除します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Click on the |signPlus| button to add another Symbol level.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015807Z" creationid="miurahr" creationdate="20201118T015807Z">
+        <seg>|signPlus| ボタンをクリックして別のシンボルレベルを追加します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5303,6 +5679,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Compare this:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020347Z" creationid="miurahr" creationdate="20201118T020347Z">
+        <seg>これと比較してみてください：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Comparing changes between ``qgis/QGIS-Documentation`` and your repository</seg>
       </tuv>
       <tuv lang="ja">
@@ -5347,6 +5731,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>保全値モデル[ステップXII]：#Raster算出関数の結果です：（図4）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Consider a circular area, continuous for 100 meters in all directions.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020453Z" creationid="miurahr" creationdate="20201118T020453Z">
+        <seg>全ての方向に100メートルのための連続円形領域を考えます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5523,6 +5915,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124034Z" creationid="miurahr" creationdate="20201117T124034Z">
         <seg>懸念の領域を何か特定できますか？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Count the number of columns.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015820Z" creationid="miurahr" creationdate="20201118T015820Z">
+        <seg>列の数を数えます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5739,6 +6139,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T062409Z" creationid="miurahr" creationdate="20201117T062409Z">
         <seg>アフガニスタンでは、地雷除去活動はアフガニスタン地雷対策調整センター（MACCA）を通して調整されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Customize your :guilabel:`buildings` layer as you like, but remember that it has to be easy to tell different layers apart on the map.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015750Z" creationid="miurahr" creationdate="20201118T015750Z">
+        <seg>:guilabel:`建物` レイヤーは好きなようにカスタマイズできますが、地図上で離れている異なるレイヤーに容易に伝えられるものでなければなりません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6415,6 +6823,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Each shape belongs to a layer you can identify by its color in the left panel (your colors may be different from the ones below):</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015721Z" creationid="miurahr" creationdate="20201118T015721Z">
+        <seg>各シェイプは、左側のパネルでその色によって識別できるレイヤーに属します（実際の色は下のものと異なる場合があります）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Each source file should contain a header section patterned after the following example:</seg>
       </tuv>
       <tuv lang="ja">
@@ -6815,6 +7231,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Experiment with different values to get different results.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015800Z" creationid="miurahr" creationdate="20201118T015800Z">
+        <seg>値をいろいろ試して様々な結果を取得してみてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Explain how this lesson has prepared students for the next lesson or module.</seg>
       </tuv>
       <tuv lang="ja">
@@ -7127,6 +7551,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>First select the |largeLandUseArea|:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020314Z" creationid="miurahr" creationdate="20201118T020314Z">
+        <seg>最初に |largeLandUseArea| を選択します:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>First you choose the geometry type, and then you add the attribute fields.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123639Z" creationid="miurahr" creationdate="20201117T123639Z">
@@ -7139,6 +7571,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>まず、QGIS プロジェクトにサンプルプロットの測定を追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>First, create a buffer of 500m around the restaurants and add the layer to the map:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020401Z" creationid="miurahr" creationdate="20201118T020401Z">
+        <seg>最初に、レストランの周囲に500m のバッファを作成し、地図にレイヤーを追加します:</seg>
       </tuv>
     </tu>
     <tu>
@@ -7463,6 +7903,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>For example, a road should not be red or blue, but can be gray or black.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015746Z" creationid="miurahr" creationdate="20201118T015746Z">
+        <seg>たとえば、道路は赤や青ではなく、灰または黒であるべきです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>For example, a street name is changed:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150116Z" creationid="miurahr" creationdate="20201117T150116Z">
@@ -7683,6 +8131,22 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140221Z" creationid="miurahr" creationdate="20201117T140221Z">
         <seg>リモートセンシングデータの場合、空間分解能は、通常、画像を撮るために使用されるセンサの能力によって決定されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For the 5 degree version, replace the ``2`` in the expression and file name with ``5``.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020422Z" creationid="miurahr" creationdate="20201118T020422Z">
+        <seg>5度のバージョンの場合は、式とファイル名の中の ``2`` を ``5`` で置き換えてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For the :guilabel:`TYPE`, there is obviously a limited amount of types that a road can be, and if you check the attribute table for this layer, you'll see that they are predefined.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020330Z" creationid="miurahr" creationdate="20201118T020330Z">
+        <seg>:guilabel:`type` について、道路がなりうるタイプの量は明らかに限られており、そしてこのレイヤーのための属性テーブルをチェックすると、それらが事前定義されていることがわかります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8247,6 +8711,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Go to :menuselection:`Vector --&gt; Geoprocessing Tools --&gt; Buffer(s)` to open the Buffer(s) dialog.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020459Z" creationid="miurahr" creationdate="20201118T020459Z">
+        <seg>:menuselection:`ベクター --&gt; ジオプロセッシングツール --&gt; バッファ` に行き、バッファダイアログを開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Go to the :guilabel:`Atlas generation` tab on the right panel.</seg>
       </tuv>
       <tuv lang="ja">
@@ -8511,6 +8983,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Here are examples of the symbol structure:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015804Z" creationid="miurahr" creationdate="20201118T015804Z">
+        <seg>シンボル構造の例は次のとおりです：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Here are some definition of the most common objects treated in this chapter.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T003326Z" creationid="miurahr" creationdate="20201118T003326Z">
@@ -8603,6 +9083,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T100736Z" creationid="miurahr" creationdate="20201117T100736Z">
         <seg>ここでは、QGISコードに簡単かつ効率的に貢献するためのルール、ツール、手順について説明します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Here's an example:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015751Z" creationid="miurahr" creationdate="20201118T015751Z">
+        <seg>こちらがサンプルです:</seg>
       </tuv>
     </tu>
     <tu>
@@ -8903,6 +9391,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If it is greater than 100 meters in radius, then subtracting 100 meters from its size (from all directions) will result in a part of it being left in the middle.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020454Z" creationid="miurahr" creationdate="20201118T020454Z">
+        <seg>それは半径100メートルより大きい場合、その大きさから（すべての方向から）100m減算すると、それが真ん中に残された部分になるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If necessary, move the new layer above your original :guilabel:`suitable_terrain` layer.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020517Z" creationid="miurahr" creationdate="20201118T020517Z">
+        <seg>必要に応じて、元々の :guilabel:`suitable_terrain` レイヤの上に新しいレイヤを移動してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If no replacement exists:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201029T134551Z" creationid="miurahr" creationdate="20201029T134551Z">
@@ -9011,6 +9515,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>ベクターレイヤーの属性が定義されたシンボル体系を使用していない場合は、 **単一シンボル** を使用して描画されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If the box is blank, then the layer is hidden.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015740Z" creationid="miurahr" creationdate="20201118T015740Z">
+        <seg>ボックスが空の場合、そのレイヤは非表示になっています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9147,6 +9659,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123610Z" creationid="miurahr" creationdate="20201117T123610Z">
         <seg>峠を通じて風光明媚なルートなど、ルートに沿って観光客を取るしたい場合は、ポリラインを使用しても意味があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If you are a Beginner-level user, you may stop here.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015744Z" creationid="miurahr" creationdate="20201118T015744Z">
+        <seg>初心者レベルのユーザーはここで止めた方が良いかもしれません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9503,6 +10023,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If you use the :guilabel:`Identify` tool on a street now while edit mode is active, the dialog you get should look like this:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020337Z" creationid="miurahr" creationdate="20201118T020337Z">
+        <seg>今街路上で :guilabel:`識別` ツールを使用している場合は、編集モードがアクティブな間、出てくるダイアログは次のようになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If you use the latter option, you must take reasonably prudent steps, when you begin distribution of Opaque copies in quantity, to ensure that this Transparent copy will remain thus accessible at the stated location until at least one year after the last time you distribute an Opaque copy (directly or through your agents or retailers) of that edition to the public.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124658Z" creationid="miurahr" creationdate="20201117T124658Z">
@@ -9551,6 +10079,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If you want to work on only one layer at a time and don't want the other layers to distract you, you can hide a layer by clicking in the checkbox next to its name in the layers list.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015739Z" creationid="miurahr" creationdate="20201118T015739Z">
+        <seg>他のレイヤに煩わされずに一度にひとつのレイヤだけで作業したい場合、「レイヤ」リスト内のその名前の隣にあるチェックボックス内をクリックしてレイヤを非表示にできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If you wanted to measure pollution levels along the course of a river you would typically travel along the river in a boat or walk along its banks.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123620Z" creationid="miurahr" creationdate="20201117T123620Z">
@@ -9563,6 +10099,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>すべての変更が終わったら、下の :ref:`プルリクエストで変更をシェアする &lt;sharing_changes&gt;` のセクションの、 :ref:`変更を比較 &lt;compare_changes&gt;` にスキップしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If you're using a different dataset, it is highly likely that your</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020323Z" creationid="miurahr" creationdate="20201118T020323Z">
+        <seg>別のデータセットを使用している場合、可能性が高いのはあなたの</seg>
       </tuv>
     </tu>
     <tu>
@@ -9587,6 +10131,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>アクションがうまく動作しない場合は、すべてが正しく入力されたことをチェックしてください。タイプミスはこの種の作業でよくあることです!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If your data contains some *NULL* values, do not worry as long as most of your places have names.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020218Z" creationid="miurahr" creationdate="20201118T020218Z">
+        <seg>データにいくつかの *NULL* の値が含まれている場合、場所のほとんどが名前を持っている限り心配いりません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9619,6 +10171,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T133734Z" creationid="miurahr" creationdate="20201117T133734Z">
         <seg>あなたの権利が終了し、恒久的に回復いないされている場合は、同じ材料の一部または全部のコピーの受領はあなたにそれを使用する権利を与えるものではありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If your symbol layers resemble the above but you're not getting the result you want:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015756Z" creationid="miurahr" creationdate="20201118T015756Z">
+        <seg>シンボルレイヤが上記のようになっていても、必要な結果が得られていない場合は：</seg>
       </tuv>
     </tu>
     <tu>
@@ -10095,6 +10655,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In our example, the difference is subtle, but you can see that the buffer's edges are smoother with the higher value.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020357Z" creationid="miurahr" creationdate="20201118T020357Z">
+        <seg>この例では違いは微妙ですが、より高い値を持つほどバッファの縁がより滑らかであることがわかります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In our region, Argentinean Patagonia, we have very few references about the application of GIS in High School for the construction of geographical knowledge as a mean to face territorial and environmental issues.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222246Z" creationid="miurahr" creationdate="20201117T222246Z">
@@ -10383,6 +10951,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In the main area of the dialog you should see many shapes with different colors.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015720Z" creationid="miurahr" creationdate="20201118T015720Z">
+        <seg>ダイアログのメインエリアには、色の異なる多くの図形が表示されているはずです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In the module ‘Applied GIS in Natural Resource Management’, under the guidance of Prof. Mund, the students quickly discovered the subject’s complexity, especially within regard to the adaptability of species to changing environments.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T224902Z" creationid="miurahr" creationdate="20201117T224902Z">
@@ -10427,6 +11003,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>次のステップでは, people テーブル内の phone_no の変更すべてを people_log テーブルにログとして記録するルールを作成 :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In the output of the buffer function, whatever remains of the original layer will represent areas where there is suitable terrain for 100 meters beyond.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020457Z" creationid="miurahr" creationdate="20201118T020457Z">
+        <seg>バッファ機能の出力において、元のレイヤーの残りはどれも、100メートルを超えて適した地形がある領域を表すことになります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10791,6 +11375,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Information about towns is available in the :guilabel:`places` layer.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020044Z" creationid="miurahr" creationdate="20201118T020044Z">
+        <seg>町に関する情報は :guilabel:`places` レイヤにあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Init the manager and set the master password</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T003411Z" creationid="miurahr" creationdate="20201118T003411Z">
@@ -11043,6 +11635,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T134046Z" creationid="miurahr" creationdate="20201117T134046Z">
         <seg>おたふく風邪患者同士が近くに居住していることが簡単に見て取れます.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It is enough to select the :guilabel:`water` layer in the legend and then click on the |symbology| :sup:`Open the Layer Styling panel` button.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015737Z" creationid="miurahr" creationdate="20201118T015737Z">
+        <seg>凡例で :guilabel:`water` レイヤを選択してから |symbology|  :sup:`レイヤスタイルパネルを開く` ボタンをクリックすれば十分です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11323,6 +11923,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T133916Z" creationid="miurahr" creationdate="20201117T133916Z">
         <seg>ワープロを使用してコンピュータで文章を書いたり扱ったりできるのと同じように、 **GIS アプリケーション** を使用して **空間情報** を扱うことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Just choose the feature which has an :guilabel:`OGC_FID`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020325Z" creationid="miurahr" creationdate="20201118T020325Z">
+        <seg>:guilabel:`OGC_FID` を持っている地物だけを選択してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11983,6 +12591,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Make sure that the :guilabel:`Path type to calculate` is ``Fastest``.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020410Z" creationid="miurahr" creationdate="20201118T020410Z">
+        <seg>:guilabel:`計算するパスタイプ` が ``最速`` であることを確認してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Make sure that the :guilabel:`Point coordinates` option is checked.</seg>
       </tuv>
       <tuv lang="ja">
@@ -12551,6 +13167,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Move the new symbol at the bottom of the list clicking the |arrowDown| button.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015808Z" creationid="miurahr" creationdate="20201118T015808Z">
+        <seg>|arrowDown| をボタンクリックして、リストの一番下に新しいシンボルを移動します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Multiple buffer zones</seg>
       </tuv>
       <tuv lang="ja">
@@ -12815,6 +13439,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Next, extract buildings within that buffer area:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020404Z" creationid="miurahr" creationdate="20201118T020404Z">
+        <seg>次に、そのバッファ領域内の建物を選択します:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Next, r.drain in GRASS to trace a time of concentration line.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222829Z" creationid="miurahr" creationdate="20201117T222829Z">
@@ -12999,6 +13631,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Now add your new part:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020315Z" creationid="miurahr" creationdate="20201118T020315Z">
+        <seg>ここで新しいパートを追加します：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Now calculate a field with the total volumes and number of stems estimated for every stand:</seg>
       </tuv>
       <tuv lang="ja">
@@ -13151,6 +13791,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Now use the :guilabel:`Select by Location` tool (:menuselection:`Vector --&gt; Research Tools --&gt; Select by location`).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020545Z" creationid="miurahr" creationdate="20201118T020545Z">
+        <seg>ここで :guilabel:`位置で選択` ツール（ :menuselection:`ベクター --&gt; 研究のツール --&gt; 位置で選択` ）を使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Now we need to enable editing in the shapefile using the 'enable editing' menu option or tool bar icon in the GIS Application.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123703Z" creationid="miurahr" creationdate="20201117T123703Z">
@@ -13235,6 +13883,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>やってみよう</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Now your map should look like this:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015757Z" creationid="miurahr" creationdate="20201118T015757Z">
+        <seg>これであなたの地図は次のように見えるようになったはずです:</seg>
       </tuv>
     </tu>
     <tu>
@@ -13395,6 +14051,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135713Z" creationid="miurahr" creationdate="20201117T135713Z">
         <seg>右側には、背景にある湖と同じ領域が表示されますが、この地図は、観光客が休日のために借りられる家の場所を表示するように設計されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>On top of it there is a slightly thinner solid yellow line and finally another thinner solid black line.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015755Z" creationid="miurahr" creationdate="20201118T015755Z">
+        <seg>その上にはやや細い黄色の実線があり、最後に別の細い黒い実線があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13591,6 +14255,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>One possible solution has this final product:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020226Z" creationid="miurahr" creationdate="20201118T020226Z">
+        <seg>一つの可能​​な解ではこの最終製品があります：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>One side effect of this is that attribute data (that is attributes associated with the original vector data) will be lost when the conversion takes place.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140340Z" creationid="miurahr" creationdate="20201117T140340Z">
@@ -13615,6 +14287,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Open :menuselection:`Network Analysis --&gt; Shortest Path (Point to Point)` and fill the dialog as:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020409Z" creationid="miurahr" creationdate="20201118T020409Z">
+        <seg>:menuselection:`ネットワーク分析 - &gt; 最短経路（点から点）` を開き、ダイアログに次のように記入します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Open :menuselection:`Settings --&gt; Transformation settings`.</seg>
       </tuv>
       <tuv lang="ja">
@@ -13627,6 +14307,22 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T145616Z" creationid="miurahr" creationdate="20201117T145616Z">
         <seg>QGISを開き、新しい空のプロジェクトを作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Open its attribute table as you did with the :guilabel:`rivers` layer: there are two features whose :guilabel:`place` attribute is set to ``town``: *Swellendam* and *Buffeljagsrivier*.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020038Z" creationid="miurahr" creationdate="20201118T015949Z">
+        <seg> :guilabel:`rivers` レイヤで行ったようにその属性テーブルを開きます。 :guilabel:`place` 属性が ``town`` に設定されている地物が2つあります： *Swellendam* と *Buffeljagsrivier* 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Open now the attribute table of the output layer.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020412Z" creationid="miurahr" creationdate="20201118T020412Z">
+        <seg>出力レイヤーの属性テーブルを開きます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13667,6 +14363,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>:guilabel:`レイヤーのプロパティ` ダイアログを開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Open the :guilabel:`Query Builder` by right-clicking on the :guilabel:`all_terrain` layer in the :guilabel:`Layers` panel, and selecting the :menuselection:`Properties --&gt; Source` tab.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020431Z" creationid="miurahr" creationdate="20201118T020431Z">
+        <seg>:guilabel:`レイヤ` パネルの :guilabel:`all_terrain` レイヤを右クリックし、 :menuselection:`プロパティ - &gt; ソース` タブを選択して :guilabel:`クエリビルダ` を開きます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13771,6 +14475,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>新しいモジュールの独自のインデックスファイルを開きます（ :kbd:`[module name]/index.rst` ）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Open your original map again before continuing with the next exercise.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015801Z" creationid="miurahr" creationdate="20201118T015801Z">
+        <seg>次の演習を続ける前にオリジナルの地図を再び開いてください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15271,6 +15983,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Refer back to the image showing the interface layout and check that you remember the names and functions of the screen elements.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015704Z" creationid="miurahr" creationdate="20201118T015704Z">
+        <seg>インターフェイスのレイアウトを示す以前の画像を参照し、画面要素の名称と機能を覚えていることを確認してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Refer back to the module on vector analysis.</seg>
       </tuv>
       <tuv lang="ja">
@@ -15519,6 +16239,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Right-click and choose :guilabel:`Open Attribute Table`, or press the |openTable| button on the :guilabel:`Attributes Toolbar`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015819Z" creationid="miurahr" creationdate="20201118T015819Z">
+        <seg>右クリックして :guilabel:`属性テーブルを開く` を選択するか、 :guilabel:`Attributes Toolbar` の |openTable| ボタンを押します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Right-clicking on a layer in the tree and clicking :guilabel:`Add to Canvas` will add this layer to your map.</seg>
       </tuv>
       <tuv lang="ja">
@@ -15695,10 +16423,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Save the output in :file:`exercise_data/residential_development/` as :file:`suitable_terrain_continuous100m.shp`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020610Z" creationid="miurahr" creationdate="20201118T020610Z">
+        <seg>出力を :file:`exercise_data/residential_development/` 中に :file:`suitable_terrain_continuous100m.shp` として保存します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Save the project with a new name, :kbd:`map_creation.qgs`.</seg>
       </tuv>
       <tuv lang="ja">
         <seg>プロジェクトを新しい名前 :kbd:`map_creation.qgs` で保存します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Save the selection under :file:`exercise_data/residential_development/` as :file:`final_answer.shp`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020657Z" creationid="miurahr" creationdate="20201118T020657Z">
+        <seg>選択を :file:`exercise_data/residential_development/` 下に :file:`final_answer.shp` として保存してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15839,6 +16583,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Select :guilabel:`roads` in the :guilabel:`Label` dropdown and :guilabel:`highway` for both the :guilabel:`Value` and :guilabel:`Description` options:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020332Z" creationid="miurahr" creationdate="20201118T020332Z">
+        <seg>:guilabel:`ラベル` ドロップダウンで :guilabel:`roads` を、 :guilabel:`値` と :guilabel:`説明` オプションの両方について :guilabel:`highway` を選択します：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Select ``qgis/QGIS-Documentation`` as the base fork with ``master`` as base, set the head fork to your repository ``&lt;YourName&gt;/QGIS-Documentation``, and set compare to your modified branch.</seg>
       </tuv>
       <tuv lang="ja">
@@ -15851,6 +16603,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>データを選択</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Select features in :guilabel:`new_solution` that intersect features in :guilabel:`suitable_terrain_continuous100m.shp`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020616Z" creationid="miurahr" creationdate="20201118T020616Z">
+        <seg>:guilabel:`suitable_terrain_continuous100m.shp` の中の地物に交差する :guilabel:`new_solution` 中の地物を選択します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15899,6 +16659,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>前の手順で作成したデータベースをドロップダウン内から選択します.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Select the layer in the :guilabel:`Layers` panel.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015817Z" creationid="miurahr" creationdate="20201118T015817Z">
+        <seg>:guilabel:`レイヤ` パネルでレイヤを選択してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16047,6 +16815,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Set the widget to :guilabel:`Value Map` and click :guilabel:`Load Data from Layer`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020331Z" creationid="miurahr" creationdate="20201118T020331Z">
+        <seg>ウィジェットを :guilabel:`値マップ` に設定して :guilabel:`レイヤーからデータをロード` をクリックしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Set up a new action using the following properties for the action:</seg>
       </tuv>
       <tuv lang="ja">
@@ -16055,10 +16831,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Set up like this:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020614Z" creationid="miurahr" creationdate="20201118T020614Z">
+        <seg>このように設定します:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Set up the printer options so that your maps will suit your paper and margins, for an A4 paper:</seg>
       </tuv>
       <tuv lang="ja">
         <seg>地図がA4用紙のために、紙や余白に合うように、プリンタオプションを設定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set your :guilabel:`Raster calculator` dialog up like this:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020421Z" creationid="miurahr" creationdate="20201118T020421Z">
+        <seg>:guilabel:`ラスター計算機` ダイアログをこのように設定します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17143,6 +17935,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The :guilabel:`Buffer distance` is :guilabel:`1` kilometer.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020344Z" creationid="miurahr" creationdate="20201118T020344Z">
+        <seg>:guilabel:`バッファ距離` は :guilabel:`1` キロメーターです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The :guilabel:`Hidden coverage layer` tells the Atlas to not show the polygons in the output maps.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T215713Z" creationid="miurahr" creationdate="20201117T215713Z">
@@ -17155,6 +17955,22 @@
       </tuv>
       <tuv lang="ja">
         <seg>:guilabel:`索引` タブは、空間索引と通常の索引の両方を追加および削除するために使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The :guilabel:`Segments to approximate` value is set to :guilabel:`20`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020345Z" creationid="miurahr" creationdate="20201118T020345Z">
+        <seg>:guilabel:`近似するセグメント` 値は :guilabel:`20` に設定されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The :guilabel:`cost` field contains the travel time between the two points (as fraction of hours):</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020413Z" creationid="miurahr" creationdate="20201118T020413Z">
+        <seg>:guilabel:`cost` フィールドには2点間の移動時間が含まれています（時間の割合）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17563,6 +18379,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T003451Z" creationid="miurahr" creationdate="20201118T003451Z">
         <seg>``False`` パラメーターは、URIで ``authcfg`` IDの存在のURI完全な展開を避けるために重要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The ``name`` field is the most useful to show as labels.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020056Z" creationid="miurahr" creationdate="20201118T020056Z">
+        <seg>``name`` フィールドがラベルとして表示するには最も便利です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17983,6 +18807,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The exact shape doesn't matter, but you should be getting a hole in the middle of your feature, like this one:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020309Z" creationid="miurahr" creationdate="20201118T020309Z">
+        <seg>正確な形状は重要ではありませんが、あなたの地物の中央には穴が空くことになります。こちらのように。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The exercises in the following lessons assume you are already capable of doing many of the basic operations in QGIS and only tools that have not been used before are presented in more detail.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T215829Z" creationid="miurahr" creationdate="20201117T215829Z">
@@ -18059,6 +18891,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>デジタル化している第1の地物は |schoolAreaType1| です：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The first image shows the buffer with the :guilabel:`Segments to approximate` value set to :guilabel:`5` and the second shows the value set to :guilabel:`20`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020356Z" creationid="miurahr" creationdate="20201118T020356Z">
+        <seg>第1の画像は、 :guilabel:`近似するセグメント` の値が :guilabel:`5` に設定されたバッファを、第2の画像はその値が :guilabel:`20` に設定されたバッファを示しています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18339,6 +19179,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135101Z" creationid="miurahr" creationdate="20201117T135101Z">
         <seg>経度及び緯度の列は **地理情報データ** を持っています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The lowest symbol layer is a broad, solid gray line.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015754Z" creationid="miurahr" creationdate="20201118T015754Z">
+        <seg>一番下のシンボルレイヤは、幅広の灰色の実線です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18959,6 +19807,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The symbology doesn't matter, but the results should look more or less like this:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020304Z" creationid="miurahr" creationdate="20201118T020304Z">
+        <seg>シンボル体系は重要ではありませんが、結果は多かれ少なかれこのようになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The systematic sampling design is ready and the field teams have loaded the GPS coordinates in their navigation devices.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150732Z" creationid="miurahr" creationdate="20201117T150732Z">
@@ -19139,6 +19995,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135758Z" creationid="miurahr" creationdate="20201117T135758Z">
         <seg>世界はさまざまな投影法があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The yellow buildings are selected.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020619Z" creationid="miurahr" creationdate="20201118T020619Z">
+        <seg>黄色の建物が選択されています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19359,6 +20223,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>There should be 9 fields in the :guilabel:`rivers` layer:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015814Z" creationid="miurahr" creationdate="20201118T015814Z">
+        <seg>:guilabel:`rivers` レイヤーには9つのフィールドがあるはずです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>There should be a check mark next to the :menuselection:`View --&gt; Toolbars --&gt; Digitizing` menu entry.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T145727Z" creationid="miurahr" creationdate="20201117T145727Z">
@@ -19387,6 +20259,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T225342Z" creationid="miurahr" creationdate="20201117T225326Z">
         <seg>それゆえ私たちは研究所、大学、官庁、企業にQGISを使って何らかのプロジェクトで問題を解決できたことがあるか尋ねています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Therefore, you can run an *interior buffer* of 100 meters on your existing :guilabel:`suitable_terrain` vector layer.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020456Z" creationid="miurahr" creationdate="20201118T020456Z">
+        <seg>そのため、既存の :guilabel:`suitable_terrain` ベクターレイヤー上で100メートルの *内部バッファ* を実行できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19903,6 +20783,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This is because all its values are unique for every object and are very unlikely to contain *NULL* values.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020216Z" creationid="miurahr" creationdate="20201118T020216Z">
+        <seg>そのすべての値は各オブジェクトについて一意であり、 *NULL* 値が含まれている可能性が非常に低いためです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This is because when you give a vector feature attribute values, they apply to the whole feature, so vectors aren't very good at representing features that are not homogeneous (entirely the same) all over.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140012Z" creationid="miurahr" creationdate="20201117T140012Z">
@@ -19943,6 +20831,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This is optional, but it's recommended, because it makes the output buffers look smoother.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020346Z" creationid="miurahr" creationdate="20201118T020346Z">
+        <seg>これはオプションですが、出力バッファがよりスムーズに見えるのでお勧めです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This is repeated for each feature.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124022Z" creationid="miurahr" creationdate="20201117T124022Z">
@@ -19955,6 +20851,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141632Z" creationid="miurahr" creationdate="20201117T141632Z">
         <seg>これは、マークアップです::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This is the result:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020618Z" creationid="miurahr" creationdate="20201118T020618Z">
+        <seg>結果はこちらです:</seg>
       </tuv>
     </tu>
     <tu>
@@ -20271,6 +21175,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This shows that only part of the building - and therefore only part of the property - lies on suitable terrain.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020441Z" creationid="miurahr" creationdate="20201118T020441Z">
+        <seg>これは、建物の一部のみ - それゆえ資産の一部のみ -が適した地形の上にあることを示しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This step resulted in using core open source SW such as LibreOffice, GIMP, Inkscape and QGIS.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T224810Z" creationid="miurahr" creationdate="20201117T224810Z">
@@ -20559,6 +21471,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>To arrive at this result:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020228Z" creationid="miurahr" creationdate="20201118T020228Z">
+        <seg>この結果に到着するには：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>To automatically generate the SIP file of a newly added C++ file :file:`scripts/sip_include.sh` needs to be executed.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T114040Z" creationid="miurahr" creationdate="20201117T114040Z">
@@ -20671,10 +21591,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>To create the new :guilabel:`houses_restaurants_500m` layer, we go through a two step process:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020359Z" creationid="miurahr" creationdate="20201118T020359Z">
+        <seg>新しい :guilabel:`houses_restaurants_500m` レイヤーを作成するために、２ステップの手順を実施します:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>To create the rainfall grids I performed statistical analysis on GHCN tables to find rainfall depths for design storms of 1,2,5,10,50,100 year returns.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222835Z" creationid="miurahr" creationdate="20201117T222835Z">
         <seg>降雨グリッドを作成するために、私はGHCNテーブル上の統計分析を行い、1,2,5,10,50,100年間リターンの設計嵐に対する降雨量を見つけました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>To demonstrate:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020458Z" creationid="miurahr" creationdate="20201118T020458Z">
+        <seg>証明するために：</seg>
       </tuv>
     </tu>
     <tu>
@@ -20791,6 +21727,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>To make the required symbol, you need three symbol layers:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015753Z" creationid="miurahr" creationdate="20201118T015753Z">
+        <seg>必要なシンボルを作るには３つのシンボルレイヤーが必要です:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>To make this link work, add the following line above the heading to the "try yourself" section:</seg>
       </tuv>
       <tuv lang="ja">
@@ -20867,6 +21811,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T225429Z" creationid="miurahr" creationdate="20201117T225429Z">
         <seg>NAMERIの北にアルナーチャル・プラデーシュ州のPakkeトラ保護区があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>To this:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020353Z" creationid="miurahr" creationdate="20201118T020353Z">
+        <seg>これに：</seg>
       </tuv>
     </tu>
     <tu>
@@ -21071,6 +22023,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Try experimenting other options to get more useful results.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015811Z" creationid="miurahr" creationdate="20201118T015811Z">
+        <seg>より有用な結果を得るために他のオプションを試してみてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Try to add a person object to the :kbd:`people` table with the following details::</seg>
       </tuv>
       <tuv lang="ja">
@@ -21107,6 +22067,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124027Z" creationid="miurahr" creationdate="20201117T124027Z">
         <seg>異なるジオメトリタイプを混ぜて使用してみてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Try using natural colors for the objects.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015746Z" creationid="miurahr" creationdate="20201118T015746Z">
+        <seg>オブジェクトにはできるだけ本来の色を使うようにしてください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21255,6 +22223,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Undo your edit before continuing with the exercise for the next tool.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020310Z" creationid="miurahr" creationdate="20201118T020310Z">
+        <seg>次のツールのための演習を続行する前に編集を取り消します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Unique Value Symbols</seg>
       </tuv>
       <tuv lang="ja">
@@ -21391,6 +22367,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Use the :guilabel:`Merge Selected Features` tool, making sure to first select both of the polygons you wish to merge.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020319Z" creationid="miurahr" creationdate="20201118T020319Z">
+        <seg>:guilabel:`選択した地物のマージ` ツールを使う際には、最初にマージしたいポリゴンを両方選んでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Use the :kbd:`INSERT` command to add a new street to the :kbd:`streets` table.</seg>
       </tuv>
       <tuv lang="ja">
@@ -21403,6 +22387,22 @@
       </tuv>
       <tuv lang="ja">
         <seg>地図帳プレビューを使用して。すぐに作成されているであろうすべての地図を閲覧してお楽しみください！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Use the feature with the :guilabel:`OGC_FID` of :kbd:`1` as the source of your attributes (click on its entry in the dialog, then click the :guilabel:`Take attributes from selected feature` button):</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020322Z" creationid="miurahr" creationdate="20201118T020322Z">
+        <seg>:kbd:`1` の属性の :guilabel:`OGC_FID` を持つ地物をソースとして使用します（ダイアログでそのエントリをクリックし、それから :guilabel:`選択地物から属性を取る` ボタンをクリックしてください）：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Use the method above to change the colors and styles for all the remaining layers.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015745Z" creationid="miurahr" creationdate="20201118T015745Z">
+        <seg>上の方法を使って残りのレイヤーすべての色とスタイルを変更します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21603,6 +22603,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>:guilabel:`制約` タブを使用、どのフィールドが主キーとして使用されるか、既存の制約を削除するために管理できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Using the :guilabel:`Merge Attributes of Selected Features` tool will keep the geometries distinct, but give them the same attributes.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020327Z" creationid="miurahr" creationdate="20201118T020327Z">
+        <seg>:guilabel:`選択地物の属性をマージ` ツールを使用すると、ジオメトリは別々のまま、それらに同じ属性を与えます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21887,6 +22895,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Verify that the colors are changing as you expect them to change.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015736Z" creationid="miurahr" creationdate="20201118T015736Z">
+        <seg>色が期待通りに変わっているか確認してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Version 1.3, 3 November 2008</seg>
       </tuv>
       <tuv lang="ja">
@@ -22027,6 +23043,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>その後、「キー」 :kbd:`streets.id` と :kbd:`people.streets_id` を使用して2つのテーブルをリンクできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>We can therefore sensibly eliminate those buildings from our dataset.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020447Z" creationid="miurahr" creationdate="20201118T020447Z">
+        <seg>したがって、賢明にデータセットから、これらの建物を排除できます</seg>
       </tuv>
     </tu>
     <tu>
@@ -22563,6 +23587,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140815Z" creationid="miurahr" creationdate="20201117T140815Z">
         <seg>2つの頂点が連結されている場合、ラインが作成されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>When viewed over the original raster, the areas should overlap perfectly:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020434Z" creationid="miurahr" creationdate="20201118T020434Z">
+        <seg>オリジナルのラスター上で閲覧するとその領域は完全にオーバーラップされるはずです:</seg>
       </tuv>
     </tu>
     <tu>
@@ -23231,6 +24263,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You can add comment on other fields from these two records, if you like.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015953Z" creationid="miurahr" creationdate="20201118T015953Z">
+        <seg>必要に応じて、これら2つのレコードから他のフィールドにコメントを追加できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You can also add a North arrow to the overview map:</seg>
       </tuv>
       <tuv lang="ja">
@@ -23419,6 +24459,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>テーブルを右クリックして, 前のレッスンで行ったようにプロパティを表示することができます.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can save this layer by right-clicking on the :guilabel:`all_terrain` layer in the :guilabel:`Layers` panel and choosing :guilabel:`Save As...`, then continue as per the instructions.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020436Z" creationid="miurahr" creationdate="20201118T020436Z">
+        <seg>:guilabel:`レイヤー` パネル中の :guilabel:`all_terrain` レイヤー上で右クリックし :guilabel:`名前を付けて保存...` を選択することでこのレイヤーを保存できます。その後は指示に従って続けます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24039,6 +25087,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Your buffer dialog should look like this:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020343Z" creationid="miurahr" creationdate="20201118T020343Z">
+        <seg>あなたのバッファダイアログはこのように見えるはずです:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Your goal is to get the plots locations and their name to be as clearly visible as possible but always allowing to see the background map elements.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T215422Z" creationid="miurahr" creationdate="20201117T215422Z">
@@ -24051,6 +25107,62 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T220130Z" creationid="miurahr" creationdate="20201117T220130Z">
         <seg>地図とこの画像は非常によく一致している必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Your map should have seven layers:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015724Z" creationid="miurahr" creationdate="20201118T015724Z">
+        <seg>地図にはレイヤが７つあるはずです:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Your map should now look like this:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015743Z" creationid="miurahr" creationdate="20201118T015743Z">
+        <seg>これであなたの地図はこのように見えていると思います:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Your map should now show only those buildings which are within 50m of a road, 1km of a school and 500m of a restaurant:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020405Z" creationid="miurahr" creationdate="20201118T020405Z">
+        <seg>これで地図には道路から50m 以内、学校から1km 以内、そしてレストランから500m 以内の建物だけが表示されているはずです:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Your result:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020418Z" creationid="miurahr" creationdate="20201118T020418Z">
+        <seg>結果:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Your results will look like something like this:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020550Z" creationid="miurahr" creationdate="20201118T020550Z">
+        <seg>作業結果は次のように見えるはずです:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Your results, if using the above values, should be this:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020253Z" creationid="miurahr" creationdate="20201118T020253Z">
+        <seg>結果は、上記の値を使用している場合、このようになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Your results:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020424Z" creationid="miurahr" creationdate="20201118T020424Z">
+        <seg>結果:</seg>
       </tuv>
     </tu>
     <tu>
@@ -24759,6 +25871,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>original polygon's :guilabel:`OGC_FID` will not be :kbd:`1`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020324Z" creationid="miurahr" creationdate="20201118T020324Z">
+        <seg>元々のポリゴンの :guilabel:`OGC_FID` は :kbd:`1` にはならないでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>pH</seg>
       </tuv>
       <tuv lang="ja">
@@ -25055,6 +26175,78 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>|RF| *Adding Your First Layer*</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015717Z" creationid="miurahr" creationdate="20201118T015717Z">
+        <seg>|RF| *最初のレイヤーを追加する*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|RF| *An Overview of the Interface*</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015702Z" creationid="miurahr" creationdate="20201118T015702Z">
+        <seg>|RF| *インターフェイスのあらまし*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|RF| *Classification*</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020256Z" creationid="miurahr" creationdate="20201118T020256Z">
+        <seg>|RF| *分類*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|RF| *Completing the Analysis*</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020428Z" creationid="miurahr" creationdate="20201118T020428Z">
+        <seg>|RF| *分析を完了させる*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|RF| *Creating a New Vector Dataset*</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020301Z" creationid="miurahr" creationdate="20201118T020301Z">
+        <seg>|RF| *新しいベクターデータセットを作成する*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|RF| *Network Analysis*</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020407Z" creationid="miurahr" creationdate="20201118T020407Z">
+        <seg>|RF| *ネットワーク分析*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|RF| *Raster Analysis*</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020415Z" creationid="miurahr" creationdate="20201118T020415Z">
+        <seg>|RF| *ラスター分析*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|RF| *Symbology*</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015734Z" creationid="miurahr" creationdate="20201118T015734Z">
+        <seg>|RF| *シンボル*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|RF| *Vector Analysis*</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020341Z" creationid="miurahr" creationdate="20201118T020341Z">
+        <seg>|RF| *ベクター分析*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>|TY| |basic|</seg>
       </tuv>
       <tuv lang="ja">
@@ -25083,6 +26275,86 @@
       </tuv>
       <tuv lang="ja">
         <seg>|WN|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|basic| *Calculate Aspect*</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020415Z" creationid="miurahr" creationdate="20201118T020415Z">
+        <seg>|basic| *角度を計算*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|basic| *Colors*</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015735Z" creationid="miurahr" creationdate="20201118T015735Z">
+        <seg>|basic| *色*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|basic| *Data loading*</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015723Z" creationid="miurahr" creationdate="20201118T015723Z">
+        <seg>|basic| *データのロード*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|basic| *Digitizing*</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020303Z" creationid="miurahr" creationdate="20201118T020303Z">
+        <seg>|basic| *デジタイジング*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|basic| *Distance from High Schools*</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020342Z" creationid="miurahr" creationdate="20201118T020342Z">
+        <seg>|basic| *高校からの距離*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|basic| *Distance from Restaurants*</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020358Z" creationid="miurahr" creationdate="20201118T020358Z">
+        <seg>|basic| *レストランからの距離*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|basic| *Overview* (Part 1)</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015703Z" creationid="miurahr" creationdate="20201118T015703Z">
+        <seg>|basic| *あらまし* (パート 1)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|basic| *Overview* (Part 2)</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015706Z" creationid="miurahr" creationdate="20201118T015706Z">
+        <seg>|basic| *あらまし* (パート 2)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|basic| *Preparation*</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015719Z" creationid="miurahr" creationdate="20201118T015719Z">
+        <seg>|basic| *準備*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|basic| *Symbol Structure*</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015742Z" creationid="miurahr" creationdate="20201118T015742Z">
+        <seg>|basic| *シンボルの構造*</seg>
       </tuv>
     </tu>
     <tu>
@@ -25295,6 +26567,38 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>|hard| *Geometry generator symbology*</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015806Z" creationid="miurahr" creationdate="20201118T015806Z">
+        <seg>|hard| *ジオメトリジェネレータのシンボル*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|hard| *Merge Features*</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020318Z" creationid="miurahr" creationdate="20201118T020318Z">
+        <seg>|hard| *地物をマージ*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|hard| *Symbol Levels*</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015759Z" creationid="miurahr" creationdate="20201118T015759Z">
+        <seg>|hard| *シンボルレベル*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|hard| *Using Data Defined Settings*</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020234Z" creationid="miurahr" creationdate="20201118T020234Z">
+        <seg>|hard| *データ定義された設定を使用して*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>|hard| |FA| Associating the Form with Your Layer</seg>
       </tuv>
       <tuv lang="ja">
@@ -25355,6 +26659,110 @@
       </tuv>
       <tuv lang="ja">
         <seg>|marcelle|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|moderate| *Calculate Slope (less than 2 and 5 degrees)*</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020420Z" creationid="miurahr" creationdate="20201118T020420Z">
+        <seg>|moderate| *傾斜を計算 (2度と5度未満)*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|moderate| *Fastest path*</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020407Z" creationid="miurahr" creationdate="20201118T020407Z">
+        <seg>|moderate| 最速径路</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|moderate| *Forms*</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020329Z" creationid="miurahr" creationdate="20201118T020329Z">
+        <seg>|moderate| *フォーム*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|moderate| *Inspecting the Results*</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020438Z" creationid="miurahr" creationdate="20201118T020438Z">
+        <seg>|moderate| *結果を精査*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|moderate| *Label Customization* (Part 1)</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020221Z" creationid="miurahr" creationdate="20201118T020221Z">
+        <seg>|moderate| *ラベルのカスタマイズ* (パート 1)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|moderate| *Label Customization* (Part 2)</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020225Z" creationid="miurahr" creationdate="20201118T020225Z">
+        <seg>|moderate| *ラベルのカスタマイズ* (パート 2)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|moderate| *Raster to Vector*</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020429Z" creationid="miurahr" creationdate="20201118T020429Z">
+        <seg>|moderate| *ラスターからベクター*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|moderate| *Refine the Classification*</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020258Z" creationid="miurahr" creationdate="20201118T020258Z">
+        <seg>|moderate| *分類を改善*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|moderate| *Refining the Analysis*</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020451Z" creationid="miurahr" creationdate="20201118T020451Z">
+        <seg>|moderate| *分析を改善する*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|moderate| *Symbol Layers*</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015749Z" creationid="miurahr" creationdate="20201118T015749Z">
+        <seg>|moderate| *シンボルレイヤー*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|moderate| *Symbol Levels*</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T015752Z" creationid="miurahr" creationdate="20201118T015752Z">
+        <seg>|moderate| *シンボルのレベル*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|moderate| *Topology: Add Part Tool*</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020312Z" creationid="miurahr" creationdate="20201118T020312Z">
+        <seg>|moderate| *トポロジ: パートを追加ツール*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|moderate| *Topology: Add Ring Tool*</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T020307Z" creationid="miurahr" creationdate="20201118T020307Z">
+        <seg>|moderate| *トポロジ: リングツールを追加*</seg>
       </tuv>
     </tu>
     <tu>
