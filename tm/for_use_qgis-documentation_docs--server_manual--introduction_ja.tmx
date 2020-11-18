@@ -4,52 +4,82 @@
   <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
   <body>
     <tu>
-      <tuv xml:lang="en"><seg>Introduction</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="en">
+        <seg>Introduction</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>はじめに</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en"><seg>QGIS Server is an open source WMS 1.3, WFS 1.0.0, WFS 1.1.0 and WCS 1.1.1 implementation that, in addition, implements advanced cartographic features for thematic mapping.</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="en">
+        <seg>QGIS Server is an open source WMS 1.3, WFS 1.0.0, WFS 1.1.0 and WCS 1.1.1 implementation that, in addition, implements advanced cartographic features for thematic mapping.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>QGISサーバは、オープンソースのWMS 1.3、WFS 1.0.0、WFS 1.1.0、およびWCS 1.1.1の実装であり、さらに主題図作成のための高度な地図作成機能を実装しています。</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en"><seg>QGIS Server is a FastCGI/CGI (Common Gateway Interface) application written in C++ that works together with a web server (e.g., Apache, Nginx).</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="en">
+        <seg>QGIS Server is a FastCGI/CGI (Common Gateway Interface) application written in C++ that works together with a web server (e.g., Apache, Nginx).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>QGISサーバは、C ++で記述されたFastCGI / CGI（Common Gateway Interface）アプリケーションであり、Webサーバ（Apache、Nginxなど）と連携して動作します。</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en"><seg>It has Python plugin support allowing for fast and efficient development and deployment of new features.</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="en">
+        <seg>It has Python plugin support allowing for fast and efficient development and deployment of new features.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>Pythonプラグインをサポートしており、新機能の開発と展開を迅速かつ効率的に行うことができます。</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en"><seg>QGIS Server uses QGIS as back end for the GIS logic and for map rendering.</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="en">
+        <seg>QGIS Server uses QGIS as back end for the GIS logic and for map rendering.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>QGISサーバーは、GISロジックのためのバックエンドとして、地図のレンダリングにQGISを使用しています。</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en"><seg>Furthermore, the Qt library is used for graphics and for platform-independent C++ programming.</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="en">
+        <seg>Furthermore, the Qt library is used for graphics and for platform-independent C++ programming.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>また、Qtライブラリは、グラフィックスおよびプラットフォームに依存しないC ++プログラミングのために使用されます。</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en"><seg>In contrast to other WMS software, the QGIS Server uses cartographic rules as a configuration language, both for the server configuration and for the user-defined cartographic rules.</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="en">
+        <seg>In contrast to other WMS software, the QGIS Server uses cartographic rules as a configuration language, both for the server configuration and for the user-defined cartographic rules.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>他のWMSのソフトウェアとは対照的に、QGISサーバーは、サーバーの構成およびユーザー定義の地図作成ルールの両方、設定言語として地図作成規則を使用します。</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en"><seg>As QGIS desktop and QGIS Server use the same visualization libraries, the maps that are published on the web look the same as in desktop GIS.</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="en">
+        <seg>As QGIS desktop and QGIS Server use the same visualization libraries, the maps that are published on the web look the same as in desktop GIS.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>QGISのデスクトップとQGISサーバーは同じ可視化ライブラリを使用するように、ウェブ上で公開されている地図は、デスクトップGISと同じに見えます。</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en"><seg>In the following sections, we will provide a sample configuration to set up a QGIS Server on Linux (Debian, Ubuntu and derivatives) and on Windows.</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="en">
+        <seg>In the following sections, we will provide a sample configuration to set up a QGIS Server on Linux (Debian, Ubuntu and derivatives) and on Windows.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>次のセクションでは、Linux（Debian、Ubuntuおよび派生物）とWindowsにQGISサーバをセットアップするためのサンプル構成を提供します。</seg>
       </tuv>
     </tu>
     <tu>
-      <tuv xml:lang="en"><seg>For more information about server plugin development, please read :ref:`server_plugins`.</seg></tuv><tuv xml:lang="ja">
+      <tuv xml:lang="en">
+        <seg>For more information about server plugin development, please read :ref:`server_plugins`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
         <seg>サーバプラグイン開発の詳細は :ref:`server_plugins` を参照。</seg>
       </tuv>
     </tu>
