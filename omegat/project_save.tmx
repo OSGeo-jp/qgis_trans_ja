@@ -2718,6 +2718,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>A memory provider is created by passing ``"memory"`` as the provider string to the :class:`QgsVectorLayer &lt;qgis.core.QgsVectorLayer&gt;` constructor.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031825Z" creationid="miurahr" creationdate="20201118T031825Z">
+        <seg>メモリプロバイダは :class:`QgsVectorLayer &lt;qgis.core.QgsVectorLayer&gt;` コンストラクタにプロバイダ文字列として ``"memory"`` を渡すと作ることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>A north arrow (sometimes also called a compass rose) is a figure displaying the main directions, **North**, **South**, **East** and **West**.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135715Z" creationid="miurahr" creationdate="20201117T135715Z">
@@ -3414,6 +3422,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Advanced configuration</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032121Z" creationid="miurahr" creationdate="20201118T032121Z">
+        <seg>高度な構成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>After adding or removing fields in the data provider the layer's fields need to be updated because the changes are not automatically propagated.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T031534Z" creationid="miurahr" creationdate="20201118T031534Z">
@@ -3823,6 +3839,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Among all the data providers supported by the :class:`QgsVectorLayer &lt;qgis.core.QgsVectorLayer&gt;` class, let's focus on the memory-based layers.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031709Z" creationid="miurahr" creationdate="20201118T031709Z">
+        <seg>:class:`QgsVectorLayer &lt;qgis.core.QgsVectorLayer&gt;` クラスによってサポートされているすべてのデータプロバイダのうちから、ここではメモリレイヤに焦点をあてましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>An ER Diagram to represent this would look like this:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T020947Z" creationid="miurahr" creationdate="20201118T020947Z">
@@ -3967,6 +3991,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>And with that reference, let us explore it a bit</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031849Z" creationid="miurahr" creationdate="20201118T031849Z">
+        <seg>この参照を利用して、少しだけ探索してみましょう::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>And you also got some valuable information about the particular stands, which could be used to plan the management of the forest in the coming years.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T220234Z" creationid="miurahr" creationdate="20201117T220234Z">
@@ -4087,6 +4119,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Anyone can use this dataset without difficulty, but you may prefer to use data from your own country or home town.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032513Z" creationid="miurahr" creationdate="20201118T032513Z">
+        <seg>誰で無理なくこのデータセットを使用できますが、自分の国や故郷からのデータを使用することを好む方もいるかもしれません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Apart from introduction to various help links available, a LinkedIn group for participants has been created for post training support.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T225557Z" creationid="miurahr" creationdate="20201117T225557Z">
@@ -4099,6 +4139,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T225527Z" creationid="miurahr" creationdate="20201117T225527Z">
         <seg>トラの監視とは別に、私たちはまた、そのような計画の生息地管理工事などの活動のためにQGISを使ってパトロールスケジュールを見直して、訪問者のための地図を設計しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Appearance (Symbology) of Vector Layers</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031842Z" creationid="miurahr" creationdate="20201118T031842Z">
+        <seg>ベクタレイヤの表現(シンボロジ)</seg>
       </tuv>
     </tu>
     <tu>
@@ -4163,6 +4211,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>幹線道路</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>As Kubernetes installation can be really complex, we will only focus on aspects used by this demo.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032319Z" creationid="miurahr" creationdate="20201118T032319Z">
+        <seg>Kubernetesのインストールは非常に複雑になる可能性があるため、このデモで使用される側面のみに焦点を当てます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4275,6 +4331,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T114103Z" creationid="miurahr" creationdate="20201117T114103Z">
         <seg>SIPファイルがソースファイル(:file:`python/core/core.sip`,:file:`python/gui/gui.sip`,:file:`python/analysis/analysis.sip`)のいずれかに追加されると、自動的に生成されたものとみなされます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>As the docker image does not exist in a public registry.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032226Z" creationid="miurahr" creationdate="20201118T032226Z">
+        <seg>Dockerイメージがパブリックレジストリに存在しないため。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5391,6 +5455,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Categorized Symbol Renderer</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031936Z" creationid="miurahr" creationdate="20201118T031936Z">
+        <seg>分類シンボルレンダラー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Certificates are provided to the participants after completion of training.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T225601Z" creationid="miurahr" creationdate="20201117T225601Z">
@@ -5527,6 +5599,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Check this `tutorial &lt;https://www.docker.com/101-tutorial&gt;`_.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032208Z" creationid="miurahr" creationdate="20201118T032208Z">
+        <seg>この `チュートリアル &lt;https://www.docker.com/101-tutorial&gt;`_ を確認してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Check to calculate only the :guilabel:`Mean`.</seg>
       </tuv>
       <tuv lang="ja">
@@ -5563,6 +5643,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>使用するジオメトリタイプの選択は、縮尺、利便性やGISにおいてデータでしたいことに依存します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Class</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031857Z" creationid="miurahr" creationdate="20201118T031857Z">
+        <seg>クラス</seg>
       </tuv>
     </tu>
     <tu>
@@ -6279,6 +6367,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Containerized deployment</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032205Z" creationid="miurahr" creationdate="20201118T032205Z">
+        <seg>コンテナ化された配備</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Contains all the information about the actions of the plugin and the main code.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T024642Z" creationid="miurahr" creationdate="20201118T024642Z">
@@ -6555,6 +6651,22 @@
       </tuv>
       <tuv lang="ja">
         <seg>地形の可視化（および丘シャドウイングとしてさらに使用）のための3Dモデルを作成します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Creating Custom Renderers</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032036Z" creationid="miurahr" creationdate="20201118T032036Z">
+        <seg>カスタムレンダラーの作成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Creating Custom Symbol Layer Types</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032009Z" creationid="miurahr" creationdate="20201118T032009Z">
+        <seg>カスタムシンボルレイヤータイプの作成</seg>
       </tuv>
     </tu>
     <tu>
@@ -6855,6 +6967,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Default data sets are provided with the Training Manual, but you may follow these instructions if you wish to replace the default data sets.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032509Z" creationid="miurahr" creationdate="20201118T032509Z">
+        <seg>デフォルトのデータセットはトレーニングマニュアルとともに提供されていますが、デフォルトのデータセットを置き換えたい場合は、これらの指示に従うことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Defining unique value symbology for roads based on the road type.</seg>
       </tuv>
       <tuv lang="ja">
@@ -7099,6 +7219,22 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T215807Z" creationid="miurahr" creationdate="20201117T215807Z">
         <seg>ゾーン情報を持つフィールドを使用して、 :kbd:`注釈：` というテキストを持つラベルに対しても同じ操作を行います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Docker now has its own orchestrator: Swarm (compatible with docker-compose files).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032309Z" creationid="miurahr" creationdate="20201118T032309Z">
+        <seg>Dockerに独自のオーケストレーターSwarmが追加されました（docker-composeファイルと互換性があります）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Docker run pre packaged application (aka images) which can be retrieved as sources (Dockerfile and resources) to build or already built from registries (private or public).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032208Z" creationid="miurahr" creationdate="20201118T032208Z">
+        <seg>Dockerは、パッケージ化されたアプリケーション（別名イメージ）を実行します。これは、ビルドするソース（Dockerfileおよびリソース）として取得するか、レジストリ（プライベートまたはパブリック）から既にビルドできます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7607,6 +7743,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Environment variables</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032128Z" creationid="miurahr" creationdate="20201118T032128Z">
+        <seg>環境変数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Estimating the parameters of the forest is the goal of the forest inventory.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T220136Z" creationid="miurahr" creationdate="20201117T220136Z">
@@ -8091,6 +8235,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>最後に、地図を地理参照します：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Finally, let's check whether everything went well</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031841Z" creationid="miurahr" creationdate="20201118T031841Z">
+        <seg>最後にやったことを全て確認していきましょう::</seg>
       </tuv>
     </tu>
     <tu>
@@ -8647,6 +8799,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>For further / deeper information, check the `official documentation &lt;https://Kubernetes.io/docs/home/&gt;`_.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032321Z" creationid="miurahr" creationdate="20201118T032321Z">
+        <seg>詳細は `公式文書 &lt;https://Kubernetes.io/docs/home/&gt;`_ をご確認ください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>For further information you may refer to :ref:`server_env_variables`.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T015002Z" creationid="miurahr" creationdate="20201118T015002Z">
@@ -8895,6 +9055,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>From an instance of :class:`QgsVectorLayer &lt;qgis.core.QgsVectorLayer&gt;`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031707Z" creationid="miurahr" creationdate="20201118T031707Z">
+        <seg>:class:`QgsVectorLayer &lt;qgis.core.QgsVectorLayer&gt;` クラスのインスタンスから作成する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>From here you can :guilabel:`Toggle Editing` on the layer menu and begin to add places to your table.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150518Z" creationid="miurahr" creationdate="20201117T150518Z">
@@ -8963,6 +9131,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>関数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Further Topics</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032107Z" creationid="miurahr" creationdate="20201118T032107Z">
+        <seg>より詳しいトピック</seg>
       </tuv>
     </tu>
     <tu>
@@ -9239,6 +9415,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Getting Started</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032353Z" creationid="miurahr" creationdate="20201118T032353Z">
+        <seg>はじめに</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Getting a GIS Application for your own computer(s)</seg>
       </tuv>
       <tuv lang="ja">
@@ -9375,6 +9559,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Graduated Symbol Renderer</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031941Z" creationid="miurahr" creationdate="20201118T031941Z">
+        <seg>段階シンボルレンダラー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Graduated Symbols</seg>
       </tuv>
       <tuv lang="ja">
@@ -9419,6 +9611,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>H K Solanki</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>HTTP Server configuration</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032425Z" creationid="miurahr" creationdate="20201118T032425Z">
+        <seg>HTTPサーバー構成</seg>
       </tuv>
     </tu>
     <tu>
@@ -9671,6 +9871,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Here is an example of a marker that draws red circles with specified radius</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032013Z" creationid="miurahr" creationdate="20201118T032013Z">
+        <seg>次の例は指定した半径で赤い円を描画するマーカーを示しています::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Here is an example of a numerical filter which only returns objects whose ``house_no`` is less than 50:</seg>
       </tuv>
       <tuv lang="ja">
@@ -9835,6 +10043,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>GISのデジタルデータはどのようにして保存されていますか</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>How to use a plugin</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032431Z" creationid="miurahr" creationdate="20201118T032431Z">
+        <seg>プラグインの使用方法</seg>
       </tuv>
     </tu>
     <tu>
@@ -10495,6 +10711,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If you choose to do so, your localised data will be used in all lessons from Module 3 to Module 7.2.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032514Z" creationid="miurahr" creationdate="20201118T032514Z">
+        <seg>そうすることを選択した場合は、ローカライズされたデータが、モジュール3からモジュール7.2のすべてのレッスンで使用されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If you did not do so in the previous lesson, add the following people objects to your :kbd:`people` table.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150302Z" creationid="miurahr" creationdate="20201117T150302Z">
@@ -10839,6 +11063,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If you wish to create your own graduated symbol renderer you can do so as illustrated in the example snippet below (which creates a simple two class arrangement)</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031946Z" creationid="miurahr" creationdate="20201118T031946Z">
+        <seg>もし連続値シンボルレンダラーを作ろうとしているのであれば次のスニペットの例で書かれているようにします(これはシンプルな二つのクラスを作成するものを取り上げています)::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If you wish to replace the default data set with localised data for your course, this can easily be done with tools built into QGIS.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032522Z" creationid="miurahr" creationdate="20201118T032522Z">
+        <seg>デフォルトのデータセットをコースのためのローカライズされたデータに置き換えたい場合、QGISに組み込まれたツールを使って簡単に行うことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If you zoom into the |majorUrbanName| area, you'll notice that this dataset has a low resolution:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T020712Z" creationid="miurahr" creationdate="20201118T020712Z">
@@ -11047,6 +11287,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Imagine you would like to customize the way how the data gets rendered.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032011Z" creationid="miurahr" creationdate="20201118T032011Z">
+        <seg>データをどうレンダリングするかをカスタマイズしたいと考えているとします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Imagine, for instance, that you are writing an interpolation algorithm, and that for a given location you need to know the 10 closest points from a points layer, in order to use those point for calculating the interpolated value.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T031541Z" creationid="miurahr" creationdate="20201118T031541Z">
@@ -11163,6 +11411,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T062246Z" creationid="miurahr" creationdate="20201117T062246Z">
         <seg>技術的な問題は、多くの場合、オンラインフォーラムを参照することによって解決することができるよう「正式な」GISのトレーニングを取得することは困難である世界の一部では、QGISのユーザーコミュニティの協調的な性質が大きく、高く評価されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In a stack, the images are working in the same private network, and you can start / stop the whole stack or deploy the stack to other workers.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032305Z" creationid="miurahr" creationdate="20201118T032305Z">
+        <seg>スタックでは、イメージは同じプライベートネットワークで動作しており、スタック全体を開始/停止したり、スタックを他のワーカーに配備したりできます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12287,6 +12543,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Installation on Debian-based systems</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032354Z" creationid="miurahr" creationdate="20201118T032354Z">
+        <seg>Debianのベースのシステムへのインストール</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Instead use</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T092040Z" creationid="miurahr" creationdate="20201117T092040Z">
@@ -12399,6 +12663,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>It can be used to create temporary, memory-based layers (``memory``) and connect to OGR datasets (``ogr``), databases (``postgres``, ``spatialite``, ``mysql``, ``mssql``) and more (``wfs``, ``gpx``, ``delimitedtext``...).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031650Z" creationid="miurahr" creationdate="20201118T031650Z">
+        <seg>メモリ上の一時的なレイヤ(``memory``) を作ったり、OGRデータセット(``ogr``) やデータベース (``postgres``, ``spatialite``, ``mysql``, ``mssql``) やその他 (``wfs``, ``gpx``, ``delimitedtext``...) に接続するために使うことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>It can however misclassify portions of large water bodies as snow, caused by water having absorption characteristics in the Near Infrared part of the spectrum.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222543Z" creationid="miurahr" creationdate="20201117T222543Z">
@@ -12419,6 +12691,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T020807Z" creationid="miurahr" creationdate="20201118T020807Z">
         <seg>これは、手数料を必要とせず、アクセス制限もなく、全世界的です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It does not store data on disk, allowing developers to use it as a fast backend for some temporary layers.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031711Z" creationid="miurahr" creationdate="20201118T031711Z">
+        <seg>ディスクにデータを格納することをしないため、開発者はなんらかの一時的なレイヤのための手っ取り早いバックエンドとしてこれを使うことができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12559,6 +12839,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>It is possible to obtain a dump of a renderer contents in text form --- can be useful for debugging</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031915Z" creationid="miurahr" creationdate="20201118T031915Z">
+        <seg>レンダラーの中身をテキストフォームにダンプできます --- デバッグ時に役に立つでしょう::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It is possible to use the symbol layer also without adding it to the registry, but some functionality will not work: e.g. loading of project files with the custom symbol layers or inability to edit the layer's attributes in GUI.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032030Z" creationid="miurahr" creationdate="20201118T032030Z">
+        <seg>レジストリに追加しなくてもシンボルレイヤーを使うことはできますが、いくつかの機能が動かないでしょう: 例えばカスタムシンボルレイヤーを使ってプロジェクトファイルを読み込んだり、GUIでレイヤーの属性を編集できないなど。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>It is requested, but not required, that you contact the authors of the Document well before redistributing any large number of copies, to give them a chance to provide you with an updated version of the Document.</seg>
       </tuv>
       <tuv lang="ja">
@@ -12595,6 +12891,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135736Z" creationid="miurahr" creationdate="20201117T135736Z">
         <seg>それは地図上での測定距離に **縮尺分母** を掛ければ **現実世界** での距離がわかることを意味します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It might be useful to create a new renderer implementation if you would like to customize the rules how to select symbols for rendering of features.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032037Z" creationid="miurahr" creationdate="20201118T032037Z">
+        <seg>もし地物をレンダリングするためのシンボルをどう選択するかをカスタマイズしたいのであれば、新しいレンダラーの実装を作ると便利かもしれません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12919,6 +13223,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Kubernetes describes the objects to deploy in yaml manifests.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032333Z" creationid="miurahr" creationdate="20201118T032333Z">
+        <seg>Kubernetesは、yamlマニフェストにデプロイするオブジェクトを記述します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>LAYER</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T015351Z" creationid="miurahr" creationdate="20201118T015351Z">
@@ -12987,6 +13299,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T215811Z" creationid="miurahr" creationdate="20201117T215811Z">
         <seg>最後になりましたが、印刷や画像ファイルやPDFファイルに地図をエクスポートします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Later modules use more complex data sources which may or may not be available for your region.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032515Z" creationid="miurahr" creationdate="20201118T032515Z">
+        <seg>それ以降のモジュールはより複雑なデータソースを使用しており、お住まいの地域ではご使用になれない場合があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13123,6 +13443,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123222Z" creationid="miurahr" creationdate="20201117T123222Z">
         <seg>Lerato は学校で地理学を学び、私たちと一緒にGISを学ぶことを楽しんでいます！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Let us finish our RandomRenderer example</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032101Z" creationid="miurahr" creationdate="20201118T032101Z">
+        <seg>では、私達の RandomRenderer の例を終わらせましょう</seg>
       </tuv>
     </tu>
     <tu>
@@ -13891,6 +14219,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>メンバ変数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Memory provider is intended to be used mainly by plugin or 3rd party app developers.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031710Z" creationid="miurahr" creationdate="20201118T031710Z">
+        <seg>メモリプロバイダは主にプラグインやサードパーティ製アプリの開発者に使われることを意図しています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14799,6 +15135,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Now we are missing only the final glue: to make QGIS aware of these new classes.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032027Z" creationid="miurahr" creationdate="20201118T032027Z">
+        <seg>私達は最後につなげるところだけまだ扱っていません: QGIS にこれらの新しいクラスを知らせる方法です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Now we need to enable editing in the shapefile using the 'enable editing' menu option or tool bar icon in the GIS Application.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123703Z" creationid="miurahr" creationdate="20201117T123703Z">
@@ -15143,6 +15487,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Once the spatial index is created you will be able to iterate over features within smaller regions faster (since it's not necessary to traverse all the features, only those in specified rectangle).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031809Z" creationid="miurahr" creationdate="20201118T031757Z">
+        <seg>空間インデックスが作成されると、複数の地物にわたって行う処理を、より小さな領域内でより速く行うことができます。これはあらためて地物すべてを走査する必要がなく、指定された領域内のみを走査すればよいからです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Once you are happy with your control points, you can save them for later use:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T220124Z" creationid="miurahr" creationdate="20201117T220124Z">
@@ -15155,6 +15507,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T215627Z" creationid="miurahr" creationdate="20201117T215627Z">
         <seg>満足なシンボル体系を得たら、印刷された地図にいくつかのより多くの情報を追加する準備が整いました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Once you have downloaded the required file(s), they should be saved in the :file:`exercise_data` directory, under :file:`raster/SRTM` subfolders.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032553Z" creationid="miurahr" creationdate="20201118T032553Z">
+        <seg>必要なファイルをダウンロードしたら、それらを :file:`raster/SRTM` サブフォルダの下の :file:`exercise_data` ディレクトリに保存する必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15339,6 +15699,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T145616Z" creationid="miurahr" creationdate="20201117T145616Z">
         <seg>QGISを開き、新しい空のプロジェクトを作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Open a new QGIS project</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032524Z" creationid="miurahr" creationdate="20201118T032524Z">
+        <seg>QGISプロジェクトを開く</seg>
       </tuv>
     </tu>
     <tu>
@@ -16227,6 +16595,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>述語中では最初に定数を置くことを好みます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Preparing Exercise Data</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032508Z" creationid="miurahr" creationdate="20201118T032508Z">
+        <seg>練習データを準備する</seg>
       </tuv>
     </tu>
     <tu>
@@ -17247,6 +17623,30 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Renders all features with the same symbol</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031903Z" creationid="miurahr" creationdate="20201118T031903Z">
+        <seg>単一シンボル。全ての地物を同じシンボルでレンダリングします</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Renders features using a different symbol for each category</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031907Z" creationid="miurahr" creationdate="20201118T031907Z">
+        <seg>分類されたシンボル。カテゴリごとに違うシンボルを使って地物をレンダリングします</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Renders features using a different symbol for each range of values</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031911Z" creationid="miurahr" creationdate="20201118T031911Z">
+        <seg>段階に分けられたシンボル。それぞれの範囲の値によって違うシンボルを使って地物をレンダリングします</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Repeat the previous steps for any other file that needs to be updated to fix the issue</seg>
       </tuv>
       <tuv lang="ja">
@@ -18199,6 +18599,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Single Symbol Renderer</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031916Z" creationid="miurahr" creationdate="20201118T031916Z">
+        <seg>単一シンボルレンダラー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Single Symbols</seg>
       </tuv>
       <tuv lang="ja">
@@ -18219,6 +18627,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>単一シンボル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Size and width are in millimeters by default, angles are in degrees.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031957Z" creationid="miurahr" creationdate="20201118T031957Z">
+        <seg>サイズと幅は標準でミリメートルが使われ、角度は 度 が使われます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18327,6 +18743,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>So, we have to modify the Apache configuration file to indicate the **QGIS_PLUGINPATH** environment variable to FastCGI:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032427Z" creationid="miurahr" creationdate="20201118T032427Z">
+        <seg>したがって、 **QGIS_PLUGINPATH** 環境変数をFastCGIに示すように、Apache構成ファイルを変更する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Software was then pursued for the personal use for one year and its new versions were checked for the enhanced functionalities.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T225604Z" creationid="miurahr" creationdate="20201117T225604Z">
@@ -18387,6 +18811,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222555Z" creationid="miurahr" creationdate="20201117T222555Z">
         <seg>いくつかの季節の結果をここで見ることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Some use cases where you would want to do it: symbol is determined from a combination of fields, size of symbols changes depending on current scale etc.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032039Z" creationid="miurahr" creationdate="20201118T032039Z">
+        <seg>いくつかのユースケースとしてこんなことをしたいのかもしれません: フィールドの組み合わせからシンボルを決定する、現在の縮尺に合わせてシンボルのサイズを変更するなどなど。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18531,6 +18963,30 @@
       </tuv>
       <tuv lang="ja">
         <seg>特定の行に対するコメントは、次のいずれかの方法で公開することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Specifies an attribute of the layer.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031837Z" creationid="miurahr" creationdate="20201118T031837Z">
+        <seg>レイヤーの属性を指定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Specifies that the provider will use a spatial index</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031835Z" creationid="miurahr" creationdate="20201118T031835Z">
+        <seg>プロバイダーが空間インデックスを使うように指定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Specifies the coordinate reference system, where definition may be any of the forms accepted by :meth:`QgsCoordinateReferenceSystem.createFromString &lt;qgis.core.QgsCoordinateReferenceSystem.createFromString&gt;`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031833Z" creationid="miurahr" creationdate="20201118T031833Z">
+        <seg>座標参照系を指定します。ここでの定義は :meth:`QgsCoordinateReferenceSystem.createFromString &lt;qgis.core.QgsCoordinateReferenceSystem.createFromString&gt;` で有効な形式のいずれかを使用します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18863,6 +19319,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Symbols are classes which take care of drawing of visual representation of features, while renderers determine what symbol will be used for a particular feature.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031843Z" creationid="miurahr" creationdate="20201118T031843Z">
+        <seg>シンボルは地物の視覚的表現を処理するクラスで、レンダラはそれぞれの地物でどのシンボルが使われるかを決定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>System Description</seg>
       </tuv>
       <tuv lang="ja">
@@ -19019,6 +19483,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>異なる地図帳プレビュー地図を見て、ラベルの内容をテストします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Test the server with the HelloWorld plugin:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032432Z" creationid="miurahr" creationdate="20201118T032432Z">
+        <seg>HelloWorldのプラグインでサーバーをテストします：</seg>
       </tuv>
     </tu>
     <tu>
@@ -19235,6 +19707,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T031525Z" creationid="miurahr" creationdate="20201118T031525Z">
         <seg>:meth:`beginEditCommand() &lt;qgis.core.QgsVectorLayer.beginEditCommand&gt;` メソッドは内部的に「アクティブな」コマンドを生成し、ベクターレイヤーでその後に起こる変化を記録し続けます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The :ref:`sample data provided &lt;data_downloadlink&gt;` with the Training Manual refers to the town of |majorUrbanName| and its surroundings.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032510Z" creationid="miurahr" creationdate="20201118T032510Z">
+        <seg>:ref:`提供されているサンプルデータ &lt;data_downloadlink&gt;` はトレーニングマニュアルと一緒に |majorUrbanName| とその周辺の町を指します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19591,6 +20071,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The URI can also specify the coordinate reference system, fields, and indexing of the memory provider in the URI.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031830Z" creationid="miurahr" creationdate="20201118T031830Z">
+        <seg>URIではメモリプロバイダの座標参照系、属性フィールド、URI内でのメモリプロバイダのインデックスも指定できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The University of Southern Queensland (USQ) is a regional university located in south-east Queensland, Australia.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222409Z" creationid="miurahr" creationdate="20201117T222346Z">
@@ -19791,6 +20279,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The attribute has a name, and optionally a type (integer, double, or string), length, and precision.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031837Z" creationid="miurahr" creationdate="20201118T031837Z">
+        <seg>属性は名前を持ち、オプションとして型(integer, double, string)、長さ、および精度を持ちます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The attributes are stored in a **table**</seg>
       </tuv>
       <tuv lang="ja">
@@ -19943,6 +20439,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The constructor also takes a URI defining the geometry type of the layer, one of: ``"Point"``, ``"LineString"``, ``"Polygon"``, ``"MultiPoint"``, ``"MultiLineString"``, ``"MultiPolygon"`` or ``"None"``.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031828Z" creationid="miurahr" creationdate="20201118T031828Z">
+        <seg>コンストラクタはレイヤのジオメトリタイプを定義するURIも必要とします。これは ``"Point"``、``"LineString"``、``"Polygon"``、``"MultiPoint"``、``"MultiLineString"``、``"MultiPolygon"``、``"None"``のうちのひとつです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The core area of the reserve which constitutes the “Nameri National Park” is bound by River Jia-Bhoreli on the west and River Bor-Dikorai in the east.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T225428Z" creationid="miurahr" creationdate="20201117T225428Z">
@@ -20027,6 +20531,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T145548Z" creationid="miurahr" creationdate="20201117T145548Z">
         <seg>使用するデータはどこかから持ってこなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The dataset contains feature names in both English and Afrikaans.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032512Z" creationid="miurahr" creationdate="20201118T032512Z">
+        <seg>データセットは英語とアフリカーンス語の両方で地物名を含みます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20239,10 +20751,42 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The following code implements such widget</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032020Z" creationid="miurahr" creationdate="20201118T032020Z">
+        <seg>次のコードはそのようなウィジェットの実装となります::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The following code shows a simple custom renderer that creates two marker symbols and chooses randomly one of them for every feature</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032040Z" creationid="miurahr" creationdate="20201118T032040Z">
+        <seg>次のコードは二つのマーカーシンボルを作成して全ての地物からランダムに一つ選ぶ簡単なカスタムレンダラーです</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The following example code illustrates creating and populating a memory provider</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031840Z" creationid="miurahr" creationdate="20201118T031840Z">
+        <seg>次のサンプルコードはメモリプロバイダーを作成してデータ投入をしている様子です::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The following example constructs a window that contains a map canvas and basic map tools for map panning and zooming.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T003600Z" creationid="miurahr" creationdate="20201118T003600Z">
         <seg>以下の例では、地図キャンバスと、地図のパンニングとズームのための基本的な地図ツールを含むウィンドウを作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The following example of a URI incorporates all these options</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031839Z" creationid="miurahr" creationdate="20201118T031839Z">
+        <seg>次のサンプルは全てのこれらのオプションを含んだURLです::</seg>
       </tuv>
     </tu>
     <tu>
@@ -20439,6 +20983,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The last missing bit is the renderer metadata and registration in registry, otherwise loading of layers with the renderer will not work and user will not be able to select it from the list of renderers.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032056Z" creationid="miurahr" creationdate="20201118T032056Z">
+        <seg>最後のちょっとした作業はレンダラーのメタデータとレジストリへの登録です。これらをしないとレンダラーのレイヤーの読み込みは動かず、ユーザーはレンダラーのリストから選択できないでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The last step is to add this symbol layer to the registry --- and we are done.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032034Z" creationid="miurahr" creationdate="20201118T032034Z">
+        <seg>最後にこのシンボルレイヤーをレジストリに追加します --- これで完了です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The last step is to set up the Atlas tool:</seg>
       </tuv>
       <tuv lang="ja">
@@ -20563,6 +21123,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T134403Z" creationid="miurahr" creationdate="20201117T134403Z">
         <seg>地図ビューではレイヤをグラフィック表現で表示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The memory provider also supports spatial indexing, which is enabled by calling the provider's :meth:`createSpatialIndex() &lt;qgis.core.QgsVectorDataProvider.createSpatialIndex&gt;` function.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031805Z" creationid="miurahr" creationdate="20201118T031732Z">
+        <seg>メモリプロバイダは空間インデックスもサポートしています。これはプロバイダの :meth:`createSpatialIndex() &lt;qgis.core.QgsVectorDataProvider.createSpatialIndex&gt;` 関数を呼び出すことによって有効になります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20919,6 +21487,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The provider supports string, int and double fields.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031713Z" creationid="miurahr" creationdate="20201118T031713Z">
+        <seg>このプロバイダは属性フィールドの型として string、int、double をサポートします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The puck is connected to a computer and each feature that is captured using the puck gets stored in the computer's memory.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123929Z" creationid="miurahr" creationdate="20201117T123929Z">
@@ -20963,6 +21539,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T015623Z" creationid="miurahr" creationdate="20201118T015623Z">
         <seg>赤線引き地物は、リクエスト中のジオメトリとラベルに渡すのに使用できます、標準返された画像（地図）上でサーバーによって重ねあわされます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The region you choose to use should have a good mix of urban and rural areas, containing roads of differing significance, area boundaries (such as nature reserves or farms) and surface water, such as streams and rivers.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032523Z" creationid="miurahr" creationdate="20201118T032523Z">
+        <seg>あなたが使おうとする領域は、都市部と農村部の適当な混合地であり、河川や水面、道路、地域の境界(自然保護区や農場など)などが分かれてる必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21175,6 +21759,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The syntax is:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031831Z" creationid="miurahr" creationdate="20201118T031831Z">
+        <seg>構文は、</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The systematic sampling design is ready and the field teams have loaded the GPS coordinates in their navigation devices.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150732Z" creationid="miurahr" creationdate="20201117T150732Z">
@@ -21203,6 +21795,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T215803Z" creationid="miurahr" creationdate="20201117T215803Z">
         <seg>:guilabel:`アイテムプロパティ` 中のボックス内のテキストは :kbd:`詳細図調査ゾーン: [% "Zone" %]` と表示されるはずです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The tokens you need to replace are as follows:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032606Z" creationid="miurahr" creationdate="20201118T032606Z">
+        <seg>置き換える必要のあるトークンは次のとおりです:</seg>
       </tuv>
     </tu>
     <tu>
@@ -21431,6 +22031,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Then, restart Apache:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032430Z" creationid="miurahr" creationdate="20201118T032430Z">
+        <seg>それから、Apacheを再起動します:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Then:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T145746Z" creationid="miurahr" creationdate="20201117T145746Z">
@@ -21487,6 +22095,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>There are many different kinds, but we will only use deployments (handle pods, i.e. docker images) and services to expose the deployments to internal or external purposes.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032334Z" creationid="miurahr" creationdate="20201118T032334Z">
+        <seg>さまざまな種類がありますが、デプロイメント（ポッドを処理する、つまりDockerイメージ）とサービスのみを使用して、デプロイメントを内部または外部の目的に公開します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>There are many different ways to obtain data about objects.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T145646Z" creationid="miurahr" creationdate="20201117T145646Z">
@@ -21503,6 +22119,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>There are many orchestrators, for example Swarm, Kubernetes and Mesos.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032305Z" creationid="miurahr" creationdate="20201118T032305Z">
+        <seg>たとえば、Swarm、Kubernetes、Mesosなど、多くのオーケストレーターがいます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>There are many other WMS servers to choose from.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T020848Z" creationid="miurahr" creationdate="20201118T020848Z">
@@ -21515,6 +22139,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135133Z" creationid="miurahr" creationdate="20201117T135133Z">
         <seg>地球のまわりを周回している衛星には多くの種類があり、それらによって撮影された画像はGIS上でラスターデータとして見ることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>There are many ways to use containerized application, from the most simple (simple Docker images) to sophisticated (Kubernetes and so on).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032206Z" creationid="miurahr" creationdate="20201118T032206Z">
+        <seg>コンテナ化されたアプリケーションを使用するには、最も単純なもの（単純なDockerイメージ）から高度なもの（Kubernetesなど）まで、さまざまな方法があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21611,6 +22243,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>地図プレビューでレイヤーのデータが表示される :guilabel:`プレビュー` タブもあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>There may be multiple field definitions.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031838Z" creationid="miurahr" creationdate="20201118T031838Z">
+        <seg>フィールドの定義は複数あってかまいません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21739,6 +22379,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T221958Z" creationid="miurahr" creationdate="20201117T221958Z">
         <seg>これらの中にあるのは：湖沼水質；洪水の監視； 土地の劣化と土地被覆特性評価；水域マッピングおよび水文モデリング。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>These instructions assume you have a good knowledge of QGIS and are not intended to be used as teaching material.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032515Z" creationid="miurahr" creationdate="20201118T032515Z">
+        <seg>以下の手順では、QGISの十分な知識を持っており、教材として使用されることを意図していないと仮定します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22039,6 +22687,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This can be useful if you want to alter some properties:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031935Z" creationid="miurahr" creationdate="20201118T031935Z">
+        <seg>いくつかのプロパティを変更したい場合に便利です:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This can cause a usability problem, especially if you have large datasets to create, or if you want other people to help you digitize and they find the default forms to be confusing.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T145842Z" creationid="miurahr" creationdate="20201117T145842Z">
@@ -22067,6 +22723,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222544Z" creationid="miurahr" creationdate="20201117T222544Z">
         <seg>NDSIのこの特性は、モデル内のいくつかの段階で水マスクを組み込む必要性を示しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This class supports all the vector formats that OGR supports (GeoPackage, Shapefile, GeoJSON, KML and others).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031639Z" creationid="miurahr" creationdate="20201118T031639Z">
+        <seg>このクラスはGeoPackage、Shapefile、GeoJSON、KMLその他のすべてのOGRがサポートするベクターフォーマットをサポートしています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22247,6 +22911,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This is done by adding the symbol layer to registry.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032028Z" creationid="miurahr" creationdate="20201118T032028Z">
+        <seg>これはレジストリにシンボルレイヤーを追加すれば完了です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This is especially useful if a web client uses an external background layer in the web map.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T015651Z" creationid="miurahr" creationdate="20201118T015651Z">
@@ -22379,6 +23051,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T031547Z" creationid="miurahr" creationdate="20201118T031547Z">
         <seg>しなければいけないことはこうです：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This kind of deployment needs the `docker application &lt;https://www.docker.com&gt;`_ to be installed and running.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032207Z" creationid="miurahr" creationdate="20201118T032207Z">
+        <seg>この種類の配備では、 `dockerアプリケーション &lt;https://www.docker.com&gt;`_ をインストールして実行する必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22567,6 +23247,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This process is intended for course conveners, or more experienced QGIS users who wish to create localised sample data sets for their course.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032509Z" creationid="miurahr" creationdate="20201118T032509Z">
+        <seg>このプロセスはコース召集者、または、それらのコースのためにローカライズされたサンプル・データセットをつくりたいより経験あるQGISユーザー向けにしました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This process is known as 'heads-up digitising' and is shown in figure_headsup_digitizing_.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123750Z" creationid="miurahr" creationdate="20201117T123750Z">
@@ -22595,6 +23283,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>このプロジェクトによって、行政機関およびこの地域の人々がリスクをより意識できるようになり、将来のより良い意思決定ができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This renderer is very similar to the categorized symbol renderer described above, but instead of one attribute value per class it works with ranges of values and thus can be used only with numerical attributes.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031942Z" creationid="miurahr" creationdate="20201118T031942Z">
+        <seg>このレンダラーは先ほど扱ったカテゴリ分けシンボルのレンダラーととても似ていますが、クラスごとの一つの属性値の代わりに領域の値として動作し、そのため数字の属性のみ使うことができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22763,6 +23459,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141625Z" creationid="miurahr" creationdate="20201117T141625Z">
         <seg>これは既存のレッスンの間に、または既存のレッスンの後に新しいレッスンを挿入した場合に必要となります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This will be specified in the virtual host configuration and passed on to the server through an environment variable:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032424Z" creationid="miurahr" creationdate="20201118T032424Z">
+        <seg>これは仮想ホスト構成で指定され、環境変数を介してサーバーに渡されます：</seg>
       </tuv>
     </tu>
     <tu>
@@ -23039,6 +23743,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>To be able to use server plugins, FastCGI needs to know where to look.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032426Z" creationid="miurahr" creationdate="20201118T032426Z">
+        <seg>サーバープラグインを使用できるようにするには、FastCGIはどこから見えるかを知る必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>To begin with, we digitized the NTR boundary in QGIS and saved it as polygon.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T225521Z" creationid="miurahr" creationdate="20201117T225521Z">
@@ -23075,6 +23787,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T145427Z" creationid="miurahr" creationdate="20201117T145427Z">
         <seg>ラスターとベクターの分析を組み合わせるには、データのタイプを一方からもう一方に変換する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>To comply with the following explanations, rename it to :file:`osm.qgs`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032247Z" creationid="miurahr" creationdate="20201118T032247Z">
+        <seg>以下の説明に準拠するため、名前を :file:`osm.qgs` に変更します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23175,6 +23895,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>To do so create a directory :file:`qgis-server` and within its directory:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032238Z" creationid="miurahr" creationdate="20201118T032238Z">
+        <seg>そのためには、ディレクトリ :file:`qgis-server` をそのディレクトリ内に作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>To do so, create a directory :file:`data` within the directory :file:`qgis-server` and copy your file in it.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032245Z" creationid="miurahr" creationdate="20201118T032245Z">
+        <seg>これを行うには、ディレクトリ :file:`qgis-server` 内にディレクトリ :file:`data` を作成し、その中にファイルをコピーします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>To do so, you will need to add an entry in the answer sheet.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141620Z" creationid="miurahr" creationdate="20201117T141620Z">
@@ -23239,6 +23975,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>To find out more about ranges used in the renderer</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031944Z" creationid="miurahr" creationdate="20201118T031944Z">
+        <seg>レンダラーで使われている領域の多くの情報を見つけるには</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>To find out whether a layer is in editing mode, use the :meth:`isEditable() &lt;qgis.core.QgsVectorLayer.isEditable&gt;` method.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T031519Z" creationid="miurahr" creationdate="20201118T031519Z">
@@ -23271,6 +24015,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>To get a list of categories</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031939Z" creationid="miurahr" creationdate="20201118T031939Z">
+        <seg>カテゴリの配列を取得するには</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>To get an idea of what you will do next, here is a full set of detail maps for the forest area:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T215706Z" creationid="miurahr" creationdate="20201117T215706Z">
@@ -23283,6 +24035,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222547Z" creationid="miurahr" creationdate="20201117T222547Z">
         <seg>その分類を取得するために、別のGRASSモジュール「r.recode」を使用し、地図1.4『「非雪」VS「雪」再コード化』に示す結果を作成しました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>To install the HelloWorld example plugin for testing the servers, you firstly have to create a directory to hold server plugins.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032423Z" creationid="miurahr" creationdate="20201118T032423Z">
+        <seg>サーバーのテスト用にHelloWorldサンプルプラグインをインストールするには、まずサーバープラグインを保持するディレクトリを作成する必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23419,6 +24179,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T145511Z" creationid="miurahr" creationdate="20201117T145511Z">
         <seg>画像の大きさを表示するには、そのメタデータを開きます（ :guilabel:`レイヤーのプロパティ` 中の :guilabel:`メタデータ` タブ）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>To work with a docker image set you could use a docker stack managed by an orchestrator.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032303Z" creationid="miurahr" creationdate="20201118T032303Z">
+        <seg>Dockerイメージセットを操作するには、オーケストレーターが管理するDockerスタックを使用できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23683,6 +24451,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140101Z" creationid="miurahr" creationdate="20201117T140101Z">
         <seg>最も一般的な方法の2つは、航空写真と衛星画像です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Type</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031856Z" creationid="miurahr" creationdate="20201118T031856Z">
+        <seg>タイプ</seg>
       </tuv>
     </tu>
     <tu>
@@ -24319,6 +25095,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Usually it is convenient to add a GUI for setting attributes of the symbol layer type to allow users to customize the appearance: in case of our example above we can let user set circle radius.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032018Z" creationid="miurahr" creationdate="20201118T032018Z">
+        <seg>普通はユーザーに外観をカスタマイズさせるためにシンボルレイヤータイプの属性を設定するGUIを追加すると使いやすくなります: 上記の例であればユーザーは円の半径を設定できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Usually the primary key is called id and is a sequence.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150244Z" creationid="miurahr" creationdate="20201117T150244Z">
@@ -24911,6 +25695,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>We will have to create metadata for the symbol layer</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032031Z" creationid="miurahr" creationdate="20201118T032031Z">
+        <seg>シンボルレイヤーのメタデータを作る必要があるでしょう</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>We will revisit joins as we create more complex queries later.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150313Z" creationid="miurahr" creationdate="20201117T150313Z">
@@ -25075,6 +25867,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135729Z" creationid="miurahr" creationdate="20201117T135729Z">
         <seg>表現分数が非常に小さな比、例えば1:1000 000、を表す場合、 **小縮尺地図** と呼ばれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>When a vector layer is being rendered, the appearance of the data is given by **renderer** and **symbols** associated with the layer.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031842Z" creationid="miurahr" creationdate="20201118T031842Z">
+        <seg>ベクタレイヤがレンダリングされるとき、データの表現はレイヤに関連付けられた **レンダラー** と **シンボル** によって決定されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25807,6 +26607,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Working with Symbol Layers</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032002Z" creationid="miurahr" creationdate="20201118T032002Z">
+        <seg>シンボルレイヤーの操作</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Working with Symbols</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031947Z" creationid="miurahr" creationdate="20201118T031947Z">
+        <seg>シンボルの操作</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Working with Vector Data</seg>
       </tuv>
       <tuv lang="ja">
@@ -26115,6 +26931,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>:file:`processing_provider` フォルダを作ってそこに次の3つのファイルを納めることもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can create your own symbol layer class that will draw the features exactly as you wish.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032012Z" creationid="miurahr" creationdate="20201118T032012Z">
+        <seg>思うままに地物を描画する独自のシンボルレイヤークラスを作成できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26451,6 +27275,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>QGISブラウザを使用して空間データベースと対話する方法、およびクエリフィルタに基づいて地図にレイヤーを追加する方法を見てきました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You have to `enable it &lt;https://docs.docker.com/get-started/orchestration/#enable-docker-swarm&gt;`_ (the Mac version will also work with Linux).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032310Z" creationid="miurahr" creationdate="20201118T032310Z">
+        <seg>`有効にする&lt;https://docs.docker.com/get-started/orchestration/#enable-docker-swarm&gt;`_ 必要があります（MacバージョンはLinuxでも動作します）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27391,6 +28223,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>``name`` indicates the shape of the marker, and can be any of the following:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031923Z" creationid="miurahr" creationdate="20201118T031923Z">
+        <seg>``name`` は、マーカーの形状を示しており、以下のいずれかとすることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>``none``</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T015332Z" creationid="miurahr" creationdate="20201118T015332Z">
@@ -27615,6 +28455,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>creating/modifying symbols</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032110Z" creationid="miurahr" creationdate="20201118T032110Z">
+        <seg>シンボルの作成や修正</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>description</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T024724Z" creationid="miurahr" creationdate="20201118T024724Z">
@@ -27667,6 +28515,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T024742Z" creationid="miurahr" creationdate="20201118T024742Z">
         <seg>著者のEメール。ウェブサイトでログインしたユーザのみに表示されるが、プラグインをインストールした後はプラグインマネジャで見ることができる</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>exploring symbol layer and renderer registries</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032117Z" creationid="miurahr" creationdate="20201118T032117Z">
+        <seg>シンボルレイヤーとレンダラーのレジストリを調べる方法</seg>
       </tuv>
     </tu>
     <tu>
@@ -27823,6 +28679,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>microk8s needs extra steps: you have to enable the registry and tag the qgis-server image in order to have Kubernetes to find the created images.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032329Z" creationid="miurahr" creationdate="20201118T032329Z">
+        <seg>microk8sでは追加の手順が必要です。Kubernetesで作成されたイメージを検出するには、レジストリを有効にしてqgis-serverイメージにタグを付ける必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>name</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T024658Z" creationid="miurahr" creationdate="20201118T024658Z">
@@ -27967,6 +28831,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>the :class:`QgsVectorLayer &lt;qgis.core.QgsVectorLayer&gt;` class: instantiates a data provider that interprets the supplied path (url) of the data source to connect to and access the data.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T031647Z" creationid="miurahr" creationdate="20201118T031647Z">
+        <seg>:class:`QgsVectorLayer &lt;qgis.core.QgsVectorLayer&gt;` クラス：データソースの指定されたパス (url) を解釈してデータに接続し、アクセスしたデータプロバイダをインスタンス化します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>the :kbd:`WHERE` statement criteria are case sensitive :kbd:`Main Road` is not the same as :kbd:`Main road`</seg>
       </tuv>
       <tuv lang="ja">
@@ -28035,6 +28907,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>たとえば塗りつぶしと赤の境界がない別のスタイルを定義するために使用できる、:kbd:`forest_stands_2012  copy` という名前の新しいレイヤーを取得します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>you will need to build it.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032233Z" creationid="miurahr" creationdate="20201118T032233Z">
+        <seg>ビルドする必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -28187,6 +29067,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>|LS| QGISブラウザにおいてデータベースで作業する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|MOD| Assessment</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032620Z" creationid="miurahr" creationdate="20201118T032620Z">
+        <seg>|MOD| 学習評価</seg>
       </tuv>
     </tu>
     <tu>
@@ -28711,6 +29599,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>|basic| |TY| Replace Tokens</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032602Z" creationid="miurahr" creationdate="20201118T032602Z">
+        <seg>|basic| |TY| トークンの置き換え</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>|basic| |TY| Using the Form to Edit Values</seg>
       </tuv>
       <tuv lang="ja">
@@ -28807,6 +29703,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>|hard| |TY| Create imagery tiff Files</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032551Z" creationid="miurahr" creationdate="20201118T032551Z">
+        <seg>|hard| |TY| 画像のTIFFファイルを作成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>|hard| |TY| Creating Test Data</seg>
       </tuv>
       <tuv lang="ja">
@@ -28827,6 +29731,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>|lerato|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|majorUrbanName| is located about 2 hours' east of Cape Town in the Western Cape of South Africa.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T032511Z" creationid="miurahr" creationdate="20201118T032511Z">
+        <seg>|majorUrbanName| は南アフリカの西ケープ州ケープタウンの約2時間の東に位置しています。</seg>
       </tuv>
     </tu>
     <tu>
