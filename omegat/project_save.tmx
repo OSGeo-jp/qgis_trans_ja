@@ -70,6 +70,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>(The creation of a spatial index will be covered in the next lesson.)</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T123651Z" creationid="miurahr" creationdate="20201118T123651Z">
+        <seg>データがインポートされた後にデータベースに空間索引を作成する必要があります（空間索引の作成は、 次のレッスンで説明します）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>(This example also shows the best practice convention of using UPPER CASE for all SQL keywords.)</seg>
       </tuv>
       <tuv lang="ja">
@@ -2622,6 +2630,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>:ref:`Check your results &lt;geometry-2&gt;`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103321Z" creationid="miurahr" creationdate="20201118T103321Z">
+        <seg>:ref:`結果の確認 &lt;geometry-2&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>:ref:`Check your results &lt;interface-overview-1&gt;`</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T033156Z" creationid="miurahr" creationdate="20201118T033156Z">
@@ -3798,6 +3814,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Access Sub-Objects</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103328Z" creationid="miurahr" creationdate="20201118T103328Z">
+        <seg>サブオブジェクトへのアクセス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Access http://qgisplatform.demo/QGIS-Web-Client-master/site/qgiswebclient.html?map=/home/qgis/projects/world.qgs from your Web browser.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T102634Z" creationid="miurahr" creationdate="20201118T102634Z">
@@ -3962,6 +3986,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>[次は]セクションを追加</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Add a foreign key column to people that references the primary key of the cities table.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103316Z" creationid="miurahr" creationdate="20201118T103316Z">
+        <seg>都市テーブルの主キーを参照する人々への外部キー列を追加します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4727,6 +4759,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>All these functions start with ``ST_``.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103347Z" creationid="miurahr" creationdate="20201118T103347Z">
+        <seg>これらの関数はすべて ``ST_`` で始まります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>All this outputs are wrapped in HTML files and displayed in the so--called *Results viewer*, which is another element of the processing framework.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T094733Z" creationid="miurahr" creationdate="20201118T094733Z">
@@ -5319,6 +5359,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Another ordering method could be a timestamp, such as the one you get when you capture waypoints with a GPS receiver.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103358Z" creationid="miurahr" creationdate="20201118T103358Z">
+        <seg>別の並べ方は、GPS受信機でウェイポイントをキャプチャするときに得るような、タイムスタンプになりうるかもしれません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Another useful thing to know about the terrain is how steep it is.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T103033Z" creationid="miurahr" creationdate="20201118T103033Z">
@@ -5643,6 +5691,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T032226Z" creationid="miurahr" creationdate="20201118T032226Z">
         <seg>Dockerイメージがパブリックレジストリに存在しないため。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>As the result, you will get all records from table_a which are not stored in table_b.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103412Z" creationid="miurahr" creationdate="20201118T103412Z">
+        <seg>結果として、table_aからtable_bに格納されていないすべてのレコードが得られるでしょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6783,6 +6839,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Building Geometries from Other Geometries</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103352Z" creationid="miurahr" creationdate="20201118T103352Z">
+        <seg>ジオメトリを他のジオメトリから構築する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Bushfire is a real and present concern for the residents and landowners in the Southern Downs Region, and has resulted in the loss of life and property.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222517Z" creationid="miurahr" creationdate="20201117T222517Z">
@@ -6955,6 +7019,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135954Z" creationid="miurahr" creationdate="20201117T135954Z">
         <seg>FOSS（自由でオープンソースのソフトウェア）を学び、使って、共有すれば、食物と住居、そして住んでいる場所の経済を発展させながら、自分自身のスキルを身につけるようになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>By now our schema should be looking like this:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103325Z" creationid="miurahr" creationdate="20201118T103325Z">
+        <seg>スキーマはこのように見えるべきです:</seg>
       </tuv>
     </tu>
     <tu>
@@ -8439,6 +8511,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Clipping</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103348Z" creationid="miurahr" creationdate="20201118T103348Z">
+        <seg>クリッピング</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Clipping and merging raster layers</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T093946Z" creationid="miurahr" creationdate="20201118T093946Z">
@@ -9263,6 +9343,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Create city boundaries by computing the minimum convex hull of all addresses for that city and computing a buffer around that area.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103326Z" creationid="miurahr" creationdate="20201118T103326Z">
+        <seg>その都市のすべてのアドレスの最小凸包を計算し、その領域の周りのバッファを計算することにより、都市の境界線を作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Create the hillshade</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T034121Z" creationid="miurahr" creationdate="20201118T034121Z">
@@ -9315,6 +9403,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T103222Z" creationid="miurahr" creationdate="20201118T103222Z">
         <seg>ラインストリングの作成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Creating Polygons</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103251Z" creationid="miurahr" creationdate="20201118T103251Z">
+        <seg>ポリゴンの作成も簡単です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9411,6 +9507,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T100809Z" creationid="miurahr" creationdate="20201118T100809Z">
         <seg>プロットを作成する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Creating polygons is just as easy.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103254Z" creationid="miurahr" creationdate="20201118T103254Z">
+        <seg>ポリゴンの作成も簡単です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9531,6 +9635,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>データキャプチャ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Data Processing</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103343Z" creationid="miurahr" creationdate="20201118T103343Z">
+        <seg>データプロセッシング</seg>
       </tuv>
     </tu>
     <tu>
@@ -9703,6 +9815,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Delete all data from your people table.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103314Z" creationid="miurahr" creationdate="20201118T103314Z">
+        <seg>peopleテーブルからすべてのデータを削除します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Delete any section Entitled "Endorsements".</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124736Z" creationid="miurahr" creationdate="20201117T124736Z">
@@ -9771,6 +9891,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T033755Z" creationid="miurahr" creationdate="20201118T033755Z">
         <seg>最近の忘れずに地図を保存しましたか？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Differences between tables</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103408Z" creationid="miurahr" creationdate="20201118T103408Z">
+        <seg>テーブル間の差</seg>
       </tuv>
     </tu>
     <tu>
@@ -10995,6 +11123,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135956Z" creationid="miurahr" creationdate="20201117T135956Z">
         <seg>知識とデータの自由な共有という原則が採用されるならば、現在の可能性は将来にまで続きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Exercise: Linking Cities to People</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103311Z" creationid="miurahr" creationdate="20201118T103311Z">
+        <seg>練習:CitiesをPeopleにリンクする</seg>
       </tuv>
     </tu>
     <tu>
@@ -12599,6 +12735,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>For this exercise you should do the following:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103312Z" creationid="miurahr" creationdate="20201118T103312Z">
+        <seg>この演習では次のことを行う必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>For this exercise you will use a previously scanned map, you can find it as :kbd:`rautjarvi_map.tif` in the data folder :kbd:`exercise_data/forestry`</seg>
       </tuv>
       <tuv lang="ja">
@@ -12703,6 +12847,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Fortunately, there are a number of tools that will let you easily move data into and out of PostGIS.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T123635Z" creationid="miurahr" creationdate="20201118T123635Z">
+        <seg>幸い、PostGISにデータを簡単に出し入れできるようにするツールはたくさんあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Fortunately, you already have rasters showing you the slope as well as the aspect, but you have no way of knowing where both conditions are satisfied at once.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T103109Z" creationid="miurahr" creationdate="20201118T103109Z">
@@ -12723,6 +12875,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222819Z" creationid="miurahr" creationdate="20201117T222819Z">
         <seg>しばしば、私たちは適切な調査データなしで設計を行うことを求められます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>From a given point table, you want to generate a linestring.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103354Z" creationid="miurahr" creationdate="20201118T103354Z">
+        <seg>与えられたポイントテーブルから、ラインストリングを生成します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13075,6 +13235,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140720Z" creationid="miurahr" creationdate="20201117T140720Z">
         <seg>``Z`` 軸がある頂点を持ったジオメトリは、それぞれの頂点の高さあるいは深さ（両方ではない）を表すため、しばしば **2.5D** と呼ばれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Geometry Cleaning</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103404Z" creationid="miurahr" creationdate="20201118T103404Z">
+        <seg>ジオメトリクリーニング</seg>
       </tuv>
     </tu>
     <tu>
@@ -15235,6 +15403,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T095909Z" creationid="miurahr" creationdate="20201118T095909Z">
         <seg>上記のように出力項目を展開すると、モデルが2つの値、つまり平均と標準偏差に接続されていることがわかります。これは、数式で使用した値です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If you followed this step, you can check what it did by loading the cities dataset into QGIS, opening its attribute table, and selecting the new entry.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103302Z" creationid="miurahr" creationdate="20201118T103302Z">
+        <seg>この手順に従った場合、QGISに都市データセットをロードし、属性テーブルを開き、新しいエントリを選択することで、何をしたか確認できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19495,6 +19671,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Keep in mind that this is mostly to improve your tacit knowledge when working with geo-enabled databases through a GIS frontend.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103420Z" creationid="miurahr" creationdate="20201118T103420Z">
+        <seg>これはGISのフロントエンドを通じて地理対応データベースを操作するときは、暗黙知を向上させることがほとんどであることに留意してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Keep in mind that this will be part of a backdrop!</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T032848Z" creationid="miurahr" creationdate="20201118T032848Z">
@@ -20419,6 +20603,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T220012Z" creationid="miurahr" creationdate="20201117T220012Z">
         <seg>黒い線の画像で他の十字線を探すと、北と東の両方の方向で互いに1000メートル離れています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Looking at Our Schema</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103322Z" creationid="miurahr" creationdate="20201118T103322Z">
+        <seg>スキーマに着目する</seg>
       </tuv>
     </tu>
     <tu>
@@ -21871,6 +22063,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Note how the two new polygons behave like one polygon.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103304Z" creationid="miurahr" creationdate="20201118T103304Z">
+        <seg>二つの新しいポリゴンが1つのポリゴンのように振る舞うかに注意してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Note that adjacency is not lost.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T094600Z" creationid="miurahr" creationdate="20201118T094600Z">
@@ -22935,6 +23135,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Of course, a database with no easy way to migrate data into it and out of it would not be of much use.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T123634Z" creationid="miurahr" creationdate="20201118T123634Z">
+        <seg>もちろん、データを出し入れする簡単な方法がないデータベースはあまり役に立たないでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Often you won't want to see every single record in the database - especially if there are thousands of records and you are only interested in seeing one or two.</seg>
       </tuv>
       <tuv lang="ja">
@@ -23355,6 +23563,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140340Z" creationid="miurahr" creationdate="20201117T140340Z">
         <seg>これの1つの副作用は、変換が行われるときに属性データ（元のベクターデータに関連付けられた属性）が失われることです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>One thing to remember is that by definition, polygons have at least four vertices, with the last and first being co-located:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103256Z" creationid="miurahr" creationdate="20201118T103256Z">
+        <seg>覚えておくべきことの1つは、ポリゴンには少なくとも4つの頂点があり、最後と最初のものが同じ場所にあることです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24771,6 +24987,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T003414Z" creationid="miurahr" creationdate="20201118T003414Z">
         <seg>認証データベースに新しい認証構成項目を設定する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>PostGIS supports all OGC SFS/MM standard conform functions.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103345Z" creationid="miurahr" creationdate="20201118T103345Z">
+        <seg>PostGISでは、すべてのOGC SFS/MM標準準拠関数をサポートしています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27183,6 +27407,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Select the first vertex point of the resultant linestring:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103337Z" creationid="miurahr" creationdate="20201118T103337Z">
+        <seg>結果の線ストリングの最初の頂点を選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Select the layer in the :guilabel:`Layers` panel.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T015817Z" creationid="miurahr" creationdate="20201118T015817Z">
@@ -28859,6 +29091,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>テーブル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Tablespaces</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103414Z" creationid="miurahr" creationdate="20201118T103414Z">
+        <seg>表領域</seg>
       </tuv>
     </tu>
     <tu>
@@ -31943,6 +32183,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The order of the points is defined by their :kbd:`id`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103356Z" creationid="miurahr" creationdate="20201118T103356Z">
+        <seg>ポイントの順序は、その :kbd:`id` によって定義されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The ordering of the layers is the same ordering that you see in the selection dialog.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T100538Z" creationid="miurahr" creationdate="20201118T100538Z">
@@ -34447,6 +34695,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This is a known issue regarding the creation *in situ* of a spatial index for the data you're importing.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T123647Z" creationid="miurahr" creationdate="20201118T123647Z">
+        <seg>これは、インポートするデータのために空間索引 *in situ* を作成するための既知の問題です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This is a multiple input, that meaning that you can select as many layers as you want.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T100534Z" creationid="miurahr" creationdate="20201118T100534Z">
@@ -35535,6 +35791,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This will mean that no spatial index is being created directly, and you'll need to create it in the database after the data have been imported.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T123650Z" creationid="miurahr" creationdate="20201118T123650Z">
+        <seg>これは空間索引が直接作成されないことを意味します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This will open the file in the ``qgis:master`` branch with a message at the top of the page telling you that you don't have write access to this repo and your changes will be applied to a new branch of your repository.</seg>
       </tuv>
       <tuv lang="ja">
@@ -35879,6 +36143,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>To avoid empty geometries, use:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103351Z" creationid="miurahr" creationdate="20201118T103351Z">
+        <seg>空のジオメトリを避けるには、次のようにします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>To avoid the error, exclude the :kbd:`-I` parameter.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T123648Z" creationid="miurahr" creationdate="20201118T123648Z">
+        <seg>エラーを回避するためには、 :kbd:`-I` パラメーターを外します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>To be able to create maps as precisely as possible, people have studied, modified, and produced many different kinds of projections.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135756Z" creationid="miurahr" creationdate="20201117T135756Z">
@@ -35967,6 +36247,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>To clip a subpart of your data you can use the ``ST_INTERSECT()`` function.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103350Z" creationid="miurahr" creationdate="20201118T103350Z">
+        <seg>データのサブパートをクリップするには、 ``ST_INTERSECT()`` 関数を使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>To clone QGIS master:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T114452Z" creationid="miurahr" creationdate="20201117T114452Z">
@@ -35995,6 +36283,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T032247Z" creationid="miurahr" creationdate="20201118T032247Z">
         <seg>以下の説明に準拠するため、名前を :file:`osm.qgs` に変更します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>To create a linestring from a new point layer called 'points', you can run the following command:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103401Z" creationid="miurahr" creationdate="20201118T103401Z">
+        <seg>'points'という新しいポイントレイヤーから線ストリングを作成するには、次のコマンドを実行します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -36091,6 +36387,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T020458Z" creationid="miurahr" creationdate="20201118T020458Z">
         <seg>証明するために：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>To detect the difference between two tables with the same structure, you can use the PostgreSQL keyword ``EXCEPT``:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103410Z" creationid="miurahr" creationdate="20201118T103410Z">
+        <seg>同じ構造を持つ2つのテーブルの差を検出するには、PostgreSQLキーワード "EXCEPT"を使用します：</seg>
       </tuv>
     </tu>
     <tu>
@@ -36267,6 +36571,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T034502Z" creationid="miurahr" creationdate="20201118T034502Z">
         <seg>psql データベースシェルを終了するには::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>To export the data using a query:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T123657Z" creationid="miurahr" creationdate="20201118T123657Z">
+        <seg>クエリを使用してデータをエクスポートするには :</seg>
       </tuv>
     </tu>
     <tu>
@@ -36531,6 +36843,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>プルリクエストをレビューするには</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>To see how it works without creating a new layer, you could also run this command on the 'people' layer, although of course it would make little real-world sense to do this.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103403Z" creationid="miurahr" creationdate="20201118T103403Z">
+        <seg>どのように機能するかを確認するために、「人」レイヤーにもこのコマンドを実行できたでしょう。もちろん、これを行うことに現実世界の意味はほとんどないでしょうが。</seg>
       </tuv>
     </tu>
     <tu>
@@ -36887,6 +37207,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Transform the polygon boundary to a linestring:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103335Z" creationid="miurahr" creationdate="20201118T103335Z">
+        <seg>ポリゴン境界を線ストリングに変換する：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Translation is considered a kind of modification, so you may distribute translations of the Document under the terms of section 4.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T133653Z" creationid="miurahr" creationdate="20201117T133528Z">
@@ -37159,6 +37487,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Under Windows, you have to perform the import process in two steps:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T123645Z" creationid="miurahr" creationdate="20201118T123645Z">
+        <seg>Windows では, 2ステップでインポート処理を実行します :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Under this new directory, create a file called :kbd:`index.rst`.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141600Z" creationid="miurahr" creationdate="20201117T141600Z">
@@ -37351,10 +37687,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Use QGIS to capture some cities.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103317Z" creationid="miurahr" creationdate="20201118T103317Z">
+        <seg>QGISを使用していくつかの都市をキャプチャします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Use R scripts in Processing</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T100750Z" creationid="miurahr" creationdate="20201118T100750Z">
         <seg>プロセッシングでRスクリプトを使用する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Use SQL to insert some new people records, ensuring that each has an associated street and city.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103318Z" creationid="miurahr" creationdate="20201118T103318Z">
+        <seg>それぞれが関連付けられている通り、街を持っていることを確認して、いくつかの新しい人々のレコードを挿入するSQLを使用してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -39831,6 +40183,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>When you create a database, you can then specify which tablespace to use e.g.::</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103417Z" creationid="miurahr" creationdate="20201118T103417Z">
+        <seg>データベースを作成するときは、例えばどの表領域を使用するか指定できます::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>When you do so, you will be presented with your custom dialog (instead of the generic one that QGIS usually creates).</seg>
       </tuv>
       <tuv lang="ja">
@@ -39939,6 +40299,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135751Z" creationid="miurahr" creationdate="20201117T135751Z">
         <seg>プレゼンテーションやレポート中で地図上の特別な領域を参照したいときは、「経度26.04/緯度32.11付近の家屋は1月から2月の間、多くの場合、洪水にさらされています」と言えます（ figure_map_graticule_ を参照）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>When you want to select the first vertex point of every polygon geometry in the table myPolygonTable, you have to do this in this way:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103334Z" creationid="miurahr" creationdate="20201118T103334Z">
+        <seg>テーブルmyPolygonTable内のすべてのポリゴンジオメトリの最初の頂点を選択したいときは、このような方法でこれを実行する必要があります：</seg>
       </tuv>
     </tu>
     <tu>
@@ -40363,6 +40731,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T094051Z" creationid="miurahr" creationdate="20201118T094051Z">
         <seg>それによって、私たちが望む最後のDEMが得られます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>With the SFS-Model functions, you have a wide variety of options to access sub-objects of SFS Geometries.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103332Z" creationid="miurahr" creationdate="20201118T103332Z">
+        <seg>SFS-モデルの機能を使用すると、SFSジオメトリのサブオブジェクトにアクセスするためのさまざまなオプションを持っています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -41035,6 +41411,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T015613Z" creationid="miurahr" creationdate="20201118T015613Z">
         <seg>QGISプロジェクトファイルをどこで検索するかをサーバーの実行可能ファイルに伝えるために、環境変数として **QGIS_PROJECT_FILE** を定義できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can define where postgres should store its data on disk by creating tablespaces:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103416Z" creationid="miurahr" creationdate="20201118T103416Z">
+        <seg>Postgresがディスク上にデータを格納する場所を定義するには、表領域を作成します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -41879,6 +42263,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You may encounter this error:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T123646Z" creationid="miurahr" creationdate="20201118T123646Z">
+        <seg>次のようなエラーが発生することがあります :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You may extract a single document from such a collection, and distribute it individually under this License, provided you insert a copy of this License into the extracted document, and follow this License in all other respects regarding verbatim copying of that document.</seg>
       </tuv>
       <tuv lang="ja">
@@ -42295,6 +42687,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You usually won't need to actually enter these statements manually, but having a general idea of their structure will help you when using a GIS, especially if you encounter errors that would otherwise seem cryptic.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T123628Z" creationid="miurahr" creationdate="20201118T123628Z">
+        <seg>これはGISのフロントエンドを通じて地理対応データベースを操作するときは、暗黙知を向上させることがほとんどであることに留意してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You want this map to represent the whole forest area and you want it to show only the background map and the :file:`forest_stands_2012` layer, and not display the sample plots.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T215645Z" creationid="miurahr" creationdate="20201117T215645Z">
@@ -42599,6 +42999,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You've learned how to create more complex geometries using PostGIS statements.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103418Z" creationid="miurahr" creationdate="20201118T103418Z">
+        <seg>PostGISの文を使用して、より複雑なジオメトリを作成する方法を学びました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You've seen how to use queries to return the data in your database in a way that allows you to extract useful information from it.</seg>
       </tuv>
       <tuv lang="ja">
@@ -42771,6 +43179,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T215659Z" creationid="miurahr" creationdate="20201117T215659Z">
         <seg>テンプレート地図はほぼ準備ができています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Your updated people schema should look something like this:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103320Z" creationid="miurahr" creationdate="20201118T103320Z">
+        <seg>更新されたユーザーのスキーマは、次のようになります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -44315,6 +44731,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T034357Z" creationid="miurahr" creationdate="20201118T034357Z">
         <seg>|LS| データモデルの実装</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|LS| Import and Export</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T123633Z" creationid="miurahr" creationdate="20201118T123633Z">
+        <seg>|LS| インポートとエクスポート</seg>
       </tuv>
     </tu>
     <tu>
