@@ -5049,8 +5049,8 @@
       <tuv lang="en-US">
         <seg>Also contact the technical advisor of the project steering committee (PSC).</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201118T223952Z" creationid="miurahr" creationdate="20201118T223952Z">
-        <seg>また、プロジェクト運営委員会（PSC）の技術顧問にお問い合わせください。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T232458Z" creationid="miurahr" creationdate="20201118T223952Z">
+        <seg>または、プロジェクト運営委員会（PSC）の技術顧問にお問い合わせることもできます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6849,8 +6849,8 @@
       <tuv lang="en-US">
         <seg>Before starting, make an announcement on the developer mailing list to see if another developer is already working on the same feature.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201118T223952Z" creationid="miurahr" creationdate="20201118T223952Z">
-        <seg>開始する前に、別の開発者がすでに同じ機能に取り組んでいるかどうかを確認するために、開発者メーリングリストで発表を行います。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T232433Z" creationid="miurahr" creationdate="20201118T223952Z">
+        <seg>作業を開始する前に、別の開発者がすでに同じ機能に取り組んでいる可能性を確認するために、開発者メーリングリストで発表を行います。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15817,8 +15817,8 @@
       <tuv lang="en-US">
         <seg>If the new feature requires any changes to the QGIS architecture, a request for comment (RFC) is needed.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201118T215437Z" creationid="miurahr" creationdate="20201118T215437Z">
-        <seg>新機能はQGISアーキテクチャへの変更を必要とする場合は、コメント要求（RFC）が必要とされます。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T232517Z" creationid="miurahr" creationdate="20201118T215437Z">
+        <seg>QGISアーキテクチャへの変更を必要とする新機能では、コメント要求（RFC）が必要とされます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16009,8 +16009,8 @@
       <tuv lang="en-US">
         <seg>If you are a developer and wish to evaluate the pull request queue, there is a very nice `tool that lets you do this from the command line &lt;https://changelog.com/posts/git-pulls-command-line-tool-for-github-pull-requests&gt;`_</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201118T231022Z" creationid="miurahr" creationdate="20201118T231022Z">
-        <seg>あなたが開発者であり、プルリクエストを評価したい場合に、`コマンドラインで作業できる非常に良いツール &lt;https://changelog.com/posts/git-pulls-command-line-tool-for-github-pull-requests&gt;`_があります。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T233121Z" creationid="miurahr" creationdate="20201118T231022Z">
+        <seg>あなたがQGISの開発者であればプルリクエストを検証することになりますが、`コマンドラインで作業できる非常に良いツール &lt;https://changelog.com/posts/git-pulls-command-line-tool-for-github-pull-requests&gt;`_があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16721,8 +16721,8 @@
       <tuv lang="en-US">
         <seg>If you plan to do extensive on that branch, would like to share the work with other developers, and have write access to the upstream repo, you can push your repo up to the QGIS official repo by doing:</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201118T223955Z" creationid="miurahr" creationdate="20201118T223955Z">
-        <seg>そのブランチで広範囲を行うことを計画している場合、他の開発者と仕事を共有したい、上流のレポへの書込アクセス権を持ちたい場合、以下を実行することでQGIS公式レポに自分のレポをプッシュアップできます：</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T232652Z" creationid="miurahr" creationdate="20201118T223955Z">
+        <seg>そのブランチで広範囲の変更を計画している場合や、他の開発者と仕事を共有したい場合、上流のレポへの書込アクセス権を持ちたい場合いは、QGIS公式リポジトリに自分のリポジトリの変更をプッシュアップできるので、次の方法をとります：</seg>
       </tuv>
     </tu>
     <tu>
@@ -17777,8 +17777,8 @@
       <tuv lang="en-US">
         <seg>In general it is easier for developers if you submit GitHub pull requests.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201118T225651Z" creationid="miurahr" creationdate="20201118T225651Z">
-        <seg>一般的に、GitHubのプルリクエストを送信すると、開発者にとって簡単になります。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T233026Z" creationid="miurahr" creationdate="20201118T225651Z">
+        <seg>一般に、GitHubのプルリクエストを利用すると、開発者にとって扱いが簡単になります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17793,8 +17793,8 @@
       <tuv lang="en-US">
         <seg>In general when you submit a PR you should take the responsibility to follow it through to completion - respond to queries posted by other developers, seek out a 'champion' for your feature and give them a gentle reminder occasionally if you see that your PR is not being acted on.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201118T224023Z" creationid="miurahr" creationdate="20201118T224023Z">
-        <seg>一般的に、PRを提出する際には最後までそれをフォロースルーするために責任を取る必要があります - あなたのPRが作用していないと見れば、他の開発者によって投稿された照会に応答し、あなたの機能のための「チャンピオン」を探し出し、時折それらについて軽く催促します。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T233645Z" creationid="miurahr" creationdate="20201118T224023Z">
+        <seg>提案者は、全てが完了するまで、提案したプルリクエストに責任を取る必要があります 。 他の開発者によって投稿された照会に応答してください。もしPRが開発者に確認されていないとわかったら、提案した機能の「チャンピオン」(関連するコードを開発していて適任とおもわれる開発者)を探し出して、適切なタイミングで穏やかにリマインドすることも必要です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24393,8 +24393,8 @@
       <tuv lang="en-US">
         <seg>Now you can start developing.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201118T223955Z" creationid="miurahr" creationdate="20201118T223955Z">
-        <seg>今、開発を開始できます。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T232537Z" creationid="miurahr" creationdate="20201118T223955Z">
+        <seg>さて、開発を開始しましょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27099,8 +27099,8 @@ Generated-By: Babel 2.8.0</seg>
       <tuv lang="en-US">
         <seg>Pull Requests</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201118T215501Z" creationid="miurahr" creationdate="20201118T215501Z">
-        <seg>要求をプル</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T232959Z" creationid="miurahr" creationdate="20201118T215501Z">
+        <seg>プルリクエスト</seg>
       </tuv>
     </tu>
     <tu>
@@ -31155,8 +31155,8 @@ Generated-By: Babel 2.8.0</seg>
       <tuv lang="en-US">
         <seg>Submitting Patches and Pull Requests</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201118T215459Z" creationid="miurahr" creationdate="20201118T215459Z">
-        <seg>パッチを提出して要求をプル</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T232725Z" creationid="miurahr" creationdate="20201118T215459Z">
+        <seg>パッチやプルリクエストを送信</seg>
       </tuv>
     </tu>
     <tu>
@@ -36043,8 +36043,8 @@ Generated-By: Babel 2.8.0</seg>
       <tuv lang="en-US">
         <seg>There are a few guidelines that will help you to get your patches and pull requests into QGIS easily, and help us deal with the patches that are sent to use easily.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201118T215500Z" creationid="miurahr" creationdate="20201118T215500Z">
-        <seg>パッチを取得し簡単にQGISに要求をプルするのに役立つ、そして簡単に使用するために送信されるそのパッチを扱うのに役立つ、いくつかのガイドラインがあります。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T232952Z" creationid="miurahr" creationdate="20201118T215500Z">
+        <seg>簡単にパッチやプルリクエストをQGISに取りこんだり、リポジトリで扱うのに役立つガイドラインが整備されています。</seg>
       </tuv>
     </tu>
     <tu>
