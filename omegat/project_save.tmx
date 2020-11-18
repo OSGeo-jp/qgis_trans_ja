@@ -278,6 +278,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>**Figure: simple GetMap request to QGIS Server**</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102548Z" creationid="miurahr" creationdate="20201118T102548Z">
+        <seg>**図：QGISサーバーへの簡単なGetMapリクエスト**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>**Geographical** data can have associated **non-geographical** data.</seg>
       </tuv>
       <tuv lang="ja">
@@ -598,6 +606,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>**The goal for this lesson:** To change the symbology for a raster layer.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102714Z" creationid="miurahr" creationdate="20201118T102714Z">
+        <seg>**このレッスンの目標:** ラスターレイヤのシンボル体系を変更します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>**The goal for this lesson:** To create a form for a layer.</seg>
       </tuv>
       <tuv lang="ja">
@@ -618,6 +634,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T035436Z" creationid="miurahr" creationdate="20201118T035436Z">
         <seg>**このレッスンの目標：** 森林地域を調査するために体系的なサンプリングプロットの設計を作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>**The goal for this lesson:** To familiarize yourself with the plugin interface and get acquainted with some useful plugins.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102256Z" creationid="miurahr" creationdate="20201118T102256Z">
+        <seg>**このレッスンの目標:** プラグインインターフェイスに慣れ、いくつかの便利なプラグインを使ってみる。</seg>
       </tuv>
     </tu>
     <tu>
@@ -750,10 +774,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>**The goal for this lesson:** To use terrain analysis tools to derive more information about the terrain.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102852Z" creationid="miurahr" creationdate="20201118T102852Z">
+        <seg>**このレッスンの目標:** 地形に関する詳細な情報を取得するために地形解析ツールを使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>**The goal for this lesson:** To use the vectorized terrain results to select suitable plots.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T220958Z" creationid="miurahr" creationdate="20201117T220958Z">
         <seg>**このレッスンの目標:**ベクトル化された地形の結果を使用して適切なプロットを選択するには</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>**The goal of this lesson:** To better understand how to create spatial entities directly in PostgreSQL/PostGIS.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103221Z" creationid="miurahr" creationdate="20201118T103221Z">
+        <seg>**このレッスンの目的** PostgreSQL/PostGIS で空間要素を直接作成する方法をよく理解する。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1610,6 +1650,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>:file:`.shx`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:file:`3320C_2010_314_RGB_LATLNG.tif`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102808Z" creationid="miurahr" creationdate="20201118T102808Z">
+        <seg>ファイル</seg>
       </tuv>
     </tu>
     <tu>
@@ -2566,6 +2614,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>:ref:`Check your results &lt;geometry-1&gt;`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103233Z" creationid="miurahr" creationdate="20201118T103233Z">
+        <seg>:ref:`結果の確認 &lt;geometry-1&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>:ref:`Check your results &lt;interface-overview-1&gt;`</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T033156Z" creationid="miurahr" creationdate="20201118T033156Z">
@@ -2586,6 +2642,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T033253Z" creationid="miurahr" creationdate="20201118T033253Z">
         <seg>:ref:`結果の確認 &lt;interface-preparation-1&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:ref:`Check your results &lt;raster-analysis-1&gt;`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103059Z" creationid="miurahr" creationdate="20201118T103059Z">
+        <seg>:ref:`結果をチェックする &lt;raster-analysis-1&gt;`</seg>
       </tuv>
     </tu>
     <tu>
@@ -3182,6 +3246,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>A hillshade can provide very useful information about the sunlight at a given time of day.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103005Z" creationid="miurahr" creationdate="20201118T103005Z">
+        <seg>陰影図は一日のある時点の日光について非常に有用な情報を提供することができますが審美的な目的で使うこともできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>A key advantage of the Processing Toolbox is the ability to seamlessly use functionalities from different algorithm providers for data processing and analysis.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T221954Z" creationid="miurahr" creationdate="20201117T221954Z">
@@ -3494,6 +3566,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>A simple request looks like:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102546Z" creationid="miurahr" creationdate="20201118T102546Z">
+        <seg>簡単なリクエストは以下のようになります：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>A slope and aspect map were then generated using r.slope.aspect from the raster contour map.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222521Z" creationid="miurahr" creationdate="20201117T222521Z">
@@ -3714,6 +3794,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>プロンプトが表示されたら、プロジェクトに新しいレイヤーを追加し受け入れます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Access http://qgisplatform.demo/QGIS-Web-Client-master/site/qgiswebclient.html?map=/home/qgis/projects/world.qgs from your Web browser.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102634Z" creationid="miurahr" creationdate="20201118T102634Z">
+        <seg>ウェブブラウザから http://qgisplatform.demo/QGIS-Web-Client-master/site/qgiswebclient.html?map=/home/qgis/projects/world.qgs にアクセスしてください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4679,6 +4767,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Also add a constraint to prevent any geometries being added that are not LINESTRINGS or null.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103230Z" creationid="miurahr" creationdate="20201118T103230Z">
+        <seg>また、ラインストリングでないかnullであるようなジオメトリが追加されることを防ぐための制約を追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Also feel free to experiment with different :guilabel:`Fill style` and :guilabel:`Stroke style` settings for the polygons.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T015747Z" creationid="miurahr" creationdate="20201118T015747Z">
@@ -4723,6 +4819,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T101235Z" creationid="miurahr" creationdate="20201118T101235Z">
         <seg>また、それには使用できる定数が含まれており、他のレイヤーからの値が入手できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Also, there's a configuration option so that some of the layers existing in the QGIS project are ignored by QGIS when serving the WMS service.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102553Z" creationid="miurahr" creationdate="20201118T102553Z">
+        <seg>また、QGISプロジェクトに存在するいくつかのレイヤーがWMSサービスを提供する際にQGISによって無視されるように構成オプションがあります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5215,6 +5319,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Another useful thing to know about the terrain is how steep it is.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103033Z" creationid="miurahr" creationdate="20201118T103033Z">
+        <seg>地形の傾斜がどれほど急であるかを知るのも有用なことです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Answer Sheet</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T015701Z" creationid="miurahr" creationdate="20201118T015701Z">
@@ -5251,6 +5363,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T032513Z" creationid="miurahr" creationdate="20201118T032513Z">
         <seg>誰で無理なくこのデータセットを使用できますが、自分の国や故郷からのデータを使用することを好む方もいるかもしれません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Apache is now configured.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102441Z" creationid="miurahr" creationdate="20201118T102441Z">
+        <seg>これでApache が構成されました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5371,6 +5491,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222529Z" creationid="miurahr" creationdate="20201117T222529Z">
         <seg>QGISではGRASSラスター形式をネイティブに開けるため、統合は非常にシームレスで、地図を容易に作成できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>As QGIS is also a :ref:`ogc-wms` you can create a new WMS server connection with the help of the above GetCapabilities url.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102518Z" creationid="miurahr" creationdate="20201118T102518Z">
+        <seg>QGISは :ref:`ogc-wms` でもあるので、上記のGetCapabilitiesのURLを利用して新しいWMSサーバー接続を作成できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5519,6 +5647,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>As user ``qgis`` go to the home directory with ``cd /home/qgis``.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102629Z" creationid="miurahr" creationdate="20201118T102629Z">
+        <seg>ユーザ ``qgis`` が ``cd/home/qgis`` でホームディレクトリに行きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>As we covered in an earlier topic, this means choosing either point, polyline or polygon for the geometry.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123635Z" creationid="miurahr" creationdate="20201117T123635Z">
@@ -5619,6 +5755,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T035442Z" creationid="miurahr" creationdate="20201118T035442Z">
         <seg>ご想像できるように、これはいくつかの小さな領域または一部の特殊な状況を除けば、一般的には適用できません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>As you can see from the above image, among other things, we told QGIS Server to render only **Germany** and **Italy** from the countries layer.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102611Z" creationid="miurahr" creationdate="20201118T102611Z">
+        <seg>上の画像からわかるように、QGISサーバーには、 **Germany** と **Italy** のみを国レイヤーからレンダリングするように指示しました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6131,6 +6275,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T032639Z" creationid="miurahr" creationdate="20201118T032639Z">
         <seg>行っている課程のレベルに基づき、以下の該当するセクションに記載されているものだけ行います：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Based on the request above, let's replace the ``countries`` layer with another.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102551Z" creationid="miurahr" creationdate="20201118T102551Z">
+        <seg>上記の要求に基づいて、 ``countries`` レイヤーを別のものに置き換えましょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6671,6 +6823,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>But it can also be used for aesthetic purposes, to make the map look better.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103006Z" creationid="miurahr" creationdate="20201118T103006Z">
+        <seg>それを使えば地図をよりよく見せることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>But it probably has too many colors to use in a real map...</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T033539Z" creationid="miurahr" creationdate="20201118T033539Z">
@@ -6715,6 +6875,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T215652Z" creationid="miurahr" creationdate="20201117T215652Z">
         <seg>しかし、もちろん、詳細地図は今まだ林分境界もサンプルのプロットも表示していません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>By adding the ``countries`` WMS layer to your QGIS project you should get an image like the one below:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102520Z" creationid="miurahr" creationdate="20201118T102520Z">
+        <seg>QGISプロジェクトに ``countries`` WMSレイヤーを追加すると、以下のような画像が得られます：</seg>
       </tuv>
     </tu>
     <tu>
@@ -6815,10 +6983,34 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>By opening the project with QGIS you can see there are multiple styles for the countries layer.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102526Z" creationid="miurahr" creationdate="20201118T102526Z">
+        <seg>QGISでプロジェクトを開くと、各国のレイヤーに複数のスタイルがあることがわかります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>By pointing any WMS client to the ``GetCapabilities`` URL, the client gets in response an XML document with metadata of the Web Map Server’s information, e.g. what layers does it serve, the geographical coverage, in what format, what version of WMS etc.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102517Z" creationid="miurahr" creationdate="20201118T102517Z">
+        <seg>WMSクライアントを ``GetCapabilities`` のURLに指すことで、クライアントはWebマップサーバーの情報のメタデータを持つXML文書を返します。例えば、レイヤーはどのレイヤーに対応していますか、地理的なカバレッジ、形式、WMSのバージョン等</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>By reading this manual, you will learn things such as how to use that module, how to run it in a batch process to create raster layers from hundreds of points layers in a single run, or what happens if the input layer has some points selected.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T102116Z" creationid="miurahr" creationdate="20201118T102116Z">
         <seg>このマニュアルを読むことによって、そのモジュールを使用する方法、たくさんの点レイヤーからラスターレイヤーを作成するために１回の実行でバッチ処理でそれを実行する方法、入力レイヤーでいくつかの点が選択された場合は何が起こるか、などを学ぶでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>By restarting Apache while looking in the QGIS Server log you can find some extra pointers on how things work.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102543Z" creationid="miurahr" creationdate="20201118T102543Z">
+        <seg>QGISサーバーのログを見ながらApacheを再起動することで、動作の仕方についてのいくつかの追加情報を見つけることができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6959,6 +7151,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Can't we use it together with our other, more colorful rasters somehow?</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102956Z" creationid="miurahr" creationdate="20201118T102933Z">
+        <seg>どうにかしてそれを他のよりカラフルなラスターと一緒に使用できないでしょうか? </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Capture a few points on your new layer using the digitizing tools so that you have a little data to play with.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T145927Z" creationid="miurahr" creationdate="20201117T145927Z">
@@ -7027,6 +7227,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T075502Z" creationid="miurahr" creationdate="20201118T075502Z">
         <seg>行のセルはアルゴリズムによって必要とされるパラメーターに対応します。これは、通常の単一実行ダイアログの中でのように互いに上下にではなく、その行に水平に配置されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Certain types of rasters allow you to gain more insight into the terrain that they represent.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102849Z" creationid="miurahr" creationdate="20201118T102849Z">
+        <seg>ある種のラスターからはそれが表す地形の洞察をより多く得ることができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7583,6 +7791,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Click :guilabel:`Add` to find and add a new repository.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102240Z" creationid="miurahr" creationdate="20201118T102240Z">
+        <seg>新しいリポジトリを追加するには :guilabel:`追加` をクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Click :guilabel:`Add` with the :guilabel:`countries` layer selected as above.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T054350Z" creationid="miurahr" creationdate="20201118T054350Z">
@@ -7867,6 +8083,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T015810Z" creationid="miurahr" creationdate="20201118T015810Z">
         <seg>Geometry generatorシンボロジの :guilabel:`マーカ` をクリックして、円を希望の他の図形に変更してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Click on :guilabel:`Run`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103045Z" creationid="miurahr" creationdate="20201118T103045Z">
+        <seg>:guilabel:`実行` をクリックします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8999,6 +9223,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Create a spatial index on the new geometry column</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103232Z" creationid="miurahr" creationdate="20201118T103232Z">
+        <seg>新しいジオメトリ列に空間索引を作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Create a symbol with multiple symbol layers.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T032727Z" creationid="miurahr" creationdate="20201118T032727Z">
@@ -9047,6 +9279,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Create the service file:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102420Z" creationid="miurahr" creationdate="20201118T102420Z">
+        <seg>サービスファイルを作成します：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Creating 3D models for terrain visualization (and further use as hill-shadowing)</seg>
       </tuv>
       <tuv lang="ja">
@@ -9067,6 +9307,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T032009Z" creationid="miurahr" creationdate="20201118T032009Z">
         <seg>カスタムシンボルレイヤータイプの作成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Creating Linestrings</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103222Z" creationid="miurahr" creationdate="20201118T103222Z">
+        <seg>ラインストリングの作成</seg>
       </tuv>
     </tu>
     <tu>
@@ -9543,6 +9791,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Digital Elevation Models (DEMs) are particularly useful in this regard.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102850Z" creationid="miurahr" creationdate="20201118T102850Z">
+        <seg>数値標高モデル(DEM)がこの点では特に有用です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Digital elevation models allow DDG to get an idea of the location of a minefield</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T061129Z" creationid="miurahr" creationdate="20201117T061129Z">
@@ -9815,6 +10071,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Don't forget to do the accompanying update to the geometry columns table!</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103228Z" creationid="miurahr" creationdate="20201118T103228Z">
+        <seg>ジオメトリ列のテーブルに伴う更新を行うことを忘れないでください！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Don't forget to set :class:`QAction` and :class:`QMenu` ``objectName`` to a name specific to your plugin so that it can be customized.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T025035Z" creationid="miurahr" creationdate="20201118T025035Z">
@@ -9907,6 +10171,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T054346Z" creationid="miurahr" creationdate="20201118T054346Z">
         <seg>:guilabel:`Filter` フィールドの :guilabel:`countries ...` レイヤーの隣をダブルクリックするか :guilabel:`クエリ作成` をクリックします:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Download the QWC project from `here &lt;https://github.com/qgis/QGIS-Web-Client/archive/master.zip&gt;`_ and unzip it.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102631Z" creationid="miurahr" creationdate="20201118T102631Z">
+        <seg>`ここ &lt;https://github.com/qgis/QGIS-Web-Client/archive/master.zip&gt;`_ からQWCプロジェクトをダウンロードし、解凍します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10355,6 +10627,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T035521Z" creationid="miurahr" creationdate="20201118T035521Z">
         <seg>編集モードを有効にします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Enable, start and check the status of the ``xvfb.service``:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102421Z" creationid="miurahr" creationdate="20201118T102421Z">
+        <seg>``xvfb.service`` の状態を有効にし、開始し、チェックします：</seg>
       </tuv>
     </tu>
     <tu>
@@ -12423,6 +12703,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Fortunately, you already have rasters showing you the slope as well as the aspect, but you have no way of knowing where both conditions are satisfied at once.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103109Z" creationid="miurahr" creationdate="20201118T103109Z">
+        <seg>幸いにも、あなたは既に斜面方位だけではなく傾斜を示すラスターを持っていますが、両方の条件が同時に満たされている場所を知る方法がありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Free data in vector formats was then obtained from the `Natural Resources Canada (NRCan) CanVec &lt;http://geogratis.cgdi.gc.ca/geogratis/en/product/search.do?id=5460AA9D-54CD-8349-C95E-1A4D03172FDF&gt;`_ website and from `Service New Brunswick (SNB) online &lt;http://www.snb.ca/gdam-igec/e/2900e_1.asp&gt;`_.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222727Z" creationid="miurahr" creationdate="20201117T222727Z">
@@ -12831,6 +13119,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>GetMap requests</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102544Z" creationid="miurahr" creationdate="20201118T102544Z">
+        <seg>GetMapリクエスト</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>GetPrint requests</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102618Z" creationid="miurahr" creationdate="20201118T102618Z">
+        <seg>GetPrintリクエスト</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Getting Started</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T032353Z" creationid="miurahr" creationdate="20201118T032353Z">
@@ -13035,6 +13339,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>再度、地図ウィンドウに移動し、見えるようにしたいレイヤーを選択します（ :kbd:`systematic_plots_clip` 、 :kbd:`forest_stands_2012 copy` 、 :kbd:`Basic_map` ）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Going back to our :kbd:`address` database, let's get our streets table matching the others; i.e., having a constraint on the geometry, an index and an entry in the geometry_columns table.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103224Z" creationid="miurahr" creationdate="20201118T103224Z">
+        <seg>:kbd:`address` データベースに戻って、他に一致する街路テーブルを取得してみましょう。すなわち、ジオメトリ、インデックスとGEOMETRY_COLUMNSテーブル中のエントリに制約を持ちます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13687,6 +13999,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>How could this analysis be done?</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103111Z" creationid="miurahr" creationdate="20201118T103111Z">
+        <seg>この分析はどのように行うことができるでしょうか?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>How did your choice in cell size affect your ability to represent different feature types?</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140355Z" creationid="miurahr" creationdate="20201117T140355Z">
@@ -13811,6 +14131,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T095149Z" creationid="miurahr" creationdate="20201118T095149Z">
         <seg>しかし、状況によっては、モデラーが与えられたタスクを自動化するために必要なものではないかもしれません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>However, in the above request we made use of the **map** parameter to be explicit and to show it can be used to point at any project.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102515Z" creationid="miurahr" creationdate="20201118T102515Z">
+        <seg>しかし、上記のリクエストでは、 **map** パラメーターを明示的に使用し、どのプロジェクトでも使用できることを示しました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14351,6 +14679,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If the effect doesn't seem strong enough to you, you can change the transparency of the :guilabel:`hillshade` layer; but of course, the brighter the hillshade becomes, the dimmer the colors behind it will be.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103027Z" creationid="miurahr" creationdate="20201118T103027Z">
+        <seg>その効果があなたにとって十分な強さだと思えない場合には、 :guilabel:`hillshade` レイヤーの透明度を変更すればよいですが、もちろん、陰影起伏がより明るくなるほど、その背後の色は薄暗くなります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If the extension of the filepath you entered does not match any of the supported ones, a default extension (usually :file:`.dbf` for tables, :file:`.tif` for raster layers and :file:`.shp` for vector ones) will be appended to the filepath and the file format corresponding to that extension will be used to save the layer or table.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T094433Z" creationid="miurahr" creationdate="20201118T094433Z">
@@ -14751,6 +15087,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If you click the Print button in QWC you can interactively create ``GetPrint`` requests.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102654Z" creationid="miurahr" creationdate="20201118T102654Z">
+        <seg>QWCの[印刷]ボタンをクリックすると、対話的に ``GetPrint`` 要求を作成できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If you create a project with an output that was saved as a temporary output, QGIS will complain when you try to open back the project later, since that output file will not exist.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T094438Z" creationid="miurahr" creationdate="20201118T094438Z">
@@ -14763,6 +15107,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T094910Z" creationid="miurahr" creationdate="20201118T094910Z">
         <seg>減らすと、より密なネットワークが得られます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If you delete the **map** parameter from the above request QGIS Server will output the same response.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102516Z" creationid="miurahr" creationdate="20201118T102516Z">
+        <seg>上記の要求から **map** パラメーターを削除すると、QGISサーバーは同じ応答を出力します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15023,6 +15375,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If you installed QGIS Server without running an X Server (included in Linux Desktop) and if you also want to use the ``GetPrint`` command then you should install a fake X Server and tell QGIS Server to use it.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102416Z" creationid="miurahr" creationdate="20201118T102416Z">
+        <seg>（Linuxのデスクトップに含まれる）Xサーバーを実行せずにQGISサーバーをインストールし、また、 ``GetPrint`` コマンドを使用する場合、偽のX Serverをインストールし、それを使用するQGISサーバーに指示する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If you know that the map was created by an official institution, you could contact them and ask if they have a more current version of that map with updated information.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135748Z" creationid="miurahr" creationdate="20201117T135748Z">
@@ -15043,6 +15403,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T035517Z" creationid="miurahr" creationdate="20201118T035517Z">
         <seg>再び属性テーブルを見れば、テーブル内の順序もそのパターンに従っていることがわかります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If you look at the logs in the following sections you should get a better understanding on what's happening.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102541Z" creationid="miurahr" creationdate="20201118T102541Z">
+        <seg>次のセクションのログを見ると、何が起きているのかをよりよく理解することができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15239,10 +15607,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If you try again to access the http://myhost/cgi-bin/qgis_mapserv.fcgi url you'll notice everything is working now!</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102455Z" creationid="miurahr" creationdate="20201118T102455Z">
+        <seg>再度 http://myhost/cgi-bin/qgis_mapserv.fcgi  URLにアクセスするために試してみると、すべてが今稼働していることに気づくでしょう！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If you unfold it, you will see something like this.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T095517Z" creationid="miurahr" creationdate="20201118T095517Z">
         <seg>それを展開すると次のように表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If you unzipped the archive under :file:`/home/qgis/Downloads/QGIS-Web-Client-master` we can do that with ``sudo ln -s /home/qgis/Downloads/QGIS-Web-Client-master /var/www/html/``.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102633Z" creationid="miurahr" creationdate="20201118T102633Z">
+        <seg>アーカイブを以下のファイルで解凍した場合 :file:`/home/qgis/Downloads/QGIS-Web-Client-master` を実行すると、 ``sudo ln -s /home/qgis/Downloads/QGIS-Web-Client-master/var/www/html/`` となります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15363,6 +15747,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123537Z" creationid="miurahr" creationdate="20201117T123537Z">
         <seg>他の人とシェープファイルに保存されたベクターデータを共有したい場合、そのレイヤーのためのファイルすべてを渡すことが重要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If you want to use your own project or you want to learn how a project is prepared see the :ref:`Creatingwmsfromproject` section.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102506Z" creationid="miurahr" creationdate="20201118T102506Z">
+        <seg>独自のプロジェクトを使用したい場合や、プロジェクトの準備方法を知りたい場合は、 :ref:`Creatingwmsfromproject` セクションを参照してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15555,6 +15947,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T015756Z" creationid="miurahr" creationdate="20201118T015756Z">
         <seg>シンボルレイヤが上記のようになっていても、必要な結果が得られていない場合は：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If, for example, you want to build houses on the land there, then you need land that is relatively flat.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103034Z" creationid="miurahr" creationdate="20201118T103034Z">
+        <seg>たとえば、土地に家を建てたい場合には比較的平坦な土地が必要です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16167,6 +16567,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In order to access on the installed QGIS server from an Internet Browser we need to use an HTTP server.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102403Z" creationid="miurahr" creationdate="20201118T102403Z">
+        <seg>インターネットブラウザからインストールされたQGISサーバー上にアクセスするためには、HTTPサーバーを使用する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In order to begin digitizing, you'll need to enter **edit mode**.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T145714Z" creationid="miurahr" creationdate="20201117T145714Z">
@@ -16207,6 +16615,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In order to display the ``countries`` layer, QGIS Desktop, like any other WMS client, is using ``GetMap`` requests.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102545Z" creationid="miurahr" creationdate="20201118T102545Z">
+        <seg>``countries`` レイヤーを表示するために、他のWMSクライアントと同様、QGISデスクトップでも ``GetMap`` リクエストを使用しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In order to do that, you need to join the two tables together in a single query.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150307Z" creationid="miurahr" creationdate="20201117T150307Z">
@@ -16235,6 +16651,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T033936Z" creationid="miurahr" creationdate="20201118T033936Z">
         <seg>データを処理するために、地図キャンバスに必要なレイヤー（通りの名前、ゾーン、降雨、DEM）をロードする必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In order to see what other layers are available you could open up the :file:`world.qgs` project in QGIS and look at its contents.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102552Z" creationid="miurahr" creationdate="20201118T102552Z">
+        <seg>他にどのレイヤーがあるのか​​を知るためには、QGISの :file:`world.qgs` プロジェクトを開き、その内容を見てください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16503,6 +16927,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In the :file:`/etc/apache2/sites-available` directory let's create a file called :file:`qgis.demo.conf`, with this content:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102408Z" creationid="miurahr" creationdate="20201118T102408Z">
+        <seg>:file:`/etc/apache2/sites-available` ディレクトリ中に :file:`qgis.demo.conf` と呼ばれるファイルを、以下の内容で作成してみましょう：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In the :guilabel:`Add PostGIS Table(s)` dialog that comes up, connect to the :kbd:`postgis_demo` connection.</seg>
       </tuv>
       <tuv lang="ja">
@@ -16635,6 +17067,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T034747Z" creationid="miurahr" creationdate="20201118T034747Z">
         <seg>:guilabel:`処理オプション` ダイアログで、 :guilabel:`プロバイダー` に、その後 :guilabel:`LiDARデータのためのツール` に行きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In the Apache config from the previous lesson the ``QGIS_PROJECT_FILE`` variable sets the default project to :file:`/home/qgis/projects/world.qgs`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102514Z" creationid="miurahr" creationdate="20201118T102514Z">
+        <seg>前のレッスンのApache設定では、 ``QGIS_PROJECT_FILE`` 変数はデフォルトプロジェクトを :file:`/home/qgis/projects/world.qgs` に設定します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17231,6 +17671,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In this case we will update an existing street record:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103237Z" creationid="miurahr" creationdate="20201118T103237Z">
+        <seg>この場合、既存の道路記録を更新します：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In this case, all layers produced by this algorithm are intermediate.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T100338Z" creationid="miurahr" creationdate="20201118T100338Z">
@@ -17495,6 +17943,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In this lesson you will use terrain analysis tools to find out more about the study area for the proposed residential development from earlier.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102851Z" creationid="miurahr" creationdate="20201118T102851Z">
+        <seg>このレッスンでは先ほどからの住宅開発案の調査地域についてより詳しく調べるのに地形解析ツールを使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In this lesson, we are going to do some hydrological analysis.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T094820Z" creationid="miurahr" creationdate="20201118T094820Z">
@@ -17527,6 +17983,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In this module, we'll cover how to install and use QGIS Server.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102336Z" creationid="miurahr" creationdate="20201118T102336Z">
+        <seg>このモジュールでは、QGISサーバーをインストールして使用する方法をカバーします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In this module, we'll cover two kinds of web-based GIS services: Web Mapping Services (WMS) and Web Feature Services (WFS).</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T054227Z" creationid="miurahr" creationdate="20201118T054227Z">
@@ -17543,6 +18007,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In this module, you'll be shown how to activate and use plugins.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102252Z" creationid="miurahr" creationdate="20201118T102252Z">
+        <seg>このモジュールでは、プラグインを有効にして使用する方法をお見せします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In this module, you'll learn about Relational Database Management System (RDBMS) concepts and you will use PostgreSQL to create a new database to store data, as well as learning about other typical RDBMS functions.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150257Z" creationid="miurahr" creationdate="20201117T150257Z">
@@ -17555,6 +18027,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150043Z" creationid="miurahr" creationdate="20201117T150043Z">
         <seg>このモジュールでは、既存のベクターデータを変更して、まったく新しいデータセットを作成する方法を学びます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In this module, you'll see how it's done in QGIS.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102844Z" creationid="miurahr" creationdate="20201118T102844Z">
+        <seg>このモジュールでは、どのようにしてQGISで行うのかがわかります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17807,6 +18287,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Install QGIS Server with:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102353Z" creationid="miurahr" creationdate="20201118T102353Z">
+        <seg>QGISサーバーを以下でインストールします:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Install git for GNU/Linux</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T114144Z" creationid="miurahr" creationdate="20201117T114144Z">
@@ -17843,6 +18331,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>**Plugin Builder** プラグインをインストールする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Install xvfb:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102419Z" creationid="miurahr" creationdate="20201118T102419Z">
+        <seg>xvfbをインストール:</seg>
       </tuv>
     </tu>
     <tu>
@@ -19007,6 +19503,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Keep in mind though that the WMS clients don't have access to the QGIS project, they just look at the capabilities document contents.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102553Z" creationid="miurahr" creationdate="20201118T102553Z">
+        <seg>ただし、WMSクライアントはQGISプロジェクトへのアクセス権を持たず、機能文書の内容を参照するだけです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Keep in mind, however, that this is merely an example.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T020846Z" creationid="miurahr" creationdate="20201118T020830Z">
@@ -19383,6 +19887,30 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Let's create another Apache virtual host pointing to QGIS Server.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102445Z" creationid="miurahr" creationdate="20201118T102445Z">
+        <seg>QGISサーバーを指す別のApacheの仮想ホストを作成してみましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Let's do another GetMap request that makes use of the :ref:`qgisserver-redlining` feature and of the **SELECTION** parameter detailed in the :ref:`extra-getmap-parameters` section:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102613Z" creationid="miurahr" creationdate="20201118T102613Z">
+        <seg>:ref:`qgisserver-redlining` 機能と :ref:`extra-getmap-parameters` セクションで詳しく説明されている **SELECTION** パラメーターを利用する別のGetMapリクエストをしましょう：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Let's do another request that adds another layer, some of the :ref:`extra-getmap-parameters`, **FILTER** and **OPACITIES**, but also uses the standard STYLES parameter.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102608Z" creationid="miurahr" creationdate="20201118T102608Z">
+        <seg>:ref:`extra-getmap-parameters` 、**FILTER** 、 **OPACITIES** のような別のレイヤーを追加するリクエストを行いますが、標準のSTYLESパラメーターも使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Let's enable the reprojection again, but using the same projection as the :guilabel:`OpenStreetMap WMS` layer, which is :guilabel:`WGS 84 / Pseudo Mercator`.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T075118Z" creationid="miurahr" creationdate="20201118T075118Z">
@@ -19463,10 +19991,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Let's make a WMS GetCapabilities request in the web browser or with curl:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102512Z" creationid="miurahr" creationdate="20201118T102512Z">
+        <seg>WebブラウザまたはcurlでWMS GetCapabilitiesリクエストを作成しましょう：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Let's make a simple view based on the above:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150344Z" creationid="miurahr" creationdate="20201117T150344Z">
         <seg>上記に基いて単純なビューを作りましょう:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Let's now create the directories that will store the QGIS Server logs and the authentication database:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102411Z" creationid="miurahr" creationdate="20201118T102411Z">
+        <seg>今度はQGISサーバーのログと認証データベースを格納するディレクトリを作成してみましょう：</seg>
       </tuv>
     </tu>
     <tu>
@@ -19587,6 +20131,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>それらの変更の後でデータを簡単に見てみましょう：前のセクションのクエリを再利用できます:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Let's try if we can access QGIS Server from the ``myhost`` site by doing: ``curl http://myhost/cgi-bin/qgis_mapserv.fcgi`` or by accessing the url from your Debian box browser.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102450Z" creationid="miurahr" creationdate="20201118T102450Z">
+        <seg>``curl http://myhost/cgi-bin/qgis_mapserv.fcgi`` したり、DebianのボックスブラウザからURLにアクセスすることによって、 ``myhost`` サイトからQGISサーバーにアクセスできるかどうか試してみましょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19955,6 +20507,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124032Z" creationid="miurahr" creationdate="20201117T124032Z">
         <seg>GPSを使用するかトポシートでそれをマークすることで、各サンプルの位置を慎重にメモしておきます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Make a symbolic link to the ``/var/www/html`` directory as it's the ``DocumentRoot`` that we've setup in the virtual host configuration.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102632Z" creationid="miurahr" creationdate="20201118T102632Z">
+        <seg>``/var/www/html`` ディレクトリへのシンボリックリンクは、バーチャルホストの設定で設定した ``DocumentRoot`` のようにしてください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20551,6 +21111,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Modify the :kbd:`streets` table so that it has a geometry column of type ST_LineString.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103226Z" creationid="miurahr" creationdate="20201118T103226Z">
+        <seg>タイプST_LineStringのジオメトリ列を持つように :kbd:`街路` テーブルを修正します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Modifying Vector Layers</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T031445Z" creationid="miurahr" creationdate="20201118T031445Z">
@@ -20579,6 +21147,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T094549Z" creationid="miurahr" creationdate="20201118T094549Z">
         <seg>モジュール提供：Paolo Cavallini - `Faunalia &lt;https://www.faunalia.eu&gt;`_</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Module contributed by Tudor Bărăscu.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102335Z" creationid="miurahr" creationdate="20201118T102335Z">
+        <seg>Tudor Bărăscuによって投稿されたモジュール。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20967,6 +21543,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Naturally, it's hard to write your ``GetMap``, ``GetPrint`` etc. requests.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102626Z" creationid="miurahr" creationdate="20201118T102626Z">
+        <seg>当然、あなたの ``GetMap`` 、 ``GetPrint`` などのリクエストを書くのは難しいです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Navigate to the `QGIS-Documentation repository &lt;https://github.com/qgis/QGIS-Documentation&gt;`_ page and click on the |githubFork| button in the upper right corner.</seg>
       </tuv>
       <tuv lang="ja">
@@ -21087,6 +21671,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Next we'll introduce you to some useful plugins as examples.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102248Z" creationid="miurahr" creationdate="20201118T102248Z">
+        <seg>次に、例としていくつかの便利なプラグインを紹介します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Next you should define the transformation settings for georeferencing the map:</seg>
       </tuv>
       <tuv lang="ja">
@@ -21163,6 +21755,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T054407Z" creationid="miurahr" creationdate="20201118T054407Z">
         <seg>次は、QGISサーバーを使用してOGCサービスを提供する方法を説明します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Next, you'll see how to use QGIS as a frontend for the famous GRASS GIS.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102710Z" creationid="miurahr" creationdate="20201118T102710Z">
+        <seg>次に、有名なGRASS GISのフロントエンドとしてQGISを使用する方法を見ていきます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21487,6 +22087,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Now create some more streets entries - some in QGIS and some from the command line.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103243Z" creationid="miurahr" creationdate="20201118T103243Z">
+        <seg>いくつかはQGISから、いくつかはコマンドラインから道路の要素をもう少し追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Now do the same calculation using the other layer.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T093926Z" creationid="miurahr" creationdate="20201118T093926Z">
@@ -21571,6 +22179,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T102041Z" creationid="miurahr" creationdate="20201118T102041Z">
         <seg>今度は、男性人口が女性人口に比して数値的に優位にあるかどうかを示す新しいものを作成するために、 ``MALES`` と ``FEMALES`` フィールド間の比率を計算してみましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Now let's insert a linestring into our streets table.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103235Z" creationid="miurahr" creationdate="20201118T103235Z">
+        <seg>次に、街路テーブルに線ストリングを挿入しましょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21731,6 +22347,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>これでデータベースが理論的にどのように動作するか見てしまいましたので、カバーしてきた理論を実装する新しいデータベースを作成してみましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Now that you can install, enable and disable plugins, let's see how this can help you in practice by looking at some examples of useful plugins.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102255Z" creationid="miurahr" creationdate="20201118T102255Z">
+        <seg>プラグインをインストールして有効化・無効化することができるようになりました。それではいくつかの便利なプラグインの例を見て、これが実際にどのように役に立つか見ていきましょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22103,6 +22727,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Now you should be able to see the Map as in the following figure:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102635Z" creationid="miurahr" creationdate="20201118T102635Z">
+        <seg>これで、次の図のように地図を表示できるはずです：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Now you should leave the postgres user's bash shell environment by typing:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T034449Z" creationid="miurahr" creationdate="20201118T034449Z">
@@ -22295,6 +22927,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Of course we can, by using the hillshade as an overlay.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102959Z" creationid="miurahr" creationdate="20201118T102959Z">
+        <seg>もちろんできます。オーバーレイとして陰影図を使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Often you won't want to see every single record in the database - especially if there are thousands of records and you are only interested in seeing one or two.</seg>
       </tuv>
       <tuv lang="ja">
@@ -22323,6 +22963,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222447Z" creationid="miurahr" creationdate="20201117T222447Z">
         <seg>平均して、コースの生徒の93％がQGISソフトウェアと教材を使っていました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>On its own, the hillshade looks like a plaster cast.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102946Z" creationid="miurahr" creationdate="20201118T102946Z">
+        <seg>陰影図はそれだけでは石膏模型のように見えます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22643,6 +23291,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141022Z" creationid="miurahr" creationdate="20201117T141022Z">
         <seg>GISを使用する大きな利点の一つは、非常に簡単に自分用の地図を作成できることです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>One of the layer names that you could find and works is ``countries_shapeburst``.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102555Z" creationid="miurahr" creationdate="20201118T102555Z">
+        <seg>あなたが見つけて働くことができるレイヤー名の1つは ``countries_shapeburst`` です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23327,6 +23983,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Optionally, if you want to do a command line test at this time you can run the ``/usr/lib/cgi-bin/qgis_mapserv.fcgi`` command which should output something like:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102358Z" creationid="miurahr" creationdate="20201118T102358Z">
+        <seg>この時点では、コマンドラインのテストを行いたい場合は、オプションで ``/usr/lib/cgi-bin/qgis_mapserv.fcgi``  コマンドを実行できます、出力は何かこのようなはずである：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Or in case you would like to set up your own plugin repository, create a simple XML file that will list the plugins and their metadata.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T031119Z" creationid="miurahr" creationdate="20201118T031119Z">
@@ -23775,6 +24439,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Pasting the above request in your web browser should output the following image:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102614Z" creationid="miurahr" creationdate="20201118T102614Z">
+        <seg>上記のリクエストをWebブラウザに貼り付けると、次の画像が出力されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Pasting them into Mozilla Firefox works properly but other web browsers like Chrome may add unwanted spaces between the ``field:parameter`` pairs.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102510Z" creationid="miurahr" creationdate="20201118T102510Z">
+        <seg>それらをMozilla Firefoxに貼り付けると適切に機能しますが、Chromeのような他のWebブラウザでは ``field:parameter`` のペアの間に不要なスペースを追加する可能性があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Patience</seg>
       </tuv>
       <tuv lang="ja">
@@ -23931,6 +24611,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T013616Z" creationid="miurahr" creationdate="20201118T013616Z">
         <seg>プラグイン</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Plugins allow you to extend the functionality QGIS offers.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102251Z" creationid="miurahr" creationdate="20201118T102251Z">
+        <seg>プラグインを使用すると、QGISの機能的な提供を拡張することができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24319,6 +25007,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Provide a Name and URL for the new repository you want to configure and make sure the :guilabel:`Enabled` checkbox is selected.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102242Z" creationid="miurahr" creationdate="20201118T102242Z">
+        <seg>設定したい新しいリポジトリの名前とURLを入力します。 :guilabel:`利用可にする` チェックボックスがチェックされていることを確認します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Providers can be (de)activated in the :menuselection:`Settings --&gt; Options --&gt; Processing`.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T101446Z" creationid="miurahr" creationdate="20201118T101446Z">
@@ -24375,6 +25071,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>QGIS Desktop consuming the QGIS Server countries layer WMS service</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102522Z" creationid="miurahr" creationdate="20201118T102522Z">
+        <seg>QGISサーバーの国レイヤーWMSサービスを消費するQGISデスクトップ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>QGIS GPS Tools Plugin for data collection</seg>
       </tuv>
       <tuv lang="ja">
@@ -24423,10 +25127,34 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>QGIS Server is also aware of this and you can choose the style you want in your request.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102528Z" creationid="miurahr" creationdate="20201118T102528Z">
+        <seg>QGISサーバーはこれも認識しており、要求に応じてスタイルを選択できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>QGIS Server is an open source WMS 1.3, WFS 1.0.0, WFS 1.1.0, OGC API for Features 1.0 (WFS3) and WCS 1.1.1 implementation that, in addition, implements advanced cartographic features for thematic mapping.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141508Z" creationid="miurahr" creationdate="20201117T141508Z">
         <seg>QGISサーバは、オープンソースのWMS 1.3、WFS 1.0.0、WFS 1.1.0、OGC API for Feature 1.0(WFS3)およびWCS 1.1.1の実装であり、さらに主題図作成のための高度な地図作成機能を実装しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>QGIS Server log at :file:`/logs/qgisserver.log`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102531Z" creationid="miurahr" creationdate="20201118T102531Z">
+        <seg>QGISサーバーログ :file:`/logs/qgisserver.log`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>QGIS Server serves layers that are defined in the :file:`world.qgs` project.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102523Z" creationid="miurahr" creationdate="20201118T102523Z">
+        <seg>QGISサーバーは :file:`world.qgs` プロジェクトで定義されたレイヤーを提供します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24451,6 +25179,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>NIRDジャイプールセンターでのQGISトレーニング</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>QGIS Web Client consuming the world.qgs project</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102636Z" creationid="miurahr" creationdate="20201118T102636Z">
+        <seg>world.qgsプロジェクトを使用するQGIS Webクライアント</seg>
       </tuv>
     </tu>
     <tu>
@@ -24707,6 +25443,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T113958Z" creationid="miurahr" creationdate="20201117T113958Z">
         <seg>QGS/QGZ-QGISプロジェクトファイルフォーマット</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Qgis Server response after a simple GetMap request</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102549Z" creationid="miurahr" creationdate="20201118T102549Z">
+        <seg>単純なGetMap要求の後のQgisサーバーの応答</seg>
       </tuv>
     </tu>
     <tu>
@@ -25463,6 +26207,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Response to a GetMap request with FILTER and OPACITIES parameters</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102610Z" creationid="miurahr" creationdate="20201118T102610Z">
+        <seg>FILTERパラメーターとOPACITIESパラメーターを使用したGetMap要求への応答</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Response to a request with the REDLINING feature and SELECTION parameter</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102615Z" creationid="miurahr" creationdate="20201118T102615Z">
+        <seg>REDLINING機能とSELECTIONパラメーターによるリクエストへの応答</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Result:</seg>
       </tuv>
       <tuv lang="ja">
@@ -26119,10 +26879,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>See some of the configuration options are explained in the Server :ref:`server_env_variables` section.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102410Z" creationid="miurahr" creationdate="20201118T102410Z">
+        <seg>:ref:`server_env_variables` セクションの構成オプションのいくつかのサーバーで説明されているを参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>See table_vector_1_ for an example.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141129Z" creationid="miurahr" creationdate="20201117T141129Z">
         <seg>例えば table_vector_1_ を参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>See the :ref:`wms-services` or the  :ref:`ogc-wms-servers` section on how to do it.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102519Z" creationid="miurahr" creationdate="20201118T102519Z">
+        <seg>:ref:`wms-services` または :ref:`ogc-wms-servers` セクションを参照してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26567,6 +27343,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Set the :guilabel:`Global opacity` to ``50%``.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103019Z" creationid="miurahr" creationdate="20201118T103019Z">
+        <seg>:guilabel:`全体の不透明度` を :kbd:`50%` に設定します:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Set the :guilabel:`Output field type`to :kbd:`Text (string)`.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T035523Z" creationid="miurahr" creationdate="20201118T035523Z">
@@ -26795,6 +27579,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T034451Z" creationid="miurahr" creationdate="20201118T034451Z">
         <seg>このように返されるはずです::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Shows the pdf resulted from the above GetPrint request</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102624Z" creationid="miurahr" creationdate="20201118T102624Z">
+        <seg>上記のGetPrintリクエストに起因するpdfを表示します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27231,10 +28023,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>So, if you encounter this issue you can either use Firefox or modify the URLs so that they're in one line format.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102511Z" creationid="miurahr" creationdate="20201118T102511Z">
+        <seg>したがって、この問題が発生した場合は、Firefoxを使用するか、URLを変更して1行の形式にすることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>So, we have to modify the Apache configuration file to indicate the **QGIS_PLUGINPATH** environment variable to FastCGI:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T032427Z" creationid="miurahr" creationdate="20201118T032427Z">
         <seg>したがって、 **QGIS_PLUGINPATH** 環境変数をFastCGIに示すように、Apache構成ファイルを変更する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>So, you could look at the layer list when you point QGIS Desktop to the ``GetCapabilities`` URL or you could try yourself finding other layer names in the ``GetCapabilities`` XML response.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102554Z" creationid="miurahr" creationdate="20201118T102554Z">
+        <seg>したがって、QGISデスクトップを ``GetCapabilities`` のURLに向けるとレイヤーリストを見ることができ、 ``GetCapabilities`` XMLレスポンスで他のレイヤー名を見つけることができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -28255,6 +29063,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>That looks nice and 3D, but can we improve on this?</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102939Z" creationid="miurahr" creationdate="20201118T102939Z">
+        <seg>きれいで3次元的に見えますが、これは改善できるでしょうか? </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>That makes it easier to process large amounts of layers, such as, for instance, all the layers in a given folder.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T075444Z" creationid="miurahr" creationdate="20201118T075444Z">
@@ -28919,6 +29735,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The QGIS Server executable is ``qgis_mapserv.fcgi``.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102355Z" creationid="miurahr" creationdate="20201118T102355Z">
+        <seg>QGISサーバー実行可能ファイルは、 ``qgis_mapserv.fcgi`` です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The QGIS User Guide also has more detailed information on analysing vector data in QGIS.</seg>
       </tuv>
       <tuv lang="ja">
@@ -29151,6 +29975,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The ``chown www-data...`` commands changes the owner of the respective directories and files to ``www-data``.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102414Z" creationid="miurahr" creationdate="20201118T102414Z">
+        <seg>``chown www-data...`` コマンド ``www-data`` にそれぞれのディレクトリとファイルの所有者を変更します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The ``classified_by_population`` style was chosen in the above image.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102529Z" creationid="miurahr" creationdate="20201118T102529Z">
+        <seg>上記の画像では ``classified_by_population`` スタイルが選択されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The ``createdb`` command is used to create a new database.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T034455Z" creationid="miurahr" creationdate="20201118T034455Z">
@@ -29179,6 +30019,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135939Z" creationid="miurahr" creationdate="20201117T135939Z">
         <seg>上記の著作権の表記は、このドキュメントに付加される可能性がある QGIS ユーザマニュアルは対象外です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The above request should output the following image:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102547Z" creationid="miurahr" creationdate="20201118T102547Z">
+        <seg>上記の要求は次の画像を出力するはずです：</seg>
       </tuv>
     </tu>
     <tu>
@@ -29283,6 +30131,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T225533Z" creationid="miurahr" creationdate="20201117T225533Z">
         <seg>答えは、QGISがOSGEO培養のプロジェクトであり、それほど複雑でなく、その開発は非常に高速かつ巨大なユーザーと開発者のコ​​ミュニティと最後に著者の専門知識に関連付けられているという事実にあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The answer lies with the :guilabel:`Raster calculator`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103112Z" creationid="miurahr" creationdate="20201118T103112Z">
+        <seg>その答えは :guilabel:`ラスター計算機` です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -29771,6 +30627,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T075521Z" creationid="miurahr" creationdate="20201118T075521Z">
         <seg>デフォルトの行数は3で、これはちょうど変換する必要があるレイヤーの数ですが、より多くのレイヤーを選択した場合、新しい行が自動的に追加されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The demo data contains a QGIS project named :file:`world.qgs` that is already prepared to be served with QGIS Server.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102505Z" creationid="miurahr" creationdate="20201118T102505Z">
+        <seg>デモデータには、QGISサーバーで提供されるように既に準備されている :file:`world.qgs` という名前のQGISプロジェクトが含まれています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -30527,6 +31391,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The key to this is setting the hillshade to being mostly transparent.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103008Z" creationid="miurahr" creationdate="20201118T103008Z">
+        <seg>陰影図をほとんど透過させる設定がその鍵となります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The last column sets whether or not to add the resulting layers to the current QGIS project.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T075543Z" creationid="miurahr" creationdate="20201118T075543Z">
@@ -30651,6 +31523,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135749Z" creationid="miurahr" creationdate="20201117T135749Z">
         <seg>線は基準として使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The log files are simply text files so you can use a text editor to check them out.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102534Z" creationid="miurahr" creationdate="20201118T102534Z">
+        <seg>ログファイルはテキストファイルなので、テキストエディタを使用してチェックできます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -33559,6 +34439,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This is a good thing, it tells you we're on the right track as the server is saying that we haven't asked for a supported service.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102359Z" creationid="miurahr" creationdate="20201118T102359Z">
+        <seg>これは良いことです、私たちがサポートされているサービスを求めていないことをサーバーが言っているので、私たちが正しい軌道にいると告げています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This is a multiple input, that meaning that you can select as many layers as you want.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T100534Z" creationid="miurahr" creationdate="20201118T100534Z">
@@ -34143,6 +35031,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This module presents the URLs so that the audience can easily distinguish the parameters and parameters values.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102507Z" creationid="miurahr" creationdate="20201118T102507Z">
+        <seg>このモジュールは、オーディエンスがパラメーターとパラメーターの値を簡単に区別できるようにURLを提示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This must notify the reader of the name of the sponsor and must appear below the heading of the module, lesson or section that they sponsored.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141633Z" creationid="miurahr" creationdate="20201117T141633Z">
@@ -34547,6 +35443,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T094209Z" creationid="miurahr" creationdate="20201118T094209Z">
         <seg>これは、アルゴリズムを実行するために使用されるすべてのレイヤーの範囲をカバーする最小を計算し、テキストボックスに任意の値を入力する必要はありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This will continuously output in the terminal what's written in that log file.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102538Z" creationid="miurahr" creationdate="20201118T102538Z">
+        <seg>これは、そのログファイルに書き込まれたものを端末に出力し続けます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -36887,6 +37791,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Using a hillshade in this way, it's possible to enhance the topography of the landscape.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103025Z" creationid="miurahr" creationdate="20201118T103025Z">
+        <seg>このように陰影図を使用すると景観の地形を誇張することが可能です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Using diagrams comparing population between two censuses</seg>
       </tuv>
       <tuv lang="ja">
@@ -36995,6 +37907,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T003510Z" creationid="miurahr" creationdate="20201118T003510Z">
         <seg>マップキャンバスを使う</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Using the ``tail`` command to visualise QGIS Server logs output</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102539Z" creationid="miurahr" creationdate="20201118T102539Z">
+        <seg>``tail`` コマンドを使ってQGISサーバーのログ出力を視覚化する</seg>
       </tuv>
     </tu>
     <tu>
@@ -37599,6 +38519,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>We can check that ``myhost`` points to the localhost by running in the terminal the  ``ping myhost`` command which should output:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102448Z" creationid="miurahr" creationdate="20201118T102448Z">
+        <seg>ターミナルで ``ping myhost`` コマンドを実行することによって、 ``myhost`` がlocalhostを指していることを確認できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>We can compare the two by computing the differences between those values.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T095115Z" creationid="miurahr" creationdate="20201118T095115Z">
@@ -37651,6 +38579,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124012Z" creationid="miurahr" creationdate="20201117T124012Z">
         <seg>figure_georeference_issue_ でジオリファレンスが上手くない画像の効果を確認できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>We can test one of the installed qgis servers with a http request from command line with ``curl http://qgis.demo/cgi-bin/qgis_mapserv.fcgi`` which should output:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102438Z" creationid="miurahr" creationdate="20201118T102438Z">
+        <seg>私たちは、 ``curl http://qgis.demo/cgi-bin/qgis_mapserv.fcgi`` を使用して、コマンドラインからのHTTPリクエストと一緒にインストールされたQGISサーバーのいずれかをテストできます、出力はこうなるべき：</seg>
       </tuv>
     </tu>
     <tu>
@@ -37819,6 +38755,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T095119Z" creationid="miurahr" creationdate="20201118T095119Z">
         <seg>その名前を *補間* に変更し、そのレイヤー名は、追加するフィールドの名前に使用されるものです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>We have setup in the :file:`*.conf` file the following logs:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102531Z" creationid="miurahr" creationdate="20201118T102531Z">
+        <seg>:file:`*.conf` ファイルに以下のログを設定します：</seg>
       </tuv>
     </tu>
     <tu>
@@ -38267,6 +39211,22 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T094402Z" creationid="miurahr" creationdate="20201118T094402Z">
         <seg>他のプロバイダをアクティブにする方法については、後で説明します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>We'll see later on how to make WMS requests.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102401Z" creationid="miurahr" creationdate="20201118T102401Z">
+        <seg>WMSリクエストを作成する方法は後で見ます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>We've used rasters for digitizing before, but raster data can also be used directly.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102841Z" creationid="miurahr" creationdate="20201118T102841Z">
+        <seg>以前デジタイズするためにラスターを使用しましたが、ラスターデータは直接使用できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -38959,6 +39919,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>When you use QGIS Desktop to consume the QGIS Server WMS services you will see all the requests QGIS sends to the Server in the access log, the errors of QGIS Server in the QGIS Server log etc.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102540Z" creationid="miurahr" creationdate="20201118T102540Z">
+        <seg>QGISデスクトップを使用してQGISサーバーのWMSサービスを使用すると、QGISがアクセスログ内のサーバーに送信するすべての要求、QGISサーバーログのQGISサーバーのエラーなどが表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>When you want to combine information based on their relative locations, you perform a spatial join:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T220205Z" creationid="miurahr" creationdate="20201117T220205Z">
@@ -38995,6 +39963,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>レイヤーに地物を追加し終わったら、編集内容を保存して、編集モードを終了することを忘れないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>When you're setting up a server, the logs are always important as they show you what's going on.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102530Z" creationid="miurahr" creationdate="20201118T102530Z">
+        <seg>サーバーを設定するときは、ログは常に何が起こっているかを示す重要なものです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -39163,6 +40139,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140322Z" creationid="miurahr" creationdate="20201117T140322Z">
         <seg>情報はまだデジタル形式ですが、このRGB情報は別々のカラー **バンド** に保存されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>While the normal format is:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102508Z" creationid="miurahr" creationdate="20201118T102508Z">
+        <seg>通常のフォーマットは次のとおりです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -39823,6 +40807,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You can also click the ``?`` icon in the QWC to access the available help so that you can better discover the QWC possibilities.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102658Z" creationid="miurahr" creationdate="20201118T102658Z">
+        <seg>またQWCの ``？`` アイコンをクリックすると、利用可能なヘルプにアクセスして、QWCの可能性をよりよく知ることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You can also design your own custom form completely from scratch.</seg>
       </tuv>
       <tuv lang="ja">
@@ -39847,10 +40839,34 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You can also have three terminals opened for each of the log files like so:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102538Z" creationid="miurahr" creationdate="20201118T102538Z">
+        <seg>次のように、ログファイルごとに3つの端末を開くこともできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You can also modify the algorithm.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T095428Z" creationid="miurahr" creationdate="20201118T095428Z">
         <seg>アルゴリズムを変更することもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can also play around with others parameters from above, like changing the returned image type to ``image/png``.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102557Z" creationid="miurahr" creationdate="20201118T102557Z">
+        <seg>返された画像タイプを ``image/png`` に変更するなど、上からの他のパラメーターを使って遊ぶこともできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can also select the option to display Experimental Plugins by selecting the :guilabel:`Show also experimental plugins` checkbox.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102244Z" creationid="miurahr" creationdate="20201118T102244Z">
+        <seg>開発の初期段階にあるプラグインも表示するには :guilabel:`実験的プラグインも表示する` チェックボックスをチェックします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -39875,6 +40891,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T031527Z" creationid="miurahr" creationdate="20201118T031527Z">
         <seg>次の例に示すように、よりセマンティックなコードブロックにコミットとロールバックをラップする :code:`with edit(layer)` 文も使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can also use the ``tail`` command in a terminal: ``sudo tail -f /logs/qgisserver.log``.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102535Z" creationid="miurahr" creationdate="20201118T102535Z">
+        <seg>``sudo tail -f/logs/qgisserver.log`` という端末で ``tail`` コマンドを使うこともできます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -39923,6 +40947,22 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T095043Z" creationid="miurahr" creationdate="20201118T095043Z">
         <seg>それらの属性テーブルで比較すると確認できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can check where it has been installed by running ``find / -name 'qgis_mapserv.fcgi'`` which should output something like ``/usr/lib/cgi-bin/qgis_mapserv.fcgi``.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102357Z" creationid="miurahr" creationdate="20201118T102357Z">
+        <seg>``/usr/lib/cgi-bin/qgis_mapserv.fcgi`` のような何かを出力する ``find / -name 'qgis_mapserv.fcgi'`` を実行して、どこにインストールされたかを確認できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can choose whatever name you like (``coco.bango``, ``super.duper.training``, ``example.com``, etc.) but for simplicity sake we're going to use ``myhost``.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102446Z" creationid="miurahr" creationdate="20201118T102446Z">
+        <seg>好きな名前を選択できます（ ``coco.bango`` 、 ``super.duper.training`` 、 ``example.com``、など）が、単純化のために ``myhost`` を使用するつもりです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -40007,6 +41047,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You can do that by running the following commands.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102418Z" creationid="miurahr" creationdate="20201118T102418Z">
+        <seg>次のコマンドを実行して、それを行うことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You can edit files directly from your fork of the QGIS Documentation.</seg>
       </tuv>
       <tuv lang="ja">
@@ -40067,6 +41115,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T034723Z" creationid="miurahr" creationdate="20201118T034723Z">
         <seg>さまざまな背景画像を使用することで、地図の外観を改善できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can install it like this:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102628Z" creationid="miurahr" creationdate="20201118T102628Z">
+        <seg>このようにインストールできます：</seg>
       </tuv>
     </tu>
     <tu>
@@ -40251,6 +41307,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T134256Z" creationid="miurahr" creationdate="20201117T134256Z">
         <seg>figure_gis_application_ では **GISアプリケーション** とは何なのかという例を示しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can see from the above image that the countries with the 171 and 65 ids were highlighted in yellow (Romania and France) by using the **SELECTION** parameter and we used the **REDLINING** feature to overlay a rectangle with the **QGIS Tutorial** label.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102617Z" creationid="miurahr" creationdate="20201118T102617Z">
+        <seg>上記の画像から、171 IDと65 IDを持つ国が **SELECTION** パラメーターを使用して黄色（ルーマニアとフランス）に強調表示され、 **REDLINING** 機能を使用して矩形を **QGISチュートリアル** ラベル。</seg>
       </tuv>
     </tu>
     <tu>
@@ -40735,6 +41799,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You learned how to install different QGIS Server versions from packages, how to configure Apache with QGIS Server, on Debian based Linux distros.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102457Z" creationid="miurahr" creationdate="20201118T102457Z">
+        <seg>DebianベースのLinuxディストリビューション上で、QGISサーバーでApacheを設定する方法を、パッケージから異なるQGISサーバーのバージョンをインストールする方法を学びました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You learned how use QGIS Server to provide WMS Services.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102706Z" creationid="miurahr" creationdate="20201118T102706Z">
+        <seg>QGISサーバーを使ってWMSサービスを提供する方法を学びました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You managed to calculate forest estimates for the whole forest using the information from your systematic sample plots, first without considering the forest characteristics and also using the interpretation of the aerial image into forest stands.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T220233Z" creationid="miurahr" creationdate="20201117T220233Z">
@@ -40803,6 +41883,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>このようなコレクションから単一の文書を抽出して個別に配布することは、このライセンスのコピーを抽出された文書に挿入し、その文書の逐語的なコピーに関して他のすべての点で本ライセンスに従うかぎり、このライセンスの下で許可されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You may find others but keep in mind some may not be visible at such a small scale so you could get a blank image as response.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102556Z" creationid="miurahr" creationdate="20201118T102556Z">
+        <seg>他を見つけるかもしれませんが、そのような小縮尺では見えないかもしれないので、空白の画像をレスポンスとして得ることがあることをご承知おきください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -41319,6 +42407,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You will need to find a balance that works for you.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103028Z" creationid="miurahr" creationdate="20201118T103028Z">
+        <seg>ちょうど良いバランスを見つける必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You will need:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T032623Z" creationid="miurahr" creationdate="20201118T032623Z">
@@ -41379,6 +42475,30 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T075050Z" creationid="miurahr" creationdate="20201118T075050Z">
         <seg>レイヤが正しく配置されていないことがわかります（アフリカの西に近い）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You will now have a new layer called :guilabel:`hillshade` that looks like this:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102910Z" creationid="miurahr" creationdate="20201118T102910Z">
+        <seg>:guilabel:`hillshade` と呼ばれる新しいレイヤーが次のように表示されます:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You will now see the new plugin repo listed in the list of configured Plugin Repositories</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102243Z" creationid="miurahr" creationdate="20201118T102243Z">
+        <seg>新しいプラグインリポジトリがプラグインリポジトリの一覧の中に表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You will probably get:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102451Z" creationid="miurahr" creationdate="20201118T102451Z">
+        <seg>おそらく得られるのは：</seg>
       </tuv>
     </tu>
     <tu>
@@ -41591,6 +42711,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Your result will be this:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103155Z" creationid="miurahr" creationdate="20201118T103155Z">
+        <seg>あなたの結果はこのようになります:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Your result will look like this:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T035350Z" creationid="miurahr" creationdate="20201118T035350Z">
@@ -41763,6 +42891,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T092616Z" creationid="miurahr" creationdate="20201117T092616Z">
         <seg>`新訂版 More Effective C++ &lt;https://www.maruzen-publishing.co.jp/item/b294731.html&gt;` 原著:`More Effective C++ &lt;https://www.informit.com/store/more-effective-c-plus-plus-35-new-ways-to-improve-your-9780201633719&gt;`_, Scott Meyers</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>`QGIS Web Client &lt;https://github.com/qgis/qgis-web-client&gt;`_ or QWC is a Web client project that can work alongside QGIS Server so that you can publish your projects on the Web or help you create QGIS Server requests for a better understanding about the possibilities.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102627Z" creationid="miurahr" creationdate="20201118T102627Z">
+        <seg>`QGIS Webクライアント &lt;https://github.com/qgis/qgis-web-client&gt;`_ またはQWCは、QGISサーバーと連携してプロジェクトをWeb上に公開したり、QGISサーバーリクエスト作成を手助けできるWebクライアントプロジェクトです、可能性についてのより良い理解を求めて。</seg>
       </tuv>
     </tu>
     <tu>
@@ -42159,6 +43295,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>``qgisplatform.demo`` Apache access log at :file:`qgisplatform.demo.access.log`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102533Z" creationid="miurahr" creationdate="20201118T102533Z">
+        <seg>``qgisplatform.demo`` Apacheアクセスログ :file:`qgisplatform.demo.access.log`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>``qgisplatform.demo`` Apache error log at :file:`qgisplatform.demo.error.log`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102533Z" creationid="miurahr" creationdate="20201118T102533Z">
+        <seg>``qgisplatform.demo`` Apacheエラーログ :file:`qgisplatform.demo.error.log`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>``sRefCounter``</seg>
       </tuv>
       <tuv lang="ja">
@@ -42187,6 +43339,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>``updateMapExtent()``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>``www-data`` is the Apache user on Debian based systems and we need Apache to have access to those locations or files.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102413Z" creationid="miurahr" creationdate="20201118T102413Z">
+        <seg>``WWW-data`` は、Debianベースのシステム上のApacheのユーザーであり、それらの場所やファイルへのアクセス権を持っているようにApacheを必要としています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -42903,6 +44063,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>this tutorial uses:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102509Z" creationid="miurahr" creationdate="20201118T102509Z">
+        <seg>このチュートリアルで使用するのは：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>todo: Add image</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T075604Z" creationid="miurahr" creationdate="20201118T075604Z">
@@ -42983,6 +44151,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>|FA| HTTP Server Configuration</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102402Z" creationid="miurahr" creationdate="20201118T102402Z">
+        <seg>|FA| HTTPサーバー構成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>|FA| Reordering the Layers</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T033325Z" creationid="miurahr" creationdate="20201118T033325Z">
@@ -43035,6 +44211,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>|LS| 森林パラメーターを計算する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|LS| Changing Raster Symbology</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102712Z" creationid="miurahr" creationdate="20201118T102712Z">
+        <seg>|LS| ラスターのシンボル体系を変更する</seg>
       </tuv>
     </tu>
     <tu>
@@ -43111,6 +44295,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>|LS| Geometry Construction</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103215Z" creationid="miurahr" creationdate="20201118T103215Z">
+        <seg>|LS| ジオメトリの構成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>|LS| Georeferencing a Map</seg>
       </tuv>
       <tuv lang="ja">
@@ -43123,6 +44315,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T034357Z" creationid="miurahr" creationdate="20201118T034357Z">
         <seg>|LS| データモデルの実装</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|LS| Install QGIS Server</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102343Z" creationid="miurahr" creationdate="20201118T102343Z">
+        <seg>|LS| QGISサーバーをインストールする</seg>
       </tuv>
     </tu>
     <tu>
@@ -43175,6 +44375,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>|LS| Serving WMS</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102501Z" creationid="miurahr" creationdate="20201118T102501Z">
+        <seg>|LS| WMSサーバーを運用する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>|LS| Supplementary Exercise</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T033911Z" creationid="miurahr" creationdate="20201118T033911Z">
@@ -43199,6 +44407,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>|LS| Terrain Analysis</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102847Z" creationid="miurahr" creationdate="20201118T102847Z">
+        <seg>|LS| 地形解析</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|LS| Useful QGIS Plugins</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102254Z" creationid="miurahr" creationdate="20201118T102254Z">
+        <seg>|LS| 役に立つQGISプラグイン</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>|LS| Using DB Manager to work with Spatial Databases in QGIS</seg>
       </tuv>
       <tuv lang="ja">
@@ -43219,6 +44443,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>|LS| QGISブラウザにおいてデータベースで作業する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|LS| Working with Raster Data</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102748Z" creationid="miurahr" creationdate="20201118T102748Z">
+        <seg>|LS| ラスターデータで作業する</seg>
       </tuv>
     </tu>
     <tu>
@@ -43275,6 +44507,30 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T054221Z" creationid="miurahr" creationdate="20201118T054221Z">
         <seg>|MOD| オンラインリソース</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|MOD| Plugins</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102250Z" creationid="miurahr" creationdate="20201118T102250Z">
+        <seg>|MOD| プラグイン</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|MOD| QGIS Server</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102334Z" creationid="miurahr" creationdate="20201118T102334Z">
+        <seg>|MOD| QGISサーバー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|MOD| Rasters</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102839Z" creationid="miurahr" creationdate="20201118T102839Z">
+        <seg>|MOD| ラスター</seg>
       </tuv>
     </tu>
     <tu>
@@ -43679,10 +44935,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>|basic| |FA| Calculating a Hillshade</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102853Z" creationid="miurahr" creationdate="20201118T102853Z">
+        <seg>|basic| |FA| 陰影起伏を計算する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>|basic| |FA| Changing Colors</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T033405Z" creationid="miurahr" creationdate="20201118T033405Z">
         <seg>|basic| |FA| 色を変更する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|basic| |FA| Changing Raster Layer Symbology</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102728Z" creationid="miurahr" creationdate="20201118T102728Z">
+        <seg>|basic| |FA| ラスターレイヤーのシンボル体系を変更する</seg>
       </tuv>
     </tu>
     <tu>
@@ -43699,6 +44971,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T102222Z" creationid="miurahr" creationdate="20201118T102222Z">
         <seg>|basic| |FA| 追加的なプラグインリポジトリの設定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|basic| |FA| Create a Virtual Raster</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102819Z" creationid="miurahr" creationdate="20201118T102819Z">
+        <seg>|basic| |FA| 仮想ラスターの作成</seg>
       </tuv>
     </tu>
     <tu>
@@ -43839,6 +45119,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>|basic| |FA| Loading Raster Data</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102801Z" creationid="miurahr" creationdate="20201118T102801Z">
+        <seg>|basic| |FA| ラスターデータを読み込む</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>|basic| |FA| Loading a WFS Layer</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T054236Z" creationid="miurahr" creationdate="20201118T054236Z">
@@ -43915,6 +45203,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>|basic| |FA| QGISのフォームデザイン機能の使用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|basic| |FA| Using a Hillshade as an Overlay</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103003Z" creationid="miurahr" creationdate="20201118T103003Z">
+        <seg>|basic| |FA| 陰影図をオーバーレイとして使用する</seg>
       </tuv>
     </tu>
     <tu>
@@ -44343,10 +45639,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>|moderate| |FA| Calculating the Slope</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103031Z" creationid="miurahr" creationdate="20201118T103031Z">
+        <seg>|moderate| |FA| 傾斜の計算</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>|moderate| |FA| Correct Topological Features</seg>
       </tuv>
       <tuv lang="ja">
         <seg>|moderate| |FA| トポロジ的地物を修正</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|moderate| |FA| Create another virtual host</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102443Z" creationid="miurahr" creationdate="20201118T102443Z">
+        <seg>|moderate| |FA| 別の仮想ホストを作成</seg>
       </tuv>
     </tu>
     <tu>
@@ -44359,10 +45671,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>|moderate| |FA| Install from packages</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102350Z" creationid="miurahr" creationdate="20201118T102350Z">
+        <seg>|moderate| |FA| パッケージからインストールする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>|moderate| |FA| Ordering Symbol Levels</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T033543Z" creationid="miurahr" creationdate="20201118T033543Z">
         <seg>|moderate| |FA| シンボルレベルの順序</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|moderate| |FA| QGIS Server Executable</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102354Z" creationid="miurahr" creationdate="20201118T102354Z">
+        <seg>|moderate| |FA| QGISサーバー実行可能ファイル</seg>
       </tuv>
     </tu>
     <tu>
@@ -44447,10 +45775,34 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>|moderate| |FA| Use Redlining</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102612Z" creationid="miurahr" creationdate="20201118T102612Z">
+        <seg>|moderate| |FA| レッドラインを使う</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|moderate| |FA| Using the Raster Calculator</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T103100Z" creationid="miurahr" creationdate="20201118T103100Z">
+        <seg>|moderate| |FA| ラスター計算機の使用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>|moderate| |TY|</seg>
       </tuv>
       <tuv lang="ja">
         <seg>|moderate| |TY|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|moderate| |TY| Change the Image and Layers parameters</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T102550Z" creationid="miurahr" creationdate="20201118T102550Z">
+        <seg>|moderate| |TY| 画像とレイヤーのパラメーターを変更する</seg>
       </tuv>
     </tu>
     <tu>
