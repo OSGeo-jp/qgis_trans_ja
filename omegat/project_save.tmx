@@ -4750,6 +4750,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>After you wrote the example code, you should add some *assertion* that will evaluate the code and that will be run automatically.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T221836Z" creationid="miurahr" creationdate="20201118T221836Z">
+        <seg>サンプルコードを書いた後は、コードを評価して自動的に実行される *アサーション* を追加する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>After your features are digitised...</seg>
       </tuv>
       <tuv lang="ja">
@@ -6691,6 +6699,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T014756Z" creationid="miurahr" creationdate="20201118T014756Z">
         <seg>**Styled Layer Descriptor（SLD）** についても基本的なサポートが利用可能です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Basically, you need to use a different Sphinx `directive`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T221827Z" creationid="miurahr" creationdate="20201118T221827Z">
+        <seg>基本的には、異なるSphinxの `ディレクティブ` を使う必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9079,6 +9095,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Code snippets with errors or code that uses outdated methods will fail and the notification will help you fix the problems.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T221822Z" creationid="miurahr" creationdate="20201118T221822Z">
+        <seg>エラーのあるコードスニペットや古いメソッドを使用するコードは失敗し、その通知は問題の解決に役立ちます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Coding Style</seg>
       </tuv>
       <tuv lang="ja">
@@ -10731,6 +10755,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T032208Z" creationid="miurahr" creationdate="20201118T032208Z">
         <seg>Dockerは、パッケージ化されたアプリケーション（別名イメージ）を実行します。これは、ビルドするソース（Dockerfileおよびリソース）として取得するか、レジストリ（プライベートまたはパブリック）から既にビルドできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Doctest sphinx directives</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T221828Z" creationid="miurahr" creationdate="20201118T221828Z">
+        <seg>sphinxディレクティブを文書化する</seg>
       </tuv>
     </tu>
     <tu>
@@ -13239,6 +13271,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>For testing, we use the `Sphinx doctest extension &lt;https://www.sphinx-doc.org/en/master/usage/extensions/doctest.html&gt;`_.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T221823Z" creationid="miurahr" creationdate="20201118T221823Z">
+        <seg>テストのために、 `Sphinx doctest拡張機能 &lt;https://www.sphinx-doc.org/en/master/usage/extensions/doctest.html&gt;`_ を使います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>For that purpose you can design a survey to inventory the whole forest area and then estimate its parameters.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T035430Z" creationid="miurahr" creationdate="20201118T035430Z">
@@ -14943,6 +14983,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>How to write testable code snippets</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T221825Z" creationid="miurahr" creationdate="20201118T221825Z">
+        <seg>テスト可能なコードスニペットの書き方</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>How would a map from 100 years ago differ from the same map today?</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135920Z" creationid="miurahr" creationdate="20201117T135920Z">
@@ -15623,6 +15671,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If the code has a wrong python syntax or the ``crs.isValid()`` returns ``False``, this code snippet will fail during testing.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T221838Z" creationid="miurahr" creationdate="20201118T221838Z">
+        <seg>コードのPython構文が間違っていたり ``crs.isValid()`` が ``False`` を返した場合、このコードスニペットはテスト中に失敗します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If the column :kbd:`f_table_name` contains the value :kbd:`people`, then this table has already been registered and you don't need to do anything more.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T123826Z" creationid="miurahr" creationdate="20201118T123826Z">
@@ -15971,6 +16027,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T094509Z" creationid="miurahr" creationdate="20201118T094509Z">
         <seg>Windowsである場合は、外部のアルゴリズムで作業するための最良の方法は、スタンドアロンのインストーラを使用してQGISをインストールすることです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If you are planning to add or update some chapters of the :ref:`PyQGIS-Developer-Cookbook`, then you should follow some rules to enable automatic testing of the code snippets.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T221818Z" creationid="miurahr" creationdate="20201118T221818Z">
+        <seg>:ref:`PyQGIS-Developer-Cookbook` の章を追加または更新することを計画している方は、コードスニペットの自動テストを可能にするためにいくつかの規則に従ってください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18251,6 +18315,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T025026Z" creationid="miurahr" creationdate="20201118T025026Z">
         <seg>上記の例では、 :meth:`addPluginToMenu ` が使われています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In the above example, you are creating a crs and with ``assert crs.isValid()`` you **test** if it is valid.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T221837Z" creationid="miurahr" creationdate="20201118T221837Z">
+        <seg>上記の例では、crsを作成し、 ``assert crs.isValid()`` でそれが有効かどうかを **テスト** します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27735,6 +27807,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Refer to the extension documentation for more detailed information.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T221824Z" creationid="miurahr" creationdate="20201118T221824Z">
+        <seg>より詳細な情報については拡張機能のドキュメントを参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Refer to them for more information.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T031229Z" creationid="miurahr" creationdate="20201118T031229Z">
@@ -31183,6 +31263,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Testing is really important because it allows automatic checking of the code.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T221821Z" creationid="miurahr" creationdate="20201118T221821Z">
+        <seg>テストはコードの自動チェックを可能にするので非常に重要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Texts." line with this:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T133911Z" creationid="miurahr" creationdate="20201117T133911Z">
@@ -31291,6 +31379,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>これは、印刷されたときに、それがどのように見えるかです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>That is, instead of  this::</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T221832Z" creationid="miurahr" creationdate="20201118T221832Z">
+        <seg>つまり、これの代わりに::</seg>
       </tuv>
     </tu>
     <tu>
@@ -32251,6 +32347,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140802Z" creationid="miurahr" creationdate="20201117T140802Z">
         <seg>XとYの値は使用されている **座標参照系** (CRS) に依存します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The ``..</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T222017Z" creationid="miurahr" creationdate="20201118T222017Z">
+        <seg>``.. testsetup::`` は</seg>
       </tuv>
     </tu>
     <tu>
@@ -39415,6 +39519,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>To successfully run the tests on snippets, you must import all the classes and declare any variables used in the code snippets.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T221839Z" creationid="miurahr" creationdate="20201118T221839Z">
+        <seg>スニペットでテストを正しく実行するには、すべてのクラスをインポートし、コードスニペットで使用されている変数を宣言する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>To summarize, the map canvas architecture consists of three concepts:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T003522Z" creationid="miurahr" creationdate="20201118T003522Z">
@@ -40895,6 +41007,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Value</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T221104Z" creationid="miurahr" creationdate="20201118T221104Z">
+        <seg>値</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Value 1 should get coloured light green, and value 0 coloured in brown.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140403Z" creationid="miurahr" creationdate="20201117T140403Z">
@@ -40907,6 +41027,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T095210Z" creationid="miurahr" creationdate="20201118T095210Z">
         <seg>しかしながら、値は一致します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Variable</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T221102Z" creationid="miurahr" creationdate="20201118T221102Z">
+        <seg>変数</seg>
       </tuv>
     </tu>
     <tu>
@@ -43831,6 +43959,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Writing code in the PyQGIS Cookbook</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T221817Z" creationid="miurahr" creationdate="20201118T221817Z">
+        <seg>PyQGISクックブック中でコードを書く</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Writing testable code snippets is not so different from the *old* method.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T221826Z" creationid="miurahr" creationdate="20201118T221826Z">
+        <seg>テスト可能なコードスニペットを書くことは *古い* 方法とそれほど変わりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Y</seg>
       </tuv>
       <tuv lang="ja">
@@ -44291,6 +44435,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T034723Z" creationid="miurahr" creationdate="20201118T034723Z">
         <seg>さまざまな背景画像を使用することで、地図の外観を改善できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can include those in the code snippet itself (visible in the HTML pages) or you can add them to a ``..</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T221950Z" creationid="miurahr" creationdate="20201118T221950Z">
+        <seg>それらはコードスニペット自体（HTMLページに表示される）に含めることも、</seg>
       </tuv>
     </tu>
     <tu>
@@ -45347,6 +45499,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T101217Z" creationid="miurahr" creationdate="20201118T101217Z">
         <seg>これで、検索ボックスを使用する方法を知っているので、それを見つけることは難しいことではありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You now use this::</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T221835Z" creationid="miurahr" creationdate="20201118T221835Z">
+        <seg>今度はこれを使用します::</seg>
       </tuv>
     </tu>
     <tu>
@@ -47355,6 +47515,30 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T024744Z" creationid="miurahr" creationdate="20201118T024744Z">
         <seg>文字列。改行して複数行になってもよい。HTML不可</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>testcode::``::</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T222033Z" creationid="miurahr" creationdate="20201118T222033Z">
+        <seg>あります::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>testsetup::`` directive (hidden in the HTML pages).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T221954Z" creationid="miurahr" creationdate="20201118T221954Z">
+        <seg> ``.. testsetup ::`` ディレクティブに追加することもできます（HTMLページには表示されません）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>testsetup::`` needs to be placed before the ``..</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T222030Z" creationid="miurahr" creationdate="20201118T222010Z">
+        <seg> ``.. testcode::`` の前に置く必要が</seg>
       </tuv>
     </tu>
     <tu>
