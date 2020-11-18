@@ -25951,6 +25951,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Python Console</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T124646Z" creationid="miurahr" creationdate="20201118T124646Z">
+        <seg>Pythonコンソール</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>QGIS Coding Standards</seg>
       </tuv>
       <tuv lang="ja">
@@ -27683,6 +27691,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>縮尺は **地図単位** (メートル，フィート，度)で示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Scope</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T124654Z" creationid="miurahr" creationdate="20201118T124654Z">
+        <seg>範囲</seg>
       </tuv>
     </tu>
     <tu>
