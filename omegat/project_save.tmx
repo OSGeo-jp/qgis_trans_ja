@@ -526,6 +526,30 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>**The goal for this lesson:** Create a map to present the inventory results using a hillshade raster as background.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034905Z" creationid="miurahr" creationdate="20201118T034905Z">
+        <seg>**このレッスンの目標：** 調査結果を提示する地図を、陰影起伏ラスターを背景に使用して作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>**The goal for this lesson:** Install LAStools and calculate a DEM from LiDAR data and a hillshade raster.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034725Z" creationid="miurahr" creationdate="20201118T034725Z">
+        <seg>**このレッスンの目標：** LAStoolsをインストールし、レーザー測量データと陰影起伏ラスターからDEMを計算します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>**The goal for this lesson:** Learn a technique to help the digitizing task, digitizing forest stands and finally adding the inventory data to them.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034954Z" creationid="miurahr" creationdate="20201118T034954Z">
+        <seg>**このレッスンの目標：** 林分をデジタル化し、最終的にそれらに目録データを追加して、デジタル化作業を支援するための技術を学びます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>**The goal for this lesson:** Learn to use the Atlas tool in QGIS to generate detailed printable maps to assist in the field inventory work.</seg>
       </tuv>
       <tuv lang="ja">
@@ -554,6 +578,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>**このレッスンの目標：** 新しいベクターデータセットを作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>**The goal for this lesson:** To create a systematic sampling plot design to survey the forest area.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035436Z" creationid="miurahr" creationdate="20201118T035436Z">
+        <seg>**このレッスンの目標：** 森林地域を調査するために体系的なサンプリングプロットの設計を作成します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -1726,6 +1758,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>:kbd:`lakes` (if you don't have it, add it from the :kbd:`exercise_data\\forestry\\` folder).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034912Z" creationid="miurahr" creationdate="20201118T034912Z">
+        <seg>:kbd:`lakes` （それを持っていない場合は、:kbd:`exercise_data\\forestry\\` フォルダからそれを追加します）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>:kbd:`rautjarvi_aerial`.</seg>
       </tuv>
       <tuv lang="ja">
@@ -2734,6 +2774,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>A couple of important things to note before you start digitizing:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035209Z" creationid="miurahr" creationdate="20201118T035209Z">
+        <seg>デジタル化を開始する前に注意すべきいくつかの重要な事：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>A couple of things to note:</seg>
       </tuv>
       <tuv lang="ja">
@@ -2858,6 +2906,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T033528Z" creationid="miurahr" creationdate="20201118T033528Z">
         <seg>地図レイヤーは地図にロードされているベクター（またはラスター）です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>A map presenting the results of the forest inventory will make it easier for anyone to have a good idea of what the results are in a quick glance, without looking at the specific numbers.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034904Z" creationid="miurahr" creationdate="20201118T034904Z">
+        <seg>森林調査の結果を提示する地図によって、特定の数字を見なくても、結果が何であるか誰にでも一目でわかりやすくなるでしょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3566,6 +3622,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Add the plugin :guilabel:`Table Manager` as you have done with other plugins before.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035414Z" creationid="miurahr" creationdate="20201118T035414Z">
+        <seg>前に他のプラグインに行ったように :guilabel:`テーブルマネージャ` プラグインを追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Add the point layer</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T032637Z" creationid="miurahr" creationdate="20201118T032637Z">
@@ -3754,6 +3818,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123652Z" creationid="miurahr" creationdate="20201117T123652Z">
         <seg>新しいレイヤーのジオメトリと属性を定義したら、それをディスクに保存する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>After digitizing one polygon, write the forest stand id that you can see from the map.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035214Z" creationid="miurahr" creationdate="20201118T035214Z">
+        <seg>1つのポリゴンをデジタル化した後、地図から見える林分IDを書き込みます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4271,6 +4343,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>An old lidar plugin might be installed by default in your system in the folder :file:`C:/Program Files/QGIS Valmiera/apps/qgis/python/plugins/processing/`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034731Z" creationid="miurahr" creationdate="20201118T034731Z">
+        <seg>古いライダープラグインは、フォルダ :file:`C:/Program Files/QGISValmiera/apps/qgis/python/plugins/processing/` 内のシステムにデフォルトでインストールされる可能性があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>An overall **discrete index of weights** was defined and applied to all input data.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T224918Z" creationid="miurahr" creationdate="20201117T224918Z">
@@ -4295,6 +4375,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>And a good idea on how to proceed.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035344Z" creationid="miurahr" creationdate="20201118T035344Z">
+        <seg>そして、続行する方法について良いアイデア。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>And also you want to lock its view so it does not change anymore whenever you change the visibility or order of the layers.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T215646Z" creationid="miurahr" creationdate="20201117T215646Z">
@@ -4303,10 +4391,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>And as input layer set the :kbd:`forest_stands_2012` layer.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035458Z" creationid="miurahr" creationdate="20201118T035458Z">
+        <seg>:kbd:`forest_stands_2012` レイヤーを入力レイヤーとして設定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>And do not forget to update the ``master`` branch in your local repository!</seg>
       </tuv>
       <tuv lang="ja">
         <seg>またローカルリポジトリ中の ``master`` ブランチを更新して最新の状態を保つことも忘れないでください！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>And paste the pixels directly (:guilabel:`Ctr+V`), GIMP will display the pasted pixels as a new temporary layer in the :guilabel:`Layers - Brushes` panel as a :guilabel:`Floating Selection (Pasted Layer)`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035018Z" creationid="miurahr" creationdate="20201118T035018Z">
+        <seg>そして、ピクセルを直接貼り付けます( :guilabel:`Ctr+V` )、GIMPには貼り付けられたピクセルが新しい一時的な レイヤーとして、 :guilabel:`レイヤー-ブラシ` パネル中の :guilabel:`浮動選択(貼り付け レイヤー)` として表示されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4783,6 +4887,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>As you can imagine this is not commonly applicable except for some small areas or some special situations.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035442Z" creationid="miurahr" creationdate="20201118T035442Z">
+        <seg>ご想像できるように、これはいくつかの小さな領域または一部の特殊な状況を除けば、一般的には適用できません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>As you can see it's often not easy to know what type of geometry you will need.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123613Z" creationid="miurahr" creationdate="20201117T123613Z">
@@ -4827,6 +4939,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T033639Z" creationid="miurahr" creationdate="20201118T033639Z">
         <seg>おわかりのように、これらのシンボルは道路と一緒に向きを変えるが、常にそれに沿って曲げないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>As you did in the previous lesson, you need to georeference this new image to be able to use it with the rest of your data.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035043Z" creationid="miurahr" creationdate="20201118T035043Z">
+        <seg>前のレッスンで行ったように、この新しい画像は、データの残りの部分とともに使用できるようにするためにジオリファレンスする必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4931,6 +5051,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>ページの一番下に、このプルリクエストについて全体的なコメントを残すことのできるテキストボックスがあると思います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>At the least you will have to add meaningful names for the points and export them to a format that can be used in their GPS devices.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035510Z" creationid="miurahr" creationdate="20201118T035510Z">
+        <seg>少なくとも、ポイントのために意味のある名前を追加し、GPSデバイスで使用できる形式にエクスポートする必要はあるでしょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5319,6 +5447,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Begin digitizing the stand 358 at one of the common corners with the stand 357.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035333Z" creationid="miurahr" creationdate="20201118T035333Z">
+        <seg>林分357と共通する角の一つで林分358をデジタル化し始めます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Beginning with a USGS Hydrosheds DEM which was converted into a Regularized Spline with Tension using the GRASS functions inside QGIS and training by Helena Mitsova.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222826Z" creationid="miurahr" creationdate="20201117T222826Z">
@@ -5475,6 +5611,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>皆さんのための GIS アプリケーション、フリーでオープンソースソフトウェアである QGIS をご紹介します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Browse for :kbd:`WGS 84 (EPSG:4326)`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035544Z" creationid="miurahr" creationdate="20201118T035544Z">
+        <seg>:kbd:`WGS 84（EPSG：4326）` を参照します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5639,6 +5783,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>But for us, the forest stands is enough.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035038Z" creationid="miurahr" creationdate="20201118T035038Z">
+        <seg>しかし私たちにとっては林分で十分です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>But it probably has too many colors to use in a real map...</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T033539Z" creationid="miurahr" creationdate="20201118T033539Z">
@@ -5659,6 +5811,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124311Z" creationid="miurahr" creationdate="20201117T124311Z">
         <seg>しかし、このライセンスは、ソフトウェアのマニュアルに限定されるものではありません。それは関係なく、主題のか、それが印刷された本として出版されているかどうか、任意のテキストの仕事のために使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>But you are only interested on those points that are actually inside your forest area (see the images below):</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035506Z" creationid="miurahr" creationdate="20201118T035506Z">
+        <seg>しかし、お使いの森林面積の内側に実際にある点のみに関心があります（下の画像を参照）：</seg>
       </tuv>
     </tu>
     <tu>
@@ -5999,6 +6159,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Change the new layer's symbology so that it will be easier to see what polygons have already been digitized:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035146Z" creationid="miurahr" creationdate="20201118T035146Z">
+        <seg>どのポリゴンがすでにデジタル化されているかが容易に見えるように、新しいレイヤーのシンボルを変更します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Change the road symbology to a light color with a broad line.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T032702Z" creationid="miurahr" creationdate="20201118T032702Z">
@@ -6011,6 +6179,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T033624Z" creationid="miurahr" creationdate="20201118T033624Z">
         <seg>:guilabel:`places` レイヤーのシンボルプロパティを変更します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Change the symbology of the centroids layer as:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035105Z" creationid="miurahr" creationdate="20201118T035105Z">
+        <seg>重心レイヤーのシンボルをこのように変更します：</seg>
       </tuv>
     </tu>
     <tu>
@@ -6071,10 +6247,42 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Check :guilabel:`Activate`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034748Z" creationid="miurahr" creationdate="20201118T034748Z">
+        <seg>:guilabel:`Activate` をチェックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Check :guilabel:`Add result to canvas`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035500Z" creationid="miurahr" creationdate="20201118T035500Z">
+        <seg>:guilabel:`結果をキャンバスに追加` をチェックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Check :guilabel:`Add saved file to map`.</seg>
       </tuv>
       <tuv lang="ja">
         <seg>:guilabel:`保存したファイルを地図に追加` をチェックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Check :guilabel:`Enable topological editing`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035204Z" creationid="miurahr" creationdate="20201118T035204Z">
+        <seg>:guilabel:`トポロジ編集を有効` をチェックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Check :guilabel:`Label this layer with` and select the field :kbd:`ID`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035514Z" creationid="miurahr" creationdate="20201118T035514Z">
+        <seg>:guilabel:`これでこのレイヤーにラベル` をチェックし、:kbd:`ID` フィールドを選択します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6099,6 +6307,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>:guilabel:`交わる地物を集計` をチェックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Check :menuselection:`Add result to canvas`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035103Z" creationid="miurahr" creationdate="20201118T035103Z">
+        <seg>:menuselection:`結果を キャンバス に追加` をチェックします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6135,6 +6351,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Check that the new raster is fitting nicely with the original map.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035049Z" creationid="miurahr" creationdate="20201118T035049Z">
+        <seg>新しいラスターが元の地図ときちんと合っていることを確認してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Check that your dialog now looks like this:</seg>
       </tuv>
       <tuv lang="ja">
@@ -6147,6 +6371,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T015756Z" creationid="miurahr" creationdate="20201118T015756Z">
         <seg>シンボルレベルが次のようになっていることを確認してください：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Check the :guilabel:`Avoid Int.` box for the :kbd:`forest_stands` layer.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035203Z" creationid="miurahr" creationdate="20201118T035203Z">
+        <seg>:kbd:`forest_stands` レイヤーの :guilabel:`交差を回避` ボックスを チェックします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6375,6 +6607,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Click :guilabel:`Apply`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035205Z" creationid="miurahr" creationdate="20201118T035205Z">
+        <seg>:guilabel:`適用` をクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Click :guilabel:`Load now!` to load the results as a new layer into your map.</seg>
       </tuv>
       <tuv lang="ja">
@@ -6455,6 +6695,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Click :guilabel:`OK` two times.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035405Z" creationid="miurahr" creationdate="20201118T035405Z">
+        <seg>:guilabel:`OK` を2回クリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Click :guilabel:`OK`.</seg>
       </tuv>
       <tuv lang="ja">
@@ -6507,6 +6755,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T033719Z" creationid="miurahr" creationdate="20201118T033719Z">
         <seg>楕円を描画するためにクリックして、ページ上でドラッグします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Click and drag the mouse cursor in the middle of the line so that the tool will collect several pixel color values.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035010Z" creationid="miurahr" creationdate="20201118T035010Z">
+        <seg>ツールは、いくつかのピクセルの色の値を収集するように行の中央にマウスカーソルをクリックしてドラッグ。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6571,6 +6827,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T020912Z" creationid="miurahr" creationdate="20201118T020912Z">
         <seg>:guilabel:`実行` をクリックしてから :guilabel:`結果を見る` をクリックしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Click on :guilabel:`Save`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035417Z" creationid="miurahr" creationdate="20201118T035417Z">
+        <seg>:guilabel:`保存` をクリックします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6695,6 +6959,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Click the "eye" icon next to the original image layer to switch it off, so that only the :guilabel:`Pasted Layer` is visible:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035020Z" creationid="miurahr" creationdate="20201118T035020Z">
+        <seg>:guilabel:`レイヤーを貼り付け` のみが表示されるよう、元の画像レイヤーの隣の「目」のアイコンをクリックしてそれを非表示にしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Click the :guilabel:`Add PostGIS Layers` button or select :menuselection:`Layer --&gt; Add PostGIS Layers` from the menu.</seg>
       </tuv>
       <tuv lang="ja">
@@ -6783,10 +7055,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Click the plus sign on the bottom of the dialog box.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035402Z" creationid="miurahr" creationdate="20201118T035402Z">
+        <seg>ダイアログボックスの下部にあるプラス記号をクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Clip the Rasters</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T034024Z" creationid="miurahr" creationdate="20201118T034024Z">
         <seg>ラスターのクリップ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Close QGIS, if you have already started it.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034730Z" creationid="miurahr" creationdate="20201118T034730Z">
+        <seg>QGISをすでに開始している場合は閉じます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6807,10 +7095,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Close the :guilabel:`Table Manager` dialogue.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035418Z" creationid="miurahr" creationdate="20201118T035418Z">
+        <seg>:guilabel:`テーブルマネージャ` ダイアログを閉じます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Close the Attribute table.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T034209Z" creationid="miurahr" creationdate="20201118T034209Z">
         <seg>属性テーブルを閉じます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Close the attribute table and right click the forest_stands layer to save it as :kbd:`forest_stands_1994.shp`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035410Z" creationid="miurahr" creationdate="20201118T035410Z">
+        <seg>属性テーブル を閉じ、forest_stands レイヤーを右クリックして :kbd:`forest_stands_1994.shp` としてそれを保存します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6827,6 +7131,22 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T033717Z" creationid="miurahr" creationdate="20201118T033717Z">
         <seg>実行後はダイアログを閉じます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Close the viewer again.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034815Z" creationid="miurahr" creationdate="20201118T034815Z">
+        <seg>再びビューアを閉じます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Close the viewer when you are ready.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034802Z" creationid="miurahr" creationdate="20201118T034802Z">
+        <seg>準備ができたら、ビューアを閉じます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7183,6 +7503,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Continue digitizing on your own until you have digitized all the forest stands that are limited by the main road and the lake.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035345Z" creationid="miurahr" creationdate="20201118T035345Z">
+        <seg>主要道路と湖によって制限されているすべての林分をデジタル化するまで、自分でデジタル化を続行します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Continuing the example from previous lesson, you will use the inventory information gathered in the field to calculate the forest parameters, for the whole forest first, and then for the stands you digitized before.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T220138Z" creationid="miurahr" creationdate="20201117T220138Z">
@@ -7251,6 +7579,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>グリッドの両側の座標。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Copy (:guilabel:`Ctr+C`) the selected pixels.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035017Z" creationid="miurahr" creationdate="20201118T035017Z">
+        <seg>選択された画素をコピー( :guilabel:`Ctrl+C` )します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7543,6 +7879,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Creating a DEM with LAStools can be done in two steps, first one to classify the point cloud into :kbd:`ground` and :kbd:`no ground` points and then calculating a DEM using only the :kbd:`ground` points.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034804Z" creationid="miurahr" creationdate="20201118T034804Z">
+        <seg>LAStoolsとDEMの作成は2段階で行うことができます。第1は点群を :kbd:`基準` と :kbd:`非基準` 点に分類すること、次は :kbd:`基準` 点のみ使用してDEMを計算すること。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Creating a View</seg>
       </tuv>
       <tuv lang="ja">
@@ -7603,6 +7947,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150040Z" creationid="miurahr" creationdate="20201117T150040Z">
         <seg>既存のデータを使用して地図を作成することはまだ始まったばかりです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Creating other types of sampling designs will involve the use of different tools within QGIS, spreadsheets or scripting to calculate the coordinates of the sample plots, but the general idea remains the same.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035601Z" creationid="miurahr" creationdate="20201118T035601Z">
+        <seg>サンプリング設計の他のタイプを作成するには、QGIS内のさまざまなツールやスプレッドシートを使用したりスクリプトを書いてサンプルプロットの座標を計算することが入ってきますが、一般的な考え方は同じままになります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7911,6 +8263,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Despite the diagonal lines remaining in the hillshade raster result, you can clearly see an accurate relief of the area.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034831Z" creationid="miurahr" creationdate="20201118T034831Z">
+        <seg>陰影起伏ラスター結果に残っている対角線にもかかわらず、明らかに地域の正確な起伏を見ることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Developers Guide</seg>
       </tuv>
       <tuv lang="ja">
@@ -7983,10 +8343,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Digitize only one polygon at a time.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035214Z" creationid="miurahr" creationdate="20201118T035214Z">
+        <seg>一度に1つのポリゴンをデジタル化してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Digitize the school itself and the upper field.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T145802Z" creationid="miurahr" creationdate="20201117T145802Z">
         <seg>学校自体と上のフィールドをデジタル化します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Disable editing and save the changes.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034921Z" creationid="miurahr" creationdate="20201118T034921Z">
+        <seg>編集を無効にし、変更を保存します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8011,6 +8387,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>編集を無効にします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Disable the edit mode and save your changes.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035525Z" creationid="miurahr" creationdate="20201118T035525Z">
+        <seg>編集モードを無効にし、変更を保存します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8191,6 +8575,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Don't try to be too accurate with the digitizing of the borders.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035209Z" creationid="miurahr" creationdate="20201118T035209Z">
+        <seg>国境のデジタル化ではあまりに正確にしようとしないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Don't worry if you have joined more, less or different areas of forest.</seg>
       </tuv>
       <tuv lang="ja">
@@ -8203,6 +8595,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>凡例で :guilabel:`test-data` レイヤーをダブルクリックしてプロパティにアクセスします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Double click to open the :guilabel:`lasground` tool and set it as shown in this image:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034807Z" creationid="miurahr" creationdate="20201118T034807Z">
+        <seg>ダブルクリックして :guilabel:`lasground` ツールを開き、この画像のように設定します：</seg>
       </tuv>
     </tu>
     <tu>
@@ -8251,6 +8651,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>Scott Madry博士： http://scottmadry.web.unc.edu または email: madrys@email.unc.edu</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Drag and drop the :kbd:`forest_stands.shp` vector file to your map.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035145Z" creationid="miurahr" creationdate="20201118T035145Z">
+        <seg>地図に :kbd:`forest_stands.shp` ベクターファイルをドラッグ＆ドロップします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8331,6 +8739,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T224822Z" creationid="miurahr" creationdate="20201117T224822Z">
         <seg>定期的なワークショップの間、学生が合法的にQGISとどのように自分の地図を作成すると動作する方法を学びます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>During the digitizing you might need to edit or delete nodes, split or merge polygons.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035347Z" creationid="miurahr" creationdate="20201118T035347Z">
+        <seg>デジタル化中に、ポリゴンを編集したり削除したノードを、分割またはマージする必要がある場合があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8591,6 +9007,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Enable editing for the :kbd:`forest_stands.shp` layer.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035216Z" creationid="miurahr" creationdate="20201118T035216Z">
+        <seg>:kbd:`forest_stands.shp` レイヤーについて編集を有効にします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Enable editing.</seg>
       </tuv>
       <tuv lang="ja">
@@ -8603,6 +9027,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>:guilabel:`空間索引を作成` の横にあるチェックボックスをオンにします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Enable the edit mode.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035521Z" creationid="miurahr" creationdate="20201118T035521Z">
+        <seg>編集モードを有効にします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8667,6 +9099,22 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T034445Z" creationid="miurahr" creationdate="20201118T034445Z">
         <seg>入力を求められたらパスワードを入力します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Enter the :kbd:`id` as 358.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035339Z" creationid="miurahr" creationdate="20201118T035339Z">
+        <seg>:kbd:`id` を358と入力します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Enter the forest stand :kbd:`id` (in this case 357).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035220Z" creationid="miurahr" creationdate="20201118T035220Z">
+        <seg>林分 :kbd:`id` を入力します(この場合は357)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8891,6 +9339,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135956Z" creationid="miurahr" creationdate="20201117T135956Z">
         <seg>知識とデータの自由な共有という原則が採用されるならば、現在の可能性は将来にまで続きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Expand it to see the tools available, and expand also the :guilabel:`LAStools` category (the number of algorithms may vary).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034755Z" creationid="miurahr" creationdate="20201118T034755Z">
+        <seg>利用可能なツールが見えるようにそれを展開し、さらに :guilabel:`LAStools` カテゴリを展開します（アルゴリズムの数は変化する場合があります）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9239,6 +9695,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Finally, digitize a few points inside polygon 357 making sure that the common border is not intersected.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035336Z" creationid="miurahr" creationdate="20201118T035336Z">
+        <seg>最後に、共通の境界が交差されていないことを確認しながらポリゴン357内のいくつかのポイントをデジタル化します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Finally, georeference you map:</seg>
       </tuv>
       <tuv lang="ja">
@@ -9259,6 +9723,22 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T224821Z" creationid="miurahr" creationdate="20201117T224821Z">
         <seg>最後に、QGISを使って最高の影響の一つは、教育に見ることができる--- QGISは、学生に提示された最初のソフトウェアです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Finally, select :menuselection:`File --&gt; Export...`, set :guilabel:`Select File Type (By Extension)` as a :guilabel:`TIFF image`, select the :kbd:`digitizing` folder and name it :kbd:`rautjarvi_map_green.tif`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035022Z" creationid="miurahr" creationdate="20201118T035022Z">
+        <seg>最後に、 :menuselection:`ファイル --&gt; エクスポート...` を選択し、 :guilabel:`ファイルの種類を選択(拡張子で)` を :guilabel:`TIFF画像` として設定し、 :kbd:`digitizing` フォルダを選択してそれに :kbd:`rautjarvi_map_green.tif` と名前を付けます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Finally, turn off the visibility of all the layers except :kbd:`forest_stands` and :kbd:`rautjarvi_georef`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035207Z" creationid="miurahr" creationdate="20201118T035207Z">
+        <seg>最後に、:kbd:`forest_stands`と :kbd:`rautjarvi_georef` を除くすべてのレイヤーの可視性をオフにします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9307,6 +9787,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123639Z" creationid="miurahr" creationdate="20201117T123639Z">
         <seg>まず、ジオメトリタイプを選択し、それから属性フィールドを追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>First you will have to set up the :guilabel:`Processing` framework settings to properly work with LAStools:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034729Z" creationid="miurahr" creationdate="20201118T034729Z">
+        <seg>最初に、 :guilabel:`プロセッシング` フレームワークの設定を、LAStoolsで動作するように適切に設定する必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9431,6 +9919,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>For :guilabel:`LAStools folder` set :kbd:`c:\\lastools\\` (or the folder you extracted LAStools to).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034749Z" creationid="miurahr" creationdate="20201118T034749Z">
+        <seg>:guilabel:`LAStoolsフォルダ` について :kbd:`C:\\lastools\\` （またはLAStoolsを展開したフォルダ）を設定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>For Developers</seg>
       </tuv>
       <tuv lang="ja">
@@ -9503,6 +9999,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>For each individual case, those will depend on the type of forest and the management purpose; and should be carefully planned by someone with forestry knowledge.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035434Z" creationid="miurahr" creationdate="20201118T035434Z">
+        <seg>それらは、個々の場合について森林管理目的のタイプに依存するでしょうし、誰か林業の知識を持つ人によって慎重に計画されなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>For each sample take measurements such as pH, dissolved oxygen etc.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124033Z" creationid="miurahr" creationdate="20201117T124033Z">
@@ -9515,6 +10019,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>編集する目的では、 :kbd:`.rst` ファイルは通常のテキストファイル（ :kbd:`.txt` ）とまったく同じように動作します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For education and evaluation purposes you can use and test LAStools as much as you need to.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034741Z" creationid="miurahr" creationdate="20201118T034741Z">
+        <seg>教育と評価の目的のためには、必要なだけLAStoolsを使用してテストできます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9775,6 +10287,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>For example, one very accurate way to inventory a forest (if you consider only tree species) would be to visit the forest and make a list of every tree and their characteristics.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035441Z" creationid="miurahr" creationdate="20201118T035441Z">
+        <seg>たとえば、森林の目録を作成する1つの非常に正確な方法は（樹種だけを考慮する場合）、森林を訪問し、すべての木とその特徴のリストを作成することです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>For example, rasters can be used to model water flow over the land surface.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140344Z" creationid="miurahr" creationdate="20201117T140344Z">
@@ -10007,6 +10527,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>For that purpose you can design a survey to inventory the whole forest area and then estimate its parameters.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035430Z" creationid="miurahr" creationdate="20201118T035430Z">
+        <seg>その目的のために、この森林地域全体の目録作成の調査を設計し、そのパラメーターを推定できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>For the 5 degree version, replace the ``2`` in the expression and file name with ``5``.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T020422Z" creationid="miurahr" creationdate="20201118T020422Z">
@@ -10039,6 +10567,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>For the :kbd:`forest_stands_2012_results` layer:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034916Z" creationid="miurahr" creationdate="20201118T034916Z">
+        <seg>:kbd:`forest_stands_2012_results` レイヤ に対して：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For the :kbd:`systematic_plots_clip` layer, change the field used for labeling to your new :kbd:`Plot_id` field.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035527Z" creationid="miurahr" creationdate="20201118T035527Z">
+        <seg>:kbd:`systematic_plots_clip` レイヤーについて、ラベル付けに使用するフィールドを新しい :kbd:`Plot_id` フィールドに変更します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>For the attributes we would want a **field** for each thing that describes the sample site.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123624Z" creationid="miurahr" creationdate="20201117T123624Z">
@@ -10051,6 +10595,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T225525Z" creationid="miurahr" creationdate="20201117T225525Z">
         <seg>北東インドのこの小さなトラ保護区の歴史の中で初めて、主な理由はQGISのカメラトラップを使用してトラを監視することが可能でした。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For the forest you are working with, the manager has decided that a systematic sampling design is the most appropriate for this forest and has decided that a fixed distance of 80 meters between the sample plots and sampling lines will yield reliable results (for this case, +- 5% average error at a probability of 68%).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035451Z" creationid="miurahr" creationdate="20201118T035451Z">
+        <seg>作業している森について管理者は、この森のためには体系的なサンプリング設計が最も適切であると判断し、またサンプルプロットとサンプリングラインとの間に80メートルの一定の距離が信頼性の高い結果が得られると判断しました（この場合のために、68％の確率で平均誤差+-5％）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10083,6 +10635,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>この演習では以前にスキャンした地図を使用します。データフォルダ :kbd:`exercise_data/forestry` 内に :kbd:`rautjarvi_map.tif` として見つかります</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For this exercise, the information from the inventory for 1994 (the same inventory as the map) is ready as a comma separated text (csv) file.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035354Z" creationid="miurahr" creationdate="20201118T035354Z">
+        <seg>この演習では、1994年目録（地図と同じ目録）からの情報は、カンマ区切りテキスト（CSV）ファイルとして準備ができています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10583,6 +11143,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Go back to that lesson if you need to and calculate the areas for the forest stands, name the new attribute :kbd:`Area` and make sure that the values calculated are in hectares.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035420Z" creationid="miurahr" creationdate="20201118T035420Z">
+        <seg>する必要がある場合は、そのレッスンに戻り 林分 の領域を計算し、新しい 属性 に :kbd:`面積` と名前を付け、計算値はヘクタールであることを確認してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Go back to that module as you need.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T215632Z" creationid="miurahr" creationdate="20201117T215632Z">
@@ -10595,6 +11163,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T215622Z" creationid="miurahr" creationdate="20201117T215622Z">
         <seg>:guilabel:`印刷レイアウト` ウィンドウに何度も戻り、地図がどのように見えるかを確認します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Go back to the :guilabel:`Processing Toolbox`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034805Z" creationid="miurahr" creationdate="20201118T034805Z">
+        <seg>:guilabel:`処理ツールボックス` に戻ります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10623,6 +11199,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Go to :menuselection:`Processing --&gt; Options and configuration`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034747Z" creationid="miurahr" creationdate="20201118T034747Z">
+        <seg>:menuselection:`プロセッシング --&gt; オプションと構成` に行きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Go to :menuselection:`Vector --&gt; Geoprocessing Tools --&gt; Buffer(s)` to open the Buffer(s) dialog.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T020459Z" creationid="miurahr" creationdate="20201118T020459Z">
@@ -10639,6 +11223,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Go to the :guilabel:`Attribute table` for :kbd:`systematic_plots_clip`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035521Z" creationid="miurahr" creationdate="20201118T035521Z">
+        <seg>:kbd:`systematic_plots_clip` のための :guilabel:`属性テーブル` に行きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Go to the :guilabel:`Buffer` options and check the :guilabel:`Draw text buffer`, set the :guilabel:`Size` to :kbd:`1`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035515Z" creationid="miurahr" creationdate="20201118T035515Z">
+        <seg>:guilabel:`バッファ` オプションに行って :guilabel:`テキストバッファを描画` をチェックし、 :guilabel:`サイズ` を :kbd:`1` に設定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Go to the :guilabel:`Item properties` tab.</seg>
       </tuv>
       <tuv lang="ja">
@@ -10647,10 +11247,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Go to the :guilabel:`Joins` tab.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035401Z" creationid="miurahr" creationdate="20201118T035401Z">
+        <seg>:guilabel:`結合` タブに移動します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Go to the :guilabel:`Print Layout` window.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T215607Z" creationid="miurahr" creationdate="20201117T215607Z">
         <seg>:guilabel:`Print Layout`ウィンドウに移動します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Go to the :kbd:`digitizing` folder using your file manager browser.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035144Z" creationid="miurahr" creationdate="20201118T035144Z">
+        <seg>ファイルマネージャのブラウザを使用して :kbd:`digitizing` フォルダに行きます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10763,6 +11379,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123717Z" creationid="miurahr" creationdate="20201117T123717Z">
         <seg>それが終わったら、 地図ビューの中の **マウスの左ボタン** で次にクリックした場所が、新しいポイント **ジオメトリ** を配置したい場所です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Having in mind the digitizing tools in QGIS, you might already be thinking that it would be helpful to snap to those green pixels while digitizing.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035051Z" creationid="miurahr" creationdate="20201118T035051Z">
+        <seg>QGISでのデジタル化ツールを心に持っていて、デジタル化の間にそれらの緑のピクセルにスナップしたら便利だろうとすでにお考えかもしれません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10955,6 +11579,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135310Z" creationid="miurahr" creationdate="20201117T135310Z">
         <seg>以下にはいくつかの例を示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Here are some things you should remember:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035044Z" creationid="miurahr" creationdate="20201118T035044Z">
+        <seg>ここでは、忘れてはならないいくつかのものがあります：</seg>
       </tuv>
     </tu>
     <tu>
@@ -11371,6 +12003,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T024909Z" creationid="miurahr" creationdate="20201118T024909Z">
         <seg>`qgisMaximumVersion` が空欄の場合、:ref:`official_pyqgis_repository` にアップロードする際に、自動的にメジャーバージョン＋ `.99` に設定されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If a border is a straight line, digitize it with just two nodes.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035210Z" creationid="miurahr" creationdate="20201118T035210Z">
+        <seg>境界が直線である場合は、ノード2つだけでデジタル化してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11831,6 +12471,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If you are not happy with the result, repeat the click and drag operation.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035014Z" creationid="miurahr" creationdate="20201118T035014Z">
+        <seg>結果に満足できない場合は、クリックやドラッグ操作を繰り返します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If you are not yet familiar with git and GitHub vocabulary, you may want to read the GitHub `Hello-world &lt;https://guides.github.com/activities/hello-world/&gt;`_ project to learn some basic vocabulary and actions that will be used below.</seg>
       </tuv>
       <tuv lang="ja">
@@ -11883,6 +12531,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T145724Z" creationid="miurahr" creationdate="20201117T145724Z">
         <seg>このボタンを見つけることができない場合は、 :guilabel:`デジタイズ` ツールバーが有効になっているか確認してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If you check the :guilabel:`Attribute table` for the plots inside the forest area, you can see that you have the default :guilabel:`id` field automatically generated by the :guilabel:`Regular points` tool.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035512Z" creationid="miurahr" creationdate="20201118T035512Z">
+        <seg>:guilabel:`森林面積の内側プロットの属性テーブル` をチェックした場合 :guilabel:`規則的ポイント` ツールによって自動で生成されるデフォルト :guilabel:`id` フィールドを持っていることがわかります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11975,6 +12631,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If you don't remember how, you can review it in :doc:`../complete_analysis/raster_to_vector`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035055Z" creationid="miurahr" creationdate="20201118T035055Z">
+        <seg>どのようにか覚えていない場合、 :doc:`../complete_analysis/raster_to_vector` で確認できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If you don't specify that, you will get a list of all possible combinations of people and streets, but no way to know who actually lives on which street!</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150312Z" creationid="miurahr" creationdate="20201117T150312Z">
@@ -11995,6 +12659,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T133902Z" creationid="miurahr" creationdate="20201117T133902Z">
         <seg>あなたは不変のセクションを持っている場合は、フロントカバーテキストとバックカバーテキストは、「テキスト...と。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If you have a folder named :kbd:`lidar`, delete it.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034732Z" creationid="miurahr" creationdate="20201118T034732Z">
+        <seg>名前 :kbd:`lidar` のフォルダがある場合、それを削除します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12043,6 +12715,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135746Z" creationid="miurahr" creationdate="20201117T135746Z">
         <seg>自分の町の地形図を見る場合、いつだれによって地図が作成されたか知っておくと便利でしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If you look at the attribute table again, you will notice that the order in the table is following also that pattern.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035517Z" creationid="miurahr" creationdate="20201118T035517Z">
+        <seg>再び属性テーブルを見れば、テーブル内の順序もそのパターンに従っていることがわかります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12199,6 +12879,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If you want to add some randomness to this regular points, you could use a randomly calculated number between 0 and 80 (80 is the distance between our points), and then write it as the :guilabel:`Initial inset from corner (LH side)` parameter in the tool's dialog.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035504Z" creationid="miurahr" creationdate="20201118T035504Z">
+        <seg>この規則的なポイントにいくらかランダム性を追加したい場合は、0と80（80はこの場合の点間の距離です）の間でランダムに計算された数を使用して、それからツールのダイアログ中で :guilabel:`コーナーからの初期インセット（LH側）` パラメーターとして書きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If you want to add your existing plugin to Processing, you need to add some code.</seg>
       </tuv>
       <tuv lang="ja">
@@ -12263,6 +12951,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If you were not prompted for the polygon :kbd:`id` when you finished digitizing it, go to :menuselection:`Settings --&gt; Options --&gt; Digitizing` and make sure that the :guilabel:`Suppress attribute form pop-up after feature creation` is not checked.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035221Z" creationid="miurahr" creationdate="20201118T035221Z">
+        <seg>デジタル化し終えてもポリゴン :kbd:`id` の入力を求められなかった場合は、 :menuselection:`設定 --&gt; オプション --&gt; デジタル化` に行き、 :guilabel:`地物作成後まで 属性 フォームのポップアップを抑止` がチェックされていないことを確認してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If you wish to create your own graduated symbol renderer you can do so as illustrated in the example snippet below (which creates a simple two class arrangement)</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T031946Z" creationid="miurahr" creationdate="20201118T031946Z">
@@ -12275,6 +12971,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T032522Z" creationid="miurahr" creationdate="20201118T032522Z">
         <seg>デフォルトのデータセットをコースのためのローカライズされたデータに置き換えたい場合、QGISに組み込まれたツールを使って簡単に行うことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If you would like to order or name them in a different way, you could use a spreadsheet to be able to order and combine rows and columns in any different way.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035518Z" creationid="miurahr" creationdate="20201118T035518Z">
+        <seg>別の方法でそれらを順序付けしたり名前を付けたい場合、スプレッドシートを使用すると何か異なる方法で行と列を順序付けして組み合わせできます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12531,6 +13235,22 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T215801Z" creationid="miurahr" creationdate="20201117T215801Z">
         <seg>:guilabel:`Item properties`タブの:guilabel:`Main properties`内で、:guilabel:`Insert or Edit an Expression...`をクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In :guilabel:`CRS` select :guilabel:`Selected CRS`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035543Z" creationid="miurahr" creationdate="20201118T035543Z">
+        <seg>:guilabel:`CRS` 中で :guilabel:`選択されたCRS` を選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In :guilabel:`Format` select :guilabel:`GPS eXchange Format [GPX]`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035542Z" creationid="miurahr" creationdate="20201118T035536Z">
+        <seg>:guilabel:`フォーマット` で :guilabel:`GPS交換フォーマット[GPX]` を選択します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12823,6 +13543,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In general, digitize using as few nodes as possible.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035211Z" creationid="miurahr" creationdate="20201118T035211Z">
+        <seg>一般に、できるだけ少ないノードを使用してデジタル化してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In later sessions we will go into more detail on how to select and filter data.</seg>
       </tuv>
       <tuv lang="ja">
@@ -13015,6 +13743,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In practice, you simply need to represented the sample plots as points that will be used by the field teams later:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035453Z" creationid="miurahr" creationdate="20201118T035453Z">
+        <seg>実際には、後で野外チームによって使用されるポイントとしてサンプルプロットを表現する必要があるだけです：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In raster data that is computed by spatial analysis (such as the rainfall map we mentioned earlier), the spatial density of information used to create the raster will usually determine the spatial resolution.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140228Z" creationid="miurahr" creationdate="20201117T140228Z">
@@ -13071,6 +13807,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In that case, you would have to first write that data to a text file or a spreadsheet.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035353Z" creationid="miurahr" creationdate="20201118T035353Z">
+        <seg>その場合は、最初にテキストファイルやスプレッドシートにそのデータを記述する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In the **GetPrint** request, the client has the possibility to specify parameters of the contained layout maps and labels.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T015133Z" creationid="miurahr" creationdate="20201118T015133Z">
@@ -13083,6 +13827,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>表示される :guilabel:`PostGISのテーブルを追加` ダイアログで、 :kbd:`postgis_demo` 接続に接続します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In the :guilabel:`Area` definitions select :guilabel:`Input Boundary Layer`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035457Z" creationid="miurahr" creationdate="20201118T035457Z">
+        <seg>:guilabel:`エリア` 定義で :guilabel:`境界レイヤーを入力` を選択します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13135,10 +13887,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In the :guilabel:`Expression` field, write, copy or construct this formula :kbd:`concat('P_', $rownum )`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035523Z" creationid="miurahr" creationdate="20201118T035523Z">
+        <seg>:guilabel:`式` フィールド中に、この数式 :kbd:`CONCAT('P_',$rownum)` を書き込み、コピー、または構築します 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In the :guilabel:`Function list` double click on the field :kbd:`Zone` under :guilabel:`Field and Values`.</seg>
       </tuv>
       <tuv lang="ja">
         <seg>:guilabel:`関数リスト` で :guilabel:`フィールドと値` の下のフィールド :kbd:`ゾーン` をダブルクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In the :guilabel:`Grid Spacing` settings, select :guilabel:`Use this point spacing` and set it to :kbd:`80`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035459Z" creationid="miurahr" creationdate="20201118T035459Z">
+        <seg>:guilabel:`グリッド間隔` 設定で、 :guilabel:`この点間隔を使用` を選択し、それを :kbd:`80` に設定します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13163,6 +13931,22 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T215818Z" creationid="miurahr" creationdate="20201117T215818Z">
         <seg>:guilabel:`印刷レイアウト` で、レイアウトテンプレートとして :kbd:`forestry_atlas.qpt` として :kbd:`exercise_data\\forestry\\map_creation\\` フォルダ中に地図を保存します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In the :guilabel:`Processing Toolbox`, search for :kbd:`las2dem`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034816Z" creationid="miurahr" creationdate="20201118T034816Z">
+        <seg>:guilabel:`プロセッシングツールボックス` で :kbd:`las2dem` を検索します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In the :guilabel:`Processing options` dialog, go to :guilabel:`Providers` and then to :guilabel:`Tools for LiDAR data`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034747Z" creationid="miurahr" creationdate="20201118T034747Z">
+        <seg>:guilabel:`処理オプション` ダイアログで、 :guilabel:`プロバイダー` に、その後 :guilabel:`LiDARデータのためのツール` に行きます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13195,6 +13979,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>QGIS地図ビューで :menuselection:`ベクター --&gt; 研究ツール --&gt; ベクターグリッド` を開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In the TOC select the layer :kbd:`forest_stands_1994.shp`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035415Z" creationid="miurahr" creationdate="20201118T035415Z">
+        <seg>TOCでレイヤー :kbd:`forest_stands_1994.shp` を選択します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13243,6 +14035,30 @@
       </tuv>
       <tuv lang="ja">
         <seg>表示されるダイアログで新しいダイアログボックスを作成します:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In the dialog that opens, select only the :kbd:`waypoints` layer (the rest of the layers are empty).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035546Z" creationid="miurahr" creationdate="20201118T035546Z">
+        <seg>表示されるダイアログで、:kbd:`waypoints` レイヤーのみを選択します（レイヤーの残りの部分は空である）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In the dialog, set it as follows:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035359Z" creationid="miurahr" creationdate="20201118T035359Z">
+        <seg>ダイアログ で、それを次のように設定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In the dropdown menu at the bottom, select :guilabel:`Advanced interface`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034753Z" creationid="miurahr" creationdate="20201118T034753Z">
+        <seg>一番下にあるドロップダウンメニューで、:guilabel:`高度なインターフェイス` を選択します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13327,6 +14143,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In the next lesson you will see how to use the Atlas capabilities in QGIS to automatically generate detailed maps that the field teams will be using to navigate to the sample plots assigned to them.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035604Z" creationid="miurahr" creationdate="20201118T035604Z">
+        <seg>次のレッスンでは、QGISで地図帳機能を使用して、野外チームが割り当てられたサンプルプロットに行きつくために使用している詳細地図を自動で作成する方法を示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In the next lesson, you will see how you can use LiDAR data to create a DEM and then use it to your enhance your data and maps visibility.</seg>
       </tuv>
       <tuv lang="ja">
@@ -13375,6 +14199,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In the next, and final step in this module, lesson you will use the hillshade raster and the forest inventory results to create a map presentation of the results.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034838Z" creationid="miurahr" creationdate="20201118T034838Z">
+        <seg>次の、そしてこのモジュールの最後のステップの、レッスンでは、陰影起伏ラスターと森林目録の結果を使用して、結果の地図のプレゼンテーションを作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In the output of the buffer function, whatever remains of the original layer will represent areas where there is suitable terrain for 100 meters beyond.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T020457Z" creationid="miurahr" creationdate="20201118T020457Z">
@@ -13395,6 +14227,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150353Z" creationid="miurahr" creationdate="20201117T150353Z">
         <seg>前の2つのモジュールでは、リレーショナルデータベースの基本的な概念、特徴および機能だけでなく、保存、管理、クエリとリレーショナルデータベース内の空間データを操作できる機能拡張について見ました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In the previous lessons you have imported an old forest inventor as a GIS project, updated it to the current situation, designed a forest inventory, created maps for the field work and calculated forest parameters from the field measurements.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034903Z" creationid="miurahr" creationdate="20201118T034903Z">
+        <seg>以前のレッスンでは、GISプロジェクトとして古い森林調査をインポートし、それを現在の状況に更新し、森林調査を設計し、フィールドワークの地図を作成し、フィールド測定から森林のパラメーターを算出しました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13567,10 +14407,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In this lesson you will create a systematic set of sampling plots.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035433Z" creationid="miurahr" creationdate="20201118T035433Z">
+        <seg>このレッスンでは、サンプリングプロットの系統的なセットを作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In this lesson, you will be guided through a complete GIS analysis in QGIS.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T033912Z" creationid="miurahr" creationdate="20201118T033912Z">
         <seg>このレッスンでは、QGISでの完全なGIS解析を通して案内します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In this lesson, you will implement a theoretical inventory based on a systematic sampling plot design.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035435Z" creationid="miurahr" creationdate="20201118T035435Z">
+        <seg>このレッスンでは、体系的なサンプリングプロットの設計に基づいた理論的な目録を実装します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13975,6 +14831,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Inventorying the Forest</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035437Z" creationid="miurahr" creationdate="20201118T035437Z">
+        <seg>森林の目録を作成する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Investigate the various options available to you, and choose a symbol with styling you think is appropriate.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T033627Z" creationid="miurahr" creationdate="20201118T033627Z">
@@ -14095,6 +14959,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>It has taken a few clicks of the mouse but you now have your old inventory data in digital format and ready for use in QGIS.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035423Z" creationid="miurahr" creationdate="20201118T035423Z">
+        <seg>これにはマウスを数回クリックする必要がありますが、今、デジタル形式とQGISでの使用のために準備中で古い調査データを持っています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>It has to have the :func:`classFactory` method and may have any other initialisation code.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T024641Z" creationid="miurahr" creationdate="20201118T024641Z">
@@ -14183,10 +15055,34 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>It is not necessary to differentiate points from each other, you just need them to be there for the snapping tools to use them.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035130Z" creationid="miurahr" creationdate="20201118T035130Z">
+        <seg>ポイント１つ１つを区別する必要はありません。それらはスナップツールが使用するためそこにある必要があるだけです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>It is often difficult to design proper environmental protection because the common sources of data may be a state secret or may not even exist.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222819Z" creationid="miurahr" creationdate="20201117T222819Z">
         <seg>一般的なデータ源は国家機密であったり、または存在すらしないかもしれないため、適切な環境保護を設計することが困難な場合が多いです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It is often important to create maps with the results of a GIS project.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034904Z" creationid="miurahr" creationdate="20201118T034904Z">
+        <seg>GISプロジェクトの結果で地図を作成することはしばしば重要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It is possible that the forest inventory data you have for you map is also written in paper.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035352Z" creationid="miurahr" creationdate="20201118T035352Z">
+        <seg>地図のために持っている森林目録データは、紙に書かれている可能性があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14271,6 +15167,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>It might look like a lot of work, but you will soon get used to digitizing the forest stands.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035346Z" creationid="miurahr" creationdate="20201118T035346Z">
+        <seg>それは大変な作業のように見えるかもしれませんが、すぐに林分をデジタル化するのに慣れるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>It receives a reference to the instance of :class:`QgisInterface &lt;qgis.gui.QgisInterface&gt;` and must return an object of your plugin's class from the :file:`mainplugin.py` --- in our case it's called ``TestPlugin`` (see below).</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T025008Z" creationid="miurahr" creationdate="20201118T024950Z">
@@ -14299,6 +15203,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>それは :kbd:`UPDATE 1` を返す必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It should take you about 15 minutes.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035347Z" creationid="miurahr" creationdate="20201118T035347Z">
+        <seg>それは約15分かかります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14371,6 +15283,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222024Z" creationid="miurahr" creationdate="20201117T222024Z">
         <seg>したがって、新機能や機能改善のための継続的なユーザー要件に対応し、一般的なソフトウェア、アルゴリズムとメソッドの機能拡張を原因に、開発を続けていきます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It would be better if the naming would be something like :kbd:`p_1, p_2...`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035519Z" creationid="miurahr" creationdate="20201118T035519Z">
+        <seg>命名は :kbd:`p_1、p_2 ...` のようなものであれば良かったでしょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14591,6 +15511,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Keep at least the following layers:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034908Z" creationid="miurahr" creationdate="20201118T034908Z">
+        <seg>少なくとも以下のレイヤーを保管してください：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Keep in mind that this will be part of a backdrop!</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T032848Z" creationid="miurahr" creationdate="20201118T032848Z">
@@ -14675,6 +15603,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T032641Z" creationid="miurahr" creationdate="20201118T032641Z">
         <seg>点に対して、場所名などのユニークな属性に応じてラベルを付けます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Label the points to see them in the map and consider if you could use those numbers as part of your sample plot naming:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035512Z" creationid="miurahr" creationdate="20201118T035512Z">
+        <seg>ポイントにラベルを付けて地図でそれらが見えるようにし、これらの番号をサンプルプロットの名前付けの一部として使用できるか考えます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14843,6 +15779,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T215539Z" creationid="miurahr" creationdate="20201117T215539Z">
         <seg>レイアウトを開いたまま、マップにもどります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Leave the rest of parameters with the default settings.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034828Z" creationid="miurahr" creationdate="20201118T034828Z">
+        <seg>デフォルトの設定でパラメーターの残りの部分を残します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15103,6 +16047,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Lets start with the naming of the sample plots.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035511Z" creationid="miurahr" creationdate="20201118T035511Z">
+        <seg>サンプルプロットに名前を付けることから始めましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Like polyline features, polygons are created from a series of vertices that are connected with a continuous line.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140828Z" creationid="miurahr" creationdate="20201117T140828Z">
@@ -15203,6 +16155,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T091711Z" creationid="miurahr" creationdate="20201117T091711Z">
         <seg>ローカル変数名は小文字で始まり、大文字と小文字を使用して形成されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Locate the forest stand number 357 in the map window.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035216Z" creationid="miurahr" creationdate="20201118T035216Z">
+        <seg>地図ウィンドウで林分番号357の位置を確認します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15367,6 +16327,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Make sure that the :guilabel:`Avoid int.` is checked for the :kbd:`forest_stands` layer.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035252Z" creationid="miurahr" creationdate="20201118T035252Z">
+        <seg> :kbd:`forest_stands` レイヤー :guilabel:`交差を回避` がチェックされていることを確認してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Make sure that the :guilabel:`Create new table` option is selected</seg>
       </tuv>
       <tuv lang="ja">
@@ -15387,6 +16355,30 @@
       </tuv>
       <tuv lang="ja">
         <seg>:guilabel:`ポイント座標` オプションがチェックされていることを確認します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Make sure that the :guilabel:`Target` field is also set to :kbd:`id`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035404Z" creationid="miurahr" creationdate="20201118T035404Z">
+        <seg>:guilabel:`結合先` フィールドも :kbd:`id` に設定されていることを確認してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Make sure that the map image has not transparency any more.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035208Z" creationid="miurahr" creationdate="20201118T035208Z">
+        <seg>地図画像がこれ以上の透明されていないことを確認してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Make sure the plugin is activated.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035414Z" creationid="miurahr" creationdate="20201118T035414Z">
+        <seg>プラグインが有効になっていることを確認します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15459,6 +16451,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141018Z" creationid="miurahr" creationdate="20201117T141018Z">
         <seg>多くの問題は、地図の縮尺の拙い選択から生じ得ます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Many more forest analysis are possible with the variety of tools that you can access, but hopefully this manual has given you a good starting point to explore how you could achieve the specific results you need.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034947Z" creationid="miurahr" creationdate="20201118T034947Z">
+        <seg>アクセスできるさまざまなツールでさらに多くの森林の分析が可能ですが、このマニュアルがご自身が必要とする結果を達成する方法を探るための良い出発点になればと思います。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16127,6 +17127,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Name the output as :kbd:`green_centroids.shp` inside the :kbd:`digitizing` folder.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035102Z" creationid="miurahr" creationdate="20201118T035102Z">
+        <seg>:kbd:`digitizing` フォルダ内部で 出力 に :kbd:`green_centroids.shp` と名前を付けます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Name the output raster as :kbd:`rautjarvi_green_georef.tif` in the :kbd:`digitizing` folder.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035048Z" creationid="miurahr" creationdate="20201118T035048Z">
+        <seg>出力ラスターに :kbd:`digitizing` フォルダ中で :kbd:`rautjarvi_green_georef.tif` と名前を付けます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Name this file exactly the same as the name you provided in the module's :kbd:`index.rst` file, and add the extension :kbd:`.rst`.</seg>
       </tuv>
       <tuv lang="ja">
@@ -16223,6 +17239,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Nevertheless, the number values in the :kbd:`id` field are not so good.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035519Z" creationid="miurahr" creationdate="20201118T035519Z">
+        <seg>それにもかかわらず、 :kbd:`id` フィールド中の数値はそれほど良いものではありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Nevertheless, you will get information for a good number of stands just using the planned plots.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T220202Z" creationid="miurahr" creationdate="20201117T220202Z">
@@ -16243,6 +17267,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T062423Z" creationid="miurahr" creationdate="20201117T062423Z">
         <seg>これらの「ハザードポリゴン」の新しいシェープファイルは定期的にMACCAによって発行され、これらは地雷除去団体が活動領域における地雷除去の状況を評価するために使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Next one option to get points out of those polygons is to get their centroids:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035059Z" creationid="miurahr" creationdate="20201118T035059Z">
+        <seg>これらのポリゴンからポイントを得る次のオプションは、その重心を得ることです：</seg>
       </tuv>
     </tu>
     <tu>
@@ -16307,6 +17339,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T033907Z" creationid="miurahr" creationdate="20201118T033907Z">
         <seg>次は2番目の研究課題の一部としてこれらの結果を提示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Next you'll learn how to use the DBMS to add new data.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034628Z" creationid="miurahr" creationdate="20201118T034628Z">
+        <seg>次はDBMSを使用して新しいデータを追加する方法を学びます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16455,6 +17495,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Note that the forest stands are represented as green lines (with the number of the stand also in green inside each polygon).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035006Z" creationid="miurahr" creationdate="20201118T035006Z">
+        <seg>林分は緑色の線として（各ポリゴン内には緑で林分の数も一緒に）表されていることに注意してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Note that the geometry (positions where samples were taken) is not shown in the attribute table --– the GIS Application stores it separately!</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123632Z" creationid="miurahr" creationdate="20201117T123632Z">
@@ -16479,6 +17527,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Note that you don't need to digitize the ground control points any more because this image is basically the same image as the original map image, as far as the Georeferencer tool is concerned.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035044Z" creationid="miurahr" creationdate="20201118T035044Z">
+        <seg>この画像はジオリファレンサツールに関する限りは基本的に元の地図画像と同じ画像なので、これ以上地上基準点をデジタル化する必要はないことに注意してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Note that you named the file already as :kbd:`rautjarvi_georef.tif` when you edited the Georeferencer settings.</seg>
       </tuv>
       <tuv lang="ja">
@@ -16495,10 +17551,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Note the :guilabel:`Search...` box, write :kbd:`lasground`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034806Z" creationid="miurahr" creationdate="20201118T034806Z">
+        <seg>:guilabel:`検索...` ボックス注意して、 :kbd:`lasground` と書いてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Note the differences.</seg>
       </tuv>
       <tuv lang="ja">
         <seg>相違点に注目してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Note the pink crosses indicating the snapping.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035219Z" creationid="miurahr" creationdate="20201118T035219Z">
+        <seg>スナップを示すピンク十字に留意されたいです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16559,6 +17631,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Now for the second polygon, pick up the stand number 358.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035240Z" creationid="miurahr" creationdate="20201118T035240Z">
+        <seg>今、第二のポリゴンのために、林分番号358を拾います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Now it is time to add some map layers.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T003536Z" creationid="miurahr" creationdate="20201118T003536Z">
@@ -16587,6 +17667,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150317Z" creationid="miurahr" creationdate="20201117T150317Z">
         <seg>それでは、このデータの副選択を表示してみましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Now look at the labels on your map.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035515Z" creationid="miurahr" creationdate="20201118T035515Z">
+        <seg>ここで地図上のラベルを見てください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16799,10 +17887,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Now you are going to use it to run LAStools programs:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034752Z" creationid="miurahr" creationdate="20201118T034752Z">
+        <seg>ここではLAStoolsプログラムを実行するためにそれを使用しようとしています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Now you are ready to get a local clone of **your** QGIS-Documentation repository.</seg>
       </tuv>
       <tuv lang="ja">
         <seg>さあ、QGIS-Documentationリポジトリの**あなた用の**コピーをローカル環境に取得する準備はできましたね。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Now you are ready to start with the actual digitizing work.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035141Z" creationid="miurahr" creationdate="20201118T035141Z">
+        <seg>これで実際のデジタル化作業を開始する準備が整いました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16815,10 +17919,42 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Now you can remove the :guilabel:`rautjarvi_green_polygon` layer from the TOC.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035104Z" creationid="miurahr" creationdate="20201118T035104Z">
+        <seg>今、TOCから :guilabel:`rautjarvi_green_polygon` レイヤーを削除できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Now you can see the LiDAR data in the :guilabel:`just a little LAS and LAZ viewer` dialog window:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034759Z" creationid="miurahr" creationdate="20201118T034759Z">
+        <seg>今、 :guilabel:`ほんの少しLASとLAZダイアログウィンドウビューア` 内にLiDARデータを見ることができます：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Now you can see the map in QGIS project as a georeferenced raster.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T220126Z" creationid="miurahr" creationdate="20201117T220126Z">
         <seg>今、地理参照ラスターとしてQGISプロジェクトの地図を見ることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Now you can select the pixels in the image that are making up the forest stands' borders (the greenish pixels):</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035007Z" creationid="miurahr" creationdate="20201118T035007Z">
+        <seg>これで林分の境界（緑がかったピクセル）を構成している画像内のピクセルを選択できます：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Now you can start digitizing:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035215Z" creationid="miurahr" creationdate="20201118T035215Z">
+        <seg>今、デジタル化を開始できます：</seg>
       </tuv>
     </tu>
     <tu>
@@ -16831,10 +17967,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Now you can use a saved style for this layer:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034922Z" creationid="miurahr" creationdate="20201118T034922Z">
+        <seg>今、保存されたスタイルをこのレイヤーに使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Now you can use the preview tool for Atlas maps to review what your maps will look like:</seg>
       </tuv>
       <tuv lang="ja">
         <seg>今、地図がどのように見えるか確認するために地図帳地図のプレビューツールを使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Now you have a new column with plot names that are meaningful to you.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035526Z" creationid="miurahr" creationdate="20201118T035526Z">
+        <seg>これで、意味のあるプロット名を持つ新しい列ができました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16855,6 +18007,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Now you have two forest stands ready.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035343Z" creationid="miurahr" creationdate="20201118T035343Z">
+        <seg>今、2つ林分の準備ができています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Now you just need to generate a Python file that will contain the resources.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T025101Z" creationid="miurahr" creationdate="20201118T025101Z">
@@ -16867,6 +18027,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150117Z" creationid="miurahr" creationdate="20201117T150117Z">
         <seg>以前に作成した既存のモデルに新しいデータを追加する方法がわかりましたね。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Now you need to create a rectangular grid of points separated 80 meters from each other:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035456Z" creationid="miurahr" creationdate="20201118T035456Z">
+        <seg>今、お互いから80メートルを隔てポイントの長方形のグリッドを作成する必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16891,6 +18059,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>やってみよう</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Now your :kbd:`forest_stands_1994.shp` layer is ready and packed with all the available information.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035421Z" creationid="miurahr" creationdate="20201118T035421Z">
+        <seg>今 :kbd:`forest_stands_1994.shp` レイヤーは準備され、利用可能なすべての情報が満載です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16931,6 +18107,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T145858Z" creationid="miurahr" creationdate="20201117T145858Z">
         <seg>さて、地図内のどれかの街路をもう一度クリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Now, if you remember past modules, we have to set up and activate the snapping options:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035149Z" creationid="miurahr" creationdate="20201118T035149Z">
+        <seg>過去のモジュールを覚えていれば今、私たちは、セットアップおよびスナップオプションを有効にする必要があります：</seg>
       </tuv>
     </tu>
     <tu>
@@ -17159,6 +18343,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Once you are done with the selection you need to copy this selection as a new layer and then save it as separate image file:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035016Z" creationid="miurahr" creationdate="20201118T035016Z">
+        <seg>選択を完了したら、新しいレイヤーとしてこの選択をコピーして別の画像ファイルとして保存する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Once you are happy with your control points, you can save them for later use:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T220124Z" creationid="miurahr" creationdate="20201117T220124Z">
@@ -17195,6 +18387,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>どんな地物をGISに取り込むか、またそれぞれの地物がどんなジオメトリタイプと属性を持つべきか計画したら、空のシェープファイルを作成するための次のステップに進むことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Once you have scanned and georeferenced your map you could start to digitize directly by looking at the image as a guide.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034958Z" creationid="miurahr" creationdate="20201118T034958Z">
+        <seg>地図をスキャンして地理参照してしまえば、画像をガイドとして見ることで直接デジタル化を開始できるでしょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17367,10 +18567,58 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Open :menuselection:`Processing --&gt; Toolbox`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034753Z" creationid="miurahr" creationdate="20201118T034753Z">
+        <seg>:menuselection:`プロセッシング --&gt; ツールボックス` を開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Open :menuselection:`Raster --&gt; Terrain analysis --&gt; Hillshade`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034827Z" creationid="miurahr" creationdate="20201118T034827Z">
+        <seg>:menuselection:`ラスター --&gt; 地形分析 --&gt; 陰影` を開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Open :menuselection:`Settings --&gt; Transformation settings`.</seg>
       </tuv>
       <tuv lang="ja">
         <seg>:menuselection:`設定 --&gt; 変換設定` を開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Open :menuselection:`Vector --&gt; Geometry tools --&gt; Polygon centroids`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035100Z" creationid="miurahr" creationdate="20201118T035100Z">
+        <seg>:menuselection:`ベクター --&gt; ジオメトリツール --&gt; ポリゴン重心` を開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Open :menuselection:`Vector --&gt; Geoprocessing Tools --&gt; Clip`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035506Z" creationid="miurahr" creationdate="20201118T035506Z">
+        <seg>:menuselection:`ベクター  --&gt; ジオプロセッシングツール --&gt; クリップ` を開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Open :menuselection:`Vector --&gt; Research Tools --&gt; Regular points`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035457Z" creationid="miurahr" creationdate="20201118T035457Z">
+        <seg>:menuselection:`ベクター --&gt; 研究ツール --&gt; 規則的ポイント` を開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Open GIMP (if you don't have it installed yet, download it from the internet or ask your teacher).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035004Z" creationid="miurahr" creationdate="20201118T035004Z">
+        <seg>GIMPを開きます（それがまだインストールされていない場合は、インターネットからダウンロードするか、先生に尋ねます）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17395,6 +18643,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T032524Z" creationid="miurahr" creationdate="20201118T032524Z">
         <seg>QGISプロジェクトを開く</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Open a new project in QGIS.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034743Z" creationid="miurahr" creationdate="20201118T034743Z">
+        <seg>QGISで新しいプロジェクトを開きます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17431,6 +18687,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Open the :guilabel:`Attribute table` and enable editing.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034919Z" creationid="miurahr" creationdate="20201118T034919Z">
+        <seg>:guilabel:`属性テーブル` を開き編集を可能にします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Open the :guilabel:`Attribute table` for the :kbd:`atlas_coverage` layer.</seg>
       </tuv>
       <tuv lang="ja">
@@ -17439,10 +18703,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Open the :guilabel:`Field calculator` and name the new column :kbd:`Plot_id`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035522Z" creationid="miurahr" creationdate="20201118T035522Z">
+        <seg>:guilabel:`フィールド計算機` を開き、新しい列に :kbd:`Plot_id` と名前を付けます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Open the :guilabel:`Field calculator`.</seg>
       </tuv>
       <tuv lang="ja">
         <seg>:guilabel:`フィールド計算機` を開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Open the :guilabel:`Layer Properties --&gt; Labels` for your :kbd:`systematic_plots_clip`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035513Z" creationid="miurahr" creationdate="20201118T035513Z">
+        <seg>:kbd:`systematic_plots_clip` の :guilabel:`レイヤーのプロパティ --&gt; ラベル` を開きます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17471,6 +18751,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Open the :guilabel:`Layer Properties` for :guilabel:`green_centroids`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035106Z" creationid="miurahr" creationdate="20201118T035106Z">
+        <seg>:guilabel:`green_centroids` の :guilabel:`レイヤーのプロパティ`  を開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Open the :guilabel:`Layer Properties` for the :file:`landuse` layer.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T033735Z" creationid="miurahr" creationdate="20201118T033735Z">
@@ -17495,6 +18783,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Open the :guilabel:`las2dem` tool and set it as shown in this image:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034817Z" creationid="miurahr" creationdate="20201118T034817Z">
+        <seg>:guilabel:`las2dem` ツールを開き、この画像に示すように設定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Open the :kbd:`.csv` in QGIS with the :menuselection:`Layer --&gt; Add Delimited Text Layer...` tool.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035358Z" creationid="miurahr" creationdate="20201118T035358Z">
+        <seg>QGIS で :kbd:`.csv` :menuselection:`レイヤー --&gt; 区切りテキストレイヤーを追加...` ツールを開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Open the :kbd:`index.rst` file (created above in the case of new modules).</seg>
       </tuv>
       <tuv lang="ja">
@@ -17507,6 +18811,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141602Z" creationid="miurahr" creationdate="20201117T141602Z">
         <seg>最上位ディレクトリの下の :kbd:`index.rst` ファイル開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Open the :kbd:`rautjarvi_1994.csv` file from the :kbd:`exercise_data\\forestry` directory in a text editor and note that the inventory data file has an attribute called :kbd:`ID` that has the numbers of the forest stands.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035355Z" creationid="miurahr" creationdate="20201118T035355Z">
+        <seg>テキストエディタで :kbd:`exercise_data\\forestry` ディレクトリ中の :kbd:`rautjarvi_1994.csv` ファイルを開き、目録データファイルが 林分 の番号である :kbd:`ID` と呼ばれる 属性 を持っていることに注意してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17527,6 +18839,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Open the Layer Properties for the :kbd:`forest_stands` layer.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035400Z" creationid="miurahr" creationdate="20201118T035400Z">
+        <seg>:kbd:`forest_stands` レイヤーのための[レイヤーのプロパティ]を開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Open the PDF file to check that everything went as expected.</seg>
       </tuv>
       <tuv lang="ja">
@@ -17539,6 +18859,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>木のPostGISの部分を開きます。前に設定した接続が可能なはずです（ブラウザウィンドウの上部にある[更新]ボタンをクリックする必要があるかもしれません）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Open the QGIS project from the parameters calculations lesson, :kbd:`forest_inventory.qgs`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034907Z" creationid="miurahr" creationdate="20201118T034907Z">
+        <seg>パラメーター計算のレッスンからのQGISプロジェクトを開きます、 :kbd:`forest_inventory.qgs` 。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17587,6 +18915,46 @@
       </tuv>
       <tuv lang="ja">
         <seg>新しいレイヤーの :guilabel:`属性テーブル` を開いてデータを見てみましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Open the original map image, :menuselection:`File --&gt; Open`, :kbd:`rautjarvi_map.tif` in the :kbd:`exercise_data/forestry` folder.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035005Z" creationid="miurahr" creationdate="20201118T035005Z">
+        <seg>:kbd:`exercise_data/forestry` フォルダの中で、オリジナルの地図画像 :kbd:`rautjarvi_map.tif` を開きます :menuselection:`ファイル --&gt; 開く` 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Open the tool :menuselection:`Select --&gt; By color`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035008Z" creationid="miurahr" creationdate="20201118T035008Z">
+        <seg>ツール :menuselection:`選択 --&gt; 色で` を開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Open your :kbd:`digitizing_2012.qgs` project from the previous lesson.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035454Z" creationid="miurahr" creationdate="20201118T035454Z">
+        <seg>前のレッスンから :kbd:`digitizing_2012.qgs` プロジェクトを開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Open your :kbd:`map_digitizing.qgs` project in QGIS, that you saved from the previous lesson.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034957Z" creationid="miurahr" creationdate="20201118T034957Z">
+        <seg>前のレッスンで保存された、 :kbd:`map_digitizing.qgs` プロジェクトを QGISで開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Open your new :kbd:`forest_stands_1994.shp` in your map if you did not added yet.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035411Z" creationid="miurahr" creationdate="20201118T035411Z">
+        <seg>まだ追加していなかった場合は、新しい :kbd:`forest_stands_1994.shp` を地図で開きます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19151,6 +20519,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Read the :kbd:`LICENSE.txt` file inside the :kbd:`lastools` folder.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034738Z" creationid="miurahr" creationdate="20201118T034738Z">
+        <seg>:kbd:`lastools` フォルダ内部の :kbd:`LICENSE.txt` ファイルをお読みください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Real world feature</seg>
       </tuv>
       <tuv lang="ja">
@@ -19295,10 +20671,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Release the mouse click and wait a few seconds.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035011Z" creationid="miurahr" creationdate="20201118T035011Z">
+        <seg>マウスクリックを解除し、数秒待って。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Remember that each of these lines shown above must have a blank line above and below it, otherwise it could cause errors while creating the document.</seg>
       </tuv>
       <tuv lang="ja">
         <seg>文書を作成しながら、それ以外の場合はエラーが発生する可能性があり、上に示したこれらの線のそれぞれは、その上下の空白行を持たなければならないことに注意してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Remember that having :guilabel:`Enable topological editing` activated, allows you to move nodes common to two polygons so that the common border is edited at the same time for both polygons.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035349Z" creationid="miurahr" creationdate="20201118T035349Z">
+        <seg>:guilabel:`トポロジの編集を有効` がアクティブになっていると、共通の境界は、両方のポリゴンの同じ時間に編集されているように、2つのポリゴンに共通のノードを移動できます、ことを覚えておいてください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19323,6 +20715,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T021048Z" creationid="miurahr" creationdate="20201118T021048Z">
         <seg>クエリを書くときはレイヤーのCRSがどの単位かを知る必要があることを忘れないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Remember that you can also double click on the elements inside the :guilabel:`Function list`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035524Z" creationid="miurahr" creationdate="20201118T035524Z">
+        <seg>:guilabel:`関数リスト` 内部の要素をダブルクリックすることもできることを覚えておいてください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19359,6 +20759,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Remember to review the :guilabel:`Transformation settings`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035047Z" creationid="miurahr" creationdate="20201118T035047Z">
+        <seg>:guilabel:`変換設定` を確認することを忘れないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Remember to use :guilabel:`Update preview` and :guilabel:`Set to map canvas extent` whenever you change the zoom in your map or the layout.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T215625Z" creationid="miurahr" creationdate="20201117T215625Z">
@@ -19379,6 +20787,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T033541Z" creationid="miurahr" creationdate="20201118T033541Z">
         <seg>シンプルに、必要に応じて、ズームイン作成するために覚えて、しかしためのテクスチャをそらさない :guilabel:`buildings` レイヤーが上記の方法を使用して。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Remove all the layers except for :kbd:`forest_stands_2012`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035454Z" creationid="miurahr" creationdate="20201118T035454Z">
+        <seg>:kbd:`forest_stands_2012` 以外のすべてのレイヤーを削除します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19567,6 +20983,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Right click :kbd:`systematic_plots_clip` and select :guilabel:`Save as`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035541Z" creationid="miurahr" creationdate="20201118T035535Z">
+        <seg>:kbd:`systematic_plots_clip` を右クリックし、:guilabel:`名前をつけて保存` を選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Right click on :kbd:`forest_stands_2012` and select :guilabel:`Duplicate`</seg>
       </tuv>
       <tuv lang="ja">
@@ -19575,10 +20999,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Right click that temporary layer and select :guilabel:`To New Layer`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035019Z" creationid="miurahr" creationdate="20201118T035019Z">
+        <seg>その一時レイヤーを右クリックして :guilabel:`新しいレイヤーへ` を選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Right click the :kbd:`forest_stands_2012` layer and click on :guilabel:`Zoom to Layer Extent`.</seg>
       </tuv>
       <tuv lang="ja">
         <seg>:kbd:`forest_stands_2012` レイヤーを右クリックし 、:guilabel:`レイヤー範囲にズーム` をクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Right click to finish editing the forest stand 358.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035338Z" creationid="miurahr" creationdate="20201118T035338Z">
+        <seg>右の林358の編集を終了します</seg>
       </tuv>
     </tu>
     <tu>
@@ -19703,6 +21143,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Run the tool to calculate the centroids for the polygons.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035104Z" creationid="miurahr" creationdate="20201118T035104Z">
+        <seg>ポリゴンの重心を計算するためのツールを実行します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>SDRC uses MapInfo for its main GIS system, however MapInfo’s addons were not as powerful as GRASS GIS for raster processing.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222519Z" creationid="miurahr" creationdate="20201117T222519Z">
@@ -19739,6 +21187,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140104Z" creationid="miurahr" creationdate="20201117T140104Z">
         <seg>地球を周回する衛星が特別なデジタルカメラを地面に向けると衛星画像が作成され、通過している地上の画像を撮影します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Save as :kbd:`rautjarvi_green_polygon.shp` inside the :kbd:`digitizing` folder.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035056Z" creationid="miurahr" creationdate="20201118T035056Z">
+        <seg>:kbd:`digitizing` フォルダ内に :kbd:`rautjarvi_green_polygon.shp` と名前を付けて保存します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19799,10 +21255,34 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Save the output as :kbd:`plots_wgs84.gpx`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035543Z" creationid="miurahr" creationdate="20201118T035543Z">
+        <seg>:kbd:`plots_wgs84.gpx` として出力を保存します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Save the output as :kbd:`systematic_plots.shp` in the :kbd:`forestry\\sampling\\` folder.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035459Z" creationid="miurahr" creationdate="20201118T035459Z">
+        <seg>出力を :kbd:`forestry\\sampling\\` フォルダに :kbd:`systematic_plots.shp` として保存します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Save the output in :file:`exercise_data/residential_development/` as :file:`suitable_terrain_continuous100m.shp`.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T020610Z" creationid="miurahr" creationdate="20201118T020610Z">
         <seg>出力を :file:`exercise_data/residential_development/` 中に :file:`suitable_terrain_continuous100m.shp` として保存します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Save the project as :kbd:`forest_lidar.qgs`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034745Z" creationid="miurahr" creationdate="20201118T034745Z">
+        <seg>プロジェクトを :kbd:`forest_lidar.qgs` として保存します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19815,10 +21295,34 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Save the result as :kbd:`systematic_plots_clip.shp`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035508Z" creationid="miurahr" creationdate="20201118T035508Z">
+        <seg>:kbd:`systematic_plots_clip.shp` として結果を保存します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Save the selection under :file:`exercise_data/residential_development/` as :file:`final_answer.shp`.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T020657Z" creationid="miurahr" creationdate="20201118T020657Z">
         <seg>選択を :file:`exercise_data/residential_development/` 下に :file:`final_answer.shp` として保存してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Save your QGIS project for future references.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034944Z" creationid="miurahr" creationdate="20201118T034944Z">
+        <seg>将来の参照のためQGISプロジェクトを保存します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Save your QGIS project now.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035550Z" creationid="miurahr" creationdate="20201118T035550Z">
+        <seg>ここでQGISプロジェクトを保存します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19835,6 +21339,22 @@
       </tuv>
       <tuv lang="ja">
         <seg>編集内容を保存し、編集モードを終了します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Save your project now as :kbd:`forest_inventory.qgs`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035455Z" creationid="miurahr" creationdate="20201118T035455Z">
+        <seg>今、プロジェクトを :kbd:`forest_inventory.qgs` として保存します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Save your project to keep the current map presentation in case you need to come back later to it.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035422Z" creationid="miurahr" creationdate="20201118T035422Z">
+        <seg>後で戻ってくる必要がある場合に備え、現在の地図の表示を維持するためにプロジェクトを保存します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19895,6 +21415,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Scroll down until you find the :guilabel:`lasview` algorithm, double click it to open.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034755Z" creationid="miurahr" creationdate="20201118T034755Z">
+        <seg>:guilabel:`lasview` アルゴリズムが見つかるまで下にスクロールし、見つかったらダブルクリックして開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Secondarily, this License preserves for the author and publisher a way to get credit for their work, while not being considered responsible for modifications made by others.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124226Z" creationid="miurahr" creationdate="20201117T124226Z">
@@ -19943,6 +21471,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>See left image below.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035337Z" creationid="miurahr" creationdate="20201118T035337Z">
+        <seg>下の左の画像を参照。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>See table_vector_1_ for an example.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141129Z" creationid="miurahr" creationdate="20201117T141129Z">
@@ -19959,6 +21495,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>See the left image below.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035010Z" creationid="miurahr" creationdate="20201118T035010Z">
+        <seg>下の左の画像を参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Select :guilabel:`Yes` to keep the layer style.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035418Z" creationid="miurahr" creationdate="20201118T035418Z">
+        <seg>:guilabel:`はい` を選択してレイヤースタイルを維持します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Select :guilabel:`image` from the list:</seg>
       </tuv>
       <tuv lang="ja">
@@ -19971,6 +21523,30 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T020332Z" creationid="miurahr" creationdate="20201118T020332Z">
         <seg>:guilabel:`ラベル` ドロップダウンで :guilabel:`roads` を、 :guilabel:`値` と :guilabel:`説明` オプションの両方について :guilabel:`highway` を選択します：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Select :kbd:`ETRS89 / ETRS-TM35FIN` as the CRS when prompted.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034830Z" creationid="miurahr" creationdate="20201118T034830Z">
+        <seg>プロンプトが表示されたら :kbd:`ETRS89 / ETRS-TM35FIN` をCRSとして選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Select :kbd:`rautjarvi_1994.csv` as the :guilabel:`Join layer` and :kbd:`ID` as the :guilabel:`Join` field.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035403Z" creationid="miurahr" creationdate="20201118T035403Z">
+        <seg>:guilabel:`結合レイヤー` として :kbd:`rautjarvi_1994.csv` を 、 :guilabel:`結合` フィールドとして :kbd:`ID` を選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Select :kbd:`systematic_plots` as :guilabel:`Input vector layer`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035507Z" creationid="miurahr" creationdate="20201118T035507Z">
+        <seg>:guilabel:`入力ベクターレイヤー` として :kbd:`systematic_plots` を選択します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19995,6 +21571,22 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T020616Z" creationid="miurahr" creationdate="20201118T020616Z">
         <seg>:guilabel:`suitable_terrain_continuous100m.shp` の中の地物に交差する :guilabel:`new_solution` 中の地物を選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Select no compression when asked.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035023Z" creationid="miurahr" creationdate="20201118T035023Z">
+        <seg>尋ねられたとき非圧縮を選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Select the :guilabel:`Add feature` tool.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035217Z" creationid="miurahr" creationdate="20201118T035217Z">
+        <seg>:guilabel:`地物を追加` ツールを選択します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20027,6 +21619,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>:guilabel:`名称` フィールドを選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Select the :kbd:`forest_stands_2012_results.qml` from the :kbd:`exercise_data\\forestry\\results\\` folder.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034925Z" creationid="miurahr" creationdate="20201118T034925Z">
+        <seg>:kbd:`exercise_data\\forestry\\results\\` フォルダから :kbd:`forest_stands_2012_results.qml` を選択します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20067,6 +21667,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>下の画像に（黄色で）選択されたポリゴンを選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Select the polygons with :kbd:`NULL` values.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034920Z" creationid="miurahr" creationdate="20201118T034920Z">
+        <seg>:kbd:`NULL` 値を持つポリゴンを選択します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20151,6 +21759,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Set :kbd:`forest_stands_2012` as the :guilabel:`Clip layer`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035508Z" creationid="miurahr" creationdate="20201118T035508Z">
+        <seg>:guilabel:`クリップレイヤー` として :kbd:`forest_stands_2012` を設定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Set a more appropriate form widget for the :guilabel:`highway` field.</seg>
       </tuv>
       <tuv lang="ja">
@@ -20175,6 +21791,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Set the :guilabel:`Output field type`to :kbd:`Text (string)`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035523Z" creationid="miurahr" creationdate="20201118T035523Z">
+        <seg>:guilabel:`出力フィールド型` を :kbd:`テキスト（文字列）` に設定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Set the :guilabel:`Output layer` field to an appropriate location and file name.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T034148Z" creationid="miurahr" creationdate="20201118T034148Z">
@@ -20187,6 +21811,22 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T215641Z" creationid="miurahr" creationdate="20201117T215641Z">
         <seg>:guilabel:`概要フレーム` を地図 :guilabel:`Map 0` に設定してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set the :guilabel:`Size` to 1.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035115Z" creationid="miurahr" creationdate="20201118T035115Z">
+        <seg>:guilabel:`サイズ` を1に設定してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set the :guilabel:`Unit` to Map unit.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035114Z" creationid="miurahr" creationdate="20201118T035114Z">
+        <seg>:guilabel:`単位` を地図単位に設定してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20223,6 +21863,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Set the polygon layer you just got as the input file for the tool.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035101Z" creationid="miurahr" creationdate="20201118T035101Z">
+        <seg>ツールの入力ファイルとしてたった今得たポリゴンレイヤーを設定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set the project's CRS to :kbd:`ETRS89 / ETRS-TM35FIN`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034744Z" creationid="miurahr" creationdate="20201118T034744Z">
+        <seg>プロジェクトのCRSを :kbd:`ETRS89 / ETRS-TM35FIN` に設定してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Set the rest of parameters as shown below.</seg>
       </tuv>
       <tuv lang="ja">
@@ -20243,6 +21899,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T020331Z" creationid="miurahr" creationdate="20201118T020331Z">
         <seg>ウィジェットを :guilabel:`値マップ` に設定して :guilabel:`レイヤーからデータをロード` をクリックしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set their :guilabel:`Tolerance` to 5 map units.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035202Z" creationid="miurahr" creationdate="20201118T035202Z">
+        <seg>それらのレイヤーの :guilabel:`許容誤差` を5地図単位に設定してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20671,6 +22335,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Some of the LAStools are open source and other are closed source and require licensing for most commercial and governmental use.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034740Z" creationid="miurahr" creationdate="20201118T034740Z">
+        <seg>LAStoolsの一部はオープンソースであり、他は、クローズドソースであり、ほとんどの商用および政府の使用のライセンスが必要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Some of the SIP files are automatically generated using a dedicated script.</seg>
       </tuv>
       <tuv lang="ja">
@@ -20939,6 +22611,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>どこかのフィールドの縁に沿ってポイントをクリックすることで、デジタル化を開始します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Start digitizing the stand :kbd:`357` by connecting some of the dots.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035218Z" creationid="miurahr" creationdate="20201118T035218Z">
+        <seg>ドットの一部を接続することにより、林分 :kbd:`357` をデジタル化開始します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21439,6 +23119,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>That is precisely what you are going to do next create points from those pixels to use them later to help you follow the forest stands' borders when digitizing, by using the snapping tools available in QGIS.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035052Z" creationid="miurahr" creationdate="20201118T035052Z">
+        <seg>それはまさに次にしようとしていること、QGISで利用可能なスナップツールを使用して、後でデジタル化するときに林分の境界をたどる支援するためにそれらを使用するためにこれらのピクセルからポイントを作成です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>That is what it will look like when printed.</seg>
       </tuv>
       <tuv lang="ja">
@@ -21475,6 +23163,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T215711Z" creationid="miurahr" creationdate="20201117T215711Z">
         <seg>詳細地図の焦点として :file:`atlas_coverage` 内部のそれは地物（ポリゴン）を使用する地図帳ツールに指示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>That would most likely be the way to go if the image you are going to digitize from is, for example, an aerial photograph.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034959Z" creationid="miurahr" creationdate="20201118T034959Z">
+        <seg>デジタル化に使用しようとしている画像が、例えば航空写真である場合には、それが最も正しい方向である可能性が高いでしょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21615,10 +23311,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The :guilabel:`lasground` and :guilabel:`las2dem` tools require licensing.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034822Z" creationid="miurahr" creationdate="20201118T034822Z">
+        <seg>:guilabel:`lasground` と :guilabel:`las2dem` ツールはライセンスが必要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The :kbd:`atlas_coverage` layer is probably in edit mode still, add the following text in the :kbd:`Remarks` field to the corresponding polygons (double click the cell to edit it):</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T215734Z" creationid="miurahr" creationdate="20201117T215734Z">
         <seg>:kbd:`atlas_coverage` レイヤーはおそらくまだ編集モードです、 :kbd:`Remarks` フィールド中に次のテキストを対応するポリゴンに追加します（セルを編集するにはそのセルをダブルクリックしてください）：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The :kbd:`concat` function can be found under :guilabel:`String` and the :kbd:`$rownum` parameter can be found under :guilabel:`Record`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035525Z" creationid="miurahr" creationdate="20201118T035525Z">
+        <seg>:kbd:`concat` 関数は :guilabel:`文字列` 下に、 :kbd:`$rownum` パラメーターは :guilabel:`レコード` の下にあります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22479,6 +24191,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The data from the :kbd:`.csv` file is just linked to your vector file.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035409Z" creationid="miurahr" creationdate="20201118T035409Z">
+        <seg>:kbd:`.csv` ファイルからのデータがちょうど ベクターファイルにリンクされています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The data from the text file should be now linked to your vector file.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035406Z" creationid="miurahr" creationdate="20201118T035406Z">
+        <seg>テキストファイルからのデータは、今ベクターファイルにリンクする必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The data that you use has to come from somewhere.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T145548Z" creationid="miurahr" creationdate="20201117T145548Z">
@@ -22623,6 +24351,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The filling of the polygon to green.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035147Z" creationid="miurahr" creationdate="20201118T035147Z">
+        <seg>ポリゴンの塗りを緑に。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The final Fundy Footpath map with accompanying guidebook</seg>
       </tuv>
       <tuv lang="ja">
@@ -22683,6 +24419,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T215727Z" creationid="miurahr" creationdate="20201117T215727Z">
         <seg>最初のステップはそれらを作成すること、たとえばポリゴン領域のゾーンコードおよび野外チームが考慮に入れるいくつかの発言のフィールドを追加できます：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The first step will be to use GIMP to obtain an image that contains only the forest stands, that is, all those greenish lines that you could see in the original scanned map:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035002Z" creationid="miurahr" creationdate="20201118T035002Z">
+        <seg>最初のステップは、GIMPを使用して、林分、つまりオリジナルのスキャン地図で見ることができた緑がかった線すべて、だけを含む画像を得ることです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23095,6 +24839,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The map template you are using will give a map similar to this one:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034942Z" creationid="miurahr" creationdate="20201118T034942Z">
+        <seg>使用している地図テンプレートは、これと同じ地図を提供します：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The map title is very important because it is usually the first thing a reader will look at on a map.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135654Z" creationid="miurahr" creationdate="20201117T135654Z">
@@ -23367,6 +25119,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The part of the polygon that was overlapping the existing polygon has been automatically trimmed out and you are left with a common border, as you intended it to be.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035341Z" creationid="miurahr" creationdate="20201118T035341Z">
+        <seg>既存のポリゴンを重ねたポリゴンの一部は自動的にトリミングされていて、それがあることを意図したように、共通の境界が残されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The particular advantages included its free availability, user-friendliness, adaptability and platform independency.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222441Z" creationid="miurahr" creationdate="20201117T222441Z">
@@ -23391,6 +25151,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The pixels matching the colors collected by the tool will be selected through the whole image.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035012Z" creationid="miurahr" creationdate="20201118T035012Z">
+        <seg>ツールによって収集された色と一致する画素が画像全体を通して選択されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The plugin and the actual algorithms are now installed in your computer and almost ready to use, you just need to set up the Processing framework to start using them:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034742Z" creationid="miurahr" creationdate="20201118T034742Z">
+        <seg>今プラグインと実際のアルゴリズムはお手元のコンピュータにインストールされ、使用する準備がほぼできていますので、それらの使用を開始するために処理フレームワークを設定することが必要であるだけです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The plugin is named :guilabel:`Georeferencer GDAL`.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T215958Z" creationid="miurahr" creationdate="20201117T215958Z">
@@ -23411,6 +25187,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140725Z" creationid="miurahr" creationdate="20201117T140725Z">
         <seg>ポイント属性はそのポイントが、例えば樹木や街灯などであることを表します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The polygons' borders to 1 mm.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035147Z" creationid="miurahr" creationdate="20201118T035147Z">
+        <seg>ポリゴン境界を1mmに。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23607,6 +25391,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The result DEM is added to your map with the generic name :kbd:`Output raster file`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034821Z" creationid="miurahr" creationdate="20201118T034821Z">
+        <seg>結果DEMは、 :kbd:`出力ラスターファイル` という一般的な名前で地図に追加されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The result of the above:</seg>
       </tuv>
       <tuv lang="ja">
@@ -23791,6 +25583,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The style you loaded:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034930Z" creationid="miurahr" creationdate="20201118T034930Z">
+        <seg>ロードしたスタイル:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The suggested :guilabel:`Regular points` creates the systematic points starting in the corner upper-left corner of the extent of the selected polygon layer.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035504Z" creationid="miurahr" creationdate="20201118T035504Z">
+        <seg>提案された :guilabel:`規則的ポイント` は、選択したポリゴンレイヤーの広がりのコーナーを左上隅から始まる体系的なポイントを作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The symbology doesn't matter, but the results should look more or less like this:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T020304Z" creationid="miurahr" creationdate="20201118T020304Z">
@@ -23867,6 +25675,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T221952Z" creationid="miurahr" creationdate="20201117T221952Z">
         <seg>ツールボックスは、カスタムRおよびPythonスクリプトを簡単に組み込むことが可能になります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The topic of the next lesson will be the creation of forest stands using current aerial photos and the addition of some relevant information to your dataset.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035426Z" creationid="miurahr" creationdate="20201118T035426Z">
+        <seg>次のレッスンのトピックは、現在の航空写真やデータセットにいくつかの関連情報の追加を使用した林分の作成になります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24047,6 +25863,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Then choose the one you like better for your final map.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034935Z" creationid="miurahr" creationdate="20201118T034935Z">
+        <seg>それから、より好きな方を最終的な地図として選択してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Then continue normally until you get to the other common corner for both stands.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035335Z" creationid="miurahr" creationdate="20201118T035335Z">
+        <seg>それから両方の林分のための他の共通の角に到達するまで、正常に継続します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Then create a :file:`streets` table:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T034512Z" creationid="miurahr" creationdate="20201118T034512Z">
@@ -24059,6 +25891,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141617Z" creationid="miurahr" creationdate="20201117T141617Z">
         <seg>そして、例証される手続きについての詳細な（クリックでクリック）指示を与えます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Then open the attribute table.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035412Z" creationid="miurahr" creationdate="20201118T035412Z">
+        <seg>そして、 属性 テーブル を開きます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24083,6 +25923,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T003538Z" creationid="miurahr" creationdate="20201118T003538Z">
         <seg>次に、キャンバスの範囲を設定し、キャンバスのレイヤのリストを設定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Then, go to :menuselection:`Vector --&gt; Table Manager --&gt; Table manager`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035416Z" creationid="miurahr" creationdate="20201118T035416Z">
+        <seg>次に、:menuselection:`ベクター --&gt; テーブルマネージャ --&gt; テーブルマネージャ` に行きます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24199,10 +26047,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>There are many things you can do within this viewer, but for now you can just click and drag on the viewer to pan the LiDAR point cloud to see what it looks like.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034800Z" creationid="miurahr" creationdate="20201118T034800Z">
+        <seg>このビューア内ではいろいろなことができますが、今はビューアをクリックおよびドラッグしてLiDAR点群にパンし、それがどのように見えるかを確認できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>There are many ways to use containerized application, from the most simple (simple Docker images) to sophisticated (Kubernetes and so on).</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T032206Z" creationid="miurahr" creationdate="20201118T032206Z">
         <seg>コンテナ化されたアプリケーションを使用するには、最も単純なもの（単純なDockerイメージ）から高度なもの（Kubernetesなど）まで、さまざまな方法があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>There are several methods to inventory forests, each of them suiting different purposes and conditions.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035439Z" creationid="miurahr" creationdate="20201118T035439Z">
+        <seg>森林の目録を作成するには、それぞれ異なる目的や条件に合わせて、いくつかの方法があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24951,6 +26815,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This image is also, of course, in :kbd:`KKJ / Finland zone 2` CRS.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035045Z" creationid="miurahr" creationdate="20201118T035045Z">
+        <seg>この画像も、もちろん、:kbd:`KKJ/フィンランドゾーン2` CRSです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This includes ecosystem analysis, sustainable development plans for natural areas, soils mapping, and precision agriculture applications.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222504Z" creationid="miurahr" creationdate="20201117T222504Z">
@@ -25151,6 +27023,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This is valid for some installations of QGIS 2.2 and 2.4.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034733Z" creationid="miurahr" creationdate="20201118T034733Z">
+        <seg>これは、QGIS 2.2および2.4の一部のインストールのために有効です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This is very difficult as you can imagine, and even after hundreds of years there is no single projection that is able to represent the Earth perfectly for any area in the world.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135754Z" creationid="miurahr" creationdate="20201117T135754Z">
@@ -25323,6 +27203,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T225442Z" creationid="miurahr" creationdate="20201117T225442Z">
         <seg>この新しいトラの監視プロトコルは、GISに大きく依存しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This option does not allow intersecting polygons at digitizing, so that if you digitize  over an existing polygon, the new polygon will be trimmed to meet the border of the already existing polygons.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035318Z" creationid="miurahr" creationdate="20201118T035239Z">
+        <seg>このオプションではデジタル化においてポリゴンが交差することを許容しません。既存のポリゴンを超えてデジタル化した場合、新しいポリゴンは既存のポリゴンの境界に合うようにトリミングされます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25687,6 +27575,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Those numbers are the same as the forest stands ids you have entered for your polygons and can be used to link the data from the text file to your vector file.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035356Z" creationid="miurahr" creationdate="20201118T035356Z">
+        <seg>これらの番号はポリゴンに入力した 林分 のIDと同じであり、 ベクターファイルにテキストファイルからのデータをリンクするために使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Those workflows are subsequently used for product derivation over significant areas and time periods as requested by the users.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222001Z" creationid="miurahr" creationdate="20201117T222001Z">
@@ -25715,6 +27611,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222030Z" creationid="miurahr" creationdate="20201117T222030Z">
         <seg>このライセンスフリー、強力かつ拡張システムの提供を通じて、および継続的な能力開発や研修活動を通じて、プロジェクトは、アフリカの他の国と地域に及び越えて延長、すなわちロールアウトのための基盤を構築するために繁栄します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Through this module you have seen how a basic forest inventory can be planned and presented with QGIS.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034946Z" creationid="miurahr" creationdate="20201118T034946Z">
+        <seg>このモジュールを通して、基本的な森林調査を計画し、QGISで提示する方法を見てきました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25867,6 +27771,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141553Z" creationid="miurahr" creationdate="20201117T141553Z">
         <seg>このコースに材料を追加するには、この付録のガイドラインに従う必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>To add the data from the :kbd:`.csv` file:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035359Z" creationid="miurahr" creationdate="20201118T035359Z">
+        <seg>:kbd:`.csv` ファイルからデータを追加するには：</seg>
       </tuv>
     </tu>
     <tu>
@@ -26191,6 +28103,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>To finish gathering the information related to these forest stands, you might calculate the area and the perimeter of the stands.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035419Z" creationid="miurahr" creationdate="20201118T035419Z">
+        <seg>これらの 林分 に関連する情報を収集完了するには、 林分 の面積と周囲を計算することがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>To force recreation of SIP files, :file:`scripts/sipify_all.sh` shall be executed.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T114120Z" creationid="miurahr" creationdate="20201117T114120Z">
@@ -26279,6 +28199,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>To make this link permanent, so that the data is actually recorded to the vector file you need to save the :kbd:`forest_stands` layer as a new vector file.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035409Z" creationid="miurahr" creationdate="20201118T035409Z">
+        <seg>データが実際に ベクターファイルに記録されるように、このリンクを恒久的なものにするには新しい ベクターファイルとして :kbd:`forest_stands` レイヤーを保存する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>To make this link work, add the following line above the heading to the "try yourself" section:</seg>
       </tuv>
       <tuv lang="ja">
@@ -26343,6 +28271,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>To see what has happened, open the attribute table for the :kbd:`forest_stands` layer.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035407Z" creationid="miurahr" creationdate="20201118T035407Z">
+        <seg>起こったことを確認するには、 :kbd:`forest_stands` レイヤーの属性テーブル を開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>To set white background and enable anti-aliasing for smooth rendering</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T003534Z" creationid="miurahr" creationdate="20201118T003534Z">
@@ -26351,10 +28287,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>To setup the LAStools in QGIS:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034746Z" creationid="miurahr" creationdate="20201118T034746Z">
+        <seg>QGISでLAStoolsを設定するには：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>To show a polygon</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T003543Z" creationid="miurahr" creationdate="20201118T003543Z">
         <seg>ポリゴンを表示するには</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>To solve this:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035413Z" creationid="miurahr" creationdate="20201118T035413Z">
+        <seg>これを解決するには：</seg>
       </tuv>
     </tu>
     <tu>
@@ -26711,6 +28663,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Try with different modes and see the differences in your map.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034934Z" creationid="miurahr" creationdate="20201118T034934Z">
+        <seg>異なるモードで試してみて、地図の違いを見てください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Turbidity</seg>
       </tuv>
       <tuv lang="ja">
@@ -26911,6 +28871,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Unless you would have a reason to name the sample plots in a different way, naming them in a West-East/North-South fashion follows a logical order and is a good option.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035517Z" creationid="miurahr" creationdate="20201118T035517Z">
+        <seg>異なる方法でサンプルプロットに名前付けする理由がない限り、名前を西東/南北様式で名前付けすることは論理的な順序に従っており、良いオプションです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Unzip it, and in a Terminal cd to the source folder, then:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T114406Z" creationid="miurahr" creationdate="20201117T114406Z">
@@ -27095,6 +29063,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Use the :menuselection:`Raster --&gt; Conversion --&gt; Polygonize (Raster to Vector)` tool to vectorize your green lines to polygons.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035054Z" creationid="miurahr" creationdate="20201118T035054Z">
+        <seg>:menuselection:`ラスター --&gt; 変換 --&gt; ポリゴン化(ベクターからラスター)` ツールを使用して、緑の線をポリゴンに ベクター化してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Use the :meth:`capabilities() &lt;qgis.core.QgsVectorDataProvider.capabilities&gt;` function to find out what set of functionality is supported.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T031447Z" creationid="miurahr" creationdate="20201118T031447Z">
@@ -27119,6 +29095,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Use the calculator to update the values of the :kbd:`MEANVol` field to :kbd:`-999` only for the selected features.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034920Z" creationid="miurahr" creationdate="20201118T034920Z">
+        <seg>選択された地物だけに対して、計算機を使用して :kbd:`MEANVol` フィールドの値を :kbd:`-999` に更新します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Use the dialogue box to edit the names of the columns to match the ones in the :kbd:`.csv` file.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035416Z" creationid="miurahr" creationdate="20201118T035416Z">
+        <seg>ダイアログボックスを使用し、 :kbd:`.csv` ファイル中のものと一致するように列の名前を編集します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Use the feature with the :guilabel:`OGC_FID` of :kbd:`1` as the source of your attributes (click on its entry in the dialog, then click the :guilabel:`Take attributes from selected feature` button):</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T020322Z" creationid="miurahr" creationdate="20201118T020322Z">
@@ -27131,6 +29123,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T015745Z" creationid="miurahr" creationdate="20201118T015745Z">
         <seg>上の方法を使って残りのレイヤーすべての色とスタイルを変更します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Use the mouse's middle button to zoom in/out and to pan as you digitize.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035212Z" creationid="miurahr" creationdate="20201118T035212Z">
+        <seg>デジタル化しながら、マウスの中ボタンを使用してズームイン/アウトおよびパンしてください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27523,6 +29523,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>変数名</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Variable size plots has been decided to be the most effective method for this inventory, for growing and mature stands, but a 4 meters fixed radius plots will be used for seedling stands.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035452Z" creationid="miurahr" creationdate="20201118T035452Z">
+        <seg>可変サイズのプロットは、成長および成熟林分のため、この目録のための最も効果的な方法であると判断されているが、苗林分については4メートル固定の半径のプロットが使用されるでしょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -28647,6 +30655,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>When you are done, right click to end digitizing that polygon.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035219Z" creationid="miurahr" creationdate="20201118T035219Z">
+        <seg>完了したら、右クリックしてそのポリゴンのデジタル化を終了します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>When you are ready, you can click the polyline capture icon in the tool bar and then start drawing your line by clicking on the map.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123728Z" creationid="miurahr" creationdate="20201117T123728Z">
@@ -28747,6 +30763,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T034539Z" creationid="miurahr" creationdate="20201118T034539Z">
         <seg> :kbd:`Enter` キーを押すと psql は次のように報告します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>When you start planning your forest inventory it is important to clearly define the objectives, the types of sample plots that will be used, and the data that will be collected to achieve the objectives.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035434Z" creationid="miurahr" creationdate="20201118T035434Z">
+        <seg>森林目録を計画し始めるときは、目的、使用されるサンプルプロットの種類、目的を達成するために収集されるデータの種類を明確に定義することが重要です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -29151,10 +31175,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>With the tool active, zoom into the image (:guilabel:`Ctrl + mouse wheel`) so that a forest stand line is close enough to differentiate the pixels forming the line.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035009Z" creationid="miurahr" creationdate="20201118T035009Z">
+        <seg>アクティブツールで、林分の線が線を構成する画素を区別するのに十分なくらい近くなるように、画像にズームインします( :guilabel:`Ctrlキー+マウスホイール` )。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>With these few pieces of information, the GIS application can ensure that raster data are displayed in the correct place.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140057Z" creationid="miurahr" creationdate="20201117T140057Z">
         <seg>これらの情報を使用して、GISアプリケーションはラスターデータが正しい場所に表示されることを確実にします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>With these snapping settings, whenever you are digitizing and get close enough to one of the points in the centroids layer or any vertex of your digitized polygons, a pink cross will appear on the point that will be snapped to.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035206Z" creationid="miurahr" creationdate="20201118T035206Z">
+        <seg>これらのスナップ設定では、デジタル化中に重心レイヤー中のポイントの一つまたはデジタル化されるポリゴンのどこかの頂点に十分近づくといつでも、ピンクの十字がスナップされる点に表示されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -29423,6 +31463,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You calculated areas for polygons in :doc:`../complete_analysis/analysis_exercise`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035420Z" creationid="miurahr" creationdate="20201118T035420Z">
+        <seg>:doc:`../complete_analysis/analysis_exercise` 内のポリゴンのための領域を計算しました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You can add comment on other fields from these two records, if you like.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T015953Z" creationid="miurahr" creationdate="20201118T015953Z">
@@ -29567,6 +31615,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You can create a new column for the :kbd:`systematic_plots_clip` layer:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035520Z" creationid="miurahr" creationdate="20201118T035520Z">
+        <seg>:kbd:`systematic_plots_clip` レイヤーのための新しい列を作成できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You can create your own symbol layer class that will draw the features exactly as you wish.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T032012Z" creationid="miurahr" creationdate="20201118T032012Z">
@@ -29607,10 +31663,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You can even see the different soil drains that have been dug in the forests.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034832Z" creationid="miurahr" creationdate="20201118T034832Z">
+        <seg>森に掘られている異なる土壌の排水も見ることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You can have access to common vector files (e.g. ESRI Shapefile or MapInfo files), databases (e.g. PostGIS, Oracle, SpatiaLite, GeoPackage or MSSQL Spatial) and WMS/WFS connections.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T033110Z" creationid="miurahr" creationdate="20201118T033030Z">
         <seg>共通のベクタファイル（例えばESRI ShapefileやMapInfoのファイル)、データベース(例えばPostGIS、Oeacle、Spatialite、GeoPackage または MSSQL Spatial)とWMS/WFS接続にアクセスできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can improve the look of your maps by using different background images.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034723Z" creationid="miurahr" creationdate="20201118T034723Z">
+        <seg>さまざまな背景画像を使用することで、地図の外観を改善できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -29687,10 +31759,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You can obtain a digital elevation model (DEM) from a LiDAR point cloud and then create a hillshade raster that is visually more intuitive for presentation purposes.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034728Z" creationid="miurahr" creationdate="20201118T034728Z">
+        <seg>レーザー測量点群からデジタル標高モデル（DEM）を取得して、プレゼンテーション目的のために、視覚的により直感的な陰影起伏ラスターを作成できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You can of course use this query tool to execute any arbitrary SQL command including many of the ones we looked at in previous modules and sections.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150549Z" creationid="miurahr" creationdate="20201117T150549Z">
         <seg>もちろんこのクエリツールは、以前のモジュールとセクション中で見たものなど、任意のSQLコマンドを実行するために使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can open it with :guilabel:`lasview` if you want to check it.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034809Z" creationid="miurahr" creationdate="20201118T034809Z">
+        <seg>それを確認したい場合は、:guilabel:`lasview` で開くことができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -29743,6 +31831,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You can see that all the attributes from the inventory data file are now linked to your digitized vector layer.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035407Z" creationid="miurahr" creationdate="20201118T035407Z">
+        <seg>目録データファイルからのすべての 属性 は、今お使いのデジタル化された ベクターレイヤーにリンクされていることがわかります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You can see that in :func:`initGui()` we've used an icon from the resource file (called :file:`resources.qrc` in our case)</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T025037Z" creationid="miurahr" creationdate="20201118T025037Z">
@@ -29751,10 +31847,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You can see that the points have been created and numbered first West to East and then North to South.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035516Z" creationid="miurahr" creationdate="20201118T035516Z">
+        <seg>ポイントが作成され、最初に西から東、それから北から南へと番号付けられていることがわかります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You can see the hidden tools by clicking on the double right arrow button in any such collapsed toolbar.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T033207Z" creationid="miurahr" creationdate="20201118T033207Z">
         <seg>そのように折りたたまれたツールバーでは右矢印ボタンをダブルクリックすると非表示のツールを表示できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can see the metadata for this inventory data in the file :kbd:`rautjarvi_1994_legend.txt` in the same folder.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035357Z" creationid="miurahr" creationdate="20201118T035357Z">
+        <seg>同じフォルダにある :kbd:`rautjarvi_1994_legend.txt` ファイルでこの目録データのメタデータを見ることができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -29803,6 +31915,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>結果の並べ替えは複数の列の値によってもできます:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can still prepare these points so that they are more useful for the field work.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035510Z" creationid="miurahr" creationdate="20201118T035510Z">
+        <seg>野外作業のためにより便利になるように、これらのポイントをさらに準備できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -29879,6 +31999,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You can use the unlicensed tool as indicated in the license file, but you get the diagonals you can appreciate in the image results.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034822Z" creationid="miurahr" creationdate="20201118T034822Z">
+        <seg>ライセンス・ファイルに示されるように、無免許でツールを使用できますが、画像結果にはっきりわかる対角線が出ます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You can use their source to learn more about programming with PyQGIS or find out whether you are duplicating development effort.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T024637Z" creationid="miurahr" creationdate="20201118T024637Z">
@@ -29887,10 +32015,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You can use this characteristic to automatically obtain a common border.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035330Z" creationid="miurahr" creationdate="20201118T035312Z">
+        <seg>この特性を使用すれば共通の境界が自動的に得られます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You can use this dialog to Add Columns, Add geometry columns, edit existing columns or to remove a column completely.</seg>
       </tuv>
       <tuv lang="ja">
         <seg>列を追加するには、このダイアログを使用してジオメトリ列を追加し、既存の列を編集したり、列を完全に削除できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can use those points now to follow the original lines much easily than without them.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035136Z" creationid="miurahr" creationdate="20201118T035136Z">
+        <seg>これらのポイントを使用することで、それらがない場合よりもずっと簡単に元の線をたどれるようになりました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -29943,6 +32087,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You could do the same process with other elements in the image, for example extracting the black lines that represent roads or the brown ones that represent the terrain' contour lines.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035035Z" creationid="miurahr" creationdate="20201118T035035Z">
+        <seg>画像内の他の要素で同様の処理を行うことができます。例えば、道路を表す黒線や地形等高線を表す茶線を抽出したりもできたでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You could have planned some extra sample plots when you planned the systematic inventory, so that the field teams would have measured a few extra sample plots for this purpose.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T220200Z" creationid="miurahr" creationdate="20201117T220200Z">
@@ -29959,10 +32111,42 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You could start doing different analysis with your brand new dataset, but you might be more interested in performing analysis in a dataset more up to date.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035425Z" creationid="miurahr" creationdate="20201118T035425Z">
+        <seg>まっさらな新しいデータセットで異なる分析することで開始できますが、より最新のデータセットの分析を行うことにより興味があるのではないでしょうか。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You could use the GIS to digitise all outfalls for storm water drains (as point features).</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141000Z" creationid="miurahr" creationdate="20201117T141000Z">
         <seg>GISを使用すると、雨水排水のためのすべての排水口を（ポイント地物として）デジタル化できるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You could use the basic map or the aerial image you have been using before, but a hillshade raster of the terrain will look nicer in some situations.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034723Z" creationid="miurahr" creationdate="20201118T034723Z">
+        <seg>基本地図も以前に使用してきた空撮画像も使用できますが、地形の陰影起伏ラスターが見栄えを良くする状況もあるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You have already digitized a set of polygons that represent the forest stands, but you don't have information about the forest just yet.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035429Z" creationid="miurahr" creationdate="20201118T035429Z">
+        <seg>林分を表すポリゴンの集合は既にデジタル化しましたが、まだ森林についての情報を持っていません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You have already used the :menuselection:`Processing` toolbox in :doc:`../vector_analysis/spatial_statistics` to run some SAGA algorithms.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034751Z" creationid="miurahr" creationdate="20201118T034751Z">
+        <seg>いくつかのSAGAアルゴリズムを実行するために、 :doc:`../vector_analysis/spatial_statistics` 中の :menuselection:`プロセッシング` ツールボックスはすでに使用してきました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -30007,6 +32191,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You have now the points that the field teams will use to navigate to the designed sample plots locations.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035509Z" creationid="miurahr" creationdate="20201118T035509Z">
+        <seg>これで、野外チームが設計されたサンプルプロットの場所に移動するために使用するポイントができました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You have seen how to interact with spatial databases using the QGIS Browser and how to add layers to your map based on a query filter.</seg>
       </tuv>
       <tuv lang="ja">
@@ -30019,6 +32211,22 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T032310Z" creationid="miurahr" creationdate="20201118T032310Z">
         <seg>`有効にする&lt;https://docs.docker.com/get-started/orchestration/#enable-docker-swarm&gt;`_ 必要があります（MacバージョンはLinuxでも動作します）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You just saw how easily you can create a systematic sampling design to be used in a forest inventory.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035552Z" creationid="miurahr" creationdate="20201118T035552Z">
+        <seg>森林目録に使用する体系的なサンプリングの設計を作成する方法を簡単に見たところです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You learned about the necessary tools in :doc:`../create_vector_data/topo_editing`, now is probably a good moment to go read about them again.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035348Z" creationid="miurahr" creationdate="20201118T035348Z">
+        <seg>:doc:`../create_vector_data/topo_editing` で必要なツールについて学びましたが、今それらについて読み直しに行くにはおそらく良い瞬間です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -30223,6 +32431,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You notice that the names of the columns that you just added are no very useful.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035412Z" creationid="miurahr" creationdate="20201118T035412Z">
+        <seg>追加した列の名前はぜんぜん有用でないことに気づきます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You notice that the tool has used the whole extent of your stands layer to generate a rectangular grid of points.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035505Z" creationid="miurahr" creationdate="20201118T035505Z">
+        <seg>このツールは、ポイントの長方形のグリッドを生成するために、林分レイヤーの全体の範囲を使用していることに気づきます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You now have a basic map.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T033243Z" creationid="miurahr" creationdate="20201118T033243Z">
@@ -30359,10 +32583,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You should see the :guilabel:`Tools for LiDAR data` category.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034754Z" creationid="miurahr" creationdate="20201118T034754Z">
+        <seg>:guilabel:`レーザー測量データ` カテゴリのツールが表示されるはずです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You should use a different password to your login password.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T034447Z" creationid="miurahr" creationdate="20201118T034447Z">
         <seg>ログインパスワードとは異なるパスワードを使用するべきです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You should use the ground control points you saved, :menuselection:`File --&gt; Load GCP points`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035046Z" creationid="miurahr" creationdate="20201118T035046Z">
+        <seg>保存された地上基準点を使用する必要があります、 :menuselection:`ファイル --&gt; GCP 点をロード` 。</seg>
       </tuv>
     </tu>
     <tu>
@@ -30407,6 +32647,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You will get something like this:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035058Z" creationid="miurahr" creationdate="20201118T035058Z">
+        <seg>何かこのようになっているでしょう：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You will have a new, blank map.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T033229Z" creationid="miurahr" creationdate="20201118T033229Z">
@@ -30419,6 +32667,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150230Z" creationid="miurahr" creationdate="20201117T150230Z">
         <seg>必要な情報が見つかるまで、1つの表紙から読み始め、書籍全体を通して作業を進めなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You will just finish digitizing the half of the forest stands that are left between the main roads (wide pink lines) and the lake:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035142Z" creationid="miurahr" creationdate="20201118T035142Z">
+        <seg>主要道路（幅の広いピンクの線）と湖の間に残っている林分の半分のデジタル化を完了するだけでしょう：</seg>
       </tuv>
     </tu>
     <tu>
@@ -30471,6 +32727,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You will use LAStools to extract a DEM from a LiDAR dataset and then create a hillshade raster to use in your map presentation later.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034724Z" creationid="miurahr" creationdate="20201118T034724Z">
+        <seg>LAStoolsを使用してレーザー測量データセットからDEMを抽出し、その後、地図のプレゼンテーションで使用する陰影起伏ラスターを作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You will use later the the green styling of the :kbd:`forest_stands_2012` layer.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T215425Z" creationid="miurahr" creationdate="20201117T215425Z">
@@ -30491,6 +32755,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123622Z" creationid="miurahr" creationdate="20201117T123622Z">
         <seg>自分の位置の地図読みをしたり、GPS受信機を使用して自分の位置を取得する必要もあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You would start by creating a vector file of :guilabel:`polygon type`, but for this exercise, there is a shapefile with part of the area of interest already digitized.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035142Z" creationid="miurahr" creationdate="20201118T035142Z">
+        <seg>:guilabel:`ポリゴンタイプ` のベクターファイルの作成から始めますが、この演習のためには、関心領域の一部がすでにデジタル化されているシェープファイルがあります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -30539,6 +32811,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T020343Z" creationid="miurahr" creationdate="20201118T020343Z">
         <seg>あなたのバッファダイアログはこのように見えるはずです:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Your digitized polygon will look like this:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035222Z" creationid="miurahr" creationdate="20201118T035222Z">
+        <seg>デジタル化されたポリゴンは次のようになります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -30599,6 +32879,30 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Your map will look something like this:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034928Z" creationid="miurahr" creationdate="20201118T034928Z">
+        <seg>地図は次のようになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Your pixel selection should look something like the right image below.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035015Z" creationid="miurahr" creationdate="20201118T035015Z">
+        <seg>ピクセルの選択は、以下の右の画像のようになるはずです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Your result will look like this:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035350Z" creationid="miurahr" creationdate="20201118T035350Z">
+        <seg>結果は次のようになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Your result:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T020418Z" creationid="miurahr" creationdate="20201118T020418Z">
@@ -30655,6 +32959,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Zoom in and see what the polygons look like.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035057Z" creationid="miurahr" creationdate="20201118T035057Z">
+        <seg>ズームインしてポリゴンがどのように見えるかを参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Zoom in to close ranges only if you feel that you need to be accurate, for example, at some corners or when you want a polygon to connect with another polygon at a certain node.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035212Z" creationid="miurahr" creationdate="20201118T035212Z">
+        <seg>正確であることが必要と感じた場合のみズームインして範囲を閉じてください、例えばいくつかのコーナーで、またはポリゴンを特定のノードで他のポリゴンと接続したいとき。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Zoom in to the |majorUrbanName| area.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T033614Z" creationid="miurahr" creationdate="20201118T033614Z">
@@ -30667,6 +32987,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T220014Z" creationid="miurahr" creationdate="20201117T220014Z">
         <seg>画像にズームアウトして、他の十字を見つけるまで右に移動し、何キロメートル移動してきたか見積もります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Zoom out to see how the greenish pixels have been selected throughout the image.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035013Z" creationid="miurahr" creationdate="20201118T035013Z">
+        <seg>緑がかったピクセルが画像全体で選択されているかを確認するためにズームアウト。</seg>
       </tuv>
     </tu>
     <tu>
@@ -31243,6 +33571,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T003502Z" creationid="miurahr" creationdate="20201118T003502Z">
         <seg>そして次のコードのように使用できます：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>and set the transparency to 50%.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035148Z" creationid="miurahr" creationdate="20201118T035148Z">
+        <seg>そして透明度を50％に設定します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -31919,6 +34255,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>|LS| DEM from LiDAR Data</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034722Z" creationid="miurahr" creationdate="20201118T034722Z">
+        <seg>|LS| レーザー測量データからのDEM</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|LS| Digitizing Forest Stands</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034950Z" creationid="miurahr" creationdate="20201118T034950Z">
+        <seg>|LS| 林分をデジタル化する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>|LS| Feature Topology</seg>
       </tuv>
       <tuv lang="ja">
@@ -31967,6 +34319,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>|LS| Map Presentation</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034901Z" creationid="miurahr" creationdate="20201118T034901Z">
+        <seg>|LS| 地図プレゼンテーション</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>|LS| Queries</seg>
       </tuv>
       <tuv lang="ja">
@@ -32003,6 +34363,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T033355Z" creationid="miurahr" creationdate="20201118T033355Z">
         <seg>|LS| シンボル体系</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|LS| Systematic Sampling Design</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035429Z" creationid="miurahr" creationdate="20201118T035429Z">
+        <seg>|LS| 体系的なサンプリングの設計</seg>
       </tuv>
     </tu>
     <tu>
@@ -32471,6 +34839,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>|basic| |FA| Calculating a DEM with LAStools</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034750Z" creationid="miurahr" creationdate="20201118T034750Z">
+        <seg>|basic| |FA| LAStoolsとDEMの計算</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>|basic| |FA| Changing Colors</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T033405Z" creationid="miurahr" creationdate="20201118T033405Z">
@@ -32487,10 +34863,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>|basic| |FA| Creating Supporting Points for Digitizing</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035050Z" creationid="miurahr" creationdate="20201118T035050Z">
+        <seg>|basic| |FA| デジタル化を支援するポイントを作成する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>|basic| |FA| Creating a New Table</seg>
       </tuv>
       <tuv lang="ja">
         <seg>|basic| |FA|  新しいテーブルを作成する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|basic| |FA| Creating a Terrain Hillshade</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034823Z" creationid="miurahr" creationdate="20201118T034823Z">
+        <seg>|basic| |FA| 地形陰影起伏を作成する</seg>
       </tuv>
     </tu>
     <tu>
@@ -32519,6 +34911,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>|basic| |FA| Digitize the Forest Stands</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035139Z" creationid="miurahr" creationdate="20201118T035139Z">
+        <seg>|basic| |FA| 林分をデジタル化</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>|basic| |FA| Editing the Coverage Layer</seg>
       </tuv>
       <tuv lang="ja">
@@ -32543,10 +34943,50 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>|basic| |FA| Exporting Sample Plots as GPX format</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035527Z" creationid="miurahr" creationdate="20201118T035527Z">
+        <seg>|basic| |FA| GPX形式としてサンプルプロットを書き出す</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|basic| |FA| Extracting the Forest Stands Borders</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034956Z" creationid="miurahr" creationdate="20201118T034956Z">
+        <seg>|basic| |FA| 林分境界を抽出する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>|basic| |FA| Georeferencing the scanned map</seg>
       </tuv>
       <tuv lang="ja">
         <seg>|basic| |FA|  スキャンした地図を地理参照する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|basic| |FA| Implementing a Systematic Sampling Plot Design</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035450Z" creationid="miurahr" creationdate="20201118T035450Z">
+        <seg>|basic| |FA| 体系的サンプリングプロット設計を実装する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|basic| |FA| Installing Lastools</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034726Z" creationid="miurahr" creationdate="20201118T034726Z">
+        <seg>|basic| |FA| LAStoolsをインストールする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|basic| |FA| Joining the Forest Stand Data</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035351Z" creationid="miurahr" creationdate="20201118T035351Z">
+        <seg>|basic| |FA| 林分データを結合</seg>
       </tuv>
     </tu>
     <tu>
@@ -32563,6 +35003,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T033226Z" creationid="miurahr" creationdate="20201118T033226Z">
         <seg>|basic| |FA| 地図を準備</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|basic| |FA| Preparing the Map Data</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034906Z" creationid="miurahr" creationdate="20201118T034906Z">
+        <seg>|basic| |FA| 地図データを準備する</seg>
       </tuv>
     </tu>
     <tu>
@@ -32623,10 +35071,42 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>|basic| |TY| Finish Digitizing the Forest Stands</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035342Z" creationid="miurahr" creationdate="20201118T035342Z">
+        <seg>|basic| |TY| 林分をデジタル化完了</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|basic| |TY| Georeference the Green Pixels Image</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035041Z" creationid="miurahr" creationdate="20201118T035041Z">
+        <seg>|basic| |TY| 緑色画素の画像をジオリファレンス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|basic| |TY| Renaming Attribute Names and Adding Area and Perimeter</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T035408Z" creationid="miurahr" creationdate="20201118T035408Z">
+        <seg>|basic| |TY| 属性 名の名前を変更してエリアと境界を追加する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>|basic| |TY| Replace Tokens</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T032602Z" creationid="miurahr" creationdate="20201118T032602Z">
         <seg>|basic| |TY| トークンの置き換え</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|basic| |TY| Try Different Blending Modes</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T034929Z" creationid="miurahr" creationdate="20201118T034929Z">
+        <seg>|basic| |TY| さまざまなブレンドモードを試す</seg>
       </tuv>
     </tu>
     <tu>
