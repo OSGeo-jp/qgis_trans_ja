@@ -27095,6 +27095,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Request</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T214025Z" creationid="miurahr" creationdate="20201118T214025Z">
+        <seg>リクエスト</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Required</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T014828Z" creationid="miurahr" creationdate="20201118T014828Z">
@@ -27195,6 +27203,22 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T091543Z" creationid="miurahr" creationdate="20201117T091543Z">
         <seg>小さくコピーが簡単なオブジェクトは値として返してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Returns XML metadata with information about the server</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T214043Z" creationid="miurahr" creationdate="20201118T214043Z">
+        <seg>サーバーに関する情報を含むXMLメタデータを返します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Returns a map</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T214105Z" creationid="miurahr" creationdate="20201118T214105Z">
+        <seg>地図を返す</seg>
       </tuv>
     </tu>
     <tu>
@@ -29395,6 +29419,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>標準ヘッダとライセンス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Standard requests provided by QGIS Server:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T214037Z" creationid="miurahr" creationdate="20201118T214037Z">
+        <seg>QGISサーバーによって提供されるQGISサーバー標準リクエスト:</seg>
       </tuv>
     </tu>
     <tu>
