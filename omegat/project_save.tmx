@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="5.4.0_0_f1e32ca8c" segtype="sentence" srclang="en-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="5.4.0_0_f1e32ca8c" segtype="paragraph" srclang="en-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -3958,6 +3958,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Access modifiers structure a class into sections of public API, protected API and private API. Access modifiers themselves group the code into this structure. Indent the access modifier and declarations.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T223750Z" creationid="miurahr" creationdate="20201118T223750Z">
+        <seg>アクセス修飾子は、公開API、保護されたAPIとプライベートAPIのセクションにクラスを構造化します。アクセス修飾子自体はこのような構造にコードをグループ化します。アクセス修飾子と宣言を字下げしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Access modifiers themselves group the code into this structure.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T092044Z" creationid="miurahr" creationdate="20201117T092044Z">
@@ -4018,6 +4026,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T085936Z" creationid="miurahr" creationdate="20201117T085936Z">
         <seg>頭字語についても同様に、一貫性を保つためにキャメルケースにする必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Acronyms should also be camel cased for consistency. E.g. ``setXml`` instead of ``setXML``.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T223510Z" creationid="miurahr" creationdate="20201118T223510Z">
+        <seg>頭字語についても同様に、一貫性を保つためにキャメルケースにする必要があります。例えば、  ``setXML`` でなく ``setXml`` と書くようにしてください 。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4854,6 +4870,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>All class members should be private. Public class members are STRONGLY discouraged. Protected members should be avoided when the member may need to be accessed from Python subclasses, since protected members cannot be used from the Python bindings.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T223450Z" creationid="miurahr" creationdate="20201118T223450Z">
+        <seg>すべてのクラスメンバはプライベートにしましょう。公開クラスメンバは極力避けるようにしてください。保護メンバーは Python バインディングから使用できないため、メンバーが Python のサブクラスからアクセスする必要がある場合は、保護メンバを使用しないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>All collected data was processed with QGIS 2.6 and 2.8, projected into ETRS89 / ETRS-LAEA and stored according to the INSPIRE directive to meet EU standards.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T224917Z" creationid="miurahr" creationdate="20201117T224917Z">
@@ -4866,6 +4890,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T091650Z" creationid="miurahr" creationdate="20201117T091650Z">
         <seg>すべてのダイアログには、すべてのツールバーアイコンおよびその他の関連するウィジェットのツールチップヘルプを実装する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>All dialogs should implement tooltip help for all toolbar icons and other relevant widgets. Tooltips add greatly to feature discoverability for both new and experienced users.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T223720Z" creationid="miurahr" creationdate="20201118T223720Z">
+        <seg>すべてのダイアログには、すべてのツールバーアイコンおよびその他の関連するウィジェットのツールチップヘルプを実装する必要があります。ツールチップは、新規および経験豊富なユーザーのために機能の見つけやすさを大きく追加します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4911,6 +4943,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>All signal/slot connects should be made using the "new style" connects available in Qt5. Futher information on this requirement is available in `QEP #77 &lt;https://github.com/qgis/QGIS-Enhancement-Proposals/issues/77&gt;`_.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T223729Z" creationid="miurahr" creationdate="20201118T223729Z">
+        <seg>すべてのシグナルとスロットの接続は、Qt5から利用可能になった「新しいスタイル」の接続を使用して行われるべきです。この要件についてのより詳しい情報は、 `QEP #77 &lt;https://github.com/qgis/QGIS-Enhancement-Proposals/issues/77&gt;`_ で読むことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>All symbols should have multiple symbol layers.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T032837Z" creationid="miurahr" creationdate="20201118T032837Z">
@@ -4939,6 +4979,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T091844Z" creationid="miurahr" creationdate="20201117T091844Z">
         <seg>正しく SIP を構築するためのすべての情報は C++ のヘッダファイル内になければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>All the information to properly build the SIP file must be found in the C++ header file. Some macros are available for such definition:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T223736Z" creationid="miurahr" creationdate="20201118T223736Z">
+        <seg>正しく SIP を構築するためのすべての情報は C++ のヘッダファイル内になければなりません。そのような定義のためにいくつかのマクロを利用することができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5243,6 +5291,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T215738Z" creationid="miurahr" creationdate="20201118T215738Z">
         <seg>常にすべてがコミット/プル要求を作成する前にコンパイルされることを確認してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Always check that everything compiles before making any commits / pull requests. Try to be aware of possible breakages your commits may cause for people building on other platforms and with older / newer versions of libraries.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T224049Z" creationid="miurahr" creationdate="20201118T224049Z">
+        <seg>常にすべてがコミット/プル要求を作成する前にコンパイルされることを確認してください。あなたのコミットは、人々が他のプラットフォーム上で構築するためのライブラリとの古い/新しいバージョンの原因となる可能性のある破損を認識するようにしてください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6007,6 +6063,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>As soon as a SIP file is added to one of the source file (:file:`python/core/core.sip`, :file:`python/gui/gui.sip` or :file:`python/analysis/analysis.sip`), it will be considered as generated automatically. A test on Travis will ensure that this file is up to date with its corresponding header.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T223743Z" creationid="miurahr" creationdate="20201118T223743Z">
+        <seg>SIPファイルがソースファイル(:file:`python/core/core.sip`,:file:`python/gui/gui.sip`,:file:`python/analysis/analysis.sip`)のいずれかに追加されると、自動的に生成されたものとみなされます。Travisでのテストにより、このファイルが対応するヘッダとともに最新であることが確認されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>As the docker image does not exist in a public registry.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T032226Z" creationid="miurahr" creationdate="20201118T032226Z">
@@ -6439,6 +6503,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Attention: After a rebase you need to ``git push -f`` to your forked repo. **CORE DEVS: DO NOT DO THIS ON THE QGIS PUBLIC REPOSITORY!**</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T224028Z" creationid="miurahr" creationdate="20201118T224028Z">
+        <seg>注意：リベースした後、あなたのフォークレポに ``git push -f`` する必要があります。 **CORE DEVS：QGIS公開リポジトリ上でこれ​​をしないでください！**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Attribute Table</seg>
       </tuv>
       <tuv lang="ja">
@@ -6631,6 +6703,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Avoid use of Qt auto connect slots (i.e. those named ``void on_mSpinBox_valueChanged``). Auto connect slots are fragile and prone to breakage without warning if dialogs are refactored.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T223730Z" creationid="miurahr" creationdate="20201118T223730Z">
+        <seg>Qt自動接続スロット（すなわち ``void on_mSpinBox_valueChanged`` と名前付けされたもの）の使用を避けてください。自動接続スロットはダイアログがリファクタリングされている場合は、警告なしに破損し、脆弱となりやすいです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Avoid using group boxes with only a single widget / item inside.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T215749Z" creationid="miurahr" creationdate="20201118T215749Z">
@@ -6819,6 +6899,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T215434Z" creationid="miurahr" creationdate="20201118T215434Z">
         <seg>開始する前に、別の開発者がすでに同じ機能に取り組んでいるかどうかを確認するために、開発者メーリングリストで発表を行います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Before starting, make an announcement on the developer mailing list to see if another developer is already working on the same feature. Also contact the technical advisor of the project steering committee (PSC). If the new feature requires any changes to the QGIS architecture, a request for comment (RFC) is needed.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T223952Z" creationid="miurahr" creationdate="20201118T223952Z">
+        <seg>開始する前に、別の開発者がすでに同じ機能に取り組んでいるかどうかを確認するために、開発者メーリングリストで発表を行います。また、プロジェクト運営委員会（PSC）の技術顧問にお問い合わせください。新機能はQGISアーキテクチャへの変更を必要とする場合は、コメント要求（RFC）が必要とされます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7599,6 +7687,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>C++ implementation and header files should have a .cpp and .h extension respectively. Filename should be all lowercase and, in the case of classes, match the class name.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T223721Z" creationid="miurahr" creationdate="20201118T223721Z">
+        <seg>C ++の実装とヘッダーファイルは、それぞれ拡張子.cppと.hを持つ必要があります。ファイル名はすべて小文字で、クラスの場合、クラス名と一致する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>CB</seg>
       </tuv>
       <tuv lang="ja">
@@ -8211,6 +8307,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T085905Z" creationid="miurahr" creationdate="20201117T085905Z">
         <seg>クラスのメンバ値はアクセサ関数を通じて取得しましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Class member values should be obtained through accesssor functions. The function should be named without a get prefix. Accessor functions for the two private members above would be:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T223500Z" creationid="miurahr" creationdate="20201118T223500Z">
+        <seg>クラスのメンバ値はアクセサ関数を通じて取得しましょう。関数は、 get 接頭辞なしの名前を付ける必要があります。上記2つの私的メンバのためのアクセサ関数は次のようになります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10687,6 +10791,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Do not use generic type names that will conflict with other types. e.g. use ``UnkownUnit`` rather than ``Unknown``</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T223727Z" creationid="miurahr" creationdate="20201118T223727Z">
+        <seg>他のタイプと競合するジェネリック型の名前を使用しないでください。例えば ``Unknown`` よりむしろ ``UnkownUnit`` を使用してください</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Do not use prefixes like ``my`` or ``the``.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T091713Z" creationid="miurahr" creationdate="20201117T091713Z">
@@ -10923,6 +11035,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T114358Z" creationid="miurahr" creationdate="20201117T114358Z">
         <seg>https://git-scm.com/からソースをダウンロードします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Download the source from https://git-scm.com/. Unzip it, and in a Terminal cd to the source folder, then:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T223926Z" creationid="miurahr" creationdate="20201118T223926Z">
+        <seg>https://git-scm.com/からソースをダウンロードします。解凍し、ターミナルCDでソースフォルダに移動して、次の操作を行います。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11411,6 +11531,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T085706Z" creationid="miurahr" creationdate="20201117T085706Z">
         <seg>アクセサが正しく ``const`` でマークされていることを確認してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Ensure that accessors are correctly marked with ``const``. Where appropriate, this may require that cached value type member variables are marked with ``mutable``.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T223502Z" creationid="miurahr" creationdate="20201118T223502Z">
+        <seg>アクセサが正しく ``const`` でマークされていることを確認してください。適切な場合には、これはキャッシュされた値型のメンバー変数が ``mutable`` でマークされていることを要求することができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12615,6 +12743,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>For consistency with the existing QGIS API and with the Qt API, abbreviations should be avoided. E.g. ``setDestinationSize`` instead of ``setDestSize``, ``setMaximumValue`` instead of ``setMaxVal``.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T223508Z" creationid="miurahr" creationdate="20201118T223508Z">
+        <seg>既存の QGIS の API と Qt の API との一貫性を保つために、略語は避けましょう。例えば ``setDestSize`` でなく ``setDestinationSize`` 、 ``setMaxVal`` でなく ``setMaximumValue`` といった形で書くようにしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>For controlling protesting groups, the police want to establish a neutral zone to keep protesters at least 100 meters from a building.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141240Z" creationid="miurahr" creationdate="20201117T141240Z">
@@ -13663,10 +13799,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Function arguments should use descriptive names. Do not use single letter arguments (e.g. ``setColor( const QColor&amp; color )`` instead of ``setColor( const QColor&amp; c )``).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T223511Z" creationid="miurahr" creationdate="20201118T223511Z">
+        <seg>関数の引数は説明的な名前を使用してください。1文字の引数名を使用しないでください (例：``setColor( const QColor&amp; c )``ではなく、``setColor( const QColor&amp; color )``とする)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Function names begin with a lowercase letter and are formed using mixed case.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T085711Z" creationid="miurahr" creationdate="20201117T085711Z">
         <seg>関数名は小文字で始まり、大文字と小文字を使用して形成されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Function names begin with a lowercase letter and are formed using mixed case. The function name should convey something about the purpose of the function.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T223504Z" creationid="miurahr" creationdate="20201118T223504Z">
+        <seg>関数名は小文字で始まり、大文字と小文字を使用して形成されています。関数名は、その関数の目的について何かを伝える必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15567,6 +15719,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If some improvements are required for sipify script, please add the missing bits to the demo file :file:`tests/code_layout/sipifyheader.h` and create the expected header :file:`tests/code_layout/sipifyheader.expected.sip`. This will also be automatically tested on Travis as a unit test of the script itself.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T223744Z" creationid="miurahr" creationdate="20201118T223744Z">
+        <seg>sipify スクリプトに何か改善が必要な場合は、デモファイル :file:`tests/code_layout/sipifyheader.h` に必要な追加を行い、 期待されるヘッダ :file:`tests/code_layout/sipifyheader.expected.si` を作成してください。これはスクリプト自身のユニットテストとしても、Travisで自動的にテストされます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If something goes wrong during the process (e.g. power failure), the transaction will be rolled back.</seg>
       </tuv>
       <tuv lang="ja">
@@ -17327,6 +17487,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In QGIS we keep our most stable code in the current release branch. Master contains code for the so called 'unstable' release series. Periodically we will branch a release off master, and then continue stabilisation and selective incorporation of new features into master.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T223921Z" creationid="miurahr" creationdate="20201118T223921Z">
+        <seg>QGISでは、現在のリリースブランチで私たちの最も安定したコードを維持します。マスターには、いわゆる「不安定」リリースシリーズ用のコードが含まれています。定期的に私たちはマスターオフのリリースをブランチにして、マスターに新しい機能の安定化と選択的取り込みを継続します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In QGIS:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T033733Z" creationid="miurahr" creationdate="20201118T033733Z">
@@ -17491,6 +17659,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T091659Z" creationid="miurahr" creationdate="20201117T091659Z">
         <seg>上記の文が暗黙的に意味していることをより明確にいえば、ファイル名をクラス名と一致させるために、それぞれのクラスはそのクラス固有のファイルで宣言され、実装されねばならないということです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In case it is not clear from the statement above, for a filename to match a class name it implicitly means that each class should be declared and implemented in its own file. This makes it much easier for newcomers to identify where the code is relating to specific class.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T223723Z" creationid="miurahr" creationdate="20201118T223723Z">
+        <seg>上記の文が暗黙的に意味していることをより明確にいえば、ファイル名をクラス名と一致させるために、それぞれのクラスはそのクラス固有のファイルで宣言され、実装されねばならないということです。これによって、あるクラスに関連したコードがどこにあるのかを探すのが、新規参加者にとってもはるかに容易になります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20615,6 +20791,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>It's very easy to miss part of what the flow of control. Instead use</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T223749Z" creationid="miurahr" creationdate="20201118T223749Z">
+        <seg>制御のどのような流れの一部を見逃すのは非常に簡単です。代わりに使用します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Iterating over Vector Layer</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T031409Z" creationid="miurahr" creationdate="20201118T031409Z">
@@ -21743,6 +21927,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Local variable names begin with a lower case letter and are formed using mixed case. Do not use prefixes like ``my`` or ``the``.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T223726Z" creationid="miurahr" creationdate="20201118T223726Z">
+        <seg>ローカル変数名は小文字で始まり、大文字と小文字を使用して形成されています。``my`` あるいは ``the`` といった文字列を前に付けないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Locate it in the algorithm list, double--click on it and you will see the dialog shown below.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T100333Z" creationid="miurahr" creationdate="20201118T100333Z">
@@ -22399,6 +22591,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Member variables should normally be in the ``private`` section and made available via getters and setters. One exception to this is for data containers like for error reporting. In such cases do not prefix the member with an ``m``.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T223717Z" creationid="miurahr" creationdate="20201118T223717Z">
+        <seg>メンバ変数はふつう ``private`` セクションに入れ、ゲッタやセッタを利用できるようにしてください。エラー報告などのためのデータコンテナはこの例外です。このような場合はメンバに ``m`` の接頭辞を付けないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Members</seg>
       </tuv>
       <tuv lang="ja">
@@ -22459,6 +22659,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T091625Z" creationid="miurahr" creationdate="20201117T091625Z">
         <seg>メソッドの説明は三人称を使用した説明的な形で書いてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Method descriptions should be written in a descriptive form, using the 3rd person. Methods require a ``\since`` tag that defines when they have been introduced. You should add additional ``\since`` tags for important changes that were introduced later on.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T223716Z" creationid="miurahr" creationdate="20201118T223716Z">
+        <seg>メソッドの説明は三人称を使用した説明的な形で書いてください。メソッドにはいつ導入されたかを定義する ``\since`` タグが必要です。導入以降に重要な変更が行われたものについては、追加の ``\since`` タグを追加してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23035,6 +23243,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T215455Z" creationid="miurahr" creationdate="20201118T215455Z">
         <seg>決してオリジナルのリポジトリに ``git push -f`` しないでください！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Never ``git push -f`` to the origin repository! Only use this for your working branch.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T224002Z" creationid="miurahr" creationdate="20201118T224002Z">
+        <seg>決してオリジナルのリポジトリに ``git push -f`` しないでください！これはご自身の作業ブランチのために使用してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24235,6 +24451,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T215439Z" creationid="miurahr" creationdate="20201118T215439Z">
         <seg>今、開発を開始できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Now you can start developing. If you plan to do extensive on that branch, would like to share the work with other developers, and have write access to the upstream repo, you can push your repo up to the QGIS official repo by doing:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T223955Z" creationid="miurahr" creationdate="20201118T223955Z">
+        <seg>今、開発を開始できます。そのブランチで広範囲を行うことを計画している場合、他の開発者と仕事を共有したい、上流のレポへの書込アクセス権を持ちたい場合、以下を実行することでQGIS公式レポに自分のレポをプッシュアップできます：</seg>
       </tuv>
     </tu>
     <tu>
@@ -25711,6 +25935,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Optional: ``git pull --rebase``: Creates a fast-forward, no "merge commit" is made. Cleaner history, but it is harder to revert the merge.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T224034Z" creationid="miurahr" creationdate="20201118T224034Z">
+        <seg>オプションの： ``git pull --rebase`` ：早送りを作成します、「コミットマージ」は行われません。履歴はよりきれいですが、マージを元に戻すのは困難です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Optionally, if you want to do a command line test at this time you can run the ``/usr/lib/cgi-bin/qgis_mapserv.fcgi`` command which should output something like:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T102358Z" creationid="miurahr" creationdate="20201118T102358Z">
@@ -26231,6 +26463,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Pay careful attention to when arguments should be passed by reference. Unless argument objects are small and trivially copied (such as QPoint objects), they should be passed by const reference. For consistency with the Qt API, even implicitly shared objects are passed by const reference (e.g. ``setTitle( const QString&amp; title )`` instead of ``setTitle( QString title )``.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T223712Z" creationid="miurahr" creationdate="20201118T223712Z">
+        <seg>引数を参照渡しするべき場合に注意してください。オブジェクトの引数は小さくてコピーが簡単なもの (QPoint オブジェクトなど) でない限り、 const 参照で渡しましょう。Qt の API との一貫性を保つために、暗黙的に共有されるオブジェクトは const 参照によって渡されます。(例えば、 ``setTitle( QString title )`` ではなく ``setTitle( const QString&amp; title )``)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Per training number of trainees remains between 20-30.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T225627Z" creationid="miurahr" creationdate="20201117T225627Z">
@@ -26351,6 +26591,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Please devs use these labels (case insensitive) so doc writers have issues to work on and have an overview of things to do. BUT please also take time to add some text: either in the commit OR in the docs itself.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T224032Z" creationid="miurahr" creationdate="20201118T224032Z">
+        <seg>開発者はこれらのラベル（大小文字を区別しない）を使用してください、ドキュメントの作成者が作業する問題を持ち、するべきことの概要を持つように。しかし、また、いくつかのテキストを追加する時間をかけてください：コミットまたはドキュメント自体のいずれかで。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Please have a look into one of the documents below.</seg>
       </tuv>
       <tuv lang="ja">
@@ -26371,6 +26619,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T215525Z" creationid="miurahr" creationdate="20201118T215525Z">
         <seg>「パッチを通知する」に関する以下のセクションを参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Please see the section below on 'getting your patch noticed'. In general when you submit a PR you should take the responsibility to follow it through to completion - respond to queries posted by other developers, seek out a 'champion' for your feature and give them a gentle reminder occasionally if you see that your PR is not being acted on. Please bear in mind that the QGIS project is driven by volunteer effort and people may not be able to attend to your PR instantaneously. If you feel the PR is not receiving the attention it deserves your options to accelerate it should be (in order of priority):</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T224023Z" creationid="miurahr" creationdate="20201118T224023Z">
+        <seg>「パッチを通知する」に関する以下のセクションを参照してください。一般的に、PRを提出する際には最後までそれをフォロースルーするために責任を取る必要があります - あなたのPRが作用していないと見れば、他の開発者によって投稿された照会に応答し、あなたの機能のための「チャンピオン」を探し出し、時折それらについて軽く催促します。QGISプロジェクトはボランティアの努力によって運営され、人々が瞬時にPRに出席できないかもしれないことを心に留めておいてください。PRがふさわしい注意を受けていないと感じた場合、加速するためのあなたの選択肢は（優先順に）：</seg>
       </tuv>
     </tu>
     <tu>
@@ -27143,6 +27399,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>QGIS classes that are generated from Qt Designer (ui) files should have a Base suffix. This identifies the class as a generated base class.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T223719Z" creationid="miurahr" creationdate="20201118T223719Z">
+        <seg>Qt デザイナ（UI）ファイルから生成される QGIS クラスは Base という接尾辞を持つ必要があります。これは、そのクラスを生成された基本クラスとして識別します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>QGIS documentation sources</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T215408Z" creationid="miurahr" creationdate="20201118T215408Z">
@@ -27211,6 +27475,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T215725Z" creationid="miurahr" creationdate="20201118T215725Z">
         <seg>QGISはGPLの下でライセンスされています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>QGIS is licensed under the GPL. You should make every effort to ensure you only submit patches which are unencumbered by conflicting intellectual property rights. Also do not submit code that you are not happy to have made available under the GPL.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T224044Z" creationid="miurahr" creationdate="20201118T224044Z">
+        <seg>QGISはGPLの下でライセンスされています。あなたは、矛盾する知的財産権によって妨げられないパッチを提出するよう、あらゆる努力をする必要があります。また、GPLの下で利用可能になって嬉しくないコードを提出しないでください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27291,6 +27563,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T114027Z" creationid="miurahr" creationdate="20201117T114027Z">
         <seg>QGISはドキュメントにDoxygenを使用しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>QGIS uses Doxygen for documentation. Write descriptive and meaningful comments that give a reader information about what to expect, what happens in edge cases and give hints about other interfaces he could be looking for, best practices and code samples.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T223715Z" creationid="miurahr" creationdate="20201118T223715Z">
+        <seg>QGISはドキュメントにDoxygenを使用しています。説明的で意味のあるコメントを書き、読者に何が起こるか、エッジケースで何が起こるか、彼が探している他のインターフェイス、ベストプラクティス、コードサンプルについてのヒントを与えます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27691,6 +27971,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T215452Z" creationid="miurahr" creationdate="20201118T215452Z">
         <seg>定期的にマスターにリベースする：マスターにおける変更をブランチに組み込むために定期的にリベースすることをお勧めします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Rebase to master regularly: It is recommended to rebase to incorporate the changes in master to the branch on a regular basis. This makes it easier to merge the branch back to master later. After a rebase you need to ``git push -f`` to your forked repo.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T223959Z" creationid="miurahr" creationdate="20201118T223959Z">
+        <seg>定期的にマスターにリベースする：マスターにおける変更をブランチに組み込むために定期的にリベースすることをお勧めします。これは、後で簡単に逆にマスターへとブランチをマージできます。リベースした後、あなたのフォークレポに  ``git push -f`` する必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -28243,6 +28531,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T091543Z" creationid="miurahr" creationdate="20201117T091543Z">
         <seg>小さくコピーが簡単なオブジェクトは値として返してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Return small and trivially copied objects as values. Larger objects should be returned by const reference. The one exception to this is implicitly shared objects, which are always returned by value. Return ``QObject`` or subclassed objects as pointers.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T223714Z" creationid="miurahr" creationdate="20201118T223714Z">
+        <seg>小さくコピーが簡単なオブジェクトは値として返してください。より大きなオブジェクトは const 参照で返しましょう。この例外の一つは暗黙的に共有されるオブジェクトで、常に値で返します。``QObject`` またはそのサブクラスは、ポインタとして返してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -29655,6 +29951,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Set your editor to emulate tabs with spaces. Tab spacing should be set to 2 spaces.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T223733Z" creationid="miurahr" creationdate="20201118T223733Z">
+        <seg>スペースでタブを代替するようにエディタを設定します。タブ間隔はスペース2つに設定する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Setting up PostGIS functions will allow you to access spatial functions from within PostgreSQL.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T123920Z" creationid="miurahr" creationdate="20201118T123920Z">
@@ -30483,6 +30787,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T091828Z" creationid="miurahr" creationdate="20201117T091828Z">
         <seg>ソースコードは読みやすくするために字下げされなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Source code should be indented to improve readability. There is a :file:`scripts/prepare-commit.sh` that looks up the changed files and reindents them using astyle. This should be run before committing. You can also use :file:`scripts/astyle.sh` to indent individual files.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T223734Z" creationid="miurahr" creationdate="20201118T223734Z">
+        <seg>ソースコードは読みやすくするために字下げされなければなりません。変更されたファイルを検索し、 astyle を使用してそれらを字下げし直す :file:`scripts/prepare-commit.sh` があります。これは、コミットする前に実行する必要があります。また、個々のファイルを字下げするために :file:`scripts/astyle.sh` を使用できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -32239,6 +32551,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The SIP file can be generated using a dedicated script. For instance:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T223741Z" creationid="miurahr" creationdate="20201118T223741Z">
+        <seg>SIP ファイルはそのための専用スクリプトを使って生成することができます。例えば次のようにします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The SQL command you should use looks like this (you can replace the street name with a name of your choice)::</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T021010Z" creationid="miurahr" creationdate="20201118T021010Z">
@@ -32411,6 +32731,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T114301Z" creationid="miurahr" creationdate="20201117T114227Z">
         <seg>`git project&lt;https://git-scm.com/&gt;`_に、ダウンロード可能なgitビルドがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The `git project &lt;https://git-scm.com/&gt;`_ has a downloadable build of git. Make sure to get the package matching your processor (x86_64 most likely, only the first Intel Macs need the i386 package).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T223924Z" creationid="miurahr" creationdate="20201118T223924Z">
+        <seg>`git project&lt;https://git-scm.com/&gt;`_に、ダウンロード可能なgitビルドがあります。お使いのプロセッサに合ったパッケージを入手してください(x86_64の場合、最初のIntel Macだけがi386パッケージを必要とします)。</seg>
       </tuv>
     </tu>
     <tu>
@@ -32843,6 +33171,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T092023Z" creationid="miurahr" creationdate="20201117T092023Z">
         <seg>比較のための ``==`` の代わりに誤って ``=`` を使用している場合、 定数には本質的に値を割り当てできませんから、コンパイラでエラーが発生します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The complexity of the QGIS source code has increased considerably during the last years. Therefore it is hard to anticipate the side effects that the addition of a feature will have. In the past, the QGIS project had very long release cycles because it was a lot of work to reestablish the stability of the software system after new features were added. To overcome these problems, QGIS switched to a development model where new features are coded in GIT branches first and merged to master (the main branch) when they are finished and stable. This section describes the procedure for branching and merging in the QGIS project.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T224149Z" creationid="miurahr" creationdate="20201118T224149Z">
+        <seg>QGISソースコードの複雑さはこの数年で大幅に増加しました。したがって、機能の追加がもたらす副作用を予測することは困難です。過去には、QGISプロジェクトは、新しい機能が追加された後にソフトウェアシステムの安定性を再確立するために多くの作業が行われたため、リリースサイクルが非常に長くなりました。これらの問題を克服するために、QGISは、新しい機能が最初にGITブランチでコーディングされ、それらが完了して安定したときにマスター(主ブランチ)にマージされる開発モデルに切り替えられました。このセクションでは、QGISプロジェクトでのブランチとマージの手順について説明します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -33595,6 +33931,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T114339Z" creationid="miurahr" creationdate="20201117T114339Z">
         <seg>gitサイトはPPCビルドを提供していません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The git site does not offer PPC builds. If you need a PPC build, or you just want a little more control over the installation, you need to compile it yourself.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T223925Z" creationid="miurahr" creationdate="20201118T223925Z">
+        <seg>gitサイトはPPCビルドを提供していません。PPCビルドが必要な場合や、インストールをもう少し制御したい場合は、自分でコンパイルする必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -36023,6 +36367,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>There is a template for Qt Creator in git. To use it, copy it from :file:`doc/qt_creator_license_template` to a local location, adjust the mail address and - if required - the name and configure QtCreator to use it: :menuselection:`Tools --&gt; Options --&gt; C++ --&gt; File Naming`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T223724Z" creationid="miurahr" creationdate="20201118T223724Z">
+        <seg>git中にはQt Creatorのためのテンプレートがあります。それを使用するには、 :file:`doc/qt_creator_license_template` からそれをローカルの場所にコピーし、メールアドレスと名前を（必要ならば）修正し、それを使用するようにQtCreatorを設定します :menuselection:`ツール --&gt; オプション --&gt; C++ --&gt; ファイル命名` 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>There is also a :guilabel:`Preview` tab which will show you the layer data in a map preview.</seg>
       </tuv>
       <tuv lang="ja">
@@ -37583,6 +37935,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This makes it easier for us to apply the patches since we don't need to navigate to a specific place in the source tree to apply the patch. Also when I receive patches I usually evaluate them using merge, and having the patch from the top level dir makes this much easier. Below is an example of how you can include multiple changed files into your patch from the top level directory:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T224039Z" creationid="miurahr" creationdate="20201118T224039Z">
+        <seg>これにより、パッチを適用するために、ソースツリー内の特定の場所に移動する必要がないので、パッチを適用することが容易になります。また、パッチを受信したときに、通常、マージ使用してそれらを評価し、トップレベルのディレクトリからパッチを持つことは、これは非常に簡単になります。以下は、トップレベルのディレクトリからあなたのパッチに複数の変更されたファイルを含めることができる方法の例です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This makes it easier to merge the branch back to master later.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T215453Z" creationid="miurahr" creationdate="20201118T215453Z">
@@ -37935,6 +38295,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This section describes how to get started using the QGIS GIT repository. Before you can do this, you need to first have a git client installed on your system.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T223923Z" creationid="miurahr" creationdate="20201118T223923Z">
+        <seg>このセクションでは、QGIS GITリポジトリの使い方について説明します。これを行う前に、まずシステムにgitクライアントをインストールする必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This section is optional.</seg>
       </tuv>
       <tuv lang="ja">
@@ -38187,6 +38555,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T092018Z" creationid="miurahr" creationdate="20201117T092018Z">
         <seg>これにより、プログラマが ``==`` を使用するつもりで誤って ``=`` を使用することを防げます、それは非常に微妙な論理的バグになる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This will help prevent programmers from accidentally using ``=`` when they meant to use ``==``, which can introduce very subtle logic bugs. The compiler will generate an error if you accidentally use ``=`` instead of ``==`` for comparisons since constants inherently cannot be assigned values.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T223745Z" creationid="miurahr" creationdate="20201118T223745Z">
+        <seg>これにより、プログラマが ``==`` を使用するつもりで誤って ``=`` を使用することを防げます、それは非常に微妙な論理的バグになる。比較のための ``==`` の代わりに誤って ``=`` を使用している場合、 定数には本質的に値を割り当てできませんから、コンパイラでエラーが発生します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -40327,6 +40703,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Use ``#ifdef SIP_RUN`` to generate code only in SIP files or ``#ifndef SIP_RUN`` for C++ code only. ``#else`` statements are handled in both cases.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T223738Z" creationid="miurahr" creationdate="20201118T223738Z">
+        <seg>``#ifdef SIP_RUN`` で SIP ファイル内でのみ使用するコードを生成し、 ``#ifndef SIP_RUN`` で C++ コード内でのみ使用するコードを生成してください。``#else`` 文を使えばこの両方を扱うことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Use ``SIP_SKIP`` to discard a line</seg>
       </tuv>
       <tuv lang="ja">
@@ -42007,6 +42391,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>We try to keep the API stable and backwards compatible. Cleanups to the API should be done in a manner similar to the Qt sourcecode e.g.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T223735Z" creationid="miurahr" creationdate="20201118T223735Z">
+        <seg>私たちは API の安定性および後方互換性を維持しようとしています。API のクリーンアップは、 Qt のソースコード例と同様の方法で行われるべきです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>We use the doxygen ingroup directive so that all the UnitTests appear as a module in the generated Doxygen documentation.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T220426Z" creationid="miurahr" creationdate="20201118T220426Z">
@@ -42727,6 +43119,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>When making a commit, your editor (as defined in $EDITOR environment variable) will appear and you should make a comment at the top of the file (above the area that says 'don't change this'). Put a descriptive comment and rather do several small commits if the changes across a number of files are unrelated. Conversely we prefer you to group related changes into a single commit.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T224051Z" creationid="miurahr" creationdate="20201118T224051Z">
+        <seg>コミット行うとき、（ $EDITOR 環境変数で定義されている）エディタが表示されますので、ファイルの先頭（「これを変更しないでください」と言う領域の上）にコメントをする必要があります。多数のファイルの変更が無関係であれば、説明のコメントを入れて、いくつかの小さなコミットを行います。逆に、関係した変更は単一のコミットにグループ化していただくのが好ましいです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>When more than two are joined, they form a 'line of lines', or **polyline**.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140816Z" creationid="miurahr" creationdate="20201117T140816Z">
@@ -42779,6 +43179,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T092027Z" creationid="miurahr" creationdate="20201117T092027Z">
         <seg>コードを読み取るとき、行の先頭にない場合は、コマンドを見逃しやすくなります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>When reading code it's easy to miss commands, if they are not at the beginning of the line. When quickly reading through code, it's common to skip lines if they don't look like what you are looking for in the first few characters. It's also common to expect a command after a conditional like ``if``.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T223747Z" creationid="miurahr" creationdate="20201118T223747Z">
+        <seg>コードを読み取るとき、行の先頭にない場合は、コマンドを見逃しやすくなります。すぐにコードを読むとき、それらは最初の数文字で探しているもののように見えない場合、行を読み飛ばすのが一般的です。``if`` のような条件の後にコマンドを期待することも一般的です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -42939,6 +43347,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T215457Z" creationid="miurahr" creationdate="20201118T215457Z">
         <seg>新しい機能性と安定性に満足して終了したら、開発者リストで発表を行います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>When you are finished with the new feature and happy with the stability, make an announcement on the developer list. Before merging back, the changes will be tested by developers and users.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T224005Z" creationid="miurahr" creationdate="20201118T224005Z">
+        <seg>新しい機能性と安定性に満足して終了したら、開発者リストで発表を行います。戻してマージする前に、変更は開発者とユーザーによってテストされるでしょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -43883,6 +44299,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T215730Z" creationid="miurahr" creationdate="20201118T215730Z">
         <seg>QGISソースツリーへの書き込みアクセス権は招待によります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Write access to QGIS source tree is by invitation. Typically when a person submits several (there is no fixed number here) substantial patches that demonstrate basic competence and understanding of C++ and QGIS coding conventions, one of the PSC members or other existing developers can nominate that person to the PSC for granting of write access. The nominator should give a basic promotional paragraph of why they think that person should gain write access. In some cases we will grant write access to non C++ developers e.g. for translators and documentors. In these cases, the person should still have demonstrated ability to submit patches and should ideally have submitted several substantial patches that demonstrate their understanding of modifying the code base without breaking things, etc.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T224047Z" creationid="miurahr" creationdate="20201118T224047Z">
+        <seg>QGISソースツリーへの書き込みアクセス権は招待によります。人はC ++とQGISコーディング規約の基本的な能力と理解を示し、いくつかの（ここには一定の数が存在しない）かなりのパッチを提出する場合、通常、PSCのメンバーや他の既存の開発者の一人は、書き込みアクセスを許可するためのPSCにその人を指名できます。推薦は、彼らがその人が書き込みアクセス権を取得すべきだと思う理由の基本的なプロモーション段落を与える必要があります。いくつかのケースでは、我々は、翻訳者とdocumentors用など非C ++開発者への書き込みアクセスを許可します。これらのケースでは、人はまだパッチを提出する能力を実証している必要があり、理想的に物事を壊すことなく、コードベースを変更することの理解を示し、いくつかのかなりのパッチなどを提出している必要があります</seg>
       </tuv>
     </tu>
     <tu>
@@ -46599,6 +47023,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>``SIP_PYDEFAULTVALUE(value)`` can be used to define an alternative default value of the python method. If the default value contains a comma ``,``, the value should be surrounded by single quotes ``'``</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T223739Z" creationid="miurahr" creationdate="20201118T223739Z">
+        <seg>``SIP_PYDEFAULTVALUE(value)`` は、Pythonのメソッドのための別のデフォルト値を定義するために使用することができます。デフォルト値がコンマ ``,`` を含む場合は、値はシングルクォート ``'`` で囲まなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>``SIP_PYNAME(name)``: ``/PyName=name/``</seg>
       </tuv>
       <tuv lang="ja">
@@ -46611,6 +47043,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T091902Z" creationid="miurahr" creationdate="20201117T091902Z">
         <seg>``SIP_PYTYPE(type)``  は、Pythonのメソッドの引数のための別の型を定義するために使用することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>``SIP_PYTYPE(type)`` can be used to define an alternative type for an argument of the python method. If the type contains a comma ``,``, the type should be surrounded by single quotes ``'``</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T223740Z" creationid="miurahr" creationdate="20201118T223740Z">
+        <seg>``SIP_PYTYPE(type)``  は、Pythonのメソッドの引数のための別の型を定義するために使用することができます。型がコンマ ``,`` を含む場合は、型はシングルクォート ``'`` で囲まなければなりません。</seg>
       </tuv>
     </tu>
     <tu>
