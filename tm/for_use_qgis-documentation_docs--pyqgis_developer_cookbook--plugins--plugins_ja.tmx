@@ -1,0 +1,695 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Structuring Python Plugins</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Python プラグインを構成する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In order to create a plugin, here are some steps to follow:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プラグインを作成するには、以下の手順に従います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>*Idea*: Have an idea about what you want to do with your new QGIS plugin.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>*アイデア* ：新しいQGISプラグインで何をしたいか考えます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Why do you do it?</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>なぜそれを行うのですか？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>What problem do you want to solve?</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>あなたが解決したいのはどのような問題ですか？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Is there already another plugin for that problem?</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>その問題に対してすでに他のプラグインはないですか？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>*Create files*: some are essentials (see :ref:`plugin_files_architecture`)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>*ファイルの作成* ： ファイルのうちいくつかは必須です（ :ref:`plugin_files_architecture` を参照してください）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>*Write code*: Write the code in appropriate files</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>*コードを書く* ： それぞれのファイルに適切なコードを書きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>*Test*: :ref:`Reload your plugin &lt;plugin_reloader_trick&gt;` to check if everything is OK</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>*テスト* ：すべてがうまく行くかどうかを :ref:`プラグインをリロード &lt;plugin_reloader_trick&gt;` して確認します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>*Publish*: Publish your plugin in QGIS repository or make your own repository as an "arsenal" of personal "GIS weapons".</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>*公開*：出来上がったプラグインをQGISリポジトリに公開するか、ご自身のリポジトリを作って個人的な「GISウェポン」の兵器廠にしましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Writing a plugin</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プラグインを書く</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Since the introduction of Python plugins in QGIS, a number of plugins have appeared.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISにPythonプラグインが導入されて以来、数多くのプラグインが登場しました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The QGIS team maintains an :ref:`official_pyqgis_repository`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISチームは :ref:`official_pyqgis_repository` を保守しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can use their source to learn more about programming with PyQGIS or find out whether you are duplicating development effort.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それらのソースを使用して、PyQGISを使ったプログラミングについてもっと学んだり、開発努力が重複していないか調べたりできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Plugin files</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プラグインファイル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Here's the directory structure of our example plugin</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ここで例として見ていくプラグインのディレクトリ構造はこのようになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>What is the meaning of the files:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>各ファイルの意味は以下の通りです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:file:`__init__.py` = The starting point of the plugin.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:file:`__init__.py` = プラグインの起点です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It has to have the :func:`classFactory` method and may have any other initialisation code.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:func:`classFactory` メソッドが必須ですが、それ以外にもどんな初期化コードでも含むことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:file:`mainPlugin.py` = The main working code of the plugin.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:file:`mainPlugin.py` = プラグインの中心として作動するコードです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Contains all the information about the actions of the plugin and the main code.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プラグインの全ての機能に関する情報と主要コードを含みます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:file:`resources.qrc` = The .xml document created by Qt Designer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:file:`resources.qrc` = Qt Designerによって作られる .xmlドキュメントです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Contains relative paths to resources of the forms.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>外観のリソースへの相対パスを含みます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:file:`resources.py` = The translation of the .qrc file described above to Python.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:file:`resources.py` = 上記の .qrc ファイルをPythonへと変換したものです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:file:`form.ui` = The GUI created by Qt Designer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:file:`form.ui` = Qt Designerによって作られたGUIです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:file:`form.py` = The translation of the form.ui described above to Python.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:file:`form.py` = 上記の form.ui をPythonに変換したものです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:file:`metadata.txt` = Contains general info, version, name and some other metadata used by plugins website and plugin infrastructure.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:file:`metadata.txt` = プラグインのウェブサイトとインフラストラクチャで使われる、一般的な情報、バージョン、名前、その他のメタデータを含みます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>`Here &lt;https://github.com/wonder-sk/qgis-minimal-plugin&gt;`_ is a way of creating the basic files (skeleton) of a typical QGIS Python plugin.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>`こちら `_ に典型的なQGIS Pythonプラグインの基本的なファイル（スケルトン）を作る方法があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>There is a QGIS plugin called `Plugin Builder 3 &lt;https://plugins.qgis.org/plugins/pluginbuilder3/&gt;`_ that creates a plugin template for QGIS.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>`Plugin Builder 3 `_ という名前の、QGISのプラグインテンプレートを作るQGISプラグインもあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This is the recommended option, as it produces 3.x compatible sources.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>3.x 互換のソースを作れますので、こちらが推奨される選択肢となります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you plan to upload the plugin to the :ref:`official_pyqgis_repository` you must check that your plugin follows some additional rules, required for plugin :ref:`official_pyqgis_repository_validation`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プラグインを :ref:`official_pyqgis_repository` にアップロードする予定なら、プラグインの :ref:`official_pyqgis_repository_validation` で必要とされる幾つかの付加的なルールに、そのプラグインが従っていることを確認せねばなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Plugin content</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プラグインの内容</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Here you can find information and examples about what to add in each of the files in the file structure described above.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ここでは、上記のファイル構造中のそれぞれのファイルに何を書けばよいか、その情報と実例を提供します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Plugin metadata</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プラグインメタデータ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>First, the plugin manager needs to retrieve some basic information about the plugin such as its name, description etc.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>最初に、そのプラグインの名前や説明といった基本的な情報を、プラグインマネージャは検索する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>File :file:`metadata.txt` is the right place to put this information.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:file:`metadata.txt` ファイルがその情報を格納しておく場所になります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>All metadata must be in UTF-8 encoding.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>メタデータのエンコーディングはすべてUTF-8でなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Metadata name</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>メタデータ名</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Required</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>必須</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Notes</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>注</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>True</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Y</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>a short string  containing the name of the plugin</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>そのプラグインの名前から成る短い文字列</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>dotted notation of minimum QGIS version</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ドット記法による最小QGISバージョン</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>False</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>N</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>dotted notation of maximum QGIS version</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ドット記法による最大QGISバージョン</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>short text which describes the plugin, no HTML allowed</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プラグインを説明する短いテキスト。HTMLは不可</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>longer text which describes the plugin in details, no HTML allowed</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プラグインの詳細を説明するより長いテキスト。HTMLは不可</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>short string with the version dotted notation</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>バージョンをドット記法で記した短い文字列</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>author name</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>著者の名前</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>email of the author, only shown on the website to logged in users, but visible in the Plugin Manager after the plugin is installed</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>著者のEメール。ウェブサイトでログインしたユーザのみに表示されるが、プラグインをインストールした後はプラグインマネジャで見ることができる</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>string, can be multiline, no HTML allowed</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>文字列。改行して複数行になってもよい。HTML不可</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>boolean flag, `True` or `False`, applies to the whole plugin and not just to the uploaded version</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>`True` か `False` のいずれかの値。単にアップロードしたバージョンに対してではなく、そのプラグインすべてに適用される</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>comma separated list, spaces are allowed inside individual tags</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>コンマで区切ったリスト。個々のタグの内部ではスペース可</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>a valid URL pointing to the homepage of your plugin</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プラグインのホームページを示す有効なURL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>a valid URL for the source code repository</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ソースコードのリポジトリの有効なURL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>a valid URL for tickets and bug reports</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>チケットとバグ報告のための有効なURL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>a file name or a relative path (relative to the base folder of the plugin's compressed package) of a web friendly image (PNG, JPEG)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>画像のファイル名もしくは（プラグインの圧縮パッケージのベースフォルダからの）相対パス。画像はウェブに適したフォーマット（PNG, JPEG）で</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>one of `Raster`, `Vector`, `Database` and `Web`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>`Raster`、`Vector`、`Database`、`Web` のうちのいずれか</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>PIP-like comma separated list of other plugins to install</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>pipと同様の、インストールされるべきその他のプラグインのカンマ区切りリスト</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>boolean flag, `True` or `False`, determines if the plugin provides processing algorithms</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>`True` か `False` のいずれかの値。このプラグインがプロセッシングアルゴリズムを提供するかどうかを特定する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>By default, plugins are placed in the :menuselection:`Plugins` menu (we will see in the next section how to add a menu entry for your plugin) but they can also be placed into :menuselection:`Raster`, :menuselection:`Vector`, :menuselection:`Database` and :menuselection:`Web` menus.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>デフォルトでプラグインは :menuselection:`プラグイン` メニューに置かれます（プラグインをメニューエントリに追加する方法は次のセクションで見ます）。他にも :menuselection:`ラスター` メニューや :menuselection:`ベクター` メニュー、 :menuselection:`データベース` メニュー、 :menuselection:`Web` メニューに置くこともできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A corresponding "category" metadata entry exists to specify that, so the plugin can be classified accordingly. This metadata entry is used as tip for users and tells them where (in which menu) the plugin can be found. Allowed values for "category" are: Vector, Raster, Database or Web. For example, if your plugin will be available from `Raster` menu, add this to :file:`metadata.txt`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>表示するメニューを特定するために、対応する "category" メタデータエントリが存在します。これに従ってプラグインは分類することができます。このメタデータエントリは、ユーザへのヒントとして使われ、このプラグインを使うためにはどのメニューを探せばよいかを伝えます。"category" に使うことのできる値は、Vector、Raster、Database、Web です。例えば、あなたのプラグインを `Raster` メニューから使えるようにするには、 :file:`metadata.txt` にそのように追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If `qgisMaximumVersion` is empty, it will be automatically set to the major version plus `.99` when uploaded to the :ref:`official_pyqgis_repository`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>`qgisMaximumVersion` が空欄の場合、:ref:`official_pyqgis_repository` にアップロードする際に、自動的にメジャーバージョン＋ `.99` に設定されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>An example for this metadata.txt</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>metadata.txt のための例です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>__init__.py</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>__init__.py</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This file is required by Python's import system. Also, QGIS requires that this file contains a :func:`classFactory()` function, which is called when the plugin gets loaded into QGIS. It receives a reference to the instance of :class:`QgisInterface &lt;qgis.gui.QgisInterface&gt;` and must return an object of your plugin's class from the :file:`mainplugin.py` --- in our case it's called ``TestPlugin`` (see below). This is how :file:`__init__.py` should look like</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このファイルはPythonのインポートシステムで必要とされます。同時にQGISはこのファイルの :func:`classFactory()` 関数を必要とします。この関数はプラグインがQGISに読み込まれる時に呼ばれます。この関数は :class:`QgisInterface ` のインスタンスへの参照を受け取り、 :file:`mainplugin.py` ファイルのあなたのプラグインオブジェクトを返さなければなりません（ここでの事例では ``TestPlugin`` がそれに当たります。以下を見てください）。 :file:`__init__.py` は次のようにならなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This is where the magic happens and this is how magic looks like: (e.g.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このファイルが魔法の起こる場所です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:file:`mainPlugin.py`)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>魔法はこんな風です（例えば :file:`mainPlugin.py` の場合）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The only plugin functions that must exist in the main plugin source file (e.g. :file:`mainPlugin.py`) are:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>メインプラグインソースファイル（例えば :file:`mainPlugin.py` ）に必須のプラグイン関数は以下の3つだけです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``__init__`` which gives access to QGIS interface</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``__init__`` はQGIS interfaceへのアクセスを与えます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``initGui()`` called when the plugin is loaded</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``initGui()`` はプラグインが読み込まれた時に呼ばれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``unload()`` called when the plugin is unloaded</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``unload()`` はプラグインがアンロードされた時に呼ばれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In the above example, :meth:`addPluginToMenu &lt;qgis.gui.QgisInterface.addPluginToMenu&gt;` is used.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>上記の例では、 :meth:`addPluginToMenu ` が使われています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This will add the corresponding menu action to the :menuselection:`Plugins` menu.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは対応するメニューアクションを :menuselection:`プラグイン` メニューに追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Alternative methods exist to add the action to a different menu.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>他のメニューにアクションを追加するにはまた別のメソッドがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Here is a list of those methods:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>以下はそれらのメソッドのリストです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>All of them have the same syntax as the :meth:`addPluginToMenu &lt;qgis.gui.QgisInterface.addPluginToMenu&gt;` method.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これらはすべて :meth:`addPluginToMenu ` メソッドと同じシンタックスを持ちます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Adding your plugin menu to one of those predefined method is recommended to keep consistency in how plugin entries are organized.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これらのあらかじめ定義されたメソッドのうちのひとつに、あなたのプラグインメニューを追加することは、プラグインエントリがどのように組織されているかの一貫性を保つためにも推奨されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>However, you can add your custom menu group directly to the menu bar, as the next example demonstrates:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>しかし、次の例が示すように、独自のカスタムメニューグループを直接メニューバーに追加することもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Don't forget to set :class:`QAction` and :class:`QMenu` ``objectName`` to a name specific to your plugin so that it can be customized.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>カスタマイズが可能になるように、:class:`QAction` クラスと :class:`QMenu` クラスの ``objectName`` にあなたのプラグインの固有名を設定するのを忘れないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Resource File</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Resource ファイル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can see that in :func:`initGui()` we've used an icon from the resource file (called :file:`resources.qrc` in our case)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:func:`initGui()` 関数の中にresourceファイル（この例では :file:`resources.qrc` という名前です）からのアイコンが使われているのも見ることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It is good to use a prefix that will not collide with other plugins or any parts of QGIS, otherwise you might get resources you did not want. Now you just need to generate a Python file that will contain the resources. It's done with :command:`pyrcc5` command:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>他のプラグインや他のQGISのパーツと衝突しないよう接頭辞を使うのは良いことです。さもないと望んでいないリソースを読み込んでしまうかもしれません。さてあと必要なのはこのリソースを含むPythonファイルを生成することです。これは :command:`pyrcc5` コマンドを使って次のようにして行われます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>And that's all... nothing complicated :)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>はい、これですべてです。…何も複雑なことはありませんね (^^)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you've done everything correctly you should be able to find and load your plugin in the plugin manager and see a message in console when toolbar icon or appropriate menu item is selected.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>すべてを正しく行っていれば、プラグインマネージャであなたのプラグインを見つけて読み込むことができるはずです。そしてツールバーのアイコンか適切なメニュー項目が選択された時には、コンソールにメッセージが表示されるはずです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>When working on a real plugin it's wise to write the plugin in another (working) directory and create a makefile which will generate UI + resource files and install the plugin into your QGIS installation.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>実際にプラグイン作成の作業を行うときは、別の（作業用の）ディレクトリでプラグインを書いて、UIとリソースファイルを生成するのと、プラグインを実際のインストールディレクトリにインストールするのは、makeファイルを書いてそれにさせるのが賢いやり方でしょう。</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

@@ -1,0 +1,399 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Introduction</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>はじめに</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The following paragraphs describe the available callbacks in details.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次の段落では、利用可能なコールバックを詳細に説明します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>requestReady</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>requestReady</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This is called when the request is ready: incoming URL and data have been parsed and before entering the core services (WMS, WFS etc.) switch, this is the point where you can manipulate the input and perform actions like:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>要求の準備ができたときに呼び出されます。受信URLとデータが解析され、コアサービス（WMS、WFSなど）スイッチに入る前に、これは入力を操作するなどのアクションを実行できるポイントです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>authentication/authorization</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>認証/認可</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>redirects</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>リダイレクト</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>add/remove certain parameters (typenames for example)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>特定のパラメーター（例えば、型名）を追加／除去</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>raise exceptions</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>例外を発生させる</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You could even substitute a core service completely by changing **SERVICE** parameter and hence bypassing the core service completely (not that this make much sense though).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**SERVICE** パラメーターを変更することでコアサービスを完全に置き換え、それによりコアサービスを完全にバイパスすることさえできるかもしれません（とはいえ、これはあまり意味がないということ）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>sendResponse</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>sendResponse</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>responseComplete</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>responseComplete</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This approach basically works but it is not very "pythonic": a better approach would be to raise exceptions from python code and see them bubbling up into C++ loop for being handled there.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このアプローチは、基本的に動作しますが、それは非常に「パイソン的」ではありません：より良いアプローチは、Pythonコードから例外を発生し、それらがそこで処理されるためにC ++ループに湧き上がるのを見ることでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Writing a server plugin</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>サーバー・プラグインを書く</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Plugin files</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プラグインファイル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Here's the directory structure of our example server plugin</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>私たちの例のサーバー・プラグインのディレクトリ構造はこちらです</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>__init__.py</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>__init__.py</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>HelloServer.py</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>HelloServer.py</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This is where the magic happens and this is how magic looks like: (e.g. :file:`HelloServer.py`)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>魔法が起こると、これは魔法がどのように見えるかであるところである：（例 :file:`HelloServer.py` ）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The following examples cover some common use cases:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次の例は、いくつかの一般的なユースケースをカバーします：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Modifying the input</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>入力を変更する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This is an extract of what you see in the log file:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは、ログファイルに見るものの抽出物である:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>On the highlighted line the “SUCCESS” string indicates that the plugin passed the test.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>強調表示された行の「SUCCESS」の文字列は、プラグインがテストに合格したことを示しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The same technique can be exploited to use a custom service instead of a core one: you could for example skip a **WFS** **SERVICE** request or any other core request just by changing the **SERVICE** parameter to something different and the core service will be skipped, then you can inject your custom results into the output and send them to the client (this is explained here below).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>同じ手法が、コアのサービスでなくカスタムサービスを利用するために利用できます：たとえば **WFS** **SERVICE** 要求または任意の他のコア要求を **SERVICE** パラメーターを別の何かに変更するだけでスキップできます、そしてコアサービスはスキップされ、それからカスタム結果を出力に注入してそれらをクライアントに送信できます（これはここで以下に説明される）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Modifying or replacing the output</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>出力を変更または置き換えする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The watermark filter example shows how to replace the WMS output with a new image obtained by adding a watermark image on the top of the WMS image generated by the WMS core service:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>透かしフィルタの例は、WMSコアサービスによって作成されたWMS画像の上に透かし画像を加算した新たな画像でWMS出力を置き換える方法を示しています：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>AccessControl.py</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>AccessControl.py</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This example gives a full access for everybody.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この例では全員に完全なアクセス権を与えています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It's the role of the plugin to know who is logged on.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>誰がログオンしているかを知るのはこのプラグインの役割です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>On all those methods we have the layer on argument to be able to customise the restriction per layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これらすべての方法で私達は、レイヤーごとの制限をカスタマイズできるようにするには、引数のレイヤーを持っています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>layerFilterExpression</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>layerFilterExpression</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Used to add an Expression to limit the results, e.g.:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>結果を制限するために式を追加するために使用し、例えば：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To limit on feature where the attribute role is equals to "user".</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>属性の役割が「ユーザー」に等しい地物に制限するため。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>layerFilterSubsetString</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>layerFilterSubsetString</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Same than the previous but use the ``SubsetString`` (executed in the database)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>以前よりも同じですが、（データベース内で実行） ``SubsetString`` を使用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>layerPermissions</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>layerPermissions</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Limit the access to the layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>レイヤーへのアクセスを制限します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Example:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>例:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To limit everything on read only access.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>読み取り専用のアクセスのすべてを制限します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>authorizedLayerAttributes</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>authorizedLayerAttributes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Used to limit the visibility of a specific subset of attribute.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>属性の特定のサブセットの可視性を制限するために使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The argument attribute return the current set of visible attributes.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>引数の属性が表示属性の現在のセットを返します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To hide the 'role' attribute.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>「role」属性を非表示にします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>allowToEdit</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>allowToEdit</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This is used to limit the editing on a subset of features.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは、地物のサブセットに編集を制限するために使用されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It is used in the ``WFS-Transaction`` protocol.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは、 ``WFS-Transaction`` プロトコルで使用されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To be able to edit only feature that has the attribute role with the value user.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>値「user」の属性「role」を持つ地物だけを編集できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>cacheKey</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>cacheKey</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>QGIS server maintain a cache of the capabilities then to have a cache per role you can return the role in this method.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISサーバーは、このメソッド中に役割を返すことができる役割ごとにキャッシュを持っている能力のキャッシュを維持します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Or return ``None`` to completely disable the cache.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>または ``None`` を返し、完全にキャッシュを無効にします。</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

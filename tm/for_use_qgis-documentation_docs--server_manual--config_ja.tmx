@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Advanced configuration</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>高度な構成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Logging</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ログを記録する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Environment variables</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>環境変数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Name</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>名前</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Description</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>説明</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Services</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>サービス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>All</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>All</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>100</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>100</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Short name for layers, groups and project</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>レイヤー、グループ、およびプロジェクトの短い名前</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A number of elements have both a ``&lt;Name&gt;`` and a ``&lt;Title&gt;``.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>要素の数は、 ``&lt;Name&gt;`` と ``&lt;Title&gt;`` の両方を有します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The **Name** is a text string used for machine-to-machine communication while the **Title** is for the benefit of humans.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**名** は、マシン・ツー・マシンの通信に使用するテキスト文字列で、 **タイトル** は人間の利益のものです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Set group WMS data dialog</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>グループWMSデータダイアログを設定する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Connection to service file</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>サービスファイルへの接続</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In order to make apache aware of the PostgreSQL service file (see the :ref:`pg-service-file` section) you need to make your :file:`*.conf` file look like:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>PostgreSQLのサービス・ファイルのApacheが認識できるようにするために（ :ref:`PGサービスファイル` セクションを参照） :file:`*.conf` ファイルのようなを見て、確認する必要があり:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Add fonts to your linux server</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>お使いのLinuxサーバーにフォントを追加</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Keep in mind that you may use QGIS projects that point to fonts that may not exist by default on other machines.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>他のマシン上のデフォルトでは存在しないかもしれないフォントを指すQGISプロジェクトを使用するかもしれないことに注意してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This means that if you share the project, it may look different on other machines (if the fonts don't exist on the target machine).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは、プロジェクトを共有する場合（フォントがターゲットマシン上に存在しない場合）、それは他のマシン上で異なって見える可能性があることを意味します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In order to ensure this does not happen you just need to install the missing fonts on the target machine.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これが起こらないようにするために、単にターゲットマシン上で不足しているフォントをインストールする必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Doing this on desktop systems is usually trivial (double clicking the fonts).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>デスクトップシステム上でこれを行うのは通常は自明です（フォントをダブルクリック）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For linux, if you don't have a desktop environment installed (or you prefer the command line) you need to:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Linuxに対しては、デスクトップ環境をインストールしていない（または、コマンドラインを好む）場合、する必要があります：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>On Debian based systems:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Debianのベースのシステム:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>On Fedora based systems:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Fedoraのベースのシステム:</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

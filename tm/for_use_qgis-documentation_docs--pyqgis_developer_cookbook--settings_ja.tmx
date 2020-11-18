@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Reading And Storing Settings</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>設定の読み込みと保存</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Many times it is useful for a plugin to save some variables so that the user does not have to enter or select them again next time the plugin is run.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>多くの場合、プラグインでいくつかの変数が保存されて、そのプラグインを次に実行したときにユーザーがそれらの変数を入力したり選択したりする必要がないようにすると便利です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>These variables can be saved and retrieved with help of Qt and QGIS API.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これらの変数は保存され、QtとQGIS APIの助けを借りて取得できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For each variable, you should pick a key that will be used to access the variable --- for user's favourite color you could use key "favourite_color" or any other meaningful string.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>各変数について、変数にアクセスするために使用されるキーを選択する必要があります---ユーザの好みの色のためにキー「favourite_color」またはその他の意味のある文字列を使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It is recommended to give some structure to naming of keys.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>キーの名前をつけるときは何らかの構造を持たせることをお勧めします。</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

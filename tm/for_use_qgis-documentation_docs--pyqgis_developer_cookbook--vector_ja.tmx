@@ -1,0 +1,1135 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Using Vector Layers</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ベクターレイヤーを使う</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This section summarizes various actions that can be done with vector layers.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このセクションではベクターレイヤーに対して行える様々な操作について紹介していきます.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Retrieving information about attributes</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>属性に関する情報を取得する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Iterating over Vector Layer</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ベクターレイヤーの反復処理</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Selecting features</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>地物の選択</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Accessing attributes</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>属性にアクセスする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Iterating over selected features</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>選択された地物への反復処理</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Iterating over a subset of features</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>一部の地物への反復処理</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The request can be used to define the data retrieved for each feature, so the iterator returns all features, but returns partial data for each of them.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>要求は、地物ごとに取得したデータを定義するために使用できるので、反復子はすべての地物を返しますが、それぞれの地物については部分的データを返します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Modifying Vector Layers</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ベクターレイヤーを修正する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Most vector data providers support editing of layer data.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>大部分のベクターデータプロバイダーは、レイヤーの編集をサポートしています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Sometimes they support just a subset of possible editing actions.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プロバイダーによっては、可能な編集操作の一部だけしかサポートしていないこともあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Use the :meth:`capabilities() &lt;qgis.core.QgsVectorDataProvider.capabilities&gt;` function to find out what set of functionality is supported.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>どんな機能をサポートしているかを知るには、 :meth:`capabilities() &lt;qgis.core.QgsVectorDataProvider.capabilities&gt;` 関数を使ってください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For a list of all available capabilities, please refer to the :class:`API Documentation of QgsVectorDataProvider &lt;qgis.core.QgsVectorDataProvider&gt;`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>可能な性能をすべて知るには、 :class:`API Documentation of QgsVectorDataProvider &lt;qgis.core.QgsVectorDataProvider&gt;` を参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To print layer's capabilities textual description in a comma separated list you can use :meth:`capabilitiesString() &lt;qgis.core.QgsVectorDataProvider.capabilitiesString&gt;` as in the following example:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:meth:`capabilitiesString() &lt;qgis.core.QgsVectorDataProvider.capabilitiesString&gt;` を使うと、下記の例に見るように、レイヤーの性能の説明文をコンマで区切られたリストの形で表示することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>By using any of the following methods for vector layer editing, the changes are directly committed to the underlying data store (a file, database etc).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ベクターレイヤーを編集する以下の方法はいずれも、変更が直接、レイヤーの裏にあるデータストア（ファイルやデータベースなど）にコミットされます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In case you would like to do only temporary changes, skip to the next section that explains how to do :ref:`modifications with editing buffer &lt;editing-buffer&gt;`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>一時的な変更をしたいだけの場合にどうすればよいかの説明は、次のセクション :ref:`ベクターレイヤーを編集バッファで修正する &lt;editing-buffer&gt;` でしているので、以下を飛ばしてそちらに進んでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you are working inside QGIS (either from the console or from a plugin), it might be necessary to force a redraw of the map canvas in order to see the changes you've done to the geometry, to the style or to the attributes:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISの内部（コンソールまたはプラグインのいずれか）で作業している場合、ジオメトリ、スタイル、属性に加えられた変更を確認するために、以下のように地図キャンバスの強制的な再描画が必要になることもあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Add Features</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>地物の追加</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Delete Features</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>地物の削除</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Modify Features</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>地物の修正</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Modifying Vector Layers with an Editing Buffer</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ベクターレイヤーを編集バッファで修正する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The methods are similar to the ones we have seen in the provider, but they are called on the :class:`QgsVectorLayer &lt;qgis.core.QgsVectorLayer&gt;` object instead.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>メソッドはすでに見たプロバイダーにおけるものとよく似ていますが、プロバイダーではなく :class:`QgsVectorLayer &lt;qgis.core.QgsVectorLayer&gt;` オブジェクトで呼び出されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For these methods to work, the layer must be in editing mode. To start the editing mode, use the :meth:`startEditing() &lt;qgis.core.QgsVectorLayer.startEditing&gt;` method. To stop editing, use the :meth:`commitChanges() &lt;qgis.core.QgsVectorLayer.commitChanges&gt;` or :meth:`rollBack() &lt;qgis.core.QgsVectorLayer.rollBack&gt;` methods. The first one will commit all your changes to the data source, while the second one will discard them and will not modify the data source at all.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これらのメソッドが機能するためには、そのレイヤーは編集モードでなければいけません。編集モードを開始するには、 :meth:`startEditing() &lt;qgis.core.QgsVectorLayer.startEditing&gt;` メソッドを使用します。編集を終了するには、 :meth:`commitChanges() &lt;qgis.core.QgsVectorLayer.commitChanges&gt;` メソッドか、もしくは :meth:`rollBack() &lt;qgis.core.QgsVectorLayer.rollBack&gt;` メソッドを使用します。前者はすべての変更をデータソースにコミットします。一方後者は変更をすべて破棄し、データソースには一切、手をつけません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To find out whether a layer is in editing mode, use the :meth:`isEditable() &lt;qgis.core.QgsVectorLayer.isEditable&gt;` method.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>あるレイヤーが編集モードかどうかを知るには、 :meth:`isEditable() &lt;qgis.core.QgsVectorLayer.isEditable&gt;` メソッドを使用してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Here you have some examples that demonstrate how to use these editing methods.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>では、これら編集メソッドの使用方法を示す実例をいくつか見てもらいます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In order to make undo/redo work properly, the above mentioned calls have to be wrapped into undo commands.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>取り消し／やり直しを適切に機能させるためには、上記のメソッド呼び出しを undo コマンドでラップしなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>(If you do not care about undo/redo and want to have the changes stored immediately, then you will have easier work by :ref:`editing with data provider &lt;editing&gt;`.)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>取り消し／やり直し機能が不要で、変更を即座に保存したい場合は、 :ref:`データプロバイダを使って編集 &lt;editing&gt;` したほうが手軽でしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Here is how you can use the undo functionality:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>取り消し機能を使用するには次のように行います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The :meth:`beginEditCommand() &lt;qgis.core.QgsVectorLayer.beginEditCommand&gt;` method will create an internal "active" command and will record subsequent changes in vector layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:meth:`beginEditCommand() &lt;qgis.core.QgsVectorLayer.beginEditCommand&gt;` メソッドは内部的に「アクティブな」コマンドを生成し、ベクターレイヤーでその後に起こる変化を記録し続けます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>With the call to :meth:`endEditCommand() &lt;qgis.core.QgsVectorLayer.endEditCommand&gt;` the command is pushed onto the undo stack and the user will be able to undo/redo it from GUI.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:meth:`endEditCommand() &lt;qgis.core.QgsVectorLayer.endEditCommand&gt;` メソッドの呼び出しによって、コマンドはアンドゥスタックにプッシュされ、ユーザーがGUIから取り消し／やり直しをすることができるようになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In case something went wrong while doing the changes, the :meth:`destroyEditCommand() &lt;qgis.core.QgsVectorLayer.destroyEditCommand&gt;` method will remove the command and rollback all changes done while this command was active.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>変更の最中に何か不具合が生じたときは、 :meth:`destroyEditCommand() &lt;qgis.core.QgsVectorLayer.destroyEditCommand&gt;` メソッドによってコマンドは削除され、コマンドがアクティブな間に行われたすべての変更はロールバックされます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can also use the :code:`with edit(layer)`-statement to wrap commit and rollback into a more semantic code block as shown in the example below:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次の例に示すように、よりセマンティックなコードブロックにコミットとロールバックをラップする :code:`with edit(layer)` 文も使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This will automatically call :meth:`commitChanges() &lt;qgis.core.QgsVectorLayer.commitChanges&gt;` in the end.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは最後に :meth:`commitChanges() &lt;qgis.core.QgsVectorLayer.commitChanges&gt;` メソッドを自動的に呼び出します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If any exception occurs, it will :meth:`rollBack() &lt;qgis.core.QgsVectorLayer.rollBack&gt;` all the changes.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>もし何らかの例外が発生したときは、 :meth:`rollBack() &lt;qgis.core.QgsVectorLayer.rollBack&gt;` メソッドを呼び出してすべての変更をロールバックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In case a problem is encountered within :meth:`commitChanges() &lt;qgis.core.QgsVectorLayer.commitChanges&gt;` (when the method returns False) a :class:`QgsEditError &lt;qgis.core.QgsEditError&gt;` exception will be raised.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:meth:`commitChanges() &lt;qgis.core.QgsVectorLayer.commitChanges&gt;` メソッドの実行の最中に問題に遭遇したとき（メソッドが False を返したとき）は、 :class:`QgsEditError &lt;qgis.core.QgsEditError&gt;` 例外を送出します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Adding and Removing Fields</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>フィールドを追加または削除する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To add fields (attributes), you need to specify a list of field definitions.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>フィールド（属性）を追加するには、フィールドの定義を配列で指定する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For deletion of fields just provide a list of field indexes.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>フィールドを削除するにはフィールドのインデックスを配列で渡すだけです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>After adding or removing fields in the data provider the layer's fields need to be updated because the changes are not automatically propagated.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>データプロバイダーのフィールドを追加または削除した後、レイヤーのフィールドは、変更が自動的に反映されていないため、更新する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Directly save changes using** ``with`` **based command**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``with`` **に基づくコマンドを使って変更を直接保存する**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Using Spatial Index</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>空間索引を使う</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Spatial indexes can dramatically improve the performance of your code if you need to do frequent queries to a vector layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>空間索引は、頻繁にベクターレイヤーに問い合わせをする必要がある場合、コードのパフォーマンスを劇的に改善します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Imagine, for instance, that you are writing an interpolation algorithm, and that for a given location you need to know the 10 closest points from a points layer, in order to use those point for calculating the interpolated value.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>例えば、補間アルゴリズムを書いていて、補間値の計算に使用するために与えられた位置に対して最も近い10点をポイントレイヤーから求める必要がある、と想像してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Without a spatial index, the only way for QGIS to find those 10 points is to compute the distance from each and every point to the specified location and then compare those distances.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>空間索引が無いと、QGISがこれらの10点を求める方法は、すべての点から指定の場所への距離を計算してそれらの距離を比較することしかありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This can be a very time consuming task, especially if it needs to be repeated for several locations.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは、いくつかの場所について繰り返す必要がある場合は特に、非常に時間のかかる処理となります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If a spatial index exists for the layer, the operation is much more effective.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>もし空間索引がレイヤーに作成されていれば、処理はもっと効率的になります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Think of a layer without a spatial index as a telephone book in which telephone numbers are not ordered or indexed.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>空間索引の無いレイヤーは、電話番号が順番に並んでいない、もしくは索引の無い電話帳と思ってください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The only way to find the telephone number of a given person is to read from the beginning until you find it.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>所定の人の電話番号を見つける唯一の方法は、巻頭からその番号を見つけるまで読むだけです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Spatial indexes are not created by default for a QGIS vector layer, but you can create them easily.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>空間索引は、QGISベクターレイヤーに対してデフォルトでは作成されていませんが、簡単に作成できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This is what you have to do:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>しなければいけないことはこうです：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>alternatively, you can load all features of a layer at once using bulk loading</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>代わりに、一括読み込みを使用してレイヤーのすべての地物を一度に読み込むことができます</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>once spatial index is filled with some values, you can do some queries</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>空間索引に何かしらの値が入れられると検索ができるようになります</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Creating Vector Layers</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ベクターレイヤを作る</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>There are several ways to generate a vector layer dataset:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ベクターレイヤデータセットを作るには幾つかの方法があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>the :class:`QgsVectorFileWriter &lt;qgis.core.QgsVectorFileWriter&gt;` class: A convenient class for writing vector files to disk, using either a static call to :meth:`writeAsVectorFormat() &lt;qgis.core.QgsVectorFileWriter.writeAsVectorFormat&gt;` which saves the whole vector layer or creating an instance of the class and issue calls to :meth:`addFeature() &lt;qgis.core.QgsVectorFileWriter.addFeature&gt;`. This class supports all the vector formats that OGR supports (GeoPackage, Shapefile, GeoJSON, KML and others).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:class:`QgsVectorFileWriter &lt;qgis.core.QgsVectorFileWriter&gt;` クラス：ベクターファイルをディスクに書きこむための便利なクラスです。静的メソッド :meth:`writeAsVectorFormat() &lt;qgis.core.QgsVectorFileWriter.writeAsVectorFormat&gt;` を呼び出してすべてのベクターレイヤを保存するか、もしくはクラスインスタンスを作ってから :meth:`addFeature() &lt;qgis.core.QgsVectorFileWriter.addFeature&gt;` メソッドを呼び出すか、いずれかの方法を使うことができます。このクラスはGeoPackage、Shapefile、GeoJSON、KMLその他のすべてのOGRがサポートするベクターフォーマットをサポートしています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>the :class:`QgsVectorLayer &lt;qgis.core.QgsVectorLayer&gt;` class: instantiates a data provider that interprets the supplied path (url) of the data source to connect to and access the data.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:class:`QgsVectorLayer &lt;qgis.core.QgsVectorLayer&gt;` クラス：データソースの指定されたパス (url) を解釈してデータに接続し、アクセスしたデータプロバイダをインスタンス化します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It can be used to create temporary, memory-based layers (``memory``) and connect to OGR datasets (``ogr``), databases (``postgres``, ``spatialite``, ``mysql``, ``mssql``) and more (``wfs``, ``gpx``, ``delimitedtext``...).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>メモリ上の一時的なレイヤ(``memory``) を作ったり、OGRデータセット(``ogr``) やデータベース (``postgres``, ``spatialite``, ``mysql``, ``mssql``) やその他 (``wfs``, ``gpx``, ``delimitedtext``...) に接続するために使うことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>From an instance of :class:`QgsVectorLayer &lt;qgis.core.QgsVectorLayer&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:class:`QgsVectorLayer &lt;qgis.core.QgsVectorLayer&gt;` クラスのインスタンスから作成する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Among all the data providers supported by the :class:`QgsVectorLayer &lt;qgis.core.QgsVectorLayer&gt;` class, let's focus on the memory-based layers.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:class:`QgsVectorLayer &lt;qgis.core.QgsVectorLayer&gt;` クラスによってサポートされているすべてのデータプロバイダのうちから、ここではメモリレイヤに焦点をあてましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Memory provider is intended to be used mainly by plugin or 3rd party app developers.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>メモリプロバイダは主にプラグインやサードパーティ製アプリの開発者に使われることを意図しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It does not store data on disk, allowing developers to use it as a fast backend for some temporary layers.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ディスクにデータを格納することをしないため、開発者はなんらかの一時的なレイヤのための手っ取り早いバックエンドとしてこれを使うことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The provider supports string, int and double fields.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このプロバイダは属性フィールドの型として string、int、double をサポートします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The memory provider also supports spatial indexing, which is enabled by calling the provider's :meth:`createSpatialIndex() &lt;qgis.core.QgsVectorDataProvider.createSpatialIndex&gt;` function. Once the spatial index is created you will be able to iterate over features within smaller regions faster (since it's not necessary to traverse all the features, only those in specified rectangle).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>メモリプロバイダは空間インデックスもサポートしています。これはプロバイダの :meth:`createSpatialIndex() &lt;qgis.core.QgsVectorDataProvider.createSpatialIndex&gt;` 関数を呼び出すことによって有効になります。空間インデックスが作成されると、複数の地物にわたって行う処理を、より小さな領域内でより速く行うことができます。これはあらためて地物すべてを走査する必要がなく、指定された領域内のみを走査すればよいからです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A memory provider is created by passing ``"memory"`` as the provider string to the :class:`QgsVectorLayer &lt;qgis.core.QgsVectorLayer&gt;` constructor.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>メモリプロバイダは :class:`QgsVectorLayer &lt;qgis.core.QgsVectorLayer&gt;` コンストラクタにプロバイダ文字列として ``"memory"`` を渡すと作ることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The constructor also takes a URI defining the geometry type of the layer, one of: ``"Point"``, ``"LineString"``, ``"Polygon"``, ``"MultiPoint"``, ``"MultiLineString"``, ``"MultiPolygon"`` or ``"None"``.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>コンストラクタはレイヤのジオメトリタイプを定義するURIも必要とします。これは ``"Point"``、``"LineString"``、``"Polygon"``、``"MultiPoint"``、``"MultiLineString"``、``"MultiPolygon"``、``"None"``のうちのひとつです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The URI can also specify the coordinate reference system, fields, and indexing of the memory provider in the URI.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>URIではメモリプロバイダの座標参照系、属性フィールド、URI内でのメモリプロバイダのインデックスも指定できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The syntax is:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>構文は、</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>crs=definition</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>crs=definition</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Specifies the coordinate reference system, where definition may be any of the forms accepted by :meth:`QgsCoordinateReferenceSystem.createFromString &lt;qgis.core.QgsCoordinateReferenceSystem.createFromString&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>座標参照系を指定します。ここでの定義は :meth:`QgsCoordinateReferenceSystem.createFromString &lt;qgis.core.QgsCoordinateReferenceSystem.createFromString&gt;` で有効な形式のいずれかを使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>index=yes</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>index=yes</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Specifies that the provider will use a spatial index</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プロバイダーが空間インデックスを使うように指定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>field=name:type(length,precision)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>field=name:type(length,precision)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Specifies an attribute of the layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>レイヤーの属性を指定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The attribute has a name, and optionally a type (integer, double, or string), length, and precision.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>属性は名前を持ち、オプションとして型(integer, double, string)、長さ、および精度を持ちます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>There may be multiple field definitions.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>フィールドの定義は複数あってかまいません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The following example of a URI incorporates all these options</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次のサンプルは全てのこれらのオプションを含んだURLです::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The following example code illustrates creating and populating a memory provider</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次のサンプルコードはメモリプロバイダーを作成してデータ投入をしている様子です::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Finally, let's check whether everything went well</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>最後にやったことを全て確認していきましょう::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Appearance (Symbology) of Vector Layers</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ベクタレイヤの表現(シンボロジ)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>When a vector layer is being rendered, the appearance of the data is given by **renderer** and **symbols** associated with the layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ベクタレイヤがレンダリングされるとき、データの表現はレイヤに関連付けられた **レンダラー** と **シンボル** によって決定されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Symbols are classes which take care of drawing of visual representation of features, while renderers determine what symbol will be used for a particular feature.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>シンボルは地物の視覚的表現を処理するクラスで、レンダラはそれぞれの地物でどのシンボルが使われるかを決定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>And with that reference, let us explore it a bit</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この参照を利用して、少しだけ探索してみましょう::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Type</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>タイプ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Class</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>クラス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Description</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>詳細</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>singleSymbol</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>singleSymbol</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:class:`QgsSingleSymbolRenderer &lt;qgis.core.QgsSingleSymbolRenderer&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:class:`QgsSingleSymbolRenderer &lt;qgis.core.QgsSingleSymbolRenderer&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Renders all features with the same symbol</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>単一シンボル。全ての地物を同じシンボルでレンダリングします</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>categorizedSymbol</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>categorizedSymbol</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:class:`QgsCategorizedSymbolRenderer &lt;qgis.core.QgsCategorizedSymbolRenderer&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:class:`QgsCategorizedSymbolRenderer &lt;qgis.core.QgsCategorizedSymbolRenderer&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Renders features using a different symbol for each category</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>分類されたシンボル。カテゴリごとに違うシンボルを使って地物をレンダリングします</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>graduatedSymbol</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>graduatedSymbol</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:class:`QgsGraduatedSymbolRenderer  &lt;qgis.core.QgsGraduatedSymbolRenderer&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:class:`QgsGraduatedSymbolRenderer  &lt;qgis.core.QgsGraduatedSymbolRenderer&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Renders features using a different symbol for each range of values</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>段階に分けられたシンボル。それぞれの範囲の値によって違うシンボルを使って地物をレンダリングします</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It is possible to obtain a dump of a renderer contents in text form --- can be useful for debugging</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>レンダラーの中身をテキストフォームにダンプできます --- デバッグ時に役に立つでしょう::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Single Symbol Renderer</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>単一シンボルレンダラー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``name`` indicates the shape of the marker, and can be any of the following:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``name`` は、マーカーの形状を示しており、以下のいずれかとすることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``circle``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``circle``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``square``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``square``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``cross``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``cross``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``rectangle``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``rectangle``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``diamond``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``diamond``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``pentagon``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``pentagon``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``triangle``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``triangle``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``equilateral_triangle``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``equilateral_triangle``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``star``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``star``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``regular_star``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``regular_star``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``arrow``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``arrow``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``filled_arrowhead``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``filled_arrowhead``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``x``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``x``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This can be useful if you want to alter some properties:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>いくつかのプロパティを変更したい場合に便利です:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Categorized Symbol Renderer</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>分類シンボルレンダラー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To get a list of categories</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>カテゴリの配列を取得するには</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Graduated Symbol Renderer</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>段階シンボルレンダラー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This renderer is very similar to the categorized symbol renderer described above, but instead of one attribute value per class it works with ranges of values and thus can be used only with numerical attributes.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このレンダラーは先ほど扱ったカテゴリ分けシンボルのレンダラーととても似ていますが、クラスごとの一つの属性値の代わりに領域の値として動作し、そのため数字の属性のみ使うことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To find out more about ranges used in the renderer</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>レンダラーで使われている領域の多くの情報を見つけるには</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you wish to create your own graduated symbol renderer you can do so as illustrated in the example snippet below (which creates a simple two class arrangement)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>もし連続値シンボルレンダラーを作ろうとしているのであれば次のスニペットの例で書かれているようにします(これはシンプルな二つのクラスを作成するものを取り上げています)::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Working with Symbols</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>シンボルの操作</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Size and width are in millimeters by default, angles are in degrees.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>サイズと幅は標準でミリメートルが使われ、角度は 度 が使われます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Working with Symbol Layers</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>シンボルレイヤーの操作</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Creating Custom Symbol Layer Types</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>カスタムシンボルレイヤータイプの作成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Imagine you would like to customize the way how the data gets rendered.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>データをどうレンダリングするかをカスタマイズしたいと考えているとします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can create your own symbol layer class that will draw the features exactly as you wish.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>思うままに地物を描画する独自のシンボルレイヤークラスを作成できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Here is an example of a marker that draws red circles with specified radius</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次の例は指定した半径で赤い円を描画するマーカーを示しています::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Usually it is convenient to add a GUI for setting attributes of the symbol layer type to allow users to customize the appearance: in case of our example above we can let user set circle radius.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>普通はユーザーに外観をカスタマイズさせるためにシンボルレイヤータイプの属性を設定するGUIを追加すると使いやすくなります: 上記の例であればユーザーは円の半径を設定できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The following code implements such widget</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次のコードはそのようなウィジェットの実装となります::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now we are missing only the final glue: to make QGIS aware of these new classes.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>私達は最後につなげるところだけまだ扱っていません: QGIS にこれらの新しいクラスを知らせる方法です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This is done by adding the symbol layer to registry.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これはレジストリにシンボルレイヤーを追加すれば完了です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It is possible to use the symbol layer also without adding it to the registry, but some functionality will not work: e.g. loading of project files with the custom symbol layers or inability to edit the layer's attributes in GUI.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>レジストリに追加しなくてもシンボルレイヤーを使うことはできますが、いくつかの機能が動かないでしょう: 例えばカスタムシンボルレイヤーを使ってプロジェクトファイルを読み込んだり、GUIでレイヤーの属性を編集できないなど。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We will have to create metadata for the symbol layer</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>シンボルレイヤーのメタデータを作る必要があるでしょう</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The last step is to add this symbol layer to the registry --- and we are done.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>最後にこのシンボルレイヤーをレジストリに追加します --- これで完了です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Creating Custom Renderers</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>カスタムレンダラーの作成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It might be useful to create a new renderer implementation if you would like to customize the rules how to select symbols for rendering of features.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>もし地物をレンダリングするためのシンボルをどう選択するかをカスタマイズしたいのであれば、新しいレンダラーの実装を作ると便利かもしれません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Some use cases where you would want to do it: symbol is determined from a combination of fields, size of symbols changes depending on current scale etc.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>いくつかのユースケースとしてこんなことをしたいのかもしれません: フィールドの組み合わせからシンボルを決定する、現在の縮尺に合わせてシンボルのサイズを変更するなどなど。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The following code shows a simple custom renderer that creates two marker symbols and chooses randomly one of them for every feature</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次のコードは二つのマーカーシンボルを作成して全ての地物からランダムに一つ選ぶ簡単なカスタムレンダラーです</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The last missing bit is the renderer metadata and registration in registry, otherwise loading of layers with the renderer will not work and user will not be able to select it from the list of renderers. Let us finish our RandomRenderer example</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>最後のちょっとした作業はレンダラーのメタデータとレジストリへの登録です。これらをしないとレンダラーのレイヤーの読み込みは動かず、ユーザーはレンダラーのリストから選択できないでしょう。では、私達の RandomRenderer の例を終わらせましょう</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Further Topics</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>より詳しいトピック</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**TODO:**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**TODO:**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>creating/modifying symbols</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>シンボルの作成や修正</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>exploring symbol layer and renderer registries</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>シンボルレイヤーとレンダラーのレジストリを調べる方法</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

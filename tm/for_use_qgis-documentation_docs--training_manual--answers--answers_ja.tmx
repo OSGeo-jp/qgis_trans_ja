@@ -1,0 +1,2207 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Answer Sheet</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>回答シート</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|RF| *An Overview of the Interface*</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|RF| *インターフェイスのあらまし*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| *Overview* (Part 1)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| *あらまし* (パート 1)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Refer back to the image showing the interface layout and check that you remember the names and functions of the screen elements.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>インターフェイスのレイアウトを示す以前の画像を参照し、画面要素の名称と機能を覚えていることを確認してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Back to text &lt;backlink-interface-overview-1&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`テキストに戻る &lt;backlink-interface-overview-1&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| *Overview* (Part 2)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| *あらまし* (パート 2)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:guilabel:`Save as`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`名前を付けて保存`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:guilabel:`Zoom to layer`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`レイヤーにズーム`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:guilabel:`Rendering on/off`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`描画 オン/オフ`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:guilabel:`Measure line`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`ラインを計測`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Back to text &lt;backlink-interface-overview-2&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`テキストに戻る &lt;backlink-interface-overview-2&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|RF| *Adding Your First Layer*</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|RF| *最初のレイヤーを追加する*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| *Preparation*</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| *準備*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In the main area of the dialog you should see many shapes with different colors.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ダイアログのメインエリアには、色の異なる多くの図形が表示されているはずです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Each shape belongs to a layer you can identify by its color in the left panel (your colors may be different from the ones below):</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>各シェイプは、左側のパネルでその色によって識別できるレイヤーに属します（実際の色は下のものと異なる場合があります）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Back to text &lt;backlink-interface-preparation-1&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`テキストに戻る &lt;backlink-interface-preparation-1&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| *Data loading*</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| *データのロード*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Your map should have seven layers:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>地図にはレイヤが７つあるはずです:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:guilabel:`places`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`場所`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Back to text &lt;backlink-vector-load-more-data&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`テキストに戻る &lt;backlink-vector-load-more-data&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|RF| *Symbology*</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|RF| *シンボル*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| *Colors*</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| *色*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Verify that the colors are changing as you expect them to change.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>色が期待通りに変わっているか確認してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It is enough to select the :guilabel:`water` layer in the legend and then click on the |symbology| :sup:`Open the Layer Styling panel` button.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>凡例で :guilabel:`water` レイヤを選択してから |symbology|  :sup:`レイヤスタイルパネルを開く` ボタンをクリックすれば十分です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Change the color to one that fits the water layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>色を水のレイヤに合う色に変更します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you want to work on only one layer at a time and don't want the other layers to distract you, you can hide a layer by clicking in the checkbox next to its name in the layers list.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>他のレイヤに煩わされずに一度にひとつのレイヤだけで作業したい場合、「レイヤ」リスト内のその名前の隣にあるチェックボックス内をクリックしてレイヤを非表示にできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If the box is blank, then the layer is hidden.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ボックスが空の場合、そのレイヤは非表示になっています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Back to text &lt;backlink-symbology-colors-1&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`テキストに戻る &lt;backlink-symbology-colors-1&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| *Symbol Structure*</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| *シンボルの構造*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Your map should now look like this:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これであなたの地図はこのように見えていると思います:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you are a Beginner-level user, you may stop here.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>初心者レベルのユーザーはここで止めた方が良いかもしれません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Use the method above to change the colors and styles for all the remaining layers.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>上の方法を使って残りのレイヤーすべての色とスタイルを変更します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Try using natural colors for the objects.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>オブジェクトにはできるだけ本来の色を使うようにしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For example, a road should not be red or blue, but can be gray or black.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>たとえば、道路は赤や青ではなく、灰または黒であるべきです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Also feel free to experiment with different :guilabel:`Fill style` and :guilabel:`Stroke style` settings for the polygons.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ポリゴンに対する別の :guilabel:`塗りつぶしスタイル` :guilabel:`ストロークスタイル` 設定も遠慮なく試してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Back to text &lt;backlink-symbology-structure-1&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`テキストに戻る &lt;backlink-symbology-structure-1&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moderate| *Symbol Layers*</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moderate| *シンボルレイヤー*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Customize your :guilabel:`buildings` layer as you like, but remember that it has to be easy to tell different layers apart on the map.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`建物` レイヤーは好きなようにカスタマイズできますが、地図上で離れている異なるレイヤーに容易に伝えられるものでなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Here's an example:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>こちらがサンプルです:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Back to text &lt;backlink-symbology-layers-1&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`テキストに戻る &lt;backlink-symbology-layers-1&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moderate| *Symbol Levels*</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moderate| *シンボルのレベル*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To make the required symbol, you need three symbol layers:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>必要なシンボルを作るには３つのシンボルレイヤーが必要です:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The lowest symbol layer is a broad, solid gray line.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>一番下のシンボルレイヤは、幅広の灰色の実線です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>On top of it there is a slightly thinner solid yellow line and finally another thinner solid black line.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>その上にはやや細い黄色の実線があり、最後に別の細い黒い実線があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If your symbol layers resemble the above but you're not getting the result you want:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>シンボルレイヤが上記のようになっていても、必要な結果が得られていない場合は：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Check that your symbol levels look something like this:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>シンボルレベルが次のようになっていることを確認してください：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now your map should look like this:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これであなたの地図は次のように見えるようになったはずです:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Back to text &lt;backlink-symbology-levels-1&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`テキストに戻る &lt;backlink-symbology-levels-1&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|hard| *Symbol Levels*</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|hard| *シンボルレベル*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Adjust your symbol levels to these values:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>あなたのシンボルレベルをこれらの値に合わせてください:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Experiment with different values to get different results.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>値をいろいろ試して様々な結果を取得してみてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Open your original map again before continuing with the next exercise.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次の演習を続ける前にオリジナルの地図を再び開いてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Back to text &lt;backlink-symbology-levels-2&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`テキストに戻る &lt;backlink-symbology-levels-2&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Here are examples of the symbol structure:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>シンボル構造の例は次のとおりです：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Back to text &lt;backlink-symbology-marker-line&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`テキストに戻る &lt;backlink-symbology-marker-line&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|hard| *Geometry generator symbology*</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|hard| *ジオメトリジェネレータのシンボル*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click on the |signPlus| button to add another Symbol level.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|signPlus| ボタンをクリックして別のシンボルレベルを追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Move the new symbol at the bottom of the list clicking the |arrowDown| button.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|arrowDown| をボタンクリックして、リストの一番下に新しいシンボルを移動します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Choose a good color to fill the water polygons.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>水のポリゴンを塗りつぶすのに良い色を選択してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click on :guilabel:`Marker` of the Geometry generator symbology and change the circle with another shape as your wish.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Geometry generatorシンボロジの :guilabel:`マーカ` をクリックして、円を希望の他の図形に変更してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Try experimenting other options to get more useful results.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>より有用な結果を得るために他のオプションを試してみてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Back to text &lt;backlink-symbology-geom_generator&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`テキストに戻る &lt;backlink-symbology-geom_generator&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>There should be 9 fields in the :guilabel:`rivers` layer:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`rivers` レイヤーには9つのフィールドがあるはずです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Select the layer in the :guilabel:`Layers` panel.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`レイヤ` パネルでレイヤを選択してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Right-click and choose :guilabel:`Open Attribute Table`, or press the |openTable| button on the :guilabel:`Attributes Toolbar`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>右クリックして :guilabel:`属性テーブルを開く` を選択するか、 :guilabel:`Attributes Toolbar` の |openTable| ボタンを押します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Count the number of columns.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>列の数を数えます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Information about towns is available in the :guilabel:`places` layer. Open its attribute table as you did with the :guilabel:`rivers` layer: there are two features whose :guilabel:`place` attribute is set to ``town``: *Swellendam* and *Buffeljagsrivier*. You can add comment on other fields from these two records, if you like.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>町に関する情報は :guilabel:`places` レイヤーにあります。 :guilabel:`rivers` レイヤで行ったようにその属性テーブルを開きます。 :guilabel:`place` 属性が ``town`` に設定されている地物が2つあります： *Swellendam* と *Buffeljagsrivier* 。必要に応じて、これら2つのレコードから他のフィールドにコメントを追加できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The ``name`` field is the most useful to show as labels.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``name`` フィールドがラベルとして表示するには最も便利です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This is because all its values are unique for every object and are very unlikely to contain *NULL* values.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>そのすべての値は各オブジェクトについて一意であり、 *NULL* 値が含まれている可能性が非常に低いためです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If your data contains some *NULL* values, do not worry as long as most of your places have names.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>データにいくつかの *NULL* の値が含まれている場合、場所のほとんどが名前を持っている限り心配いりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Back to text &lt;backlink-vector-explore-attribute-data&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`テキストに戻る &lt;backlink-vector-explore-attribute-data&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moderate| *Label Customization* (Part 1)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moderate| *ラベルのカスタマイズ* (パート 1)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Back to text &lt;backlink-label-tool-1&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`テキストに戻る &lt;backlink-label-tool-1&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moderate| *Label Customization* (Part 2)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moderate| *ラベルのカスタマイズ* (パート 2)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>One possible solution has this final product:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>一つの可能​​な解ではこの最終製品があります：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To arrive at this result:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この結果に到着するには：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|hard| *Using Data Defined Settings*</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|hard| *データ定義された設定を使用して*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Your results, if using the above values, should be this:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>結果は、上記の値を使用している場合、このようになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Back to text &lt;backlink-label-data-defined-1&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`テキストに戻る &lt;backlink-label-data-defined-1&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|RF| *Classification*</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|RF| *分類*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moderate| *Refine the Classification*</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moderate| *分類を改善*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Back to text &lt;backlink-classification-refine-1&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`テキストに戻る &lt;backlink-classification-refine-1&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|RF| *Creating a New Vector Dataset*</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|RF| *新しいベクターデータセットを作成する*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| *Digitizing*</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| *デジタイジング*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The symbology doesn't matter, but the results should look more or less like this:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>シンボル体系は重要ではありませんが、結果は多かれ少なかれこのようになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Back to text &lt;backlink-create-vector-digitize-1&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`テキストに戻る &lt;backlink-create-vector-digitize-1&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moderate| *Topology: Add Ring Tool*</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moderate| *トポロジ: リングツールを追加*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The exact shape doesn't matter, but you should be getting a hole in the middle of your feature, like this one:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>正確な形状は重要ではありませんが、あなたの地物の中央には穴が空くことになります。こちらのように。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Undo your edit before continuing with the exercise for the next tool.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次のツールのための演習を続行する前に編集を取り消します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Back to text &lt;backlink-create-vector-topology-1&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`テキストに戻る &lt;backlink-create-vector-topology-1&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moderate| *Topology: Add Part Tool*</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moderate| *トポロジ: パートを追加ツール*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>First select the |largeLandUseArea|:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>最初に |largeLandUseArea| を選択します:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now add your new part:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ここで新しいパートを追加します：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Back to text &lt;backlink-create-vector-topology-2&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`テキストに戻る &lt;backlink-create-vector-topology-2&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|hard| *Merge Features*</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|hard| *地物をマージ*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Use the :guilabel:`Merge Selected Features` tool, making sure to first select both of the polygons you wish to merge.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`選択した地物のマージ` ツールを使う際には、最初にマージしたいポリゴンを両方選んでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Use the feature with the :guilabel:`OGC_FID` of :kbd:`1` as the source of your attributes (click on its entry in the dialog, then click the :guilabel:`Take attributes from selected feature` button):</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:kbd:`1` の属性の :guilabel:`OGC_FID` を持つ地物をソースとして使用します（ダイアログでそのエントリをクリックし、それから :guilabel:`選択地物から属性を取る` ボタンをクリックしてください）：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you're using a different dataset, it is highly likely that your</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>別のデータセットを使用している場合、可能性が高いのはあなたの</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>original polygon's :guilabel:`OGC_FID` will not be :kbd:`1`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>元々のポリゴンの :guilabel:`OGC_FID` は :kbd:`1` にはならないでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Just choose the feature which has an :guilabel:`OGC_FID`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`OGC_FID` を持っている地物だけを選択してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Using the :guilabel:`Merge Attributes of Selected Features` tool will keep the geometries distinct, but give them the same attributes.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`選択地物の属性をマージ` ツールを使用すると、ジオメトリは別々のまま、それらに同じ属性を与えます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Back to text &lt;backlink-create-vector-topology-4&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`テキストに戻る &lt;backlink-create-vector-topology-4&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moderate| *Forms*</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moderate| *フォーム*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For the :guilabel:`TYPE`, there is obviously a limited amount of types that a road can be, and if you check the attribute table for this layer, you'll see that they are predefined.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`type` について、道路がなりうるタイプの量は明らかに限られており、そしてこのレイヤーのための属性テーブルをチェックすると、それらが事前定義されていることがわかります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Set the widget to :guilabel:`Value Map` and click :guilabel:`Load Data from Layer`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ウィジェットを :guilabel:`値マップ` に設定して :guilabel:`レイヤーからデータをロード` をクリックしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Select :guilabel:`roads` in the :guilabel:`Label` dropdown and :guilabel:`highway` for both the :guilabel:`Value` and :guilabel:`Description` options:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`ラベル` ドロップダウンで :guilabel:`roads` を、 :guilabel:`値` と :guilabel:`説明` オプションの両方について :guilabel:`highway` を選択します：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you use the :guilabel:`Identify` tool on a street now while edit mode is active, the dialog you get should look like this:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>今街路上で :guilabel:`識別` ツールを使用している場合は、編集モードがアクティブな間、出てくるダイアログは次のようになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Back to text &lt;backlink-create-vector-forms-1&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`テキストに戻る &lt;backlink-create-vector-forms-1&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|RF| *Vector Analysis*</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|RF| *ベクター分析*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| *Distance from High Schools*</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| *高校からの距離*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Your buffer dialog should look like this:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>あなたのバッファダイアログはこのように見えるはずです:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The :guilabel:`Buffer distance` is :guilabel:`1` kilometer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`バッファ距離` は :guilabel:`1` キロメーターです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The :guilabel:`Segments to approximate` value is set to :guilabel:`20`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`近似するセグメント` 値は :guilabel:`20` に設定されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This is optional, but it's recommended, because it makes the output buffers look smoother.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これはオプションですが、出力バッファがよりスムーズに見えるのでお勧めです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Compare this:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これと比較してみてください：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To this:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これに：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The first image shows the buffer with the :guilabel:`Segments to approximate` value set to :guilabel:`5` and the second shows the value set to :guilabel:`20`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>第1の画像は、 :guilabel:`近似するセグメント` の値が :guilabel:`5` に設定されたバッファを、第2の画像はその値が :guilabel:`20` に設定されたバッファを示しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In our example, the difference is subtle, but you can see that the buffer's edges are smoother with the higher value.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この例では違いは微妙ですが、より高い値を持つほどバッファの縁がより滑らかであることがわかります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Back to text &lt;backlink-vector-analysis-basic-1&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`テキストに戻る &lt;backlink-vector-analysis-basic-1&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| *Distance from Restaurants*</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| *レストランからの距離*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To create the new :guilabel:`houses_restaurants_500m` layer, we go through a two step process:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>新しい :guilabel:`houses_restaurants_500m` レイヤーを作成するために、２ステップの手順を実施します:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>First, create a buffer of 500m around the restaurants and add the layer to the map:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>最初に、レストランの周囲に500m のバッファを作成し、地図にレイヤーを追加します:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Next, extract buildings within that buffer area:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次に、そのバッファ領域内の建物を選択します:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Your map should now show only those buildings which are within 50m of a road, 1km of a school and 500m of a restaurant:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これで地図には道路から50m 以内、学校から1km 以内、そしてレストランから500m 以内の建物だけが表示されているはずです:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Back to text &lt;backlink-vector-analysis-basic-2&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`テキストへ 戻る &lt;backlink-vector-analysis-basic-2&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|RF| *Network Analysis*</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|RF| *ネットワーク分析*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moderate| *Fastest path*</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moderate| 最速径路</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Open :menuselection:`Network Analysis --&gt; Shortest Path (Point to Point)` and fill the dialog as:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:menuselection:`ネットワーク分析 - &gt; 最短経路（点から点）` を開き、ダイアログに次のように記入します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Make sure that the :guilabel:`Path type to calculate` is ``Fastest``.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`計算するパスタイプ` が ``最速`` であることを確認してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click on :guilabel:`Run` and close the dialog.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`実行` をクリックし、ダイアログを閉じます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Open now the attribute table of the output layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>出力レイヤーの属性テーブルを開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The :guilabel:`cost` field contains the travel time between the two points (as fraction of hours):</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`cost` フィールドには2点間の移動時間が含まれています（時間の割合）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Back to text &lt;backlink-network_analysis_1&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`テキストに戻る &lt;backlink-network_analysis_1&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|RF| *Raster Analysis*</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|RF| *ラスター分析*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| *Calculate Aspect*</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| *角度を計算*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Your result:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>結果:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Back to text &lt;backlink-raster-analysis-1&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`テキストに戻る &lt;backlink-raster-analysis-1&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moderate| *Calculate Slope (less than 2 and 5 degrees)*</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moderate| *傾斜を計算 (2度と5度未満)*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Set your :guilabel:`Raster calculator` dialog up like this:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`ラスター計算機` ダイアログをこのように設定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For the 5 degree version, replace the ``2`` in the expression and file name with ``5``.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>5度のバージョンの場合は、式とファイル名の中の ``2`` を ``5`` で置き換えてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Your results:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>結果:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>2 degrees:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>2 度:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>5 degrees:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>5 度:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Back to text &lt;backlink-raster-analysis-2&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`テキストに戻る &lt;backlink-raster-analysis-2&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|RF| *Completing the Analysis*</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|RF| *分析を完了させる*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moderate| *Raster to Vector*</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moderate| *ラスターからベクター*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Open the :guilabel:`Query Builder` by right-clicking on the :guilabel:`all_terrain` layer in the :guilabel:`Layers` panel, and selecting the :menuselection:`Properties --&gt; Source` tab.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`レイヤ` パネルの :guilabel:`all_terrain` レイヤを右クリックし、 :menuselection:`プロパティ - &gt; ソース` タブを選択して :guilabel:`クエリビルダ` を開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Then build the query :kbd:`"suitable" = 1`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次に、:kbd:`"suitable" = 1` クエリを構築します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click :guilabel:`OK` to filter out all the polygons where this condition isn't met.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`OK` をクリックしてこの条件が満たされていないすべてのポリゴンをフィルタリングします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>When viewed over the original raster, the areas should overlap perfectly:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>オリジナルのラスター上で閲覧するとその領域は完全にオーバーラップされるはずです:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can save this layer by right-clicking on the :guilabel:`all_terrain` layer in the :guilabel:`Layers` panel and choosing :guilabel:`Save As...`, then continue as per the instructions.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`レイヤー` パネル中の :guilabel:`all_terrain` レイヤー上で右クリックし :guilabel:`名前を付けて保存...` を選択することでこのレイヤーを保存できます。その後は指示に従って続けます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Back to text &lt;backlink-complete-analysis-1&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`テキストに戻る &lt;backlink-complete-analysis-1&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moderate| *Inspecting the Results*</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moderate| *結果を精査*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You may notice that some of the buildings in your :kbd:`new_solution` layer have been "sliced" by the :guilabel:`Intersect` tool.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`Intersect` ツールによって :kbd:`new_solution` レイヤー中の建物の一部が「スライス」されることがあることに気づくことがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This shows that only part of the building - and therefore only part of the property - lies on suitable terrain.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは、建物の一部のみ - それゆえ資産の一部のみ -が適した地形の上にあることを示しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We can therefore sensibly eliminate those buildings from our dataset</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>したがって、賢明にデータセットから、これらの建物を排除できます</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Back to text &lt;backlink-complete-analysis-2&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`テキストに戻る &lt;backlink-complete-analysis-2&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moderate| *Refining the Analysis*</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moderate| *分析を改善する*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>At the moment, your analysis should look something like this:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>現時点ではあなたの分析は次のように見えるはずです:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Consider a circular area, continuous for 100 meters in all directions.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>全ての方向に100メートルのための連続円形領域を考えます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If it is greater than 100 meters in radius, then subtracting 100 meters from its size (from all directions) will result in a part of it being left in the middle.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それは半径100メートルより大きい場合、その大きさから（すべての方向から）100m減算すると、それが真ん中に残された部分になるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Therefore, you can run an *interior buffer* of 100 meters on your existing :guilabel:`suitable_terrain` vector layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>そのため、既存の :guilabel:`suitable_terrain` ベクターレイヤー上で100メートルの *内部バッファ* を実行できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In the output of the buffer function, whatever remains of the original layer will represent areas where there is suitable terrain for 100 meters beyond.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>バッファ機能の出力において、元のレイヤーの残りはどれも、100メートルを超えて適した地形がある領域を表すことになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To demonstrate:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>証明するために：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Go to :menuselection:`Vector --&gt; Geoprocessing Tools --&gt; Buffer(s)` to open the Buffer(s) dialog.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:menuselection:`ベクター --&gt; ジオプロセッシングツール --&gt; バッファ` に行き、バッファダイアログを開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Set it up like this:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このように設定します:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Use the :guilabel:`suitable_terrain` layer with :kbd:`10` segments and a buffer distance of :kbd:`-100`. (The distance is automatically in meters because your map is using a projected CRS.)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:kbd:`10` のセグメントで :kbd:`-100` のバッファ距離で :guilabel:`suitable_terrain` レイヤーを使用します。（地図が投影CRSを使用しているため、距離は自動的にメートル単位です。）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Save the output in :kbd:`exercise_data/residential_development/` as :kbd:`suitable_terrain_continuous100m.shp`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>出力を :kbd:`exercise_data/residential_development/` 中に :kbd:`suitable_terrain_continuous100m.shp` として保存します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If necessary, move the new layer above your original :kbd:`suitable_terrain` layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>必要に応じて、元々の :kbd:`suitable_terrain` レイヤの上に新しいレイヤを移動してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Your results will look like something like this:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>作業結果は次のように見えるはずです:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now use the :guilabel:`Select by Location` tool (:menuselection:`Vector --&gt; Research Tools --&gt; Select by location`).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ここで :guilabel:`位置で選択` ツール（ :menuselection:`ベクター --&gt; 研究のツール --&gt; 位置で選択` ）を使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Set up like this:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このように設定します:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Select features in :guilabel:`new_solution` that intersect features in :guilabel:`suitable_terrain_continuous100m.shp`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`suitable_terrain_continuous100m.shp` の中の地物に交差する :guilabel:`new_solution` 中の地物を選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This is the result:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>結果はこちらです:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The yellow buildings are selected.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>黄色の建物が選択されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Although some of the buildings fall partly outside the new :kbd:`suitable_terrain_continuous100m` layer, they lie well within the original :kbd:`suitable_terrain` layer and therefore meet all of our requirements.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>建物の一部は、新しい :kbd:`suitable_terrain_continuous100m` レイヤー外に一部が落ちるものの、それらは元の :kbd:`suitable_terrain` レイヤー範囲内に十分にあり、したがって私たちの要件のすべてを満たしています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Save the selection under :kbd:`exercise_data/residential_development/` as :kbd:`final_answer.shp`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>選択を :kbd:`exercise_data/residential_development/` 下に :kbd:`final_answer.shp` として保存してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Back to text &lt;backlink-complete-analysis-3&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`テキストに戻る &lt;backlink-complete-analysis-3&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|RF| *WMS*</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|RF| *WMS*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| *Adding Another WMS Layer*</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic|  *別のWMSレイヤーを追加します*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Your map should look like this (you may need to re-order the layers):</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>地図は次のようになります（レイヤーを整列し直す必要があるかもしれません）：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Back to text &lt;backlink-wms-1&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`テキストに戻る&lt;backlink-wms-1&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moderate| *Adding a New WMS Server*</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moderate|  *新しいWMSサーバーの追加*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Use the same approach as before to add the new server and the appropriate layer as hosted on that server:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>新しいサーバーとそのサーバー上でホストされているように、適切なレイヤーを追加する前と同じアプローチを使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you zoom into the |majorUrbanName| area, you'll notice that this dataset has a low resolution:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|majorUrbanName| 領域にズームインした場合、このデータセットは低解像度を持っていることに気づくでしょう：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Therefore, it's better not to use this data for the current map.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>したがって、現在の地図にこのデータを使用しない方が良いです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The Blue Marble data is more suitable at global or national scales.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ブルーマーブルデータは、グローバルまたは全国規模での方が適しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Back to text &lt;backlink-wms-2&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`テキストに戻る &lt;backlink-wms-2&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moderate| *Finding a WMS Server*</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moderate|  *WMSサーバーの検索*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You may notice that many WMS servers are not always available. Sometimes this is temporary, sometimes it is permanent. An example of a WMS server that worked at the time of writing is the :guilabel:`World Mineral Deposits` WMS at http://apps1.gdr.nrcan.gc.ca/cgi-bin/worldmin_en-ca_ows. It does not require fees or have access constraints, and it is global. Therefore, it does satisfy the requirements. Keep in mind, however, that this is merely an example. There are many other WMS servers to choose from.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>多くのWMSサーバーが常に利用可能ではないことに気づくことがあります。これは、時には一時的で、時には永続的です。執筆の時点で稼働していたWMSサーバーの例は `http://apps1.gdr.nrcan.gc.ca/cgi-bin/worldmin_en-ca_ows` で :guilabel:`世界鉱物鉱床` WMS です。これは、手数料を必要とせず、アクセス制限もなく、全世界的です。したがって、まさに要件を満たしています。ただし、これは単なる例であること、選択するためのWMSサーバーは他にもたくさんあることをお忘れなく。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Back to text &lt;backlink-wms-3&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`テキストに戻る &lt;backlink-wms-3&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|RF| *GRASS Integration*</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|RF| *GRASS統合*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| *Add Layers to Mapset*</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| *マップセットにレイヤを追加*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can add layers (both vector and raster) into a GRASS Mapset by drag and drop them in the Browser (see :ref:`grass_browser`) or by using the ``v.in.gdal.qgis`` for vector and ``r.in.gdal.qgis`` for raster layers.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ブラウザにドラッグアンドドロップするか（ :ref:`grass_browser` を参照）、またはvectorに ``v.in.gdal.qgis`` を使うことでGRASS Mapsetにレイヤ（ベクタとラスタの両方）を追加できます。ラスタレイヤの場合は `r.in.gdal.qgis` です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Back to text &lt;backlink-grass_add_to_mapset&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`テキストに戻る &lt;backlink-grass_add_to_mapset&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To discover the maximum value of the raster run the :kbd:`r.info` tool: in the console you will see that the maximum value is 1699.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ラスタの最大値を知るには、コンソールで :kbd:`r.info` ツールを実行してください：最大値は1699です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You are now ready to write the rules.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これで規則を書く準備が整いました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Open a text editor and add the following rules::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>テキストエディタを開き、以下の規則を追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>save the file as a ``my_rules.txt`` file and close the text editor.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ファイルを ``my_rules.txt`` ファイルとして保存してテキストエディタを閉じます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Run the :kbd:`r.reclass` tool, choose the :kbd:`g_dem` layer and load the file containing the rules you just have saved.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:kbd:`r.reclass` ツールを実行し、 :kbd:`g_dem` レイヤーを選択して先ほど保存したルールを含むファイルをロードしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click on :guilabel:`Run` and then on :guilabel:`View Output`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`実行` をクリックしてから :guilabel:`結果を見る` をクリックしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can change the colors and the final result should look like the following picture:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>色が変更でき、最終結果は次の図のようになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Back to text &lt;backlink-grass_reclass&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`テキストに戻る &lt;backlink-grass_reclass&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|RF| *Database Concepts*</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|RF| *データベースの概念*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| *Address Table Properties*</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| *住所テーブルのプロパティ*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For our theoretical address table, we might want to store the following properties::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>理論上の住所テーブルのために、次のプロパティを保存したい場合があります::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>When creating the table to represent an address object, we would create columns to represent each of these properties and we would name them with SQL-compliant and possibly shortened names::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>住所オブジェクトを表すテーブルを作成するときは、これらのプロパティのそれぞれを表現する列を作成し、それらにSQL準拠していておそらく短縮した名前で名前を付けるでしょう::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Back to text &lt;backlink-database-concepts-1&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`テキストに戻る&lt;backlink-database-concepts-1&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| *Normalising the People Table*</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| *People（人々）テーブルを正規化する*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The major problem with the `people` table is that there is a single address field which contains a person's entire address.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>`people` テーブルの大きな問題は、人の住所全体を含んでいる単一の住所フィールドが存在することです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Thinking about our theoretical `address` table earlier in this lesson, we know that an address is made up of many different properties.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>以前このレッスンで理論的 `address` テーブルを考えると、住所は多くの異なる特性で構成されていることがわかります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>By storing all these properties in one field, we make it much harder to update and query our data.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>すべてのこれらの特性を1つのフィールド内に格納することで、データの更新と照会をはるかに困難にしています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We therefore need to split the address field into the various properties.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>そこで、住所フィールドを様々な特性に分割する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This would give us a table which has the following structure::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは、次のような構造を持つテーブルになるでしょう::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In the next section, you will learn about Foreign Key relationships which could be used in this example to further improve our database's structure.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次のセクションでは外部キー関係について学びます。それはこの例においてデータベースの構造をさらに改善するために使用できるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Back to text &lt;backlink-database-concepts-2&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`テキストに戻る&lt;backlink-database-concepts-2&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moderate| *Further Normalisation of the People Table*</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moderate| *人々テーブルのさらなる正規化*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Our `people` table currently looks like this::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>`people` テーブルは現在はこのようになっています::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The :kbd:`street_id` column represents a 'one to many' relationship between the `people` object and the related `street` object, which is in the `streets` table.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:kbd:`street_id` 列は `people` オブジェクトと関係づけられた `street` オブジェクト（ `streets` テーブルの中）の間の「1対多」関係を表します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>One way to further normalise the table is to split the name field into *first_name* and *last_name*::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>テーブルをさらに正規化する一つの方法は、名前のフィールドを *姓* と *名* に分割することです::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We can also create separate tables for the town or city name and country, linking them to our `people` table via 'one to many' relationships::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>また、町名や都市名と国に対して別々のテーブルを作成し、「1対多」関係を介して私たちの `people` テーブルにそれらをリンクできます::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>An ER Diagram to represent this would look like this:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これを表現するER図は次のようになります：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Back to text &lt;backlink-database-concepts-3&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`テキストに戻る&lt;backlink-database-concepts-3&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moderate| *Create a People Table*</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moderate| *人々テーブルを作成します*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The SQL required to create the correct people table is::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>正しい人々テーブルを作成するために必要なSQLは::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The schema for the table (enter :kbd:`\\d people`) looks like this::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>テーブルのスキーマは（:kbd:`\\d people` と入力します）このようになります::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For illustration purposes, we have purposely omitted the fkey constraint.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>説明のために、FKEY制約は意図的に省略しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Back to text &lt;backlink-database-concepts-4&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`テキストへ戻る &lt;backlink-database-concepts-4&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| *The DROP Command*</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic|  *DROPコマンド*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The reason the DROP command would not work in this case is because the `people` table has a Foreign Key constraint to the `streets` table.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>`people` テーブルは `streets` テーブルへの外部キー制約があるため、DROPコマンドは、このケースでは動作しない理由があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This means that dropping (or deleting) the `streets` table would leave the `people` table with references to non-existent `streets` data.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは、 `streets` テーブルをドロップする（または削除する）と、存在しない `streets` データへの参照が `people` テーブルに残ることを意味します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It is possible to 'force' the `streets` table to be deleted by using the `CASCADE` command, but this would also delete the `people` and any other table which had a relationship to the `streets` table.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>`CASCADE` コマンドを使用して `streets` テーブルを強制的に削除することは可能ですが、これは `people` と `streets` テーブルへの関係づけられていた他のテーブルも削除します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Use with caution!</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>注意して使用してください！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Back to text &lt;backlink-database-concepts-5&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`テキストへ戻る &lt;backlink-database-concepts-5&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| *Insert a New Street*</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| *新しい街路を挿入*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The SQL command you should use looks like this (you can replace the street name with a name of your choice)::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>使用する必要があるSQLコマンドは、（選択した名前を持つ通りの名前を置き換えできます）、このようになります::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Back to text &lt;backlink-database-concepts-6&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`テキストへ戻る &lt;backlink-database-concepts-6&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moderate| *Add a New Person With Foreign Key Relationship*</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moderate| *外部キー関係に新しい人を追加*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Here is the correct SQL statement::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これが正しいSQL文です::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you look at the streets table again (using a select statement as before), you'll see that the :kbd:`id` for the :kbd:`Main Road` entry is :kbd:`2`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>街路テーブルを再び（以前のようにselect文を使用して）見ると、 :kbd:`主要道路` エントリのための :kbd:`id` は :kbd:`2` であることがわかるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>That's why we could merely enter the number :kbd:`2` above.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>だから上では数 :kbd:`2` を入力するしかできなかったでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Even though we're not seeing :kbd:`Main Road` written out fully in the entry above, the database will be able to associate that with the :kbd:`street_id` value of :kbd:`2`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>私たちが上記のエントリで完全に書き出された :kbd:`主要道路` を見ていないにもかかわらず、データベースはそれを :kbd:`2` という :kbd:`street_id` 値を持つものと関連付けできるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you have already added a new :kbd:`street` object, you might find that the new :kbd:`Main Road` has an ID of :kbd:`3` not :kbd:`2`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>すでに新しい :kbd:`street` オブジェクトを追加している場合、新しい :kbd:`主要道路` のIDは :kbd:`2` でなく :kbd:`3` だったということがあるかもしれません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Back to text &lt;backlink-database-concepts-7&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`テキストへ 戻る&lt;backlink-database-concepts-7&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moderate| *Return Street Names*</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moderate| *街路名を返す*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Here is the correct SQL statement you should use::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これが使用すべき正しいSQL文です::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Result::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>結果：：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You will notice that we have prefixed field names with table names (e.g. people.name and streets.name).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>テーブル名をフィールド名の接頭辞にしていることに気づくでしょう（例えばpeople.nameとstreets.name）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This needs to be done whenever the field name is ambiguous (i.e. not unique across all tables in the database).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>フィールド名があいまいな（つまり、データベース内のすべてのテーブル間で一意ではない）時はいつでもこれが行われる必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Back to text &lt;backlink-database-concepts-8&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`テキストへ戻る &lt;backlink-database-concepts-8&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|RF| *Spatial Queries*</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|RF| *空間クエリ*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| *The Units Used in Spatial Queries*</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| *空間クエリで使用される単位*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The units being used by the example query are degrees, because the CRS that the layer is using is WGS 84. This is a Geographic CRS, which means that its units are in degrees. A Projected CRS, like the UTM projections, is in meters.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>例のクエリで使用されている単位は度です。それはレイヤーが使用しているCRSがWGS 84であるためです。これは地理的CRSです、つまりその単位は度であることを意味します。投影CRSは、UTM投影でのように、メートル単位です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Remember that when you write a query, you need to know which units the layer's CRS is in.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>クエリを書くときはレイヤーのCRSがどの単位かを知る必要があることを忘れないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This will allow you to write a query that will return the results that you expect.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これにより期待する結果が返されるクエリを記述できるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Back to text &lt;backlink-spatial-queries-1&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`テキストへ戻る &lt;backlink-spatial-queries-1&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| *Creating a Spatial Index*</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic|  *空間索引を作成する*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Back to text &lt;backlink-spatial-queries-2&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`テキストへ戻る &lt;backlink-spatial-queries-2&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|RF| *Geometry Construction*</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|RF| *ジオメトリ構築*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moderate| *Creating Linestrings*</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moderate| *ラインストリングを作成する*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Back to text &lt;backlink-geometry-1&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`テキストへ戻る &lt;backlink-geometry-1&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moderate| *Linking Tables*</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moderate| *テーブルをリンクする*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>(capture cities in QGIS)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>（QGISで都市をキャプチャ）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you're getting the following error message:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次のエラーメッセージが出ている場合：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>then it means that while experimenting with creating polygons for the cities table, you must have deleted some of them and started over.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>そのときは都市テーブルのポリゴンを作成して実験している間、それらのいくつかを削除してやり直してしまっていることを意味します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Just check the entries in your cities table and use any :kbd:`id` which exists.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>都市テーブルのエントリをチェックして、何らかの存在する :kbd:`id` を使用するだけです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Back to text &lt;backlink-geometry-2&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`テキストに戻る &lt;backlink-geometry-2&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|RF| *Simple Feature Model*</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|RF| *簡易地物モデル*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moderate| *Populating Tables*</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moderate|  *表を投入*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Back to text &lt;backlink-simple-feature-1&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`テキストに戻る &lt;backlink-simple-feature-1&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moderate| *Populate the Geometry_Columns Table*</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moderate| *GEOMETRY_COLUMNS表を投入*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Back to text &lt;backlink-simple-feature-2&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`テキストに戻る &lt;backlink-simple-feature-2&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|hard| *Adding Geometry*</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|hard| *ジオメトリを追加する*</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>As you can see, our constraint allows nulls to be added into the database.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ご覧のとおり、私たちの制限ではデータベースへの null の追加を認めています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Back to text &lt;backlink-simple-feature-3&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`テキストに戻る &lt;backlink-simple-feature-3&gt;`</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

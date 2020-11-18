@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Developing Python Plugins</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Pythonプラグインを開発する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It is possible to create plugins in the Python programming language.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Pythonプログラミング言語を使ってプラグインを作ることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In comparison with classical plugins written in C++ these should be easier to write, understand, maintain and distribute due to the dynamic nature of the Python language.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>C++で書かれた従来のプラグインと比べると、Python言語の動的な性質のおかげで、より書きやすく、より理解しやすく、そしてより配布しやすくなっています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Python plugins are listed together with C++ plugins in QGIS plugin manager.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Pythonプラグインは、C++プラグインとともに、QGISプラグインマネージャに表示さます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>They are searched for in :file:`~/(UserProfile)/python/plugins` and these paths:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これらのプラグインは、 :file:`~/(UserProfile)/python/plugins` と、以下のパスから検索されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For definitions of ``~`` and ``(UserProfile)`` see :ref:`core_and_external_plugins`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``~`` と ``(UserProfile)`` の定義は、:ref:`core_and_external_plugins` を参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>By setting `QGIS_PLUGINPATH` to an existing directory path, you can add this path to the list of paths that are searched for plugins.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>`QGIS_PLUGINPATH` に既存のディレクトリ・パスを設定することにより、プラグインが検索されるパスのリストに、既存のパスを加えることができます。</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

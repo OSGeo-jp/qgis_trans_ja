@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Plugins</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プラグイン</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Installation</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>インストール</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To install the HelloWorld example plugin for testing the servers, you firstly have to create a directory to hold server plugins.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>サーバーのテスト用にHelloWorldサンプルプラグインをインストールするには、まずサーバープラグインを保持するディレクトリを作成する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This will be specified in the virtual host configuration and passed on to the server through an environment variable:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは仮想ホスト構成で指定され、環境変数を介してサーバーに渡されます：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>HTTP Server configuration</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>HTTPサーバー構成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Apache</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Apache</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To be able to use server plugins, FastCGI needs to know where to look.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>サーバープラグインを使用できるようにするには、FastCGIはどこから見えるかを知る必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>So, we have to modify the Apache configuration file to indicate the **QGIS_PLUGINPATH** environment variable to FastCGI:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>したがって、 **QGIS_PLUGINPATH** 環境変数をFastCGIに示すように、Apache構成ファイルを変更する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Then, restart Apache:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それから、Apacheを再起動します:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>How to use a plugin</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プラグインの使用方法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Test the server with the HelloWorld plugin:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>HelloWorldのプラグインでサーバーをテストします：</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

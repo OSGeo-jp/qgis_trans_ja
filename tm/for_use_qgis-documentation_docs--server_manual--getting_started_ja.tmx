@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Getting Started</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>はじめに</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Installation on Debian-based systems</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Debianのベースのシステムへのインストール</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Enable, start and check the status of the ``xvfb.service``:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``xvfb.service`` の状態を有効にし、開始し、チェックします：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Definitions for a QGIS Server WMS/WFS/WCS project</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISサーバーのWMS / WFS / WCSプロジェクトの定義</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>WMS capabilities</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>WMS機能</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In the :guilabel:`WMS capabilities` section, you can define the extent advertised in the WMS GetCapabilities response by entering the minimum and maximum X and Y values in the fields under :guilabel:`Advertised extent`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>guilabel:`WMS capabilities` セクションでは、 :guilabel:`Advertised範囲` の下のフィールドに最小値と最大値の X と Y を入力することで、WMS GetCapabilities レスポンスでアドバタイズされた範囲を定義できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Clicking :guilabel:`Use Current Canvas Extent` sets these values to the extent currently displayed in the QGIS map canvas.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>guilabel:`現在のキャンバス範囲を使用` をクリックすると、これらの値はQGIS地図キャンバスに現在表示されている範囲に設定されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>By checking |checkbox| :guilabel:`CRS restrictions`, you can restrict in which coordinate reference systems (CRS) QGIS Server will offer to render maps.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|checkbox| :guilabel:`CRS制限` をチェックすると、QGISサーバが地図をレンダリングする際に提供する座標参照系(CRS) を制限できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It is recommended that you restrict the offered CRS as this reduces the size of the WMS GetCapabilities response.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>提供される CRS を制限するとWMS GetCapabilities レスポンスのサイズが小さくなるため、制限することをお勧めします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Use the |signPlus| button below to select those CRSs from the Coordinate Reference System Selector, or click :guilabel:`Used` to add the CRSs used in the QGIS project to the list.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>以下の |signPlus| ボタンを使用して、座標参照系セレクタからこれらの CRS を選択するか、 :guilabel:`使用中` をクリックして QGIS プロジェクトで使用されている CRS をリストに追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If one of your layers uses the :ref:`Map Tip display &lt;maptips&gt;` (i.e. to show text using expressions) this will be listed inside the GetFeatureInfo output.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>レイヤーの一つが :ref:`地図ヒントディスプレイ &lt;maptips&gt;` を使用している場合（つまり式を使ってテキストを表示するために）これはGetFeatureInfo出力内で表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If the layer uses a Value Map for one of its attributes, this information will also be shown in the GetFeatureInfo output.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>レイヤーは、その属性のいずれかの値マップを使用している場合は、この情報には、GetFeatureInfo出力に表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>WFS capabilities</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>WFS機能</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In the :guilabel:`WFS capabilities` area you can select the layers you want to publish as WFS, and specify if they will allow update, insert and delete operations.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`でWFS機能` エリアWFSとして公開し、それらが更新を許可するかどうかを指定、操作を挿入し、削除したいレイヤーを選択できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you enter a URL in the :guilabel:`Advertised URL` field of the :guilabel:`WFS capabilities` section, QGIS Server will advertise this specific URL in the WFS GetCapabilities response.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:` WFS機能` セクションの :guilabel:`宣伝URL` フィールドにURLを入力すると、QGIサーバーは、WFSのGetCapabilities応答中でこの特定のURLを宣伝します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>WCS capabilities</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>WCS機能</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In the :guilabel:`WCS capabilities` area, you can select the layers that you want to publish as WCS.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`WCS機能` エリア、WCSとして公開したいレイヤーを選択できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you enter a URL in the :guilabel:`Advertised URL` field of the :guilabel:`WCS capabilities` section, QGIS Server will advertise this specific URL in the WCS GetCapabilities response.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`WCS機能` セクションで :guilabel:`宣伝URL` フィールドにURLを入力すると、QGISサーバーはWCSのGetCapabilities応答でこの特定のURLを宣伝します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Fine tuning your OWS</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>OWSを微調整する</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

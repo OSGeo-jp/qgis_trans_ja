@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Containerized deployment</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>コンテナ化された配備</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>There are many ways to use containerized application, from the most simple (simple Docker images) to sophisticated (Kubernetes and so on).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>コンテナ化されたアプリケーションを使用するには、最も単純なもの（単純なDockerイメージ）から高度なもの（Kubernetesなど）まで、さまざまな方法があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This kind of deployment needs the `docker application &lt;https://www.docker.com&gt;`_ to be installed and running.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この種類の配備では、 `dockerアプリケーション &lt;https://www.docker.com&gt;`_ をインストールして実行する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Check this `tutorial &lt;https://www.docker.com/101-tutorial&gt;`_.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この `チュートリアル &lt;https://www.docker.com/101-tutorial&gt;`_ を確認してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Docker run pre packaged application (aka images) which can be retrieved as sources (Dockerfile and resources) to build or already built from registries (private or public).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Dockerは、パッケージ化されたアプリケーション（別名イメージ）を実行します。これは、ビルドするソース（Dockerfileおよびリソース）として取得するか、レジストリ（プライベートまたはパブリック）から既にビルドできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>As the docker image does not exist in a public registry. you will need to build it. To do so create a directory :file:`qgis-server` and within its directory:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Dockerイメージがパブリックレジストリに存在しないため。ビルドする必要があります。そのためには、ディレクトリ :file:`qgis-server` をそのディレクトリ内に作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To do so, create a directory :file:`data` within the directory :file:`qgis-server` and copy your file in it.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これを行うには、ディレクトリ :file:`qgis-server` 内にディレクトリ :file:`data` を作成し、その中にファイルをコピーします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To comply with the following explanations, rename it to :file:`osm.qgs`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>以下の説明に準拠するため、名前を :file:`osm.qgs` に変更します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To work with a docker image set you could use a docker stack managed by an orchestrator.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Dockerイメージセットを操作するには、オーケストレーターが管理するDockerスタックを使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In a stack, the images are working in the same private network, and you can start / stop the whole stack or deploy the stack to other workers.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>スタックでは、イメージは同じプライベートネットワークで動作しており、スタック全体を開始/停止したり、スタックを他のワーカーに配備したりできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>There are many orchestrators, for example Swarm, Kubernetes and Mesos.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>たとえば、Swarm、Kubernetes、Mesosなど、多くのオーケストレーターがいます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Docker now has its own orchestrator: Swarm (compatible with docker-compose files).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Dockerに独自のオーケストレーターSwarmが追加されました（docker-composeファイルと互換性があります）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You have to `enable it &lt;https://docs.docker.com/get-started/orchestration/#enable-docker-swarm&gt;`_ (the Mac version will also work with Linux).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>`有効にする&lt;https://docs.docker.com/get-started/orchestration/#enable-docker-swarm&gt;`_ 必要があります（MacバージョンはLinuxでも動作します）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Installation</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>インストール</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>As Kubernetes installation can be really complex, we will only focus on aspects used by this demo.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Kubernetesのインストールは非常に複雑になる可能性があるため、このデモで使用される側面のみに焦点を当てます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For further / deeper information, check the `official documentation &lt;https://Kubernetes.io/docs/home/&gt;`_.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>詳細は `公式文書 &lt;https://Kubernetes.io/docs/home/&gt;`_ をご確認ください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>microk8s needs extra steps: you have to enable the registry and tag the qgis-server image in order to have Kubernetes to find the created images.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>microk8sでは追加の手順が必要です。Kubernetesで作成されたイメージを検出するには、レジストリを有効にしてqgis-serverイメージにタグを付ける必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Kubernetes describes the objects to deploy in yaml manifests.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Kubernetesは、yamlマニフェストにデプロイするオブジェクトを記述します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>There are many different kinds, but we will only use deployments (handle pods, i.e. docker images) and services to expose the deployments to internal or external purposes.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>さまざまな種類がありますが、デプロイメント（ポッドを処理する、つまりDockerイメージ）とサービスのみを使用して、デプロイメントを内部または外部の目的に公開します。</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

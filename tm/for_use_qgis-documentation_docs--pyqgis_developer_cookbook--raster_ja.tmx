@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Using Raster Layers</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ラスターレイヤーを使う</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Layer Details</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>レイヤーについて</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Renderer</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>レンダラー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Single Band Rasters</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>シングルバンドラスター</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Multi Band Rasters</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>マルチバンドラスター</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Query Values</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>値の検索</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>
