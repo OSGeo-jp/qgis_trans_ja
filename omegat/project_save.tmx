@@ -6985,8 +6985,8 @@
       <tuv lang="en-US">
         <seg>Besides common tags you can add to classify your PR, there are special ones you can use to automatically generate issue reports in QGIS-Documentation repository as soon as your pull request is merged:</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201118T231229Z" creationid="miurahr" creationdate="20201118T215647Z">
-        <seg>プルリクエストを分類するために追加できる共通のタグのほかに、プルリクエストがマージされるとすぐにQGIS-ドキュメントリポジトリ内の問題点レポートを自動的に生成するために使用できる特別なものがあります。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T234409Z" creationid="miurahr" creationdate="20201118T215647Z">
+        <seg>プルリクエストを分類する共通のタグのほかに、プルリクエストがマージされるとすぐにQGIS-ドキュメントリポジトリ内のIssueレポートを自動的に生成する特別なタグがあります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18153,8 +18153,8 @@
       <tuv lang="en-US">
         <seg>In some cases we will grant write access to non C++ developers e.g. for translators and documentors.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201118T224047Z" creationid="miurahr" creationdate="20201118T224047Z">
-        <seg>いくつかのケースでは、我々は、翻訳者とdocumentors用など非C ++開発者への書き込みアクセスを許可します。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T234947Z" creationid="miurahr" creationdate="20201118T224047Z">
+        <seg>翻訳者や文書作成者などの非C ++開発者への書き込みアクセスも、許可することがあります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18969,8 +18969,8 @@
       <tuv lang="en-US">
         <seg>In these cases, the person should still have demonstrated ability to submit patches and should ideally have submitted several substantial patches that demonstrate their understanding of modifying the code base without breaking things, etc.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201118T224047Z" creationid="miurahr" creationdate="20201118T224047Z">
-        <seg>これらのケースでは、人はまだパッチを提出する能力を実証している必要があり、理想的に物事を壊すことなく、コードベースを変更することの理解を示し、いくつかのかなりのパッチなどを提出している必要があります</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T235530Z" creationid="miurahr" creationdate="20201118T224047Z">
+        <seg>この場合でも、壊すことなくコードベースを変更する必要性の理解や、多数のパッチを提出した実績で、適切にパッチを提出できることを実証している必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -30835,8 +30835,8 @@ Generated-By: Babel 2.8.0</seg>
       <tuv lang="en-US">
         <seg>Special labels to notify documentors</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201118T215646Z" creationid="miurahr" creationdate="20201118T215646Z">
-        <seg>documentorsを通知する特別なラベル</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T234313Z" creationid="miurahr" creationdate="20201118T215646Z">
+        <seg>文書作者へ通知する特別なラベル</seg>
       </tuv>
     </tu>
     <tu>
@@ -34563,8 +34563,8 @@ Generated-By: Babel 2.8.0</seg>
       <tuv lang="en-US">
         <seg>The nominator should give a basic promotional paragraph of why they think that person should gain write access.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201118T224047Z" creationid="miurahr" creationdate="20201118T224047Z">
-        <seg>推薦は、彼らがその人が書き込みアクセス権を取得すべきだと思う理由の基本的なプロモーション段落を与える必要があります。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T234906Z" creationid="miurahr" creationdate="20201118T224047Z">
+        <seg>推薦された人は、彼らがその人が書き込みアクセス権を取得すべきだと考える理由について、基本的な推薦文を提出する必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -40387,8 +40387,8 @@ Generated-By: Babel 2.8.0</seg>
       <tuv lang="en-US">
         <seg>Typically when a person submits several (there is no fixed number here) substantial patches that demonstrate basic competence and understanding of C++ and QGIS coding conventions, one of the PSC members or other existing developers can nominate that person to the PSC for granting of write access.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201118T224047Z" creationid="miurahr" creationdate="20201118T224047Z">
-        <seg>人はC ++とQGISコーディング規約の基本的な能力と理解を示し、いくつかの（ここには一定の数が存在しない）かなりのパッチを提出する場合、通常、PSCのメンバーや他の既存の開発者の一人は、書き込みアクセスを許可するためのPSCにその人を指名できます。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T234758Z" creationid="miurahr" creationdate="20201118T224047Z">
+        <seg>PSCのメンバーや他の既存の開発者は、C ++とQGISコーディング規約への理解と基本的な能力を発揮して多数のパッチ（一定の基準はありません）を提出する人について、書き込みアクセスを許可するようにPSCに推薦することができます。</seg>
       </tuv>
     </tu>
     <tu>
