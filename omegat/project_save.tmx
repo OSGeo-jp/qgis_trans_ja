@@ -70,6 +70,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>(in C++ it's possible to just delete the item, however in Python ``del r`` would just delete the reference and the object will still exist as it is owned by the canvas)</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003554Z" creationid="miurahr" creationdate="20201118T003554Z">
+        <seg>（C ++ではアイテムを削除することだけ可能ですが、Pythonでは ``del r`` は参照を削除するだけでありオブジェクトはキャンバスの所有物なのでそのまま残ります）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>**ADDENDUM: How to use this License for your documents**</seg>
       </tuv>
       <tuv lang="ja">
@@ -1494,6 +1502,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>:term:`Authentication Configuration`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003359Z" creationid="miurahr" creationdate="20201118T003359Z">
+        <seg>:term:`認証設定`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:term:`Authentication Database`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003332Z" creationid="miurahr" creationdate="20201118T003332Z">
+        <seg>:term:`認証データベース`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>&lt;http://www.sentiernbtrail.com/&gt;`_ and the Trans Canada Trail.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222705Z" creationid="miurahr" creationdate="20201117T222705Z">
@@ -2126,6 +2150,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>A set of authentication data depending on :term:`Authentication Method`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003350Z" creationid="miurahr" creationdate="20201118T003350Z">
+        <seg>認証データの構成は :term:`認証メソッド` によって異なります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>A shape file containing the tiger signs and probable camera trap locations was prepared.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T225524Z" creationid="miurahr" creationdate="20201117T225524Z">
@@ -2146,6 +2178,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T133949Z" creationid="miurahr" creationdate="20201117T133949Z">
         <seg>GISの一部を構成するプログラムはGISアプリケーションと呼ばれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>A specific method used to get authenticated.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003401Z" creationid="miurahr" creationdate="20201118T003401Z">
+        <seg>認証されるためには特別な方法が利用されています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -2358,6 +2398,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Actions are created for activation of each tool: panning is done with :class:`QgsMapToolPan &lt;qgis.gui.QgsMapToolPan&gt;`, zooming in/out with a pair of :class:`QgsMapToolZoom &lt;qgis.gui.QgsMapToolZoom&gt;` instances.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003601Z" creationid="miurahr" creationdate="20201118T003601Z">
+        <seg>パンニングは :class:`QgsMapToolPan &lt;qgis.gui.QgsMapToolPan&gt;` で行い、ズームイン/ズームアウトは :class:`QgsMapToolZoom &lt;qgis.gui.QgsMapToolZoom&gt;` インスタンスのペアで行います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Activate edit mode (if it isn't already activated).</seg>
       </tuv>
       <tuv lang="ja">
@@ -2386,6 +2434,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T062745Z" creationid="miurahr" creationdate="20201117T061131Z">
         <seg>未除去の危険区域は赤で示されいます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Adapt plugins to use Authentication infrastructure</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003454Z" creationid="miurahr" creationdate="20201118T003454Z">
+        <seg>認証インフラストラクチャを使用するようにプラグインを適応させる</seg>
       </tuv>
     </tu>
     <tu>
@@ -2610,6 +2666,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123652Z" creationid="miurahr" creationdate="20201117T123652Z">
         <seg>新しいレイヤーのジオメトリと属性を定義したら、それをディスクに保存する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>After executing these commands, the canvas should show the layer you have loaded.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003539Z" creationid="miurahr" creationdate="20201118T003539Z">
+        <seg>これらのコマンドを実行した後、キャンバスには読み込んだレイヤーが表示されているはずです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3599,10 +3663,74 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Authentication Configuration</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003333Z" creationid="miurahr" creationdate="20201118T003333Z">
+        <seg>認証の設定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Authentication DB</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003332Z" creationid="miurahr" creationdate="20201118T003332Z">
+        <seg>認証DB</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Authentication Database</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003328Z" creationid="miurahr" creationdate="20201118T003328Z">
+        <seg>認証データベース</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Authentication Editor GUI</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003504Z" creationid="miurahr" creationdate="20201118T003504Z">
+        <seg>認証エディタのGUI</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Authentication GUIs</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003458Z" creationid="miurahr" creationdate="20201118T003458Z">
+        <seg>認証のGUI</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Authentication Method</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003400Z" creationid="miurahr" creationdate="20201118T003400Z">
+        <seg>認証方法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Authentication infrastructure</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003315Z" creationid="miurahr" creationdate="20201118T003315Z">
+        <seg>認証インフラストラクチャ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Author</seg>
       </tuv>
       <tuv lang="ja">
         <seg>著者</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Authorities Editor GUI</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003507Z" creationid="miurahr" creationdate="20201118T003507Z">
+        <seg>認証局エディタのGUI</seg>
       </tuv>
     </tu>
     <tu>
@@ -3619,6 +3747,22 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T091819Z" creationid="miurahr" creationdate="20201117T091819Z">
         <seg>自動接続スロットはダイアログがリファクタリングされている場合は、警告なしに破損し、脆弱となりやすいです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Available Authentication methods</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003419Z" creationid="miurahr" creationdate="20201118T003419Z">
+        <seg>利用可能な認証方法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Available authentication methods are:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003425Z" creationid="miurahr" creationdate="20201118T003425Z">
+        <seg>利用可能な認証方法</seg>
       </tuv>
     </tu>
     <tu>
@@ -4107,6 +4251,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T215652Z" creationid="miurahr" creationdate="20201117T215652Z">
         <seg>しかし、もちろん、詳細地図は今まだ林分境界もサンプルのプロットも表示していません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>By default, map canvas has black background and does not use anti-aliasing.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003533Z" creationid="miurahr" creationdate="20201118T003533Z">
+        <seg>デフォルトでは、地図キャンバスの背景色は黒でありアンチエイリアスは使用されません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4827,6 +4979,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>属性テーブルを閉じます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Code comments are important to understand the snippet.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003414Z" creationid="miurahr" creationdate="20201118T003414Z">
+        <seg>コードのコメントは、このコード例を理解するために重要です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6031,6 +6191,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Each method has its own protocol used to gain the authenticated level.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003401Z" creationid="miurahr" creationdate="20201118T003401Z">
+        <seg>各方法は、認証されるためにそれぞれ独自のプロトコルを利用しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Each method is implemented as shared library loaded dynamically during QGIS authentication infrastructure init.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003402Z" creationid="miurahr" creationdate="20201118T003402Z">
+        <seg>それぞれの方法は共有ライブラリとしてQGIS認証基盤の初期化中に動的にロードされるように実装されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Each one of these things would be a **feature** when we represent them in a GIS Application.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140715Z" creationid="miurahr" creationdate="20201117T140715Z">
@@ -6171,6 +6347,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T062310Z" creationid="miurahr" creationdate="20201117T062310Z">
         <seg>エドワード・クラウザーはデンマーク地雷除去グループ・アフガニスタンの副カントリーディレクターです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Embedding Map Canvas</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003528Z" creationid="miurahr" creationdate="20201118T003528Z">
+        <seg>地図キャンバスを埋め込む</seg>
       </tuv>
     </tu>
     <tu>
@@ -6435,6 +6619,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>:kbd:`パブリックスキーマ` を展開し、以前に使用していた3つのテーブルを見つける必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Expanding, means convert it from an identifier to a complete set of credentials.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003441Z" creationid="miurahr" creationdate="20201118T003441Z">
+        <seg>展開とは識別子から資格情報の完全なセットに変換することを意味します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7151,6 +7343,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>For example, to access a WMS service using stored credentials identified with ``authcfg = 'fm1s770'``, we just have to use the ``authcfg`` in the data source URL like in the following snippet:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003448Z" creationid="miurahr" creationdate="20201118T003448Z">
+        <seg>例えば、 ``authcfg = 'fm1s770'`` で識別保存された資格情報を使用してWMSサービスにアクセスするためには、次のコードのように、データ・ソースのURLに ``authcfg`` を使用する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>For example, you can obtain vector data that appears on the 1:50 000 map sheets from the Chief Directorate: Surveys and Mapping.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141004Z" creationid="miurahr" creationdate="20201117T141004Z">
@@ -7623,6 +7823,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>GUI to select credentials</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003500Z" creationid="miurahr" creationdate="20201118T003500Z">
+        <seg>資格情報を選択するためのGUI</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>General topics covered are basic introduction to the GIS and QGIS software , major tool bars, plug-in structure, geo-referencing, creation/editing of vector data, clip (Raster/Vector), merge, terrain analysis, contours, .csv to .shp layer, .shp to .kml and vice versa, handling GPS data, Interpolation, table editing/query, field calculator, print composer etc. and some basic analysis on vector data.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T225555Z" creationid="miurahr" creationdate="20201117T225555Z">
@@ -7739,6 +7947,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>グローバル定数とマクロは大文字のアンダースコア区切りなどで書かれる必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Glossary</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003325Z" creationid="miurahr" creationdate="20201118T003325Z">
+        <seg>用語集</seg>
       </tuv>
     </tu>
     <tu>
@@ -8055,6 +8271,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Here are some definition of the most common objects treated in this chapter.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003326Z" creationid="miurahr" creationdate="20201118T003326Z">
+        <seg>これはこの章で扱われる最も一般的なオブジェクトのいくつかの定義です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Here are some ideas for you to try with your learners:</seg>
       </tuv>
       <tuv lang="ja">
@@ -8083,6 +8307,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150321Z" creationid="miurahr" creationdate="20201117T150321Z">
         <seg>これは、人々オブジェクトが人々テーブルに何人いるかを教えてくれる代表的な例です:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Here is an example of a map tool that allows to define a rectangular extent by clicking and dragging on the canvas.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003612Z" creationid="miurahr" creationdate="20201118T003612Z">
+        <seg>キャンバスをクリックしてドラッグすることで矩形範囲を定義できる地図ツールの例を次に示します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8419,6 +8651,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201029T134551Z" creationid="miurahr" creationdate="20201029T134551Z">
         <seg>置換が存在しない場合、</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If not, please read the `overview of the framework &lt;https://doc.qt.io/qt-5/graphicsview.html&gt;`_.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003517Z" creationid="miurahr" creationdate="20201118T003517Z">
+        <seg>そうでない場合は `フレームワークの概要 &lt;https://doc.qt.io/qt-5/graphicsview.html&gt;`_ をお読みください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10039,6 +10279,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In the upper case, the ``wms`` provider will take care to expand ``authcfg`` URI parameter with credential just before setting the HTTP connection.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003449Z" creationid="miurahr" creationdate="20201118T003449Z">
+        <seg>上の場合には、 ``wms`` プロバイダーは、単にHTTP接続を設定する前に、資格を ``authcfg`` URIパラメーターを拡張するために世話をします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In these cases the left or right side is determined by the direction from the starting point to the end point of line during digitising.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141223Z" creationid="miurahr" creationdate="20201117T141223Z">
@@ -10107,6 +10355,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>このパネルでは、テーブルについての :guilabel:`一般情報` も、ジオメトリと空間参照系に関してPostGIS拡張が維持している情報を見ることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In this paragraph are listed the available GUIs useful to integrate authentication infrastructure in custom interfaces.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003459Z" creationid="miurahr" creationdate="20201118T003459Z">
+        <seg>この段落では、カスタムインターフェイスで認証インフラストラクチャを統合するために役立つ利用可能なGUIが記載されています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10243,6 +10499,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>索引</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Init the manager and set the master password</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003411Z" creationid="miurahr" creationdate="20201118T003411Z">
+        <seg>マネージャを初期化し、マスターパスワードを設定する</seg>
       </tuv>
     </tu>
     <tu>
@@ -10615,6 +10879,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>It uses the rubber band elements described before to show the selected rectangle as it is being defined.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003614Z" creationid="miurahr" creationdate="20201118T003614Z">
+        <seg>前述のラバーバンド要素を使用して、選択されている矩形が定義されていることを示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>It was a very enriching experience for them and also for the educational staff involved.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222128Z" creationid="miurahr" creationdate="20201117T222128Z">
@@ -10931,6 +11203,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>（初回のみ大文字だけでなく、固有名詞のための大文字を使用）、別のスペースを残して、セクションの名前を書きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Leave authcfg expansion to QgsAuthManager</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003439Z" creationid="miurahr" creationdate="20201118T003439Z">
+        <seg>QgsAuthManagerにauthcfg展開を残す</seg>
       </tuv>
     </tu>
     <tu>
@@ -11263,6 +11543,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Logging</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003713Z" creationid="miurahr" creationdate="20201118T003713Z">
+        <seg>ログを作成する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Longitude</seg>
       </tuv>
       <tuv lang="ja">
@@ -11411,6 +11699,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>:ref:`執筆のためのガイドライン &lt;QGIS-documentation-guidelines&gt;` に従いながら修正を行います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Manage PKI bundles with QgsPkiBundle</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003434Z" creationid="miurahr" creationdate="20201118T003434Z">
+        <seg>QgsPkiBundleでPKIバンドルを管理する</seg>
       </tuv>
     </tu>
     <tu>
@@ -11651,6 +11947,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T122900Z" creationid="miurahr" creationdate="20201117T122900Z">
         <seg>Marcelleはまた、 Linfiniti Consulting CCの創立メンバーです。 </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Master Password</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003327Z" creationid="miurahr" creationdate="20201118T003327Z">
+        <seg>マスターパスワード</seg>
       </tuv>
     </tu>
     <tu>
@@ -11975,6 +12279,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Name</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003720Z" creationid="miurahr" creationdate="20201118T003720Z">
+        <seg>名前</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Name of the map projection in detail</seg>
       </tuv>
       <tuv lang="ja">
@@ -12255,6 +12567,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Note that points for polygon is not a plain list: in fact, it is a list of rings containing linear rings of the polygon: first ring is the outer border, further (optional) rings correspond to holes in the polygon.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003544Z" creationid="miurahr" creationdate="20201118T003544Z">
+        <seg>ポリゴンの点が普通のリストではないことに注意してください。実際には、ポリゴンの線状のリングを含有するリングのリストです：最初のリングは外側の境界であり、さらに（オプションの）リングはポリゴンの穴に対応します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Note that some of them cover areas that are not interesting.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T215722Z" creationid="miurahr" creationdate="20201117T215722Z">
@@ -12347,6 +12667,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>ここですべての林分について推定される体積合計および茎数合計を持つフィールドを計算します：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Now it is time to add some map layers.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003536Z" creationid="miurahr" creationdate="20201118T003536Z">
+        <seg>それでは、地図レイヤを追加していきましょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13399,6 +13727,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>PKI examples with other data providers</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003453Z" creationid="miurahr" creationdate="20201118T003453Z">
+        <seg>他のデータプロバイダーとPKIの例</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>PPC/source note</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T114333Z" creationid="miurahr" creationdate="20201117T114333Z">
@@ -13427,6 +13763,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T225552Z" creationid="miurahr" creationdate="20201117T225552Z">
         <seg>参加者は、作業に利用可能な場合、独自または部門別データを持参することが奨励されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Password to allow access and decrypt credential stored in the QGIS Authentication DB</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003328Z" creationid="miurahr" creationdate="20201118T003328Z">
+        <seg>アクセスを許可し、QGIS認証DBに保存された資格情報を復号化するパスワードです</seg>
       </tuv>
     </tu>
     <tu>
@@ -13651,6 +13995,22 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140823Z" creationid="miurahr" creationdate="20201117T140823Z">
         <seg>小縮尺（左 1:20 000）で見てポリラインが滑らかに湾曲し表示されることがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Populate Authorities</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003434Z" creationid="miurahr" creationdate="20201118T003434Z">
+        <seg>認証局の導入</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Populate authdb with a new Authentication Configuration entry</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003414Z" creationid="miurahr" creationdate="20201118T003414Z">
+        <seg>認証データベースに新しい認証構成項目を設定する</seg>
       </tuv>
     </tu>
     <tu>
@@ -14139,6 +14499,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T113958Z" creationid="miurahr" creationdate="20201117T113958Z">
         <seg>QGS/QGZ-QGISプロジェクトファイルフォーマット</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>QgsAuthManager the entry point</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003403Z" creationid="miurahr" creationdate="20201118T003403Z">
+        <seg>エントリポイントQgsAuthManager</seg>
       </tuv>
     </tu>
     <tu>
@@ -14771,6 +15139,22 @@
       </tuv>
       <tuv lang="ja">
         <seg>テーブルの行は **レコード** と呼ばれます</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Rubber Bands and Vertex Markers</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003540Z" creationid="miurahr" creationdate="20201118T003540Z">
+        <seg>ラバーバンドと頂点マーカー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Rubber bands allow some customization, namely to change their color and line width</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003545Z" creationid="miurahr" creationdate="20201118T003545Z">
+        <seg>ラバーバンドはいくらかカスタマイズできます、すなわち、その色と線幅を変更することがが可能です</seg>
       </tuv>
     </tu>
     <tu>
@@ -16703,6 +17087,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The ``False`` parameter is important to avoid URI complete expansion of the ``authcfg`` id present in the URI.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003451Z" creationid="miurahr" creationdate="20201118T003451Z">
+        <seg>``False`` パラメーターは、URIで ``authcfg`` IDの存在のURI完全な展開を避けるために重要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The `git project &lt;https://git-scm.com/&gt;`_ has a downloadable build of git.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T114301Z" creationid="miurahr" creationdate="20201117T114227Z">
@@ -16723,6 +17115,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222404Z" creationid="miurahr" creationdate="20201117T222404Z">
         <seg>インターネットサービスなどの最新技術への学外の学生のアクセスはいろいろ異なっています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The actions are set as checkable and later assigned to the tools to allow automatic handling of checked/unchecked state of the actions -- when a map tool gets activated, its action is marked as selected and the action of the previous map tool is deselected.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003602Z" creationid="miurahr" creationdate="20201118T003602Z">
+        <seg>アクションはチェック可能に設定されており、後からツールに割り当てられ、アクションのチェック済み/チェック解除状態の自動処理を可能にします -- 地図ツールがアクティブになると、そのアクションは選択されたと印が付き、前の地図ツールのアクションは選択解除されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16863,6 +17263,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The best practice to use stored :term:`Authentication Config`\s, is to leave it managed automatically by the Authentication manager.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003442Z" creationid="miurahr" creationdate="20201118T003442Z">
+        <seg>保存された :term:`認証config`\s を利用する最良の方法は 認証マネージャによって自動的に管理されたままにすることです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The best way to use an :term:`Authentication Config` stored in the :term:`Authentication DB` is referring it with the unique identifier ``authcfg``.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003440Z" creationid="miurahr" creationdate="20201118T003440Z">
+        <seg>:term:`認証DB` に保存されている  :term:`認証config` を利用する最良の方法は一意の識別子 ``authcfg`` を参照するやり方です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The bird diversity of NTR is also quite impressive and more than 370 bird species have been identified so far.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T225430Z" creationid="miurahr" creationdate="20201117T225430Z">
@@ -16915,6 +17331,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124912Z" creationid="miurahr" creationdate="20201117T124912Z">
         <seg>結合後の著作本ライセンスのコピーが含まれているのみ必要とし、複数の同一の不変のセクションは、単一のコピーで置き換えることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The common use of a stored configuration is to connect to an authentication enabled service like a WMS or WFS or to a DB connection.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003443Z" creationid="miurahr" creationdate="20201118T003443Z">
+        <seg>保存された構成の一般的な用途は、WMSまたはWFSまたはDBの接続時の認証を行いサービスに接続することです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17207,6 +17631,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The following example constructs a window that contains a map canvas and basic map tools for map panning and zooming.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003600Z" creationid="miurahr" creationdate="20201118T003600Z">
+        <seg>以下の例では、地図キャンバスと、地図のパンニングとズームのための基本的な地図ツールを含むウィンドウを作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The following snippet gives an example to set master password to open the access to the authentication settings.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003412Z" creationid="miurahr" creationdate="20201118T003412Z">
+        <seg>次のコード例は、認証設定へのアクセスを開くために、マスターパスワードを設定する例を示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The footpaths in and around the school</seg>
       </tuv>
       <tuv lang="ja">
@@ -17343,6 +17783,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The implementation is based on the Qt Graphics View framework.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003514Z" creationid="miurahr" creationdate="20201118T003514Z">
+        <seg>実装は Qt Graphics View フレームワークに基づいています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The importance of using properly georeferenced raster images for heads-up digitising.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124013Z" creationid="miurahr" creationdate="20201117T124013Z">
@@ -17447,6 +17895,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The map canvas is implemented with the :class:`QgsMapCanvas &lt;qgis.gui.QgsMapCanvas&gt;` class in the :mod:`qgis.gui` module.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003513Z" creationid="miurahr" creationdate="20201118T003513Z">
+        <seg>マップキャンバスは、 :mod:`qgis.gui` モジュール内の :class:`QgsMapCanvas &lt;qgis.gui.QgsMapCanvas&gt;` クラスで実装されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The map scale on the left is 1:25,000.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135743Z" creationid="miurahr" creationdate="20201117T135743Z">
@@ -17467,6 +17923,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135654Z" creationid="miurahr" creationdate="20201117T135654Z">
         <seg>地図のタイトルは、たいてい読者が地図上で見る最初のものですので、非常に重要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The map tools are activated using :meth:`setMapTool() &lt;qgis.gui.QgsMapCanvas.setMapTool&gt;` method.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003603Z" creationid="miurahr" creationdate="20201118T003603Z">
+        <seg>地図ツールは :meth:`setMapTool() &lt;qgis.gui.QgsMapCanvas.setMapTool&gt;` メソッドを使って起動します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18255,6 +18719,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Then we will set the canvas extent and set the list of layers for the canvas.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003538Z" creationid="miurahr" creationdate="20201118T003538Z">
+        <seg>次に、キャンバスの範囲を設定し、キャンバスのレイヤのリストを設定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Then:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T145746Z" creationid="miurahr" creationdate="20201117T145746Z">
@@ -18775,6 +19247,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This chapter describes the best practices to use the Authentication system from a developer perspective.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003318Z" creationid="miurahr" creationdate="20201118T003318Z">
+        <seg>この章では、開発者の観点から、認証システムを使用するベストプラクティスについて説明します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This characteristic of the NDSI indicates the need to incorporate a water mask at some stage in the model.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222544Z" creationid="miurahr" creationdate="20201117T222544Z">
@@ -18855,6 +19335,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This framework generally provides a surface and a view where custom graphics items are placed and user can interact with them.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003516Z" creationid="miurahr" creationdate="20201118T003516Z">
+        <seg>このフレームワークは一般的に、カスタムグラフィックスアイテムが配置され、ユーザがそれらを操作することができるサーフェスとビューを提供します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This functionality was used to create a library of standardized workflows (with instructions) for performing common but complex tasks related to EO data analysis within water resource management.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T221956Z" creationid="miurahr" creationdate="20201117T221956Z">
@@ -18867,6 +19355,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>これは、ダイアログの残りの部分には影響しませんが、それは、ベクターデータセットが作成されたときにジオメトリの正しいタイプが使用されるようになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This helper class can be used as in the following snippet:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003457Z" creationid="miurahr" creationdate="20201118T003457Z">
+        <seg>このヘルパークラスは、次のコードのように使用できます：</seg>
       </tuv>
     </tu>
     <tu>
@@ -19727,6 +20223,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>To set white background and enable anti-aliasing for smooth rendering</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003534Z" creationid="miurahr" creationdate="20201118T003534Z">
+        <seg>背景を白に設定し、投影をなめらかにするためのアンチエイリアスを有効にするには</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>To show a polygon</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003543Z" creationid="miurahr" creationdate="20201118T003543Z">
+        <seg>ポリゴンを表示するには</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>To start this section, write the markup phrase of the intended difficulty level (as shown above).</seg>
       </tuv>
       <tuv lang="ja">
@@ -19739,6 +20251,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123623Z" creationid="miurahr" creationdate="20201117T123623Z">
         <seg>GISアプリケーションでは、このような実習から収集したデータを格納するためには、おそらく点ジオメトリを持つGISレイヤーを作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>To summarize, the map canvas architecture consists of three concepts:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003522Z" creationid="miurahr" creationdate="20201118T003522Z">
+        <seg>要約すると、地図キャンバスアーキテクチャは３つのコンセプトからなります：</seg>
       </tuv>
     </tu>
     <tu>
@@ -20327,6 +20847,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>User reference of the Authentication infrastructure can be read in the  User Manual in the :ref:`authentication_overview` paragraph.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003317Z" creationid="miurahr" creationdate="20201118T003317Z">
+        <seg>認証基盤のユーザーリファレンスはユーザーマニュアル中で :ref:`authentication_overview` 段落を参照して下さい。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Using Git command line tools</seg>
       </tuv>
       <tuv lang="ja">
@@ -20339,6 +20867,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T225548Z" creationid="miurahr" creationdate="20201117T225548Z">
         <seg>Googleアースプラグインを使用してLULCマップを準備するために導入されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Using Map Tools with Canvas</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003559Z" creationid="miurahr" creationdate="20201118T003559Z">
+        <seg>地図キャンバスで地図ツールを使用する</seg>
       </tuv>
     </tu>
     <tu>
@@ -20459,6 +20995,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>GitHub のウェブインタフェースを使用する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Using the Map Canvas</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003510Z" creationid="miurahr" creationdate="20201118T003510Z">
+        <seg>マップキャンバスを使う</seg>
       </tuv>
     </tu>
     <tu>
@@ -20847,6 +21391,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>We can remove an entry from :term:`Authentication Database` using it's ``authcfg`` identifier with the following snippet:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003438Z" creationid="miurahr" creationdate="20201118T003438Z">
+        <seg>以下が :term:`認証データベース` からエントリをその ``authcfg`` 識別子を使用して削除するコード例です：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>We can see the effect of a poorly georeferenced image in figure_georeference_issue_.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124012Z" creationid="miurahr" creationdate="20201117T124012Z">
@@ -21039,6 +21591,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>We will assume that you are familiar enough with Qt to understand the concepts of the graphics scene, view and items.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003517Z" creationid="miurahr" creationdate="20201118T003517Z">
+        <seg>ここでは、グラフィックスシーン、ビュー、アイテムの概念を理解できるほどQtに精通していることを前提とします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>We will be looking at raster data in greater detail in later tutorials.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135140Z" creationid="miurahr" creationdate="20201117T135140Z">
@@ -21051,6 +21611,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140831Z" creationid="miurahr" creationdate="20201117T140831Z">
         <seg>このチュートリアルの後の :ref:`gentle_gis_topology` トピックではこれについて見ていきます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>We will first open a layer and add it to the current project.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003537Z" creationid="miurahr" creationdate="20201118T003537Z">
+        <seg>まずレイヤを開いて、現在のプロジェクトに追加します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21347,6 +21915,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140321Z" creationid="miurahr" creationdate="20201117T140321Z">
         <seg>画像がスクリーンに表示されたりプリントアウトされたりすると、赤、緑、青（RGB）の情報が組み合わされて、目に見える画像が表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>When the rectangle is defined, it prints its boundary coordinates in the console.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003613Z" creationid="miurahr" creationdate="20201118T003613Z">
+        <seg>矩形が定義されると、境界座標がコンソールに表示されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21963,6 +22539,22 @@
       </tuv>
       <tuv lang="ja">
         <seg>80個のマイナス/ハイフン（ :kbd:`-` ）の新しい行に続いて、「次は」のための語句 :kbd:`|WN|` を書きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Writing Custom Map Canvas Items</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003615Z" creationid="miurahr" creationdate="20201118T003615Z">
+        <seg>カスタム地図キャンバスアイテムを書く</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Writing Custom Map Tools</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003606Z" creationid="miurahr" creationdate="20201118T003606Z">
+        <seg>カスタム地図ツールを書く</seg>
       </tuv>
     </tu>
     <tu>
@@ -22919,6 +23511,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>``Basic`` User and password authentication</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003427Z" creationid="miurahr" creationdate="20201118T003427Z">
+        <seg>``Basic`` ユーザーとパスワード認証</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>``Boolean`` - to store simple true/false values</seg>
       </tuv>
       <tuv lang="ja">
@@ -22943,10 +23543,34 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>``Identity-Cert`` Identity certificate authentication</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003430Z" creationid="miurahr" creationdate="20201118T003430Z">
+        <seg>``Identity-Cert`` アイデンティティ証明書認証</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>``Integer`` - to store whole numbers</seg>
       </tuv>
       <tuv lang="ja">
         <seg>``Integer`` - 整数を格納します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>``PKI-PKCS#12`` PKI PKCS#12 authentication</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003433Z" creationid="miurahr" creationdate="20201118T003433Z">
+        <seg>``PKI-PKCS＃12`` PKI PKCS＃12認証</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>``PKI-Paths`` PKI paths authentication</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003432Z" creationid="miurahr" creationdate="20201118T003432Z">
+        <seg>``PKI-Paths`` PKIパス認証</seg>
       </tuv>
     </tu>
     <tu>
@@ -23247,6 +23871,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>and can be used as in the following snippet:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003502Z" creationid="miurahr" creationdate="20201118T003502Z">
+        <seg>そして次のコードのように使用できます：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>and so on....</seg>
       </tuv>
       <tuv lang="ja">
@@ -23283,6 +23915,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>ブランチを作成、更新または削除する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>e.g Basic authentication method stores the couple of user/password.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003347Z" creationid="miurahr" creationdate="20201118T003347Z">
+        <seg>例えばベーシック認証の場合は、ユーザー/パスワードの対が格納されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23379,6 +24019,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>複数のコピーが時間につれて違いを進化させること、したがって他人が理解して維持管理するのを難しくすること、がより起こりにくくします</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>map canvas --- for viewing of the map</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T003525Z" creationid="miurahr" creationdate="20201118T003525Z">
+        <seg>map canvas --- 地図の可視化</seg>
       </tuv>
     </tu>
     <tu>
