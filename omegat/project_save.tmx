@@ -6455,6 +6455,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Attention: After a rebase you need to ``git push -f`` to your forked repo.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T231127Z" creationid="miurahr" creationdate="20201118T231127Z">
+        <seg>注意: rebase後、フォークした自分のリポジトリに  ``git push -f`` する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Attention: After a rebase you need to ``git push -f`` to your forked repo. **CORE DEVS: DO NOT DO THIS ON THE QGIS PUBLIC REPOSITORY!**</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T224028Z" creationid="miurahr" creationdate="20201118T224028Z">
@@ -6977,8 +6985,8 @@
       <tuv lang="en-US">
         <seg>Besides common tags you can add to classify your PR, there are special ones you can use to automatically generate issue reports in QGIS-Documentation repository as soon as your pull request is merged:</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201118T215647Z" creationid="miurahr" creationdate="20201118T215647Z">
-        <seg>PRを分類するために追加できる共通のタグのほかに、プル要求がマージされるとすぐにQGIS-ドキュメントリポジトリ内の問題点レポートを自動的に生成するために使用できる特別なものがあります。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T231229Z" creationid="miurahr" creationdate="20201118T215647Z">
+        <seg>プルリクエストを分類するために追加できる共通のタグのほかに、プルリクエストがマージされるとすぐにQGIS-ドキュメントリポジトリ内の問題点レポートを自動的に生成するために使用できる特別なものがあります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12111,6 +12119,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Filling a good description in your PR will be a good start.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T231212Z" creationid="miurahr" creationdate="20201118T231212Z">
+        <seg>プルリクエストに良い説明を記入することは良いスタートになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Filtering</seg>
       </tuv>
       <tuv lang="ja">
@@ -15963,6 +15979,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T015744Z" creationid="miurahr" creationdate="20201118T015744Z">
         <seg>初心者レベルのユーザーはここで止めた方が良いかもしれません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If you are a developer and wish to evaluate the pull request queue, there is a very nice `tool that lets you do this from the command line &lt;https://changelog.com/posts/git-pulls-command-line-tool-for-github-pull-requests&gt;`_</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T231022Z" creationid="miurahr" creationdate="20201118T231022Z">
+        <seg>あなたが開発者であり、プルリクエストを評価したい場合に、`コマンドラインで作業できる非常に良いツール &lt;https://changelog.com/posts/git-pulls-command-line-tool-for-github-pull-requests&gt;`_があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -46977,10 +47001,18 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>``[feature]`` in case of new functionality.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T231153Z" creationid="miurahr" creationdate="20201118T231153Z">
+        <seg>``[feature]`` 新機能の場合。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>``[needs-docs]`` to instruct doc writers to please add some extra documentation after a fix or addition to an already existing functionality.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201118T215648Z" creationid="miurahr" creationdate="20201118T215648Z">
-        <seg>``[needs-docs]`` 既存の機能に修正や追加した後、いくつかの余分なドキュメントを追加してくださいとお願いするドキュメントライターを指示します。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T231310Z" creationid="miurahr" creationdate="20201118T215648Z">
+        <seg>``[needs-docs]`` 既存の機能に修正や追加した後、ドキュメント作者にドキュメント追加を依頼する。</seg>
       </tuv>
     </tu>
     <tu>
