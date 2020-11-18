@@ -1,0 +1,279 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|LS| Install QGIS Server</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|LS| QGISサーバーをインストールする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moderate| |FA| Install from packages</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moderate| |FA| パッケージからインストールする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Install QGIS Server with:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISサーバーを以下でインストールします:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moderate| |FA| QGIS Server Executable</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moderate| |FA| QGISサーバー実行可能ファイル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The QGIS Server executable is ``qgis_mapserv.fcgi``.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISサーバー実行可能ファイルは、 ``qgis_mapserv.fcgi`` です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can check where it has been installed by running ``find / -name 'qgis_mapserv.fcgi'`` which should output something like ``/usr/lib/cgi-bin/qgis_mapserv.fcgi``.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``/usr/lib/cgi-bin/qgis_mapserv.fcgi`` のような何かを出力する ``find / -name 'qgis_mapserv.fcgi'`` を実行して、どこにインストールされたかを確認できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Optionally, if you want to do a command line test at this time you can run the ``/usr/lib/cgi-bin/qgis_mapserv.fcgi`` command which should output something like:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この時点では、コマンドラインのテストを行いたい場合は、オプションで ``/usr/lib/cgi-bin/qgis_mapserv.fcgi``  コマンドを実行できます、出力は何かこのようなはずである：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This is a good thing, it tells you we're on the right track as the server is saying that we haven't asked for a supported service.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは良いことです、私たちがサポートされているサービスを求めていないことをサーバーが言っているので、私たちが正しい軌道にいると告げています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We'll see later on how to make WMS requests.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>WMSリクエストを作成する方法は後で見ます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|FA| HTTP Server Configuration</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|FA| HTTPサーバー構成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In order to access on the installed QGIS server from an Internet Browser we need to use an HTTP server.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>インターネットブラウザからインストールされたQGISサーバー上にアクセスするためには、HTTPサーバーを使用する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In the :file:`/etc/apache2/sites-available` directory let's create a file called :file:`qgis.demo.conf`, with this content:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:file:`/etc/apache2/sites-available` ディレクトリ中に :file:`qgis.demo.conf` と呼ばれるファイルを、以下の内容で作成してみましょう：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>See some of the configuration options are explained in the Server :ref:`server_env_variables` section.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`server_env_variables` セクションの構成オプションのいくつかのサーバーで説明されているを参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Let's now create the directories that will store the QGIS Server logs and the authentication database:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>今度はQGISサーバーのログと認証データベースを格納するディレクトリを作成してみましょう：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``www-data`` is the Apache user on Debian based systems and we need Apache to have access to those locations or files.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``WWW-data`` は、Debianベースのシステム上のApacheのユーザーであり、それらの場所やファイルへのアクセス権を持っているようにApacheを必要としています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The ``chown www-data...`` commands changes the owner of the respective directories and files to ``www-data``.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``chown www-data...`` コマンド ``www-data`` にそれぞれのディレクトリとファイルの所有者を変更します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We can now enable the `virtual host &lt;https://httpd.apache.org/docs/2.4/vhosts&gt;`_, enable the ``fcgid`` mod if it's not already enabled and restart the ``apache2`` service:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これで `仮想ホスト &lt;https://httpd.apache.org/docs/2.4/vhosts&gt;`_ を有効にできますので、 ``fcgid`` mod がまだ有効になっていない場合は有効にして ``apache2`` サービスを再起動します：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you installed QGIS Server without running an X Server (included in Linux Desktop) and if you also want to use the ``GetPrint`` command then you should install a fake X Server and tell QGIS Server to use it.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>（Linuxのデスクトップに含まれる）Xサーバーを実行せずにQGISサーバーをインストールし、また、 ``GetPrint`` コマンドを使用する場合、偽のX Serverをインストールし、それを使用するQGISサーバーに指示する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can do that by running the following commands.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次のコマンドを実行して、それを行うことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Install xvfb:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>xvfbをインストール:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Create the service file:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>サービスファイルを作成します：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Enable, start and check the status of the ``xvfb.service``:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``xvfb.service`` の状態を有効にし、開始し、チェックします：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We can test one of the installed qgis servers with a http request from command line with ``curl http://qgis.demo/cgi-bin/qgis_mapserv.fcgi`` which should output:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>私たちは、 ``curl http://qgis.demo/cgi-bin/qgis_mapserv.fcgi`` を使用して、コマンドラインからのHTTPリクエストと一緒にインストールされたQGISサーバーのいずれかをテストできます、出力はこうなるべき：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Apache is now configured.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これでApache が構成されました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moderate| |FA| Create another virtual host</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moderate| |FA| 別の仮想ホストを作成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Let's create another Apache virtual host pointing to QGIS Server.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISサーバーを指す別のApacheの仮想ホストを作成してみましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can choose whatever name you like (``coco.bango``, ``super.duper.training``, ``example.com``, etc.) but for simplicity sake we're going to use ``myhost``.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>好きな名前を選択できます（ ``coco.bango`` 、 ``super.duper.training`` 、 ``example.com``、など）が、単純化のために ``myhost`` を使用するつもりです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We can check that ``myhost`` points to the localhost by running in the terminal the  ``ping myhost`` command which should output:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ターミナルで ``ping myhost`` コマンドを実行することによって、 ``myhost`` がlocalhostを指していることを確認できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Let's try if we can access QGIS Server from the ``myhost`` site by doing: ``curl http://myhost/cgi-bin/qgis_mapserv.fcgi`` or by accessing the url from your Debian box browser.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``curl http://myhost/cgi-bin/qgis_mapserv.fcgi`` したり、DebianのボックスブラウザからURLにアクセスすることによって、 ``myhost`` サイトからQGISサーバーにアクセスできるかどうか試してみましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You will probably get:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>おそらく得られるのは：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you try again to access the http://myhost/cgi-bin/qgis_mapserv.fcgi url you'll notice everything is working now!</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>再度 http://myhost/cgi-bin/qgis_mapserv.fcgi  URLにアクセスするために試してみると、すべてが今稼働していることに気づくでしょう！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|IC|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|IC|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You learned how to install different QGIS Server versions from packages, how to configure Apache with QGIS Server, on Debian based Linux distros.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>DebianベースのLinuxディストリビューション上で、QGISサーバーでApacheを設定する方法を、パッケージから異なるQGISサーバーのバージョンをインストールする方法を学びました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|WN|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|WN|</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

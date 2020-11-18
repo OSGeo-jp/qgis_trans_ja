@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|MOD| Rasters</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|MOD| ラスター</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We've used rasters for digitizing before, but raster data can also be used directly.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>以前デジタイズするためにラスターを使用しましたが、ラスターデータは直接使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In this module, you'll see how it's done in QGIS.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このモジュールでは、どのようにしてQGISで行うのかがわかります。</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

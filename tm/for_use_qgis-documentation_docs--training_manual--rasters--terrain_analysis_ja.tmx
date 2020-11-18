@@ -1,0 +1,327 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|LS| Terrain Analysis</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|LS| 地形解析</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Certain types of rasters allow you to gain more insight into the terrain that they represent.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ある種のラスターからはそれが表す地形の洞察をより多く得ることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Digital Elevation Models (DEMs) are particularly useful in this regard.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>数値標高モデル(DEM)がこの点では特に有用です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In this lesson you will use terrain analysis tools to find out more about the study area for the proposed residential development from earlier.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このレッスンでは先ほどからの住宅開発案の調査地域についてより詳しく調べるのに地形解析ツールを使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**The goal for this lesson:** To use terrain analysis tools to derive more information about the terrain.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**このレッスンの目標:** 地形に関する詳細な情報を取得するために地形解析ツールを使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| |FA| Calculating a Hillshade</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| |FA| 陰影起伏を計算する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You will now have a new layer called :guilabel:`hillshade` that looks like this:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`hillshade` と呼ばれる新しいレイヤーが次のように表示されます:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>That looks nice and 3D, but can we improve on this? On its own, the hillshade looks like a plaster cast. Can't we use it together with our other, more colorful rasters somehow? Of course we can, by using the hillshade as an overlay.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>きれいで3次元的に見えますが、これは改善できるでしょうか? 陰影図はそれだけでは石膏模型のように見えます。どうにかしてそれを他のよりカラフルなラスターと一緒に使用できないでしょうか? もちろんできます。オーバーレイとして陰影図を使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| |FA| Using a Hillshade as an Overlay</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| |FA| 陰影図をオーバーレイとして使用する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A hillshade can provide very useful information about the sunlight at a given time of day.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>陰影図は一日のある時点の日光について非常に有用な情報を提供することができますが審美的な目的で使うこともできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>But it can also be used for aesthetic purposes, to make the map look better.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それを使えば地図をよりよく見せることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The key to this is setting the hillshade to being mostly transparent.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>陰影図をほとんど透過させる設定がその鍵となります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Set the :guilabel:`Global opacity` to ``50%``.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`全体の不透明度` を :kbd:`50%` に設定します:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Using a hillshade in this way, it's possible to enhance the topography of the landscape.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このように陰影図を使用すると景観の地形を誇張することが可能です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If the effect doesn't seem strong enough to you, you can change the transparency of the :guilabel:`hillshade` layer; but of course, the brighter the hillshade becomes, the dimmer the colors behind it will be.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>その効果があなたにとって十分な強さだと思えない場合には、 :guilabel:`hillshade` レイヤーの透明度を変更すればよいですが、もちろん、陰影起伏がより明るくなるほど、その背後の色は薄暗くなります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You will need to find a balance that works for you.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ちょうど良いバランスを見つける必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moderate| |FA| Calculating the Slope</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moderate| |FA| 傾斜の計算</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Another useful thing to know about the terrain is how steep it is.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>地形の傾斜がどれほど急であるかを知るのも有用なことです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If, for example, you want to build houses on the land there, then you need land that is relatively flat.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>たとえば、土地に家を建てたい場合には比較的平坦な土地が必要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Check your results &lt;raster-analysis-1&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`結果をチェックする &lt;raster-analysis-1&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moderate| |FA| Using the Raster Calculator</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moderate| |FA| ラスター計算機の使用</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Fortunately, you already have rasters showing you the slope as well as the aspect, but you have no way of knowing where both conditions are satisfied at once.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>幸いにも、あなたは既に斜面方位だけではなく傾斜を示すラスターを持っていますが、両方の条件が同時に満たされている場所を知る方法がありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>How could this analysis be done?</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この分析はどのように行うことができるでしょうか?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The answer lies with the :guilabel:`Raster calculator`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>その答えは :guilabel:`ラスター計算機` です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Your result will be this:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>あなたの結果はこのようになります:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Check your results &lt;raster-analysis-2&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`結果をチェックする &lt;raster-analysis-2&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moderate| |FA| Combining Raster Analysis Results</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moderate| |FA| ラスター分析結果を組み合わせる</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To calculate the areas that satisfy these criteria:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これらの抽出条件を満たすエリアを計算します:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The result:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>結果：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moderate| |FA| Simplifying the Raster</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moderate| |FA| ラスターを簡素化する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Your output looks like this:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>出力はこのようになります:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This is what was expected: a simplified version of the earlier results.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは期待されたもので、以前の結果を簡素化したものです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Remember that if the results you get from a tool aren't what you expected, viewing the metadata (and vector attributes, if applicable) can prove essential to solving the problem.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>あなたが得た結果が期待したものでない場合は、メタデータ(および該当する場合はベクターの属性)を見ると問題を解決するための要点がわかることを覚えておいて下さい。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|IC|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|IC|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You've seen how to derive all kinds of analysis products from a DEM.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>DEMから様々な種類の分析結果を取り出す方法を見てきました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>These include hillshade, slope and aspect calculations.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>陰影起伏や傾斜、斜面方位の計算をしました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You've also seen how to use the raster calculator to further analyze and combine these results.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>またこれらの結果をさらに分析し結合するためにラスタ計算機の使用方法を見てきました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Finally you learned how to reclassify a layer and how to query the results.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>最後に、レイヤを再分類する方法と結果をクエリする方法を学びました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|WN|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|WN|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now you have two analyses: the vector analysis which shows you the potentially suitable plots, and the raster analysis that shows you the potentially suitable terrain. How can these be combined to arrive at a final result for this problem? That's the topic for the next lesson, starting in the next module.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>２つの分析結果が得られました：潜在的に適した小地所を示すベクター分析の結果と潜在的に適した地形を示すラスター分析の結果です。この問題の最終的な結果に到達するためにどのようにこれらを組み合わせるか？それが次のレッスンのトピックです。次のモジュールで始まります。</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

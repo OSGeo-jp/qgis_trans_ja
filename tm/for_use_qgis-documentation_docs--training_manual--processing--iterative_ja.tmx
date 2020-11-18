@@ -1,0 +1,239 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Iterative execution of algorithms</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>アルゴリズムの反復実行</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This lesson shows a different way of executing algorithms that use vector layers, by running them repeatedly, iterating over the features in an input vector layer</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このレッスンでは、入力ベクターレイヤー中の地物について繰り返してそれらを何度も実行して、ベクターレイヤーを使用するアルゴリズムを実行する別の方法を示しています</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We already know the graphical modeler, which is one way of automating processing tasks.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>すでにグラフィカルなモデラーを知っていますが、これは処理タスクを自動化する一つの方法です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>However, in some situations, the modeler might not be what we need to automate a given task.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>しかし、状況によっては、モデラーが与えられたタスクを自動化するために必要なものではないかもしれません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Let's see one of those situations and how to easily solve it using a different functionality: the iterative execution of algorithms.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>そのような状況のひとつと、別の機能、アルゴリズムの反復実行、を使用することでそれをどのように簡単に解決するかを見てみましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Open the data corresponding to this chapter.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この章に対応するデータを開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It should look like this.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それは次のようになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You will recognize our well-known DEM from previous chapters and a set of watersheds extracted from it.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>前の章からのよくわかっているDEMとそれから抽出された流域のセットを認識します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Imagine that you need to cut the DEM into several smaller layers, each of them containing just the elevation data corresponding to a single watershed.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それらのそれぞれは、単一の流域に対応するだけの標高データを含む、いくつかの小さなレイヤーにDEMをカットする必要があることを想像してみてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>That will be useful if you later want to calculate some parameters related to each watershed, such as its mean elevation or it hypsographic curve.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>後で、そのようなその平均標高または面積高度曲線として、各流域に関連するいくつかのパラメーターを計算したい場合には有用であろう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This can be a lengthy and tedious task, especially if the number of watersheds is large.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは、流域の数が多い場合は特に、長くて退屈な作業になることがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>However, it is a task that can be easily automated, as we will see.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>しかし、それはこれからご覧になるように簡単に自動化できる作業です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The algorithm to use for clipping a raster layer with a polygon layer is called *Clip raster with polygons*, and has the following parameters dialog.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ポリゴンレイヤーでラスターレイヤーをクリップするために使用するアルゴリズムは、*ポリゴンでラスターをクリップ* と呼ばれ、以下のパラメーター]ダイアログボックスを持っています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can run it using the watersheds layer and the DEM as input, and you will get the following result.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>流域レイヤーとDEM入力としてを使用してそれを実行でき、次の結果が得られます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>As you can see, the area covered by all the watershed polygons is used.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ご覧のように、すべての分水界ポリゴンで覆われた領域が使用されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can have the DEM clipped with just a single watershed by selecting the desired watershed and then running the algorithm as we did before.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>希望流域を選択し、前に行ったようなアルゴリズムを実行することにより、ただ1つの流域でDEMをクリップできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Since only selected features are used, only the selected polygon will be used to crop the raster layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>選択した地物だけが使用されているので、選択されたポリゴンだけがラスターレイヤーをトリミングするために使用されます</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Doing this for all the watersheds will produce the result we are looking for, but it doesn't look like a very practical way of doing it.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>すべての流域のためにこれを行うと、探している結果を生成しますが、それはそれを行うための非常に実用的な方法のようには見えません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Instead, let's see how to automate that *select and crop* routine.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>代わりに、その *選択とクロップ* ルーチンを自動化する方法を見てみましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>First of all, remove the previous selection, so all polygons will be used again.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>まず、以前の選択を削除するため、すべてのポリゴンが再び使用されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now open the *Clip raster with polygon* algorithm and select the same inputs as before, but this time click on the button that you will find in the right--hand side of the vector layer input where you have selected the watersheds layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>今 *ポリゴンでラスターをクリップ* アルゴリズム開き、前と同じ入力を選択していますが、右側で見つけるボタンでこの時間をクリック - 流域レイヤーを選択したベクターレイヤー入力の右側。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This button will cause the selected input layer to be split into as many layer as feature are found in it, each of them containing a single polygon.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このボタンでは、選択した入力レイヤーが、その中に地物が見つかるだけ多くのレイヤーに、それらのそれぞれが単一のポリゴンを含むように分割されることになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>With that, the algorithm will be called repeatedly, one for each one of those single-polygon layers.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それによって、アルゴリズムは、それらのシングルポリゴンレイヤーのそれぞれに1つずつ、繰り返し呼び出されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The result, instead of just one raster layer in the case of this algorithm, will be a set of raster layers, each one of them corresponding to one of the executions of the algorithm.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>結果は、代わりに、このアルゴリズムの場合にだけ1つのラスターレイヤーから、ラスターレイヤーのセット、アルゴリズムの実行の1つに対応するそれらのそれぞれであろう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Here's the result that you will get if you run the clipping algorithm as explained.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>こちらが説明したようにクリッピングアルゴリズムを実行した場合に得られる結果です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For each layer, the black and white color palette, (or whatever palette you are using), is adjusted differently, from its minimum to its maximum values.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>各レイヤーについて、黒と白のカラーパレット（または何であれ使用しているパレット）は、その最小値からその最大値に、異なって調節されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>That's the reason why you can see the different pieces and the colors do not seem to match in the border between layers.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それが異なる部分が見えて、色がレイヤーの間の境界で一致していないように思える理由です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Values, however, do match.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>しかしながら、値は一致します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you enter an output filename, resulting files will be named using that filename and a number corresponding to each iteration as suffix.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>出力ファイル名を入力した場合、結果のファイルは、そのファイル名と接尾辞としてそれぞれの反復に対応する番号を使用して名前が付けられます。</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

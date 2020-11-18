@@ -1,0 +1,279 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The batch processing interface</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>バッチ処理インターフェイス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This lesson introduces the batch processing interface, which allows to execute a single algorithm with a set of different input values.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このレッスンではバッチ処理インターフェイスを紹介します。１つのアルゴリズムをさまざまな入力値のセットで実行できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In that case, calling the algorithm repeatedly on the toolbox is not the best option. Instead, the batch processing interface should be used, which greatly simplifies performing a multiple execution of a given algorithm. To run an algorithm as a batch process, find it in the toolbox, and instead of double--clicking on it, right--click on it and select *Run as batch process*.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>その場合には、ツールボックスに繰り返しアルゴリズムを呼び出すのは最良の選択肢ではありません。代わりに、バッチ処理インターフェイスを使用するべきです。そうすれば与えられたアルゴリズムの複数の実行が大幅に簡略化されます。バッチプロセスとしてアルゴリズムを実行するには、ツールボックスでそれを見つけて、ダブルクリックではなく右クリックして、 *バッチ処理として実行* を選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For this example, we will use the *Reproject algorithm*, so find it and do as described above.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この例では、 *再投影アルゴリズム* を使用するので、前述したようにそれを見つけて実行します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You will get to the following dialog.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次のダイアログが表示されるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you have a look at the data for this lesson, you will see that it contains a set of three shapefiles, but no QGIS project file.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このレッスンのためのデータを見てみると、3つのシェープファイルのセットは含むが、QGISプロジェクトファイルが含まれていないことがわかります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This is because, when an algorithm is run as a batch process, layer inputs can be selected either from the current QGIS project or from files.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>アルゴリズムは、バッチプロセスとして実行されると、レイヤーの入力は、現在のQGISプロジェクトまたはファイルのいずれかから選択できるからです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>That makes it easier to process large amounts of layers, such as, for instance, all the layers in a given folder.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それによって、例えば指定したフォルダ内のすべてのレイヤーなど、大量のレイヤーを簡単に処理できるようになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Each row in the table of the batch processing dialog represents a single execution of the algorithm. Cells in a row correspond to the parameter needed by the algorithm, which are not arranged one above the other, as in the normal single--execution dialog, but horizontally in that row.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>バッチ処理ダイアログのテーブルの各行は、アルゴリズムの単一の実行を表します。行のセルはアルゴリズムによって必要とされるパラメーターに対応します。これは、通常の単一実行ダイアログの中でのように互いに上下にではなく、その行に水平に配置されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Defining the batch process to run is one by filling the table with the corresponding values, and the dialog itself contains several tools to make this task easier.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>実行するバッチ・プロセスを定義すると、対応する値を持つテーブルを充填することによって一つであり、ダイアログ自体は、この作業を容易にするためにいくつかのツールが含まれています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Let's start filling the fields one by one.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>フィールドの一つ一つを入力始めましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The first column to fill is the *Input layer* one.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>入力する最初の列は、*入力レイヤー* 列です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Instead of entering the names of each one of the layers we want to process, you can select all of them and let the dialog put one in each row.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>処理したいレイヤーのそれぞれの名前を入力する代わりに、それらのすべてを選択してダイアログが各行にひとつを入れるようにさせることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click on the button in the upper-left cell, and in the file selection dialog that will popup, select the three files to reproject.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>左上のセル内のボタンをクリックし、ポップアップするファイル選択ダイアログで、再投影する3つのファイルを選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Since only one of them is needed for each row, the remaining ones will be used to fill the rows underneath.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>行ごとにそれらの１つだけが必要とされるので、残りは下の行を埋めるために使用されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The default number of rows is 3, which is exactly the number of layers we have to convert, but if you select more layers, new rows will be added automatically.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>デフォルトの行数は3で、これはちょうど変換する必要があるレイヤーの数ですが、より多くのレイヤーを選択した場合、新しい行が自動的に追加されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you want to fill the entries manually, you can add more rows using the *Add row* button.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>手動でエントリを記入したい場合は、 *行を追加* ボタンを使用して複数の行を追加できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We are going to convert all those layers to the EPSG:23029 CRS, so we have to select that CRS in the second field.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これらのレイヤーをすべてEPSG:23029 CRSに変換しようとしているので、2番目のフィールドでそのCRSを選択する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We want the same on for all rows, but we do not have to do it for every single row.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>すべての行で同じにしたいが、各行ひとつひとつに対してそれを行う必要はありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Instead, set that CRS for the first row (the one at the top) using the button in the corresponding cell, and then double click on the column header.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>その代わりに、1行目（最上の1つ）にそのCRSを、対応するセル内のボタンを使用して設定し、列見出しをダブルクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>That causes all the cells in the column to be filled using the value of the top cell.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それにより、列のすべてのセルが最上セルの値を使用して埋められます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Finally, we have to select an output file for each execution, which will contain the corresponding reprojected layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>最後に、対応する再投影レイヤーが含まれています、各実行のための出力ファイルを選択する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Once again, let's do it just for the first row.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>もう一度、ちょうど最初の行のためにそれをやらせます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click on the button in the upper cell and, in a folder where you want to put your output files, enter a filename (for instance, ``reprojected.shp``).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>上部セル内のボタンをクリックし、出力ファイルを置きたいフォルダにファイル名を入力します（例えば、 ``reprojected.shp`` ）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now, when you click *OK* on the file selection dialog, the file does not automatically gets written to the cell, but an input box like the following one is shown instead.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>さて、ファイル選択ダイアログ上で *OK* をクリックすると、ファイルは自動的にセルに書き込まれず、以下のような入力ボックスが代わりに表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you select the first option, only the current cell will be filled.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>最初のオプションを選択した場合のみ、現在のセルが入力されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you select any of the other ones, all the rows below will be filled with a given pattern.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>他のいずれかを選択した場合は、以下のすべての行は、与えられたパターンで埋められます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In this case, we are going to select the *Fill with parameter value* option, and then the *Input Layer* value in the drop down menu below.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この場合は、 *パラメーター値で埋める* オプションを、そしてその後に下のドロップダウンメニューで *入力レイヤー* 値を選択しようとしています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>That will cause the value in the *Input Layer* (that is, the layer name) to be added to the filename we have added, making each output filename different.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>追加したファイル名に追加する（つまり、レイヤー名です） *入力レイヤー* の値が発生して、各出力ファイル名が異なるようになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The batch processing table should now look like this.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>バッチ処理テーブルはこのようになるはずです：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The last column sets whether or not to add the resulting layers to the current QGIS project.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>最後の列は、得られるレイヤーを現在のQGISプロジェクトに追加するかどうかを設定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Leave the default *Yes* option, so you can see your results in this case.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このような場合には、結果を見ることができるよう、デフォルトの *はい* オプションのままにしておきます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click on *OK* and the batch process will be run.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>*OK* をクリックするとバッチ処理が実行されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If everything went fine, all your layers will have been processed, and 3 new layers would have been created.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>すべてがうまくいった場合は、すべてのレイヤーが処理され、3つの新しいレイヤーが作成されているでしょう。</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

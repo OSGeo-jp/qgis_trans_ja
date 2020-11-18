@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A model within a model</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>モデル内のモデル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Beware, this chapter is not well tested, please report any issue; images are missing</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>注意してください。この章はよく検証されていないため、何か問題を見つけたらご報告ください；画像は欠けています</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In this lesson we will see how to use a model within a bigger model.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このレッスンでは、モデルをより大きなモデル内で使用する方法について説明します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We have already created a few models, and in this lesson we are going to see how we can combine them on a single bigger one.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>すでにいくつかのモデルを作成してきましたが、このレッスンでは、大きい方の一つにそれらを組み合わせることができる方法を確認しようとしています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A model behaves like any other algorithm, which means that you can add a model that you have already created as part of another one that you create after that.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>モデルはすでにその後に作成し、別のものの一部として作成したモデルを追加できることを意味し、他のアルゴリズム、同じように動作します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In this case, we are going to expand our hydrological model, by adding the mean TWI value in each of the basins that it generates as result.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この場合は、それが結果として生成流域のそれぞれに平均TWI値を追加することによって、水文モデルを拡張しようとしています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To do that, we need to calculate the TWI, and to compute the statistics.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これを行うには、TWIを計算して、統計を計算する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Since we have already created a model to calculate TWI from a DEM, it is a good idea to reuse that model instead of adding the algorithms it contains individually.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>すでにDEMからTWIを計算するモデルを作成しているので、代わりにそれが個別に含まれているアルゴリズムを追加することで、そのモデルを再利用することをお勧めします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Let's start with the model we used as starting point for the last lesson.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>最後のレッスンのための出発点として使用するモデルを見てみましょう</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>todo: Add image</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>TODO：画像を追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>First, we will add the TWI model.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>まず、TWIモデルを追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For it to be available, it should have been saved on the models folder, since otherwise it will not be shown in the toolbox or the algorithms list in the modeler.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それが利用可能であるためには、ツールボックスやモデラーにおけるアルゴリズムのリストには表示されませんそうでなければ、それは、モデルフォルダに保存されている必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Make sure you have it available.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それが用意されていることを確認します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Add it to the current model and use the input DEM as its input.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それを現在のモデルに追加し、その入力として入力DEMを使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The output is a temporary one, since we just want the TWI layer to compute the statistics.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>TWIレイヤーで統計情報を計算したいだけなので、出力は一時的なものです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The only output of this model we are creating will still be the vector layer with the watersheds.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>私たちが作成しているこのモデルの唯一の出力は、まだ流域のベクターレイヤーになるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Here is the corresponding parameters dialog:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ここでは、対応するパラメーターダイアログは次のとおりです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now we have a TWI layer that we can use along with the watersheds vector layer, to generate a new one which contains the values of the TWI corresponding to each watershed.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>今、私たちはそれぞれの流域に対応TWIの値を含む新しいものを生成するために、流域ベクターレイヤーと一緒に使用できるTWIレイヤーを持っています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This calculation is done using the *Grid statistics in polygons* algorithm.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この計算は、*ポリゴンでのグリッドの統計情報* アルゴリズムでを使用して行われます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Use the layers mentioned above as input, to create the final result.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>最終的な結果を作成するために、入力として上記のレイヤーを使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The output of the *Vectorize grid classes* algorithm was originally our final output, but now we just want it as an intermediate result.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>*グリッドクラスをベクター化* アルゴリズムの出力は、もともとは最終的な出力でしたが、今は中間結果として必要なだけです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To change that, we have to edit the algorithm.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それを変更するには、アルゴリズムを編集する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Just double--click on it to see its parameters dialog, and delete the name of the output.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それをダブルクリックするだけで、そのパラメーターのダイアログを表示し、出力の名前を削除します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>That will make it a temporary output, as it is by default.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これによりそれは一時的な出力になるでしょう、それがデフォルトですので。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This is how the final model should look like:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは、最終的なモデルがどのようになるかです：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>As you see, using a model in another model is nothing special, and you can add it just like you add another algorithm, as long as the model is saved in the models folder and is available in the toolbox.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ご覧のとおり、別のモデルでモデルを使用することは特別なものではありません。モデルがモデルフォルダに保存され、ツールボックスで使用可能になっているかぎり、ちょうど別のアルゴリズムを追加するように追加できます。</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

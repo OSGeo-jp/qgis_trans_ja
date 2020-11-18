@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|MOD| Spatial Database Concepts with PostGIS</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|MOD| 空間データベースの概念とPostGIS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>There are also some more extensive tutorials on PostGIS and Spatial Databases available from Boundless Geo:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Boundless GeoからPostGISと空間データベースに関するいくつかのより広範なチュートリアルも入手可能です:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>`Introduction to PostGIS &lt;http://workshops.boundlessgeo.com/postgis-intro/&gt;`_</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>`Introduction to PostGIS（PostGIS入門） &lt;http://workshops.boundlessgeo.com/postgis-intro/&gt;`_</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>`Spatial Database Tips and Tricks &lt;http://workshops.boundlessgeo.com/postgis-spatialdbtips/&gt;`_</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>`Spatial Database Tips and Tricks（空間データベースのヒントとテクニック） &lt;http://workshops.boundlessgeo.com/postgis-spatialdbtips/&gt;`_</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

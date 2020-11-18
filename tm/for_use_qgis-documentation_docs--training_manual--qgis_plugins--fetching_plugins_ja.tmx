@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|LS| Installing and Managing Plugins</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|LS| プラグインのインストールと管理</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To begin using plugins, you need to know how to download, install and activate them.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プラグインを使い始めるにはそれらをどのようにダウンロードし、インストールし、有効化するのか知る必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To do this, you will learn how to use the :guilabel:`Plugin Installer` and :guilabel:`Plugin Manager`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>では、 :guilabel:`プラグインインストーラ` と :guilabel:`プラグインマネージャ` の使い方を学びましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**The goal for this lesson:** To understand and use QGIS' plugin system.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**このレッスンの目標:** QGISのプラグインシステムを理解して使います.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| |FA| Managing Plugins</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| |FA| プラグインの管理</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To open the :guilabel:`Plugin Manager`, click on the menu item :menuselection:`Plugins --&gt; Manage and Install Plugins`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`プラグインマネージャ` を開くには、メニュー :menuselection:`プラグイン--&gt;プラグインの管理とインストール` をクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In the dialog that opens, find the :guilabel:`Processing` plugin:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>開かれたダイアログで :guilabel:`プロセッシング` プラグインを探しましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click :guilabel:`Close`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`閉じる` をクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| |FA| Installing New Plugins</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| |FA| 新しいプラグインのインストール</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| |FA| Configuring Additional Plugin Repositories</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| |FA| 追加的なプラグインリポジトリの設定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The plugins that are available to you for installation depend on which plugin *repositories* you are configured to use.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>利用可能なプラグインはどのプラグイン *リポジトリ* が設定されているかによって変わります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It is possible, however, to try out more plugins than the default ones. First, you want to configure additional repositories. To do this:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>しかしデフォルトのものより多くのプラグインを試すこともできます。まず追加的なリポジトリの設定をします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click :guilabel:`Add` to find and add a new repository.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>新しいリポジトリを追加するには :guilabel:`追加` をクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Provide a Name and URL for the new repository you want to configure and make sure the :guilabel:`Enabled` checkbox is selected.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>設定したい新しいリポジトリの名前とURLを入力します。 :guilabel:`利用可にする` チェックボックスがチェックされていることを確認します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You will now see the new plugin repo listed in the list of configured Plugin Repositories</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>新しいプラグインリポジトリがプラグインリポジトリの一覧の中に表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can also select the option to display Experimental Plugins by selecting the :guilabel:`Show also experimental plugins` checkbox.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>開発の初期段階にあるプラグインも表示するには :guilabel:`実験的プラグインも表示する` チェックボックスをチェックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|IC|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|IC|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|WN|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|WN|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Next we'll introduce you to some useful plugins as examples.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次に、例としていくつかの便利なプラグインを紹介します。</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

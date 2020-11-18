@@ -1,0 +1,183 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Use R scripts in Processing</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プロセッシングでRスクリプトを使用する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Adding scripts</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>スクリプトを追加する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you cannot see R in Processing, you have to activate it in :menuselection:`Processing --&gt; Options --&gt; Providers`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プロセッシングの中にRが見あたらない場合は、 :menuselection:`プロセッシング --&gt; オプション --&gt; プロバイダー` を有効にする必要があります</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It opens a *script editor window* in which you have to specify some parameters before you can add the script body.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>スクリプト本体を追加できる前にいくつかのパラメーターを指定する必要がある *スクリプトエディタウィンドウ* を開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Creating plots</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プロットを作成する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In this tutorial we are going to create a **boxplot** of a vector layer field.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このチュートリアルでは、ベクターレイヤーフィールドの  **箱ひげ図** を作成しようとしています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Open the :file:`r_intro.qgs` QGIS project under the :file:`exercise_data/processing/r_intro/` folder.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:file:`exercise_data/processing/r_intro/` フォルダの下にある :file:`r_intro.qgs` QGISプロジェクトを開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Script parameters</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>スクリプトのパラメーター</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Open the editor and start writing at the beginning of it.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>エディタを開いて、それの最初に書き始めます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You **must** specify some parameters **before** the script body:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>スクリプト本体の **前** にいくつかのパラメーターを指定する **必要があります** 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Script body</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>スクリプト本体</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now that you have set up the *heading* of the script you can add the function::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>今、機能を追加できるスクリプトの *見出し* を設定し終わりました::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The final script looks like this::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>最後のスクリプトは次のようになります::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now just run it using the button on the top of the editor window:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>今、エディタ・ウィンドウの上部にあるボタンを使用して、それを実行します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click on **Run**.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**[実行]** をクリックしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The **Result window** should be automatically opened, if not, just click on :menuselection:`Processing --&gt; Result Viewer...`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**結果ウィンドウ** が自動的に開くはずですが、そうでない場合は :menuselection:`プロセシング --&gt; 結果ビューア...` をクリックするだけです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Create a vector</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ベクターを作成する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>As before we have to set some parameters before the script body:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>前と同じように、スクリプト本体の前にいくつかのパラメーターを設定する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now you can add the body of the function:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>今、関数の本体を追加できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In the new window type in the right parameters:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>新しいウィンドウで正しいパラメーターを入力し：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>and click on run.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>そして実行をクリックしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``&gt;`` before your command, as in ``&gt;lillie.test(Layer[[Field]])`` means the result should be sent to R output (Result viewer)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>コマンドの前に ``&gt;`` は、 ``&gt;lillie.test(Layer[[Field]])`` 中でのように、結果がR出力（結果ビューア）に送られるべきことを意味します</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

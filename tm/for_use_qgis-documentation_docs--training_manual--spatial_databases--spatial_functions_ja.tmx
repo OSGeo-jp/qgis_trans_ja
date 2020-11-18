@@ -1,0 +1,439 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|LS| PostGIS Setup</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|LS| PostGISの設定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Setting up PostGIS functions will allow you to access spatial functions from within PostgreSQL.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>PostGISの関数を設定することで, PostgreSQLの中から空間関数にアクセス可能になります.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**The goal for this lesson:** To install spatial functions and briefly demo their effects.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**このレッスンの目的:** 空間関数をインストールし, それらの効果を簡単にデモする.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We will assume the use of PostGIS version 2.1 in this exercise. The installation and database configuration are different for older versions, but the rest of this material in this module will still work. Consult the documentation for your platform for help with installation and database configuration.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ここではPostGISバージョン2.1を使用を前提としています. インストールとデータベースの設定方法は以前のバージョンと異なりますが, この資料の残りの部分はまだ有効です. インストールおよびデータベースの設定については, お使いのプラットフォームのドキュメントを参照してください. </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Installing under Ubuntu</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Ubuntuでのインストール</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Postgis is easily installed from apt.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>PostGISはaptから簡単にインストールできます.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Really, it's that easy...</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>本当に簡単です...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To install the absolute latest version of PostGIS, you can use the following commands.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>PostGIS最新版をインストールするには, 以下のコマンドが使用できます.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Installing under Windows</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Windowsでのインストール</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Installing on Windows is a little more complicated, but still not hard. Note that you need to be online to install the postgis stack.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Windowsへのインストールは少し複雑ですが、それでも大変ではありません. PostGISのスタックをインストールするには, オンラインである必要があることに注意してください.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Installing on Other Platforms</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>その他のプラットフォームへのインストール</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Configuring Databases to use PostGIS</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>PostGISを使用するためのデータベースの設定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Once PostGIS is installed, you will need to configure your database to use the extensions.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>一度PostGISがインストールされたら、拡張機能を使用するようにデータベースを設定する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you have installed PostGIS version &gt; 2.0, this is as simple as issuing the following command with psql using the address database from our previous exercise.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>PostGISのバージョン&gt; 2.0をインストールしている場合、これが前の演習からアドレスデータベースを使用してpsqlで次のコマンドを発行するのと同じくらい簡単です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Looking at the installed PostGIS functions</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>インストールされたPostGIS関数を見る</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>PostGIS can be thought of as a collection of in-database functions that extend the core capabilities of PostgreSQL so that it can deal with spatial data.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>PostGISは、空間データを扱えるようにPostgreSQLのコア機能を拡張する、データベース機能の集まりと考えることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>By 'deal with', we mean store, retrieve, query and manipulate.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>「扱える」とは、格納、検索、クエリおよび操作を意味します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In order to do this, a number of functions are installed into the database.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これを行うために、多数の機能が、データベースにインストールされています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Our PostgreSQL ``address`` database is now geospatially enabled, thanks to PostGIS.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>私たちのPostgreSQLの ``address住所`` データベースはPostGISのおかげで地理空間的に有効になりました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We are going to delve a lot deeper into this in the coming sections, but let's give you a quick little taster.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次のセクションではこれについてもっと深く掘り下げていきますが、ここでちょっと味見しましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Let's say we want to create a point from text.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>テキストからポイントを作成したいとしましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>First we use the psql command to find functions relating to point.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>最初に、psqlコマンドを使ってポイントに関連する関数を見つけます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you are not already connected to the ``address`` database, do so now.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``address住所`` データベースにまだ接続していない場合は、今すぐ実行してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Then run:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次に、</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Try running this command:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次のコマンドを実行してみてください：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Result:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>結果は：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Three things to note:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>注目すべき３点:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We defined a point at position 1,1 (EPSG:4326 is assumed) using :kbd:`POINT(1 1)`,</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:kbd:`POINT(1 1)`, を使って、ポイントの位置を 1,1 (EPSG:4326 を想定)と定義しました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We ran an sql statement, but not on any table, just on data entered from the SQL prompt,</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>SQL文を実行しましたが、どのテーブル上でもなく、SQLプロンプトから入力されたデータで,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The resulting row does not make much sense.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>結果の行はあまり意味がありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The resulting row is in the OGC format called 'Well Known Binary' (WKB).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>得られた行は、「よく知られているバイナリ」（WKB）と呼ばれるOGCフォーマットです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We will look at this format in detail in the next section.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>私たちは、次のセクションで詳細にこのフォーマットを見ていきます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To get the results back as text, we can do a quick scan through the function list for something that returns text:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>結果をテキストとして戻すために、テキストを返す何かを探して関数リストをすばやくスキャンできます：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The query we're looking for now is ``st_astext``.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>私たちが探しているクエリは ``st_astext`` です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Let's combine it with the previous query:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>以前のクエリと組み合わせてみましょう：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Here, we entered the string :kbd:`POINT(1,1)`, turned it into a point using :kbd:`st_pointfromtext()`, and turned it back into a human-readable form with :kbd:`st_astext()`, which gave us back our original string.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ここでは、文字列 :kbd:`POINT(1,1)` を入力し、 :kbd:`st_pointfromtext()` を使用してポイントに変え、 :kbd:`st_astext()` で人間が読める形式に戻します。これは元の文字列を返しました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>One last example before we really get into the detail of using PostGIS:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>実際にPostGISの使い方の詳細に入る前の最後の例は：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>What did that do?</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それは何をしましたか？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It created a buffer of 1 degree around our point, and returned the result as text.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それは私たちのポイントを中心に1度のバッファを作成し、テキストとして結果を返しました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Spatial Reference Systems</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>空間参照系</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In addition to the PostGIS functions, the extension contains a collection of spatial reference system (SRS) definitions as defined by the European Petroleum Survey Group (EPSG).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>PostGISの機能だけでなく、この拡張は欧州石油調査グループ（EPSG）によって定義された空間参照システム（SRS）の定義のコレクションを含んでいます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>These are used during operations such as coordinate reference system (CRS) conversions.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これらは、座標参照系（CRS）変換などの操作中に使用されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We can inspect these SRS definitions in our database as they are stored in normal database tables.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>通常のデータベーステーブルに格納されているので、データベース中のこれらのSRSの定義を調べることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>First, let's look at the schema of the table by entering the following command in the psql prompt:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>まず、psqlプロンプトで次のコマンドを入力して、テーブルのスキーマを見てみましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The result should be this:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>結果はこうなります：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can use standard SQL queries (as we have learned from our introductory sections), to view and manipulate this table - though its not a good idea to update or delete any records unless you know what you are doing.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>（入門セクションから学んだように）このテーブルを表示および操作するために、標準のSQLクエリを使用できます - 何をしているか知らないならば、任意のレコードを更新または削除するのは良いアイデアではない。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>One SRID you may be interested in is EPSG:4326 - the geographic / lat lon reference system using the WGS 84 ellipsoid.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>興味のあるSRIDは、EPSG：4326  -  WGS 84楕円体を使用した地理/緯度経度参照系です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Let's take a look at it:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それを見てみましょう：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The :kbd:`srtext` is the projection definition in well known text (you may recognise this from .prj files in your shapefile collection).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:kbd:`srtext` はよく知られているテキスト（WKT）での投影の定義です（シェープファイルのコレクションにある.prjファイルからこれを認識してもよい）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|IC|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|IC|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You now have PostGIS functions installed in your copy of PostgreSQL.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>今PostGISの機能はPostgreSQLのコピーにインストールされています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>With this you'll be able to make use of PostGIS' extensive spatial functions.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これによりPostGISのさまざまな空間関数を使用できるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|WN|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|WN|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Next you'll learn how spatial features are represented in a database.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次はデータベースにおける空間地物の表現方法について学習しましょう。</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

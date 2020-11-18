@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Models in the batch processing interface</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>バッチ プロセッシング インターフェイスのモデル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Beware, this chapter is not well tested, please report any issue; images are missing</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>注意してください。この章はよく検証されていないため、どんな問題でも報告してください。画像は欠けています</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This lesson shows another example of the batch processing interface, but this time using a model instead of a built-in algorithm</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このレッスンではバッチ処理インターフェイスのまた別の例を示しますが、今回は内蔵アルゴリズムでなくモデルを使用します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Models are just like any other algorithm, and they can be used in the batch processing interface.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>モデルは他のアルゴリズムとまったく同様で、バッチ処理インターフェイスで使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To demonstrate that, here is a brief example that we can do using our already well-known hydrological model.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それを実証するための、すでによく知られている水文モデルを使用して行うことができる簡単な例を出します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Make sure you have the model added to your toolbox, and then run it in batch mode.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>モデルがツールボックスに追加した、その後、バッチモードで実行していることを確認します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This is what the batch processing dialog should look like.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは、バッチ処理]ダイアログボックスがどのように見えるかです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>todo: Add image</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>todo:画像を追加</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Add rows up to a total of 5.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>行を合計5行になるまで追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Select the DEM file corresponding to this lesson as the input for all of them.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それらのすべてについて、入力として、このレッスンに対応したDEMファイルを選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Then enter 5 different threshold values as shown next.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それから、次に示すように5つの異なるしきい値を入力します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>As you see the batch processing interface can be run not just to run the same process on different datasets but also on the same dataset with different parameters.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>おわかりのようにバッチ処理インターフェイスは、異なるデータセットに同じプロセスを実行するだけでなく、異なるパラメーターで同じデータセットに同じプロセスを実行するために実行できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click on *OK* and you should get 5 new layers with watersheds corresponding to the specified 5 threshold values.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>*OK* をクリックすると、指定された5つのしきい値に対応する流域を持つ5つの新しいレイヤーが得られます。</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

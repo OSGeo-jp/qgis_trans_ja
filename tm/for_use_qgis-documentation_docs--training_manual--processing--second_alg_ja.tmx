@@ -1,0 +1,391 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>More algorithms and data types</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>さらなるアルゴリズムとデータタイプ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In this lesson we will run three more algorithms, learn how to use other input types, and configure outputs to be saved to a given folder automatically.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このレッスンでは、さらに3つのアルゴリズムを実行し、他の入力タイプを使用する方法を学習し、自動的に指定したフォルダに保存されるように出力を設定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For this lessons we will need a table and a polygons layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このレッスンのためには、テーブルとポリゴンレイヤーが必要になります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We are going to create a points layer based on coordinates in the table, and then count the number of points in each polygon.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>テーブル内の座標に基づいてポイントレイヤーを作成し、各ポリゴン内のポイントの数をカウントしていきます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you open the QGIS project corresponding to this lesson, you will find a table with X and Y coordinates, but you will find no polygons layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このレッスンに対応するQGISプロジェクトを開くと、XとY座標を持つテーブルがありますが、ポリゴンレイヤーは何も見つかりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Don't worry, we will create it using a processing geoalgorithm.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>心配しないで、これからプロセッシング・ジオアルゴリズムを使用して作成していきます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The first thing we are going to do is to create a points layer from the coordinates in the table, using the *Points layer from table* algorithm.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>まずやることは、 *テーブルからポイントレイヤー* アルゴリズムを使用して、テーブル内の座標からポイントレイヤを作成することです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You now know how to use the search box, so it should not be hard for you to find it.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これで、検索ボックスを使用する方法を知っているので、それを見つけることは難しいことではありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Double--click on it to run it and get to its following dialog.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それを実行し、その次のダイアログを取得し、それをダブル - クリックしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This algorithm, like the one from the previous lesson, just generates a single output, and it has three inputs:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このアルゴリズムは、前のレッスンから1のように、ただ1つの出力を生成し、それは3つの入力を持っています：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>*Table*: the table with the coordinates.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>*表* ：座標を持つテーブル。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You should select here the table from the lesson data.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ここで授業のデータからテーブルを選択する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>*X and Y fields*: these two parameters are linked to the first one.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>*XとYのフィールド* ：これら2つのパラメーターは、最初の1にリンクされています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The corresponding selector will show the name of those fields that are available in the selected table.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>対応するセレクタは、選択されたテーブルで利用可能なこれらのフィールドの名前が表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Select the *XCOORD* field for the *X* parameter, and the *YYCOORD* field for the *Y* parameter.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>*Y* パラメーターのための *X* パラメーター、及び *YYCOORD* フィールドに *XCOORD* フィールドを選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>*CRS*: Since this algorithm takes no input layers, it cannot assign a CRS to the output layer based on them.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>*CRS* ：このアルゴリズムでは何も入力レイヤーをとらないので、それに基づいて出力レイヤーへCRSを割り当てることはできません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Instead, it asks you to manually select the CRS that the coordinates in the table use.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>代わりに、手動でテーブルの使用中の座標というCRSを選択するように求められます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click on the button on the left--hand side to open the QGIS CRS selector, and select EPSG:4326 as the output CRS.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>左-手側のボタンをクリックして QGIS CRSセレクタを開き、選択するために出力CRSとしてEPSG:4326を。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We are using this CRS because the coordinates in the table are in that CRS.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>表中の座標はそのCRSにあるのでこのCRSを使用しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Your dialog should look like this.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ダイアログは次のようになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now press the *Run* button to get the following layer (you may need to zoom full to reenter the map around the newly created points):</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>今、次のレイヤーを得るために *実行* ボタンを押します（新たに作成されたポイント周辺の地図を再入力するフルズームする必要があるかもしれません）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The next thing we need is the polygon layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>必要とする次のものはポリゴンレイヤーです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We are going to create a regular grid of polygons using the *Create grid* algorithm, which has the following parameters dialog.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次のパラメーター]ダイアログボックスを持っている *グリッドを作成* アルゴリズムを使用して、ポリゴンの規則的グリッドを作成していきます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The options are simpler in recent versions of QGIS; you just need to enter min and max for X and Y (suggested values: -5.696226,-5.695122,40.24742,40.248171)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>オプションは、QGISの最近のバージョンでは単純です。XとYのための最小値と最大値を入力する必要があるだけです（推奨値：-5.696226, -5.695122, 40.24742, 40.248171）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The inputs required to create the grid are all numbers.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>グリッドを作成するために必要な入力はすべて数値です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>When you have to enter a numerical value, you have two options: typing it directly on the corresponding box or clicking the button on the right--hand side to get to a dialog like the one shown next.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>- 右側次の図のようなダイアログボックスに取得するには、対応するボックスに直接入力するか、右側のボタンをクリック：数値を入力する必要がある場合、次の2つのオプションがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The dialog contains a simple calculator, so you can type expressions such as ``11 * 34.7 + 4.6``, and the result will be computed and put in the corresponding text box in the parameters dialog.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ダイアログには簡単な計算機が含まれているので、 ``11 * 34.7 + 4.6`` のような式を入力でき、その結果が計算され、パラメーターダイアログに対応するテキストボックスに入ります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Also, it contains constants that you can use, and values from other layers available.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>また、それには使用できる定数が含まれており、他のレイヤーからの値が入手できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In this case, we want to create a grid that covers the extent of the input points layer, so we should use its coordinates to calculate the center coordinate of the grid and its width and height, since those are the parameters that the algorithm takes to create the grid.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この場合、入力ポイントレイヤーの範囲をカバーするグリッドを作成したいので、これらはアルゴリズムがグリッドを作成するのに要するパラメーターであるので、グリッドとその幅と高さの中心座標を計算するためにその座標を使用する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>With a little bit of math, try to do that yourself using the calculator dialog and the constants from the input points layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>数学の少しで、計算機ダイアログと入力ポイントレイヤーからの定数を使用して自分でやってみましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Select *Rectangles (polygons)* in the *Type* field.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>*タイプ* フィールドに *長方形（ポリゴン）* を選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>As in the case of the last algorithm, we have to enter the CRS here as well.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>最後のアルゴリズムの場合のように、私たちはここにもCRSを入力する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Select EPSG:4326 as the target CRS, as we did before.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>私たちは前に行ったように、ターゲットCRSとして4326：EPSGを選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In the end, you should have a parameters dialog like this:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>最後には、このようなダイアログのパラメーターを持っているはずです：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>(Better add one spacing on the width and height: Horizontal spacing: 0.0001, Vertical spacing: 0.0001, Width: 0.001004, Height: 0.000651, Center X: -5.695674, Center Y: 40.2477955) The case of X center is a bit tricky, see: -5.696126+(( -5.695222+ 5.696126)/2)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>（幅と高さ上の一点の間隔を追加すると良い：水平間隔：0.0001、垂直間隔：0.0001、幅：0.001004、高さ：0.000651、中心X：-5.695674、中心Y：40.2477955）X中心の場合は少しトリッキーであり、参照：-5.696126 +（（-5.695222+ 5.696126）/ 2）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Press *Run* and you will get the graticule layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>*実行* を押すと目盛レイヤーが得られるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The last step is to count the points in each one of the rectangles of that graticule.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>最後のステップは、その目盛の長方形の各長方形の中の点を数えることです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We will use the *Count points in polygons* algorithm.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>*ポリゴンでポイントをカウント* アルゴリズムを使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now we have the result we were looking for.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これで探していた結果が得られました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Before finishing this lesson, here is a quick tip to make your life easier in case you want to persistently save your data.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このレッスンを終了する前に、データを永続的に保存したい場合にあなたの人生を楽にするための簡単なヒントを。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you want all your output files to be saved in a given folder, you do not have to type the folder name each time.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>すべての出力ファイルを指定したフォルダに保存したい場合は、フォルダ名を毎回入力する必要はありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Instead, go to the processing menu and select the *Options and configuration* item.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>代わりに、処理メニューに移動し、 *オプションと設定* 項目を選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It will open the configuration dialog.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは、設定ダイアログを開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In the *Output folder* entry that you will find in the *General* group, type the path to your destination folder.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>*一般* グループで見つける *出力フォルダ* エントリでは、保存先フォルダへのパスを入力します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now when you run an algorithm, just use the filename instead of the full path.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>さてアルゴリズムを実行するときは、完全パスではなくファイル名だけ使用してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For instance, with the configuration shown above, if you enter ``graticule.shp`` as the output path for the algorithm that we have just used, the result will be saved in ``D:\processing_output\graticule.shp``.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ちょうど今使用しているアルゴリズムの出力パスとして ``graticule.shp`` を入力した場合例えば、上記のような構成で、結果は ``D:\processing_output\graticule.shp`` に保存されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can still enter a full path in case you want a result to be saved in a different folder.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それでも結果を別のフォルダに保存したい場合、完全パスを入力できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Try yourself the *Create grid* algorithm with different grid sizes, and also with different types of grids.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>*グリッドを作成* アルゴリズムを異なるグリッドサイズで、またグリッドの異なる種類で自分で試してみてください。</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

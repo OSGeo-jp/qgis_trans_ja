@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|MOD| The Interface</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|MOD| インターフェイス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>After completing this section, you will be able to correctly identify the main elements of the screen in QGIS and know what each of them does.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このセクションを完了すると、QGISの主要な画面要素を正しく識別し、それぞれの機能を知ることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You will also be able to load a layer into QGIS.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>レイヤーをQGISに載せることもできます。</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

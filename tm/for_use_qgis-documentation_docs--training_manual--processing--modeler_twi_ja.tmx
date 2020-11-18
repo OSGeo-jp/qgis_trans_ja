@@ -1,0 +1,543 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Starting with the graphical modeler</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>グラフィカル・モデラーから始める</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In this lesson we will use the graphical modeler, a powerful component that we can use to define a workflow and run a chain of algorithms.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このレッスンでは、グラフィカル・モデラー（ワークフローを定義してアルゴリズムの連鎖を実行するために使用できる強力なコンポーネント）を使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A normal session with the processing tools includes more than running a single algorithm.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>処理ツールを持つ通常のセッションは、単一のアルゴリズムを実行している以上のものを含んでいます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Usually several of them are run to obtain a result, and the outputs of some of those algorithms are used as input for some of the other ones.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>通常、それらのいくつかは、結果を得るために実行され、そしてこれらのアルゴリズムのいくつかの出力は、他のもののいくつかの入力として使用されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Using the graphical modeler, that workflow can be put into a model, which will run all the necessary algorithms in a single run, thus simplifying the whole process and automating it.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>グラフィカル・モデラーを使用すると、そのワークフローは１つのモデルに入れることができます。必要なすべてのアルゴリズムが一回の実行で実行され、したがって全体のプロセスが簡素化され自動化されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To start this lesson, we are going to calculate a parameter named Topographic Wetness Index.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このレッスンを開始するには、地形的湿潤指数という名前のパラメータを計算しようとしています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The algorithm that computes it is called *Topographic wetness index (twi)*</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それを計算するアルゴリズムは、 *地形湿潤指数（TWI）* と呼ばれています</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>As you can see, there are two mandatory inputs: *Slope* and *Catchment area*.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ご覧のように、2つの必須入力があります： *傾斜* と *流域面積* 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>There is also an optional input, but we will not be using it, so we can ignore it.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>オプションの入力もありますが、それは使用するつもりはありませんので無視できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The data for this lesson contains just a DEM, so we do not have any of the required inputs.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このレッスン用のデータにはDEMしか入っていませんから、必要な入力は何もありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>However, we know how to calculate both of them from that DEM, since we have already seen the algorithms to compute slope and catchment area.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>しかし、傾きと流域面積を計算するアルゴリズムをすでに見ていますので、そのDEMからそれらの両方を計算する方法はわかっています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>So we can first compute those layers and then use them for the TWI algorithm.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>だから最初にこれらのレイヤーを計算すると、それらをTWIアルゴリズムのために使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Here are the parameter dialogs that you should use to calculate the 2 intermediate layers.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これが2つの中間レイヤーを計算するために使用すべきパラメーターのダイアログです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Slope must be calculated in radians, not in degrees.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>傾斜はラジアンではなく度で計算しなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>And this is how you have to set the parameters dialog of the TWI algorithm.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>そしてこれはTWIアルゴリズムのパラメーターダイアログボックスをどのように設定する必要があるかです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This is the result that you will obtain (the default singleband pseudocolor inverted palette has been used for rendering).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これが得られる結果です（デフォルトの単バンドの疑似反転パレットがレンダリングに使用されています）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can use the ``twi.qml`` style provided.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>提供 ``twi.qml`` スタイルを使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>What we will try to do now is to create an algorithm that calculates the TWI from a DEM in just one single step.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>今しようとしていることは、DEMからTWIをただ1つのステップで計算するアルゴリズムを作成することです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>That will save us work in case we later have to compute a TWI layer from another DEM, since we will need just one single step to do it instead of the 3 ones above.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それを行うには上記3つのものの代わりに単に1つのステップが必要であるだけなので、後に別のDEMからTWIレイヤーを計算する必要がある場合に作業を省けます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>All the processes that we need are found in the  toolbox, so what we have to do is to define the workflow to wrap them.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>必要とするすべてのプロセスはツールボックスに見つかるので、しなければならないことは、それらを包括するワークフローを定義することです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This is where the graphical modeler comes in.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>グラフィカルモデラーの出番です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Open the modeler by selecting its menu entry in the processing menu.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>処理メニューで、メニュー項目を選択することにより、モデラーを開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Two things are needed to create a model: setting the inputs that it will need, and defining the algorithm that it contains.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>モデルを作成するために２つのことが必要とされます：必要とされる入力を設定すること、それに含まれるアルゴリズムを定義すること。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Both of them are done by adding elements from the two tabs in the left--hand side of the modeler window: *Inputs* and *Algorithms*</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>２つともにModelerウィンドウの左側にある2つのタブ、 *入力* と *アルゴリズム* 、から要素を追加することによって行われます</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Let's start with the inputs.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>入力から始めましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In this case we do not have much to add.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このケースでは追加することがあまりありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We just need a raster layer with the DEM, and that will be our only input data.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>DEMを持つラスターレイヤーが必要なだけで、それが唯一の入力データとなります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Double click on the *Raster layer* input and you will see the following dialog.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>*ラスターレイヤー* 入力をダブルクリックし、次のダイアログが表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Here we will have to define the input we want.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ここでは、望む入力を定義する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Since we expect this raster layer to be a DEM, we will call it *DEM*.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このラスターレイヤーはDEMであることを期待しているので、 *DEM* と呼びます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>That's the name that the user of the model will see when running it.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これはモデルのユーザーがそれを実行しているときに表示される名前です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Since we need that layer to work, we will define it as a mandatory layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>そのレイヤーが動作することを必要とするので、必須レイヤーとして定義します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Here is how the dialog should be configured.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これがダイアログを設定する方法です</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click on *OK* and the input will appear in the modeler canvas.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>*OK* をクリックすると、入力はモデラーのキャンバスに表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now let's move to the *Algorithms* tab.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それでは、 *アルゴリズム* タブに移動してみましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The first algorithm we have to run is the *Slope, aspect, curvature* algorithm.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>実行する必要がある最初のアルゴリズムは、 *傾斜、方向、曲率* アルゴリズムです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Locate it in the algorithm list, double--click on it and you will see the dialog shown below.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>アルゴリズムのリストでそれを見つけてダブルクリックすると、以下のようなダイアログが表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This dialog is very similar to the one that you can find when running the algorithm from the toolbox, but the element that you can use as parameter values are not taken from the current QGIS project, but from the model itself.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このダイアログはツールボックスからアルゴリズムを実行するときに表示されるものとよく似ていますが、パラメーター値として使用できる要素は現在のQGISプロジェクトからではなくモデル自体から取られます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>That means that, in this case, we will not have all the raster layers of our project available for the *Elevation* field, but just the ones defined in our model.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>すなわち、この場合には、プロジェクトのラスターレイヤーすべてが *標高* フィールドに利用可能ではなく、モデルで定義されたものだけ、ということを意味します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Since we have added just one single raster input named *DEM*, that will be the only raster layer that we will see in the list corresponding to the *Elevation* parameter.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>*DEM* という名前の1つのラスター入力だけを追加したので、それだけが *標高* パラメーターに対応するリストに表示されるラスターレイヤーになります 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Output generated by an algorithm are handled a bit differently when the algorithm is used as a part of a model.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>アルゴリズムにより生成された出力は、アルゴリズムがモデルの一部として使用される場合、少し異なって処理されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Instead of selecting the filepath where you want to save each output, you just have to specify if that output is an intermediate layer (and you do not want it to be preserved after the model has been executed), or it is a final one.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>各出力を保存するファイルパスを選択する代わりに、その出力が中間層であるか（そしてモデルの実行後に保存しないようにするか）、または最終出力であるかを指定する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In this case, all layers produced by this algorithm are intermediate.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この場合、このアルゴリズムによって生成されるすべてのレイヤーは中間です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We will only use one of them (the slope layer), but we do not want to keep it, since we just need it to calculate the TWI layer, which is the final result that we want to obtain.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>そのうちの1つ（傾斜レイヤー）のみを使用しますが、取得したい最終結果であるTWIレイヤーを計算するために必要なだけなので、それを保存する必要はありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>When layers are not a final result, you should just leave the corresponding field.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>最終的な結果ではないレイヤーの場合、対応するフィールドは残しておかなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Otherwise, you have to enter a name that will be used to identify the layer in the parameters dialog that will be shown when you run the model later.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>そうしないと、後でモデルを実行したときに表示されるパラメーターダイアログボックスでレイヤーを識別するために使用される名前を入力する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>There is not much to select in this first dialog, since we do not have but just one layer in or model (The DEM input that we created).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ただ1つだけのにおけるレイヤーまたはモデル（私たちが作成したDEMの入力）この最初のダイアログで選択するものは多くはありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Actually, the default configuration of the dialog is the correct one in this case, so you just have to press *OK*.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>実際、ダイアログのデフォルト設定はこの場合は正しいものであるので、 *OK* を押す必要があるだけです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This is what you will now have in the modeler canvas.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これが今モデラーキャンバスにあるものです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The second algorithm we have to add to our model is the catchment area algorithm.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>モデルに追加する必要がある第2のアルゴリズムは、集水域のアルゴリズムです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We will use the algorithm named *Catchment area (Paralell)*.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>*流域面積（Paralell）* という名前のアルゴリズムを使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We will use the DEM layer again as input, and none of the ouputs it produces are final, so here is how you have to fill the corresponding dialog.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>再びDEMレイヤを入力として使用し、それが生成する出力ouputsはどれも最終的なものでないので、これが対応するダイアログをどう埋める必要があるかです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now your model should look like this.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>今、モデルは、次のようになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The last step is to add the *Topographic wetness index* algorithm, with the following configuration.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>最後のステップは、以下の構成で、 *地形的湿潤指数* アルゴリズムを追加することです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In this case, we will not be using the DEM as input, but instead, we will use the slope and catchment area layers that are calculated by the algorithms that we previously added.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この場合、入力としてDEMを使用しない代わりに、以前に追加アルゴリズムによって計算される傾斜および流域レイヤーを使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>As you add new algorithms, the outputs they produce become available for other algorithms, and using them you link the algorithms, creating the workflow.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>新しいアルゴリズムを追加すると、それらが作り出す出力が他のアルゴリズムのために利用可能になり、それらを使用してアルゴリズムをリンクし、ワークフローを作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In this case, the output TWI layer is a final layer, so we have to indicate so.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この場合、出力TWIレイヤーが最終レイヤーであるので、そう指示しなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In the corresponding textbox, enter the name that you want to be shown for this output.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>対応するテキストボックスで、この出力に対して表示したい名前を入力します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now our model is finished and it should look like this.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>今、モデルが完成すると、それは次のようになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Enter a name and a group name in the upper part of the model window, and then save it clicking on the *Save* button.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>モデルウィンドウの上部に名前とグループ名を入力し、 *保存* ボタンをクリックして保存します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can save it anywhere you want and open it later, but if you save it in the models folder (which is the folder that you will see when the save file dialog appears), you model will also be available in the toolbox as well.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>どこでも希望の場所にそれを保存して後でそれを開くことができますが、モデルのフォルダ（ファイル保存ダイアログが表示されたときに表示されるフォルダ）に保存した場合、モデルはツールボックスでも同様に利用できるようになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>So stay on that folder and save the model with the filename that you prefer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>だから、そのフォルダから移動せずに、希望のファイル名でモデルを保存します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now close the modeler dialog and go to the toolbox.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ここでモデラーダイアログを閉じ、ツールボックスにアクセスしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In the *Models* entry you will find you model.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>*モデル* エントリにモデルが見つかるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can run it just like any normal algorithm, double--clicking on it.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ダブルクリックすることで 、ただの通常のアルゴリズムのように実行できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>As you can see, the parameters dialog, contain the input that you added to the model, along with the outputs that you set as final when adding the corresponding algorithms.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ご覧のように、パラメーターダイアログは、対応するアルゴリズムを追加するときに最終的な出力として設定した出力と共に、モデルに追加の入力を含みます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Run it using the DEM as input and you will get the TWI layer in just one single step.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>入力としてDEMを使用して、それを実行すると、1つのステップだけでTWIレイヤーが得られるでしょう。</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

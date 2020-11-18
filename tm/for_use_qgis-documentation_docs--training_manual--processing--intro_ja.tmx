@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Introduction</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>はじめに</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This guide is designed for self-study or to be used for running a processing workshop.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このガイドは自習用に設計されたプロセッシングワークショップを実行するためのものです.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Enjoy!</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>楽しんで!</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

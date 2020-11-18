@@ -1,0 +1,447 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|LS| Spatial Queries</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|LS| 空間検索</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Spatial queries are no different from other database queries. You can use the geometry column like any other database column. With the installation of PostGIS in our database, we have additional functions to query our database.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>地理空間情報のクエリは、その他のデータベースのクエリと変わりなく、同じように利用できます。PostGISをインストールすることでデータベースのクエリの機能が追加されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**The goal for this lesson:** To see how spatial functions are implemented similarly to "normal" non-spatial functions.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**このレッスンの目的：** 空間関数が、空間関数でない一般の関数と同様に導入できることを明らかにすること。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Spatial Operators</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>空間演算子</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>When you want to know which points are within a distance of 2 degrees to a point(X,Y) you can do this with:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ある地点(X,Y)から距離が2度内の地点を特定したい場合以下の操作ができます</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Result:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>結果:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>the_geom value above was truncated for space on this page.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>上記の the_geom 値はこのページ上では当サイトのスペースを残すため削除されました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you want to see the point in human-readable coordinates, try something similar to what you did in the section "View a point as WKT", above.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>人が読める座標を確認したい場合、上記の「WKTとしてポイントを表示」セクションと類似の操作で確認できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>How do we know that the query above returns all the points within 2 *degrees*? Why not 2 *meters*? Or any other unit, for that matter?</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>上述のクエリが2度という空間内にある地点をすべてかえすということはどうしたらわかりますでしょうか？なぜ2メートル、あるいはその他の単位ではないのでしょうか？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Check your results &lt;spatial-queries-1&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`結果を確認 &lt;spatial-queries-1&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Spatial Indexes</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>空間索引</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We also can define spatial indexes.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>空間索引も定義できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A spatial index makes your spatial queries much faster.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>空間索引を使用すると、空間クエリをより迅速に作成できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To create a spatial index on the geometry column use:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ジオメトリ列に空間索引を作成するには、次のようにします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|TY| |moderate|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|TY| |moderate|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Modify the cities table so its geometry column is spatially indexed.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>都市のテーブルを、そのジオメトリ列が空間索引付けされるように変更します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Check your results &lt;spatial-queries-2&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`結果を確認&lt;spatial-queries-2&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>PostGIS Spatial Functions Demo</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>PostGIS 空間関数デモ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In order to demo PostGIS spatial functions, we'll create a new database containing some (fictional) data.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>PostGIS の空間関数のデモを行うため、いくつかの（架空の）データを含む新しいデータベースを作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To start, create a new database (exit the psql shell first):</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>まず、新しいデータベースを作成します（まずpsqlシェルを終了します）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Remember to install the postgis extensions:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Postgis拡張機能をインストールすることを忘れないでください：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Next, import the data provided in the :kbd:`exercise_data/postgis/` directory. Refer back to the previous lesson for instructions, but remember that you'll need to create a new PostGIS connection to the new database. You can import from the terminal or via DB Manager. Import the files into the following database tables:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次に、 :kbd:`exercise_data/postgis/` ディレクトリにあるデータをインポートします。手順については前のレッスンを参照してください。ただし、新しいデータベースへの新しいPostGIS接続を作成する必要があることに注意してください。端末またはDBマネージャからインポートできます。ファイルを次のデータベーステーブルにインポートします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:kbd:`points.shp` into :kbd:`building`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:kbd:`points.shp` を :kbd:`building` に</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:kbd:`lines.shp` into :kbd:`road`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:kbd:`lines.shp` を :kbd:`road` に</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:kbd:`polygons.shp` into :kbd:`region`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:kbd:`polygons.shp` を :kbd:`region` に</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Load these three database layers into QGIS via the :guilabel:`Add PostGIS Layers` dialog, as usual.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>いつものように、 :guilabel:`PostGISのレイヤーを追加` ダイアログでこれらの3つのデータベースレイヤーをQGISにロードします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>When you open their attribute tables, you'll note that they have both an :kbd:`id` field and a :kbd:`gid` field created by the PostGIS import.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それらの属性テーブルを開くと、 :kbd:`id` フィールドとPostGISのインポートによって作成された :kbd:`gid` フィールドの両方があることに注意。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now that the tables are imported, we can use PostGIS to query the data.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>テーブルはインポートされていますので、データを照会するためのPostGISを使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Go back to your terminal (command line) and enter the psql prompt by running::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>端末（コマンドライン）に戻って以下を実行することによりpsqlのプロンプトを入力してください::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We'll demo some of these select statements by creating views from them, so that you can open them in QGIS and see the results.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISでそれらを開き、結果を見ることができるように、それらからのビューを作成することによってこれらのselect文の一部をデモします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Select by location</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>場所による選択</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Get all the buildings in the KwaZulu region:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>クワズール地域のすべての建物を手に入れよう：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Or, if we create a view from it:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>または、そこからビューを作成する場合は、次のようにします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Add the view as a layer and view it in QGIS:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>レイヤーとしてビューを追加し、QGISで表示：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Select neighbors</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>近傍の選択</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Show a list of all the names of regions adjoining the Hokkaido region:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>北海道地域に隣接する地域のすべての名前のリストを表示する：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>As a view:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ビューとして：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In QGIS:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISでは:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Note the missing region (Queensland).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>不足している地域（クイーンズランド州）に注意してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This may be due to a topology error.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これはトポロジエラーが原因である可能性があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Artifacts such as this can alert us to potential problems in the data.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このようなアーティファクトによって、データの潜在的な問題を警告できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To solve this enigma without getting caught up in the anomalies the data may have, we could use a buffer intersect instead:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>データが持つ異常に巻き込まれることなくこの謎を解決するために、代わりにバッファ交差を使用できます：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This creates a buffer of 100 meters around the region Hokkaido.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>北海道の周囲に100mのバッファを作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The darker area is the buffer:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>暗いエリアがバッファです::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Select using the buffer:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>バッファを使用して選択：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In this query, the original buffer view is used as any other table would be. It is given the alias :kbd:`a`, and its geometry field, :kbd:`a.the_geom`, is used to select any polygon in the :kbd:`region` table (alias :kbd:`b`) that intersects it. However, Hokkaido itself is excluded from this select statement, because we don't want it; we only want the regions adjoining it.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このクエリでは、元のバッファ・ビューは、他のテーブルがされるように使用されます。これは別名 :kbd:`a` を与えられ、その幾何形状フィールド :kbd:`region` テーブル（別名 :kbd:`b` ） :kbd:`a.the_geom` が、それと交差するすべての多角形を選択するために使用されます。しかし北海道自体はこのselect文から除外されます。必要なのは北海道自体ではなく、それに隣接する領域だけなので。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It is also possible to select all objects within a given distance, without the extra step of creating a buffer:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>バッファを作成する追加のステップを行うことなしに、指定された距離内のすべてのオブジェクトを選択することもできます：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This achieves the same result, without need for the interim buffer step:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは、中間バッファステップを必要とせずに、同じ結果を達成します：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Select unique values</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>一意の値を選択する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Show a list of unique town names for all buildings in the Queensland region:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>クイーンズランド州のすべての建物に固有の町名のリストを表示します：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Further examples ...</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>その他の事例</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|IC|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|IC|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You have seen how to query spatial objects using the new database functions from PostGIS.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>PostGISからの新しいデータベース機能を使用して、空間オブジェクトをクエリする方法を見てきました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|WN|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|WN|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Next we're going to investigate the structures of more complex geometries and how to create them using PostGIS.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次は、より複雑な幾何形状の構造と、それらをPostGISを使用して作成する方法を調査するつもりです。</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

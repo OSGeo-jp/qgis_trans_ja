@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|LS| Useful QGIS Plugins</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|LS| 役に立つQGISプラグイン</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now that you can install, enable and disable plugins, let's see how this can help you in practice by looking at some examples of useful plugins.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プラグインをインストールして有効化・無効化することができるようになりました。それではいくつかの便利なプラグインの例を見て、これが実際にどのように役に立つか見ていきましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**The goal for this lesson:** To familiarize yourself with the plugin interface and get acquainted with some useful plugins.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**このレッスンの目標:** プラグインインターフェイスに慣れ、いくつかの便利なプラグインを使ってみる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|IC|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|IC|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>There are many useful plugins available for QGIS.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISではたくさんの便利なプラグインを利用することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Using the built-in tools for installing and managing these plugins, you can find new plugins and make optimum use of them.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ビルトインツールを用いてこれらのプラグインを管理すれば、新しいプラグインを見つけ、それらを最適に利用することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|WN|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|WN|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Next we'll look at how to use layers that are hosted on remote servers in real time.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次はリモートサーバーにホストされているレイヤーをリアルタイムで使う方法を見ていきます。</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

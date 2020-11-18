@@ -1,0 +1,191 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Interpolation and contouring</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>補間と等高線作成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Module contributed by Paolo Cavallini - `Faunalia &lt;https://www.faunalia.eu&gt;`_</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>モジュール提供：Paolo Cavallini - `Faunalia &lt;https://www.faunalia.eu&gt;`_</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This chapter shows how to use different backends to calculate different interpolations.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この章では、さまざまな補間を計算するために、異なるバックエンドを使用する方法を示しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Interpolation</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>補間</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The project shows a gradient in rainfall, from south to north.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このプロジェクトは、南から北へ、降雨量の勾配を示しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Let's use different methods for interpolation, all based on vector ``points.shp``, parameter ``RAIN``:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>補間のためのさまざまな方法を使用してみましょう、すべてベクター ``points.shp`` 、パラメーター ``RAIN`` に基づきます：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Set cell size to :kbd:`500` for all analyses.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>すべての分析に対してセルのサイズは :kbd:`500` に設定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:menuselection:`GRASS --&gt; v.surf.rst`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:menuselection:`GRASS --&gt; v.surf.rst`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:menuselection:`SAGA --&gt; Multilevel B-Spline Interpolation`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:menuselection:`SAGA --&gt; マルチレベルBスプライン補間`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:menuselection:`SAGA --&gt; Inverse Distance Weighted` [Inverse distance to a power; Power: 4; Search radius: Global; Search range: all points]</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:menuselection:`SAGA --&gt; 逆距離荷重` [べきの逆距離。べき：4。検索半径：グローバル。検索範囲：すべてのポイント]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:menuselection:`GDAL --&gt; Grid (Inverse Distance to a power)` [Power:4]</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:menuselection:`GDAL --&gt; グリッド(べきの逆距離)` [べき:4]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:menuselection:`GDAL --&gt; Grid (Moving average)` [Radius1&amp;2: 50000]</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:menuselection:`GDAL --&gt; グリッド (移動平均)` [Radius1&amp;2: 50000]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Then measure variation among methods and correlate it with distance to points:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次いで、方法間の分散を測定して点までの距離との相関をとります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:menuselection:`GRASS --&gt; r.series` [Unselect Propagate NULLs, Aggregate operation: stddev]</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:menuselection:`GRASS --&gt; r.series` [Unselect Propagate NULLs, Aggregate operation: stddev]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:menuselection:`GRASS --&gt; v.to.rast.value` on ``points.shp``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:menuselection:`GRASS --&gt; v.to.rast.value` on ``points.shp``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:menuselection:`GDAL --&gt; Proximity`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:menuselection:`GDAL --&gt; 近接`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:menuselection:`GRASS --&gt; r.covar` to show the correlation matrix; check the significance of the correlation e.g. with http://vassarstats.net/rsig.html.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:menuselection:`GRASS --&gt; r.covar` で相関マトリックスを表示; 例えば http://vassarstats.net/rsig.html で相関の有意性をチェックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Thus, areas far from points will have less accurate interpolation.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このように、ポイントから遠くの領域ではより正確でない補間になります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Contour</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>等高線</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Various methods to draw contour lines [always step= 10] on the *stddev* raster:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>*stddev* ラスターに等高線を描くための様々な方法[always step = 10]：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:menuselection:`GRASS --&gt; r.contour.step`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:menuselection:`GRASS --&gt; r.contour.step`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:menuselection:`GDAL --&gt; Contour`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:menuselection:`GDAL --&gt; 等高線`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:menuselection:`SAGA --&gt; Contour lines from grid` [**NB:** in some older SAGA versions, output shp is not valid, known bug]</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:menuselection:`SAGA --&gt; グリッドからの等高線` [ **注意** ：いくつかの古いSAGAのバージョンでは、出力shpは有効ではなく、既知のバグです]</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

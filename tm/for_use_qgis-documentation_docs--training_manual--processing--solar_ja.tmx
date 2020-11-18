@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Planning a solar farm</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>太陽光発電所を計画する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Module contributed by Paolo Cavallini - `Faunalia &lt;https://www.faunalia.eu&gt;`_</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>モジュール提供：Paolo Cavallini - `Faunalia &lt;https://www.faunalia.eu&gt;`_</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This chapter shows how to use several criteria to locate the areas suitable for installing a photovoltaic power station</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この章では、太陽光発電所を設置するのに適した地域を特定するために、いくつかの基準を使用する方法を示しています</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>First of all, create an aspect map from DTM:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>まず第一に、DTMから傾斜方向図を作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:menuselection:`GRASS --&gt; r.aspect` [Data type: int; cell size:100]</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:menuselection:`GRASS --&gt; r.aspect` [データの型：int；セルサイズ：100]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In GRASS, aspect is calculated in degrees, counterclockwise starting from East.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GRASSにおいて、向きは、反時計回りに東から出発して、度で計算されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To extract only South facing slopes (270 degrees +- 45), we can reclassify it:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>南向きの斜面だけを抽出するには（270度+ - 45）、それを再分類できます：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:menuselection:`GRASS --&gt; r.reclass`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:menuselection:`GRASS --&gt; r.reclass`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>with the following rules::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次のルールで::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can use the text file ``reclass_south.txt`` provided.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>提供されるテキストファイル ``reclass_south.txt`` を使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Note that with these simple text files we can create also very complex reclassifications.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これらの単純なテキストファイルで、非常に複雑な再分類も作成できることに注意してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We want to build a large farm, so we select only large (&gt; 100 ha) contiguous areas:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>大きな発電所を構築したいので、連続した大きな(&gt; 100ヘクタール)領域だけを選択します：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:menuselection:`GRASS --&gt; r.reclass.greater`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:menuselection:`GRASS --&gt; r.reclass.greater`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Finally, we convert to a vector:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>最後に、ベクターに変換します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:menuselection:`GRASS --&gt; r.to.vect` [Feature type: area; Smooth corners: yes]</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:menuselection:`GRASS --&gt; r.to.vect` [地物の種類: エリア; 角を滑らかに: はい]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Exercise for the reader**: repeat the analysis, replacing GRASS commands with analogous from other programs.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**読者のための練習** ：GRASSコマンドを他のプログラムからの類似の物に置き換えて、分析を繰り返してください。</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

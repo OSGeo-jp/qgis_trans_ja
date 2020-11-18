@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|MOD| QGIS Server</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|MOD| QGISサーバー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Module contributed by Tudor Bărăscu.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Tudor Bărăscuによって投稿されたモジュール。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In this module, we'll cover how to install and use QGIS Server.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このモジュールでは、QGISサーバーをインストールして使用する方法をカバーします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For an introduction to what QGIS Server is (see the :ref:`label_qgisserver` section)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISサーバーとは何かの入門には（ :ref:`label_qgisserver` セクション参照）</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

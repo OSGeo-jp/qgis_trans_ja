@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Interpolation</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>補間</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This chapter shows how to interpolate point data, and will show you another real example of performing spatial analysis</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この章では、ポイントデータの補間方法について示し、空間分析の実際の実行例を示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In this lesson, we are going to interpolate points data to obtain a raster layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このレッスンでは、ポイントデータを補間してラスターレイヤーを得ます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Before doing it, we will have to do some data preparation, and after interpolating we will add some extra processing to modify the resulting layer, so we will have a complete analysis routine.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それをする前に、若干のデータ準備をしなければならず、そして補間後には結果のレイヤーを修正する追加の処理をいくらか追加しますから、完全な分析ルーチンになるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Open the example data for this lesson, which should look like this.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このレッスンの例となるデータを開くと、このように見えます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The data correspond to crop yield data, as produced by a modern harvester, and we will use it to get a raster layer of crop yield. We do not plan to do any further analysis with that layer, but just to use it as a background layer for easily identifying the most productive areas and also those where productivity can be improved.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>データは収穫産出高データ、現代の収穫者によって生産されるような、と一致します。そして、ここでは収穫産出高のラスターレイヤーを得るためにそれを使います。そのレイヤーでさらに何か分析する計画はなく、最も生産的な地域、そして生産性が改善できる地域を簡単に特定するための背景レイヤーとしてのみ使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The first thing to do is to clean--up the layer, since it contains redundant points.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>最初にすることはレイヤーをクリーンアップすることです、なぜならポイントの中には冗長なポイントがあるからです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>These are caused by the movement of the harvester, in places where it has to do a turn or it changes its speed for some reason.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これらは収穫者の動きに起因します、何らかの理由で転回したり速度を変えなければならない場所で。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The *Points filter* algorithm will be useful for this.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>*ポイントフィルタ* アルゴリズムは、これに役立ちます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We will use it twice, to remove points that can be considered outliers both in the upper and lower part of the distribution.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>二回それを使い、分布の上位または下位の部分の両方で外れ値とみなされるポイントを除外します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For the first execution, use the following parameter values.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>最初の実行には、次のパラメーター値を使います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now for the next one, use the configuration shown below.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次の実行には、以下に示す設定を使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Notice that we are not using the original layer as input, but the output of the previous run instead.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>入力としてオリジナルレイヤーを使用しているのではなく、以前に実行した際の出力を使用している点に注意してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The final filter layer, with a reduced set of points, should look similar to the original one, but it contains a smaller number of points.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>最終的なフィルタレイヤー、減らされたポイントのセットのもの、はオリジナルものと類似して見えるはずですが、含んでいるポイントはより少ないです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can check that by comparing their attribute tables.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それらの属性テーブルで比較すると確認できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now let's rasterize the layer using the *Rasterize* algorithm.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>では *ラスター化* アルゴリズムを使用してレイヤーをラスター化しましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The *Filtered points* layer refers to the resulting one of the second filter.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>*フィルタされたポイント* レイヤーは第二のフィルタの結果のレイヤーを参照します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It has the same name as the one produced by the first filter, since the name is assigned by the algorithm, but you should not use the first one.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>アルゴリズムによって名前が指定されているため、第一のフィルタによって作成されたレイヤーと同じ名前になりますが、第一のレイヤーは使用しないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Since we will not be using it for anything else, you can safely remove it from your project to avoid confusion, and leave just the last filtered layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それは他の何かのために使っていないので、混乱を避けるためにプロジェクトからそれを取り除いても問題なく、最終的なフィルタ処理したレイヤーだけ残せます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The resulting raster layer looks like this.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>結果のラスターレイヤーはこのように見えます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It is already a raster layer, but it is missing data in some of its cells.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それはすでにラスターレイヤーですが、一部のセルが欠落しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It only contain valid values in those cells that contained a point from the vector layer that we have just rasterized, and a no--data value in all the other ones.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ラスター化したベクターレイヤー由来のポイントとデータなし値を含むセルで有効な値のみを含みます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To fill the missing values, we can use the *Close gaps* algorithm.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この欠損値を埋めるため、 *隙間を閉じる* アルゴリズムを使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The layer without no--data values looks like this.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>データなし値のないレイヤーはこのように見えます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To restrict the area covered by the data to just the region where crop yield was measured, we can clip the raster layer with the provided limits layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>収穫産出高が計られた地域において、データによっておおわれる地域を制限するために、提供された制限レイヤーでラスターレイヤーを切り抜くことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>And for a smoother result (less accurate but better for rendering in the background as a support layer), we can apply a *Gaussian filter* to the layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>滑らかな結果（精度は低いがサポートレイヤーとして背景にレンダリングされるには良い）を得るため、レイヤーに *ガウスフィルタ* を適用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>With the above parameters you will get the following result</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>上記のパラメーターで、次の結果が得られます。</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

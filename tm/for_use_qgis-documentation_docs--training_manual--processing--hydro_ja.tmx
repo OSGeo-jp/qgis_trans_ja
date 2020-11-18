@@ -1,0 +1,335 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Hydrological analysis</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>水文解析</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In this lesson we will perform some hydrological analysis. This analysis will be used in some of the following lessons, as it constitutes a very good example of an analysis workflow, and we will use it to demonstrate some advanced features.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このレッスンでは、ちょっとした水文解析を実行します。この分析は解析ワークフローの非常に良い例を構成しているので、後のいくつかのレッスンの一部に使用されます。そして、いくつかの高度な機能を発揮するためにそれを使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In this lesson, we are going to do some hydrological analysis.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このレッスンでは、ちょっとした水文解析をしていきます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Starting with a DEM, we are going to extract a channel network, delineate watersheds and calculate some statistics.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>DEM を皮切りに、水路ネットワークを抽出し、流域を描き、いくつかの統計を計算していきます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The first thing is to load the project with the lesson data, which just contains a DEM.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>最初は、レッスンデータ、DEM だけが含まれている、を持つプロジェクトをロードすることです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The first module to execute is *Catchment area* (in some SAGA versions it is called *Flow accumulation (Top Down)*).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>実行する最初のモジュールは *流域面積* です (一部SAGAバージョンではそれは *累積流量(トップダウン)* と呼ばれる) 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can use anyone of  the others named *Catchment area*.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>*流域面積* という名前の他の誰にも使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>They have different algorithms underneath, but the results are basically the same.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それらは下では異なるアルゴリズムを持っているが、結果は基本的に同じです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Select the DEM in the *Elevation* field, and leave the default values for the rest of parameters.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>*標高* フィールドにDEMを選択し、残りのパラメーターはデフォルト値のままにします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Some algorithms calculate many layers, but the *Catchment Area* one is the only one we will be using.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>アルゴリズムには複数のレイヤーを計算するものもありますが、 *流域* レイヤーだけが使用する予定のレイヤーです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can get rid of the other ones if you want.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ご希望なら他のレイヤーは取り除くことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The rendering of the layer is not very informative.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>レイヤーのレンダリングは非常に有益ではありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To know why, you can have a look at the histogram and you will see that value are not evenly distributed (there are a few cells with very high value, those corresponding to the channel network).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>理由を知るためにヒストグラムを見ると、値が均等に分布していないことがわかります（水路ネットワークに対応する、非常に大きな値のセルがいくつかあります）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Calculating the logarithm of the catchment area value yields a layer that conveys much more information (you can do it using the raster calculator).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>集水域の値の対数を計算すると、より多くの情報を伝えるレイヤーが生成できます（ラスター計算機を使用して行うことができます）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The catchment area (also known as flow accumulation), can be used to set a threshold for channel initiation.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>流域（累積流量とも言われる） は、水路開始のためのしきい値を設定するために使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This can be done using the *Channel network* algorithm.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは、 *水路ネットワーク* アルゴリズムを使用して行うことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Here is how you have to set it up (note the *Initiation threshold* *Greater than* 10.000.000).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それを設定しなければならない方法はこうなります ( *開始しきい値* が10.000.000 *より大きい* ことに注意してください) 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Use the original catchment area layer, not the logarithm one.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>元々の集水域レイヤー、対数のではないレイヤーを使用してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>That one was just for rendering purposes.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>対数のレイヤーはレンダリングする目的だけのためでした。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you increase the *Initiation threshold* value, you will get a more sparse channel network.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>*開始しきい値* を増やすと、より疎らな水路ネットワークが得られます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you decrease it, you will get a denser one.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>減らすと、より密なネットワークが得られます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>With the proposed value, this is what you get.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>提案された値では、得られるものはこれです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The image above shows just the resulting vector layer and the DEM, but there should be also a raster one with the same channel network.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>上の画像は得られたベクターレイヤーとDEMだけ表示していますが、同じ水路ネットワークを持つラスターのレイヤーがなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>That raster one will be, in fact, the one we will be using.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>そのラスターレイヤーが、実際には、使用しているものになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now, we will use the *Watersheds basins* algorithm to delineate the subbasins corresponding to that channel network, using as outlet points all the junctions in it.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>さてここで、吐出口ポイントとしてその中のすべての接合部を使用して、その水路のネットワークに対応する下位流域を描写する *流域の流域* アルゴリズムを使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Here is how you have to set the corresponding parameters dialog.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは、対応するパラメーターダイアログボックスをどのように設定する必要があるかです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>And this is what you will get.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>そして、得られるものはこれです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This is a raster result.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これがラスターの結果です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can vectorise it using the *Vectorising grid classes* algorithm.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それは *グリッドクラスをベクター化* アルゴリズムを使用してベクター化できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now, let's try to compute statistics about the elevation values in one of the subbasins.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>さて、下位流域の一つで標高値についての統計を計算してみましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The idea is to have a layer that just represents the elevation within that subbasin and then pass it to the module that calculates those statistics.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>考え方は、ちょうどその下位流域内だけの標高を表しているレイヤーを得て、それをそれらの統計を計算するモジュールに渡すことです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>First, let's clip the original DEM with the polygon representing a subbasin.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>まずは、下位流域を表すポリゴンと元DEMをクリップしましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We will use the *Clip raster with polygon* algorithm.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>*ポリゴンでラスターをクリップ* アルゴリズムを使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If we select a single subbasin polygon and then call the clipping algorithm, we can clip the DEM to the area covered by that polygon, since the algorithm is aware of the selection.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>単一の下位流域ポリゴンを選択し、クリッピングアルゴリズムを呼び出す場合、アルゴリズムが選択を知っているので、そのポリゴンによってカバーされる領域にDEMをクリップできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Select a polygon,</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ポリゴンを選択し、</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>and call the clipping algorithm with the following parameters:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>そして次のパラメーターを使用してクリッピングアルゴリズムを呼び出します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The element selected in the input field is, or course, the DEM we want to clip.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>入力フィールドに選択された要素が、もちろん、クリップしたいDEMです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You will get something like this.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このようなものが得られます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This layer is ready to be used in the *Raster layer statistics* algorithm.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このレイヤーは、 *ラスターレイヤー統計* アルゴリズムで使用できるようになりました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The resulting statistics are the following ones.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>結果の統計は以下のものです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We will use both the basin calculations procedure and the statistics calculation in other lessons, to find out how other elements can help us automate both of them and work more effectively.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>他のレッスンでは流域の計算手順および統計計算の両方を使用するでしょう。そして他の要素がそれらの両方を自動化しより効率的に作業するのにどのように役立ちうるかを見ます。</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

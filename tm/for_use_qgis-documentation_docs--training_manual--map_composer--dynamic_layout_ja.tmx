@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|LS| Creating a Dynamic Print Layout</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|LS| ダイナミック印刷レイアウトを作成する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moderate| |FA| Creating the dynamic map canvas</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moderate| |FA| 動的地図キャンバスの作成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Load the ESRI Shapefile format datasets :file:`protected_areas.shp`, :file:`places.shp`, :file:`rivers.shp` and :file:`water.shp` into the map canvas and adapt its properties to suit your own convenience.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ESRI Shapefile形式のデータセット :file:`protected_areas.shp` 、 :file:`places.shp` 、 :file:`rivers.shp` および :file:`water.shp` を地図キャンバスにロードし、そのプロパティを自分の良いように修正します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We want to create a map layout consisting of a header and a map of the region near Swellendam, South Africa.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ヘッダと南アフリカのスウェレンダム近くの地域の地図で構成される地図レイアウトを作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The layout should have a margin of 7.5 mm and the header should be 36mm high.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>レイアウトのマージンは7.5 mmで、ヘッダの高さは36mmでなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moderate| |FA| Creating the dynamic header</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moderate| |FA| 動的ヘッダを作成する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Insert a rectangle which will contain the header with the |addBasicShape| :sup:`Add Shape` button.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|addBasicShape| :sup:`図形追加` ボタンでヘッダを含む長方形を挿入します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In the :guilabel:`Items` panel enter the name ``header``.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`アイテム` パネルに ``header`` という名前を入力します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The figure below shows the structure of our dynamic layout.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>以下の図は、動的レイアウトの構造を示しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We will fill the areas created by the lines with some elements.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>線によって作成された領域をいくつかの要素で埋めます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moderate| |FA| Creating labels for the dynamic header</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moderate| |FA| 動的ヘッダのラベルを作成する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moderate| |FA| Adding pictures to the dynamic header</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moderate| |FA| 動的ヘッダに画像を追加する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moderate| |FA| Creating the scalebar of the dynamic header</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moderate| |FA| 動的ヘッダのスケールバーを作成する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|WN|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|WN|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>On the next page, you will be given an assignment to complete.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次のページでは、完成すべき課題が与えられます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This will allow you to practice the techniques you have learned so far.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これによって、これまでに学んだテクニックを実践できます。</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

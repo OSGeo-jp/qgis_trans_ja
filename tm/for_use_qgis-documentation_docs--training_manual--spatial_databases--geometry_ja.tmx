@@ -1,0 +1,495 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|LS| Geometry Construction</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|LS| ジオメトリの構成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In this section we are going to delve a little deeper into how simple geometries are constructed in SQL. In reality, you will probably use a GIS like QGIS to create complex geometries using their digitising tools; however, understanding how they are formulated can be handy for writing queries and understanding how the database is assembled.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このセクションでは単純なジオメトリがSQL内でどのように構成されるかを少し掘り下げます。実際には、複雑なジオメトリをデジタル化ツールを使用して作るには、QGIS のような GIS を使用するでしょう。しかし、それらがどのように形作られているかを知ることは、クエリを書いたりデータベースがどのように作られているかを理解するのに役立ちます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**The goal of this lesson:** To better understand how to create spatial entities directly in PostgreSQL/PostGIS.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**このレッスンの目的** PostgreSQL/PostGIS で空間要素を直接作成する方法をよく理解する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Creating Linestrings</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ラインストリングの作成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Going back to our :kbd:`address` database, let's get our streets table matching the others; i.e., having a constraint on the geometry, an index and an entry in the geometry_columns table.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:kbd:`address` データベースに戻って、他に一致する街路テーブルを取得してみましょう。すなわち、ジオメトリ、インデックスとGEOMETRY_COLUMNSテーブル中のエントリに制約を持ちます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|TY| |moderate|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|TY| |moderate|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Modify the :kbd:`streets` table so that it has a geometry column of type ST_LineString.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>タイプST_LineStringのジオメトリ列を持つように :kbd:`街路` テーブルを修正します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Don't forget to do the accompanying update to the geometry columns table!</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ジオメトリ列のテーブルに伴う更新を行うことを忘れないでください！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Also add a constraint to prevent any geometries being added that are not LINESTRINGS or null.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>また、ラインストリングでないかnullであるようなジオメトリが追加されることを防ぐための制約を追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Create a spatial index on the new geometry column</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>新しいジオメトリ列に空間索引を作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Check your results &lt;geometry-1&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`結果の確認 &lt;geometry-1&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now let's insert a linestring into our streets table.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次に、街路テーブルに線ストリングを挿入しましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In this case we will update an existing street record:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この場合、既存の道路記録を更新します：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Take a look at the results in QGIS. (You may need to right-click on the streets layer in the 'Layers' panel, and choose 'Zoom to layer extent'.)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>結果をQGISで確認してみます。('レイヤー' パネルのstreetsレイヤーを右クリックし、'レイヤーの領域にズームする'を選択する必要があるかもしれません。)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now create some more streets entries - some in QGIS and some from the command line.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>いくつかはQGISから、いくつかはコマンドラインから道路の要素をもう少し追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Creating Polygons</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ポリゴンの作成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Creating polygons is just as easy.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ポリゴンの作成も簡単です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>One thing to remember is that by definition, polygons have at least four vertices, with the last and first being co-located:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>覚えておくべきことの1つは、ポリゴンには少なくとも4つの頂点があり、最後と最初のものが同じ場所にあることです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A polygon requires double brackets around its coordinate list; this is to allow you to add complex polygons with multiple unconnected areas. For instance</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ポリゴンは、その座標リストの周りに二重括弧を必要とします。これにより、複数の連結していない領域を持つ複雑なポリゴンを追加できるようなります。例えば</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you followed this step, you can check what it did by loading the cities dataset into QGIS, opening its attribute table, and selecting the new entry.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この手順に従った場合、QGISに都市データセットをロードし、属性テーブルを開き、新しいエントリを選択することで、何をしたか確認できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Note how the two new polygons behave like one polygon.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>二つの新しいポリゴンが1つのポリゴンのように振る舞うかに注意してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Exercise: Linking Cities to People</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>練習:CitiesをPeopleにリンクする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For this exercise you should do the following:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この演習では次のことを行う必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Delete all data from your people table.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>peopleテーブルからすべてのデータを削除します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Add a foreign key column to people that references the primary key of the cities table.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>都市テーブルの主キーを参照する人々への外部キー列を追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Use QGIS to capture some cities.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISを使用していくつかの都市をキャプチャします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Use SQL to insert some new people records, ensuring that each has an associated street and city.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それぞれが関連付けられている通り、街を持っていることを確認して、いくつかの新しい人々のレコードを挿入するSQLを使用してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Your updated people schema should look something like this:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>更新されたユーザーのスキーマは、次のようになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Check your results &lt;geometry-2&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`結果の確認 &lt;geometry-2&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Looking at Our Schema</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>スキーマに着目する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>By now our schema should be looking like this:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>スキーマはこのように見えるべきです:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|TY| |hard|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|TY| |hard|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Create city boundaries by computing the minimum convex hull of all addresses for that city and computing a buffer around that area.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>その都市のすべてのアドレスの最小凸包を計算し、その領域の周りのバッファを計算することにより、都市の境界線を作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Access Sub-Objects</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>サブオブジェクトへのアクセス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>With the SFS-Model functions, you have a wide variety of options to access sub-objects of SFS Geometries.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>SFS-モデルの機能を使用すると、SFSジオメトリのサブオブジェクトにアクセスするためのさまざまなオプションを持っています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>When you want to select the first vertex point of every polygon geometry in the table myPolygonTable, you have to do this in this way:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>テーブルmyPolygonTable内のすべてのポリゴンジオメトリの最初の頂点を選択したいときは、このような方法でこれを実行する必要があります：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Transform the polygon boundary to a linestring:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ポリゴン境界を線ストリングに変換する：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Select the first vertex point of the resultant linestring:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>結果の線ストリングの最初の頂点を選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Data Processing</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>データプロセッシング</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>PostGIS supports all OGC SFS/MM standard conform functions.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>PostGISでは、すべてのOGC SFS/MM標準準拠関数をサポートしています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>All these functions start with ``ST_``.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これらの関数はすべて ``ST_`` で始まります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Clipping</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>クリッピング</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To clip a subpart of your data you can use the ``ST_INTERSECT()`` function.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>データのサブパートをクリップするには、 ``ST_INTERSECT()`` 関数を使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To avoid empty geometries, use:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>空のジオメトリを避けるには、次のようにします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Building Geometries from Other Geometries</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ジオメトリを他のジオメトリから構築する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>From a given point table, you want to generate a linestring.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>与えられたポイントテーブルから、ラインストリングを生成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The order of the points is defined by their :kbd:`id`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ポイントの順序は、その :kbd:`id` によって定義されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Another ordering method could be a timestamp, such as the one you get when you capture waypoints with a GPS receiver.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>別の並べ方は、GPS受信機でウェイポイントをキャプチャするときに得るような、タイムスタンプになりうるかもしれません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To create a linestring from a new point layer called 'points', you can run the following command:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>'points'という新しいポイントレイヤーから線ストリングを作成するには、次のコマンドを実行します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To see how it works without creating a new layer, you could also run this command on the 'people' layer, although of course it would make little real-world sense to do this.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>どのように機能するかを確認するために、「人」レイヤーにもこのコマンドを実行できたでしょう。もちろん、これを行うことに現実世界の意味はほとんどないでしょうが。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Geometry Cleaning</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ジオメトリクリーニング</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Differences between tables</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>テーブル間の差</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To detect the difference between two tables with the same structure, you can use the PostgreSQL keyword ``EXCEPT``:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>同じ構造を持つ2つのテーブルの差を検出するには、PostgreSQLキーワード "EXCEPT"を使用します：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>As the result, you will get all records from table_a which are not stored in table_b.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>結果として、table_aからtable_bに格納されていないすべてのレコードが得られるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Tablespaces</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>表領域</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can define where postgres should store its data on disk by creating tablespaces:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Postgresがディスク上にデータを格納する場所を定義するには、表領域を作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>When you create a database, you can then specify which tablespace to use e.g.::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>データベースを作成するときは、例えばどの表領域を使用するか指定できます::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|IC|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|IC|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You've learned how to create more complex geometries using PostGIS statements.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>PostGISの文を使用して、より複雑なジオメトリを作成する方法を学びました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Keep in mind that this is mostly to improve your tacit knowledge when working with geo-enabled databases through a GIS frontend.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これはGISのフロントエンドを通じて地理対応データベースを操作するときは、暗黙知を向上させることがほとんどであることに留意してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You usually won't need to actually enter these statements manually, but having a general idea of their structure will help you when using a GIS, especially if you encounter errors that would otherwise seem cryptic.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これらのステートメントを実際に手動で入力する必要は普通はありませんが、その構造について一般的な知識を持っておくと、GISを使用するときに、特にそうでなければ不可解と思うであろうエラーが発生したときに、役に立ちます。</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

@@ -1,0 +1,367 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|LS| An Overview of the Interface</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|LS| インターフェイスのあらまし</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We will explore the QGIS user interface so that you are familiar with the menus, toolbars, map canvas and layers list that form the basic structure of the interface.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>インターフェイスの基本的な構造を形成するメニュー、ツールバー、地図キャンバスとレイヤーリストに慣れてもらえるよう、私たちは、QGISのユーザーインターフェイスを探ります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**The goal for this lesson:** To understand the basics of the QGIS user interface.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**このレッスンの目標:** QGISのユーザーインターフェイスの基礎を理解する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| |TY|: The Basics</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| |TY|: 基礎</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The elements identified in the figure above are:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>上の図で特定される要素は以下のとおりです：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Layers List / Browser Panel</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>レイヤーリスト/ブラウザパネル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Toolbars</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ツールバー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Map canvas</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>地図キャンバス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Status bar</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ステータスバー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Side Toolbar</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>サイドツールバー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| The Layers List</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| レイヤーリスト</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In the Layers list, you can see a list, at any time, of all the layers available to you.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>レイヤーリストでは、いつでも、利用可能なすべてのレイヤーのリストを見ることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Expanding collapsed items (by clicking the arrow or plus symbol beside them) will provide you with more information on the layer's current appearance.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>（横にある矢印やプラス記号をクリックして）折りたたまれた項目を展開すると、レイヤーの現在の見た目について多くの情報を提供します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Right-clicking on a layer will give you a menu with lots of extra options.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>レイヤーを右クリックすると、多くの追加オプションとメニューを提供します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You will be using some of them before long, so take a look around!</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>あなたはやがて、それらのいくつかを使用するでしょうから、その周辺を見てみます！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A vector layer is a dataset, usually of a specific kind of object, such as roads, trees, etc.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ベクターレイヤーは、道路、樹木のような一般的に特定の種類のオブジェクトのデータの集合体です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A vector layer can consist of either points, lines or polygons.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ベクターレイヤーはポイント、ライン、ポリゴンのいずれかで構成されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| The Browser Panel</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| ブラウザパネル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The QGIS Browser is a panel in QGIS that lets you easily navigate in your database. You can have access to common vector files (e.g. ESRI Shapefile or MapInfo files), databases (e.g. PostGIS, Oracle, SpatiaLite, GeoPackage or MSSQL Spatial) and WMS/WFS connections. You can also view your GRASS data.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISブラウザはあなたのデータベースを簡単に案内するQGISのパネルです.共通のベクタファイル（例えばESRI ShapefileやMapInfoのファイル),データベース(例えばPostGIS,Oeacle,Spatialite,GeoPackage または MSSQL Spatial)とWMS/WFS接続にアクセスできます.またGRASS dataを見ることもできます.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| Toolbars</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| ツールバー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Even if they are not visible in a toolbar, all of your tools will remain accessible via the menus.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>すべてのツールは、ツールバーに表示されていない場合でも、メニューを通じてアクセスできるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For example, if you remove the :guilabel:`File` toolbar (which contains the :guilabel:`Save` button), you can still save your map by clicking on the :guilabel:`Project` menu and then clicking on :guilabel:`Save`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>たとえば、 :guilabel:`ファイル` ツールバー（ :guilabel:`保存` ボタンが含まれています）を削除した場合でも、 :guilabel:`プロジェクト` メニューをクリックしてから :guilabel:`保存` をクリックすれば地図を保存できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| The Map Canvas</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| 地図キャンバス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This is where the map itself is displayed and where layers are loaded. In the map canvas you can interact with the visible layers: zoom in/out, move the map, select features and many other operations that we will deeply see in the next sections.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ここは、地図自体が表示され、レイヤがロードされる場所です。地図キャンバスでは、表示されているレイヤを操作できます。ズームイン/ズームアウト、地図移動、地物の選択、および次のセクションで詳しく説明する他の多くの操作を行うことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| The Status Bar</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| ステータスバー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| |TY| 1</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| |TY| 1</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Try to identify the four elements listed above on your own screen, without referring to the diagram above.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>上の図を参照することなく、ご自身の画面で上記の4つの要素を識別するようにしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>See if you can identify their names and functions.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それらの名前と機能を特定できるかどうか見てください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You will become more familiar with these elements as you use them in the coming days.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>数日中にそれらを使用するにつれて、これらの要素に慣れてくるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Check your results &lt;interface-overview-1&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`結果をチェックする &lt;interface-overview-1&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| |TY| 2</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| |TY| 2</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Try to find each of these tools on your screen.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>画面上でこれらの各ツールを探してみてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>What is their purpose?</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それらの目的は何ですか？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|fileSaveAs|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|fileSaveAs|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|zoomToLayer|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|zoomToLayer|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|invertSelection|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|invertSelection|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|measure|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|measure|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If any of these tools is not visible on the screen, try enabling some toolbars that are currently hidden.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これらのツールのいずれかが画面に表示されていない場合は、現在隠されているいくつかのツールバーを有効にしてみてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Also keep in mind that if there isn't enough space on the screen, a toolbar may be shortened by hiding some of its tools.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>また、画面上に十分なスペースがない場合は、ツールバーがそのツールの一部を隠すことで短縮されることがあることに注意してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can see the hidden tools by clicking on the double right arrow button in any such collapsed toolbar.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>そのように折りたたまれたツールバーでは右矢印ボタンをダブルクリックすると非表示のツールを表示できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can see a tooltip with the name of any tool by holding your mouse over the tool for a while.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ツールの上でしばらくの間マウスを保持すると、何らかのツールの名前のツールチップを表示できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Check your results &lt;interface-overview-2&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`結果をチェックする &lt;interface-overview-2&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|WN|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|WN|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now you've seen how the QGIS interface works, you can use the tools available to you and start improving on your map!</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ここまでQGISインターフェイスがどのように機能するかを見てきましたので、利用可能なツールを使用して、地図上の改善を開始できます！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This is the topic of the next lesson.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これが次のレッスンのトピックです。</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

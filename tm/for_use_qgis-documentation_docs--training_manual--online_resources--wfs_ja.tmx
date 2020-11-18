@@ -1,0 +1,407 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|LS| Web Feature Services</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|LS| Web Feature Services</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A Web Feature Service (WFS) provides its users with GIS data in formats that can be loaded directly in QGIS.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Web Feature Service (WFS)はQGISで直接読み込める形式のGISデータをユーザーに提供します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Unlike a WMS, which provides you only with a map which you can't edit, a WFS gives you access to the features themselves.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>編集できない地図のみを提供するWMSとは異なり、WFSでは地物それ自体へアクセスできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**The goal for this lesson:** To use a WFS and understand how it differs from a WMS.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**このレッスンの目標:** WFSを使用してWMSとの違いを理解します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| |FA| Loading a WFS Layer</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| |FA| WFSレイヤーを読み込む</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Start a new map.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>新しい地図を開始します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This is for demo purposes and won't be saved.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これはデモを目的としており保存されません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Ensure that "on the fly" re-projection is switched off.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>「その場で」再投影がオフになっていることを確認して下さい。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click the :guilabel:`New` button.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`新規` ボタンをクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click :guilabel:`OK`, and the new connection will appear in your :guilabel:`Server connections`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`OK` をクリックすると新しい接続が :guilabel:`サーバーコネクション` に表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click the :guilabel:`Connect`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`接続` をクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A list of the available layers will appear:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>利用可能なレイヤーのリストが表示されます:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Find the layer :guilabel:`south_poles_wfs`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`south_poles_wfs` レイヤーを見つけます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click on the layer to select it:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>レイヤーをクリックして選択します:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click :guilabel:`Add`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`追加` をクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It may take a while to load the layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>レイヤーの読み込みにしばらく時間がかかることがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>When it has loaded, it will appear in the map.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>読み込みが完了したら地図に表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Here it is over the outlines of Antarctica (available on the same server, and by the name of :guilabel:`antarctica_country_border`):</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>南極大陸の輪郭の上に表示するとこうなります(同じサーバーで :guilabel:`antarctica_country_border` の名前で利用可能です):</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>How is this different from having a WMS layer?</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>WMSレイヤーとはどのように違うのですか?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>That will become obvious when you see the layers' attributes.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それはレイヤーの属性を見ると明らかになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Open the :guilabel:`south_poles_wfs` layer's attribute table.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`south_poles_wfs` レイヤーの属性テーブルを開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You should see this:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このように見えるはずです:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Since the points have attributes, we are able to label them, as well as change their symbology.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ポイントは属性を持つのでシンボル体系を変更し、ラベルを付けることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Here's an example:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>例を示します:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Add labels to your layer to take advantage of the attribute data in this layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このレイヤーの属性データを活用するためにレイヤーにラベルを追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Differences from WMS layers</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>WMSレイヤーとの差</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A Web Feature Service returns the layer itself, not just a map rendered from it. This gives you direct access to the data, meaning that you can change its symbology and run analysis functions on it. However, this is at the cost of much more data being transmitted. This will be especially obvious if the layers you're loading have complicated shapes, a lot of attributes, or many features; or even if you're just loading a lot of layers. WFS layers typically take a very long time to load because of this.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Web Feature Serviceはレンダリングされた地図ではなくレイヤー自体を返します。データへの直接アクセスができるので、シンボル体系を変更しデータの分析を行うことができます。しかし、非常に多くのデータの送信にはコストがかかります。レイヤーが複雑な形を持つ場合や沢山の属性、多くの地物を持つ場合に特に顕著になります。多くのレイヤーをロードしている場合でも同様です。このため、WFSレイヤーは一般的には読み込みに非常に長い時間がかかります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moderate| |FA| Querying a WFS Layer</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moderate| |FA| WFSレイヤーからクエリする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Although it is of possible to query a WFS layer after having loaded it, it's often more efficient to query it before you load it.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>WFSレイヤーをロードした後に問い合わせをすることは可能ですが、ロードする前に問い合わせをする方が多くの場合に効率的です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>That way, you're only requesting the features you want, meaning that you use far less bandwidth.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>そのようにして必要な地物だけを要求すればはるかに少ない帯域幅の使用で済むことになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For example, on the WFS server we're currently using, there is a layer called :guilabel:`countries (excluding Antarctica)`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>たとえば、現在使用しているWFSサーバーに :guilabel:`countries (excluding Antarctica)` というレイヤーがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Let's say that we want to know where South Africa is relative to the :guilabel:`south_poles_wfs` layer (and perhaps also the :guilabel:`antarctica_country_border` layer) that's already been loaded.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>既に読み込まれている :guilabel:`south_poles_wfs` レイヤーに対する南アフリカ共和国の位置を知りたいとしましょう(そしておそらく :guilabel:`antarctica_country_border` レイヤーに対する位置も)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>There are two ways to do this. You can load the whole :guilabel:`countries ...` layer, and then build a query as usual once it's loaded. However, transmitting the data for all the countries in the world and then only using the data for South Africa seems a bit wasteful of bandwidth. Depending on your connection, this dataset can take several minutes to load.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これを行うには2つの方法があります。 :guilabel:`countries ...` レイヤーの全体をロードしてから、いつものようにクエリを作成することができますが、世界中の国のデータを送信してから南アフリカのデータだけを使用するのは少し帯域幅の無駄と思われます。あなたの接続によっては、このデータセットの読み込みに数分かかることがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The alternative is to build the query as a filter before even loading the layer from the server.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>サーバーからレイヤーを読み込む前にフィルタとしてクエリを作成することもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In the :guilabel:`Add WFS Layer ...` dialog, connect to the server we used before and you should see the list of available layers.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`WFSレイヤーの追加` ダイアログで前に使用したサーバーに接続して、利用可能なレイヤーリストを表示させます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Double-click next to the :guilabel:`countries ...` layer in the :guilabel:`Filter` field, or click :guilabel:`Build query`:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`Filter` フィールドの :guilabel:`countries ...` レイヤーの隣をダブルクリックするか :guilabel:`クエリ作成` をクリックします:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In the dialog that appears, build the query :kbd:`"Countryeng" = 'South Africa'`:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>表示されるダイアログでクエリ :kbd:`"Countryeng" = 'South Africa'` を作成します:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It will appear as the :guilabel:`Filter` value:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`Filter` の値として表示されます:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click :guilabel:`Add` with the :guilabel:`countries` layer selected as above.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>上のように :guilabel:`countries` レイヤーを選択した状態で :guilabel:`追加` をクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Only the country with the :kbd:`Countryeng` value of :kbd:`South Africa` will load from that layer:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:kbd:`Countryeng` の値が :kbd:`South Africa` の国だけがレイヤーから読み込まれます:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You don't have to, but if you tried both methods, you'll notice that this is a lot faster than loading all the countries before filtering them!</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>実際にやる必要はありませんが、もし両方の方法を試してみたらフィルタする前にすべての国をロードする方法に比べてはるかに早いことがわかります!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Notes on WFS availability</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>WFSの有用性に関するノート</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It is rare to find a WFS hosting features you need, if your needs are very specific.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ニーズが非常に具体的である場合、必要とするWFSサーバーが見つかることは稀です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The reason why Web Feature Services are relatively rare is because of the large amounts of data that must be transmitted to describe a whole feature.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>WFSサービスが比較的まれである理由は地物全体を表現するには大量のデータを送信する必要があるからです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It is therefore not very cost-effective to host a WFS rather than a WMS, which sends only images.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それゆえに画像だけを送信するWMSではなくWFSをホストすることは費用対効果があまりよくありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The most common type of WFS you'll encounter will therefore probably be on a local network or even on your own computer, rather than on the Internet.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>したがって、あなたが出合うであろうWFSの最も一般的なタイプはおそらくインターネット上ではなく、ローカルネットワーク上か自分のコンピュータ上にあるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|IC|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|IC|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>WFS layers are preferable over WMS layers if you need direct access to the attributes and geometries of the layers. However, considering the amount of data that needs to be downloaded (which leads to speed problems and also a lack of easily available public WFS servers) it's not always possible to use a WFS instead of a WMS.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>レイヤーの属性とジオメトリに直接アクセスする必要がある場合にはWFSレイヤーはWMSレイヤーより好ましいですが、ダウンロードされるデータの量を考慮すると(速度の問題そして容易に利用可能な公開WFSサーバーの不足へとつながります)、必ずしもWMSの代わりにWFSが使用できるとは限りません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|WN|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|WN|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Next, you'll see how to use QGIS Server to provide OGC services.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次は、QGISサーバーを使用してOGCサービスを提供する方法を説明します。</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

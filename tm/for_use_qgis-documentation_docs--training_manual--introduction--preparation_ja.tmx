@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|LS| Adding your first layer</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|LS| 最初のレイヤーを追加する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We will start the application, and create a basic map to use for examples and exercises.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>アプリケーションを起動し、その例と演習で使用する基本的な地図を作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**The goal for this lesson:** To get started with an example map.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**このレッスンの目標:** 例の地図で始める</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Launch QGIS from its desktop shortcut, menu item, etc., depending on how you configured its installation.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>デスクトップのショートカット、メニュー、アイテムなどからQGISを起動します。この設定はインストール時の設定に依存します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Let's get started right away!</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>すぐにはじめましょう！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| |FA| Prepare a map</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| |FA| 地図を準備</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Open QGIS.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISを開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You will have a new, blank map.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>新規に空白の地図があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Congratulations!</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>おめでとうございます！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You now have a basic map.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これで基本的な地図ができました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now would be a good time to save your work.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>作業を保存するにはよいタイミングでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click on the :guilabel:`Save As` button: |fileSaveAs|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`名前を付けて保存` ボタンをクリックしてください： |fileSaveAs|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| |TY|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| |TY|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`Check your results &lt;interface-preparation-1&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`結果の確認 &lt;interface-preparation-1&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|IC|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|IC|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|WN|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|WN|</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

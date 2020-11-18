@@ -1,0 +1,607 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|LS| Serving WMS</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|LS| WMSサーバーを運用する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The demo data contains a QGIS project named :file:`world.qgs` that is already prepared to be served with QGIS Server.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>デモデータには、QGISサーバーで提供されるように既に準備されている :file:`world.qgs` という名前のQGISプロジェクトが含まれています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you want to use your own project or you want to learn how a project is prepared see the :ref:`Creatingwmsfromproject` section.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>独自のプロジェクトを使用したい場合や、プロジェクトの準備方法を知りたい場合は、 :ref:`Creatingwmsfromproject` セクションを参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This module presents the URLs so that the audience can easily distinguish the parameters and parameters values.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このモジュールは、オーディエンスがパラメーターとパラメーターの値を簡単に区別できるようにURLを提示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>While the normal format is:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>通常のフォーマットは次のとおりです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>this tutorial uses:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このチュートリアルで使用するのは：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Pasting them into Mozilla Firefox works properly but other web browsers like Chrome may add unwanted spaces between the ``field:parameter`` pairs.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それらをMozilla Firefoxに貼り付けると適切に機能しますが、Chromeのような他のWebブラウザでは ``field:parameter`` のペアの間に不要なスペースを追加する可能性があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>So, if you encounter this issue you can either use Firefox or modify the URLs so that they're in one line format.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>したがって、この問題が発生した場合は、Firefoxを使用するか、URLを変更して1行の形式にすることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Let's make a WMS GetCapabilities request in the web browser or with curl:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>WebブラウザまたはcurlでWMS GetCapabilitiesリクエストを作成しましょう：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In the Apache config from the previous lesson the ``QGIS_PROJECT_FILE`` variable sets the default project to :file:`/home/qgis/projects/world.qgs`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>前のレッスンのApache設定では、 ``QGIS_PROJECT_FILE`` 変数はデフォルトプロジェクトを :file:`/home/qgis/projects/world.qgs` に設定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>However, in the above request we made use of the **map** parameter to be explicit and to show it can be used to point at any project.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>しかし、上記のリクエストでは、 **map** パラメーターを明示的に使用し、どのプロジェクトでも使用できることを示しました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you delete the **map** parameter from the above request QGIS Server will output the same response.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>上記の要求から **map** パラメーターを削除すると、QGISサーバーは同じ応答を出力します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>By pointing any WMS client to the ``GetCapabilities`` URL, the client gets in response an XML document with metadata of the Web Map Server’s information, e.g. what layers does it serve, the geographical coverage, in what format, what version of WMS etc.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>WMSクライアントを ``GetCapabilities`` のURLに指すことで、クライアントはWebマップサーバーの情報のメタデータを持つXML文書を返します。例えば、レイヤーはどのレイヤーに対応していますか、地理的なカバレッジ、形式、WMSのバージョン等</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>As QGIS is also a :ref:`ogc-wms` you can create a new WMS server connection with the help of the above GetCapabilities url.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISは :ref:`ogc-wms` でもあるので、上記のGetCapabilitiesのURLを利用して新しいWMSサーバー接続を作成できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>See the :ref:`wms-services` or the  :ref:`ogc-wms-servers` section on how to do it.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`wms-services` または :ref:`ogc-wms-servers` セクションを参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>By adding the ``countries`` WMS layer to your QGIS project you should get an image like the one below:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISプロジェクトに ``countries`` WMSレイヤーを追加すると、以下のような画像が得られます：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>QGIS Desktop consuming the QGIS Server countries layer WMS service</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISサーバーの国レイヤーWMSサービスを消費するQGISデスクトップ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>QGIS Server serves layers that are defined in the :file:`world.qgs` project.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISサーバーは :file:`world.qgs` プロジェクトで定義されたレイヤーを提供します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>By opening the project with QGIS you can see there are multiple styles for the countries layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISでプロジェクトを開くと、各国のレイヤーに複数のスタイルがあることがわかります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>QGIS Server is also aware of this and you can choose the style you want in your request.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISサーバーはこれも認識しており、要求に応じてスタイルを選択できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The ``classified_by_population`` style was chosen in the above image.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>上記の画像では ``classified_by_population`` スタイルが選択されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Logging</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ログ出力</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>When you're setting up a server, the logs are always important as they show you what's going on.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>サーバーを設定するときは、ログは常に何が起こっているかを示す重要なものです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We have setup in the :file:`*.conf` file the following logs:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:file:`*.conf` ファイルに以下のログを設定します：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>QGIS Server log at :file:`/logs/qgisserver.log`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISサーバーログ :file:`/logs/qgisserver.log`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``qgisplatform.demo`` Apache access log at :file:`qgisplatform.demo.access.log`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``qgisplatform.demo`` Apacheアクセスログ :file:`qgisplatform.demo.access.log`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``qgisplatform.demo`` Apache error log at :file:`qgisplatform.demo.error.log`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``qgisplatform.demo`` Apacheエラーログ :file:`qgisplatform.demo.error.log`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The log files are simply text files so you can use a text editor to check them out.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ログファイルはテキストファイルなので、テキストエディタを使用してチェックできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can also use the ``tail`` command in a terminal: ``sudo tail -f /logs/qgisserver.log``.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``sudo tail -f/logs/qgisserver.log`` という端末で ``tail`` コマンドを使うこともできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This will continuously output in the terminal what's written in that log file.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは、そのログファイルに書き込まれたものを端末に出力し続けます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can also have three terminals opened for each of the log files like so:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次のように、ログファイルごとに3つの端末を開くこともできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Using the ``tail`` command to visualise QGIS Server logs output</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``tail`` コマンドを使ってQGISサーバーのログ出力を視覚化する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>When you use QGIS Desktop to consume the QGIS Server WMS services you will see all the requests QGIS sends to the Server in the access log, the errors of QGIS Server in the QGIS Server log etc.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISデスクトップを使用してQGISサーバーのWMSサービスを使用すると、QGISがアクセスログ内のサーバーに送信するすべての要求、QGISサーバーログのQGISサーバーのエラーなどが表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you look at the logs in the following sections you should get a better understanding on what's happening.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次のセクションのログを見ると、何が起きているのかをよりよく理解することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>By restarting Apache while looking in the QGIS Server log you can find some extra pointers on how things work.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISサーバーのログを見ながらApacheを再起動することで、動作の仕方についてのいくつかの追加情報を見つけることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>GetMap requests</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GetMapリクエスト</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In order to display the ``countries`` layer, QGIS Desktop, like any other WMS client, is using ``GetMap`` requests.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``countries`` レイヤーを表示するために、他のWMSクライアントと同様、QGISデスクトップでも ``GetMap`` リクエストを使用しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A simple request looks like:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>簡単なリクエストは以下のようになります：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The above request should output the following image:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>上記の要求は次の画像を出力するはずです：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Figure: simple GetMap request to QGIS Server**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**図：QGISサーバーへの簡単なGetMapリクエスト**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Qgis Server response after a simple GetMap request</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>単純なGetMap要求の後のQgisサーバーの応答</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moderate| |TY| Change the Image and Layers parameters</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moderate| |TY| 画像とレイヤーのパラメーターを変更する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Based on the request above, let's replace the ``countries`` layer with another.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>上記の要求に基づいて、 ``countries`` レイヤーを別のものに置き換えましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In order to see what other layers are available you could open up the :file:`world.qgs` project in QGIS and look at its contents.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>他にどのレイヤーがあるのか​​を知るためには、QGISの :file:`world.qgs` プロジェクトを開き、その内容を見てください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Keep in mind though that the WMS clients don't have access to the QGIS project, they just look at the capabilities document contents.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ただし、WMSクライアントはQGISプロジェクトへのアクセス権を持たず、機能文書の内容を参照するだけです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Also, there's a configuration option so that some of the layers existing in the QGIS project are ignored by QGIS when serving the WMS service.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>また、QGISプロジェクトに存在するいくつかのレイヤーがWMSサービスを提供する際にQGISによって無視されるように構成オプションがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>So, you could look at the layer list when you point QGIS Desktop to the ``GetCapabilities`` URL or you could try yourself finding other layer names in the ``GetCapabilities`` XML response.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>したがって、QGISデスクトップを ``GetCapabilities`` のURLに向けるとレイヤーリストを見ることができ、 ``GetCapabilities`` XMLレスポンスで他のレイヤー名を見つけることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>One of the layer names that you could find and works is ``countries_shapeburst``.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>あなたが見つけて働くことができるレイヤー名の1つは ``countries_shapeburst`` です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You may find others but keep in mind some may not be visible at such a small scale so you could get a blank image as response.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>他を見つけるかもしれませんが、そのような小縮尺では見えないかもしれないので、空白の画像をレスポンスとして得ることがあることをご承知おきください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can also play around with others parameters from above, like changing the returned image type to ``image/png``.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>返された画像タイプを ``image/png`` に変更するなど、上からの他のパラメーターを使って遊ぶこともできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Let's do another request that adds another layer, some of the :ref:`extra-getmap-parameters`, **FILTER** and **OPACITIES**, but also uses the standard STYLES parameter.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`extra-getmap-parameters` 、**FILTER** 、 **OPACITIES** のような別のレイヤーを追加するリクエストを行いますが、標準のSTYLESパラメーターも使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Response to a GetMap request with FILTER and OPACITIES parameters</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>FILTERパラメーターとOPACITIESパラメーターを使用したGetMap要求への応答</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>As you can see from the above image, among other things, we told QGIS Server to render only **Germany** and **Italy** from the countries layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>上の画像からわかるように、QGISサーバーには、 **Germany** と **Italy** のみを国レイヤーからレンダリングするように指示しました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|moderate| |FA| Use Redlining</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|moderate| |FA| レッドラインを使う</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Let's do another GetMap request that makes use of the :ref:`qgisserver-redlining` feature and of the **SELECTION** parameter detailed in the :ref:`extra-getmap-parameters` section:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`qgisserver-redlining` 機能と :ref:`extra-getmap-parameters` セクションで詳しく説明されている **SELECTION** パラメーターを利用する別のGetMapリクエストをしましょう：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Pasting the above request in your web browser should output the following image:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>上記のリクエストをWebブラウザに貼り付けると、次の画像が出力されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Response to a request with the REDLINING feature and SELECTION parameter</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>REDLINING機能とSELECTIONパラメーターによるリクエストへの応答</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can see from the above image that the countries with the 171 and 65 ids were highlighted in yellow (Romania and France) by using the **SELECTION** parameter and we used the **REDLINING** feature to overlay a rectangle with the **QGIS Tutorial** label.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>上記の画像から、171 IDと65 IDを持つ国が **SELECTION** パラメーターを使用して黄色（ルーマニアとフランス）に強調表示され、 **REDLINING** 機能を使用して矩形を **QGISチュートリアル** ラベル。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>GetPrint requests</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GetPrintリクエスト</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Shows the pdf resulted from the above GetPrint request</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>上記のGetPrintリクエストに起因するpdfを表示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Naturally, it's hard to write your ``GetMap``, ``GetPrint`` etc. requests.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>当然、あなたの ``GetMap`` 、 ``GetPrint`` などのリクエストを書くのは難しいです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>`QGIS Web Client &lt;https://github.com/qgis/qgis-web-client&gt;`_ or QWC is a Web client project that can work alongside QGIS Server so that you can publish your projects on the Web or help you create QGIS Server requests for a better understanding about the possibilities.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>`QGIS Webクライアント &lt;https://github.com/qgis/qgis-web-client&gt;`_ またはQWCは、QGISサーバーと連携してプロジェクトをWeb上に公開したり、QGISサーバーリクエスト作成を手助けできるWebクライアントプロジェクトです、可能性についてのより良い理解を求めて。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can install it like this:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このようにインストールできます：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>As user ``qgis`` go to the home directory with ``cd /home/qgis``.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ユーザ ``qgis`` が ``cd/home/qgis`` でホームディレクトリに行きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Download the QWC project from `here &lt;https://github.com/qgis/QGIS-Web-Client/archive/master.zip&gt;`_ and unzip it.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>`ここ &lt;https://github.com/qgis/QGIS-Web-Client/archive/master.zip&gt;`_ からQWCプロジェクトをダウンロードし、解凍します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Make a symbolic link to the ``/var/www/html`` directory as it's the ``DocumentRoot`` that we've setup in the virtual host configuration.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``/var/www/html`` ディレクトリへのシンボリックリンクは、バーチャルホストの設定で設定した ``DocumentRoot`` のようにしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you unzipped the archive under :file:`/home/qgis/Downloads/QGIS-Web-Client-master` we can do that with ``sudo ln -s /home/qgis/Downloads/QGIS-Web-Client-master /var/www/html/``.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>アーカイブを以下のファイルで解凍した場合 :file:`/home/qgis/Downloads/QGIS-Web-Client-master` を実行すると、 ``sudo ln -s /home/qgis/Downloads/QGIS-Web-Client-master/var/www/html/`` となります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Access http://qgisplatform.demo/QGIS-Web-Client-master/site/qgiswebclient.html?map=/home/qgis/projects/world.qgs from your Web browser.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ウェブブラウザから http://qgisplatform.demo/QGIS-Web-Client-master/site/qgiswebclient.html?map=/home/qgis/projects/world.qgs にアクセスしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now you should be able to see the Map as in the following figure:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これで、次の図のように地図を表示できるはずです：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>QGIS Web Client consuming the world.qgs project</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>world.qgsプロジェクトを使用するQGIS Webクライアント</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you click the Print button in QWC you can interactively create ``GetPrint`` requests. You can also click the ``?`` icon in the QWC to access the available help so that you can better discover the QWC possibilities.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QWCの[印刷]ボタンをクリックすると、対話的に ``GetPrint`` 要求を作成できます。またQWCの ``？`` アイコンをクリックすると、利用可能なヘルプにアクセスして、QWCの可能性をよりよく知ることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|IC|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|IC|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You learned how use QGIS Server to provide WMS Services.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISサーバーを使ってWMSサービスを提供する方法を学びました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|WN|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|WN|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Next, you'll see how to use QGIS as a frontend for the famous GRASS GIS.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次に、有名なGRASS GISのフロントエンドとしてQGISを使用する方法を見ていきます。</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

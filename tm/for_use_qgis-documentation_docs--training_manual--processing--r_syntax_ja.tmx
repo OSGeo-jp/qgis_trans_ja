@@ -1,0 +1,463 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>R Syntax in Processing scripts</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>処理スクリプト中でのRの構文</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Writing R scripts in Processing could be quite tricky because of the syntax that has to be adopted.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>[処理]でRスクリプトを記述するために採用されている構文はかなりトリッキーである可能性があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Each script starts with the **Input** and **Output** preceded with ``##``.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>各スクリプトは ``##`` で始まる **入力** と **出力** で始ま ります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Inputs</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>入力</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>group creation, ``##My Group=group``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>グループ作成、 ``##My Group=group``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Then you have to specify all the input types and eventually the additional parameters.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それから、すべての入力タイプと最終的には追加のパラメーターを指定する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can have different inputs:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>異なる入力にすることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>vector, ``##Layer = vector``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ベクター、 ``##Layer = vector``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>vector Field, ``##F = Field Layer`` (where Layer is the name of the input Layer)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ベクターフィールド、 ``##F = Field Layer`` （ここで Layerは、入力レイヤーの名前です）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>raster, ``##r = raster``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ラスター、 ``##r = raster``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>table, ``##t = table``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>テーブル、 ``##t = table``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>number, ``##Num = number``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>数値、 ``##Num = number``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>string, ``##Str = string``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>文字列、 ``##Str = string``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>boolean, ``##Bol = boolean``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ブール値、 ``##Bol = boolean``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>you can also have a dropdown menu with all the parameters you want; the items must be separated with semicolons ``;``:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>また、必要なすべてのパラメーターを使用してドロップダウンメニューを持つことができます。項目はセミコロン ``;`` で区切る必要があります：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``##type=selection point;lines;point+lines``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``##type=selection point;lines;point+lines``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Outputs</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>出力</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>As for the inputs, each output has to be defined at the beginning of the script:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>入力のように、各出力は、スクリプトの先頭で定義する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>vector, ``##output= output vector``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ベクター、 ``##output= output vector``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>raster, ``##output= output raster``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ラスター、 ``##output= output raster``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>table, ``##output= output table``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>テーブル、 ``##output= output table``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>plots, ``##showplots``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プロット、 ``## showplots``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>R output in the *Result Viewer*, just put **inside** the script ``&gt;`` **before** the output you want to display</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>*結果ビューア* のR出力、スクリプト **内部** に 表示したい出力の **前** に ``&gt;`` を置くだけ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Script body</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>スクリプト本体</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The script body follows an R style syntax and the **Log** panel can help you if something went wrong with your script.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>スクリプト本体はR形式の構文に従い、 **ログ** パネルは何かがスクリプトで間違っていた場合に助けになりえます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Remember** that in the script you have to load all the additional libraries::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>スクリプトでは、すべての追加のライブラリをロードする必要があることを **忘れないでください** ::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Example with vector output</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ベクター出力の例</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Let's take an algorithm from the online collection that creates random points from the extent of an input layer::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>入力レイヤーの範囲からランダムな点を作成するオンラインコレクションからのアルゴリズムを見てみましょう::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>and get through the lines:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>そして各行を見ていきます：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``Point pattern analysis`` is the group of the algorithm</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``ポイントパターン分析`` は、アルゴリズムのグループ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``Layer`` is the input **vector** layer</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``Layer`` は入力 **ベクター** レイヤー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``Size`` is the **numerical** parameter with a default value of 10</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``Size`` はデフォルト値10の **数値** パラメーター</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``Output`` is the **vector** layer that will be created by the algorithm</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``Output`` はアルゴリズムによって作成される **ベクター** レイヤー、</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``library(sp)`` loads the **sp** library (that should be already installed in your computer and that installation has to be made **in R**)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``library(sp)`` は **sp** ライブラリをロード（既にコンピュータにインストールされている必要があり、そのインストールは **R内で** されている必要があります）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>call the ``spsample`` function of the ``sp`` library and pass it to all the input defined above</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``sp`` ライブラリの ``spsample`` 関数を呼び出し、上記で定義されたすべての入力に渡します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>create the output vector with the ``SpatialPointsDataFrame`` function</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``SpatialPointsDataFrame`` 関数で出力ベクターを作成します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>That's it!</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それでおしまい！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Just run the algorithm with a vector layer you have in the QGIS Legend, choose a number of the random point and you will get them in the QGIS Map Canvas.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGIS凡例中に持っているベクターレイヤーでアルゴリズムを実行し、多数のランダムポイントを選択するだけで、QGIS地図キャンバスにそれらが得られるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Example with raster output</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ラスター出力の例</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The following script will perform a basic ordinary kriging and will create a raster map of the interpolated values::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次のスクリプトは、基本的な通常のクリギングを実行し、補間値のラスター地図を作成します::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>from a vector and its field in input the algorithm will use the ``autoKrige`` function of the ``automap`` R package and it will first calculate the kriging model and then create a raster.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>入力中のベクターおよびそのフィールドから、アルゴリズムは、 ``automap`` のRパッケージの ``autoKrige`` 関数を使用し、最初にクリギングモデルを計算し、次にラスターを作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The raster is created with the ``raster`` function of the raster R package.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ラスターは、ラスターRパッケージの ``raster`` 関数を使用して作成されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Example with table output</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>テーブル出力の例</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Let's edit the ``Summary Statistics`` algorithm so that the output is a table file (csv).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>出力がテーブルファイル（CSV）になるように ``要約統計`` アルゴリズムを編集してみましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The script body is the following::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>スクリプトの本文は以下の通りです::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The third line specifies the **Vector Field** in input and the fourth line tells the algorithm that the output should be a table.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>３行目は入力に **ベクターフィールド** を指定し、４行目は出力テーブルであるべきであるアルゴリズムを伝えます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The last line will take the ``Stat`` object created in the script and convert it into a ``csv`` table.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>最後の行は、スクリプトで作成された ``Stat`` オブジェクトを取得し、 ``csv`` テーブルに変換します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Example with console output</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>コンソール出力の例</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We can take the previous example and instead of creating a table, print the result in the **Result Viewer**::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>前の例を取り、テーブルを作成する代わりに、 **結果ビューア** で結果を印刷できます::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The script is exactly the same of above with just 2 edits:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>スクリプトはわずか2箇所編集する以外は上記とまったく同じです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>no more output specified (the fourth line has been removed)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>出力はもはや指定されない（第４行は除去されました）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>the last line begins with ``&gt;`` that tells Processing to print the object in the result viewer</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>最後の行は、 ``&gt;`` それは結果ビューアでオブジェクトを印刷するための処理を指示することから始まります</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Example with plot</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プロットと例</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Creating plots is very simple.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プロットを作成することは非常に簡単です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You have to use the ``##showplots`` parameter as the following script shows::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次のスクリプトに示すように、 ``##showplots`` パラメーターを使用する必要があります::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>the script takes a field of the vector layer in input and creates a *QQ Plot* to test the normality of the distribution.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>スクリプトは入力にベクターレイヤーのフィールドを取り、分布の正規性をテストするために *QQプロット* を作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The plot is automatically added to the *Result Viewer* of Processing.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プロットは自動的に処理の *結果ビューア* に追加されます。</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

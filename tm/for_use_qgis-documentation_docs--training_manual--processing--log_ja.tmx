@@ -1,0 +1,231 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The processing log</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>処理ログ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This lesson describes the processing log.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このレッスンでは、処理ログを説明します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>All the analysis performed with the processing framework is logged in QGIS logging system. This allows you to know more about what has been done with the processing tools, to solve problems when they happen, and also to re--run previous operations, since the logging system also implements some interactivity.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>処理フレームワークで実行されるすべての分析は、QGISのログ作成システムに記録されます。ログ作成システムによって処理ツールを用いて行われたことについて詳細を知るとか、問題が発生したときにそれを解決したりできます。またログ作成システムもいくつかの対話を実装しているので、以前の操作の再実行もできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To open the log, click on the balloon at the bottom right, on the QGIS status bar.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ログを開くには、QGISのステータスバーに、右下のバルーンをクリックしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Some algorithms might leave here information about their execution.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>いくつかのアルゴリズムは、ここではそれらの実行に関する情報を残すことがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For instance, those algorithms that call an external application usually log the console output of that application to this entry.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>例えば、外部アプリケーションを呼び出すアルゴリズムは、通常、そのアプリケーションのコンソール出力をこのエントリにログ出力します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you have a look at it, you will see that the output of the SAGA algorithm that we just run (and that fail to execute because input data was not correct) is stored here.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それを見ると、私たちが実行した（そして入力データが正しくなかったので実行に失敗した）ばかりのSAGAアルゴリズムの出力がここに格納されていることがわかります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This is helpful to understand what is going on. Advanced users will be able to analyze that output to find out why the algorithm failed. If you are not an advanced user, this will be useful for others to help you diagnose the problem you are having, which might be a problem in the installation of the external software or an issue with the data you provided.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは、何が起こっているか理解するのに便利です。上級ユーザーは、その出力を分析して、アルゴリズムが失敗した理由を探せるでしょう。上級ユーザーでなければ、持っている問題を診断するのを他の人に助けてもらうために有用でしょう。外部のソフトウェアのインストール中の問題であるかもしれないし、提供されたデータの問題であるかもしれません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Even if the algorithm could be executed, some algorithms might leave warnings in case the result might not be right.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>アルゴリズムには、そのアルゴリズムが実行できたとしても結果が正しくないかもしれない場合に警告を残すものがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For instance, when executing an interpolation algorithm with a very small amount of points, the algorithm can run and will produce a result, but it is likely that it will not be correct, since more points should be used.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>例えば、非常に少ない点で補間アルゴリズムを実行するとき、アルゴリズムは実行できて結果は作成されますが、より多くの点が使用されなければならないので、それは正しくない可能性が高いです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It's a good idea to regularly check for this type of warnings if you are not sure about some aspect of a given algorithm.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>指定されたアルゴリズムのいくつかの側面に確信がない場合は、定期的に警告のこのタイプをチェックすることをお勧めします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>From the *Processing* menu, under the *History* section, you'll find *Algorithms*.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>*処理* メニューから、 *履歴* セクションの下に、 *アルゴリズム* を見つけることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>All algorithms that are executed, even if they are executed from the GUI and not from the console (which will be explained later in this manual) are stored in this section as a console call.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>実行されるすべてのアルゴリズムは、GUIから実行されコンソール（本書で後述する）から実行されていない場合でもコンソール呼び出しとしてこのセクションに格納されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>That means that everytime you run an algorithm, a console command is added to the log, and you have the full history of your working session.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それはアルゴリズムを実行するたび、コンソールコマンドがログに追加されることを意味し、作業セッションには完全な履歴があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Here is how that history looks like:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>その履歴がどのように見えるかというと：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This can be very useful when starting working with the console, to learn about the syntax of algorithms.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>アルゴリズムの構文について学ぶために、コンソールで作業を開始するとき、これは非常に便利です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We will use it when we discuss how to run analysis commands from the console.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それはコンソールから分析コマンドを実行する方法について説明するときに使用するでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The history is also interactive, and you can re--run any previous algorithm just by double--clicking on its entry.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>履歴は対話的でもあり、そのエントリをダブルクリックするだけで、以前のアルゴリズムを再実行できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This is an easy way of replicating the work we already did before.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは、すでに前にした作業を複製する簡単な方法です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For instance, try the following.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>たとえば、次のようにしてみてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Open the data corresponding to the first chapter of this manual and run the algorithm explained there.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このマニュアルの最初の章に対応するデータを開き、そこで説明されたアルゴリズムを実行します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now go to the log dialog and locate the last algorithm in the list, which corresponds to the algorithm you have just run.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ここでログダイアログに移動して、たった今実行されたアルゴリズムに対応する、リスト内の最後のアルゴリズムを見つけます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Double--click on it an a new result should be produced, just like when you run it using the normal dialog and calling it from the toolbox.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それをダブルクリックすると新しい結果が作成されるはずです、ちょうど通常のダイアログを使用してツールボックスからそれを呼び出してそれを実行したときのように。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|hard| Advanced</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|hard| 上級編</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can also modify the algorithm.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>アルゴリズムを変更することもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Just copy it, open the :menuselection:`Plugins --&gt; Python console`, click on :menuselection:`Import class --&gt; Import Processing class`, then paste it to re-run the analysis; change the text at will.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ただそれをコピーし、 :menuselection:`プラグイン --&gt; Pythonコンソール` を開き、 :menuselection:`クラスをインポート --&gt; 処理クラスをインポート` をクリック し、それから貼り付けて分析を再実行する（随意でテキストを変更します）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To display the resulting file, type :kbd:`iface.addVectorLayer('/path/filename.shp', 'Layer name in legend', 'ogr')`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>結果のファイルを表示するには、 :kbd:`iface.addVectorLayer('/path/filename.shp', 'Layer name in legend', 'ogr')` とタイプします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Otherwise, you can use :kbd:`processing.runandload`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それ以外の場合は、 :kbd:`processing.runandload` を使用できます。</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

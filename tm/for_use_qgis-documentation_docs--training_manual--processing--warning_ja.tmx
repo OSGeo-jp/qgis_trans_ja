@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>An important warning before starting</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>開始前の重要な警告</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Just like the manual of a word processor doesn't teach you how to write a novel or a poem, or a CAD tutorial doesn't show you how to calculate the size of a beam for a building, this guide will not teach you spatial analysis.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ワードプロセッサのマニュアルが小説や詩を書く方法を教えてくれないように、CADチュートリアルが建物の梁のサイズを計算する方法を示してくれないように、このガイドでは空間分析をお教えしません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Instead, it will show you how to use the QGIS Processing framework, a powerful tool for performing spatial analysis.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>代わりに、空間的分析を行うための強力なツールであるQGISプロセシングフレームワークを使用する方法を説明します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It is up to you to learn the required concepts that are needed to understand that type of analysis.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>分析のその種類を理解するのに必要とされる必須概念を学ぶかどうかはあなた次第です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Without them, there is no point in using the framework and its algorithms, although you might be tempted to try.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それらなしでは、フレームワークおよびそのアルゴリズムは、試してみたくなるかもしれませんが、使用しても何にもなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Let's show this more clearly with an example.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>例を挙げてより明確にこれをお見せしましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Given a set of points and a value of a given variable value at each point, you can calculate a raster layer from them using the *Kriging* geoalgorithm.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>点の集合および各点で与えられた変数値の値を与えられると、それらから *クリギング* ジオアルゴリズムを使用してラスターレイヤーを計算できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The parameters dialog for that module is like the following one.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>そのモジュールの[パラメーター]ダイアログボックスは、以下のいずれかのようです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It looks complex, right?</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それは複雑に見えます、よね？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>By reading this manual, you will learn things such as how to use that module, how to run it in a batch process to create raster layers from hundreds of points layers in a single run, or what happens if the input layer has some points selected.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このマニュアルを読むことによって、そのモジュールを使用する方法、たくさんの点レイヤーからラスターレイヤーを作成するために１回の実行でバッチ処理でそれを実行する方法、入力レイヤーでいくつかの点が選択された場合は何が起こるか、などを学ぶでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>However, the parameters themselves are not explained.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>しかし、パラメーター自体は説明されていません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A seasoned analyst with a good knowledge of geostatistics will have no problem understanding those parameters.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>地球統計学の十分な知識を持つベテランの分析者は、これらのパラメーターを理解するのに何の問題もありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you are not one of them and *sill*, *range*, or *nugget* are not familiar concepts to you, then you should not use the *Kriging* module.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>そうでない方、 *シル* 、 *レンジ* 、または *ナゲット* という概念をよく知らない方は、 *クリギング* モジュールを使用しないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>More than that, you are far from being ready to use the *Kriging* module, since it requires learning about concepts such as spatial autocorrelation or semivariograms, which probably you also haven't heard before, or at least haven't studied long enough.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それはおそらく前にも聞いていない、または少なくとも十分な長勉強していない、そのような空間的自己相関やセミバリオグラムなどの概念、についての学習が必要ですので、それ以上に、はるかに *クリギング* モジュールを使用する準備ができているからです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You should first study and understand them, and then come back to QGIS to actually run it and perform the analysis.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>最初に勉強し、理解して、その後、実際にそれを実行し、分析を実行するために戻ってQGISに来る必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Ignoring this will result in wrong results and poor (and most likely useless) analysis.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これを無視すると、誤った結果と貧しい（そして役に立たない可能性が高い）分析になります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Although not all algorithms are as complex as kriging (but some of them are even more complex!), almost all of them require understanding the fundamental analysis ideas that they are based on. Without that knowledge, using them will most likely lead to poor results.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>すべてのアルゴリズムがクリギングのように複雑ではありません（しかし、さらに複雑なものもあります！）が、ほとんどそれらのすべてにおいて、それらが基づいている基本的な分析の考え方を理解することが必要とされます。その知識がなければ、それらを使用するても大した結果は出ない可能性が高いでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Using geoalgorithms without having a good foundation of spatial analysis is like trying to write a novel without knowing anything about grammar or syntax, and having no knowledge about storytelling.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>空間分析の良い基盤を持たずにジオアルゴリズムを使用するのは、文法や構文については何も知らずに、そして物語について何の知識もなしに小説を書こうとするようなものです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You might get a result, but it is likely to have no value at all.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>結果は得られるかもしれないが、まったく価値がない可能性があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Please, don't fool yourself and think that after reading this guide you are already capable of performing spatial analysis and get sound results.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このガイドを読んだ後であればもう空間解析を行って健全な結果を得る能力があると愚かにも考えないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You need to study spatial analysis as well.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>空間分析を勉強する必要もあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Here is a good reference that you can read to learn more about spatial data analysis.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ここに、空間データ分析についての詳細を学ぶために読むことができる良い参考文献があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>*Geospatial Analysis (3rd Edition)*: A Comprehensive Guide to Principles, Techniques and Software Tools Michael John De Smith, Michael F. Goodchild, Paul A. Longley</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>*地理空間分析（第3版）* ：原則、テクニックやソフトウェアツールへの総合ガイド　マイケル・ジョン・デ・スミス、マイケル・F・グッドチャイルド、ポール・A・ロングリー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It is available online `here &lt;https://www.spatialanalysisonline.com/&gt;`_</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それは `ここ &lt;https://www.spatialanalysisonline.com/&gt;`_ でオンラインで入手できます</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

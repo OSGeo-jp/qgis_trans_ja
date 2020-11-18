@@ -1,0 +1,5303 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>QGIS Configuration</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISの設定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>QGIS is highly configurable.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISでは高度な設定が可能です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Through the :menuselection:`Settings` menu, it provides different tools to:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:menuselection:`設定` メニューを通じて、以下のさまざまなツールを提供します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|styleManager| :guilabel:`Style Manager...`: create and manage :ref:`symbols, styles and color ramps &lt;vector_style_manager&gt;`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|styleManager| :guilabel:`スタイルマネージャ...` : は :ref:`シンボル、スタイル、カラーランプ &lt;vector_style_manager&gt;` を作成し、管理します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|customProjection| :guilabel:`Custom Projections...`: create your own :ref:`coordinate reference systems &lt;sec_custom_projections&gt;`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|customProjection| :guilabel:`カスタム投影法...`: では独自の :ref:`座標参照系&lt;sec_custom_projections&gt;` を作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|keyboardShortcuts| :guilabel:`Keyboard Shortcuts...`: define your own set of :ref:`keyboard shortcuts &lt;shortcuts&gt;`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|keyboardShortcuts| :guilabel:`キーボードショートカット...`: は自分用の :ref:`キーボードショートカット &lt;shortcuts&gt;` のセットを定義します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Also, they can be overridden during each QGIS session by the :ref:`project properties &lt;project_properties&gt;` (accessible under :menuselection:`Project` menu).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>また、それらは各QGISセッション中に :ref:`プロジェクトのプロパティ &lt;project_properties&gt;` （ :menuselection:`プロジェクト` メニューからアクセス可能）によって上書きできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|interfaceCustomization| :guilabel:`Interface Customization...`: configure the :ref:`application interface &lt;sec_customization&gt;`, hiding dialogs or tools you may not need.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|interfaceCustomization| :guilabel:`インタフェースのカスタマイズ...` では :ref:`アプリケーションインタフェース &lt;sec_customization&gt;` を設定し、不要なダイアログやツールを非表示にできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|options| :guilabel:`Options...`: set global :ref:`options &lt;gui_options&gt;` to apply in different areas of the software.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|options| :guilabel:`オプション...`: は、ソフトウェアのさまざまな領域に適用するグローバル :ref:`オプション &lt;gui_options&gt;` を設定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>These preferences are saved in the active :ref:`User profile &lt;user_profiles&gt;` settings and applied by default whenever you open a new project with this profile.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これらの設定は、アクティブな :ref:`ユーザープロファイル &lt;user_profiles&gt;` 設定に保存され、このプロファイルで新しいプロジェクトを開く場合にはデフォルトで適用されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Options</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>オプション</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|options| Some basic options for QGIS can be selected using the :guilabel:`Options` dialog.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|options| QGISのいくつかの基本オプションは、:guilabel:`オプション` ダイアログを使用して選択できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Select the menu option :menuselection:`Settings --&gt;` |options| :menuselection:`Options`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>メニューオプション :menuselection:`設定 --&gt;` |options| :menuselection:`オプション` を選択してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can modify the options according to your needs.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>必要に応じてオプションを変更できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Some of the changes may require a restart of QGIS before they will be effective.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>オプションが有効になるにはQGISの再起動が必要になるものもあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The tabs where you can customize your options are described below.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>以下で、オプションをカスタマイズできる画面をタブごとに説明します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Plugins can embed their settings within the Options dialog**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**プラグインの設定はオプションダイアログに埋め込み可能**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>While only Core settings are presented below, note that this list can be extended by :ref:`installed plugins &lt;plugins&gt;` implementing their own options into the standard Options dialog.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>以下ではコア設定のみを紹介しますが、 :ref:`インストールされたプラグイン &lt;plugins&gt;` が独自のオプションを標準オプションダイアログに実装することでこのリストを拡張できることに注意してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This avoids each plugin having their own config dialog with extra menu items just for them...</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これにより、それぞれのプラグインが独自の設定ダイアログを持ち、それらのためだけに余分なメニュー項目を持つことを避けられます...</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>General Settings</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>一般情報</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Override System Locale**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**システムロケールを上書きする**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>By default, QGIS relies on your Operating System configuration to set language and manipulate numerical values.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>デフォルトでは、QGIS の言語の設定と数字の操作はオペレーティングシステムの設定に依存しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Enabling this group allows you to customize the behavior.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このグループを有効にすると、動作をカスタマイズすることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Select from :guilabel:`User interface translation` the language to apply to the GUI</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`ユーザーインターフェースの言語` で、GUIに適用する言語を選択する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Select in :guilabel:`Locale (number, date and currency formats)` the system on which date and numeric values should be input and rendered</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`ロケール（数字、日付、通貨の形式）` で、日付や数字の入力・表示形式を選択する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|checkbox| :guilabel:`Show group (thousand) separator`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|checkbox| :guilabel:`数字の3桁区切り（カンマ）を表示`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A summary of the selected settings and how they would be interpreted is displayed at the bottom of the frame.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>選択された設定の概要とその設定がどのように解釈されるかについては、フレームの下部に表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Application**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**アプリケーション**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Select the :guilabel:`Style (QGIS restart required)` ie, the widgets look and placement in dialogs. Possible values depend on your Operating System.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`スタイル (QGISの再起動が必要)` を選択します。つまり、ウィジェットの外観やダイアログ内の位置を設定します。可能な値はオペレーティングシステムによって異なります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Define the :guilabel:`UI theme (QGIS restart required)` |selectString|.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`UIテーマ (QGISの再起動が必要)` |selectString| を設定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It can be 'default', 'Night Mapping', or 'Blend of Gray'</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>'default'、 'Night Mapping'、または 'Blend of Gray' を使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Define the :guilabel:`Icon size` |selectString|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`アイコンサイズ` |selectString| を定義します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Define the :guilabel:`Font` and its :guilabel:`Size`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`フォント` と :guilabel:`サイズ` を定義します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The font can be |radioButtonOn| :guilabel:`Qt default` or a user-defined one</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>フォントは |radioButtonOn| :guilabel:`Qt のデフォルト` か、ユーザ定義のフォントにすることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Change the :guilabel:`Timeout for timed messages or dialogs`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`メッセージやダイアログのタイムアウト設定` を変更します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|unchecked| :guilabel:`Hide splash screen at startup`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|unchecked| :guilabel:`起動時にスプラッシュスクリーンを表示しない`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|checkbox| :guilabel:`Show QGIS news feed on welcome page`: displays a curated QGIS news feed on the welcome page, giving you a direct way to be aware of project news (user/developer meetings date and summary, community surveys, releases announcements, various tips...)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|checkbox| :guilabel:`QGISニュースを起動ページに表示する` ：QGISニュースフィードを起動ページに表示します。これによりプロジェクトのニュース（ユーザー/開発者の会議の日付と概要、コミュニティ調査、リリースのお知らせ、さまざまなヒント...）を知ることができます</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|checkbox| :guilabel:`Check QGIS version at startup` to keep you informed if a newer version is released</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|checkbox| :guilabel:`起動時にQGISバージョンを確認する` は、新しいバージョンがリリースされたときに知らせてくれます</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|unchecked| :guilabel:`Use native color chooser dialogs` (see :ref:`color-selector`)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|unchecked| :guilabel:`ネイティブの色選択ダイアログを使用する` ( :ref:`color-selector` を参照)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|unchecked| :guilabel:`Modeless data source manager dialog` to keep the :ref:`data source manager &lt;datasourcemanager&gt;` dialog opened and allow interaction with QGIS interface while adding layers to project</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|unchecked| :guilabel:`モードレスデータソースマネージャダイアログ` は、プロジェクトにレイヤを追加する際に :ref:`データソースマネージャ &lt;datasourcemanager&gt;` ダイアログが開いたままでQGIS インターフェースとの対話を可能にします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Project files**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**プロジェクトファイル**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:guilabel:`Open project on launch`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`起動時に開くプロジェクト`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>'Welcome Page' (default): can display the "News" feed, the project template(s) and the most recent projects (with thumbnails) of the :ref:`user profile &lt;user_profiles&gt;`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>「ウェルカムページ」 (デフォルト) は、 "ニュース” フィードやプロジェクトテンプレート、 :ref:`ユーザープロファイル &lt;user_profiles&gt;` の最近使用したプロジェクト（とそのサムネイル画像）を表示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>No project is opened by default.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>デフォルトではプロジェクトは開かれません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>'New': opens a new project, based on the default template</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>「新規」: は、デフォルトのテンプレートに基づき新しいプロジェクトを開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>'Most recent': reopens the last saved project</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>「最近」: は最後に保存したプロジェクトを再度開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>and 'Specific': opens a particular project.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>「指定」: は特定のプロジェクトファイルを開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Use the :guilabel:`...` button to define the project to use by default.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`...` ボタンを押して、デフォルトで使用するプロジェクトを指定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|checkbox| :guilabel:`Create new project from default project`. You have the possibility to press on :guilabel:`Set current project as default` or on :guilabel:`Reset default`. You can browse through your files and define a directory where you find your user-defined project templates. This will be added to :menuselection:`Project --&gt; New From Template`. If you first activate |checkbox| :guilabel:`Create new project from default project` and then save a project in the project templates folder.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|checkbox| :guilabel:`既定のプロジェクトから新プロジェクトを作成する`  では、 :guilabel:`現在のプロジェクトを既定プロジェクトとして指定する` または  :guilabel:`既定を解除` ボタンをクリックすることができます。ファイルをブラウズして、ユーザー定義のプロジェクトテンプレートがあるディレクトリを指定することができます。これは :menuselection:`プロジェクト --&gt; テンプレートから新規作成` に追加されます。最初に |checkbox| :guilabel:`既定のプロジェクトから新プロジェクトを作成する` をアクティブにしてから、プロジェクトテンプレートフォルダーにプロジェクトを保存してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|checkbox| :guilabel:`Prompt to save project and data source changes when required` to avoid losing changes you made.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|checkbox| :guilabel:`必要なときにプロジェクトおよびデータソースの変更を保存するか尋ねる`  は、変更が失われないよう必要な時に尋ねます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|checkbox| :guilabel:`Prompt for confirmation when a layer is to be removed`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|checkbox| :guilabel:`レイヤが削除されるときに確認プロンプトを表示する`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|checkbox| :guilabel:`Warn when opening a project file saved with an older version of QGIS`. You can always open projects created with older version of QGIS but once the project is saved, trying to open with older release may fail because of features not available in that version.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|checkbox| :guilabel:`古いバージョンのQGISで保存されたプロジェクトファイルを開く時に警告する`  QGISの古いバージョンで作成されたプロジェクトはいつでも開くことができますが、プロジェクトを保存すると、そのバージョンで使用できない機能のために古いリリースで開くことができなくなる場合があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:guilabel:`Enable macros` |selectString|. This option was created to handle macros that are written to perform an action on project events. You can choose between 'Never', 'Ask', 'For this session only' and 'Always (not recommended)'.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`マクロを有効にする` |selectString| このオプションは、プロジェクトのイベントのアクションを実行するために書かれたマクロを扱うために作成されました。このオプションは、「利用しない」、「確認する」、「このセッションのみ」、「このセッションは無効」、「常に許可（非推奨）」の中で選択できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>System Settings</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>システム</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**SVG paths**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**SVGパス**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Add or Remove :guilabel:`Path(s) to search for Scalable Vector Graphic (SVG) symbols`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`Scalable Vector Graphic (SVG) シンボルを探すパス` を追加・削除します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>These SVG files are then available to symbolize or label the features or decorate your map composition.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このSVG ファイルは地物のシンボルやラベル、マップコンポジションの装飾に利用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>When using an SVG file in a symbol or a label, QGIS allows you to:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>シンボルやラベルにSVGファイルを使用する場合、QGISでは以下のことが可能です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>load the file from the file system: the file is identified through the file path and QGIS needs to resolve the path in order to display the corresponding image</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ファイルシステムからファイルをロード: ファイルはファイルパスを通じて識別され、QGISでは対応する画像を表示するためにパスを解決する必要があります</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>load the file from a remote URL: as above, the image will only be loaded on successful retrieval of the remote resource</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>リモートURLからファイルをロード: 上と同様ですが、画像はリモートリソースの取得に成功した場合にのみロードされます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>embed the SVG file into the item: the file is embedded inside the current project, style database, or print layout template.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>SVG ファイルをアイテムに埋め込む: SVGファイルは現在のプロジェクト、スタイルデータベース、もしくは印刷レイアウトテンプレート内に埋め込まれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The SVG file is then always rendered as part of the item.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これにより、このSVGファイルはアイテムの一部として常にレンダリングされます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This is a convenient way to create self-contained projects with custom SVG symbols which can be easily shared amongst different users and installations of QGIS.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これはカスタムSVGシンボルを持った自己完結型のプロジェクトを作成するのに便利な方法で、異なるユーザーやQGISインストール環境の間でカスタムSVGシンボルを簡単に共有できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It is also possible to extract the embedded SVG file from a symbol or label and save it on disk.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>埋め込まれたSVGファイルをシンボルやラベルから抽出して、ディスクに保存することもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The above mentioned options for loading and storing an SVG file in a project are also applicable to raster images you may want to use for customizing symbols, labels or decorations.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>SVGファイルをプロジェクトにロードおよび保存するための上記のオプションは、シンボル、ラベル、または装飾のカスタマイズに使用できるラスタ画像にも適用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Plugin paths**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**プラグインパス**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Add or Remove :guilabel:`Path(s) to search for additional C++ plugin libraries`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`追加のC++プラグインライブラリを探すパス` を追加・削除します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Documentation paths**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**ドキュメントのパス**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Add or Remove :guilabel:`Documentation Path(s)` to use for QGIS help. By default, a link to the official online User Manual corresponding to the version being used is added. You can however add other links and prioritize them from top to bottom: each time you click on a :guilabel:`Help` button in a dialog, the topmost link is checked and if no corresponding page is found, the next one is tried, and so on.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`QGISのヘルプを探すパス` を追加・削除します。デフォルトでは、使用されているバージョンに対応する公式オンラインユーザーマニュアルへのリンクが追加されています。ただし、他のリンクを追加することもできます。ダイアログの :guilabel:`ヘルプ` ボタンをクリックするたびに一番上のリンクがチェックされ、対応するページが見つからない場合は次のリンクが順に試されるので、追加した他のリンクに上から下へと優先順位をつけられます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Documentation is versioned and translated only for QGIS Long Term Releases (LTR), meaning that if you are running a regular release (eg, QGIS 3.0), the help button will by default open the next LTR manual page (ie. 3.4 LTR), which may contain description of features in newer releases (3.2 and 3.4). If no LTR documentation is available then the *testing* doc, with features from newer and development versions, is used.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ドキュメントはQGIS長期リリース（LTR）に対してのみバージョン管理され翻訳されています。つまり、通常のリリース（QGIS 3.0など）を実行している場合、ヘルプボタンはデフォルトで次のLTRマニュアルページ（3.4 LTR）を開くため、新しいリリース（3.2および3.4​​）の機能の説明が含まれる場合があります。 LTRドキュメントが利用できない場合は、新しいバージョンと開発バージョンの機能が記載された *testing* ドキュメントが使用されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**QSettings**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**設定**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It helps you :guilabel:`Reset user interface to default settings (restart required)` if you made any :ref:`customization &lt;sec_customization&gt;`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`ユーザーインターフェイスを既定の設定にリセット（QGISの再起動が必要）` は、何か :ref:`カスタマイズ &lt;sec_customization&gt;` をした後で、設定をリセットする際に役立ちます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Environment**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**環境**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>System environment variables in QGIS</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISのシステム環境変数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>System environment variables can be viewed, and many configured, in the **Environment** group.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**環境変数** グループでは、システム環境変数を表示し、多くの設定を行うことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This is useful for platforms, such as Mac, where a GUI application does not necessarily inherit the user's shell environment.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これはMacなど、GUIアプリケーションが必ずしもユーザのシェル環境を継承しないプラットフォームで役立ちます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It's also useful for setting and viewing environment variables for the external tool sets controlled by the Processing toolbox (e.g., SAGA, GRASS), and for turning on debugging output for specific sections of the source code.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>また、Processingツールボックス（SAGA、GRASSなど）によって制御される外部ツールセットの環境変数を設定および表示したり、ソースコードの特定のセクションのデバッグ出力をオンにしたりする場合にも役立ちます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|checkbox| :guilabel:`Use custom variables (restart required - include separators)`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|checkbox| :guilabel:`カスタム環境変数を用いる（区切り文字を含む - 再起動が必要）` 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can :guilabel:`Add` and :guilabel:`Remove` variables.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>変数を :guilabel:`追加` および :guilabel:`削除` できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Already defined environment variables are displayed in :guilabel:`Current environment variables`, and it's possible to filter them by activating |checkbox| :guilabel:`Show only QGIS-specific variables`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>定義済みの環境変数は :guilabel:`現在の環境変数` に表示され、 |checkbox| :guilabel:`QGIS固有の変数のみを表示する` を有効にするとそれらをフィルタできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>CRS Settings</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>座標参照系（CRS ）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For more information on how QGIS handles layer projection, please read the dedicated section at :ref:`label_projections`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGIS がレイヤの投影をどのように扱っているかについての詳細は、 :ref:`label_projections` の専用セクションを読んでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>CRS Settings in QGIS</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISでのCRS設定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**CRS for projects**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**プロジェクトのCRS**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>There is an option to automatically set new project’s CRS:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>新しいプロジェクトのCRSを自動的に設定するオプションがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|radioButtonOn|:guilabel:`Use CRS from first layer added`: the CRS of the project will be set to the CRS of the first layer loaded into it</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|radioButtonOn|:guilabel:`最初のレイヤのCRSを使う` : プロジェクトのCRSは、ロードされた最初のレイヤのCRSに設定されます</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|radioButtonOff|:guilabel:`Use a default CRS`: a preselected CRS is applied by default to any new project and is left unchanged when adding layers to the project.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|radioButtonOff| :guilabel:`デフォルトのCRSを使う` ：事前に選択されたCRSがデフォルトで新しいプロジェクトに適用され、プロジェクトにレイヤを追加しても変更されません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The choice will be saved for use in subsequent QGIS sessions. The Coordinate Reference System of the project can still be overridden from the :menuselection:`Project --&gt; Properties... --&gt; CRS` tab.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この選択内容は保存され、以降のQGISセッションでも使われます。プロジェクトの座標参照系はなおも :menuselection:`プロジェクト --&gt; プロパティ... --&gt; 座標参照系` タブからオーバーライドすることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**CRS for layers**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**レイヤのCRS**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:guilabel:`Default CRS for layers`: select a default CRS to use when you create a layer</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`レイヤのデフォルトCRS` は、レイヤを作成した時のデフォルトのCRSを選択します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can also define the action to take when a new layer is created, or when a layer without a CRS is loaded.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>新しいレイヤが作成されるか、座標参照系のないレイヤが読み込まれた時に実行するアクションを定義することもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|radioButtonOn| :guilabel:`Leave as unknown CRS (take no action)`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|radioButtonOn| :guilabel:`未知のCRSのまま`  （何もしない）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|radioButtonOff| :guilabel:`Prompt for CRS`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|radioButtonOff| :guilabel:`CRSダイアログを表示`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|radioButtonOff| :guilabel:`Use project CRS`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|radioButtonOff| :guilabel:`プロジェクトCRSを使う`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|radioButtonOff| :guilabel:`Use a default CRS`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|radioButtonOff| :guilabel:`デフォルトCRSを使う`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Default datum transformations**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**デフォルトのデータ変換**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In this group, you can control whether reprojecting layers to another CRS should be:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このグループでは、レイヤを別のCRSに再投影するかどうかを制御できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>automatically processed using QGIS default transformations settings;</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGIS のデフォルト変換設定を使用して自動的に処理します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>and/or more controlled by you with custom preferences such as:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>かつ/または、次のようなカスタム設定でユーザがより制御します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|checkbox| :guilabel:`Ask for datum transformation if several are available`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|checkbox| :guilabel:`測地系変換が複数利用可能な場合は尋ねる`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>a predefined list of datum transformations to apply by default.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>デフォルトで適用する測地系変換の事前定義リスト。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>See :ref:`datum_transformation` for more details.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>詳細は :ref:`datum_transformation` を参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|unchecked| :guilabel:`Planimetric measurements`: sets the default for the "planimetric measurements" property for newly created projects.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|unchecked| :guilabel:`平面計測`: は、新しく作成したプロジェクトに対する "平面計測" プロパティのデフォルトを設定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Data Sources Settings</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>データソース</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Data Sources Settings in QGIS</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISのデータソース設定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Feature attributes and table**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**地物属性とテーブル**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|checkbox| :guilabel:`Open new attribute tables as docked windows`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|checkbox| :guilabel:`ドックウィンドウとして新しい属性テーブルを開く`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:guilabel:`Copy features as` 'Plain text, no geometry', 'Plain text, WKT geometry', or 'GeoJSON' when pasting features in other applications.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`地物のコピー` は、地物をコピーして他のアプリケーションに貼り付けるときの形式として、 「プレーンテキスト（ジオメトリなし）」、「プレーンテキスト（WKTジオメトリ）」もしくは、「GeoJSON」のどれかを設定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:guilabel:`Attribute table behavior` |selectString|: set filter on the attribute table at the opening.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`属性テーブルの動作` |selectString| ：属性テーブルを開いた時のフィルタを設定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>There are three possibilities: 'Show all features', 'Show selected features' and 'Show features visible on map'.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>「全ての地物を表示」、「選択した地物を表示」、「地図上に表示されている地物を表示」の3つうちのどれかです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:guilabel:`Default view`: define the view mode of the attribute table at every opening.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`デフォルトビュー` ：属性テーブルを開いた時のビューモードを定義します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It can be 'Remember last view', 'Table view' or 'Form view'.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>「最後のビューを記憶する」、「テーブルビュー」、または「フォームビュー」のどれかです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:guilabel:`Attribute table row cache` |selectNumber|.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`属性テーブル行キャッシュ` |selectNumber| 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This row cache makes it possible to save the last loaded N attribute rows so that working with the attribute table will be quicker.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この行キャッシュは最後にロードされた属性をN行分保存することで、属性テーブルでの作業をより速くできるようにします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The cache will be deleted when closing the attribute table.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>キャッシュは属性テーブルを閉じるときに削除されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:guilabel:`Representation for NULL values`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`NULL値の表示方法` 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Here, you can define a value for data fields containing a NULL value.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>NULL値を含んだデータフィールドの値を定義できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Improve opening of big data attribute table**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**巨大な属性テーブルを開く際の動作を改善する**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>When working with layers with big amount of records, opening the attribute table may be slow as the dialog request all the rows in the layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>大量のレコードを含むレイヤーを操作する場合、ダイアログがレイヤー内のすべての行を要求するため、属性テーブルを開くのが遅くなることがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Setting the :guilabel:`Attribute table behavior` to **Show features visible on map** will make QGIS request only the features in the current map canvas when opening the table, allowing a quick data loading.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`属性テーブルの動作` を **地図上に表示されている地物を表示** に設定すると、QGISはテーブルを開くときに現在の地図キャンバス内にある地物だけを要求するため、データの読み込みが早くなります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Note that data in this attribute table instance will be always tied to the canvas extent it was opened with, meaning that selecting **Show All Features** within such a table will not display new features. You can however update the set of displayed features by changing the canvas extent and selecting **Show Features Visible On Map** option in the attribute table.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この属性テーブルインスタンスのデータは、開いたキャンバスの範囲に常に関連付けられます。つまり、そのテーブル内の **すべての地物を表示** を選択すると新しい地物は表示されません。ただし、キャンバス範囲を変更して、属性表の **Show Visible On Map** オプションを選択すると、表示されている地物のセットを更新できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Data source handling**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**データソースの操作**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:guilabel:`Scan for valid items in the browser dock` |selectString|.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`ブラウザドック内で有効なアイテムをスキャンする`  |selectString| 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can choose between 'Check extension' and 'Check file contents'.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>「拡張子のチェック」と「ファイルの内容のチェック」のどちらかを選択できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:guilabel:`Scan for contents of compressed files (.zip) in browser dock` |selectString| defines how detailed is the widget information at the bottom of the Browser panel when querying such files.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`ブラウザドック内で圧縮ファイル（.zip）にあるコンテンツをスキャンする` |selectString| では、圧縮ファイルを照会する際に、ブラウザパネルの下部に表示できるプロパティウィジェットでの情報をどの程度詳細に表示するかを定義します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>'No', 'Basic scan' and 'Full scan' are possible options.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>「いいえ」、「ベーシックスキャン」、「フルスキャン」の選択肢があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:guilabel:`Prompt for raster sublayers when opening`. Some rasters support sublayers --- they are called subdatasets in GDAL. An example is netCDF files --- if there are many netCDF variables, GDAL sees every variable as a subdataset. The option allows you to control how to deal with sublayers when a file with sublayers is opened. You have the following choices:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`ラスタサブレイヤを開くときにプロンプトを表示する` 。ラスタファイルの一部はサブレイヤをサポートしています。 --- GDALでは「サブデータセット」と呼ばれています。一例としては、netCDF ファイルがあります。 --- netCDF変数が多数ある場合、GDAL はすべての変数をサブデータセットとみなします。このオプションでは、サブレイヤを含むファイルを開いたときにサブレイヤをどのように扱うかを制御できます。これには次の選択肢があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>‘Always’: Always ask (if there are existing sublayers)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>「常に」: 毎回、確認プロンプトを表示します（サブレイヤが存在する場合）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>‘If needed’: Ask if layer has no bands, but has sublayers</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>「必要な場合」: レイヤがバンドは無いがサブレイヤを持っている場合にプロンプトを表示します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>‘Never’: Never prompt, will not load anything</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>「利用しない」:プロンプトを表示せず、何もロードしません</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>‘Load all’: Never prompt, but load all sublayers</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>「すべてをロード」:プロンプトは表示しませんが、すべてのサブレイヤをロードします</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|checkbox| :guilabel:`Ignore shapefile encoding declaration`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|checkbox|  :guilabel:`シェープファイルのコード化宣言を無視` 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If a shapefile has encoding information, this will be ignored by QGIS.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>シェープファイルは、情報をコード化している場合、これはQGISによって無視されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|checkbox| :guilabel:`Execute expressions on server-side if possible`: When requesting features from a datasource, QGIS will try to optimize requests by sending filter criteria directly to the server and only download the features which match the criteria.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|checkbox| :guilabel:`可能であればサーバ側で式を実行する`: データソースから地物をリクエストする場合、QGISはフィルタ条件式を直接サーバに送信することでリクエストを最適化し、条件に一致する地物のみをダウンロードするようにします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For example, if for a list on the user interface only the farmers which live in Bern should be listed, QGIS will send a ``WHERE "hometown" = 'Bern'`` to the database.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>例えば、ユーザーインターフェース上のリストで農家のうち「ベルンに住む人」のみをリストアップする場合、QGISは``WHERE "ホームタウン" = 'ベルン'`` をデータベースに送信します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In some cases, filter criteria are too complex to be translated from QGIS Expressions to database compatible SQL.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>場合によっては、フィルタ条件が複雑すぎてQGIS式からデータベース互換のSQLに変換できないことがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In those cases, QGIS will download the whole data and filter locally to be on the safe side, which is much less performant.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>そのような場合は、QGISはデータ全体をダウンロードし、安全のためにローカルでフィルタリングを行いますが、これははるかにパフォーマンスが低下します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>By disabling this option, QGIS can be forced to always download the whole data and filter locally, at the expense of a performance penalty.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このオプションを無効にすると、QGISは常にデータ全体をダウンロードしてローカルでフィルタリングせざるを得なくなり、パフォーマンスが犠牲となります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This option is meant as a safety break and should only be deactivated if you identify a misbehavior of the QGIS expression translation engine.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この選択肢は安全のための措置であり、オプションを無効にするのはQGIS 式変換エンジンの誤動作を確認した場合のみにしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|checkbox| :guilabel:`Evaluate default values` defines whether default values from database provider should be calculated when digitizing the new feature (checked status) or when saving the changes.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|checkbox| :guilabel:`デフォルト値の評価` は、データベースプロバイダからのデフォルト値を、新しい地物のデジタル化（チェックされたステータス）または変更の保存時に計算するかどうかを定義します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Hidden Browser Path**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**ブラウザに表示しないパス**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This widget lists all the folders you chose to hide from the :ref:`Browser panel &lt;browser_panel&gt;`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このウィジェットは :ref:`ブラウザパネル &lt;browser_panel&gt;` から非表示にすることを選択したすべてのフォルダをリストアップします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Removing a folder from the list will make it available in the :guilabel:`Browser` panel.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>リストからフォルダパスを削除すると、 :guilabel:`ブラウザ` パネルで表示できるようになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Rendering Settings</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>レンダリング</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Rendering tab of Project Properties dialog</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>レンダリングタブ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Rendering behavior**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**レンダリング動作**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|checkbox| :guilabel:`By default new layers added to the map should be displayed`: unchecking this option can be handy when loading multiple layers to avoid each new layer being rendered in the canvas and slow down the process</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|checkbox| :guilabel:`追加レイヤのデフォルトで表示`: このオプションのチェックを外すと、新しいレイヤが読み込まれたときにキャンバスにレンダリングされてプロセスが遅くなるのを避けられるため、複数のレイヤを読み込む際に便利です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|checkbox| :guilabel:`Use render caching where possible to speed up redraws`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|checkbox| :guilabel:`再描画の速度を上げられる時にレンダリングのキャッシュを利用する`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|checkbox| :guilabel:`Render layers in parallel using many CPU cores`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|checkbox| :guilabel:`レイヤの描画を複数のCPUコアを使って並列に行う`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|checkbox| :guilabel:`Max cores to use`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|checkbox| :guilabel:`最大コア数`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:guilabel:`Map update interval (default to 250 ms)`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`更新間隔（デフォルトは250 msです）`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|checkbox| :guilabel:`Enable feature simplification by default for newly added layers`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|checkbox| :guilabel:`新規追加レイヤの地物の簡素化をデフォルトで有効にする`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:guilabel:`Simplification threshold`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`簡素化しきい値`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:guilabel:`Simplification algorithm`: This option performs a local "on-the-fly" simplification on feature's and speeds up geometry rendering. It doesn't change the geometry fetched from the data providers. This is important when you have expressions that use the feature geometry (e.g. calculation of area) - it ensures that these calculations are done on the original geometry, not on the simplified one. For this purpose, QGIS provides three algorithms: 'Distance' (default), 'SnapToGrid' and 'Visvalingam'.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`簡素化のアルゴリズム`: このオプションは、地物のローカルな簡素化を "オンザフライ" で実行し、ジオメトリのレンダリングを高速化します。この簡素化は、データプロバイダからフェッチされたジオメトリを変更することはしません。この違いは地物ジオメトリを使用する式（面積の計算など）を使用する場合に重要です。地物ジオメトリを使用する計算は、簡素化されたジオメトリではなく元のジオメトリに対して行われることが保証されます。地物の簡素化のためにQGISでは「距離」（デフォルトの設定）、「グリッドにスナップ」、そして「Visvalingam」の3つのアルゴリズムを提供しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|unchecked| :guilabel:`Simplify on provider side if possible`: the geometries are simplified by the provider (PostGIS, Oracle...) and unlike the local-side simplification, geometry-based calculations may be affected</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|unchecked| :guilabel:`可能であればプロバイダ側で簡素化する`: ジオメトリはプロバイダ（PostGIS、Oracle...）によって簡素化されます。ローカル側での簡素化と異なり、ジオメトリに関連する計算は簡素化の影響を受けます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:guilabel:`Maximum scale at which the layer should be simplified`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`レイヤーを簡素化する最大スケール`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|doubleSpinBox| :guilabel:`Magnification level` (see the :ref:`magnifier &lt;magnifier&gt;`)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|doubleSpinBox| :guilabel:`拡大レベル` (詳細は :ref:`拡大 &lt;magnifier&gt;` を参照)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Besides the global setting, feature simplification can be set for any specific layer from its :menuselection:`Layer properties --&gt; Rendering` menu.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>グローバル設定に加えて、特定のレイヤに対しても :menuselection:`レイヤのプロパティ --&gt; レンダリング` メニューから地物の簡素化の設定をできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Rendering quality**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**レンダリング品質**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|checkbox| :guilabel:`Make lines appear less jagged at the expense of some drawing performance`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|checkbox| :guilabel:`線のジャギーを目立たなくする（描画速度が若干低下します）`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Curve segmentation**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**曲線の分割**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:guilabel:`Segmentation tolerance`: this setting controls the way circular arcs are rendered.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`分割の許容差`：この設定は、円弧の描画方法を制御します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**The smaller** maximum angle (between the two consecutive vertices and the curve center, in degrees) or maximum difference (distance between the segment of the two vertices and the curve line, in map units), the **more straight line** segments will be used during rendering.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>最大角度（2つの連続した頂点と曲線の中心の間の角度を度単位で指定）または最大差（2つの頂点のセグメントと曲線との間の距離を地図単位で指定）が **より小さい** ほど、 **より多くの直線** セグメントがレンダリング中に使用されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:guilabel:`Tolerance type`: it can be *Maximum angle* or *Maximum difference* between approximation and curve.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`許容誤差のタイプ` ：近似直線と曲線の間での *最大角度* または *最大差* を指定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Rasters**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**ラスタ**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>With :guilabel:`RGB band selection`, you can define the number for the Red, Green and Blue band.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`RGB バンド選択` で、赤、緑、青のバンドの番号を定義できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The :guilabel:`Zoomed in resampling` and the :guilabel:`Zoomed out resampling` methods can be defined. For :guilabel:`Zoomed in resampling` you can choose between three resampling methods: 'Nearest Neighbour', 'Bilinear' and 'Cubic'. For :guilabel:`Zoomed out resampling` you can choose between 'Nearest Neighbour' and 'Average'. You can also set the :guilabel:`Oversampling` value (between 0.0 and 99.99 - a large value means more work for QGIS - the default value is 2.0).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`拡大リサンプリング` と :guilabel:`縮小リサンプリング` の方法を定義できます。 :guilabel:`拡大リサンプリング` の場合、「最近傍」、「バイリニア（Bilinear）」、「キュービック（Cubic）」の3つのリサンプリング方法から選択できます。  :guilabel:`縮小リサンプリング` の場合、「最近傍」と「平均（Average）」のどちらかを選択できます。 :guilabel:`オーバーサンプリング` 値も設定できます（0.0 から 99.99 の間。値が大きほどQGISの処理がより多くなります。デフォルト値は2.0です）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>*Contrast enhancement*</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**コントラスト**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Contrast enhancement options can be applied to :guilabel:`Single band gray`, :guilabel:`Multi band color (byte/band)` or :guilabel:`Multi band color (&gt;byte/band)`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>コントラストの強調オプションを :guilabel:`単バンドグレー` 、 :guilabel:`マルチバンドカラー（1バイト/バンド）` または :guilabel:`マルチバンドカラー（1バイト超/バンド）` のラスタファイルに適用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For each, you can set:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それぞれについて、次を設定できます：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>the :guilabel:`Algorithm` to use, whose values can be 'No stretch', 'Stretch to MinMax', 'Stretch and Clip to MinMax' or 'Clip to MinMax'</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>使用する :guilabel:`アルゴリズム` の値は、「強調なし」、「最小最大範囲に引き伸ばす」、「最小最大範囲に引き伸ばしカット」、あるいは「最小最大範囲以外はカット」のどれかです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>the :guilabel:`Limits (minimum/maximum)` to apply, with values such as 'Cumulative pixel count cut', 'Minimum/Maximum', 'Mean +/- standard deviation'.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>適用する :guilabel:`制限（最小/最大）` の値は、「累積ピクセル数のカット」、「最小 / 最大」、「平均 +/- 標準偏差」のどれかです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For rasters rendering, you can also define the following options:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ラスタファイルのレンダリングに対しては、次のオプションも定義することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:guilabel:`Cumulative pixel count cut limits`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`累積ピクセル数のカット制限`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:guilabel:`Standard deviation multiplier`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`標準偏差の乗数`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Debugging**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**デバッグ**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|checkbox| :guilabel:`Map canvas refresh` to debug rendering duration in the :guilabel:`Log Messages` panel.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|checkbox| :guilabel:`キャンバスの更新`  :guilabel:`ログメッセージ` パネルでレンダリング時間のデバッグを行えます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Canvas and Legend Settings</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>キャンバスと凡例</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>These properties let you set:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これらのプロパティでは以下を設定できます：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>the **Default map appearance (overridden by project properties)**: the :guilabel:`Selection color` and :guilabel:`Background color`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**デフォルトの体裁（プロジェクトプロパティに上書きされます）** ： :guilabel:`選択物の色` および :guilabel:`背景色` 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Layer legend** interaction:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**レイヤの凡例**  に対するインタラクション</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:guilabel:`Double click action in legend` |selectString|. You can either 'Open layer properties', 'Open attribute table' or 'Open layer styling dock' with the double click.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`凡例をダブルクリックした場合の動作` |selectString| ダブルクリックで、「レイヤのプロパティを開く」、「属性テーブルを開く」、「レイヤスタイルドックを開く」のいずれかを行うことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|checkbox| :guilabel:`Display classification attribute names` in the Layers panel, e.g. when applying a categorized or rule-based renderer (see :ref:`vector_style_menu` for more information).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|checkbox| :guilabel:`レイヤタイトルに分類属性を表示する` たとえばカテゴリ値による定義やルールによる定義のレンダラを適用する場合、レイヤパネルに分類に使用した属性名を表示します（詳細は :ref:`vector_style_menu` を参照）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>the :guilabel:`WMS getLegendGraphic Resolution`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`WMS getLegendGraphic 解像度`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>the :guilabel:`Delay` in milliseconds of layers :ref:`map tips &lt;maptips&gt;` display</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`表示までの遅延（ミリ秒）` レイヤの :ref:`地図のtips &lt;maptips&gt;` が表示されるまでの遅延時間です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Map tools Settings</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ツール</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Map tools Settings in QGIS</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISのマップツール設定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This tab offers some options regarding the behavior of the :ref:`Identify tool &lt;identify&gt;`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このタブは :ref:`地物情報表示ツール &lt;identify&gt;` の動作に関するいくつかのオプションを提供しています 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:guilabel:`Search radius for identifying features and displaying map tips` is a tolerance distance within which the identify tool will depict results as long as you click within this tolerance.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`地物検索・Tips表示のための検索半径` は、この許容範囲内でクリックする限り地物情報表示ツールが結果を表示する許容距離です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:guilabel:`Highlight color` allows you to choose with which color features being identified should be highlighted.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`ハイライト色` を使用すると、地物情報表示されている地物を強調表示する色を選択できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:guilabel:`Buffer` determines a buffer distance to be rendered from the outline of the identify highlight.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`バッファ` は、地物情報表示でハイライトされている地物の輪郭に表示するバッファの距離を決定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:guilabel:`Minimum width` determines how thick should the outline of a highlighted object be.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`最小幅` ハイライト表示されるオブジェクトの輪郭がどれだけの厚さであるべきかを決定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Measure tool**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**計測ツール**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Define :guilabel:`Rubberband color` for measure tools</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>計測ツールの :guilabel:`ラバーバンド色` を定義します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Define :guilabel:`Decimal places`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`小数点以下桁数` を定義します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|checkbox| :guilabel:`Keep base unit` to not automatically convert large numbers (e.g., meters to kilometers)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|checkbox|  :guilabel:`基本単位の維持` は、大きい数を自動的に変換しません（例えば、メートルをキロメートルに変換するなど）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:guilabel:`Preferred distance units`: options are 'Meters', 'Kilometers', 'Feet', 'Yards', 'Miles', 'Nautical Miles', 'Centimeters', 'Millimeters', 'Degrees' or 'Map Units'</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`優先される距離の単位`: は、「メートル」、「キロメートル」、「フィート」、「ヤード」、「マイル」、「海里」、「センチメートル」、「ミリメートル」、「度」、「地図上の単位」のいずれかです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:guilabel:`Preferred area units`: options are 'Square meters', 'Square kilometers', 'Square feet', 'Square yards', 'Square miles', 'Hectares', 'Acres', 'Square nautical miles', 'Square centimeters', 'Square millimeters', 'Square degrees' or 'Map Units'</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`優先される面積の単位`: は、「平方メートル」、「平方キロメートル」、「平方フィート」、「平方ヤード」、「平方マイル」、「ヘクタール」、「エーカー」、「平方海里」、「平方センチメートル」、「平方ミリメートル」、「平方度」、「地図上の単位」のいずれかです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:guilabel:`Preferred angle units`: options are 'Degrees', 'Radians', 'Gon/gradians', 'Minutes of arc', 'Seconds of arc', 'Turns/revolutions', milliradians (SI definition) or mil (NATO/military definition)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`優先される角度の単位`: は、「度」、「ラジアン」、「グラード」、「弧の分」、「弧の秒」、「Turns/revolutions」、「ミリラジアン（SI定義）」、「ミル（NATO定義）」のいずれかです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Panning and zooming**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**ズーム**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Define a :guilabel:`Zoom factor` for zoom tools or wheel mouse</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ズームツールまたはホイールマウスの :guilabel:`ズーム倍率` を定義します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Predefined scales**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**定義済み縮尺**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Here, you find a list of predefined scales.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ここには、あらかじめ定義された縮尺のリストがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>With the |signPlus| and |signMinus| buttons you can add or remove your personal scales.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|signPlus| と |signMinus| ボタンで個人用の縮尺を追加または削除できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can also import or export scales from/to a ``.XML`` file.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>また、縮尺を ``.XML`` ファイルに読み込みまたは書き出しできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Note that you still have the possibility to remove your changes and reset to the predefined list.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>なお、変更した内容を削除して定義済みのリストに戻すこともできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Colors Settings</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>色</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This menu allows you to create or update palettes of colors used throughout the application in the :ref:`color selector widget &lt;color_widget&gt;`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このメニューを使用すると、アプリケーション全体で使用される色のパレットを :ref:`カラーセレクタウィジェット &lt;color_widget&gt;` で作成または更新できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can choose from:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>以下から選択できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:guilabel:`Recent colors` showing recently used colors</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`最近使った色` ：最近使用した色を表示します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:guilabel:`Standard colors`, the default palette of colors</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`標準色` ：デフォルトの色パレットです</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:guilabel:`Project colors`, a set of colors specific to the current project (see :ref:`default_styles_properties` for more details)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`プロジェクトの色` ：現在のプロジェクトに固有の色のセットです（詳細は :ref:`default_styles_properties` を参照してください）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:guilabel:`New layer colors`, a set of colors to use by default when new layers are added to QGIS</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`新しいレイヤの色`  ：新しいレイヤがQGISに追加されたときにデフォルトで使用される色のセットです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>or custom palette(s) you can create or import using the :guilabel:`...` button next to the palette combobox.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>あるいは、パレットコンボボックスの横にある :guilabel:`...` ボタンを押して、カスタムパレットを新規作成もしくはインポートできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>By default, :guilabel:`Recent colors`, :guilabel:`Standard colors` and :guilabel:`Project colors` palettes can not be removed and are set to appear in the color button drop-down.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>デフォルトでは、 :guilabel:`最近使った色` 、 :guilabel:`標準色`、および :guilabel:`プロジェクトの色` パレットは削除できず、色ボタンドロップダウンに表示されるように設定されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Custom palettes can also be added to this widget thanks to the :guilabel:`Show in Color Buttons` option.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>カスタムパレットは :guilabel:`色ボタンに表示` オプションで、ウィジェットに追加できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For any of the palettes, you can manage the list of colors using the set of tools next to the frame, ie:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>どのパレットでも、フレームの横にあるツールセットを使って色のリストを管理することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|signPlus| :guilabel:`Add` or |signMinus| :guilabel:`Remove` color</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|signPlus| :guilabel:`色の追加` あるいは |signMinus| :guilabel:`色の削除`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|editCopy| :guilabel:`Copy` or |editPaste| :guilabel:`Paste` color</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|editCopy| :guilabel:`色のコピー` あるいは |editPaste| :guilabel:`色の貼り付け`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|fileOpen| :guilabel:`Import` or |fileSave| :guilabel:`Export` the set of colors from/to :file:`.gpl` file.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|fileOpen| :guilabel:`ファイルから色のインポート` あるいは |fileSave| :guilabel:`色のエクスポート` で色のセットを  :file:`.gpl` ファイルからインポート / ファイルへエクスポート</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Double-click a color in the list to tweak or replace it in the :ref:`Color Selector &lt;color-selector&gt;` dialog.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>リスト内の色をダブルクリックして :ref:`カラーセレクタ &lt;color-selector&gt;` ダイアログで色を調整したり、置き換えたりできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can also rename it by double-clicking in the :guilabel:`Label` column.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`ラベル` 列をダブルクリックして、色の名前を変更することもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Digitizing Settings</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>デジタイズ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Digitizing Settings in QGIS</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISのデジタイズ設定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This tab helps you configure general settings when :ref:`editing vector layer &lt;editingvector&gt;` (attributes and geometry).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このタブでは、 :ref:`ベクタレイヤを編集する &lt;editingvector&gt;` （属性とジオメトリ）際の一般的な設定を行います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Feature creation**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**地物の作成**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|checkbox| :guilabel:`Suppress attribute form pop-up after feature creation`: this choice can be overridden in each layer properties dialog.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|checkbox| :guilabel:`地物作成後に属性フォームをポップアップさせない` ：この選択は各レイヤのプロパティダイアログで上書きできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|checkbox| :guilabel:`Reuse last entered attribute values`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|checkbox| :guilabel:`最後に入力した値を利用する`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:guilabel:`Validate geometries`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`ジオメトリの検証` 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Editing complex lines and polygons with many nodes can result in very slow rendering.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>多数のノードを持つ複雑なラインやポリゴンを編集すると、レンダリングが非常に遅くなる可能性があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This is because the default validation procedures in QGIS can take a lot of time.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは、QGISでのデフォルトの検証手順は長時間かかることがあるためです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To speed up rendering, it is possible to select GEOS geometry validation (starting from GEOS 3.3) or to switch it off.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>レンダリングを高速化するために、GEOSジオメトリ検証を選択する（GEOS 3.3以降）か、または検証をオフにすることが可能です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>GEOS geometry validation is much faster, but the disadvantage is that only the first geometry problem will be reported.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GEOSジオメトリの検証ははるかに高速ですが、最初に見つかったジオメトリ問題しか報告されないという欠点があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Note that depending on the selection, reports of geometry errors may differ (see :ref:`typesofgeomerrors`)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>選択範囲によっては、ジオメトリエラーの報告が他と異なる場合があることに注意してください（詳細は :ref:`typesofgeomerrors` を参照）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:guilabel:`Default Z value` to use when creating new 3D features.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`デフォルトのZ値` は、新しい3次元地物を作成するときに使うZ値のデフォルト値です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Rubberband**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**ラバーバンド**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Define Rubberband :guilabel:`Line width`, :guilabel:`Line color` and :guilabel:`Fill color`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ラバーバンドの :guilabel:`線幅` 、 :guilabel:`線の色` および :guilabel:`塗りつぶし色` を定義します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:guilabel:`Don't update rubberband during vertex editing`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`頂点の編集中にラバーバンドを更新しない`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Snapping**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**スナップ**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|checkbox| :guilabel:`Enable snapping by default` activates snapping when a project is opened</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|checkbox| :guilabel:`デフォルトでスナップを有効にする` プロジェクトを開いたときにスナップを有効にします</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Define :guilabel:`Default snap mode` |selectString| ('Vertex', 'Vertex and segment', 'Segment')</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`既定のスナップモード` を定義します。  |selectString| （「点」、「点とセグメント」、「セグメント」）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Define :guilabel:`Default snapping tolerance` in map units or pixels</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`既定のスナップ許容量` を地図上の単位またはピクセルで指定します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Define the :guilabel:`Search radius for vertex edits` in map units or pixels</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`頂点編集用検索半径` を地図上の単位またはピクセルで指定します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:guilabel:`Display main dialog as (restart required)`: set whether the Advanced Snapping dialog should be shown as 'Dialog' or 'Dock'.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`メインダイアログの表示（再起動が必要）` : は、スナップオプションが「ダイアログ」として開かれるか、「ドック」として開かれるかを設定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:guilabel:`Snapping marker color`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`スナップマーカーの色`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|checkbox| :guilabel:`Show snapping tooltips` such as name of the layer whose feature you are about to snap.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|checkbox| :guilabel:`スナップツールチップを表示する` スナップしようとしている地物のあるレイヤの名前などを表示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Helpful when multiple features overlap.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>複数の地物が重なり合っている場合に役立ちます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|checkbox| :guilabel:`Enable snapping on invisible features (not shown on the map canvas)`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|checkbox| :guilabel:`非表示の地物に対してもスナップを有効にする` （「非表示の地物」とは、マップキャンバス上に現れていない地物のことです）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Vertex markers**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**頂点マーカー**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|checkbox| :guilabel:`Show markers only for selected features`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|checkbox| :guilabel:`選択地物のみマーカーを表示する`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Define vertex :guilabel:`Marker style` |selectString| ('Cross' (default), 'Semi transparent circle' or 'None')</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`マーカースタイル` |selectString| 頂点マーカースタイルを定義します（「クロス」（デフォルト）、「半透明円」または「なし」）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Define vertex :guilabel:`Marker size (in millimeter)`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`マーカーの大きさ（単位ミリ）` 頂点マーカーの大きさを定義します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Curve offset tool**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**曲線のオフセットツール**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The next 3 options refer to the |offsetCurve| :sup:`Offset Curve` tool in :ref:`sec_advanced_edit`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次の3つのオプションについては、 :ref:`sec_advanced_edit` 中の |offsetCurve| :sup:`オフセット曲線` ツールを参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Through the various settings, it is possible to influence the shape of the line offset.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>さまざまな設定により、オフセット線の形状に影響を与えることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>These options are possible starting from GEOS 3.3.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これらのオプションはGEOS 3.3 以降で使用可能です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:guilabel:`Join style`: 'Round', 'Mitre' or 'Bevel'</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`継ぎ目スタイル` ：「Round」「Miter」「Bevel」</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:guilabel:`Quadrant segments`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`象限セグメント`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:guilabel:`Miter limit`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`miter 制限`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Layouts Settings</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>レイアウト</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Layouts Settings in QGIS</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISのレイアウト設定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Composition defaults**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**レイアウトのデフォルト**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can define the :guilabel:`Default font` used within the :ref:`print layout &lt;label_printlayout&gt;`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`プリントレイアウト &lt;label_printlayout&gt;` で使用される :guilabel:`デフォルトフォント`  を定義できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Grid appearance**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**グリッドの外見**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Define the :guilabel:`Grid style` |selectString| ('Solid', 'Dots', 'Crosses')</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`グリッドスタイル` |selectString| （「ソリッド」、「点」、「十字」）を定義します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Define the :guilabel:`Grid color`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`グリッド色` を定義します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Grid and guide defaults**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**グリッドとガイドのデフォルト**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Define the :guilabel:`Grid spacing` |selectNumber|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`グリッド間隔` |selectNumber| を定義します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Define the :guilabel:`Grid offset` |selectNumber| for X and Y</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`グリッドオフセット` |selectNumber| を X方向とY方向で定義します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Define the :guilabel:`Snap tolerance` |selectNumber|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`スナップ許容量` |selectNumber| を定義します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Layout Paths**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**レイアウトのパス**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Define :guilabel:`Path(s) to search for extra print templates`: a list of folders with custom layout templates to use while creating new one.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`追加のプリントテンプレートを探すパス` 新しいレイアウトを作成する際に使用するカスタムのレイアウトテンプレートが保存されたフォルダの一覧を定義します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>GDAL Settings</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GDAL</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>`GDAL &lt;https://gdal.org&gt;`_ is a data exchange library for vector and raster files.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>`GDAL &lt;https://gdal.org&gt;`_ は、ベクタファイルやラスタファイルのデータ変換ライブラリです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It provides drivers to read and or write data in different formats.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GDAL はさまざまなフォーマットでデータを読み書きするためのドライバを提供します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The :guilabel:`GDAL` tab currently exposes the drivers for raster formats with their capabilities.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`GDAL` タブでは今のところ、ラスタ形式に対するドライバとその機能を公開しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>GDAL driver options</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GDAL ドライバオプション</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This frame provides ways to customize the behavior of drivers that support read and write access:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このフレームでは、読み取りおよび書き込みアクセスをサポートするドライバの動作をカスタマイズする方法を提供します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:guilabel:`Edit create options`: allows you to edit or add different profiles of file transformation, i.e. a set of predefined combinations of parameters (type and level of compression, blocks size, overview, colorimetry, alpha...) to use when outputting raster files. The parameters depend on the driver.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`作成オプションを編集`: ファイル変換の際に使う別のプロファイルを編集または追加することができます。すなわち、ラスタファイルを出力する際に使用するパラメータ（圧縮の種類とレベル、ブロックサイズ、全体図、測色、アルファ... ）の事前に定義された組み合わせのセットを編集・追加できます。パラメータはドライバに依存します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Sample of create options profile (for GeoTiff)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>オプションプロファイルの作成サンプル (GeoTiff 用)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The upper part of the dialog lists the current profile(s) and allows you to add new ones or remove any of them.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ダイアログの上部には現在のプロファイルが一覧表示され、新しいプロファイルを追加したり、削除したりできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can also reset the profile to its default parameters if you have changed them.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プロファイルを変更した場合に、デフォルトのパラメータにリセットすることもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Some drivers (eg, GeoTiff) have some sample of profiles you can work with.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>一部のドライバ（GeoTiff など）には、プロファイルのサンプルがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>At the bottom of the dialog:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ダイアログの下部：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The |signPlus| button lets you add rows to fill with the parameter name and value</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|signPlus| ボタンを押すと、パラメータの名称と値を入力できる行を追加します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The |signMinus| button deletes the selected parameter</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|signMinus| ボタンを押すと、選択したパラメータを削除します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click the :guilabel:`Validate` button to check that the creation options entered for the given format are valid</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`検証` ボタンをクリックすると、指定されたフォーマットに対して入力された作成オプションが有効であるかを確認します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Use the :guilabel:`Help` button to find the parameters to use, or refer to the `GDAL raster drivers documentation &lt;https://gdal.org/drivers/raster/index.html&gt;`_.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`ヘルプ` ボタンを押して使用するパラメータを見つけるか、 `GDAL raster drivers documentation &lt;https://gdal.org/drivers/raster/index.html&gt;`_ を参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:guilabel:`Edit Pyramids Options`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`ピラミッドオプションを編集`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Sample of Pyramids profile</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ピラミッドプロファイルのサンプル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>GDAL drivers</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GDAL ドライバ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In this frame, you can define which GDAL driver is to use to read and/or write files, as in some cases more than one GDAL driver is available.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このフレームでは、ファイルの読み取りや書き込みに使用するGDALドライバを定義できます。使用できるGDALドライバは複数ある場合があるためです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>GDAL Settings in QGIS</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGIS の GDAL 設定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Double-click a driver that allows read and write access (``rw+(v)``) opens the :ref:`Edit Create options &lt;gdal_createoptions&gt;` dialog for customization.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>読み取り・書き込みアクセスが可能 (``rw+(v)``) なドライバをダブルクリックして :ref:`作成オプションの編集 &lt;gdal_createoptions&gt;` ダイアログを開き、作成オプションをカスタマイズすることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Variables Settings</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>変数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The :guilabel:`Variables` tab lists all the variables available at the global-level.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`変数` タブには、グローバルレベルで利用可能なすべての変数がリストされています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It also allows the user to manage global-level variables.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ここではグローバルレベルの変数の管理もできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click the |signPlus| button to add a new custom global-level variable.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|signPlus| ボタンをクリックして、新しいカスタムグローバルレベル変数を追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Likewise, select a custom global-level variable from the list and click the |signMinus| button to remove it.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>同様に、リストからカスタムグローバルレベル変数を選択し、 |signMinus| ボタンを押して削除します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>More information about variables in the :ref:`general_tools_variables` section.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>変数の詳細については、 :ref:`general_tools_variables` セクションを参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Variables Settings in QGIS</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGIS の変数設定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Authentication Settings</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>認証</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In the :guilabel:`Authentication` tab you can set authentication configurations and manage PKI certificates.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`認証` タブでは、認証設定を設定し、PKI証明書を管理できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>See :ref:`authentication_index` for more details.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>詳細は :ref:`authentication_index` 参照。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Authentication Settings in QGIS</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISの認証設定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Network Settings</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ネットワーク</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**General**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**一般情報**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Define :guilabel:`WMS search address`, default is ``http://geopole.org/wms/search?search=\%1\&amp;type=rss``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`WMS 検索アドレス` を定義します。デフォルトは ``http://geopole.org/wms/search?search=\%1\&amp;type=rss`` です</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Define :guilabel:`Timeout for network requests (ms)` - default is 60000</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`ネットワークリクエストのタイムアウト（ミリ秒）` を定義します。デフォルトは 60000 ミリ秒です</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Define :guilabel:`Default expiration period for WMS Capabilities (hours)` - default is 24</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`WMS Capabilitiesのデフォルト有効期限（hours）` を定義します。デフォルトは 24時間です</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Define :guilabel:`Default expiration period for WMSC/WMTS tiles (hours)` - default is 24</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`WMS-C/WMTS タイルのデフォルト有効期限（hours）` を定義します。デフォルトは 24時間です</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Define :guilabel:`Max retry in case of tile or feature request errors`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`タイル / 地物リクエストエラーの場合の最大再試行` の回数を指定します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Define :guilabel:`User-Agent`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`User-Agent` を定義します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Proxy-settings in QGIS</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISでのプロキシ設定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Cache settings**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**キャッシュ設定**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Defines the :guilabel:`Directory` and a :guilabel:`Size` for the cache.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>キャッシュの :guilabel:`ディレクトリ` と :guilabel:`サイズ[KiB]` を定義します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Also offers tools to :guilabel:`automatically clear the connection authentication cache on SSL errors (recommended)`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>また、 :guilabel:`SSL エラーで接続認証キャッシュを自動的に消去する（推奨）` ためのツールを提供します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Proxy for web access**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**ウェブアクセスのプロキシ**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|checkbox| :guilabel:`Use proxy for web access`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|checkbox| :guilabel:`ウェブアクセスにプロキシを使用する`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Set the :guilabel:`Proxy type` |selectString| according to your needs and define 'Host' and 'Port'.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>必要に応じて :guilabel:`プロキシタイプ` |selectString| を設定し、「ホスト」と「ポート」を定義します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Available proxy types are:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>利用可能なプロキシタイプは以下の通りです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:menuselection:`Default Proxy`: Proxy is determined based on system's proxy</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:menuselection:`Default Proxy`: プロキシはシステムのプロキシ設定をもとに決定されます</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:menuselection:`Socks5Proxy`: Generic proxy for any kind of connection. Supports TCP, UDP, binding to a port (incoming connections) and authentication.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:menuselection:`Socks5Proxy`: あらゆる種類の接続に対応した一般的なプロキシ.  TCP, UDP, ポートへのバインディング (入力コネクション) と認証をサポートします.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:menuselection:`HttpProxy`: Implemented using the "CONNECT" command, supports only outgoing TCP connections; supports authentication.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:menuselection:`HttpProxy`:  "CONNECT" コマンドを実装しています, 外向きの TCP コネクションのみサポートしています; 認証をサポートしています.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:menuselection:`HttpCachingProxy`: Implemented using normal HTTP commands, it is useful only in the context of HTTP requests.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:menuselection:`HttpCachingProxy`: 通常のHTTPコマンドを使って実装され、HTTPリクエストのコンテキストでのみ役に立ちます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:menuselection:`FtpCachingProxy`: Implemented using an FTP proxy, it is useful only in the context of FTP requests.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:menuselection:`FtpCachingProxy`：FTPプロキシを使用して実装、それだけでFTP要求のコンテキストで便利です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Credentials of proxy are set using the :ref:`authentication widget &lt;authentication&gt;`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プロキシの資格情報は :ref:`認証ウィジェット &lt;authentication&gt;` を使用して設定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Excluding some URLs can be added to the text box below the proxy settings (see Figure_Network_Tab_).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プロキシ設定の下のテキストボックスにいくつかの除外URLを追加することができます（  Figure_Network_Tab_ を参照）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>No proxy will be used if the target url starts with one of the string listed in this text box.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ターゲットURLがこのテキストボックスにリストされた文字列の1つで始まる場合、プロキシは使用されません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you need more detailed information about the different proxy settings, please refer to the manual of the underlying QT library documentation at https://doc.qt.io/qt-5.9/qnetworkproxy.html#ProxyType-enum</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>さまざまなプロキシ設定に関するより詳細な情報が必要な場合は、 https://doc.qt.io/qt-5.9/qnetworkproxy.html#ProxyType-enum にあるQTライブラリのマニュアルを参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Using Proxies**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**プロキシの利用**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Using proxies can sometimes be tricky.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プロキシを使うのは時に厄介なことがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It is useful to proceed by 'trial and error' with the above proxy types, to check if they succeed in your case.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>上記のようなプロキシタイプを使って「試行錯誤」し、自分のケースでうまくいくかどうかを確認ながら進めていくのがよいでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Locator Settings</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ロケータ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|search| The :guilabel:`Locator` tab allows to configure the :ref:`Locator bar &lt;locator_bar&gt;`, a quick search widget available on the status bar that helps you perform searches anywhere in the application. It provides some default filters (with prefix) to use:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|search| :guilabel:`ロケータ` タブでは、 :ref:`ロケータバー &lt;locator_bar&gt;` の設定を行えます。 これは、ステータスバー上で利用可能なクイック検索ウィジェットで、アプリケーション内の任意の場所で検索を実行できます。デフォルトのフィルタ（や接頭辞）なども設定できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Project layers (``l``): finds and selects a layer in the :guilabel:`Layers` panel.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プロジェクトのレイヤ (``l``):  :guilabel:`レイヤ` パネル内のレイヤを検索し、選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Project layouts (``pl``): finds and opens a print layout.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プロジェクトのレイアウト (``pl``): 印刷レイアウトを検索し、開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Actions (``.``): finds and executes a QGIS action; actions can be any tool or menu in QGIS, opening a panel...</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>アクション (``.``): QGISのアクションを検索し、実行します。アクションには、QGISのツールやメニュー、パネルを開く等があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Active layer features (``f``): searches for matching attributes in any field from the current active layer and zooms to the selected feature.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>アクティブレイヤの地物 (``f``): 現在アクティブなレイヤから任意のフィールドで一致する属性を検索し、選択した地物にズームします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Features in all layers (``af``): searches for matching attributes in the :ref:`display name &lt;maptips&gt;` of each :ref:`searchable layers &lt;project_layer_capabilities&gt;` and zooms to the selected feature.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>全てのレイヤの地物 (``af``): 各 :ref:`検索可能なレイヤ &lt;project_layer_capabilities&gt;` の :ref:`表示名 &lt;maptips&gt;` でマッチする属性を検索し、選択した地物にズームします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Calculator (``=``): allows evaluation of any QGIS expression and, if valid, gives an option to copy the result to the clipboard.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>計算機 (``=``): 任意の QGIS 式の評価ができ、有効な式であれば、結果をクリップボードにコピーするオプションが与えられます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Spatial bookmarks (``b``): finds and zooms to the bookmark extent.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>空間ブックマーク (``b``): ブックマーク範囲を検索し、ズームします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Settings (``set``): browses and opens project and application-wide properties dialogs.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>設定 (``set``): プロジェクトやアプリケーション全体のプロパティダイアログを参照し開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Processing (``a``): searches and opens a Processing algorithm dialog.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プロセシングアルゴリズム (``a``): プロセシングアルゴリズムダイアログを検索し開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Edit selected features (``ef``): gives quick access and runs a compatible :ref:`modify-in-place &lt;processing_inplace_edit&gt;` Processing algorithm on the active layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>選択地物を編集する (``ef``): プロセシングアルゴリズムへのクイックアクセスを提供し、互換性のある :ref:`in-place 編集 &lt;processing_inplace_edit&gt;` のプロセシングアルゴリズムをアクティブレイヤで実行します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For each filter, you can customize the filter, set whether it is enabled by default or not. The set of default locator filters can be extended by plugins, eg for OSM nominatim searches, direct database searching, layer catalog searches.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>各フィルタについて、フィルターをカスタマイズし、デフォルトで有効にするかどうかを設定できます。デフォルトのロケータフィルタのセットはプラグインによって拡張できます。例えば、OSM nominatim 検索や直接データベース検索、レイヤカタログ検索などがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The locator search bar can be activated pressing :kbd:`Ctrl+K`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:kbd:`Ctrl+K` を押すとロケータ検索バーが起動し、テキストを入力して検索できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Type your text to perform a search.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>デフォルトでは、有効になっているすべてのロケータフィルタに対して検索結果が返されますが、 ロケータフィルタの接頭辞をテキストの前に付けることで、検索対象を特定のフィルターに限定することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>By default, results are returned for all enabled locator filters but you can limit the search to a certain filter by prefixing your text with the locator filter prefix, ie. typing ``l cad`` will return only the layers whose name contains ``cad``.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``l cad`` と入力すると、名前に ``cad`` を含むレイヤのみが返されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click on the result to execute the corresponding action, depending on the type of item.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>結果をクリックすると、アイテムの種類に応じて対応するアクションが実行されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Searching is handled using threads, so that results always become available as quickly as possible, regardless of whether any slow search filters may be installed. They also appear as soon as each result is encountered by each filter, which means that e.g. a file search filter will show results one by one as the file tree is scanned. This ensures that the UI is always responsive even if a very slow search filter is present (e.g. one which uses an online service).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>検索はスレッドを使用して処理されるため、低速の検索フィルタがインストールされていても、常に可能な限り早く結果が得られるようになっています。また、各フィルターがそれぞれの検索結果を見つけると、すぐに表示されるようになっています。例えば、ファイル検索フィルタがファイルツリーをスキャンすると、結果を一つ見つけるごとに表示されます。これにより、非常に遅い検索フィルタ（オンラインサービスを使用するものなど）が存在する場合でも、UIは常に応答できるようになっています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Quick access to the locator's configurations**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**ロケータの設定へのクイックアクセス**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click on the |search| icon inside the locator widget on the status bar to display the list of filters you can use and a :guilabel:`Configure` entry that opens the :guilabel:`Locator` tab of the :menuselection:`Settings --&gt; Options...` menu.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ステータスバーのロケータウィジェット内の |search| アイコンをクリックし、使用可能なフィルタのリストを表示したら、 :guilabel:`設定...` エントリをクリックすると、 :menuselection:`設定 --&gt; オプション...` メニューの :guilabel:`ロケータ` タブが開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Locator Settings in QGIS</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISのロケータ設定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Advanced Settings</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>高度な設定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Advanced Settings tab in QGIS</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISの高度な設定タブ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>All the settings related to QGIS (UI, tools, data providers, Processing configurations, default values and paths, plugins options, expressions, geometry checks...) are saved in a :file:`QGIS/QGIS3.ini` file under the active :ref:`user profile &lt;user_profiles&gt;` directory.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISに関連するすべての設定（UI、ツール、データプロバイダ、プロセシングアルゴリズムの構成、デフォルト値やパス、プラグインのオプション、式、ジオメトリチェックなど）は、アクティブな :ref:`ユーザープロファイル &lt;user_profiles&gt;` ディレクトリの :file:`QGIS/QGIS3.ini` ファイルに保存されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Configurations can be shared by copying this file to other installations.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このファイルを他のインストール環境にコピーすることで、設定を共有することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>From within QGIS, the :guilabel:`Advanced` tab offers a way to manage these settings through the :guilabel:`Advanced Settings Editor`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGIS 内では、 :guilabel:`高度な設定` タブの :guilabel:`高度な設定エディタ` を使用してこれらの設定を管理する方法を提供しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>After you promise to be careful, the widget is populated with a tree of all the existing settings, and you can edit their value.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>慎重に設定変更することを約束したら、ウィジェットには既存のすべての設定のツリーが表示され、その値を編集することができるようになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Right-click over a setting or a group and you can delete it (to add a setting or group, you have to edit the :file:`QGIS3.ini` file).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>設定やグループの上で右クリックすると、設定やグループを削除することができます（設定やグループを追加するには、 :file:`QGIS3.ini` ファイルを編集する必要があります）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Changes are automatically saved in the :file:`QGIS3.ini` file.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>変更は自動的に :file:`QGIS3.ini`  ファイルに保存されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Avoid using the Advanced tab settings blindly**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**「高度な設定」タブの設定をやみくもに使用しないこと**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Be careful while modifying items in this dialog given that changes are automatically applied.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>変更は自動的に適用されるため、このダイアログで項目を変更する際には注意が必要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Doing changes without knowledge can break your QGIS installation in various ways.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>知識のないまま変更を行うと、さまざまな形で QGIS のインストール環境が壊れる可能性があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Acceleration Settings</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>高速化</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>OpenCL acceleration settings.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>OpenCL による高速化の設定。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Acceleration tab</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>高速化タブ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Depending on your hardware and software, you may have to install additional libraries to enable OpenCL acceleration.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>あなたのハードウェアやソフトウェア環境にもよりますが、OpenCLアクセラレーションを有効にするためには追加のライブラリをインストールする必要がある場合があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Processing Settings</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プロセシング</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The |processing| :guilabel:`Processing` tab provides you with general settings of tools and data providers that are used in the QGIS Processing framework.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|processing| :guilabel:`プロセシング` タブでは、QGIS プロセシングフレームワークで使用されるツールやデータプロバイダの一般的な設定を行うことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>More information at :ref:`label_processing`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>詳細は、 :ref:`label_processing` を参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Processing Settings tab in QGIS</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISのプロセシング設定タブ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Working with User Profiles</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ユーザープロファイルの操作</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The :menuselection:`Settings --&gt; User Profiles` menu provides functions to set and access user profiles.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:menuselection:`設定-&gt;ユーザープロファイル` メニューは、ユーザープロファイルを設定したり、ユーザープロファイルにアクセスする機能を提供します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A user profile is a unified application configuration that allows to store in a single folder:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ユーザープロファイルとは、単一のフォルダに保存される一元管理されたアプリケーション構成で、以下のものを含みます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>all the :ref:`global settings &lt;gui_options&gt;`, including locale, projections, authentication settings, color palettes, shortcuts...</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ロケール、投影法、認証設定、カラーパレット、ショートカットなどを含むすべての :ref:`グローバル設定 &lt;gui_options&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>GUI configurations and :ref:`customization &lt;sec_customization&gt;`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GUI の構成と :ref:`カスタマイズ &lt;sec_customization&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>installed :ref:`plugins &lt;plugins&gt;` and their configurations</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>インストールされた :ref:`プラグイン &lt;plugins&gt;` とその構成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>project templates and history of saved project with their image preview</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プロジェクトのテンプレートと、保存されたプロジェクトの履歴およびその画像プレビュー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:ref:`processing settings &lt;label_processing&gt;`, logs, scripts, models.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`プロセシングの設定 &lt;label_processing&gt;` やログ、スクリプト、モデル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>By default, a QGIS installation contains a single user profile named ``default``.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>デフォルトでは、QGISインストールには ``default`` という名前のユーザープロファイルが一つだけ含まれています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>But you can create as many user profiles as you want:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ただし、ユーザープロファイルは必要な数だけ作成できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click the :guilabel:`New profile...` entry.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`新しいプロファイル...` エントリをクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You'll be prompted to provide a profile name, creating a folder of the same name under :file:`~/&lt;UserProfiles&gt;/` where:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プロファイル名を指定するように求められ、同じ名前のフォルダが :file:`~/&lt;UserProfiles&gt;/` の下に作成されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``~`` represents the **HOME** directory, which on |win| Windows is usually something like :file:`C:\\Users\\(user)`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``~`` は **ホーム** ディレクトリを表します。 |win| Windows では、通常は :file:`C:\\Users\\(user)` のようなフォルダです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>and ``&lt;UserProfiles&gt;`` represents the main profiles folder, i.e.:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``&lt;UserProfiles&gt;`` は、メインプロファイルフォルダを表します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|nix| :file:`.local/share/QGIS/QGIS3/profiles/`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|nix| :file:`.local/share/QGIS/QGIS3/profiles/`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|win| :file:`AppData\\Roaming\\QGIS\\QGIS3\\profiles\\`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|win| :file:`AppData\\Roaming\\QGIS\\QGIS3\\profiles\\`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|osx| :file:`Library/Application Support/QGIS/QGIS3/profiles/`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|osx| :file:`Library/Application Support/QGIS/QGIS3/profiles/`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The user profile folder can be opened from within QGIS using the :guilabel:`Open Active Profile Folder`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ユーザープロファイルフォルダは、 :guilabel:`アクティブなプロファイルフォルダを開く` を使用してQGIS 内から開くことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A new instance of QGIS is started, using a clean configuration.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>クリーンな構成を使用して、QGIS の新しいインスタンスが起動されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can then set your custom configurations.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>その後、カスタム構成を設定することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you have more than one profile in your QGIS installation, the name of the active profile is shown in the application title bar between square brackets.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISインストール環境に複数のプロファイルがある場合、アプリケーションのタイトルバーにアクティブなプロファイル名が角括弧囲みで表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>As each user profile contains isolated settings, plugins and history they can be great for different workflows, demos, users of the same machine, or testing settings, etc.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>各ユーザープロファイルには個別の設定、プラグイン、および履歴が含まれているため、異なるワークフローで使い分けたり、デモ用途や、同じマシンでユーザーが複数いる場合、あるいは設定のテスト用などに最適です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>And you can switch from one to the other by selecting them in the :menuselection:`Settings --&gt; User Profiles` menu.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:menuselection:`設定-&gt;ユーザープロファイル` メニューで選択することで、あるプロファイルから別のプロファイルへと切り替えができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can also run QGIS with a specific user profile from the :ref:`command line &lt;label_commandline&gt;`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`コマンドライン &lt;label_commandline&gt;` から特定のユーザープロファイルでQGISを実行することもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Unless changed, the profile of the last closed QGIS session will be used in the following QGIS sessions.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>最後に閉じられたQGISセッションのプロファイルは、変更されない限りは次のQGISセッションで使用されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Run QGIS under a new user profile to check for bug persistence**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**新しいユーザープロファイルでQGISを実行して、バグの持続性を確認する**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>When you encounter weird behavior with some functions in QGIS, create a new user profile and run the commands again. Sometimes, bugs are related to some leftovers in the current user profile and creating a new one may fix them as it restarts QGIS with the new (clean) profile.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISの一部の機能で奇妙な動作が発生した場合には、新しいユーザープロファイルを作成してコマンドを再度実行してください。バグは、現在のユーザープロファイルに残っているものが関係していることがあります。新しいユーザープロファイルを作成すると、新しい（クリーンな）プロファイルでQGISを再起動するため、バグが修正されることがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Project Properties</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プロジェクトのプロパティ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In the properties window for the project under :menuselection:`Project --&gt; Project Properties`, you can set project-specific options.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:menuselection:`プロジェクト --&gt; プロジェクトのプロパティ` のプロジェクトのプロパティウィンドウで、プロジェクト固有のオプションを設定できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The project-specific options overwrite their equivalent in the :guilabel:`Options` dialog described above.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プロジェクト固有のオプションは、上記の :guilabel:`オプション` ダイアログの同じオプションを上書きします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>General Properties</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>一般情報</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In the :guilabel:`General` tab, the :guilabel:`General settings` let you:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`一般情報` タブの :guilabel:`一般設定` では、以下の設定が可能です：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>see the location of the project file</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プロジェクトファイルの場所を見る</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>set the folder for the project home (available in the ``Project Home`` item in the browser).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プロジェクトのホームフォルダを設定する（ブラウザパネルの ``プロジェクトホーム`` アイテムでも可能）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The path can be relative to the folder of the project file (type it in) or absolute.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>パスは、プロジェクトファイルのフォルダに対する相対パス（として入力する）にも、絶対パスにもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The project home can be used for storing data and other content that is useful for the project.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プロジェクトホームはプロジェクトに役立つデータやその他のコンテンツを保存するために使用されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>give a title to the project beside the project file path</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プロジェクトにタイトルを付ける</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>choose the color to use for features when they are selected</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>地物が選択されたときに使用する色を選択する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>choose the background color: the color to use for the map canvas</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>背景色を選択する：地図キャンバスに使用する色を選択します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>set whether the path to layers in the project should be saved as absolute (full) or as relative to the project file location.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プロジェクト内でレイヤへのパスを絶対（フル）パスとして保存するか、プロジェクトファイルの場所に対する相対パスとして保存するかを設定する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You may prefer relative path when both layers and project files can be moved or shared or if the project is accessed from computers on different platforms.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>レイヤとプロジェクトファイルの両方が移動するもしくは共有する可能性がある場合や、異なるプラットフォーム上のコンピュータからプロジェクトにアクセスする場合には、相対パスの方が良いかもしれません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>choose to avoid artifacts when project is rendered as map tiles.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プロジェクトが地図タイルとしてレンダリングされる時のずれを回避するか選択する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Note that checking this option can lead to performance degradation.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このオプションをチェックすると、パフォーマンスの低下につながる可能性があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Calculating areas and distances is a common need in GIS.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GISでは面積や距離の計算がしばしば必要になります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>However, these values are really tied to the underlying projection settings.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>しかしながら、これらの値は実際には基礎となる投影設定に関連付けられています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The :guilabel:`Measurements` frame lets you control these parameters.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`計測` フレームではこれらのパラメータを制御できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can indeed choose:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>以下が選択できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>the :guilabel:`Ellipsoid`, on which distance and area calculations are entirely based; it can be:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`楕円体` ：距離や面積の計算に完全に基づいている楕円体を選択します。これには以下の値があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**None/Planimetric**: returned values are in this case cartesian measurements.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**None/Planimetric**: この場合には、計算値はデカルト計測による値です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>a **Custom** one: you'll need to set values of the semi-major and semi-minor axes.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**カスタム** : 楕円体の長軸と短軸の値を設定する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>or an existing one from a predefined list (Clarke 1866, Clarke 1880 IGN, New International 1967, WGS 84...).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>または定義済みのリスト（Clarke 1866、 Clarke 1880 IGN、 New International 1967、 WGS 84 など） から既存のものを選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>the :guilabel:`units for distance measurements` for length and perimeter and the :guilabel:`units for area measurements`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>長さと周長のための :guilabel:`距離計測の単位` と、 :guilabel:`面積計測の単位` 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>These settings, which default to the units set in QGIS options but then overrides it for the current project, are used in:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これらの設定は、デフォルトではQGISオプションで設定した単位が使われますが、現在のプロジェクトの単位で上書きされ、以下の値の単位に使用されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Attribute table field update bar</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>属性テーブルのフィールド更新バー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Field calculator calculations</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>フィールド計算機の計算</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Identify tool derived length, perimeter and area values</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>地物情報表示ツールで表示される長さ、周長および面積値</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Default unit shown in measure dialog</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>計測ダイアログに表示されるデフォルトの単位</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The :guilabel:`Coordinate display` allows you to choose and customize the format of units to use to display the mouse coordinate in the status bar and the derived coordinates shown via the identify tool.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`座標の表示`  では、ステータスバーに表示されるマウス座標や、地物情報表示ツールによって表示される派生した属性のクリック座標を表示するために使用する単位の形式を選択およびカスタマイズできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Finally, you can set a :guilabel:`Project predefined scales` list, which overrides the global predefined scales.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>最後に、 :guilabel:`プロジェクト定義済み縮尺` のリストを設定し、グローバル設定で定義済みの縮尺を上書きできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>General tab of the Project Properties dialog</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プロジェクトのプロパティダイアログの一般情報タブ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Metadata Properties</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>メタデータ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The :guilabel:`Metadata` tab allows detailed metadata to be defined, including (among the others): author, creation date, language, abstracts, categories, keywords, contact details, links, history.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`メタデータ` タブでは、著者、作成日、言語、要約、カテゴリ、キーワード、連絡先の詳細、リンク、履歴など、詳細なメタデータを定義できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>There is also a validation functionality that checks if specific fields were filled, anyway this is not enforced.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>特定のフィールドが入力されているかどうかを確認する検証機能もありますが、これは強制されません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>See :ref:`vector layer metadata properties &lt;vectormetadatamenu&gt;` for some details.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>詳細は :ref:`ベクタレイヤのメタデータプロパティ &lt;vectormetadatamenu&gt;` をご覧ください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>CRS Properties</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>参照座標系</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For more information on how QGIS handles project projection, please read the dedicated section at :ref:`label_projections`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGIS がプロジェクトの投影をどのように扱っているかについての詳細は、 :ref:`label_projections` の専用セクションを読んでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The |crs| :guilabel:`CRS` tab helps you set the coordinate reference system to use in this project.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|crs| :guilabel:`座標参照系` タブでは、そのプロジェクトで使用する座標参照系を設定できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It can be:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>以下の設定があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|checkbox| :guilabel:`No projection (or unknown/non-Earth projection)`: layers are drawn based on their raw coordinates</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|checkbox| :guilabel:`投影なし（または未知 / 非地球投影）`: レイヤの生の座標に基づいてレイヤが描画されます</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>or an existing coordinate reference system that can be *geographic*, *projected* or *user-defined*.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>または、既存の座標参照系で *地理的座標系* 、 *投影された座標系* あるいは *ユーザ定義の座標系* を使用することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Layers added to the project are translated on-the-fly to this CRS in order to overlay them regardless their original CRS.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プロジェクトに追加されたレイヤは、重ね合わせるために元のCRSに関係なくオンザフライでこのCRSに変換されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The |crs| :guilabel:`CRS` tab also helps you control the layers reprojection settings by configuring the datum transformation preferences to apply in the current project.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|crs| :guilabel:`座標参照系` タブでは、現在のプロジェクトで適用する測地系変換を設定することで、レイヤーの再投影設定を制御することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>As usual, these override any corresponding global settings.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>例によってこれらは対応するグローバル設定を上書きします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>See :ref:`datum_transformation` for more details.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>詳細については :ref:`datum_transformation` を参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Default Styles Properties</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>既定スタイル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The :guilabel:`Default Styles` tab lets you control how new layers will be drawn in the project when they do not have an existing :file:`.qml` style defined.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`既定スタイル` タブでは、既存の :file:`.qml` スタイルが定義されていない場合にプロジェクトで新しいレイヤをどのように描画するかを制御できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>以下の設定ができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Set default symbols (:guilabel:`Marker`, :guilabel:`Line`, :guilabel:`Fill`) to apply depending on the layer geometry type as well as a default :guilabel:`Color Ramp`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>レイヤーのジオメトリタイプに応じて適用するデフォルトのシンボル (:guilabel:`マーカー` 、 :guilabel:`ライン` 、 :guilabel:`塗りつぶし`) と、デフォルトの :guilabel:`カラーランプ` を設定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Apply a default :guilabel:`Opacity` to new layers</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>デフォルトの :guilabel:`不透明度` を新しいレイヤーに適用します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|checkbox| :guilabel:`Assign random colors to symbols`, modifying the symbols fill colors, hence avoiding same rendering for all layers.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|checkbox| :guilabel:`ランダムな色をシンボルに設定する`  は、シンボルの塗りつぶし色を変えることで、すべてのレイヤが同じように描画されるのを避けられます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Default Styles tab</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>既定スタイルタブ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Using the |styleManager| :guilabel:`Style Manager` button, you can also quickly access the :ref:`Style Manager &lt;vector_style_manager&gt;` dialog and configure symbols and color ramps.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|styleManager| :guilabel:`スタイルマネージャ` ボタンを押すと、 :ref:`スタイルマネージャ &lt;vector_style_manager&gt;` ダイアログに素早くアクセスし、シンボルやカラーランプの設定が行えます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>There is also an additional section where you can define specific colors for the running project.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>また、実行中のプロジェクトの特定の色を定義するセクションもあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Like the :ref:`global colors &lt;colors_options&gt;`, you can:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`グローバルの色設定 &lt;colors_options&gt;` と同様に、以下の設定ができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>These colors are identified as :guilabel:`Project colors` and listed as part of :ref:`color widgets &lt;color-selector&gt;`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これらの色は :guilabel:`プロジェクトの色` として識別され、 :ref:`色ウィジェット &lt;color-selector&gt;` の一部としてリストに表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Use project colors to quickly assign and update color widgets**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**プロジェクトの色を使用して、カラーウィジェットを素早く割り当てて更新する**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Project colors can be refered to using their label and the color widgets they are used in are bound to them.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プロジェクトの色はそのラベルを使って参照することができ、それらが使用されているカラーウィジェットはそれらにバインドされます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This means that instead of repeatedly setting the same color for many properties and, to avoid a cumbersome update you can:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これによって、多くのプロパティに同じ色を繰り返し設定したり面倒な更新を避けるために、以下のようにすることができます：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Define the color as a project color</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>色をプロジェクトの色として定義します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click the :ref:`data defined override widget &lt;data_defined&gt;` next to the color property you want to set</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>設定したい色プロパティの隣にある、 :ref:`データによって定義された上書きウィジェット &lt;data_defined&gt;` をクリックします</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Hover over the :guilabel:`Color` menu and select the project color.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`色` メニューの上にマウスカーソルを置き、プロジェクトの色を選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The property is then assigned the expression ``project_color('color_label')`` and the color widget reflects that color.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このプロパティには式 ``project_color('color_label')`` が指定され、カラーウィジェットにはその色が反映されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Repeat steps 2 and 3 as much as needed</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ステップ2とステップ3を必要なだけ繰り返します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Update the project color once and the change is reflected EVERYWHERE it's in use.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プロジェクトの色を一度更新するだけで、その色が使われている箇所「全て」に変更が反映されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Data Sources Properties</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>データソース</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In the :guilabel:`Data Sources` tab, you can:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`データソース` タブでは、以下の設定ができます:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|unchecked| :guilabel:`Automatically create transaction groups where possible`: When this mode is turned on, all (postgres) layers from the same database are synchronised in their edit state, i.e. when one layer is put into edit state, all are, when one layer is committed or one layer is rolled back, so are the others. Also, instead of buffering edit changes locally, they are directly sent to a transaction in the database which gets committed when the user clicks save layer. Note that you can (de)activate this option only if no layer is being edited in the project.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|unchecked| :guilabel:`可能な場合には自動的にトランザクショングループを作成する` ：このモードをオンにすると、同じデータベースのすべての（postgres）レイヤーが編集状態で同期されます。つまり、あるレイヤーが編集状態になるとすべてのレイヤが編集状態となり、 1つのレイヤーがコミットされるか、または1つのレイヤーがロールバックされると、そのほかも同様にコミットもしくはロールバックされます。また、編集した変更をローカルでバッファリングする代わりに、変更はデータベース内のトランザクションに直接送信され、ユーザがレイヤの保存をクリックしたときにコミットされます。プロジェクトでレイヤーが編集されていない場合にのみ、このオプションを有効（無効）にできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|unchecked| :guilabel:`Evaluate default values on provider side`: When adding new features in a PostgreSQL table, fields with default value constraint are evaluated and populated at the form opening, and not at the commit moment.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|unchecked|  :guilabel:`プロバイダ側でデフォルト値を評価する` ：PostgreSQLのテーブルに新しい地物を追加すると、デフォルト値の制約を持つフィールドは、コミット時ではなくフォームを開いた際に値が評価され入力されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This means that instead of an expression like ``nextval('serial')``, the field in the :guilabel:`Add Feature` form will display expected value (e.g., ``25``).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは、 :guilabel:`地物を追加` フォームのフィールドに ``nextval（ 'serial'）`` のような式ではなく期待された値（例えば ``25`` ）が表示されることを意味します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|unchecked| :guilabel:`Trust project when data source has no metadata`: To speed up project loading by skipping data checks.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|unchecked| :guilabel:`データソースにメタデータがない場合にプロジェクトを信頼する` ：データチェックをスキップしてプロジェクトの読み込みを高速化します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Useful in QGIS Server context or in projects with huge database views/materialized views.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGIS Serverコンテキストまたは巨大なデータベースビュー/マテリアライズドビューを持つプロジェクトで役立ちます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The extent of layers will be read from the QGIS project file (instead of data sources) and when using the PostgreSQL provider the primary key unicity will not be checked for views and materialized views.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>レイヤーの範囲は（データソースの代わりに）QGISプロジェクトファイルから読み取られ、PostgreSQLプロバイダーを使用する場合、ビューとマテリアライズドビューの主キーの単一性はチェックされません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Configure the :guilabel:`Layers Capabilities`, i.e.:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`レイヤのCapabilities` の構成は：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Set (or disable) which layers are ``identifiable``, i.e. will respond to the :ref:`identify tool &lt;identify&gt;`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>どのレイヤを ``情報表示可能`` （あるいは不可）とするか、すなわち、 :ref:`地物情報表示ツール &lt;identify&gt;` に反応するかを設定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>By default, layers are set queryable.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>デフォルトでは、レイヤは問合せ可能に設定されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Set whether a layer should appear as ``read-only``, meaning that it can not be edited by the user, regardless of the data provider's capabilities. Although this is a weak protection, it remains a quick and handy configuration to avoid end-users modifying data when working with file-based layers.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>レイヤを ``読取専用`` として表示するかどうかを設定します。つまり、データプロバイダの機能に関係なく、ユーザが編集できなくなります。これは弱い保護ですが、ファイルベースのレイヤで作業しているときにエンドユーザがデータを変更しないようにするための簡単で便利な設定であることに変わりはありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Define which layers are ``searchable``, i.e. could be queried using the :ref:`locator widget &lt;locator_options&gt;`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>どのレイヤを ``検索可能`` とするか、すなわち、 :ref:`ロケータウィジェット &lt;locator_options&gt;` を使って問合せ可能かを定義します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>By default, layers are set searchable.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>デフォルトでは、レイヤは検索可能に設定されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Define which layers are defined as ``required``.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>どのレイヤーを ``必須`` とするかを定義します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Checked layers in this list are protected from inadvertent removal from the project.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このリスト内でチェックされたレイヤは、不注意なプロジェクトからの削除に対して保護されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The :guilabel:`Layers Capabilities` table provides some convenient tools to:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`レイヤのCapabilities` テーブルには便利なツールがあります：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Select multiple cells and press :guilabel:`Toggle Selection` to have them change their checkbox state;</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>複数のセルを選択し、 :guilabel:`選択切替` を押して、チェックボックスの状態を変更します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|unchecked| :guilabel:`Show spatial layers only`, filtering out non-spatial layers from the layers list;</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|unchecked| :guilabel:`空間レイヤのみ表示` は空間レイヤでないものをレイヤのリストから除外します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|search| :guilabel:`Filter layers...` and quickly find a particular layer to configure.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|search| :guilabel:`レイヤのフィルタ...` で設定したい特定のレイヤを素早く探し出せます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Data Sources tab</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>データソースタブ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Relations Properties</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>リレーション</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The :guilabel:`Relations` tab is used to define 1:n relations.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`リレーション` タブは1:nの関係を定義するために使用されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The relations are defined in the project properties dialog.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>リレーションは、プロジェクトのプロパティダイアログで定義されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Once relations exist for a layer, a new user interface element in the form view (e.g. when identifying a feature and opening its form) will list the related entities.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>あるレイヤにリレーションが存在すると、フォームビューの新しいユーザーインターフェース要素（例えば、地物を特定し、そのフォームを開くとき）に関連するエンティティのリストが表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This provides a powerful way to express e.g. the inspection history on a length of pipeline or road segment.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは、例えばパイプラインの長さや道路区間の検査履歴を表現するための強力な方法を提供します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can find out more about 1:n relations support in Section :ref:`vector_relations`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>1:n関係のサポートについての詳細はセクション :ref:`vector_relations` を参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Relations tab</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>リレーションタブ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Variables Properties</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>変数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The :guilabel:`Variables` tab lists all the variables available at the project's level (which includes all global variables).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`変数` タブには、プロジェクトレベルで使用可能なすべての変数（すべてのグローバル変数を含む）がリストされています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Besides, it also allows the user to manage project-level variables.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>また、プロジェクトレベルの変数を管理することもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click the |signPlus| button to add a new custom project-level variable.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|signPlus| ボタンをクリックして、新しいカスタムプロジェクトレベル変数を追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Likewise, select a custom project-level variable from the list and click the |signMinus| button to remove it.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>同様に、リストからカスタムプロジェクトレベルの変数を選択し、 |signMinus| ボタンを押して削除します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>More information on variables usage in the General Tools :ref:`general_tools_variables` section.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>変数の使用法の詳細は一般ツール :ref:`general_tools_variables` のセクションを参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Macros Properties</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>マクロ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The :guilabel:`Macros` tab is used to edit Python macros for projects.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`マクロ` タブは、プロジェクトのPythonマクロの編集のために使います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Currently, only three macros are available: ``openProject()``, ``saveProject()`` and ``closeProject()``.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>現時点では: ``openProject()``, ``saveProject()`` そして ``closeProject()`` の3つのマクロのみ使用可能です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Macro settings in QGIS</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISでのマクロ設定</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>QGIS Server Properties</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISサーバー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The tab :guilabel:`QGIS Server` allows you to configure your project in order to publish it online.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`QGISサーバー` タブでは、プロジェクトをオンラインで公開するための設定を行うことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Here you can define information about the QGIS Server WMS and WFS capabilities, extent and CRS restrictions.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ここでは、QGISサーバーのWMSとWFSの機能、範囲、およびCRSの制限に関する情報を定義できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>More information available in section :ref:`Creatingwmsfromproject` and subsequent.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>より詳しい情報は :ref:`Creatingwmsfromproject` 以降を参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>QGIS Server settings tab</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISサーバー設定タブ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Customization</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>インタフェースのカスタマイズ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The customization dialog lets you (de)activate almost every element in the QGIS user interface.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>インタフェースのカスタマイズダイアログでは、QGISのユーザーインターフェースのほぼすべての要素を有効（無効）にできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This can be very useful if you want to provide your end-users with a 'light' version of QGIS, containing only the icons, menus or panels they need.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは、必要なアイコン、メニュー、またはパネルのみが含まれた「軽量な」バージョンの QGIS をエンドユーザーに提供したい場合に非常に便利です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Before your changes are applied, you need to restart QGIS.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>変更が適用される前に、QGISを再起動する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The Customization dialog</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>カスタマイズダイアログ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Ticking the |checkbox| :guilabel:`Enable customization` checkbox is the first step on the way to QGIS customization.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|checkbox| :guilabel:`カスタマイズ` チェックボックスにチェックを入れることは、QGIS のカスタマイズへの第一歩です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This enables the toolbar and the widget panel from which you can uncheck and thus disable some GUI items.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これによりツールバーとウィジェットパネルが有効になり、いくつかの GUI アイテムのチェックを外して無効にすることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The configurable item can be:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>設定可能な項目には以下のものがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>a **Menu** or some of its sub-menus from the :ref:`label_menubar`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`label_menubar` にある **メニュー** やそのサブメニュー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>a whole **Panel** (see :ref:`sec_panels_and_toolbars`)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**パネル** の全て（ :ref:`sec_panels_and_toolbars` 参照）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>the **Status bar** described in :ref:`label_statusbar` or some of its items</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`label_statusbar` で説明されている **ステータスバー** やその項目</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>a **Toolbar**: the whole bar or some of its icons</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**ツールバー** : バー全体やアイコン</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>or any **widget** from any dialog in QGIS: label, button, combobox...</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>またはラベル、ボタン、コンボボックス... といったQGISのダイアログにある **ウィジェット**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>With |select| :sup:`Switch to catching widgets in main application`, you can click on an item in QGIS interface that you want to be hidden and QGIS automatically unchecks the corresponding entry in the Customization dialog.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|select| :sup:`メインアプリケーションのウィジェットのキャッチを切り替える` を使用すると、QGISインタフェース内で非表示にしたい項目をクリックしたときに自動的にカスタマイズダイアログで対応する項目のチェックを外します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can also use the :guilabel:`Search` box to find items by their name or label.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>また、 :guilabel:`検索` ボックスを使用して項目の名前やラベルから項目を検索することもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Once you setup your configuration, click :guilabel:`Apply` or :guilabel:`OK` to validate your changes.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>設定を行ったら、 :guilabel:`適用` または :guilabel:`OK` をクリックして変更内容を確認します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This configuration becomes the one used by default by QGIS at the next startup.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この設定は、次回の起動時にQGISがデフォルトで使用するものになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The modifications can also be saved in a ``.ini`` file using |fileSave| :sup:`Save To File` button.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>変更は |fileSave| :sup:`ファイルへ保存` ボタン使用して ``.ini`` ファイルにも保存できます 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This is a handy way to share a common QGIS interface among multiple users.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは、複数のユーザー間で共通のQGISインターフェイスを共有するための便利な方法です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Just click on |fileOpen| :sup:`Load from File` from the destination computer in order to import the ``.ini`` file.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``.ini`` ファイルをインポートするには、先のコンピュータから |fileOpen| :sup:`ファイルからのロード` をクリックするだけです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can also run :ref:`command line tools &lt;custom_commandline&gt;` and save various setups for different use cases as well.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>また同様に、 :ref:`コマンドラインツール &lt;custom_commandline&gt;` を実行してさまざまなユースケースに応じた各種設定を保存できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Easily restore predefined QGIS**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**簡単に定義済みのQGISを復元する**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The initial QGIS GUI configuration can be restored by one of the methods below:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISのGUIの初期構成は、以下のいずれかの方法で復元できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>unchecking |checkbox| :guilabel:`Enable customization` option in the Customization dialog or click the |selectAllTree| :sup:`Check All` button</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>カスタマイズダイアログで |checkbox| :guilabel:`カスタマイズを有効にする` オプションのチェックを外すか、 |selectAllTree| :sup:`全てをチェック` ボタンをクリックする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>pressing the :guilabel:`Reset` button in the **QSettings** frame under :menuselection:`Settings --&gt; Options` menu, :guilabel:`System` tab</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:menuselection:`設定 --&gt; オプション` メニューの :guilabel:`システム` タブ内、 **設定** フレームにある :guilabel:`リセット` ボタンを押す</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>launching QGIS at a command prompt with the following command line ``qgis --nocustomization``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>コマンドプロンプトで次のコマンドラインを使用してQGISを起動する： ``qgis --nocustomization``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>setting to ``false`` the value of :menuselection:`UI --&gt; Customization --&gt; Enabled` variable under :menuselection:`Settings --&gt; Options` menu, :guilabel:`Advanced` tab (see the :ref:`warning &lt;optionsadvanced&gt;`).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:menuselection:`設定--&gt; オプション` メニューの :guilabel:`高度な設定` タブ（ :ref:`警告 &lt;optionsadvanced&gt;` 参照）内で、 :menuselection:`UI --&gt; Customization --&gt; Enabled` 変数の値を ``false`` に設定する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In most cases, you need to restart QGIS in order to have the change applied.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ほとんどの場合、変更が適用されるためにはQGISを再起動する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Keyboard shortcuts</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>キーボードショートカット</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>QGIS provides default keyboard shortcuts for many features.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISには多数の機能のためのデフォルトのキーボードショートカットが用意されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can find them in section :ref:`label_menubar`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これらは :ref:`label_menubar` のセクションにあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Additionally, the menu option :menuselection:`Settings --&gt;` |keyboardShortcuts| :menuselection:`Keyboard Shortcuts...` allows you to change the default keyboard shortcuts and add new ones to QGIS features.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>さらに、 :menuselection:`設定 --&gt;` |keyboardShortcuts| :menuselection:`キーボードショートカット...` のメニューオプションを使用すると、デフォルトのキーボードショートカットを変更したり、QGISの機能に新しいショートカットを追加したりすることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Define shortcut options</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>キーボードショートカットの定義オプション</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Configuration is very simple.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>設定するのは非常に簡単です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Use the search box at the top of the dialog to find a particular action, select it from the list and click on :</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ダイアログの上部にある検索ボックスを使用して特定のアクションを見つけ、リストからそれを選択して以下のボタンをクリックします：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:guilabel:`Change` and press the new combination you want to assign as new shortcut</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`変更`  ボタンを押し、新しいショートカットとして割り当てる新しい組み合わせを押す</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:guilabel:`Set None` to clear any assigned shortcut</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`設定解除` ボタンを押し、割り当てられているショートカットを解除する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>or :guilabel:`Set Default` to backup the shortcut to its original and default value.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`デフォルトの設定` ボタンを押し、ショートカットをもとのデフォルト値に戻す</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Proceed as above for any other tools you wish to customize.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>カスタマイズしたい他のツールについては、上記の手順に従ってください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Once you have finished your configuration, simply :guilabel:`Close` the dialog to have your changes applied.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>設定が完了したら、ダイアログを :guilabel:`閉じる` だけで変更が適用されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can also :guilabel:`Save` the changes as an :file:`.XML` file and :guilabel:`Load` them into another QGIS installation.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>また、変更内容を :file:`.XML` ファイルとして :guilabel:`保存` し、それらを別のQGIS環境に :guilabel:`ロード` することもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Running QGIS with advanced settings</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>高度な設定でQGISを実行する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Command line and environment variables</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>コマンドラインと環境変数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We've seen that :ref:`launching QGIS &lt;label_startingqgis&gt;` is done as for any application on your OS.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`QGISの起動 &lt;label_startingqgis&gt;` はOS上の他のアプリケーションと同様に実行されることを見てきました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>QGIS provides command line options for more advanced use cases (in some cases you can use an environment variable instead of the command line option).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISでは、より高度な使用例のためにコマンドラインオプションを提供しています（場合によっては、コマンドラインオプションの代わりに環境変数を使用できます）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To get a list of the options, enter ``qgis --help`` on the command line, which returns::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>オプションのリストを取得するには、コマンドラインで ``qgis --help`` と入力します：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Example Using command line arguments**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**コマンドライン引数を利用する例**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can start QGIS by specifying one or more data files on the command line.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>コマンドラインで1つまたは複数のデータファイルを指定してQGISを起動できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For example, assuming you are in the :file:`qgis_sample_data` directory, you could start QGIS with a vector layer and a raster file set to load on startup using the following command: ``qgis ./raster/landcover.img ./gml/lakes.gml``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>たとえば、 :file:`qgis_sample_data` ディレクトリにいると仮定すると、次のコマンドを使用して、起動時にベクタレイヤとラスタファイルをロードするように設定されたQGISを起動できます： ``qgis ./raster/landcover.img ./gml/lakes.gml``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``--version``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``--version``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This option returns QGIS version information.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このオプションはQGISのバージョン情報を返します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``--snapshot``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``--snapshot``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This option allows you to create a snapshot in PNG format from the current view.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このオプションを使うとPNG形式で現在のビューのスナップショットを作れます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This comes in handy when you have many projects and want to generate snapshots from your data, or when you need to create snapshots of the same project with updated data.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは、多数のプロジェクトがあり、データからスナップショットを作成したい場合、または更新されたデータで同じプロジェクトのスナップショットを作成したい場合に便利です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Currently, it generates a PNG file with 800x600 pixels.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このオプションを使うと800x600 ピクセルのPNGファイルが作成されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The size can be adjusted using the ``--width`` and ``--height`` arguments.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``--width`` と ``--height`` を引数に加えることでサイズの調整ができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The filename can be added after ``--snapshot``.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``--snapshot`` の後にファイル名を指定できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For example::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>例えば::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``--width``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``--width``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This option returns the width of the snapshot to be emitted (used with ``--snapshot``).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このオプションは、出力されるスナップショットの幅を返します（ ``--snapshot`` と共に使用されます）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``--height``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``--height``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This option returns the height of the snapshot to be emitted (used with ``--snapshot``).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このオプションは、出力されるスナップショットの高さを返します（ ``--snapshot`` と共に使用されます）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``--lang``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``--lang``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Based on your locale, QGIS selects the correct localization.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ロケールに基づいて、QGISは正しい言語対応を選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you would like to change your language, you can specify a language code.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>言語を変更したいならば言語コードを指定できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For example, ``qgis --lang it`` starts QGIS in Italian localization.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>例えば、 ``qgis --lang it`` であればイタリア語対応でQGISを起動します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``--project``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``--project``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Starting QGIS with an existing project file is also possible.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>既存のプロジェクトファイルからQGISを起動することも可能です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Just add the command line option ``--project`` followed by your project name and QGIS will open with all layers in the given file loaded.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プロジェクト名の後に ``--project`` コマンドラインオプションを追加するだけで、指定されたファイル内のすべてのレイヤが読み込まれた状態で QGIS が開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``--extent``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``--extent``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To start with a specific map extent use this option.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ある地図の領域を指定してQGISを起動する場合はこのオプションを使います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You need to add the bounding box of your extent in the following order separated by a comma::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この場合、下記のようにカンマで区切られた書式の領域指定で領域を包含する長方形を指定する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This option probably makes more sense when paired with the ``--project`` option to open a specific project at the desired extent.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このオプションは ``-project`` オプションと組み合わせて、特定のプロジェクトを目的の範囲で開くようにすれば、より意味のあるものになるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``--nologo``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``--nologo``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This option hides the splash screen when you start QGIS.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このオプションは、QGISの起動時にスプラッシュスクリーンを非表示にします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``--noversioncheck``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``--noversioncheck``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Skip searching for a new version of QGIS at startup.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>起動時にQGISの新しいバージョンの検索をスキップします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``--noplugins``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``--noplugins``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you have trouble at start-up with plugins, you can avoid loading them at start-up with this option.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>起動時にプラグインのトラブルがある場合、起動時にプラグインのロードを無効にできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>They will still be available from the Plugins Manager afterwards.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それらのプラグインは後からプラグインマネージャで有効にすることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``--nocustomization``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``--nocustomization``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Using this option, any existing :ref:`GUI customization &lt;sec_customization&gt;` will not be applied at startup.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このオプションを使用すると、既存の :ref:`GUIカスタマイズ&lt;sec_customization&gt;` は起動時に適用されません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This means that any hidden buttons, menu items, toolbars, and so on, will show up on QGIS start up.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは、非表示のボタン、メニュー項目、ツールバーなどがQGISの起動時に表示されることを意味します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This is not a permanent change.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは永続的な変更ではありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The customization will be applied again if QGIS is launched without this option.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このオプションなしでQGISを起動すると、カスタマイズが再度適用されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This option is useful for temporarily allowing access to tools that have been removed by customization.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このオプションは、カスタマイズによって削除されたツールへのアクセスを一時的に許可する場合に役立ちます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``--customizationfile``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``--customizationfile``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Using this option, you can define a UI customization file, that will be used at startup.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このオプションを使用すると、起動時に使用されるUIカスタマイズファイルを定義できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``--globalsettingsfile``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``--globalsettingsfile``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Using this option, you can specify the path for a Global Settings file (``.ini``), also known as the Default Settings.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このオプションを使用して、デフォルト設定とも呼ばれるグローバル設定ファイル（ ``.ini`` ）のパスを指定できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The settings in the specified file replace the original inline default ones, but the user profiles' settings will be set on top of those.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>指定されたファイルの設定は、元のインラインのデフォルト設定を置き換えますが、ユーザープロファイルの設定はそれらの上に設定されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The default global settings is located in :file:`your_QGIS_PKG_path/resources/qgis_global_settings.ini`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>デフォルトのグローバル設定は  :file:`your_QGIS_PKG_path/resources/qgis_global_settings.ini` にあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Presently, there's no way to specify a file to write settings to; therefore, you can create a copy of an original settings file, rename, and adapt it.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>現在、設定を書き込むファイルを指定する方法はありません。したがって、元の設定ファイルのコピーを作成し、名前を変更し、適応させることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Setting the :file:`qgis_global_setting.ini` file path to a network shared folder, allows a system administrator to change global settings and defaults in several machines by only editing one file.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:file:`qgis_global_setting.ini` ファイルパスをネットワーク共有フォルダに設定すると、システム管理者は1つのファイルを編集するだけで複数のマシンのグローバル設定とデフォルトを変更できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The equivalent environment variable is ``QGIS_GLOBAL_SETTINGS_FILE``.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これと同等な環境変数は、 ``QGIS_GLOBAL_SETTINGS_FILE`` です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``--authdbdirectory``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``--authdbdirectory``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This option is similar to ``--globalsettingsfile``, but defines the path to the directory where the authentication database will be stored and loaded.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このオプションは ``--globalsettingsfile`` に似ていますが、認証データベースが保存およびロードされるディレクトリへのパスを定義します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``--code``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``--code``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This option can be used to run a given python file directly after QGIS has started.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このオプションを使用すると、指定したpython ファイルを QGIS を開始した直後に実行します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For example, when you have a python file named :file:`load_alaska.py` with following content:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>例えば、以下の内容の :file:`load_alaska.py` という名前の python ファイルがあるとします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Assuming you are in the directory where the file :file:`load_alaska.py` is located, you can start QGIS, load the raster file :file:`landcover.img` and give the layer the name 'Alaska' using the following command::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ファイル :file:`load_alaska.py` が配置されているディレクトリにいると仮定して、次のコマンドを使用することで、QGISを起動し、ラスターファイル :file:`landcover.img` をロードし、レイヤーに「アラスカ」という名前を付けることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``--defaultui``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``--defaultui``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>On load, **permanently resets** the user interface (UI) to the default settings.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ロード時に、ユーザーインターフェイス（UI）を既定の設定に **永続的にリセット** します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This option will restore the panels and toolbars visibility, position, and size.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このオプションは、パネルとツールバーの表示、位置、サイズを復元します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Unless it's changed again, the default UI settings will be used in the following sessions.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>再度変更しない限り、次のセッションではデフォルトのUI設定が使用されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Notice that this option doesn't have any effect on :ref:`GUI customization&lt;sec_customization&gt;`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このオプションは :ref:`GUI のカスタマイズ &lt;sec_customization&gt;` には何の影響もないことに注意してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Items hidden by GUI customization (e.g. the status bar) will remain hidden even using the ``--defaultui`` option.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GUI のカスタマイズによって隠されたアイテム（例えばステータスバー）は、 ``--defaultui`` オプションを使ったとしても隠されたままです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>See also the ``--nocustomization`` option.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``--nocustomization`` オプションについても参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``--hide-browser``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``--hide-browser``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>On load, hides the :guilabel:`Browser` panel from the user interface.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ロード時に、ユーザーインターフェースから :guilabel:`ブラウザ` パネルを非表示にします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The panel can be enabled by right-clicking a space in the toolbars or using the :menuselection:`View --&gt; Panels` (:menuselection:`Settings --&gt; Panels` in |kde| Linux KDE).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>パネルを有効にするには、ツールバーのスペースを右クリックするか、 :menuselection:`表示-&gt;パネル` （ |kde| Linux KDEでは :menuselection:`設定-&gt;パネル` ）を使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Unless it's enabled again, the Browser panel will remain hidden in the following sessions.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ブラウザパネルが再度有効にならない限り、次のセッションでもパネルは隠されたままになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``--dxf-*``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``--dxf-*``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>These options can be used to export a QGIS project into a DXF file.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これらのオプションは、DXFファイルにQGISプロジェクトをエクスポートするために使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Several options are available:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>いくつかのオプションが用意されています：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>*--dxf-export*: the DXF filename into which to export the layers;</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>*--dxf-export* : レイヤーを出力するDXFファイル名;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>*--dxf-extent*: the extent of the final DXF file;</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>*--dxf-extent* : 最終的なDXFファイルの範囲;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>*--dxf-symbology-mode*: several values can be used here: ``none`` (no symbology), ``symbollayer`` (Symbol layer symbology), ``feature`` (feature symbology);</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>*--dxf-symbology-mode* ：ここでは、none（シンボルなし）、symbollayer（シンボルレイヤシンボル）、feature（地物シンボル）の値を使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>*--dxf-scale-denom*: the scale denominator of the symbology;</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>*--dxf-scale-denom*: シンボルの縮尺分母;</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>*--dxf-encoding*: the file encoding;</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>*--dxf-encoding*: ファイルのエンコーディング</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>*--dxf-map-theme*: choose a :ref:`map theme &lt;map_themes&gt;` from the layer tree configuration.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>*--dxf-map-theme*: レイヤツリー設定から :ref:`地図テーマ &lt;map_themes&gt;` を選択</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``--take-screenshots``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``--take-screenshots``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Takes screenshots for the user documentation.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ユーザドキュメントのスクリーンショットを撮ります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Can be used together with ``--screenshots-categories`` to filter which categories/sections of the documentation screenshots should be created (see QgsAppScreenShots::Categories).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``--screenshots-categories`` とともに使用して、ドキュメントスクリーンショットのどのカテゴリ/セクションを作成するかをフィルターできます（ QgsAppScreenShots::Categories 参照）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``--profile``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``--profile``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Loads QGIS using a specific profile from the user's profile folder.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ユーザのプロファイルフォルダから特定のプロファイルを使用してQGISを読み込みます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Unless changed, the selected profile will be used in the following QGIS sessions.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>変更しない限り、選択したプロファイルは次のQGISセッションで使用されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``--profiles-path``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``--profiles-path``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>With this option, you can choose a path to load and save the profiles (user settings). It creates profiles inside a ``{path}\profiles`` folder, which includes settings, installed plugins, processing models and scripts, and so on.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このオプションを使用すると、プロファイル（ユーザ設定）をロードして保存するパスを選択できます。 ``{path}\profiles`` フォルダ内にプロファイルを作成します。このフォルダには、設定、インストールされたプラグイン、プロセシングモデルとスクリプトなどが含まれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This option allows you to, for instance, carry all your plugins and settings in a flash drive, or, for example, share the settings between different computers using a file sharing service.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このオプションを使用すると、たとえば、すべてのプラグインと設定をフラッシュドライブで実行したり、ファイル共有サービスを使用して異なるコンピュータ間で設定を共有したりできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The equivalent environment variable is ``QGIS_CUSTOM_CONFIG_PATH``.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これと同等な環境変数は、``QGIS_CUSTOM_CONFIG_PATH`` です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``--version-migration``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``--version-migration``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If settings from an older version are found (*e.g.*, the ``.qgis2`` folder from QGIS 2.18), this option will import them into the default QGIS profile.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>古いバージョンの設定（ *例えば* 、 QGIS 2.18 の ``.qgis2`` フォルダ）が見つかったときに、このオプションはデフォルトのQGISプロファイルに設定をインポートします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>``--openclprogramfolder``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``--openclprogramfolder``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Using this option, you can specify an alternative path for your OpenCL programs.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このオプションを使用すると、OpenCLプログラムの代替パスを指定できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This is useful for developers while testing new versions of the programs without needing to replace the existing ones.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは、既存のプログラムを置き換えることなく、プログラムの新しいバージョンをテストする開発者にとって便利です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The equivalent environment variable is ``QGIS_OPENCL_PROGRAM_FOLDER``.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>同等の環境変数は ``QGIS_OPENCL_PROGRAM_FOLDER`` です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Deploying QGIS within an organization</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>組織内でのQGISの導入</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you need to deploy QGIS within an organization with a custom configuration file, first you need to copy/paste the content of the default settings file located in :file:`your_QGIS_PKG_path/resources/qgis_global_settings.ini`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>カスタム構成ファイルを使用して組織内にQGISをデプロイする必要がある場合、最初に :file:`your_QGIS_PKG_path/resources/qgis_global_settings.ini` にあるデフォルト設定ファイルの内容をコピーして貼り付ける必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This file already contains some default sections identified by a block starting with ``[]``.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このファイルには、 ``[]`` で始まるブロックで識別されるデフォルトのセクションがすでに含まれています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We recommend that you keep these defaults values and add your own sections at the bottom of the file.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これらのデフォルト値を保持し、ファイルの下部に独自のセクションを追加することをお勧めします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If a section is duplicated in the file, QGIS will take the last one from top to bottom.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ファイル内でセクションが重複している場合、QGISは上から下に向かって最後のセクションを使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can change ``allowVersionCheck=false`` to disable the QGIS version check.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGIS のバージョンチェックを無効にするには ``allowVersionCheck=false`` と変更します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you do not want to display the migration window after a fresh install, you need the following section:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>新規インストール後に移行ウィンドウを表示したくない場合は、次のセクションが必要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you want to add a custom variable in the global scope:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>グローバルスコープのカスタム変数を追加したい場合は、以下が必要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To discover the possibilities of the settings ``INI`` file, we suggest that you set the config you would like in QGIS Desktop and then search for it in your ``INI`` file located in your profile using a text editor.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``INI`` ファイルの設定による可能性について理解するため、QGIS デスクトップ で設定を行った後、プロファイルにある ``INI`` ファイルをテキストエディタを使って検索することをお勧めします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A lot of settings can be set using the ``INI`` file such as WMS/WMTS, PostGIS connections, proxy settings, maptips…</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>WMS/WMTS、PostGIS 接続、プロキシ設定、地図のtipsなど、数多くの設定を ``INI`` ファイルを使用して行うことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Finally, you need to set the environment variable ``QGIS_GLOBAL_SETTINGS_FILE`` to the path of your customized file.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>最後に、カスタマイズしたファイルのパスを環境変数 ``QGIS_GLOBAL_SETTINGS_FILE`` に設定する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In addition, you can also deploy files such as Python macros, color palettes, layout templates, project templates… either in the QGIS system directory or in the QGIS user profile.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>さらに、Pythonマクロ、カラーパレット、レイアウトテンプレート、プロジェクトテンプレートなどのファイルをQGISシステムディレクトリまたはQGISユーザープロファイルのいずれかに配置することもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Layout templates must be deployed in the :file:`composer_templates` directory.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>レイアウトテンプレートは :file:`composer_templates` ディレクトリ内に配置する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Project templates must be deployed in the :file:`project_templates` directory.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プロジェクトテンプレートは :file:`project_templates` ディレクトリ内に配置する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Custom Python macros must be deployed in the :file:`python` directory.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>カスタム Python マクロは :file:`python` ディレクトリ内に配置する必要があります。</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|LS| Import and Export</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|LS| インポートとエクスポート</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Of course, a database with no easy way to migrate data into it and out of it would not be of much use.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>もちろん、データを出し入れする簡単な方法がないデータベースはあまり役に立たないでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Fortunately, there are a number of tools that will let you easily move data into and out of PostGIS.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>幸い、PostGISにデータを簡単に出し入れできるようにするツールはたくさんあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>shp2pgsql</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>shp2pgsql</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Under Windows, you have to perform the import process in two steps:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Windows では, 2ステップでインポート処理を実行します :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You may encounter this error:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次のようなエラーが発生することがあります :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This is a known issue regarding the creation *in situ* of a spatial index for the data you're importing.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは、インポートするデータのために空間索引 *in situ* を作成するための既知の問題です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To avoid the error, exclude the :kbd:`-I` parameter.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>エラーを回避するためには、 :kbd:`-I` パラメーターを外します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This will mean that no spatial index is being created directly, and you'll need to create it in the database after the data have been imported.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは空間索引が直接作成されないことを意味します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>(The creation of a spatial index will be covered in the next lesson.)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>データがインポートされた後にデータベースに空間索引を作成する必要があります（空間索引の作成は、 次のレッスンで説明します）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>pgsql2shp</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>pgsql2shp</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>pgsql2shp is a commandline tool to export PostGIS Tables, Views or SQL select queries. To do this under Unix:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>pgsql2shp は, PostGIS のテーブル, ビュー, または SQL の select クエリをエクスポートするためのコマンドラインツールです. Unix では次のように実行します :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To export the data using a query:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>クエリを使用してデータをエクスポートするには :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>ogr2ogr</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ogr2ogr</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>ogr2ogr is a very powerful tool to convert data into and from postgis to many data formats. ogr2ogr is part of the GDAL/OGR Software and has to be installed separately. To export a table from PostGIS to GML, you can use this command:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ogr2ogr は, PostGIS を多くのデータフォーマットに変換する強力なツールです. ogr2ogr は, GDAL/OGR ソフトウェアの一部であり, 個別にインストールする必要があります. テーブルを PostGIS から GML へエクスポートするには, このコマンドを使用することができます :</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>DB Manager</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>DB Manager</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You may have noticed another option in the :guilabel:`Database` menu labeled :guilabel:`DB Manager`. This is a tool that provides a unified interface for interacting with spatial databases including PostGIS. It also allows you to import and export from databases to other formats. Since the next module is largely devoted to using this tool, we will only briefly mention it here.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`データベース` メニュー内の :guilabel:`DBマネージャ` という別のオプションに気づいているかもしれません. これは PostGIS を含む空間データベースと対話する統一的なインターフェイスを持つ新しいツールです。このツールもインポートしたデータベースから他のフォーマットにエクスポートできます。次のモジュールは主にこのツールを使うことを念頭に置いているので、ここで簡単にそれを説明します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|IC|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|IC|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Importing and exporting data to and from the database can be done in many various ways. Especially when using disparate data sources, you will probably use these functions (or others like them) on a regular basis.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>データベースとの間でデータをインポート及びエクスポートは, 多様な方法で行うことができます. 異なるデータソースを使用する場合は特に,　この機能(またはこの機能に似た機能)を使用します.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|WN|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|WN|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Next we'll look at how to query the data we've created before.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次に,私たちが以前に作成したデータを参照する方法を見ていきます.</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

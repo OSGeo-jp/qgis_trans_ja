@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The QGIS processing guide</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISプロセッシングガイド</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This module contributed by Victor Olaya and Paolo Cavallini.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このモジュールはVictor Olaya氏とPaolo Cavallini による貢献です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Contents:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>内容:</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

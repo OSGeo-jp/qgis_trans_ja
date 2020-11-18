@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Numeric calculations in the modeler</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>モデラーでの数値計算</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Beware, this chapter is not well tested, please report any issue; images are missing</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>注意してください、この章は十分にテストされていません、問題は何でもご報告ください；画像は欠けています</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In this lesson we will see how to use numeric outputs in the modeler</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このレッスンでは、モデラーの数値出力を使用する方法について説明します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For this lesson, we are going to modify the hydrological model that we created in the last chapter (open it in the modeler before starting), so we can automate the calculation of a valid threshold value and we do not have to ask the user to enter it.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このレッスンでは、最後の章（開始前にモデラーで開く）で作成した水文モデルを変更して、有効なしきい値の計算を自動化でき、ユーザーに入力を依頼する必要がないようにしていきます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Since that value refers to the variable in the threshold raster layer, we will extract it from that layer, based on some simple statistical analysis.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>その値は閾値ラスターレイヤー内の変数を指しているので、いくつかの単純な統計分析に基づいて、そのレイヤーからそれを抽出します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Starting with the aforementioned model, let's do the following modifications:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>前述のモデルから開始し、以下の修正を行いましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>First, calculate statistics of the flow accumulation layer using the *Raster layer statistics* algorithm.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>まず、 *ラスターレイヤー統計* アルゴリズムを使用して流量蓄積レイヤーの統計情報を計算します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This will generate a set of statistical values that will now be available for all numeric fields in other algorithms.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは統計値のセットを生成し、これで他のアルゴリズムのすべての数値フィールドで利用可能になります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you edit the  *Channel network* algorithm, as we did in the last lesson, you will see now that you have other options apart from the numeric input that you added.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>*水路ネットワーク* アルゴリズムを編集する場合、最後のレッスンで行ったように、追加した数値の入力から離れて他のオプションを持っていることが今度はわかるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>However, none of this values is suitable for being used as a valid threshold, since they will result in channel networks that will not be very realistic.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それらは非常に現実的ではない水路ネットワークになりますので、この値はいずれも、有効なしきい値として使用するのに適していません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We can, instead, derive some new parameter based on them, to get a better result.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>代わりに、より良い結果を得るために、それらに基づいて、いくつかの新しいパラメーターを導出できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For instance, we can use the mean plus 2 times the standard deviation.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>例えば、平均+標準偏差の2倍を使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To add that arithmetical operation, we can use the calculator that you will find in the *Geoalgorithms/modeler/modeler-tools* group.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>その演算処理を追加するには、 *Geoalgorithms/modeler/modeler-tools* グループで見つける計算機を使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This group contains algorithms that are not very useful outside of the modeler, but that provide some useful functionality when creating a model.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このグループは、モデラーの外に非常に有用ではないアルゴリズムが含まれていますが、モデルの作成時には、いくつかの有用な機能を提供します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The parameters dialog of the calculator algorithm looks like this:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>計算機アルゴリズムのパラメーターダイアログボックスは次のようになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>As you can see, the dialog is different to the other ones we have seen, but you have in there the same variables that were available in the *Threshold* field in the *Channel network* algorithm.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ご覧になれるように、ダイアログは、見てきた他のものと異なっているが、そこに *水路ネットワーク* アルゴリズムに *しきい値* フィールドで使用可能だった同じ変数を持っています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Enter the above formula and click on *OK* to add the algorithm.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>上記の式を入力し、 *OK* をクリックしてアルゴリズムを追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you expand the outputs entry, as shown above, you will see that the model is connected to two of the values, namely the mean and the standard deviation, which are the ones that we have used in the formula.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>上記のように出力項目を展開すると、モデルが2つの値、つまり平均と標準偏差に接続されていることがわかります。これは、数式で使用した値です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Adding this new algorithm will add a new numeric value.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この新しいアルゴリズムを追加すると、新しい数値を追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you go again to the *Channel network* algorithm, you can now select that value in the *Threshold* parameter.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>*水路ネットワーク* アルゴリズムに再度行く場合、今 *しきい値* パラメーターで、その値を選択できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click on *OK* and your model should look like this.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>*OK* をクリックすると、モデルは次のようになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We are not using the numeric input that we added to the model, so it can be removed.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>モデルに追加した数値入力は使用していないので、それは除去できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Right--click on it and select *Remove*</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それを右クリックして *削除* を選択します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>todo: Add image</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>TODO：画像を追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Our new model is now finished.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>新しいモデルが完成しました。</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

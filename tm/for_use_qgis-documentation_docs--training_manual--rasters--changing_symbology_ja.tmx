@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|LS| Changing Raster Symbology</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|LS| ラスターのシンボル体系を変更する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**The goal for this lesson:** To change the symbology for a raster layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**このレッスンの目標:** ラスターレイヤのシンボル体系を変更します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| |TY|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| |TY|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| |FA| Changing Raster Layer Symbology</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| |FA| ラスターレイヤーのシンボル体系を変更する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You'll see the raster looking like this:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このようにラスターが見えるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|IC|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|IC|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Reference</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>参照</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The SRTM dataset was obtained from `http://srtm.csi.cgiar.org/ &lt;http://srtm.csi.cgiar.org/&gt;`_</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>SRTMデータセットは `http://srtm.csi.cgiar.org/ &lt;http://srtm.csi.cgiar.org/&gt;`_ から入手しました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|WN|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|WN|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now that we can see our data displayed properly, let's investigate how we can analyze it further.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>私たちはデータを適切に表示することができるようになりました。それではさらに、それを解析する方法を調べてみましょう。</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

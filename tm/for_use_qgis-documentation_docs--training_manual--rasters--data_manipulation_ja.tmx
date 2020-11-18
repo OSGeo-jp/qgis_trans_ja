@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|LS| Working with Raster Data</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|LS| ラスターデータで作業する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| |FA| Loading Raster Data</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| |FA| ラスターデータを読み込む</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|basic| |FA| Create a Virtual Raster</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|basic| |FA| 仮想ラスターの作成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|hard| Transforming Raster Data</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|hard| ラスターデータの変換</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The above methods allow you to virtually merge datasets using a catalog, and to reproject them "on the fly".</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>上記の方法では、カタログを使用してデータセットを仮想的にマージし、それらを「その場で」再投影できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>However, if you are setting up data that you'll be using for quite a while, it may be more efficient to create new rasters that are already merged and reprojected.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>しかし、もし長期間使用することになるデータを用意しているならば、マージされ再投影された新しいラスターを作成する方が効率的かもしれません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This improves performance while using the rasters in a map, but it may take some time to set up initially.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>はじめに用意をするのに少し時間がかかりますが、そうしておけば地図でラスターを使う際のパフォーマンスが向上します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Reprojecting rasters</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ラスターを再投影する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Merging rasters</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ラスターをマージする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|IC|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|IC|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>QGIS makes it easy to include raster data into your existing projects.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISでは既存のプロジェクトにラスターデータを入れることが簡単です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|WN|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|WN|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Next, we'll use raster data that isn't aerial imagery, and see how symbolization is useful in the case of rasters as well.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次は航空画像ではないラスターデータを使用して、同様にラスターの場合にシンボル化はどのように有用であるかを見ていきます。</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

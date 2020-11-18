@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Setting-up the processing framework</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プロセッシングフレームワークの準備をする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The first thing to do before using the processing framework is to configure it.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プロセッシングフレームワークを使う前に環境設定をします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>There is not much to set-up, so this is an easy task.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>設定項目は多くないので簡単です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Later on we will show how to configure the external applications that are used for extending the list of available algorithms, but for now we are just going to work with the framework itself.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>後ほど、利用可能なアルゴリズムのリストを拡張するために使用される外部アプリケーションを構成する方法を示しますが、今はこのフレームワークだけで作業しようとしています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The processing framework is a core QGIS plugin, which means that it should already be installed in your system, since it is included with QGIS. In case it is active, you should see a menu called :guilabel:`Processing` in your menu bar. There you can access all the framework components.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プロセッシングフレームワークはコアQGISプラグインです。それはQGISに含まれているため,システムに既にインストールされています.このプラグインが有効な場合,メニューバーに :guilabel:`プロセシング` というメニューが表示されます.ここですべてのフレームワークコンポーネントを利用できます.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you cannot find that menu, you have to enable the plugin by going to the plugin manager and activating it.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>メニューを見つけられない場合、プラグインマネージャでそれを有効にすることで、プラグインを使用可能にする必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The main element that we are going to work with is the toolbox.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>作業するのに使用する主な要素は、ツールボックスです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click on the corresponding menu entry and you will see the toolbox docked at the right side of the QGIS window.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>対応するメニュー項目をクリックすると、QGISウィンドウの右側にドッキングされ、ツールボックスが表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The toolbox contains a list of all the available algorithms, divided in groups called *Providers*.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ツールボックスには、利用可能なすべてのアルゴリズムのリストが含まれ、 *プロバイダ* と呼ばれるグループに分けられています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Providers can be (de)activated in the :menuselection:`Settings --&gt; Options --&gt; Processing`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プロバイダは、 :menuselection:`設定-&gt;オプション-&gt;処理` で有効（無効）にできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We will discuss that dialog later in this manual.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このダイアログについては、このマニュアルの後半で説明します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>By default, only providers that do not rely on third-party applications (that is, those that only require QGIS elements to be run) are active.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>デフォルトでは、サードパーティ製のアプリケーションに依存しないプロバイダーだけ（つまり、実行されるのにQGIS要素を必要とするだけのもの）が有効です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Algorithms requiring external applications might need additional configuration.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>外部アプリケーションを必要とするアルゴリズムには、追加の設定が必要になる場合があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Configuring providers is explained in a later chapter in this manual.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プロバイダの設定は、このマニュアルの後の章で説明されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you have reached this point, now you are ready to use geoalgorithms.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この点に達している場合は、geoalgorithmsを使用する準備が整っています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>There is no need to configure anything else by now.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>今までに他に何かを設定する必要はありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We can already run our first algorithm, which we will do in the next lesson.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>すでに次のレッスンで行う最初のアルゴリズムを実行できます。</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

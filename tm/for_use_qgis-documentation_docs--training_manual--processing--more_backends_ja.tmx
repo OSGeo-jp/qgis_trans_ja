@@ -1,0 +1,335 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Other programs</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>その他のプログラム</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Module contributed by Paolo Cavallini - `Faunalia &lt;https://www.faunalia.eu&gt;`_</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>モジュール提供：Paolo Cavallini - `Faunalia &lt;https://www.faunalia.eu&gt;`_</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This chapter shows how to use additional programs from inside Processing.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この章では、処理の中から、追加のプログラムを使用する方法を示しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To complete it, you must have installed, with the tools of your operating system, the relevant packages.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それを完了するには、オペレーティング・システム、関連するパッケージのツールを使用して、インストールしている必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>GRASS</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GRASS</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>GRASS_ is a free and open source GIS software suite for geospatial data management and analysis, image processing, graphics and maps production, spatial modeling, and visualization.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GRASS_ は、地理空間データの管理と分析、画像処理、グラフィックス、地図制作、空間的モデリング、および視覚化のための、フリーでオープンソースのGISソフトウェアスイートです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It is installed by default on Windows through the OSGeo4W standalone installer (32 and 64 bit), and it is packaged for all major Linux distributions.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これはOSGeo4Wスタンドアロンインストーラ（32ビットおよび64ビット）でWindowsにデフォルトでインストールされ、そしてそれはすべての主要なLinuxディストリビューション用にパッケージされています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>R</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>R</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>R_ is a free and open source software environment for statistical computing and graphics.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>R_ は、統計計算およびグラフィックス用の、フリーでオープンソースのソフトウェア環境です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The beauty of Processing implementation is that you can add your own scripts, simple or complex ones, and they may then be used as any other module, piped into more complex workflows, etc.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プロセッシングの実装の美点は、ご自身のスクリプトを単純なものも複雑なものも追加できること、それらはその後、より複雑なワークフローにパイプされ、他のモジュールとして使用できること、などです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Test some of the preinstalled examples, if you have R_ already installed (remember to activate R modules from the General configuration of Processing).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>R_ がすでにインストールされている場合（プロセッシングの一般的な設定からRモジュールをアクティブにすることを忘れないでください）、プリインストールされている例のいくつかをテストします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Others</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>他</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>LASTools_ is a set of mixed, free and proprietary commands to process and analyze LiDAR data.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>LASTools_ はレーザー測量データを処理し分析するための、混合されたフリーの独自コマンドのセットです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Availability in various operating system varies.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>さまざまなオペレーティングシステムで可用性が様々です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>More tools are available through additional plugins, e.g.:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>その他のツールは、例えば追加プラグインを通じて入手できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>LecoS_:  a suite for land cover statistics and landscape ecology</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>LecoS_：土地被覆統計と景観生態学のスイート</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>lwgeom_: formerly part of PostGIS, this library brings a few useful tools for geometry cleanup</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>lwgeom_：PostGISの以前の一部は、このライブラリは、ジオメトリのクリーンアップのためのいくつかの便利なツールを提供します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Animove_: tools to analyse the home range of animals.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Animove_：ツールは、動物の家の範囲を分析します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>More will come.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>さらに追加予定。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Comparison among backends</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>バックエンドの間での比較</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Buffers and distances</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>バッファと距離</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Let's load ``points.shp`` and type ``buf`` in the filter of the Toolbox, then double click on:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``points.shp`` をロードしてツールボックスのフィルタで ``buf`` とタイプし、それからダブルクリックします：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:menuselection:`Fixed distance buffer`: Distance 10000</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:menuselection:`一定距離バッファ`：距離は10000</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:menuselection:`Variable distance buffer`: Distance field SIZE</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:menuselection:`可変距離バッファ` ：距離フィールドは[サイズ]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:menuselection:`v.buffer.distance`: distance 10000</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:menuselection:`v.buffer.distance` ：距離は10000</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:menuselection:`v.buffer.column`: bufcolumn SIZE</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:menuselection:`v.buffer.column` ：bufcolumn SIZE</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:menuselection:`Shapes Buffer`: fixed value 10000 (dissolve and not), attribute field (with scaling)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:menuselection:`シェイプバッファ` ：固定値10000（ディゾルブするおよびしない）、（縮尺付き）フィールド属性</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>See how speed is quite different, and different options are available.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>速度がかなり異なっているか、さまざまなオプションが用意されていることを確認します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Exercise for the reader**: find the differences in geometry output between different methods.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**読者のための練習** ：ジオメトリ出力での異なる方法間の差を見つけます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now, raster buffers and distances:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>さて、ラスターバッファとの距離：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>first, load and rasterize the vector ``rivers.shp`` with :menuselection:`GRASS --&gt; v.to.rast.value`; **beware:** cell size must be set to 100 m, otherwise the computation time will be enormous; resulting map will have 1 and NULLs</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>まず、 :menuselection:`GRASS --&gt; v.to.rast.value` でベクター ``rivers.shp`` をロードしてラスター化します。 **注意：** セルサイズは100メートルに設定する必要があり、そうでなければ計算時間が膨大になります。結果の地図は1とNULLを持つことになります</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>same, with :menuselection:`SAGA --&gt; Shapes to Grid --&gt; COUNT` (resulting map: 6 to 60)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>同じく、 :menuselection:`SAGA --&gt; シェイプからグリッド--&gt;COUNT` で(結果の地図: 6 to 60)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>then, :menuselection:`proximity` (value= 1 for GRASS, a list of rivers ID for SAGA), :menuselection:`r.buffer` with parameters 1000,2000,3000, :menuselection:`r.grow.distance` (the first of the two maps; the second will show the areas pertaining to each river, if done on the SAGA raster).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次に、 :menuselection:`proximity` （GRASSの値= 1、SAGAのための河川IDのリスト）、パラメーター1000,2000,3000で :menuselection:`r.buffer`  :menuselection:`r.grow.distance` （２つの地図のうち１つめ；SAGAラスターで行われる場合は、2番目は各河川に関連する領域が表示されます）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Dissolve</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ディゾルブ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Dissolve features based on a common attribute:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>共通の属性に基づいて地物をディゾルブします：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:menuselection:`GRASS --&gt; v.dissolve` ``municipalities.shp`` on PROVINCIA</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:menuselection:`GRASS --&gt; v.dissolve` ``municipalities.shp`` on PROVINCIA</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:menuselection:`QGIS --&gt; Dissolve` ``municipalities.shp`` on PROVINCIA</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:menuselection:`QGIS --&gt; ディゾルブ` ``municipalities.shp`` on PROVINCIA</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:menuselection:`OGR --&gt; Dissolve` ``municipalities.shp`` on PROVINCIA</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:menuselection:`OGR --&gt; ディゾルブ` ``municipalities.shp`` on PROVINCIA</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>:menuselection:`SAGA --&gt; Polygon Dissolve` ``municipalities.shp`` on PROVINCIA (**NB:** `Keep inner boundaries` must be unselected)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:menuselection:`SAGA - &gt;ポリゴンディゾルブ` ``municipalities.shp`` PROVINCIA上（ **注：** `内側境界を保持` を未選択にしてください）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The last one is broken in SAGA &lt;=2.10</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>最後の一つはSAGA&lt;= 2.10では壊れています</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Exercise for the reader**: find the differences (geometry and attributes) between different methods.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**読者のための練習** ：異なる方法での差（形状と属性）を見つけてください。</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

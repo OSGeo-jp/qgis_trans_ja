@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|MOD| Online Resources</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|MOD| オンラインリソース</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>When considering data sources for a map, there is no need to be restricted to data which you have saved on the computer you're working on.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>地図のデータソースを検討する際に、あなたが使っているコンピュータ上に保存したデータに限定される必要はありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>There are online data sources which you can load data from as long as you are connected to the Internet.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>インターネットに接続されている限り、ロードできるオンラインのデータソースがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In this module, we'll cover two kinds of web-based GIS services: Web Mapping Services (WMS) and Web Feature Services (WFS).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このモジュールでは、２種類のWebベースのGISサービスについて学習します: Web Mapping Services (WMS) と Web Feature Services (WFS)。</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

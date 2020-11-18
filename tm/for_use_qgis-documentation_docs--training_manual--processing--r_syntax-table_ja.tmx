@@ -1,0 +1,575 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>R Syntax Summary table for Processing</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>処理のためのR構文の概要表</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Processing allows a lot of different input and output parameter that can be used in the script body.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>処理は、スクリプト本体で使用できる、多くの異なった入力と出力パラメーターを可能にします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Here a summary table:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは概要表です：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Input parameters</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>入力パラメーター</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Parameter</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>パラメーター</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Syntax example</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>構文の例</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Returning objects</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>返すオブジェクト</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>vector</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>vector</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Layer = vector</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Layer = vector</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>SpatialDataFrame object, default object of ``rgdal`` package</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>SpatialDataFrameオブジェクト、 ``rgdal`` パッケージのデフォルトオブジェクト</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>vector point</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>vector point</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Layer = vector point</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Layer = vector point</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>SpatialPointDataFrame object, default object of ``rgdal`` package</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>SpatialPointDataFrameオブジェクト、 ``rgdal`` パッケージのデフォルトオブジェクト</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>vector line</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>vector line</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Layer = vector line</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Layer = vector line</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>SpatialLineDataFrame object, default object of ``rgdal`` package</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>SpatialLineDataFrameオブジェクト、  ``rgdal`` パッケージのデフォルトオブジェクト</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>vector polygon</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>vector polygon</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Layer = vector polygon</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Layer = vector polygon</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>SpatialPolygonsDataFrame object, default object of ``rgdal`` package</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>SpatialPolygonsDataFrameオブジェクト、 ``rgdal`` パッケージのデフォルトオブジェクト</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>multiple vector</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>multiple vector</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Layer = multiple vector</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Layer = multiple vector</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>SpatialDataFrame objects, default object of ``rgdal`` package</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>SpatialDataFrameオブジェクト、 ``rgdal`` パッケージのデフォルトオブジェクト</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>table</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>table</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Layer = table</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Layer = table</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>dataframe conversion from csv, default object of ``read.csv`` function</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>csvからのデータフレーム変換、 ``read.csv`` 関数のデフォルトオブジェクト</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>field</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>field</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Field = Field Layer</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Field = Field Layer</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>name of the Field selected, e.g. ``"Area"``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>選択されたフィールドの名前、例えば ``"Area"``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>raster</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>raster</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Layer = raster</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Layer = raster</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>RasterBrick object, default object of ``raster`` package</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>RasterBrickオブジェクト、 ``raster`` パッケージのデフォルトオブジェクト</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>multiple raster</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>multiple raster</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Layer = multiple raster</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Layer = multiple raster</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>RasterBrick objects, default object of ``raster`` package</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>RasterBrickオブジェクト、 ``raster`` パッケージのデフォルトオブジェクト</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>number</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>number</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>N = number</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>N = number</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>integer or floating number chosen</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>選択された整数または浮動小数点数</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>string</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>string</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>S = string</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>S = string</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>string added in the box</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ボックスに追加された文字列</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>longstring</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>longstring</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>LS = longstring</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>LS = longstring</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>string added in the box, could be longer then the normal string</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>文字列がボックスに追加され、通常の文字列より長くなる可能性があります</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>selection</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>selection</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>S = selection first;second;third</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>S = selection first;second;third</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>string of the selected item chosen in the dropdown menu</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ドロップダウンメニューで選択した選択項目の文字列</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>crs</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>crs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>C = crs</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>C = crs</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>extent</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>extent</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>E = extent</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>E = extent</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Extent object of the ``raster`` package, you can extract values as ``E@xmin``</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``raster`` パッケージの範囲オブジェクトでは、値を ``E@xmin`` として抽出できます</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>point</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>point</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>P = point</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>P = point</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>when clicked on the map, you have the coordinates of the point</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>地図をクリックすると点の座標が得られます</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>file</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>file</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>F = file</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>F = file</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>path of the file chosen, e.g. "/home/matteo/file.txt"</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>選択されたファイルのパス、例えば「/home/matteo/file.txt」</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>folder</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>folder</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>F = folder</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>F = folder</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>path of the folder chosen, e.g. "/home/matteo/Downloads"</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>選択されたフォルダのパス、例えば「/home/matteo/Downloads」</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Any of the input could be also **OPTIONAL**, that means that you have a handy way to tell the script to ignore this parameter.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>入力のいずれかが **オプション** にもでき、それはこのパラメーターを無視するようにスクリプトに指示するための便利な方法を持っていることを意味します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In order to set an input as optional, you just have to add the string ``optional`` **before** the input, e.g::</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>入力をオプションとして設定するためには、その入力の **前** に文字列 ``optional`` を追加する必要があるだけです、例えば::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Output parameters</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>出力パラメーター</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Output parameters take the **Input** names you gave at the beginning of the script and write the object you want.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>出力パラメータは、スクリプトの先頭で与えた **入力** 名を取り、望むオブジェクトを書き込みます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Output = output vector</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Output = output vector</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Output = output raster</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Output = output raster</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Output = output table</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Output = output table</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Output = output file</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Output = output file</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>for the plot input type, you can save the plot as ``png`` directly from the *Processing Result Viewer* or you can choose to save the plot directly from the algorithm interface.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プロット入力タイプのために、 *処理結果ビューア* から直接 ``png`` としてプロットを保存できます。また、アルゴリズムのインターフェイスから直接プロットを保存するように選択できます</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Examples</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>例</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In order to better understand all the input and output parameters, please have a look at the :ref:`R Syntax chapter &lt;r-syntax&gt;`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>入力と出力のパラメーターすべてをより理解するためには、  :ref:`R構文の章 &lt;r-syntax&gt;` を見てください。</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

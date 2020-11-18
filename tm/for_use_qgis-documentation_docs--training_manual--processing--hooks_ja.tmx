@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Pre- and post-execution script hooks</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>実行前後のスクリプトのフック</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This lesson shows how to use pre- and post-execution hooks, which allow to perform additional operations before and after actual processing.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このレッスンでは、実行前および実行後のフックを使用して、実際の処理の前と後に追加の操作を実行できるようにする方法を示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Pre- and post-execution hooks are Processing scripts that run before and after actual data processing is performed.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>実行前後のフックは、実際のデータ処理が実行される前と後に実行されるプロセッシングのスクリプトです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This can be used to automate tasks that should be performed whenever an algorithm is executed.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは、アルゴリズムが実行されるたびに実行されるべき作業を自動化するために使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The syntax of the hooks is identical to the syntax of Processing scripts, see the corresponding `chapter &lt;https://docs.qgis.org/testing/en/docs/user_manual/processing/console.html&gt;`_ in the QGIS User Guide for more details.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>フックの構文は処理スクリプトの構文と同じです。詳細はQGISユーザーガイドの対応する `章 &lt;https://docs.qgis.org/testing/en/docs/user_manual/processing/console.html&gt;`_ を参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In addition to all scripts features, in hooks you can use a special global variable named ``alg``, which represents the algorithm that has just been (or is about to be) executed.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>すべてのスクリプト機能に加えて、フックでは ``alg`` という名前の特別なグローバル変数を使用できます、これはちょうど実行された（またはされようとしている）アルゴリズムを表します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Here is an example post-execution script.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ここに実行後スクリプトの例があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>By default, Processing stores analysis results in temporary files.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>デフォルトでは、プロセッシングは一時ファイルでの解析結果を格納します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This script will copy outputs to a specific directory, so they won't be deleted after closing QGIS.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このスクリプトは、特定のディレクトリに出力をコピーしますので、それらはQGISを閉じた後に削除されることはありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In the first two lines we import the required Python packages: ``os`` --- for path manipulations, e.g. extracting file name, and ``shutil`` --- for various filesystem operations like copying files.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>例えば、ファイル名を抽出し、ファイルをコピーするような様々なファイルシステム操作のための ``shutil`` ---、パス操作のために--- ``os`` ：最初の2行では、必要なPythonパッケージをインポートします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In the third line we import Processing outputs.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>三行目では、処理の出力をインポートします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This will be explained in more detail later in this lesson.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは、このレッスンの後半でより詳細に説明します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Then we define a ``MY_DIRECTORY`` constant, which is the path to the directory where we want to copy analysis results.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それから、分析結果をコピーしたいディレクトリへのパスである ``MY_DIRECTORY`` 定数を定義します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>At the end of the script, we have the main hook code.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>スクリプトの終わりには、メインのフックのコードがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In the loop we iterate over all algorithm outputs and check if this output is a file-based output and can be copied.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このループ中では、アルゴリズムの出力すべてについて反復処理し、この出力がファイルベースの出力でありコピーできるかどうかを確認します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If so, we determine top-level directory in which output files are located and then copy all files to our directory.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>そうである場合は、出力ファイルが置かれる最上位ディレクトリを決定し、そのディレクトリにすべてのファイルをコピーします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To activate this hook we need to open the Processing options, find the entry named *Post-execution script file* in the *General* group, and specify the filename of the hook script there. the specified hook will be executed after each Processing algorithm.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このフックを有効にするには、［プロセッシング］オプションを開き、 *一般* グループで *Post-execution script file* という名前のエントリを見つけて、そこにフックスクリプトのファイル名を指定します。指定されたフックは、各プロセッシングアルゴリズムの後に実行されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In a similar way, we can implement pre-execution hooks.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>同様にして、実行前フックを実装できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For example, let's create a hook to check input vectors for geometry errors.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>たとえば、幾何学的エラーがないかどうか入力ベクターをチェックするフックを作成してみましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>As in the previous example, first we import required QGIS and Processing packages.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>前の例のように、まず最初に必要なQGISと処理パッケージをインポートします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Then we iterate over all the algorithm parameters and if a ParameterVector parameter is found, we get the corresponding vector layer object from it.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>その後、すべてのアルゴリズムパラメーターを反復してParameterVectorパラメーターが見つかった場合、それから、対応するベクターレイヤーオブジェクトを取得します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We loop over all the features of the layer and check them for geometry errors.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>レイヤーのすべての地物をループし、ジオメトリエラーのためにそれらを確認してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If at least one feature contains an invalid geometry, we print a warning message.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>少なくとも1つの地物に無効なジオメトリが含まれている場合、警告メッセージを出力します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To activate this hook we need enter its filename in the *Pre-execution script file* option in the Processing configuration dialog.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このフックを有効にするには処理の設定ダイアログのオプション *実行前スクリプトファイル* にそのファイル名を入力する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The hook will be executed before running any Processing algorithm.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>フックは、任意の処理アルゴリズムを実行する前に実行されます。</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

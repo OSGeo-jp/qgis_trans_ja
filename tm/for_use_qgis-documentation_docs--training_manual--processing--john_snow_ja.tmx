@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>First analysis example</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>最初の分析例</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In this lesson we will perform some real analysis using just the toolbox, so you can get more familiar with the processing framework elements.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このレッスンでは、プロセッシング・フレームワークの要素により精通できるよう、ツールボックスだけを使用していくつかの実際の分析を実行します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now that everything is configured and we can use external algorithms, we have a very powerful tool to perform spatial analysis.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>今やすべて設定されていて外部アルゴリズムを使用できますので、空間分析を実行するための非常に強力なツールを持っています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It is time to work out a larger exercise with some real--world data.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>何か実世界のデータでより大規模な練習に取り掛かる時です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The dataset contains shapefiles with cholera deaths and pump locations, and an OSM rendered map in TIFF format.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>データセットには、コレラによる死者の位置と井戸の位置のシェープファイル、およびTIFFフォーマットでのOSMレンダリングされた地図が含まれています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Open the corresponding QGIS project for this lesson.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このレッスンのための対応QGISプロジェクトを開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Pretty easy, but it will already give us interesting information.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>かなり簡単ですが、それですでに興味深い情報が得られます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Clearly, most cases are within one of the polygons</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>明らかに、ほとんどの症例がポリゴンの1つの範囲内にあります</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To get a more quantitative result, we can count the number of deaths in each polygon.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>より定量的な結果を得るためには、各ポリゴンにおける死亡者数をカウントできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Since each point represents a building where deaths occured, and the number of deaths is stored in an attribute, we cannot just count the points.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>各ポイントは、死亡が発生した建物を表しており、死亡者数は、属性に格納されているので、ポイントをカウントすることはできません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We need a weighted count, so we will use the *Count points in polygon (weighted)* tool.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>私たちは、重み付けされた回数を必要とするので、 *ポリゴンカウントポイント（加重）* ツールを使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The new field will be called *DEATHS*, and we use the *COUNT* field as weighting field.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>新しいフィールドは *死亡* と呼ばれ、そして *COUNT* フィールドを重みフィールドとして使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The resulting table clearly reflects that the number of deaths in the polygon corresponding to the first pump is much larger than the other ones.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>結果のテーブルは、明らかに第一の井戸に対応するポリゴンにおける死亡者数が他のものよりもはるかに大きいことを反映しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Another good way of visualizing the dependence of each point in the ``Cholera_deaths`` layer with a point in the ``Pumps`` layer is to draw a line to the closest one.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``Pumps　井戸`` レイヤーにおけるポイントと ``Cholera_deaths　コレラ死者`` レイヤーの各点の依存性を視覚化するもう一つの良い方法は、最も近いものへ線を描くことです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This can be done with the *Distance to nearest hub* tool, and using the configuration shown next.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは、*最寄のハブへの距離* ツールで行われ、次のような構成を使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The result looks like this:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これの結果は次の通りです:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Although the number of lines is larger in the case of the central pump, do not forget that this does not represent the number of deaths, but the number of locations where cholera cases were found.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>線の数は中央の井戸の場合の方が大きいが、これは死亡数ではなくコレラの症例が発見された場所の数を表していることを忘れないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It is a representative parameter, but it is not considering that some locations might have more cases than other.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それは代表的なパラメーターですが、ある場所では他の場所よりも多くの例があるかもしれないことが考慮されていません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A density layer will also give us a very clear view of what is happening.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>密度レイヤーはまた、何が起こっているかの非常にクリアな視界を提供します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We can create it with the *Kernel density* algorithm.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それは *カーネル密度* アルゴリズムで作成できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Using the *Cholera_deaths* layer, its *COUNT* field as weight field, with a radius of 100, the extent and cellsize of the streets raster layer, we get something like this.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>*Cholera_deaths　コレラ死者* レイヤー、100の半径と、重みフィールドとしての *COUNT　数* フィールド、街のラスターレイヤーの範囲とセルサイズを使用すると、このような何かを得ます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Remember that, to get the output extent, you do not have to type it.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>出力範囲を取得するには、入力する必要はありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click on the button on the right-hand side and select *Use layer/canvas extent*.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>右側のボタンをクリックし、 *レイヤー/キャンバス範囲を使用* を選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Select the streets raster layer and its extent will be automatically added to the text field.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>街のラスターレイヤーを選択すると、その範囲が自動的にテキストフィールドに追加されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You must do the same with the cellsize, selecting the cellsize of that layer as well.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>セルサイズでも同じことを行い、そのレイヤーのセルサイズを選択する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Combining with the pumps layer, we see that there is one pump clearly in the hotspot where the maximum density of death cases is found.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>井戸レイヤーと組み合わせることで、一つの井戸が明らかに死亡例最高濃度が検出されたホットスポット中にあるとわかります。</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

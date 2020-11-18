@@ -1,0 +1,2367 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>GRASS GIS Integration</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GRASS GIS の統合</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>GRASS integration provides access to GRASS GIS databases and functionalities (see GRASS-PROJECT in :ref:`literature_and_web`).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:index:`GRASS` 統合は、GRASSのGISデータベースと機能へのアクセスを提供します（ :ref:`literature_and_web` 中のGRASS-PROJECTを参照）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The integration consists of two parts: provider and plugin.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>統合は二つの部分から構成されています：プロバイダーとプラグイン。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The provider allows to browse, manage and visualize GRASS raster and vector layers.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プロバイダーでは、GRASSラスターおよびベクターレイヤーを閲覧、管理、視覚化できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The plugin can be used to create new GRASS locations and mapsets, change GRASS region, create and edit vector layers and analyze GRASS 2-D and 3-D data with more than 400 GRASS modules.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プラグインを使用すると、新しいGRASS場所と地図セットを作成し、GRASS領域を変更し、ベクターレイヤーを作成および編集し、400の以上のGRASSモジュールでGRASS 2-D及び3-Dデータを分析できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In this section, we'll introduce the provider and plugin functionalities and give some examples of managing and working with GRASS data.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このセクションではプロバイダーやプラグイン機能を導入し、GRASSデータを管理したりそれで作業するいくつかの例をあげます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The provider supports GRASS version 6 and 7, the plugin supports GRASS 6 and 7 (starting from QGIS 2.12).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プロバイダーはGRASSバージョン6および7をサポートする、プラグインは、GRASS 6,7（QGIS 2.12から開始）をサポートしています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>QGIS distribution may contain provider/plugin for either GRASS 6 or GRASS 7 or for both versions at the same time (binaries have different file names).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGIS分布はいずれかGRASS 6またはGRASS 7、または同時に（バイナリは異なるファイル名を有する）で両方のバージョンのプロバイダー/プラグインを含んでいてもよいです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Only one version of the provider/plugin may be loaded on runtime however.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プロバイダー/プラグインのバージョンは実行時に1つだけロードできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Demo dataset</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>デモデータセット</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Loading GRASS raster and vector layers</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GRASSラスターおよびベクターレイヤーをロードする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can load GRASS raster and vector layers like any other layer from the browser either by double click on layer item or by dragging and dropping to map canvas or legend.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>レイヤーの項目をダブルクリックするか地図キャンバスや凡例にドラッグ＆ドロップするかのどちらかによって、ブラウザからの任意の他のレイヤーと同様に、GRASSラスターおよびベクターレイヤーを読み込みできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**GRASS Data Loading**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**GRASSデータの読み込み**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you don't see GRASS location item, verify in :menuselection:`Help --&gt; About --&gt; Providers` if GRASS vector provider is loaded.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GRASSの場所の項目が表示されない場合は、GRASSベクタープロバイダーがロードされているかどうか、 :menuselection:`ヘルプ --&gt; について --&gt; プロバイダー` を検証してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Importing data into a GRASS LOCATION via drag and drop</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ドラッグ＆ドロップでGRASS[場所]へデータをインポートする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This section gives an example of how to import raster and vector data into a GRASS mapset.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このセクションでは、GRASS地図セットにラスターおよびベクターデータをインポートする方法の例を与えます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In QGIS browser navigate to the mapset you want to import data into.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISのブラウザで、データをインポートしたい地図セットに移動します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In QGIS browser find a layer you want to import to GRASS, note that you can open another instance of the browser (:guilabel:`Browser Panel (2)`) if source data are too far from the mapset in the tree.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISのブラウザで、GRASSにインポートするレイヤーを見つけ、ブラウザの別のインスタンス開くことができることに注意してください（ :guilabel:`ブラウザパネル（2）` ）ソースデータがツリー内の地図セットから離れすぎている場合。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Drag a layer and drop it on the target mapset.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>レイヤーをドラッグし、インポート先の地図セットにドロップします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The import may take some time for larger layers, you will see animated icon |import| in front of new layer item until the import finishes.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>インポートは、大きなレイヤーではいくらか時間がかかることがありますが、インポートが完了するまで、新たなレイヤーの項目の前にアニメーションアイコン |import| が表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>When raster data are in different CRS, they can be reprojected using an :guilabel:`Approximate` (fast) or :guilabel:`Exact` (precise) transformation.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ラスターデータが異なるCRSにある場合、それらは :guilabel:`Approximate` （高速）または :guilabel:`Exact` （正確な）変換を使用して再投影できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If a link to the source raster is created (using ``r.external``), the source data are in the same CRS and the format is known to GDAL, the source data CRS will be used.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>元ラスターへのリンクが作成された場合（ ``r.external`` を使用して）、元データは同じCRSにあり、フォーマットがGDALにはよく知られている、元データのCRSが使用されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can set these options in the :guilabel:`Browser` tab in :ref:`grass_options`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`grass_options` の :guilabel:`ブラウザ` タブでこれらのオプションを設定できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If a source raster has more bands, a new GRASS map is created for each layer with **.&lt;band number&gt;** suffix and group of all maps with |rasterGroup| icon is created.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>元ラスターがより多くのバンドを持っている場合、 **.&lt;band number&gt;** 接尾辞を持つ新しいGRASS地図が各レイヤーについて作成されます、すべての地図のグループ |rasterGroup| アイコンが作成されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>External rasters have a different icon |rasterLink|.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|rasterLink| 外部ラスターは別のアイコンを持っています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Managing GRASS data in QGIS Browser</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISブラウザでGRASSデータを管理する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Copying maps: GRASS maps may be copied between mapsets within the same location using drag and drop.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>地図をコピーする：GRASS地図は、ドラッグアンドドロップを使用して、同じ場所内で地図セット間でコピーできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Deleting maps: Right click on a GRASS map and select :guilabel:`Delete` from context menu.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>地図を削除する：GRASS地図上で右クリックしてコンテキストメニューから :guilabel:`削除` を選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Renaming maps: Right click on a GRASS map and select :guilabel:`Rename` from context menu.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>地図の名前を変更する：GRASS地図上で右クリックしてコンテキストメニューから :guilabel:`名前を変更` を選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>GRASS Options</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GRASSオプション</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>GRASS options may be set in :guilabel:`GRASS Options` dialog, which can be opened by right clicking on the location or mapset item in the browser and then choosing :guilabel:`GRASS Options`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GRASSオプションは :guilabel:`GRASS オプション` ダイアログ中で設定できます。このダイアログはブラウザで場所または地図セットの項目を右クリックした後、 :guilabel:`GRASS オプション` を選択すると開きます 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Starting the GRASS plugin</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GRASSプラグインを起動する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The following main features are provided with the GRASS menu (:menuselection:`Plugins --&gt; GRASS`) when you start the GRASS plugin:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GRASSプラグインを起動すると（ :menuselection:`プラグイン --&gt; GRASS` ）、以下の主な機能、 GRASSメニューで提供されています：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|grassOpenMapset| :sup:`Open Mapset`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|grassOpenMapset| :sup:`地図セットを開く`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|grassNewMapset| :sup:`New Mapset`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|grassNewMapset| :sup:`新しい地図セット`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|grassCloseMapset| :sup:`Close Mapset`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|grassCloseMapset| :sup:`地図セットを閉じる`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|grassTools| :sup:`Open GRASS Tools`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|grassTools| :sup:`GRASS ツールを開く`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|grassRegion| :sup:`Display Current GRASS Region`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|grassRegion| :sup:`現在のGRASS Regionを表示`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|general| :sup:`GRASS Options`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|general| :sup:`GRASSオプション`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Opening GRASS mapset</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GRASS地図セットを開く</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A GRASS mapset must be opened to get access to GRASS Tools in the plugin (the tools are disabled if no mapset is open).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GRASSの地図セットは（地図セットが何も開かれていない場合はツールが無効になっている）のプラグインでGRASSツールへのアクセスを取得するために開く必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can open a mapset from the browser: right click on mapset item and then choose :guilabel:`Open mapset` from context menu.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>地図セットはブラウザから開くことができます：地図​​セットの項目を右クリックして、 :guilabel:`地図セットを開く` をコンテキストメニューから選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>GRASS LOCATION and MAPSET</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GRASS[場所]と[地図セット]</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>GRASS data are stored in a directory referred to as GISDBASE. This directory, often called :file:`grassdata`, must be created before you start working with the GRASS plugin in QGIS. Within this directory, the GRASS GIS data are organized by projects stored in subdirectories called :file:`LOCATIONs`. Each :file:`LOCATION` is defined by its coordinate system, map projection and geographical boundaries. Each :file:`LOCATION` can have several :file:`MAPSETs` (subdirectories of the :file:`LOCATION`) that are used to subdivide the project into different topics or subregions, or as workspaces for individual team members (see Neteler &amp; Mitasova 2008 in :ref:`literature_and_web`). In order to analyse vector and raster layers with GRASS modules, you generally have to import them into a GRASS :file:`LOCATION`. (This is not strictly true -- with the GRASS modules :file:`r.external` and :file:`v.external` you can create read-only links to external GDAL/OGR-supported datasets without importing them. This is not the usual way for beginners to work with GRASS, therefore this functionality will not be described here.)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GRASSデータはGISDBASEと称するディレクトリに格納されています。このディレクトリはしばしば :file:`grassdata` と呼ばれますが、QGISでGRASSプラグインで作業を開始する前に作成する必要があります。このディレクトリ内では、GRASSのGISデータは :file:`場所` と呼ばれるサブディレクトリに保存されたプロジェクトによって整理されています。各 :file:`場所` は、その座標系、地図投影と地理的境界によって定義されます。各 :file:`場所` は複数の :file:`地図セット` （ :file:`場所` のサブディレクトリ）を持つことができ、それらはさまざまなトピックまたはサブ領域にプロジェクトを細分化するために、または個々のチームメンバーのためのワークスペースとして使用されます（Neteler ＆ Mitasova 2008年 :ref:`literature_and_web` 参照）。GRASSモジュールでベクターおよびラスターレイヤーを分析するためには、通常はGRASS :file:`場所` にインポートする必要があります。（これは厳密には正しくない - GRASSモジュール :file:`r.external` と :file:`v.external` で、それらをインポートせずに外部の GDAL/OGR-サポートのデータセットへの読み取り専用リンクを作成できます。初心者がGRASSを操作するための通常の方法ではないので、この機能は、ここで説明されることはありません。）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>GRASS data in the alaska LOCATION</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>アラスカ[場所]のGRASSデータ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Importing data into a GRASS LOCATION</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GRASS[場所]へデータをインポートする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>See section :ref:`import_data_dnd` to find how data can be easily imported by dragging and dropping in the browser.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>データを簡単にブラウザにドラッグ＆ドロップしてインポートできる方法を見つけるために、 :ref:`import_data_dnd` セクションを参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This section gives an example of how to import raster and vector data into the 'alaska' GRASS :file:`LOCATION` provided by the QGIS 'Alaska' dataset in traditional way, using standard GRASS modules.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このセクションでは、標準GRASSモジュールを使用して、伝統的な方法でQGIS「アラスカ」データセットによって提供される「アラスカ」GRASS :file:`場所` に、ラスターおよびベクターデータをインポートする方法の例を示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Therefore, we use the landcover raster map :file:`landcover.img` and the vector GML file :file:`lakes.gml` from the QGIS 'Alaska' dataset (see :ref:`label_sampledata`).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>したがって、「アラスカ」データセットから土地被覆ラスター地図 :file:`landcover.img` とベクターGMLファイル :file:`lakes.gml` QGISを使用します（ :ref:`label_sampledata` を参照）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Start QGIS and make sure the GRASS plugin is loaded.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISを起動し、GRASSプラグインがロードされていることを確認します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In the GRASS toolbar, click the |grassOpenMapset| :sup:`Open MAPSET` icon to bring up the :guilabel:`MAPSET` wizard.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GRASSツールバーで、|grassOpenMapset| :sup:`地図セットを開く` アイコンをクリックして、 :guilabel:`地図セット` ウィザードを起動します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now click the |grassTools| :sup:`Open GRASS tools` icon.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>今 |grassTools| :sup:`GRASSツールを開く` アイコンをクリックしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The GRASS Toolbox (see section :ref:`subsec_grass_toolbox`) dialog appears.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GRASSツールボックスダイアログが表示されます（セクション :ref:`subsec_grass_toolbox` を参照）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To import the raster map :file:`landcover.img`, click the module :file:`r.in.gdal` in the :guilabel:`Modules Tree` tab.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ラスター地図 :file:`landcover.img` をインポートする場合 :guilabel:`モジュールツリー` タブの :file:`r.in.gdal` モジュールをクリックして下さい。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This GRASS module allows you to import GDAL-supported raster files into a GRASS :file:`LOCATION`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この GRASSモジュールは GDAL がサポートしているファイルをGRASS :file:`場所` にインポートします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The module dialog for :file:`r.in.gdal` appears.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:file:`r.in.gdal` モジュールダイアログが表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Browse to the folder :file:`raster` in the QGIS 'Alaska' dataset and select the file :file:`landcover.img`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGIS「アラスカ」データセット内の :file:`raster` フォルダを参照して、ファイル :file:`landcover.img` を選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To import the vector GML file :file:`lakes.gml`, click the module :file:`v.in.ogr` in the :guilabel:`Modules Tree` tab.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ベクターGMLファイル :file:`lakes.gml` をインポートするには :guilabel:`モジュールツリー` タブのモジュール :file:`v.in.ogr` をクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This GRASS module allows you to import OGR-supported vector files into a GRASS :file:`LOCATION`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このGRASSモジュールを使用すると、GRASS :file:`場所` にOGRサポートのベクターファイルをインポートできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The module dialog for :file:`v.in.ogr` appears.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:file:`v.in.ogr` のモジュールダイアログが表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Browse to the folder :file:`gml` in the QGIS 'Alaska' dataset and select the file :file:`lakes.gml` as OGR file.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGIS「アラスカ」データセット内の :file:`gml` フォルダを参照し、OGRファイルとして :file:`lakes.gml` ファイルを選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Creating a new GRASS LOCATION</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>新しいGRASS[場所]を作成する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>As an example, here is the sample GRASS :file:`LOCATION alaska`, which is projected in the Albers Equal Area projection using feet as units.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>例として、これはサンプルのGRASS :file:`[場所]アラスカ` 、単位としてフィートを使用して、アルバース等積投影に投影され、です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This sample GRASS :file:`LOCATION alaska` will be used for all examples and exercises in the following GRASS-related sections.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このサンプルGRASS :file:`[場所]アラスカ` は、以下のGRASS関連のセクションのすべての例と演習のために使用されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It is useful to download and install the dataset on your computer (see :ref:`label_sampledata`).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>（ :ref:`label_sampledata` を参照）、コンピュータ上のデータセットをダウンロードしてインストールするのに便利です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Visualize the :file:`alaska.shp` shapefile (see section :ref:`loading_file`) from the QGIS Alaska dataset (see :ref:`label_sampledata`).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISアラスカデータセット（ :ref:`label_sampledata` 参照）からの :file:`alaska.shp` シェープファイル（セクション :ref:`loading_file` 参照）を可視化します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In the GRASS toolbar, click on the |grassNewMapset| :sup:`New mapset` icon to bring up the :guilabel:`MAPSET` wizard.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GRASSツールバーで、 |grassNewMapset| :sup:`地図セット` アイコンをクリックして :guilabel:`新しい地図セット` ウィザードを起動してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We can use this wizard to create a new :file:`MAPSET` within an existing :file:`LOCATION` (see section :ref:`sec_add_mapset`) or to create a new :file:`LOCATION` altogether.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このウィザードを使用すると、新しい :file:`地図セット` を既存の :file:`場所` 内に作成するか（セクション :ref:`sec_add_mapset` を参照）、まったく新しい :file:`場所` と併せて作成できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Select |radioButtonOn| :guilabel:`Create new location` (see figure_grass_new_location_).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|radioButtonOn| :guilabel:`新しい場所を作成` を選択します（ figure_grass_location_ を参照）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Define the projection by clicking on the radio button |radioButtonOn| :guilabel:`Projection` to enable the projection list.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>投影リストを有効にするラジオボタン |radioButtonOn| :guilabel:`投影` をクリックして投影を定義します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We are using Albers Equal Area Alaska (feet) projection.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>私たちはアルバース等積アラスカ（フィート）投影を使用しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Since we happen to know that it is represented by the EPSG ID 2964, we enter it in the search box.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それはEPSGのID 2964によって表されていることを知ることが起こるので、検索ボックスに入力します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>(Note: If you want to repeat this process for another :file:`LOCATION` and projection and haven't memorized the EPSG ID, click on the |projectionEnabled| :sup:`CRS Status` icon in the lower right-hand corner of the status bar (see section :ref:`label_projections`)).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>（注意：別のために、このプロセスを繰り返したい場合は、次の :file:`場所` と投影とEPSG IDを記憶していないが、ステータスバーの右下隅にある |projectionEnabled| :sup:`CRS Status` アイコンをクリック ）（ :ref:`label_projections` セクションを参照）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In :guilabel:`Filter`, insert 2964 to select the projection.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`フィルタ` に 2964 と入力して投影法を選択して下さい.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click :guilabel:`Next`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`次へ` をクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We also need to define a :file:`MAPSET` within our new :file:`LOCATION` (this is necessary when creating a new :file:`LOCATION`). You can name it whatever you like - we used 'demo'. GRASS automatically creates a special :file:`MAPSET` called :file:`PERMANENT`, designed to store the core data for the project, its default spatial extent and coordinate system definitions (see Neteler &amp; Mitasova 2008 in :ref:`literature_and_web`).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>私たちの新しい :file:`場所` 内に :file:`地図セット` を定義する必要もあります（ :file:`場所` 新しいを作成するときに、これが必要です）。それには好き名前を付けられます - ここでは「デモ」を使用しました。GRASSは :file:`PERMANENT` と呼ばれる特別な :file:`地図セット` を自動的に作成します。それにはプロジェクトのコアデータ、そのデフォルトの空間的範囲および座標系定義を格納するように設計されています（ :ref:`literature_and_web` 中のNeteler＆Mitasova 2008を参照）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The new :file:`LOCATION`, 'alaska', and two :file:`MAPSETs`, 'demo' and 'PERMANENT', are created. The currently opened working set is 'demo', as you defined.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>新しい :file:`場所` 「アラスカ」 と２つの :file:`地図セット` 「demo」と「PERMANENT」が作られました. 現在開かれているワーキングセットはあなたが定義した 'demo' です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Notice that some of the tools in the GRASS toolbar that were disabled are now enabled.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GRASSツールバーのそれまでは利用できなかったいくつかのツールが利用可能になっています.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Creating a new GRASS LOCATION or a new MAPSET in QGIS</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGIS内で新しいGRASS[場所]または新しい[地図セット]を作成する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If that seemed like a lot of steps, it's really not all that bad and a very quick way to create a :file:`LOCATION`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それが多くのステップのように思えたならば、それは本当はすべてでない悪い :file:`場所` を作成するための非常に簡単な方法はありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The :file:`LOCATION` 'alaska' is now ready for data import (see section :ref:`sec_import_loc_data`).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:file:`場所` 「アラスカ」は、データのインポートのための準備ができました（ :ref:`sec_import_loc_data` セクションを参照）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can also use the already-existing vector and raster data in the sample GRASS :file:`LOCATION` 'alaska', included in the QGIS 'Alaska' dataset :ref:`label_sampledata`, and move on to section :ref:`label_vectmodel`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGIS「アラスカ」データセット :ref:`label_sampledata` に含まれるサンプルのGRASS :file:`場所` 「アラスカ」中の既存のベクターおよびラスターデータも使用できます、そしてセクション :ref:`label_vectmodel` に移動します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Adding a new MAPSET</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>新しい[地図セット]を追加する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A user has write access only to a GRASS :file:`MAPSET` which he or she created.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ユーザーはご自身で作成したGRASS :file:`地図セット` への書き込みアクセス権を持ちます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This means that besides access to your own :file:`MAPSET`, you can read maps in other users' :file:`MAPSETs` (and they can read yours), but you can modify or remove only the maps in your own :file:`MAPSET`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは、ご自身の :file:`地図セット` へのアクセス以外にも他のユーザーの :file:`地図セット` 中の地図を読める（そして他のユーザーはご自身のを読むことができる）ことを意味しますが、変更したり削除できるのはご自身の :file:`地図セット` 中の地図だけです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>All :file:`MAPSETs` include a :file:`WIND` file that stores the current boundary coordinate values and the currently selected raster resolution (see Neteler &amp; Mitasova 2008 in :ref:`literature_and_web`, and section :ref:`sec_grass_region`).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>すべての :file:`地図セット` には :file:`WIND` ファイルが含まれ,そこには現在の領域の座標値と選択されているラスターの解像度が格納されています (Neteler &amp; Mitasova 2008 :ref:`literature_and_web`, セクション :ref:`sec_grass_region` 参照).</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Select the GRASS database (GISDBASE) folder :file:`grassdata` with the :file:`LOCATION` 'alaska', where we want to add a further :file:`MAPSET` called 'test'.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>さらに :file:`地図セット`　の「テスト」をするため :file:`場所` 「アラスカ」の GRASS データベース (GISDBASE) フォルダ :file:`grassdata` を選択して下さい.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The GRASS vector data model</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GRASSベクターデータモデル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It is important to understand the :index:`GRASS vector data model` prior to digitizing.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>デジタル化に先立って :index:`GRASSベクターデータモデル` を理解することが重要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In general, GRASS uses a topological vector model.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>一般的には、GRASSは、トポロジ的ベクターモデルを使用しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This means that areas are not represented as closed polygons, but by one or more boundaries.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは、領域が閉じられた多角形としてではなく、一つ以上の境界で表現されることを意味します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A boundary between two adjacent areas is digitized only once, and it is shared by both areas.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>二つの隣接する領域間の境界は一度だけデジタル化され、それは、両方の領域によって共有されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Boundaries must be connected and closed without gaps.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>境界は隙間なく接続され閉じている必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>An area is identified (and labelled) by the **centroid** of the area.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>領域は、領域の **重心** によって識別（およびラベル付け）されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Besides boundaries and centroids, a vector map can also contain points and lines. All these geometry elements can be mixed in one vector and will be represented in different so-called 'layers' inside one GRASS vector map. So in GRASS, a layer is not a vector or raster map but a level inside a vector layer. This is important to distinguish carefully. (Although it is possible to mix geometry elements, it is unusual and, even in GRASS, only used in special cases such as vector network analysis. Normally, you should prefer to store different geometry elements in different layers.)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>境界と重心のほかに、ベクター地図には点と線も含めることができます。これらのすべてのジオメトリ要素は、一つのベクターで混合できる一つのGRASSベクター地図内の異なるいわゆる「レイヤー」で表されます。だからGRASSにおいては、レイヤーはベクターまたはラスター地図ではなく、ベクターレイヤー内部の１つのレベルです。これは慎重に区別することが重要です。（ジオメトリ要素を混合することは可能ですが、それは異常なことであり、GRASSにおいてさえベクターネットワーク解析などの特別な場合に使用されるだけです。通常は、異なるジオメトリ要素は異なるレイヤーに格納することをお勧めします。）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It is possible to store several 'layers' in one vector dataset.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>1つのベクターデータセット内には複数の「レイヤー」を格納できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For example, fields, forests and lakes can be stored in one vector.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>例えば、田畑、森林、湖沼は、一つのベクターに格納できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>An adjacent forest and lake can share the same boundary, but they have separate attribute tables.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>隣接する森林と湖沼には同じ境界を共有できますが、それらは別々の属性テーブルを持っています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It is also possible to attach attributes to boundaries.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>境界に属性を付けることも可能です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>An example might be the case where the boundary between a lake and a forest is a road, so it can have a different attribute table.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>例では、湖沼と森林との境界が道路である場合がありますので、異なる属性テーブルを持つことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The 'layer' of the feature is defined by the 'layer' inside GRASS.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>地物の「レイヤー」GRASS内部「レイヤー」によって定義されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>'Layer' is the number which defines if there is more than one layer inside the dataset (e.g., if the geometry is forest or lake).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>「レイヤー」は（ジオメトリが森や湖であれば、例えば）データセット内の複数のレイヤーがある場合に定義する数値です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For now, it can be only a number.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>今のところ、それは数にだけできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In the future, GRASS will also support names as fields in the user interface.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>将来的には、GRASSは、ユーザーインターフェイス内のフィールドとして名前をサポートします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Attributes can be stored inside the GRASS :file:`LOCATION` as dBase,  SQLite3 or in external database tables, for example, PostgreSQL, MySQL, Oracle, etc.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>属性はGRASS :file:`場所` 内部にdBase、SQLite3として、または外部データベーステーブル 、例えば、PostgreSQL、MySQL、Oracleなどに格納できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Attributes in database tables are linked to geometry elements using a 'category' value.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>データベーステーブル中の属性は「カテゴリ」値を使用してジオメトリ要素とリンクされます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>'Category' (key, ID) is an integer attached to geometry primitives, and it is used as the link to one key column in the database table.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>「カテゴリ」（キーID）はジオメトリプリミティブに取り付けられた整数であり、そしてそれは、データベーステーブル内の1つのキー列へのリンクとして使用されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Learning the GRASS Vector Model**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**GRASSベクターモデルについて調べる**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Creating a new GRASS vector layer</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>新しいGRASSベクターレイヤーを作成する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To create a new GRASS vector layer, select one of following items from mapset context menu in the browser:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>新しいGRASSベクターレイヤーを作成するには、ブラウザで地図セットコンテキストメニューから次の項目のいずれかを選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>New Point Layer</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>新しいポイントレイヤー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>New Line Layer</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>新しいラインレイヤー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>New Polygon Layer</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>新しいポリゴンレイヤー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>and enter a name in the dialog.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>そして、ダイアログに名前を入力します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A new vector map will be created and layer will be added to canvas and editing started.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>新しいベクター地図が作成され、レイヤーはキャンバスに追加され、編集が開始されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Selecting type of the layer does not restrict geometry types which can be digitized in the vector map.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>レイヤーの種類を選択することは、ベクター地図にデジタル化できるジオメトリタイプを制限するものではありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In GRASS, it is possible to organize all sorts of geometry types (point, line and polygon) in one vector map.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GRASSでは、1つのベクター地図のジオメトリタイプ（点、線、多角形）のすべての種類を整理することが可能です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The type is only used to add the layer to the canvas, because QGIS requires a layer to have a specific type.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISは特定のタイプを持っているレイヤーを必要とするので、タイプはレイヤーをキャンバスに追加するために使用されるだけです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It is also possible to add layers to existing vector maps selecting one of the items described above from context menu of existing vector map.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>既存のベクター地図のコンテキストメニューから、上記項目のいずれかを選択し、既存のベクター地図にレイヤーを追加することも可能です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In GRASS, it is possible to organize all sorts of geometry types (point, line and area) in one layer, because GRASS uses a topological vector model, so you don't need to select the geometry type when creating a new GRASS vector.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GRASSでは、GRASSはトポロジ的ベクターモデルを使用していますので、新しいGRASSベクターを作成するときにジオメトリタイプを選択する必要はありませんので、1レイヤーでジオメトリタイプのすべての種類（ポイント、ラインおよびエリア）を整理することが可能です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This is different from shapefile creation with QGIS, because shapefiles use the Simple Feature vector model (see section :ref:`sec_create_vector`).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>シェープファイルは、シンプル地物ベクターモデルを使用するので、これは、QGISでのシェープファイルの作成と異なっています（ :ref:`sec_create_vector` の項を参照）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Digitizing and editing a GRASS vector layer</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GRASSベクターレイヤーをデジタル化して編集する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>GRASS vector layers can be digitized using the standard QGIS digitizing tools.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GRASSベクターレイヤーは、標準QGISデジタル化ツールを使用してデジタル化できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>There are however some particularities, which you should know about, due to</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>しかし以下のためにいくつかの特殊性があり、これらは知っておくべきでしょう：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>GRASS topological model versus QGIS simple feature</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GRASS トポロジモデル　対　QGIS単純地物</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>complexity of GRASS model</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GRASS モデルの複雑さ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>multiple layers in single maps</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>単一の地図に複数のレイヤー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>multiple geometry types in single map</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>単一の地図に複数のジオメトリタイプ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>geometry sharing by multiple features from multiple layers</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>複数のレイヤーからの複数の地物によってジオメトリを共有します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The particularities are discussed in the following sections.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>その特殊性はこの後のセクションで説明します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Save, discard changes, undo, redo**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**保存、やり直し、元に戻す、変更を破棄**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>All the changes done during editing are immediately written to vector map and related attribute tables.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>編集中に行われたすべての変更は、すぐにベクター地図および関連属性テーブルに書き込まれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Changes are written after each operation, it is however, possible to do undo/redo or discard all changes when closing editing.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>変更は、各操作の後に書かれている、取り消し/やり直しや編集を閉じるときにすべての変更を破棄しないために、しかし可能です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If undo or discard changes is used, original state is rewritten in vector map and attribute tables.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>取り消しまたは変更を破棄が使用される場合、元の状態がベクター地図と属性テーブルに再び書き込まれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>There are two main reasons for this behaviour:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この動作のための2つの主な理由があります：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It is the nature of GRASS vectors coming from conviction that user wants to do what he is doing and it is better to have data saved when the work is suddenly interrupted (for example, blackout)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは、ユーザーは自分がしていることがやりたいことであり、作業が突然中断されたとき（例えば停電）には、データが保存されている方が良い、という信念に由来するGRASSベクターの性質です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Necessity for effective editing of topological data is visualized information about topological correctness, such information can only be acquired from GRASS vector map if changes are written to the map.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>トポロジ的データの効果的な編集のための必要性がトポロジ的正しさについての情報を可視化する変更が地図に書き込まれている場合、そのような情報は、GRASSベクター地図から取得できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Toolbar**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**ツールバー**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The 'Digitizing Toolbar' has some specific tools when a GRASS layer is edited:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GRASSレイヤーが編集されるときに「デジタル化ツールバー」にはいくつかの特定のツールがあります：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Icon</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>アイコン</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Tool</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ツール</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Purpose</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>目的</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|capturePoint|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|capturePoint|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>New Point</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>新しい点</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Digitize new point</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>新しい点をデジタイズ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|captureLine|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|captureLine|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>New Line</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>新しいライン</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Digitize new line</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>新しいラインをデジタイズ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|captureBoundary|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|captureBoundary|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>New Boundary</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>新しい境界</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Digitize new boundary</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>新しい境界をデジタル化</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|captureCentroid|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|captureCentroid|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>New Centroid</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>重心の新規作成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Digitize new centroid (label existing area)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>新しい重心をデジタイズ (ラベルのあるエリア)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|capturePolygon|</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|capturePolygon|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>New Closed Boundary</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>新しい閉境界</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Digitize new closed boundary</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>新しい閉境界をデジタル化</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Table GRASS Digitizing: GRASS Digitizing Tools</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>表 GRASS デジタイジング : GRASS デジタイジングツール</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Digitizing polygons in GRASS**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**GRASSでポリゴンをデジタル化する**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you want to create a polygon in GRASS, you first digitize the boundary of the polygon.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GRASSでポリゴンを作成する場合は、最初にポリゴンの境界をデジタル化します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Then you add a centroid (label point) into the closed boundary.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>その後、閉じた境界に重心（ラベルポイント）を追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The reason for this is that a topological vector model links the attribute information of a polygon always to the centroid and not to the boundary.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この理由は、トポロジ的ベクターモデルはポリゴンの属性情報を、境界に対してではなく、常に重心に対してリンクしていることです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Category**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**カテゴリ**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Category, often called cat, is sort of ID. The name comes from times when GRASS vectors had only singly attribute "category". Category is used as a link between geometry and attributes. A single geometry may have multiple categories and thus represent multiple features in different layers. Currently it is possible to assign only one category per layer using QGIS editing tools. New features have automatically assigned new unique category, except boundaries. Boundaries usually only form areas and do not represent linear features, it is however possible to define attributes for a boundary later, for example in different layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>カテゴリ、しばしばcatと呼ばれる、はIDの一種です。名前はGRASSベクターのみが単独で「カテゴリ」属性持っていた時代から来ています。カテゴリは、ジオメトリと属性の間のリンクとして使用されています。単一の幾何学的形状は、複数のカテゴリを有し、したがって異なるレイヤーに複数の地物を表すことができます。現在はQGIS編集ツールを使用してレイヤーごとに1つだけのカテゴリを割り当てることが可能です。新しい地物は、自動的に境界を除いて、新しいユニークなカテゴリが割り当てられます。境界は通常は領域を形成し、線形の地物を表すものではありません。しかし、後で境界レイヤーに対する属性を定義することは可能です、たとえば異なるレイヤーで。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>New categories are always created only in currently being edited layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>新しいカテゴリは、常に現在編集中のレイヤーにのみ作成されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It is not possible to assign more categories to geometry using QGIS editing, such data are properly represented as multiple features, and individual features, even from different layers, may be deleted.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGIS編集を使用してジオメトリに複数のカテゴリを割り当てることができません、そのようなデータは複数の地物つぃて適切に表され、個々の地物は、異なるレイヤーからであっても、削除できる。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Attributes**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**Attributes**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Attributes of currently edited layer can only be modified.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>現在編集中のレイヤーの属性のみを変更できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If the vector map contains more layers, features of other layers will have all attributes set to '&lt;not editable (layer #)&gt;' to warn you that such attribute is not editable.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ベクター地図はより多くのレイヤーが含まれている場合は、他のレイヤーの地物は「&lt;not editable (layer #)&gt;」に設定されているすべての属性を持っています「そのような属性が編集できないことを警告します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The reason is, that other layers may have and usually have different set of fields while QGIS only supports one fixed set of fields per layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>その理由は、他のレイヤーを有し、通常QGISのみレイヤーあたりのフィールドのいずれかが固定セットをサポートしながら、フィールドの異なるセットを有することができること、です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If a geometry primitive does not have a category assigned, a new unique category is automatically assigned and new record in attribute table is created when an attribute of that geometry is changed.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>原始的なジオメトリはカテゴリが割り当てられていない場合は、新しいユニークなカテゴリが自動的に割り当てられ、そのジオメトリの属性が変更されたとき、属性テーブルに新しいレコードが作成されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you want to do bulk update of attributes in table, for example using 'Field Calculator' (:ref:`vector_field_calculator`), and there are features without category which you don't want to update (typically boundaries), you can filter them out by setting 'Advanced Filter' to ``cat is not null``.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>（ :ref:`vector_field_calculator` ）「フィールド計算機」を使用して、たとえば、テーブル内の属性の一括更新を行いたい場合は、（通常は境界）を更新したくないカテゴリのない地物がありますが、「高度なフィルタ」 ``cat is not null`` を設定することによりフィルタで除外できます、。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Editing style**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**編集スタイル**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The topological symbology is essential for effective editing of topological data. When editing starts, a specialized 'GRASS Edit' renderer is set on the layer automatically and original renderer is restored when editing is closed. The style may be customized in layer properties 'Style' tab. The style can also be stored in project file or in separate file as any other style. If you customize the style, do not change its name, because it is used to reset the style when editing is started again.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>トポロジ的シンボルは、トポロジ的データを効果的に編集するために不可欠です。開始を編集する場合は、専門の「GRASS編集」レンダラーをレイヤーに自動的に設定され、編集が閉じているときに、元のレンダラーが復元されます。スタイルは、レイヤーのプロパティ「スタイル」タブでカスタマイズできます。スタイルもプロジェクトファイルまたは任意の他のスタイルとして個別のファイルに保存できます。スタイルをカスタマイズする場合は名前を変更しないでください。名前は編集が再び開始されるときスタイルをリセットするために使用されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Do not save project file when the layer is edited, the layer would be stored with 'Edit Style' which has no meaning if layer is not edited.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>レイヤーが編集されたときに、プロジェクトファイルを保存しないでください、レイヤーは「編集スタイル」で格納されますが、レイヤーが編集されていない場合には意味がありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The style is based on topological information which is temporarily added to attribute table as field 'topo_symbol'.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>スタイルは一時的にフィールド「topo_symbol」としてテーブルを属性に追加されたトポロジ情報に基づいています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The field is automatically removed when editing is closed.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>編集が閉じられたときにフィールドが自動的に削除されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Do not remove 'topo_symbol' field from attribute table, that would make features invisible because the renderer is based on that column.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>属性テーブルから「topo_symbol」フィールドを削除しないでください。レンダラーはその列に基づいているため、地物が見えなくなるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Snapping**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**スナップ**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To form an area, vertices of connected boundaries must have **exactly** the same coordinates.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>エリアを形成するためには、接続された境界の頂点は **正確** に同じ座標を持っている必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This can be achieved using snapping tool only if canvas and vector map have the same CRS.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは、キャンバスとベクター地図が同じCRSを持っている場合にのみ、スナップツールを使用して達成できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Otherwise, due conversion from map coordinates to canvas and back, the coordinate may become slightly different due to representation error and CRS transformations.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>そうでない場合は、地図座標からキャンバスへのそしてその逆の正しい変換で、座標が表現誤差とCRS変換のためにわずかに異なってくることがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Use layer's CRS also for canvas when editing.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>編集するときはキャンバスについてもレイヤーのCRSを使用してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Limitations**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**制限**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Simultaneous editing of multiple layers within the same vector at the same time is not supported.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>同時に同じベクター内の複数のレイヤーを同時編集することはサポートされていません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This is mainly due to the impossibility of handling multiple undo stacks for a single data source.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは、単一のデータソースのスタックを元に戻す主に複数の処理が不可能であることに起因します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|nix| |osx| On Linux and macOS only one GRASS layer can be edited at time.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|nix| |osx| LinuxおよびMac OS上でだけGRASSレイヤーを一度に一つだけ編集できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This is due to a bug in GRASS which does not allow to close database drivers in random order.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは、ランダムな順序でデータベースドライバを閉じられないというGRASSのバグによるものです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This is being solved with GRASS developers.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは、GRASSの開発者によって解決されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**GRASS Edit Permissions**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**GRASS編集権限**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You must be the owner of the GRASS :file:`MAPSET` you want to edit.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>編集を行いたい場合は GRASS :file:`地図セット` のオーナーになることが必要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It is impossible to edit data layers in a :file:`MAPSET` that is not yours, even if you have write permission.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>所有する以外の :file:`地図セット` に属するレイヤーは、ファイルに書き込み権限を持っていても編集できません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The GRASS region tool</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GRASS領域ツール</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The region definition (setting a spatial working window) in GRASS is important for working with raster layers.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GRASSの領域定義（空間的な作業ウィンドウを設定）は、ラスターレイヤーを操作するために重要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Vector analysis is by default not limited to any defined region definitions.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ベクター分析は、任意の定義された領域の定義に限定されるものではなく、デフォルトです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>But all newly created rasters will have the spatial extension and resolution of the currently defined GRASS region, regardless of their original extension and resolution.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>しかし、すべての新しく作成されたラスターは、元の拡張および解像度にかかわらず、現在定義されてGRASS領域の空間的な拡張と解像度を持つことになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The current GRASS region is stored in the :file:`$LOCATION/$MAPSET/WIND` file, and it defines north, south, east and west bounds, number of columns and rows, horizontal and vertical spatial resolution.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>現在のGRASS領域に格納されている :file:`$LOCATION/$MAPSET/WIND` ファイルを、それが列と行、水平方向および垂直方向の空間分解能の南、北、東と西の境界、数を定義します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It is possible to switch on and off the visualization of the GRASS region in the QGIS canvas using the |grassRegion| :sup:`Display current GRASS region` button.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|grassRegion| 使用してスイッチを入れるとQGISキャンバスでGRASS領域の可視化をオフすることが可能です :sup:`現在のGRASSのregion` ボタンを表示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The GRASS module :file:`g.region` provides a lot more parameters to define an appropriate region extent and resolution for your raster analysis.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GRASSモジュール :file:`g.region` はラスター分析のための適切な領域の広がりと解像度を定義するための多くのパラメーターを提供します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can use these parameters with the GRASS Toolbox, described in section :ref:`subsec_grass_toolbox`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`subsec_grass_toolbox` セクションで説明した、GRASSツールボックスでこれらのパラメーターを使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The GRASS Toolbox</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GRASSツールボックス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The |grassTools| :sup:`Open GRASS Tools` box provides GRASS module functionalities to work with data inside a selected GRASS :file:`LOCATION` and :file:`MAPSET`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|grassTools| :sup:`GRASSツールを開く` ボックスは、選択されたGRASS :file:`場所` と :file:`MAPSET` 内部のデータを操作するためのGRASSモジュールの機能を提供します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To use the GRASS Toolbox you need to open a :file:`LOCATION` and :file:`MAPSET` that you have write permission for (usually granted, if you created the :file:`MAPSET`).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GRASSツールボックスを使用するには、書き込み権限を持っている :file:`場所` と :file:`地図セット` を開く必要があります（ :file:`地図セット` を作成した場合、通常は権限が付与されています）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This is necessary, because new raster or vector layers created during analysis need to be written to the currently selected :file:`LOCATION` and :file:`MAPSET`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>分析中に作成された新しいラスターまたはベクターレイヤーは、現在選択されている :file:`場所` と :file:`地図セット` に書き込む必要があるため、これは必要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>GRASS Toolbox and Module Tree</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GRASSツールボックスおよびモジュールツリー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Working with GRASS modules</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GRASSモジュールを使用する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The GRASS shell inside the GRASS Toolbox provides access to almost all (more than 300) GRASS modules in a command line interface.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GRASSツールボックスのGRASSシェルではほとんどすべての(300以上)GRASSモジュールをコマンドラインインターフェイスで提供しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To offer a more user-friendly working environment, about 200 of the available GRASS modules and functionalities are also provided by graphical dialogs within the GRASS plugin Toolbox.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>もっとユーザーフレンドリな作業環境としてグラフィカルダイアログでは約200のGRASSモジュールと機能が提供されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It is also possible to customize the GRASS Toolbox content. This procedure is described in section :ref:`sec_toolbox-customizing`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GRASS ツールボックスの内容をカスタマイズできます. この機能は セクション :ref:`sec_toolbox-customizing` に記述されています.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>As shown in figure_grass_toolbox_, you can look for the appropriate GRASS module using the thematically grouped :guilabel:`Modules Tree` or the searchable :guilabel:`Modules List` tab.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`モジュールツリー` または検索可能 :guilabel:`モジュールリスト` タブ figure_grass_toolbox_ に示すように、テーマ別にグループ化を使用して、適切なGRASSモジュールを探すことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>By clicking on a graphical module icon, a new tab will be added to the Toolbox dialog, providing three new sub-tabs: :guilabel:`Options`, :guilabel:`Output` and :guilabel:`Manual`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`オプション` 、:guilabel:`出力` と :guilabel:`マニュアル` グラフィカルモジュールアイコンをクリックすると、新しいタブが3つの新しいサブタブを提供し、ツールボックス]ダイアログボックスに追加されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Options**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**オプション**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The :guilabel:`Options` tab provides a simplified module dialog where you can usually select a raster or vector layer visualized in the QGIS canvas and enter further module-specific parameters to run the module.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`オプション` タブでは、通常、QGISキャンバスに可視化されたラスターまたはベクターレイヤーを選択し、モジュールを実行するために、さらにモジュール固有のパラメーターを入力でき、簡略化モジュールダイアログを提供します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>GRASS Toolbox Module Options</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GRASSツールボックスモジュールのオプション</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The provided module parameters are often not complete to keep the dialog simple.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>提供モジュールパラメーターは、多くの場合、ダイアログシンプルに保つために完全ではありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you want to use further module parameters and flags, you need to start the GRASS shell and run the module in the command line.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>さらにモジュールパラメーターとフラグを使用する場合は、GRASSのシェルを起動し、コマンドラインでモジュールを実行する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A new feature since QGIS 1.8 is the support for a :guilabel:`Show Advanced Options` button below the simplified module dialog in the :guilabel:`Options` tab. At the moment, it is only added to the module :file:`v.in.ascii` as an example of use, but it will probably be part of more or all modules in the GRASS Toolbox in future versions of QGIS. This allows you to use the complete GRASS module options without the need to switch to the GRASS shell.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGIS 1.8以降の新機能は、次のサポートです :guilabel:`オプション` タブで単純化されたモジュール]ダイアログ以下の :guilabel:`高度なオプションを表示` ボタン。使用例として :file:`v.in.ascii` が、それはおそらくよりの一部またはQGISの将来のバージョンでGRASSツールボックス内のすべてのモジュールになります。現時点では、それが唯一のモジュールに追加されます。これはGRASSのシェルに切り替える必要がなく、完全なGRASSモジュールオプションを使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Output**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**出力**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>GRASS Toolbox Module Output</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GRASSツールボックスモジュール出力</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Manual**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**マニュアル**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>GRASS Toolbox Module Manual</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GRASSツールボックスモジュールマニュアル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The :guilabel:`Manual` tab shows the HTML help page of the GRASS module.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`マニュアル` タブがGRASSモジュールのHTMLヘルプページを示しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can use it to check further module parameters and flags or to get a deeper knowledge about the purpose of the module.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>さらにモジュールパラメーターとフラグをチェックしたり、モジュールの目的についてのより深い知識を得るためにそれを使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>At the end of each module manual page, you see further links to the :file:`Main Help index`, the :file:`Thematic index` and the :file:`Full index`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:file:`メインヘルプ索引` 、 :file:`テーマ別索引` と :file:`全索引` 各モジュールのマニュアルページの最後に、へのさらなるリンクを参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>These links provide the same information as the module :file:`g.manual`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:file:`g.manual` これらのリンクは、モジュールと同じ情報を提供します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Display results immediately**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**結果をすぐ表示**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you want to display your calculation results immediately in your map canvas, you can use the 'View Output' button at the bottom of the module tab.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>計算結果をすぐに地図キャンバスに表示したい場合、モジュールタブの一番下にある '出力を表示' ボタンを利用できます.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>GRASS module examples</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GRASSモジュールの例</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The following examples will demonstrate the power of some of the GRASS modules.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>以下の例はいくつかの GRASS モジュールの力をデモンストレートします.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Creating contour lines</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>等高線を作成する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The first example creates a vector contour map from an elevation raster (DEM).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>最初の例では、標高ラスター（DEM）からベクター等高線地図を作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Here, it is assumed that you have the Alaska :file:`LOCATION` set up as explained in section :ref:`sec_import_loc_data`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>セクション :ref:`sec_import_loc_data` で説明したように、ここでアラスカ :file:`場所` 設定を持っていることを想定しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>First, open the location by clicking the |grassOpenMapset| :sup:`Open mapset` button and choosing the Alaska location.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>まず、 |grassOpenMapset|  :sup:`地図セットを開く` ボタンをクリックしてアラスカの場所を選択することで場所を開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now open the Toolbox with the |grassTools| :sup:`Open GRASS tools` button.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ここで |grassTools| :sup:`GRASSツールを開く` ボタンでツールボックスを開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In the list of tool categories, double-click :menuselection:`Raster --&gt; Surface Management --&gt; Generate vector contour lines`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ツールカテゴリのリストで、 :menuselection:`ラスター --&gt; サーフェス管理 --&gt; ベクター等高線を生成` をダブルクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now a single click on the tool **r.contour** will open the tool dialog as explained above (see :ref:`grass_modules`).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>今ツール **r.contour** をシングルクリックすると、上述したように、[ツール]ダイアログが開きます（ :ref:`grass_modules` を参照）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In the :guilabel:`Name of input raster map` enter ``gtopo30``.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`入力ラスター地図の名前` に ``gtopo30`` を入力します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Type into the :guilabel:`Increment between Contour levels` |selectNumber| the value 100.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`等高線水準間の増加分` に |selectNumber| 値100を入力します（これで等高線が100メートルの間隔で作成されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>(This will create contour lines at intervals of 100 meters.)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Type into the :guilabel:`Name for output vector map` the name ``ctour_100``.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`出力するベクター地図の名前` に ``ctour_100`` と入力して下さい。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Since this is a large region, it will take a while to display.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これは大きな領域ですので、表示されるまでに数分かかるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>After it finishes rendering, you can open the layer properties window to change the line color so that the contours appear clearly over the elevation raster, as in :ref:`vector_properties_dialog`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それはレンダリングを完了したら、レイヤーのプロパティウィンドウを開き、 :ref:`vector_properties_dialog` のように、等高線が標高ラスターの上に明確に表示されるように線の色を変更できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Next, zoom in to a small, mountainous area in the center of Alaska.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次に、アラスカ州の中心部にある小さな、山岳地帯にズームインします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Zooming in close, you will notice that the contours have sharp corners.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>近くにズームインすると等高線が鋭い角を持っていることがわかります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>GRASS offers the **v.generalize** tool to slightly alter vector maps while keeping their overall shape.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GRASSではそれらの全体の形状を維持しながら、少しベクター地図を変更する **v.generalize** ツールを提供しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The tool uses several different algorithms with different purposes.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このツールは、異なる目的を持ついくつかの異なるアルゴリズムを使用しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Some of the algorithms (i.e., Douglas Peuker and Vertex Reduction) simplify the line by removing some of the vertices.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>アルゴリズムの一部（すなわち、ダグラス・ペウカーおよび頂点削減）は、頂点の一部を除去することにより、ラインを簡素化します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The resulting vector will load faster.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>得られたベクターは、より速くロードされます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This process is useful when you have a highly detailed vector, but you are creating a very small-scale map, so the detail is unnecessary.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>非常に詳細なベクターを持っているが、非常に小さい縮尺の地図を作成しているので詳細が不要であるというとき、このプロセスは便利です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**The simplify tool**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**単純化ツール**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Note that QGIS has a :menuselection:`Vector --&gt; Geometry Tools --&gt; Simplify geometries` tool that works just like the GRASS **v.generalize** Douglas-Peuker algorithm.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISにはちょうどGRASS **v.generalize** ダグラス・Peukerアルゴリズムのように動作する :menuselection:`ベクター --&gt; ジオメトリツール --&gt; ジオメトリを単純化` ツールがあることに注意してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>However, the purpose of this example is different.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>しかし、この例の目的は異なっています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The contour lines created by ``r.contour`` have sharp angles that should be smoothed.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``r.contour`` によって作成された等高線には鋭い角があって滑らかにする必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Among the **v.generalize** algorithms, there is Chaiken's, which does just that (also Hermite splines).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**v.generalize** アルゴリズムの中で、Chaikenがあり、ちょうどそれをします（エルミートスプラインも）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Be aware that these algorithms can **add** additional vertices to the vector, causing it to load even more slowly.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これらのアルゴリズムはそれがさらに緩やかにロードさせ、ベクターに追加の頂点を **追加** できることに注意してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Open the GRASS Toolbox and double-click the categories :menuselection:`Vector --&gt; Develop map --&gt; Generalization`, then click on the **v.generalize** module to open its options window.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GRASSツールボックスを開き、カテゴリ :menuselection:`ベクター --&gt; 地図を展開 --&gt; 簡素化` をダブルクリックし、それから **v.generalize** モジュールをクリックしてそのオプションウィンドウを開いてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Check that the 'ctour_100' vector appears as the :guilabel:`Name of input vector`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`入力ベクターの名前` として「ctour_100」ベクターが表示されていることを確認してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You may change the color of the vector to display it clearly on the raster background and to contrast with the original contour lines.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ラスター背景に明確に表示するために、元の等高線と対比するためのベクターの色を変更してもよいです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You will notice that the new contour lines have smoother corners than the original while staying faithful to the original overall shape.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>元の全体的な形状に忠実に滞在しながら、新たな等高線は元々のものより角がなめらかであることがわかります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>GRASS module v.generalize to smooth a vector map</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ベクター地図を平滑化するGRASSモジュールv.generalize</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Other uses for r.contour**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**その他にr.contourも使えます**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The procedure described above can be used in other equivalent situations.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>上記の手順は、他の同等の状況で使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you have a raster map of precipitation data, for example, then the same method will be used to create a vector map of isohyetal (constant rainfall) lines.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>降水量データのラスター地図を持っている場合は、例えば、同じ方法が等雨量（一定の降雨量）線のベクター地図を作成するために使用されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Creating a Hillshade 3-D effect</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>陰影3D効果の作成</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Several methods are used to display elevation layers and give a 3-D effect to maps. The use of contour lines, as shown above, is one popular method often chosen to produce topographic maps. Another way to display a 3-D effect is by hillshading. The hillshade effect is created from a DEM (elevation) raster by first calculating the slope and aspect of each cell, then simulating the sun's position in the sky and giving a reflectance value to each cell. Thus, you get sun-facing slopes lighted; the slopes facing away from the sun (in shadow) are darkened.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>いくつかの方法は、標高レイヤーを表示し、地図に3-D効果を与えるために使用されます。上記のような等高線の使用は、多くの場合、地形図を生成するために選択される1つの一般的な方法です。3-D効果を表示するための別の方法は、陰影起伏によるものです。陰影起伏効果は最初、空での太陽の位置をシミュレートし、各セルに反射率値を与え、その後、各セルの傾きと傾斜方向を計算することにより、DEM（標高）ラスターから作成されます。したがって、太陽に面した斜面が点灯取得します。（影で）太陽から離れて面する斜面を暗くしています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Begin this example by loading the ``gtopo30`` elevation raster.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>``gtopo30`` 標高ラスターをロードすることによって、この例を始めます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Start the GRASS Toolbox, and under the Raster category, double-click to open :menuselection:`Spatial analysis --&gt; Terrain analysis`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GRASSツールボックスを起動し、ラスターカテゴリの下で、ダブルクリックして :menuselection:`空間分析 --&gt; 地形分析` を開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Then click **r.shaded.relief** to open the module.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それからモジュールをオープンするために **r.shaded.relief** をクリックして下さい.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Change the :guilabel:`azimuth angle` |selectNumber| 270 to 315.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`方位角` を |selectNumber| 270から315に変更します 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>When the process completes, add the hillshade raster to the map.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プロセスが完了すると陰影ラスターが地図に追加されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You should see it displayed in grayscale.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これはグレースケールで表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To view both the hillshading and the colors of the ``gtopo30`` together, move the hillshade map below the ``gtopo30`` map in the table of contents, then open the :menuselection:`Properties` window of ``gtopo30``, switch to the :guilabel:`Transparency` tab and set its transparency level to about 25%.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>hillshadingと ``gtopo30`` の陰影起伏と色の両方を一緒に表示するには、目次中の ``gtopo30`` 地図下に陰影起伏図を移動し、次に :menuselection:`gtopo30` の `プロパティ` ウィンドウを開き、 :guilabel:`透明度` タブに切り替えて約25％の透明度レベルを設定`します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You should now have the ``gtopo30`` elevation with its colormap and transparency setting displayed **above** the grayscale hillshade map.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これで、グレースケール陰影起伏地図 **上記の** 表示される設定のカラー地図と透明性を持つ ``gtopo30`` 上昇を持っている必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In order to see the visual effects of the hillshading, turn off the ``gtopo30_shade`` map, then turn it back on.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>陰影の視覚効果を見るため、 ``gtopo30_shade`` 地図をオフにして、それから再びオンにします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>**Using the GRASS shell**</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**GRASSシェルを使用する**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The GRASS plugin in QGIS is designed for users who are new to GRASS and not familiar with all the modules and options. As such, some modules in the Toolbox do not show all the options available, and some modules do not appear at all. The GRASS shell (or console) gives the user access to those additional GRASS modules that do not appear in the Toolbox tree, and also to some additional options to the modules that are in the Toolbox with the simplest default parameters. This example demonstrates the use of an additional option in the **r.shaded.relief** module that was shown above.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISでGRASSプラグインは、GRASSに新しく、すべてのモジュールとオプションに慣れていないユーザーのために設計されています。そのため、ツールボックス内のいくつかのモジュールが利用できるすべてのオプションを示していない、といくつかのモジュールは、まったく表示されません。GRASSのシェル（またはコンソール）は、最も簡単なデフォルトパラメーターをツールボックスにあるモジュールにツールボックスのツリーで、また、いくつかの追加オプションには表示されません。これらの追加のGRASSモジュールへのアクセスをユーザーに提供します。この例では、上記示した **r.shaded.relief** モジュールで追加のオプションの使用方法を示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The GRASS shell, r.shaded.relief module</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GRASSシェル、r.shaded.reliefモジュール</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The module **r.shaded.relief** can take a parameter ``zmult``, which multiplies the elevation values relative to the X-Y coordinate units so that the hillshade effect is even more pronounced.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>モジュール **r.shaded.relief** は、陰影起伏効果がより顕著になるようにXYに対する標高値は、座標単位乗算パラメーター ``zmult`` をとることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>After the process finishes, shift to the :guilabel:`Browse` tab and double-click on the new ``gtopo30_shade2`` raster to display it in QGIS.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>プロセスが終了した後、 :guilabel:`ブラウズ` タブにシフトし、新しい ``gtopo30_shade2`` ラスターをダブルクリックしてQGISでそれを表示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>As explained above, move the shaded relief raster below the ``gtopo30`` raster in the table of contents, then check the transparency of the colored ``gtopo30`` layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>以上説明したように、その後、着色された ``gtopo30`` レイヤーの透明性を確認し、コンテンツのテーブルで ``gtopo30`` ラスター以下陰影起伏ラスターを移動させます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You should see that the 3-D effect stands out more strongly compared with the first shaded relief map.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>3-D効果がより強く最初の陰影起伏図と比べて際立っていることがわかります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Displaying shaded relief created with the GRASS module r.shaded.relief</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GRASSモジュールr.shaded.reliefで作成した陰影を表示します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Raster statistics in a vector map</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ベクター地図によるラスター統計</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The next example shows how a GRASS module can aggregate raster data and add columns of statistics for each polygon in a vector map.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次の例はGRASS モジュールがラスターデータを集計してベクター地図のそれぞれのポリゴンの列に統計値を追加するものです.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now an intermediate step is required: centroids must be added to the imported trees map to make it a complete GRASS area vector (including both boundaries and centroids).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>今、中間のステップが必要です：重心をインポートされた樹木図に追加して（境界と重心の両方を含む）完全なGRASSエリアベクターを作る必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>From the Toolbox, choose :menuselection:`Vector --&gt; Manage features`, and open the module **v.centroids**.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ツールボックスで :menuselection:`ベクター --&gt; 地物を管理` を選択して **v.centroids** モジュールを開いて下さい.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Enter as the :guilabel:`output vector map` 'forest_areas' and run the module.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`出力ベクター地図` として 'forest_areas' と入力してモジュールを実行して下さい.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now load the ``forest_areas`` vector and display the types of forests - deciduous, evergreen, mixed - in different colors: In the layer :guilabel:`Properties` window, :guilabel:`Symbology` tab, choose from :guilabel:`Legend type` |selectString| 'Unique value' and set the :guilabel:`Classification field` to 'VEGDESC'. (Refer to the explanation of the symbology tab in :ref:`vector_style_menu` of the vector section.)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>さて、 ``forest_areas`` ベクターをロードし、森林のタイプを表示 - 落葉、常緑、混合 - 異なる色で：レイヤー :guilabel:`プロパティ` ウィンドウ、:guilabel:`シンボル体系` タブの中で、 :guilabel:`凡例タイプ` から |selectString| 「ユニークな値」選び、 :guilabel:`分類フィールド` に「VEGDESC」を設定します。（ベクターセクションの :ref:`vector_style_menu` 中の記号体系タブの説明を参照してください。 ）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Next, reopen the GRASS Toolbox and open :menuselection:`Vector --&gt; Vector update` by other maps.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>次に GRASS ツールボックスを再び開いて :menuselection:`ベクター --&gt; ベクター更新` を他の地図で開いて下さい.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click on the **v.rast.stats** module. Enter ``gtopo30`` and ``forest_areas``.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>**v.rast.stats** モジュールをクリックして ``gtopo30`` と ``forest_areas`` と入力して下さい.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Finally, open the ``forest_areas`` attribute table, and verify that several new columns have been added, including ``elev_min``, ``elev_max``, ``elev_mean``, etc., for each forest polygon.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>最後に、 ``forest_areas`` 属性テーブルを開き、各森林のポリゴンのために、いくつかの新しい列が、 ``elev_min`` 、 ``elev_max`` 、 ``elev_mean`` などを含め、追加されていることを確認してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Customizing the GRASS Toolbox</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GRASSツールボックスのカスタマイズ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Nearly all GRASS modules can be added to the GRASS Toolbox.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ほぼすべてのGRASSモジュールは、GRASSツールボックスに追加できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>An XML interface is provided to parse the pretty simple XML files that configure the modules' appearance and parameters inside the Toolbox.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>XMLインターフェイスは、ツールボックス内のモジュールの外観とパラメーターを設定する非常に単純なXMLファイルを解析するために提供されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A sample XML file for generating the module ``v.buffer`` (v.buffer.qgm) looks like this:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>モジュール ``v.buffer`` （v.buffer.qgm）を生成するためのサンプルXMLファイルは次のようになります。</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>

@@ -1,0 +1,791 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE tmx SYSTEM "tmx14.dtd">
+<tmx version="1.4">
+  <header creationtool="Translate Toolkit" creationtoolversion="2.5.0" segtype="sentence" o-tmf="UTF-8" adminlang="en" srclang="en" datatype="PlainText"/>
+  <body>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Getting Started</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>始めましょう</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This chapter provides a quick overview of installing QGIS, downloading QGIS sample data, and running a first simple session visualizing raster and vector data.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この章ではQGISのインストール、QGISサンプルデータのダウンロードとラスタとベクタデータを表示する簡単な最初のセッションの実行についての概要を提供します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Installing QGIS</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISのインストール</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>QGIS project provides different ways to install QGIS depending on your platform.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISプロジェクトでは、プラットフォームに応じてQGISをインストールするさまざまな方法を提供しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Installing from binaries</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>バイナリからインストールする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Standard installers are available for |win| MS Windows and |osx| macOS.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|win| MS Windowsおよび |osx| macOS用の標準インストーラが提供されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Binary packages (rpm and deb) or software repositories are provided for many flavors of GNU/Linux |nix|.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GNU / Linux各種 |nix| 向けにはバイナリパッケージ（rpmおよびdeb）またはソフトウェアリポジトリが提供されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>For more information and instructions for your operating system check https://download.qgis.org.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>あなたのオペレーティングシステム向けの更なる情報と手順については https://download.qgis.org を参照して下さい。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Installing from source</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ソースからのインストール</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you need to build QGIS from source, please refer to the installation instructions. They are distributed with the QGIS source code in a file called :file:`INSTALL`. You can also find them online at https://github.com/qgis/QGIS/blob/master/INSTALL.md.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISをソースからインストールする場合は、QGISのソースコードに同梱されている :file:`INSTALL` ファイルに記載の指示に従ってください。同じ内容は https://github.com/qgis/QGIS/blob/master/INSTALL.md で読むこともできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you want to build a particular release and not the version in development, you should replace ``master`` with the release branch (commonly in the ``release-X_Y`` form) in the above-mentioned link (installation instructions may differ).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>開発中のバージョンではない特定のリリースをビルドする場合は、上記のリンクの ``master`` をリリースブランチ（通常は ``release-X_Y`` という形式）に置き換えてください（インストール手順は異なる場合があります）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Installing on external media</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>外部メディアへのインストール</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>It is possible to install QGIS (with all plugins and settings) on a flash drive.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISを (すべてのプラグインと設定を含めて) フラッシュドライブにインストールすることが可能です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This is achieved by defining a :ref:`--profiles-path &lt;profiles-path_option&gt;` option that overrides the default :ref:`user profile &lt;user_profiles&gt;` path and forces **QSettings** to use this directory, too.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このインストールは :ref:`--profiles-path &lt;profiles-path_option&gt;`  オプションを定義してデフォルトの :ref:`user profile &lt;user_profiles&gt;`  パスを上書きし **QSettings**  にもこのディレクトリを設定すると利用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>See section :ref:`env_options` for additional information.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>詳しい情報は :ref:`env_options` セクションを参照して下さい。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Downloading sample data</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>サンプルデータのダウンロード</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>This user guide contains examples based on the QGIS sample dataset (also called the ``Alaska dataset``).</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>このユーザガイドには QGISサンプルデータセット ( ``Alaska dataset`` ともよばれています) に基づく例が含まれています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|win| The Windows installer has an option to download the QGIS sample dataset.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|win|  Windows インストーラにはQGISサンプルデータセットをインストールするオプションがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If checked, the data will be downloaded to your :file:`Documents` folder and placed in a folder called :file:`GIS Database`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>それがチェックされているとデータは :file:`Documents` フォルダにダウンロードされ :file:`GIS Database` というフォルダに置かれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You may use Windows Explorer to move this folder to any convenient location.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Windowsエクスプローラを使ってこのフォルダを利用しやすい場所に移動できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you did not select the checkbox to install the sample dataset during the initial QGIS installation, you may do one of the following:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISの初期インストールでサンプルデータインストールチェックボックスを選択しなかった場合は、以下のような手段でサンプルデータの入手が可能です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Use GIS data that you already have</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>既に手元にあるGISデータを利用する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Download sample data from https://github.com/qgis/QGIS-Sample-Data/archive/master.zip and unzip the archive on any convenient location on your system.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>サンプルデータのアーカイブを https://github.com/qgis/QGIS-Sample-Data/archive/master.zip からダウンロードし、コンピュータの好きな場所に解凍する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Uninstall QGIS and reinstall with the data download option checked (only recommended if the above solutions are unsuccessful)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISをアンインストールし、データのダウンロードオプションを指定して再インストールする（上記の方法が失敗した場合にのみ推奨）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|nix| |osx| For GNU/Linux and macOS, there are no dataset installation packages available as rpm, deb or dmg.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|nix| |osx| GNU/LinuxやmacOSのためのrpmやdeb、dmgを使ったデータセットのインストールパッケージは提供されていません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To use the sample dataset, download it from https://github.com/qgis/QGIS-Sample-Data/archive/master.zip and unzip the archive on any convenient location on your system.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>サンプルデータセットを使用するには、 https://github.com/qgis/QGIS-Sample-Data/archive/master.zip からアーカイブをダウンロードして、コンピュータの好きな場所に解凍してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The Alaska dataset includes all GIS data that are used for the examples and screenshots in this user guide; it also includes a small GRASS database. The projection for the QGIS sample datasets is Alaska Albers Equal Area with units feet. The EPSG code is 2964.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>Alaska datasetには、このユーザーガイドのサンプルとスクリーンショットで使用されているすべてのGISデータが含まれています。また、小さなGRASSデータベースも含まれています。QGISサンプルデータセットの投影法は、フィートを単位とするAlaska Albers Equal Area図法です。EPSGコードは2964です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>If you intend to use QGIS as a graphical front end for GRASS, you can find a selection of sample locations (e.g., Spearfish or South Dakota) at the official GRASS GIS website, https://grass.osgeo.org/download/sample-data/.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>GRASS用のグラフィカルフロントエンドとしてQGISを使用したい場合は、公式のGRASS GISのウェブサイト  https://grass.osgeo.org/download/sample-data/ でサンプルlocations（例えば、Spearfish やSouth Dakota）をみつけて選択することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Starting and stopping QGIS</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISの起動と終了</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>QGIS can be started like any other application on your computer. This means that you can launch QGIS by:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISは、他のアプリケーションと同じように、次のような方法で起動することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>using |nix| the Applications menu, |win| the Start menu, or |osx| the Dock</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|nix| ではアプリケーションメニューを、 |win| ではスタートメニューを、 |osx| では Dock を使って起動する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>double clicking the icon in your Applications folder or desktop shortcut</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>アプリケーションフォルダまたはデスクトップショートカットのアイコンをダブルクリックする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>double clicking an existing QGIS project file (with :file:`.qgz` or :file:`.qgs` extension). Note that this will also open the project.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>既存のQGIS プロジェクトファイル (拡張子は :file:`.qgz` または :file:`.qgs` ) をダブルクリックする（この操作ではプロジェクトも同時に開かれることに注意してください）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>typing ``qgis`` in a command prompt (assuming that QGIS is added to your PATH or you are in its installation folder)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>コマンドプロンプトで ``qgis`` とタイプする（QGIS のインストール場所が PATH に追加されているか、インストールフォルダに移動していることが前提となります）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To stop QGIS, use:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISを終了させる場合は以下の方法を使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|nix| |win| the menu option :menuselection:`Project --&gt; Exit QGIS` or use the shortcut :kbd:`Ctrl+Q`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|nix| |win| メニューから :menuselection:`プロジェクト --&gt; QGISを終了` を選択する、またはショートカット :kbd:`Ctrlキー+Q` を使用する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>|osx| :menuselection:`QGIS --&gt; Quit QGIS`, or use the shortcut :kbd:`Cmd+Q`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|osx| メニューから :menuselection:`QGIS --&gt; QGISを終了` を選択する、またはショートカット :kbd:`Cmd+Q` を使用する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>or use the red cross at the top-right corner of the main interface of the application.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>アプリケーションのメインインターフェースの右上角にある赤いバツ印を使う</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Sample Session: Loading raster and vector layers</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>サンプルセッション：ラスタとベクタのレイヤをロードする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Now that you have :ref:`QGIS installed &lt;label_installation&gt;` and a :ref:`sample dataset &lt;label_sampledata&gt;` available, we will demonstrate a first sample session.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>さて、 :ref:`QGISをインストール &lt;label_installation&gt;` して :ref:`サンプルデータセット &lt;label_sampledata&gt;` が利用できるようになりましたので、初めてののサンプルセッションを実行してみましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In this example, we will visualize a raster and a vector layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>この例ではラスタおよびベクタレイヤを視覚化します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>We will use:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>以下のデータを使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>the :file:`landcover` raster layer (:file:`qgis_sample_data/raster/landcover.img`)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:file:`landcover` ラスタレイヤ ( :file:`qgis_sample_data/raster/landcover.img` )</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>and the :file:`lakes` vector layer (:file:`qgis_sample_data/gml/lakes.gml`)</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:file:`lakes` ベクタレイヤ (:file:`qgis_sample_data/gml/lakes.gml`)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Where :file:`qgis_sample_data` represents the path to the unzipped dataset.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:file:`qgis_sample_data` はデータセットを解凍したフォルダのパスを意味します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Start QGIS as seen in :ref:`label_startingqgis`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:ref:`label_startingqgis` で説明されている方法でQGISを起動します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To load the files in QGIS:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGIS にファイルをロードします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click on the |dataSourceManager| :sup:`Open Data Source Manager` icon.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|dataSourceManager| :sup:`データソースマネージャを開く` アイコンをクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The Data Source Manager should open in Browser mode.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>データソースマネージャがブラウザモードで開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Browse to the folder :file:`qgis_sample_data/raster/`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:file:`qgis_sample_data/raster/` フォルダに移動します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Select the ERDAS IMG file :file:`landcover.img` and double-click it.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ERDAS IMGファイル :file:`landcover.img` を選択してダブルクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>The landcover layer is added in the background while the Data Source Manager window remains open.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>データソースマネージャウィンドウを開いたまま、landcoverレイヤがバックグラウンドで追加されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Adding data to a new project in QGIS</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>新しいQGISプロジェクトにデータを追加する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To load the lakes data, browse to the folder :file:`qgis_sample_data/gml/`, and double-click the :file:`lakes.gml` file to open it.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>lakes データをロードするには、 :file:`qgis_sample_data/gml/` フォルダに移動し、 :file:`lakes.gml` をダブルクリックして開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>A :guilabel:`Coordinate Reference System Selector` dialog opens. In the :guilabel:`Filter` menu, type ``2964``, filtering the list of Coordinate Reference Systems below.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`座標参照系の選択` ダイアログが開きます。 :guilabel:`フィルター` メニューで ``2964`` と打ち込んでください。フィルタされた座標参照系のリストが下に表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Select the Coordinate Reference System of data</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>データの座標参照系を選択する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Select the :guilabel:`NAD27 / Alaska Alberts` entry</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`NAD27 / Alaska Alberts` を選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click :guilabel:`OK`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`OK` をクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Close the Data Source Manager window</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>データソースマネージャウィンドウを閉じます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You now have the two layers available in your project in some random colours. Let's do some customization on the lakes layer.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>これでプロジェクトで2つのレイヤを使用できるようになりました。レイヤはQGISによってランダムな配色がされています。では、 lakesレイヤーをカスタマイズしてみましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Select the |zoomIn| :sup:`Zoom In` tool on the :guilabel:`Navigation` toolbar</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`ナビゲーション` ツールバーで |zoomIn| :sup:`拡大` ツールを選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Zoom to an area with some lakes</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>湖がある場所にズームします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Double-click the :file:`lakes` layer in the map legend to open the :guilabel:`Properties` dialog</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:file:`lakes` レイヤをレイヤパネルでダブルクリックして :guilabel:`レイヤプロパティ` ダイアログを開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To change the lakes color:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>湖の色を変えてみます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click on the |symbology| :guilabel:`Symbology` tab</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|symbology| :guilabel:`シンボロジ` タブをクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Select blue as fill color.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>塗りつぶし色として青を選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Selecting Lakes color</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>湖の色を選択する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Press :guilabel:`OK`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`OK` を押します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Lakes are now displayed in blue in the map canvas.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>地図キャンバスで湖が青で表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To display the name of the lakes:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>湖の名前を表示します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Reopen the :file:`lakes` layer :guilabel:`Properties` dialog</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:file:`lakes` レイヤで :guilabel:`レイヤプロパティ` ダイアログを再度開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click on the |labeling| :guilabel:`Labels` tab</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|labeling| :guilabel:`ラベル` タブをクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Select :guilabel:`Single labels` in the drop-down menu to enable labeling.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ドロップダウンメニューで :guilabel:`単一定義(single )` を選択するとラベリングが有効になります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>From the :guilabel:`Label with` list, choose the ``NAMES`` field.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`値` リストから ``NAMES`` フィールドを選びます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Showing Lakes names</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>湖の名前を表示する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Press :guilabel:`Apply`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`Apply` を押します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Names will now load over the boundaries.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>すると名前が湖の領域の上に表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can improve readability of the labels by adding a white buffer around them:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ラベルに白い縁取り(バッファ)を加えて読みやすくすることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click the :guilabel:`Buffer` tab in the list on the left</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>左のリストで :guilabel:`バッファ` タブをクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Check |checkbox| :guilabel:`Draw text buffer`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>|checkbox| :guilabel:`テキストバッファを描画` にチェックを入れます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Choose ``3`` as buffer size</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>サイズを ``3`` にします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click :guilabel:`Apply`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`Apply` をクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Check if the result looks good, and update the value if needed.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>出来栄えを確認して必要なら値を変更します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Finally click :guilabel:`OK` to close the :guilabel:`Layer Properties` dialog and apply the changes.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>最後に :guilabel:`OK` をクリックして :guilabel:`レイヤプロパティ` ダイアログを閉じ、変更を適用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Let's now add some decorations in order to shape the map and export it out of QGIS:</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>今度は、地図の見栄えを整えるためにいくつか整飾を加えて、QGISからエクスポートしてみましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Select :menuselection:`View --&gt; Decorations --&gt; Scale Bar` menu</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>メニューから :menuselection:`ビュー --&gt; 地図整飾 --&gt; スケールバー`  を選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>In the dialog that opens, check |checkbox| :guilabel:`Enable Scale Bar` option</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>開いたダイアログで、 |checkbox| :guilabel:`スケールバーを有効にする` にチェックを入れます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Customize the options of the dialog as you want</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>好みにあわせてダイアログのオプションを設定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Press :guilabel:`Apply`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>:guilabel:`Apply` を押します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Likewise, from the decorations menu, add more items (north arrow, copyright...) to the map canvas with custom properties.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>同様に地図整飾メニューから、さらに方位記号、著作権ラベルなどのアイテムを、属性を調整して地図キャンバスに追加できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Click :menuselection:`Project --&gt; Import/Export --&gt;` |saveMapAsImage| :menuselection:`Export Map to Image...`</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>メニューから :menuselection:`プロジェクト --&gt; インポートとエクスポート --&gt;` |saveMapAsImage| :menuselection:`地図を画像にエキスポート...` を選びます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Press :guilabel:`Save` in the opened dialog</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>開いたダイアログで :guilabel:`Save` を押します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Select a file location, a format and confirm by pressing :guilabel:`Save` again.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>ファイルの保存場所とフォーマットを選択し、再度 :guilabel:`保存` を押して確定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Press :menuselection:`Project --&gt;` |fileSave| :menuselection:`Save...` to store your changes as a :file:`.qgz` project file.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>変更を :file:`.qgz` プロジェクトファイルに保存する場合は、 :menuselection:`プロジェクト --&gt;` |fileSave| :menuselection:`保存...` を選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>That's it!</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>どうでしたか？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>You can see how easy it is to visualize raster and vector layers in QGIS, configure them and generate your map in an image format you can use in other softwares.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISでラスタ・ベクタレイヤを視覚化し設定し、他のソフトウェアで使用できる画像フォーマットで地図を作成するのがどれほど簡単か、わかったと思います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>Let's move on to learn more about the available functionality, features and settings, and how to use them.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>引き続きQGISで使える機能や特徴、設定、およびその使用方法についてさらに学んでいきましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv xml:lang="en">
+        <seg>To continue learning QGIS through step-by-step exercises, follow the :ref:`Training manual &lt;QGIS-training-manual-index-reference&gt;`.</seg>
+      </tuv>
+      <tuv xml:lang="ja">
+        <seg>QGISをステップバイステップの演習で勉強したい場合は :ref:`トレーニングマニュアル &lt;QGIS-training-manual-index-reference&gt;` を参照して下さい。</seg>
+      </tuv>
+    </tu>
+  </body>
+</tmx>
