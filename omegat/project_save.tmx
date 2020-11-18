@@ -2406,6 +2406,30 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>:ref:`Check your results &lt;wms-1&gt;`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075403Z" creationid="miurahr" creationdate="20201118T075403Z">
+        <seg>:ref:`結果の確認 &lt;wms-1&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:ref:`Check your results &lt;wms-2&gt;`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075406Z" creationid="miurahr" creationdate="20201118T075406Z">
+        <seg>:ref:`結果の確認 &lt;wms-2&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>:ref:`Check your results &lt;wms-3&gt;`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075413Z" creationid="miurahr" creationdate="20201118T075413Z">
+        <seg>:ref:`結果の確認 &lt;wms-3&gt;`</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>:ref:`See why &lt;database-concepts-5&gt;`</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T034616Z" creationid="miurahr" creationdate="20201118T034616Z">
@@ -2942,6 +2966,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>A link to activate each inactive provider is also shown.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094358Z" creationid="miurahr" creationdate="20201118T094358Z">
+        <seg>これらは、明るいグレーで表示されます。各非アクティブプロバイダをアクティブにするリンクも表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>A list of the available layers will appear:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T054257Z" creationid="miurahr" creationdate="20201118T054257Z">
@@ -3110,6 +3142,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>A reprojection is needed.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094055Z" creationid="miurahr" creationdate="20201118T094055Z">
+        <seg>再投影が必要とされています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>A rivers layer added to the map view</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T134413Z" creationid="miurahr" creationdate="20201117T134413Z">
@@ -3178,6 +3218,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222521Z" creationid="miurahr" creationdate="20201117T222521Z">
         <seg>傾斜方向図は、次に、ラスター等高線図からr.slope.aspectを用いて作製しました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>A slope layer can be computed with the *Slope, Aspect, Curvature* algorithm, but the DEM obtained in the last step is not suitable as input, since elevation values are in meters but cellsize is not expressed in meters (the layer uses a CRS with geographic coordinates).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094054Z" creationid="miurahr" creationdate="20201118T094054Z">
+        <seg>傾斜レイヤーは *傾斜・方向・曲率* アルゴリズムを用いて計算できますが、標高値はメート    ル単位ですがセルサイズはメートルで表現されていないため、最後の工程で得られたDEMは入力として適していません（レイヤーは地理座標を持つCRS使用して）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3638,6 +3686,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Add rows up to a total of 5.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075605Z" creationid="miurahr" creationdate="20201118T075605Z">
+        <seg>行を合計5行になるまで追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Add the :guilabel:`bluemarble` layer.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075405Z" creationid="miurahr" creationdate="20201118T075405Z">
+        <seg>:guilabel:`bluemarble` レイヤーを追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Add the background raster :file:`basic_map.tif` that you can find in the :file:`exercise_data\\forestry\\` folder.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T215521Z" creationid="miurahr" creationdate="20201117T215521Z">
@@ -3770,6 +3834,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>シェープファイルにデータを追加する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Adding features from remote servers is possible by using a Web Feature Service (WFS).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075425Z" creationid="miurahr" creationdate="20201118T075425Z">
+        <seg>リモートサーバから地物を追加することは、ウェブ地物サービス（WFS）を使用することにより可能です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4054,6 +4126,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Algorithms performs no reprojection (except in the reprojection algorithm that we will see next), so it is up to you to make sure that layers have matching CRS's.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T093935Z" creationid="miurahr" creationdate="20201118T093935Z">
+        <seg>アルゴリズムでは（次に見る再投影アルゴリズムを除いて）何も再投影を行わないので、レイヤーのCRSが一致していることを確認することは自己責任です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>All algorithms have a similar interface, which basically contains input parameters that you have to fill, and outputs that you have to select where to store.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094426Z" creationid="miurahr" creationdate="20201118T094426Z">
+        <seg>アルゴリズムはすべて同様のインターフェイスを持っていて、基本的に記入しなければならない入力パラメーターと、どこに保存するか選択する必要がある出力が含まれています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>All class members should be private.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T114017Z" creationid="miurahr" creationdate="20201117T114017Z">
@@ -4211,6 +4299,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T024955Z" creationid="miurahr" creationdate="20201118T024924Z">
         <seg>同時にQGISはこのファイルの :func:`classFactory()` 関数を必要とします。この関数はプラグインがQGISに読み込まれる時に呼ばれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Also, if you do not want the layer to be loaded in QGIS after it is generated, you can check off the checkbox that is found below the output path box.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094448Z" creationid="miurahr" creationdate="20201118T094448Z">
+        <seg>また、レイヤーが作成された後QGISにロードしたくない場合は、出力パスボックスの下に発見されるチェックボックスをオフにできます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4407,6 +4503,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>An interesting module that deals with CRS's is the reprojection one.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T093936Z" creationid="miurahr" creationdate="20201118T093936Z">
+        <seg>CRSを扱う興味深いモジュールは再投影のモジュールです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>An old lidar plugin might be installed by default in your system in the folder :file:`C:/Program Files/QGIS Valmiera/apps/qgis/python/plugins/processing/`.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T034731Z" creationid="miurahr" creationdate="20201118T034731Z">
@@ -4467,6 +4571,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>またローカルリポジトリ中の ``master`` ブランチを更新して最新の状態を保つことも忘れないでください！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>And here is the resulting slope layer.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094100Z" creationid="miurahr" creationdate="20201118T094100Z">
+        <seg>そして、これが結果の傾斜レイヤーです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4903,6 +5015,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>As we have already mentioned, the processing framework can run algorithms from other applications, but it also contains native algorithms that need no external software to be run.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094237Z" creationid="miurahr" creationdate="20201118T094237Z">
+        <seg>すでに述べたように、処理フレームワークは、他のアプリケーションからのアルゴリズムを実行できますが、それはまた、実行すべき外部ソフトウェアを必要としないネイティブのアルゴリズムが含まれています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>As we saw in the previous topic on vector geometry, it is a bad idea to digitise your data when you are zoomed out to a scale of 1:1000 000 if you intend to use the data you capture at a scale of 1:50 000 later.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124019Z" creationid="miurahr" creationdate="20201117T124019Z">
@@ -5039,6 +5159,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>As you see the batch processing interface can be run not just to run the same process on different datasets but also on the same dataset with different parameters.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075607Z" creationid="miurahr" creationdate="20201118T075607Z">
+        <seg>おわかりのようにバッチ処理インターフェイスは、異なるデータセットに同じプロセスを実行するだけでなく、異なるパラメーターで同じデータセットに同じプロセスを実行するために実行できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Ask them to try to think of 3 reasons why it might be handy to use a GIS instead of paper maps.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135300Z" creationid="miurahr" creationdate="20201117T135300Z">
@@ -5115,6 +5243,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123621Z" creationid="miurahr" creationdate="20201117T123621Z">
         <seg>一定間隔で止まって、溶存酸素（DO）レベル、大腸菌群（CB）カウント、濁度レベルおよびpHなどの様々な測定値を取ることでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>At the bottom of the dialog, an additional label shows that there are algorithms that match your search but belong to a provider that is not active.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094339Z" creationid="miurahr" creationdate="20201118T094328Z">
+        <seg>ダイアログの下部に追加のラベルが表示され、検索に一致するがアクティブではないプロバイダに属するアルゴリズムがあることが示されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5591,6 +5727,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Beware, this chapter is not well tested, please report any issue; images are missing</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075557Z" creationid="miurahr" creationdate="20201118T075557Z">
+        <seg>注意してください。この章はよく検証されていないため、どんな問題でも報告してください。画像は欠けています</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Black</seg>
       </tuv>
       <tuv lang="ja">
@@ -5627,6 +5771,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135739Z" creationid="miurahr" creationdate="20201117T135739Z">
         <seg>どちらの地図も同じサイズですが縮尺が異なります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Both of them are easily solvable with the appropriate geoalgorithms.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T093955Z" creationid="miurahr" creationdate="20201118T093955Z">
+        <seg>それらの両方が適切な地理アルゴリズムで簡単に解決できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6079,6 +6231,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>CRS's are a great source of confusion for QGIS Processing users, so here are some general rules about how they are handled by geoalgorithms when creating a new layer.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075615Z" creationid="miurahr" creationdate="20201118T075615Z">
+        <seg>CRSはQGISプロセッシングのユーザーにとって大いなる混乱の源です。だからここに新しいレイヤーを作成するときにそれらが地理アルゴリズムでどのように扱われるかについてのいくつかの一般的なルールがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Calculating the area for each polygon</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T034244Z" creationid="miurahr" creationdate="20201118T034244Z">
@@ -6163,6 +6323,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T031936Z" creationid="miurahr" creationdate="20201118T031936Z">
         <seg>分類シンボルレンダラー</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Cells in a row correspond to the parameter needed by the algorithm, which are not arranged one above the other, as in the normal single--execution dialog, but horizontally in that row.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075502Z" creationid="miurahr" creationdate="20201118T075502Z">
+        <seg>行のセルはアルゴリズムによって必要とされるパラメーターに対応します。これは、通常の単一実行ダイアログの中でのように互いに上下にではなく、その行に水平に配置されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6927,6 +7095,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Click on *OK* and the batch process will be run.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075546Z" creationid="miurahr" creationdate="20201118T075546Z">
+        <seg>*OK* をクリックするとバッチ処理が実行されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Click on *OK* and you should get 5 new layers with watersheds corresponding to the specified 5 threshold values.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075608Z" creationid="miurahr" creationdate="20201118T075608Z">
+        <seg>*OK* をクリックすると、指定された5つのしきい値に対応する流域を持つ5つの新しいレイヤーが得られます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Click on :guilabel:`Create pull request`.</seg>
       </tuv>
       <tuv lang="ja">
@@ -7043,6 +7227,22 @@
       </tuv>
       <tuv lang="ja">
         <seg>参照ボタンをクリックします (:guilabel:`image` フィールドの横の :guilabel:`...`)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Click on the button in the upper cell and, in a folder where you want to put your output files, enter a filename (for instance, ``reprojected.shp``).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075533Z" creationid="miurahr" creationdate="20201118T075533Z">
+        <seg>上部セル内のボタンをクリックし、出力ファイルを置きたいフォルダにファイル名を入力します（例えば、 ``reprojected.shp`` ）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Click on the button in the upper-left cell, and in the file selection dialog that will popup, select the three files to reproject.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075518Z" creationid="miurahr" creationdate="20201118T075518Z">
+        <seg>左上のセル内のボタンをクリックし、ポップアップするファイル選択ダイアログで、再投影する3つのファイルを選択します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7227,6 +7427,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T034024Z" creationid="miurahr" creationdate="20201118T034024Z">
         <seg>ラスターのクリップ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Clipping and merging raster layers</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T093946Z" creationid="miurahr" creationdate="20201118T093946Z">
+        <seg>ラスターレイヤーをクリップしてマージする</seg>
       </tuv>
     </tu>
     <tu>
@@ -8367,6 +8575,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Defining extents</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094136Z" creationid="miurahr" creationdate="20201118T094136Z">
+        <seg>範囲を定義する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Defining the batch process to run is one by filling the table with the corresponding values, and the dialog itself contains several tools to make this task easier.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075504Z" creationid="miurahr" creationdate="20201118T075504Z">
+        <seg>実行するバッチ・プロセスを定義すると、対応する値を持つテーブルを充填することによって一つであり、ダイアログ自体は、この作業を容易にするためにいくつかのツールが含まれています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Defining unique value symbology for roads based on the road type.</seg>
       </tuv>
       <tuv lang="ja">
@@ -8975,6 +9199,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Each external application has its own configuration, and later in this same manual we will talk about some of the other ones, but SAGA is going to be our main backend, so we will discuss it here.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094508Z" creationid="miurahr" creationdate="20201118T094508Z">
+        <seg>それぞれの外部アプリケーションは独自の構成を有しており、この後の同じマニュアルでは他のもののいくつかについて話しますが、SAGAは当社の主要なバックエンドになるだろうので、ここではそれを説明します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Each lesson will be subdivided into multiple sections, which will be addressed next.</seg>
       </tuv>
       <tuv lang="ja">
@@ -9019,6 +9251,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150156Z" creationid="miurahr" creationdate="20201117T150156Z">
         <seg>各レコードには、テーブル内の各列のフィールドがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Each row in the table of the batch processing dialog represents a single execution of the algorithm.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075451Z" creationid="miurahr" creationdate="20201118T075451Z">
+        <seg>バッチ処理ダイアログのテーブルの各行は、アルゴリズムの単一の実行を表します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9519,6 +9759,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Except in the case of some special algorithms (for instance, reprojection ones), the outputs will also have that same CRS.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094444Z" creationid="miurahr" creationdate="20201118T094444Z">
+        <seg>いくつかの特別なアルゴリズム（例えば、再投影のアルゴリズム）の場合を除き、出力も同じCRSを持つでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Exciting possibilities lie ahead when principles of free sharing of knowledge and data are embraced.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135956Z" creationid="miurahr" creationdate="20201117T135956Z">
@@ -9807,6 +10055,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Fill the parameters dialog as shown next, and press *OK*.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094214Z" creationid="miurahr" creationdate="20201118T094214Z">
+        <seg>次に示すようにパラメーターダイアログボックスを入力し、 *OK* を押してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Filtering</seg>
       </tuv>
       <tuv lang="ja">
@@ -9923,6 +10179,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T035207Z" creationid="miurahr" creationdate="20201118T035207Z">
         <seg>最後に、:kbd:`forest_stands`と :kbd:`rautjarvi_georef` を除くすべてのレイヤーの可視性をオフにします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Finally, we have to select an output file for each execution, which will contain the corresponding reprojected layer.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075530Z" creationid="miurahr" creationdate="20201118T075530Z">
+        <seg>最後に、対応する再投影レイヤーが含まれています、各実行のための出力ファイルを選択する必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10055,6 +10319,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>First, let's open an algorithm that requires an extent to be defined.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094142Z" creationid="miurahr" creationdate="20201118T094142Z">
+        <seg>まずは、定義する範囲を必要とするアルゴリズムを開いてみましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>First, let's think about the geometry.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123601Z" creationid="miurahr" creationdate="20201117T123601Z">
@@ -10063,10 +10335,34 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>First, open the QGIS project corresponding to this lesson.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094241Z" creationid="miurahr" creationdate="20201118T094241Z">
+        <seg>まず、このレッスンに対応するQGISプロジェクトを開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>First, the plugin manager needs to retrieve some basic information about the plugin such as its name, description etc.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T024653Z" creationid="miurahr" creationdate="20201118T024653Z">
         <seg>最初に、そのプラグインの名前や説明といった基本的な情報を、プラグインマネージャは検索する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>First, we create a rectangle defining the area that we want.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T093956Z" creationid="miurahr" creationdate="20201118T093956Z">
+        <seg>まず、望む領域を定義する矩形を作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>First, we need to configure everything so QGIS can correctly call SAGA.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094506Z" creationid="miurahr" creationdate="20201118T094506Z">
+        <seg>まず、QGISから正しくSAGAを呼び出せるように、すべてのものを設定する必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10847,6 +11143,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>For this example, we will use the *Reproject algorithm*, so find it and do as described above.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075435Z" creationid="miurahr" creationdate="20201118T075435Z">
+        <seg>この例では、 *再投影アルゴリズム* を使用するので、前述したようにそれを見つけて実行します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>For this exercise you will use a previously scanned map, you can find it as :kbd:`rautjarvi_map.tif` in the data folder :kbd:`exercise_data/forestry`</seg>
       </tuv>
       <tuv lang="ja">
@@ -10867,6 +11171,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T054423Z" creationid="miurahr" creationdate="20201118T054423Z">
         <seg>この演習では、コースの開始時に作られた基本地図を使用するか、または単に新しい地図を開始し、その中にいくつかの既存のレイヤを読み込むことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For this lesson, we are going to calculate a slope layer for an area surrounding a city area, which is given in a vector layer with a single polygon.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T093948Z" creationid="miurahr" creationdate="20201118T093948Z">
+        <seg>このレッスンでは、ポリゴン１つだけのベクターレイヤーによって与えられる市街地を囲む領域に対して傾斜レイヤーを計算しようとしています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11251,6 +11563,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>SIP ファイルを生成する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Geoalgorithms assumes all input layers share the same CRS and do not perform any reprojection.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094443Z" creationid="miurahr" creationdate="20201118T094443Z">
+        <seg>Geoalgorithmsでは、すべての入力レイヤーが同じCRSを共有し何も再投影を行わないことを前提とします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11903,6 +12223,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Here is the resulting bounding box obtained using the parameters shown above</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094002Z" creationid="miurahr" creationdate="20201118T094002Z">
+        <seg>これが上に示したパラメーターを用いて得られた結果のバウンディングボックスです</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Here is what the correct output will look like:</seg>
       </tuv>
       <tuv lang="ja">
@@ -11939,6 +12267,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T024652Z" creationid="miurahr" creationdate="20201118T024652Z">
         <seg>ここでは、上記のファイル構造中のそれぞれのファイルに何を書けばよいか、その情報と実例を提供します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Here you can select the extent of the canvas (the extent covered by the current zoom), or the extension any of the available layers.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094201Z" creationid="miurahr" creationdate="20201118T094201Z">
+        <seg>ここでは、キャンバス（現在のズームでカバー範囲）の範囲、または拡張可能なレイヤーのいずれかを選択できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12111,6 +12447,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>However, if there are several layers to merge and they have a rather big size, you will end up with a large layer than it can later be difficult to process.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094036Z" creationid="miurahr" creationdate="20201118T094027Z">
+        <seg>しかしながら、マージする複数のレイヤーがあってそれらがかなり大きなサイズを持っている場合、それが後工程に処理が困難であるよりも大きなレイヤーになってしまいます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>However, if you cease all violation of this License, then your license from a particular copyright holder is reinstated (a) provisionally, unless and until the copyright holder explicitly and finally terminates your license, and (b) permanently, if the copyright holder fails to notify you of the violation by some reasonable means prior to 60 days after the cessation.</seg>
       </tuv>
       <tuv lang="ja">
@@ -12187,6 +12531,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135458Z" creationid="miurahr" creationdate="20201117T135458Z">
         <seg>ですが、GISについて正しく理解する目的ならば、コンピュータを使って学ぶ方がよいでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>However, when there are several input layers, the min covering extent does not correspond to any of the input layer extent, since it is computed from all of them together.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094212Z" creationid="miurahr" creationdate="20201118T094212Z">
+        <seg>複数の入力レイヤーが存在する場合、それは一緒にそれらの全てから計算されるので、範囲をカバーする最小は、入力レイヤーの範囲のいずれにも該当しません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12367,6 +12719,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If everything went fine, all your layers will have been processed, and 3 new layers would have been created.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075547Z" creationid="miurahr" creationdate="20201118T075547Z">
+        <seg>すべてがうまくいった場合は、すべてのレイヤーが処理され、3つの新しいレイヤーが作成されているでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If for some reason you don't want to snap to the grid at some point, you can always check or uncheck it in the :menuselection:`View` menu.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T215401Z" creationid="miurahr" creationdate="20201117T215401Z">
@@ -12535,6 +12895,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If the extension of the filepath you entered does not match any of the supported ones, a default extension (usually :file:`.dbf` for tables, :file:`.tif` for raster layers and :file:`.shp` for vector ones) will be appended to the filepath and the file format corresponding to that extension will be used to save the layer or table.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094433Z" creationid="miurahr" creationdate="20201118T094433Z">
+        <seg>入力したファイルパスの拡張子は、サポートされているもののいずれかと一致しない場合は、デフォルトの拡張子（通常はテーブルに対して :file:`.dbf` 、ラスターレイヤーに対して :file:`.tif` ベクターレイヤーに対して :file:`.shp` ）がファイルパスに追加され、その拡張子に対応するファイル形式がレイヤーまたはテーブルを保存するために使用されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If the image is poorly georeferenced (as shown on the right) the features will not be well aligned.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124016Z" creationid="miurahr" creationdate="20201117T124016Z">
@@ -12595,6 +12963,22 @@
       </tuv>
       <tuv lang="ja">
         <seg>QGISに送信する前に追加の変更が必要な場合は、次の手順に従ってください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If there are algorithms that match your search but belong to a provider that is not active, an additional label will be shown in the lower part of the toolbox.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094311Z" creationid="miurahr" creationdate="20201118T094311Z">
+        <seg>検索に一致するがアクティブではないプロバイダに属するアルゴリズムがある場合、追加のラベルがツールボックスの下部に表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If there are input layers, it will use the CRS of the first layer.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075616Z" creationid="miurahr" creationdate="20201118T075616Z">
+        <seg>入力レイヤーが存在する場合は、最初のレイヤーのCRSが使用されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12767,6 +13151,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If you are on Windows, the best way to work with external algorithms is to install QGIS using the standalone installer.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094509Z" creationid="miurahr" creationdate="20201118T094509Z">
+        <seg>Windowsである場合は、外部のアルゴリズムで作業するための最良の方法は、スタンドアロンのインストーラを使用してQGISをインストールすることです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If you are referring to a GUI item, such as a button, you must write its name in :guilabel:`the GUI label format`.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141630Z" creationid="miurahr" creationdate="20201117T141630Z">
@@ -12827,6 +13219,22 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T032514Z" creationid="miurahr" creationdate="20201118T032514Z">
         <seg>そうすることを選択した場合は、ローカライズされたデータが、モジュール3からモジュール7.2のすべてのレッスンで使用されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If you click on the link in that label, the list of algorithms will also include results from those inactive providers, which will be shown in light gray.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094348Z" creationid="miurahr" creationdate="20201118T094348Z">
+        <seg>そのラベルのリンクをクリックすると、アルゴリズムのリストには、これらの非アクティブプロバイダの結果も表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If you create a project with an output that was saved as a temporary output, QGIS will complain when you try to open back the project later, since that output file will not exist.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094438Z" creationid="miurahr" creationdate="20201118T094438Z">
+        <seg>一時的な出力として保存された出力を持つプロジェクトを作成する場合は、後でプロジェクトをバック開こうとすると、出力ファイルが存在しないので、QGISは、文句を言うでしょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12927,6 +13335,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If you go to its attribute table, you will see values that are different to the ones in the first layer that we created.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T093928Z" creationid="miurahr" creationdate="20201118T093928Z">
+        <seg>その属性テーブルに行くと、最初に作成したレイヤーのものとは異なる値が表示されるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If you have Invariant Sections without Cover Texts, or some other combination of the three, merge those two alternatives to suit the situation.</seg>
       </tuv>
       <tuv lang="ja">
@@ -12951,6 +13367,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If you have a look at the data for this lesson, you will see that it contains a set of three shapefiles, but no QGIS project file.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075442Z" creationid="miurahr" creationdate="20201118T075442Z">
+        <seg>このレッスンのためのデータを見てみると、3つのシェープファイルのセットは含むが、QGISプロジェクトファイルが含まれていないことがわかります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If you have a small scale map (which covers a large area), it may make sense to represent a city using a point feature.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140753Z" creationid="miurahr" creationdate="20201117T140753Z">
@@ -12963,6 +13387,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T021024Z" creationid="miurahr" creationdate="20201118T021024Z">
         <seg>すでに新しい :kbd:`street` オブジェクトを追加している場合、新しい :kbd:`主要道路` のIDは :kbd:`2` でなく :kbd:`3` だったということがあるかもしれません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If you have installed QGIS not using the standalone installer, then you must enter the path to your SAGA installation (which you must have installed separately) there.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094514Z" creationid="miurahr" creationdate="20201118T094514Z">
+        <seg>スタンドアロンインストーラを使用していないQGISをインストールしている場合は、そこ（個別にインストールされている必要があります）SAGAのインストールへのパスを入力する必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13071,6 +13503,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If you open the attributes table of the new layer you will see that it contains two new fields with the X and Y coordinates of each point.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T093922Z" creationid="miurahr" creationdate="20201118T093922Z">
+        <seg>新しいレイヤーの属性テーブルを開くと、それが各ポイントのXとY座標を持つ2つの新しいフィールドが含まれていることがわかります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If you open the project corresponding to this lesson, you will see something like this.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T093951Z" creationid="miurahr" creationdate="20201118T093951Z">
+        <seg>このレッスンに対応したプロジェクトを開くと、次のように表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If you plan to upload the plugin to the :ref:`official_pyqgis_repository` you must check that your plugin follows some additional rules, required for plugin :ref:`official_pyqgis_repository_validation`</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T024650Z" creationid="miurahr" creationdate="20201118T024650Z">
@@ -13119,6 +13567,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If you right click on the name of the layer and open its properties, you will see that it shares the same CRS of the input layer, that is, EPSG:4326.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T093920Z" creationid="miurahr" creationdate="20201118T093920Z">
+        <seg>4326：右のレイヤーの名前をクリックすると、そのプロパティを開くと、それが入力レイヤーの同じCRSを共有していることがわかります、それは、EPSGです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If you scroll down in the :guilabel:`Info` tab, you can see more information about the :guilabel:`Fields`, :guilabel:`Constraints` and :guilabel:`Indexes` for the table you are viewing.</seg>
       </tuv>
       <tuv lang="ja">
@@ -13135,6 +13591,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If you select any of the other ones, all the rows below will be filled with a given pattern.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075538Z" creationid="miurahr" creationdate="20201118T075538Z">
+        <seg>他のいずれかを選択した場合は、以下のすべての行は、与えられたパターンで埋められます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If you select the first option, only the current cell will be filled.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075537Z" creationid="miurahr" creationdate="20201118T075537Z">
+        <seg>最初のオプションを選択した場合のみ、現在のセルが入力されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If you take a colour photograph with a digital camera or camera on a cellphone, the camera uses electronic sensors to detect red, green and blue light.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140319Z" creationid="miurahr" creationdate="20201117T140319Z">
@@ -13147,6 +13619,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135942Z" creationid="miurahr" creationdate="20201117T135942Z">
         <seg>コンピュータや携帯電話を使用する際に、あなたは気づかずにある種のGISを使ったことがあるのです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If you use layers with unmatching CRS's, QGIS will warn you about it.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T093803Z" creationid="miurahr" creationdate="20201118T093803Z">
+        <seg>CRS不一致のレイヤーを使用している場合は、それについてQGISから警告が表示されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13187,6 +13667,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>すでに作成済みのプラグインをプロセッシングに追加したい場合は、さらにコードを追加する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If you want to fill the entries manually, you can add more rows using the *Add row* button.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075523Z" creationid="miurahr" creationdate="20201118T075523Z">
+        <seg>手動でエントリを記入したい場合は、 *行を追加* ボタンを使用して複数の行を追加できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13767,6 +14255,30 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In case you are using Linux, you do not have to set the path to your SAGA installation in the processing configuration.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094516Z" creationid="miurahr" creationdate="20201118T094516Z">
+        <seg>Linuxを使用しているケースでは、処理構成でSAGAのインストールへのパスを設定する必要はありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In case you calculated it in radians, the *Metric conversions* algorithm will help us to do the conversion (but in case you didn't know that algorithm existed, you could use the raster calculator that we have already used).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094126Z" creationid="miurahr" creationdate="20201118T094126Z">
+        <seg>ラジアンでそれを計算した場合は、 *メトリック変換* アルゴリズムが変換を行うのに役立ちます（しかし、そのアルゴリズムが存在してると知らなかった場合は、すでに使用しているラスター計算機を使用できたでしょう）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In case you want to set a destination and not save the result in a temporary file, the format of the output is defined by the filename extension.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094431Z" creationid="miurahr" creationdate="20201118T094431Z">
+        <seg>保存先を設定してかつ一時ファイルに結果を保存しないようにしたい場合には、出力の形式は、ファイル名の拡張子によって定義されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In case you would like to do only temporary changes, skip to the next section that explains how to do :ref:`modifications with editing buffer &lt;editing-buffer&gt;`.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T031451Z" creationid="miurahr" creationdate="20201118T031451Z">
@@ -13991,6 +14503,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In other words, do not trust what you see in the canvas, but always have in mind that the original data will be used.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T093933Z" creationid="miurahr" creationdate="20201118T093933Z">
+        <seg>言い換えれば、キャンバスに見えるものは信用しないで、元のデータが使用されるだろうことを常に念頭に置いてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In other words, having proper symbology is not a luxury or just nice to have.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T033401Z" creationid="miurahr" creationdate="20201118T033401Z">
@@ -14043,6 +14563,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222246Z" creationid="miurahr" creationdate="20201117T222246Z">
         <seg>私たちの地域、アルゼンチンのパタゴニアでは、私たちは、領土問題や環境問題に向き合う手段としての地理的な知識の構築のための高等学校におけるGISの応用については少ししか参照がありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In particular, we are going to calculate the centroids of set of polygons.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094240Z" creationid="miurahr" creationdate="20201118T094240Z">
+        <seg>特に、ポリゴンの集合の重心を計算するつもりです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14103,6 +14631,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In some cases, the last option, *Use min covering extent from input layers*, might not be available.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094219Z" creationid="miurahr" creationdate="20201118T094219Z">
+        <seg>場合によっては、最後のオプション *入力レイヤーから最小カバー範囲を使用* が使用できないことがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In such cases do not prefix the member with an ``m``.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T091642Z" creationid="miurahr" creationdate="20201117T091642Z">
@@ -14115,6 +14651,30 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T145604Z" creationid="miurahr" creationdate="20201117T145604Z">
         <seg>このような場合は、自身の新しいデータを作成する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In that case, you might have to call the clipping algorithm several times, which might be time consuming, but don't worry, we will soon see that there are some additional tools to automate that operation.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094047Z" creationid="miurahr" creationdate="20201118T094047Z">
+        <seg>その場合はクリッピングアルゴリズムを数回呼び出す必要があります。時間がかかるかもしれませんが、心配しないで。その操作を自動化するためにいくつかの追加のツールがあることがすぐにわかりますから。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In that case, you might want to actually create a new layer from the selection, and then use it as input.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094224Z" creationid="miurahr" creationdate="20201118T094224Z">
+        <seg>その場合は、実際に選択から新しいレイヤーを作成しそれを入力として使用したいかもしれません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In that case, you will have to enter the value manually or use any of the other options.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094222Z" creationid="miurahr" creationdate="20201118T094222Z">
+        <seg>その場合は、手動で値を入力するか、他のオプションのいずれかを使用する必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14327,6 +14887,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In the case of a single input layer, as in the algorithm we are running, the same extent can be obtained by selecting that same input layer in the *Use layer/canvas extent* that we already saw.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094210Z" creationid="miurahr" creationdate="20201118T094210Z">
+        <seg>単一の入力レイヤーの場合には、実行されているアルゴリズムのように、同じ程度には、すでに見た *レイヤー/キャンバス範囲を使用* で同じ入力レイヤーを選択することによって得ることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In the case of points, it adds new columns with the X and Y coordinates of each point.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T093900Z" creationid="miurahr" creationdate="20201118T093900Z">
+        <seg>点の場合には、各点のX及びY座標で新しい列を追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In the center is a color 1759 Cassini map of the area.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T225212Z" creationid="miurahr" creationdate="20201117T225212Z">
@@ -14443,6 +15019,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T074958Z" creationid="miurahr" creationdate="20201118T074958Z">
         <seg>以下のリストに、今これらの新しいエントリがロードされるはずです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In the list of available layers that you will find in the input layer field, you will see each one with its corresponding CRS.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T093901Z" creationid="miurahr" creationdate="20201118T093901Z">
+        <seg>入力レイヤーのフィールドに見つかる使用可能なレイヤーのリストには、それに対応するCRSを持つ各レイヤーが表示されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14735,6 +15319,38 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In this case, better use an *Integer (1 byte)* instead of a *Floating point (4 byte)*, since the *NAME* is an integer with maximum value=64.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094216Z" creationid="miurahr" creationdate="20201118T094216Z">
+        <seg>この場合には、 *NAME* は最大値=64の整数なので、*浮動小数点（4バイト）* よりも *整数（1バイト）* を使用するほうが良いです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In this case, the algorithm dialog disappears and you can click and drag on the QGIS canvas to define the desired extent.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094205Z" creationid="miurahr" creationdate="20201118T094205Z">
+        <seg>この場合、アルゴリズムダイアログが消え、所望の範囲を定義するためにQGISキャンバス上でクリック＆ドラッグできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In this case, the only input we have is a vector layer with polygons.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094427Z" creationid="miurahr" creationdate="20201118T094427Z">
+        <seg>この場合は、持っている唯一の入力はポリゴンでのベクターレイヤーです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In this case, we are going to select the *Fill with parameter value* option, and then the *Input Layer* value in the drop down menu below.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075539Z" creationid="miurahr" creationdate="20201118T075539Z">
+        <seg>この場合は、 *パラメーター値で埋める* オプションを、そしてその後に下のドロップダウンメニューで *入力レイヤー* 値を選択しようとしています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In this example, id is a sequence - the number is incremented each time a record is added to the table:</seg>
       </tuv>
       <tuv lang="ja">
@@ -14747,6 +15363,54 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T033518Z" creationid="miurahr" creationdate="20201118T033518Z">
         <seg>この例では、現在のシンボルは何のアウトラインを持っていません（すなわち、それは :guilabel:`ペンなし` の境界スタイルを使用しています）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In this example, we just have two layers, so you shouldn't worry about that now.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094049Z" creationid="miurahr" creationdate="20201118T094049Z">
+        <seg>この例では、レイヤーは2つだけなので、今それを心配することはありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In this lesson we will discuss how Processing uses CRSs.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075613Z" creationid="miurahr" creationdate="20201118T075613Z">
+        <seg>この課題で、私たちは空間参照系を利用したプロセッシングの方法を議論します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In this lesson we will run our first algorithm, and get our first result from it.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094236Z" creationid="miurahr" creationdate="20201118T094236Z">
+        <seg>このレッスンでは、最初のアルゴリズムを実行し、それから、最初の結果を取得します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In this lesson we will see another example of spatial data preparation, to continue using geoalgorithms in real-world scenarios.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T093947Z" creationid="miurahr" creationdate="20201118T093947Z">
+        <seg>このレッスンでは、現実の世界のシナリオで地理アルゴリズムを継続して使用する、空間データの準備の別の例が表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In this lesson we will see how to define extents, which are needed by some algorithms, especially raster ones.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094138Z" creationid="miurahr" creationdate="20201118T094138Z">
+        <seg>このレッスンでは、いくつかのアルゴリズムによって必要とされている範囲、特にラスターの範囲を定義する方法について説明します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In this lesson we will see how to use algorithms that depend on a third-party application, particularly SAGA, which is one of the main algorithm providers.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094451Z" creationid="miurahr" creationdate="20201118T094451Z">
+        <seg>このレッスンではサードパーティのアプリケーション、特に主要なアルゴリズムプロバイダーの一つであるSAGAに依存するアルゴリズムを使用する方法について説明します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15103,10 +15767,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Instead of entering the names of each one of the layers we want to process, you can select all of them and let the dialog put one in each row.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075516Z" creationid="miurahr" creationdate="20201118T075516Z">
+        <seg>処理したいレイヤーのそれぞれの名前を入力する代わりに、それらのすべてを選択してダイアログが各行にひとつを入れるようにさせることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Instead use</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T092040Z" creationid="miurahr" creationdate="20201117T092040Z">
         <seg>代わりに使用します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Instead, set that CRS for the first row (the one at the top) using the button in the corresponding cell, and then double click on the column header.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075528Z" creationid="miurahr" creationdate="20201118T075528Z">
+        <seg>その代わりに、1行目（最上の1つ）にそのCRSを、対応するセル内のボタンを使用して設定し、列見出しをダブルクリックします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15123,6 +15803,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150049Z" creationid="miurahr" creationdate="20201117T150049Z">
         <seg>それらの共有された境界を編集でき、両方の地物は同時に変化します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Instead, you must install SAGA and make sure that the SAGA folder is in PATH, so it can be called from the console (just open a console and type ``saga_cmd`` to check it).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094517Z" creationid="miurahr" creationdate="20201118T094517Z">
+        <seg>代わりに、SAGAをインストールし、それが（ちょうどコンソールを開いて、それをチェックするために ``saga_cmd`` を入力）コンソールから呼び出すことができるようSAGAフォルダが、PATHにあることを確認する必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15279,6 +15967,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>It contains just a single layer with two polygons</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094242Z" creationid="miurahr" creationdate="20201118T094242Z">
+        <seg>これには、2つのポリゴンを持つだけの単一のレイヤーが含まれています</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>It does not require fees or have access constraints, and it is global.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T020807Z" creationid="miurahr" creationdate="20201118T020807Z">
@@ -15347,6 +16043,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222659Z" creationid="miurahr" creationdate="20201117T222659Z">
         <seg>これは、 `UNESCOファンディ生物圏保護区 &lt;http://fundy-biosphere.ca/en/about-us/the-reserve&gt;`_ の創立メンバーであり、</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It is a rounded box, but we can easily get the equivalent box with square angles, by running the *Polygon from layer extent* algorithm on it.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094003Z" creationid="miurahr" creationdate="20201118T094003Z">
+        <seg>これは丸みを帯びた箱ですが、それに *レイヤーの範囲からポリゴン* アルゴリズムを実行することで、正方形の角度での同等のボックスを簡単に取得できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15575,6 +16279,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>It represents a particular case, since it has an input layer (the one to reproject), but it will not use its CRS for the output one.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T093937Z" creationid="miurahr" creationdate="20201118T093937Z">
+        <seg>それは入力レイヤー（再投影するもの）を有しているので、それは、特定の場合を示し、それは出力いずれかのそのCRSを使用しません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>It should be run from the bash shell prompt:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T034456Z" creationid="miurahr" creationdate="20201118T034456Z">
@@ -15671,10 +16383,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>It will appear on the same region of the canvas, like the other ones, since QGIS will reproject it on the fly, but its original coordinates are different.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T093942Z" creationid="miurahr" creationdate="20201118T093942Z">
+        <seg>QGISではそれをその場で再投影しますが、その元の座標が異なっているので、それは、他のもののように、キャンバスの同じ領域に表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>It will output one map for every feature in the layer.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T215713Z" creationid="miurahr" creationdate="20201117T215713Z">
         <seg>これは、レイヤー内のすべての地物の出力1つの地図になります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It will take care of installing all the needed dependencies, including SAGA, so if you have used it, there is nothing else to do.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094510Z" creationid="miurahr" creationdate="20201118T094510Z">
+        <seg>それはSAGAを含むすべての必要な依存関係のインストールをしてくれますので、それを使用した場合は、他に何も行うことはありません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16183,6 +16911,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Leave the default *Yes* option, so you can see your results in this case.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075545Z" creationid="miurahr" creationdate="20201118T075545Z">
+        <seg>このような場合には、結果を見ることができるよう、デフォルトの *はい* オプションのままにしておきます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Leave the layout open but go back to the map.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T215539Z" creationid="miurahr" creationdate="20201117T215539Z">
@@ -16371,6 +17107,22 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T054334Z" creationid="miurahr" creationdate="20201118T054334Z">
         <seg>既に読み込まれている :guilabel:`south_poles_wfs` レイヤーに対する南アフリカ共和国の位置を知りたいとしましょう(そしておそらく :guilabel:`antarctica_country_border` レイヤーに対する位置も)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Let's see what each one of them does.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094158Z" creationid="miurahr" creationdate="20201118T094158Z">
+        <seg>それらのそれぞれが何をするか見てみましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Let's start filling the fields one by one.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075513Z" creationid="miurahr" creationdate="20201118T075513Z">
+        <seg>フィールドの一つ一つを入力始めましょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16767,6 +17519,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Make sure at least one compression method is selected.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094007Z" creationid="miurahr" creationdate="20201118T094007Z">
+        <seg>少なくとも1つの圧縮方式が選択されていることを確認します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Make sure that the :guilabel:`Avoid int.` is checked for the :kbd:`forest_stands` layer.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T035252Z" creationid="miurahr" creationdate="20201118T035252Z">
@@ -16835,6 +17595,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T114312Z" creationid="miurahr" creationdate="20201117T114312Z">
         <seg>お使いのプロセッサに合ったパッケージを入手してください(x86_64の場合、最初のIntel Macだけがi386パッケージを必要とします)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Make sure you have the model added to your toolbox, and then run it in batch mode.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075601Z" creationid="miurahr" creationdate="20201118T075601Z">
+        <seg>モデルがツールボックスに追加した、その後、バッチモードで実行していることを確認します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17287,6 +18055,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Models are just like any other algorithm, and they can be used in the batch processing interface.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075559Z" creationid="miurahr" creationdate="20201118T075559Z">
+        <seg>モデルは他のアルゴリズムとまったく同様で、バッチ処理インターフェイスで使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Models in the batch processing interface</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075556Z" creationid="miurahr" creationdate="20201118T075556Z">
+        <seg>バッチ プロセッシング インターフェイスのモデル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Modify Features</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T031459Z" creationid="miurahr" creationdate="20201118T031459Z">
@@ -17419,6 +18203,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>ほとんどのGISアプリケーションでは、単一のレイヤーで複数のジオメトリタイプを混在させることはできません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Most algorithms do not have an option like that, and just use the coordinates directly.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T093908Z" creationid="miurahr" creationdate="20201118T093908Z">
+        <seg>ほとんどのアルゴリズムは、そのようなオプションを持っている、とだけ座標を直接使用しないでください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18071,10 +18863,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Notice that the CRS of input layers is shown along with its name in the parameters dialog.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T093804Z" creationid="miurahr" creationdate="20201118T093804Z">
+        <seg>入力レイヤーのCRSはパラメーターダイアログ中にその名前と一緒に表示されていることに注意してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Notice that your overview map is not really giving an overview of the forest area which is what you want.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T215644Z" creationid="miurahr" creationdate="20201117T215644Z">
         <seg>この概観地図では本当に望んでいる森林地域の概観になっていないことに注意してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Notice that, when a selection exist, the extent of the layer is that of the whole set of features, and the selection is not used to compute the extent, even though the rasterization is executed on the selected items only.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094223Z" creationid="miurahr" creationdate="20201118T094223Z">
+        <seg>選択が存在する場合、レイヤーの範囲は地物の全体集合のことであり、たとえラスター化が選択された項目に対してのみ実行されても、選択は範囲を計算するために使用されませんのでご注意ください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18095,6 +18903,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Now do the same calculation using the other layer.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T093926Z" creationid="miurahr" creationdate="20201118T093926Z">
+        <seg>今、もう１つのレイヤーを使用して同じ計算を行います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Now for the second polygon, pick up the stand number 358.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T035240Z" creationid="miurahr" creationdate="20201118T035240Z">
@@ -18103,10 +18919,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Now go to the text box at the top of the toolbox.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094258Z" creationid="miurahr" creationdate="20201118T094258Z">
+        <seg>ツールボックスの上部にあるテキストボックスに移動します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Now it is time to add some map layers.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T003536Z" creationid="miurahr" creationdate="20201118T003536Z">
         <seg>それでは、地図レイヤを追加していきましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Now it is time to compute the slope layer.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094053Z" creationid="miurahr" creationdate="20201118T094053Z">
+        <seg>では傾斜レイヤーを計算しましょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18243,6 +19075,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T033515Z" creationid="miurahr" creationdate="20201118T033515Z">
         <seg>これでレイヤーに対する単純なシンボルを変更する方法はわかりましたので、次のステップは、より複雑なシンボルを作成することです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Now that you've added an inactive map as a backdrop, you'll be glad to know that it's also possible to add features (such as the other vector layers you added before).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075424Z" creationid="miurahr" creationdate="20201118T075424Z">
+        <seg>背景として動かない地図を追加しましたが、地物（例えば以前に追加した他のベクタレイヤなど）を追加することも可能だということがわかるとうれしいでしょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18591,6 +19431,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Now, when you click *OK* on the file selection dialog, the file does not automatically gets written to the cell, but an input box like the following one is shown instead.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075535Z" creationid="miurahr" creationdate="20201118T075535Z">
+        <seg>さて、ファイル選択ダイアログ上で *OK* をクリックすると、ファイルは自動的にセルに書き込まれず、以下のような入力ボックスが代わりに表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Number of QGIS-based trainings conducted by author with participants’ details is shown in the table:</seg>
       </tuv>
       <tuv lang="ja">
@@ -18751,10 +19599,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Once SAGA is installed, you can launch a SAGA algorithm double clicking on its name, as with any other algorithm.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094521Z" creationid="miurahr" creationdate="20201118T094521Z">
+        <seg>SAGAがインストールされたら、他のアルゴリズムと同様に、その名前をSAGAアルゴリズムをダブルクリックし起動できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Once again it is a good idea to give the shapefile a short and meaningful name.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123648Z" creationid="miurahr" creationdate="20201117T123648Z">
         <seg>今度もシェープファイルに短くて意味のある名前を付けることをお勧めします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Once again, let's do it just for the first row.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075532Z" creationid="miurahr" creationdate="20201118T075532Z">
+        <seg>もう一度、ちょうど最初の行のためにそれをやらせます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18803,6 +19667,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140105Z" creationid="miurahr" creationdate="20201117T140105Z">
         <seg>画像が撮影されると、それは無線信号を使用して figure_csir_station_ に示されているような特別の受信局に送信されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Once the layers have been cropped, they can be merged using the GDAL *Merge* algorithm.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094009Z" creationid="miurahr" creationdate="20201118T094009Z">
+        <seg>レイヤーがトリミングされたら、それらはGDAL *マージ* アルゴリズムを使用してマージできます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18871,6 +19743,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Once you release the mouse button, the dialog will reappear and the text box will already have the values corresponding to the defined extent.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094207Z" creationid="miurahr" creationdate="20201118T094207Z">
+        <seg>マウスボタンを放した後、ダイアログが再度表示されますし、テキストボックスには、すでに定義された範囲に対応する値を持つことになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Once you validate the dialog, features in :guilabel:`landuse` layer should now be covered by a set of symbols, showing a texture like the one on the following map.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T033738Z" creationid="miurahr" creationdate="20201118T033738Z">
@@ -18891,6 +19771,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T025154Z" creationid="miurahr" creationdate="20201118T025154Z">
         <seg>プラグインの準備ができ、そのプラグインが誰かのために役立つことあると思ったら、躊躇わずに :ref:`official_pyqgis_repository` にアップロードしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>One algorithm provider of special interest is SAGA (System for Automated Geospatial Analysis).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094505Z" creationid="miurahr" creationdate="20201118T094505Z">
+        <seg>特別な関心の一つのアルゴリズムプロバイダーは、SAGA（自動地理空間分析のためのシステム）です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19175,6 +20063,30 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Open the *Export/Add geometry columns* algorithm.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T093857Z" creationid="miurahr" creationdate="20201118T093857Z">
+        <seg>*ジオメトリ列の出力/追加* アルゴリズムを開く。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Open the *Rasterize* algorithm, which creates a raster layer from a vector layer.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094143Z" creationid="miurahr" creationdate="20201118T094143Z">
+        <seg>ベクターレイヤーからラスターレイヤーを作成する *ラスター化* アルゴリズムを開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Open the *Reproject layer* algorithm.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T093938Z" creationid="miurahr" creationdate="20201118T093938Z">
+        <seg>*レイヤーを再投影* アルゴリズムを開く。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Open the :guilabel:`Attribute table` and enable editing.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T034919Z" creationid="miurahr" creationdate="20201118T034919Z">
@@ -19419,6 +20331,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T035005Z" creationid="miurahr" creationdate="20201118T035005Z">
         <seg>:kbd:`exercise_data/forestry` フォルダの中で、オリジナルの地図画像 :kbd:`rautjarvi_map.tif` を開きます :menuselection:`ファイル --&gt; 開く` 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Open the project corresponding to this lesson and you will see two layers named 23030 and 4326.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T093850Z" creationid="miurahr" creationdate="20201118T093850Z">
+        <seg>このレッスンに対応するプロジェクトを開いてください。23030と4326という名前の2つのレイヤーが表示されるでしょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19859,6 +20779,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T014827Z" creationid="miurahr" creationdate="20201118T014827Z">
         <seg>パラメーター</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Part of the difficulty of using WMS is finding a good (free) server.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075407Z" creationid="miurahr" creationdate="20201118T075407Z">
+        <seg>WMSを使用する難しさの一部は、良い（無料）サーバーを見つけることです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21071,6 +21999,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Recent versions have a more complex interface.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094006Z" creationid="miurahr" creationdate="20201118T094006Z">
+        <seg>最近のバージョンではより複雑なインターフェイスになっています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Recently, the QGIS was used as main product during GIS Day held at our school on November 2010.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T224818Z" creationid="miurahr" creationdate="20201117T224818Z">
@@ -21239,6 +22175,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Remember that what you need in order to use a WMS is only its URL (and preferably some sort of description).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075412Z" creationid="miurahr" creationdate="20201118T075412Z">
+        <seg>WMSを使用するために必要なことだけでそのURL（と説明の好ましいいくつかの並べ替え）であることを忘れないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Remember that when you write a query, you need to know which units the layer's CRS is in.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T021048Z" creationid="miurahr" creationdate="20201118T021048Z">
@@ -21403,6 +22347,22 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T133650Z" creationid="miurahr" creationdate="20201117T133523Z">
         <seg>不変セクションを翻訳で置き換えるには、著作権者からの特別な許可が必要です。ただし、これらの不変セクションのオリジナルバージョンに加えて、一部またはすべての不変セクションの翻訳を含めることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Reprojecting</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075612Z" creationid="miurahr" creationdate="20201118T075612Z">
+        <seg>出力レイヤ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Reprojecting the converted slope layer back with the *Reproject raster layer*, we get the final layer we wanted.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094129Z" creationid="miurahr" creationdate="20201118T094129Z">
+        <seg>*ラスターレイヤー再投影* で変換された斜面レイヤーを再投影して戻すと、望んでいた最終レイヤーが得られます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21671,10 +22631,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Run the algorithm and you will get a new layer, identical to the input one, but with a different CRS.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T093941Z" creationid="miurahr" creationdate="20201118T093941Z">
+        <seg>アルゴリズムを実行して、入力したものと同一の新しいレイヤーを、取得しますが、異なるCRSを持ちます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Run the tool to calculate the centroids for the polygons.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T035104Z" creationid="miurahr" creationdate="20201118T035104Z">
         <seg>ポリゴンの重心を計算するためのツールを実行します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Running an external algorithm</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094450Z" creationid="miurahr" creationdate="20201118T094450Z">
+        <seg>外部のアルゴリズムを実行する</seg>
       </tuv>
     </tu>
     <tu>
@@ -22087,6 +23063,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Select any of the layers as input, and select EPSG:23029 as the destination CRS.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T093939Z" creationid="miurahr" creationdate="20201118T093939Z">
+        <seg>入力として、レイヤーのいずれかを選択し、先のCRSとしてEPSG:23029を選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Select data</seg>
       </tuv>
       <tuv lang="ja">
@@ -22103,10 +23087,42 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Select it and click on *OK*, and the text box will be automatically filled with the corresponding values.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094202Z" creationid="miurahr" creationdate="20201118T094202Z">
+        <seg>それを選択して *OK* をクリックすると、テキストボックスが自動的に対応する値で満たされます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Select no compression when asked.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T035023Z" creationid="miurahr" creationdate="20201118T035023Z">
         <seg>尋ねられたとき非圧縮を選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Select the *Layer CRS* option to just use coordinates as they are.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T093918Z" creationid="miurahr" creationdate="20201118T093918Z">
+        <seg>彼らがそうであるように、単に座標を使用するには、*レイヤーCRS* オプションを選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Select the *Polygons* layer as input.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094428Z" creationid="miurahr" creationdate="20201118T094428Z">
+        <seg>入力として *ポリゴン* レイヤーを選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Select the 4326 layer.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T093903Z" creationid="miurahr" creationdate="20201118T093903Z">
+        <seg>4326レイヤーを選択します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22155,6 +23171,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T034925Z" creationid="miurahr" creationdate="20201118T034925Z">
         <seg>:kbd:`exercise_data\\forestry\\results\\` フォルダから :kbd:`forest_stands_2012_results.qml` を選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Select the DEM file corresponding to this lesson as the input for all of them.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075606Z" creationid="miurahr" creationdate="20201118T075606Z">
+        <seg>それらのすべてについて、入力として、このレッスンに対応したDEMファイルを選択します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22631,6 +23655,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Since only one of them is needed for each row, the remaining ones will be used to fill the rows underneath.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075519Z" creationid="miurahr" creationdate="20201118T075519Z">
+        <seg>行ごとにそれらの１つだけが必要とされるので、残りは下の行を埋めるために使用されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Since the introduction of Python plugins in QGIS, a number of plugins have appeared.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T024635Z" creationid="miurahr" creationdate="20201118T024635Z">
@@ -22847,6 +23879,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Some algorithms require an extent to define the area to be covered by the analysis they perform, and usually to define the extent of the resulting layer.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094139Z" creationid="miurahr" creationdate="20201118T094139Z">
+        <seg>いくつかのアルゴリズムは、それらが行う分析によってカバーされる地域を定義する範囲、そしてたいていは結果のレイヤーの範囲を定義する範囲を必要とします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Some features on a landscape are easy to represent as points, polylines and polygons (e.g. trees, roads, houses).</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140015Z" creationid="miurahr" creationdate="20201117T140015Z">
@@ -22891,6 +23931,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>SIP ファイルの一部は、特定のスクリプトを使用して自動的に生成されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Some of the algorithms that you see in the simplified view require third party applications to be installed in your system.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094503Z" creationid="miurahr" creationdate="20201118T094503Z">
+        <seg>単純化されたビューに表示されるアルゴリズムには、サードパーティ製のアプリケーションがシステムにインストールされていることが必要なものがあります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23463,6 +24511,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Syntax changed in recent versions; set both Distance and Arc vertex to .25</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094001Z" creationid="miurahr" creationdate="20201118T094001Z">
+        <seg>構文は最近のバージョンで変更されました；距離とアークの頂点の両方を0.25に設定します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>System Description</seg>
       </tuv>
       <tuv lang="ja">
@@ -23607,6 +24663,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Temporary files are deleted once you close QGIS.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094437Z" creationid="miurahr" creationdate="20201118T094437Z">
+        <seg>QGISを閉じると一時ファイルが削除されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Termination of your rights under this section does not terminate the licenses of parties who have received copies or rights from you under this License.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T133733Z" creationid="miurahr" creationdate="20201117T133733Z">
@@ -23671,6 +24735,30 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>That causes all the cells in the column to be filled using the value of the top cell.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075529Z" creationid="miurahr" creationdate="20201118T075529Z">
+        <seg>それにより、列のすべてのセルが最上セルの値を使用して埋められます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>That doesn't need any extra explanation.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094155Z" creationid="miurahr" creationdate="20201118T094155Z">
+        <seg>それは余分な説明を必要としません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>That is not so important in this case, since we are just using one single layer at a time, but in an algorithm that needs several of them (such as a clip algorithm), layers that appear to match or overlay might be very far one from each other, since they might have different CRSs.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T093934Z" creationid="miurahr" creationdate="20201118T093934Z">
+        <seg>この場合は一度に1つのレイヤーを使用しているのでそれほど重要ではありませんが、それらの複数を必要とするアルゴリズム（例えばクリップアルゴリズムのような）では、一致したり重なったりするように見えるレイヤーは、異なるCRSを持っているかもしれないため、互いに非常に遠くにあるかもしれません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>That is precisely what you are going to do next create points from those pixels to use them later to help you follow the forest stands' borders when digitizing, by using the snapping tools available in QGIS.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T035052Z" creationid="miurahr" creationdate="20201118T035052Z">
@@ -23679,10 +24767,34 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>That is the search box, and if you type text in it, it will filter the list of algorithms so just those ones containing the entered text are shown.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094309Z" creationid="miurahr" creationdate="20201118T094255Z">
+        <seg>これは検索ボックスです。テキストを入力すると、アルゴリズムのリストがフィルタリングされ、入力されたテキストを含むものだけが表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>That is what it will look like when printed.</seg>
       </tuv>
       <tuv lang="ja">
         <seg>これは、印刷されたときに、それがどのように見えるかです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>That makes it easier to process large amounts of layers, such as, for instance, all the layers in a given folder.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075444Z" creationid="miurahr" creationdate="20201118T075444Z">
+        <seg>それによって、例えば指定したフォルダ内のすべてのレイヤーなど、大量のレイヤーを簡単に処理できるようになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>That means that, although they appear in the same place in your canvas, they will be treated differently.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T093902Z" creationid="miurahr" creationdate="20201118T093902Z">
+        <seg>それが意味するのは、それらはキャンバス内の同じ場所に表示されますが異なる方法で処理されることです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23735,6 +24847,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>That will cause the value in the *Input Layer* (that is, the layer name) to be added to the filename we have added, making each output filename different.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075541Z" creationid="miurahr" creationdate="20201118T075541Z">
+        <seg>追加したファイル名に追加する（つまり、レイヤー名です） *入力レイヤー* の値が発生して、各出力ファイル名が異なるようになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>That would most likely be the way to go if the image you are going to digitize from is, for example, an aerial photograph.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T034959Z" creationid="miurahr" creationdate="20201118T034959Z">
@@ -23759,10 +24879,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>That's the topic of the next lesson.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075426Z" creationid="miurahr" creationdate="20201118T075426Z">
+        <seg>それが次のレッスンのトピックです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>That's why we could merely enter the number :kbd:`2` above.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T021020Z" creationid="miurahr" creationdate="20201118T021020Z">
         <seg>だから上では数 :kbd:`2` を入力するしかできなかったでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The  toolbox</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094233Z" creationid="miurahr" creationdate="20201118T094228Z">
+        <seg>ツールボックス</seg>
       </tuv>
     </tu>
     <tu>
@@ -24263,6 +25399,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The SAGA path should already be configured and pointing to the folder where SAGA is installed.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094513Z" creationid="miurahr" creationdate="20201118T094513Z">
+        <seg>SAGAパスは既に設定され、SAGAがインストールされているフォルダを指しているようにしてください</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The SIP file can be generated using a dedicated script.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T091932Z" creationid="miurahr" creationdate="20201117T091932Z">
@@ -24447,6 +25591,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The algorithm has a single output, which is the centroids layer.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094429Z" creationid="miurahr" creationdate="20201118T094429Z">
+        <seg>アルゴリズムは、重心レイヤーである単一の出力を有しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The alternative is to build the query as a filter before even loading the layer from the server.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T054342Z" creationid="miurahr" creationdate="20201118T054342Z">
@@ -24591,10 +25743,34 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The base DEM is divided in two raster layers that, together, cover an area much larger than that around the city that we want to work with.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T093950Z" creationid="miurahr" creationdate="20201118T093950Z">
+        <seg>ベースDEMは2つのラスターレイヤーに分割され、併せると作業したい都市の周りのものよりはるかに大きい領域をカバーしています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The basic strength of GIS over other ways of representing data with spatial aspects is that with GIS, you have a dynamic visual representation of the data you're working with.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T033357Z" creationid="miurahr" creationdate="20201118T033357Z">
         <seg>空間的な側面を持つデータを表現する他の方法に勝るGISの基本的な強みは、GISを使用すると、作業データの動的な視覚表現ができることです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The batch processing interface</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075429Z" creationid="miurahr" creationdate="20201118T075429Z">
+        <seg>バッチ処理インターフェイス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The batch processing table should now look like this.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075542Z" creationid="miurahr" creationdate="20201118T075542Z">
+        <seg>バッチ処理テーブルはこのようになるはずです：</seg>
       </tuv>
     </tu>
     <tu>
@@ -24699,6 +25875,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T031828Z" creationid="miurahr" creationdate="20201118T031828Z">
         <seg>コンストラクタはレイヤのジオメトリタイプを定義するURIも必要とします。これは ``"Point"``、``"LineString"``、``"Polygon"``、``"MultiPoint"``、``"MultiLineString"``、``"MultiPolygon"``、``"None"``のうちのひとつです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The content of the columns depend on the type of geometry of the layer.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T093859Z" creationid="miurahr" creationdate="20201118T093859Z">
+        <seg>列の内容は、レイヤーの形状の種類によって異なります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24811,6 +25995,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T032512Z" creationid="miurahr" creationdate="20201118T032512Z">
         <seg>データセットは英語とアフリカーンス語の両方で地物名を含みます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The default number of rows is 3, which is exactly the number of layers we have to convert, but if you select more layers, new rows will be added automatically.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075521Z" creationid="miurahr" creationdate="20201118T075521Z">
+        <seg>デフォルトの行数は3で、これはちょうど変換する必要があるレイヤーの数ですが、より多くのレイヤーを選択した場合、新しい行が自動的に追加されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24983,6 +26175,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The first column to fill is the *Input layer* one.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075511Z" creationid="miurahr" creationdate="20201118T075511Z">
+        <seg>入力する最初の列は、*入力レイヤー* 列です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The first coordinate for the georeferencing is now ready.</seg>
       </tuv>
       <tuv lang="ja">
@@ -25015,6 +26215,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The first option is *Use layer/canvas extent*, which will show the selection dialog shown below.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094200Z" creationid="miurahr" creationdate="20201118T094200Z">
+        <seg>第１のオプションは *レイヤー/キャンバス範囲を使用* で、以下に示す選択ダイアログが表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The first step is to create them, you can add for example a zone code for the polygon areas and a field with some remarks for the field teams to have into account:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T215727Z" creationid="miurahr" creationdate="20201117T215727Z">
@@ -25043,6 +26251,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140740Z" creationid="miurahr" creationdate="20201117T140740Z">
         <seg>ポイント地物についていう場合に最初に意識しておく必要があることは、 GIS でポイントとして記述するものは、考え方にもよるが、縮尺に依存することが多いことです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The first thing you can do is to type the 4 defining values explained before, separated by commas.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094154Z" creationid="miurahr" creationdate="20201118T094154Z">
+        <seg>まず最初に行うことができることは、前に説明した定義する4つの値を、カンマで区切りで、入力することです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25303,10 +26519,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The last column sets whether or not to add the resulting layers to the current QGIS project.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075543Z" creationid="miurahr" creationdate="20201118T075543Z">
+        <seg>最後の列は、得られるレイヤーを現在のQGISプロジェクトに追加するかどうかを設定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The last missing bit is the renderer metadata and registration in registry, otherwise loading of layers with the renderer will not work and user will not be able to select it from the list of renderers.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T032056Z" creationid="miurahr" creationdate="20201118T032056Z">
         <seg>最後のちょっとした作業はレンダラーのメタデータとレジストリへの登録です。これらをしないとレンダラーのレイヤーの読み込みは動かず、ユーザーはレンダラーのリストから選択できないでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The last option is *Use min covering extent from input layers*, which is the default option.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094208Z" creationid="miurahr" creationdate="20201118T094208Z">
+        <seg>最後のオプションは、 *入力レイヤー範囲をカバーする最小の使用* で、デフォルトのオプションです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25387,6 +26619,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T015754Z" creationid="miurahr" creationdate="20201118T015754Z">
         <seg>一番下のシンボルレイヤは、幅広の灰色の実線です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The main idea behind these examples is that geoalgorithms use the layer as it is in its original data source, and completely ignore the reprojections that QGIS might be doing before rendering.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T093932Z" creationid="miurahr" creationdate="20201118T093932Z">
+        <seg>これらの例の背後にある主なアイデアは、地理アルゴリズムはレイヤーを元のデータソースにあるまま使用し、QGISでレンダリングする前に行われているかもしれない再投影は完全に無視するということです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25711,10 +26951,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The other parameter of the algorithm allows to set how the algorithm uses coordinates to calculate the new value that it will add to the resulting layers.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T093904Z" creationid="miurahr" creationdate="20201118T093904Z">
+        <seg>アルゴリズムの他のパラメーターは、アルゴリズムは、それが得られたレイヤーに追加される新たな値を計算するために、座標をどのように使用するかを設定することを可能にします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The output from the model is a vector polygon showing the snow covered area within the Snowy Water Catchment.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222550Z" creationid="miurahr" creationdate="20201117T222550Z">
         <seg>モデルからの出力は、雪に覆われた水流域内の雪に覆われた領域を示すベクターポリゴンです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The output has the same CRS as the input.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094442Z" creationid="miurahr" creationdate="20201118T094442Z">
+        <seg>出力は入力と同じCRSを有しています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26007,6 +27263,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The reprojection processes might have caused the final layer to contain data outside the bounding box that we calculated in one of the first steps.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094132Z" creationid="miurahr" creationdate="20201118T094132Z">
+        <seg>再投影プロセスでは、最初のステップの1つで計算されたバウンディングボックス外のデータを最終レイヤーが格納するようにしている可能性があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The request can be used to define the data retrieved for each feature, so the iterator returns all features, but returns partial data for each of them.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T031443Z" creationid="miurahr" creationdate="20201118T031443Z">
@@ -26019,6 +27283,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222540Z" creationid="miurahr" creationdate="20201117T222540Z">
         <seg>必要な出力は、雪水流域内の雪に覆われた範囲を示すベクターポリゴンで、雪に覆われた総面積を平方キロメートルで記述する属性と一緒にしたものです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The required version is SAGA 2.1 [this is changing according to the releases of SAGA].</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094515Z" creationid="miurahr" creationdate="20201118T094515Z">
+        <seg>必要なバージョンは、SAGA 2.1 [これはSAGAのリリースに応じて変化している]です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26127,6 +27399,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The search box is a very practical way of finding the algorithm you are looking for.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094331Z" creationid="miurahr" creationdate="20201118T094331Z">
+        <seg>検索ボックスは、お探しのアルゴリズムを見つけるのにとても実用的な方法です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The second option is *Select extent on canvas*.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094204Z" creationid="miurahr" creationdate="20201118T094204Z">
+        <seg>第2のオプションは、 *キャンバス上で範囲選択* です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The sequence of steps would go like this:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150251Z" creationid="miurahr" creationdate="20201117T150251Z">
@@ -26179,6 +27467,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T145508Z" creationid="miurahr" creationdate="20201117T145508Z">
         <seg>出力画像のサイズは、ここではベクター化された元のラスターと同じになるように指定されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The slope produced by the *Slope, Aspect, Curvature* algorithm can be expressed in degrees or radians; degrees are a more practical and common unit.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094116Z" creationid="miurahr" creationdate="20201118T094116Z">
+        <seg>*傾斜・方向・曲率* アルゴリズムによって作成される傾斜は、度またはラジアンで表現できます。度は、より実用的で一般的な単位です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26527,6 +27823,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Then enter 5 different threshold values as shown next.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075607Z" creationid="miurahr" creationdate="20201118T075607Z">
+        <seg>それから、次に示すように5つの異なるしきい値を入力します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Then give detailed (click-by-click) instructions on the procedure to be demonstrated.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141617Z" creationid="miurahr" creationdate="20201117T141617Z">
@@ -26743,10 +28047,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>There are some 2.1 packages available, but they are not commonly installed and might have some issues, so if you prefer to use the more common and stable 2.0.8, you can do it by enabling 2.0.8 compatibility in the configuration dialog, under the *SAGA* group.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094519Z" creationid="miurahr" creationdate="20201118T094519Z">
+        <seg>2.1のパッケージには使用可能なものもありますが、それらは一般的にインストールされていないといくつかの問題があるかもしれないので、より一般的と2.0.8の安定を使用することを好む場合は、 *SAGA* グループ下に、設定ダイアログで2.0.8の互換性を可能にすることによって、それを行うことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>There are some guidelines for these criteria:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T032857Z" creationid="miurahr" creationdate="20201118T032857Z">
         <seg>これらの基準のためのいくつかのガイドラインがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>There are two options to define where a data output is saved: enter a filepath or save it to a temporary filename</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094430Z" creationid="miurahr" creationdate="20201118T094430Z">
+        <seg>ファイルパスを入力するか、一時的なファイル名に保存：データ出力が保存されている定義するための2つのオプションがあります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -26999,6 +28319,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>These layers have two problems:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T093952Z" creationid="miurahr" creationdate="20201118T093952Z">
+        <seg>これらのレイヤーには二つの問題があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>These may be placed in the "History" section.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124728Z" creationid="miurahr" creationdate="20201117T124728Z">
@@ -27071,6 +28399,30 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>They appear in the same place because QGIS is reprojecting on the fly to the project CRS (EPSG:4326), but they are not actually the same layer.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T093831Z" creationid="miurahr" creationdate="20201118T093831Z">
+        <seg>QGISによりプロジェクトCRS（EPSG：4326）にその場で再投影されたので、それらは同じ場所に表示されますが、それらは実際には同じレイヤーではありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>They are in two different files (the city limits fall into just one single raster layer, but, as it's been said, we want some extra area around it).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T093954Z" creationid="miurahr" creationdate="20201118T093954Z">
+        <seg>それらは2つの異なるファイルにあります（市域は1つだけのラスターレイヤーに入るが、言われているように、その周りにいくつかの余分な面積が欲しい）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>They both contain the same points, but in different CRSs (EPSG:23030 and EPSG:4326).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T093854Z" creationid="miurahr" creationdate="20201118T093854Z">
+        <seg>それら両方には同じ点が含まれているが、CRSは異なっています（EPSG：23030とEPSG：4326）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>They can be on either the left side or the right side of the line feature.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141222Z" creationid="miurahr" creationdate="20201117T141222Z">
@@ -27083,6 +28435,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141230Z" creationid="miurahr" creationdate="20201117T141230Z">
         <seg>観光省は海岸線から内への200メートルラインを見つけるために、内側にバッファを使用して、その線を越えないように自分たちの道路を計画できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>They cover an area that is too large for what we want (we are interested in a smaller region around the city center)</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T093953Z" creationid="miurahr" creationdate="20201118T093953Z">
+        <seg>それらは希望するよりずっと大きい領域をカバーしています（興味があるのは市内中心部の周りのより小さな領域）</seg>
       </tuv>
     </tu>
     <tu>
@@ -27171,6 +28531,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222541Z" creationid="miurahr" creationdate="20201117T222541Z">
         <seg>このNDSIアルゴリズムは-1と1の間で結果を返し、雪のための閾値は典型的には0.4よりも大きな値です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This algorithm add new columns to the attributes table of a vector layer.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T093858Z" creationid="miurahr" creationdate="20201118T093858Z">
+        <seg>このアルゴリズムは、ベクターレイヤーの属性テーブルに新しい列を追加します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27283,6 +28651,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T031543Z" creationid="miurahr" creationdate="20201118T031543Z">
         <seg>これは、いくつかの場所について繰り返す必要がある場合は特に、非常に時間のかかる処理となります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This can be solved by clipping it again, as we did to obtain the base DEM.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094134Z" creationid="miurahr" creationdate="20201118T094134Z">
+        <seg>これは、ベースDEMを得るためにしたのと同じように、それを再びクリッピングすることによって解決できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27527,6 +28903,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This is assumed to be the CRS of all input layers, since they should have the same one.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T093753Z" creationid="miurahr" creationdate="20201118T093753Z">
+        <seg>これはすべての入力レイヤーのCRSである（それらは同じである必要があるため）と想定されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This is because "on the fly" projection is disabled.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T075052Z" creationid="miurahr" creationdate="20201118T075052Z">
@@ -27551,10 +28935,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This is because the original data is different (it uses a different CRS), and those coordinates are taken from it.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T093930Z" creationid="miurahr" creationdate="20201118T093930Z">
+        <seg>これは、元のデータが異なる（それは異なるCRSを使用する）ためであり、これらの座標はそれから取られます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This is because when you give a vector feature attribute values, they apply to the whole feature, so vectors aren't very good at representing features that are not homogeneous (entirely the same) all over.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140012Z" creationid="miurahr" creationdate="20201117T140012Z">
         <seg>これは、ベクター地物に与えられた属性値は地物全体に適用されるためですので、ベクターでは完全に同質（全く同じ）ではない地物を表現するにはあまり適していません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This is because, when an algorithm is run as a batch process, layer inputs can be selected either from the current QGIS project or from files.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075443Z" creationid="miurahr" creationdate="20201118T075443Z">
+        <seg>アルゴリズムは、バッチプロセスとして実行されると、レイヤーの入力は、現在のQGISプロジェクトまたはファイルのいずれかから選択できるからです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27615,6 +29015,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This is how almost all geoalgorithms work.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T093911Z" creationid="miurahr" creationdate="20201118T093911Z">
+        <seg>これは、ほとんどすべての地理アルゴリズムがどのように機能するかです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This is necessary to make a valid Python package.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T031233Z" creationid="miurahr" creationdate="20201118T031233Z">
@@ -27627,6 +29035,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140159Z" creationid="miurahr" creationdate="20201117T140159Z">
         <seg>これはたいていは属性、ユーザーが認識する必要がある、をラベルまたは記号で地図上に表すことができる場合にのみ有効です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This is not difficult, but it's important to understand how it works.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094507Z" creationid="miurahr" creationdate="20201118T094507Z">
+        <seg>これは難しいことではありませんが、それがどのように動作するかを理解することが重要です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27743,6 +29159,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This is what the batch processing dialog should look like.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075602Z" creationid="miurahr" creationdate="20201118T075602Z">
+        <seg>これは、バッチ処理]ダイアログボックスがどのように見えるかです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This is what you have to do:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T031547Z" creationid="miurahr" creationdate="20201118T031547Z">
@@ -27787,6 +29211,22 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222510Z" creationid="miurahr" creationdate="20201117T222510Z">
         <seg>この種の仕事は通常はコンサルタントを使って行われることになるのでしょうが、代わりにQGISとGRASSの組み合わせを使用して協議会自身によって行われました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This lesson introduces the batch processing interface, which allows to execute a single algorithm with a set of different input values.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075430Z" creationid="miurahr" creationdate="20201118T075430Z">
+        <seg>このレッスンではバッチ処理インターフェイスを紹介します。１つのアルゴリズムをさまざまな入力値のセットで実行できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This lesson shows another example of the batch processing interface, but this time using a model instead of a built-in algorithm</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075558Z" creationid="miurahr" creationdate="20201118T075558Z">
+        <seg>このレッスンではバッチ処理インターフェイスのまた別の例を示しますが、今回は内蔵アルゴリズムでなくモデルを使用します</seg>
       </tuv>
     </tu>
     <tu>
@@ -28223,6 +29663,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This will compute the min covering extent of all layers used to run the algorithm, and there is no need to enter any value in the text box.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094209Z" creationid="miurahr" creationdate="20201118T094209Z">
+        <seg>これは、アルゴリズムを実行するために使用されるすべてのレイヤーの範囲をカバーする最小を計算し、テキストボックスに任意の値を入力する必要はありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This will display its :guilabel:`Coordinate Reference System`:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T075003Z" creationid="miurahr" creationdate="20201118T075003Z">
@@ -28243,6 +29691,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T033714Z" creationid="miurahr" creationdate="20201118T033714Z">
         <seg>これは :guilabel:`文書のプロパティ`  ダイアログを表示するでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This will happen in those algorithm that do not have input layers, but just parameters of other types.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094220Z" creationid="miurahr" creationdate="20201118T094220Z">
+        <seg>これは、入力レイヤーを持たず他のタイプのパラメーターだけ持つアルゴリズムで起こります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -28275,6 +29731,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>``Edit on GitHub`` をクリックすると、``qgis:master`` ブランチのファイルが開きます。ページの上部には、あなたにはこのリポジトリへの書込権限がないため、変更はあなたのリポジトリの新しいブランチで適用される旨を知らせるメッセージが、表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This will result in a smaller file size and faster computations.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094217Z" creationid="miurahr" creationdate="20201118T094217Z">
+        <seg>これによってファイルサイズは小さくなり、計算がより高速になります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -28447,6 +29911,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>To access them, you have to click on the button on the right--hand side of the extent text box.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094157Z" creationid="miurahr" creationdate="20201118T094157Z">
+        <seg>範囲テキストボックスの左側を - それらにアクセスするには、右側のボタンをクリックする必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>To achieve this, you need to create an ideal arrangement and composition of all the map elements.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135804Z" creationid="miurahr" creationdate="20201117T135804Z">
@@ -28575,6 +30047,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>To buffer it, we use the *Fixed distance buffer* algorithm, with the following parameter values.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094000Z" creationid="miurahr" creationdate="20201118T094000Z">
+        <seg>それをバッファリングするために、以下のパラメーター値で、 *固定距離バッファ* アルゴリズムを使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>To calculate the bounding box , we can use the *Polygon from layer extent* algorithm</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T093959Z" creationid="miurahr" creationdate="20201118T093959Z">
+        <seg>バウンディングボックスを計算するために、 *レイヤーの範囲からポリゴン* アルゴリズムを使用できます</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>To change a layer's symbology, open its :guilabel:`Layer Properties`.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T033407Z" creationid="miurahr" creationdate="20201118T033407Z">
@@ -28695,6 +30183,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>To demonstrate that, here is a brief example that we can do using our already well-known hydrological model.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075600Z" creationid="miurahr" creationdate="20201118T075600Z">
+        <seg>それを実証するための、すでによく知られている水文モデルを使用して行うことができる簡単な例を出します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>To demonstrate:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T020458Z" creationid="miurahr" creationdate="20201118T020458Z">
@@ -28715,6 +30211,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T031222Z" creationid="miurahr" creationdate="20201118T031222Z">
         <seg>開発したアルゴリズムを配布するためには、アルゴリズムをプロセッシングツールボックスに追加するためのプラグインを新しく作る必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>To do it, we create a layer containing the bounding box of the layer with the limits of the city area, and then we buffer it, so as to have a raster layer that covers a bit more that the strictly necessary.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T093958Z" creationid="miurahr" creationdate="20201118T093958Z">
+        <seg>これを行うには、市の面積の限界を有するレイヤーのバウンディングボックスを含むレイヤーを作成し、それから厳密に必要であるよりもう少しカバーするラスターレイヤーを有するように、それをバッファリングします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -28811,6 +30315,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T225513Z" creationid="miurahr" creationdate="20201117T225513Z">
         <seg>監視プロセスの円滑な機能を確保するために、私たちは、ロジスティックの要件を計画するためのmmqgisプラグインのジオメトリツールおよびハブ距離のボロノイ多角形の機能を使用していました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>To execute an algorithm, you just have to double-click on its name in the toolbox.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094424Z" creationid="miurahr" creationdate="20201118T094424Z">
+        <seg>アルゴリズムを実行するには、ツールボックスでその名前をダブルクリックする必要があるだけです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -28991,6 +30503,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>To reproject a raster layer, the *Warp (reproject)* algorithm can be used again.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094056Z" creationid="miurahr" creationdate="20201118T094056Z">
+        <seg>ラスターレイヤーを再投影するために、*ワープ（再投影）* アルゴリズムを再び使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>To resolve this problem:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T033339Z" creationid="miurahr" creationdate="20201118T033339Z">
@@ -29031,6 +30551,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>To select a format, just select the corresponding file extension (or add it if you are directly typing the filepath instead).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094432Z" creationid="miurahr" creationdate="20201118T094432Z">
+        <seg>形式を選択するには、単に対応するファイルの拡張子を選択します（または、直接ファイルパスを入力している場合は、代わりにそれを追加します）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>To set white background and enable anti-aliasing for smooth rendering</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T003534Z" creationid="miurahr" creationdate="20201118T003534Z">
@@ -29059,6 +30587,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T035413Z" creationid="miurahr" creationdate="20201118T035413Z">
         <seg>これを解決するには：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>To start exploring the processing framework, we are going to run one of those native algorithms.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094238Z" creationid="miurahr" creationdate="20201118T094238Z">
+        <seg>処理フレームワークの探索を開始するために、それらのネイティブのアルゴリズムのいずれかを実行するつもりです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -29431,6 +30967,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Try yourself saving it using different file formats (use, for instance, :file:`shp` and :file:`geojson` as extensions).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094447Z" creationid="miurahr" creationdate="20201118T094447Z">
+        <seg>さまざまなファイル形式を使用（例えば、拡張子として  :file:`shp` と :file:`geojson` を使用）してそれを保存し、自分自身を試してみてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Turbidity</seg>
       </tuv>
       <tuv lang="ja">
@@ -29467,6 +31011,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T031856Z" creationid="miurahr" creationdate="20201118T031856Z">
         <seg>タイプ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Type ``centroids`` and you should see something like this.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094314Z" creationid="miurahr" creationdate="20201118T094314Z">
+        <seg>``centroids`` と入力すると次のように見えるはずです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -29523,6 +31075,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>:guilabel:`画像回転` の下で :guilabel:`地図でSync` をチェックし、 :kbd:`Map 1` （概要地図）を選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Under Linux, the target version for SAGA is also 2.1, but in some installations (such as the OSGeo Live DVD) you might have just 2.0.8 available.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094518Z" creationid="miurahr" creationdate="20201118T094518Z">
+        <seg>Linuxでは、SAGAのターゲットバージョンも2.1ですが、（そのようOSGEOライブDVDなど）一部のインストールでは、だけ2.0.8利用できる可能性があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -30087,6 +31647,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Using a WMS, you can add inactive maps as backdrops for your existing map data.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075414Z" creationid="miurahr" creationdate="20201118T075414Z">
+        <seg>WMSを使用して、既存の地図データのための背景として、非アクティブ地図を追加できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Using a collection of historical maps of the area dating back to 1659, we have scanned, digitized and extracted features for a total of 21 maps into our extensive project GIS database.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T225049Z" creationid="miurahr" creationdate="20201117T225049Z">
@@ -30607,6 +32175,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>We are going to convert all those layers to the EPSG:23029 CRS, so we have to select that CRS in the second field.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075525Z" creationid="miurahr" creationdate="20201118T075525Z">
+        <seg>これらのレイヤーをすべてEPSG:23029 CRSに変換しようとしているので、2番目のフィールドでそのCRSを選択する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>We are going to go into more detail about Coordinate Reference Systems in a later tutorial.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140802Z" creationid="miurahr" creationdate="20201117T140802Z">
@@ -30691,6 +32267,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T225522Z" creationid="miurahr" creationdate="20201117T225522Z">
         <seg>私たちは、トラの存在などpugmarks、スクラッチマークや糞の証拠のためのNTRで豊富な看板調査を実施しました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>We could have buffered the city limits first, and then calculate the extent rectangle, saving one step.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094003Z" creationid="miurahr" creationdate="20201118T094003Z">
+        <seg>最初の市域をバッファリングして、一ステップ省略し、範囲矩形を計算することもできたでしょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -30831,10 +32415,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>We reproject into a CRS with meters as units (e.g. 3857), so we can then correctly calculate the slope, with either SAGA or GDAL.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094058Z" creationid="miurahr" creationdate="20201118T094058Z">
+        <seg>単位（例えば3857）メートルでCRSに再投影、その後、正しくSAGAやGDALのいずれかで、傾きを計算できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>We saw that there are two key concepts to vector data, namely: **geometry** and **attributes**.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123317Z" creationid="miurahr" creationdate="20201117T123317Z">
         <seg>ベクターデータには， **ジオメトリ** と **属性** の２つのキーコンセプトがありました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>We should therefore reproject them before proceeding further, using the *Warp (reproject)* tool.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094005Z" creationid="miurahr" creationdate="20201118T094005Z">
+        <seg>したがって、 *ワープ（再投影）* ツールを使用して、さらに進む前にそれらを再投影する必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -30871,6 +32471,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>We want the same on for all rows, but we do not have to do it for every single row.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075526Z" creationid="miurahr" creationdate="20201118T075526Z">
+        <seg>すべての行で同じにしたいが、各行ひとつひとつに対してそれを行う必要はありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>We want to create a map layout consisting of a header and a map of the region near Swellendam, South Africa.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T054145Z" creationid="miurahr" creationdate="20201118T054145Z">
@@ -30899,6 +32507,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150318Z" creationid="miurahr" creationdate="20201117T150318Z">
         <seg>``street_id`` 番号 :kbd:`1` に住む人だけを表示したい:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>We will also see a very useful algorithm: reprojecting.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075614Z" creationid="miurahr" creationdate="20201118T075614Z">
+        <seg>私たちはまた、再投影というとても便利なアルゴリズムについて見てみます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -30959,6 +32575,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>We will see all of them in this lesson.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094141Z" creationid="miurahr" creationdate="20201118T094141Z">
+        <seg>このレッスンではそれらのすべてを見ることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>We will see more about this soon.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094445Z" creationid="miurahr" creationdate="20201118T094445Z">
+        <seg>これについての詳細はすぐに見るでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>We will start the application, and create a basic map to use for examples and exercises.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T033216Z" creationid="miurahr" creationdate="20201118T033216Z">
@@ -30971,6 +32603,22 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T034510Z" creationid="miurahr" creationdate="20201118T034510Z">
         <seg>ガイドとしてER図を使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>We will use this last method to execute our rasterization algorithm.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094213Z" creationid="miurahr" creationdate="20201118T094213Z">
+        <seg>ラスター化アルゴリズムを実行するために、この最後のメソッドを使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>We'll see later how to activate other providers.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094402Z" creationid="miurahr" creationdate="20201118T094402Z">
+        <seg>他のプロバイダをアクティブにする方法については、後で説明します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -31127,6 +32775,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>What should you learn from this?</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T093931Z" creationid="miurahr" creationdate="20201118T093931Z">
+        <seg>このことから何を学ぶべきでしょうか？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>What to do next varies according to your operating system, so choose the appropriate course to follow:</seg>
       </tuv>
       <tuv lang="ja">
@@ -31219,6 +32875,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150246Z" creationid="miurahr" creationdate="20201117T150246Z">
         <seg>データベース内のデータを追加、変更、または削除するときは、何か問題が生じた場合にデータベースを良好な状態に保つことが常に重要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>When an extent is required, it can be defined manually by entering the four values that define it (min X, min Y, max X, max Y), but there are other more practical and more interesting ways of doing it as well.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094140Z" creationid="miurahr" creationdate="20201118T094140Z">
+        <seg>範囲が必要とされる場合は、それを定義する4つの値（最小X、最小Y、最大X、最大Y）を入力することによって手動で定義できますが、他にもそれを同様に行うより実用的でより興味深い方法があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -31399,6 +33063,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>When the layer is loaded into QGIS, you will not be asked to enter the CRS of the layer, since QGIS already knows about it.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T093921Z" creationid="miurahr" creationdate="20201118T093921Z">
+        <seg>レイヤーはQGISにロードされるとQGISはすでにそれについて知っているので、レイヤーのCRSを入力するよう求められることはありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>When the picture is displayed on a screen or printed out, the red, green and blue (RGB) information is combined to show you an image that your eyes can interpret.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140321Z" creationid="miurahr" creationdate="20201117T140321Z">
@@ -31539,6 +33211,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>そうするとカスタムダイアログが表示されます(QGISが通常作成するものの代わりに)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>When you double-click on the *Polygon centroids* algorithm, you will see the following dialog.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094425Z" creationid="miurahr" creationdate="20201118T094425Z">
+        <seg>*ポリゴン重心* アルゴリズムをダブルクリックすると、次のダイアログが表示されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -31815,6 +33495,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>While this is the most flexible option, it is also the less practical in some cases, and that's why other options are implemented.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094156Z" creationid="miurahr" creationdate="20201118T094156Z">
+        <seg>これは最も柔軟なオプションですが、それは場合によってはあまり実用的でないこともあり、それが他のオプションが実装されている理由です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>While vector features use geometry (points, polylines and polygons) to represent the real world, raster data takes a different approach.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140002Z" creationid="miurahr" creationdate="20201117T140002Z">
@@ -31991,10 +33679,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>With that, we get the final DEM we want.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094051Z" creationid="miurahr" creationdate="20201118T094051Z">
+        <seg>それによって、私たちが望む最後のDEMが得られます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>With the call to :meth:`endEditCommand() &lt;qgis.core.QgsVectorLayer.endEditCommand&gt;` the command is pushed onto the undo stack and the user will be able to undo/redo it from GUI.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T031526Z" creationid="miurahr" creationdate="20201118T031526Z">
         <seg>:meth:`endEditCommand() &lt;qgis.core.QgsVectorLayer.endEditCommand&gt;` メソッドの呼び出しによって、コマンドはアンドゥスタックにプッシュされ、ユーザーがGUIから取り消し／やり直しをすることができるようになります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>With the new DEM, slope can now be computed.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094059Z" creationid="miurahr" creationdate="20201118T094059Z">
+        <seg>新DEMでは、傾きが計算できるようになりました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -32051,6 +33755,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135759Z" creationid="miurahr" creationdate="20201117T135759Z">
         <seg>このことを念頭に、地図上の投影の名前を追加することはなぜ理にかなっているかを、今、理解できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>With this layer that contains the bounding box of the raster layer that we want to obtain, we can crop both of the raster layers, using the *Clip raster with polygon* algorithm.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094008Z" creationid="miurahr" creationdate="20201118T094008Z">
+        <seg>入手したいラスターレイヤーのバウンディングボックスが含まれるこのレイヤーで、 *ポリゴンでラスターをクリップ* アルゴリズムを使用して、ラスターレイヤーの両方をトリミングできます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -32639,6 +34351,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You can open the settings dialog and go to the *Providers/SAGA* group.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094511Z" creationid="miurahr" creationdate="20201118T094511Z">
+        <seg>設定ダイアログを開き、 *プロバイダー/SAGA* グループに行くことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You can right click on the table and view its properties as we did in the previous exercise.</seg>
       </tuv>
       <tuv lang="ja">
@@ -32651,6 +34371,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T020436Z" creationid="miurahr" creationdate="20201118T020436Z">
         <seg>:guilabel:`レイヤー` パネル中の :guilabel:`all_terrain` レイヤー上で右クリックし :guilabel:`名前を付けて保存...` を選択することでこのレイヤーを保存できます。その後は指示に従って続けます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can save time merging first and then cropping, and you will avoid calling the clipping algorithm twice.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094030Z" creationid="miurahr" creationdate="20201118T094030Z">
+        <seg>最初にマージしてからトリミングすると時間を節約でき、二回クリッピングアルゴリズムを呼び出さずにすむでしょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -32691,6 +34419,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T035407Z" creationid="miurahr" creationdate="20201118T035407Z">
         <seg>目録データファイルからのすべての 属性 は、今お使いのデジタル化された ベクターレイヤーにリンクされていることがわかります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can see that by running the *Export/Add geometry columns* algorithm using this new layer as input, and veryfing that the added coordinates are different to the ones in the attribute tables of both of the two layers that we had computed before.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T093943Z" creationid="miurahr" creationdate="20201118T093943Z">
+        <seg>この新しいレイヤーを入力として使用して、追加座標が前に計算した2レイヤーの両方の属性テーブル内のものと異なっていることを検証して、 *ジオメトリ列をエクスポート/追加* アルゴリズムを実行することで、それがわかるでしょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -33247,6 +34983,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You might want to set its :guilabel:`Encoding` to :guilabel:`JPEG` and its :guilabel:`Tile size` option to ``200`` by ``200``, so that it loads faster:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075402Z" creationid="miurahr" creationdate="20201118T075402Z">
+        <seg>より速くロードされるよう、その :guilabel:`Encoding` を :guilabel:`JPEG` に、その :guilabel:`タイルサイズ` オプションを ``200`` 掛ける ``200`` に設定することをお勧めします</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You must delete all sections Entitled "Endorsements".</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T133435Z" creationid="miurahr" creationdate="20201117T133435Z">
@@ -33383,6 +35127,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You should find the resulting layer rendered exactly in the same place as the other ones, and it will have the EPSG:23030 CRS, since that was the one of the input layer.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T093927Z" creationid="miurahr" creationdate="20201118T093927Z">
+        <seg>結果のレイヤーはもう１つのものと正確に同じ場所にレンダリングされるのがわかるはずであり、それはEPSG:23030のCRSです、それは入力レイヤーの一つだったので。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You should find this familiar if you have used other vector image editing programs, like Corel.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T033710Z" creationid="miurahr" creationdate="20201118T033710Z">
@@ -33403,6 +35155,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T034404Z" creationid="miurahr" creationdate="20201118T034404Z">
         <seg>このようなメッセージを取得するはずです:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You should get a new layer with exactly the same points as the other two layers.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T093916Z" creationid="miurahr" creationdate="20201118T093916Z">
+        <seg>他の2つのレイヤーとまったく同じポイントで新しいレイヤーを取得する必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -33527,10 +35287,34 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You will get a rasterized layer that covers exactly the area covered by the original vector layer.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094218Z" creationid="miurahr" creationdate="20201118T094218Z">
+        <seg>元のベクターレイヤーで覆われた領域を正確にカバーするラスター化レイヤーが得られるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You will get something like this:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T035058Z" creationid="miurahr" creationdate="20201118T035058Z">
         <seg>何かこのようになっているでしょう：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You will get the following output.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094441Z" creationid="miurahr" creationdate="20201118T094441Z">
+        <seg>次のような出力が得られます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You will get to the following dialog.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075440Z" creationid="miurahr" creationdate="20201118T075440Z">
+        <seg>次のダイアログが表示されるでしょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -33587,6 +35371,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T034529Z" creationid="miurahr" creationdate="20201118T034529Z">
         <seg>コマンドが :kbd:`;` で終わっていることに気づきましたか。すべてのSQLコマンドはこのように終わるべきです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You will notice that the rasters has a different projection from the vector.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T094004Z" creationid="miurahr" creationdate="20201118T094004Z">
+        <seg>ラスターは、ベクターと別の投影を有することがわかります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -33963,6 +35755,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T092616Z" creationid="miurahr" creationdate="20201117T092616Z">
         <seg>`新訂版 More Effective C++ &lt;https://www.maruzen-publishing.co.jp/item/b294731.html&gt;` 原著:`More Effective C++ &lt;https://www.informit.com/store/more-effective-c-plus-plus-35-new-ways-to-improve-your-9780201633719&gt;`_, Scott Meyers</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>`Spatineo Directory &lt;https://directory.spatineo.com/&gt;`_</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075417Z" creationid="miurahr" creationdate="20201118T075417Z">
+        <seg>`Spatineoディレクトリ &lt;https://directory.spatineo.com/&gt;`_</seg>
       </tuv>
     </tu>
     <tu>
@@ -35019,6 +36819,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T021105Z" creationid="miurahr" creationdate="20201118T021105Z">
         <seg>そのときは都市テーブルのポリゴンを作成して実験している間、それらのいくつかを削除してやり直してしまっていることを意味します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>todo: Add image</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T075604Z" creationid="miurahr" creationdate="20201118T075604Z">
+        <seg>todo:画像を追加</seg>
       </tuv>
     </tu>
     <tu>
