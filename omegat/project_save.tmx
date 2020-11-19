@@ -26402,8 +26402,8 @@
       <tuv lang="en-US">
         <seg>Pay careful attention to when arguments should be passed by reference.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201117T090011Z" creationid="miurahr" creationdate="20201117T090011Z">
-        <seg>引数を参照渡しするべき場合に注意してください。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T004421Z" creationid="miurahr" creationdate="20201117T090011Z">
+        <seg>引数を参照渡しするべき場合には、特に注意してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27598,8 +27598,8 @@ Generated-By: Babel 2.8.0</seg>
       <tuv lang="en-US">
         <seg>Qt Designer</seg>
       </tuv>
-      <tuv lang="ja">
-        <seg>Qt デザイナ</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T005118Z">
+        <seg>Qtデザイナ</seg>
       </tuv>
     </tu>
     <tu>
@@ -44301,8 +44301,8 @@ Generated-By: Babel 2.8.0</seg>
       <tuv lang="en-US">
         <seg>Write descriptive and meaningful comments that give a reader information about what to expect, what happens in edge cases and give hints about other interfaces he could be looking for, best practices and code samples.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201117T091622Z" creationid="miurahr" creationdate="20201117T091622Z">
-        <seg>説明的で意味のあるコメントを書き、読者に何が起こるか、エッジケースで何が起こるか、彼が探している他のインターフェイス、ベストプラクティス、コードサンプルについてのヒントを与えます。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T004729Z" creationid="miurahr" creationdate="20201117T091622Z">
+        <seg>説明的で意味のあるコメントを書きましょう。期待動作やエッジケースで何が起こるかを説明します。読者が探しているかもしれない他のインターフェイスのヒントや、利用するためのベストプラクティスやサンプルコードを提供することもできます。</seg>
       </tuv>
     </tu>
     <tu>
