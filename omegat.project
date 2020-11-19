@@ -134,7 +134,6 @@
 		<mapping local="source/./user_manual/processing/toolbox.po" repository="/locale/en/LC_MESSAGES/docs/./user_manual/processing/toolbox.po"/>
 		<mapping local="source/./user_manual/processing/scripts.po" repository="/locale/en/LC_MESSAGES/docs/./user_manual/processing/scripts.po"/>
 		<mapping local="source/./user_manual/processing/history.po" repository="/locale/en/LC_MESSAGES/docs/./user_manual/processing/history.po"/>
-		<mapping local="source/./user_manual/processing/standalone.po" repository="/locale/en/LC_MESSAGES/docs/./user_manual/processing/standalone.po"/>
 		<mapping local="source/./user_manual/processing/modeler.po" repository="/locale/en/LC_MESSAGES/docs/./user_manual/processing/modeler.po"/>
 		<mapping local="source/./user_manual/processing/console.po" repository="/locale/en/LC_MESSAGES/docs/./user_manual/processing/console.po"/>
 		<mapping local="source/./user_manual/processing/index.po" repository="/locale/en/LC_MESSAGES/docs/./user_manual/processing/index.po"/>
