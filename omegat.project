@@ -34,7 +34,7 @@
                 <mapping local="source/developers_guide/unittesting.po"
                          repository="/locale/en/LC_MESSAGES/docs/developers_guide/unittesting.po"/>
                 <mapping local="source/developers_guide/qtcreator.po"
-                         repository="/locale/en/LC_MESSAGES/docs/dev/developers_guide/qtcreator.po"/>
+                         repository="/locale/en/LC_MESSAGES/docs/developers_guide/qtcreator.po"/>
                 <mapping local="source/developers_guide/codingstandards.po"
                          repository="/locale/en/LC_MESSAGES/docs/developers_guide/codingstandards.po"/>
                 <mapping local="source/developers_guide/processingtesting.po"
