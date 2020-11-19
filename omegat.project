@@ -275,7 +275,6 @@
 		<mapping local="source/./training_manual/forestry/systematic_sampling.po" repository="/locale/en/LC_MESSAGES/docs/./training_manual/forestry/systematic_sampling.po"/>
 		<mapping local="source/./training_manual/forestry/results_map.po" repository="/locale/en/LC_MESSAGES/docs/./training_manual/forestry/results_map.po"/>
 		<mapping local="source/./training_manual/forestry/map_georeferencing.po" repository="/locale/en/LC_MESSAGES/docs/./training_manual/forestry/map_georeferencing.po"/>
-		<mapping local="source/./server_manual/services.po" repository="/locale/en/LC_MESSAGES/docs/./server_manual/services.po"/>
 		<mapping local="source/./server_manual/development_server.po" repository="/locale/en/LC_MESSAGES/docs/./server_manual/development_server.po"/>
 		<mapping local="source/./server_manual/getting_started.po" repository="/locale/en/LC_MESSAGES/docs/./server_manual/getting_started.po"/>
 		<mapping local="source/./server_manual/containerized_deployment.po" repository="/locale/en/LC_MESSAGES/docs/./server_manual/containerized_deployment.po"/>
@@ -330,6 +329,7 @@
 		    <mapping local="source/./user_manual/working_with_raster/georeferencer.po" repository="/locale/en/LC_MESSAGES/docs/./user_manual/working_with_raster/georeferencer.po"/>
 		    <mapping local="source/./user_manual/working_with_vector/functions_list.po" repository="/locale/en/LC_MESSAGES/docs/./user_manual/working_with_vector/functions_list.po"/>
 		    <mapping local="source/./server_manual/config.po" repository="/locale/en/LC_MESSAGES/docs/./server_manual/config.po"/>
+		    <mapping local="source/./server_manual/services.po" repository="/locale/en/LC_MESSAGES/docs/./server_manual/services.po"/>
 		-->	
 	    </repository>
         </repositories>
