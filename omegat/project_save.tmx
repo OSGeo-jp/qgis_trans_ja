@@ -4864,8 +4864,8 @@
       <tuv lang="en-US">
         <seg>All class members should be private.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201118T223450Z" creationid="miurahr" creationdate="20201118T223450Z">
-        <seg>すべてのクラスメンバはプライベートにしましょう。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T004004Z" creationid="miurahr" creationdate="20201118T223450Z">
+        <seg>すべてのクラスメンバはprivateにしましょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13730,8 +13730,8 @@
       <tuv lang="en-US">
         <seg>Function names begin with a lowercase letter and are formed using mixed case.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201118T223504Z" creationid="miurahr" creationdate="20201118T223504Z">
-        <seg>関数名は小文字で始まり、大文字と小文字を使用して形成されています。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T004214Z" creationid="miurahr" creationdate="20201118T223504Z">
+        <seg>関数名は小文字で始まり、大文字と小文字を使用して命名されています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27061,8 +27061,8 @@ Generated-By: Babel 2.8.0</seg>
       <tuv lang="en-US">
         <seg>Protected members should be avoided when the member may need to be accessed from Python subclasses, since protected members cannot be used from the Python bindings.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201117T114009Z" creationid="miurahr" creationdate="20201117T114009Z">
-        <seg>保護メンバーは Python バインディングから使用できないため、メンバーが Python のサブクラスからアクセスする必要がある場合は、保護メンバを使用しないでください。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T003939Z" creationid="miurahr" creationdate="20201117T114009Z">
+        <seg>protected メンバーは Python バインディングから使用できないため、メンバーが Python のサブクラスからアクセスする必要がある場合は、protected メンバを使用しないでください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27101,8 +27101,8 @@ Generated-By: Babel 2.8.0</seg>
       <tuv lang="en-US">
         <seg>Public class members are STRONGLY discouraged.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201117T114014Z" creationid="miurahr" creationdate="20201117T114014Z">
-        <seg>公開クラスメンバは極力避けるようにしてください。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T003951Z" creationid="miurahr" creationdate="20201117T114014Z">
+        <seg>public クラスメンバは極力避けるようにしてください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -43613,8 +43613,8 @@ Generated-By: Babel 2.8.0</seg>
       <tuv lang="en-US">
         <seg>Where appropriate, this may require that cached value type member variables are marked with ``mutable``.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201117T085708Z" creationid="miurahr" creationdate="20201117T085708Z">
-        <seg>適切な場合には、これはキャッシュされた値型のメンバー変数が ``mutable`` でマークされていることを要求することができます。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T004328Z" creationid="miurahr" creationdate="20201117T085708Z">
+        <seg>適切な場所に付与されていると、キャッシュされた値型のメンバー変数が ``mutable`` でマークされることを要求します。</seg>
       </tuv>
     </tu>
     <tu>
