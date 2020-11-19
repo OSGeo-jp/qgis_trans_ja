@@ -1942,6 +1942,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>:guilabel:`View resources`: translatable :file:`.po` files with their ratio of translation, number of strings and some more metadata are now displayed.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040729Z" creationid="miurahr" creationdate="20201119T040729Z">
+        <seg>:guilabel:`リソースを表示`: 翻訳可能な :file:`.po` ファイルが、その翻訳の割合と文字列数とその他のメタデータとともに表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>:guilabel:`Width` and :guilabel:`Height` are ``837`` and ``661``, respectively.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T221410Z" creationid="miurahr" creationdate="20201117T221410Z">
@@ -3490,6 +3498,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T094358Z" creationid="miurahr" creationdate="20201118T094358Z">
         <seg>これらは、明るいグレーで表示されます。各非アクティブプロバイダをアクティブにするリンクも表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>A list of available languages with their ratio of translation is displayed.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040726Z" creationid="miurahr" creationdate="20201119T040726Z">
+        <seg>翻訳が可能な言語の一覧が、その進捗の割合とともに表示されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5175,6 +5191,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>All you need to do is select each text and translate following the :ref:`guidelines &lt;translate_manual&gt;`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040733Z" creationid="miurahr" creationdate="20201119T040733Z">
+        <seg>あとは個々のテキストを選んで、下記の :ref:`guidelines &lt;translate_manual&gt;` に従って翻訳するだけです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Allowed values for "category" are: Vector, Raster, Database or Web.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T024902Z" creationid="miurahr" creationdate="20201118T024902Z">
@@ -5203,6 +5227,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141606Z" creationid="miurahr" creationdate="20201117T141606Z">
         <seg>ページの上部に沿って、80個のアスタリスク（ :kbd:`*` ）の行を書きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Along this file you will see a tiny :file:`.mo` file which indicates that it does not hold any translations yet.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040720Z" creationid="miurahr" creationdate="20201119T040720Z">
+        <seg>このファイルと並んでごく小さなサイズの :file:`.mo` ファイルがあるのに気づかれると思いますが、今の所このファイルにはなんの翻訳も含まれていません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6123,6 +6155,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135750Z" creationid="miurahr" creationdate="20201117T135750Z">
         <seg>一例として、目盛線は、緯度と経度の経線の地球の類似を表すことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>As an example, to translate the manual of QGIS 2.8, you have to use the manual_en_v2.8 branch.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040905Z" creationid="miurahr" creationdate="20201119T040905Z">
+        <seg>翻訳のためにはそのブランチを使用してください。例えばQGIS 2.8の翻訳では、manual_en_v2.8 ブランチを使用してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13552,6 +13592,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>For further information on the use of Qt Linguist, see https://doc-snapshots.qt.io/qt5-5.12/linguist-translators.html</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040913Z" creationid="miurahr" creationdate="20201119T040913Z">
+        <seg>Qt Linguist の使用についてのより詳しい情報は、 https://doc-snapshots.qt.io/qt5-5.12/linguist-translators.html を参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For further information on the use of Transifex Web Editor, see https://docs.transifex.com/translation/translating-with-the-web-editor.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040734Z" creationid="miurahr" creationdate="20201119T040734Z">
+        <seg>TransifexのWebエディターについてのより詳しい情報は、https://docs.transifex.com/translation/translating-with-the-web-editor を参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>For further information you may refer to :ref:`server_env_variables`.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T015002Z" creationid="miurahr" creationdate="20201118T015002Z">
@@ -13832,6 +13888,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>For the documentation or the website, clicking the ``Fix me`` link in the footer of a page brings you directly to its corresponding translation page in Transifex.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040732Z" creationid="miurahr" creationdate="20201119T040732Z">
+        <seg>ドキュメントとウェブサイトの翻訳では、ページのフッターにある ``このページを修正`` のリンクをクリックすれば、Transifexの対応する翻訳ページに直接移動することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>For the first execution, use the following parameter values.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T095039Z" creationid="miurahr" creationdate="20201118T095039Z">
@@ -13972,6 +14036,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135957Z" creationid="miurahr" creationdate="20201117T135957Z">
         <seg>このために、我々は心からの感謝をDLAに捧げます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For translations there are always translation branches available, once a document is fully updated in English for a certain version.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040859Z" creationid="miurahr" creationdate="20201119T040859Z">
+        <seg>ある特定のバージョンで英語での更新が完了した後は、常に翻訳用ブランチが有効になっています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14880,6 +14952,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Handy when the original document has changed and only several new/changed sentences need to be translated.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040922Z" creationid="miurahr" creationdate="20201119T040922Z">
+        <seg>ソースファイルの変更によって追加や修正が行われた文だけを翻訳する必要があるときに便利です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Happy customizing!</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T054131Z" creationid="miurahr" creationdate="20201118T054131Z">
@@ -15440,6 +15520,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Hover over your language and click either:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040728Z" creationid="miurahr" creationdate="20201119T040728Z">
+        <seg>翻訳する言語の上にカーソルを持ってきて、次のいずれかをクリックしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>How accurately does the map represent the history of the area?</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135920Z" creationid="miurahr" creationdate="20201117T135920Z">
@@ -15848,10 +15936,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>I wrote it so it is easier for me to translate ;-)</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040715Z" creationid="miurahr" creationdate="20201119T040715Z">
+        <seg>このドキュメントを書いたのは私なので、私には翻訳が容易だからです (^o^;)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Ideally, this name will include the name of the lesson and an incrementing number.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141622Z" creationid="miurahr" creationdate="20201117T141622Z">
         <seg>この名前には、レッスン名と連番が入っているのが理想です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Identify the file you'd like to translate (in our case we are looking for the ``docs_user-manual_plugins_plugins-heatmap``, the heatmap plugin file) or any unfinished file and click on it: strings in the files are loaded and you can use the interface to filter, translate, suggest translation...</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040731Z" creationid="miurahr" creationdate="20201119T040731Z">
+        <seg>翻訳したいファイル（この例では ``docs_user-manual_plugins_plugins-heatmap`` という名前のheatmap pluginのファイルを探します）か、もしくはなんでもいいので翻訳の終わっていないファイルを見つけて、それをクリックしてください。するとそのファイル中の文字列が読み込まれ、絞り込みや翻訳、提案などのインターフェースを利用できるようになります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16260,6 +16364,22 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124016Z" creationid="miurahr" creationdate="20201117T124016Z">
         <seg>（右図のように）画像が下手にジオリファレンスされた場合の地物は十分に整列されることはありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If the item does not need translation just leave the text field for translation empty and also hit this button which indicates the item is done and you continue with the next item.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040800Z" creationid="miurahr" creationdate="20201119T040800Z">
+        <seg>翻訳を必要としない項目では、テキストフィールドは空のままでこのボタンを押してください。これで翻訳完了となり、次の項目に進みます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If the item needs translation, you enter a translation in the text field, then hit this button.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040809Z" creationid="miurahr" creationdate="20201119T040809Z">
+        <seg>翻訳が必要な項目では、テキストフィールドに翻訳を入力してこのボタンを押してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17412,6 +17532,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If you want to download content to translate from the source repository, never do this in the ``master`` branch.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040846Z" creationid="miurahr" creationdate="20201119T040846Z">
+        <seg>翻訳のためにソースリポジトリからファイルをダウンロードするときは、絶対に ``master`` ブランチで行なってはなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If you want to fill the entries manually, you can add more rows using the *Add row* button.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T075523Z" creationid="miurahr" creationdate="20201118T075523Z">
@@ -18518,6 +18646,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In order to translate using Transifex, you need to:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040723Z" creationid="miurahr" creationdate="20201119T040723Z">
+        <seg>Transifexを使って翻訳するには、以下に従ってください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In other cases it can be difficult.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140016Z" creationid="miurahr" creationdate="20201117T140016Z">
@@ -19279,6 +19415,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In the menu you see the following buttons which are convenient to use.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040746Z" creationid="miurahr" creationdate="20201119T040746Z">
+        <seg>メニューには使うと便利な以下のようなボタンがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In the module ‘Applied GIS in Natural Resource Management’, under the guidance of Prof. Mund, the students quickly discovered the subject’s complexity, especially within regard to the adaptability of species to changing environments.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T224902Z" creationid="miurahr" creationdate="20201117T224902Z">
@@ -19764,6 +19908,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T100349Z" creationid="miurahr" creationdate="20201118T100349Z">
         <seg>この場合、入力としてDEMを使用しない代わりに、以前に追加アルゴリズムによって計算される傾斜および流域レイヤーを使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In this example we will translate it from English to Dutch, but it will be practically the same for other documents in all languages.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040708Z" creationid="miurahr" creationdate="20201119T040708Z">
+        <seg>この例では英語からオランダ語に翻訳を行いますが、他のドキュメントや言語でもほぼ同じでしょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20776,6 +20928,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>It includes images, captions, headers, references and replacements.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040713Z" creationid="miurahr" creationdate="20201119T040713Z">
+        <seg>このドキュメントには画像、キャプション、ヘッダー、参照、置換があるからです</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>It is a charter member of the `UNESCO Fundy Biosphere Reserve &lt;http://fundy-biosphere.ca/en/about-us/the-reserve&gt;`_ and affiliated with the `NB Trails Council Inc.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222659Z" creationid="miurahr" creationdate="20201117T222659Z">
@@ -21596,6 +21756,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T224738Z" creationid="miurahr" creationdate="20201118T224738Z">
         <seg>1つだけ注意：QtCreatorはインストールプレフィックス上の書き込み権限が必要になります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Just pick the files you want and translate.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040649Z" creationid="miurahr" creationdate="20201119T040649Z">
+        <seg>翻訳者は希望のファイルを選んで翻訳するだけです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24368,6 +24536,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Note that whatever tool you choose, rules of translations are the same.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040702Z" creationid="miurahr" creationdate="20201119T040702Z">
+        <seg>どんなツールを選ぼうと、翻訳のルールは同じであることに注意してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Note that with these simple text files we can create also very complex reclassifications.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T102000Z" creationid="miurahr" creationdate="20201118T102000Z">
@@ -25764,6 +25940,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T220124Z" creationid="miurahr" creationdate="20201117T220124Z">
         <seg>制御点が完成したら、後で使用するために保存できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Once you are part of a language team, click on the corresponding project (in this case ``QGIS Documentation``).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040725Z" creationid="miurahr" creationdate="20201119T040725Z">
+        <seg>Languagesチームの一員となったら、該当するプロジェクト（ここでは ``QGIS Documentation`` です）をクリックします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -30196,6 +30380,22 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Select language for translation in linguist menu</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040742Z" creationid="miurahr" creationdate="20201119T040742Z">
+        <seg>linguist メニューから翻訳する言語を選んでください</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Select language for translation in the Transifex menu</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040727Z" creationid="miurahr" creationdate="20201119T040727Z">
+        <seg>Transifexのメニューで翻訳する言語を選んでください</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Select neighbors</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T124222Z" creationid="miurahr" creationdate="20201118T124222Z">
@@ -31077,6 +31277,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Since there's no versioning system on Transifex, the file you upload will simply replace the existing one and potentially overwrite any modification made by others on the platform in the meantime.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040740Z" creationid="miurahr" creationdate="20201119T040740Z">
+        <seg>というのも、Transifexにはバージョン管理システムがないために、あなたがアップロードしたファイルは単純に既存のファイルを置き換えるだけなので、その間にTransifexで他の人によって行われた変更を上書きしてしまう可能性があるからです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Since we are combining both class declaration and implementation in a single file the class declaration comes next.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T224811Z" creationid="miurahr" creationdate="20201118T224811Z">
@@ -31337,6 +31545,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123625Z" creationid="miurahr" creationdate="20201117T123625Z">
         <seg>だから table_river_attributes_ のように見える属性テーブルで終わることがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>So why did I choose this document?</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040711Z" creationid="miurahr" creationdate="20201119T040711Z">
+        <seg>なんでこのドキュメントを例として選んだのかですって？</seg>
       </tuv>
     </tu>
     <tu>
@@ -33541,10 +33757,26 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The Source language can be left as is with language POSIX and Country/Region on Any Country.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040743Z" creationid="miurahr" creationdate="20201119T040743Z">
+        <seg>ソース言語はLanguageはPOSIX、Country/RegionはAny Countryのままでかまいません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The Southern Downs Regional Council (SDRC) is a small-to-medium sized local government in south east Queensland, Australia.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222514Z" creationid="miurahr" creationdate="20201117T222514Z">
         <seg>南ダウンズ広域行政機関（SDRC）は南東クイーンズランド、オーストラリアの中小地方政府です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The Target language should be filled correctly.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040743Z" creationid="miurahr" creationdate="20201119T040743Z">
+        <seg>ターゲット言語は正しく選択する必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -34085,6 +34317,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The build process has created the English :file:`.po` file which can be found here::</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040718Z" creationid="miurahr" creationdate="20201119T040718Z">
+        <seg>ビルドプロセスが英語の :file:`.po` ファイルを以下の場所に生成しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The calculator is case sensitive.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T100538Z" creationid="miurahr" creationdate="20201118T100538Z">
@@ -34521,6 +34761,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150235Z" creationid="miurahr" creationdate="20201117T150235Z">
         <seg>エンティティ関係図（ER図）は、関係間の論理依存関係を設計するために使用されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The equivalent Dutch :file:`.po` file (basically a copy) can be found here::</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040719Z" creationid="miurahr" creationdate="20201119T040719Z">
+        <seg>これに対応するオランダ語の :file:`.po` ファイル（基本的にコピーです）は以下の場所にあります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -36706,6 +36954,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja">
         <seg>サッカー場</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The source of the document can be found here:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040710Z" creationid="miurahr" creationdate="20201119T040710Z">
+        <seg>ヒートマッププラグインのドキュメントのソースは以下の場所にあります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -40895,6 +41151,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>To explain how translation works, we will use the heatmap plugin as an example.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040706Z" creationid="miurahr" creationdate="20201119T040706Z">
+        <seg>ヒートマッププラグインの例を使って翻訳の作業を説明します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>To export the data using a query:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T123657Z" creationid="miurahr" creationdate="20201118T123657Z">
@@ -41639,10 +41903,50 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Translate a file</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040705Z" creationid="miurahr" creationdate="20201119T040705Z">
+        <seg>ファイルを翻訳する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Translate using the linguist menu</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040745Z" creationid="miurahr" creationdate="20201119T040745Z">
+        <seg>Qt Linguistのメニューを使用して翻訳</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Translated files are stored in the platform until another release is pushed.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040654Z" creationid="miurahr" creationdate="20201119T040654Z">
+        <seg>別のリリースがプッシュされ翻訳を再開するまで、翻訳済みファイルはこのプラットフォームの中に保存されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Translation Guidelines</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201119T040522Z" creationid="miurahr" creationdate="20201119T040522Z">
         <seg>翻訳ガイドライン</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Translation in Qt Linguist</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040735Z" creationid="miurahr" creationdate="20201119T040735Z">
+        <seg>Qt Linguistによる翻訳</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Translation in Transifex</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040722Z" creationid="miurahr" creationdate="20201119T040722Z">
+        <seg>Transifexでの翻訳</seg>
       </tuv>
     </tu>
     <tu>
@@ -45075,6 +45379,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>When you open the file in Qt Linguist for the first time you will see the following dialog:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040741Z" creationid="miurahr" creationdate="20201119T040741Z">
+        <seg>Qt Linguistで初めてそのファイルを開くときは、次のようなダイアログが表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>When you open their attribute tables, you'll note that they have both an :kbd:`id` field and a :kbd:`gid` field created by the PostGIS import.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T124209Z" creationid="miurahr" creationdate="20201118T124209Z">
@@ -45087,6 +45399,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T034539Z" creationid="miurahr" creationdate="20201118T034539Z">
         <seg>:kbd:`Enter` キーを押すと psql は次のように報告します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>When you press the :guilabel:`OK` button Qt Linguist is filled with sentences and you can start translating, see Figure_translation_menu_.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040744Z" creationid="miurahr" creationdate="20201119T040744Z">
+        <seg>:guilabel:`OK` ボタンを押すと、Qt Linguistに文章が読み込まれ、翻訳を開始することが可能になります。 Figure_translation_menu_ を参照してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -45323,6 +45643,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>While downloading and uploading translatable files can be done with Transifex, it's not advised to use this process.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040739Z" creationid="miurahr" creationdate="20201119T040739Z">
+        <seg>翻訳可能なファイルをTransifexを使ってダウンロードしたりアップロードしたりすることは可能ですが、この手順はお勧めできません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>While during the last exercises, the white buffer was OK on top of the aerial image, now that the background image is mostly white you barely can see the labels.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T215413Z" creationid="miurahr" creationdate="20201117T215413Z">
@@ -45463,6 +45791,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135948Z" creationid="miurahr" creationdate="20201117T135948Z">
         <seg>QGISで、社会的な意味での無償と自由なソフトウェアという選択肢を我々は提供しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>With Qt Linguist, you need to:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040735Z" creationid="miurahr" creationdate="20201119T040735Z">
+        <seg>Qt Linguistを使って翻訳するには、以下に従ってください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -48436,6 +48772,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>`Qt Linguist &lt;https://doc.qt.io/qt-5/qtlinguist-index.html&gt;`_, a Qt development tool, requires the translator to pull locally the :file:`.po` (or :file:`.ts`) files from the source code, translate and then push back.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040659Z" creationid="miurahr" creationdate="20201119T040659Z">
+        <seg>`Qt Linguist &lt;https://doc.qt.io/qt-5/qtlinguist-index.html&gt;`_ はQtの開発ツールです。翻訳者は :file:`.po` (もしくは :file:`.ts`) ファイルをソースコードからローカル環境に取得し、翻訳した後は送り返す必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>`Spatial Database Tips and Tricks &lt;http://workshops.boundlessgeo.com/postgis-spatialdbtips/&gt;`_</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T123720Z" creationid="miurahr" creationdate="20201118T123720Z">
@@ -48912,6 +49256,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T102413Z" creationid="miurahr" creationdate="20201118T102413Z">
         <seg>``WWW-data`` は、Debianベースのシステム上のApacheのユーザーであり、それらの場所やファイルへのアクセス権を持っているようにApacheを必要としています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>`create an account on Transifex and join the QGIS project &lt;https://qgis.org/en/site/getinvolved/translate.html#join-a-project&gt;`_.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040724Z" creationid="miurahr" creationdate="20201119T040724Z">
+        <seg>`Transifexでアカウントを作成し、QGISプロジェクトに参加します。 &lt;https://qgis.org/en/site/getinvolved/translate.html#join-a-project&gt;`_.</seg>
       </tuv>
     </tu>
     <tu>
@@ -49420,6 +49772,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>manually grab the :file:`.po` or :file:`.ts`  file(s).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040736Z" creationid="miurahr" creationdate="20201119T040736Z">
+        <seg>これに対応するオランダ語の :file:`.po` ファイル（基本的にコピーです）は以下の場所にあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>map canvas --- for viewing of the map</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T003525Z" creationid="miurahr" creationdate="20201118T003525Z">
@@ -49484,6 +49844,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>or :guilabel:`Translate`: opens the interface of translation with all the available :file:`.po` files</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040730Z" creationid="miurahr" creationdate="20201119T040730Z">
+        <seg>:guilabel:`翻訳`: 翻訳可能なすべての :file:`.po` ファイルと翻訳インターフェースが開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>or this:</seg>
       </tuv>
       <tuv lang="ja">
@@ -49536,6 +49904,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja">
         <seg>変更をプレビューし、コミットする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>proceed to the translation locally</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040738Z" creationid="miurahr" creationdate="20201119T040738Z">
+        <seg>ローカルで翻訳に取りかかります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -49712,6 +50088,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja">
         <seg>住居の種類（RDPハウス、アパートのブロック、小屋、れんが造りの家など）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>upload the modified files to their sources (Transifex or GitHub).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040739Z" creationid="miurahr" creationdate="20201119T040739Z">
+        <seg>修正を行ったファイルをTransifexかGitHubの元の場所へアップロードします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -51088,6 +51472,46 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja">
         <seg>|lerato|</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|linguist_done_next| The Translation Done Next button, is the most important button.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040805Z" creationid="miurahr" creationdate="20201119T040805Z">
+        <seg>|linguist_done_next| [翻訳を完了して次へ] ボタンは、最も重要なボタンです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|linguist_next_todo| The Next Todo button, jumps to the first translation item that still needs a translation.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040921Z" creationid="miurahr" creationdate="20201119T040921Z">
+        <seg>|linguist_next_todo| [次のするべき] ボタンは、翻訳が必要な次の翻訳項目にジャンプします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|linguist_next| The Goto Next button, can be used to go to the next translation item.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040920Z" creationid="miurahr" creationdate="20201119T040920Z">
+        <seg>|linguist_next| [次へ行く] ボタンで、その次の翻訳項目に移動することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|linguist_previous_todo| The Previous Todo button, searches backward and jumps to the first translation item it finds that still needs a translation.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040924Z" creationid="miurahr" creationdate="20201119T040924Z">
+        <seg>|linguist_previous_todo| [前のするべき] ボタンは逆方向に検索を行い、最初に見つかった未翻訳の項目にジャンプします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|linguist_previous| The Goto Previous button, can be used to go to the previous translation item.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040920Z" creationid="miurahr" creationdate="20201119T040920Z">
+        <seg>|linguist_previous| [前へ行く] ボタンで、その前の翻訳項目に移動することができます。</seg>
       </tuv>
     </tu>
     <tu>
