@@ -117,7 +117,6 @@
 		<mapping local="source/./user_manual/processing_algs/qgis/vectortable.po" repository="/locale/en/LC_MESSAGES/docs/./user_manual/processing_algs/qgis/vectortable.po"/>
 		<mapping local="source/./user_manual/processing_algs/qgis/qgis_algs_include.po" repository="/locale/en/LC_MESSAGES/docs/./user_manual/processing_algs/qgis/qgis_algs_include.po"/>
 		<mapping local="source/./user_manual/processing_algs/qgis/index.po" repository="/locale/en/LC_MESSAGES/docs/./user_manual/processing_algs/qgis/index.po"/>
-		<mapping local="source/./user_manual/processing_algs/qgis/plots.po" repository="/locale/en/LC_MESSAGES/docs/./user_manual/processing_algs/qgis/plots.po"/>
 		<mapping local="source/./user_manual/processing_algs/qgis/rasterterrainanalysis.po" repository="/locale/en/LC_MESSAGES/docs/./user_manual/processing_algs/qgis/rasterterrainanalysis.po"/>
 		<mapping local="source/./user_manual/processing_algs/qgis/vectoranalysis.po" repository="/locale/en/LC_MESSAGES/docs/./user_manual/processing_algs/qgis/vectoranalysis.po"/>
 		<mapping local="source/./user_manual/processing_algs/qgis/rasteranalysis.po" repository="/locale/en/LC_MESSAGES/docs/./user_manual/processing_algs/qgis/rasteranalysis.po"/>
