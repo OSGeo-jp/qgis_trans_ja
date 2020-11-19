@@ -1,0 +1,5 @@
+pull request	プルリクエスト	githubの用語のときはカタカナ表現とする
+private	private	プログラミング上のアクセス指定の場合は訳出しない
+public class	public class	プログラミング上のアクセス修飾子の場合は訳出しない
+Qt Designer	Qtデザイナ	製品名
+website	Webサイト	OSGeo-Liveと共通表現
