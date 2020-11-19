@@ -7625,8 +7625,8 @@
       <tuv lang="en-US">
         <seg>C++ implementation and header files should have a .cpp and .h extension respectively.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201118T223721Z" creationid="miurahr" creationdate="20201118T223721Z">
-        <seg>C ++の実装とヘッダーファイルは、それぞれ拡張子.cppと.hを持つ必要があります。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T005311Z" creationid="miurahr" creationdate="20201118T223721Z">
+        <seg>C ++の実装とヘッダーファイルは、それぞれの拡張子が.cppと.hである必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9569,8 +9569,8 @@
       <tuv lang="en-US">
         <seg>Contributors of new functions are encouraged to let people know about their contribution by:</seg>
       </tuv>
-      <tuv lang="ja">
-        <seg>新機能の貢献者は、以下の手段によりその貢献について人々に知らせることをお勧めします：</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T005724Z">
+        <seg>新機能の貢献者については、次の方法で、その貢献について人々に知らせることが推奨されています：</seg>
       </tuv>
     </tu>
     <tu>
@@ -10113,8 +10113,8 @@
       <tuv lang="en-US">
         <seg>Credits for contributions</seg>
       </tuv>
-      <tuv lang="ja">
-        <seg>貢献のためのクレジット</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T005607Z">
+        <seg>貢献者のクレジット</seg>
       </tuv>
     </tu>
     <tu>
@@ -27350,8 +27350,8 @@ Generated-By: Babel 2.8.0</seg>
       <tuv lang="en-US">
         <seg>QGIS classes that are generated from Qt Designer (ui) files should have a Base suffix.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201118T223719Z" creationid="miurahr" creationdate="20201118T223719Z">
-        <seg>Qt デザイナ（UI）ファイルから生成される QGIS クラスは Base という接尾辞を持つ必要があります。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T005230Z" creationid="miurahr" creationdate="20201118T223719Z">
+        <seg>Qt デザイナ（.ui）ファイルから生成される QGIS クラスは Base という接尾辞を持つ必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -37360,8 +37360,8 @@ Generated-By: Babel 2.8.0</seg>
       <tuv lang="en-US">
         <seg>This identifies the class as a generated base class.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201117T091647Z" creationid="miurahr" creationdate="20201117T091647Z">
-        <seg>これは、そのクラスを生成された基本クラスとして識別します。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T005249Z" creationid="miurahr" creationdate="20201117T091647Z">
+        <seg>そのクラスを生成された基本クラスとして識別するためです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -37944,8 +37944,8 @@ Generated-By: Babel 2.8.0</seg>
       <tuv lang="en-US">
         <seg>This makes it much easier for newcomers to identify where the code is relating to specific class.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201117T091702Z" creationid="miurahr" creationdate="20201117T091702Z">
-        <seg>これによって、あるクラスに関連したコードがどこにあるのかを探すのが、新規参加者にとってもはるかに容易になります。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T005435Z" creationid="miurahr" creationdate="20201117T091702Z">
+        <seg>このルールによって、新規参加者も、あるクラスに関連したコードがどこにあるのか、とても容易に探せます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -47366,16 +47366,16 @@ Generated-By: Babel 2.8.0</seg>
       <tuv lang="en-US">
         <seg>adding a note to the changelog for the first version where the code has been incorporated, of the type::</seg>
       </tuv>
-      <tuv lang="ja">
-        <seg>コードが組み込まれた最初のバージョンの更新履歴にメモを追加すること、以下のタイプで::</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T032743Z">
+        <seg>コードが組み込まれた最初のバージョンについて、更新履歴にメモを追加すること、以下のタイプで::</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>adding their name to:</seg>
       </tuv>
-      <tuv lang="ja">
-        <seg>以下に自分の名前を追加すること：</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T005756Z">
+        <seg>次のファイルに自分の名前を追加する：</seg>
       </tuv>
     </tu>
     <tu>
