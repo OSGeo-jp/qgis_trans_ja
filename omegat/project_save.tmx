@@ -1014,6 +1014,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>**Websites**:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T033710Z" creationid="miurahr" creationdate="20201119T033710Z">
+        <seg>**Webサイト**:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>**Workflow description**</seg>
       </tuv>
       <tuv lang="ja">
@@ -19399,6 +19407,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In the section that follows we will take a closer look at **Map Production**.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T033628Z" creationid="miurahr" creationdate="20201119T033628Z">
+        <seg>続くセクションでは **地図投影法** について詳しく見ていきます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In the section that follows we will take a closer look at **attribute data** to see how it can be used to describe vector features.</seg>
       </tuv>
       <tuv lang="ja">
@@ -20516,14 +20532,6 @@
       </tuv>
       <tuv lang="ja">
         <seg>はじめに</seg>
-      </tuv>
-    </tu>
-    <tu>
-      <tuv lang="en-US">
-        <seg>Introduction to Geographic Information Systems.</seg>
-      </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201117T140611Z" creationid="miurahr" creationdate="20201117T140611Z">
-        <seg>地理情報システムの概要</seg>
       </tuv>
     </tu>
     <tu>
@@ -33321,6 +33329,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja">
         <seg>QGISユーザーガイドにも、QGISにおける属性データとシンボル体系についてのより詳細な情報があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The QGIS User Guide also has more detailed information on working with map projections in QGIS.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T033633Z" creationid="miurahr" creationdate="20201119T033633Z">
+        <seg>QGISユーザーガイドでは,地図投影法の操作についてより詳細な情報が含まれています.</seg>
       </tuv>
     </tu>
     <tu>
