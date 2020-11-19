@@ -118,6 +118,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>(optional) add the reference to the icon and its substitution to the list below.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083005Z" creationid="miurahr" creationdate="20201119T083005Z">
+        <seg>（オプション）以下のリストに、アイコンおよびその置換への参照を追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>(see `image`_ below).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083346Z" creationid="miurahr" creationdate="20201119T083346Z">
+        <seg>（ 以下の `画像`_ を参照してください）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>**ADDENDUM: How to use this License for your documents**</seg>
       </tuv>
       <tuv lang="ja">
@@ -438,6 +454,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>**Keyboard shortcuts**</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083352Z" creationid="miurahr" creationdate="20201119T083352Z">
+        <seg>**キーボードショートカット**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>**LAYERFONTFAMILY / ITEMFONTFAMILY** font family for layer title / item text</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T015215Z" creationid="miurahr" creationdate="20201118T015215Z">
@@ -506,6 +530,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201119T032916Z" creationid="miurahr" creationdate="20201119T032916Z">
         <seg>「地図投影」は、地球の表面や地球の一部を平らな紙またはコンピュータ画面に描写しようとします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>**Menu GUI**: to mark a complete sequence of menu selections, including selecting submenus and choosing a specific operation, or any subsequence of such a sequence.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083336Z" creationid="miurahr" creationdate="20201119T083336Z">
+        <seg>**メニューGUI** ：サブメニューを選択したり、特定の操作、またはこのような配列の何らかの部分配列を選択するなど、メニュー選択の完全な配列をマークします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -634,6 +666,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>**対称差**：出力レイヤーには、入力レイヤーのすべての領域が含まれます。ただし、2つのレイヤーが重なる（交わる）領域は除きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>**Test**</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083535Z" creationid="miurahr" creationdate="20201119T083535Z">
+        <seg>テスト</seg>
       </tuv>
     </tu>
     <tu>
@@ -954,6 +994,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>**個別値** シンボルは指定した属性フィールドの中の個別値にそれぞれ異なるシンボル (色やスタイル) を設定することができます</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>**User text**</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083414Z" creationid="miurahr" creationdate="20201119T083414Z">
+        <seg>**ユーザーテキスト**</seg>
       </tuv>
     </tu>
     <tu>
@@ -3258,6 +3306,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>ベクターポリライン周辺のバッファゾーン。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>A caption: A logo I like</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083454Z" creationid="miurahr" creationdate="20201119T083454Z">
+        <seg>キャプション：私の好きなロゴ</seg>
       </tuv>
     </tu>
     <tu>
@@ -5703,6 +5759,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>An index is a handy way to help the reader find information in a document.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083547Z" creationid="miurahr" creationdate="20201119T083547Z">
+        <seg>索引は読者がドキュメント内で必要な情報を見つけるのを手助けする手軽な方法です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>An index should be human readable, understandable and translatable; an index can be made from many words but you should avoid any unneeded ``_``, ``-``... characters to link them i.e., ``Loading layers`` instead of ``loading_layers`` or ``loadingLayers``.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083550Z" creationid="miurahr" creationdate="20201119T083550Z">
+        <seg>索引は、人間が読めるもの、理解できるもの、翻訳可能なものでなければなりません。索引は複数の単語から作ることができますが、それらを繋ぐ不要な ``_`` や ``-`` などは使用しないようにしてください。たとえば ``loading_layers`` や ``loadingLayers`` ではなく、 ``Loading layers`` としてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>An interesting module that deals with CRS's is the reprojection one.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T093936Z" creationid="miurahr" creationdate="20201118T093936Z">
@@ -5971,6 +6043,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T103033Z" creationid="miurahr" creationdate="20201118T103033Z">
         <seg>地形の傾斜がどれほど急であるかを知るのも有用なことです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Another way to jump to the same place **from anywhere in the documentation** is to use the ``:ref:`` role.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083423Z" creationid="miurahr" creationdate="20201119T083423Z">
+        <seg>**文書内のどこからでも** 同じ場所にジャンプする別の方法は、 ``:ref:`` 役割を使用することです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7223,6 +7303,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Because of the rules mentioned above, it is recommended to use the block-level tag:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083629Z" creationid="miurahr" creationdate="20201119T083629Z">
+        <seg>上記ルールにより、ブロックレベルタグの使用を推奨します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Because of these types of errors, it is very important to digitise data carefully and accurately.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141123Z" creationid="miurahr" creationdate="20201117T141123Z">
@@ -7419,6 +7507,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201119T080646Z" creationid="miurahr" creationdate="20201119T080646Z">
         <seg>:guilabel:`Your branches` の下にあなたのブランチがあることと思います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Below are given some icons and their substitution to use when writing documentation.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083007Z" creationid="miurahr" creationdate="20201119T083007Z">
+        <seg>以下はドキュメントを書くときに使われるアイコンとその置換です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8183,6 +8279,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Can be used/found in many places in manuals.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083008Z" creationid="miurahr" creationdate="20201119T083008Z">
+        <seg>マニュアルの多くの場所で使用されているのを見ることができるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Can you identify two point features and one polygon feature on this map?</seg>
       </tuv>
       <tuv lang="ja">
@@ -8195,6 +8299,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T102956Z" creationid="miurahr" creationdate="20201118T102933Z">
         <seg>どうにかしてそれを他のよりカラフルなラスターと一緒に使用できないでしょうか?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Capitalize only the first letter of the index unless the word has a particular spelling.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083551Z" creationid="miurahr" creationdate="20201119T083551Z">
+        <seg>特別な綴りを持つ単語でない限りは、索引語の最初の文字のみを大文字にします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9711,6 +9823,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Colors</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T082957Z" creationid="miurahr" creationdate="20201119T082957Z">
+        <seg>色</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Colour (no classes or grouping)</seg>
       </tuv>
       <tuv lang="ja">
@@ -9819,6 +9939,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>クラスのメソッドのコメントには、命令形ではなく三人称の終止形を使用してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Common Substitutions</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083006Z" creationid="miurahr" creationdate="20201119T083006Z">
+        <seg>一般的な置換</seg>
       </tuv>
     </tu>
     <tu>
@@ -10935,6 +11063,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Decorations</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T082935Z" creationid="miurahr" creationdate="20201119T082935Z">
+        <seg>整飾</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Default data sets are provided with the Training Manual, but you may follow these instructions if you wish to replace the default data sets.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T032509Z" creationid="miurahr" creationdate="20201118T032509Z">
@@ -11415,6 +11551,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Do not use punctuation after list items that only contain a single simple sentence</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083333Z" creationid="miurahr" creationdate="20201119T083333Z">
+        <seg>単一の単文のみを含むリスト項目の後に句読点を使用しないでください</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Do not use single letter arguments (e.g. ``setColor( const QColor&amp; color )`` instead of ``setColor( const QColor&amp; c )``).</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T223511Z" creationid="miurahr" creationdate="20201118T223511Z">
@@ -11848,6 +11992,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>E.g., ``Loading layers``, ``Atlas generation``, ``WMS``, ``pgsql2shp``.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083552Z" creationid="miurahr" creationdate="20201119T083552Z">
+        <seg>たとえば、 ``Loading layers`` 、 ``Atlas generation`` 、 ``WMS`` 、 ``pgsql2shp`` などとします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Each band in the image is like a separate layer.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140329Z" creationid="miurahr" creationdate="20201117T140329Z">
@@ -12036,6 +12188,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123659Z" creationid="miurahr" creationdate="20201117T123659Z">
         <seg>1-2-3のように簡単に！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Edit</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083055Z" creationid="miurahr" creationdate="20201119T083055Z">
+        <seg>編集</seg>
       </tuv>
     </tu>
     <tu>
@@ -12784,6 +12944,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Figure</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083453Z" creationid="miurahr" creationdate="20201119T083453Z">
+        <seg>幾何形状</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Figure 1: Workflow - Lynx habitat expert model</seg>
       </tuv>
       <tuv lang="ja">
@@ -12812,6 +12980,22 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135918Z" creationid="miurahr" creationdate="20201117T135918Z">
         <seg>地図が何を伝えたいのか生徒たちが理解しているかどうかを把握します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Figures and Images</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083440Z" creationid="miurahr" creationdate="20201119T083440Z">
+        <seg>図と画像</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>File</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083249Z" creationid="miurahr" creationdate="20201119T083249Z">
+        <seg>ファイル</seg>
       </tuv>
     </tu>
     <tu>
@@ -13492,6 +13676,22 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141240Z" creationid="miurahr" creationdate="20201117T141240Z">
         <seg>抗議グループを制御するために、警察は抗議者を建物から少なくとも100メートル離しておくために中立ゾーンを設置したいと思っています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For convenience and update, it's advised to keep filename when possible.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083001Z" creationid="miurahr" creationdate="20201119T083001Z">
+        <seg>利便性と後の更新のことを考えると、ファイル名は可能な限り元のままにしておくことを勧めます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For convenience, we provide a set of general rules we rely on for writing QGIS documentation below.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083255Z" creationid="miurahr" creationdate="20201119T083255Z">
+        <seg>簡便のために以下に、QGISドキュメントを書く際に依拠すべき一般的なルールを、一通り示します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15520,6 +15720,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Headlines</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083257Z" creationid="miurahr" creationdate="20201119T083257Z">
+        <seg>見出し</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Headquarter is located at Hyderabad city of India and it has three sub centres at Guwahati, Jaipur and Patna city.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T225536Z" creationid="miurahr" creationdate="20201117T225536Z">
@@ -15604,6 +15812,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135344Z" creationid="miurahr" creationdate="20201117T135344Z">
         <seg>ここではいくつかアイデアを述べていきます：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Here are some simple rules common to all lists:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083331Z" creationid="miurahr" creationdate="20201119T083331Z">
+        <seg>こちらはすべてのリストに共通な簡単な規則のいくつかです：</seg>
       </tuv>
     </tu>
     <tu>
@@ -16360,6 +16576,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Icon</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083010Z" creationid="miurahr" creationdate="20201119T083010Z">
+        <seg>アイコン</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Ideally, this name will include the name of the lesson and an incrementing number.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141622Z" creationid="miurahr" creationdate="20201117T141622Z">
@@ -16580,6 +16804,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T020517Z" creationid="miurahr" creationdate="20201118T020517Z">
         <seg>必要に応じて、元々の :guilabel:`suitable_terrain` レイヤの上に新しいレイヤを移動してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If no image, then you need to find and copy the icon image file from `QGIS repository &lt;https://github.com/qgis/QGIS&gt;`_ (often under :source:`images/themes/default` folder) and paste (in ``.png`` format) under :file:`/static/common` folder.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083000Z" creationid="miurahr" creationdate="20201119T083000Z">
+        <seg>画像がない場合は、 `QGISリポジトリ &lt;https://github.com/qgis/QGIS&gt;`_ からアイコン画像ファイルを探して（ :source:`images/themes/default` フォルダにあることが多いです）、 :file:`/static/common` フォルダに ``.png`` フォーマットでコピーします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18596,6 +18828,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In QGIS Documentation, you should use following styles for chapter, section, subsection and minisec.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083328Z" creationid="miurahr" creationdate="20201119T083328Z">
+        <seg>QGIS文書では、章、セクション、サブセクションとminisecに対して以下のスタイルを使用する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In QGIS we keep our most stable code in the current release branch.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T223921Z" creationid="miurahr" creationdate="20201118T223921Z">
@@ -18978,6 +19218,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T035211Z" creationid="miurahr" creationdate="20201118T035211Z">
         <seg>一般に、できるだけ少ないノードを使用してデジタル化してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In general, when creating reST documentation for the QGIS project, please follow the `Python documentation style guidelines &lt;https://devguide.python.org/documenting/&gt;`_.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083254Z" creationid="miurahr" creationdate="20201119T083254Z">
+        <seg>総じて、QGISプロジェクトのためにreSTドキュメントを作成するときには、 `Python documentation style guidelines &lt;https://devguide.python.org/documenting/&gt;`_ に従ってください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20952,6 +21200,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Index</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083545Z" creationid="miurahr" creationdate="20201119T083545Z">
+        <seg>インデックス（Index）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Indexes</seg>
       </tuv>
       <tuv lang="ja">
@@ -21004,6 +21260,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T220350Z" creationid="miurahr" creationdate="20201118T220350Z">
         <seg>当初は私たちはこの要件はqgis_coreに制限してきましたが、皆様が次のセクションで説明するユニットテストのための手続きに精通した後は、この要件をコードベースの他の部分に拡張するつもりです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Inline Tags</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083334Z" creationid="miurahr" creationdate="20201119T083334Z">
+        <seg>行内タグ</seg>
       </tuv>
     </tu>
     <tu>
@@ -21572,6 +21836,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T124242Z" creationid="miurahr" creationdate="20201118T124242Z">
         <seg>バッファを作成する追加のステップを行うことなしに、指定された距離内のすべてのオブジェクトを選択することもできます：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It is also recommended to use index parameters such as ``single``, ``pair`` and ``see``, in order to build a more structured and interconnected index table.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083701Z" creationid="miurahr" creationdate="20201119T083701Z">
+        <seg>``single`` 、 ``pair`` 、 ``see`` のような索引パラメータの使用も推奨します。これはより構造化され相互に関連した索引語テーブルを作るのに有用です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22368,6 +22640,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Keep an eye on the existing `Index list &lt;https://docs.qgis.org/testing/en/genindex.html&gt;`_ in order to reuse the most convenient expression with the right spelling and avoid unnecessary duplicates.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083553Z" creationid="miurahr" creationdate="20201119T083553Z">
+        <seg>常に現在の `索引語リスト &lt;https://docs.qgis.org/testing/en/genindex.html&gt;`_ に注意を払うことで、より好適な表現を正しい綴りで再利用し、不要な重複は避けるようにしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Keep at least the following layers:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T034908Z" creationid="miurahr" creationdate="20201118T034908Z">
@@ -22420,6 +22700,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T032847Z" creationid="miurahr" creationdate="20201118T032847Z">
         <seg>しかしながら、結果が落ち着いた均一に見えるよう維持してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Key combinations are displayed with a ``+`` sign between keys, without spaces: :kbd:`Shift+R`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083414Z" creationid="miurahr" creationdate="20201119T083414Z">
+        <seg>キーの組み合わせはキー同士の間に空白を入れずに ``+`` 記号を表示し、 :kbd:`Shift+R` のように表示します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23232,6 +23520,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Line</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083544Z" creationid="miurahr" creationdate="20201119T083544Z">
+        <seg>線（ライン）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Line Symbol Layer Types</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T033630Z" creationid="miurahr" creationdate="20201118T033630Z">
@@ -23292,6 +23588,22 @@
       </tuv>
       <tuv lang="ja">
         <seg>題扉のリストには、彼らはこの要件からあなたを解放しない限り、著者として、変更版における変更の著作者として責任がある1人以上の人または団体を、文書の主著者の少なくとも5（5より少ない場合その主著者のすべて）と一緒に、列挙します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Lists</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083330Z" creationid="miurahr" creationdate="20201119T083330Z">
+        <seg>リスト</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Lists are useful for structuring the text.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083331Z" creationid="miurahr" creationdate="20201119T083331Z">
+        <seg>リストはテキストを構造化するのに役立ちます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23712,6 +24024,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Manage Layers and overview</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083027Z" creationid="miurahr" creationdate="20201119T083027Z">
+        <seg>レイヤー管理と全体図</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Manage PKI bundles with QgsPkiBundle</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T003434Z" creationid="miurahr" creationdate="20201118T003434Z">
@@ -24108,6 +24428,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T031710Z" creationid="miurahr" creationdate="20201118T031710Z">
         <seg>メモリプロバイダは主にプラグインやサードパーティ製アプリの開発者に使われることを意図しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Menu Items</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083017Z" creationid="miurahr" creationdate="20201119T083017Z">
+        <seg>メニューアイテム</seg>
       </tuv>
     </tu>
     <tu>
@@ -27544,6 +27872,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Or you can use the ``..</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083647Z" creationid="miurahr" creationdate="20201119T083614Z">
+        <seg>ブロックレベルのマークアップの ``.. index::`` を使うこともできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Or you could send a field team later to get estimates of the missing forest stands to complete the stand inventory.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T220201Z" creationid="miurahr" creationdate="20201117T220201Z">
@@ -28128,6 +28464,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Pictures</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083442Z" creationid="miurahr" creationdate="20201119T083442Z">
+        <seg>ピクチャ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Place long lists of widgets into scroll boxes.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T215808Z" creationid="miurahr" creationdate="20201118T215808Z">
@@ -28164,6 +28508,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>始める前に計画する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Platform Icons</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083009Z" creationid="miurahr" creationdate="20201119T083009Z">
+        <seg>プラットフォームアイコン</seg>
       </tuv>
     </tu>
     <tu>
@@ -29088,6 +29440,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T231507Z" creationid="miurahr" creationdate="20201118T231507Z">
         <seg>QGIS開発者は忙しい人々です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>QGIS documentation provides some essential indices.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083548Z" creationid="miurahr" creationdate="20201119T083548Z">
+        <seg>QGISドキュメントは必須の索引項目のみを提供しています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -30076,6 +30436,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Replacement</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083445Z" creationid="miurahr" creationdate="20201119T083445Z">
+        <seg>置換</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Replacing Invariant Sections with translations requires special permission from their copyright holders, but you may include translations of some or all Invariant Sections in addition to the original versions of these Invariant Sections.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T133650Z" creationid="miurahr" creationdate="20201117T133523Z">
@@ -30596,6 +30964,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Same level titles must use same character for underline adornment.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083316Z" creationid="miurahr" creationdate="20201119T083316Z">
+        <seg>タイトルには下線（及び第1レベルに対して上線）が引かれます。同じレベルのタイトルは下線装飾のために同じ文字を使用する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Sample raster datasets are provided, so you'll need to import them as necessary.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T145656Z" creationid="miurahr" creationdate="20201117T145656Z">
@@ -30920,6 +31296,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124734Z" creationid="miurahr" creationdate="20201117T124734Z">
         <seg>章番号やそれに相当するものは、セクション題の一部とはみなされません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sections used to structure the text are identified through their title which is underlined (and overlined for the first level).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083303Z" creationid="miurahr" creationdate="20201119T083303Z">
+        <seg>テキストを構造化するために使用されるセクションはそれらのタイトルを通じて識別されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -31816,6 +32200,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140219Z" creationid="miurahr" creationdate="20201117T140219Z">
         <seg>いくつかの要因が画像の空間分解能を決定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Several index tags exist in RST.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083554Z" creationid="miurahr" creationdate="20201119T083554Z">
+        <seg>RSTには索引用のタグがあります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -32901,6 +33293,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Start all list items with a capital letter</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083332Z" creationid="miurahr" creationdate="20201119T083332Z">
+        <seg>すべての項目を大文字で始めてください</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Start digitizing by clicking on a point somewhere along the edge of the field.</seg>
       </tuv>
       <tuv lang="ja">
@@ -33121,6 +33521,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201119T033212Z" creationid="miurahr" creationdate="20201119T033212Z">
         <seg>続く経線は本初子午線の東または西にゼロから180°まで測定されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Substitution</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083011Z" creationid="miurahr" creationdate="20201119T083011Z">
+        <seg>置換テキスト</seg>
       </tuv>
     </tu>
     <tu>
@@ -35717,6 +36125,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The example below creates the anchor of a section (e.g., Label/reference title)</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083418Z" creationid="miurahr" creationdate="20201119T083418Z">
+        <seg>以下の例は、セクション（例えば、ラベル/参照タイトル）のアンカーを作成します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The exercises in the following lessons assume you are already capable of doing many of the basic operations in QGIS and only tools that have not been used before are presented in more detail.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T215829Z" creationid="miurahr" creationdate="20201117T215829Z">
@@ -37598,6 +38014,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The replacement text should be in camelCase:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083004Z" creationid="miurahr" creationdate="20201119T083004Z">
+        <seg>置換テキストはキャメルケースにする必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The reprojected layer that you will obtain will contain only those points that were selected, unless there was no selection, which will cause the resulting layer to contain all points from the original layer.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T101337Z" creationid="miurahr" creationdate="20201118T101318Z">
@@ -37698,6 +38122,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T095207Z" creationid="miurahr" creationdate="20201118T095207Z">
         <seg>結果は、代わりに、このアルゴリズムの場合にだけ1つのラスターレイヤーから、ラスターレイヤーのセット、アルゴリズムの実行の1つに対応するそれらのそれぞれであろう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The result:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083521Z" creationid="miurahr" creationdate="20201119T083521Z">
+        <seg>結果：</seg>
       </tuv>
     </tu>
     <tu>
@@ -38618,6 +39050,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T224712Z" creationid="miurahr" creationdate="20201118T224712Z">
         <seg>アルゴリズムのコンテキストを変更できる定義がいくつかあります。これらはテストの最上位で指定できます：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>There are a few rules that help us provide a set of indices that are really useful (coherent, consistent and really connected to each other):</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083549Z" creationid="miurahr" creationdate="20201119T083549Z">
+        <seg>本当に有用な（よく整理され、首尾一貫し、相互に関連づけられた）索引項目のセットのみを提供する助けとなるルールがいくつかあります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -42014,6 +42454,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>To call the reference in the **same page**, use</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083419Z" creationid="miurahr" creationdate="20201119T083419Z">
+        <seg>**同じページ** 中の参照を呼び出すために使用するのは</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>To change a layer's symbology, open its :guilabel:`Layer Properties`.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T033407Z" creationid="miurahr" creationdate="20201118T033407Z">
@@ -42335,6 +42783,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>To each webpage of the documentation corresponds a ``.rst`` file.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083258Z" creationid="miurahr" creationdate="20201119T083258Z">
+        <seg>ドキュメントのそれぞれのウェブページには、ひとつの ``.rst`` ファイルが対応しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>To ease the use of icons in QGIS manuals, replacements are defined for each icon in :file:`/source/substitutions.txt` file at `QGIS-Documentation repository &lt;https://github.com/qgis/QGIS-Documentation&gt;`_ and some of these substitutions are listed below.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201029T134520Z" creationid="miurahr" creationdate="20201029T134520Z">
@@ -42555,6 +43011,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T124104Z" creationid="miurahr" creationdate="20201118T124104Z">
         <seg>結果をテキストとして戻すために、テキストを返す何かを探して関数リストをすばやくスキャンできます：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>To insert an image, use</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083443Z" creationid="miurahr" creationdate="20201119T083443Z">
+        <seg>画像を挿入するには、使用します</seg>
       </tuv>
     </tu>
     <tu>
@@ -42943,6 +43407,22 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>To use a caption (*see My caption*) just insert indented text after a blank line in the figure block.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083458Z" creationid="miurahr" creationdate="20201119T083458Z">
+        <seg>キャプションを使用するには（ *My caption* を参照）、図ブロックに空白行の後ろに字下げテキストを挿入します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>To use an image inside a paragraph, first create an alias in the :file:`source/substitutions.txt` file:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083447Z" creationid="miurahr" creationdate="20201119T083447Z">
+        <seg>段落内で画像を使用するには、 最初に :file:`source/substitutions.txt` ファイル中に別名を作成します：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>To use it, copy it from :file:`doc/qt_creator_license_template` to a local location, adjust the mail address and - if required - the name and configure QtCreator to use it: :menuselection:`Tools --&gt; Options --&gt; C++ --&gt; File Naming`.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T091708Z" creationid="miurahr" creationdate="20201117T091708Z">
@@ -43027,6 +43507,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T015044Z" creationid="miurahr" creationdate="20201118T015044Z">
         <seg>ラインレイヤでの許容誤差（ピクセル）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Toolbar Button Icons</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083049Z" creationid="miurahr" creationdate="20201119T083049Z">
+        <seg>ツールバーボタンアイコン</seg>
       </tuv>
     </tu>
     <tu>
@@ -43925,6 +44413,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T033856Z" creationid="miurahr" creationdate="20201118T033856Z">
         <seg>1つ以上のベクター解析ツールを使用します。そして私たちの建物の大きさは100平方メートルを超えていることを覚えておいて下さい。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Use period ( ``.`` ) as punctuation for list items that consist of several sentences or a single compound sentence</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083334Z" creationid="miurahr" creationdate="20201119T083334Z">
+        <seg>複数の文または1つの複合文からなるリスト項目の句読点としてピリオド（ ``.`` ）を使用します</seg>
       </tuv>
     </tu>
     <tu>
@@ -46290,6 +46786,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>When describing keyboard shortcuts, the following conventions should be used:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083405Z" creationid="miurahr" creationdate="20201119T083405Z">
+        <seg>キーボードショートカットを説明するときは、次の規則を使用してください：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>When doing so, don't create fictional data - rather, use the :guilabel:`Field Calculator` to populate the new columns, based on appropriate existing values in the dataset.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T032658Z" creationid="miurahr" creationdate="20201118T032658Z">
@@ -47667,6 +48171,22 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Writing Documentation</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083256Z" creationid="miurahr" creationdate="20201119T083256Z">
+        <seg>ドキュメントを書く</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Writing Guidelines</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083253Z" creationid="miurahr" creationdate="20201119T083253Z">
+        <seg>執筆のためのガイドライン</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Writing a Processing plugin</seg>
       </tuv>
       <tuv lang="ja">
@@ -48307,6 +48827,22 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You can put an image inside text or add an alias to use everywhere.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083446Z" creationid="miurahr" creationdate="20201119T083446Z">
+        <seg>テキスト内には画像を置くか、どこでも使用される別名を追加できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can reference to it like this my_drawn_table_.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083531Z" creationid="miurahr" creationdate="20201119T083531Z">
+        <seg>my_drawn_table_ のように参照できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You can right click on the table and view its properties as we did in the previous exercise.</seg>
       </tuv>
       <tuv lang="ja">
@@ -48619,6 +49155,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You can use tags to emphasize items.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083335Z" creationid="miurahr" creationdate="20201119T083335Z">
+        <seg>提供 ``twi.qml`` スタイルを使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You can use the :menuselection:`Atlas --&gt; Export Atlas as Images...` or :menuselection:`Atlas --&gt; Export Atlas as PDF...`.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T215812Z" creationid="miurahr" creationdate="20201117T215812Z">
@@ -48655,6 +49199,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T220111Z" creationid="miurahr" creationdate="20201117T220111Z">
         <seg>ガイドとして上記の画像を使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can use the inline ``:index:`` tag within normal text:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083555Z" creationid="miurahr" creationdate="20201119T083555Z">
+        <seg>行内タグ ``:index:`` は通常のテキスト中で次のように使います。</seg>
       </tuv>
     </tu>
     <tu>
@@ -50908,6 +51460,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>and of course not to forget |nix|</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083526Z" creationid="miurahr" creationdate="20201119T083526Z">
+        <seg>そしてもちろん |nix| を忘れないように</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>and set the transparency to 50%.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T035148Z" creationid="miurahr" creationdate="20201118T035148Z">
@@ -50988,6 +51548,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>check the documentation repository whether the icon is available in :file:`/static/common` folder.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T082959Z" creationid="miurahr" creationdate="20201119T082959Z">
+        <seg>目的のアイコン画像があるかどうか、ドキュメンテーションリポジトリの :file:`/static/common` フォルダ内を確認してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>checkout master, git merge pr/1234</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T215702Z" creationid="miurahr" creationdate="20201118T215702Z">
@@ -51016,6 +51584,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T024753Z" creationid="miurahr" creationdate="20201118T024753Z">
         <seg>コンマで区切ったリスト。個々のタグの内部ではスペース可</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>create the reference to the substitution in the :file:`/source/substitutions.txt` file following the example below.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083003Z" creationid="miurahr" creationdate="20201119T083003Z">
+        <seg>以下の例に従って、置換への参照を :file:`/source/substitutions.txt` ファイルに作成します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -51224,6 +51800,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T031139Z" creationid="miurahr" creationdate="20201118T031139Z">
         <seg>最低限の文書を、そしてテストと理解に役立つ場合はサンプルデータを含めてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>index::`` block-level markup which links to the beginning of the next paragraph.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083642Z" creationid="miurahr" creationdate="20201119T083609Z">
+        <seg>これは次の段落の始まりにリンクします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -51484,6 +52068,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>run the :file:`scripts/find_set_subst.py` script to update the substitution definitions in the rst files and include the new substitution(s).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083004Z" creationid="miurahr" creationdate="20201119T083004Z">
+        <seg>:file:`scripts/find_set_subst.py` スクリプトを実行してrstファイル中の置換定義を更新し、新しい置換が含まれるようにしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>same, with :menuselection:`SAGA --&gt; Shapes to Grid --&gt; COUNT` (resulting map: 6 to 60)</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T100454Z" creationid="miurahr" creationdate="20201118T100454Z">
@@ -51496,6 +52088,38 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T020908Z" creationid="miurahr" creationdate="20201118T020908Z">
         <seg>ファイルを ``my_rules.txt`` ファイルとして保存してテキストエディタを閉じます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>see :ref:`Label and reference &lt;my_anchor&gt;` for more information.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083430Z" creationid="miurahr" creationdate="20201119T083430Z">
+        <seg>詳細については :ref:`ラベルや参照&lt;my_anchor&gt;` を参照。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>see :ref:`figure_logo`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083504Z" creationid="miurahr" creationdate="20201119T083504Z">
+        <seg>:ref:`figure_logo` 参照</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>see :ref:`my_anchor` for more information.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083425Z" creationid="miurahr" creationdate="20201119T083425Z">
+        <seg>詳細については :ref:`my_anchor` を参照。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>see my_anchor_ for more information.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083421Z" creationid="miurahr" creationdate="20201119T083421Z">
+        <seg>詳細については my_anchor_ を参照してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -51680,6 +52304,38 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T031138Z" creationid="miurahr" creationdate="20201118T031138Z">
         <seg>適切な場合（解析を実行するプラグイン）、処理フレームワークのサブプラグインとしてプラグインを追加することを検討してください：これによってユーザーはバッチでそれを実行し、より複雑なワークフローにそれを統合できるようになり、インターフェイスを設計する負担がなくなります</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>which returns</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083444Z" creationid="miurahr" creationdate="20201119T083444Z">
+        <seg>これを返します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>which returns:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083438Z" creationid="miurahr" creationdate="20201119T083428Z">
+        <seg>これを返します:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>which will return:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083420Z" creationid="miurahr" creationdate="20201119T083420Z">
+        <seg>これが返すのは：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>will show :kbd:`Ctrl+B`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083403Z" creationid="miurahr" creationdate="20201119T083403Z">
+        <seg>:kbd:`Ctrl+B`</seg>
       </tuv>
     </tu>
     <tu>
