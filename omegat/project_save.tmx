@@ -118,6 +118,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>(optional) add the reference to the icon and its substitution to the list below.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083005Z" creationid="miurahr" creationdate="20201119T083005Z">
+        <seg>（オプション）以下のリストに、アイコンおよびその置換への参照を追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>(see `image`_ below).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083346Z" creationid="miurahr" creationdate="20201119T083346Z">
+        <seg>（ 以下の `画像`_ を参照してください）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>**ADDENDUM: How to use this License for your documents**</seg>
       </tuv>
       <tuv lang="ja">
@@ -438,6 +454,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>**Keyboard shortcuts**</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083352Z" creationid="miurahr" creationdate="20201119T083352Z">
+        <seg>**キーボードショートカット**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>**LAYERFONTFAMILY / ITEMFONTFAMILY** font family for layer title / item text</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T015215Z" creationid="miurahr" creationdate="20201118T015215Z">
@@ -510,10 +534,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>**Menu GUI**: to mark a complete sequence of menu selections, including selecting submenus and choosing a specific operation, or any subsequence of such a sequence.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083336Z" creationid="miurahr" creationdate="20201119T083336Z">
+        <seg>**メニューGUI** ：サブメニューを選択したり、特定の操作、またはこのような配列の何らかの部分配列を選択するなど、メニュー選択の完全な配列をマークします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>**Methodology:**</seg>
       </tuv>
       <tuv lang="ja">
         <seg>**方法論：**</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>**Never!**</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T080658Z" creationid="miurahr" creationdate="20201119T080658Z">
+        <seg>**絶対に** です！</seg>
       </tuv>
     </tu>
     <tu>
@@ -626,6 +666,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>**対称差**：出力レイヤーには、入力レイヤーのすべての領域が含まれます。ただし、2つのレイヤーが重なる（交わる）領域は除きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>**Test**</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083535Z" creationid="miurahr" creationdate="20201119T083535Z">
+        <seg>テスト</seg>
       </tuv>
     </tu>
     <tu>
@@ -946,6 +994,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>**個別値** シンボルは指定した属性フィールドの中の個別値にそれぞれ異なるシンボル (色やスタイル) を設定することができます</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>**User text**</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083414Z" creationid="miurahr" creationdate="20201119T083414Z">
+        <seg>**ユーザーテキスト**</seg>
       </tuv>
     </tu>
     <tu>
@@ -1282,6 +1338,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T101223Z" creationid="miurahr" creationdate="20201118T101223Z">
         <seg>*XとYのフィールド* ：これら2つのパラメーターは、最初の1にリンクされています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>*master* is the default main branch.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T080654Z" creationid="miurahr" creationdate="20201119T080654Z">
+        <seg>*master* はデフォルトのメインブランチです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -3190,6 +3254,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>A bit further we meet the following tricky translation item:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075444Z" creationid="miurahr" creationdate="20201119T075444Z">
+        <seg>次のように、もう少しトリッキーな文章のこともあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>A buffer distance always has to be defined as a whole number (integer) or a decimal number (floating point value).</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141233Z" creationid="miurahr" creationdate="20201117T141233Z">
@@ -3234,6 +3306,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>ベクターポリライン周辺のバッファゾーン。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>A caption: A logo I like</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083454Z" creationid="miurahr" creationdate="20201119T083454Z">
+        <seg>キャプション：私の好きなロゴ</seg>
       </tuv>
     </tu>
     <tu>
@@ -3510,6 +3590,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>A list of issues to fix and features to explain can be found at https://github.com/qgis/QGIS-Documentation/issues.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T081526Z" creationid="miurahr" creationdate="20201119T081255Z">
+        <seg>修正すべき問題と説明が必要な機能のリストは、https://github.com/qgis/QGIS-Documenttion/issues にあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>A list of the available layers will appear:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T054257Z" creationid="miurahr" creationdate="20201118T054257Z">
@@ -3622,6 +3710,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>A new pull request will automatically be added to the `Pull requests list &lt;https://github.com/qgis/QGIS-Documentation/pulls&gt;`_.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T080520Z" creationid="miurahr" creationdate="20201119T080520Z">
+        <seg>新しいプルリクエストは自動的に `プルリクエストリスト &lt;https://github.com/qgis/QGIS-Documentation/pulls&gt;`_ に追加されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>A normal session with the processing tools includes more than running a single algorithm.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T100252Z" creationid="miurahr" creationdate="20201118T100252Z">
@@ -3714,6 +3810,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T133816Z" creationid="miurahr" creationdate="20201117T133816Z">
         <seg>誰もが編集できることを公共のwikiは、サーバーの一例です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>A pull request will also trigger automated build checks (eg, for rst formatting, python code syntaxes), and reports are displayed at the bottom of the page.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T081902Z" creationid="miurahr" creationdate="20201119T081902Z">
+        <seg>プルリクエストは自動ビルドチェック(例えば、最初のフォーマット、Pythonコード構文)もトリガし、レポートはページの下部に表示されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -4438,6 +4542,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Add new Screenshots</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083737Z" creationid="miurahr" creationdate="20201119T083737Z">
+        <seg>新しいスクリーンショットを追加</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Add now two text boxes below the map, one containing the text 'Detailed map zone: ' and the other one 'Remarks: '.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T215700Z" creationid="miurahr" creationdate="20201117T215700Z">
@@ -4942,6 +5054,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>After your PR has been merged into the official QGIS-Documentation, you can delete your branch.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T080930Z" creationid="miurahr" creationdate="20201119T080930Z">
+        <seg>プルリクエストが公式のQGIS-Documentationにマージされたら、あなたの制作ブランチは削除してかまいません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>After your features are digitised...</seg>
       </tuv>
       <tuv lang="ja">
@@ -5103,6 +5223,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>All other plain text in this sentence can be translated!</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075340Z" creationid="miurahr" creationdate="20201119T075340Z">
+        <seg>このセンテンス中のそれ以外のプレーン・テキストはすべて翻訳してかまいません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>All signal/slot connects should be made using the "new style" connects available in Qt5.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T223729Z" creationid="miurahr" creationdate="20201118T223729Z">
@@ -5235,6 +5363,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201119T040720Z" creationid="miurahr" creationdate="20201119T040720Z">
         <seg>このファイルと並んでごく小さなサイズの :file:`.mo` ファイルがあるのに気づかれると思いますが、今の所このファイルにはなんの翻訳も含まれていません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Along with the testing documentation, we continue to fix issues in the `latest release &lt;https://docs.qgis.org/latest&gt;`_, meaning that you can also contribute to it.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T080851Z" creationid="miurahr" creationdate="20201119T080851Z">
+        <seg>testing版ドキュメントとともに、 `latest release &lt;https://docs.qgis.org/latest&gt;`_ 版ドキュメントについても問題を修正する作業が続けられていますので、このドキュメントに対して貢献することも可能です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5495,6 +5631,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Always work on a branch other than the base branch!</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T080854Z" creationid="miurahr" creationdate="20201119T080854Z">
+        <seg>作業は必ずベースブランチ以外のブランチで行ってください！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Always!</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T080855Z" creationid="miurahr" creationdate="20201119T080855Z">
+        <seg>これは常にです！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Among all the data providers supported by the :class:`QgsVectorLayer &lt;qgis.core.QgsVectorLayer&gt;` class, let's focus on the memory-based layers.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T031709Z" creationid="miurahr" creationdate="20201118T031709Z">
@@ -5611,6 +5763,22 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T102104Z" creationid="miurahr" creationdate="20201118T102104Z">
         <seg>開始前の重要な警告</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>An index is a handy way to help the reader find information in a document.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083547Z" creationid="miurahr" creationdate="20201119T083547Z">
+        <seg>索引は読者がドキュメント内で必要な情報を見つけるのを手助けする手軽な方法です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>An index should be human readable, understandable and translatable; an index can be made from many words but you should avoid any unneeded ``_``, ``-``... characters to link them i.e., ``Loading layers`` instead of ``loading_layers`` or ``loadingLayers``.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083550Z" creationid="miurahr" creationdate="20201119T083550Z">
+        <seg>索引は、人間が読めるもの、理解できるもの、翻訳可能なものでなければなりません。索引は複数の単語から作ることができますが、それらを繋ぐ不要な ``_`` や ``-`` などは使用しないようにしてください。たとえば ``loading_layers`` や ``loadingLayers`` ではなく、 ``Loading layers`` としてください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -5887,10 +6055,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Another way to jump to the same place **from anywhere in the documentation** is to use the ``:ref:`` role.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083423Z" creationid="miurahr" creationdate="20201119T083423Z">
+        <seg>**文書内のどこからでも** 同じ場所にジャンプする別の方法は、 ``:ref:`` 役割を使用することです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Answer Sheet</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T015701Z" creationid="miurahr" creationdate="20201118T015701Z">
         <seg>回答シート</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Any additional changes will be automatically added to your pull request if you make those changes to the same branch that you submitted in your pull request.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T080634Z" creationid="miurahr" creationdate="20201119T080634Z">
+        <seg>プルリクエストで使用したのと同じブランチで変更を加えた場合、追加された変更はすべてプルリクエストに自動的に追加されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6251,6 +6435,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140017Z" creationid="miurahr" creationdate="20201117T140017Z">
         <seg>ポリゴンとして？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>As seen above, anyone can submit modifications to the documentation through pull requests.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075807Z" creationid="miurahr" creationdate="20201119T075807Z">
+        <seg>上で見たように、誰でもプルリクエストを通してドキュメントの修正を提案することができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6643,6 +6835,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>`GitHubアカウント &lt;https://github.com/join&gt;`_ はすでに取得しているものと仮定すると、まず最初にするべきは、ドキュメントのソースファイルをフォークすることです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Assuming you are willing to push changes to the testing documentation, run the following command lines:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T080804Z" creationid="miurahr" creationdate="20201119T080804Z">
+        <seg>テストドキュメントに変更を加える場合は、次のコマンドラインを実行します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7063,6 +7263,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Be aware to use exactly the same (number of) special characters of the source text such as `````, ``````, ``*``, ``**``, ``::``.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075532Z" creationid="miurahr" creationdate="20201119T075532Z">
+        <seg>`````, ``````, ``*``, ``**``, ``::`` などの特殊文字は、正確に元のテキストと同じ文字を同じ数だけ使用するよう注意してください 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Be concise.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T080916Z" creationid="miurahr" creationdate="20201119T080916Z">
+        <seg>簡潔にしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Be very careful using such update statements - if more than one record matches your :kbd:`WHERE` clause, they will all be updated!</seg>
       </tuv>
       <tuv lang="ja">
@@ -7091,6 +7307,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141239Z" creationid="miurahr" creationdate="20201117T141239Z">
         <seg>交通量が劇的に増加したため、都市計画担当者は主要道路を拡幅して2車線目を追加したいと思っています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Because of the rules mentioned above, it is recommended to use the block-level tag:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083629Z" creationid="miurahr" creationdate="20201119T083629Z">
+        <seg>上記ルールにより、ブロックレベルタグの使用を推奨します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7167,6 +7391,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Before starting to write the guide, check if the algorithm is already described.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083837Z" creationid="miurahr" creationdate="20201119T083837Z">
+        <seg>ガイドを書き始める前に、そのアルゴリズムの説明がないかどうかを確認してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Before starting, make an announcement on the developer mailing list to see if another developer is already working on the same feature.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T232433Z" creationid="miurahr" creationdate="20201118T223952Z">
@@ -7195,6 +7427,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>属性データの詳細に移る前に、簡単にまとめてみましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Before working on a new contribution, you should always update your master branch in your local repository.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T080751Z" creationid="miurahr" creationdate="20201119T080751Z">
+        <seg>新しい貢献に取り組む前には、必ず、ローカルリポジトリのマスターリポジトリをアップデートしなければなりません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7279,10 +7519,34 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Below :guilabel:`Your branches` you'll see a list of your branches.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T080646Z" creationid="miurahr" creationdate="20201119T080646Z">
+        <seg>:guilabel:`Your branches` の下にあなたのブランチがあることと思います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Below are given some icons and their substitution to use when writing documentation.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083007Z" creationid="miurahr" creationdate="20201119T083007Z">
+        <seg>以下はドキュメントを書くときに使われるアイコンとその置換です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Below is an example of how you can include multiple changed files into your patch from the top level directory:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T224039Z" creationid="miurahr" creationdate="20201118T224039Z">
         <seg>以下は、トップレベルのディレクトリからあなたのパッチに複数の変更されたファイルを含めることができる方法の例です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Below we see an interesting sentence to translate:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075314Z" creationid="miurahr" creationdate="20201119T075314Z">
+        <seg>以下で翻訳の対象として興味深いセンテンスを見ていきましょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7759,6 +8023,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>By convention, avoid making changes in your ``master`` branch except when you merge the modifications from the ``master`` branch of ``qgis/QGIS-Documentation`` into your copy of the QGIS-Documentation repository.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075724Z" creationid="miurahr" creationdate="20201119T075724Z">
+        <seg>``qgis/QGIS-Documentation`` の ``master`` ブランチからあなたのQGIS-Documentationリポジトリに変更をマージする場合を除いて、 慣例として ``master`` ブランチでは変更を行わないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>By default (which I am using here) QGIS is going to get installed to ``/usr/local/``.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T224738Z" creationid="miurahr" creationdate="20201118T224738Z">
@@ -7991,6 +8263,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>CRS</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T084002Z" creationid="miurahr" creationdate="20201119T084002Z">
+        <seg>座標参照系（CRS）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>CRS's are a great source of confusion for QGIS Processing users, so here are some general rules about how they are handled by geoalgorithms when creating a new layer.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T075615Z" creationid="miurahr" creationdate="20201118T075615Z">
@@ -8023,6 +8303,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Can be used/found in many places in manuals.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083008Z" creationid="miurahr" creationdate="20201119T083008Z">
+        <seg>マニュアルの多くの場所で使用されているのを見ることができるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Can you identify two point features and one polygon feature on this map?</seg>
       </tuv>
       <tuv lang="ja">
@@ -8035,6 +8323,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T102956Z" creationid="miurahr" creationdate="20201118T102933Z">
         <seg>どうにかしてそれを他のよりカラフルなラスターと一緒に使用できないでしょうか?</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Capitalize only the first letter of the index unless the word has a particular spelling.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083551Z" creationid="miurahr" creationdate="20201119T083551Z">
+        <seg>特別な綴りを持つ単語でない限りは、索引語の最初の文字のみを大文字にします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8231,6 +8527,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Change the text inside quotes following ``:index:``, ``:sup:``, ``:guilabel:`` and ``:menuselection:`` tags.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075527Z" creationid="miurahr" creationdate="20201119T075527Z">
+        <seg>``:index:`` 、 ``:sup:`` 、 ``:guilabel:`` 、 ``:menuselection:`` タグに続く引用符内のテキストは変更してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Change this to :guilabel:`No Pen`.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T033433Z" creationid="miurahr" creationdate="20201118T033433Z">
@@ -8363,6 +8667,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>:guilabel:`フレーム` オプションが黒色で、  :guilabel:`厚さ` が :kbd:`0.30` であることもチェックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Check if/how it is translated in the QGIS Application.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075529Z" creationid="miurahr" creationdate="20201119T075529Z">
+        <seg>それがQGISアプリケーションで翻訳されているかどうか（翻訳されていたらどう翻訳されているか）を確認してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9055,6 +9367,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Click on the :guilabel:`Branches` tab.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T080644Z" creationid="miurahr" creationdate="20201119T080644Z">
+        <seg>:guilabel:`Branches` タブをクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Click on the :guilabel:`Fields` tab.</seg>
       </tuv>
       <tuv lang="ja">
@@ -9183,6 +9503,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Click on the number in the source text to add the reference link next to the title being translated.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T082619Z" creationid="miurahr" creationdate="20201119T082619Z">
+        <seg>翻訳するタイトルの横に参照リンクを追加するには、ソーステキストの番号をクリックしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Click on the red cross or on ``Details`` in the summary section at the bottom of the pull request page to see the details of the error.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T080624Z" creationid="miurahr" creationdate="20201119T080535Z">
+        <seg>エラーの詳細を見るには、プルリクエストページの下部にある概要セクションの赤い十字または「詳細」をクリックしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Click on the |deleteSelected| :sup:`Delete this branch` icon to delete any unwanted branches.</seg>
       </tuv>
       <tuv lang="ja">
@@ -9195,6 +9531,30 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T015807Z" creationid="miurahr" creationdate="20201118T015807Z">
         <seg>|signPlus| ボタンをクリックして別のシンボルレベルを追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Click on |githubBranch| and search for the ``patch-xxx`` branch.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075714Z" creationid="miurahr" creationdate="20201119T075649Z">
+        <seg>|githubBranch| をクリックして `` patch-xxx`` ブランチを探し、</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Click on |githubBranch| in the upper left corner of your forked QGIS- Documentation repository and enter a unique name in the text field to create a new `branch &lt;https://help.github.com/articles/about-branches/&gt;`_ .</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075720Z" creationid="miurahr" creationdate="20201119T075720Z">
+        <seg>フォークしたQGIS-Documentationリポジトリの左上隅にある |githubBranch| をクリックして、テキストフィールドに一意の名前を入力して新しい `ブランチ &lt;https://help.github.com/articles/about-branches/&gt;`_ を作成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Click on |githubFilesChanged| and find the file you want to comment on.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075812Z" creationid="miurahr" creationdate="20201119T075812Z">
+        <seg>|githubFilesChanged| をクリックして、コメントをしたいファイルを探します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -9487,6 +9847,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Color</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T084019Z" creationid="miurahr" creationdate="20201119T084019Z">
+        <seg>色</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Colors</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T082957Z" creationid="miurahr" creationdate="20201119T082957Z">
+        <seg>色</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Colour (no classes or grouping)</seg>
       </tuv>
       <tuv lang="ja">
@@ -9599,6 +9975,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Common Substitutions</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083006Z" creationid="miurahr" creationdate="20201119T083006Z">
+        <seg>一般的な置換</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Common elements of a map are the title, map body, legend, north arrow, scale bar, acknowledgement, and map border (see figure_map_elements_).</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135640Z" creationid="miurahr" creationdate="20201117T135640Z">
@@ -9643,6 +10027,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222134Z" creationid="miurahr" creationdate="20201117T222134Z">
         <seg>コモドロリバダビア、チュブ州、アルゼンチン。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Compare changes</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075734Z" creationid="miurahr" creationdate="20201119T075734Z">
+        <seg>変更を比較する</seg>
       </tuv>
     </tu>
     <tu>
@@ -10495,6 +10887,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Cut the background</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083809Z" creationid="miurahr" creationdate="20201119T083809Z">
+        <seg>背景はカットします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>DB Manager</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T123702Z" creationid="miurahr" creationdate="20201118T123702Z">
@@ -10703,6 +11103,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Decorations</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T082935Z" creationid="miurahr" creationdate="20201119T082935Z">
+        <seg>整飾</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Default data sets are provided with the Training Manual, but you may follow these instructions if you wish to replace the default data sets.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T032509Z" creationid="miurahr" creationdate="20201118T032509Z">
@@ -10775,10 +11183,42 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Delete your merged branch</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T080639Z" creationid="miurahr" creationdate="20201119T080639Z">
+        <seg>マージされたブランチを削除する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Deleting old branches saves you from having unused and outdated branches in your repository.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T080643Z" creationid="miurahr" creationdate="20201119T080643Z">
+        <seg>古いブランチを削除すると、未使用のブランチや古いブランチをリポジトリに保存しておく必要がなくなります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Depending on the kind of plugin that you are going to develop, it might be a better option to add its functionality as a Processing algorithm (or a set of them).</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T031220Z" creationid="miurahr" creationdate="20201118T031220Z">
         <seg>開発しようとしているプラ​​グインの種類によっては、プロセッシングアルゴリズム（またはそれらのセット）として機能を追加する方が良い場合もあるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Describe the *type* of input supported the parameters.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083901Z" creationid="miurahr" creationdate="20201119T083901Z">
+        <seg>サポートされている入力の *タイプ* を説明してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Describe your pull request</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075800Z" creationid="miurahr" creationdate="20201119T075800Z">
+        <seg>プルリクエストを説明する</seg>
       </tuv>
     </tu>
     <tu>
@@ -11063,10 +11503,74 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Do not begin nor end the text hold by special characters or tags with a space</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075534Z" creationid="miurahr" creationdate="20201119T075534Z">
+        <seg>特殊文字やタグで囲まれたテキストの前後にスペースを入れないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Do not change references that end with an underscore like ``figure_labels_1_``</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075515Z" creationid="miurahr" creationdate="20201119T075515Z">
+        <seg>``figure_labels_1_`` のようなアンダースコアで終わる参照を変更しないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Do not change references that start with roles like ``:ref:``, ``:file:``, ``:numref:`` unless they include a title.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T082535Z" creationid="miurahr" creationdate="20201119T082535Z">
+        <seg>``:ref:``、``:file:``、``:numref:``などのロールで始まる参照は、タイトルが含まれていない限り変更しないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Do not change text between two ``|`` characters like ``|bronze|``, ``|checkbox|``, ``|labels|``, ``|selectString|``, ``|addLayer|`` ...</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075506Z" creationid="miurahr" creationdate="20201119T075506Z">
+        <seg>``|bronze|`` 、 ``|checkbox|`` 、``|labels|`` 、``|selectString|`` 、``|addLayer|`` ... のような、２つの 文字 ``|`` の間のテキストを変更しないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Do not change the tag itself.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075530Z" creationid="miurahr" creationdate="20201119T075530Z">
+        <seg>タグ自体は変更しないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Do not change the url in hyperlinks, but you may change the external description.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075521Z" creationid="miurahr" creationdate="20201119T075521Z">
+        <seg>ハイパーリンクのURLを変更しないでください。ただし読者に表示される記述は変更できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Do not end labels for widgets or group boxes with a colon: Adding a colon causes visual noise and does not impart additional meaning, so don't use them.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T215753Z" creationid="miurahr" creationdate="20201118T215753Z">
         <seg>ウィジェットやグループボックスのラベルの最後にコロンを付けないでください：コロンを追加しても、視覚的なノイズを引き起こすだけで追加の意味を付与しないので、コロンは使用しないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Do not end the translated strings with a new paragraph, otherwise the text will not be translated during the html generation.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075535Z" creationid="miurahr" creationdate="20201119T075535Z">
+        <seg>翻訳文字列の後に段落を開始して終了しないでください。そうするとHTML生成時にテキストが翻訳されません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Do not remove the stars in above line.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075454Z" creationid="miurahr" creationdate="20201119T075454Z">
+        <seg>上の行内の二重星印を削除しないでください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11091,6 +11595,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T223726Z" creationid="miurahr" creationdate="20201118T223726Z">
         <seg>``my`` あるいは ``the`` といった文字列を前に付けないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Do not use punctuation after list items that only contain a single simple sentence</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083333Z" creationid="miurahr" creationdate="20201119T083333Z">
+        <seg>単一の単文のみを含むリスト項目の後に句読点を使用しないでください</seg>
       </tuv>
     </tu>
     <tu>
@@ -11143,6 +11655,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Do your changes.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075635Z" creationid="miurahr" creationdate="20201119T075635Z">
+        <seg>変更を行います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Docker now has its own orchestrator: Swarm (compatible with docker-compose files).</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T032309Z" creationid="miurahr" creationdate="20201118T032309Z">
@@ -11191,6 +11711,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Documentation sources are stored using the git version control system and are available on GitHub at https://github.com/qgis/QGIS-Documentation.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075552Z" creationid="miurahr" creationdate="20201119T075552Z">
+        <seg>ドキュメントのソースはGitバージョンコントロールシステムを使用して保存されいて、GitHub https://github.com/qgis/QGIS-Documentation で利用することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Documenting Processing algorithms</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083821Z" creationid="miurahr" creationdate="20201119T083821Z">
+        <seg>プロセシングアルゴリズムのドキュメントを作成する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Doing this for all the watersheds will produce the result we are looking for, but it doesn't look like a very practical way of doing it.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T095201Z" creationid="miurahr" creationdate="20201118T095201Z">
@@ -11235,6 +11771,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T032701Z" creationid="miurahr" creationdate="20201118T032701Z">
         <seg>道路にラベルを付けないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Don't resize them in an image editor; the size will be set into the :file:`.rst` files if necessary (downscaling the dimensions without properly upping the resolution &gt; ugly)</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083808Z" creationid="miurahr" creationdate="20201119T083808Z">
+        <seg>画像編集ソフトでリサイズしないでください。サイズは必要であれば :file:`.rst` ファイル中で設定されます（解像度を適切に上げることなく大きさだけを縮小すると、画像が汚くなります）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11480,6 +12024,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>During this translation session I will point out which parts (rst statements) need special translation.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075314Z" creationid="miurahr" creationdate="20201119T075314Z">
+        <seg>特別な翻訳をしなければならない部分（rst文）を、この翻訳セッションの中で挙げていきます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>During this whenever author was course coordinator in training, he used QGIS in trainings for introduction and feedbacks.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T225605Z" creationid="miurahr" creationdate="20201117T225605Z">
@@ -11500,6 +12052,22 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T085943Z" creationid="miurahr" creationdate="20201117T085943Z">
         <seg>例えば、  ``setXML`` でなく ``setXml`` と書くようにしてください 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>E.g., ``Loading layers``, ``Atlas generation``, ``WMS``, ``pgsql2shp``.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083552Z" creationid="miurahr" creationdate="20201119T083552Z">
+        <seg>たとえば、 ``Loading layers`` 、 ``Atlas generation`` 、 ``WMS`` 、 ``pgsql2shp`` などとします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Each algorithm documentation should be placed in the corresponding **provider** folder and **group** file, e.g. the algorithm `Voronoi polygon` belongs to the `QGIS` provider and to the group `vectorgeometry`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083831Z" creationid="miurahr" creationdate="20201119T083831Z">
+        <seg>各アルゴリズムのドキュメントは対応する **プロバイダ** フォルダと **グループ** ファイル中に置いてください。アルゴリズム `ボロノイポリゴン` は `QGIS` プロバイダと `vectorgeometry` グループに属します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -11696,6 +12264,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Edit</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083055Z" creationid="miurahr" creationdate="20201119T083055Z">
+        <seg>編集</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Edit mode is switched on or off individually for each layer.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T145719Z" creationid="miurahr" creationdate="20201117T145719Z">
@@ -11868,6 +12444,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141616Z" creationid="miurahr" creationdate="20201117T141616Z">
         <seg>テキストエディタによってデフォルトのマイナス/ダッシュ文字が長いダッシュまたは他の文字で置き換えられないことを確認してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Ensure you create a PR from your branch to the remote branch you are targetting in the official QGIS-Documentation repository.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T080929Z" creationid="miurahr" creationdate="20201119T080929Z">
+        <seg>作成したプルリクエストが、自分のブランチから公式のQGIS-Documentationリポジトリ中のターゲットとしているリモートブランチへものであることを確認してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12296,6 +12880,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Extent</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083957Z" creationid="miurahr" creationdate="20201119T083957Z">
+        <seg>領域</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>External links</seg>
       </tuv>
       <tuv lang="ja">
@@ -12432,6 +13024,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Figure</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083453Z" creationid="miurahr" creationdate="20201119T083453Z">
+        <seg>幾何形状</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Figure 1: Workflow - Lynx habitat expert model</seg>
       </tuv>
       <tuv lang="ja">
@@ -12460,6 +13060,22 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135918Z" creationid="miurahr" creationdate="20201117T135918Z">
         <seg>地図が何を伝えたいのか生徒たちが理解しているかどうかを把握します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Figures and Images</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083440Z" creationid="miurahr" creationdate="20201119T083440Z">
+        <seg>図と画像</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>File</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083249Z" creationid="miurahr" creationdate="20201119T083249Z">
+        <seg>ファイル</seg>
       </tuv>
     </tu>
     <tu>
@@ -13000,6 +13616,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Follow the previous section sample code, replacing ``master`` with the corresponding branch of the latest documentation.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T080852Z" creationid="miurahr" creationdate="20201119T080852Z">
+        <seg>コード中の ``master`` を最新の対応するブランチに置き換えた上で、前セクションのサンプルコードに従ってください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Follow this with a line containing the markup phrase :kbd:`|MOD|` (which stands for "module"), followed by the name of your module.</seg>
       </tuv>
       <tuv lang="ja">
@@ -13020,6 +13644,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T215828Z" creationid="miurahr" creationdate="20201117T215828Z">
         <seg>林業の応用についてのこのモジュールを理解するには、このトレーニングマニュアルのモジュール1から11を通じて学んだ知識が必要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Footnotes</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083729Z" creationid="miurahr" creationdate="20201119T083729Z">
+        <seg>脚注</seg>
       </tuv>
     </tu>
     <tu>
@@ -13088,6 +13720,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>For any help, do not hesitate to either ask in a comment on the issue report you are trying to fix or write to the `QGIS-community-team list &lt;https://lists.osgeo.org/mailman/listinfo/qgis-community-team&gt;`_.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075550Z" creationid="miurahr" creationdate="20201119T075550Z">
+        <seg>何か助けが必要なときには迷わず、修正しようとしているIssueレポートのコメントに書き込むか、 `QGISコミュニティチームメーリングリスト &lt;https://lists.osgeo.org/mailman/listinfo/qgis-community-team&gt;`_ に投稿をしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For any question, please contact the `QGIS Community Team &lt;qgis-community-team@lists.osgeo.org&gt;`_ or the `QGIS Translation Team &lt;qgis-tr@lists.osgeo.org&gt;`_.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075538Z" creationid="miurahr" creationdate="20201119T075538Z">
+        <seg>ご質問がございましたら、 `QGISコミュニティチーム &lt;qgis-community-team@lists.osgeo.org&gt;`_ または `QGIS翻訳チーム &lt;qgis-tr@lists.osgeo.org&gt;`_ までご連絡ください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>For any section Entitled "Acknowledgements" or "Dedications", Preserve the Title of the section, and preserve in the section all the substance and tone of each of the contributor acknowledgements and/or dedications given therein.</seg>
       </tuv>
       <tuv lang="ja">
@@ -13116,6 +13764,22 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141240Z" creationid="miurahr" creationdate="20201117T141240Z">
         <seg>抗議グループを制御するために、警察は抗議者を建物から少なくとも100メートル離しておくために中立ゾーンを設置したいと思っています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For convenience and update, it's advised to keep filename when possible.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083001Z" creationid="miurahr" creationdate="20201119T083001Z">
+        <seg>利便性と後の更新のことを考えると、ファイル名は可能な限り元のままにしておくことを勧めます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>For convenience, we provide a set of general rules we rely on for writing QGIS documentation below.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083255Z" creationid="miurahr" creationdate="20201119T083255Z">
+        <seg>簡便のために以下に、QGISドキュメントを書く際に依拠すべき一般的なルールを、一通り示します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13616,6 +14280,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>For general information on these tools, see http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html or https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T081015Z" creationid="miurahr" creationdate="20201119T081015Z">
+        <seg>これらのツールの一般的な情報については http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html または https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html 参照。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>For help in using sql commands, type::</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T034503Z" creationid="miurahr" creationdate="20201118T034503Z">
@@ -14032,6 +14704,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>For this reason, you should only make additional changes if those changes relate to the issue that you intend to fix with that pull request.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T080635Z" creationid="miurahr" creationdate="20201119T080635Z">
+        <seg>このため、追加の変更は、プルリクエストで修正しようとしている問題にその変更が関連する場合にのみ、行うようにしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>For this we give our heartfelt thanks to the DLA!</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135957Z" creationid="miurahr" creationdate="20201117T135957Z">
@@ -14068,6 +14748,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>林業のサンプルデータ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Fork QGIS-Documentation</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075603Z" creationid="miurahr" creationdate="20201119T075603Z">
+        <seg>QGIS-Documentationをフォークする</seg>
       </tuv>
     </tu>
     <tu>
@@ -14576,6 +15264,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Get `more details &lt;https://help.github.com/en/articles/reviewing-proposed-changes-in-a-pull-request&gt;`_.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075936Z" creationid="miurahr" creationdate="20201119T075936Z">
+        <seg>`より詳しくは &lt;https://help.github.com/en/articles/reviewing-proposed-changes-in-a-pull-request&gt;`_ を参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Get a globe and paper and demonstrate how cylindrical, conical and planar projections work in general.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201119T033559Z" creationid="miurahr" creationdate="20201119T033559Z">
@@ -14644,6 +15340,22 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T215718Z" creationid="miurahr" creationdate="20201118T215718Z">
         <seg>パッチを通知する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Git command lines help you squash these commits to a smaller number and more meaningful commit messages.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T081002Z" creationid="miurahr" creationdate="20201119T081002Z">
+        <seg> Gitコマンドラインは、これらのコミットをより少数の、より意味のあるコミットメッセージに変換するのに役立ちます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Give clear explanation for algorithm parameters and outputs: take inspiration from existing algorithms.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083856Z" creationid="miurahr" creationdate="20201119T083856Z">
+        <seg>アルゴリズムのパラメータと出力について明確に説明してください。既存のアルゴリズムからヒントを得てください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15104,6 +15816,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Headlines</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083257Z" creationid="miurahr" creationdate="20201119T083257Z">
+        <seg>見出し</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Headquarter is located at Hyderabad city of India and it has three sub centres at Guwahati, Jaipur and Patna city.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T225536Z" creationid="miurahr" creationdate="20201117T225536Z">
@@ -15168,10 +15888,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Here are some additional hints for those that want to create screenshots for a translated user guide:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083818Z" creationid="miurahr" creationdate="20201119T083818Z">
+        <seg>翻訳されたユーザガイド用にスクリーンショットを作成したい人向けのヒントです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Here are some definition of the most common objects treated in this chapter.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T003326Z" creationid="miurahr" creationdate="20201118T003326Z">
         <seg>これはこの章で扱われる最も一般的なオブジェクトのいくつかの定義です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Here are some hints to create new, nice looking screenshots.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083738Z" creationid="miurahr" creationdate="20201119T083738Z">
+        <seg>以下は、新しいスクリーンショットを、見た目良く作成するためのヒントです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -15188,6 +15924,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135344Z" creationid="miurahr" creationdate="20201117T135344Z">
         <seg>ここではいくつかアイデアを述べていきます：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Here are some simple rules common to all lists:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083331Z" creationid="miurahr" creationdate="20201119T083331Z">
+        <seg>こちらはすべてのリストに共通な簡単な規則のいくつかです：</seg>
       </tuv>
     </tu>
     <tu>
@@ -15260,6 +16004,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>これは :kbd:`house_no` が50未満であるオブジェクトのみを返す数値フィルタの例です:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Here is an example of an :ref:`existing algorithm &lt;qgiscountpointsinpolygon&gt;` to help you with the layout and the description::</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T084523Z" creationid="miurahr" creationdate="20201119T084523Z">
+        <seg>こちらがレイアウトと説明の助けになる :ref:`既存アルゴリズム &lt;qgiscountpointsinpolygon&gt;` の例です::</seg>
       </tuv>
     </tu>
     <tu>
@@ -15944,6 +16696,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Icon</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083010Z" creationid="miurahr" creationdate="20201119T083010Z">
+        <seg>アイコン</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Ideally, this name will include the name of the lesson and an incrementing number.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141622Z" creationid="miurahr" creationdate="20201117T141622Z">
@@ -16056,6 +16816,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If an error is found, a red cross will appear next to your commit.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T080617Z" creationid="miurahr" creationdate="20201119T080617Z">
+        <seg>エラーを見つけた場合は、コミットの横に赤い×印が表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If an image consists of only one band, it is often called a **grayscale** image.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140332Z" creationid="miurahr" creationdate="20201117T140332Z">
@@ -16160,6 +16928,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If no image, then you need to find and copy the icon image file from `QGIS repository &lt;https://github.com/qgis/QGIS&gt;`_ (often under :source:`images/themes/default` folder) and paste (in ``.png`` format) under :file:`/static/common` folder.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083000Z" creationid="miurahr" creationdate="20201119T083000Z">
+        <seg>画像がない場合は、 `QGISリポジトリ &lt;https://github.com/qgis/QGIS&gt;`_ からアイコン画像ファイルを探して（ :source:`images/themes/default` フォルダにあることが多いです）、 :file:`/static/common` フォルダに ``.png`` フォーマットでコピーします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If no replacement exists:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201029T134551Z" creationid="miurahr" creationdate="20201029T134551Z">
@@ -16188,6 +16964,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T134821Z" creationid="miurahr" creationdate="20201117T134821Z">
         <seg>そうでない場合も、インターネットにアクセスすることができれば、いつでもダウンロードページ https://www.qgis.org/ にアクセスすることで無料で手に入れることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If preceded by terms like ``fix`` or ``close``, the concerned issue will be closed as soon as the pull request is merged.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075804Z" creationid="miurahr" creationdate="20201119T075804Z">
+        <seg>直前に ``fix`` や ``close`` のような語が置かれている場合は、プルリクエストがマージされると、すぐにそのissueはクローズされます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16529,6 +17313,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If this relates to a particular `issue &lt;https://github.com/qgis/QGIS-Documentation/issues&gt;`_, add the issue number to your comments.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075801Z" creationid="miurahr" creationdate="20201119T075801Z">
+        <seg>これが特定の `issue &lt;https://github.com/qgis/QGIS-Documentation/issues&gt;`_ に関連する場合は、コメントにissue番号を追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If used too much, it can seem to the reader that you are shouting or being condescending.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141627Z" creationid="miurahr" creationdate="20201117T141627Z">
@@ -16610,6 +17402,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If you are a first-time contributor and do not know where to start from, you may be interested in tackling our `welcoming reports &lt;https://github.com/qgis/QGIS-Documentation/issues?q=is%3Aissue+is%3Aopen+label%3AEasy&gt;`_.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T081345Z" creationid="miurahr" creationdate="20201119T081345Z">
+        <seg>あなたが初めてのコントリビュータで、どこから始めるべきかわからない場合は、私たちの`welcoming reports &lt;https://github.com/qgis/QGIS-Documentation/issues?q=is%3Aissue+is%3Aopen+label%3AEasy&gt;`_ に取り組むことに関心があるかもしれません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If you are coding a feature branch, don't "merge" anything into that branch, rather rebase as described in the next point to keep your history clean.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T215539Z" creationid="miurahr" creationdate="20201118T215539Z">
@@ -16642,6 +17442,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If you are fixing issues for a different release, change **base** from ``master`` to the appropriate ``release_...`` branch in the steps above.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075758Z" creationid="miurahr" creationdate="20201119T075758Z">
+        <seg>特定リリースの問題を修正する場合は、上記の手順で **base** を ``master`` から適切な ``release_...`` ブランチに変更してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If you are going to use a different map that the one provided with this manual, use your own scanner to scan the map as an image file, a resolution of 300 DPI will do.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T215855Z" creationid="miurahr" creationdate="20201117T215855Z">
@@ -16670,6 +17478,22 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T215842Z" creationid="miurahr" creationdate="20201117T215842Z">
         <seg>基本的なGISの林業への応用について学ぶことに関心がある方は、このモジュールを習うと、これまで学んできたことを応用する能力が身につきますし、また役立つ新しいツールをお見せします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If you are looking for general information about how to contribute to the QGIS project, you may find help at `Get Involved in the QGIS Community &lt;https://qgis.org/en/site/getinvolved/index.html&gt;`_.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T081026Z" creationid="miurahr" creationdate="20201119T081026Z">
+        <seg>QGISプロジェクトに貢献する方法に関する一般的な情報を探している場合は、 `QGISコミュニティに参加する &lt;https://qgis.org/en/site/getinvolved/index.html&gt;`_ にヘルプを見つけることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If you are making changes to fix an `issue &lt;https://github.com/qgis/QGIS- Documentation/issues&gt;`_, add a comment to the issue report to assign it to yourself.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075600Z" creationid="miurahr" creationdate="20201119T075600Z">
+        <seg>もしあなたが `issue &lt;https://github.com/qgis/QGIS- Documentation / issues&gt;`_ を修正するための変更を加えている最中なら、issueレポートにコメントをして、それをあなた自身に割り当ててください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16726,6 +17550,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T221818Z" creationid="miurahr" creationdate="20201118T221818Z">
         <seg>:ref:`PyQGIS-Developer-Cookbook` の章を追加または更新することを計画している方は、コードスニペットの自動テストを可能にするためにいくつかの規則に従ってください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If you are reading these lines, it is certainly because you are willing to contribute to writing QGIS documentation and are looking for a how-to.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075546Z" creationid="miurahr" creationdate="20201119T075546Z">
+        <seg>あなたがこの文章を読まれているということはきっと、QGISドキュメントに貢献しようという気持ちがあって、そのための方法を探されているのでしょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17019,6 +17851,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If you get a Permission denied (publickey) error with the former command, there may be a problem with your SSH key.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T080700Z" creationid="miurahr" creationdate="20201119T080700Z">
+        <seg>上記のコマンドで Permission denied (publickey) というエラーが出た場合は、おそらくはあなたのSSH keyに問題があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If you go again to the *Channel network* algorithm, you can now select that value in the *Threshold* parameter.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T095911Z" creationid="miurahr" creationdate="20201118T095911Z">
@@ -17219,6 +18059,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If you make a mistake you can always delete a branch and start over by creating a new one from the master branch.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075726Z" creationid="miurahr" creationdate="20201119T075726Z">
+        <seg>間違えた場合は、いつでもブランチを削除して、masterブランチから新しいブランチを作成してやり直すことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If you make a pull request we ask that you please merge master to your PR branch regularly so that your PR is always mergeable to the upstream master branch.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T230818Z" creationid="miurahr" creationdate="20201118T225752Z">
@@ -17400,6 +18248,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T054127Z" creationid="miurahr" creationdate="20201118T054127Z">
         <seg>自分の地図で行いたいものがあったら、実装しようと試みてみてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If you see two dialog boxes, one that says ``base:master`` and the other ``compare:branch_name`` (see figure), this will only merge your changes from one of your branches to your master branch.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075735Z" creationid="miurahr" creationdate="20201119T075735Z">
+        <seg>一方が ``base:master`` 、もう一方が ``compare:branch_name` （図を参照）という2つのダイアログボックスが表示されている場合は、あなたの行った変更はあなたのリポジトリの中で、変更を加えたブランチからあなたのマスターブランチへとマージされるだけです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17620,6 +18476,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If you want to write documentation for Processing algorithms, consider these guidelines:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083822Z" creationid="miurahr" creationdate="20201119T083822Z">
+        <seg>プロセシングアルゴリズムのドキュメントを書きたいときは、以下のガイドラインを考慮してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If you wanted to measure pollution levels along the course of a river you would typically travel along the river in a boat or walk along its banks.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123620Z" creationid="miurahr" creationdate="20201117T123620Z">
@@ -17648,6 +18512,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T032522Z" creationid="miurahr" creationdate="20201118T032522Z">
         <seg>デフォルトのデータセットをコースのためのローカライズされたデータに置き換えたい場合、QGISに組み込まれたツールを使って簡単に行うことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If you work a lot this way, in few weeks you will get a lot of unuseful branches.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T080931Z" creationid="miurahr" creationdate="20201119T080931Z">
+        <seg>この方法で多くの作業をこなした場合、数週間のうちに用済みのブランチがたくさんできると思います。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18084,6 +18956,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In QGIS Documentation, you should use following styles for chapter, section, subsection and minisec.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083328Z" creationid="miurahr" creationdate="20201119T083328Z">
+        <seg>QGIS文書では、章、セクション、サブセクションとminisecに対して以下のスタイルを使用する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In QGIS we keep our most stable code in the current release branch.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T223921Z" creationid="miurahr" creationdate="20201118T223921Z">
@@ -18160,6 +19040,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201119T033223Z" creationid="miurahr" creationdate="20201119T033223Z">
         <seg>三次元座標参照系においては、普通 **Z** でラベルされる別の軸が追加されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In above item "View --&gt;" is actually translated to "Beeld --&gt;" because this is the translation used in the Dutch localized QGIS application.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075444Z" creationid="miurahr" creationdate="20201119T075444Z">
+        <seg>ここではオランダ語へのローカライズQGISアプリケーションで使用される翻訳ですので、上記の「View --&gt;」は実際には「Beeld --&gt;」と翻訳されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18458,6 +19346,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T035211Z" creationid="miurahr" creationdate="20201118T035211Z">
         <seg>一般に、できるだけ少ないノードを使用してデジタル化してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In general, when creating reST documentation for the QGIS project, please follow the `Python documentation style guidelines &lt;https://devguide.python.org/documenting/&gt;`_.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083254Z" creationid="miurahr" creationdate="20201119T083254Z">
+        <seg>総じて、QGISプロジェクトのためにreSTドキュメントを作成するときには、 `Python documentation style guidelines &lt;https://devguide.python.org/documenting/&gt;`_ に従ってください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18911,6 +19807,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In that case, you can translate the title but keep unchanged the link (i.e., the text between ``&lt;`` and ``&gt;``)</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T082545Z" creationid="miurahr" creationdate="20201119T082545Z">
+        <seg>その場合、タイトルは翻訳できますが、リンクは変更されません(つまり、``&lt;``と``&gt;``の間のテキスト)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In that case, you might have to call the clipping algorithm several times, which might be time consuming, but don't worry, we will soon see that there are some additional tools to automate that operation.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T094047Z" creationid="miurahr" creationdate="20201118T094047Z">
@@ -19115,6 +20019,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T102514Z" creationid="miurahr" creationdate="20201118T102514Z">
         <seg>前のレッスンのApache設定では、 ``QGIS_PROJECT_FILE`` 変数はデフォルトプロジェクトを :file:`/home/qgis/projects/world.qgs` に設定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In the Dutch case it is not!</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075338Z" creationid="miurahr" creationdate="20201119T075338Z">
+        <seg>オランダ語の場合はそうではありません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19776,6 +20688,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In this case ``load_core_plugin`` is a unique reference identifier placed before an rst item that has a caption.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075439Z" creationid="miurahr" creationdate="20201119T075439Z">
+        <seg>この場合、``load_core_plugin``は、キャプションのある最初のアイテムの前に配置される一意の参照識別子です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In this case it is a literal value and does not need translation.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075501Z" creationid="miurahr" creationdate="20201119T075501Z">
+        <seg>このケースでは、リテラル値であり、翻訳を必要としません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In this case the arrow symbol show that one street can have many people living on it.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150238Z" creationid="miurahr" creationdate="20201117T150238Z">
@@ -19908,6 +20836,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T100349Z" creationid="miurahr" creationdate="20201118T100349Z">
         <seg>この場合、入力としてDEMを使用しない代わりに、以前に追加アルゴリズムによって計算される傾斜および流域レイヤーを使用します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>In this case, you can enhance the existing description.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083839Z" creationid="miurahr" creationdate="20201119T083839Z">
+        <seg>すでにある場合は、既存の説明を拡張できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20280,10 +21216,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In your GitHub account you will find a QGIS-Documentation repository (``https://github.com/&lt;YourName&gt;/QGIS-Documentation``).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075629Z" creationid="miurahr" creationdate="20201119T075629Z">
+        <seg>ご自身のGitHubアカウントに、QGIS-Documentationリポジトリ (``https://github.com/&lt;YourName&gt;/QGIS-Documentation``) が作られていることと思います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Inaccurate vector data can occur when the instruments used to capture the data are not properly set up, when the people capturing the data aren't being careful, when time or money don't allow for enough detail in the collection process, and so on.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141112Z" creationid="miurahr" creationdate="20201117T141112Z">
         <seg>不正確なベクターデータは、データを作成する際に使用したツールが適切に設定されていない場合、作成者が注意深く作業を行わなかった場合、十分に詳細なデータ収集を行うには時間とお金が足りなかった場合、などに生じ得るものです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Incidentally, proceeding as this will also save you many clicks.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T080509Z" creationid="miurahr" creationdate="20201119T080509Z">
+        <seg>ついでに言えば、この処置によってあなたのクリック数も大きく減らすことができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20384,10 +21336,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Index</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083545Z" creationid="miurahr" creationdate="20201119T083545Z">
+        <seg>インデックス（Index）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Indexes</seg>
       </tuv>
       <tuv lang="ja">
         <seg>索引</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Indicate in the description whether the algorithm has a default shortcut in QGIS or supports in-place editing.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083849Z" creationid="miurahr" creationdate="20201119T083849Z">
+        <seg>説明中ではアルゴリズムにQGISのデフォルトショートカットがあるか​​、またはインプレース編集をサポートするのかを示します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -20436,6 +21404,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T220350Z" creationid="miurahr" creationdate="20201118T220350Z">
         <seg>当初は私たちはこの要件はqgis_coreに制限してきましたが、皆様が次のセクションで説明するユニットテストのための手続きに精通した後は、この要件をコードベースの他の部分に拡張するつもりです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Inline Tags</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083334Z" creationid="miurahr" creationdate="20201119T083334Z">
+        <seg>行内タグ</seg>
       </tuv>
     </tu>
     <tu>
@@ -20928,6 +21904,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>It holds a reference to a figure ``figure_heatmap_settings_``, and like a reference to a section this reference should not be changed!!</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T082407Z" creationid="miurahr" creationdate="20201119T082407Z">
+        <seg>これは、図形``figure_heatmap_settings_``への参照を保持しており、セクションへの参照と同様に、この参照は変更されるべきではありません!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>It includes images, captions, headers, references and replacements.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201119T040713Z" creationid="miurahr" creationdate="20201119T040713Z">
@@ -20996,6 +21980,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T124242Z" creationid="miurahr" creationdate="20201118T124242Z">
         <seg>バッファを作成する追加のステップを行うことなしに、指定された距離内のすべてのオブジェクトを選択することもできます：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It is also recommended to use index parameters such as ``single``, ``pair`` and ``see``, in order to build a more structured and interconnected index table.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083701Z" creationid="miurahr" creationdate="20201119T083701Z">
+        <seg>``single`` 、 ``pair`` 、 ``see`` のような索引パラメータの使用も推奨します。これはより構造化され相互に関連した索引語テーブルを作るのに有用です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -21448,6 +22440,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>It will print the text it holds in bold.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075455Z" creationid="miurahr" creationdate="20201119T075455Z">
+        <seg>二重星印に挟まれたテキストは太字で印刷されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>It will take care of installing all the needed dependencies, including SAGA, so if you have used it, there is nothing else to do.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T094510Z" creationid="miurahr" creationdate="20201118T094510Z">
@@ -21784,6 +22784,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Keep an eye on the existing `Index list &lt;https://docs.qgis.org/testing/en/genindex.html&gt;`_ in order to reuse the most convenient expression with the right spelling and avoid unnecessary duplicates.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083553Z" creationid="miurahr" creationdate="20201119T083553Z">
+        <seg>常に現在の `索引語リスト &lt;https://docs.qgis.org/testing/en/genindex.html&gt;`_ に注意を払うことで、より好適な表現を正しい綴りで再利用し、不要な重複は避けるようにしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Keep at least the following layers:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T034908Z" creationid="miurahr" creationdate="20201118T034908Z">
@@ -21836,6 +22844,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T032847Z" creationid="miurahr" creationdate="20201118T032847Z">
         <seg>しかしながら、結果が落ち着いた均一に見えるよう維持してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Key combinations are displayed with a ``+`` sign between keys, without spaces: :kbd:`Shift+R`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083414Z" creationid="miurahr" creationdate="20201119T083414Z">
+        <seg>キーの組み合わせはキー同士の間に空白を入れずに ``+`` 記号を表示し、 :kbd:`Shift+R` のように表示します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22132,6 +23148,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T034828Z" creationid="miurahr" creationdate="20201118T034828Z">
         <seg>デフォルトの設定でパラメーターの残りの部分を残します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Leave the underscore at the end of the hyperlink, without additional spacing (``&gt;`_``)</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075525Z" creationid="miurahr" creationdate="20201119T075525Z">
+        <seg>ハイパーリンクの末尾のアンダースコア (``&gt;`_``) は空白を加えたりせずそのまま残しておいてください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22632,10 +23656,34 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Likewise anyone can review pull requests with questions and `comments &lt;https://help.github.com/articles/commenting-on-a-pull-request/&gt;`_.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075809Z" creationid="miurahr" creationdate="20201119T075809Z">
+        <seg>同様に、誰でも質問や `コメント &lt;https://help.github.com/articles/commenting-on-a-pull-request/&gt;`_ でプルリクエストをレビューすることが可能です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Line</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083544Z" creationid="miurahr" creationdate="20201119T083544Z">
+        <seg>線（ライン）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Line Symbol Layer Types</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T033630Z" creationid="miurahr" creationdate="20201118T033630Z">
         <seg>ラインシンボルレイヤータイプ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Line comments can embed suggestions that the pull request writer can apply to the pull request.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075938Z" creationid="miurahr" creationdate="20201119T075938Z">
+        <seg>行に対するコメントには提案を埋め込むことができ、プルリクエストの作成者はこれをプルリクエストに適用することができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22680,10 +23728,34 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>List</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T084006Z" creationid="miurahr" creationdate="20201119T084006Z">
+        <seg>リスト</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>List on the Title Page, as authors, one or more persons or entities responsible for authorship of the modifications in the Modified Version, together with at least five of the principal authors of the Document (all of its principal authors, if it has fewer than five), unless they release you from this requirement.</seg>
       </tuv>
       <tuv lang="ja">
         <seg>題扉のリストには、彼らはこの要件からあなたを解放しない限り、著者として、変更版における変更の著作者として責任がある1人以上の人または団体を、文書の主著者の少なくとも5（5より少ない場合その主著者のすべて）と一緒に、列挙します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Lists</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083330Z" creationid="miurahr" creationdate="20201119T083330Z">
+        <seg>リスト</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Lists are useful for structuring the text.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083331Z" creationid="miurahr" creationdate="20201119T083331Z">
+        <seg>リストはテキストを構造化するのに役立ちます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22936,6 +24008,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Make changes</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T081153Z" creationid="miurahr" creationdate="20201119T081153Z">
+        <seg>変更を行う</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Make corrections</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T081157Z" creationid="miurahr" creationdate="20201119T081157Z">
+        <seg>訂正を加える</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Make it somewhat transparent as well.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T032704Z" creationid="miurahr" creationdate="20201118T032704Z">
@@ -22956,6 +24044,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141249Z" creationid="miurahr" creationdate="20201117T141249Z">
         <seg>コンパスを使って地物に沿って等距離で小さい鉛筆マークを入力してください、それから定規を使ってマークをつないでください！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Make sure :guilabel:`Commit directly to the branch_name branch.` is selected.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075729Z" creationid="miurahr" creationdate="20201119T075729Z">
+        <seg>:guilabel:`Commit directly to the branch_name branch.` が選択されていることを確認してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23072,6 +24168,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Make the top corners transparent if the background is not white</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083810Z" creationid="miurahr" creationdate="20201119T083810Z">
+        <seg>背景が白でない場合は上部の角を透明にします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Make your modifications following the :ref:`writing guidelines &lt;QGIS-documentation-guidelines&gt;`</seg>
       </tuv>
       <tuv lang="ja">
@@ -23080,10 +24184,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Manage Layers and overview</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083027Z" creationid="miurahr" creationdate="20201119T083027Z">
+        <seg>レイヤー管理と全体図</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Manage PKI bundles with QgsPkiBundle</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T003434Z" creationid="miurahr" creationdate="20201118T003434Z">
         <seg>QgsPkiBundleでPKIバンドルを管理する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Managing Screenshots</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083736Z" creationid="miurahr" creationdate="20201119T083736Z">
+        <seg>スクリーンショットを管理する</seg>
       </tuv>
     </tu>
     <tu>
@@ -23480,6 +24600,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Menu Items</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083017Z" creationid="miurahr" creationdate="20201119T083017Z">
+        <seg>メニューアイテム</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Menu selections</seg>
       </tuv>
       <tuv lang="ja">
@@ -23592,6 +24720,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Modify files</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075727Z" creationid="miurahr" creationdate="20201119T075727Z">
+        <seg>ファイルを修正する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Modify the :kbd:`streets` table so that it has a geometry column of type ST_LineString.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T103226Z" creationid="miurahr" creationdate="20201118T103226Z">
@@ -23676,6 +24812,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T095436Z" creationid="miurahr" creationdate="20201118T095436Z">
         <seg>異なる入力の種類と、より多くのステップを含めて、より複雑なモデルを作成できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>More details at `Get involved in documentation &lt;https://qgis.org/en/site/getinvolved/document.html&gt;`_.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075551Z" creationid="miurahr" creationdate="20201119T075551Z">
+        <seg>より詳しくは `ドキュメントを書く &lt;https://qgis.org/ja/site/getinvolved/document.html&gt;`_ をご覧ください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -24108,6 +25252,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T224002Z" creationid="miurahr" creationdate="20201118T224002Z">
         <seg>決してオリジナルのリポジトリに ``git push -f`` しないでください！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Never remove the underscore at the end of the hyperlink which forms an essential part of it!!</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075504Z" creationid="miurahr" creationdate="20201119T075504Z">
+        <seg>ハイパーリンクの末尾のアンダースコアは本質的な部分なので決して削除してはいけません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25088,6 +26240,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Now that your base branch is updated, you need to create a dedicated branch in which you add your contribution.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T080853Z" creationid="miurahr" creationdate="20201119T080853Z">
+        <seg>ベースブランチを最新に更新しましたので、次は自分の貢献を追加する専用のブランチを作成する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Now that your changes are saved and committed in your local branch, you need to send them to your remote repository in order to create pull request:</seg>
       </tuv>
       <tuv lang="ja">
@@ -25224,6 +26384,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Now we start to translate the plugin_heatmap manual!</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075312Z" creationid="miurahr" creationdate="20201119T075312Z">
+        <seg>それでは plugin_heatmap マニュアルの翻訳を始めましょう！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Now when you run an algorithm, just use the filename instead of the full path.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T101248Z" creationid="miurahr" creationdate="20201118T101248Z">
@@ -25284,6 +26452,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T101154Z" creationid="miurahr" creationdate="20201118T101154Z">
         <seg>今、関数の本体を追加できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Now you can go to your github repository and :ref:`create a Pull Request &lt;sharing_changes&gt;` as exposed in a previous section.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T080928Z" creationid="miurahr" creationdate="20201119T080928Z">
+        <seg>これであなたのgithubのリポジトリに行って、前のセクションで触れたように :ref:`プルリクエストを作成 &lt;sharing_changes&gt;` することができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25396,6 +26572,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T035343Z" creationid="miurahr" creationdate="20201118T035343Z">
         <seg>今、2つ林分の準備ができています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Now you have your local and remote repositories which both have their ``master`` branch up to date with the official ``master`` branch of QGIS-Documentation.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T080840Z" creationid="miurahr" creationdate="20201119T080817Z">
+        <seg>これであなたのローカルリポジトリとリモートリポジトリ双方の ``master`` ブランチを、公式QGIS-Documentationリポジトリの ``master`` ブランチに一致するようアップデートしましたので、</seg>
       </tuv>
     </tu>
     <tu>
@@ -26856,6 +28040,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Or you can use the ``..</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083647Z" creationid="miurahr" creationdate="20201119T083614Z">
+        <seg>ブロックレベルのマークアップの ``.. index::`` を使うこともできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Or you could send a field team later to get estimates of the missing forest stands to complete the stand inventory.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T220201Z" creationid="miurahr" creationdate="20201117T220201Z">
@@ -26908,6 +28100,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>有機農業</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Other editors and administrators will review your pull request and they may make suggestions or ask for corrections.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T080521Z" creationid="miurahr" creationdate="20201119T080521Z">
+        <seg>他の編集者や管理者があなたのプルリクエストを見直し、提案をしたり修正を求めたりするかもしれません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27392,6 +28592,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Perhaps the writing style doesn't match the project guidelines, the change is missing some major details or screenshots, or maybe everything looks great and is in order.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075809Z" creationid="miurahr" creationdate="20201119T075809Z">
+        <seg>おそらくそれは、プロジェクトのガイドラインに沿っていない執筆スタイルだったり、重要な細部やスクリーンショットが変更に欠けていたり、あるいはすべてが素晴らしくて申し分なさそうだ、ということだったりするでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Periodically we will branch a release off master, and then continue stabilisation and selective incorporation of new features into master.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T215407Z" creationid="miurahr" creationdate="20201118T215407Z">
@@ -27420,6 +28628,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>カメラトラップの一つで捕獲されたオスのトラの絵</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Pictures</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083442Z" creationid="miurahr" creationdate="20201119T083442Z">
+        <seg>ピクチャ</seg>
       </tuv>
     </tu>
     <tu>
@@ -27460,6 +28676,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>始める前に計画する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Platform Icons</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083009Z" creationid="miurahr" creationdate="20201119T083009Z">
+        <seg>プラットフォームアイコン</seg>
       </tuv>
     </tu>
     <tu>
@@ -27817,6 +29041,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Prefix with ``Fix`` if you fix the ticket: your commit will close the ticket.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T080927Z" creationid="miurahr" creationdate="20201119T080927Z">
+        <seg>チケットを修正する場合は ``Fix`` をその前につけておくと、コミットによってチケットが閉じられます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Preparing Exercise Data</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T032508Z" creationid="miurahr" creationdate="20201118T032508Z">
@@ -27897,6 +29129,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Press :guilabel:`Add suggestion to batch` for each rewording you'd like to include.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075940Z" creationid="miurahr" creationdate="20201119T075940Z">
+        <seg>取り込みたい提案のそれぞれで :guilabel:`Add suggestion to batch` を押します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Press :kbd:`Y` and :kbd:`Enter` and wait for the download and installation to finish.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T034405Z" creationid="miurahr" creationdate="20201118T034405Z">
@@ -27909,6 +29149,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>取り込みたいすべての提案をプルリクエストに適用する準備ができたら、どれでもいいので :guilabel:`Commit suggestions` ボタンを押して、この変更を説明するメッセージを入力します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Press the button and resolve the issue as explained at https://help.github.com/articles/resolving-a-merge-conflict-on-github/</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T080934Z" creationid="miurahr" creationdate="20201119T080934Z">
+        <seg>https://help.github.com/articles/resolving-a-merge-conflict-on-github/ で説明されているようにボタンを押し、問題を解決して下さい</seg>
       </tuv>
     </tu>
     <tu>
@@ -27949,6 +29197,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T215432Z" creationid="miurahr" creationdate="20201118T215432Z">
         <seg>手順</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Processing algorithm help files are part of QGIS User Guide, so use the same formatting as User Guide and other documentation.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083823Z" creationid="miurahr" creationdate="20201119T083823Z">
+        <seg>処理アルゴリズムのヘルプファイルは、QGISユーザーガイドの一部であるので、ユーザーガイドとその他の文書と同じフォーマットを使用します</seg>
       </tuv>
     </tu>
     <tu>
@@ -28156,6 +29412,22 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>QGIS Documentation source files are available at https://github.com/qgis/QGIS-Documentation.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T081013Z" creationid="miurahr" creationdate="20201119T081013Z">
+        <seg>QGISドキュメントのソースファイルは https://github.com/qgis/QGIS-Documentation で入手できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>QGIS Documentation will be built automatically on the server at 0, 8am, 4pm US/Pacific (Pacific Time).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T081011Z" creationid="miurahr" creationdate="20201119T081011Z">
+        <seg>QGISドキュメントは、米国太平洋時間の太平洋標準時の午前0時、午前8時、午後4時にサーバ上で自動作成されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>QGIS GPS Tools Plugin for data collection</seg>
       </tuv>
       <tuv lang="ja">
@@ -28344,6 +29616,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T231507Z" creationid="miurahr" creationdate="20201118T231507Z">
         <seg>QGIS開発者は忙しい人々です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>QGIS documentation provides some essential indices.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083548Z" creationid="miurahr" creationdate="20201119T083548Z">
+        <seg>QGISドキュメントは必須の索引項目のみを提供しています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -28724,6 +30004,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Range</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T084016Z" creationid="miurahr" creationdate="20201119T084016Z">
+        <seg>範囲</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Raster Data</seg>
       </tuv>
       <tuv lang="ja">
@@ -28736,6 +30024,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja">
         <seg>ラスター分析</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Raster band</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083932Z" creationid="miurahr" creationdate="20201119T083932Z">
+        <seg>対象バンド</seg>
       </tuv>
     </tu>
     <tu>
@@ -28852,6 +30148,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Raster layer</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083929Z" creationid="miurahr" creationdate="20201119T083929Z">
+        <seg>ラスタレイヤ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Raster layer symbology is somewhat different.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T034104Z" creationid="miurahr" creationdate="20201118T034104Z">
@@ -28880,6 +30184,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140003Z" creationid="miurahr" creationdate="20201117T140003Z">
         <seg>ラスターはピクセルのマトリックスで構成されていて、それぞれがそのセルでカバーされるエリアの状態を表す値を持っています（ figure_raster_ 参照）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Read more at https://help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T080937Z" creationid="miurahr" creationdate="20201119T080937Z">
+        <seg>詳細は https://help.github.com/articles/resolving-a-merge-conflict-using-the-command-line/ をご覧ください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -29016,6 +30328,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T224625Z" creationid="miurahr" creationdate="20201118T224625Z">
         <seg>出力を :file:`python/plugins/processing/tests/testdata/expected` にリダイレクトします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Reduce the window to the minimal space needed to show the feature (taking the whole screen for a small modal window &gt; overkill)</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083806Z" creationid="miurahr" creationdate="20201119T083806Z">
+        <seg>ウィンドウは説明に必要な範囲で最小にします（小さなモーダルウィンドウのためだけに全画面表示をするのは過剰です）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -29324,6 +30644,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Replacement</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083445Z" creationid="miurahr" creationdate="20201119T083445Z">
+        <seg>置換</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Replacing Invariant Sections with translations requires special permission from their copyright holders, but you may include translations of some or all Invariant Sections in addition to the original versions of these Invariant Sections.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T133650Z" creationid="miurahr" creationdate="20201117T133523Z">
@@ -29528,6 +30856,22 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T214239Z" creationid="miurahr" creationdate="20201118T214239Z">
         <seg>QGISサーバーに関する特定の情報を返します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Review and comment pull request</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075805Z" creationid="miurahr" creationdate="20201119T075805Z">
+        <seg>プルリクエストをレビューしコメントする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Reviewing helps to improve the quality of the contribution, both in form and substance.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075811Z" creationid="miurahr" creationdate="20201119T075811Z">
+        <seg>レビューはドキュメントの形式と実質の両面において、貢献の質を高める助けになります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -29828,6 +31172,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Same level titles must use same character for underline adornment.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083316Z" creationid="miurahr" creationdate="20201119T083316Z">
+        <seg>タイトルには下線（及び第1レベルに対して上線）が引かれます。同じレベルのタイトルは下線装飾のために同じ文字を使用する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Sample raster datasets are provided, so you'll need to import them as necessary.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T145656Z" creationid="miurahr" creationdate="20201117T145656Z">
@@ -29972,6 +31324,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Save them as :file:`.png` (to avoid :file:`.jpeg` artifacts)</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083814Z" creationid="miurahr" creationdate="20201119T083814Z">
+        <seg>:file:`.png` で保存します (:file:`.jpeg` は避けてください)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Save your QGIS project for future references.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T034944Z" creationid="miurahr" creationdate="20201118T034944Z">
@@ -30052,6 +31412,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Scale</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T084022Z" creationid="miurahr" creationdate="20201119T084022Z">
+        <seg>縮尺（Scale）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Scale and vector data</seg>
       </tuv>
       <tuv lang="ja">
@@ -30124,6 +31492,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Scroll to the line you want to comment on and click on the |githubBluePlus|.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075814Z" creationid="miurahr" creationdate="20201119T075814Z">
+        <seg>コメントしたい行までスクロールして、 |githubBluePlus| をクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Secondarily, this License preserves for the author and publisher a way to get credit for their work, while not being considered responsible for modifications made by others.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124226Z" creationid="miurahr" creationdate="20201117T124226Z">
@@ -30144,6 +31520,30 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124734Z" creationid="miurahr" creationdate="20201117T124734Z">
         <seg>章番号やそれに相当するものは、セクション題の一部とはみなされません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Sections used to structure the text are identified through their title which is underlined (and overlined for the first level).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083303Z" creationid="miurahr" creationdate="20201119T083303Z">
+        <seg>テキストを構造化するために使用されるセクションはそれらのタイトルを通じて識別されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>See `GitHub help &lt;https://help.github.com/articles/error-permission-denied-publickey/&gt;`_ for details.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T080701Z" creationid="miurahr" creationdate="20201119T080701Z">
+        <seg>詳細は `GitHubのヘルプ &lt;https://help.github.com/articles/error-permission-denied-publickey/&gt;`_ を参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>See `Index generating &lt;https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html#index-generating-markup&gt;`_ for more information on index creation.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083705Z" creationid="miurahr" creationdate="20201119T083705Z">
+        <seg>索引作成についてのより詳しい情報は `Index generating &lt;https://www.sphinx-doc.org/en/master/usage/restructuredtext/directives.html#index-generating-markup&gt;`_ を参照してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -30620,6 +32020,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Select this patch branch.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075717Z" creationid="miurahr" creationdate="20201119T075717Z">
+        <seg>このブランチを選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Select unique values</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T124250Z" creationid="miurahr" creationdate="20201118T124250Z">
@@ -30708,6 +32116,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Separate branches allow you to work on multiple problems at the same time without interfering with other branches.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075725Z" creationid="miurahr" creationdate="20201119T075725Z">
+        <seg>問題ごとに別々のブランチを使用することによって、他のブランチに干渉することなく、同時に複数の問題に取り組むことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Sequences</seg>
       </tuv>
       <tuv lang="ja">
@@ -30776,6 +32192,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja">
         <seg>このように設定します:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Set print size resolution to ``135 dpi`` (e.g. in Gimp set the print resolution :menuselection:`Image --&gt; Print size` and save).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083811Z" creationid="miurahr" creationdate="20201119T083811Z">
+        <seg>印刷サイズ解像度を ``135 dpi`` に設定します（たとえば Gimp で印刷解像度を設定するにはメニューで :menuselection:`Image --&gt; Print size` を選択して保存します）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -31020,6 +32444,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Several index tags exist in RST.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083554Z" creationid="miurahr" creationdate="20201119T083554Z">
+        <seg>RSTには索引用のタグがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Shapefiles are not enabled for editing by default to prevent accidentally changing or deleting the data they contain.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123708Z" creationid="miurahr" creationdate="20201117T123708Z">
@@ -31032,6 +32464,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja">
         <seg>変更を共有する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Share your changes via Pull Request</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075731Z" creationid="miurahr" creationdate="20201119T075731Z">
+        <seg>あなたの行った変更をプルリクエストを通して共有する</seg>
       </tuv>
     </tu>
     <tu>
@@ -31233,6 +32673,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T095532Z" creationid="miurahr" creationdate="20201118T095532Z">
         <seg>その値は閾値ラスターレイヤー内の変数を指しているので、いくつかの単純な統計分析に基づいて、そのレイヤーからそれを抽出します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Since the documentation is written using the reStructureText syntax, depending on your changes, you may need to rely on the :ref:`writing guidelines &lt;QGIS-documentation-guidelines&gt;`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T081722Z" creationid="miurahr" creationdate="20201119T075637Z">
+        <seg>ドキュメントは reStructureText シンタックスを使用して書かれていますので、変更の内容によっては、 :ref:`執筆のためのガイドライン &lt;QGIS-documentation-guidelines&gt;` を参照しながら行う必要があるかもしれません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -31517,6 +32965,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>So keep your repository clean this way:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T080932Z" creationid="miurahr" creationdate="20201119T080932Z">
+        <seg>ですので以下のようにしてあなたのリポジトリをきれいに保ちましょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>So now you have the choice between two remote repository:</seg>
       </tuv>
       <tuv lang="ja">
@@ -31529,6 +32985,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T100356Z" creationid="miurahr" creationdate="20201118T100356Z">
         <seg>だから、そのフォルダから移動せずに、希望のファイル名でモデルを保存します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>So the correct file to add the description is: :file:`source/docs/user_manual/processing_algs/qgis/vectorgeometry.rst`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083835Z" creationid="miurahr" creationdate="20201119T083835Z">
+        <seg>そのため、説明を追加する正しいファイルは :file:`source/docs/user_manual/processing_algs/qgis/vectorgeometry.rst` です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -31641,6 +33105,22 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T094139Z" creationid="miurahr" creationdate="20201118T094139Z">
         <seg>いくつかのアルゴリズムは、それらが行う分析によってカバーされる地域を定義する範囲、そしてたいていは結果のレイヤーの範囲を定義する範囲を必要とします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Some basics you may often need are exposed below.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T080648Z" creationid="miurahr" creationdate="20201119T080648Z">
+        <seg>しばしば必要となる基本的な事項は以下で説明されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Some details at https://help.github.com/articles/using-git-rebase-on-the-command-line/</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T081007Z" creationid="miurahr" creationdate="20201119T081007Z">
+        <seg>より詳しくは https://help.github.com/articles/using-git-rebase-on-the-command-line/ を参照してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -31821,6 +33301,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Sometimes, at the end of the proofreading process, you may end up with changes split into multiple commits that are not necessarily worth it.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T080954Z" creationid="miurahr" creationdate="20201119T080954Z">
+        <seg>場合によっては、校正プロセスの最後に、変更が複数のコミットに分割されてしまうことがあります。分割されたコミットが必ずしもそれだけの価値があるわけではありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Sometimes, when changing data, you want your changes to have effects elsewhere in the database.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150349Z" creationid="miurahr" creationdate="20201117T150349Z">
@@ -31905,6 +33393,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141237Z" creationid="miurahr" creationdate="20201117T141237Z">
         <seg>２つのベクターレイヤー ( a_input = 方形, b_input = 円)の空間オーバーレイ。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Special Comments</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083707Z" creationid="miurahr" creationdate="20201119T083707Z">
+        <seg>特別なコメント</seg>
       </tuv>
     </tu>
     <tu>
@@ -32045,6 +33541,22 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Start a new pull request</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075732Z" creationid="miurahr" creationdate="20201119T075732Z">
+        <seg>新しくプルリクエストを始める</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Start all list items with a capital letter</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083332Z" creationid="miurahr" creationdate="20201119T083332Z">
+        <seg>すべての項目を大文字で始めてください</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Start digitizing by clicking on a point somewhere along the edge of the field.</seg>
       </tuv>
       <tuv lang="ja">
@@ -32125,6 +33637,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Stick to above presented rules and the translated document will look fine!</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075536Z" creationid="miurahr" creationdate="20201119T075536Z">
+        <seg>以上のルールを守ってドキュメントの品質を良くしましょう！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Storing, creating and editing database of small and medium enterprises (+ further visualization)</seg>
       </tuv>
       <tuv lang="ja">
@@ -32153,6 +33673,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja">
         <seg>街路</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>String</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T084010Z" creationid="miurahr" creationdate="20201119T084010Z">
+        <seg>文字列</seg>
       </tuv>
     </tu>
     <tu>
@@ -32261,6 +33789,22 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Substitution</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083011Z" creationid="miurahr" creationdate="20201119T083011Z">
+        <seg>置換テキスト</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Substitutions</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T081142Z" creationid="miurahr" creationdate="20201119T081142Z">
+        <seg>置換リスト</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Success</seg>
       </tuv>
       <tuv lang="ja">
@@ -32321,6 +33865,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja">
         <seg>通りの名前で人を要約し、street_idsの代わりに実際の通りの名前を表示してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Summary Rules for translation</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075505Z" creationid="miurahr" creationdate="20201119T075505Z">
+        <seg>翻訳ルールのまとめ</seg>
       </tuv>
     </tu>
     <tu>
@@ -32645,6 +34197,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Text between double stars and double quotes often indicate values or fieldnames, sometimes they need translation sometimes not.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075532Z" creationid="miurahr" creationdate="20201119T075532Z">
+        <seg>二重星と二重引用符の間のテキストは多くの場合、値もしくはフィールド名を示しています。翻訳の必要があることもあれば、ないこともあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Texts." line with this:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T133911Z" creationid="miurahr" creationdate="20201117T133911Z">
@@ -32937,6 +34497,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T100052Z" creationid="miurahr" creationdate="20201118T100052Z">
         <seg>これによりそれは一時的な出力になるでしょう、それがデフォルトですので。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>That will open a text box allowing you to leave a comment.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075815Z" creationid="miurahr" creationdate="20201119T075815Z">
+        <seg>テキストボックスが開きますので、コメントを残すことができます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -34525,6 +36093,22 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The current document will guide you through the different ways to achieve this objective, showing you the main steps to follow, the tricks you can use and the traps you should be aware of.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075549Z" creationid="miurahr" creationdate="20201119T075549Z">
+        <seg>現在この文書では、目的を達成するための複数の方法を一通り案内し、従うべき主な手順を示し、使用可能な小技と知っておくべき落とし穴を教えています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The current status is available at https://docs.qgis.org.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T081013Z" creationid="miurahr" creationdate="20201119T081013Z">
+        <seg>現在の状態は https://docs.qgis.org で入手できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The current styling of the sample plots is not the best, but how does it look in the print layout?:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T215556Z" creationid="miurahr" creationdate="20201117T215556Z">
@@ -34805,6 +36389,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The example below creates the anchor of a section (e.g., Label/reference title)</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083418Z" creationid="miurahr" creationdate="20201119T083418Z">
+        <seg>以下の例は、セクション（例えば、ラベル/参照タイトル）のアンカーを作成します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The exercises in the following lessons assume you are already capable of doing many of the basic operations in QGIS and only tools that have not been used before are presented in more detail.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T215829Z" creationid="miurahr" creationdate="20201117T215829Z">
@@ -34833,6 +36425,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja">
         <seg>コンピュータのファイルマネージャで見られるような「木」シェープファイルを構成するファイル。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The files that you are modifying are not up to date with the branch you are targeting because someone else has made a commit that conflicts with your changes.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075755Z" creationid="miurahr" creationdate="20201119T075755Z">
+        <seg>他の誰かがあなたの変更と競合するコミットをしたので、あなたが修正中のファイルは対象のブランチの最新の状態を反映していません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -34949,6 +36549,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The first line is a title and should start by an upper case letter and have 80 characters length, don't end with a ``.``.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T080911Z" creationid="miurahr" creationdate="20201119T080911Z">
+        <seg>最初の行はタイトルです。大文字で始め、80文字以内に収め、最後には ``.`` を付けないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The first model that we created in the previous chapter was a very simple one, with just one input and 3 algorithms.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T095435Z" creationid="miurahr" creationdate="20201118T095435Z">
@@ -35061,6 +36669,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The following chapters will guide you through learning:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T081017Z" creationid="miurahr" creationdate="20201119T081017Z">
+        <seg>以下の章では次のようなことを学ぶことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The following code implements such widget</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T032020Z" creationid="miurahr" creationdate="20201118T032020Z">
@@ -35109,6 +36725,22 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The following translation item contains \``airports\``.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075459Z" creationid="miurahr" creationdate="20201119T075459Z">
+        <seg>以下の文章には \``airports\`` が含まれています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The following translation item contains the ``:guilabel:`` rst tag.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075457Z" creationid="miurahr" creationdate="20201119T075457Z">
+        <seg>以下の文章には ``:guilabel:`` rstタグが含まれています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The footpaths in and around the school</seg>
       </tuv>
       <tuv lang="ja">
@@ -35121,6 +36753,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T215731Z" creationid="miurahr" creationdate="20201117T215731Z">
         <seg>森林管理は、地域を訪れる際に役に立つかもしれない地域に関するいくつかの情報を持っています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The former command line is simply an example.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T080651Z" creationid="miurahr" creationdate="20201119T080651Z">
+        <seg>上記のコマンドラインはただ単に一例です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -35313,6 +36953,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135740Z" creationid="miurahr" creationdate="20201117T135740Z">
         <seg>左側の画像ではより多くの詳細を示しています、例えば水面の南西の家を明確に分離された正方形として識別できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The images should be placed in an image (:file:`img/`) folder that is located in the same folder as the referencing :file:`.rst` file.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083739Z" creationid="miurahr" creationdate="20201119T083739Z">
+        <seg>画像ファイルは、参照元の :file:`.rst` ファイルがあるフォルダの中の、画像フォルダ (:file:`img/`) に置きます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -35573,6 +37221,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The less clutter, the better (no need to activate all the toolbars)</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083807Z" creationid="miurahr" creationdate="20201119T083807Z">
+        <seg>ごちゃごちゃしていないほど良いです（すべてのツールバーをアクティブにする必要はありません）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The lines can be used as a reference.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135749Z" creationid="miurahr" creationdate="20201117T135749Z">
@@ -35821,6 +37477,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The name of the new branch should relate to the problem you intend to fix.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075721Z" creationid="miurahr" creationdate="20201119T075721Z">
+        <seg>新しいブランチの名前は、修正しようとしている問題に関連していなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The nature and limitations of WMS</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T075309Z" creationid="miurahr" creationdate="20201118T075309Z">
@@ -35849,6 +37513,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja">
         <seg>新しいポリゴンは全体の森林地域をカバーしていて、それらは（各ポリゴンから作成された）各地図に何が含まれているかを教えてくれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The next item contains the rst-tag ``:menuselection:`` followed by text actually displayed in a menu in QGIS application, this may be translated in the application and therefore should be changed when this is the case.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075443Z" creationid="miurahr" creationdate="20201119T075443Z">
+        <seg>次の文章には rst-タグ ``:menuselection:`` があります。後ろに続くテキストは実際にQGISアプリケーションのメニューで表示されるテキストです。これはアプリケーションでは翻訳されているかもしれませんので、その場合は変更すべきです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -35897,6 +37569,22 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T101230Z" creationid="miurahr" creationdate="20201118T101230Z">
         <seg>必要とする次のものはポリゴンレイヤーです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The next translation item contains the ``:ref:`` statement that is commonly used to refer to another section somewhere in the manual!</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075341Z" creationid="miurahr" creationdate="20201119T075341Z">
+        <seg>次の文章には 、通常マニュアルの別のセクションを参照するために使用される ``:ref:`` 文が含まれています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The next translation item with rst attributes is the following item:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075453Z" creationid="miurahr" creationdate="20201119T075453Z">
+        <seg>次の rst属性付きの文章はこのようなものです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -36478,6 +38166,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The quotes are used to give the text another text font.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075500Z" creationid="miurahr" creationdate="20201119T075500Z">
+        <seg>引用符は、テキストに別のテキストフォントを与えるために使用されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The raster calculator is one of the most powerful algorithms that you will find.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T100526Z" creationid="miurahr" creationdate="20201118T100526Z">
@@ -36550,6 +38246,22 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The ref statement will be replaced with the text of the header and turned into a hyperlink.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075419Z" creationid="miurahr" creationdate="20201119T075419Z">
+        <seg> ref文は見出しテキストに置換され、ハイパーリンクになります。 </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The reference definition from the rst-document is not included in the :file:`.po` file and can therefore not be changed.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T082417Z" creationid="miurahr" creationdate="20201119T082417Z">
+        <seg>rst-documentの参照定義は:file:`.po`ファイルに含まれていないため、変更できません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The reference line for latitude is the equator and each **hemisphere** is divided into ninety sections, each representing one degree of latitude.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201119T033203Z" creationid="miurahr" creationdate="20201119T033203Z">
@@ -36578,6 +38290,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T094901Z" creationid="miurahr" creationdate="20201118T094901Z">
         <seg>レイヤーのレンダリングは非常に有益ではありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The replacement text should be in camelCase:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083004Z" creationid="miurahr" creationdate="20201119T083004Z">
+        <seg>置換テキストはキャメルケースにする必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -36682,6 +38402,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T095207Z" creationid="miurahr" creationdate="20201118T095207Z">
         <seg>結果は、代わりに、このアルゴリズムの場合にだけ1つのラスターレイヤーから、ラスターレイヤーのセット、アルゴリズムの実行の1つに対応するそれらのそれぞれであろう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The result:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083521Z" creationid="miurahr" creationdate="20201119T083521Z">
+        <seg>結果：</seg>
       </tuv>
     </tu>
     <tu>
@@ -36802,6 +38530,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja">
         <seg>学校の旗のポール</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The screenshot should show the content according to what is described in the text</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083815Z" creationid="miurahr" creationdate="20201119T083815Z">
+        <seg>スクリーンショットはテキストの記載に従った内容を表示していなければなりません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -37070,10 +38806,34 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The text ``Advanced`` of the guilabel tag may well be translated in the QGIS application and probably needs to be changed!</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075458Z" creationid="miurahr" creationdate="20201119T075458Z">
+        <seg>guilabelタグの テキスト ``Advanced`` はQGISアプリケーション中でおそらく翻訳されるのでたぶん変更する必要があります！</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The text following a ``:ref:`` statement should never be changed because it is a unique identifier!</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075342Z" creationid="miurahr" creationdate="20201119T075342Z">
+        <seg>``:ref:`` 文に続くテキストは一意の識別子であるため、 変更してはいけません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The text inside the box in the :guilabel:`Item properties` should show :kbd:`Detail map inventory zone: [% "Zone" %]`.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T215803Z" creationid="miurahr" creationdate="20201117T215803Z">
         <seg>:guilabel:`アイテムプロパティ` 中のボックス内のテキストは :kbd:`詳細図調査ゾーン: [% "Zone" %]` と表示されるはずです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The text itself is often text included in the dialog itself and may well be translated in the application.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075456Z" creationid="miurahr" creationdate="20201119T075456Z">
+        <seg>テキストそのものは多くの場合、ダイアログ中のテキストであり、アプリケーションでは翻訳されているかもしれません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -37190,6 +38950,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The url should of course be left intact, you are allowed to change the external text ``https://www.qgistutorials.com`` which is visible by the reader.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075503Z" creationid="miurahr" creationdate="20201119T075503Z">
+        <seg>URLはもちろん手をつけずそのまま残すべきですが、読者に表示される方のテキストである ``https://www.qgistutorials.com`` は変更することができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The use of Geographic Coordinate Reference Systems is very common.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201119T033200Z" creationid="miurahr" creationdate="20201119T033200Z">
@@ -37298,6 +39066,22 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T020619Z" creationid="miurahr" creationdate="20201118T020619Z">
         <seg>黄色の建物が選択されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The |githubBranch| button should now say :guilabel:`Branch: branch_name`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075722Z" creationid="miurahr" creationdate="20201119T075722Z">
+        <seg>すると |githubBranch| ボタンは :guilabel:`Branch: branch_name` となるはずです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The |githubBranch| button will now say :guilabel:`Branch: patch-xxx`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075706Z" creationid="miurahr" creationdate="20201119T075706Z">
+        <seg> |githubBranch| ボタンが :guilabel:`Branch: patch-xxx` に変わります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -37558,6 +39342,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>There are a few rules that help us provide a set of indices that are really useful (coherent, consistent and really connected to each other):</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083549Z" creationid="miurahr" creationdate="20201119T083549Z">
+        <seg>本当に有用な（よく整理され、首尾一貫し、相互に関連づけられた）索引項目のセットのみを提供する助けとなるルールがいくつかあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>There are a great many analytical tools that can be run on raster data which cannot be used with vector data.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140343Z" creationid="miurahr" creationdate="20201117T140343Z">
@@ -37594,6 +39386,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja">
         <seg>ラインとポリゴンの地物のシンプルなシンボルを定義するための様々なオプションがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>There are different ways to contribute to QGIS documentation.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075633Z" creationid="miurahr" creationdate="20201119T075633Z">
+        <seg>QGISドキュメンテーションに貢献するにはいくつかの異なった方法があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -37718,6 +39518,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>There are several types available you can pick one from:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083902Z" creationid="miurahr" creationdate="20201119T083902Z">
+        <seg>１つを選べる利用できるタイプはいくつかあります：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>There are several variations in buffering.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141216Z" creationid="miurahr" creationdate="20201117T141216Z">
@@ -37762,6 +39570,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201119T033534Z" creationid="miurahr" creationdate="20201119T033534Z">
         <seg>異なる２つの座標参照系があります。**地理座標系** と **投影座標系** です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>There are two main ways, not mutually exclusive, to modify the files:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075559Z" creationid="miurahr" creationdate="20201119T075559Z">
+        <seg>ファイルに変更を加えるには主に2つの方法がありますが、どちらか一方の方法しか選べないというわけではありません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -38086,10 +39902,26 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>These are special tags used to replace images</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075507Z" creationid="miurahr" creationdate="20201119T075507Z">
+        <seg>これらは画像に置換するために使用される特殊なタグです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>These are used during operations such as coordinate reference system (CRS) conversions.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T124113Z" creationid="miurahr" creationdate="20201118T124113Z">
         <seg>これらは、座標参照系（CRS）変換などの操作中に使用されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>These contribute to the cosmetics of the information provided</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075533Z" creationid="miurahr" creationdate="20201119T075533Z">
+        <seg>これらは情報の見た目を整えるのに貢献しています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -38198,6 +40030,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>These projects use the QGIS `Sample Data &lt;https://qgis.org/downloads/data/&gt;`_ (aka Alaska Dataset), which should be placed in the same folder as the QGIS-Documentation Repository.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083804Z" creationid="miurahr" creationdate="20201119T083804Z">
+        <seg>このプロジェクトではQGISの `サンプルデータ &lt;https://qgis.org/downloads/data/&gt;`_ (またの名をAlaskaデータセット) を使用しています。サンプルデータはQGIS-Documentationリポジトリと同じフォルダになければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>These standards should be followed by all QGIS developers.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201119T001809Z">
@@ -38218,6 +40058,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124742Z" creationid="miurahr" creationdate="20201117T124742Z">
         <seg>これらの題は、他のセクションの題は区別しなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>These will allow you to compare the changes that you have made in your branch with the master branch that you want to merge into.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075739Z" creationid="miurahr" creationdate="20201119T075739Z">
+        <seg>このドロップダウンメニューによって、あなたのブランチで行った変更を、変更をマージしたい相手である公式のマスターブランチと比較することが可能になります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -38274,6 +40122,30 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T093954Z" creationid="miurahr" creationdate="20201118T093954Z">
         <seg>それらは2つの異なるファイルにあります（市域は1つだけのラスターレイヤーに入るが、言われているように、その周りにいくつかの余分な面積が欲しい）。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>They are mainly written using the reStructuredText (reST) format syntax, coupled with some scripts from the Sphinx toolset to post-process the HTML output.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T081015Z" creationid="miurahr" creationdate="20201119T081015Z">
+        <seg>これらは主にreStructuredText（reST）形式の構文を使用して記述され、HTML出力を後処理するためのSphinxツールセットからのスクリプトと組み合わされています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>They are published as you go.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075817Z" creationid="miurahr" creationdate="20201119T075817Z">
+        <seg>この場合コメントはその都度即座に公開されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>They are:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075752Z" creationid="miurahr" creationdate="20201119T075752Z">
+        <seg>4つのドロップダウンメニューは以下の通りです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -38634,6 +40506,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T031543Z" creationid="miurahr" creationdate="20201118T031543Z">
         <seg>これは、いくつかの場所について繰り返す必要がある場合は特に、非常に時間のかかる処理となります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This can be achieved by downloading the file(s) either from Transifex platform or from the :file:`locale/$language` folder of the source repository (in GitHub),</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T082639Z" creationid="miurahr" creationdate="20201119T082639Z">
+        <seg>これは、Transifexプラットフォームか、ソースリポジトリ(GitHub)の:file:`locale/$language`フォルダからファイルをダウンロードすることで実現できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -39150,10 +41030,26 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This is done by entering # and the issue number (*e.g.* ``#1234``).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075802Z" creationid="miurahr" creationdate="20201119T075802Z">
+        <seg>これは＃とissue番号 (*例* ``#1234``) を入力することによって行われます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This is especially useful if a web client uses an external background layer in the web map.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T015651Z" creationid="miurahr" creationdate="20201118T015651Z">
         <seg>これは、WebクライアントがWeb地図で外部の背景レイヤを使用している場合に特に便利です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This is for creating a footnote (showing as example [1]_)</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083733Z" creationid="miurahr" creationdate="20201119T083733Z">
+        <seg>これは、脚注を作成するためのものです（例として示します [1]_ ）</seg>
       </tuv>
     </tu>
     <tu>
@@ -39270,6 +41166,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This is the convenient way since it's more flexible and allows you to structure your review, edit the comments, publish when you are ready and send a single notification to the repository followers and not one notification for each comment.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075926Z" creationid="miurahr" creationdate="20201119T075926Z">
+        <seg>こちらの方がよりよい方法でしょう。より柔軟ですし、レビューを構造化したりコメントを編集したりして準備ができてから公開することができますし、リポジトリのフォロワーにコメントごとに通知を送るのではなく、ひとつだけ通知を送ることができるからです。 </seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This is the markup::</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141632Z" creationid="miurahr" creationdate="20201117T141632Z">
@@ -39330,6 +41234,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141611Z" creationid="miurahr" creationdate="20201117T141611Z">
         <seg>これは通常、スクリーンショットを散りばめた状態で、クリックごとの指示をできる限り明確に示すことで行われます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This is used to show the popup texts that appear when you hover above the toolbar item and this may be different when it is actually translated in the QGIS application.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075336Z" creationid="miurahr" creationdate="20201119T075336Z">
+        <seg>これはツールバー項目の上にマウスを当てた時に表示されるポップアップテキストを表示するために使用されますが、実際のQGISアプリケーションでの翻訳とは異なる場合があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -39410,6 +41322,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T075345Z" creationid="miurahr" creationdate="20201118T075345Z">
         <seg>だから、時々代わりにWeb地物サービス（WFS）を使用したくなります。これは別にベクターレイヤーを与え、そしてそれはWMSスタイルの地図の一部としてではありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This item also includes a hyperlink with an url and an external presentation.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075502Z" creationid="miurahr" creationdate="20201119T075502Z">
+        <seg>この文章には、URLと表示テキストの両方を持つハイパーリンクも含まれています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -39558,6 +41478,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This makes it easier to reproduce screenshots for the next version of QGIS.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083756Z" creationid="miurahr" creationdate="20201119T083756Z">
+        <seg>これは次期バージョンQGISのためのスクリーンショットの再作成を多少なりとも容易にします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This makes it much easier for newcomers to identify where the code is relating to specific class.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201119T005435Z" creationid="miurahr" creationdate="20201117T091702Z">
@@ -39630,6 +41558,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This means that there are `conflicts &lt;https://help.github.com/articles/addressing-merge-conflicts/&gt;`_.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075754Z" creationid="miurahr" creationdate="20201119T075754Z">
+        <seg>これは `競合 &lt;https://help.github.com/articles/addressing-merge-conflicts/&gt;`_ があることを意味します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This means that when a new line is added to an :file:`.rst` document that was already translated, only the new/updated sentences are added in the translated :file:`.po` file and needs to be translated.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201119T040608Z" creationid="miurahr" creationdate="20201119T040608Z">
@@ -39666,6 +41602,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201119T033451Z" creationid="miurahr" creationdate="20201119T033451Z">
         <seg>ということは、座標の北距（Y）の値は645万メートル（-355 万メートル +1000万メートル）です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This means the reference to figures can not be translated.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T082430Z" creationid="miurahr" creationdate="20201119T082430Z">
+        <seg>これは、図への参照が翻訳できないことを意味します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -39754,6 +41698,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222827Z" creationid="miurahr" creationdate="20201117T222827Z">
         <seg>このネットワークは、ホートンズとハックの河川次数を構築するためにGRASSのr.stream拡張によって順位付けされました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This new remote repository is the QGIS-Documentation repository from QGIS project:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T080739Z" creationid="miurahr" creationdate="20201119T080739Z">
+        <seg>この新しいリモートリポジトリは、QGISプロジェクト公式のQGIS-Documentationリポジトリです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -39894,6 +41846,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This repository is a copy of the official QGIS-Documentation repository where you have full write access and you can make changes without affecting the official documentation.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075625Z" creationid="miurahr" creationdate="20201119T075625Z">
+        <seg>このリポジトリは公式のQGIS-Documentationリポジトリのコピーです。あなたに完全な書込権限が与えられていて、公式のドキュメントに影響を与えることなく変更を加えることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This represents a module heading.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141607Z" creationid="miurahr" creationdate="20201117T141607Z">
@@ -39998,6 +41958,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This sentence contains two rst statements:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075315Z" creationid="miurahr" creationdate="20201119T075315Z">
+        <seg>このセンテンスには2つのrst構文があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This should be run before committing.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T091833Z" creationid="miurahr" creationdate="20201117T091833Z">
@@ -40086,6 +42054,22 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This way, images will be at original size in html and at a good print resolution in the PDF.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083812Z" creationid="miurahr" creationdate="20201119T083812Z">
+        <seg>これによって、画像はHTMLではオリジナルサイズで、PDFでは印刷に適した解像度となります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This will add all the modifications to your branch as a single commit, resulting in a more legible history of changes and less notifications for the repository followers.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T080517Z" creationid="miurahr" creationdate="20201119T080454Z">
+        <seg>これによってすべての修正がひとつのコミットとしてブランチに追加されます。結果として、変更履歴が読みやすいものとなり、リポジトリのフォロワーに送信される通知の数も減ります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This will add the corresponding menu action to the :menuselection:`Plugins` menu.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T025027Z" creationid="miurahr" creationdate="20201118T025027Z">
@@ -40142,6 +42126,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This will be replaced by the heatmap plugin icon!</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075317Z" creationid="miurahr" creationdate="20201119T075317Z">
+        <seg>ここではヒートマッププラグインのアイコンに置換されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This will be specified in the virtual host configuration and passed on to the server through an environment variable:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T032424Z" creationid="miurahr" creationdate="20201118T032424Z">
@@ -40186,6 +42178,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T224756Z" creationid="miurahr" creationdate="20201118T224756Z">
         <seg>これは、makeと入力すると、テストが実際にコンパイルされることを保証します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This will generate a new `branch &lt;https://help.github.com/articles/about-branches/&gt;`_ (``patch-xxx``) in your repository.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075639Z" creationid="miurahr" creationdate="20201119T075639Z">
+        <seg>これによってあなたのリポジトリに新しい `ブランチ &lt;https://help.github.com/articles/about-branches/&gt;`_ (``patch-xxx``) が作成されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -40294,6 +42294,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This will prevent more than one person from working on the same issue.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075601Z" creationid="miurahr" creationdate="20201119T075601Z">
+        <seg>これにより、複数の人が同じissueに取り組むことを防ぐことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This will result in a smaller file size and faster computations.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T094217Z" creationid="miurahr" creationdate="20201118T094217Z">
@@ -40354,6 +42362,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja">
         <seg>ここでは手順の説明のためにQGISドキュメントを使用しますが、以下で説明するコマンドおよび手順はすべて、QGISウェブサイトにも当てはまります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Though being translated, the `latest version &lt;https://docs.qgis.org/latest&gt;`_ of QGIS documentation is still maintained and existing issues are fixed.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075757Z" creationid="miurahr" creationdate="20201119T075757Z">
+        <seg>`最新バージョン &lt;https://docs.qgis.org/latest&gt;`_ のQGISドキュメントは、翻訳されてはいますが、保守は継続しており、問題が見つかれば修正が行われています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -40582,6 +42598,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>To add a suggestion, click the |githubSuggestions| :sup:`Insert a suggestion` button on top of the comment text box and modify the text within the suggestion block.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075939Z" creationid="miurahr" creationdate="20201119T075939Z">
+        <seg>提案を追加するには、コメントテキストブロックの上にある |githubSuggestions| :sup:`Insert a suggestion` ボタンをクリックして、提案ブロックの中のテキストを修正します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>To add comments about specific lines,</seg>
       </tuv>
       <tuv lang="ja">
@@ -40686,6 +42710,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>To be able to follow the work in the main project, add a new remote repository in your local repository.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T080735Z" creationid="miurahr" creationdate="20201119T080735Z">
+        <seg>メインプロジェクトで行われた作業を追跡できるようにするために、ローカルリポジトリに新しいリモートリポジトリを追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>To be able to use server plugins, FastCGI needs to know where to look.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T032426Z" creationid="miurahr" creationdate="20201118T032426Z">
@@ -40746,6 +42778,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T093959Z" creationid="miurahr" creationdate="20201118T093959Z">
         <seg>バウンディングボックスを計算するために、 *レイヤーの範囲からポリゴン* アルゴリズムを使用できます</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>To call the reference in the **same page**, use</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083419Z" creationid="miurahr" creationdate="20201119T083419Z">
+        <seg>**同じページ** 中の参照を呼び出すために使用するのは</seg>
       </tuv>
     </tu>
     <tu>
@@ -41071,6 +43111,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>To each webpage of the documentation corresponds a ``.rst`` file.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083258Z" creationid="miurahr" creationdate="20201119T083258Z">
+        <seg>ドキュメントのそれぞれのウェブページには、ひとつの ``.rst`` ファイルが対応しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>To ease the use of icons in QGIS manuals, replacements are defined for each icon in :file:`/source/substitutions.txt` file at `QGIS-Documentation repository &lt;https://github.com/qgis/QGIS-Documentation&gt;`_ and some of these substitutions are listed below.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201029T134520Z" creationid="miurahr" creationdate="20201029T134520Z">
@@ -41199,6 +43247,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>To find out the algorithm name you can just hover the mouse on the algorithm in the Processing toolbox.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083844Z" creationid="miurahr" creationdate="20201119T083844Z">
+        <seg>アルゴリズム名を調べるには、「プロセシング」ツールボックスのアルゴリズム上にマウスを置くだけです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>To find out whether a layer is in editing mode, use the :meth:`isEditable() &lt;qgis.core.QgsVectorLayer.isEditable&gt;` method.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T031519Z" creationid="miurahr" creationdate="20201118T031519Z">
@@ -41211,6 +43267,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T035419Z" creationid="miurahr" creationdate="20201118T035419Z">
         <seg>これらの 林分 に関連する情報を収集完了するには、 林分 の面積と周囲を計算することがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>To fix this click on the :guilabel:`compare across forks` link.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075736Z" creationid="miurahr" creationdate="20201119T075736Z">
+        <seg>これを修正するために :guilabel:`compare across forks` と表示されているリンクをクリックします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -41283,6 +43347,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T124104Z" creationid="miurahr" creationdate="20201118T124104Z">
         <seg>結果をテキストとして戻すために、テキストを返す何かを探して関数リストをすばやくスキャンできます：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>To insert an image, use</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083443Z" creationid="miurahr" creationdate="20201119T083443Z">
+        <seg>画像を挿入するには、使用します</seg>
       </tuv>
     </tu>
     <tu>
@@ -41671,6 +43743,22 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>To use a caption (*see My caption*) just insert indented text after a blank line in the figure block.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083458Z" creationid="miurahr" creationdate="20201119T083458Z">
+        <seg>キャプションを使用するには（ *My caption* を参照）、図ブロックに空白行の後ろに字下げテキストを挿入します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>To use an image inside a paragraph, first create an alias in the :file:`source/substitutions.txt` file:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083447Z" creationid="miurahr" creationdate="20201119T083447Z">
+        <seg>段落内で画像を使用するには、 最初に :file:`source/substitutions.txt` ファイル中に別名を作成します：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>To use it, copy it from :file:`doc/qt_creator_license_template` to a local location, adjust the mail address and - if required - the name and configure QtCreator to use it: :menuselection:`Tools --&gt; Options --&gt; C++ --&gt; File Naming`.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T091708Z" creationid="miurahr" creationdate="20201117T091708Z">
@@ -41755,6 +43843,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T015044Z" creationid="miurahr" creationdate="20201118T015044Z">
         <seg>ラインレイヤでの許容誤差（ピクセル）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Toolbar Button Icons</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083049Z" creationid="miurahr" creationdate="20201119T083049Z">
+        <seg>ツールバーボタンアイコン</seg>
       </tuv>
     </tu>
     <tu>
@@ -41911,6 +44007,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Translate a manual</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075310Z" creationid="miurahr" creationdate="20201119T075310Z">
+        <seg>マニュアルを翻訳する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Translate using the linguist menu</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201119T040745Z" creationid="miurahr" creationdate="20201119T040745Z">
@@ -41919,10 +44023,34 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Translated Screenshots</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083817Z" creationid="miurahr" creationdate="20201119T083817Z">
+        <seg>翻訳されたスクリーンショット</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Translated files are stored in the platform until another release is pushed.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201119T040654Z" creationid="miurahr" creationdate="20201119T040654Z">
         <seg>別のリリースがプッシュされ翻訳を再開するまで、翻訳済みファイルはこのプラットフォームの中に保存されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Translated images should be placed in a :file:`img/&lt;your_language&gt;/` folder.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083819Z" creationid="miurahr" creationdate="20201119T083819Z">
+        <seg>翻訳された画像は :file:`img/&lt;your_language&gt;/` フォルダに置きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Translating most of the sentences should be straightforward.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075313Z" creationid="miurahr" creationdate="20201119T075313Z">
+        <seg>センテンスのほとんどはそのまま翻訳するべきです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -42225,6 +44353,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Typically, you have to first rebase your branch over the target branch using ``git rebase targetBranch`` call and fix the conflicts that are reported.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T080936Z" creationid="miurahr" creationdate="20201119T080936Z">
+        <seg>典型的には、最初に ``git rebase targetBranch`` 呼び出しを使ってターゲットブランチの上にあなたのブランチをリベースし、報告された衝突を修正しなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>USQ Main Campus Map created using QGIS</seg>
       </tuv>
       <tuv lang="ja">
@@ -42497,6 +44633,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Updates of core plugins</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083735Z" creationid="miurahr" creationdate="20201119T083735Z">
+        <seg>コアプラグインの更新</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Updating a plugin</seg>
       </tuv>
       <tuv lang="ja">
@@ -42629,6 +44773,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T033856Z" creationid="miurahr" creationdate="20201118T033856Z">
         <seg>1つ以上のベクター解析ツールを使用します。そして私たちの建物の大きさは100平方メートルを超えていることを覚えておいて下さい。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Use period ( ``.`` ) as punctuation for list items that consist of several sentences or a single compound sentence</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083334Z" creationid="miurahr" creationdate="20201119T083334Z">
+        <seg>複数の文または1つの複合文からなるリスト項目の句読点としてピリオド（ ``.`` ）を使用します</seg>
       </tuv>
     </tu>
     <tu>
@@ -42801,6 +44953,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Use the same filename as the english 'original' screenshot.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083820Z" creationid="miurahr" creationdate="20201119T083820Z">
+        <seg>英語のオリジナルのスクリーンショットと同じファイル名を使用してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Use the skills you have learned to add some new friends to your database:</seg>
       </tuv>
       <tuv lang="ja">
@@ -42845,6 +45005,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T145805Z" creationid="miurahr" creationdate="20201117T145805Z">
         <seg>デジタル化を支援するためにこの画像を使用します：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Use this only if you have few comments to add or when replying to another comment.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075818Z" creationid="miurahr" creationdate="20201119T075818Z">
+        <seg>コメント数が少ない場合や他のコメントにコメントする場合にのみ、この方法を使ってください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -44250,6 +46418,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>We show them separately below, but you can switch from one process to the other without any harm.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075634Z" creationid="miurahr" creationdate="20201119T075634Z">
+        <seg>以下ではそれらを別々に示しますが、あるプロセスから別のプロセスに切り替えることに何ら問題はありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>We start with our doxygen documentation.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T220424Z" creationid="miurahr" creationdate="20201118T220424Z">
@@ -44850,6 +47026,22 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>When HTML is created you will see ``figure_heatmap_settings``.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T082443Z" creationid="miurahr" creationdate="20201119T082443Z">
+        <seg>HTMLが作成されると、``figure_heatmap_settings``が表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>When a PDF document is created ``figure_heatmap_settings_`` is replaced with a figure number.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T082503Z" creationid="miurahr" creationdate="20201119T082503Z">
+        <seg>PDF文書が作成されると、``figure_heatmap_settings_``は数値に置き換えられます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>When a feature's geometry consists of only a single vertex, it is referred to as a **point** feature (see illustration figure_geometry_point_).</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140721Z" creationid="miurahr" creationdate="20201117T140721Z">
@@ -44878,6 +47070,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135729Z" creationid="miurahr" creationdate="20201117T135729Z">
         <seg>表現分数が非常に小さな比、例えば1:1000 000、を表す場合、 **小縮尺地図** と呼ばれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>When a title is provided for a reference, Transifex may display a number in the English source text in replacement of the link part.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T082604Z" creationid="miurahr" creationdate="20201119T082604Z">
+        <seg>タイトルが参照用に提供されている場合、Transifexはリンク部分の代わりに英語のソーステキストに番号を表示するでしょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -44950,6 +47150,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141010Z" creationid="miurahr" creationdate="20201117T141010Z">
         <seg>データがキャプチャされるときは、既存の地図から、または測量記録と全地球測位システム(GPS)装置から情報を取ることにより、通常はデジタル化されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>When describing keyboard shortcuts, the following conventions should be used:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083405Z" creationid="miurahr" creationdate="20201119T083405Z">
+        <seg>キーボードショートカットを説明するときは、次の規則を使用してください：</seg>
       </tuv>
     </tu>
     <tu>
@@ -45119,6 +47327,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja">
         <seg>プルリクエストの変更が、ターゲットブランチにプッシュされた最近の変更と競合している場合は、マージが可能になるよう、先にこの競合を解決する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>When the header this reference is referring to is translated, all references to this header will be automatically translated as well.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075406Z" creationid="miurahr" creationdate="20201119T075406Z">
+        <seg>参照されている見出しが翻訳された時は、この見出しを参照しているすべてのref文も自動的に同じように翻訳されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -45319,6 +47535,22 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T094425Z" creationid="miurahr" creationdate="20201118T094425Z">
         <seg>*ポリゴン重心* アルゴリズムをダブルクリックすると、次のダイアログが表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>When you finish, make a short comment about your changes and click on :guilabel:`Propose changes`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075638Z" creationid="miurahr" creationdate="20201119T075638Z">
+        <seg>終了したら、行った変更について短いコメントを書いて、 :guilabel:`Propose changes` をクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>When you finish, navigate to the **Commit Changes** frame at the bottom of the page, make a short comment about your changes, and click on :guilabel:`Commit Changes` to commit the changes directly to your branch.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075728Z" creationid="miurahr" creationdate="20201119T075728Z">
+        <seg>終了したら、ページの一番下にある **Commit Changes** フレームに移動し、行った変更について短いコメントを書き、そして :guilabel:`Commit Changes` をクリックしてあなたのブランチに直接変更をコミットします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -45623,6 +47855,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140355Z" creationid="miurahr" creationdate="20201117T140355Z">
         <seg>ラスターとして表現されたときにどのタイプの地物がうまく機能しましたか？</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Which will point to:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083734Z" creationid="miurahr" creationdate="20201119T083734Z">
+        <seg>これが指しているのは：</seg>
       </tuv>
     </tu>
     <tu>
@@ -46307,6 +48547,22 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Writing Documentation</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083256Z" creationid="miurahr" creationdate="20201119T083256Z">
+        <seg>ドキュメントを書く</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Writing Guidelines</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083253Z" creationid="miurahr" creationdate="20201119T083253Z">
+        <seg>執筆のためのガイドライン</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Writing a Processing plugin</seg>
       </tuv>
       <tuv lang="ja">
@@ -46555,6 +48811,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You can also use ImageMagick convert command to do a batch of images:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083813Z" creationid="miurahr" creationdate="20201119T083813Z">
+        <seg>ImageMagickのconvertコマンドを使えば、この処理を次のようにバッチ処理で行うこともできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You can also use different symbols and icons in your legend to show different themes.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135709Z" creationid="miurahr" creationdate="20201117T135709Z">
@@ -46731,6 +48995,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You can delete the branch after your changes have been merged.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T080641Z" creationid="miurahr" creationdate="20201119T080641Z">
+        <seg>変更がマージされた後でブランチを削除できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You can describe precisely where you are at any place on the earth by giving someone your Longitude (X) and Latitude (Y).</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140807Z" creationid="miurahr" creationdate="20201117T140807Z">
@@ -46775,6 +49047,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201119T034923Z" creationid="miurahr" creationdate="20201119T034923Z">
         <seg>このリストは独自のアルゴリズムで拡張できます。そして新しい機能と同様、テストを追加することが必要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can find some prepared QGIS-projects that are used to create screenshots in the :file:`./qgis-projects` folder of this repository.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083748Z" creationid="miurahr" creationdate="20201119T083748Z">
+        <seg>スクリーンショットを作成するために使うことのできるQGISプロジェクトが、このリポジトリの :file:`./qgis-projects` フォルダに用意されています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -46935,6 +49215,22 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T094511Z" creationid="miurahr" creationdate="20201118T094511Z">
         <seg>設定ダイアログを開き、 *プロバイダー/SAGA* グループに行くことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can put an image inside text or add an alias to use everywhere.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083446Z" creationid="miurahr" creationdate="20201119T083446Z">
+        <seg>テキスト内には画像を置くか、どこでも使用される別名を追加できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can reference to it like this my_drawn_table_.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083531Z" creationid="miurahr" creationdate="20201119T083531Z">
+        <seg>my_drawn_table_ のように参照できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -47147,6 +49443,30 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You can start to work here but in the long term process you will get a lot of issues when you will push your contribution (called Pull Request in github process) as the master branch of the qgis/QGIS-Documentation repository will diverge from your local/remote repository.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T080729Z" creationid="miurahr" creationdate="20201119T080729Z">
+        <seg>これで始めることができますが、長い間のうちには、あなたの貢献をプッシュした際（GitHubのプロセスではプルリクエストと呼びます）に、たくさんの問題が生じると思います。これは公式のqgis/QGIS-Documentationリポジトリのmasterブランチが、あなたのローカル／リモートリポジトリからだんだんと差異を増してずれていくことによるものです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can start to work on your contribution.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T080847Z" creationid="miurahr" creationdate="20201119T080847Z">
+        <seg>貢献の作業を始めることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can still create the pull request but you'll need to fix any :ref:`conflicts &lt;fix_conflicts&gt;` to complete the merge.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075756Z" creationid="miurahr" creationdate="20201119T075756Z">
+        <seg>それでもプルリクエストは作成できますが、マージを完了するには :ref:`競合 &lt;fix_conflicts&gt;` を修正する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You can still enter a full path in case you want a result to be saved in a different folder.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T101250Z" creationid="miurahr" creationdate="20201118T101250Z">
@@ -47227,6 +49547,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You can use tags to emphasize items.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083335Z" creationid="miurahr" creationdate="20201119T083335Z">
+        <seg>提供 ``twi.qml`` スタイルを使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You can use the :menuselection:`Atlas --&gt; Export Atlas as Images...` or :menuselection:`Atlas --&gt; Export Atlas as PDF...`.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T215812Z" creationid="miurahr" creationdate="20201117T215812Z">
@@ -47263,6 +49591,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T220111Z" creationid="miurahr" creationdate="20201117T220111Z">
         <seg>ガイドとして上記の画像を使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can use the inline ``:index:`` tag within normal text:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083555Z" creationid="miurahr" creationdate="20201119T083555Z">
+        <seg>行内タグ ``:index:`` は通常のテキスト中で次のように使います。</seg>
       </tuv>
     </tu>
     <tu>
@@ -47475,6 +49811,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You have come to the right place!</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075548Z" creationid="miurahr" creationdate="20201119T075548Z">
+        <seg>ここで提供しようとしているのは、まさしくそれです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You have created a similar composition already in :doc:`../map_composer/index`.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T215631Z" creationid="miurahr" creationdate="20201117T215631Z">
@@ -47683,6 +50027,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You may have to click on :guilabel:`Display the source diff` to see the changes.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075813Z" creationid="miurahr" creationdate="20201119T075813Z">
+        <seg>変更を確認するために :guilabel:`Display the source diff` をクリックしないといけないかもしれません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You may include a translation of this License, and all the license notices in the Document, and any Warranty Disclaimers, provided that you also include the original English version of this License and the original versions of those notices and disclaimers.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T133632Z" creationid="miurahr" creationdate="20201117T133632Z">
@@ -47795,6 +50147,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You need to `install git &lt;https://git-scm.com/downloads&gt;`_ on your hard drive in order to get access to more advanced and powerful tools and have a local copy of the repository.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T080647Z" creationid="miurahr" creationdate="20201119T080647Z">
+        <seg>より高度で強力なツールへアクセスし、リポジトリのコピーをローカル環境に持つためには、ハードドライブ上に `gitをインストール &lt;https://git-scm.com/downloads&gt;`_ する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You need to activate the use of the grid:</seg>
       </tuv>
       <tuv lang="ja">
@@ -47895,6 +50255,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T221835Z" creationid="miurahr" creationdate="20201118T221835Z">
         <seg>今度はこれを使用します::</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You should adapt both the path and the repository URL, replacing ``&lt;YourName&gt;`` with your user name.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T080653Z" creationid="miurahr" creationdate="20201119T080653Z">
+        <seg>``&lt;YourName&gt;`` を自分のユーザー名で置き換え、ローカルパスとリポジトリURLの両方を実際に合わせて変更しなければなりません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -48028,6 +50396,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You should never use it to contribute!</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T080655Z" creationid="miurahr" creationdate="20201119T080655Z">
+        <seg>貢献する際にはこのブランチを使用してはいけません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You should now have a layer showing certain buildings as your solution, for example:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T033808Z" creationid="miurahr" creationdate="20201118T033808Z">
@@ -48048,6 +50424,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja">
         <seg>成功した場合 :kbd:`0 1 を挿入` と表示されるはずです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You should see four drop-down menus.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075738Z" creationid="miurahr" creationdate="20201119T075738Z">
+        <seg>4つのドロップダウンメニューが表示されていることと思います。</seg>
       </tuv>
     </tu>
     <tu>
@@ -48104,6 +50488,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T035046Z" creationid="miurahr" creationdate="20201118T035046Z">
         <seg>保存された地上基準点を使用する必要があります、 :menuselection:`ファイル --&gt; GCP 点をロード` 。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You then need to keep track of the main remote repository and work with branches.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T080733Z" creationid="miurahr" creationdate="20201119T080733Z">
+        <seg>このため、常にメインリモートリポジトリの状態を追跡したうえで、ブランチにおける作業を行う必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -48348,6 +50740,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You will see a counter increasing as you go.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075942Z" creationid="miurahr" creationdate="20201119T075942Z">
+        <seg>押すごとにカウンターが増えるのが分かると思います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You will see that we have added an :kbd:`ORDER BY` clause so that our view rows are nicely sorted:</seg>
       </tuv>
       <tuv lang="ja">
@@ -48392,6 +50792,22 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T035142Z" creationid="miurahr" creationdate="20201118T035142Z">
         <seg>:guilabel:`ポリゴンタイプ` のベクターファイルの作成から始めますが、この演習のためには、関心領域の一部がすでにデジタル化されているシェープファイルがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You'll also find rules to care about even if you opt for the web interface.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T080650Z" creationid="miurahr" creationdate="20201119T080650Z">
+        <seg>そこではウェブインターフェイスを使用する場合であっても気をつけるべきルールを学ぶことができるでしょう。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You'll have to fix any reported errors or warnings before your changes are committed to the ``qgis/QGIS-Documentation`` repository.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T080632Z" creationid="miurahr" creationdate="20201119T080632Z">
+        <seg>変更が ``qgis/QGIS-Documentation`` リポジトリにコミットされる前に、報告されたエラーや警告を修正する必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -48456,6 +50872,22 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T020343Z" creationid="miurahr" creationdate="20201118T020343Z">
         <seg>あなたのバッファダイアログはこのように見えるはずです:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Your comments are not automatically sent after validation, allowing you to edit or cancel them afterwards, to add a summary of the main points of the review or global instructions regarding the pull request and whether you approve it or not.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075857Z" creationid="miurahr" creationdate="20201119T075836Z">
+        <seg>コメントは検証後に自動的に送信されないため、後で編集やキャンセルしたり、レビューの主要な点を要約したりそのプルリクエストについての全体的な指示を追加したり、そのプルリクエストを承認するかどうかを述べたりすることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Your description can be longer, end with a ``.`` and you can give much more details.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T080924Z" creationid="miurahr" creationdate="20201119T080924Z">
+        <seg>コミットの説明文は長くなってもよいので、より多く詳細について語ることができます。最後は ``.`` で終了してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -48808,6 +51240,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja">
         <seg>``value == 0`` の代わりに ``0 == value``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>``:sup:`Heatmap```,  the ``:sup:`` statement is a superposition statement and prints the following text a bit higher.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075328Z" creationid="miurahr" creationdate="20201119T075328Z">
+        <seg>``:sup:`Heatmap``` のような ``:sup:`` 文は上付き文です。続くテキストを少し高く出力します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -49260,6 +51700,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>``|heatmap|`` words between ``|`` are replacements and these should never be translated!</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075316Z" creationid="miurahr" creationdate="20201119T075316Z">
+        <seg>``|heatmap|`` のように ``|`` の間にある言葉は置換されるので決して翻訳してはいけません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>`create an account on Transifex and join the QGIS project &lt;https://qgis.org/en/site/getinvolved/translate.html#join-a-project&gt;`_.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201119T040724Z" creationid="miurahr" creationdate="20201119T040724Z">
@@ -49404,6 +51852,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>and of course not to forget |nix|</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083526Z" creationid="miurahr" creationdate="20201119T083526Z">
+        <seg>そしてもちろん |nix| を忘れないように</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>and set the transparency to 50%.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T035148Z" creationid="miurahr" creationdate="20201118T035148Z">
@@ -49432,6 +51888,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja">
         <seg>家の床面積</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>as single comments, using the :guilabel:`Add single comment` button.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075816Z" creationid="miurahr" creationdate="20201119T075816Z">
+        <seg>:guilabel:`Add single comment` ボタンを使って、単独のコメントとして公開する。</seg>
       </tuv>
     </tu>
     <tu>
@@ -49476,6 +51940,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>check the documentation repository whether the icon is available in :file:`/static/common` folder.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T082959Z" creationid="miurahr" creationdate="20201119T082959Z">
+        <seg>目的のアイコン画像があるかどうか、ドキュメンテーションリポジトリの :file:`/static/common` フォルダ内を確認してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>checkout master, git merge pr/1234</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T215702Z" creationid="miurahr" creationdate="20201118T215702Z">
@@ -49504,6 +51976,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T024753Z" creationid="miurahr" creationdate="20201118T024753Z">
         <seg>コンマで区切ったリスト。個々のタグの内部ではスペース可</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>create the reference to the substitution in the :file:`/source/substitutions.txt` file following the example below.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083003Z" creationid="miurahr" creationdate="20201119T083003Z">
+        <seg>以下の例に従って、置換への参照を :file:`/source/substitutions.txt` ファイルに作成します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -49628,6 +52108,30 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>how to manage the documentation source files using `git &lt;https://git-scm.com/&gt;`_ system and the `GitHub &lt;https://github.com/&gt;`_ platform on which they are stored</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T081018Z" creationid="miurahr" creationdate="20201119T081018Z">
+        <seg>`GitHub &lt;https://github.com/&gt;`_ プラットフォームに格納されたドキュメントのソースファイルを、`git &lt;https://git-scm.com/&gt;`_ システムと `GitHub &lt;https://github.com/&gt;`_ を使って管理する方法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>how to modify the texts, provide screenshots... in a compliant way</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T081024Z" creationid="miurahr" creationdate="20201119T081024Z">
+        <seg>ルールに準拠した方法でテキストを変更し、スクリーンショットを提供する方法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>how to share and ensure your modifications are pushed to the official docs.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T081025Z" creationid="miurahr" creationdate="20201119T081025Z">
+        <seg>あなたの行った変更を確実に公式ドキュメントに取り込み共有する方法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>http://fundy-biosphere.ca/en/about-us/the-reserve</seg>
       </tuv>
       <tuv lang="ja">
@@ -49660,6 +52164,22 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>if the conflict involves files renaming or removal, then you'd need to resolve the conflict using git command lines.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T080935Z" creationid="miurahr" creationdate="20201119T080935Z">
+        <seg>競合がファイルの名前変更または削除を伴う場合は、gitコマンドラインを使用して競合を解決する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>if the conflict relates to few competing lines, a :guilabel:`Resolve conflicts` button is available in the Github pull request page.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T080933Z" creationid="miurahr" creationdate="20201119T080933Z">
+        <seg>競合が競合する数行に関連している場合は、Githubのプルリクエストのページに :guilabel:`Resolve conflicts` ボタンがあります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>include a code repository, a bug tracker, and a home page; this will greatly enhance the possibility of collaboration, and can be done very easily with one of the available web infrastructures (GitHub, GitLab, Bitbucket, etc.)</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T031128Z" creationid="miurahr" creationdate="20201118T031128Z">
@@ -49672,6 +52192,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T031139Z" creationid="miurahr" creationdate="20201118T031139Z">
         <seg>最低限の文書を、そしてテストと理解に役立つ場合はサンプルデータを含めてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>index::`` block-level markup which links to the beginning of the next paragraph.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083642Z" creationid="miurahr" creationdate="20201119T083609Z">
+        <seg>これは次の段落の始まりにリンクします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -49852,6 +52380,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>or as part of a review, pressing the :guilabel:`Start a review` button.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T075838Z" creationid="miurahr" creationdate="20201119T075838Z">
+        <seg>:guilabel:`Start a review` ボタンを押して、レビューの一部として公開する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>or this:</seg>
       </tuv>
       <tuv lang="ja">
@@ -49924,6 +52460,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>run the :file:`scripts/find_set_subst.py` script to update the substitution definitions in the rst files and include the new substitution(s).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083004Z" creationid="miurahr" creationdate="20201119T083004Z">
+        <seg>:file:`scripts/find_set_subst.py` スクリプトを実行してrstファイル中の置換定義を更新し、新しい置換が含まれるようにしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>same, with :menuselection:`SAGA --&gt; Shapes to Grid --&gt; COUNT` (resulting map: 6 to 60)</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T100454Z" creationid="miurahr" creationdate="20201118T100454Z">
@@ -49936,6 +52480,38 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T020908Z" creationid="miurahr" creationdate="20201118T020908Z">
         <seg>ファイルを ``my_rules.txt`` ファイルとして保存してテキストエディタを閉じます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>see :ref:`Label and reference &lt;my_anchor&gt;` for more information.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083430Z" creationid="miurahr" creationdate="20201119T083430Z">
+        <seg>詳細については :ref:`ラベルや参照&lt;my_anchor&gt;` を参照。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>see :ref:`figure_logo`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083504Z" creationid="miurahr" creationdate="20201119T083504Z">
+        <seg>:ref:`figure_logo` 参照</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>see :ref:`my_anchor` for more information.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083425Z" creationid="miurahr" creationdate="20201119T083425Z">
+        <seg>詳細については :ref:`my_anchor` を参照。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>see my_anchor_ for more information.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083421Z" creationid="miurahr" creationdate="20201119T083421Z">
+        <seg>詳細については my_anchor_ を参照してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -50084,6 +52660,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>try to explain carefully what you change in the title of your commit and in the description.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T080904Z" creationid="miurahr" creationdate="20201119T080904Z">
+        <seg>コミットのタイトルおよび説明文の中で、変更の内容を丁寧に説明するようにしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>type of dwelling (RDP House, block of flats, shack, brick house, etc)</seg>
       </tuv>
       <tuv lang="ja">
@@ -50100,10 +52684,50 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>use a ``#`` with a number to refer to an issue.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T080926Z" creationid="miurahr" creationdate="20201119T080926Z">
+        <seg>Issueを参照するには、 ``#`` を頭につけたIssue番号を使用してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>when appropriate (plugins performing analyses), consider adding the plugin as a subplugin of Processing framework: this will allow users to run it in batch, to integrate it in more complex workflows, and will free you from the burden of designing an interface</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T031138Z" creationid="miurahr" creationdate="20201118T031138Z">
         <seg>適切な場合（解析を実行するプラグイン）、処理フレームワークのサブプラグインとしてプラグインを追加することを検討してください：これによってユーザーはバッチでそれを実行し、より複雑なワークフローにそれを統合できるようになり、インターフェイスを設計する負担がなくなります</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>which returns</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083444Z" creationid="miurahr" creationdate="20201119T083444Z">
+        <seg>これを返します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>which returns:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083438Z" creationid="miurahr" creationdate="20201119T083428Z">
+        <seg>これを返します:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>which will return:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083420Z" creationid="miurahr" creationdate="20201119T083420Z">
+        <seg>これが返すのは：</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>will show :kbd:`Ctrl+B`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T083403Z" creationid="miurahr" creationdate="20201119T083403Z">
+        <seg>:kbd:`Ctrl+B`</seg>
       </tuv>
     </tu>
     <tu>
