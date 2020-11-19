@@ -3670,6 +3670,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>A prebuild script creates translation files named :file:`.po` files for the English language in the folder :file:`/QGIS-Documentation/locale/en`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040539Z" creationid="miurahr" creationdate="20201119T040539Z">
+        <seg>プレビルドスクリプトによって、 :file:`.po` ファイルと呼ばれる翻訳用のファイルが、まず英語のために :file:`/QGIS-Documentation/locale/en` フォルダの中に作成されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>A previously downloaded USGS ETM7+ grid was classified with the i.cluser and r.maxlik in GRASS into a NLCD grid.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222833Z" creationid="miurahr" creationdate="20201117T222833Z">
@@ -5407,6 +5415,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Although these guidelines focus on QGIS documentation, the methods and the rules described below are also applicable to QGIS applications and website translation.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040532Z" creationid="miurahr" creationdate="20201119T040532Z">
+        <seg>このガイドラインではQGISドキュメントに焦点を当てますが、下記の方法やルールはQGISアプリケーションやQGISウェブサイトの翻訳にも適用可能です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Although this is a very simple example and unnecessary with our small data-sets, it illustrates how useful and important sub-selections can be when querying large and complex data-sets.</seg>
       </tuv>
       <tuv lang="ja">
@@ -6639,6 +6655,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>At the end of the day, a script pulls back all validated translations</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040549Z" creationid="miurahr" creationdate="20201119T040549Z">
+        <seg>1日の終わりに、すべての検証済みの翻訳がスクリプトによって取得され、元の :file:`.po` ファイルに反映されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>At the end of the script, we have the main hook code.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T094630Z" creationid="miurahr" creationdate="20201118T094630Z">
@@ -6667,6 +6691,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T020452Z" creationid="miurahr" creationdate="20201118T020452Z">
         <seg>現時点ではあなたの分析は次のように見えるはずです:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>At the next build of the documentation (which occurs at least once a day), a script reuses the sentences to create translated output</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040603Z" creationid="miurahr" creationdate="20201119T040603Z">
+        <seg>これらの翻訳は、ドキュメントの次のビルド（少なくとも1日に1回は行われます）の際に、翻訳版ドキュメントを作成するために、スクリプトによって再度利用されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -12504,6 +12536,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Finally a summary of :ref:`Rules of translation &lt;translation_summary&gt;` is given.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040529Z" creationid="miurahr" creationdate="20201119T040529Z">
+        <seg>最後に :ref:`翻訳ルールのまとめ &lt;translation_summary&gt;` を見てもらいます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Finally select :guilabel:`Keep all records...`, so you can check later what stands did not get information.</seg>
       </tuv>
       <tuv lang="ja">
@@ -12676,6 +12716,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T020314Z" creationid="miurahr" creationdate="20201118T020314Z">
         <seg>最初に |largeLandUseArea| を選択します:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>First the general process of how technically a translation is done is explained.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040525Z" creationid="miurahr" creationdate="20201119T040525Z">
+        <seg>最初に、翻訳の全体のプロセスが技術的にどのように進行するかを説明します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18454,6 +18502,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In order to provide translations:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040537Z" creationid="miurahr" creationdate="20201119T040537Z">
+        <seg>翻訳は次のプロセスを経て提供されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In order to see what other layers are available you could open up the :file:`world.qgs` project in QGIS and look at its contents.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T102552Z" creationid="miurahr" creationdate="20201118T102552Z">
@@ -21756,6 +21812,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T101357Z" creationid="miurahr" creationdate="20201118T101357Z">
         <seg>後ほど、利用可能なアルゴリズムのリストを拡張するために使用される外部アプリケーションを構成する方法を示しますが、今はこのフレームワークだけで作業しようとしています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Later the translation is explained from an actual English rst document that is translated to Dutch.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040527Z" creationid="miurahr" creationdate="20201119T040527Z">
+        <seg>次に実際の翻訳がどのように行われるかを、英語のrstドキュメントからオランダ語への翻訳に例をとって説明します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27555,16 +27619,16 @@
       <tuv lang="en-US">
         <seg>Prefer Having Constants First in Predicates</seg>
       </tuv>
-      <tuv lang="ja">
-        <seg>述語中で定数は最初にしましょう</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040050Z">
+        <seg>条件式で定数は最初にしましょう</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Prefer to put constants first in predicates.</seg>
       </tuv>
-      <tuv lang="ja">
-        <seg>述語中では最初に定数を置くことを好みます。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040054Z">
+        <seg>条件式では最初に定数を置くことを好みます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27896,6 +27960,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T102522Z" creationid="miurahr" creationdate="20201118T102522Z">
         <seg>QGISサーバーの国レイヤーWMSサービスを消費するQGISデスクトップ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>QGIS Documentation is written in English with :file:`.rst` files.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040536Z" creationid="miurahr" creationdate="20201119T040536Z">
+        <seg>QGISのドキュメントは :file:`.rst` ファイルを使い英語で書かれています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -33581,6 +33653,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The `Transifex web platform &lt;https://www.transifex.com/&gt;`_, the easiest and recommended way to translate QGIS, transparently does the process described above and pulls all the translatable texts in one place for the translator.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040638Z" creationid="miurahr" creationdate="20201119T040638Z">
+        <seg>`Transifexのウェブプラットフォーム &lt;https://www.transifex.com/&gt;`_, は、QGISを翻訳するのに一番簡単でお勧めの方法です。上で説明したプロセスは透過的に行われ、またすべての翻訳可能なテキストは1箇所に集められています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The ``..</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T222017Z" creationid="miurahr" creationdate="20201118T222017Z">
@@ -33761,6 +33841,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T054342Z" creationid="miurahr" creationdate="20201118T054342Z">
         <seg>サーバーからレイヤーを読み込む前にフィルタとしてクエリを作成することもできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The amount of work for updating translations for next release should be relatively small.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040613Z" creationid="miurahr" creationdate="20201119T040613Z">
+        <seg>このため、次のリリースのための翻訳の更新作業は、比較的少く済むはずです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -34125,6 +34213,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The contents of this new file will be merged with already existing :file:`.po` files for each language.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040606Z" creationid="miurahr" creationdate="20201119T040606Z">
+        <seg>この新しいファイルの内容は、各言語の既存の :file:`.po` ファイルへとマージされます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The core area of the reserve which constitutes the “Nameri National Park” is bound by River Jia-Bhoreli on the west and River Bor-Dikorai in the east.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T225428Z" creationid="miurahr" creationdate="20201117T225428Z">
@@ -34361,6 +34457,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T095514Z" creationid="miurahr" creationdate="20201118T095514Z">
         <seg>ダイアログは、アルゴリズムによって使用される現在の値で満たされています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The difference with the applications is that instead of :file:`.po` files, all the translatable strings in the :file:`.py`, :file:`.cpp`, :file:`.yaml` and others... files that shape the application are pushed to and pulled from transifex as a single :file:`.ts` file.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040624Z" creationid="miurahr" creationdate="20201119T040624Z">
+        <seg>ただしアプリケーションの翻訳では、:file:`.po` ファイルではなく、:file:`.py` ファイルや :file:`.cpp` ファイル、 :file:`.yaml` ファイルなどのアプリケーションを形作るファイルの中のすべての翻訳可能な文字列が、単一の :file:`.ts` ファイルとしてtransifexとの間でやりとりされるという違いがあります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -35966,6 +36070,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The process above is the same followed to translate QGIS website, QGIS Desktop and QGIS Server.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040614Z" creationid="miurahr" creationdate="20201119T040614Z">
+        <seg>上記のプロセスは、QGISウェブサイト、QGISデスクトップアプリケーション、QGISサーバのいずれの翻訳でも、同じように行われます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The process for **capturing a polygon** is almost the same as capturing a polyline except that you need to use the polygon capture tool in the toolbar.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123740Z" creationid="miurahr" creationdate="20201117T123740Z">
@@ -36498,6 +36610,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T101349Z" creationid="miurahr" creationdate="20201118T101349Z">
         <seg>私達はちょうど行った選択は、選択アルゴリズムの残りの部分によって作成されるものほとんどと同じように、QGISから手動で行うこともできますので、そのためのアルゴリズムを使用することについてのポイントが何なのか疑問に思うかもしれません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The sentences in the :file:`.po` files are pushed to the Transifex web platform, and made available for translators who can begin to translate from English to their language with the editor.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040548Z" creationid="miurahr" creationdate="20201119T040548Z">
+        <seg>:file:`.po` ファイルの中の文章がTransifexのウェブプラットフォームにプッシュされ、英語から各言語へと、翻訳者がエディタを使って翻訳できるようになります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -37670,6 +37790,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>These "originals" are then copied by the script to the :file:`locale` folders for other languages.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040543Z" creationid="miurahr" creationdate="20201119T040543Z">
+        <seg>次にスクリプトによって、この「オリジナル」が、その他の言語のために :file:`locale` フォルダにコピーされます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>These Warranty Disclaimers are considered to be included by reference in this License, but only as regards disclaiming warranties: any other implication that these Warranty Disclaimers may have is void and has no effect on the meaning of this License.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T124609Z" creationid="miurahr" creationdate="20201117T124609Z">
@@ -38026,6 +38154,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T020927Z" creationid="miurahr" creationdate="20201118T020927Z">
         <seg>以前このレッスンで理論的 `address` テーブルを考えると、住所は多くの異なる特性で構成されていることがわかります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This  manual is aiming to help the translator.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040523Z" creationid="miurahr" creationdate="20201119T040523Z">
+        <seg>このマニュアルは翻訳者の助けとなるよう書かれました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -39238,6 +39374,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This means that when a new line is added to an :file:`.rst` document that was already translated, only the new/updated sentences are added in the translated :file:`.po` file and needs to be translated.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040608Z" creationid="miurahr" creationdate="20201119T040608Z">
+        <seg>言い換えると、翻訳済みの :file:`.rst` ドキュメントに新たな文章が追加されても、翻訳済みの :file:`.po` には新しい（あるいは修正された）文章だけが追加され、その部分だけを翻訳し直せばよいということです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This means that when you want to carry out accurate analytical operations, you need to use a map projection that provides the best characteristics for your analyses.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201119T033010Z" creationid="miurahr" creationdate="20201119T033010Z">
@@ -39832,8 +39976,8 @@ Generated-By: Babel 2.8.0</seg>
       <tuv lang="en-US">
         <seg>This will help prevent programmers from accidentally using ``=`` when they meant to use ``==``, which can introduce very subtle logic bugs.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201118T223745Z" creationid="miurahr" creationdate="20201118T223745Z">
-        <seg>これにより、プログラマが ``==`` を使用するつもりで誤って ``=`` を使用することを防げます、それは非常に微妙な論理的バグになる。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040127Z" creationid="miurahr" creationdate="20201118T223745Z">
+        <seg>これにより、プログラマが ``==`` を使用するつもりで誤って ``=`` を使用することを防げます、それは非常に微妙なロジックバグになります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -41495,10 +41639,26 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Translation Guidelines</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040522Z" creationid="miurahr" creationdate="20201119T040522Z">
+        <seg>翻訳ガイドライン</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Translation is considered a kind of modification, so you may distribute translations of the Document under the terms of section 4.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T133653Z" creationid="miurahr" creationdate="20201117T133528Z">
         <seg>翻訳は一種の修正とみなされているため、セクション4の条項に基づいてドキュメントの翻訳を配布できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Translation process</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040533Z" creationid="miurahr" creationdate="20201119T040533Z">
+        <seg>翻訳のプロセス</seg>
       </tuv>
     </tu>
     <tu>
@@ -41668,6 +41828,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201119T033226Z" creationid="miurahr" creationdate="20201119T033226Z">
         <seg>二次元と三次元の基準座標系。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Two different tools are currently used to do translations in QGIS:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040626Z" creationid="miurahr" creationdate="20201119T040626Z">
+        <seg>現在、ふたつの異なるツールが、QGISでの翻訳を行うために使用されています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -44438,6 +44606,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150246Z" creationid="miurahr" creationdate="20201117T150246Z">
         <seg>データベース内のデータを追加、変更、または削除するときは、何か問題が生じた場合にデータベースを良好な状態に保つことが常に重要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>When afterwards an :file:`.rst` document is updated a new :file:`.po` file is created in the English part.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T040604Z" creationid="miurahr" creationdate="20201119T040604Z">
+        <seg>原文の :file:`.rst` ドキュメントが更新されると、新しく英語の :file:`.po` ファイルが作られます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -49238,8 +49414,8 @@ Generated-By: Babel 2.8.0</seg>
       <tuv lang="en-US">
         <seg>make it more difficult for multiple copies to evolve differences over time, thus making it harder to understand and maintain for others</seg>
       </tuv>
-      <tuv lang="ja">
-        <seg>複数のコピーが時間につれて違いを進化させること、したがって他人が理解して維持管理するのを難しくすること、がより起こりにくくします</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T035948Z">
+        <seg>複数のコピーが時間につれて違いを拡大させることで、他人が理解しにくくなり、維持管理が困難になります。</seg>
       </tuv>
     </tu>
     <tu>
