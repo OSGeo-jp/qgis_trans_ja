@@ -6913,8 +6913,8 @@
       <tuv lang="en-US">
         <seg>Before you create a pull request do ``git fetch origin`` and ``git rebase origin/master`` (given origin is the remote for upstream   and not your own remote, check your ``.git/config`` or do ``git remote -v | grep github.com/qgis``).</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201118T215540Z" creationid="miurahr" creationdate="20201118T215540Z">
-        <seg>プル要求を作成する前に ``git fetch origin`` および ``git rebase origin/master`` を実行してください（原点が独自のリモート上流および自身のリモートでないため与えられ、 ``.git/config`` をチェックするか ``git remote -v | grep github.com/qgis`` してください）。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T000218Z" creationid="miurahr" creationdate="20201118T215540Z">
+        <seg>プルリクエストを作成する前に ``git fetch origin`` および ``git rebase origin/master`` を実行してください（原点が独自のリモート上流および自身のリモートでないため与えられ、 ``.git/config`` をチェックするか ``git remote -v | grep github.com/qgis`` してください）。</seg>
       </tuv>
     </tu>
     <tu>
@@ -7017,8 +7017,8 @@
       <tuv lang="en-US">
         <seg>Best practice for creating a pull request</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201118T215536Z" creationid="miurahr" creationdate="20201118T215536Z">
-        <seg>プル要求を作成するためのベストプラクティス</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T000203Z" creationid="miurahr" creationdate="20201118T215536Z">
+        <seg>プルリクエストを作成するためのベストプラクティス</seg>
       </tuv>
     </tu>
     <tu>
@@ -11062,6 +11062,7 @@
       </tuv>
     </tu>
     <tu>
+      <note>誤訳を修正	</note>
       <tuv lang="en-US">
         <seg>Due Diligence</seg>
       </tuv>
@@ -13249,8 +13250,8 @@
       <tuv lang="en-US">
         <seg>For merging a pull request</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201118T215654Z" creationid="miurahr" creationdate="20201118T215654Z">
-        <seg>プル要求をマージするには</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T000145Z" creationid="miurahr" creationdate="20201118T215654Z">
+        <seg>プルリクエストをマージするには</seg>
       </tuv>
     </tu>
     <tu>
@@ -15822,6 +15823,7 @@
       </tuv>
     </tu>
     <tu>
+      <note>表現が直訳調であるため、日本語表現を洗練させた</note>
       <tuv lang="en-US">
         <seg>If the patch is a fix for a specific bug, please name the file with the bug number in it e.g. bug777fix.patch, and attach it to the `original bug report in GitHub &lt;https://github.com/qgis/QGIS/issues&gt;`_.</seg>
       </tuv>
@@ -16006,6 +16008,7 @@
       </tuv>
     </tu>
     <tu>
+      <note>表現が直訳調であるため、日本語表現を洗練させた</note>
       <tuv lang="en-US">
         <seg>If you are a developer and wish to evaluate the pull request queue, there is a very nice `tool that lets you do this from the command line &lt;https://changelog.com/posts/git-pulls-command-line-tool-for-github-pull-requests&gt;`_</seg>
       </tuv>
@@ -16286,6 +16289,7 @@
       </tuv>
     </tu>
     <tu>
+      <note>誤訳を修正</note>
       <tuv lang="en-US">
         <seg>If you don't get any response, you can escalate your query to one of the Project Steering Committee members (contact details also available in the Technical Resources).</seg>
       </tuv>
@@ -17774,6 +17778,7 @@
       </tuv>
     </tu>
     <tu>
+      <note>表現が直訳調であるため、日本語表現を洗練させた</note>
       <tuv lang="en-US">
         <seg>In general it is easier for developers if you submit GitHub pull requests.</seg>
       </tuv>
@@ -17790,6 +17795,7 @@
       </tuv>
     </tu>
     <tu>
+      <note>表現が直訳調であるため、日本語表現を洗練させた</note>
       <tuv lang="en-US">
         <seg>In general when you submit a PR you should take the responsibility to follow it through to completion - respond to queries posted by other developers, seek out a 'champion' for your feature and give them a gentle reminder occasionally if you see that your PR is not being acted on.</seg>
       </tuv>
@@ -18150,6 +18156,7 @@
       </tuv>
     </tu>
     <tu>
+      <note>表現が直訳調かつ誤訳があるため、日本語表現を洗練させた</note>
       <tuv lang="en-US">
         <seg>In some cases we will grant write access to non C++ developers e.g. for translators and documentors.</seg>
       </tuv>
@@ -18966,6 +18973,7 @@
       </tuv>
     </tu>
     <tu>
+      <note>表現が直訳調かつ誤訳があるため、日本語表現を洗練させた</note>
       <tuv lang="en-US">
         <seg>In these cases, the person should still have demonstrated ability to submit patches and should ideally have submitted several substantial patches that demonstrate their understanding of modifying the code base without breaking things, etc.</seg>
       </tuv>
@@ -26494,6 +26502,7 @@
       </tuv>
     </tu>
     <tu>
+      <note>表現が直訳調であるため、日本語表現を洗練させた</note>
       <tuv lang="en-US">
         <seg>Please bear in mind that the QGIS project is driven by volunteer effort and people may not be able to attend to your PR instantaneously.</seg>
       </tuv>
@@ -30144,11 +30153,12 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
     </tu>
     <tu>
+      <note>表現が直訳調かつ誤訳があるため、日本語表現を洗練させた</note>
       <tuv lang="en-US">
         <seg>Since moving to GIT, we are less likely to grant write access to new developers since it is trivial to share code within github by forking QGIS and then issuing pull requests.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201118T215736Z" creationid="miurahr" creationdate="20201118T215736Z">
-        <seg>GITに移動するので、QGISをforkしてプル要求を発行することによってgithubの内のコードを共有することは簡単なので、新しい開発者に書き込みアクセスを許可する可能性は低いです。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T235717Z" creationid="miurahr" creationdate="20201118T215736Z">
+        <seg>GITによる管理に移行したため、githubの内のコードを共有することは簡単になり、QGISをforkしてプル要求を発行することによってなので、新しい開発者に書き込みアクセスを許可する可能性は低いです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -34560,6 +34570,7 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
     </tu>
     <tu>
+      <note>表現が直訳調かつ誤訳があるため、日本語表現を洗練させた</note>
       <tuv lang="en-US">
         <seg>The nominator should give a basic promotional paragraph of why they think that person should gain write access.</seg>
       </tuv>
@@ -40240,6 +40251,7 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
     </tu>
     <tu>
+      <note>表現が直訳調かつ誤訳があるため、日本語表現を洗練させた</note>
       <tuv lang="en-US">
         <seg>Try to identify a developer to help you and contact them asking them if they can look at your patch.</seg>
       </tuv>
@@ -40384,6 +40396,7 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
     </tu>
     <tu>
+      <note>表現が直訳調かつ誤訳があるため、日本語表現を洗練させた</note>
       <tuv lang="en-US">
         <seg>Typically when a person submits several (there is no fixed number here) substantial patches that demonstrate basic competence and understanding of C++ and QGIS coding conventions, one of the PSC members or other existing developers can nominate that person to the PSC for granting of write access.</seg>
       </tuv>
@@ -42096,11 +42109,12 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
     </tu>
     <tu>
+      <note>表現が直訳調のため、日本語表現を洗練させた</note>
       <tuv lang="en-US">
         <seg>We do scan the incoming patches on bug reports but sometimes we miss things.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201118T231524Z" creationid="miurahr" creationdate="20201118T231524Z">
-        <seg>私たちはバグレポートに入ってくるパッチをスキャンしていますが、時には見落とすかもしれません。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T000012Z" creationid="miurahr" creationdate="20201118T231524Z">
+        <seg>私たちはバグレポートに入ってくるパッチを日常的に確認していますが、時には見落とすかもしれません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -46032,11 +46046,12 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
     </tu>
     <tu>
+      <note>表現が直訳調かつ誤訳があるため、日本語表現を洗練させた</note>
       <tuv lang="en-US">
         <seg>You should make every effort to ensure you only submit patches which are unencumbered by conflicting intellectual property rights.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201118T215726Z" creationid="miurahr" creationdate="20201118T215726Z">
-        <seg>あなたは、矛盾する知的財産権によって妨げられないパッチを提出するよう、あらゆる努力をする必要があります。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201118T235909Z" creationid="miurahr" creationdate="20201118T215726Z">
+        <seg>競合する知的財産権によって妨げられていないパッチのみを提出するよう、あらゆる努力をする必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -46739,8 +46754,8 @@ Generated-By: Babel 2.8.0</seg>
       <tuv lang="en-US">
         <seg>`Checkout the pull request &lt;https://gist.github.com/piscisaureus/3342247&gt;`_</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201118T215659Z" creationid="miurahr" creationdate="20201118T215659Z">
-        <seg>`プル要求をチェックアウト &lt;https://gist.github.com/piscisaureus/3342247&gt;`_</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T000131Z" creationid="miurahr" creationdate="20201118T215659Z">
+        <seg>`プルリクエストをチェックアウト &lt;https://gist.github.com/piscisaureus/3342247&gt;`_</seg>
       </tuv>
     </tu>
     <tu>
