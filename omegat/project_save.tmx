@@ -28212,6 +28212,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>QGIS provides several algorithms under the Processing framework.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T034926Z" creationid="miurahr" creationdate="20201119T034926Z">
+        <seg>QGISでは、プロセッシングフレームワークの下にいくつかのアルゴリズムを提供しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>QGIS provides several algorithms under the Processing framework. You can extend this list with algorithms of your own and, like any new feature, adding tests is required.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T224615Z" creationid="miurahr" creationdate="20201118T224615Z">
@@ -46247,6 +46255,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T034832Z" creationid="miurahr" creationdate="20201118T034832Z">
         <seg>森に掘られている異なる土壌の排水も見ることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You can extend this list with algorithms of your own and, like any new feature, adding tests is required.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T034923Z" creationid="miurahr" creationdate="20201119T034923Z">
+        <seg>このリストは独自のアルゴリズムで拡張できます。そして新しい機能と同様、テストを追加することが必要です。</seg>
       </tuv>
     </tu>
     <tu>
