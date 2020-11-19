@@ -3758,6 +3758,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>A pull request will also trigger automated build checks (eg, for rst formatting, python code syntaxes), and reports are displayed at the bottom of the page.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T081902Z" creationid="miurahr" creationdate="20201119T081902Z">
+        <seg>プルリクエストは自動ビルドチェック(例えば、最初のフォーマット、Pythonコード構文)もトリガし、レポートはページの下部に表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>A python field calculator is available in the *Advanced Python field calculator*, which will not be detailed here</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T102102Z" creationid="miurahr" creationdate="20201118T102102Z">
@@ -9359,6 +9367,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Click on the number in the source text to add the reference link next to the title being translated.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T082619Z" creationid="miurahr" creationdate="20201119T082619Z">
+        <seg>翻訳するタイトルの横に参照リンクを追加するには、ソーステキストの番号をクリックしてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Click on the red cross or on ``Details`` in the summary section at the bottom of the pull request page to see the details of the error.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201119T080624Z" creationid="miurahr" creationdate="20201119T080535Z">
@@ -11315,6 +11331,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201119T075515Z" creationid="miurahr" creationdate="20201119T075515Z">
         <seg>``figure_labels_1_`` のようなアンダースコアで終わる参照を変更しないでください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Do not change references that start with roles like ``:ref:``, ``:file:``, ``:numref:`` unless they include a title.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T082535Z" creationid="miurahr" creationdate="20201119T082535Z">
+        <seg>``:ref:``、``:file:``、``:numref:``などのロールで始まる参照は、タイトルが含まれていない限り変更しないでください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19407,6 +19431,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In that case, you can translate the title but keep unchanged the link (i.e., the text between ``&lt;`` and ``&gt;``)</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T082545Z" creationid="miurahr" creationdate="20201119T082545Z">
+        <seg>その場合、タイトルは翻訳できますが、リンクは変更されません(つまり、``&lt;``と``&gt;``の間のテキスト)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In that case, you might have to call the clipping algorithm several times, which might be time consuming, but don't worry, we will soon see that there are some additional tools to automate that operation.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T094047Z" creationid="miurahr" creationdate="20201118T094047Z">
@@ -21460,6 +21492,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T024641Z" creationid="miurahr" creationdate="20201118T024641Z">
         <seg>:func:`classFactory` メソッドが必須ですが、それ以外にもどんな初期化コードでも含むことができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It holds a reference to a figure ``figure_heatmap_settings_``, and like a reference to a section this reference should not be changed!!</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T082407Z" creationid="miurahr" creationdate="20201119T082407Z">
+        <seg>これは、図形``figure_heatmap_settings_``への参照を保持しており、セクションへの参照と同様に、この参照は変更されるべきではありません!</seg>
       </tuv>
     </tu>
     <tu>
@@ -32007,8 +32047,8 @@ Generated-By: Babel 2.8.0</seg>
       <tuv lang="en-US">
         <seg>Since the documentation is written using the reStructureText syntax, depending on your changes, you may need to rely on the :ref:`writing guidelines &lt;QGIS-documentation-guidelines&gt;`.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201119T075637Z" creationid="miurahr" creationdate="20201119T075637Z">
-        <seg>ドキュメントはreStructureTextシンタックスを使用して書かれていますので、変更の内容によっては、 :ref:`執筆のためのガイドライン &lt;QGIS-documentation-guidelines&gt;` を参照しながら行う必要があるかもしれません。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T081722Z" creationid="miurahr" creationdate="20201119T075637Z">
+        <seg>ドキュメントは reStructureText シンタックスを使用して書かれていますので、変更の内容によっては、 :ref:`執筆のためのガイドライン &lt;QGIS-documentation-guidelines&gt;` を参照しながら行う必要があるかもしれません。</seg>
       </tuv>
     </tu>
     <tu>
@@ -37518,6 +37558,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The reference definition from the rst-document is not included in the :file:`.po` file and can therefore not be changed.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T082417Z" creationid="miurahr" creationdate="20201119T082417Z">
+        <seg>rst-documentの参照定義は:file:`.po`ファイルに含まれていないため、変更できません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The reference line for latitude is the equator and each **hemisphere** is divided into ninety sections, each representing one degree of latitude.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201119T033203Z" creationid="miurahr" creationdate="20201119T033203Z">
@@ -39718,6 +39766,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This can be achieved by downloading the file(s) either from Transifex platform or from the :file:`locale/$language` folder of the source repository (in GitHub),</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T082639Z" creationid="miurahr" creationdate="20201119T082639Z">
+        <seg>これは、Transifexプラットフォームか、ソースリポジトリ(GitHub)の:file:`locale/$language`フォルダからファイルをダウンロードすることで実現できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This can be done using the *Channel network* algorithm.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T094905Z" creationid="miurahr" creationdate="20201118T094905Z">
@@ -40786,6 +40842,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201119T033451Z" creationid="miurahr" creationdate="20201119T033451Z">
         <seg>ということは、座標の北距（Y）の値は645万メートル（-355 万メートル +1000万メートル）です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This means the reference to figures can not be translated.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T082430Z" creationid="miurahr" creationdate="20201119T082430Z">
+        <seg>これは、図への参照が翻訳できないことを意味します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -46098,6 +46162,22 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>When HTML is created you will see ``figure_heatmap_settings``.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T082443Z" creationid="miurahr" creationdate="20201119T082443Z">
+        <seg>HTMLが作成されると、``figure_heatmap_settings``が表示されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>When a PDF document is created ``figure_heatmap_settings_`` is replaced with a figure number.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T082503Z" creationid="miurahr" creationdate="20201119T082503Z">
+        <seg>PDF文書が作成されると、``figure_heatmap_settings_``は数値に置き換えられます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>When a feature's geometry consists of only a single vertex, it is referred to as a **point** feature (see illustration figure_geometry_point_).</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140721Z" creationid="miurahr" creationdate="20201117T140721Z">
@@ -46126,6 +46206,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135729Z" creationid="miurahr" creationdate="20201117T135729Z">
         <seg>表現分数が非常に小さな比、例えば1:1000 000、を表す場合、 **小縮尺地図** と呼ばれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>When a title is provided for a reference, Transifex may display a number in the English source text in replacement of the link part.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T082604Z" creationid="miurahr" creationdate="20201119T082604Z">
+        <seg>タイトルが参照用に提供されている場合、Transifexはリンク部分の代わりに英語のソーステキストに番号を表示するでしょう。</seg>
       </tuv>
     </tu>
     <tu>
