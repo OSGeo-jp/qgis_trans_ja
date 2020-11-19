@@ -30,7 +30,7 @@
             <repository type="git" url="https://github.com/qgis/QGIS-Website.git">
                 <mapping local="source/website/" repository="/i18n/en/LC_MESSAGES"/>
             </repository>
-	    <repository type="http" url="https://github.com/qgis/QGIS-Documentaiton/raw/release_3.16/">
+	    <repository type="http" url="https://raw.githubusercontent.com/qgis/QGIS-Documentation/release_3.10">
 		    <mapping local="source/./developers_guide/unittesting.po" repository="/locale/en/LC_MESSAGES/docs/./developers_guide/unittesting.po"/>
 		    <mapping local="source/./developers_guide/qtcreator.po" repository="/locale/en/LC_MESSAGES/docs/./developers_guide/qtcreator.po"/>
 		    <mapping local="source/./developers_guide/codingstandards.po" repository="/locale/en/LC_MESSAGES/docs/./developers_guide/codingstandards.po"/>
