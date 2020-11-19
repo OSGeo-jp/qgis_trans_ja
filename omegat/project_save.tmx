@@ -4552,8 +4552,8 @@
       <tuv lang="en-US">
         <seg>After a rebase you need to ``git push -f`` to your forked repo.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201118T223959Z" creationid="miurahr" creationdate="20201118T223959Z">
-        <seg>リベースした後、あなたのフォークレポに  ``git push -f`` する必要があります。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T001505Z" creationid="miurahr" creationdate="20201118T223959Z">
+        <seg>rebaseした後、あなたがフォークしたリポジトリに  ``git push -f`` する必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -6841,8 +6841,8 @@
       <tuv lang="en-US">
         <seg>Before merging back, the changes will be tested by developers and users.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201118T224005Z" creationid="miurahr" creationdate="20201118T224005Z">
-        <seg>戻してマージする前に、変更は開発者とユーザーによってテストされるでしょう。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T001629Z" creationid="miurahr" creationdate="20201118T224005Z">
+        <seg>マージする前に、変更提案は開発者とユーザーによってテストされるでしょう。</seg>
       </tuv>
     </tu>
     <tu>
@@ -8225,16 +8225,16 @@
       <tuv lang="en-US">
         <seg>Class in QGIS begin with Qgs and are formed using camel case.</seg>
       </tuv>
-      <tuv lang="ja">
-        <seg>QGISのクラスは、Qgsで始まり、キャメルケースを使用して形成します。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T001821Z">
+        <seg>QGISのクラスは、Qgsで始まり、キャメルケースを使用して命名します。</seg>
       </tuv>
     </tu>
     <tu>
       <tuv lang="en-US">
         <seg>Class member names begin with a lower case m and are formed using mixed case.</seg>
       </tuv>
-      <tuv lang="ja">
-        <seg>クラスメンバー名は小文字のmで始まり、大文字と小文字を使用して形成されています。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T001835Z">
+        <seg>クラスメンバー名は小文字のmで始まり、大文字と小文字を使用して命名されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -17094,8 +17094,8 @@
       <tuv lang="en-US">
         <seg>If you're interested in checking out QGIS documentation sources:</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201119T001254Z" creationid="miurahr" creationdate="20201118T215409Z">
-        <seg>QGIS文書のソースをチェックアウトすることに興味がある場合：</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T001309Z" creationid="miurahr" creationdate="20201118T215409Z">
+        <seg>QGISドキュメントのソースをチェックアウトすることに興味がある場合：</seg>
       </tuv>
     </tu>
     <tu>
@@ -25250,8 +25250,8 @@
       <tuv lang="en-US">
         <seg>Only use this for your working branch.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201118T215456Z" creationid="miurahr" creationdate="20201118T215456Z">
-        <seg>これはご自身の作業ブランチのために使用してください。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T001527Z" creationid="miurahr" creationdate="20201118T215456Z">
+        <seg>ご自身の作業ブランチのためだけに使用してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27366,8 +27366,8 @@ Generated-By: Babel 2.8.0</seg>
       <tuv lang="en-US">
         <seg>QGIS documentation sources</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201119T001239Z" creationid="miurahr" creationdate="20201118T215408Z">
-        <seg>QGIS文書のソース</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T001331Z" creationid="miurahr" creationdate="20201118T215408Z">
+        <seg>QGISドキュメントのソース</seg>
       </tuv>
     </tu>
     <tu>
@@ -27926,8 +27926,8 @@ Generated-By: Babel 2.8.0</seg>
       <tuv lang="en-US">
         <seg>Rebase to master regularly: It is recommended to rebase to incorporate the changes in master to the branch on a regular basis.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201118T223959Z" creationid="miurahr" creationdate="20201118T223959Z">
-        <seg>定期的にマスターにリベースする：マスターにおける変更をブランチに組み込むために定期的にリベースすることをお勧めします。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T001355Z" creationid="miurahr" creationdate="20201118T223959Z">
+        <seg>定期的にmasterにrebaseする：masterにおける変更をブランチに組み込むために定期的にrebaseすることをお勧めします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -36640,8 +36640,8 @@ Generated-By: Babel 2.8.0</seg>
       <tuv lang="en-US">
         <seg>These standards should be followed by all QGIS developers.</seg>
       </tuv>
-      <tuv lang="ja">
-        <seg>これらの基準は、すべての QGIS 開発者が守るべきです。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T001809Z">
+        <seg>すべての QGIS 開発者が守るべき基準を定義しています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -37936,8 +37936,8 @@ Generated-By: Babel 2.8.0</seg>
       <tuv lang="en-US">
         <seg>This makes it easier to merge the branch back to master later.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201118T215453Z" creationid="miurahr" creationdate="20201118T215453Z">
-        <seg>これは、後で簡単に逆にマスターへとブランチをマージできます。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T001447Z" creationid="miurahr" creationdate="20201118T215453Z">
+        <seg>masterへブランチを後で簡単にマージできるようにするためです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -43349,8 +43349,8 @@ Generated-By: Babel 2.8.0</seg>
       <tuv lang="en-US">
         <seg>When you are finished with the new feature and happy with the stability, make an announcement on the developer list.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201118T224005Z" creationid="miurahr" creationdate="20201118T224005Z">
-        <seg>新しい機能性と安定性に満足して終了したら、開発者リストで発表を行います。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201119T001614Z" creationid="miurahr" creationdate="20201118T224005Z">
+        <seg>新しい機能の追加が完了し、安定性に満足したら、開発者リストで発表を行います。</seg>
       </tuv>
     </tu>
     <tu>
