@@ -7,9 +7,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: QGIS Documentation testing\n"
+"Project-Id-Version: QGIS Documentation 3.16\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-29 18:52+0900\n"
+"POT-Creation-Date: 2020-11-19 13:16+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -33,7 +33,7 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/gdal/rasterprojections.rst:17
 msgid ""
 "This algorithm is derived from the `GDAL edit utility "
-"<https://gdal.org/gdal_edit.html>`_."
+"<https://gdal.org/programs/gdal_edit.html>`_."
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/gdal/rasterprojections.rst:20
@@ -177,7 +177,7 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/gdal/rasterprojections.rst:75
 msgid ""
 "This algorithm is derived from the `GDAL srsinfo utility "
-"<https://gdal.org/gdalsrsinfo.html>`_."
+"<https://gdal.org/programs/gdalsrsinfo.html>`_."
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/gdal/rasterprojections.rst:91
@@ -265,7 +265,7 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/gdal/rasterprojections.rst:148
 msgid ""
 "This algorithm is derived from the `GDAL warp utility "
-"<https://gdal.org/gdalwarp.html>`_."
+"<https://gdal.org/programs/gdalwarp.html>`_."
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/gdal/rasterprojections.rst:166

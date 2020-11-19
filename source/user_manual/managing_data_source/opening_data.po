@@ -7,9 +7,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: QGIS Documentation testing\n"
+"Project-Id-Version: QGIS Documentation 3.16\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-29 18:52+0900\n"
+"POT-Creation-Date: 2020-11-19 13:16+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -93,11 +93,12 @@ msgid ""
 "to a unique dialog, the :guilabel:`Data Source Manager` dialog, that you "
 "can open with the |dataSourceManager| :sup:`Open Data Source Manager` "
 "button, available on the :guilabel:`Data Source Manager Toolbar`, or by "
-"pressing :kbd:`Ctrl+L`. The :guilabel:`Data Source Manager` dialog offers"
-" a unified interface to open vector or raster file-based data as well as "
-"databases or web services supported by QGIS. It can be set modal or not "
-"with the |checkbox| :guilabel:`Modeless data source manager dialog` in "
-"the :menuselection:`Settings --> Options --> General` menu."
+"pressing :kbd:`Ctrl+L`. The :guilabel:`Data Source Manager` "
+"dialog(:numref:`figure_datasource_manager`) offers a unified interface to"
+" open vector or raster file-based data as well as databases or web "
+"services supported by QGIS. It can be set modal or not with the "
+"|checkbox| :guilabel:`Modeless data source manager dialog` in the "
+":menuselection:`Settings --> Options --> General` menu."
 msgstr ""
 
 #: ../../docs/user_manual/managing_data_source/opening_data.rst:78
@@ -183,8 +184,8 @@ msgid ""
 "search word or wildcard and the browser will filter the tree to only show"
 " paths to matching DB tables, filenames or folders -- other data or "
 "folders won't be displayed. See the Browser Panel(2) example in "
-"figure_browser_panels_. The comparison can be case-sensitive or not. It "
-"can also be set to:"
+":numref:`figure_browser_panels`. The comparison can be case-sensitive or "
+"not. It can also be set to:"
 msgstr ""
 
 #: ../../docs/user_manual/managing_data_source/opening_data.rst:128
@@ -1941,10 +1942,43 @@ msgid ""
 msgstr ""
 
 #: ../../docs/user_manual/managing_data_source/opening_data.rst:1147
-msgid "Using XYZ Tile services"
+msgid "Using Vector Tiles services"
 msgstr ""
 
 #: ../../docs/user_manual/managing_data_source/opening_data.rst:1149
+msgid ""
+"Vector Tiles services can be found in the :guilabel:`Vector Tiles` top "
+"level entry in the :guilabel:`Browser`. You can add a service by opening "
+"the context menu with a right-click and choosing :guilabel:`New Generic "
+"Connection ...`. You set up a service by adding a :guilabel:`Name` and a "
+":guilabel:`URL`. The Vector Tiles Service must provide tiles in "
+":file:`.pbf` format. The dialog provides two menus to define the "
+"|checkbox|:guilabel:`Min. Zoom Level` and the |checkbox|:guilabel:`Max. "
+"Zoom Level`. Vector Tiles have a pyramid structure. By using these "
+"options you have the opportunity to individually generate layers from the"
+" tile pyramid. These layers will then be used to render the Vector Tile "
+"in QGIS. For Mercator projection (used by OpenStreetMap Vector Tiles) "
+"Zoom Level 0 represents the whole world at a scale of 1:500.000.000. Zoom"
+" Level 14 represents the scale 1:35.000. "
+"figure_vector_tiles_maptilerplanet_ shows the dialog with the MapTiler "
+"planet Vector Tiles service configuration."
+msgstr ""
+
+#: ../../docs/user_manual/managing_data_source/opening_data.rst:1172
+msgid "Vector Tiles - Maptiler Planet configuration"
+msgstr ""
+
+#: ../../docs/user_manual/managing_data_source/opening_data.rst:1174
+msgid ""
+"By using :guilabel:`New ArcGIS Vector Tile Service Connection ...` you "
+"can connect to ArcGIS Vector Tile Services."
+msgstr ""
+
+#: ../../docs/user_manual/managing_data_source/opening_data.rst:1181
+msgid "Using XYZ Tile services"
+msgstr ""
+
+#: ../../docs/user_manual/managing_data_source/opening_data.rst:1183
 msgid ""
 "XYZ Tile services can be found in the :guilabel:`XYZ Tiles` top level "
 "entry in the :guilabel:`Browser`. By default, the OpenStreetMap XYZ Tile "
@@ -1954,11 +1988,11 @@ msgid ""
 "dialog with the OpenStreetMap XYZ Tile service configuration."
 msgstr ""
 
-#: ../../docs/user_manual/managing_data_source/opening_data.rst:1163
+#: ../../docs/user_manual/managing_data_source/opening_data.rst:1197
 msgid "XYZ Tiles - OpenStreetMap configuration"
 msgstr ""
 
-#: ../../docs/user_manual/managing_data_source/opening_data.rst:1165
+#: ../../docs/user_manual/managing_data_source/opening_data.rst:1199
 msgid ""
 "Configurations can be saved (:guilabel:`Save Connections`) to XML and "
 "loaded (:guilabel:`Load Connections`) through the context menu. "
@@ -1966,56 +2000,56 @@ msgid ""
 " looks like this:"
 msgstr ""
 
-#: ../../docs/user_manual/managing_data_source/opening_data.rst:1179
+#: ../../docs/user_manual/managing_data_source/opening_data.rst:1213
 msgid ""
 "Once a connection to a XYZ tile service is set, right-click over the "
 "entry to:"
 msgstr ""
 
-#: ../../docs/user_manual/managing_data_source/opening_data.rst:1181
+#: ../../docs/user_manual/managing_data_source/opening_data.rst:1215
 msgid ":guilabel:`Edit...` the XYZ connection settings"
 msgstr ""
 
-#: ../../docs/user_manual/managing_data_source/opening_data.rst:1182
+#: ../../docs/user_manual/managing_data_source/opening_data.rst:1216
 msgid ":guilabel:`Delete` the connection"
 msgstr ""
 
-#: ../../docs/user_manual/managing_data_source/opening_data.rst:1183
+#: ../../docs/user_manual/managing_data_source/opening_data.rst:1217
 msgid ""
 ":menuselection:`Export layer... --> To File`, :ref:`saving it as a raster"
 " <general_saveas>`"
 msgstr ""
 
-#: ../../docs/user_manual/managing_data_source/opening_data.rst:1185
+#: ../../docs/user_manual/managing_data_source/opening_data.rst:1219
 msgid ":guilabel:`Add layer to project`: a double-click also adds the layer"
 msgstr ""
 
-#: ../../docs/user_manual/managing_data_source/opening_data.rst:1186
+#: ../../docs/user_manual/managing_data_source/opening_data.rst:1220
 msgid ""
 "View the :guilabel:`Layer Properties...` and get access to metadata and a"
 " preview of the data provided by the service. More settings are available"
 " when the layer has been loaded into the project."
 msgstr ""
 
-#: ../../docs/user_manual/managing_data_source/opening_data.rst:1191
+#: ../../docs/user_manual/managing_data_source/opening_data.rst:1225
 msgid "Examples of XYZ Tile services:"
 msgstr ""
 
-#: ../../docs/user_manual/managing_data_source/opening_data.rst:1193
+#: ../../docs/user_manual/managing_data_source/opening_data.rst:1227
 msgid ""
 "OpenStreetMap Monochrome: :guilabel:`URL`: ``http://tiles.wmflabs.org/bw-"
 "mapnik/{z}/{x}/{y}.png``, :guilabel:`Min. Zoom Level`: 0, :guilabel:`Max."
 " Zoom Level`: 19."
 msgstr ""
 
-#: ../../docs/user_manual/managing_data_source/opening_data.rst:1196
+#: ../../docs/user_manual/managing_data_source/opening_data.rst:1230
 msgid ""
 "Google Maps: :guilabel:`URL`: "
 "``https://mt1.google.com/vt/lyrs=m&x={x}&y={y}&z={z}``, :guilabel:`Min. "
 "Zoom Level`: 0, :guilabel:`Max. Zoom Level`: 19."
 msgstr ""
 
-#: ../../docs/user_manual/managing_data_source/opening_data.rst:1199
+#: ../../docs/user_manual/managing_data_source/opening_data.rst:1233
 msgid ""
 "Open Weather Map Temperature: :guilabel:`URL`: "
 "``http://tile.openweathermap.org/map/temp_new/{z}/{x}/{y}.png?appid={api_key}``"

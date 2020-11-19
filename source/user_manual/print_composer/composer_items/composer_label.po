@@ -7,9 +7,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: QGIS Documentation testing\n"
+"Project-Id-Version: QGIS Documentation 3.16\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-29 18:52+0900\n"
+"POT-Creation-Date: 2020-11-19 13:16+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -152,10 +152,30 @@ msgid "Add a pagination for processed atlas features (eg, ``Page 1/10``):"
 msgstr ""
 
 #: ../../docs/user_manual/print_composer/composer_items/composer_label.rst:105
+msgid ""
+"Return the name of the airports of the current atlas region feature, "
+"based on their common attributes:"
+msgstr ""
+
+#: ../../docs/user_manual/print_composer/composer_items/composer_label.rst:117
+msgid "Or, if an ref:`attributes relation <vector_relations>` is set:"
+msgstr ""
+
+#: ../../docs/user_manual/print_composer/composer_items/composer_label.rst:127
+msgid ""
+"Return the name of the airports contained in the current atlas region "
+"feature, based on their spatial relationship:"
+msgstr ""
+
+#: ../../docs/user_manual/print_composer/composer_items/composer_label.rst:139
+msgid "OR::"
+msgstr ""
+
+#: ../../docs/user_manual/print_composer/composer_items/composer_label.rst:146
 msgid "Return the lower X coordinate of the ``Map 1`` item's extent:"
 msgstr ""
 
-#: ../../docs/user_manual/print_composer/composer_items/composer_label.rst:111
+#: ../../docs/user_manual/print_composer/composer_items/composer_label.rst:152
 msgid ""
 "Retrieve the name of the layers in the current layout ``Map 1`` item, and"
 " formats in one name by line:"

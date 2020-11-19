@@ -7,9 +7,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: QGIS Documentation testing\n"
+"Project-Id-Version: QGIS Documentation 3.16\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-29 18:52+0900\n"
+"POT-Creation-Date: 2020-11-19 13:16+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -57,7 +57,8 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:772
 #: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:835
 #: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:947
-#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1061
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1058
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1137
 msgid "Parameters"
 msgstr ""
 
@@ -83,8 +84,10 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:902
 #: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:954
 #: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1027
-#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1067
-#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1101
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1065
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1103
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1143
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1177
 msgid "Label"
 msgstr ""
 
@@ -110,8 +113,10 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:903
 #: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:955
 #: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1028
-#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1068
-#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1102
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1066
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1104
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1144
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1178
 msgid "Name"
 msgstr ""
 
@@ -137,8 +142,10 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:904
 #: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:956
 #: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1029
-#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1069
-#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1103
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1067
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1105
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1145
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1179
 msgid "Type"
 msgstr ""
 
@@ -164,8 +171,10 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:905
 #: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:957
 #: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1030
-#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1070
-#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1104
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1068
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1106
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1146
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1180
 msgid "Description"
 msgstr ""
 
@@ -180,7 +189,8 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:782
 #: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:846
 #: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:958
-#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1071
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1069
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1147
 msgid "**Input layer**"
 msgstr ""
 
@@ -195,7 +205,8 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:783
 #: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:847
 #: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:959
-#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1072
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1070
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1148
 msgid "``INPUT``"
 msgstr ""
 
@@ -214,12 +225,13 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:960
 #: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1007
 #: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1033
-#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1073
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1071
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1149
 msgid "[vector: any]"
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:42
-#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1074
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1150
 msgid "The input vector layer."
 msgstr ""
 
@@ -245,6 +257,8 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:484
 #: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:642
 #: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:852
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1075
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1079
 msgid "[string]"
 msgstr ""
 
@@ -401,8 +415,10 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:907
 #: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1006
 #: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1032
-#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1081
-#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1106
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1082
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1108
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1157
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1182
 msgid "``OUTPUT``"
 msgstr ""
 
@@ -419,8 +435,8 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:675
 #: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:790
 #: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:808
-#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1082
-#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1107
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1158
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1183
 msgid "[same as input]"
 msgstr ""
 
@@ -432,6 +448,7 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:562
 #: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:652
 #: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1009
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1085
 msgid "Default: ``[Create temporary layer]``"
 msgstr ""
 
@@ -453,7 +470,8 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:567
 #: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:656
 #: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1014
-#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1088
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1090
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1164
 msgid "Save to File..."
 msgstr ""
 
@@ -466,7 +484,8 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:568
 #: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:657
 #: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1015
-#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1089
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1091
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1165
 msgid "Save to Geopackage..."
 msgstr ""
 
@@ -485,7 +504,8 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:660
 #: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:730
 #: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1018
-#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1092
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1094
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1168
 msgid "The file encoding can also be changed here."
 msgstr ""
 
@@ -500,7 +520,8 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:794
 #: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:896
 #: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1021
-#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1095
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1097
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1171
 msgid "Outputs"
 msgstr ""
 
@@ -519,7 +540,8 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:813
 #: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:912
 #: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1037
-#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1112
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1113
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1188
 msgid "Python code"
 msgstr ""
 
@@ -656,7 +678,8 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:569
 #: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:658
 #: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1016
-#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1090
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1092
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1166
 msgid "Save to PostGIS Table......"
 msgstr ""
 
@@ -702,7 +725,8 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:261
 #: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:635
 #: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:713
-#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1076
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1074
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1152
 msgid "``FIELD``"
 msgstr ""
 
@@ -750,7 +774,8 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:566
 #: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:655
 #: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1013
-#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1087
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1089
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1163
 msgid "Create Temporary Layer"
 msgstr ""
 
@@ -854,7 +879,7 @@ msgid "**Added fields**"
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:380
-#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1085
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1161
 msgid "Specify the output layer. One of:"
 msgstr ""
 
@@ -1457,6 +1482,7 @@ msgid "**Refactored**"
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1010
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1086
 msgid "Specification of the output layer. One of:"
 msgstr ""
 
@@ -1469,56 +1495,116 @@ msgid "**Algorithm ID**: ``qgis:refactorfields``"
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1049
-msgid "Text to float"
+msgid "Rename vector field"
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1050
+msgid "Renames an existing field from a vector layer."
+msgstr ""
+
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1052
+msgid ""
+"The original layer is not modified. A new layer is generated where the "
+"attribute table contains the renamed field."
+msgstr ""
+
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1055
+msgid ":ref:`qgisrefactorfields`"
+msgstr ""
+
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1072
+msgid "The input vector layer"
+msgstr ""
+
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1073
+msgid "**Field to rename**"
+msgstr ""
+
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1076
+msgid "The field to be altered"
+msgstr ""
+
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1077
+msgid "**New field name**"
+msgstr ""
+
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1078
+msgid "``NEW_NAME``"
+msgstr ""
+
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1080
+msgid "The new field name"
+msgstr ""
+
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1081
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1107
+msgid "**Renamed**"
+msgstr ""
+
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1083
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1109
+msgid "[vector: same as input]"
+msgstr ""
+
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1110
+msgid "Output layer with the renamed field"
+msgstr ""
+
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1115
+msgid "**Algorithm ID**: ``qgis:renametablefield``"
+msgstr ""
+
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1125
+msgid "Text to float"
+msgstr ""
+
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1126
 msgid ""
 "Modifies the type of a given attribute in a vector layer, converting a "
 "text attribute containing numeric strings into a numeric attribute (e.g. "
 "'1' to ``1.0``)."
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1054
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1130
 msgid ""
 "The algorithm creates a new vector layer so the source one is not "
 "modified."
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1057
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1133
 msgid ""
 "If the conversion is not possible the selected column will have ``NULL`` "
 "values."
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1075
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1151
 msgid "**Text attribute to convert to float**"
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1077
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1153
 msgid "[tablefield: string]"
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1078
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1154
 msgid ""
 "The string field for the input layer that is to be converted to a float "
 "field."
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1080
-#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1105
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1156
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1181
 msgid "**Float from text**"
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1084
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1160
 msgid "Default: ``[Create Temporary Layer]``"
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1108
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1184
 msgid "Output vector layer with the string field converted into a float field"
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1114
+#: ../../docs/user_manual/processing_algs/qgis/vectortable.rst:1190
 msgid "**Algorithm ID**: ``qgis:texttofloat``"
 msgstr ""
 

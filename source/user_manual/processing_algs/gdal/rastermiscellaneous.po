@@ -7,9 +7,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: QGIS Documentation testing\n"
+"Project-Id-Version: QGIS Documentation 3.16\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-29 18:52+0900\n"
+"POT-Creation-Date: 2020-11-19 13:16+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -36,7 +36,7 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/gdal/rastermiscellaneous.rst:19
 msgid ""
 "This algorithm is derived from the `GDAL addo utility "
-"<https://gdal.org/gdaladdo.html>`_."
+"<https://gdal.org/programs/gdaladdo.html>`_."
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/gdal/rastermiscellaneous.rst:22
@@ -568,7 +568,7 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/gdal/rastermiscellaneous.rst:138
 msgid ""
 "This algorithm is derived from the `GDAL buildvrt utility "
-"<https://gdal.org/gdalbuildvrt.html>`_."
+"<https://gdal.org/programs/gdalbuildvrt.html>`_."
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/gdal/rastermiscellaneous.rst:155
@@ -1093,7 +1093,7 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/gdal/rastermiscellaneous.rst:481
 msgid ""
 "This algorithm is derived from the `GDAL merge utility "
-"<https://gdal.org/gdal_merge.html>`_."
+"<https://gdal.org/programs/gdal_merge.html>`_."
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/gdal/rastermiscellaneous.rst:501
@@ -1591,7 +1591,7 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/gdal/rastermiscellaneous.rst:930
 msgid ""
 "This algorithm is derived from the `GDAL info utility "
-"<https://gdal.org/gdalinfo.html>`_."
+"<https://gdal.org/programs/gdalinfo.html>`_."
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/gdal/rastermiscellaneous.rst:951
@@ -1687,7 +1687,7 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/gdal/rastermiscellaneous.rst:1035
 msgid ""
 "This algorithm is derived from the `GDAL Retile utility "
-"<https://gdal.org/gdal_retile.html>`_."
+"<https://gdal.org/programs/gdal_retile.html>`_."
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/gdal/rastermiscellaneous.rst:1050
@@ -1852,7 +1852,7 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/gdal/rastermiscellaneous.rst:1226
 msgid ""
 "This algorithm is derived from the `GDAL Tile Index utility "
-"<https://gdal.org/gdaltindex.html>`_."
+"<https://gdal.org/programs/gdaltindex.html>`_."
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/gdal/rastermiscellaneous.rst:1244

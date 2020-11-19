@@ -7,9 +7,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: QGIS Documentation testing\n"
+"Project-Id-Version: QGIS Documentation 3.16\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-29 18:52+0900\n"
+"POT-Creation-Date: 2020-11-19 13:16+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -58,7 +58,7 @@ msgid ""
 "neighbor resampling``. The output raster data type will be set to the "
 "most complex data type present in the input datasets except when using "
 "the functions ``Mean``, ``Standard deviation`` and ``Variance`` (data "
-"type is always ``Float32``or ``Float64`` depending on input float type) "
+"type is always ``Float32`` or ``Float64`` depending on input float type) "
 "or ``Count`` and ``Variety`` (data type is always ``Int32``)."
 msgstr ""
 
@@ -146,7 +146,7 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2102
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2150
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2188
-#: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2240
+#: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2255
 msgid "Label"
 msgstr ""
 
@@ -187,7 +187,7 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2103
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2151
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2189
-#: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2241
+#: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2256
 msgid "Name"
 msgstr ""
 
@@ -228,7 +228,7 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2104
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2152
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2190
-#: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2242
+#: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2257
 msgid "Type"
 msgstr ""
 
@@ -269,7 +269,7 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2105
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2153
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2191
-#: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2243
+#: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2258
 msgid "Description"
 msgstr ""
 
@@ -293,6 +293,7 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:1513
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:1634
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2022
+#: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2193
 msgid "``INPUT``"
 msgstr ""
 
@@ -460,7 +461,7 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:1985
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2027
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2108
-#: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2194
+#: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2198
 msgid "[raster]"
 msgstr ""
 
@@ -587,7 +588,8 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2066
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2129
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2157
-#: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2245
+#: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2233
+#: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2260
 msgid "``OUTPUT``"
 msgstr ""
 
@@ -651,6 +653,7 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:1968
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2046
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2137
+#: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2241
 msgid "Save to File..."
 msgstr ""
 
@@ -670,6 +673,7 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:1848
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2050
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2141
+#: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2246
 msgid "The file encoding can also be changed here."
 msgstr ""
 
@@ -691,7 +695,7 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:1973
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2053
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2144
-#: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2234
+#: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2249
 msgid "Outputs"
 msgstr ""
 
@@ -994,7 +998,7 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:1991
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2071
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2164
-#: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2250
+#: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2265
 msgid "Python code"
 msgstr ""
 
@@ -1096,7 +1100,7 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:1770
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:1901
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2112
-#: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2198
+#: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2202
 msgid "[raster band]"
 msgstr ""
 
@@ -1848,6 +1852,7 @@ msgstr ""
 
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:1275
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:1384
+#: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2192
 msgid "**Input layer**"
 msgstr ""
 
@@ -1864,7 +1869,7 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:1283
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:1392
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2114
-#: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2200
+#: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2204
 msgid "Default: The first band of the input layer"
 msgstr ""
 
@@ -2058,6 +2063,7 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:1417
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2047
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2138
+#: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2242
 msgid "Save to GeoPackage..."
 msgstr ""
 
@@ -2128,7 +2134,7 @@ msgid ""
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:1498
-msgid ":ref:`qgiszonalstatistics`"
+msgid ":ref:`qgiszonalstatisticsfb`"
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:1512
@@ -2333,6 +2339,7 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:1694
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2045
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2136
+#: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2240
 msgid "Create Temporary Layer (``TEMPORARY_OUTPUT``)"
 msgstr ""
 
@@ -2343,6 +2350,7 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:1697
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2048
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2139
+#: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2243
 msgid "Save to PostGIS Table..."
 msgstr ""
 
@@ -2407,14 +2415,14 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:1764
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:1895
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2106
-#: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2192
+#: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2196
 msgid "**Raster layer**"
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:1765
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:1896
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2107
-#: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2193
+#: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2197
 msgid "``INPUT_RASTER``"
 msgstr ""
 
@@ -2426,7 +2434,7 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:1769
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:1900
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2111
-#: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2197
+#: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2201
 msgid "``RASTER_BAND``"
 msgstr ""
 
@@ -2703,6 +2711,7 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2041
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2132
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2160
+#: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2236
 msgid "Default: ``[Create temporary layer]``"
 msgstr ""
 
@@ -2739,7 +2748,7 @@ msgid "Raster layer histogram example"
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2109
-#: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2195
+#: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2199
 msgid "Input raster layer."
 msgstr ""
 
@@ -2748,25 +2757,23 @@ msgid "If the raster is multiband, choose a band."
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2116
-#: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2202
 msgid "**Vector layer containing zones**"
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2117
-#: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2203
 msgid "``INPUT_VECTOR``"
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2118
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2130
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2158
-#: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2204
-#: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2246
+#: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2194
+#: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2234
+#: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2261
 msgid "[vector: polygon]"
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2119
-#: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2205
 msgid "Vector polygon layer that defines the zones."
 msgstr ""
 
@@ -2785,6 +2792,7 @@ msgid "**Output zones**"
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2133
+#: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2237
 msgid "Specify the output vector polygon layer. One of:"
 msgstr ""
 
@@ -2806,11 +2814,15 @@ msgid ""
 "overlapping polygon vector layer."
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2196
+#: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2195
+msgid "Vector polygon layer that contains the zones."
+msgstr ""
+
+#: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2200
 msgid "**Raster band**"
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2201
+#: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2205
 msgid "If the raster is multiband, choose a band for the statistics."
 msgstr ""
 
@@ -2878,15 +2890,20 @@ msgstr ""
 msgid "11 --- Variance"
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2244
-msgid "**Vector layer containing zones and statistics**"
+#: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2232
+#: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2259
+msgid "**Zonal Statistics**"
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2247
+#: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2244
+msgid "Append to Layer..."
+msgstr ""
+
+#: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2262
 msgid "The zone vector layer with added statistics."
 msgstr ""
 
-#: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2252
-msgid "**Algorithm ID**: ``qgis:zonalstatistics``"
+#: ../../docs/user_manual/processing_algs/qgis/rasteranalysis.rst:2267
+msgid "**Algorithm ID**: ``qgis:zonalstatisticsfb``"
 msgstr ""
 

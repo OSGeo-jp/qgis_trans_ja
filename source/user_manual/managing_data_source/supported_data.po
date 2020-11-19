@@ -7,9 +7,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: QGIS Documentation testing\n"
+"Project-Id-Version: QGIS Documentation 3.16\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-29 18:52+0900\n"
+"POT-Creation-Date: 2020-11-19 13:16+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -838,9 +838,9 @@ msgstr ""
 #: ../../docs/user_manual/managing_data_source/supported_data.rst:608
 msgid ""
 "Besides GeoJSON there is also an option to export to \"GeoJSON - Newline "
-"Delimited\" (see https://gdal.org/drv_geojsonseq.html). Instead of a "
-"FeatureCollection with Features, you can stream one type (probably only "
-"Features) sequentially separated with newlines."
+"Delimited\" (see https://gdal.org/drivers/vector/geojsonseq.html). "
+"Instead of a FeatureCollection with Features, you can stream one type "
+"(probably only Features) sequentially separated with newlines."
 msgstr ""
 
 #: ../../docs/user_manual/managing_data_source/supported_data.rst:614

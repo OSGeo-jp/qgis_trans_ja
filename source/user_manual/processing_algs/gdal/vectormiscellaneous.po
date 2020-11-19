@@ -7,9 +7,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: QGIS Documentation testing\n"
+"Project-Id-Version: QGIS Documentation 3.16\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-29 18:52+0900\n"
+"POT-Creation-Date: 2020-11-19 13:16+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -265,7 +265,7 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/gdal/vectormiscellaneous.rst:488
 msgid ""
 "This algorithm is derived from the `GDAL ogr2ogr utility "
-"<https://gdal.org/ogr2ogr.html>`_."
+"<https://gdal.org/programs/ogr2ogr.html>`_."
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/gdal/vectormiscellaneous.rst:108
@@ -1203,7 +1203,7 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/gdal/vectormiscellaneous.rst:834
 msgid ""
 "This algorithm is derived from the `GDAL ogrinfo utility "
-"<https://gdal.org/ogrinfo.html>`_."
+"<https://gdal.org/programs/ogrinfo.html>`_."
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/gdal/vectormiscellaneous.rst:852

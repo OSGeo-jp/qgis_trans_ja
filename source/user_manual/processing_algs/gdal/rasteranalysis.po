@@ -7,9 +7,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: QGIS Documentation testing\n"
+"Project-Id-Version: QGIS Documentation 3.16\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-29 18:52+0900\n"
+"POT-Creation-Date: 2020-11-19 13:16+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -44,7 +44,7 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/gdal/rasteranalysis.rst:2159
 msgid ""
 "This algorithm is derived from the `GDAL DEM utility "
-"<https://gdal.org/gdaldem.html>`_."
+"<https://gdal.org/programs/gdaldem.html>`_."
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/gdal/rasteranalysis.rst:27
@@ -1014,7 +1014,7 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/gdal/rasteranalysis.rst:266
 msgid ""
 "This algorithm is derived from the `GDAL fillnodata utility "
-"<https://gdal.org/gdal_fillnodata.html>`_."
+"<https://gdal.org/programs/gdal_fillnodata.html>`_."
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/gdal/rasteranalysis.rst:286
@@ -1176,7 +1176,7 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/gdal/rasteranalysis.rst:1177
 msgid ""
 "This algorithm is derived from the `GDAL grid utility "
-"<https://gdal.org/gdal_grid.html>`_."
+"<https://gdal.org/programs/gdal_grid.html>`_."
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/gdal/rasteranalysis.rst:388
@@ -1846,7 +1846,7 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/gdal/rasteranalysis.rst:1322
 msgid ""
 "This algorithm is derived from the `GDAL DEM utility "
-"<https://gdal.org/gdaldem.html>`__ ."
+"<https://gdal.org/programs/gdaldem.html>`__ ."
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/gdal/rasteranalysis.rst:1342
@@ -1975,7 +1975,7 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/gdal/rasteranalysis.rst:1474
 msgid ""
 "This algorithm is derived from the `GDAL nearblack utility "
-"<https://gdal.org/nearblack.html>`_."
+"<https://gdal.org/programs/nearblack.html>`_."
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/gdal/rasteranalysis.rst:1495
@@ -2032,7 +2032,7 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/gdal/rasteranalysis.rst:1578
 msgid ""
 "This algorithm is derived from the `GDAL proximity utility "
-"<https://gdal.org/gdal_proximity.html>`_."
+"<https://gdal.org/programs/gdal_proximity.html>`_."
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/gdal/rasteranalysis.rst:1605
@@ -2169,7 +2169,7 @@ msgstr ""
 #: ../../docs/user_manual/processing_algs/gdal/rasteranalysis.rst:1846
 msgid ""
 "This algorithm is derived from the `GDAL sieve utility "
-"<https://gdal.org/gdal_sieve.html>`_."
+"<https://gdal.org/programs/gdal_sieve.html>`_."
 msgstr ""
 
 #: ../../docs/user_manual/processing_algs/gdal/rasteranalysis.rst:1867

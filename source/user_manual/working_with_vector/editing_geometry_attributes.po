@@ -7,9 +7,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: QGIS Documentation testing\n"
+"Project-Id-Version: QGIS Documentation 3.16\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-29 18:52+0900\n"
+"POT-Creation-Date: 2020-11-19 13:16+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -1194,7 +1194,7 @@ msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:825
 #: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:827
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1558
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1573
 msgid "\\"
 msgstr ""
 
@@ -1366,7 +1366,7 @@ msgid "|offsetPointSymbols|"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:854
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1319
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1323
 msgid "Offset Point Symbols"
 msgstr ""
 
@@ -1903,40 +1903,48 @@ msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1272
 msgid ""
-"The |rotatePointSymbols| :sup:`Rotate Point Symbols` allows you to change"
-" the rotation of point symbols in the map canvas."
+"The |rotatePointSymbols| :sup:`Rotate Point Symbols` allows you to "
+"individually change the rotation of point symbols in the map canvas."
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1275
 msgid ""
-"First of all, apply to the symbol a :ref:`data-defined <data_defined>` "
-"rotation:"
+"First, you need to indicate the field to store the rotation value in. "
+"This is made by assigning a field to the symbol :ref:`data-defined "
+"<data_defined>` rotation property:"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1278
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1279
 msgid ""
 "In the :menuselection:`Layer Properties --> Symbology` dialog, browse to "
 "the symbol editor dialog."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1280
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1281
 msgid ""
 "Click the |dataDefined| :guilabel:`Data-defined override` widget near the"
 " :guilabel:`Rotation` option of the top :guilabel:`Marker` level "
 "(preferably) of the symbol layers."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1283
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1284
 msgid ""
 "Choose a field in the :guilabel:`Field Type` combobox. Values of this "
 "field are hence used to rotate each feature's symbol accordingly."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1286
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1287
+msgid ""
+"You can also check the :sup:`Store data in project` entry to generate an "
+":ref:`auxiliary data storage <vector_auxiliary_storage>` field to control"
+" the rotation value."
+msgstr ""
+
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1291
 msgid "**Make sure that the same field is assigned to all the symbol layers**"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1288
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1293
 msgid ""
 "Setting the data-defined rotation field at the topmost level of the "
 "symbol tree automatically propagates it to all the symbol layers, a "
@@ -1946,43 +1954,75 @@ msgid ""
 " work."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1299
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1304
 msgid "Rotating a point symbol"
-msgstr ""
-
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1301
-msgid ""
-"Then click on a point feature in the map canvas with the "
-"|rotatePointSymbols| :sup:`Rotate Point Symbols` and move the mouse "
-"around, holding the left button pressed. A red arrow with the rotation "
-"value will be visualized (see Figure_rotate_point_)."
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1306
 msgid ""
-"Release the left mouse button again, the symbol is defined with this new "
-"rotation and the rotation field is updated in the layer's attribute "
-"table."
+"Then click on a point symbol in the map canvas with the "
+"|rotatePointSymbols| :sup:`Rotate Point Symbols` tool"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1311
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1308
 msgid ""
-"If you hold the :kbd:`Ctrl` key pressed, the rotation will be done in 15 "
-"degree steps."
+"Move the mouse around. A red arrow with the rotation value will be "
+"visualized (see Figure_rotate_point_). If you hold the :kbd:`Ctrl` key "
+"while moving, the rotation will be done in 15 degree steps."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1321
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1313
+msgid ""
+"When you get the expected angle value, click again. The symbol is "
+"rendered with this new rotation and the associated field is updated "
+"accordingly."
+msgstr ""
+
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1316
+msgid "You can right-click to abort symbol rotation."
+msgstr ""
+
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1325
 msgid ""
 "The |offsetPointSymbols| :sup:`Offset Point Symbols` allows you to "
 "interactively change the rendered position of point symbols in the map "
 "canvas. This tool behaves like the |rotatePointSymbols| :sup:`Rotate "
 "Point Symbols` tool except that it requires you to connect a field to the"
-" data-defined :guilabel:`Offset (X,Y)` property of the symbol, field "
-"which will then be populated with the offset coordinates while moving the"
-" symbol in the map canvas."
+" data-defined :guilabel:`Offset (X,Y)` property of each layer of the "
+"symbol. The field will then be populated with the offset coordinates for "
+"the features whose symbol is moved in the map canvas."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1328
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1332
+msgid ""
+"Associate a field to the data-defined widget of the :guilabel:`Offset "
+"(X,Y)` property of the symbol. If the symbol is made with many layers, "
+"you may want to assign the field to each of them"
+msgstr ""
+
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1335
+msgid "Select the |offsetPointSymbols| :sup:`Offset Point Symbols` tool"
+msgstr ""
+
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1336
+msgid "Click a point symbol"
+msgstr ""
+
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1337
+msgid "Move to a new location"
+msgstr ""
+
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1338
+msgid ""
+"Click again. The symbol is moved to the new place. Offset values from the"
+" original position are stored in the linked field."
+msgstr ""
+
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1341
+msgid "You can right-click to abort symbol offset."
+msgstr ""
+
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1343
 msgid ""
 "The |offsetPointSymbols| :sup:`Offset Point Symbols` tool doesn't move "
 "the point feature itself; you should use the |vertexToolActiveLayer| "
@@ -1990,18 +2030,18 @@ msgid ""
 "Feature` tool for this purpose."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1336
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1351
 msgid "Trim/Extend Feature"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1338
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1353
 msgid ""
 "When a digitized line is too short or too long to snap to another line "
 "(missing or crossing the line), it is necessary to be able to extend or "
 "shorten the segment."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1341
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1356
 msgid ""
 "The |trimExtend| :sup:`Trim/Extend` tool allows you to also modify "
 "(multi)lines AND (multi)polygons. Moreover, it is not necessarily the end"
@@ -2009,55 +2049,55 @@ msgid ""
 "modified."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1346
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1361
 msgid "This can lead to invalid geometries."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1348
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1363
 msgid "You must activate segment snapping for this tool to work."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1350
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1365
 msgid ""
 "The tool asks you to select a limit (a segment) with respect to which "
 "another segment will be extended or trimmed. Unlike the vertex tool, a "
 "check is performed to modify only the layer being edited."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1355
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1370
 msgid ""
 "When both segments are in 3D, the tool performs an interpolation on the "
 "limit segment to get the Z value."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1358
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1373
 msgid ""
 "In the case of a trim, you must select the part that will be shortened by"
 " clicking on it."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1364
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1379
 msgid "Shape digitizing"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1366
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1381
 msgid ""
 "The :guilabel:`Shape Digitizing` toolbar offers a set of tools to draw "
 "regular shapes and curved geometries."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1373
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1388
 msgid "Add Circular string"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1375
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1390
 msgid ""
 "The |circularStringCurvePoint| :sup:`Add circular string` or "
 "|circularStringRadius| :sup:`Add circular string by radius` buttons allow"
 " users to add line or polygon features with a circular geometry."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1379
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1394
 msgid ""
 "Creating features with these tools follow the same rule as of other "
 "digitizing tools: left-click to place vertices and right-click to finish "
@@ -2066,11 +2106,11 @@ msgid ""
 "creating some coumpound geometries."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1385
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1400
 msgid "**Curved geometries are stored as such only in compatible data provider**"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1387
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1402
 msgid ""
 "Although QGIS allows to digitize curved geometries within any editable "
 "data format, you need to be using a data provider (e.g. PostGIS, memory "
@@ -2078,17 +2118,17 @@ msgid ""
 "curved, otherwise QGIS segmentizes the circular arcs."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1396
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1411
 msgid "Draw Circles"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1398
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1413
 msgid ""
 "There is a set of tools for drawing circles. The tools are described "
 "below."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1401
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1416
 msgid ""
 "Circles are converted into circular strings. Therefore, as explained in "
 ":ref:`add_circular_string`, if allowed by the data provider, it will be "
@@ -2096,20 +2136,20 @@ msgid ""
 "arcs."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1405
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1420
 msgid ""
 "|circle2Points| :sup:`Add circle from 2 points`: The two points define "
 "the diameter and the orientation of  the circle. (Left-click, right-"
 "click)"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1407
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1422
 msgid ""
 "|circle3Points| :sup:`Add circle from 3 points`: Draws a circle from "
 "three known points on the circle. (Left-click, left-click, right-click)"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1409
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1424
 msgid ""
 "|circleCenterPoint| :sup:`Add circle from center and a point`: Draws a "
 "circle with a given center and a point on the circle (Left-click, right-"
@@ -2118,7 +2158,7 @@ msgid ""
 "locking the distance value after first click."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1414
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1429
 msgid ""
 "|circle3Tangents| :sup:`Add circle from 3 tangents`: Draws a circle that "
 "is tangential to three segments. **Note that you must activate snapping "
@@ -2127,79 +2167,79 @@ msgid ""
 " input is cleared. (Left-click, left-click, right-click)"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1419
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1434
 msgid ""
 "|circle2TangentsPoint| :sup:`Add circle from 2 tangents and a point`: "
 "Similar to circle from 3 tangents, except that you have to select two "
 "tangents, enter a radius and select the desired center."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1427
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1442
 msgid "Draw Ellipses"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1429
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1444
 msgid ""
 "There is a set of tools for drawing ellipses. The tools are described "
 "below."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1432
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1447
 msgid ""
 "Ellipses cannot be converted as circular strings, so they will always be "
 "segmented."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1435
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1450
 msgid ""
 "|ellipseCenter2Points| :sup:`Add Ellipse from center and two points`: "
 "Draws an ellipse with a given center, major axis and minor axis. (Left-"
 "click, left-click, right-click)"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1438
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1453
 msgid ""
 "|ellipseCenterPoint| :sup:`Add Ellipse from center and a point`: Draws an"
 " ellipse into a bounding box with the center and a corner. (Left-click, "
 "right-click)"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1441
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1456
 msgid ""
 "|ellipseExtent| :sup:`Add Ellipse from extent`: Draws an ellipse into a "
 "bounding box with two opposite corners. (Left-click, right-click)"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1443
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1458
 msgid ""
 "|ellipseFoci| :sup:`Add Ellipse from foci`: Draws an ellipse by 2 points "
 "for foci and a point on the ellipse. (Left-click, left-click, right-"
 "click)"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1450
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1465
 msgid "Draw Rectangles"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1452
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1467
 msgid ""
 "There is a set of tools for drawing rectangles. The tools are described "
 "below."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1455
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1470
 msgid ""
 "|rectangleCenter| :sup:`Rectangle from center and a point`: Draws a "
 "rectangle from the center and a corner. (Left-click, right-click)"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1457
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1472
 msgid ""
 "|rectangleExtent| :sup:`Rectangle from extent`: Draws a rectangle from "
 "two opposite corners. (Left-click, right-click)"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1459
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1474
 msgid ""
 "|rectangle3PointsDistance| :sup:`Rectangle from 3 points (distance)`: "
 "Draws an oriented rectangle from three points. The first and second "
@@ -2208,7 +2248,7 @@ msgid ""
 "click)"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1463
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1478
 msgid ""
 "|rectangle3PointsProjected| :sup:`Rectangle from 3 points (projected)`: "
 "Same as the preceding tool, but the length of the second edge is computed"
@@ -2216,15 +2256,15 @@ msgid ""
 "left-click, right-click)"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1473
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1488
 msgid "Draw rectangle from 3 points using distance (right) and projected (left)"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1479
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1494
 msgid "Draw Regular Polygons"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1481
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1496
 msgid ""
 "There is a set of tools for drawing regular polygons. The tools are "
 "described below. Left-click to place the first point. A dialog appears, "
@@ -2232,33 +2272,33 @@ msgid ""
 " regular polygon."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1486
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1501
 msgid ""
 "|regularPolygon2Points| :sup:`Regular polygon from two points`: Draws a "
 "regular polygon where the two points determine the length and angle of "
 "the first edge."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1488
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1503
 msgid ""
 "|regularPolygonCenterPoint| :sup:`Regular polygon from center and a "
 "point`: Draws a regular polygon from the provided center point. The "
 "second point determines the angle and distance to the middle of an edge."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1491
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1506
 msgid ""
 "|regularPolygonCenterCorner| :sup:`Regular polygon from center and a "
 "corner`: Same as the preceding tool, but the second point determines the "
 "angle and distante to a vertex."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1500
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1513
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1515
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1528
 msgid "The Advanced Digitizing panel"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1502
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1517
 msgid ""
 "When capturing, reshaping, splitting new or existing geometries you also "
 "have the possibility to use the Advanced Digitizing panel. You can "
@@ -2267,7 +2307,7 @@ msgid ""
 "directly so that you can make a precise definition of your new geometry."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1515
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1530
 msgid ""
 "The :guilabel:`Advanced Digitizing` panel can be open either with a "
 "right-click on the toolbar, from :menuselection:`View --> Panels -->` "
@@ -2276,230 +2316,230 @@ msgid ""
 "of tools."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1520
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1535
 msgid "The tools are not enabled if the map view is in geographic coordinates."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1523
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1538
 msgid "Concepts"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1525
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1540
 msgid ""
 "The aim of the Advanced Digitizing tool is to lock coordinates, lengths, "
 "and angles when moving the mouse during the digitalizing in the map "
 "canvas."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1528
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1543
 msgid ""
 "You can also create constraints with relative or absolute reference. "
 "Relative reference means that the next vertex constraints' values will be"
 " relative to the previous vertex or segment."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1533
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1548
 msgid "Snapping Settings"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1535
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1550
 msgid ""
 "Click the |settings| button to set the Advanced Digitizing Tool snapping "
 "settings. You can make the tool snap to common angles. The options are:"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1538
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1553
 msgid ":guilabel:`Do not snap to common angles`"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1539
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1554
 msgid ":guilabel:`Snap to 30º angles`"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1540
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1555
 msgid ":guilabel:`Snap to 45º angles`"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1541
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1556
 msgid ":guilabel:`Snap to 90º angles`"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1543
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1558
 msgid "You can also control the snapping to features. The options are:"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1545
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1560
 msgid ":guilabel:`Do not snap to vertices or segments`"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1546
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1561
 msgid ":guilabel:`Snap according to project configuration`"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1547
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1562
 msgid ":guilabel:`Snap to all layers`"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1550
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1565
 msgid "Keyboard shortcuts"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1552
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1567
 msgid ""
 "To speed up the use of Advanced Digitizing Panel, there are a couple of "
 "keyboard shortcuts available:"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1556
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1571
 msgid "Key"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1556
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1571
 msgid "Simple"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1556
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1571
 msgid ":kbd:`Ctrl+` or :kbd:`Alt+`"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1556
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1571
 msgid ":kbd:`Shift+`"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1558
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1573
 msgid ":kbd:`D`"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1558
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1573
 msgid "Set distance"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1558
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1573
 msgid "Lock distance"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1560
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1575
 msgid ":kbd:`A`"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1560
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1575
 msgid "Set angle"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1560
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1575
 msgid "Lock angle"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1560
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1575
 msgid "Toggle relative angle to last segment"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1562
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1577
 msgid ":kbd:`X`"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1562
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1577
 msgid "Set X coordinate"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1562
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1577
 msgid "Lock X coordinate"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1562
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1577
 msgid "Toggle relative X to last vertex"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1564
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1579
 msgid ":kbd:`Y`"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1564
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1579
 msgid "Set Y coordinate"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1564
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1579
 msgid "Lock Y coordinate"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1564
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1579
 msgid "Toggle relative Y to last vertex"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1566
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1581
 msgid ":kbd:`C`"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1566
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1581
 msgid "Toggle construction mode"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1568
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1583
 msgid ":kbd:`P`"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1568
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1583
 msgid "Toggle perpendicular and parallel modes"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1572
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1587
 msgid "Absolute reference digitizing"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1574
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1589
 msgid ""
 "When drawing a new geometry from scratch, it is very useful to have the "
 "possibility to start digitizing vertexes at given coordinates."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1577
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1592
 msgid ""
 "For example, to add a new feature to a polygonal layer, click the "
 "|capturePolygon| button. You can choose the X and Y coordinates where you"
 " want to start editing the feature, then:"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1581
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1596
 msgid "Click the :guilabel:`x` text box (or use the :kbd:`X` keyboard shortcut)."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1582
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1597
 msgid ""
 "Type the X coordinate value you want and press :kbd:`Enter` or click the "
 "|locked| button to their right to lock the mouse to the X axis on the map"
 " canvas."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1585
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1600
 msgid "Click the :guilabel:`y` text box (or use the :kbd:`Y` keyboard shortcut)."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1586
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1601
 msgid ""
 "Type the Y coordinate value you want and press :kbd:`Enter` or click the "
 "|locked| button to their right to lock the mouse to the Y axis on the map"
 " canvas."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1590
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1605
 msgid ""
 "Two blue dotted lines and a green cross identify the exact coordinates "
 "you entered. Start digitizing by clicking on the map canvas; the mouse "
 "position is locked at the green cross."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1597
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1612
 msgid "Start drawing at given coordinates"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1599
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1614
 msgid ""
 "You can continue digitizing by free hand, adding a new pair of "
 "coordinates, or you can type the segment's **length** (distance) and "
 "**angle**."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1602
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1617
 msgid ""
 "If you want to draw a segment of a given length, click the :guilabel:`d "
 "(distance)` text box (keyboard shortcut :kbd:`D`), type the distance "
@@ -2509,11 +2549,11 @@ msgid ""
 "whose radius is the value entered in the distance text box."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1612
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1627
 msgid "Fixed length segment"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1614
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1629
 msgid ""
 "Finally, you can also choose the angle of the segment. As described "
 "before , click the :guilabel:`a (angle)` text box (keyboard shortcut "
@@ -2522,21 +2562,21 @@ msgid ""
 "segment will follow the desired angle:"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1622
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1637
 msgid "Fixed angle segment"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1625
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1640
 msgid "Relative reference digitizing"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1627
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1642
 msgid ""
 "Instead of using absolute values of angles or coordinates, you can also "
 "use values relative to the last digitized vertex or segment."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1630
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1645
 msgid ""
 "For angles, you can click the |delta| button on the left of the "
 ":guilabel:`a` text box (or press :kbd:`Shift+A`) to toggle relative "
@@ -2544,7 +2584,7 @@ msgid ""
 "between the last segment and the mouse pointer."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1635
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1650
 msgid ""
 "For coordinates, click the |delta| buttons to the left of the "
 ":guilabel:`x` or :guilabel:`y` text boxes (or press :kbd:`Shift+X` or "
@@ -2553,11 +2593,11 @@ msgid ""
 "vertex to be the X and Y axes origin."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1642
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1657
 msgid "Continuous lock"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1644
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1659
 msgid ""
 "Both in absolute or relative reference digitizing, angle, distance, X and"
 " Y constraints can be locked continuously by clicking the |lockedRepeat| "
@@ -2565,11 +2605,11 @@ msgid ""
 "digitize several points or vertexes using the same constraints."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1651
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1666
 msgid "Parallel and perpendicular lines"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1653
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1668
 msgid ""
 "All the tools described above can be combined with the |cadPerpendicular|"
 " :sup:`Perpendicular` and |cadParallel| :sup:`Parallel` tools. These two "
@@ -2577,7 +2617,7 @@ msgid ""
 "another segment."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1657
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1672
 msgid ""
 "To draw a *perpendicular* segment, during the editing click the "
 "|cadPerpendicular| :sup:`Perpendicular` icon (keyboard shortcut :kbd:`P`)"
@@ -2587,11 +2627,11 @@ msgid ""
 " see a blue dotted line where your feature will be snapped:"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1667
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1682
 msgid "Perpendicular digitizing"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1669
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1684
 msgid ""
 "To draw a *parallel* feature, the steps are the same: click on the "
 "|cadParallel| :sup:`Parallel` icon (keyboard shortcut :kbd:`P` twice), "
@@ -2599,21 +2639,21 @@ msgid ""
 "feature:"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1676
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1691
 msgid "Parallel digitizing"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1678
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1693
 msgid ""
 "These two tools just find the right angle of the perpendicular and "
 "parallel angle and lock this parameter during your editing."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1682
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1697
 msgid "Construction mode"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1684
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1699
 msgid ""
 "You can enable and disable *construction* mode by clicking on the "
 "|cadConstruction| :sup:`Construction` icon or with the :kbd:`C` keyboard "
@@ -2623,13 +2663,13 @@ msgid ""
 " values."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1690
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1705
 msgid ""
 "As an example, the construction mode can be used to draw some point at an"
 " exact distance from an existing point."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1693
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1708
 msgid ""
 "With an existing point in the map canvas and the snapping mode correctly "
 "activated, you can easily draw other points at given distances and angles"
@@ -2638,7 +2678,7 @@ msgid ""
 " icon or with the :kbd:`C` keyboard shortcut."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1699
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1714
 msgid ""
 "Click next to the point from which you want to calculate the distance and"
 " click on the :guilabel:`d` box (:kbd:`D` shortcut) type the desired "
@@ -2646,18 +2686,18 @@ msgid ""
 "canvas:"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1706
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1721
 msgid "Distance from point"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1708
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1723
 msgid ""
 "Before adding the new point, press :kbd:`C` to exit the construction "
 "mode. Now, you can click on the map canvas, and the point will be placed "
 "at the distance entered."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1712
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1727
 msgid ""
 "You can also use the angle constraint to, for example, create another "
 "point at the same distance of the original one, but at a particular angle"
@@ -2671,11 +2711,11 @@ msgid ""
 "distance and angle."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1725
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1740
 msgid "Distance and angle from points"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1727
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1742
 msgid ""
 "Before adding the new point, press :kbd:`C` to exit the construction "
 "mode. Now, you can click on the map canvas, and the point will be placed "
@@ -2683,15 +2723,15 @@ msgid ""
 "can be added."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1734
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1749
 msgid "Points at given distance and angle"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1740
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1755
 msgid "The Processing in-place layer modifier"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1742
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1757
 msgid ""
 "The :ref:`Processing menu <label_processing>` provides access to a large "
 "set of tools to analyze and create new features based on the properties "
@@ -2702,21 +2742,21 @@ msgid ""
 "advanced and complex operations."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1749
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1764
 msgid "To edit features in-place:"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1751
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1766
 msgid "Select the layer to edit in the :guilabel:`Layers` panel."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1752
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1767
 msgid ""
 "Select the concerned features. You can skip this step, in which case the "
 "modification will apply to the whole layer."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1754
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1769
 msgid ""
 "Press the |processSelected| :sup:`Edit Features In-Place` button at the "
 "top of the :ref:`Processing toolbox <processing.toolbox>`. The list of "
@@ -2724,53 +2764,53 @@ msgid ""
 "modifications, i.e.:"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1758
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1773
 msgid "They work at the feature source and not at the layer level."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1759
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1774
 msgid "They do not change the layer structure, e.g. adding or removing fields."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1760
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1775
 msgid "They do not change the geometry type, e.g. from line to point layer."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1765
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1780
 msgid "Processing algorithms: all (left) vs polygon in-place editors (right)"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1767
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1782
 msgid "Find the algorithm you'd like to run and double-click it."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1769
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1784
 msgid ""
 "If the algorithm does not need any additional user-set parameters "
 "(excluding the usual input and output layer parameters), then the "
 "algorithm is run immediately without any dialog popup."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1773
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1788
 msgid ""
 "If parameters other than the usual input or output layers are needed, the"
 " algorithm dialog pops up. Fill in the required information."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1775
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1790
 msgid ""
 "Click :guilabel:`Modify Selected Features` or :guilabel:`Modify All "
 "Features` depending on whether there's an active selection."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1778
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1793
 msgid ""
 "Changes are applied to the layer and placed in the edit buffer: the layer"
 " is indeed toggled to editing mode with unsaved modification as indicated"
 " by the |editableEdits| icon next to the layer name."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1781
+#: ../../docs/user_manual/working_with_vector/editing_geometry_attributes.rst:1796
 msgid ""
 "As usual, press |saveEdits| :sup:`Save layer edits` to commit the changes"
 " in the layer. You can also press |undo| :sup:`Undo` to rollback the "

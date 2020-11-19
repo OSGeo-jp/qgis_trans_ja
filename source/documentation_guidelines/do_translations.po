@@ -7,9 +7,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: QGIS Documentation testing\n"
+"Project-Id-Version: QGIS Documentation 3.16\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-29 18:52+0900\n"
+"POT-Creation-Date: 2020-11-19 13:16+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -490,59 +490,71 @@ msgid ""
 msgstr ""
 
 #: ../../docs/documentation_guidelines/do_translations.rst:338
-msgid "Do not change references that start with the tag ``:ref:`` or ``:file:``"
+msgid ""
+"Do not change references that start with roles like ``:ref:``, "
+"``:file:``, ``:numref:`` unless they include a title. In that case, you "
+"can translate the title but keep unchanged the link (i.e., the text "
+"between ``<`` and ``>``)"
 msgstr ""
 
-#: ../../docs/documentation_guidelines/do_translations.rst:339
+#: ../../docs/documentation_guidelines/do_translations.rst:342
+msgid ""
+"When a title is provided for a reference, Transifex may display a number "
+"in the English source text in replacement of the link part. Click on the "
+"number in the source text to add the reference link next to the title "
+"being translated."
+msgstr ""
+
+#: ../../docs/documentation_guidelines/do_translations.rst:346
 msgid ""
 "Do not change references that end with an underscore like "
 "``figure_labels_1_``"
 msgstr ""
 
-#: ../../docs/documentation_guidelines/do_translations.rst:340
+#: ../../docs/documentation_guidelines/do_translations.rst:347
 msgid ""
 "Do not change the url in hyperlinks, but you may change the external "
 "description. Leave the underscore at the end of the hyperlink, without "
 "additional spacing (``>`_``)"
 msgstr ""
 
-#: ../../docs/documentation_guidelines/do_translations.rst:343
+#: ../../docs/documentation_guidelines/do_translations.rst:350
 msgid ""
 "Change the text inside quotes following ``:index:``, ``:sup:``, "
 "``:guilabel:`` and ``:menuselection:`` tags. Check if/how it is "
 "translated in the QGIS Application. Do not change the tag itself."
 msgstr ""
 
-#: ../../docs/documentation_guidelines/do_translations.rst:346
+#: ../../docs/documentation_guidelines/do_translations.rst:353
 msgid ""
 "Text between double stars and double quotes often indicate values or "
 "fieldnames, sometimes they need translation sometimes not."
 msgstr ""
 
-#: ../../docs/documentation_guidelines/do_translations.rst:348
+#: ../../docs/documentation_guidelines/do_translations.rst:355
 msgid ""
 "Be aware to use exactly the same (number of) special characters of the "
 "source text such as `````, ``````, ``*``, ``**``, ``::``. These "
 "contribute to the cosmetics of the information provided"
 msgstr ""
 
-#: ../../docs/documentation_guidelines/do_translations.rst:351
+#: ../../docs/documentation_guidelines/do_translations.rst:358
 msgid ""
 "Do not begin nor end the text hold by special characters or tags with a "
 "space"
 msgstr ""
 
-#: ../../docs/documentation_guidelines/do_translations.rst:352
+#: ../../docs/documentation_guidelines/do_translations.rst:359
 msgid ""
 "Do not end the translated strings with a new paragraph, otherwise the "
 "text will not be translated during the html generation."
 msgstr ""
 
-#: ../../docs/documentation_guidelines/do_translations.rst:355
+#: ../../docs/documentation_guidelines/do_translations.rst:362
 msgid "Stick to above presented rules and the translated document will look fine!"
 msgstr ""
 
-#: ../../docs/documentation_guidelines/do_translations.rst:357
+#: ../../docs/documentation_guidelines/do_translations.rst:364
 msgid ""
 "For any question, please contact the `QGIS Community Team <qgis-"
 "community-team@lists.osgeo.org>`_ or the `QGIS Translation Team <qgis-"

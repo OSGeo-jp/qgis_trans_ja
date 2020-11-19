@@ -7,9 +7,9 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: QGIS Documentation testing\n"
+"Project-Id-Version: QGIS Documentation 3.16\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2020-10-29 18:52+0900\n"
+"POT-Creation-Date: 2020-11-19 13:16+0900\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -293,16 +293,11 @@ msgstr ""
 #: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:67
 #: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:80
 #: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:94
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:107
 #: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:118
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:141
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:165
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:178
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:193
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:220
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:233
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:248
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:275
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:300
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:122
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:149
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:174
 #: ../../docs/user_manual/working_with_vector/expression_help/String.rst:15
 #: ../../docs/user_manual/working_with_vector/expression_help/String.rst:21
 #: ../../docs/user_manual/working_with_vector/expression_help/String.rst:38
@@ -378,6 +373,7 @@ msgstr ""
 #: ../../docs/user_manual/working_with_vector/expression_help/Date_and_Time.rst:563
 #: ../../docs/user_manual/working_with_vector/expression_help/Date_and_Time.rst:615
 #: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:18
+#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:22
 #: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:41
 #: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:46
 #: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:64
@@ -396,8 +392,8 @@ msgstr ""
 #: ../../docs/user_manual/working_with_vector/expression_help/Math.rst:541
 #: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:44
 #: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:70
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:251
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:278
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:125
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:152
 #: ../../docs/user_manual/working_with_vector/expression_help/String.rst:41
 #: ../../docs/user_manual/working_with_vector/expression_help/String.rst:107
 #: ../../docs/user_manual/working_with_vector/expression_help/String.rst:434
@@ -644,16 +640,15 @@ msgstr ""
 #: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:42
 #: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:45
 #: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:54
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:69
 #: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:71
 #: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:82
 #: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:96
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:109
 #: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:120
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:180
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:195
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:235
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:252
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:279
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:302
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:126
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:153
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:176
 #: ../../docs/user_manual/working_with_vector/expression_help/String.rst:17
 #: ../../docs/user_manual/working_with_vector/expression_help/String.rst:23
 #: ../../docs/user_manual/working_with_vector/expression_help/String.rst:42
@@ -990,6 +985,8 @@ msgstr ""
 #: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:24
 #: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:25
 #: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:26
+#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:29
+#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:30
 #: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:39
 #: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:41
 #: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:42
@@ -1099,19 +1096,16 @@ msgstr ""
 #: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:52
 #: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:56
 #: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:69
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:72
 #: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:75
 #: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:84
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:96
 #: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:100
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:111
 #: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:123
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:143
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:167
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:182
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:198
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:222
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:237
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:256
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:281
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:305
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:130
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:155
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:179
 #: ../../docs/user_manual/working_with_vector/expression_help/String.rst:20
 #: ../../docs/user_manual/working_with_vector/expression_help/String.rst:25
 #: ../../docs/user_manual/working_with_vector/expression_help/String.rst:47
@@ -4732,8 +4726,8 @@ msgid "``year(age('2012-01-01','2010-01-01'))`` → 1.9986"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/functions_list.rst:160
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:705
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:1004
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:713
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:1030
 msgid "**Some examples:**"
 msgstr ""
 
@@ -5425,7 +5419,7 @@ msgid "``var('qgis_version')`` → '2.12'"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/functions_list.rst:270
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:605
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:613
 msgid "Further reading: List of default :ref:`variables <expression_variables>`"
 msgstr ""
 
@@ -6189,8 +6183,8 @@ msgid ""
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/functions_list.rst:358
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:484
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:544
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:492
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:552
 msgid "Further reading: :ref:`qgisextractspecificvertices` algorithm"
 msgstr ""
 
@@ -7953,7 +7947,7 @@ msgstr ""
 #: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:38
 msgid ""
 "Read more on the underlying GEOS \"Contains\" predicate, as described in "
-"PostGIS `ST_CONTAINS <https://postgis.net/docs/ST_Contains.html>`_ "
+"PostGIS `ST_Contains <https://postgis.net/docs/ST_Contains.html>`_ "
 "function."
 msgstr ""
 
@@ -7961,10 +7955,12 @@ msgstr ""
 msgid "overlay_contains(layer, [expression], [filter], [limit], [cache=false])"
 msgstr ""
 
+#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:24
 #: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:48
 msgid "**layer** - the layer whose overlay is checked"
 msgstr ""
 
+#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:25
 #: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:49
 msgid ""
 "**expression** - an optional expression to evaluate on the features from "
@@ -7972,20 +7968,22 @@ msgid ""
 "indicating whether there is at least one match."
 msgstr ""
 
+#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:26
 #: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:50
 msgid ""
 "**filter** - an optional expression to filter the target features to "
 "check. If not set, all the features will be checked."
 msgstr ""
 
+#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:27
 #: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:51
 msgid ""
 "**limit** - an optional integer to limit the number of matching features."
 " If not set, all the matching features will be returned."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:24
-#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:25
+#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:28
+#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:29
 #: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:52
 msgid ""
 "**cache** - set this to true to build a local spatial index (most of the "
@@ -8030,7 +8028,8 @@ msgstr ""
 #: ../../docs/user_manual/working_with_vector/functions_list.rst:430
 msgid ""
 "Further reading: :ref:`expression_function_GeometryGroup_contains`, "
-":ref:`qgisselectbylocation` algorithm"
+":ref:`array manipulation <array_functions>`, :ref:`qgisselectbylocation` "
+"algorithm"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:8
@@ -8039,62 +8038,61 @@ msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:10
 msgid ""
-"Performs a spatial join of type CROSSES. This returns an array of results"
-" of an expression evaluated on features from a different layer that "
-"CROSSES the current feature, or, if no expression if provided, simply "
-"returns whether at least one feature from the other layer CROSSES the "
-"current feature."
+"Returns whether the current feature spatially crosses at least one "
+"feature from a target layer, or an array of expression-based results for "
+"the features in the target layer crossed by the current feature."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:16
-msgid "overlay_crosses(layer, [expression], [filter], [limit], [cache=False])"
+#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:14
+msgid ""
+"Read more on the underlying GEOS \"Crosses\" predicate, as described in "
+"PostGIS `ST_Crosses <https://postgis.net/docs/ST_Crosses.html>`_ "
+"function."
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:20
-msgid "**layer** - the other layer"
+msgid "overlay_crosses(layer, [expression], [filter], [limit], [cache=false])"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:21
+#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:30
 msgid ""
-"**expression** - an optional expression to evaluate on the features from "
-"the other layer (if not set, the function will just return a boolean "
-"indicating whether there is at least one match)"
+"``overlay_crosses('regions')`` → true if the current feature spatially "
+"crosses a region"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:22
+#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:31
 msgid ""
-"**filter** - an optional expression to filter the matching features (if "
-"not set, all features will be returned)"
+"``overlay_crosses('regions', filter:= population > 10000)`` → true if the"
+" current feature spatially crosses a region with a population greater "
+"than 10000"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:23
+#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:32
 msgid ""
-"**limit** - an optional integer to limit the number of matching features "
-"(if not set, all features will be returned)"
+"``overlay_crosses('regions', name)`` → an array of names, for the regions"
+" crossed by the current feature"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:26
-msgid "``overlay_crosses('regions')`` → True"
-msgstr ""
-
-#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:27
-msgid "``overlay_crosses('regions', name)`` → ['South Africa', 'Africa', 'World']"
-msgstr ""
-
-#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:28
+#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:33
 msgid ""
-"``overlay_crosses('regions', name, name != 'World')`` → ['South Africa', "
-"'Africa']"
+"``array_sort(overlay_crosses(layer:='regions', expression:=\"name\", "
+"filter:= population > 10000))`` → an ordered array of names, for the "
+"regions crossed by the current feature and with a population greater than"
+" 10000"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:29
-msgid "``overlay_crosses('regions', name, limit:=1)`` → ['South Africa']"
+#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:34
+msgid ""
+"``overlay_crosses(layer:='regions', expression:= geom_to_wkt($geometry), "
+"limit:=2)`` → an array of geometries (in WKT), for up to two regions "
+"crossed by the current feature"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:437
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:438
 msgid ""
 "Further reading: :ref:`expression_function_GeometryGroup_crosses`, "
-":ref:`qgisselectbylocation` algorithm"
+":ref:`array manipulation <array_functions>`, :ref:`qgisselectbylocation` "
+"algorithm"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:8
@@ -8103,41 +8101,62 @@ msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:10
 msgid ""
-"Performs a spatial join of type DISJOINT. This returns an array of "
-"results of an expression evaluated on features from a different layer "
-"that DISJOINT the current feature, or, if no expression if provided, "
-"simply returns whether at least one feature from the other layer DISJOINT"
-" the current feature."
+"Returns whether the current feature is spatially disjoint from at least "
+"one feature from a target layer, or an array of expression-based results "
+"for the features in the target layer that are disjoint from the current "
+"feature."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:16
-msgid "overlay_disjoint(layer, [expression], [filter], [limit], [cache=False])"
-msgstr ""
-
-#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:26
-msgid "``overlay_disjoint('regions')`` → True"
-msgstr ""
-
-#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:27
+#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:14
 msgid ""
-"``overlay_disjoint('regions', name)`` → ['South Africa', 'Africa', "
-"'World']"
+"Read more on the underlying GEOS \"Disjoint\" predicate, as described in "
+"PostGIS `ST_Disjoint <https://postgis.net/docs/ST_Disjoint.html>`_ "
+"function."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:28
+#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:20
+msgid "overlay_disjoint(layer, [expression], [filter], [limit], [cache=false])"
+msgstr ""
+
+#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:30
 msgid ""
-"``overlay_disjoint('regions', name, name != 'World')`` → ['South Africa',"
-" 'Africa']"
+"``overlay_disjoint('regions')`` → true if the current feature is "
+"spatially disjoint from a region"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:29
-msgid "``overlay_disjoint('regions', name, limit:=1)`` → ['South Africa']"
+#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:31
+msgid ""
+"``overlay_disjoint('regions', filter:= population > 10000)`` → true if "
+"the current feature is spatially disjoint from a region with a population"
+" greater than 10000"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:444
+#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:32
+msgid ""
+"``overlay_disjoint('regions', name)`` → an array of names, for the "
+"regions spatially disjoint from the current feature"
+msgstr ""
+
+#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:33
+msgid ""
+"``array_sort(overlay_disjoint(layer:='regions', expression:=\"name\", "
+"filter:= population > 10000))`` → an ordered array of names, for the "
+"regions spatially disjoint from the current feature and with a population"
+" greater than 10000"
+msgstr ""
+
+#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:34
+msgid ""
+"``overlay_disjoint(layer:='regions', expression:= geom_to_wkt($geometry),"
+" limit:=2)`` → an array of geometries (in WKT), for up to two regions "
+"spatially disjoint from the current feature"
+msgstr ""
+
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:446
 msgid ""
 "Further reading: :ref:`expression_function_GeometryGroup_disjoint`, "
-":ref:`qgisselectbylocation` algorithm"
+":ref:`array manipulation <array_functions>`, :ref:`qgisselectbylocation` "
+"algorithm"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:8
@@ -8146,37 +8165,60 @@ msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:10
 msgid ""
-"Performs a spatial join of type EQUALS. This returns an array of results "
-"of an expression evaluated on features from a different layer that EQUALS"
-" the current feature, or, if no expression if provided, simply returns "
-"whether at least one feature from the other layer EQUALS the current "
+"Returns whether the current feature spatially equals to at least one "
+"feature from a target layer, or an array of expression-based results for "
+"the features in the target layer that are spatially equal to the current "
 "feature."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:16
-msgid "overlay_equals(layer, [expression], [filter], [limit], [cache=False])"
-msgstr ""
-
-#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:26
-msgid "``overlay_equals('regions')`` → True"
-msgstr ""
-
-#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:27
-msgid "``overlay_equals('regions', name)`` → ['South Africa', 'Africa', 'World']"
-msgstr ""
-
-#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:28
+#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:14
 msgid ""
-"``overlay_equals('regions', name, name != 'World')`` → ['South Africa', "
-"'Africa']"
+"Read more on the underlying GEOS \"Equals\" predicate, as described in "
+"PostGIS `ST_Equals <https://postgis.net/docs/ST_Equals.html>`_ function."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:29
-msgid "``overlay_equals('regions', name, limit:=1)`` → ['South Africa']"
+#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:20
+msgid "overlay_equals(layer, [expression], [filter], [limit], [cache=false])"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:451
-msgid "Further reading: :ref:`qgisselectbylocation` algorithm"
+#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:30
+msgid ""
+"``overlay_equals('regions')`` → true if the current feature is spatially "
+"equal to a region"
+msgstr ""
+
+#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:31
+msgid ""
+"``overlay_equals('regions', filter:= population > 10000)`` → true if the "
+"current feature is spatially equal to a region with a population greater "
+"than 10000"
+msgstr ""
+
+#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:32
+msgid ""
+"``overlay_equals('regions', name)`` → an array of names, for the regions "
+"spatially equal to the current feature"
+msgstr ""
+
+#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:33
+msgid ""
+"``array_sort(overlay_equals(layer:='regions', expression:=\"name\", "
+"filter:= population > 10000))`` → an ordered array of names, for the "
+"regions spatially equal to the current feature and with a population "
+"greater than 10000"
+msgstr ""
+
+#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:34
+msgid ""
+"``overlay_equals(layer:='regions', expression:= geom_to_wkt($geometry), "
+"limit:=2)`` → an array of geometries (in WKT), for up to two regions "
+"spatially equal to the current feature"
+msgstr ""
+
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:454
+msgid ""
+"Further reading: :ref:`array manipulation <array_functions>`, "
+":ref:`qgisselectbylocation` algorithm"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:8
@@ -8185,41 +8227,61 @@ msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:10
 msgid ""
-"Performs a spatial join of type INTERSECTS. This returns an array of "
-"results of an expression evaluated on features from a different layer "
-"that INTERSECTS the current feature, or, if no expression if provided, "
-"simply returns whether at least one feature from the other layer "
-"INTERSECTS the current feature."
+"Returns whether the current feature spatially intersects at least one "
+"feature from a target layer, or an array of expression-based results for "
+"the features in the target layer intersected by the current feature."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:16
-msgid "overlay_intersects(layer, [expression], [filter], [limit], [cache=False])"
-msgstr ""
-
-#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:26
-msgid "``overlay_intersects('regions')`` → True"
-msgstr ""
-
-#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:27
+#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:14
 msgid ""
-"``overlay_intersects('regions', name)`` → ['South Africa', 'Africa', "
-"'World']"
+"Read more on the underlying GEOS \"Intersects\" predicate, as described "
+"in PostGIS `ST_INTERSECTS <https://postgis.net/docs/ST_Intersects.html>`_"
+" function."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:28
+#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:20
+msgid "overlay_intersects(layer, [expression], [filter], [limit], [cache=false])"
+msgstr ""
+
+#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:30
 msgid ""
-"``overlay_intersects('regions', name, name != 'World')`` → ['South "
-"Africa', 'Africa']"
+"``overlay_intersects('regions')`` → true if the current feature spatially"
+" intersects a region"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:29
-msgid "``overlay_intersects('regions', name, limit:=1)`` → ['South Africa']"
+#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:31
+msgid ""
+"``overlay_intersects('regions', filter:= population > 10000)`` → true if "
+"the current feature spatially intersects a region with a population "
+"greater than 10000"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:457
+#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:32
+msgid ""
+"``overlay_intersects('regions', name)`` → an array of names, for the "
+"regions intersected by the current feature"
+msgstr ""
+
+#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:33
+msgid ""
+"``array_sort(overlay_intersects(layer:='regions', expression:=\"name\", "
+"filter:= population > 10000))`` → an ordered array of names, for the "
+"regions intersected by the current feature and with a population greater "
+"than 10000"
+msgstr ""
+
+#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:34
+msgid ""
+"``overlay_intersects(layer:='regions', expression:= "
+"geom_to_wkt($geometry), limit:=2)`` → an array of geometries (in WKT), "
+"for up to two regions intersected by the current feature"
+msgstr ""
+
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:461
 msgid ""
 "Further reading: :ref:`expression_function_GeometryGroup_intersects`, "
-":ref:`qgisselectbylocation` algorithm"
+":ref:`array manipulation <array_functions>`, :ref:`qgisselectbylocation` "
+"algorithm"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:8
@@ -8228,51 +8290,89 @@ msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:10
 msgid ""
-"This returns an array of results of an expression evaluated on features "
-"from a different layer ordered BY DISTANCE to the current feature, or, if"
-" no expression if provided, simply returns whether at least one feature "
-"from the other layer was found. Note : this function can be slow and "
-"consume a lot of memory for large layers."
+"Returns whether the current feature has feature(s) from a target layer "
+"within a given distance, or an array of expression-based results for the "
+"features in the target layer within a distance from the current feature."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:16
+#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:14
 msgid ""
-"overlay_nearest(layer, [expression], [filter], [limit], [max_distance], "
-"[cache=False])"
+"Note: This function can be slow and consume a lot of memory for large "
+"layers."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:23
+#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:20
 msgid ""
-"**limit** - an optional integer to limit the number of matching features "
-"(if not set, only the nearest feature will be returned)"
+"overlay_nearest(layer, [expression], [filter], [limit=1], [max_distance],"
+" [cache=false])"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:24
+msgid "**layer** - the target layer"
+msgstr ""
+
+#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:26
 msgid ""
-"**max_distance** - an optional maximum distance to limit the number of "
-"matching features (if not set, only the nearest feature will be returned)"
+"**filter** - an optional expression to filter the target features to "
+"check. If not set, all the features in the target layer will be used."
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:27
-msgid "``overlay_nearest('regions')`` → True"
+msgid ""
+"**limit** - an optional integer to limit the number of matching features."
+" If not set, only the nearest feature will be returned. If set to -1, "
+"returns all the matching features."
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:28
-msgid "``overlay_nearest('regions', name)`` → ['South Africa', 'Africa', 'World']"
-msgstr ""
-
-#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:29
 msgid ""
-"``overlay_nearest('regions', name, name != 'World')`` → ['South Africa', "
-"'Africa']"
+"**max_distance** - an optional distance to limit the search of matching "
+"features. If not set, all the features in the target layer will be used."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:30
-msgid "``overlay_nearest('regions', name, limit:=1)`` → ['South Africa']"
+#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:31
+msgid ""
+"``overlay_nearest('airports')`` → true if the \"airports\" layer has at "
+"least one feature"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:464
-msgid "Further reading: :ref:`qgisjoinbynearest` algorithm"
+#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:32
+msgid ""
+"``overlay_nearest('airports', max_distance:= 5000)`` → true if there is "
+"an airport within a distance of 5000 map units from the current feature"
+msgstr ""
+
+#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:33
+msgid ""
+"``overlay_nearest('airports', name)`` → the name of the closest airport "
+"to the current feature"
+msgstr ""
+
+#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:34
+msgid ""
+"``overlay_nearest(layer:='airports', expression:= name, max_distance:= "
+"5000)`` → the name of the closest airport within a distance of 5000 map "
+"units from the current feature"
+msgstr ""
+
+#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:35
+msgid ""
+"``overlay_nearest(layer:='airports', expression:=\"name\", filter:= "
+"\"Use\"='Civilian', limit:=3)`` → an array of names, for up to the three "
+"closest civilian airports ordered by distance"
+msgstr ""
+
+#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:36
+msgid ""
+"``overlay_nearest(layer:='airports', expression:=\"name\", limit:= -1, "
+"max_distance:= 5000)`` → an array of names, for all the airports within a"
+" distance of 5000 map units from the current feature, ordered by distance"
+msgstr ""
+
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:469
+msgid ""
+"Further reading: :ref:`array manipulation <array_functions>`, "
+":ref:`qgisjoinbynearest` algorithm"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:8
@@ -8281,39 +8381,61 @@ msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:10
 msgid ""
-"Performs a spatial join of type TOUCHES. This returns an array of results"
-" of an expression evaluated on features from a different layer that "
-"TOUCHES the current feature, or, if no expression if provided, simply "
-"returns whether at least one feature from the other layer TOUCHES the "
-"current feature."
+"Returns whether the current feature spatially touches at least one "
+"feature from a target layer, or an array of expression-based results for "
+"the features in the target layer touched by the current feature."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:16
-msgid "overlay_touches(layer, [expression], [filter], [limit], [cache=False])"
-msgstr ""
-
-#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:26
-msgid "``overlay_touches('regions')`` → True"
-msgstr ""
-
-#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:27
-msgid "``overlay_touches('regions', name)`` → ['South Africa', 'Africa', 'World']"
-msgstr ""
-
-#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:28
+#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:14
 msgid ""
-"``overlay_touches('regions', name, name != 'World')`` → ['South Africa', "
-"'Africa']"
+"Read more on the underlying GEOS \"Touches\" predicate, as described in "
+"PostGIS `ST_TOUCHES <https://postgis.net/docs/ST_Touches.html>`_ "
+"function."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:29
-msgid "``overlay_touches('regions', name, limit:=1)`` → ['South Africa']"
+#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:20
+msgid "overlay_touches(layer, [expression], [filter], [limit], [cache=false])"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:470
+#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:30
+msgid ""
+"``overlay_touches('regions')`` → true if the current feature spatially "
+"touches a region"
+msgstr ""
+
+#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:31
+msgid ""
+"``overlay_touches('regions', filter:= population > 10000)`` → true if the"
+" current feature spatially touches a region with a population greater "
+"than 10000"
+msgstr ""
+
+#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:32
+msgid ""
+"``overlay_touches('regions', name)`` → an array of names, for the regions"
+" touched by the current feature"
+msgstr ""
+
+#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:33
+msgid ""
+"``array_sort(overlay_touches(layer:='regions', expression:=\"name\", "
+"filter:= population > 10000))`` → an ordered array of names, for the "
+"regions touched by the current feature and with a population greater than"
+" 10000"
+msgstr ""
+
+#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:34
+msgid ""
+"``overlay_touches(layer:='regions', expression:= geom_to_wkt($geometry), "
+"limit:=2)`` → an array of geometries (in WKT), for up to two regions "
+"touched by the current feature"
+msgstr ""
+
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:476
 msgid ""
 "Further reading: :ref:`expression_function_GeometryGroup_touches`, "
-":ref:`qgisselectbylocation` algorithm"
+":ref:`array manipulation <array_functions>`, :ref:`qgisselectbylocation` "
+"algorithm"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:8
@@ -8322,39 +8444,60 @@ msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:10
 msgid ""
-"Performs a spatial join of type WITHIN. This returns an array of results "
-"of an expression evaluated on features from a different layer that are "
-"WITHIN the current feature, or, if no expression if provided, simply "
-"returns whether at least one feature from the other layer is WITHIN the "
-"current feature."
+"Returns whether the current feature is spatially within at least one "
+"feature from a target layer, or an array of expression-based results for "
+"the features in the target layer that contain the current feature."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:16
-msgid "overlay_within(layer, [expression], [filter], [limit], [cache=False])"
-msgstr ""
-
-#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:26
-msgid "``overlay_within('regions')`` → True"
-msgstr ""
-
-#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:27
-msgid "``overlay_within('regions', name)`` → ['South Africa', 'Africa', 'World']"
-msgstr ""
-
-#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:28
+#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:14
 msgid ""
-"``overlay_within('regions', name, name != 'World')`` → ['South Africa', "
-"'Africa']"
+"Read more on the underlying GEOS \"Within\" predicate, as described in "
+"PostGIS `ST_WITHIN <https://postgis.net/docs/ST_Within.html>`_ function."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:29
-msgid "``overlay_within('regions', name, limit:=1)`` → ['South Africa']"
+#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:20
+msgid "overlay_within(layer, [expression], [filter], [limit], [cache=false])"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:477
+#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:30
+msgid ""
+"``overlay_within('regions')`` → true if the current feature is spatially "
+"within a region"
+msgstr ""
+
+#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:31
+msgid ""
+"``overlay_within('regions', filter:= population > 10000)`` → true if the "
+"current feature is spatially within a region with a population greater "
+"than 10000"
+msgstr ""
+
+#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:32
+msgid ""
+"``overlay_within('regions', name)`` → an array of names, for the regions "
+"containing the current feature"
+msgstr ""
+
+#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:33
+msgid ""
+"``array_sort(overlay_within(layer:='regions', expression:=\"name\", "
+"filter:= population > 10000))`` → an ordered array of names, for the "
+"regions containing the current feature and with a population greater than"
+" 10000"
+msgstr ""
+
+#: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:34
+msgid ""
+"``overlay_within(layer:='regions', expression:= geom_to_wkt($geometry), "
+"limit:=2)`` → an array of geometries (in WKT), for up to two regions "
+"containing the current feature"
+msgstr ""
+
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:484
 msgid ""
 "Further reading: :ref:`expression_function_GeometryGroup_within`, "
-":ref:`qgisselectbylocation` algorithm"
+":ref:`array manipulation <array_functions>`, :ref:`qgisselectbylocation` "
+"algorithm"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression_help/GeometryGroup.rst:8
@@ -8439,7 +8582,7 @@ msgstr ""
 msgid "``point_on_surface($geometry)`` → a point geometry"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:490
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:498
 msgid "Further reading: :ref:`qgispointonsurface` algorithm"
 msgstr ""
 
@@ -8473,7 +8616,7 @@ msgid ""
 "3 10, 3 3, 10 3, 10 1, 0 1))'), 0.1))'`` → 'Point(1.546875 2.546875)'"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:496
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:504
 msgid "Further reading: :ref:`qgispoleofinaccessibility` algorithm"
 msgstr ""
 
@@ -8513,7 +8656,7 @@ msgid ""
 "2)'"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:502
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:510
 msgid "Further reading: :ref:`qgisprojectpointcartesian` algorithm"
 msgstr ""
 
@@ -8591,7 +8734,7 @@ msgid ""
 "'LINESTRING(2 2, 1 1, 0 0)'"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:508
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:516
 msgid "Further reading: :ref:`qgisreverselinedirection` algorithm"
 msgstr ""
 
@@ -8651,7 +8794,7 @@ msgid ""
 "2)')))`` → 'MultiLineString ((0 0, 1 1),(1 1, 2 2))'"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:514
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:522
 msgid "Further reading: :ref:`qgisexplodelines` algorithm"
 msgstr ""
 
@@ -8712,8 +8855,8 @@ msgid ""
 " 0)'),tolerance:=5))`` → 'LineString(0 0, 10 0)'"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:520
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:526
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:528
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:534
 msgid "Further reading: :ref:`qgissimplifygeometries` algorithm"
 msgstr ""
 
@@ -8792,7 +8935,7 @@ msgid ""
 "left by 10.5 units, using a beveled join"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:532
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:540
 msgid "Further reading: :ref:`qgissinglesidedbuffer` algorithm"
 msgstr ""
 
@@ -8849,7 +8992,7 @@ msgid ""
 "'LineString (0 0, 4 0, 5 1, 5 5)'"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:538
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:546
 msgid "Further reading: :ref:`qgissmoothgeometry` algorithm"
 msgstr ""
 
@@ -8892,7 +9035,7 @@ msgid ""
 "8)'"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:550
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:558
 msgid "Further reading: :ref:`qgissymmetricaldifference` algorithm"
 msgstr ""
 
@@ -8930,7 +9073,7 @@ msgid ""
 "linestring geometry."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:556
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:564
 msgid "Further reading: :ref:`qgistaperedbuffer` algorithm"
 msgstr ""
 
@@ -8960,7 +9103,7 @@ msgid ""
 ")`` → false"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:562
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:570
 msgid "Further reading: :ref:`expression_function_GeometryGroup_overlay_touches`"
 msgstr ""
 
@@ -8990,7 +9133,7 @@ msgid ""
 "'EPSG:2154', 'EPSG:4326' ) )`` → 'POINT(0 51)'"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:568
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:576
 msgid "Further reading: :ref:`qgisreprojectlayer` algorithm"
 msgstr ""
 
@@ -9022,7 +9165,7 @@ msgid ""
 "original one"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:574
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:582
 msgid "Further reading: :ref:`qgistranslategeometry` algorithm"
 msgstr ""
 
@@ -9086,7 +9229,7 @@ msgid ""
 "degrees and outer radius of 1."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:580
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:588
 msgid "Further reading: :ref:`qgiswedgebuffers` algorithm"
 msgstr ""
 
@@ -9116,7 +9259,7 @@ msgid ""
 "0 1, 1 1, 1 0, 0 0 ))' ) )`` → false"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:586
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:594
 msgid "Further reading: :ref:`expression_function_GeometryGroup_overlay_within`"
 msgstr ""
 
@@ -9394,11 +9537,11 @@ msgstr ""
 msgid "``z_min( geom_from_wkt( 'POINT ( 0 0 )' ) )`` → NULL"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:593
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:601
 msgid "Layout Functions"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:595
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:603
 msgid "This group contains functions to manipulate print layout items properties."
 msgstr ""
 
@@ -9425,11 +9568,11 @@ msgid ""
 "'Map 0' in the current print layout"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:612
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:620
 msgid "Map Layers"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:614
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:622
 msgid ""
 "This group contains a list of the available layers in the current "
 "project. This offers a convenient way to write expressions referring to "
@@ -9438,7 +9581,7 @@ msgid ""
 ":ref:`spatial <geometry_functions>` queries."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:619
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:627
 msgid "It also provides some convenient functions to manipulate layers."
 msgstr ""
 
@@ -9482,11 +9625,11 @@ msgstr ""
 msgid "``decode_uri(@layer, 'path')`` → 'C:\\\\my_data\\\\qgis\\\\shape.shp'"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:633
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:641
 msgid "Maps Functions"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:635
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:643
 msgid ""
 "This group contains functions to create or manipulate keys and values of "
 "map data structures (also known as dictionary objects, key-value pairs, "
@@ -9774,11 +9917,11 @@ msgstr ""
 msgid "``to_json(array(1,2,3))`` → [1,2,3]"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:650
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:658
 msgid "Mathematical Functions"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:652
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:660
 msgid "This group contains math functions (e.g., square root, sin and cos)."
 msgstr ""
 
@@ -10449,11 +10592,11 @@ msgstr ""
 msgid "``tan(1.0)`` → 1.5574077246549"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:663
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:671
 msgid "Operators"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:665
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:673
 msgid ""
 "This group contains operators (e.g., +, -, \\*). Note that for most of "
 "the mathematical functions below, if one of the inputs is NULL then the "
@@ -10717,21 +10860,21 @@ msgstr ""
 msgid "a is not below the values listed"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:707
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:715
 msgid "Joins a string and a value from a column name::"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:711
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:719
 msgid ""
 "Test if the \"description\" attribute field starts with the 'Hello' "
 "string in the value (note the position of the ``%`` character)::"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:720
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:728
 msgid "Processing Functions"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:722
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:730
 msgid "This group contains functions that operate on processing algorithms."
 msgstr ""
 
@@ -10755,11 +10898,11 @@ msgstr ""
 msgid "``parameter('BUFFER_SIZE')`` → 5.6"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:733
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:741
 msgid "Rasters Functions"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:735
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:743
 msgid "This group contains functions to operate on raster layer."
 msgstr ""
 
@@ -10851,11 +10994,11 @@ msgstr ""
 msgid "``raster_value('dem', 1, make_point(1,1))`` → 25"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:746
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:754
 msgid "Record and Attributes Functions"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:748
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:756
 msgid "This group contains functions that operate on record identifiers."
 msgstr ""
 
@@ -10953,7 +11096,7 @@ msgid ""
 "attribute for the current atlas feature"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:758
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:766
 msgid "Further reading: :ref:`maps_functions`"
 msgstr ""
 
@@ -10987,8 +11130,7 @@ msgid ""
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:32
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:158
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:213
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:87
 msgid "**No parameters**"
 msgstr ""
 
@@ -11009,13 +11151,12 @@ msgid ""
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:45
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:171
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:226
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:100
 msgid "**One 'feature' parameter**"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:47
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:228
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:102
 msgid ""
 "If called with a 'feature' parameter only, the function will evaluate the"
 " specified feature from the current layer."
@@ -11027,8 +11168,8 @@ msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:55
 #: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:73
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:236
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:254
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:110
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:128
 msgid "**feature** - The feature which should be evaluated."
 msgstr ""
 
@@ -11039,12 +11180,12 @@ msgid ""
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:60
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:241
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:115
 msgid "**Layer and feature parameters**"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:62
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:243
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:117
 msgid ""
 "If the function is called with both a layer and a feature, it will "
 "evaluate the specified feature from the specified layer."
@@ -11055,7 +11196,7 @@ msgid "display_expression(layer, feature, [evaluate=true])"
 msgstr ""
 
 #: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:72
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:253
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:127
 msgid "**layer** - The layer (or its ID or name)"
 msgstr ""
 
@@ -11134,87 +11275,91 @@ msgid ""
 "\"streets\""
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:134
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:142
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:772
+msgid "Further reading: :ref:`expression_function_Record_and_Attributes_$id`"
+msgstr ""
+
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:8
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:16
 msgid "$id"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:136
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:10
 msgid "Returns the feature id of the current row."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:144
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:18
 msgid "``$id`` → 42"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:154
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:28
 msgid "is_selected"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:156
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:30
 msgid ""
 "Returns True if a feature is selected. Can be used with zero, one or two "
 "arguments, see below for details."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:160
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:34
 msgid ""
 "If called with no parameters, the function will return true if the "
 "current feature in the current layer is selected."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:166
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:40
 msgid "is_selected()"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:168
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:42
 msgid ""
 "``is_selected()`` → True if the current feature in the current layer is "
 "selected."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:173
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:47
 msgid ""
 "If called with a 'feature' parameter only, the function returns true if "
 "the specified feature from the current layer is selected."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:179
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:53
 msgid "is_selected(feature)"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:181
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:197
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:55
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:71
 msgid "**feature** - The feature which should be checked for selection."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:183
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:57
 msgid ""
 "``is_selected(@atlas_feature)`` → True if the current atlas feature is "
 "selected."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:186
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:60
 msgid "**Two parameters**"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:188
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:62
 msgid ""
 "If the function is called with both a layer and a feature, it will return"
 " true if the specified feature from the specified layer is selected."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:194
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:68
 msgid "is_selected(layer, feature)"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:196
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:70
 msgid ""
 "**layer** - The layer (or its ID or name) on which the selection will be "
 "checked."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:199
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:73
 msgid ""
 "``is_selected( 'streets', get_feature('streets', 'name', "
 "\"street_name\"))`` → True if the current building's street is selected "
@@ -11222,128 +11367,128 @@ msgid ""
 "'streets' layer has a field called 'name')."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:209
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:83
 msgid "maptip"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:211
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:85
 msgid ""
 "Returns the maptip for a given feature in a layer. The expression is "
 "evaluated by default. Can be used with zero, one or more arguments, see "
 "below for details."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:215
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:89
 msgid ""
 "If called with no parameters, the function will evaluate the maptip of "
 "the current feature in the current layer."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:221
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:95
 msgid "maptip()"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:223
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:97
 msgid "``maptip()`` → The maptip of the current feature in the current layer."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:234
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:108
 msgid "maptip(feature)"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:238
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:112
 msgid "``maptip(@atlas_feature)`` → The maptip of the current atlas feature."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:249
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:123
 msgid "maptip(layer, feature, [evaluate=true])"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:255
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:129
 msgid ""
 "**evaluate** - If the expression must be evaluated. If false, the "
 "expression will be returned as a string literal only (which could "
 "potentially be later evaluated using the 'eval_template' function)."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:257
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:131
 msgid ""
 "``maptip('streets', get_feature_by_id('streets', 1))`` → The maptip of "
 "the feature with the ID 1 on the layer 'streets'."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:258
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:132
 msgid ""
 "``maptip('a_layer_id', $currentfeature, 'False')`` → The maptip of the "
 "given feature not evaluated."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:268
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:142
 msgid "num_selected"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:270
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:144
 msgid ""
 "Returns the number of selected features on a given layer. By default "
 "works on the layer on which the expression is evaluated."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:276
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:150
 msgid "num_selected([layer=current layer])"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:280
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:154
 msgid ""
 "**layer** - The layer (or its id or name) on which the selection will be "
 "checked."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:282
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:156
 msgid "``num_selected()`` → The number of selected features on the current layer."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:283
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:157
 msgid ""
 "``num_selected('streets')`` → The number of selected features on the "
 "layer streets"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:293
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:167
 msgid "represent_value"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:295
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:169
 msgid ""
 "Returns the configured representation value for a field value. It depends"
 " on the configured widget type. Often, this is useful for 'Value Map' "
 "widgets."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:301
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:175
 msgid "represent_value(value, fieldName)"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:303
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:177
 msgid "**value** - The value which should be resolved. Most likely a field."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:304
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:178
 msgid ""
 "**fieldName** - The field name for which the widget configuration should "
 "be loaded. (Optional)"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:306
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:180
 msgid "``represent_value(\"field_with_value_map\")`` → Description for value"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:307
+#: ../../docs/user_manual/working_with_vector/expression_help/Record_and_Attributes.rst:181
 msgid ""
 "``represent_value('static value', 'field_name')`` → Description for "
 "static value"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:764
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:778
 msgid "Further reading: :ref:`widget types <edit_widgets>`"
 msgstr ""
 
@@ -11459,7 +11604,7 @@ msgid ""
 " ''''))`` → 0"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:770
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:784
 msgid ""
 "Further reading: :ref:`project_data_source_properties`, "
 ":ref:`vector_relations`"
@@ -11484,11 +11629,25 @@ msgstr ""
 msgid "``uuid()`` → '{0bd2f60f-f157-4a6d-96af-d4ba4cb366a1}'"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:779
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:794
+msgid "Relations"
+msgstr ""
+
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:796
+msgid ""
+"This group contains the list of the :ref:`relations <project_relations>` "
+"available in the current project, with their description. It provides a "
+"quick access to the relation ID for writing an expression (with e.g. the "
+":ref:`relation_aggregate "
+"<expression_function_Aggregates_relation_aggregate>` function) or "
+"customizing a form."
+msgstr ""
+
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:805
 msgid "String Functions"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:781
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:807
 msgid ""
 "This group contains functions that operate on strings (e.g., that "
 "replace, convert to upper case)."
@@ -11568,24 +11727,24 @@ msgstr ""
 msgid "``concat('The Wall', NULL)`` → 'The Wall'"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:792
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:818
 msgid "**About fields concatenation**"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:794
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:820
 msgid ""
 "You can also concatenate strings or field values using either ``||`` or "
 "``+`` operators, with some special characteristics:"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:797
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:823
 msgid ""
 "The ``+`` operator also means sum up expression, so if you have an "
 "integer (field or numeric value) operand, this can be error prone and you"
 " better use the others::"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:803
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:829
 msgid ""
 "When any of the arguments is a NULL value, either ``||`` or ``+`` will "
 "return a NULL value. To return the other arguments regardless the NULL "
@@ -12104,44 +12263,44 @@ msgstr ""
 msgid "``wordwrap('UNIVERSITY OF QGIS',-3)`` → 'UNIVERSITY<br>OF QGIS'"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:817
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:843
 msgid "User Expressions"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:819
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:845
 msgid ""
 "This group contains the expressions saved as :ref:`user expressions "
 "<user_expressions_functions>`."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:826
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:852
 msgid "Variables"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:828
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:854
 msgid ""
 "This group contains dynamic variables related to the application, the "
 "project file and other settings. The availability of variables depends on"
 " the context:"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:832
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:858
 msgid "from the |expressionSelect| :sup:`Select by expression` dialog"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:833
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:859
 msgid "from the |calculateField| :sup:`Field calculator` dialog"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:834
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:860
 msgid "from the layer properties dialog"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:835
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:861
 msgid "from the print layout"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:837
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:863
 msgid ""
 "To use these variables in an expression, they should be preceded by the "
 "``@`` character (e.g, ``@row_number``)."
@@ -13196,25 +13355,25 @@ msgid ""
 "map scale). Normally in interval [0, 20]."
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:1006
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:1032
 msgid "Return the X coordinate of a map item center in layout::"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:1010
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:1036
 msgid ""
 "Return, for each feature in the current layer, the number of overlapping "
 "airport features::"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:1016
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:1042
 msgid "Get the object_id of the first snapped point of a line::"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:1032
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:1058
 msgid "Recent Functions"
 msgstr ""
 
-#: ../../docs/user_manual/working_with_vector/functions_list.rst:1034
+#: ../../docs/user_manual/working_with_vector/functions_list.rst:1060
 msgid ""
 "This group contains recently used functions. Depending on the context of "
 "its usage (feature selection, field calculator, generic), recently "
