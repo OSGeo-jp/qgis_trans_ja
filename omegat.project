@@ -44,7 +44,6 @@
 		    <mapping local="source/./user_manual/working_with_vector/attribute_table.po" repository="/locale/en/LC_MESSAGES/docs/./user_manual/working_with_vector/attribute_table.po"/>
 		    <mapping local="source/./user_manual/working_with_vector/index.po" repository="/locale/en/LC_MESSAGES/docs/./user_manual/working_with_vector/index.po"/>
 		    <mapping local="source/./user_manual/working_with_vector/expression.po" repository="/locale/en/LC_MESSAGES/docs/./user_manual/working_with_vector/expression.po"/>
-		    <mapping local="source/./user_manual/working_with_vector/functions_list.po" repository="/locale/en/LC_MESSAGES/docs/./user_manual/working_with_vector/functions_list.po"/>
 		    <mapping local="source/./user_manual/working_with_raster/georeferencer.po" repository="/locale/en/LC_MESSAGES/docs/./user_manual/working_with_raster/georeferencer.po"/>
 		    <mapping local="source/./user_manual/working_with_raster/raster_properties.po" repository="/locale/en/LC_MESSAGES/docs/./user_manual/working_with_raster/raster_properties.po"/>
 		    <mapping local="source/./user_manual/working_with_raster/index.po" repository="/locale/en/LC_MESSAGES/docs/./user_manual/working_with_raster/index.po"/>
