@@ -15872,10 +15872,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>He is also a doctoral student at Institute of Geography, Faculty of Science, Masaryk university (Brno, CZ).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T005917Z" creationid="miurahr" creationdate="20201120T005917Z">
+        <seg>また、マサリク大学理学部地理研究所（ブルノ、CZ）で博士課程の学生です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>He is an academic researcher at College of Business and Hotel Management, Ltd.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T224135Z" creationid="miurahr" creationdate="20201117T224042Z">
         <seg>College of Business and Hotel Management,Ltd.(Brno,CZ)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>He is an academic researcher at College of Business and Hotel Management, Ltd. (Brno, CZ) where he founded and leads Laboratory on Experimental and Applied Geography.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T005906Z" creationid="miurahr" creationdate="20201120T005906Z">
+        <seg>氏は、ビジネス・ホテルマネジメント専門学校株式会社（ブルノ、CZ）での学術研究者で、実験・応用地理研究所を設立しリードしています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23124,6 +23140,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T223918Z" creationid="miurahr" creationdate="20201117T223543Z">
         <seg>実験・応用地理研究所（LEAG：Laboratory on Experimental and Applied Geography)は、ホテルとビジネス経営学部の一部で、</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Laboratory on Experimental and Applied Geography (LEAG) is part of College of Hotel and Business Management, Ltd. In Brno, Czech Republic (Vysoká škola obchodní a hotelová, s.r.o.) which offers higher education at tourism, business and hotel management.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T005821Z" creationid="miurahr" creationdate="20201120T005821Z">
+        <seg>実験・応用地理研究所（LEAG）は、ブルノ、チェコ共和国でのホテルとビジネス経営学部の一部であり、株式会社の観光、ビジネス、ホテル経営で高い教育を提供しています（VysokáSKOLAobchodníAhotelová、SRO）。</seg>
       </tuv>
     </tu>
     <tu>
