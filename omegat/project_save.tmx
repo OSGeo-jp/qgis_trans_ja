@@ -4606,6 +4606,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Add the expected GML and XSD files in the folder.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T003709Z" creationid="miurahr" creationdate="20201120T003709Z">
+        <seg>期待されるGMLファイルとXSDファイルをフォルダに追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Add the key after the table has been created</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T034601Z" creationid="miurahr" creationdate="20201118T034601Z">
@@ -7267,6 +7275,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T014756Z" creationid="miurahr" creationdate="20201118T014756Z">
         <seg>**Styled Layer Descriptor（SLD）** についても基本的なサポートが利用可能です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Basic vector files</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T003658Z" creationid="miurahr" creationdate="20201120T003658Z">
+        <seg>基本ベクタファイル</seg>
       </tuv>
     </tu>
     <tu>
@@ -12808,6 +12824,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Executable: /usr/local/bin/qgis</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T004240Z" creationid="miurahr" creationdate="20201120T004240Z">
+        <seg>実行ファイル: /usr/local/bin/qgis</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Exercise: Linking Cities to People</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T103311Z" creationid="miurahr" creationdate="20201118T103311Z">
@@ -12916,6 +12940,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T014748Z" creationid="miurahr" creationdate="20201118T014748Z">
         <seg>QGISレンダリングエンジンのおかげでその振る舞いをカスタマイズする可能性を大いに高めるオリジナルの規格に加えて、追加のベンダーパラメータと要求がサポートされています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Extreme programming advocates suggest that the code should not even be written yet when you start building your tests, and then as you implement your code you can immediately validate each new functional part you add with your test.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T004302Z" creationid="miurahr" creationdate="20201120T004302Z">
+        <seg>エクストリーム・プログラミングの支持者は、テストのビルドを開始したときにはコードをまだ記述しないことをお勧めしています。そしてコードを実装すると、テストで追加した新しい機能部分をすぐに検証できるようになります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13104,10 +13136,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>File type parameters</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T003638Z" creationid="miurahr" creationdate="20201120T003638Z">
+        <seg>ファイル型パラメータ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Filename should be all lowercase and, in the case of classes, match the class name.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T091657Z" creationid="miurahr" creationdate="20201117T091657Z">
         <seg>ファイル名はすべて小文字で、クラスの場合、クラス名と一致する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Files</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T003724Z" creationid="miurahr" creationdate="20201120T003724Z">
+        <seg>ファイル</seg>
       </tuv>
     </tu>
     <tu>
@@ -16720,6 +16768,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>I'm assuming you have already got a local QGIS clone containing the source code, and have installed all needed build dependencies etc.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T004138Z" creationid="miurahr" creationdate="20201120T004138Z">
+        <seg>ソースコードを含むローカルのQGISのcloneしたリポジトリがすでにあり、必要なビルド依存関係などがすべてインストールされていると想定しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Icon</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201119T083010Z" creationid="miurahr" creationdate="20201119T083010Z">
@@ -16972,6 +17028,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T015620Z" creationid="miurahr" creationdate="20201118T015620Z">
         <seg>定義されていない場合はリクエスト中のMAPパラメーターを使用し、最終的にはサーバーの実行可能ファイルのディレクトリを見ていきます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If not specified, the algorithm will run with an empty project</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T003913Z" creationid="miurahr" creationdate="20201120T003913Z">
+        <seg>指定がない場合、アルゴリズムは空のプロジェクトで実行されます</seg>
       </tuv>
     </tu>
     <tu>
@@ -19718,6 +19782,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In practice you will probably need to write tests for pre-existing code in QGIS since we are starting with a testing framework well after much application logic has already been implemented.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T004315Z" creationid="miurahr" creationdate="20201120T004315Z">
+        <seg>実際には、QGISの既存のコードに対してテストを記述する必要があるでしょう。なぜなら、私たちは多くのアプリケーションロジックがすでに実装された後で、テストフレームワークから始めるためです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In practice, general reference and educational maps most often require the use of **equal area projections**.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201119T033146Z" creationid="miurahr" creationdate="20201119T033146Z">
@@ -21848,6 +21920,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>It couldn't be more trivial</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T003703Z" creationid="miurahr" creationdate="20201120T003703Z">
+        <seg>これ以上簡単ではありません</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>It created a buffer of 1 degree around our point, and returned the result as text.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T124110Z" creationid="miurahr" creationdate="20201118T124110Z">
@@ -23060,6 +23140,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T015353Z" creationid="miurahr" creationdate="20201118T015353Z">
         <seg>レイヤプロパティ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Layer type parameters</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T003601Z" creationid="miurahr" creationdate="20201120T003601Z">
+        <seg>レイヤ型パラメータ</seg>
       </tuv>
     </tu>
     <tu>
@@ -28072,6 +28160,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Or you can use one or more regular expressions that will be `matched &lt;https://docs.python.org/3/library/re.html#re.search&gt;`_ against the file content</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T003820Z" creationid="miurahr" creationdate="20201120T003820Z">
+        <seg>あるいは、ファイルの内容に対して `match&lt;https://docs.python.org/3/library/re.html#re.search&gt;`_ するような、1つまたは複数の正規表現を使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Or you can use the ``..</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201119T083647Z" creationid="miurahr" creationdate="20201119T083614Z">
@@ -30164,6 +30260,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Raster files</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T003718Z" creationid="miurahr" creationdate="20201120T003718Z">
+        <seg>ラスタファイル</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Raster files are compared with a hash checksum.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T224657Z" creationid="miurahr" creationdate="20201118T224657Z">
@@ -30812,6 +30916,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Results are specified very similarly.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T003646Z" creationid="miurahr" creationdate="20201120T003646Z">
+        <seg>結果も同様に指定されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Results of this monitoring exercise indicate the presence of 8-15 tigers in this landscape.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T225526Z" creationid="miurahr" creationdate="20201117T225526Z">
@@ -31200,6 +31312,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T220232Z" creationid="miurahr" creationdate="20201118T220232Z">
         <seg>実行してデバッグする</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Running tests locally</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T004029Z" creationid="miurahr" creationdate="20201120T004029Z">
+        <seg>ローカルでテストを実行</seg>
       </tuv>
     </tu>
     <tu>
@@ -39454,6 +39574,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>There are detailed instructions for :ref:`git access &lt;git_access&gt;` and `dependency installation &lt;https://github.com/qgis/QGIS/blob/master/INSTALL.md&gt;`_.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T004200Z" creationid="miurahr" creationdate="20201120T004200Z">
+        <seg>:ref:`git access&lt;git_access&gt;`および`dependency installation&lt;https://github.com/qgis/QGIS/blob/master/INSTALL.md&gt;`_に詳細な手順があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>There are different kinds of normalisation 'forms'.</seg>
       </tuv>
       <tuv lang="ja">
@@ -39810,6 +39938,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T224836Z" creationid="miurahr" creationdate="20201118T224836Z">
         <seg>回帰テストへの1つの以上の利点があります - それらは時間を節約できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>There is some code you want to test, e.g. a class or function.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T004250Z" creationid="miurahr" creationdate="20201120T004250Z">
+        <seg>クラスや関数など、テストしたいコードがあります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -41362,6 +41498,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135754Z" creationid="miurahr" creationdate="20201117T135754Z">
         <seg>想像できるように、これは非常に困難であり、さらには何百年も後に世界のどの地域のために完璧に地球を表現することが可能である単一の投影はありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This is what it looks like in action:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T003621Z" creationid="miurahr" creationdate="20201120T003621Z">
+        <seg>これが実際の動作です:</seg>
       </tuv>
     </tu>
     <tu>
@@ -45745,6 +45889,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Vector with tolerance</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T003714Z" creationid="miurahr" creationdate="20201120T003714Z">
+        <seg>許容範囲内のベクタ</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Vector, Point, Polyline, Polygon, Vertex, Geometry, Scale, Data Quality, Symbology, Data Sources</seg>
       </tuv>
       <tuv lang="ja">
@@ -49043,6 +49195,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You can compare the content of an output directory with an expected result reference directory</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T003848Z" creationid="miurahr" creationdate="20201120T003848Z">
+        <seg>出力ディレクトリの内容を予想される結果参照ディレクトリと比較できます</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You can compare the content of an output file to an expected result reference file</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T224701Z" creationid="miurahr" creationdate="20201118T224701Z">
@@ -50379,6 +50539,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You optionally add test data to ``&lt;QGIS Source Dir&gt;/tests/testdata`` if your test is data driven (e.g. needs to load a shapefile).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T004325Z" creationid="miurahr" creationdate="20201120T004325Z">
+        <seg>テストデータを``&lt;QGIS Source Dir&gt;/tests/testdata``に追加することもできます(例えば、シェイプファイルを読み込む必要がある場合)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You should adapt both the path and the repository URL, replacing ``&lt;YourName&gt;`` with your user name.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201119T080653Z" creationid="miurahr" creationdate="20201119T080653Z">
@@ -51676,6 +51844,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>``ellipsoid`` - overrides the default project ellipsoid used for measurements, e.g. ``GRS80``</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T004012Z" creationid="miurahr" creationdate="20201120T004012Z">
+        <seg>``ellipsoid``- デフォルトのプロジェクトで計測に使用される楕円体を上書きします。例えば``GRS80``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>``extent``</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T015326Z" creationid="miurahr" creationdate="20201118T015326Z">
@@ -51764,6 +51940,22 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>``project_crs`` - overrides the default project CRS - e.g. ``EPSG:27700``</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T003926Z" creationid="miurahr" creationdate="20201120T003926Z">
+        <seg>``project_crs``- デフォルトのプロジェクトCRSを上書きします。例:``EPSG:27700``</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>``project`` - will load a specified QGIS project file before running the algorithm.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T004017Z" creationid="miurahr" creationdate="20201120T003906Z">
+        <seg>``project`` - は、アルゴリズムを実行する前に、指定されたQGISプロジェクトファイルをロードします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>``qgisplatform.demo`` Apache access log at :file:`qgisplatform.demo.access.log`</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T102533Z" creationid="miurahr" creationdate="20201118T102533Z">
@@ -51848,6 +52040,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T032629Z" creationid="miurahr" creationdate="20201118T032629Z">
         <seg>道路のラインベクターデータセット</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>a name, with a relative path like :file:`expected/polys_centroid.gml`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T003613Z" creationid="miurahr" creationdate="20201120T003613Z">
+        <seg>:file:`expected/polys_centroid.gml`のような相対パスを持つ名前</seg>
       </tuv>
     </tu>
     <tu>
@@ -52504,6 +52704,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201119T075838Z" creationid="miurahr" creationdate="20201119T075838Z">
         <seg>:guilabel:`Start a review` ボタンを押して、レビューの一部として公開する。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>or one of the following values listed in the :source:`CMakelists.txt &lt;python/plugins/processing/tests/CMakeLists.txt&gt;`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T004049Z" creationid="miurahr" creationdate="20201120T004049Z">
+        <seg>または :source:`CMakelists.txt&lt;python/plugins/processing/tests/CMakeLists.txt&gt;`にリストされている次のいずれかの値</seg>
       </tuv>
     </tu>
     <tu>
