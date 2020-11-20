@@ -5255,6 +5255,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>All our test methods are implemented as private slots.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T004530Z" creationid="miurahr" creationdate="20201120T004530Z">
+        <seg>すべてのテスト方法はプライベートスロットとして実装されています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>All signal/slot connects should be made using the "new style" connects available in Qt5.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T223729Z" creationid="miurahr" creationdate="20201118T223729Z">
@@ -7407,6 +7415,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Before each test method is called, the ``init()`` method will be called and after each test method is called the ``cleanup()`` method is called.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T004550Z" creationid="miurahr" creationdate="20201120T004550Z">
+        <seg>各テストメソッドが呼び出される前に``init()``メソッドが呼び出され、各テストメソッドが呼び出された後に``cleanup()``メソッドが呼び出されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Before finishing this lesson, here is a quick tip to make your life easier in case you want to persistently save your data.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T101245Z" creationid="miurahr" creationdate="20201118T101245Z">
@@ -8051,6 +8067,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T033330Z" creationid="miurahr" creationdate="20201118T033330Z">
         <seg>リストに表示される順を変更することで、それらが描かれる順序を変更できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>By convention we will name our test with the same name as the class they are testing but prefixed with 'Test'.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T004430Z" creationid="miurahr" creationdate="20201120T004430Z">
+        <seg>慣習的に、テストにはテストしているクラスと同じ名前を付けますが、先頭に'Test'を付けます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -10815,6 +10839,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Creating a unit test is easy - typically you will do this by just creating a single :file:`.cpp` file (no :file:`.h` file is used) and implement all your test methods as public methods that return void.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T004417Z" creationid="miurahr" creationdate="20201120T004417Z">
+        <seg>ユニットテストを作成するのは簡単です。通常は、単一の:file:`.cpp`ファイル(no:file:`.h`ファイルが使用されます)を作成し、すべてのテストメソッドをvoidを返すパブリックメソッドとして実装するだけです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Creating an empty shapefile</seg>
       </tuv>
       <tuv lang="ja">
@@ -13444,6 +13476,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201119T040525Z" creationid="miurahr" creationdate="20201119T040525Z">
         <seg>最初に、翻訳の全体のプロセスが技術的にどのように進行するかを説明します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>First we add our standard copyright banner:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T004442Z" creationid="miurahr" creationdate="20201120T004442Z">
+        <seg>まず、標準的な著作権バナーを追加します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16992,6 +17032,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If it should happen that an accessor or mutator is not working as expected you would normally implement a :ref:`regression test &lt;regression_test&gt;` to check for this.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T004749Z" creationid="miurahr" creationdate="20201120T004749Z">
+        <seg>もしアクセサやミューテータが期待通りに動作していない場合は、通常:ref:`regression test&lt;regression_test&gt;`を実装してこれをチェックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If it works, check the boxes next to :guilabel:`Save Username` and :guilabel:`Save Password`.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T123909Z" creationid="miurahr" creationdate="20201118T123909Z">
@@ -18932,6 +18980,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Implementing a regression test</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T004756Z" creationid="miurahr" creationdate="20201120T004756Z">
+        <seg>回帰テストの実行</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Importing Data into a Database with DB Manager</seg>
       </tuv>
       <tuv lang="ja">
@@ -20327,6 +20383,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>In the first case we want to generally test if the various parts of the class are working, We can use a functional testing approach.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T004645Z" creationid="miurahr" creationdate="20201120T004645Z">
+        <seg>最初のケースでは、クラスのさまざまな部分が動作しているかどうかを一般的にテストします。機能テストのアプローチを使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>In the first two lines we import the required Python packages: ``os`` --- for path manipulations, e.g. extracting file name, and ``shutil`` --- for various filesystem operations like copying files.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T094625Z" creationid="miurahr" creationdate="20201118T094625Z">
@@ -21636,6 +21700,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T123943Z" creationid="miurahr" creationdate="20201118T123943Z">
         <seg>Windowsでのインストール</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Instead of embedding the code in a ``..</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T004948Z" creationid="miurahr" creationdate="20201120T004930Z">
+        <seg>コードを埋め込むのではなく</seg>
       </tuv>
     </tu>
     <tu>
@@ -24912,6 +24984,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>More and more test functions should complete successfully as your class implementation work progresses, and when the whole unit test passes, your new class is done and is now complete with a repeatable way to validate it.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T004706Z" creationid="miurahr" creationdate="20201120T004706Z">
+        <seg>クラスの実装作業が進むにつれて、さらに多くのテスト関数が正常に完了するはずです。そして、ユニットテスト全体が成功すると、新しいクラスが完了し、それを検証するための反復可能なウェイが完成します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>More complex models</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T095433Z" creationid="miurahr" creationdate="20201118T095433Z">
@@ -25432,6 +25512,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Next we implement our regression tests.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T004800Z" creationid="miurahr" creationdate="20201120T004800Z">
+        <seg>次に、回帰テストを実行します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Next we need to start adding data.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123710Z" creationid="miurahr" creationdate="20201117T123710Z">
@@ -25444,6 +25532,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T225507Z" creationid="miurahr" creationdate="20201117T225507Z">
         <seg>次はmmqgisプラグインを使用して4平方キログリッドレイヤーを用意しました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Next we start our includes needed for the tests we plan to run.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T004507Z" creationid="miurahr" creationdate="20201120T004447Z">
+        <seg>次に、実行するテストに必要なインクルードからソースの記述を開始します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -27148,6 +27244,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123648Z" creationid="miurahr" creationdate="20201117T123648Z">
         <seg>今度もシェープファイルに短くて意味のある名前を付けることをお勧めします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Once again, extreme programmers would advocate writing these tests before implementing the class.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T004726Z" creationid="miurahr" creationdate="20201120T004651Z">
+        <seg>エクストリームプログラマーは、クラスを実装する前にこれらのテストを記述することを繰り返し主張していました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -30540,6 +30644,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Regression tests should be implemented to replicate the conditions of a particular bug.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T004806Z" creationid="miurahr" creationdate="20201120T004806Z">
+        <seg>回帰テストは、特定のバグの条件を再現するために実装する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Relational Databases are an important part of any GIS system.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150254Z" creationid="miurahr" creationdate="20201117T150254Z">
@@ -31096,6 +31208,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja">
         <seg>ツリー中のテーブルを右クリックして :guilabel:`キャンバスに追加` を選択すると地図にレイヤーとしてテーブルが追加されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Right with that overview in mind, we will delve into a bit of detail.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T004359Z" creationid="miurahr" creationdate="20201120T004359Z">
+        <seg>この全体図を念頭に置いて、少し詳しく説明します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -33153,6 +33273,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja">
         <seg>これで2つのリモートリポジトリの、どちらかを選ぶことができるようになりました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>So our test implementation goes in a file called :file:`testqgsrasterlayer.cpp` and the class itself will be ``TestQgsRasterLayer``.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T004436Z" creationid="miurahr" creationdate="20201120T004436Z">
+        <seg>したがって、テストの実装は:file:`testqgsrasterlayer.cpp`という名前のファイルで行われ、クラス自体は``TestQgsRasterLayer``になります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -35437,6 +35565,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The QtTest framework will sequentially call each private slot method in the test class.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T004535Z" creationid="miurahr" creationdate="20201120T004535Z">
+        <seg>QtTestフレームワークは、テストクラスの各プライベートスロットメソッドを順番に呼び出します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The RST surface was analyzed this surface to find the catchments and flow paths, and resulting vector topologies were cleaned up in QGIS to generate the Hydrologic network and also to build up the attribute tables.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222826Z" creationid="miurahr" creationdate="20201117T222826Z">
@@ -37581,6 +37717,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The methods will be called in order of declaration.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T004634Z" creationid="miurahr" creationdate="20201120T004634Z">
+        <seg>メソッドは宣言順に呼び出されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The model defines geospatial data from Point, Linestring, and Polygon types (and aggregations of them to Multi objects).</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T123734Z" creationid="miurahr" creationdate="20201118T123734Z">
@@ -39318,6 +39462,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Then as you work your way through your class implementation you iteratively run your unit tests.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T004657Z" creationid="miurahr" creationdate="20201120T004657Z">
+        <seg>次に、クラスの実装を通してウェイを操作しながら、ユニットテストを繰り返し実行します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Then choose the one you like better for your final map.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T034935Z" creationid="miurahr" creationdate="20201118T034935Z">
@@ -39338,6 +39490,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T220231Z" creationid="miurahr" creationdate="20201118T220231Z">
         <seg>そして、「名前の変更」ボタンをクリックして、カスタムは意味のある名前などを実行可能「インストールQGIS」を与えます</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Then come your test methods, all of which should take no parameters and should return void.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T004627Z" creationid="miurahr" creationdate="20201120T004627Z">
+        <seg>その次にテストメソッドを配置します。すべてのメソッドはパラメータを取りません。voidを返します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -39602,6 +39762,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201119T075633Z" creationid="miurahr" creationdate="20201119T075633Z">
         <seg>QGISドキュメンテーションに貢献するにはいくつかの異なった方法があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>There are four 'special' methods which if implemented will be called at the start of the unit test (``initTestCase``), at the end of the unit test (``cleanupTestCase``).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T004542Z" creationid="miurahr" creationdate="20201120T004542Z">
+        <seg>もし実装された場合、ユニットテストの開始時(``initTestCase``)と終了時(``cleanupTestCase``)に呼び出される4つの特別なメソッドがあります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -39942,6 +40110,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>There is one special include all tests should have:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T004524Z" creationid="miurahr" creationdate="20201120T004454Z">
+        <seg>すべてのテストに含まれる特別なものが1つあります:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>There is some code you want to test, e.g. a class or function.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201120T004250Z" creationid="miurahr" creationdate="20201120T004250Z">
@@ -40198,6 +40374,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>These methods are handy in that they allow you to allocate and cleanup resources prior to running each test, and the test unit as a whole.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T004558Z" creationid="miurahr" creationdate="20201120T004558Z">
+        <seg>これらのメソッドは、各テストを実行する前にリソースを割り当ててクリーンアップしたり、テスト単位全体をクリーンアップしたりすることができるという点で便利です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>These pages will be available in the results dialog.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T095248Z" creationid="miurahr" creationdate="20201118T095248Z">
@@ -40266,6 +40450,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150320Z" creationid="miurahr" creationdate="20201117T150320Z">
         <seg>これらの要約は集計クエリと呼ばれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>These test data should be as small as possible and wherever possible you should use the existing datasets already there.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T004341Z" creationid="miurahr" creationdate="20201120T004341Z">
+        <seg>これらのテストデータはできるだけ小さく、可能な限り既存のデータセットを使用する必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -41338,6 +41530,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T031233Z" creationid="miurahr" creationdate="20201118T031233Z">
         <seg>このファイルは妥当なPythonパッケージを作るために必要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>This is normally done simply by doing ``make test`` after the ``make install`` step, though we will explain other approaches that offer more fine grained control over running tests.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T004354Z" creationid="miurahr" creationdate="20201120T004354Z">
+        <seg>これは通常、``make install``ステップの後に``make test``を実行するだけで行われますが、ここでは実行中のテストをよりきめ細かく制御する他のアプローチについて説明します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -44609,6 +44809,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Typically your unit tests would only cover the public API of your class, and normally you do not need to write tests for accessors and mutators.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T004743Z" creationid="miurahr" creationdate="20201120T004743Z">
+        <seg>通常、あなたのユニットテストはあなたのクラスの公開APIしかカバーしておらず、通常はアクセサーやミューテータのテストを書く必要はありません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Typically, you have to first rebase your branch over the target branch using ``git rebase targetBranch`` call and fix the conflicts that are reported.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201119T080936Z" creationid="miurahr" creationdate="20201119T080936Z">
@@ -46161,6 +46369,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>We are implementing two methods here which illustrate two types of testing.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T004638Z" creationid="miurahr" creationdate="20201120T004638Z">
+        <seg>ここでは、2種類のテストを示す2つの方法を実装しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>We are looking forward seeing further improvements, especially in regards to the integrated model builder.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T224932Z" creationid="miurahr" creationdate="20201117T224932Z">
@@ -46381,6 +46597,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123609Z" creationid="miurahr" creationdate="20201117T123609Z">
         <seg>外を見るポイント、記念碑、古戦場などの特定の位置をマークしたい場合はポイントを使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>We created a regression test that replicated the bug using a small test dataset (a 10x10 raster).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T004831Z" creationid="miurahr" creationdate="20201120T004831Z">
+        <seg>小さなテストデータセット(10x10)を使用してバグを再現する回帰テストを作成しました。</seg>
       </tuv>
     </tu>
     <tu>
@@ -46642,10 +46866,34 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>We opened a bug report (`ticket #832 &lt;https://issues.qgis.org/issues/832&gt;`_)</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T004824Z" creationid="miurahr" creationdate="20201120T004824Z">
+        <seg>バグレポートを開きました(`ticket#832&lt;https://issues.qgis.org/issues/832&gt;`_)</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>We ran an sql statement, but not on any table, just on data entered from the SQL prompt,</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T124058Z" creationid="miurahr" creationdate="20201118T124058Z">
         <seg>SQL文を実行しましたが、どのテーブル上でもなく、SQLプロンプトから入力されたデータで,</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>We ran the test, verifying that it did indeed fail (the cell count was 99 instead of 100).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T004905Z" creationid="miurahr" creationdate="20201120T004905Z">
+        <seg>テストを実行して、実際に失敗したことを確認しました(セル数は100ではなく99です)。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>We received a report by email that the cell count by rasters was off by 1, throwing off all the statistics for the raster bands.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T004815Z" creationid="miurahr" creationdate="20201120T004815Z">
+        <seg>このアルゴリズムは、入力ラスタのセル数を計算します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -47046,6 +47294,22 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T102401Z" creationid="miurahr" creationdate="20201118T102401Z">
         <seg>WMSリクエストを作成する方法は後で見ます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>We'll use a simple test class for ``QgsRasterLayer`` throughout the section that follows to illustrate.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T004422Z" creationid="miurahr" creationdate="20201120T004422Z">
+        <seg>以下のセクションでは、``QgsRasterLayer``の簡単なテストクラスを使用して説明します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>We've already done much of the configuration for you in CMake and other places in the source tree so all you need to do are the easy bits - writing unit tests!</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T004408Z" creationid="miurahr" creationdate="20201120T004408Z">
+        <seg>CMakeやソースツリーの他の場所では、すでに多くの設定が行われています。したがって、必要なことは簡単なビット書き込みユニットテストだけです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -50547,6 +50811,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You run your tests.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T004344Z" creationid="miurahr" creationdate="20201120T004344Z">
+        <seg>テストを実行</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You should adapt both the path and the repository URL, replacing ``&lt;YourName&gt;`` with your user name.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201119T080653Z" creationid="miurahr" creationdate="20201119T080653Z">
@@ -51336,6 +51608,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T215659Z" creationid="miurahr" creationdate="20201117T215659Z">
         <seg>テンプレート地図はほぼ準備ができています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Your tests should never modify this data in situ, but rather make a temporary copy somewhere if needed.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T004338Z" creationid="miurahr" creationdate="20201120T004338Z">
+        <seg>テストでは、このデータをその場で変更するのではなく、必要に応じて一時的にコピーする必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -52288,6 +52568,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T215657Z" creationid="miurahr" creationdate="20201118T215657Z">
         <seg>マージボタンをクリックします（非早送りマージを作成します）</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>code-block:: python`` directive (which would highlight the code syntax automatically), you now need to embed it in a ``..</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T005005Z" creationid="miurahr" creationdate="20201120T004940Z">
+        <seg>``..code-block::python``ディレクティブ(コード構文が自動的に強調表示されます)次に、``..</seg>
       </tuv>
     </tu>
     <tu>
