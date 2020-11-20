@@ -3246,6 +3246,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>A basic test appears under the toplevel key ``tests`` and looks like this:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T003024Z" creationid="miurahr" creationdate="20201120T003024Z">
+        <seg>トップレベルのキー``tests``の下に基本テストが配置され、次のようになっています:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>A better solution is to use the primary key of the table to reference the record to be changed:</seg>
       </tuv>
       <tuv lang="ja">
@@ -3714,6 +3722,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201119T080520Z" creationid="miurahr" creationdate="20201119T080520Z">
         <seg>新しいプルリクエストは自動的に `プルリクエストリスト &lt;https://github.com/qgis/QGIS-Documentation/pulls&gt;`_ に追加されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>A new window will open with a text definition.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T003122Z" creationid="miurahr" creationdate="20201120T003122Z">
+        <seg>新しいウィンドウが開き、テキスト定義が表示されます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -16280,6 +16296,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>How To</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T003034Z" creationid="miurahr" creationdate="20201120T003034Z">
+        <seg>実施方法</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>How accurately does the map represent the history of the area?</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135920Z" creationid="miurahr" creationdate="20201117T135920Z">
@@ -27864,6 +27888,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Open the file :file:`python/plugins/processing/tests/testdata/algorithm_tests.yaml`, copy the text definition there.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T003141Z" creationid="miurahr" creationdate="20201120T003141Z">
+        <seg>ファイル :file:`python/plugins/processing/tests/testdata/algorithm_tests.yaml` を開き、そこにテキスト定義をコピーします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Open the georeference tool, :menuselection:`Raster --&gt; Georeferencer --&gt; Georeferencer`.</seg>
       </tuv>
       <tuv lang="ja">
@@ -28492,6 +28524,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T014827Z" creationid="miurahr" creationdate="20201118T014827Z">
         <seg>パラメーター</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Parameters and results</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T003212Z" creationid="miurahr" creationdate="20201120T003212Z">
+        <seg>パラメーターと結果</seg>
       </tuv>
     </tu>
     <tu>
@@ -29197,6 +29237,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T215432Z" creationid="miurahr" creationdate="20201118T215432Z">
         <seg>手順</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Processing Algorithms Testing</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T002737Z" creationid="miurahr" creationdate="20201120T002737Z">
+        <seg>プロセシングアルゴリズムテスト</seg>
       </tuv>
     </tu>
     <tu>
@@ -30912,6 +30960,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja">
         <seg>:kbd:`forest_stands_2012` レイヤーを右クリックし 、:guilabel:`レイヤー範囲にズーム` をクリックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Right click the algorithm and click :guilabel:`Create Test`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T003113Z" creationid="miurahr" creationdate="20201120T003113Z">
+        <seg>アルゴリズムを右クリックし、:guilabel:`Create Test`をクリックします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -35549,6 +35605,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The above translates to</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T003203Z" creationid="miurahr" creationdate="20201120T003203Z">
+        <seg>上記は次のように解釈されます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The access of off-campus students to modern technologies such as Internet services varies widely.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222404Z" creationid="miurahr" creationdate="20201117T222404Z">
@@ -36593,6 +36657,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T035002Z" creationid="miurahr" creationdate="20201118T035002Z">
         <seg>最初のステップは、GIMPを使用して、林分、つまりオリジナルのスキャン地図で見ることができた緑がかった線すべて、だけを含む画像を得ることです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The first string from the command goes to the key ``algorithm``, the subsequent ones to ``params`` and the last one(s) to ``results``.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T003154Z" creationid="miurahr" creationdate="20201120T003154Z">
+        <seg>コマンドの最初の文字列はキー``algorithm``に、後続の文字列は``params``に、最後の文字列は``results``に移動します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -37730,6 +37802,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T100538Z" creationid="miurahr" creationdate="20201118T100538Z">
         <seg>レイヤーの順序付けは選択ダイアログに表示されるのと同じ順序です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The original version of these instructions is available at :source:`python/plugins/processing/tests/README.md`</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T002813Z" creationid="miurahr" creationdate="20201120T002813Z">
+        <seg>これらの手順のオリジナルバージョンは、:source:`python/plugins/processing/tests/README.md` から入手できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -40790,6 +40870,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>This file is structured with `yaml syntax &lt;https://yaml.org/start.html&gt;`_.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T002945Z" creationid="miurahr" creationdate="20201120T002945Z">
+        <seg>このファイルは、`yaml 文法 &lt;https://yaml.org/start.html&gt;`_ に基づいています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>This framework generally provides a surface and a view where custom graphics items are placed and user can interact with them.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T003516Z" creationid="miurahr" creationdate="20201118T003516Z">
@@ -42598,6 +42686,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>To add a new test please follow these steps:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T003046Z" creationid="miurahr" creationdate="20201120T003046Z">
+        <seg>新しいテストを追加するには、次の手順に従ってください:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>To add a suggestion, click the |githubSuggestions| :sup:`Insert a suggestion` button on top of the comment text box and modify the text within the suggestion block.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201119T075939Z" creationid="miurahr" creationdate="20201119T075939Z">
@@ -43719,6 +43815,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>To test algorithms you can add entries into :file:`testdata/qgis_algorithm_tests.yaml` or :file:`testdata/gdal_algorithm_tests.yaml` as appropriate.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T002907Z" creationid="miurahr" creationdate="20201120T002907Z">
+        <seg>アルゴリズムをテストするには、:file:`testdata/qgis_algorithm_tests.yaml` または :file:`testdata/gdal_algorithm_tests.yaml` にエントリを追加します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>To test that the rule works, let's modify a phone number:</seg>
       </tuv>
       <tuv lang="ja">
@@ -44099,6 +44203,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T014846Z" creationid="miurahr" creationdate="20201118T014846Z">
         <seg>透明な背景</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Trivial type parameters</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T003506Z" creationid="miurahr" creationdate="20201120T003506Z">
+        <seg>トリビアル型パラメータ</seg>
       </tuv>
     </tu>
     <tu>
@@ -47583,6 +47695,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T123743Z" creationid="miurahr" creationdate="20201117T123743Z">
         <seg>もう追加する地物がなくなったら、必ず「編集を許可」アイコンをクリックしてそれをオフに切り替えてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>When you have run the algorithm, go to :menuselection:`Processing --&gt; History` and find the algorithm which you have just run.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201120T003106Z" creationid="miurahr" creationdate="20201120T003106Z">
+        <seg>アルゴリズムを実行したら、:menuselection:`Processing--&gt;History`に移動して、実行したばかりのアルゴリズムを探します。</seg>
       </tuv>
     </tu>
     <tu>
