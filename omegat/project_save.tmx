@@ -6255,6 +6255,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Article Journal of Applied Ecology.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201122T055509Z" creationid="miurahr" creationdate="20201122T055509Z">
+        <seg>応用生態学(Applied Ecology)の記事</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Artifacts such as this can alert us to potential problems in the data.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T124229Z" creationid="miurahr" creationdate="20201118T124229Z">
@@ -11747,6 +11755,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T221828Z" creationid="miurahr" creationdate="20201118T221828Z">
         <seg>sphinxディレクティブを文書化する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Document European Commission.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201122T055454Z" creationid="miurahr" creationdate="20201122T055454Z">
+        <seg>欧州委員会文書</seg>
       </tuv>
     </tu>
     <tu>
@@ -27434,8 +27450,8 @@
       <tuv lang="en-US">
         <seg>Once your features are digitised, you can use the techniques you learned in the previous topic to set the symbology for your layer.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201117T124004Z" creationid="miurahr" creationdate="20201117T124004Z">
-        <seg>地物がデジタル化されたら、前のトピックで学んだ技術をレイヤーのシンボルを設定するために使用できます。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201122T060011Z" creationid="miurahr" creationdate="20201117T124004Z">
+        <seg>地物がデジタル化されたら、前のトピックで学んだ技術をレイヤーのシンボロジーを設定するために使用できます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -32700,6 +32716,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Setting colours based on discrete groups of attribute values is called Graduated Symbology in QGIS.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201122T055907Z" creationid="miurahr" creationdate="20201122T055759Z">
+        <seg>属性値の離散的なグループに基づいて色を設定することは、QGISでは等級別シンボロジーと呼ばれます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Setting up PostGIS functions will allow you to access spatial functions from within PostgreSQL.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T123920Z" creationid="miurahr" creationdate="20201118T123920Z">
@@ -34343,8 +34367,8 @@ Generated-By: Babel 2.8.0</seg>
       <tuv lang="en-US">
         <seg>Table Continuous: Continuous colour symbology uses a start colour (e.g. light orange shown here) and an end colour (e.g. dark brown shown here) and creates a series of shades between those colours.</seg>
       </tuv>
-      <tuv lang="ja">
-        <seg>表　連続：連続色シンボルは開始色（例えばここでは明橙色）および終了色（例えばここでは暗褐色）を使用し、それらの色の間で色調の系列を作成します。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201122T055851Z">
+        <seg>表　連続：連続色シンボロジーは、開始色（例えばここでは明橙色）および終了色（例えばここでは暗褐色）を使用し、それらの色の間で色調の系列を作成します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -38434,6 +38458,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150220Z" creationid="miurahr" creationdate="20201117T150220Z">
         <seg>データベースから冗長性を除去するプロセスを正規化といいます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The process of setting colours and drawing styles is often referred to as setting feature **symbology**.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201122T055643Z" creationid="miurahr" creationdate="20201122T055643Z">
+        <seg>色と描画スタイルを設定するプロセスは、多くの場合、**シンボロジー**設定機能と呼ばれます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -45459,8 +45491,8 @@ Generated-By: Babel 2.8.0</seg>
       <tuv lang="en-US">
         <seg>Use the techniques you learned in Topics :ref:`gentle_gis_vector_data` and :ref:`gentle_gis_attributes` to adjust the symbology accordingly.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201117T135915Z" creationid="miurahr" creationdate="20201117T135915Z">
-        <seg>トピック :ref:`gentle_gis_vector_data` と :ref:`gentle_gis_attributes` で学んだテクニックを使って、それに応じてシンボルを調整してください。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201122T055603Z" creationid="miurahr" creationdate="20201117T135915Z">
+        <seg>トピック :ref:`gentle_gis_vector_data` と :ref:`gentle_gis_attributes` で学んだテクニックを使って、それに応じて記号を調整してください。</seg>
       </tuv>
     </tu>
     <tu>
