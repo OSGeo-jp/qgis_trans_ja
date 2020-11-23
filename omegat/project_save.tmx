@@ -23440,6 +23440,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Lesson developed by Linfiniti Consulting (South Africa) and Siddique Motala (Cape Peninsula University of Technology)</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201122T160025Z" creationid="miurahr" creationdate="20201122T160025Z">
+        <seg>Linfinitiコンサルティング(南アフリカ)とシッディーケMotala(ケープ半島技科大)によって開発されたレッスン</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Let us finish our RandomRenderer example</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T032101Z" creationid="miurahr" creationdate="20201118T032101Z">
@@ -36773,6 +36781,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The extent of your area of investigation covers Cape Town and the Cape Peninsula between Melkbosstrand in the north and Strand in the south.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201122T160225Z" creationid="miurahr" creationdate="20201122T160225Z">
+        <seg>あなたの調査範囲はケープタウンと北のメルクボスストラントと南のストランドの間のケープ半島を含む領域です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The field teams visited the forest and with the help of the information you provided, gathered information about the forest at every sample plot.</seg>
       </tuv>
       <tuv lang="ja">
@@ -49271,6 +49287,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T020906Z" creationid="miurahr" creationdate="20201118T020906Z">
         <seg>これで規則を書く準備が整いました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You are tasked with finding areas in and around the Cape Peninsula that are suitable habitats for a rare fynbos plant species.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201122T160058Z" creationid="miurahr" creationdate="20201122T160058Z">
+        <seg>あなたは、希少なFynbos植物種に適した生息地であるケープ半島とその周辺のエリアを見つける必要があります。</seg>
       </tuv>
     </tu>
     <tu>
