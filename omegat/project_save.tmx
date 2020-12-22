@@ -5871,6 +5871,30 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Analysing a DEM raster layer to find the east facing slopes and the slopes with the correct gradients</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T234438Z" creationid="miurahr" creationdate="20201222T234438Z">
+        <seg>DEMラスタレイヤを解析して、東向きの斜面と正しい勾配の斜面を見つける</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Analysing a rainfall raster layer to find the areas with the correct amount of rainfall</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T234453Z" creationid="miurahr" creationdate="20201222T234453Z">
+        <seg>雨量の正しいラスタレイヤを見つけるために雨量を解析する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Analysing a zoning vector layer to find areas that are away from human settlement and are of the correct size</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T234512Z" creationid="miurahr" creationdate="20201222T234512Z">
+        <seg>人間の居住地から離れていて、適切な大きさのベクタレイヤを見つけるために、ゾーニングされた地域を分析する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Analysis of Digital Elevation Models (a kind of raster where each pixel contains the height above sea level) can then be used to identify areas that are likely to be flooded.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T140349Z" creationid="miurahr" creationdate="20201117T140349Z">
@@ -9683,6 +9707,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>不要なブランチの |deleteSelected| :sup:`Delete this branch` アイコンをクリックして削除します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Click on the |projectionEnabled| :sup:`Current CRS` button in the lower right corner of the screen.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T234611Z" creationid="miurahr" creationdate="20201222T234611Z">
+        <seg>画面の右下隅にある |projectionEnabled| :sup:`Current CRS` ボタンをクリックします。</seg>
       </tuv>
     </tu>
     <tu>
@@ -39470,6 +39502,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The solution will involve:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T234422Z" creationid="miurahr" creationdate="20201222T234422Z">
+        <seg>ソリューションには次のものが含まれます:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The source of the document can be found here:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201119T040710Z" creationid="miurahr" creationdate="20201119T040710Z">
@@ -45393,6 +45433,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Under the :guilabel:`CRS` tab of the dialog that appears, use the "Filter" tool to search for "33S".</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T235034Z" creationid="miurahr" creationdate="20201222T235034Z">
+        <seg>Under the :guilabel:`CRS` tab of the dialog that appears, use the "Filter" tool to search for "33S".</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Under this new directory, create a file called :kbd:`index.rst`.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141600Z" creationid="miurahr" creationdate="20201117T141600Z">
@@ -49709,8 +49757,8 @@ Generated-By: Babel 2.8.0</seg>
       <tuv lang="en-US">
         <seg>You are going to find the four suitable areas that are closest to the University of Cape Town.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201222T221323Z" creationid="miurahr" creationdate="20201222T221323Z">
-        <seg>You are going to find the four suitable areas that are closest to the University of Cape Town.</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T234430Z" creationid="miurahr" creationdate="20201222T221323Z">
+        <seg>ケープタウン大学に最も近い4つの適切なエリアを検索します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -53968,6 +54016,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T033325Z" creationid="miurahr" creationdate="20201118T033325Z">
         <seg>|FA| レイヤーの順序入れ替え</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>|FA| Setting up the Map</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T234523Z" creationid="miurahr" creationdate="20201222T234523Z">
+        <seg>|FA| マップを構成しています</seg>
       </tuv>
     </tu>
     <tu>
