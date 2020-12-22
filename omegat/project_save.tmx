@@ -3566,6 +3566,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>A huge effort and your help will be appreciated!</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T225813Z" creationid="miurahr" creationdate="20201222T225813Z">
+        <seg>多大な努力とあなたの助けが感謝されます!</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>A key advantage of the Processing Toolbox is the ability to seamlessly use functionalities from different algorithm providers for data processing and analysis.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T221954Z" creationid="miurahr" creationdate="20201117T221954Z">
@@ -7423,6 +7431,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Becoming a translator</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T225835Z" creationid="miurahr" creationdate="20201222T225816Z">
+        <seg>翻訳者になる</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Before changing the layer order, rivers are drawn underneath roads</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T134457Z" creationid="miurahr" creationdate="20201117T134457Z">
@@ -7667,6 +7683,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>それらの地域のために関心のないポリゴンを削除するだけでなく、カバレッジ レイヤーの :guilabel:`属性テーブル` からのコンテンツを生成するように、地図内のテキストラベルもカスタマイズできます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Besides that, the rapid development of the application continuously causes new and edited texts to be translated.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T225809Z" creationid="miurahr" creationdate="20201222T225809Z">
+        <seg>さらに、アプリケーションの急速な開発により、新しい編集済みテキストが継続的に翻訳されています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -14408,6 +14432,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>For finding the current percentage of translation you will either have to install the nightly build of QGIS or checkout the source code of QGIS.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T225754Z" creationid="miurahr" creationdate="20201222T225754Z">
+        <seg>現在の翻訳の割合を調べるには、QGISのナイトリービルドをインストールするか、QGISのソースコードをチェックアウトする必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>For further / deeper information, check the `official documentation &lt;https://Kubernetes.io/docs/home/&gt;`_.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T032321Z" creationid="miurahr" creationdate="20201118T032321Z">
@@ -15652,6 +15684,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T020459Z" creationid="miurahr" creationdate="20201118T020459Z">
         <seg>:menuselection:`ベクター --&gt; ジオプロセッシングツール --&gt; バッファ` に行き、バッファダイアログを開きます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Go to http://www.transifex.com and create a new account</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T230815Z" creationid="miurahr" creationdate="20201222T230815Z">
+        <seg>http://www.transifex.com で新しいアカウントを作成</seg>
       </tuv>
     </tu>
     <tu>
@@ -17140,6 +17180,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T123909Z" creationid="miurahr" creationdate="20201118T123909Z">
         <seg>正しく動作したら :guilabel:`ユーザー名の保存` と :guilabel:`パスワード保存` の横にあるチェックボックスをチェックします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If more than one person nominate themselves as coordinator for the same language, please contact each other and resolve how you will manage your efforts.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T230209Z" creationid="miurahr" creationdate="20201222T230209Z">
+        <seg>複数の人が同じ言語のコーディネーターを指名した場合は、お互いに連絡を取り、あなたがどのように努力するかを解決してください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18768,6 +18816,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201119T080931Z" creationid="miurahr" creationdate="20201119T080931Z">
         <seg>この方法で多くの作業をこなした場合、数週間のうちに用済みのブランチがたくさんできると思います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If you would like to nominate yourself as a coordinator for a new language please go ahead.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T230159Z" creationid="miurahr" creationdate="20201222T230159Z">
+        <seg>新しい言語のコーディネーターとしてあなた自身を推薦したい場合は、次を読んでください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -22980,6 +23036,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222815Z" creationid="miurahr" creationdate="20201117T222815Z">
         <seg>ジャレットは、カナダのアルバータ州在住のGIS技術者です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Join a Project</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T230505Z" creationid="miurahr" creationdate="20201222T230345Z">
+        <seg>プロジェクトに参加する</seg>
       </tuv>
     </tu>
     <tu>
@@ -29113,6 +29177,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Please contact the :ref:`Translation team leader &lt;gui-translation&gt;` or :ref:`Community Assistant &lt;community-resources&gt;` to see your name entered in the About Box of QGIS Desktop.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T230241Z" creationid="miurahr" creationdate="20201222T230241Z">
+        <seg>:ref:`Translation team leader&lt;gui-translation&gt;` または :ref:`Community Assistant&lt;community-resources&gt;` に連絡して、QGIS DesktopのAbout Boxに入力されている名前を確認してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Please contact the `QGIS community-team &lt;http://lists.osgeo.org/mailman/listinfo/qgis-community-team&gt;`_, if you want to send us your story.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T225347Z" creationid="miurahr" creationdate="20201117T225347Z">
@@ -33485,6 +33557,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>So the first thing you need is an account to login and get started.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T230423Z" creationid="miurahr" creationdate="20201222T230343Z">
+        <seg>まず必要なのは、ログインして作業するためのアカウントです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>So we can first compute those layers and then use them for the TWI algorithm.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T100307Z" creationid="miurahr" creationdate="20201118T100307Z">
@@ -35749,6 +35829,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The QGIS project is always looking for people who are willing to invest some more time translating QGIS into a foreign language - even perhaps to coordinate the translation effort.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T230023Z" creationid="miurahr" creationdate="20201222T230023Z">
+        <seg>QGISプロジェクトは、より多くの時間を翻訳に割いてくれる人を常に探しています。特に翻訳作業のコーディネーターを探しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The QGIS team maintains an :ref:`official_pyqgis_repository`.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T024636Z" creationid="miurahr" creationdate="20201118T024636Z">
@@ -36873,6 +36961,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T033359Z" creationid="miurahr" creationdate="20201118T033359Z">
         <seg>作成した地図のエンドユーザーに地図が何を表現するかが簡単にわかるようにする必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The entire interface contains over ten thousand pieces of text and a complete translation will take days if not weeks to be finished.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T225802Z" creationid="miurahr" creationdate="20201222T225802Z">
+        <seg>インターフェイス全体には1万を超えるテキストが含まれており、完全な翻訳が完了するまでには数週間から数日かかります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -39642,6 +39738,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T215721Z" creationid="miurahr" creationdate="20201117T215721Z">
         <seg>ビューの範囲はポリゴンよりも10％大きくなります、これは詳細地図が10% 重なりを持っていることを意味します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The web-based translating platform Transifex is used for all QGIS translations; the desktop application itself (or GUI), the documentation and the web site.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T230249Z" creationid="miurahr" creationdate="20201222T230249Z">
+        <seg>Webベースの翻訳プラットフォームTransifexは、デスクトップアプリケーション自体(またはGUI)、ドキュメント、Webサイトなど、すべてのQGIS翻訳で使用されています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -44703,6 +44807,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Transifex</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T230243Z" creationid="miurahr" creationdate="20201222T230243Z">
+        <seg>Transifex</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Translate a file</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201119T040705Z" creationid="miurahr" creationdate="20201119T040705Z">
@@ -46677,6 +46789,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T034620Z" creationid="miurahr" creationdate="20201118T034620Z">
         <seg>データベースについて学ぶために非常に有効な方法なので `psql` プロンプトからSQLコマンドを入力しています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>We are trying to improve our project management process and spread the load more evenly between people who each have a specific area of responsibility, so any contribution you have to make will be greatly appreciated.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T230136Z" creationid="miurahr" creationdate="20201222T230136Z">
+        <seg>私たちは、プロジェクト管理プロセスを改善し、それぞれが特定の責任領域を持つ人々の間で、より均等に負荷を分散しようとしています。したがって、コーディネーターの貢献は、とても感謝されるものです。</seg>
       </tuv>
     </tu>
     <tu>
