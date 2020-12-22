@@ -4974,6 +4974,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>After subscribing to the mailing list you are able to send a mail directly to qgis-tr@lists.osgeo.org asking for help.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T225048Z" creationid="miurahr" creationdate="20201222T225048Z">
+        <seg>メーリングリストに登録すると、 qgis-tr@lists.osgeo.org に直接メールを送信して、助けを求めることができます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>After that comes a short description of the unit test and the class must inherit from QObject and include the Q_OBJECT macro.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T224811Z" creationid="miurahr" creationdate="20201118T224811Z">
@@ -6995,6 +7003,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141045Z" creationid="miurahr" creationdate="20201117T141045Z">
         <seg>最も単純なレベルで通常の地形図を使用するのとほぼ同じ方法で、GISアプリケーションでのベクターデータを使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>At this moment about forty languages are already available in the Desktop user interface and about eighty languages are available in transifex ready to be translated.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T224834Z" creationid="miurahr" creationdate="20201222T224834Z">
+        <seg>現在、デスクトップのユーザーインターフェイスでは約40の言語がすでに利用可能であり、transifexでは約80の言語が翻訳の準備ができています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -13864,6 +13880,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>For any other related questions, please contact the :ref:`Translation Team Leader &lt;gui-translation&gt;` or subscribe to the `QGIS Translation mailing list &lt;http://lists.osgeo.org/mailman/listinfo/qgis-tr&gt;`_.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T225035Z" creationid="miurahr" creationdate="20201222T225035Z">
+        <seg>その他の関連する質問については、 :ref:`Translation Team Leader&lt;gui-translation&gt;` に連絡するか、 `QGIS Translationメーリングリスト&lt;http://lists.osgeo.org/mailman/listinfo/qgis-tr&gt;`_ に登録してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>For any question, please contact the `QGIS Community Team &lt;qgis-community-team@lists.osgeo.org&gt;`_ or the `QGIS Translation Team &lt;qgis-tr@lists.osgeo.org&gt;`_.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201119T075538Z" creationid="miurahr" creationdate="20201119T075538Z">
@@ -15280,6 +15304,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>GUI Translation</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T225200Z" creationid="miurahr" creationdate="20201222T225200Z">
+        <seg>GUI翻訳</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>GUI to select credentials</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T003500Z" creationid="miurahr" creationdate="20201118T003500Z">
@@ -16572,6 +16604,22 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T094530Z" creationid="miurahr" creationdate="20201118T094530Z">
         <seg>しかし、SAGAでは、何らかの理由で、結果を生成できず、QGISによって想定されるファイルが作成されない場合があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>However, all these components are available in many other languages since it is designed to be translated into any language quite easily.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T224828Z" creationid="miurahr" creationdate="20201222T224828Z">
+        <seg>しかし、どの言語にも簡単に翻訳できるように設計されているため、これらは多くの言語で利用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>However, at this moment over forty other languages are already available.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T225223Z" creationid="miurahr" creationdate="20201222T225223Z">
+        <seg>しかし、現時点ですでに40以上の言語が利用可能です。</seg>
       </tuv>
     </tu>
     <tu>
@@ -18354,6 +18402,14 @@
       </tuv>
     </tu>
     <tu>
+      <tuv lang="en-US">
+        <seg>If you plan to contribute to an existing language or you want to translate QGIS into a not yet existing language, see :ref:`becoming-translator`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T225009Z" creationid="miurahr" creationdate="20201222T225009Z">
+        <seg>既存の言語に貢献しようとしている場合や、QGISをまだ存在しない言語に翻訳したい場合は、 :ref:`becoming-translator` を参照してください。</seg>
+      </tuv>
+    </tu>
+    <tu>
       <note>表現が直訳調であるため、日本語表現を洗練させた</note>
       <tuv lang="en-US">
         <seg>If you plan to do extensive on that branch, would like to share the work with other developers, and have write access to the upstream repo, you can push your repo up to the QGIS official repo by doing:</seg>
@@ -18584,6 +18640,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T075523Z" creationid="miurahr" creationdate="20201118T075523Z">
         <seg>手動でエントリを記入したい場合は、 *行を追加* ボタンを使用して複数の行を追加できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If you want to find out if your language is already present in QGIS Applications or who is currently working on your language you have to take a look in the :menuselection:`Help --&gt; About --&gt; Translators` Box in the QGIS Desktop Application.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T225527Z" creationid="miurahr" creationdate="20201222T225527Z">
+        <seg>あなたの使う言語がすでにQGISアプリケーションに存在するかどうか、あるいは翻訳している人が誰かを知りたい場合は、QGISデスクトップアプリケーションの :menuselection:`Help --&gt; About --&gt; Translators` のダイアログ表示を見る必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -25536,6 +25600,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Nearly the same apply for the web site and documentation.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T224843Z" creationid="miurahr" creationdate="20201222T224843Z">
+        <seg>ほぼ同じことが、Webサイトやドキュメントにも当てはまります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Never ``git push -f`` to the origin repository!</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T224002Z" creationid="miurahr" creationdate="20201118T224002Z">
@@ -30040,6 +30112,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T224044Z" creationid="miurahr" creationdate="20201118T224044Z">
         <seg>QGISはGPLの下でライセンスされています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>QGIS is natively developed in English, either for the user interface (GUI) or for its documentation and web site.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T224743Z" creationid="miurahr" creationdate="20201222T224743Z">
+        <seg>QGISでは、ユーザインターフェイス(GUI)またはドキュメントやWebサイトは、英語で開発されています。</seg>
       </tuv>
     </tu>
     <tu>
@@ -35637,6 +35717,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The QGIS interface is natively programmed in English.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T225219Z" creationid="miurahr" creationdate="20201222T225219Z">
+        <seg>QGISインターフェイスは、英語でプログラミングされています。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The QGIS processing guide</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T094930Z" creationid="miurahr" creationdate="20201118T094930Z">
@@ -38214,6 +38302,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The other available mailing lists can be found at :ref:`QGIS-mailinglists`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T225157Z" creationid="miurahr" creationdate="20201222T225157Z">
+        <seg>他の利用可能なメーリングリストは :ref:`QGIS-mailinglists` にです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The other elements support the communication process and help the map reader to orientate himself and understand the map topic.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135651Z" creationid="miurahr" creationdate="20201117T135651Z">
@@ -39426,6 +39522,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T225619Z" creationid="miurahr" creationdate="20201117T225619Z">
         <seg>トレーニングフィードバックは、高齢者に提供し、これをさらに研修でQGISを導入することをお勧めしましたが、不安はトレーニングの主流でソフトウェアを受け入れることでした。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The translation process is managed by the :ref:`Translation Team &lt;gui-translation&gt;` and all the activities are done under the `Transifex &lt;https://www.transifex.com/&gt;`_ platform.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T224948Z" creationid="miurahr" creationdate="20201222T224948Z">
+        <seg>翻訳プロセスは :ref:`Translation Team&lt;gui-translation&gt;` によって管理され、すべての活動は `Transifex&lt;https://www.transifex.com/&gt;`_ プラットフォームの下で行われます。</seg>
       </tuv>
     </tu>
     <tu>
@@ -44231,6 +44335,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>To start QGIS with the appropriate localization, run ``qgis --lang &lt;language code&gt;`` in command line or change localization in QGIS under :menuselection:`Settings --&gt; Options --&gt; General --&gt; Locale` menu.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T225341Z" creationid="miurahr" creationdate="20201222T225341Z">
+        <seg>適切な言語でQGISを起動するには、コマンドラインで ``qgis --lang&lt;language code&gt;`` を実行するか、QGISの :menuselection:`Settings --&gt; Options --&gt; General--&gt;Locale` メニューでインタフェースの言語を変更します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>To start exploring the processing framework, we are going to run one of those native algorithms.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T094238Z" creationid="miurahr" creationdate="20201118T094238Z">
@@ -44647,6 +44759,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Translation</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T224746Z" creationid="miurahr" creationdate="20201222T224645Z">
+        <seg>翻訳</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Translation Guidelines</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201119T040522Z" creationid="miurahr" creationdate="20201119T040522Z">
@@ -44683,6 +44803,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201119T040533Z" creationid="miurahr" creationdate="20201119T040533Z">
         <seg>翻訳のプロセス</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Translators Mailing list</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T224951Z" creationid="miurahr" creationdate="20201222T224951Z">
+        <seg>翻訳者メーリングリスト</seg>
       </tuv>
     </tu>
     <tu>
@@ -47102,6 +47230,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222248Z" creationid="miurahr" creationdate="20201117T222248Z">
         <seg>私たちは、Google Earthの衛星画像を使用して地籍ブロックと緑地（樹冠）をデジタル化、観察（目録）によって開始されました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>We strongly encourage anyone dealing with translations to join this list and promise that it is usually a very low traffic mailing list.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T225146Z" creationid="miurahr" creationdate="20201222T225146Z">
+        <seg>翻訳を扱うすべての人に、このリストに参加することを強くお勧めします。通常は非常に流量の少ないメーリングリストです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -51248,6 +51384,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201222T220927Z" creationid="miurahr" creationdate="20201222T220927Z">
         <seg>これら4つの適切なエリアを、あなたが住んでいるケープタウン大学に最も近いものにします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You will also find the progress of the translation there (but remember in every "stable" version it will always stay at the same level).</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T225609Z" creationid="miurahr" creationdate="20201222T225609Z">
+        <seg>また、翻訳の進捗状況も表示されます(ここで、すべての「安定した」バージョンでは常に同じレベルです)。</seg>
       </tuv>
     </tu>
     <tu>
