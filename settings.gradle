@@ -1,0 +1,14 @@
+// hack for local plugin repository
+pluginManagement {
+  repositories {
+      buildscript {
+          repositories {
+              flatDir { dirs 'tools/lib' }
+          }
+          dependencies {
+              classpath 'org.omegat:gradle-omegat-plugin:'
+          }
+      }
+      gradlePluginPortal()
+  }
+}
