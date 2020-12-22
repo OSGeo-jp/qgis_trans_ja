@@ -24,7 +24,7 @@
         <remove_tags>false</remove_tags>
         <external_command></external_command>
         <repositories>
-            <repository type="git" url="https://miurahr@github.com/miurahr/qgis_docs_ja">
+            <repository type="git" url="https://github.com/miurahr/qgis_docs_ja">
                 <mapping local="/" repository="/"/>
             </repository>
             <repository type="git" url="https://github.com/qgis/QGIS-Website.git">
