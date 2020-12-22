@@ -598,6 +598,22 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>**QGIS Desktop** for all the pieces of text available in QGIS apps (QGIS Desktop and QGIS Server),</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T231138Z" creationid="miurahr" creationdate="20201222T231007Z">
+        <seg>**QGISデスクトップ** QGISアプリケーション (QGIS Desktop とQGIS Server)で利用される全てのテキスト用です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>**QGIS Docs and Website** to translate both QGIS web site and current documentation.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T231228Z" creationid="miurahr" creationdate="20201222T231228Z">
+        <seg>**QGISドキュメントとWebサイト** QGISのWebサイトと現在のドキュメントの両方の翻訳です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>**Raster data** are stored as a grid of values.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T135132Z" creationid="miurahr" creationdate="20201117T135132Z">
@@ -7047,6 +7063,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>At your dashboard page click “Join an existing organisation” and search for “qgis”.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T230946Z" creationid="miurahr" creationdate="20201222T230946Z">
+        <seg>ダッシュボードページで「既存の組織に参加」をクリックし、"qgis" を検索します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Attention: After a rebase you need to ``git push -f`` to your forked repo.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T231127Z" creationid="miurahr" creationdate="20201118T231127Z">
@@ -8919,10 +8943,26 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Choose in which part of the project you would like to participate</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T231244Z" creationid="miurahr" creationdate="20201222T231244Z">
+        <seg>プロジェクトのどの部分に参加するかを選択します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Choose one of them that you find suitable.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T033648Z" creationid="miurahr" creationdate="20201118T033648Z">
         <seg>これらのうち、適した１つを選択します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Choose your role as “Translator” and answer some other questions about yourself</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T230930Z" creationid="miurahr" creationdate="20201222T230930Z">
+        <seg>「翻訳者」としてのあなたの役割を選択し、いくつかの質問に答えてください</seg>
       </tuv>
     </tu>
     <tu>
@@ -17448,6 +17488,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>If the language of your choice is listed, click it and request to join the team.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T231307Z" creationid="miurahr" creationdate="20201222T231307Z">
+        <seg>選択した言語が表示されたら、それをクリックしてチームに参加するようにリクエストします。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>If the layer has a selection, only selected features are used.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T101258Z" creationid="miurahr" creationdate="20201118T101258Z">
@@ -18968,6 +19016,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201119T033136Z" creationid="miurahr" creationdate="20201119T033136Z">
         <seg>地図投影での目標が正確な距離を計測することである場合は、十分に距離を維持するように設計された投影を選択する必要があります。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If your language is not listed yet, click “Request language” and choose your language.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T231446Z" creationid="miurahr" creationdate="20201222T231446Z">
+        <seg>言語が表示されていない場合は、"Request language" をクリックして言語を選択します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -23208,6 +23264,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Keep in mind that translating the entire Desktop Application will take days of work, if not weeks!</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T231502Z" creationid="miurahr" creationdate="20201222T231502Z">
+        <seg>デスクトップアプリケーション全体を翻訳するには、数週間ではなく数日間の作業が必要です。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Keep in mind though that the WMS clients don't have access to the QGIS project, they just look at the capabilities document contents.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T102553Z" creationid="miurahr" creationdate="20201118T102553Z">
@@ -24260,6 +24324,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T003713Z" creationid="miurahr" creationdate="20201118T003713Z">
         <seg>ログを作成する</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Login</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T230906Z" creationid="miurahr" creationdate="20201222T230906Z">
+        <seg>ログイン</seg>
       </tuv>
     </tu>
     <tu>
@@ -27084,6 +27156,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>やってみよう</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Now you will need to wait for the language coordinator or the project maintainers to process your request.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T231509Z" creationid="miurahr" creationdate="20201222T231509Z">
+        <seg>次に、言語コーディネーターまたはプロジェクト・メンテナーがリクエストを処理するまで待つ必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -33649,6 +33729,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201222T220952Z" creationid="miurahr" creationdate="20201222T220952Z">
         <seg>Solution Outline</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Some QGIS organisations are listed now, among them are:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T231013Z" creationid="miurahr" creationdate="20201222T231002Z">
+        <seg>現在、いくつかのQGIS組織がリストされています。その中には以下のものがあります:</seg>
       </tuv>
     </tu>
     <tu>
@@ -46569,6 +46657,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Verify your account by the link in the email you will receive</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T230901Z" creationid="miurahr" creationdate="20201222T230901Z">
+        <seg>受信した電子メールのリンクでアカウントを確認してください</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Version 1.3, 3 November 2008</seg>
       </tuv>
       <tuv lang="ja">
@@ -49811,6 +49907,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You can be part of all projects and help everywhere too</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T231251Z" creationid="miurahr" creationdate="20201222T231251Z">
+        <seg>すべてのプロジェクトに参加して、あらゆる場所で支援することができます</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You can browse the data by selecting the :guilabel:`Table` tab.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150502Z" creationid="miurahr" creationdate="20201117T150502Z">
@@ -51520,6 +51624,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T215821Z" creationid="miurahr" creationdate="20201117T215821Z">
         <seg>このテンプレートは何度も何度も使用できます。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You will be notified by email when your request has been accepted.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T231645Z" creationid="miurahr" creationdate="20201222T231645Z">
+        <seg>リクエストが承認されると、Emailで通知されます。</seg>
       </tuv>
     </tu>
     <tu>
