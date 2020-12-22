@@ -6359,6 +6359,14 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>As a student at the University, you have agreed to search for the plant in four different suitable areas of land.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T220907Z" creationid="miurahr" creationdate="20201222T220907Z">
+        <seg>大学の学生として、あなたは4つの適切な土地で植物を探すことに同意しました。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>As a view:</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T124226Z" creationid="miurahr" creationdate="20201118T124226Z">
@@ -22064,6 +22072,30 @@
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>It grows in areas that have a total annual rainfall of &gt; 1000 mm</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T220822Z" creationid="miurahr" creationdate="20201222T220804Z">
+        <seg>総年間降水量が1000mmを超える領域に生育します</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It grows on east facing slopes</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T220753Z" creationid="miurahr" creationdate="20201222T220753Z">
+        <seg>東向きの斜面に生えています</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It grows on slopes with a gradient between 15% and 60%</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T220759Z" creationid="miurahr" creationdate="20201222T220759Z">
+        <seg>15%から60%の間の勾配の斜面に生えています</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>It has 28,000 students studying both on and off campus.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T222412Z" creationid="miurahr" creationdate="20201117T222402Z">
@@ -22636,6 +22668,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T224753Z" creationid="miurahr" creationdate="20201118T224753Z">
         <seg>それは各メソッドからの戻りをチェックし、期待値と一致することを確認します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>It will only be found at least 250 m away from any human settlement</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T220848Z" creationid="miurahr" creationdate="20201222T220848Z">
+        <seg>これは、人間の居住地から少なくとも250m離れた場所にあります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -33445,6 +33485,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Solution Outline</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T220952Z" creationid="miurahr" creationdate="20201222T220952Z">
+        <seg>Solution Outline</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Some algorithms calculate many layers, but the *Catchment Area* one is the only one we will be using.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T094859Z" creationid="miurahr" creationdate="20201118T094859Z">
@@ -36085,6 +36133,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The area of vegetation in which it occurs should be at least 6000 ㎡ in area</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T220856Z" creationid="miurahr" creationdate="20201222T220856Z">
+        <seg>植生の面積は6000㎡以上でなければなりません。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The area that is within the specified distance is called the **buffer zone**.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T141139Z" creationid="miurahr" creationdate="20201117T141139Z">
@@ -36529,6 +36585,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T095024Z" creationid="miurahr" creationdate="20201118T095024Z">
         <seg>データは収穫産出高データ、現代の収穫者によって生産されるような、と一致します。そして、ここでは収穫産出高のラスターレイヤーを得るためにそれを使います。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>The data for this exercise can be found in the :file:`exercise_data/more_analysis` folder.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T221004Z" creationid="miurahr" creationdate="20201222T221004Z">
+        <seg>この演習のデータは、 :file:`exercise_data/more_analysis` フォルダにあります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -45577,6 +45641,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>Use your GIS skills to determine where you should go to look.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T220949Z" creationid="miurahr" creationdate="20201222T220949Z">
+        <seg>GISのスキルを使用して、どこを見るべきかを決定します。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>Use your own data for this section.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T032622Z" creationid="miurahr" creationdate="20201118T032622Z">
@@ -49275,6 +49347,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>You are going to find the four suitable areas that are closest to the University of Cape Town.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T221323Z" creationid="miurahr" creationdate="20201222T221323Z">
+        <seg>You are going to find the four suitable areas that are closest to the University of Cape Town.</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>You are looking for a property that satisfies certain criteria.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201118T032855Z" creationid="miurahr" creationdate="20201118T032855Z">
@@ -51160,6 +51240,14 @@ Generated-By: Babel 2.8.0</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T215645Z" creationid="miurahr" creationdate="20201117T215645Z">
         <seg>望んでいることは、この地図が森林地域全体を表現し、それが背景地図と :kbd:`forest_stands_2012` レイヤーだけを表示して、サンプルプロットを表示しないことです。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>You want those four suitable areas to be the ones that are closest to the University of Cape Town where you live.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T220927Z" creationid="miurahr" creationdate="20201222T220927Z">
+        <seg>これら4つの適切なエリアを、あなたが住んでいるケープタウン大学に最も近いものにします。</seg>
       </tuv>
     </tu>
     <tu>
