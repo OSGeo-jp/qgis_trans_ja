@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tmx SYSTEM "tmx11.dtd">
 <tmx version="1.1">
-  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="5.4.0_0_f1e32ca8c" segtype="sentence" srclang="en-US"/>
+  <header creationtool="OmegaT" o-tmf="OmegaT TMX" adminlang="EN-US" datatype="plaintext" creationtoolversion="5.5.0_0_4470bbb50" segtype="sentence" srclang="en-US"/>
   <body>
 <!-- Default translations -->
     <tu>
@@ -7699,6 +7699,14 @@
       </tuv>
       <tuv lang="ja">
         <seg>お奨めの読み物</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>Botanists have provided you with the following preferences exhibited by the species in question:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T220747Z" creationid="miurahr" creationdate="20201222T220747Z">
+        <seg>植物学者は、問題の種が示す次のような嗜好を提供しています。</seg>
       </tuv>
     </tu>
     <tu>
