@@ -18742,8 +18742,8 @@
       <tuv lang="en-US">
         <seg>If you want to find out if your language is already present in QGIS Applications or who is currently working on your language you have to take a look in the :menuselection:`Help --&gt; About --&gt; Translators` Box in the QGIS Desktop Application.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201222T225527Z" creationid="miurahr" creationdate="20201222T225527Z">
-        <seg>あなたの使う言語がすでにQGISアプリケーションに存在するかどうか、あるいは翻訳している人が誰かを知りたい場合は、QGISデスクトップアプリケーションの :menuselection:`Help --&gt; About --&gt; Translators` のダイアログ表示を見る必要があります。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T231715Z" creationid="miurahr" creationdate="20201222T225527Z">
+        <seg>あなたの使う言語がすでにQGISアプリケーションに存在するかどうか、あるいは翻訳している人が誰かを知りたい場合は、QGISデスクトップアプリケーションの :menuselection:`ヘルプ --&gt; QGISについて --&gt; 翻訳者` のダイアログ表示を見る必要があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -19040,6 +19040,14 @@
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T215852Z" creationid="miurahr" creationdate="20201117T215852Z">
         <seg>地図が大きすぎる場合は、部分に分けてそれをスキャンできますが、各部分について前処理とジオリファレンスの作業を繰り返す必要があることを心に留めておいてください。</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
+        <seg>If your request has no answer for about a week, please consider writing to your language coordinator in Transifex or the :ref:`QGIS Translators mailing list &lt;mailinglist-translation&gt;`.</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T232631Z" creationid="miurahr" creationdate="20201222T232631Z">
+        <seg>あなたのリクエストに1週間ほど応答がない場合は、Transifexの言語コーディネーターか :ref:`QGIS Translatorsメーリングリスト&lt;mailinglist-translation&gt;` にお問い合わせください。</seg>
       </tuv>
     </tu>
     <tu>
@@ -44529,8 +44537,8 @@ Generated-By: Babel 2.8.0</seg>
       <tuv lang="en-US">
         <seg>To start QGIS with the appropriate localization, run ``qgis --lang &lt;language code&gt;`` in command line or change localization in QGIS under :menuselection:`Settings --&gt; Options --&gt; General --&gt; Locale` menu.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201222T225341Z" creationid="miurahr" creationdate="20201222T225341Z">
-        <seg>適切な言語でQGISを起動するには、コマンドラインで ``qgis --lang&lt;language code&gt;`` を実行するか、QGISの :menuselection:`Settings --&gt; Options --&gt; General--&gt;Locale` メニューでインタフェースの言語を変更します。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T232537Z" creationid="miurahr" creationdate="20201222T225341Z">
+        <seg>適切な言語でQGISを起動するには、コマンドラインで ``qgis --lang&lt;language code&gt;`` を実行するか、QGISの :menuselection:`設定 --&gt; オプション --&gt; 一般情報 --&gt; ロケール` メニューでインタフェースの言語を変更します。</seg>
       </tuv>
     </tu>
     <tu>
