@@ -2000,8 +2000,8 @@
       <tuv lang="en-US">
         <seg>:guilabel:`Save as`</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201118T015707Z" creationid="miurahr" creationdate="20201118T015707Z">
-        <seg>:guilabel:`名前を付けて保存`</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T235332Z" creationid="miurahr" creationdate="20201118T015707Z">
+        <seg>:guilabel:`名前をつけて保存`</seg>
       </tuv>
     </tu>
     <tu>
@@ -2040,8 +2040,8 @@
       <tuv lang="en-US">
         <seg>:guilabel:`Zoom to layer`</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201118T015708Z" creationid="miurahr" creationdate="20201118T015708Z">
-        <seg>:guilabel:`レイヤーにズーム`</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T235440Z" creationid="miurahr" creationdate="20201118T015708Z">
+        <seg>:guilabel:`レイヤの領域にズーム`</seg>
       </tuv>
     </tu>
     <tu>
@@ -9585,8 +9585,8 @@
       <tuv lang="en-US">
         <seg>Click on the :guilabel:`Save As` button: |fileSaveAs|</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201118T033247Z" creationid="miurahr" creationdate="20201118T033247Z">
-        <seg>:guilabel:`名前を付けて保存` ボタンをクリックしてください： |fileSaveAs|</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T235523Z" creationid="miurahr" creationdate="20201118T033247Z">
+        <seg>:guilabel:`名前をつけて保存` ボタンをクリックしてください： |fileSaveAs|</seg>
       </tuv>
     </tu>
     <tu>
@@ -31870,8 +31870,8 @@ Generated-By: Babel 2.8.0</seg>
       <tuv lang="en-US">
         <seg>Save as :kbd:`rautjarvi_green_polygon.shp` inside the :kbd:`digitizing` folder.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201118T035056Z" creationid="miurahr" creationdate="20201118T035056Z">
-        <seg>:kbd:`digitizing` フォルダ内に :kbd:`rautjarvi_green_polygon.shp` と名前を付けて保存します。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201223T001835Z" creationid="miurahr" creationdate="20201118T035056Z">
+        <seg>:kbd:`digitizing` フォルダ内に :kbd:`rautjarvi_green_polygon.shp` と名前をつけて保存します。</seg>
       </tuv>
     </tu>
     <tu>
@@ -50405,8 +50405,8 @@ Generated-By: Babel 2.8.0</seg>
       <tuv lang="en-US">
         <seg>You can save this layer by right-clicking on the :guilabel:`all_terrain` layer in the :guilabel:`Layers` panel and choosing :guilabel:`Save As...`, then continue as per the instructions.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201118T020436Z" creationid="miurahr" creationdate="20201118T020436Z">
-        <seg>:guilabel:`レイヤー` パネル中の :guilabel:`all_terrain` レイヤー上で右クリックし :guilabel:`名前を付けて保存...` を選択することでこのレイヤーを保存できます。その後は指示に従って続けます。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201222T235459Z" creationid="miurahr" creationdate="20201118T020436Z">
+        <seg>:guilabel:`レイヤー` パネル中の :guilabel:`all_terrain` レイヤー上で右クリックし :guilabel:`名前をつけて保存...` を選択することでこのレイヤーを保存できます。その後は指示に従って続けます。</seg>
       </tuv>
     </tu>
     <tu>
