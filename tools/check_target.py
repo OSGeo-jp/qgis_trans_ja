@@ -17,7 +17,7 @@ PO_EXT = ".po"
 # https://www.sphinx-doc.org/en/1.8/usage/restructuredtext/roles.html
 SPHINX_ROLES = [
     # Cross-referencing documents
-    'any', 'ref', 'doc', 'download', 'numref', 'envvar', 'token', 'keyword', 'option', 'term',
+    'any', 'ref', 'doc', 'download', 'numref', 'envvar', 'token', 'keyword', 'option', 'term', 'func', 'meth',
     # Math
     'math', 'eq',
     # Other semantic markup
