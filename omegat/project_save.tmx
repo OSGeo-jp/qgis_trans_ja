@@ -18671,8 +18671,8 @@
       <tuv lang="en-US">
         <seg>If you see two dialog boxes, one that says ``base:master`` and the other ``compare:branch_name`` (see figure), this will only merge your changes from one of your branches to your master branch.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201119T075735Z" creationid="miurahr" creationdate="20201119T075735Z">
-        <seg>一方が ``base:master`` 、もう一方が ``compare:branch_name` （図を参照）という2つのダイアログボックスが表示されている場合は、あなたの行った変更はあなたのリポジトリの中で、変更を加えたブランチからあなたのマスターブランチへとマージされるだけです。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201223T125302Z" creationid="miurahr" creationdate="20201119T075735Z">
+        <seg>一方が ``base:master``  、もう一方が ``compare:branch_name`` （図を参照）という2つのダイアログボックスが表示されている場合は、あなたの行った変更はあなたのリポジトリの中で、変更を加えたブランチからあなたのマスターブランチへとマージされるだけです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -44154,8 +44154,8 @@ Generated-By: Babel 2.8.0</seg>
       <tuv lang="en-US">
         <seg>To ease the use of icons in QGIS manuals, replacements are defined for each icon in :file:`/source/substitutions.txt` file at `QGIS-Documentation repository &lt;https://github.com/qgis/QGIS-Documentation&gt;`_ and some of these substitutions are listed below.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201029T134520Z" creationid="miurahr" creationdate="20201029T134520Z">
-        <seg>QGIS マニュアルのアイコンの使いやすさを容易にするために、 QGIS-Documentation リポジトリー &lt;https://github.com/qgis/QGIS-Documentation&gt;`_ にある :file:`/source/substitutions.txt ファイルの各アイコンに対して置換が定義されています。これらの置換のいくつかは、以下にリストされています。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201223T130023Z" creationid="miurahr" creationdate="20201029T134520Z">
+        <seg>QGIS マニュアルのアイコンの使いやすさを容易にするために、 `QGIS-Documentation リポジトリー &lt;https://github.com/qgis/QGIS-Documentation&gt;`_ にある :file:`/source/substitutions.txt` ファイルの各アイコンに対して置換が定義されています。これらの置換のいくつかは、以下にリストされています。</seg>
       </tuv>
     </tu>
     <tu>
