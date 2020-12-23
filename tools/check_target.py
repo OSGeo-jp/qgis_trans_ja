@@ -18,6 +18,7 @@ PO_EXT = ".po"
 SPHINX_ROLES = [
     # Cross-referencing documents
     'any', 'ref', 'doc', 'download', 'numref', 'envvar', 'token', 'keyword', 'option', 'term', 'func', 'meth',
+    'source', 'class', 'mod',
     # Math
     'math', 'eq',
     # Other semantic markup
