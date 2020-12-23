@@ -36758,6 +36758,14 @@ Generated-By: Babel 2.8.0</seg>
     </tu>
     <tu>
       <tuv lang="en-US">
+        <seg>The code snippets on this page need the following imports if you're outside the pyqgis console:</seg>
+      </tuv>
+      <tuv lang="ja" changeid="miurahr" changedate="20201223T130430Z" creationid="miurahr" creationdate="20201223T130430Z">
+        <seg>The code snippets on this page need the following imports if you're outside the pyqgis console:</seg>
+      </tuv>
+    </tu>
+    <tu>
+      <tuv lang="en-US">
         <seg>The columns provide the structure according to which the rows are composed.</seg>
       </tuv>
       <tuv lang="ja" changeid="miurahr" changedate="20201117T150152Z" creationid="miurahr" creationdate="20201117T150152Z">
@@ -36824,8 +36832,8 @@ Generated-By: Babel 2.8.0</seg>
       <tuv lang="en-US">
         <seg>The constructor also takes a URI defining the geometry type of the layer, one of: ``"Point"``, ``"LineString"``, ``"Polygon"``, ``"MultiPoint"``, ``"MultiLineString"``, ``"MultiPolygon"`` or ``"None"``.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201118T031828Z" creationid="miurahr" creationdate="20201118T031828Z">
-        <seg>コンストラクタはレイヤのジオメトリタイプを定義するURIも必要とします。これは ``"Point"``、``"LineString"``、``"Polygon"``、``"MultiPoint"``、``"MultiLineString"``、``"MultiPolygon"``、``"None"``のうちのひとつです。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201223T130732Z" creationid="miurahr" creationdate="20201118T031828Z">
+        <seg>コンストラクタはレイヤのジオメトリタイプを定義するURIも必要とします。これは ``"Point"`` 、 ``"LineString"`` 、 ``"Polygon"`` 、 ``"MultiPoint"`` 、 ``"MultiLineString"`` 、 ``"MultiPolygon"`` 、 ``"None"`` のうちのひとつです。</seg>
       </tuv>
     </tu>
     <tu>
@@ -43457,8 +43465,8 @@ Generated-By: Babel 2.8.0</seg>
       <tuv lang="en-US">
         <seg>Thus, when you want to use an icon from QGIS application in the documentation there is a big chance that there is already a substitution that can/should be used.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201029T134544Z" creationid="miurahr" creationdate="20201029T134544Z">
-        <seg>そのため、QGISのアプリケーションのアイコンをドキュメントで使用したい場合、使用できる/使用する必要がある代替がすでに存在する可能性があります。M</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201223T130217Z" creationid="miurahr" creationdate="20201029T134544Z">
+        <seg>そのため、QGISのアプリケーションのアイコンをドキュメントで使用したい場合、使用できる/使用する必要がある代替がすでに存在する可能性があります。</seg>
       </tuv>
     </tu>
     <tu>
@@ -44154,8 +44162,8 @@ Generated-By: Babel 2.8.0</seg>
       <tuv lang="en-US">
         <seg>To ease the use of icons in QGIS manuals, replacements are defined for each icon in :file:`/source/substitutions.txt` file at `QGIS-Documentation repository &lt;https://github.com/qgis/QGIS-Documentation&gt;`_ and some of these substitutions are listed below.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201223T130023Z" creationid="miurahr" creationdate="20201029T134520Z">
-        <seg>QGIS マニュアルのアイコンの使いやすさを容易にするために、 `QGIS-Documentation リポジトリー &lt;https://github.com/qgis/QGIS-Documentation&gt;`_ にある :file:`/source/substitutions.txt` ファイルの各アイコンに対して置換が定義されています。これらの置換のいくつかは、以下にリストされています。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201223T130304Z" creationid="miurahr" creationdate="20201029T134520Z">
+        <seg>QGIS マニュアルのアイコンの使いやすさを容易にするために、 `QGIS-Documentation リポジトリー &lt;https://github.com/qgis/QGIS-Documentation&gt;`_  にある :file:`/source/substitutions.txt` ファイルの各アイコンに対して置換が定義されています。これらの置換のいくつかは、以下にリストされています。</seg>
       </tuv>
     </tu>
     <tu>
