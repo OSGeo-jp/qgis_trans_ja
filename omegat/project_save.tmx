@@ -5281,8 +5281,8 @@
       <tuv lang="en-US">
         <seg>All of them have the same syntax as the :meth:`addPluginToMenu &lt;qgis.gui.QgisInterface.addPluginToMenu&gt;` method.</seg>
       </tuv>
-      <tuv lang="ja" changeid="miurahr" changedate="20201118T025032Z" creationid="miurahr" creationdate="20201118T025032Z">
-        <seg>これらはすべて :meth:`addPluginToMenu ` メソッドと同じシンタックスを持ちます。</seg>
+      <tuv lang="ja" changeid="miurahr" changedate="20201223T132658Z" creationid="miurahr" creationdate="20201118T025032Z">
+        <seg>これらはすべて :meth:`addPluginToMenu &lt;qgis.gui.QgisInterface.addPluginToMenu&gt;` メソッドと同じシンタックスを持ちます。</seg>
       </tuv>
     </tu>
     <tu>
