@@ -14,7 +14,19 @@ jobs:
     name: Check translation progress
     steps:
       - uses: actions/checkout@v2
-      - uses: miurahr/omegat-check-action@v0.9.1
+      - name: make source and target directory
+        run: mkdir -p source target
+      - uses: actions/setup-java@v1
+        with:
+          java-version: 8
+      - name: Generate translation
+        uses: burrunan/gradle-cache-action@v1
+        with:
+          arguments: translate
+          gradle-version: 6.7.1
+          save-gradle-dependencies-cache: true
+          save-generated-gradle-jars: true
+      - uses: miurahr/omegat-stat@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           min-coverage: 70.0
