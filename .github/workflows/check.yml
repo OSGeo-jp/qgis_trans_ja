@@ -1,41 +1,24 @@
-name: run translation check
+name: Check translation progress
 
-on: push
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
 
 jobs:
   check-translation:
-    runs-on: ubuntu-latest
-    name: Check translation integrity
+    runs-on: ubuntu-20.04
+    name: Check translation progress
     steps:
       - uses: actions/checkout@v2
       - name: make source and target directory
         run: mkdir -p source target
-      - uses: actions/cache@v2
-        id: cache-pip
-        with:
-          path: ~/.cache/pip
-          key: ${{ runner.os }}-pip-${{ hashFiles('**/requirements.txt') }}
-      - name: Get Date
-        id: get-date
-        run: |
-          echo "::set-output name=date::$(/bin/date -u "+%Y%m%d")"
-        shell: bash
-      - uses: actions/cache@v2
-        id: cache-source
-        with:
-          path: source
-          key: omegat-source-${{ steps.get-date.outputs.date }}
       - uses: actions/setup-java@v1
         with:
-          java-version: 11
-      - uses: actions/setup-python@v2
-        with:
-          python-version: 3.8
-          architecture: x64
-      - name: Install requirements
-        run: |
-          pip install -U pip
-          pip install -r tools/requirements.txt
+          java-version: 8
       - name: Generate translation
         uses: burrunan/gradle-cache-action@v1
         with:
@@ -43,6 +26,7 @@ jobs:
           gradle-version: 6.7.1
           save-gradle-dependencies-cache: true
           save-generated-gradle-jars: true
-      - name: Check translations
-        run: |
-           python tools/check_target.py
+      - uses: miurahr/omegat-stat@v1.0.5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          min-coverage: 70.0
