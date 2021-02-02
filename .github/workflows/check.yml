@@ -34,7 +34,7 @@ jobs:
           gradle-version: 6.7.1
           save-gradle-dependencies-cache: true
           save-generated-gradle-jars: true
-      - uses: miurahr/omegat-stat@v1.2.4
+      - uses: miurahr/omegat-stat@v1.2.5
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           min-coverage: 70.0
